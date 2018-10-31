@@ -1,0 +1,777 @@
+[Name] == XXX && [Quality] <= superior # // superior and normal and lowquality
+[Type] == XXX && [Quality] <= superior # 
+[Name] == XXX && [Quality] <= 3 # 
+[Type] == XXX && [Quality] <= 3 # 
+
+[Name] == XXX && [Quality] == normal # 
+[Type] == XXX && [Quality] == normal # 
+[Name] == XXX && [Quality] == 2 # 
+[Type] == XXX && [Quality] == 2 # 
+
+[Name] == XXX && [Quality] == superior # 
+[Type] == XXX && [Quality] == superior # 
+[Name] == XXX && [Quality] == 3 # 
+[Type] == XXX && [Quality] == 3 # 
+
+[Name] == XXX && [Quality] == set # 
+[Type] == XXX && [Quality] == set # 
+[Name] == XXX && [Quality] == 5 # 
+[Type] == XXX && [Quality] == 5 # 
+
+[Name] == XXX && [Quality] == unique # 
+[Type] == XXX && [Quality] == unique # 
+[Name] == XXX && [Quality] == 7 # 
+[Type] == XXX && [Quality] == 7 # 
+
+[Name] == XXX && [Quality] == crafted # 
+[Type] == XXX && [Quality] == crafted # 
+[Name] == XXX && [Quality] == 8 # 
+[Type] == XXX && [Quality] == 8 # 
+
+//Helms//
+
+//[Type] == helm && [Quality] == normal #
+//[Type] == 37 && [Quality] == 2 #
+
+[Name] == Cap && [Quality] == normal # 
+[Name] == Skull Cap && [Quality] == normal # 
+[Name] == Helm && [Quality] == normal # 
+[Name] == Full Helm && [Quality] == normal # 
+[Name] == Great Helm && [Quality] == normal # 
+[Name] == Mask && [Quality] == normal # 
+[Name] == Crown && [Quality] == normal # 
+[Name] == Bone Helm && [Quality] == normal # 
+
+[Name] == War Hat && [Quality] == normal # 
+[Name] == Sallet && [Quality] == normal # 
+[Name] == Casque && [Quality] == normal # 
+[Name] == Basinet && [Quality] == normal # 
+[Name] == Winged Helm && [Quality] == normal # 
+[Name] == Death Mask && [Quality] == normal # 
+[Name] == Grand Crown && [Quality] == normal # 
+[Name] == Grim Helm && [Quality] == normal # 
+
+[Name] == Shako && [Quality] == normal # 
+[Name] == Hydraskull && [Quality] == normal # 
+[Name] == Armet && [Quality] == normal # 
+[Name] == Giant Conch && [Quality] == normal # 
+[Name] == Spired Helm && [Quality] == normal # 
+[Name] == Demonhead && [Quality] == normal # 
+[Name] == Corona && [Quality] == normal # 
+[Name] == Bone Visage && [Quality] == normal # 
+
+//Barb Helms//
+
+//[Type] == primalhelm && [Quality] == normal #
+//[Type] == 71 && [Quality] == 2 #
+
+[Name] == Jawbone Cap && [Quality] == normal # 
+[Name] == Fanged Helm && [Quality] == normal # 
+[Name] == Horned Helm && [Quality] == normal # 
+[Name] == Assault Helmet && [Quality] == normal # 
+[Name] == Avenger Guard && [Quality] == normal # 
+
+[Name] == Jawbone Visor && [Quality] == normal # 
+[Name] == Lion Helm && [Quality] == normal # 
+[Name] == Rage Mask && [Quality] == normal # 
+[Name] == Savage Helmet && [Quality] == normal # 
+[Name] == Slayer Guard && [Quality] == normal # 
+
+[Name] == Carnage Helm && [Quality] == normal # 
+[Name] == Fury Visor && [Quality] == normal # 
+[Name] == Destroyer Helm && [Quality] == normal # 
+[Name] == Conqueror Crown && [Quality] == normal # 
+[Name] == Guardian Crown && [Quality] == normal # 
+
+//Druid Helms//
+
+//[Type] == pelt && [Quality] == normal #
+//[Type] == 72 && [Quality] == 2 #
+
+[Name] == Wolf Head && [Quality] == normal #  
+[Name] == Hawk Helm && [Quality] == normal #     
+[Name] == Antlers && [Quality] == normal #         
+[Name] == Falcon Mask && [Quality] == normal #     
+[Name] == Spirit Mask && [Quality] == normal #    
+
+[Name] == Alpha Helm && [Quality] == normal #      
+[Name] == Griffon Headdress && [Quality] == normal #       
+[Name] == Hunter's Guise && [Quality] == normal #      
+[Name] == Sacred Feathers && [Quality] == normal #     
+[Name] == Totemic Mask && [Quality] == normal #        
+
+[Name] == Blood Spirit && [Quality] == normal #        
+[Name] == Sun Spirit && [Quality] == normal #        
+[Name] == Earth Spirit && [Quality] == normal #        
+[Name] == Sky Spirit && [Quality] == normal #     
+[Name] == Dream Spirit && [Quality] == normal #        
+
+//Circlets//
+
+//[Type] == circlet && [Quality] == normal #
+//[Type] == 75 && [Quality] == 2 #
+
+[Name] == Circlet && [Quality] == normal #        
+[Name] == Coronet && [Quality] == normal #         
+[Name] == Tiara && [Quality] == normal #        
+[Name] == Diadem && [Quality] == normal #     
+   
+//Armor//
+
+//[Type] == armor && [Quality] == normal #
+//[Type] == 3 && [Quality] == 2 #
+
+[Name] == Quilted Armor && [Quality] == normal #   
+[Name] == Leather Armor && [Quality] == normal #   
+[Name] == Hard Leather Armor && [Quality] == normal #  
+[Name] == Studded Leather && [Quality] == normal #  
+[Name] == Ring Mail && [Quality] == normal #  
+[Name] == Scale Mail && [Quality] == normal #    
+[Name] == Breast Plate && [Quality] == normal #      
+[Name] == Chain Mail && [Quality] == normal #  
+[Name] == Splint Mail && [Quality] == normal # 
+[Name] == Light Plate && [Quality] == normal # 
+[Name] == Field Plate && [Quality] == normal # 
+[Name] == Plate Mail && [Quality] == normal # 
+[Name] == Gothic Plate && [Quality] == normal #  
+[Name] == Full Plate Mail && [Quality] == normal #  
+[Name] == Ancient Armor && [Quality] == normal #  
+
+[Name] == Ghost Armor && [Quality] == normal # 
+[Name] == Serpentskin Armor && [Quality] == normal #    
+[Name] == Demonhide Armor && [Quality] == normal #      
+[Name] == Trellised Armor && [Quality] == normal #      
+[Name] == Linked Mail && [Quality] == normal #      
+[Name] == Tigulated Mail && [Quality] == normal #    
+[Name] == Cuirass && [Quality] == normal #   
+[Name] == Mesh Armor && [Quality] == normal #     
+[Name] == Russet Armor && [Quality] == normal #     
+[Name] == Mage Plate && [Quality] == normal # 
+[Name] == Sharktooth Armor && [Quality] == normal #    
+[Name] == Templar Coat && [Quality] == normal #        
+[Name] == Embossed Plate && [Quality] == normal #      
+[Name] == Chaos Armor && [Quality] == normal #       
+[Name] == Ornate Plate && [Quality] == normal #       
+
+[Name] == Dusk Shroud && [Quality] == normal #    
+[Name] == Wyrmhide && [Quality] == normal #   
+[Name] == Scarab Husk && [Quality] == normal #     
+[Name] == Wirefleece && [Quality] == normal #       
+[Name] == Diamond Mail && [Quality] == normal #     
+[Name] == Loricated Mail && [Quality] == normal #    
+[Name] == Kraken Shell && [Quality] == normal #     
+[Name] == Hellforge Plate && [Quality] == normal #      
+[Name] == Lacquered Plate && [Quality] == normal #     
+[Name] == Shadow Plate && [Quality] == normal #           
+[Name] == Boneweave && [Quality] == normal #           
+[Name] == Balrog Skin && [Quality] == normal #        
+[Name] == Great Hauberk && [Quality] == normal #     
+[Name] == Archon Plate && [Quality] == normal #    
+[Name] == Sacred Armor && [Quality] == normal #     
+
+//Shields//
+
+//[Type] == shield && [Quality] == normal #
+//[Type] == 2 && [Quality] == 2 #
+
+[Name] == Buckler && [Quality] == normal # 
+[Name] == Small Shield && [Quality] == normal # 
+[Name] == Large Shield && [Quality] == normal # 
+[Name] == Kite Shield && [Quality] == normal # 
+[Name] == Spiked Shield && [Quality] == normal # 
+[Name] == Tower Shield && [Quality] == normal # 
+[Name] == Bone Shield && [Quality] == normal # 
+[Name] == Gothic Shield && [Quality] == normal # 
+
+[Name] == Defender && [Quality] == normal # 
+[Name] == Round Shield && [Quality] == normal # 
+[Name] == Scutum && [Quality] == normal # 
+[Name] == Barbed Shield && [Quality] == normal # 
+[Name] == Dragon Shield && [Quality] == normal # 
+[Name] == Grim Shield && [Quality] == normal # 
+[Name] == Pavise && [Quality] == normal # 
+[Name] == Ancient Shield && [Quality] == normal # 
+
+[Name] == Heater && [Quality] == normal # 
+[Name] == Luna Shield && [Quality] == normal # 
+[Name] == Hyperion && [Quality] == normal # 
+[Name] == Monarch && [Quality] == normal # 
+[Name] == Blade Barrier && [Quality] == normal # 
+[Name] == Aegis && [Quality] == normal # 
+[Name] == Troll Nest && [Quality] == normal # 
+[Name] == Ward && [Quality] == normal # 
+
+//Paly Shields//
+
+//[Type] == auricshields && [Quality] == normal #
+//[Type] == 70 && [Quality] == 2 #
+
+[Name] == Targe && [Quality] == normal # 
+[Name] == Rondache && [Quality] == normal #  
+[Name] == Heraldic Shield && [Quality] == normal # 
+[Name] == Aerin Shield && [Quality] == normal # 
+[Name] == Crown Shield && [Quality] == normal # 
+
+[Name] == Akaran Targe && [Quality] == normal # 
+[Name] == Akaran Rondache && [Quality] == normal #  
+[Name] == Heraldic Shield && [Quality] == normal #   
+[Name] == Protector Shield && [Quality] == normal #  
+[Name] == Gilded Shield && [Quality] == normal #  
+[Name] == Royal Shield && [Quality] == normal # 
+
+[Name] == Sacred Targe && [Quality] == normal # 
+[Name] == Sacred Rondache && [Quality] == normal # 
+[Name] == Kurast Shield && [Quality] == normal # 
+[Name] == Zakarum Shield && [Quality] == normal # 
+[Name] == Vortex Shield && [Quality] == normal # 
+
+//Necro Shields//
+
+//[Type] == voodooheads && [Quality] == normal #
+//[Type] == 69 && [Quality] == 2 #
+
+[Name] == Preserved Head && [Quality] == normal # 
+[Name] == Zombie Head && [Quality] == normal #
+[Name] == Unraveller Head && [Quality] == normal # 
+[Name] == Gargoyle Head && [Quality] == normal # 
+[Name] == Demon Head && [Quality] == normal # 
+
+[Name] == Mummified Trophy && [Quality] == normal # 
+[Name] == Fetish Trophy && [Quality] == normal # 
+[Name] == Sexton Trophy && [Quality] == normal # 
+[Name] == Cantor Trophy && [Quality] == normal # 
+[Name] == Hierophant Trophy && [Quality] == normal # 
+
+[Name] == Minion Skull && [Quality] == normal # 
+[Name] == Hellspawn Skull && [Quality] == normal # 
+[Name] == Overseer Skull && [Quality] == normal # 
+[Name] == Succubus Skull && [Quality] == normal # 
+[Name] == Bloodlord Skull && [Quality] == normal # 
+
+//Gloves//
+
+//[Type] == gloves && [Quality] == normal #
+//[Type] == 16 && [Quality] == 2 #
+
+[Name] == Leather Gloves && [Quality] == normal # 
+[Name] == Heavy Gloves && [Quality] == normal # 
+[Name] == Chain Gloves && [Quality] == normal # 
+[Name] == Light Gauntlets && [Quality] == normal # 
+[Name] == Gauntlets && [Quality] == normal # 
+
+[Name] == Demonhide Gloves && [Quality] == normal # 
+[Name] == Sharkskin Gloves && [Quality] == normal # 
+[Name] == Heavy Bracers && [Quality] == normal # 
+[Name] == Battle Gauntlets && [Quality] == normal # 
+[Name] == War Gauntlets && [Quality] == normal # 
+
+[Name] == Bramble Mitts && [Quality] == normal # 
+[Name] == Vampirebone Gloves && [Quality] == normal # 
+[Name] == Vambraces && [Quality] == normal # 
+[Name] == Crusader Gauntlets && [Quality] == normal # 
+[Name] == Ogre Gauntlets && [Quality] == normal # 
+
+//Boots//
+
+//[Type] == boots && [Quality] == normal #
+//[Type] == 15 && [Quality] == 2 #
+
+[Name] == boots && [Quality] == normal # 
+[Name] == Heavy Boots && [Quality] == normal # 
+[Name] == Chain Boots && [Quality] == normal # 
+[Name] == Light Plated Boots && [Quality] == normal # 
+[Name] == Greaves && [Quality] == normal # 
+
+[Name] == Demonhide Boots && [Quality] == normal # 
+[Name] == Sharkskin Boots && [Quality] == normal # 
+[Name] == Mesh Boots && [Quality] == normal # 
+[Name] == Battle Boots && [Quality] == normal # 
+[Name] == War Boots && [Quality] == normal # 
+
+[Name] == Wyrmhide Boots && [Quality] == normal # 
+[Name] == Scarabshell Boots && [Quality] == normal # 
+[Name] == Boneweave Boots && [Quality] == normal # 
+[Name] == Mirrored Boots && [Quality] == normal # 
+[Name] == Myrmidon Greaves && [Quality] == normal # 
+
+//Belts//
+
+//[Type] == belt && [Quality] == normal #
+//[Type] == 19 && [Quality] == 2 #
+
+[Name] == Sash && [Quality] == normal # 
+[Name] == Light Belt && [Quality] == normal # 
+[Name] == Belt && [Quality] == normal # 
+[Name] == Heavy Belt && [Quality] == normal # 
+[Name] == Plated Belt && [Quality] == normal # 
+
+[Name] == Demonhide Sash = && [Quality] == normal # 
+[Name] == Sharkskin Belt && [Quality] == normal # 
+[Name] == Mesh Belt && [Quality] == normal # 
+[Name] == Battle Belt && [Quality] == normal # 
+[Name] == War Belt && [Quality] == normal # 
+
+[Name] == Spiderweb Sash && [Quality] == normal # 
+[Name] == Vampirefang Belt && [Quality] == normal # 
+[Name] == Mithril Coil && [Quality] == normal # 
+[Name] == Troll Belt && [Quality] == normal # 
+[Name] == Colossus Girdle && [Quality] == normal # 
+
+//Axes//
+
+//[Type] == axe && [Quality] == normal #
+//[Type] == 28 && [Quality] == 2 #
+
+[Name] == Hand Axe && [Quality] == normal # 
+[Name] == Axe && [Quality] == normal # 
+[Name] == Double Axe && [Quality] == normal # 
+[Name] == Military Pick && [Quality] == normal # 
+[Name] == War Axe && [Quality] == normal # 
+[Name] == Large Axe && [Quality] == normal # 
+[Name] == Broad Axe && [Quality] == normal # 
+[Name] == Battle Axe && [Quality] == normal # 
+[Name] == Great Axe && [Quality] == normal # 
+[Name] == Giant Axe && [Quality] == normal # 
+
+[Name] == Hatchet && [Quality] == normal # 
+[Name] == Cleaver && [Quality] == normal # 
+[Name] == Twin Axe && [Quality] == normal # 
+[Name] == Crowbill Pick && [Quality] == normal # 
+[Name] == Naga && [Quality] == normal # <= Superior
+[Name] == Military Axe && [Quality] == normal # 
+[Name] == Bearded Axe && [Quality] == normal # 
+[Name] == Tabar && [Quality] == normal # 
+[Name] == Gothic Axe && [Quality] == normal # 
+[Name] == Ancient Axe && [Quality] == normal # 
+
+[Name] == Tomahawk && [Quality] == normal # 
+[Name] == Small Crescent && [Quality] == normal # 
+[Name] == Ettin Axe && [Quality] == normal # 
+[Name] == War Spike && [Quality] == normal # 
+[Name] == Berserker Axe && [Quality] == normal # 
+[Name] == Feral Axe && [Quality] == normal # 
+[Name] == Silver-Edged Axe && [Quality] == normal # 
+[Name] == Decapitator && [Quality] == normal # 
+[Name] == Champion Axe && [Quality] == normal # 
+[Name] == Glorious Axe && [Quality] == normal # 
+
+//Bows//
+
+//[Type] == bow && [Quality] == normal #
+//[Type] == 27 && [Quality] == 2 #
+
+[Name] == Short Bow && [Quality] == normal # 
+[Name] == Hunter's Bow && [Quality] == normal # 
+[Name] == Long Bow && [Quality] == normal # 
+[Name] == Composite Bow && [Quality] == normal # 
+[Name] == Short Battle Bow && [Quality] == normal # 
+[Name] == Long Battle Bow && [Quality] == normal # 
+[Name] == Short War Bow && [Quality] == normal # 
+[Name] == Long War Bow && [Quality] == normal # 
+
+[Name] == Edge Bow && [Quality] == normal # 
+[Name] == Razor Bow && [Quality] == normal # 
+[Name] == Cedar Bow && [Quality] == normal # 
+[Name] == Double Bow && [Quality] == normal # 
+[Name] == Short Siege Bow && [Quality] == normal # 
+[Name] == Large Siege Bow && [Quality] == normal # 
+[Name] == Rune Bow && [Quality] == normal # 
+[Name] == Gothic Bow && [Quality] == normal # 
+
+[Name] == Spider Bow && [Quality] == normal # 
+[Name] == Blade Bow && [Quality] == normal # 
+[Name] == Shadow Bow && [Quality] == normal # 
+[Name] == Great Bow && [Quality] == normal # 
+[Name] == Diamond Bow && [Quality] == normal # 
+[Name] == Crusader Bow && [Quality] == normal # 
+[Name] == Ward Bow && [Quality] == normal # 
+[Name] == Hydra Bow && [Quality] == normal # 
+
+//Crossbows//
+
+//[Type] == crossbow && [Quality] == normal #
+//[Type] == 35 && [Quality] == 2 #
+
+[Name] == Light Crossbow && [Quality] == normal # 
+[Name] == Crossbow && [Quality] == normal # 
+[Name] == Heavy Crossbow && [Quality] == normal # 
+[Name] == Repeating Crossbow && [Quality] == normal # 
+
+[Name] == Arbalest && [Quality] == normal # 
+[Name] == Siege Crossbow && [Quality] == normal # 
+[Name] == Ballista && [Quality] == normal # 
+[Name] == Chu-Ko-Nu && [Quality] == normal # 
+
+[Name] == Pellet Bow && [Quality] == normal # 
+[Name] == Gorgon Crossbow && [Quality] == normal # 
+[Name] == Colossus Crossbow && [Quality] == normal # 
+[Name] == Demon Crossbow && [Quality] == normal # 
+
+//Daggers//
+
+//[Type] == knife && [Quality] == normal #
+//[Type] == 32 && [Quality] == 2 #
+
+[Name] == Dagger && [Quality] == normal # 
+[Name] == Dirk && [Quality] == normal # 
+[Name] == Kris && [Quality] == normal # 
+[Name] == Blade && [Quality] == normal # 
+
+[Name] == Poignard && [Quality] == normal # 
+[Name] == Rondel && [Quality] == normal # 
+[Name] == Cinquedeas && [Quality] == normal # 
+[Name] == Stiletto && [Quality] == normal # 
+
+[Name] == Bone Knife && [Quality] == normal # 
+[Name] == Mithril Point && [Quality] == normal # 
+[Name] == Fanged Knife && [Quality] == normal # 
+[Name] == Legend Spike && [Quality] == normal # 
+
+//Javelins//
+
+//[Type] == javelin && [Quality] == normal #
+//[Type] == 44 && [Quality] == 2 #
+
+[Name] == Javelin && [Quality] == normal # 
+[Name] == Pilum && [Quality] == normal # 
+[Name] == Short Spear && [Quality] == normal # 
+[Name] == Glaive && [Quality] == normal # 
+[Name] == Throwing Spear && [Quality] == normal # 
+
+[Name] == War Javelin && [Quality] == normal # 
+[Name] == Great Pilum && [Quality] == normal # 
+[Name] == Simbilan && [Quality] == normal # 
+[Name] == Spiculum && [Quality] == normal # 
+[Name] == Harpoon && [Quality] == normal # 
+
+[Name] == Hyperion Javelin && [Quality] == normal # 
+[Name] == Stygian Pilum && [Quality] == normal # 
+[Name] == Balrog Spear && [Quality] == normal # 
+[Name] == Ghost Glaive && [Quality] == normal # 
+[Name] == Winged Harpoon && [Quality] == normal # 
+
+//Maces//
+
+//[Type] == mace && [Quality] == normal #
+//[Type] == 36 && [Quality] == 2 #
+
+//[Type] == club && [Quality] == normal #
+//[Type] == 29 && [Quality] == 2 #
+
+//[Type] == hammer && [Quality] == normal #
+//[Type] == 31 && [Quality] == 2 #
+
+[Name] == Club && [Quality] == normal # 
+[Name] == Spiked Club && [Quality] == normal # 
+[Name] == Mace && [Quality] == normal # 
+[Name] == Morning Star && [Quality] == normal # 
+[Name] == Flail && [Quality] == normal # 
+[Name] == War Hammer && [Quality] == normal # 
+[Name] == Maul && [Quality] == normal # 
+[Name] == Great Maul && [Quality] == normal #
+
+[Name] == Cudgel && [Quality] == normal # 
+[Name] == Barbed Club && [Quality] == normal # 
+[Name] == Flanged Mace && [Quality] == normal # 
+[Name] == Jagged Star && [Quality] == normal # 
+[Name] == Knout && [Quality] == normal # 
+[Name] == Battle Hammer && [Quality] == normal # 
+[Name] == War Club && [Quality] == normal # 
+[Name] == Martel de Fer && [Quality] == normal # 
+
+[Name] == Truncheon && [Quality] == normal # 
+[Name] == Tyrant Club && [Quality] == normal # 
+[Name] == Reinforced Mace && [Quality] == normal # 
+[Name] == Devil Star && [Quality] == normal # 
+[Name] == Scourge && [Quality] == normal # 
+[Name] == Legendary Mallet && [Quality] == normal # 
+[Name] == Ogre Maul && [Quality] == normal #
+[Name] == Thunder Maul && [Quality] == normal # 
+
+//Polearms//
+
+//[Type] == polearm && [Quality] == normal #
+//[Type] == 34 && [Quality] == 2 #
+
+[Name] == Bardiche && [Quality] == normal # 
+[Name] == Voulge && [Quality] == normal # 
+[Name] == Scythe && [Quality] == normal # 
+[Name] == Poleaxe && [Quality] == normal # 
+[Name] == Halberd && [Quality] == normal # 
+[Name] == War Scythe && [Quality] == normal # 
+
+[Name] == Lochaber Axe && [Quality] == normal # 
+[Name] == Bill && [Quality] == normal # 
+[Name] == Battle Scythe && [Quality] == normal # 
+[Name] == Partizan && [Quality] == normal # 
+[Name] == Bec-De-Corbin && [Quality] == normal # 
+[Name] == Grim Scythe && [Quality] == normal # 
+
+[Name] == Ogre Axe && [Quality] == normal # 
+[Name] == Colossus Voulge && [Quality] == normal # 
+[Name] == Thresher && [Quality] == normal # 
+[Name] == Cryptic Axe && [Quality] == normal # 
+[Name] == Great Poleaxe && [Quality] == normal # 
+[Name] == Giant Thresher && [Quality] == normal # 
+
+//Scepters//
+
+//[Type] == scepter && [Quality] == normal #
+//[Type] == 24 && [Quality] == 2 #
+
+[Name] == Scepter && [Quality] == normal # 
+[Name] == Grand Scepter && [Quality] == normal # 
+[Name] == War Scepter&& [Quality] == normal # 
+
+[Name] == Rune Scepter && [Quality] == normal # 
+[Name] == Holy Water Sprinkler && [Quality] == normal # 
+[Name] == Divine Scepter && [Quality] == normal # 
+
+[Name] == Mighty Scepter && [Quality] == normal # 
+[Name] == Seraph Rod && [Quality] == normal # 
+[Name] == Caduceus && [Quality] == normal # 
+
+//Spears//
+
+//[Type] == spear && [Quality] == normal #
+//[Type] == 33 && [Quality] == 2 #
+
+[Name] == Spear && [Quality] == normal # 
+[Name] == Trident && [Quality] == normal # 
+[Name] == Brandistock && [Quality] == normal # 
+[Name] == Spetum && [Quality] == normal # 
+[Name] == Pike && [Quality] == normal # 
+
+[Name] == War Spear && [Quality] == normal # 
+[Name] == Fuscina && [Quality] == normal # 
+[Name] == War Fork && [Quality] == normal # 
+[Name] == Yari && [Quality] == normal # 
+[Name] == Lance && [Quality] == normal # 
+
+[Name] == Hyperion Spear && [Quality] == normal # 
+[Name] == Stygian Pike && [Quality] == normal # 
+[Name] == Mancatcher && [Quality] == normal # 
+[Name] == Ghost Spear && [Quality] == normal # 
+[Name] == War Pike && [Quality] == normal # 
+
+//Staves//
+
+//[Type] == staff && [Quality] == normal #
+//[Type] == 26 && [Quality] == 2 #
+
+[Name] == Short Staff && [Quality] == normal # 
+[Name] == Long Staff && [Quality] == normal # 
+[Name] == Gnarled Staff && [Quality] == normal # 
+[Name] == Battle Staff && [Quality] == normal # 
+[Name] == War Staff && [Quality] == normal # 
+
+[Name] == Jo Staff && [Quality] == normal # 
+[Name] == Quarterstaff && [Quality] == normal # 
+[Name] == Cedar Staff && [Quality] == normal # 
+[Name] == Gothic Staff && [Quality] == normal # 
+[Name] == Rune Staff && [Quality] == normal # 
+
+[Name] == Walking Stick && [Quality] == normal # 
+[Name] == Stalagmite && [Quality] == normal # 
+[Name] == Elder Staff && [Quality] == normal # 
+[Name] == Shillelagh && [Quality] == normal # 
+[Name] == Archon Staff && [Quality] == normal # 
+
+//Swords//
+
+//[Type] == sword && [Quality] == normal #
+//[Type] == 30 && [Quality] == 2 #
+
+[Name] == Short Sword && [Quality] == normal # 
+[Name] == Scimitar && [Quality] == normal # 
+[Name] == Sabre && [Quality] == normal # 
+[Name] == Falchion && [Quality] == normal # 
+[Name] == Crystal Sword && [Quality] == normal # 
+[Name] == Broad Sword && [Quality] == normal # 
+[Name] == Long Sword && [Quality] == normal # 
+[Name] == War Sword && [Quality] == normal # 
+[Name] == Two-handed Sword && [Quality] == normal # 
+[Name] == Claymore && [Quality] == normal # 
+[Name] == Giant Sword && [Quality] == normal # 
+[Name] == Bastard Sword && [Quality] == normal # 
+[Name] == Flamberge && [Quality] == normal # 
+[Name] == Great Sword && [Quality] == normal # 
+
+[Name] == Gladius && [Quality] == normal # 
+[Name] == Cutlass && [Quality] == normal # 
+[Name] == Shamshir && [Quality] == normal # 
+[Name] == Tulwar && [Quality] == normal # 
+[Name] == Dimensional Blade && [Quality] == normal # 
+[Name] == Battle Sword && [Quality] == normal # 
+[Name] == Rune Sword && [Quality] == normal # 
+[Name] == Ancient Sword && [Quality] == normal # 
+[Name] == Espandon && [Quality] == normal # 
+[Name] == Dacian Falx && [Quality] == normal # 
+[Name] == Tusk Sword && [Quality] == normal # 
+[Name] == Zweihander && [Quality] == normal # 
+[Name] == Executioner Sword && [Quality] == normal # 
+
+[Name] == Falcata && [Quality] == normal # 
+[Name] == Ataghan && [Quality] == normal # 
+[Name] == Elegant Blade && [Quality] == normal # 
+[Name] == Hydra Edge && [Quality] == normal # 
+[Name] == Phase Blade && [Quality] == normal # 
+[Name] == Conquest Sword && [Quality] == normal # 
+[Name] == Cryptic Sword && [Quality] == normal # 
+[Name] == Mythical Sword && [Quality] == normal # 
+[Name] == Legend Sword && [Quality] == normal # 
+[Name] == Highland Blade && [Quality] == normal # 
+[Name] == Balrog Blade && [Quality] == normal # 
+[Name] == Champion Sword && [Quality] == normal # 
+[Name] == Colossus Sword && [Quality] == normal # 
+[Name] == Colossus Blade && [Quality] == normal # 
+
+//Throwing//
+
+//[Type] == throwingknife && [Quality] == normal #
+//[Type] == 42 && [Quality] == 2 #
+
+//[Type] == throwingaxe && [Quality] == normal #
+//[Type] == 43 && [Quality] == 2 #
+
+[Name] == Throwing Knife && [Quality] == normal # 
+[Name] == Balanced Knife && [Quality] == normal # 
+[Name] == Throwing Axe && [Quality] == normal # 
+[Name] == Balanced Axe && [Quality] == normal # 
+
+[Name] == Battle Dart && [Quality] == normal # 
+[Name] == War Dart && [Quality] == normal # 
+[Name] == Francisca && [Quality] == normal # 
+[Name] == Hurlbat && [Quality] == normal # 
+
+[Name] == Flying Knife && [Quality] == normal # 
+[Name] == Winged Knife && [Quality] == normal # 
+[Name] == Flying Axe && [Quality] == normal # 
+[Name] == Winged Axe && [Quality] == normal # 
+
+//Wands//
+
+//[Type] == wand && [Quality] == normal #
+//[Type] == 25 && [Quality] == 2 #
+
+[Name] == Wand && [Quality] == normal # 
+[Name] == Yew Wand && [Quality] == normal # 
+[Name] == Bone Wand && [Quality] == normal # 
+[Name] == Grim Wand && [Quality] == normal # 
+
+[Name] == Burnt Wand && [Quality] == normal # 
+[Name] == Petrified Wand && [Quality] == normal # 
+[Name] == Tomb Wand && [Quality] == normal # 
+[Name] == Grave Wand && [Quality] == normal # 
+
+[Name] == Polished Wand && [Quality] == normal # 
+[Name] == Ghost Wand && [Quality] == normal # 
+[Name] == Lich Wand && [Quality] == normal # 
+[Name] == Unearthed Wand && [Quality] == normal # 
+
+//Amazon Wepons//
+//Amazon Bows//
+
+//[Type] == amazonbow && [Quality] == normal #
+//[Type] == 85 && [Quality] == 2 #
+
+[Name] == Stag Bow && [Quality] == normal # 
+[Name] == Reflex Bow && [Quality] == normal # 
+
+[Name] == Ashwood Bow && [Quality] == normal # 
+[Name] == Ceremonial Bow && [Quality] == normal # 
+
+[Name] == Matriarchal Bow && [Quality] == normal # 
+[Name] == Grand Matron Bow && [Quality] == normal # 
+
+//Amazon Spear/Pike//
+
+//[Type] == amazonspear && [Quality] == normal #
+//[Type] == 86 && [Quality] == 2 #
+
+[Name] == Maiden Spear && [Quality] == normal # 
+[Name] == Maiden Pike && [Quality] == normal # 
+
+[Name] == Ceremonial Spear && [Quality] == normal # 
+[Name] == Ceremonial Pike && [Quality] == normal # 
+
+[Name] == Matriarchal Spear && [Quality] == normal # 
+[Name] == Matriarchal Pike && [Quality] == normal #  
+
+//Amazon Javelin//
+
+//[Type] == amazonjavelin && [Quality] == normal #
+//[Type] == 87 && [Quality] == 2 #
+
+[Name] == Maiden Javelin && [Quality] == normal # 
+
+[Name] == Ceremonial Javelin && [Quality] == normal # 
+
+[Name] == Matriarchal Javelin && [Quality] == normal # 
+
+//Assassin Claws//
+
+//[Type] == assassinclaw && [Quality] == normal #
+//[Type] == 88 && [Quality] == 2 #
+
+[Name] == Katar && [Quality] == normal # 
+[Name] == Wrist Blade && [Quality] == normal # 
+[Name] == Hatchet Hands && [Quality] == normal # 
+[Name] == Cestus && [Quality] == normal # 
+[Name] == Claws && [Quality] == normal # 
+[Name] == Blade Talons && [Quality] == normal # 
+[Name] == Scissors Katar && [Quality] == normal # 
+
+[Name] == Quhab && [Quality] == normal # 
+[Name] == Wrist Spike && [Quality] == normal # 
+[Name] == Fascia && [Quality] == normal # 
+[Name] == Hand Scythe && [Quality] == normal # 
+[Name] == Greater Claws && [Quality] == normal # 
+[Name] == Greater Talons && [Quality] == normal # 
+[Name] == Scissors Quhab && [Quality] == normal # 
+
+[Name] == Suwayyah && [Quality] == normal # 
+[Name] == Wrist Sword && [Quality] == normal # 
+[Name] == War Fist && [Quality] == normal # 
+[Name] == Battle Cestus && [Quality] == normal # 
+[Name] == Feral Claws && [Quality] == normal # 
+[Name] == Runic Talons && [Quality] == normal # 
+[Name] == Scissors Suwayyah && [Quality] == normal # 
+
+//Sorcer Orbs//
+
+//[Type] == orb && [Quality] == normal #
+//[Type] == 68 && [Quality] == 2 #
+
+[Name] == Eagle Orb && [Quality] == normal # 
+[Name] == Sacred Globe && [Quality] == normal # 
+[Name] == Smoked Sphere && [Quality] == normal # 
+[Name] == Clasped Orb && [Quality] == normal # 
+[Name] == Jared's Stone && [Quality] == normal # 
+
+[Name] == Glowing Orb && [Quality] == normal # 
+[Name] == Crystalline Globe && [Quality] == normal # 
+[Name] == Cloudy Sphere && [Quality] == normal # 
+[Name] == Sparkling Ball && [Quality] == normal # 
+[Name] == Swirling Crystal && [Quality] == normal #  
+
+[Name] == Heavenly Stone && [Quality] == normal #  
+[Name] == Eldritch Orb && [Quality] == normal #  
+[Name] == Demon Heart && [Quality] == normal #  
+[Name] == Vortex Orb && [Quality] == normal #  
+[Name] == Dimensional Shard && [Quality] == normal #
+
+//[Type] == amulet && [Quality] == normal #
+//[Type] == 12 && [Quality] == 2 #
+
+//[Type] == ring && [Quality] == normal #
+//[Type] == 10 && [Quality] == 2 #
+
+//[Name] == SmallCharm && [Quality] == normal #
+//[Type] == 82 && [Quality] == 2 #
+
+//[Type] == LargeCharm && [Quality] == normal #
+//[Type] == 83 && [Quality] == 2 #
+
+//[Name] == GrandCharm && [Quality] == normal #
+//[Type] == 84 && [Quality] == 2 #

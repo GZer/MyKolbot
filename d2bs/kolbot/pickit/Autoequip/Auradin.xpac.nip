@@ -1,0 +1,55 @@
+//Weapon
+([Type]==Axe || [Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==1
+([Type]==Axe || [Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 # [Tier]==2
+([Type]==Axe || [Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==3
+[Name]==WarScepter && [Quality]==Set # # [Tier]==4
+([Type]==Axe || [Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && [Quality] >= Magic # [SkillPrayer]+[SkillMeditation] >= 2 && [FCR] >= 10 # [Tier]==5
+
+//Shield
+[Type]==AuricShields && [Flag]!=Ethereal && [Quality] >= LowQuality # # [Tier]==1 && [MaxQuantity]==1
+([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 10 # [Tier]==2
+([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 && [MaxHP] >= 15 # [Tier]==3
+[Name]==KiteShield && [Quality]==Set # # [Tier]==4
+([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==4
+([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 || [MaxHP] >= 15) && [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==5
+
+//Helm
+([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
+([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+[Name]==Crown && [Quality]==Set # # [Tier]==3
+([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==3
+([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==4
+
+//Armor
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 # [Tier]==3
+[Name]==AncientArmor && [Quality]==Set # # [Tier]==4
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==4
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==5
+
+//Boots
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [SkillVigor] >= 1 # [Tier]==2
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 # [Tier]==3
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 20 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==4
+
+//Gloves
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Magic # [FCR] >= 10 # [Tier]==4
+
+//Belt
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [FCR] >= 10 # [Tier]==2
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==4
+
+//Amulets && Rings
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [FCR] >= 5 || [Strength]+[Dexterity] >= 4 # [Tier]==1
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 10 # [Tier]==2
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==4
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==5
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 10 && [SkillPrayer]+[SkillMeditation] >= 1 # [Tier]==6

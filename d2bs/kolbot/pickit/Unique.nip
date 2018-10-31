@@ -1,0 +1,518 @@
+//-----------------------------------------------------------------------------------------------------
+//		This is a list of unique items that you want your bot to pick up.
+//
+//		Any item on this list which starts with //[ will NOT be picked up at all
+//		Any item on this list which starts with [ 	will be picked up, THEN kept unid'ed OR checked and then kept if it's good enough.
+//		More detailed instructions can be found at: http://www.projectetal.com/wiki/index.php/Nip_Config
+// -----------------------------------------------------------------------------------------------------
+//UNIQUE HELMS
+//Normal
+[Name] == Cap && [Quality] == Unique  
+[Name] == SkullCap && [Quality] == Unique  																									
+[Name] == Helm && [Quality] == Unique  
+[Name] == Full Helm && [Quality] == Unique 		
+[Name] == Great Helm && [Quality] == Unique 
+[Name] == Mask && [Quality] == Unique 
+[Name] == Crown && [Quality] == Unique 
+[Name] == Bone Helm && [Quality] == Unique
+
+//Exceptional																								
+[Name] == WarHat && [Quality] == Unique 
+[Name] == Sallet && [Quality] == Unique  																																																				
+[Name] == Casque && [Quality] == Unique  																															
+[Name] == Basinet && [Quality] == Unique 
+[Name] == Winged Helm && [Quality] == Unique 
+[Name] == Death Mask && [Quality] == Unique 
+[Name] == Death Mask && [Quality] == Unique  
+[Name] == GrandCrown && [Quality] == Unique  																										
+[Name] == GrimHelm && [Quality] == Unique  						
+//Elite
+[Name] == Shako && [Quality] == Unique  																										
+[Name] == Armet && [Quality] == Unique  
+[Name] == SpiredHelm && [Quality] == Unique # [16] == 60               //Veil of Steel
+[Name] == SpiredHelm && [Quality] == Unique # [enhanceddefense >= 90   //Nightwing's Veil
+[Name] == Demonhead && [Quality] == Unique 
+[Name] == Corona && [Quality] == Unique
+[Name] == BoneVisage && [Quality] == Unique 
+//Unique Circlets
+[Name] == Tiara && [Quality] == Unique																
+[Name] == Diadem && [Quality] == Unique 
+
+
+//UNIQUE ARMOR
+//Normal
+[Name] == Quilted Armor && [Quality] == Unique 
+[Name] == Leather Armor && [Quality] == Unique 
+[Name] == Hard Leather Armor && [Quality] == Unique  
+[Name] == Studded Leather && [Quality] == Unique  
+[Name] == Ring Mail && [Quality] == Unique  
+[Name] == Scale Mail && [Quality] == Unique  
+[Name] == Breast Plate && [Quality] == Unique  
+[Name] == Chain Mail && [Quality] == Unique 
+[Name] == Splint Mail && [Quality] == Unique 
+[Name] == Light Plate && [Quality] == Unique 
+[Name] == Field Plate && [Quality] == Unique 
+[Name] == Plate Mail && [Quality] == Unique 
+[Name] == Gothic Plate && [Quality] == Unique 
+[Name] == Full Plate Mail && [Quality] == Unique 
+[Name] == Ancient Armor && [Quality] == Unique 
+//Exceptional
+[Name] == Ghost Armor && [Quality] == Unique 
+[Name] == SerpentskinArmor && [Quality] == Unique  	
+[Name] == Demonhide Armor && [Quality] == Unique  
+[Name] == Trellised Armor && [Quality] == Unique  
+[Name] == Tigulated Mail && [Quality] == Unique  
+[Name] == Linked Mail && [Quality] == Unique  											
+[Name] == Cuirass && [Quality] == Unique  																																											
+[Name] == MeshArmor && [Quality] == Unique  																						
+[Name] == RussetArmor && [Quality] == Unique 
+[Name] == Mage Plate && [Quality] == Unique 
+[Name] == Sharktooth Armor && [Quality] == Unique 
+[Name] == TemplarCoat && [Quality] == Unique  	
+[Name] == Embossed Plate && [Quality] == Unique  
+[Name] == Chaos Armor && [Quality] == Unique  
+[Name] == Ornate Plate && [Quality] == Unique  
+//Elite																																				
+[Name] == DuskShroud && [Quality] == Unique 																										
+[Name] == WireFleece && [Quality] == Unique 
+[Name] == BalrogSkin && [Quality] == Unique 								
+[Name] == KrakenShell && [Quality] == Unique  
+[Name] == ShadowPlate && [Quality] == Unique
+[Name] == SacredArmor && [Quality] == Unique # [enhanceddefense] >= 170   //Templar's Might
+[Name] == SacredArmor && [Quality] == Unique # [enhanceddefense] <= 150  //Tyrael's Might
+
+
+//UNIQUE SHIELDS
+//Normal
+[Name] == Buckler && [Quality] == Unique 
+[Name] == Small Shield && [Quality] == Unique 
+[Name] == Large Shield && [Quality] == Unique 
+[Name] == Kite Shield && [Quality] == Unique 
+[Name] == Spiked Shield && [Quality] == Unique 
+[Name] == Tower Shield && [Quality] == Unique 
+[Name] == Bone Shield && [Quality] == Unique 
+[Name] == Gothic Shield && [Quality] == Unique 
+//Exceptional
+[Name] == Defender && [Quality] == Unique 
+[Name] == RoundShield && [Quality] == Unique 																								
+[Name] == Scutum && [Quality] == Unique 
+[Name] == Dragon Shield && [Quality] == Unique 
+[Name] == BarbedShield && [Quality] == Unique 																						
+[Name] == Pavise && [Quality] == Unique 
+[Name] == GrimShield && [Quality] == Unique 																							
+[Name] == Ancient Shield && [Quality] == Unique 
+//Elite
+[Name] == Luna && [Quality] == Unique 																									
+[Name] == Monarch && [Quality] == Unique 																																
+[Name] == Blade Barrier && [Quality] == Unique 
+[Name] == Aegis && [Quality] == Unique 
+[Name] == TrollNest && [Quality] == Unique 
+[Name] == Ward && [Quality] == Unique 
+
+
+//UNIQUE GLOVES
+//Normal
+[Name] == Leather Gloves && [Quality] == Unique 
+[Name] == HeavyGloves && [Quality] == Unique     
+[Name] == ChainGloves && [Quality] == Unique     	
+[Name] == LightGauntlets && [Quality] == Unique  
+[Name] == Gauntlets && [Quality] == Unique       
+//Exceptional
+[Name] == Demonhide Gloves && [Quality] == Unique 
+[Name] == Sharkskin Gloves && [Quality] == Unique 
+[Name] == Heavy Bracers && [Quality] == Unique 
+[Name] == Battle Gauntlets && [Quality] == Unique 
+[Name] == War Gauntlets && [Quality] == Unique 
+//Elite
+[Name] == VampireboneGloves && [Quality] == Unique  
+[Name] == Vambraces && [Quality] == Unique          								
+[Name] == OgreGauntlets && [Quality] == Unique      
+	
+
+//UNIQUE BOOTS
+//Normal
+[Name] == Boots && [Quality] == Unique  	
+[Name] == Heavy Boots && [Quality] == Unique 
+[Name] == Chain Boots && [Quality] == Unique 
+[Name] == Light Plated Boots && [Quality] == Unique 
+[Name] == Greaves && [Quality] == Unique 
+//Exceptional
+[Name] == DemonhideBoots && [Quality] == Unique  							
+[Name] == SharkskinBoots && [Quality] == Unique  								
+[Name] == Mesh Boots && [Quality] == Unique  										
+[Name] == BattleBoots && [Quality] == Unique  														
+[Name] == WarBoots && [Quality] == Unique  														
+//Elite
+[Name] == ScarabshellBoots && [Quality] == Unique 
+[Name] == BoneweaveBoots && [Quality] == Unique  
+[Name] == MyrmidonGreaves && [Quality] == Unique  	
+
+
+//UNIQUE BELTS
+//Normal
+[Name] == Sash && [Quality] == Unique  
+[Name] == Light Belt && [Quality] == Unique  
+[Name] == Belt && [Quality] == Unique  
+[Name] == HeavyBelt && [Quality] == Unique  					
+[Name] == Plated Belt && [Quality] == Unique  
+//Exceptional
+[Name] == DemonhideSash && [Quality] == Unique  	
+[Name] == SharkskinBelt && [Quality] == Unique  	
+[Name] == Mesh Belt && [Quality] == Unique  
+[Name] == BattleBelt && [Quality] == Unique      
+[Name] == WarBelt && [Quality] == Unique          
+//Elite
+[Name] == SpiderwebSash && [Quality] == Unique  	
+[Name] == Vampirefang Belt && [Quality] == Unique 	
+[Name] == MithrilCoil && [Quality] == Unique      
+	
+
+//UNIQUE AXES
+//Normal
+[Name] == Hand Axe && [Quality] == Unique
+[Name] == Axe && [Quality] == Unique
+[Name] == Double Axe && [Quality] == Unique
+[Name] == Military Pick && [Quality] == Unique
+[Name] == War Axe && [Quality] == Unique
+[Name] == Large Axe && [Quality] == Unique
+[Name] == Broad Axe && [Quality] == Unique
+[Name] == Battle Axe && [Quality] == Unique
+[Name] == Great Axe && [Quality] == Unique
+[Name] == Giant Axe && [Quality] == Unique
+//Exceptional
+[Name] == Hatchet && [Quality] == Unique 
+[Name] == Cleaver && [Quality] == Unique 
+[Name] == Twin Axe && [Quality] == Unique 
+[Name] == Crowbill && [Quality] == Unique 
+[Name] == Naga && [Quality] == Unique 
+[Name] == Military Axe && [Quality] == Unique 
+[Name] == Bearded Axe && [Quality] == Unique 
+[Name] == Tabar && [Quality] == Unique 
+[Name] == Gothic Axe && [Quality] == Unique 
+[Name] == Ancient Axe && [Quality] == Unique 
+//Elite
+[Name] == Tomahawk && [Quality] == Unique 									
+[Name] == EttinAxe && [Quality] == Unique  						
+[Name] == War Spike && [Quality] == Unique  	
+[Name] == Berserker Axe && [Quality] == Unique  	
+[Name] == Silver-Edged Axe && [Quality] == Unique  	
+[Name] == Decapitator && [Quality] == Unique  	
+[Name] == Champion Axe && [Quality] == Unique  	
+[Name] == Glorious Axe && [Quality] == Unique  	
+
+
+//UNIQUE MACES
+//Normal
+[Name] == Club && [Quality] == Unique 
+[Name] == Spiked Club && [Quality] == Unique 
+[Name] == Morning Star && [Quality] == Unique 
+[Name] == Flail [Quality] == Unique 
+[Name] == War Hammer && [Quality] == Unique 
+[Name] == Maul && [Quality] == Unique 
+[Name] == Great Maul && [Quality] == Unique 
+//Exceptional
+[Name] == Cudgel && [Quality] == Unique
+[Name] == Barbed Club && [Quality] == Unique
+[Name] == Flanged Mace && [Quality] == Unique
+[Name] == Jagged Star && [Quality] == Unique
+[Name] == Knout && [Quality] == Unique
+[Name] == Battle Hammer && [Quality] == Unique
+[Name] == War Club && [Quality] == Unique
+[Name] == Martel de Fer && [Quality] == Unique
+//Elite
+[Name] == Truncheon && [Quality] == Unique 
+[Name] == Tyrant Club && [Quality] == Unique
+[Name] == Devil Star && [Quality] == Unique
+[Name] == Scourge && [Quality] == Unique # [93] == 50                          //Horizon's Tornado
+[Name] == Scourge && [Quality] == Unique # [93] == 30                          //Stormlash 
+[Name] == Legendary Mallet && [Quality] == Unique # [EnhancedDamage] >= 280    //Stone Crusher
+[Name] == Legendary Mallet && [Quality] == Unique # [93] == 20                 //Schaefer's Hammer  
+[Name] == Ogre Maul && [Quality] == Unique 
+[Name] == ThunderMaul && [Quality] == Unique # [105] == 10                     //Earth Shifter
+[Name] == ThunderMaul && [Quality] == Unique # [136] == 75                     //The Cranium Basher
+
+
+//UNIQUE SWORDS
+//Normal
+[Name] == Short Sword && [Quality] == Unique 
+[Name] == Scimitar && [Quality] == Unique 
+[Name] == Sabre && [Quality] == Unique 
+[Name] == Falchion && [Quality] == Unique 
+[Name] == Broad Sword && [Quality] == Unique 
+[Name] == Long Sword && [Quality] == Unique 
+[Name] == War Sword && [Quality] == Unique 
+[Name] == Two-Handed Sword && [Quality] == Unique 
+[Name] == Giant Sword && [Quality] == Unique 
+[Name] == Bastard Sword && [Quality] == Unique 
+[Name] == Flamberge && [Quality] == Unique 
+[Name] == Great Sword && [Quality] == Unique 
+//Exceptional
+[Name] == Gladius && [Quality] == Unique 
+[Name] == Cutlass && [Quality] == Unique 
+[Name] == Shamshir && [Quality] == Unique 
+[Name] == Tulwar && [Quality] == Unique 
+[Name] == Dimensional Blade && [Quality] == Unique
+[Name] == Battle Sword && [Quality] == Unique 
+[Name] == Rune Sword && [Quality] == Unique 
+[Name] == Ancient Sword && [Quality] == Unique 
+[Name] == Espandon && [Quality] == Unique 
+[Name] == Dacian Falx && [Quality] == Unique 
+[Name] == Tusk Sword && [Quality] == Unique 
+[Name] == Gothic Sword && [Quality] == Unique 
+[Name] == Zweihander && [Quality] == Unique 
+[Name] == Executioner Sword && [Quality] == Unique 
+//Elite
+[Name] == Ataghan && [Quality] == Unique
+[Name] == Elegant Blade && [Quality] == Unique
+[Name] == PhaseBlade && [Quality] == Unique # [93] == 20 //Lightsabre		                       
+[Name] == PhaseBlade && [Quality] == Unique # [93] == 30 //Azurewrath
+[Name] == Cryptic Sword && [Quality] == Unique 
+[Name] == Balrog Blade && [Quality] == Unique 
+[Name] == Champion Sword && [Quality] == Unique 
+[Name] == Colossus Blade && [Quality] == Unique 
+
+
+//UNIQUE SCEPTERS
+//Normal
+[Name] == Scepter && [Quality] == Unique 
+[Name] == Grand Scepter && [Quality] == Unique 
+[Name] == War Scepter && [Quality] == Unique 
+//Exceptional
+[Name] == Rune Scepter && [Quality] == Unique  
+[Name] == Holy Water Sprinkler && [Quality] == Unique 
+[Name] == Divine Scepter && [Quality] == Unique  
+//Elite
+[Name] == MightyScepter && [Quality] == Unique # [Sockets] >= 1         //Heaven's Light	
+[Name] == MightyScepter && [Quality] == Unique # [89] == 3              //The Redeemer	
+[Name] == Caduceus && [Quality] == Unique 
+
+//UNIQUE DAGGERS
+//Normal
+[Name] == Dagger && [Quality] == Unique 
+[Name] == Dirk && [Quality] == Unique 
+[Name] == Kris && [Quality] == Unique 
+[Name] == Blade && [Quality] == Unique
+//Exceptional
+[Name] == Poignard && [Quality] == Unique 
+[Name] == Rondel && [Quality] == Unique 
+[Name] == Cinquedeas && [Quality] == Unique 
+[Name] == Stiletto && [Quality] == Unique 
+//Elite
+[Name] == Bone Knife && [Quality] == Unique 
+[Name] == Fanged Knife && [Quality] == Unique 
+[Name] == LegendSpike && [Quality] == Unique 
+
+
+//UNIQUE POLEARMS
+//Normal
+[Name] == Bardiche && [Quality] == Unique 
+[Name] == Voulge && [Quality] == Unique 
+[Name] == Scythe && [Quality] == Unique 
+[Name] == Poleaxe && [Quality] == Unique 
+[Name] == Halberd && [Quality] == Unique 
+[Name] == War Scythe && [Quality] == Unique 
+//Exceptional
+[Name] == Lochaber Axe && [Quality] == Unique 
+[Name] == Bill && [Quality] == Unique 
+[Name] == Battle Scythe && [Quality] == Unique 
+[Name] == Partizan && [Quality] == Unique 
+[Name] == Bec-De-Corbin && [Quality] == Unique 
+[Name] == Grim Scythe && [Quality] == Unique 
+//Elite
+[Name] == OgreAxe && [Quality] == Unique  																									
+[Name] == Thresher && [Quality] == Unique 
+[Name] == CrypticAxe && [Quality] == Unique 
+[Name] == Giant Thresher && [Quality] == Unique 
+
+
+//UNIQUE SPEARS 
+[Name] == Spear && [Quality] == Unique 
+[Name] == Trident && [Quality] == Unique 
+[Name] == Brandistock && [Quality] == Unique 
+[Name] == Spetum && [Quality] == Unique 
+[Name] == Pike && [Quality] == Unique 
+//Exceptional
+[Name] == War Spear && [Quality] == Unique 
+[Name] == Fuscina && [Quality] == Unique 
+[Name] == War Fork && [Quality] == Unique 
+[Name] == Yari && [Quality] == Unique 
+[Name] == Lance && [Quality] == Unique 
+//Elite
+[Name] == Hyperion Spear && [Quality] == Unique 
+[Name] == Mancatcher && [Quality] == Unique 
+[Name] == War Pike && [Quality] == Unique 
+
+						
+//UNIQUE BOWS
+//Normal
+[Name] == Short Bow && [Quality] == Unique 
+[Name] == Hunter's Bow && [Quality] == Unique 
+[Name] == Long Bow && [Quality] == Unique 
+[Name] == Composite Bow && [Quality] == Unique 
+[Name] == Short Battle Bow && [Quality] == Unique 
+[Name] == Long Battle Bow && [Quality] == Unique 
+[Name] == Short War Bow && [Quality] == Unique 
+[Name] == Long War Bow && [Quality] == Unique 
+//Exceptional
+[Name] == Edge Bow Bow && [Quality] == Unique 
+[Name] == Razor Bow && [Quality] == Unique 
+[Name] == Cedar Bow && [Quality] == Unique 
+[Name] == Double Bow && [Quality] == Unique 
+[Name] == Short Siege Bow && [Quality] == Unique 
+[Name] == Large Siege Bow && [Quality] == Unique 
+[Name] == Rune Bow && [Quality] == Unique 
+[Name] == Gothic Bow && [Quality] == Unique 
+//Elite							
+[Name] == Crusader Bow && [Quality] == Unique 
+[Name] == WardBow && [Quality] == Unique 
+[Name] == HydraBow && [Quality] == Unique 
+								
+
+//UNIQUE CROSSBOWS
+//Normal
+[Name] == Light Crossbow && [Quality] == Unique 
+[Name] == Crossbow && [Quality] == Unique 
+[Name] == Heavy Crossbow && [Quality] == Unique 
+[Name] == Repeating Crossbow && [Quality] == Unique 
+//Exceptional
+[Name] == Arbalest && [Quality] == Uniq
+[Name] == Siege Crossbow && [Quality] == Uniq
+[Name] == Ballista && [Quality] == Uniq
+[Name] == Chu-Ko-Nu && [Quality] == Unique 
+//Elite	
+[Name] == Colossus Crossbow && [Quality] == Unique								
+[Name] == Demon Crossbow && [Quality] == Unique
+
+
+//UNIQUE STAVES
+//Normal
+[Name] == Short Staff && [Quality] == Unique
+[Name] == Long Staff && [Quality] == Unique
+[Name] == Gnarled Staff && [Quality] == Unique
+[Name] == Battle Staff && [Quality] == Unique
+[Name] == War Staff && [Quality] == Unique
+//Exceptional
+[Name] == Jo Staff && [Quality] == Unique
+[Name] == Quarterstaff && [Quality] == Unique 				
+[Name] == Cedar Staff && [Quality] == Unique 
+[Name] == Gothic Staff && [Quality] == Unique
+[Name] == Rune Staff && [Quality] == Unique
+//Elite	
+[Name] == ElderStaff && [Quality] == Unique
+[Name] == Archon Staff && [Quality] == Unique
+
+
+//UNIQUE WANDS 
+//Normal
+[Name] == Wand && [Quality] == Unique 
+[Name] == Yew Wand && [Quality] == Unique 
+[Name] == Bone Wand && [Quality] == Unique 
+[Name] == Grim Wand && [Quality] == Unique 
+//Exceptional
+[Name] == Burnt Wand && [Quality] == Unique 
+[Name] == Petrified Wand && [Quality] == Unique 
+[Name] == Tomb Wand && [Quality] == Unique 
+[Name] == Grave Wand && [Quality] == Unique 
+//Elite	
+[Name] == LichWand && [Quality] == Unique 
+[Name] == UnearthedWand && [Quality] == Unique		
+
+
+//UNIQUE THROWING WEAPONS
+//Exceptional
+[Name] == Battle Dart && [Quality] == Unique 
+[Name] == Francisca && [Quality] == Unique 
+//Elite	
+[Name] == WingedKnife && [Quality] == Unique 
+[Name] == FlyingAxe && [Quality] == Unique 			
+[Name] == WingedAxe && [Quality] == Unique 	
+
+
+//UNIQUE JAVELINS
+[Name] == BalrogSpear && [Quality] == Unique 
+[Name] == GhostGlaive && [Quality] == Unique 																	
+[Name] == WingedHarpoon && [Quality] == Unique 
+
+											
+//UNIQUE AMAZON													
+[Name] == Matriarchal Spear && [Quality] == Unique  		
+[Name] == Ceremonial Pike && [Quality] == Unique  
+[Name] == Ceremonial Bow && [Quality] == Unique  
+[Name] == CeremonialJavelin && [Quality] == Unique  
+[Name] == Matriarchal Javelin && [Quality] == Unique
+[Name] == Matriarchal Bow && [Quality] == Unique  
+
+
+//UNIQUE ASSASSIN 
+[Name] == Battle Cestus && [Quality] == Uniqu
+[Name] == GreaterTalons && [Quality] == Unique 	
+[Name] == WristSword && [Quality] == Unique  
+[Name] == FeralClaws && [Quality] == Unique 
+
+
+//UNIQUE BARBARIAN 
+[Name] == SlayerGuard && [Quality] == Unique 							
+[Name] == Fury Visor && [Quality] == Unique  
+[Name] == Destroyer Helm && [Quality] == Unique 
+[Name] == ConquerorCrown && [Quality] == Unique 
+
+
+//UNIQUE DRUID
+[Name] == Totemic Mask && [Quality] == Unique
+[Name] == Blood Spirit && [Quality] == Unique
+[Name] == SkySpirit && [Quality] == Unique 									
+[Name] == EarthSpirit && [Quality] == Unique 	
+
+
+//UNIQUE NECROMANCER 
+[Name] == HierophantTrophy && [Quality] == Unique  
+[Name] == SuccubusSkull && [Quality] == Unique  								
+[Name] == BloodlordSkull && [Quality] == Unique 													
+
+
+//UNIQUE PALADIN
+[Name] == SacredRondache && [Quality] == Unique
+[Name] == GildedShield && [Quality] == Unique 			
+[Name] == Zakarum Shield && [Quality] == Unique 		
+
+
+//UNIQUE SORCERESS
+[Name] == Swirling Crystal && [Quality] == Unique 	
+[Name] == Eldritch Orb && [Quality] == Unique 		
+[Name] == Dimensional Shard && [Quality] == Unique 	
+
+
+//UNIQUE Ammy
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 10 && [FHR] == 20	           //Nokozan Relic         							
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 15 && [ItemAllSkills] == 1	   //The Eye of Etlich
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 25 && [EnhancedDefense] == 10  //The Mahim-Oak Curio
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 47 && [FireResist] >= 15       //Saracen's Chance
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 50 && [FRW] == 30	           //The Cat's Eye
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 50 && [mana] == 45             //Crescent Moon
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 60 && [PoisonResist] == 75     //Atma's Scarab
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 65 && [HPRegen] == 10          //The Rising Sun 
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 65 && [ItemAllSkills] == 1     //Highlord's Wrath
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 67 && [IAS] == 20              //Mara's Kaleidoscope
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 65 && [ItemAllSkills] == 2     //Seraph's Hymn* 
+[Type] == Amulet && [Quality] == Unique # [itemlevelreq] == 81 && [ToHit] >= 400           //Metalgrid 
+
+
+//UNIQUE RINGS						
+[Type] == Ring && [Quality] == Unique # [ItemMagicBonus] >= 15 				                  //NAGELRING
+[Type] == Ring && [Quality] == Unique # [HPRegen] >= 5 && [ManaLeech] >= 4		              //Perfect MANALD HEAL
+[Type] == Ring && [Quality] == Unique # [ItemMaxManaPercent] >= 25			                  //STONE OF JORDAN
+[Type] == Ring && [Quality] == Unique # [MaxHP] == 40 && [MagicDamageReduction] >= 12	      //DWARF STAR
+[Type] == Ring && [Quality] == Unique # [Dexterity] >= 15 && [ToHit] >= 150		              //RAVEN FROST
+[Type] == Ring && [Quality] == Unique # [LifeLeech] >= 3 && [ItemAllSkills] == 1	          //BUL-KATHOS' WEDDING BAND
+[Type] == Ring && [Quality] == Unique # [LifeLeech] >= 6 && [PoisonResist] == 55	          //CARRION WIND
+[Type] == Ring && [Quality] == Unique # [PoisonResist] >= 20 && [NormalDamageReduction] >= 7  //NATURE'S PEACE
+[Type] == Ring && [Quality] == Unique # [ItemAbsorbLightPercent] >= 10			              //WISP PROTECTOR
+
+						
+//UNIQUE JEWELS
+[Name] == Jewel && [Quality] == Unique 
+
+//UNIQUE CHARMS
+[Name] == GrandCharm && [Quality] == Unique 													
+[Name] == LargeCharm && [Quality] == Unique 	
+[Name] == SmallCharm && [Quality] == Unique

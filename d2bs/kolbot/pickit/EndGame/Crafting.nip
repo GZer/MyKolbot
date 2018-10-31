@@ -1,0 +1,23 @@
+//HITPOWER:
+[Type] == Gloves && [Quality] == Crafted [ItemKnockBack] >= 1	        // CRAFT_HITPOWER_GLOVES Heavy Bracers
+[Type] == Gloves && [Quality] == Crafted [ItemKnockBack] >= 1	        // CRAFT_HITPOWER_GLOVES Vambraces
+//Blood:
+[Type] == Helm && [Quality] == Crafted # [ItemDeadlyStrike] >= 5	// Craft Blood Casque
+[Type] == Helm && [Quality] == Crafted # [ItemDeadlyStrike] >= 5	// Craft Blood Armet
+[Type] == Boots && [Quality] == Crafted # [LifeLeech] >= 3		// Craft Blood Battle Boots
+[Type] == Boots && [Quality] == Crafted # [LifeLeech] >= 3		// Craft Blood Mirrored Boots
+[Type] == Gloves && [Quality] == Crafted # [ItemCrushingBlow] >= 5	// Craft Blood Sharkskin Gloves
+[Type] == Gloves && [Quality] == Crafted # [ItemCrushingBlow] >= 5      // Craft Blood Vampirebone Gloves
+[Type] == Belt && [Quality] == Crafted # [ItemOpenWounds] >= 5		// Craft Blood Mesh Belt
+[Type] == Belt && [Quality] == Crafted # [ItemOpenWounds] >= 5 		// Craft Blood Mithril Coil
+[Type] == Amulet && [Quality] == Crafted # [FRW] >= 5		        // Craft Blood Amulet
+[Type] == Ring && [Quality] == Crafted #		                // Craft Blood Ring
+//Caster:
+[Type] == Amulet && [Quality] == Crafted # [ManaLeech] >= 1	        // Craft Caster Amulet
+[Type] == Boots && [Quality] == Crafted # [ItemMaxManaPercent] >= 2	// Craft Caster Demonhide Boots
+[Type] == Boots && [Quality] == Crafted # [ItemMaxManaPercent] >= 2	// Craft Caster Wyrmhide Boots
+[Type] == Belt && [Quality] == Crafted # [FCR] >= 5 		        // Craft Caster Vampirefang Belt
+[Type] == Belt && [Quality] == Crafted # [FCR] >= 5 		        // Craft Caster Sharkskin Belt
+//SAFETY:
+[Type] == shield && [Quality] == Crafted # [magicresist] >= 5	// CRAFT_SAFETY_SHIELD Monarch
+[Type] == Amulet && [Quality] == Crafted # [toblock] >= 1 	               // CRAFT_SAFETY_AMU

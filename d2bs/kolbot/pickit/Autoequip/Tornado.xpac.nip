@@ -1,0 +1,54 @@
+//Weapon
+([Type]==Wand || [Type]==Club || [Type]==Sword || [Type]==Knife) && [Flag]!=Ethereal && [Quality] >= Magic # [FCR] >= 5 || [MaxMana]+[MaxHP] >= 5 # [Tier]==1
+([Type]==Wand || [Type]==Club || [Type]==Sword || [Type]==Knife) && [Flag]!=Ethereal && [Quality] >= Magic # [FCR] >= 10 && [MaxMana]+[MaxHP] >= 10 # [Tier]==2
+([Type]==Wand || [Type]==Club || [Type]==Sword || [Type]==Knife) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==3
+([Type]==Wand || [Type]==Club || [Type]==Sword || [Type]==Knife) && [Flag]!=Ethereal && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 && ([FCR] >= 10 || [MaxMana]+[MaxHP] >= 10) # [Tier]==4
+([Type]==Wand || [Type]==Club || [Type]==Sword || [Type]==Knife) && [Flag]!=Ethereal && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 && [FCR] >= 10 && [MaxMana]+[MaxHP] >= 10 # [Tier]==5
+
+//Shield
+[Type]==Shield && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity] == 1
+[Name]==Buckler && [Quality]==Set # # [Tier]==2
+[Type]==Shield && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+[Type]==Shield && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 # [Tier]==3
+[Type]==Shield && [Flag]!=Ethereal && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==4
+[Type]==Shield && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 15) && [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==5
+
+//Helm
+[Type]==Pelt && [Flag]!=Ethereal && [Quality] >= LowQuality # # [Tier]==1 && [MaxQuantity] == 1
+([Type]==Pelt || [Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+([Type]==Pelt || [Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==3
+([Type]==Pelt || [Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==4
+
+//Armor
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity] == 1
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 # [Tier]==3
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==4
+[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==5
+
+//Boots
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity] == 1
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 # [Tier]==3
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 20 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==4
+
+//Gloves
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity] == 1
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 # [Tier]==2
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Magic # [FCR] >= 10 # [Tier]==4
+
+//Belt
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity] == 1
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [FCR] >= 10 # [Tier]==2
+[Name]==Belt && [Quality]==Set # # [Tier]==3
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==4
+
+//Amulets && Rings
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [FCR] >= 5 || [Strength]+[Dexterity] >= 4 # [Tier]==1
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 10 # [Tier]==2
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==4
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==5
+([Type]==Amulet || [Type]==Ring) && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 10 && [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==6
