@@ -204,7 +204,7 @@ function LevelLeader(){
 				Pather.getWP(83);
 				Pather.makePortal();
 				say("Travincal Waiting");
-				delay(20000);
+				delay(15000);
 				this.clearToQuestLocation(83,2,404);
 				this.getQuestItem(173);
 				Town.goToTown();
@@ -212,7 +212,10 @@ function LevelLeader(){
 				Pather.usePortal(83,null);
 				this.clearToQuestLocation(83,2,404);
 				this.smashOrb();
-				delay(10000);
+				Town.goToTown();
+				this.talkToNPC("Deckard Cain");				
+				Pather.usePortal(83,null);
+				Pather.makePortal();
 				Pather.moveToExit(100,true);
 			break;
 			case 101://Mephisto
@@ -491,7 +494,7 @@ function LevelLeader(){
 		var MyParty=getParty();
 		if(MyParty){
 			do{
-				if(MyParty.name != me.name && MyParty.area==me.area){
+				if(MyParty.name != me.name && getDistance(me,MyParty) < 9){//MyParty.area==me.area
 					return true;
 				}
 			}while(MyParty.getNext());
@@ -533,6 +536,7 @@ function LevelLeader(){
 			while(Orb){
 				Orb.interact();
 			}
+			weaponSwitch();
 		}catch(err){
 			say("Failed to Kill Orb");
 			return false;
@@ -541,17 +545,11 @@ function LevelLeader(){
 	};
 
 	this.cubeFlail=function(){
-		var Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
-		if(!Flail || !Eye || !Brain || !Heart){
-			this.CheckQuests(76);
-			this.CheckQuests(78);
-			this.CheckQuests(80);
-			this.CheckQuests(82);
-		}
-		Storage.Cube.MoveTo(Flail);
-		Storage.Cube.MoveTo(Eye);
-		Storage.Cube.MoveTo(Brain);
-		Storage.Cube.MoveTo(Heart);
+		var Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);		
+		if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
+		if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
+		if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);}
+		if(Flail){Storage.Cube.MoveTo(Flail);}else{return false;}
 		Cubing.openCube();
 		say("Making Khalim Flail");
 		transmute();
@@ -571,13 +569,11 @@ function LevelLeader(){
 		var Staff=me.getItem(91),item,Orifice=getUnit(2,152);
 		if(!Orifice){
 			return false;
-		}else if(!Staff){
-			this.CheckQuests(43);
-			this.CheckQuests(44);
 		}
 		Misc.openChest(Orifice);
 		if(!Staff){
-			return false;
+			Town.doChores();
+			this.cubeStaff();
 		}
 		Staff.toCursor();
 		submitItem();
@@ -591,12 +587,8 @@ function LevelLeader(){
 	
 	this.cubeStaff=function(){
 		var Staff=me.getItem(521),Amulet=me.getItem(92);
-		if(!Staff || !Amulet){
-			this.CheckQuests(43);
-			this.CheckQuests(44);
-		}
-		Storage.Cube.MoveTo(Amulet);
-		Storage.Cube.MoveTo(Staff);
+		if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(43);}
+		if(Amulet){Storage.Cube.MoveTo(Amulet);}else{this.CheckQuests(44);}
 		Cubing.openCube();
 		say("Making Horadric Staff");
 		transmute();
