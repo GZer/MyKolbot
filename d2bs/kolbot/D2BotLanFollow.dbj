@@ -92,10 +92,6 @@ function main() {
 			gameInfo.crashInfo = DataFile.getStats().debugInfo;
 			D2Bot.printToConsole("Crash Info: Script: " + JSON.parse(gameInfo.crashInfo).currScript + " Area: " + JSON.parse(gameInfo.crashInfo).area, 10);
 		}
-		
-		if (gameInfo.crashInfo) {
-			D2Bot.printToConsole("Crash Info: Script: " + gameInfo.crashInfo.currScript + " Area: " + gameInfo.crashInfo.area + (gameInfo.crashInfo.hasOwnProperty("lastAction") ? " " + gameInfo.crashInfo.lastAction : ""), 10);
-		}
 		ControlAction.timeoutDelay("Crash Delay", 3000);
 		D2Bot.updateRuns();
 	}

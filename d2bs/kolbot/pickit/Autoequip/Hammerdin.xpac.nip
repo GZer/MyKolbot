@@ -7,12 +7,11 @@
 
 //Shield
 [Type]==AuricShields && [Flag]!=Ethereal && [Quality] >= LowQuality # # [Tier]==1 && [MaxQuantity]==1
-([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 10 # [Tier]==2
-([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 && [MaxHP] >= 15 # [Tier]==3
+[Type]==AuricShields && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 10 # [Tier]==2
+[Type]==AuricShields && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 && [MaxHP] >= 15 # [Tier]==3
 [Name]==KiteShield && [Quality]==Set # # [Tier]==4
-([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==4
-([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 || [MaxHP] >= 15) && [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==5
-[Name]==Shako && [Quality]==Unique # # [Tier]==99
+[Type]==AuricShields && [Flag]!=Ethereal && [Flag]==Runeword # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 && [ItemAllSkills] >= 2 # [Tier]==5
+[Name]==GildedShield && [Quality]==Unique # # [Tier]==99
 
 //Helm
 ([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1

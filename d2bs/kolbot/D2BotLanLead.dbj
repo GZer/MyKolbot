@@ -127,9 +127,13 @@ function main() {
 /*Find a control*/
 // for(var y=0; y<1000; y++){
 	// for(var x=0; x<1000; x++){
-		// if(ControlAction.click(6, x, y, 96, 32)){
-			// D2Bot.updateStatus(x+", "+y);
-			// delay(100);
+		// for(var w=0; w<150; w++){
+			// for(var h=0; h<50; h++){
+				// if(getControl(6, x, y, w, h)){
+					// D2Bot.updateStatus(x+", "+y);
+					// delay(5000);
+				// }
+			// }
 		// }
 	// }
 // }
