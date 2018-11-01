@@ -97,20 +97,20 @@ function LevelFollower(){
 				}else{
 					Pather.journeyTo(LeaderArea);									//Otherwise walk to leader
 				}
-				if(!getWaypoint(me.area)){
-					Pather.getWP(me.area,true);
-				}
+				Pather.teleport=false;
+				Pather.getWP(me.area,true);
 			}
 			if(!me.inTown){
 				Pather.moveTo(WhereIsLeader.x-2,WhereIsLeader.y-2,2,true);			//Find leader if not in town
 			}else{
 				Town.doChores();
-				delay(200);
+				this.talkToNPC("Deckard Cain");
+				delay(500);
 				Town.move("portalspot");
 			}
 		}else{
 			say("Leader not partied");
-			delay(1000);
+			delay(1500);
 		}
 		return true;
 	};

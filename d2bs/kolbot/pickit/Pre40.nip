@@ -23,7 +23,7 @@
 
 //======================MERCENARY======================//
 ([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Class]>=Exceptional && [Quality] >= Magic # [EnhancedDamage] >= 80 && [LifeLeech] >= 6
-([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal && [Class]>=Exceptional && [Quality] >= Magic # EnhancedDefense] >= 80 && [MaxHP] >= 41
+([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal && [Class]>=Exceptional && [Quality] >= Magic # [EnhancedDefense] >= 80 && [MaxHP] >= 41
 
 //======================ACCESSORIES======================//
 [Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAddSkillTab] >= 2
@@ -35,11 +35,11 @@
 
 //======================UNIQUES======================//
 //2h Weapon
-([Type]==Axe || [Type]==Bow || [Type]==Hammer || [Type]==Polearm || [Type]==Spear || [Type]==Staff || [Type]==Sword || [Type]==ThrowingAxe) && [Quality]==Unique
+([Type]==Axe || [Type]==Bow || [Type]==Hammer || [Type]==Polearm || [Type]==Spear || [Type]==Staff || [Type]==Sword || [Type]==ThrowingAxe) && [Quality]==Unique # [MinDamage]>=1
 //1h Weapon
-([Type]==Club || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Orb || [Type]==Scepter || [Type]==ThrowingKnife || [Type]==Wand) && [Quality]==Unique
+([Type]==Club || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Orb || [Type]==Scepter || [Type]==ThrowingKnife || [Type]==Wand) && [Quality]==Unique # [MinDamage]>=1
 //Armor
-([Type]==AuricShields || [Type]==Armor || [Type]==Belt || [Type]==Boots || [Type]==Circlet || [Type]==Gloves || [Type]==Helm || [Type]==Pelt || [Type]==PrimalHelm || [Type]==Shield || [Type]==VoodooHeads) && [Quality]==Unique
+([Type]==AuricShields || [Type]==Armor || [Type]==Belt || [Type]==Boots || [Type]==Circlet || [Type]==Gloves || [Type]==Helm || [Type]==Pelt || [Type]==PrimalHelm || [Type]==Shield || [Type]==VoodooHeads) && [Quality]==Unique # [Defense]>=1
 //Accessory
 ([Type]==Amulet || [Type]==Ring) && [Quality]==Unique
 //Charms
@@ -60,17 +60,24 @@
 [Type] == Ring && [Quality]==Set # [MaxHP] >= 20																//Angelic Halo
 [Type] == Amulet && [Quality]==Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20							//Angelic Wings
 
-//Aldur's Watchtower
-// [Name]==HuntersGuise && [Quality]==Set # [Defense] >= 157 && [ColdResist] >= 40									//Aldurs Stony Gaze
-// [Name]==BattleBoots && [Quality]==Set # [Defense] >= 39 && [FireResist] >= 40									//Aldur's Advance
-// [Name]==ShadowPlate && [Quality]==Set # [Defense] >= 746 && [LightResist] >= 40									//Aldur's Deception
-// [Name]==JaggedStar && [Quality]==Set # [Sockets] >= 2															//Aldur's Rhythm
+//Tal Rasha's Wrappings
+[Name]==SwirlingCrystal && [Quality]==Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rasha's Lidless Eye
+[Name]==DeathMask && [Quality]==Set # [Defense] >= 54															//Tal Rasha's Horadric Crest
+[Name]==LacqueredPlate && [Quality]==Set # [Defense] >= 433														//Tal Rasha's Guardianship
+[Name]==MeshBelt && [Quality]==Set # [Defense] >= 35 && [ItemMagicBonus] >= 10									//Tal Rasha's Fine-Spun Cloth
+[Type]==Amulet && [Quality]==Set # [SorceressSkills]==2															//Tal Rasha's Adjucation
 
 //Griswold's Legacy
 [Name]==OrnatePlate && [Quality]==Set # [Defense] >= 417														//Griswold's Heart
 [Name]==Corona && [Quality]==Set # [Defense] >= 249 && [ItemMagicBonus] >= 20									//Griswold's Valor
 [Name]==Caduceus && [Quality]==Set # [Sockets] >= 3 && [EnhancedDamage] >= 200									//Griswold's Redemption
 [Name]==VortexShield && [Quality]==Set # [Defense] >= 182														//Griswold's Honor
+
+//Aldur's Watchtower
+// [Name]==HuntersGuise && [Quality]==Set # [Defense] >= 157 && [ColdResist] >= 40									//Aldurs Stony Gaze
+// [Name]==BattleBoots && [Quality]==Set # [Defense] >= 39 && [FireResist] >= 40									//Aldur's Advance
+// [Name]==ShadowPlate && [Quality]==Set # [Defense] >= 746 && [LightResist] >= 40									//Aldur's Deception
+// [Name]==JaggedStar && [Quality]==Set # [Sockets] >= 2															//Aldur's Rhythm
 
 //Immortal King
 // [Name]==AvengerGuard && [Quality]==Set # [Defense] >= 160 && [ItemMagicBonus] >= 25								//Immortal King's Will
@@ -79,13 +86,6 @@
 // [Name]==WarBelt && [Quality]==Set																				//Immortal King's Detail
 // [Name]==WarGauntlets && [Quality]==Set # [Defense] >= 43														//Immortal Kings Forge
 // [Name]==WarBoots && [Quality]==Set # [Defense] >= 43															//Immortal Kings Pillar
-
-//Tal Rasha's Wrappings
-[Name]==SwirlingCrystal && [Quality]==Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rasha's Lidless Eye
-[Name]==DeathMask && [Quality]==Set # [Defense] >= 54															//Tal Rasha's Horadric Crest
-[Name]==LacqueredPlate && [Quality]==Set # [Defense] >= 433														//Tal Rasha's Guardianship
-[Name]==MeshBelt && [Quality]==Set # [Defense] >= 35 && [ItemMagicBonus] >= 10									//Tal Rasha's Fine-Spun Cloth
-[Type]==Amulet && [Quality]==Set # [SorceressSkills]==2															//Tal Rasha's Adjucation
 
 // //Trang-Oul's Avatar
 // [Name]==BoneVisage && [Quality]==Set # [Defense] >= 180															//Trang-Oul's Guise

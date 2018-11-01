@@ -25,6 +25,7 @@
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 # [Tier]==3
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==4
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==5
+[Name]==SerpentskinArmor && [Quality]==Unique # # [Tier]==90
 
 //Boots
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity] == 1

@@ -12,6 +12,7 @@
 [Name]==KiteShield && [Quality]==Set # # [Tier]==4
 ([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==4
 ([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 || [MaxHP] >= 15) && [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==5
+[Name]==Shako && [Quality]==Unique # # [Tier]==99
 
 //Helm
 ([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
@@ -19,6 +20,7 @@
 [Name]==Crown && [Quality]==Set # # [Tier]==3
 ([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==3
 ([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==4
+[Name]==Shako && [Quality]==Unique # # [Tier]==99
 
 //Armor
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
@@ -27,6 +29,7 @@
 [Name]==AncientArmor && [Quality]==Set # # [Tier]==4
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==4
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [SkillBlessedHammer]+[SkillConcentration] >= 1 # [Tier]==5
+[Name]==SerpentskinArmor && [Quality]==Unique # # [Tier]==90
 
 //Boots
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
