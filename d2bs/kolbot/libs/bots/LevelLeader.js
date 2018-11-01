@@ -24,12 +24,13 @@ function LevelLeader(){
 		,Alter
 		,i;
 		switch(ClearedArea){
-			case 8://Back to town to sell and buy tome
+			case 8://Back to town after den to sell items and buy tome
 				Pather.journeyTo(1);
 				Town.doChores();
 			break;
 			case 17://BloodRaven
 				this.killQuestBoss(775);
+				Pather.journeyTo(1);
 				Town.doChores();
 			break;
 			case 5://Tristram
@@ -71,6 +72,7 @@ function LevelLeader(){
 				Town.doChores();
 			break;
 			case 6://Countess
+				Pather.journeyTo(6);
 				Pather.moveToExit([20,21,22,23,24,25],true,true);
 				this.clearToQuestLocation(28,2,580);
 				this.killQuestBoss(710);
@@ -156,7 +158,6 @@ function LevelLeader(){
 				this.killQuestBoss(211);
 				Pather.teleport=false;
 				Pather.moveTo(22579,15706);
-				Pather.teleport=true;
 				Pather.moveTo(22577,15649,10);
 				Pather.moveTo(22577,15609,10);
 				this.talkToNPCWild("Tyrael");
@@ -203,8 +204,10 @@ function LevelLeader(){
 				Pather.moveToExit(83,true,true);
 				Pather.getWP(83);
 				Pather.makePortal();
-				say("Travincal Waiting");
-				delay(15000);
+				while(!this.playerClose()){
+					say("Waiting for Party Quest");
+					delay(15000);
+				}
 				this.clearToQuestLocation(83,2,404);
 				this.getQuestItem(173);
 				Town.goToTown();
@@ -216,6 +219,10 @@ function LevelLeader(){
 				this.talkToNPC("Deckard Cain");				
 				Pather.usePortal(83,null);
 				Pather.makePortal();
+				while(!this.playerClose()){
+					say("Waiting for Party Quest");
+					delay(15000);
+				}
 				Pather.moveToExit(100,true);
 			break;
 			case 101://Mephisto
@@ -422,7 +429,7 @@ function LevelLeader(){
 					}
 					break;
 				}
-			}catch(err){say("Failed clearing to "+UnitId+" in Area"+QuestArea);}
+			}catch(err){say("Failed clearing to Unit"+UnitId+" in Area"+QuestArea);}
 			count++;
 		}
 		return true;
@@ -527,6 +534,7 @@ function LevelLeader(){
 				return true;
 			}
 		}
+		delay(250);
 		return false;
 	};
 

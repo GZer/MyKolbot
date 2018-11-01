@@ -25,31 +25,34 @@
 
 //======================RUNEWORDS======================//
 //Memory or Leaf
-[Type]==Staff && [Quality]<=Superior # ([SkillBlizzard]+[SkillGlacialSpike]+[SkillIceBlast]+[SkillWarmth]+[SkillColdMastery])>=2 && ([Sockets]==4 || [Sockets]==2) # [MaxQuantity]==1
-[Type]==Staff && [Quality]<=Superior # ([SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillFireMastery])>=2 && ([Sockets]==4 || [Sockets]==2) # [MaxQuantity]==1
-[Type]==Staff && [Quality]<=Superior # ([SkillLightning]+[SkillChainLightning]+[SkillWarmth]+[SkillLightningMastery])>=2 && ([Sockets]==4 || [Sockets]==2) # [MaxQuantity]==1
-
-//Lore
-([Type]==Pelt || [Type]==PrimalHelm) && [Quality]<=Superior # ([SkillTornado]+[SkillOakSage] >= 1 || [SkillBattleOrders]+[SkillShout] >= 1) && [Sockets]==2 # [MaxQuantity]==2
+[Type]==Staff && [Flag]!=Ethereal && [Quality]<=Superior # ([SkillBlizzard]+[SkillGlacialSpike]+[SkillWarmth]+[SkillColdMastery]) >= 2 && [Sockets]==4 # [MaxQuantity]==1
+[Type]==Staff && [Flag]!=Ethereal && [Quality]<=Superior # ([SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillFireMastery]) >= 2 && ([Sockets]==4 || [Sockets]==2) # [MaxQuantity]==1
+[Type]==Staff && [Flag]!=Ethereal && [Quality]<=Superior # ([SkillLightning]+[SkillWarmth]+[SkillLightningMastery]) >= 2 && [Sockets]==4 # [MaxQuantity]==1
 
 //Stealth
-([Name]==QuiltedArmor || [Name]==LeatherArmor || [Name]==HardLeatherArmor || [Name]==StuddedLeather) && [Quality]<=Superior # [EnhancedDefense]>=1 && [Sockets]==2 # [MaxQuantity]==2
+([Name]==QuiltedArmor || [Name]==LeatherArmor || [Name]==HardLeatherArmor || [Name]==StuddedLeather) && [Flag]!=Ethereal && [Quality]<=Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
 
-//Enlightenment or Enigma
-([Name]==GhostArmor || [Name]==SerpentskinArmor || [Name]==Mageplate) && [Quality]<=Superior # [EnhancedDefense]>=1 && [Sockets]==3 # [MaxQuantity]==2
+//Lionheart or Myth or Enlightenment or Enigma
+([Name]==GhostArmor || [Name]==SerpentskinArmor || [Name]==Mageplate) && [Flag]!=Ethereal && [Quality]<=Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
 
 //Lore
-([Name]==Cap || [Name]==SkullCap || [Name]==Helm) && [Quality]<=Superior # [EnhancedDefense]>=1 && [Sockets]==2 # [MaxQuantity]==2
+([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality]<=Superior # ([SkillTornado]+[SkillOakSage] >= 1 || [SkillBattleOrders]+[SkillShout] >= 1) && [Sockets]==2 # [MaxQuantity]==1
+([Name]==Cap || [Name]==SkullCap || [Name]==Helm) && [Flag]!=Ethereal && [Quality]<=Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
 
 //Ancients Pledge
-([Name]==LargeShield || [Name]==KiteShield || [Type]==AuricShields) && [Quality]<=Superior # [EnhancedDefense]>=1 && [Sockets]==3 # [MaxQuantity]==2
+([Name]==LargeShield || [Name]==KiteShield) && [Flag]!=Ethereal && [Quality]<=Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
+[Type]==AuricShields && [Flag]!=Ethereal && [Quality]<=Superior # [FireResist]+[ColdResist]+[LightResist] >= 30 && [Sockets]==3 # [MaxQuantity]==1
+
+//Splendor
+([Name]==BoneShield || [Name]==SmallShield) && [Flag]!=Ethereal && [Quality]<=Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
+([Type]==AuricShields || [Type]==VoodooHeads) && [Flag]!=Ethereal && [Quality]<=Superior # ([FireResist]+[ColdResist]+[LightResist] >= 30 || [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 1) && [Sockets]==2 # [MaxQuantity]==1
 
 //======================MERCGEAR======================//
 //Smoke
-[Type]==Armor && [Flag]==Ethereal && [Quality]<=Superior # [Defense]>=90 && [Sockets]==2 # [MaxQuantity]==2
+[Type]==Armor && [Flag]==Ethereal && [Quality]<=Superior # [Defense] >= 90 && [Sockets]==2 # [MaxQuantity]==1
 
 //Nadir
-[Type]==Helm && [Flag]==Ethereal && [Quality]<=Superior # [Defense]>=23 && [Sockets]==2 # [MaxQuantity]==2
+[Type]==Helm && [Flag]==Ethereal && [Quality]<=Superior # [Defense] >= 23 && [Sockets]==2 # [MaxQuantity]==1
 
-//Insight or Obedience
-[Type]==Polearm && [Flag]==Ethereal && [Quality]<=Superior # ([Sockets]==4 || [Sockets]==5) # [MaxQuantity]==2
+//Strength or Insight or Obedience
+[Type]==Polearm && [Flag]==Ethereal && [Quality]<=Superior # ([Sockets]==2 || [Sockets]==4 || [Sockets]==5) # [MaxQuantity]==1
