@@ -2,10 +2,6 @@
 [Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>8 || [Mana]>8) && ([MaxHP]>11 || [Strength]+[Dexterity]>3)
 [Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>6 || [Mana]>1) && ([MaxHP]>11 || [Strength]+[Dexterity]>1)
 
-//======================MERCENARY======================//
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDamage] >= 40 || [LifeLeech] >= 6
-([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDefense] >= 40 || [MaxHP] >= 41
-
 //======================ACCESSORIES======================//
 [Type]==Amulet && [Quality] >= Magic # [FCR] >= 10 && [ItemAddSkillTab] >= 1
 

@@ -21,10 +21,6 @@
 [Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>13 || [Mana]>19) && ([MaxHP]>16 || [Strength]+[Dexterity]>3)
 [Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>8 || [Mana]>8) && ([MaxHP]>11 || [Strength]+[Dexterity]>1)
 
-//======================MERCENARY======================//
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Class]>=Exceptional && [Quality] >= Magic # [EnhancedDamage] >= 80 && [LifeLeech] >= 6
-([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal && [Class]>=Exceptional && [Quality] >= Magic # [EnhancedDefense] >= 80 && [MaxHP] >= 41
-
 //======================ACCESSORIES======================//
 [Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAddSkillTab] >= 2
 
@@ -55,10 +51,10 @@
 [Name]==Gauntlets && [Quality]==Set # [Defense] >= 12															//Sigon's Gage
 
 //Angelic Raiment
-[Name] == RingMail && [Quality]==Set																			//Angelic Mantle
-[Name] == Sabre && [Quality]==Set																				//Angelic Sickle
-[Type] == Ring && [Quality]==Set # [MaxHP] >= 20																//Angelic Halo
-[Type] == Amulet && [Quality]==Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20							//Angelic Wings
+[Name]==RingMail && [Quality]==Set																				//Angelic Mantle
+[Name]==Sabre && [Quality]==Set																					//Angelic Sickle
+[Type]==Ring && [Quality]==Set # [MaxHP] >= 20																	//Angelic Halo
+[Type]==Amulet && [Quality]==Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20							//Angelic Wings
 
 //Tal Rasha's Wrappings
 [Name]==SwirlingCrystal && [Quality]==Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rasha's Lidless Eye
@@ -74,22 +70,22 @@
 [Name]==VortexShield && [Quality]==Set # [Defense] >= 182														//Griswold's Honor
 
 //Aldur's Watchtower
-// [Name]==HuntersGuise && [Quality]==Set # [Defense] >= 157 && [ColdResist] >= 40									//Aldurs Stony Gaze
-// [Name]==BattleBoots && [Quality]==Set # [Defense] >= 39 && [FireResist] >= 40									//Aldur's Advance
-// [Name]==ShadowPlate && [Quality]==Set # [Defense] >= 746 && [LightResist] >= 40									//Aldur's Deception
-// [Name]==JaggedStar && [Quality]==Set # [Sockets] >= 2															//Aldur's Rhythm
+// [Name]==HuntersGuise && [Quality]==Set # [Defense] >= 157 && [ColdResist] >= 40								//Aldurs Stony Gaze
+// [Name]==BattleBoots && [Quality]==Set # [Defense] >= 39 && [FireResist] >= 40								//Aldur's Advance
+// [Name]==ShadowPlate && [Quality]==Set # [Defense] >= 746 && [LightResist] >= 40								//Aldur's Deception
+// [Name]==JaggedStar && [Quality]==Set # [Sockets] >= 2														//Aldur's Rhythm
 
 //Immortal King
-// [Name]==AvengerGuard && [Quality]==Set # [Defense] >= 160 && [ItemMagicBonus] >= 25								//Immortal King's Will
-// [Name]==OgreMaul && [Quality]==Set # [ItemCrushingBlow] >= 35													//Immortal King's Stone Crusher
-// [Name]==SacredArmor && [Quality]==Set																			//Immortal King's Soul Cage
-// [Name]==WarBelt && [Quality]==Set																				//Immortal King's Detail
+// [Name]==AvengerGuard && [Quality]==Set # [Defense] >= 160 && [ItemMagicBonus] >= 25							//Immortal King's Will
+// [Name]==OgreMaul && [Quality]==Set # [ItemCrushingBlow] >= 35												//Immortal King's Stone Crusher
+// [Name]==SacredArmor && [Quality]==Set																		//Immortal King's Soul Cage
+// [Name]==WarBelt && [Quality]==Set																			//Immortal King's Detail
 // [Name]==WarGauntlets && [Quality]==Set # [Defense] >= 43														//Immortal Kings Forge
 // [Name]==WarBoots && [Quality]==Set # [Defense] >= 43															//Immortal Kings Pillar
 
 // //Trang-Oul's Avatar
-// [Name]==BoneVisage && [Quality]==Set # [Defense] >= 180															//Trang-Oul's Guise
+// [Name]==BoneVisage && [Quality]==Set # [Defense] >= 180														//Trang-Oul's Guise
 // [Name]==ChaosArmor && [Quality]==Set																			//Trang-Oul's Scales
-// [Name]==CantorTrophy && [Quality]==Set # [Defense] >= 175 && [FireResist] >= 38									//Trang-Oul's Wing
-// [Name]==TrollBelt && [Quality]==Set # [Defense] >= 134 && [MaxMana] >= 25										//Trang-Oul's Girth
+// [Name]==CantorTrophy && [Quality]==Set # [Defense] >= 175 && [FireResist] >= 38								//Trang-Oul's Wing
+// [Name]==TrollBelt && [Quality]==Set # [Defense] >= 134 && [MaxMana] >= 25									//Trang-Oul's Girth
 // [Name]==HeavyBracers && [Quality]==Set # [Defense] >= 37														//Trang-Oul's Claws

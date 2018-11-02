@@ -2,10 +2,6 @@
 [Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>4 || [Mana]>5) && ([MaxHP]>6 || [Strength]+[Dexterity]>2)
 [Name]==SmallCharm # [FireResist]+[ColdResist]+[LightResist]>3 && ([MaxHP]>5 || [Strength]+[Dexterity]==1)
 
-//======================MERCENARY======================//
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal # # MaxQuantity==1
-([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal # # MaxQuantity==1
-
 //======================ACCESSORIES======================//
 ([Type]==Ring || [Type]==Amulet) && [Quality] <= Unique # [FCR] >= 10 || [ItemAddSkillTab] >= 1
 
