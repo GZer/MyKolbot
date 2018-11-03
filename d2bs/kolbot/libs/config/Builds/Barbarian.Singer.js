@@ -157,21 +157,39 @@ var AutoBuildTemplate={
 			Update: function (){
 				Config.BeltColumn=["hp","hp","hp","rv"];
 				Config.MakeRunewords=true;
-				Config.Runewords.push([Runeword.Leaf,"Short Staff"]);
-				Config.Runewords.push([Runeword.Leaf,"Long Staff"]);
-				Config.Runewords.push([Runeword.Leaf,"Gnarled Staff"]);
-				Config.Runewords.push([Runeword.Leaf,"Battle Staff"]);
-				Config.Runewords.push([Runeword.Leaf,"War Staff"]);
-				Config.Runewords.push([Runeword.Memory,"Gnarled Staff"]);
-				Config.Runewords.push([Runeword.Memory,"Battle Staff"]);
-				Config.Runewords.push([Runeword.Memory,"War Staff"]);
+				//Weapon
+				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
+				//Armor
 				Config.Runewords.push([Runeword.Stealth,"Quilted Armor"]);
 				Config.Runewords.push([Runeword.Stealth,"Leather Armor"]);
 				Config.Runewords.push([Runeword.Stealth,"Hard Leather Armor"]);
 				Config.Runewords.push([Runeword.Stealth,"Studded Leather"]);
+				Config.Runewords.push([Runeword.Lionheart,"Light Plate"]);
+				Config.Runewords.push([Runeword.Lionheart,"Breast Plate"]);
+				Config.Runewords.push([Runeword.Lionheart,"Ring Mail"]);
+				Config.Runewords.push([Runeword.Myth,"Light Plate"]);
+				Config.Runewords.push([Runeword.Myth,"Breast Plate"]);
+				Config.Runewords.push([Runeword.Myth,"Ring Mail"]);
+				Config.Runewords.push([Runeword.Enlightenment,"Mage Plate"]);
+				//Helm
 				Config.Runewords.push([Runeword.Lore,"Cap"]);
 				Config.Runewords.push([Runeword.Lore,"Skull Cap"]);
 				Config.Runewords.push([Runeword.Lore,"Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Wolf Head"]);
+				Config.Runewords.push([Runeword.Lore,"Hawk Head"]);
+				Config.Runewords.push([Runeword.Lore,"Antlers"]);
+				Config.Runewords.push([Runeword.Lore,"Falcon Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Spirit Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Jawbone Cap"]);
+				Config.Runewords.push([Runeword.Lore,"Fanged Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Horned Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Assualt Helmet"]);
+				Config.Runewords.push([Runeword.Lore,"Avenger Guard"]);
+				//Shield
+				Config.Runewords.push([Runeword.AncientsPledge,"Large Shield"]);
+				Config.Runewords.push([Runeword.AncientsPledge,"Kite Shield"]);
 				Config.Runewords.push([Runeword.Splendor,"Small Shield"]);
 				Config.Runewords.push([Runeword.Splendor,"Bone Shield"]);
 				Config.Runewords.push([Runeword.Splendor,"Preserved Head"]);
@@ -184,6 +202,13 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Splendor,"Heraldic Shield"]);
 				Config.Runewords.push([Runeword.Splendor,"Aerin Shield"]);
 				Config.Runewords.push([Runeword.Splendor,"Crown Shield"]);
+				Config.Runewords.push([Runeword.Spirit,"Monarch"]);
+				Config.Runewords.push([Runeword.Spirit,"Targe"]);
+				Config.Runewords.push([Runeword.Spirit,"Rondache"]);
+				Config.Runewords.push([Runeword.Spirit,"Heraldic Shield"]);
+				Config.Runewords.push([Runeword.Spirit,"Aerin Shield"]);
+				Config.Runewords.push([Runeword.Spirit,"Crown Shield"]);
+				//Merc Gear
 				Config.Runewords.push([Runeword.Nadir,"Full Helm"]);
 				Config.Runewords.push([Runeword.Nadir,"Great Helm"]);
 				Config.Runewords.push([Runeword.Nadir,"Crown"]);
@@ -192,26 +217,11 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Smoke,"Gothic Plate"]);
 				Config.Runewords.push([Runeword.Smoke,"Full Plate Mail"]);
 				Config.Runewords.push([Runeword.Smoke,"Ancient Armor"]);
-				Config.Runewords.push([Runeword.Strength,"War Scythe"]);
-				Config.Runewords.push([Runeword.Strength,"Poleaxe"]);
-				Config.Runewords.push([Runeword.Strength,"Halberd"]);
-				Config.Runewords.push([Runeword.Honor,"War Scythe"]);
-				Config.Runewords.push([Runeword.Honor,"Poleaxe"]);
-				Config.Runewords.push([Runeword.Honor,"Halberd"]);
-				// Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
-				// Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
-				// Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
-				// Config.Runewords.push([Runeword.Spirit,"Monarch"]);
-				// Config.Runewords.push([Runeword.Spirit,"Targe"]);
-				// Config.Runewords.push([Runeword.Spirit,"Rondache"]);
-				// Config.Runewords.push([Runeword.Spirit,"Heraldic Shield"]);
-				// Config.Runewords.push([Runeword.Spirit,"Aerin Shield"]);
-				// Config.Runewords.push([Runeword.Spirit,"Crown Shield"]);
-				// Config.Runewords.push([Runeword.Insight,"Voulge"]);
-				// Config.Runewords.push([Runeword.Insight,"Scythe"]);
-				// Config.Runewords.push([Runeword.Insight,"Poleaxe"]);
-				// Config.Runewords.push([Runeword.Insight,"Halberd"]);
-				// Config.Runewords.push([Runeword.Insight,"War Scythe"]);
+				Config.Runewords.push([Runeword.Insight,"Voulge"]);
+				Config.Runewords.push([Runeword.Insight,"Scythe"]);
+				Config.Runewords.push([Runeword.Insight,"Poleaxe"]);
+				Config.Runewords.push([Runeword.Insight,"Halberd"]);
+				Config.Runewords.push([Runeword.Insight,"War Scythe"]);
 			}
 		},
 
