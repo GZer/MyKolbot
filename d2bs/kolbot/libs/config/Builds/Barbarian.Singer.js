@@ -62,7 +62,7 @@ var AutoBuildTemplate={
 		
 	2: 	{
 			SkillPoints: [130],//Howl
-			StatPoints: [0,3,3,3,3],//Str + 1,Vitality + 4
+			StatPoints: [0,3,3,3,3],//Str+1,Vitality+4
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
