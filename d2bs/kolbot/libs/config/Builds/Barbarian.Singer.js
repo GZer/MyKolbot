@@ -173,6 +173,7 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Myth,"Breast Plate"]);
 				Config.Runewords.push([Runeword.Myth,"Ring Mail"]);
 				Config.Runewords.push([Runeword.Enlightenment,"Mage Plate"]);
+				Config.Runewords.push([Runeword.Bone,"Mage Plate"]);
 				//Helm
 				Config.Runewords.push([Runeword.Lore,"Cap"]);
 				Config.Runewords.push([Runeword.Lore,"Skull Cap"]);
