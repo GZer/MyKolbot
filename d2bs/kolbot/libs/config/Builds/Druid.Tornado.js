@@ -28,11 +28,11 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("AutoEquip/Tornado.xpac.nip");
-				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[3] = [1,1,1,1,1,1,1,1,1,1];
-				Config.AutoEquip = true;
+				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
+				Config.AutoEquip=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts (0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
@@ -70,7 +70,7 @@ var AutoBuildTemplate={
 			SkillPoints: [222],//Poison Creeper
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.SummonVine=1;
 			}
 		},
 	4: 	{
@@ -93,7 +93,7 @@ var AutoBuildTemplate={
 			SkillPoints: [226],//Oak Sage
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.SummonSpirit=1;
 			}
 		},
 
@@ -109,7 +109,7 @@ var AutoBuildTemplate={
 			SkillPoints: [227],//Summon Spirit Wolf
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[230,230,0,230,0,0,0];
+				Config.SummonAnimal=1;
 			}
 		},
 

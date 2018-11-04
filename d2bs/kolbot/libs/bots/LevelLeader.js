@@ -364,7 +364,7 @@ function LevelLeader(){
 			case 2:
 				Town.move("Warriv");
 				NPC=getUnit(1,"Warriv");
-				if(NPC.openMenu()){
+				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
 				}
 				delay(2000);
@@ -376,7 +376,7 @@ function LevelLeader(){
 				Town.move("portalspot");
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
-				if(NPC.openMenu()){
+				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D38);
 				}
 				break;
