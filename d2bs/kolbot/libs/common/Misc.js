@@ -72,6 +72,7 @@ var Skill = {
 		case 132: // Leap
 		case 225: // Firestorm
 		case 229: // Molten Boulder
+		case 230: // Arctic Blast
 		case 243: // Shock Wave
 			return 10;
 		case 8: // Inner Sight
@@ -927,6 +928,7 @@ var Item = {
             items = me.findItems(-1, 0);
  
         if (!items) {
+			print("No Items");
             return false;
         }
  
@@ -952,7 +954,6 @@ var Item = {
         for (i = 0; i < items.length; i += 1) {
             if (NTIP.GetMercTier(items[i]) === 0) {
                 items.splice(i, 1);
- 
                 i -= 1;
             }
         }
@@ -982,7 +983,7 @@ var Item = {
                         classid = items[0].classid;
  
                         if (this.equipMerc(items[0], bodyLoc[j])) {
-                            print("Equiped Merc item.")
+							Misc.logItem("Equipped Merc", me.getItem(-1, -1, gid));
                         }
  
                         break;

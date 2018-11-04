@@ -93,6 +93,7 @@ var Town = {
 		this.buyPotions();
 		this.clearInventory();
 		Item.autoEquip();
+		Item.autoEquipMerc();
 		this.buyKeys();
 		this.repair();
 		this.gamble();
@@ -579,7 +580,7 @@ MainLoop:
 				result = Pickit.checkItem(item);
 
 				// Force ID for unid items matching autoEquip criteria
-				if (result.result === 1 && !item.getFlag(0x10) && Item.hasTier(item)) {
+				if (result.result === 1 && !item.getFlag(0x10) && (Item.hasTier(item) || Item.hasMercTier(item))) {
 					result.result = -1;
 				}
 
