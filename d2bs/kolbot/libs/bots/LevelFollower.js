@@ -159,9 +159,9 @@ function LevelFollower(){
 				Pather.teleport=false;
 				if(me.classid==1){													//Sorc keep distance
 					delay(250);
-					Pather.moveToUnit(LeaderUnit,rand(-3,3),rand(-3,3),true,true);
+					Pather.moveToUnit(LeaderUnit,rand(-5,3),rand(-5,3),true,true);
 				}else{
-					Pather.moveToUnit(LeaderUnit,rand(-3,3),rand(-3,3),true,true);	//Otherwise copy Leader's movements
+					Pather.moveToUnit(LeaderUnit,rand(-5,3),rand(-5,3),true,true);	//Otherwise copy Leader's movements
 				}
 				Attack.clear(20);
 				delay(500);

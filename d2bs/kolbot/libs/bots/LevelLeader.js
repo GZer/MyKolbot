@@ -5,7 +5,7 @@
 */
 
 function LevelLeader(){
-	var ActNumber,QuestNumber,LevelArea;
+	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
 	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,28,29,32,35,36],
 	[47,48,41,42,56,57,43,44,50,52,54,46,72,71,70,66,67,68,69],
 	[76,77,78,79,80,81,82,100,101],
@@ -688,9 +688,11 @@ function LevelLeader(){
 				}catch(err){
 					say("Failed to make portal");
 				}
-				while(!this.playerClose()){
+				WaitingLimit=0;
+				while(!this.playerClose() && WaitingLimit<7){
 					say("Waiting");
 					delay(10000);
+					WaitingLimit++;
 				}
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
 				Attack.clearLevel(0);
