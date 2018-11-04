@@ -501,7 +501,7 @@ function LevelLeader(){
 		var MyParty=getParty();
 		if(MyParty){
 			do{
-				if(MyParty.name != me.name && getDistance(me,MyParty) < 9){//MyParty.area==me.area
+				if(MyParty.name != me.name && MyParty.area==me.area){//MyParty.area==me.area
 					return true;
 				}
 			}while(MyParty.getNext());

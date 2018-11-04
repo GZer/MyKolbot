@@ -27,7 +27,6 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
-				Config.PickitFiles.push("Runes.nip");
 				Config.PickitFiles.push("AutoEquip/Hammerdin.xpac.nip");
 				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
@@ -55,8 +54,8 @@ var AutoBuildTemplate={
 				Config.PickRange=60;
 				Config.BossPriority=true;
 				Config.Leader="Zer_Shout";
-				Scripts.LevelLeader=true;
-				Scripts.LevelFollower=false;
+				Scripts.LevelLeader=false;
+				Scripts.LevelFollower=true;
 			}
 		},
 
@@ -177,9 +176,6 @@ var AutoBuildTemplate={
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,98,97,99,0,0];
-				Config.MakeRunewords=true;
-				Config.Runewords.push([Runeword.Insight,"Voulge"]);
-				Config.Runewords.push([Runeword.AncientsPledge,"Large Shield"]);
 			}
 		},
 

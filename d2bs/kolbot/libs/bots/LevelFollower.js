@@ -120,7 +120,7 @@ function LevelFollower(){
 		Town.doChores();
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
-		if (NPC.openMenu()){
+		if (NPC && NPC.openMenu()){
 			me.cancel();
 		}else{
 			say("Failed talking to "+NPCName);
@@ -158,10 +158,10 @@ function LevelFollower(){
 				// say("x:"+moveX+" y:"+moveY);
 				Pather.teleport=false;
 				if(me.classid==1){													//Sorc keep distance
-					delay(200);
-					Pather.moveToUnit(LeaderUnit,rand(-2,2),rand(-2,2),true,true);
+					delay(250);
+					Pather.moveToUnit(LeaderUnit,rand(-3,3),rand(-3,3),true,true);
 				}else{
-					Pather.moveToUnit(LeaderUnit,rand(-2,2),rand(-2,2),true,true);	//Otherwise copy Leader's movements
+					Pather.moveToUnit(LeaderUnit,rand(-3,3),rand(-3,3),true,true);	//Otherwise copy Leader's movements
 				}
 				Attack.clear(20);
 				delay(500);
