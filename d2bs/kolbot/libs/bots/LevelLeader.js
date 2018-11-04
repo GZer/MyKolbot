@@ -74,8 +74,7 @@ function LevelLeader(){
 			case 6://Countess
 				Pather.journeyTo(6);
 				Pather.moveToExit([20,21,22,23,24,25],true,true);
-				this.clearToQuestLocation(25,2,580);
-				this.killQuestBoss(710);
+				Attack.clearLevel(0);
 				Town.doChores();
 			break;
 			case 27://Smith
