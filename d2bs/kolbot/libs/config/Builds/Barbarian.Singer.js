@@ -160,7 +160,6 @@ var AutoBuildTemplate={
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
-				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
 				//Armor
 				Config.Runewords.push([Runeword.Stealth,"Quilted Armor"]);
 				Config.Runewords.push([Runeword.Stealth,"Leather Armor"]);

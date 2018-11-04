@@ -25,7 +25,7 @@
 
 //======================RUNEWORDS======================//
 //Spirit
-([Name]==CrystalSword || [Name]==BroadSword || [Name]==LongSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
+([Name]==CrystalSword || [Name]==BroadSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
 
 //Stealth
 ([Name]==QuiltedArmor || [Name]==LeatherArmor || [Name]==HardLeatherArmor || [Name]==StuddedLeather) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
