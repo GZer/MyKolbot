@@ -291,7 +291,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [95],//Revive
+			SkillPoints: [95,91],//Revive,Lower Resist
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.Revives="max";
@@ -300,7 +300,7 @@ var AutoBuildTemplate={
 		},
 
 	31: 	{
-			SkillPoints: [91],//Lower Resist
+			SkillPoints: [70],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.Curse[0]=91;

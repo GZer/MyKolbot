@@ -61,7 +61,7 @@ var AutoBuildTemplate={
 		},
 		
 	2: 	{
-			SkillPoints: [130],//Howl
+			SkillPoints: [-1],//Howl
 			StatPoints: [0,3,3,3,3],//Str+1,Vitality+4
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -69,7 +69,7 @@ var AutoBuildTemplate={
 		},
 		
 	3: 	{
-			SkillPoints: [130],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -77,7 +77,7 @@ var AutoBuildTemplate={
 		},
 		
 	4: 	{
-			SkillPoints: [130],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -85,7 +85,7 @@ var AutoBuildTemplate={
 		},
 
 	5: 	{
-			SkillPoints: [130],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -379,7 +379,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [155],//Battle Command
+			SkillPoints: [155,153,154],//Battle Command,Natural Resistance,War Cry
 			StatPoints: [0,3,3,3,3],	
 			Update: function (){
 				Config.MinColumn=[4,4,4,4];
@@ -387,7 +387,7 @@ var AutoBuildTemplate={
 		},
 
 	31: 	{
-			SkillPoints: [153],//Natural Resistance
+			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[146,132,0,0,0,0,0];
@@ -395,7 +395,7 @@ var AutoBuildTemplate={
 		},
 
 	32: 	{
-			SkillPoints: [154],//War Cry
+			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[146,154,0,132,0,0,0];

@@ -285,7 +285,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [124],//Redemption
+			SkillPoints: [124,125],//Redemption,Salvation
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -293,7 +293,7 @@ var AutoBuildTemplate={
 		},
 
 	31: 	{
-			SkillPoints: [125],//Salvation
+			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,125,101,120,0,120];
