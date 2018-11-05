@@ -67,14 +67,14 @@ var AutoBuildTemplate={
 			}
 		},
 	3: 	{
-			SkillPoints: [222],//Poison Creeper
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 	4: 	{
-			SkillPoints: [222],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -82,7 +82,7 @@ var AutoBuildTemplate={
 		},
 
 	5: 	{
-			SkillPoints: [222],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -93,7 +93,7 @@ var AutoBuildTemplate={
 			SkillPoints: [226],//Oak Sage
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.SummonSpirit = 1;
 			}
 		},
 
@@ -109,7 +109,7 @@ var AutoBuildTemplate={
 			SkillPoints: [227],//Summon Spirit Wolf
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[230,230,0,230,0,0,0];
+				Config.SummonAnimal = 1;
 			}
 		},
 

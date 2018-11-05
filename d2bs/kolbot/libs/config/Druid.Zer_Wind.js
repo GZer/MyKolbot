@@ -461,7 +461,7 @@ function LoadConfig(){
 	Config.SummonRaven = false;
 	Config.SummonAnimal = 1;//0 = disabled, 1 or "Spirit Wolf" = summon spirit wolf, 2 or "Dire Wolf" = summon dire wolf, 3 or "Grizzly" = summon grizzly
 	Config.SummonSpirit = 1;//0 = disabled, 1 / "Oak Sage", 2 / "Heart of Wolverine", 3 / "Spirit of Barbs"
-	Config.SummonVine = 1;//0 = disabled, 1 / "Poison Creeper", 2 / "Carrion Vine", 3 / "Solar Creeper"
+	Config.SummonVine = 0;//0 = disabled, 1 / "Poison Creeper", 2 / "Carrion Vine", 3 / "Solar Creeper"
 
 
 	//AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )

@@ -69,7 +69,7 @@ var AutoBuildTemplate={
 		},
 		
 	3: 	{
-			SkillPoints: [130],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -77,7 +77,7 @@ var AutoBuildTemplate={
 		},
 		
 	4: 	{
-			SkillPoints: [130],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -85,7 +85,7 @@ var AutoBuildTemplate={
 		},
 
 	5: 	{
-			SkillPoints: [130],
+			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,0,0,0,0,0,0];

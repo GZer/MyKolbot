@@ -84,7 +84,7 @@ var AutoBuildTemplate={
 		},
 
 	5: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,98,97,99,0,0];
@@ -108,7 +108,7 @@ var AutoBuildTemplate={
 		},
 
 	8: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,98,97,99,0,0];
@@ -116,7 +116,7 @@ var AutoBuildTemplate={
 		},
 
 	9: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,98,97,99,0,0];
@@ -124,7 +124,7 @@ var AutoBuildTemplate={
 		},
 
 	10: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,98,97,99,0,0];
@@ -132,7 +132,7 @@ var AutoBuildTemplate={
 		},
 
 	11: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.MinColumn=[3,3,3,3];
@@ -164,7 +164,7 @@ var AutoBuildTemplate={
 		},
 
 	15: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"), 1);
@@ -172,7 +172,7 @@ var AutoBuildTemplate={
 		},
 
 	16: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,98,97,99,0,0];
@@ -180,7 +180,7 @@ var AutoBuildTemplate={
 		},
 
 	17: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,98,97,99,0,0];

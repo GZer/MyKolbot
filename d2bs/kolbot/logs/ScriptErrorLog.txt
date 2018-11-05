@@ -8,3 +8,5 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170, @levelfollower.js:107, @levelfollower.js:123
 [19:09:16] <Singer> Error in LevelLeader (pather.js line 1016): makePortal: No TP tomes.
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:109, Town.goToTown@town.js:2182, Pather.makePortal@pather.js:1016
+[20:11:30] <Singer> Error in LevelLeader (pather.js line 1016): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:700, @levelleader.js:33, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2182, Pather.makePortal@pather.js:1016
