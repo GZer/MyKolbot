@@ -179,14 +179,14 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Lore,"Skull Cap"]);
 				Config.Runewords.push([Runeword.Lore,"Helm"]);
 				Config.Runewords.push([Runeword.Lore,"Wolf Head"]);
-				Config.Runewords.push([Runeword.Lore,"Hawk Head"]);
+				Config.Runewords.push([Runeword.Lore,"Hawk Helm"]);
 				Config.Runewords.push([Runeword.Lore,"Antlers"]);
 				Config.Runewords.push([Runeword.Lore,"Falcon Mask"]);
 				Config.Runewords.push([Runeword.Lore,"Spirit Mask"]);
 				Config.Runewords.push([Runeword.Lore,"Jawbone Cap"]);
 				Config.Runewords.push([Runeword.Lore,"Fanged Helm"]);
 				Config.Runewords.push([Runeword.Lore,"Horned Helm"]);
-				Config.Runewords.push([Runeword.Lore,"Assualt Helmet"]);
+				Config.Runewords.push([Runeword.Lore,"Assault Helmet"]);
 				Config.Runewords.push([Runeword.Lore,"Avenger Guard"]);
 				//Shield
 				Config.Runewords.push([Runeword.AncientsPledge,"Large Shield"]);
