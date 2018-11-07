@@ -118,17 +118,17 @@ var Town = {
 	},
 
 	checkQuestItems: function () {
-		var i, npc, item;
+		var i, NPC, item;
 
 		// golden bird stuff
 		if (me.getItem(546)) {
 			this.goToTown(3);
 			this.move("meshif");
 
-			npc = getUnit(1, "meshif");
+			NPC = getUnit(1, "meshif");
 
-			if (npc) {
-				npc.openMenu();
+			if (NPC) {
+				NPC.openMenu();
 				me.cancel();
 			}
 		}
@@ -137,11 +137,11 @@ var Town = {
 			this.goToTown(3);
 			this.move("alkor");
 
-			npc = getUnit(1, "alkor");
+			NPC = getUnit(1, "alkor");
 
-			if (npc) {
+			if (NPC) {
 				for (i = 0; i < 2; i += 1) {
-					npc.openMenu();
+					NPC.openMenu();
 					me.cancel();
 				}
 			}
@@ -166,9 +166,47 @@ var Town = {
 			}
 
 			item.interact();
+			
+			try{
+				this.goToTown(2);
+				Town.move("Atma");
+				NPC=getUnit(1,"Atma");
+				if(NPC && NPC.openMenu()){
+					me.cancel();
+				}
+			}catch(err){
+				D2Bot.printToConsole("No Atma Discount");
+			}
+		}
+		
+		//Cain for Access to Durance
+		if(me.getQuest(21, 3)){
+			try{
+				Town.move("Cain");
+				NPC=getUnit(1,"Deckard Cain");
+				if(NPC && NPC.openMenu()){
+					me.cancel();
+				}
+			}catch(err){
+				D2Bot.printToConsole("Talk to Cain after Travincal Failed");
+			}
 		}
 
-		//ScrollOfResistance
+		
+		//Cain for Access to Durance
+		if(me.getQuest(36, 3)){
+			try{
+				Town.move("Qual-Kehk");
+				NPC=getUnit(1,"Qual-Kehk");
+				if(NPC && NPC.openMenu()){
+					me.cancel();
+				}
+			}catch(err){
+				D2Bot.printToConsole("No Free Runes");
+			}
+		}
+		
+		//Scroll Of Resistance
 		if (me.getItem(646)) {
 			item = me.getItem(646);
 

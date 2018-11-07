@@ -28,6 +28,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("AutoEquip/Meteor.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
