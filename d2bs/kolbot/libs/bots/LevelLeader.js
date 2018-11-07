@@ -674,7 +674,7 @@ function LevelLeader(){
 	};
 
 	Town.move("portalspot");
-	delay(7000);
+	delay(3000);
 	Pather.getWP(me.area);
 	delay(1000);
 	Town.doChores();
