@@ -472,7 +472,9 @@ function LevelLeader(){
 	
 	this.talkToNPC=function(NPCName){
 		var NPC;
-		Town.doChores();
+		if(!me.inTown){
+			Town.goToTown();
+		}
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){
@@ -683,9 +685,9 @@ function LevelLeader(){
 	for(ActNumber; ActNumber<LevelingAreas.length; ActNumber++){
 		if(me.act!=ActNumber+1){
 			try{
-				Pather.useWaypoint(LevelingAreas[ActNumber][0]);
-			}catch(err){
 				this.ChangeAct(ActNumber+1);
+			}catch(err){
+				Pather.useWaypoint(LevelingAreas[ActNumber][0]);
 			}
 		}
 		for(LevelArea=0; LevelArea<LevelingAreas[ActNumber].length; LevelArea++){
