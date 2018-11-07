@@ -7,14 +7,14 @@
 function LevelFollower(){	
 	var LeaderUnit,WhereIsLeader;
 		
-	this.ChangeAct=function (DestinationAct){
+	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
 		try{
-			switch (DestinationAct){
+			switch(DestinationAct){
 			case 2:
 				Town.move("Warriv");
 				NPC=getUnit(1,"Warriv");
-				if (NPC.openMenu()){
+				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
 				}
 				break;
@@ -24,7 +24,7 @@ function LevelFollower(){
 				Town.move("portalspot");
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
-				if (NPC.openMenu()){
+				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D38);
 				}
 				break;
@@ -39,7 +39,7 @@ function LevelFollower(){
 				Pather.journeyTo(103);
 				this.talkToNPC("Tyrael");			
 				delay(1000);
-				if (getUnit(2,566)){
+				if(getUnit(2,566)){
 					me.cancel();
 					Pather.useUnit(2,566,109);
 				}else{
@@ -47,10 +47,10 @@ function LevelFollower(){
 				}
 				break;
 			}
-			while (!me.area){
+			while(!me.area){
 				delay(500);
 			}
-			if (me.area==preArea){
+			if(me.area==preArea){
 				me.cancel();
 				say("Act change failed.");
 				return false;
@@ -58,7 +58,7 @@ function LevelFollower(){
 			say("Act change done.");
 			Town.doChores();
 			Town.move("portalspot");
-		}catch (err){
+		}catch(err){
 			return false;
 		}
 		return true;
@@ -66,7 +66,7 @@ function LevelFollower(){
 	
 	this.goFindLeader=function(LeaderArea){
 		var LeaderAct;
-		if(LeaderArea) {
+		if(LeaderArea){
 			if(LeaderArea <= 39){LeaderAct=1;}
 			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct=2;}
 			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct=3;}
@@ -104,7 +104,6 @@ function LevelFollower(){
 				Pather.moveTo(WhereIsLeader.x-2,WhereIsLeader.y-2,2,true);			//Find leader if not in town
 			}else{
 				Town.doChores();
-				this.talkToNPC("Deckard Cain");
 				delay(500);
 				Town.move("portalspot");
 			}
@@ -115,12 +114,12 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.talkToNPC=function (NPCName){
+	this.talkToNPC=function(NPCName){
 		var NPC;
 		Town.doChores();
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
-		if (NPC && NPC.openMenu()){
+		if(NPC && NPC.openMenu()){
 			me.cancel();
 		}else{
 			say("Failed talking to "+NPCName);
@@ -152,21 +151,21 @@ function LevelFollower(){
 	LeaderUnit=this.getLeaderUnit(Config.Leader);
 
 	while(LeaderUnit){
-		if (copyUnit(LeaderUnit).x){
-			if(getDistance(me,LeaderUnit) > 6){
-				// var moveX=copyUnit(LeaderUnit).x-me.x, moveY=copyUnit(LeaderUnit).y-me.y;
+		if(copyUnit(LeaderUnit).x){
+			if(getDistance(me,LeaderUnit)> 6){
+				// var moveX=copyUnit(LeaderUnit).x-me.x,moveY=copyUnit(LeaderUnit).y-me.y;
 				// say("x:"+moveX+" y:"+moveY);
 				Pather.teleport=false;
 				if(me.classid==1){													//Sorc keep distance
 					delay(250);
-					Pather.moveToUnit(LeaderUnit,rand(-5,3),rand(-5,3),true,true);
+					Pather.moveToUnit(LeaderUnit,rand(-5,5),rand(-5,5),true,true);
 				}else{
-					Pather.moveToUnit(LeaderUnit,rand(-5,3),rand(-5,3),true,true);	//Otherwise copy Leader's movements
+					Pather.moveToUnit(LeaderUnit,rand(-3,3),rand(-3,3),true,true);	//Otherwise copy Leader's movements
 				}
 				Attack.clear(20);
 				delay(500);
 			}
-		}else {
+		}else{
 			this.goFindLeader(WhereIsLeader.area);
 		}
 		delay(1000);

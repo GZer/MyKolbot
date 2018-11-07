@@ -1,55 +1,48 @@
 //======================RUNES======================//
-[Name] == ElRune # # [MaxQuantity] == 3
-[Name] == EldRune # # [MaxQuantity] == 3
-[Name] == TirRune # # [MaxQuantity] == 3
-[Name] == NefRune # # [MaxQuantity] == 3
-[Name] == EthRune # # [MaxQuantity] == 3
-[Name] == IthRune # # [MaxQuantity] == 3
-[Name] == TalRune # # [MaxQuantity] == 3
-[Name] == RalRune # # [MaxQuantity] == 3
-[Name] == OrtRune # # [MaxQuantity] == 3
-[Name] == ThulRune # # [MaxQuantity] == 3
-[Name] == AmnRune # # [MaxQuantity] == 3
-[Name] == SolRune # # [MaxQuantity] == 3
-[Name] == ShaelRune # # [MaxQuantity] == 3
-[Name] == DolRune # # [MaxQuantity] == 3
-[Name] == HelRune # # [MaxQuantity] == 3
-[Name] == IoRune # # [MaxQuantity] == 3
-[Name] == LumRune # # [MaxQuantity] == 3
-[Name] == KoRune # # [MaxQuantity] == 3
-[Name] == FalRune # # [MaxQuantity] == 3
-[Name] == LemRune # # [MaxQuantity] == 3
-[Name] == PulRune # # [MaxQuantity] == 5
-[Name] == UmRune # # [MaxQuantity] == 5
+[Name]==ElRune # # [MaxQuantity]==3
+[Name]==EldRune # # [MaxQuantity]==3
+[Name]==TirRune # # [MaxQuantity]==3
+[Name]==NefRune # # [MaxQuantity]==3
+[Name]==EthRune # # [MaxQuantity]==3
+[Name]==IthRune # # [MaxQuantity]==3
+[Name]==TalRune # # [MaxQuantity]==3
+[Name]==RalRune # # [MaxQuantity]==3
+[Name]==OrtRune # # [MaxQuantity]==3
+[Name]==ThulRune # # [MaxQuantity]==3
+[Name]==AmnRune # # [MaxQuantity]==3
+[Name]==SolRune # # [MaxQuantity]==3
+[Name]==ShaelRune # # [MaxQuantity]==3
+[Name]==DolRune # # [MaxQuantity]==3
+[Name]==HelRune # # [MaxQuantity]==3
+[Name]==IoRune # # [MaxQuantity]==3
+[Name]==LumRune # # [MaxQuantity]==3
+[Name]==KoRune # # [MaxQuantity]==3
+[Name]==FalRune # # [MaxQuantity]==3
+[Name]==LemRune # # [MaxQuantity]==3
+[Name]==PulRune # # [MaxQuantity]==5
+[Name]==UmRune # # [MaxQuantity]==5
 [Name] >= MalRune && [Name] <= ZodRune
 
 //======================RUNEWORDS======================//
 //Spirit
-([Name]==CrystalSword || [Name]==BroadSword || [Name]==LongSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
+([Name]==CrystalSword || [Name]==BroadSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
 
 //Stealth
-([Name]==QuiltedArmor || [Name]==LeatherArmor || [Name]==HardLeatherArmor || [Name]==StuddedLeather) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
-//Lionheart or Myth or Enlightenment or Enigma
-([Name]==GhostArmor || [Name]==SerpentskinArmor || [Name]==Mageplate) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
+([Name]==HardLeatherArmor || [Name]==BreastPlate) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
+//Myth
+([Name]==BreastPlate || [Name]==LightPlate) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
+//Enlightenment or Enigma
+[Name]==MagePlate && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
 
 //Lore
-([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality] <= Superior # ([SkillTornado]+[SkillOakSage] >= 1 || [SkillBattleOrders]+[SkillShout] >= 1) && [Sockets]==2 # [MaxQuantity]==1
+([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality] <= Superior # ([SkillTornado]+[SkillOakSage] >= 2 || [SkillBattleOrders]+[SkillShout] >= 2) && [Sockets]==2 # [MaxQuantity]==1
 ([Name]==Cap || [Name]==SkullCap || [Name]==Helm) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
 
-//Ancients Pledge
-([Name]==LargeShield || [Name]==KiteShield) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
-//Spirit
-[Type]==AuricShields && [Flag]!=Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 30 && [Sockets]==4 # [MaxQuantity]==2
-[Type]==Shield && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
 //Splendor
 ([Name]==BoneShield || [Name]==SmallShield) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
-
-//======================MERCGEAR======================//
-//Smoke
-[Type]==Armor && [Flag]==Ethereal && [Quality] <= Superior # [Defense] >= 90 && [Sockets]==2 # [MaxQuantity]==1
-
-//Nadir
-[Type]==Helm && [Flag]==Ethereal && [Quality] <= Superior # [Defense] >= 23 && [Sockets]==2 # [MaxQuantity]==1
+//Spirit
+[Type]==AuricShields && [Flag]!=Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 30 && [Sockets]==4 # [MaxQuantity]==2
+[Name]==Monarch && [Flag]!=Ethereal && [Quality]<= Superior # [EnhancedDefense] >= 1 && [Sockets]==4 # [MaxQuantity]==2
 
 //Insight or Infinity
-[Type]==Polearm && [Flag]==Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==1
+[Type]==Polearm && [Flag]==Ethereal && [Quality] == Superior # [Sockets]==4 # [MaxQuantity]==1

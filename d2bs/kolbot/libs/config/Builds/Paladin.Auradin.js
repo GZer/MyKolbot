@@ -28,6 +28,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("AutoEquip/Auradin.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
@@ -285,7 +286,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [124],//Redemption
+			SkillPoints: [124,125],//Redemption,Salvation
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -293,7 +294,7 @@ var AutoBuildTemplate={
 		},
 
 	31: 	{
-			SkillPoints: [125],//Salvation
+			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,125,101,120,0,120];

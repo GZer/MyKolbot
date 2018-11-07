@@ -150,6 +150,9 @@ function locationAction() {
 				print(err+" "+getLocation());
 			}
 		break;
+		case 16:// Logging in Select
+			delay(500);
+		break;
 		case 39:// Other Multiplayer Screen
 			ControlAction.click(6, 264, 350, 272, 35);//TCP/IP Game
 			delay(500);

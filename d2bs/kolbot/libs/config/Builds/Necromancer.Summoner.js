@@ -28,6 +28,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("AutoEquip/Summoner.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
@@ -291,7 +292,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [95],//Revive
+			SkillPoints: [95,91],//Revive,Lower Resist
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.Revives="max";
@@ -300,7 +301,7 @@ var AutoBuildTemplate={
 		},
 
 	31: 	{
-			SkillPoints: [91],//Lower Resist
+			SkillPoints: [70],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.Curse[0]=91;

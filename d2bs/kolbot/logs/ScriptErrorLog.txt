@@ -1,0 +1,16 @@
+[18:16:04] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[18:18:53] <Singer> Error in LevelLeader (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:707, @levelleader.js:145, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[18:29:54] <Singer> Error in LevelLeader (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:707, @levelleader.js:145, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[18:33:00] <Singer> Error in LevelLeader (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:707, @levelleader.js:145, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[18:35:45] <Singer> Error in LevelLeader (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:707, @levelleader.js:145, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[18:37:07] <Singer> Error in LevelLeader (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:707, @levelleader.js:145, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[19:13:11] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 38
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169, @levelfollower.js:98, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[20:04:04] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 45
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169, @levelfollower.js:98, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
