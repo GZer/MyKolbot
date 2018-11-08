@@ -6,7 +6,7 @@
 
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
-	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,28,29,32,35,36],
+	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,29,32,34,35,36],
 	[47,48,41,42,56,57,43,44,50,52,54,46,72,71,70,66,67,68,69],
 	[76,77,78,79,80,81,82,100,101],
 	[104,105,106,107],
@@ -88,8 +88,9 @@ function LevelLeader(){
 				Pather.moveToExit(37,true,true);
 				Pather.moveTo(22582,9612,2,true,true);
 				Pather.makePortal();
-				Pather.moveTo(22480,9570,2,true,true);
-				Pather.moveTo(22549,9520,2,true,true);
+				Pather.moveTo(22522,9653,2,true,true);
+				Pather.moveTo(22544,9597,2,true,true);
+				Pather.makePortal();
 				this.killQuestBoss(156);
 				Pickit.pickItems();
 				delay(5000);
@@ -616,15 +617,14 @@ function LevelLeader(){
 	};
 		
 	this.getA2Merc=function(){
-		var Griez=getUnit(1,"Greiz")//,Lines,i,Type;
+		Pather.getWP(me.area);
+		Town.move("Griez");
+		var Griez=getUnit(1,"Greiz"),Lines,i,Type;
 		var MercTypes=["Combat","Defensive","Offensive"];
-		Town.doChores();
 		if(!me.getMerc()&& !me.mercrevivecost){
-			Town.move("Griez");
 			if(Griez && Griez.openMenu()){
 				Misc.useMenu(0x0D45);
 				//Try just force a click to hire the first A2 Merc
-				clickItem(1,400,320);
 				// Lines=getDialogLines();
 				// if(!Lines){
 					// say("No Dailog Lines");
@@ -682,11 +682,7 @@ function LevelLeader(){
 	
 	for(ActNumber; ActNumber<LevelingAreas.length; ActNumber++){
 		if(me.act!=ActNumber+1){
-			try{
-				Pather.useWaypoint(LevelingAreas[ActNumber][0]);
-			}catch(err){
-				this.ChangeAct(ActNumber+1);
-			}
+			this.ChangeAct(ActNumber+1);
 		}
 		for(LevelArea=0; LevelArea<LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){

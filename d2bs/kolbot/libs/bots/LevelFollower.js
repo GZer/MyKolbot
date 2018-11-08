@@ -17,6 +17,8 @@ function LevelFollower(){
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
 				}
+				delay(2000);
+				//this.getA2Merc();
 				break;
 			case 3:
 				Pather.journeyTo(40);
@@ -74,9 +76,8 @@ function LevelFollower(){
 			else{LeaderAct=5;}
 			if(LeaderAct != me.act){												//Make sure we are in the same act
 				try{
-					if(Pather.useWaypoint(LeaderArea)){
-						delay(200);
-					}
+					Pather.useWaypoint(LeaderArea);
+					delay(200);
 				}catch(er){
 					this.ChangeAct(LeaderAct);
 				}
@@ -140,6 +141,8 @@ function LevelFollower(){
 	};
 	
 	Town.doChores();
+	Town.move("portalspot");
+	Pather.getWP(me.area);
 	Town.move("portalspot");
 	WhereIsLeader=getParty(Config.Leader);
 	
