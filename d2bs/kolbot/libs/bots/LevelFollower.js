@@ -146,10 +146,15 @@ function LevelFollower(){
 	Town.move("portalspot");
 	WhereIsLeader=getParty(Config.Leader);
 	
+	var count=0;
 	while(!this.getLeaderUnit(Config.Leader)){										//Loop to ensure leader is assigned
-		delay(500);
+		delay(1000);
 		say("Finding Leader");
 		this.goFindLeader(WhereIsLeader.area);
+		count++;
+		if(count>60){
+			quit();
+		}
 	}	
 	LeaderUnit=this.getLeaderUnit(Config.Leader);
 
