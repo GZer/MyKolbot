@@ -54,7 +54,7 @@ var AutoBuildTemplate={
 				Config.UseMP=3;
 				Config.UseRejuvHP=25;
 				Config.PickRange=30;
-				Config.MaxGameTime=10800;
+				Config.MaxGameTime=3600;//Only run for an hour in case of failure
 				Config.BossPriority=true;
 				//Config.Leader="PapaBear";
 				Scripts.LevelLeader=true;
@@ -269,7 +269,7 @@ var AutoBuildTemplate={
 		},
 
 	19: 	{
-			SkillPoints: [145,138],//Iron Skin
+			SkillPoints: [145],//Iron Skin
 			StatPoints: [0,3,3,3,3],	
 			Update: function(){
 				Config.AttackSkill=[0,132,0,0,0,0,0];
@@ -277,7 +277,7 @@ var AutoBuildTemplate={
 		},
 
 	20: 	{
-			SkillPoints: [146,138],//Battle Cry
+			SkillPoints: [146],//Battle Cry
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[146,132,0,0,0,0,0];
@@ -335,7 +335,7 @@ var AutoBuildTemplate={
 		},
 
 	27: 	{
-			SkillPoints: [149,138],
+			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[146,132,0,0,0,0,0];

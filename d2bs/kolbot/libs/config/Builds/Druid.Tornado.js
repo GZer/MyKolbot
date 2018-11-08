@@ -166,7 +166,7 @@ var AutoBuildTemplate={
 			SkillPoints: [226],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"), 1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"),1);
 			}
 		},
 
@@ -366,7 +366,7 @@ var AutoBuildTemplate={
 			SkillPoints: [245],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre40.nip"), 1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre40.nip"),1);
 			}
 		},
 

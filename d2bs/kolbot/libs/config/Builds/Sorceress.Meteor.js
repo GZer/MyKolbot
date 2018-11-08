@@ -62,7 +62,7 @@ var AutoBuildTemplate={
 		
 	2: 	{
 			SkillPoints: [37],//Warmth
-			StatPoints: [0,1,1,3,3],//Str, Vit + 1 & Energy +2
+			StatPoints: [0,1,1,3,3],//Str,Vit + 1 & Energy +2
 			Update: function (){
 				Config.StaticList=[250,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,723,724,725,726,727
 				,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756
@@ -174,7 +174,7 @@ var AutoBuildTemplate={
 			SkillPoints: [47],
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"), 1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"),1);
 			}	
 		},
 
@@ -256,7 +256,7 @@ var AutoBuildTemplate={
 		},
 
 	25: 	{
-			SkillPoints: [58],//Energy Shield
+			SkillPoints: [56,58],//Energy Shield
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
 				Config.AttackSkill=[42,56,47,56,47,53,49];
@@ -296,7 +296,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [61],//Fire Mastery
+			SkillPoints: [56,61],//Fire Mastery
 			StatPoints: [0,1,1,3,3],	
 			Update: function (){
 				Config.MinColumn=[4,4,4,4];
@@ -379,7 +379,7 @@ var AutoBuildTemplate={
 			SkillPoints: [56],
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre40.nip"), 1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre40.nip"),1);
 			}
 		},
 

@@ -168,7 +168,7 @@ var AutoBuildTemplate={
 			SkillPoints: [99],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"), 1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"),1);
 			}
 		},
 
@@ -197,7 +197,7 @@ var AutoBuildTemplate={
 		},
 
 	19: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,99,97,99,0,0];
@@ -205,7 +205,7 @@ var AutoBuildTemplate={
 		},
 
 	20: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.UseMerc=true;
@@ -213,7 +213,7 @@ var AutoBuildTemplate={
 		},
 
 	21: 	{
-			SkillPoints: [99],
+			SkillPoints: [-1],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,99,97,99,0,0];
@@ -237,7 +237,7 @@ var AutoBuildTemplate={
 		},
 
 	24: 	{
-			SkillPoints: [120],//Meditation
+			SkillPoints: [120,117],//Meditation,Holy Shield
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -246,7 +246,7 @@ var AutoBuildTemplate={
 		},
 
 	25: 	{
-			SkillPoints: [117],//Holy Shield
+			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -270,7 +270,7 @@ var AutoBuildTemplate={
 		},
 
 	28: 	{
-			SkillPoints: [104],//Defiance
+			SkillPoints: [104,120],//Defiance
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -278,7 +278,7 @@ var AutoBuildTemplate={
 		},
 
 	29: 	{
-			SkillPoints: [115],//Vigor
+			SkillPoints: [115,120],//Vigor
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -286,7 +286,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [124,125],//Redemption,Salvation
+			SkillPoints: [124,125,120],//Redemption,Salvation
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -369,7 +369,7 @@ var AutoBuildTemplate={
 			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre40.nip"), 1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre40.nip"),1);
 			}
 		},
 

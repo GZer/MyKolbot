@@ -472,9 +472,7 @@ function LevelLeader(){
 	
 	this.talkToNPC=function(NPCName){
 		var NPC;
-		if(!me.inTown){
-			Town.goToTown();
-		}
+		Town.doChores();
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){
@@ -674,7 +672,7 @@ function LevelLeader(){
 	};
 
 	Town.move("portalspot");
-	delay(3000);
+	delay(7000);
 	Pather.getWP(me.area);
 	delay(1000);
 	Town.doChores();
@@ -685,9 +683,9 @@ function LevelLeader(){
 	for(ActNumber; ActNumber<LevelingAreas.length; ActNumber++){
 		if(me.act!=ActNumber+1){
 			try{
-				this.ChangeAct(ActNumber+1);
-			}catch(err){
 				Pather.useWaypoint(LevelingAreas[ActNumber][0]);
+			}catch(err){
+				this.ChangeAct(ActNumber+1);
 			}
 		}
 		for(LevelArea=0; LevelArea<LevelingAreas[ActNumber].length; LevelArea++){
