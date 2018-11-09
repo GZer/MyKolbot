@@ -59,7 +59,9 @@
 //Amulets
 [Type]==Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxMana]+[MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1
 [Type]==Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 && [MaxMana]+[MaxHP] >= 10 && [Strength]+[Dexterity] >= 10 # [Tier]==2
-[Type]==Amulet && [Quality] >= Magic # [FCR] >= 10 && [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 3 # [Tier]==3
+[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 1 # [Tier]==3
+[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 1 && [FCR] >= 10 # [Tier]==4
+[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 2 && [FCR] >= 20 # [Tier]==5
 [Type]==Amulet && [Quality]==Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 60 # [Tier]==90
 [Type]==Amulet && [Quality]==Set # [SorceressSkills]==2 # [Tier]==95
 [Type]==Amulet && [Quality] >= Rare # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxMana]+[MaxHP] >= 10) && [FCR] >= 20 && [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 2 # [Tier]==99
