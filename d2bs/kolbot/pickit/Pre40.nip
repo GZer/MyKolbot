@@ -1,6 +1,6 @@
 //======================CHARMS======================//
-[Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>13 || [Mana]>19) && ([MaxHP]>16 || [Strength]+[Dexterity]>3)
-[Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>8 || [Mana]>8) && ([MaxHP]>11 || [Strength]+[Dexterity]>1)
+[Name]==LargeCharm #([FireResist]+[ColdResist]+[LightResist]>13 || [Mana]>19) &&([MaxHP]>16 || [Strength]+[Dexterity]>3)
+[Name]==SmallCharm #([FireResist]+[ColdResist]+[LightResist]>8 || [Mana]>8) &&([MaxHP]>11 || [Strength]+[Dexterity]>1)
 
 //======================ACCESSORIES======================//
 [Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 2

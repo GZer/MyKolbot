@@ -1,28 +1,28 @@
 //Weapon
 ([Type]==Wand || [Type]==Club || [Type]==Sword) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillTornado]+[SkillOakSage] >= 1 # [Tier]==1
-([Type]==Wand || [Type]==Club || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillTornado]+[SkillOakSage] >= 2 && ([FCR] >= 10 || [MaxMana]+[MaxHP] >= 5) # [Tier]==2
+([Type]==Wand || [Type]==Club || [Type]==Sword) && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [SkillTornado]+[SkillOakSage] >= 2 &&([FCR] >= 10 || [MaxMana]+[MaxHP] >= 5) # [Tier]==2
 [Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
 [Type]==Mace && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier]==99
 
 //Shield
 [Type]==Shield && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxMana]+[MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
+[Type]==Shield && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxMana]+[MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
 [Name]==Buckler && [Quality]==Set # # [Tier]==3
-[Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[SorceressSkills]+[ElementalSkillTab] >= 1 # [Tier]==4
+[Type]==Shield && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[SorceressSkills]+[ElementalSkillTab] >= 1 # [Tier]==4
 [Type]==Shield && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==99
 
 //Helm
 [Type]==Pelt && [Flag]!=Ethereal && [Quality] >= LowQuality # # [Tier]==1 && [MaxQuantity]==1
-([Type]==Pelt || [Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-([Type]==Pelt || [Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado] >= 2 # [Tier]==3
+([Type]==Pelt || [Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
+([Type]==Pelt || [Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado] >= 2 # [Tier]==3
 [Name]==Shako && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==90
-[Type]==Pelt && [Flag]!=Ethereal && ([Quality] >= Rare || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado] >= 4 # [Tier]==95
-[Type]==Pelt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado] >= 6 # [Tier]==99
+[Type]==Pelt && [Flag]!=Ethereal &&([Quality] >= Rare || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado] >= 4 # [Tier]==95
+[Type]==Pelt && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado] >= 6 # [Tier]==99
 
 //Armor
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Armor && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Armor && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 # [Tier]==3
+[Type]==Armor && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
+[Type]==Armor && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 # [Tier]==3
 [Name]==SplintMail && [Quality]==Set # # [Tier]==4
 [Name]==SerpentskinArmor && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==90
 [Type]==Armor && [Flag]!=Ethereal && [Flag]==Runeword # [DruidSkills] >= 2 # [Tier]==95
@@ -42,14 +42,14 @@
 
 //Belt
 [Type]==Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Belt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Belt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Belt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills] >= 1 # [Tier]==99
+[Type]==Belt && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
+[Type]==Belt && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Belt && [Flag]!=Ethereal &&([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills] >= 1 # [Tier]==99
 
 //Rings
 [Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1
 [Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 && [MaxHP] >= 10 && [Strength]+[Dexterity] >= 10 # [Tier]==2
-[Type]==Ring && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 10 # [Tier]==3
+[Type]==Ring && [Quality] >= Magic #([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 10 # [Tier]==3
 [Type]==Ring && [Quality]==Unique # [ItemAllSkills] >= 1 # [Tier]==99
 
 //Amulets
@@ -59,4 +59,4 @@
 [Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 && [FCR] >= 10 # [Tier]==4
 [Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 2 && [FCR] >= 20 # [Tier]==5
 [Type]==Amulet && [Quality]==Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 60 # [Tier]==90
-[Type]==Amulet && [Quality] >= Rare # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 20 && [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 # [Tier]==99
+[Type]==Amulet && [Quality] >= Rare #([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 20 && [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 # [Tier]==99

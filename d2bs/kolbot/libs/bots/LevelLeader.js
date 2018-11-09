@@ -134,7 +134,6 @@ function LevelLeader(){
 				Pather.getWP(74);
 				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
-				Pickit.pickItems();
 				Pather.journeyTo(46);
 			break;
 			case 69://Duriel
@@ -590,10 +589,10 @@ function LevelLeader(){
 		Pather.getWP(me.area);
 		Town.move("Griez");
 		var Griez=getUnit(1,"Greiz");
-		if(!me.getMerc() && !me.mercrevivecost){
+		if(!me.getMerc()&& !me.mercrevivecost){
 			if(Griez && Griez.openMenu()){
 				Misc.useMenu(0x0D45);
-				for (i=0x0; i<0xFFFF; i++) {
+				for(i=0x0; i<0xFFFF; i++){
 					try{if(Griez.useMenu(i)){print(i+" worked");delay(10000);break;}}
 					catch(err){delay(50);print(i+" failed");}
 				}
@@ -624,7 +623,7 @@ function LevelLeader(){
 		for(i=0; i<WaypointAreas.length; i++){
 			if(!getWaypoint(i)){
 				i--;
-				if(WaypointAreas[i]==74){UpToArea=54;}
+				if(WaypointAreas[i]==74 || WaypointAreas[i]==46){UpToArea=52;}
 				else if(WaypointAreas[i]==83){UpToArea=82;}
 				else{UpToArea=WaypointAreas[i];}
 				break;

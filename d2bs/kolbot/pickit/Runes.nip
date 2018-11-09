@@ -35,7 +35,7 @@
 [Name]==MagePlate && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
 
 //Lore
-([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality] <= Superior # ([SkillTornado]+[SkillOakSage] >= 2 || [SkillBattleOrders]+[SkillShout] >= 2) && [Sockets]==2 # [MaxQuantity]==1
+([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality] <= Superior #([SkillTornado]+[SkillOakSage] >= 2 || [SkillBattleOrders]+[SkillShout] >= 2) && [Sockets]==2 # [MaxQuantity]==1
 ([Name]==Cap || [Name]==SkullCap || [Name]==Helm) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
 
 //Splendor
