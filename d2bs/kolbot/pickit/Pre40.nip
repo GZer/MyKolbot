@@ -3,7 +3,7 @@
 [Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>8 || [Mana]>8) && ([MaxHP]>11 || [Strength]+[Dexterity]>1)
 
 //======================ACCESSORIES======================//
-[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills][ItemAddClassSkills]+[ItemAddSkillTab] >= 2
+[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 2
 
 //======================POTIONS======================//
 [Name]==ManaPotion

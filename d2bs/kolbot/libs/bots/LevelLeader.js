@@ -80,17 +80,9 @@ function LevelLeader(){
 				Town.doChores();
 			break;
 			case 36://Andariel
-<<<<<<< HEAD
-				Pather.moveToExit(37,true,true);
-				Pather.moveTo(22582,9612,2,true,true);
-				Pather.makePortal();
-				Pather.moveTo(22522,9653,2,true,true);
-				Pather.moveTo(22544,9597,2,true,true);
-=======
 				if(Pather.moveToExit(37,true,true)){Pather.makePortal();}
 				Pather.moveTo(22480,9570,2,true,true);
 				Pather.moveTo(22549,9520,2,true,true);
->>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 				Pather.makePortal();
 				this.killQuestBoss(156);
 				Pickit.pickItems();
@@ -557,7 +549,7 @@ function LevelLeader(){
 	
 	this.placeStaff=function(){
 		print("Placing Horadric Staff");
-		var Staff=me.getItem(91),item,Orifice=getUnit(2,152);
+		var Staff=me.getItem(92),item,Orifice=getUnit(2,152);
 		if(!Orifice){
 			return false;
 		}
@@ -578,13 +570,13 @@ function LevelLeader(){
 	
 	this.cubeStaff=function(){
 		print("Making Horadric Staff");
-		var Staff=me.getItem(521),Amulet=me.getItem(92);
+		var Staff=me.getItem(91),Amulet=me.getItem(520);
 		if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(43);}
 		if(Amulet){Storage.Cube.MoveTo(Amulet);}else{this.CheckQuests(44);}
 		Cubing.openCube();
 		transmute();
 		delay(1000);
-		Staff=me.getItem(91);
+		Staff=me.getItem(92);
 		if(!Staff){
 			return false;
 		}		
@@ -594,16 +586,6 @@ function LevelLeader(){
 	};
 		
 	this.getA2Merc=function(){
-<<<<<<< HEAD
-		Pather.getWP(me.area);
-		Town.move("Griez");
-		var Griez=getUnit(1,"Greiz"),Lines,i,Type;
-		var MercTypes=["Combat","Defensive","Offensive"];
-		if(!me.getMerc()&& !me.mercrevivecost){
-			if(Griez && Griez.openMenu()){
-				Misc.useMenu(0x0D45);
-				//Try just force a click to hire the first A2 Merc
-=======
 		print("Hiring Act2 Merc");
 		Pather.getWP(me.area);
 		Town.move("Griez");
@@ -615,7 +597,6 @@ function LevelLeader(){
 					try{if(Griez.useMenu(i)){print(i+" worked");delay(10000);break;}}
 					catch(err){delay(50);print(i+" failed");}
 				}
->>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 				// Lines=getDialogLines();
 				// if(!Lines){
 					// print("No Dailog Lines");
@@ -663,6 +644,7 @@ function LevelLeader(){
 	delay(7000);
 	Pather.getWP(me.area);
 	delay(1000);
+	// this.getA2Merc();
 	Town.doChores();
 	delay(1000);
 	this.checkProgress();

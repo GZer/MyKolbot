@@ -19,11 +19,7 @@ function LevelFollower(){
 					Misc.useMenu(0x0D36);
 				}
 				delay(2000);
-<<<<<<< HEAD
 				//this.getA2Merc();
-=======
-				this.getA2Merc();
->>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 				break;
 			case 3:
 				if(Pather.useWaypoint(75)){break;}
@@ -73,18 +69,10 @@ function LevelFollower(){
 			else{LeaderAct=5;}
 			if(LeaderAct != me.act){												//Make sure we are in the same act
 				try{
-<<<<<<< HEAD
-					Pather.useWaypoint(LeaderArea);
-					delay(200);
-				}catch(er){
-					this.ChangeAct(LeaderAct);
-				}
-=======
 					if(Pather.useWaypoint(LeaderArea)){
 						delay(200);
 					}
 				}catch(er){this.ChangeAct(LeaderAct);}
->>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 			}
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
@@ -147,23 +135,12 @@ function LevelFollower(){
 	Pather.getWP(me.area);
 	Town.move("portalspot");
 	WhereIsLeader=getParty(Config.Leader);
-<<<<<<< HEAD
-	
-	var count=0;
-	while(!this.getLeaderUnit(Config.Leader)){										//Loop to ensure leader is assigned
-		delay(1000);
-		say("Finding Leader");
-		this.goFindLeader(WhereIsLeader.area);
-		count++;
-		if(count>60){
-=======
 	var partyTimeout=0;
 	while(!this.getLeaderUnit(Config.Leader)){										//Loop to ensure leader is assigned
 		delay(1000);
 		say("Finding Leader "+partyTimeout++);
 		this.goFindLeader(WhereIsLeader.area);
 		if(partyTimeout>5){
->>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 			quit();
 		}
 	}	
