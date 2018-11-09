@@ -1,91 +1,10 @@
-//======================MISC======================//
-//Scrolls
-[Name]==ScrollOfTownPortal # # [MaxQuantity]==20
-//Quest Items
-[Name]==HoradricCube//Horadric Cube
-[Name]==BookOfSkill//Book Of Skill
-[Name]==ScrollOfResistance//Scroll Of Resistance
-[Name]==AJadeFigurine//Jade Figurine
-[Name]==TheGoldenBird//Golden Bird
-[Name]==PotionOfLife//Potion Of Life
-[Name]==BBB//Black Book
-[Name]==QF1//Khalim Flail
-[Name]==QEY//Khalim Eye
-[Name]==QHR//Khalim Heart
-[Name]==QBR//Khalim Brain
-[Name]==QF2//Khalim Will
-//Gold
-[Type]==Gold
-
 //======================CHARMS======================//
 [Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>13 || [Mana]>19) && ([MaxHP]>16 || [Strength]+[Dexterity]>3)
 [Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>8 || [Mana]>8) && ([MaxHP]>11 || [Strength]+[Dexterity]>1)
 
 //======================ACCESSORIES======================//
-[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAddSkillTab] >= 2
+[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills][ItemAddClassSkills]+[ItemAddSkillTab] >= 2
 
 //======================POTIONS======================//
-[Name]==ManaPotion || [Name]==GreaterManaPotion || [Name]==SuperManaPotion
-[Name]==HealingPotion || [Name]==GreaterHealingPotion || [Name]==SuperHealingPotion
-[Name]==RejuvenationPotion || [Name]==FullRejuvenationPotion
-
-//======================UNIQUES======================//
-//2h Weapon
-([Type]==Axe || [Type]==Bow || [Type]==Hammer || [Type]==Polearm || [Type]==Spear || [Type]==Staff || [Type]==Sword || [Type]==ThrowingAxe) && [Quality]==Unique # [MinDamage]>=1
-//1h Weapon
-([Type]==Club || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Orb || [Type]==Scepter || [Type]==ThrowingKnife || [Type]==Wand) && [Quality]==Unique # [MinDamage]>=1
-//Armor
-([Type]==AuricShields || [Type]==Armor || [Type]==Belt || [Type]==Boots || [Type]==Circlet || [Type]==Gloves || [Type]==Helm || [Type]==Pelt || [Type]==PrimalHelm || [Type]==Shield || [Type]==VoodooHeads) && [Quality]==Unique # [Defense]>=1
-//Accessory
-([Type]==Amulet || [Type]==Ring) && [Quality]==Unique
-//Charms
-([Name]==GrandCharm || [Name]==LargeCharm || [Name]==SmallCharm) && [Quality]==Unique
-
-//======================SETS======================//
-//Sigon's Steel
-[Name]==GreatHelm && [Quality]==Set # [Defense] >= 30															//Sigon's Visor
-[Name]==GothicPlate && [Quality]==Set																			//Sigon's Shelter
-[Name]==Greaves && [Quality]==Set # [Defense] >= 12																//Sigon's Sabot
-[Name]==TowerShield && [Quality]==Set # [Defense] >= 22															//Sigon's Guard
-[Name]==PlatedBelt && [Quality]==Set # [Defense] >= 8															//Sigon's Warp
-[Name]==Gauntlets && [Quality]==Set # [Defense] >= 12															//Sigon's Gage
-
-//Angelic Raiment
-[Name]==RingMail && [Quality]==Set																				//Angelic Mantle
-[Name]==Sabre && [Quality]==Set																					//Angelic Sickle
-[Type]==Ring && [Quality]==Set # [MaxHP] >= 20																	//Angelic Halo
-[Type]==Amulet && [Quality]==Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20							//Angelic Wings
-
-//Tal Rasha's Wrappings
-[Name]==SwirlingCrystal && [Quality]==Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rasha's Lidless Eye
-[Name]==DeathMask && [Quality]==Set # [Defense] >= 54															//Tal Rasha's Horadric Crest
-[Name]==LacqueredPlate && [Quality]==Set # [Defense] >= 433														//Tal Rasha's Guardianship
-[Name]==MeshBelt && [Quality]==Set # [Defense] >= 35 && [ItemMagicBonus] >= 10									//Tal Rasha's Fine-Spun Cloth
-[Type]==Amulet && [Quality]==Set # [SorceressSkills]==2															//Tal Rasha's Adjucation
-
-//Griswold's Legacy
-[Name]==OrnatePlate && [Quality]==Set # [Defense] >= 417														//Griswold's Heart
-[Name]==Corona && [Quality]==Set # [Defense] >= 249 && [ItemMagicBonus] >= 20									//Griswold's Valor
-[Name]==Caduceus && [Quality]==Set # [Sockets] >= 3 && [EnhancedDamage] >= 200									//Griswold's Redemption
-[Name]==VortexShield && [Quality]==Set # [Defense] >= 182														//Griswold's Honor
-
-//Aldur's Watchtower
-// [Name]==HuntersGuise && [Quality]==Set # [Defense] >= 157 && [ColdResist] >= 40								//Aldurs Stony Gaze
-// [Name]==BattleBoots && [Quality]==Set # [Defense] >= 39 && [FireResist] >= 40								//Aldur's Advance
-// [Name]==ShadowPlate && [Quality]==Set # [Defense] >= 746 && [LightResist] >= 40								//Aldur's Deception
-// [Name]==JaggedStar && [Quality]==Set # [Sockets] >= 2														//Aldur's Rhythm
-
-//Immortal King
-// [Name]==AvengerGuard && [Quality]==Set # [Defense] >= 160 && [ItemMagicBonus] >= 25							//Immortal King's Will
-// [Name]==OgreMaul && [Quality]==Set # [ItemCrushingBlow] >= 35												//Immortal King's Stone Crusher
-// [Name]==SacredArmor && [Quality]==Set																		//Immortal King's Soul Cage
-// [Name]==WarBelt && [Quality]==Set																			//Immortal King's Detail
-// [Name]==WarGauntlets && [Quality]==Set # [Defense] >= 43														//Immortal Kings Forge
-// [Name]==WarBoots && [Quality]==Set # [Defense] >= 43															//Immortal Kings Pillar
-
-// //Trang-Oul's Avatar
-// [Name]==BoneVisage && [Quality]==Set # [Defense] >= 180														//Trang-Oul's Guise
-// [Name]==ChaosArmor && [Quality]==Set																			//Trang-Oul's Scales
-// [Name]==CantorTrophy && [Quality]==Set # [Defense] >= 175 && [FireResist] >= 38								//Trang-Oul's Wing
-// [Name]==TrollBelt && [Quality]==Set # [Defense] >= 134 && [MaxMana] >= 25									//Trang-Oul's Girth
-// [Name]==HeavyBracers && [Quality]==Set # [Defense] >= 37														//Trang-Oul's Claws
+[Name]==ManaPotion
+[Name]==HealingPotion

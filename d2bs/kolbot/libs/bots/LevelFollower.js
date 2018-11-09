@@ -4,7 +4,7 @@
 *	@desc		Follow the leader through acts
 */
 
-function LevelFollower(){	
+function LevelFollower(){
 	var LeaderUnit,WhereIsLeader;
 		
 	this.ChangeAct=function(DestinationAct){
@@ -12,15 +12,21 @@ function LevelFollower(){
 		try{
 			switch(DestinationAct){
 			case 2:
+				if(Pather.useWaypoint(40)){break;}
 				Town.move("Warriv");
 				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
 				}
 				delay(2000);
+<<<<<<< HEAD
 				//this.getA2Merc();
+=======
+				this.getA2Merc();
+>>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 				break;
 			case 3:
+				if(Pather.useWaypoint(75)){break;}
 				Pather.journeyTo(40);
 				this.talkToNPC("Jerhyn");
 				Town.move("portalspot");
@@ -31,13 +37,13 @@ function LevelFollower(){
 				}
 				break;
 			case 4:
-				if(me.area != 102){
-					Pather.journeyTo(102);
-				}
+				if(Pather.useWaypoint(103)){break;}
+				if(me.area != 102){Pather.journeyTo(102);}
 				Pather.moveTo(17591,8070,2,true,true);
 				Pather.usePortal(null);
 				break;
 			case 5:
+				if(Pather.useWaypoint(109)){break;}
 				Pather.journeyTo(103);
 				this.talkToNPC("Tyrael");			
 				delay(1000);
@@ -52,35 +58,33 @@ function LevelFollower(){
 			while(!me.area){
 				delay(500);
 			}
-			if(me.area==preArea){
-				me.cancel();
-				say("Act change failed.");
-				return false;
-			}
-			say("Act change done.");
-			Town.doChores();
-			Town.move("portalspot");
-		}catch(err){
-			return false;
-		}
+			say("Act change done");
+		}catch(err){me.cancel();print("Act change failed");return false;}
 		return true;
 	};
 	
 	this.goFindLeader=function(LeaderArea){
 		var LeaderAct;
 		if(LeaderArea){
-			if(LeaderArea <= 39){LeaderAct=1;}
-			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct=2;}
-			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct=3;}
-			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct=4;}
+			if(LeaderArea<= 39){LeaderAct=1;}
+			else if(LeaderArea>= 40 && LeaderArea<= 74){LeaderAct=2;}
+			else if(LeaderArea>= 75 && LeaderArea<= 102){LeaderAct=3;}
+			else if(LeaderArea>= 103 && LeaderArea<= 108){LeaderAct=4;}
 			else{LeaderAct=5;}
 			if(LeaderAct != me.act){												//Make sure we are in the same act
 				try{
+<<<<<<< HEAD
 					Pather.useWaypoint(LeaderArea);
 					delay(200);
 				}catch(er){
 					this.ChangeAct(LeaderAct);
 				}
+=======
+					if(Pather.useWaypoint(LeaderArea)){
+						delay(200);
+					}
+				}catch(er){this.ChangeAct(LeaderAct);}
+>>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 			}
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
@@ -88,9 +92,7 @@ function LevelFollower(){
 				if(LeaderArea==73){
 					try{
 						Pather.useUnit(2,100,73);									//Try duriels hole
-					}catch(err){
-						Town.goToTown();
-					}
+					}catch(err){Town.goToTown();}
 				}
 				if(Pather.getPortal(LeaderArea,null)){								//Check portals to area
 					delay(200);
@@ -109,7 +111,7 @@ function LevelFollower(){
 				Town.move("portalspot");
 			}
 		}else{
-			say("Leader not partied");
+			print("Leader not partied");
 			delay(1500);
 		}
 		return true;
@@ -123,7 +125,7 @@ function LevelFollower(){
 		if(NPC && NPC.openMenu()){
 			me.cancel();
 		}else{
-			say("Failed talking to "+NPCName);
+			print("Failed talking to "+NPCName);
 		}
 	};
 	
@@ -145,6 +147,7 @@ function LevelFollower(){
 	Pather.getWP(me.area);
 	Town.move("portalspot");
 	WhereIsLeader=getParty(Config.Leader);
+<<<<<<< HEAD
 	
 	var count=0;
 	while(!this.getLeaderUnit(Config.Leader)){										//Loop to ensure leader is assigned
@@ -153,6 +156,14 @@ function LevelFollower(){
 		this.goFindLeader(WhereIsLeader.area);
 		count++;
 		if(count>60){
+=======
+	var partyTimeout=0;
+	while(!this.getLeaderUnit(Config.Leader)){										//Loop to ensure leader is assigned
+		delay(1000);
+		say("Finding Leader "+partyTimeout++);
+		this.goFindLeader(WhereIsLeader.area);
+		if(partyTimeout>5){
+>>>>>>> 7720e44b93af608b309c74c5c3a72985e367be5b
 			quit();
 		}
 	}	
@@ -160,16 +171,9 @@ function LevelFollower(){
 
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
-			if(getDistance(me,LeaderUnit)> 6){
-				// var moveX=copyUnit(LeaderUnit).x-me.x,moveY=copyUnit(LeaderUnit).y-me.y;
-				// say("x:"+moveX+" y:"+moveY);
+			if(getDistance(me,LeaderUnit)>6){
 				Pather.teleport=false;
-				if(me.classid==1){													//Sorc keep distance
-					delay(250);
-					Pather.moveToUnit(LeaderUnit,rand(-5,5),rand(-5,5),true,true);
-				}else{
-					Pather.moveToUnit(LeaderUnit,rand(-3,3),rand(-3,3),true,true);	//Otherwise copy Leader's movements
-				}
+				Pather.moveToUnit(LeaderUnit,rand(-5,5),rand(-5,5),true,true);
 				Attack.clear(20);
 				delay(500);
 			}

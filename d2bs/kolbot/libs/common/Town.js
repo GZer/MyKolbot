@@ -188,12 +188,11 @@ var Town = {
 					me.cancel();
 				}
 			}catch(err){
-				D2Bot.printToConsole("Talk to Cain after Travincal Failed");
+				D2Bot.printToConsole("No Durance Access");
 			}
 		}
-
 		
-		//Cain for Access to Durance
+		//Qual-Kehk for Runes
 		if(me.getQuest(36, 3)){
 			try{
 				Town.move("Qual-Kehk");
