@@ -24,6 +24,7 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function (){
+				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
@@ -215,7 +216,7 @@ var AutoBuildTemplate={
 		},
 
 	21: 	{
-			SkillPoints: [69],
+			SkillPoints: [85],//Blood Golem
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[70,70,70,70,70,70,70];
@@ -223,7 +224,7 @@ var AutoBuildTemplate={
 		},
 
 	22: 	{
-			SkillPoints: [69],
+			SkillPoints: [79],//Golem Mastery
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[70,70,70,70,70,70,70];

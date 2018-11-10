@@ -24,6 +24,7 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function (){
+				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
@@ -87,7 +88,7 @@ var AutoBuildTemplate={
 		},
 
 	5: 	{
-			SkillPoints: [36],//Charged Bolt
+			SkillPoints: [38],//Charged Bolt
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
 				Config.AttackSkill=[36,36,36,36,36,38,38];

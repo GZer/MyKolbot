@@ -1,6 +1,11 @@
 //======================CHARMS======================//
-[Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>4 || [Mana]>5) && ([MaxHP]>6 || [Strength]+[Dexterity]>2)
-[Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>3 || [Mana]>1) && ([MaxHP]>5 || [Strength]+[Dexterity]>0)
+[Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>4 || [Mana]>2) && ([MaxHP]>6 || [Strength]+[Dexterity]>2)
+[Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>3 || [Mana]>0) && ([MaxHP]>5 || [Strength]+[Dexterity]>0)
+
+//======================MERC======================//
+([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal # # [MercTier]==1 && [MaxQuantity]==1
+[Type]==Armor && [Flag]==Ethereal # # [MercTier]==1 && [MaxQuantity]==1
+[Type]==Helm && [Flag]==Ethereal # # [MercTier]==1 && [MaxQuantity]==1
 
 //======================ACCESSORIES======================//
 [Type]==Amulet && [Quality] >= Magic # [FCR] >= 10 || [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1

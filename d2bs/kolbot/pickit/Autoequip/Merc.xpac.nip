@@ -1,19 +1,4 @@
 //======================MERC======================//
-//Any Ethereal
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal # # [MercTier]==1 && [MaxQuantity]==1
-[Type]==Armor && [Flag]==Ethereal # # [MercTier]==1 && [MaxQuantity]==1
-[Type]==Helm && [Flag]==Ethereal # # [MercTier]==1 && [MaxQuantity]==1
-//Any low lvl Magic
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDamage] > 40 || [LifeLeech] > 3 # [MercTier]==2 && [MaxQuantity]==1
-[Type]==Armor && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier]==2 && [MaxQuantity]==1
-[Type]==Helm && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier]==2 && [MaxQuantity]==1
-//Any mid lvl Magic
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDamage] > 65 && [LifeLeech] > 5 # [MercTier]==3
-[Type]==Armor && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDefense] > 50 && [MaxHP] > 40 # [MercTier]==3
-[Type]==Helm && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDefense] > 50 && [MaxHP] > 40 # [MercTier]==3
-//Any high lvl Magic
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Class]>=Exceptional && [Quality] >= Magic # [EnhancedDamage] > 100 && [LifeLeech] > 7 # [MercTier]==4
-([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal && [Class]>=Exceptional && [Quality] >= Magic # [EnhancedDefense] > 80 && [MaxHP] > 60 # [MercTier]==4
 //Low Insight/Infinity/TalsRasha
 [Type]==Polearm && [Flag]==Ethereal && [Flag]==Runeword # [MeditationAura]+[ConvictionAura] >= 1 # [MercTier]==95
 [Type]==Armor && [Flag]==Ethereal && [Flag]==Runeword # [EnhancedDamage]>=300 # [MercTier]==95

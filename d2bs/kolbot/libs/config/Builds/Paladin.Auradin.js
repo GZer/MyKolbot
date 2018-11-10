@@ -24,6 +24,7 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function (){
+				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
@@ -197,7 +198,7 @@ var AutoBuildTemplate={
 		},
 
 	19: 	{
-			SkillPoints: [-1],
+			SkillPoints: [99],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,99,97,99,0,0];
@@ -205,7 +206,7 @@ var AutoBuildTemplate={
 		},
 
 	20: 	{
-			SkillPoints: [-1],
+			SkillPoints: [99],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.UseMerc=true;
@@ -213,7 +214,7 @@ var AutoBuildTemplate={
 		},
 
 	21: 	{
-			SkillPoints: [-1],
+			SkillPoints: [99],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,99,97,99,0,0];
@@ -270,7 +271,7 @@ var AutoBuildTemplate={
 		},
 
 	28: 	{
-			SkillPoints: [104,120],//Defiance
+			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -278,7 +279,7 @@ var AutoBuildTemplate={
 		},
 
 	29: 	{
-			SkillPoints: [115,120],//Vigor
+			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[101,101,120,101,120,0,120];
@@ -286,10 +287,11 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [124,125,120],//Redemption,Salvation
+			SkillPoints: [125,120],//Salvation
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[101,101,120,101,120,0,120];
+				Config.Redemption = [50,0];
+				Config.AttackSkill=[101,101,125,101,120,0,120];
 			}
 		},
 

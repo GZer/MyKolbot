@@ -12,7 +12,6 @@ function LevelFollower(){
 		try{
 			switch(DestinationAct){
 			case 2:
-				if(Pather.useWaypoint(40)){break;}
 				Town.move("Warriv");
 				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
@@ -22,7 +21,6 @@ function LevelFollower(){
 				//this.getA2Merc();
 				break;
 			case 3:
-				if(Pather.useWaypoint(75)){break;}
 				Pather.journeyTo(40);
 				this.talkToNPC("Jerhyn");
 				Town.move("portalspot");
@@ -33,13 +31,11 @@ function LevelFollower(){
 				}
 				break;
 			case 4:
-				if(Pather.useWaypoint(103)){break;}
 				if(me.area != 102){Pather.journeyTo(102);}
 				Pather.moveTo(17591,8070,2,true,true);
 				Pather.usePortal(null);
 				break;
 			case 5:
-				if(Pather.useWaypoint(109)){break;}
 				Pather.journeyTo(103);
 				this.talkToNPC("Tyrael");			
 				delay(1000);

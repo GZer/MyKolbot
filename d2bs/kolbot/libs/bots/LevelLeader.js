@@ -7,7 +7,7 @@
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
 	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,29,32,34,35,36],
-	[47,48,41,42,56,57,43,44,50,52,54,46,72,71,70,66,67,68,69],
+	[47,48,41,42,56,57,43,44,50,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
 	[104,105,106,107],
 	[110,111,112,113,115,121,122,123,117,118,128,129,130]];	
@@ -136,10 +136,11 @@ function LevelLeader(){
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
 			break;
-			case 69://Duriel
+			case 46://Duriel
 				Pather.journeyTo(getRoom().correcttomb);
+				Pather.makePortal();
 				this.clearToQuestLocation(getRoom().correcttomb,2,152);
-				this.placeStaff();
+				this.clearToQuestLocation(getRoom().correcttomb,2,100);
 				while(!getUnit(2,100)){
 					delay(500);
 				}
@@ -152,7 +153,6 @@ function LevelLeader(){
 				Pather.moveTo(22577,15609,10);
 				this.talkToNPCWild("Tyrael");
 				Pather.getPortal(null);
-				Town.doChores();
 			break;
 			case 76://Khalim Eye
 				Pather.journeyTo(76);
@@ -342,21 +342,15 @@ function LevelLeader(){
 		try{
 			switch(DestinationAct){
 			case 2:
-				if(Pather.useWaypoint(40)){
-					break;
-				}
 				Town.move("Warriv");
 				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
 				}
 				delay(2000);
-				this.getA2Merc();
+				//this.getA2Merc();
 				break;
 			case 3:
-				if(Pather.useWaypoint(75)){
-					break;
-				}
 				Pather.journeyTo(40);
 				this.talkToNPC("Jerhyn");
 				Town.move("portalspot");
@@ -367,19 +361,11 @@ function LevelLeader(){
 				}
 				break;
 			case 4:
-				if(Pather.useWaypoint(103)){
-					break;
-				}
-				if(me.area != 102){
-					Pather.journeyTo(102);
-				}
+				if(me.area != 102){Pather.journeyTo(102);}
 				Pather.moveTo(17591,8070,2,true,true);
 				Pather.usePortal(null);
 				break;
 			case 5:
-				if(Pather.useWaypoint(109)){
-					break;
-				}
 				Pather.journeyTo(103);
 				this.talkToNPC("Tyrael");			
 				delay(1000);
@@ -406,12 +392,12 @@ function LevelLeader(){
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
 					Pather.makePortal();
 					while(!this.playerClose()){
-						print("Waiting for Party Quest");
+						say("Waiting for Party Quest");
 						delay(15000);
 					}
 					break;
 				}
-			}catch(err){print("Failed clearing to Unit"+UnitId+" in Area"+QuestArea);}
+			}catch(err){print("Failed clearing to Unit"+UnitId+" in Area"+QuestArea);return false;}
 			count++;
 		}
 		return true;
@@ -420,7 +406,8 @@ function LevelLeader(){
 	this.killQuestBoss=function(BossId){
 		try{
 			Attack.clear(20,0,BossId);
-		}catch(err){print("Boss "+BossId+" Failed");}
+		}catch(err){print("Boss "+BossId+" Failed");return false;}
+		return true;
 	};
 	
 	this.getQuestItem=function(ItemId,ChestId){
@@ -442,17 +429,20 @@ function LevelLeader(){
 	this.talkToNPC=function(NPCName){
 		var NPC;
 		Town.doChores();
+		Pather.getWP(me.area);
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){
 			me.cancel();
 		}else{
 			print("Failed talking to "+NPCName);
+			return false;
 		}
 		if(NPCName=="Alkor"){
 			Town.move("Asheara");
 			Town.move("Ormus");
 		}
+		return true;
 	};
 	
 	this.talkToNPCWild=function(NPCName){
@@ -548,15 +538,11 @@ function LevelLeader(){
 	
 	this.placeStaff=function(){
 		print("Placing Horadric Staff");
-		var Staff=me.getItem(92),item,Orifice=getUnit(2,152);
-		if(!Orifice){
+		var Staff=me.getItem(91),item,Orifice=getUnit(2,152);
+		if(!Orifice || !Staff){
 			return false;
 		}
 		Misc.openChest(Orifice);
-		if(!Staff){
-			Town.doChores();
-			this.cubeStaff();
-		}
 		Staff.toCursor();
 		submitItem();
 		delay(1000);
@@ -569,7 +555,7 @@ function LevelLeader(){
 	
 	this.cubeStaff=function(){
 		print("Making Horadric Staff");
-		var Staff=me.getItem(91),Amulet=me.getItem(520);
+		var Staff=me.getItem(92),Amulet=me.getItem(520);
 		if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(43);}
 		if(Amulet){Storage.Cube.MoveTo(Amulet);}else{this.CheckQuests(44);}
 		Cubing.openCube();
@@ -623,7 +609,7 @@ function LevelLeader(){
 		for(i=0; i<WaypointAreas.length; i++){
 			if(!getWaypoint(i)){
 				i--;
-				if(WaypointAreas[i]==74 || WaypointAreas[i]==46){UpToArea=52;}
+				if(WaypointAreas[i]==74){UpToArea=52;}
 				else if(WaypointAreas[i]==83){UpToArea=82;}
 				else{UpToArea=WaypointAreas[i];}
 				break;

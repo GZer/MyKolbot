@@ -24,6 +24,7 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function (){
+				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
@@ -285,10 +286,10 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [124,112],//Redemption
+			SkillPoints: [112],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.Redemption = [50,15];
+				Config.Redemption = [50,0];
 			}
 		},
 
