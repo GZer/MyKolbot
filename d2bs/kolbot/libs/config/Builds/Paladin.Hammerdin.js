@@ -24,6 +24,7 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function (){
+				Config.PickitFiles.push("EndGame.nip");
 				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
@@ -449,7 +450,7 @@ var AutoBuildTemplate={
 			SkillPoints: [113],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[112,112,113,112,113,97,98];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre50.nip"),1);
 			}
 		},
 

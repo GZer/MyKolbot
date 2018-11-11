@@ -271,7 +271,7 @@ var Pather = {
 						path.pop();
 					}
 
-					print("move retry " + fail);
+					//print("move retry " + fail);
 
 					if (fail > 0 && fail >= retry) {
 						break;

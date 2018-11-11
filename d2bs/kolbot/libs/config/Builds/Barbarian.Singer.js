@@ -24,6 +24,7 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function(){
+				Config.PickitFiles.push("EndGame.nip");
 				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
@@ -51,7 +52,7 @@ var AutoBuildTemplate={
 				Config.LifeChicken=20;
 				Config.ManaChicken=0;
 				Config.MercChicken=0;
-				Config.UseHP=50;
+				Config.UseHP=65;
 				Config.UseMP=3;
 				Config.UseRejuvHP=25;
 				Config.PickRange=30;
@@ -150,7 +151,10 @@ var AutoBuildTemplate={
 				Config.Recipes.push([Recipe.Rune,"Ko Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Fal Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Lem Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Pul Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Pul Rune"]);				
+				Config.Recipes.push([Recipe.Reroll.Magic,"Diadem"]);
+				Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
+				Config.Recipes.push([Recipe.Reroll.Rare,"Diadem"]);
 			}
 		},
 
@@ -523,7 +527,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,0,0,0,0];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre50.nip"),1);
 			}
 		},
 

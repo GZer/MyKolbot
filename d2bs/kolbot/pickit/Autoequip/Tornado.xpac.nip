@@ -49,7 +49,7 @@
 //Rings
 [Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1
 [Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 && [MaxHP] >= 10 && [Strength]+[Dexterity] >= 10 # [Tier]==2
-[Type]==Ring && [Quality] >= Magic #([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 10 # [Tier]==3
+[Type]==Ring && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 10 # [Tier]==3
 [Type]==Ring && [Quality]==Unique # [ItemAllSkills] >= 1 # [Tier]==99
 
 //Amulets
@@ -59,4 +59,4 @@
 [Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 && [FCR] >= 10 # [Tier]==4
 [Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 2 && [FCR] >= 20 # [Tier]==5
 [Type]==Amulet && [Quality]==Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 60 # [Tier]==90
-[Type]==Amulet && [Quality] >= Rare #([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 20 && [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 # [Tier]==99
+[Type]==Amulet && [Quality] >= Rare # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 20 && [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab] >= 1 # [Tier]==99

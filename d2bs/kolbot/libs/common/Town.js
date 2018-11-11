@@ -180,7 +180,7 @@ var Town = {
 		}
 		
 		//Cain for Access to Durance
-		if(me.getQuest(21, 3)){
+		if(me.getQuest(21, 3) && !me.getQuest(21, 0)){
 			try{
 				Town.move("Cain");
 				NPC=getUnit(1,"Deckard Cain");

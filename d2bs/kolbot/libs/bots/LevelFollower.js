@@ -56,14 +56,14 @@ function LevelFollower(){
 	};
 	
 	this.goFindLeader=function(LeaderArea){
-		var LeaderAct;
+		var LeaderAct,BaalPortal;
 		if(LeaderArea){
 			if(LeaderArea<= 39){LeaderAct=1;}
 			else if(LeaderArea>= 40 && LeaderArea<= 74){LeaderAct=2;}
 			else if(LeaderArea>= 75 && LeaderArea<= 102){LeaderAct=3;}
 			else if(LeaderArea>= 103 && LeaderArea<= 108){LeaderAct=4;}
 			else{LeaderAct=5;}
-			if(LeaderAct != me.act){												//Make sure we are in the same act
+			if(LeaderAct != me.act){											//Make sure we are in the same act
 				try{
 					if(Pather.useWaypoint(LeaderArea)){
 						delay(200);
@@ -75,20 +75,27 @@ function LevelFollower(){
 				delay(2000);
 				if(LeaderArea==73){
 					try{
-						Pather.useUnit(2,100,73);									//Try duriels hole
+						Pather.useUnit(2,100,73);								//Try duriels hole
 					}catch(err){Town.goToTown();}
 				}
-				if(Pather.getPortal(LeaderArea,null)){								//Check portals to area
+				if(LeaderArea==131){
+					BaalPortal=getUnit(2,563);
+					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
+						Pather.moveTo(15134,5923,true,true);
+						this.killQuestBoss(544);
+					}
+				}
+				if(Pather.getPortal(LeaderArea,null)){							//Check portals to area
 					delay(200);
 					Pather.usePortal(LeaderArea,null);
 				}else{
-					Pather.journeyTo(LeaderArea);									//Otherwise walk to leader
+					Pather.journeyTo(LeaderArea);								//Otherwise walk to leader
 				}
 				Pather.teleport=false;
 				Pather.getWP(me.area,true);
 			}
 			if(!me.inTown){
-				Pather.moveTo(WhereIsLeader.x-2,WhereIsLeader.y-2,2,true);			//Find leader if not in town
+				Pather.moveTo(WhereIsLeader.x-2,WhereIsLeader.y-2,2,true);		//Find leader if not in Town
 			}else{
 				Town.doChores();
 				delay(500);
@@ -113,7 +120,7 @@ function LevelFollower(){
 		}
 	};
 	
-	this.getLeaderUnit=function(name){												//Get Leader's unit
+	this.getLeaderUnit=function(name){											//Get Leader's unit
 		var Player=getUnit(0,name);
 		if(Player){
 			do{
@@ -132,7 +139,7 @@ function LevelFollower(){
 	Town.move("portalspot");
 	WhereIsLeader=getParty(Config.Leader);
 	var partyTimeout=0;
-	while(!this.getLeaderUnit(Config.Leader)){										//Loop to ensure leader is assigned
+	while(!this.getLeaderUnit(Config.Leader)){									//Loop to ensure leader is assigned
 		delay(1000);
 		say("Finding Leader "+partyTimeout++);
 		this.goFindLeader(WhereIsLeader.area);

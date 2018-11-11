@@ -1,4 +1,4 @@
-//======================RUNES======================//
+//======================RUNES & GEMS======================//
 [Name]==ElRune # # [MaxQuantity]==3
 [Name]==EldRune # # [MaxQuantity]==3
 [Name]==TirRune # # [MaxQuantity]==3
@@ -22,6 +22,14 @@
 [Name]==PulRune # # [MaxQuantity]==5
 [Name]==UmRune # # [MaxQuantity]==5
 [Name] >= MalRune && [Name] <= ZodRune
+[Name]==PerfectAmethyst
+[Name]==PerfectTopaz
+[Name]==PerfectDiamond
+[Name]==PerfectSapphire
+[Name]==PerfectEmerald
+[Name]==PerfectRuby
+[Name]==PerfectDiamond
+[Name]==PerfectSkull
 
 //======================RUNEWORDS======================//
 //Spirit
@@ -35,11 +43,11 @@
 [Name]==MagePlate && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==3 # [MaxQuantity]==1
 
 //Lore
-([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality] <= Superior #([SkillTornado]+[SkillOakSage] >= 2 || [SkillBattleOrders]+[SkillShout] >= 2) && [Sockets]==2 # [MaxQuantity]==1
-([Name]==Cap || [Name]==SkullCap || [Name]==Helm) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
+([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality] <= Superior # ([SkillTornado]+[SkillOakSage] >= 2 || [SkillBattleOrders]+[SkillShout] >= 2) && [Sockets]==2 # [MaxQuantity]==2
+([Name]==Cap || [Name]==SkullCap || [Name]==Helm) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==2 # [MaxQuantity]==2
 
 //Splendor
-([Name]==BoneShield || [Name]==SmallShield) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1
+([Name]==BoneShield || [Name]==SmallShield) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==2
 //Spirit
 [Type]==AuricShields && [Flag]!=Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 30 && [Sockets]==4 # [MaxQuantity]==2
 [Name]==Monarch && [Flag]!=Ethereal && [Quality]<= Superior # [EnhancedDefense] >= 1 && [Sockets]==4 # [MaxQuantity]==2

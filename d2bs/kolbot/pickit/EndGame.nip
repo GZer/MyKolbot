@@ -1,0 +1,62 @@
+//======================MISC======================//
+[Name]==ScrollOfTownPortal # # [MaxQuantity]==20
+[Type]==Gold
+
+//======================CHARMS======================//
+[Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>=15 || [Mana]>=30) && ([MaxHP]>=30 || [Strength]+[Dexterity]>=5)
+[Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>=11 || [Mana]>=13) && ([MaxHP]>=20 || [Strength]+[Dexterity]>=2)
+
+//======================ACCESSORIES======================//
+[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
+
+//======================POTIONS======================//
+[Name]==SuperManaPotion
+[Name]==SuperHealingPotion
+[Name]==RejuvenationPotion || [Name]==FullRejuvenationPotion
+
+//======================UNIQUES======================//
+// 2h Weapon
+([Type]==Axe || [Type]==Bow || [Type]==Hammer || [Type]==Polearm || [Type]==Spear || [Type]==Staff || [Type]==Sword || [Type]==ThrowingAxe) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
+// 1h Weapon
+([Type]==Club || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Orb || [Type]==Scepter || [Type]==ThrowingKnife || [Type]==Wand) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
+// Armor
+([Type]==AuricShields || [Type]==Armor || [Type]==Belt || [Type]==Boots || [Type]==Circlet || [Type]==Gloves || [Type]==Helm || [Type]==Pelt || [Type]==PrimalHelm || [Type]==Shield || [Type]==VoodooHeads) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
+// Accessory
+([Type]==Amulet || [Type]==Ring) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
+// Charms
+([Name]==GrandCharm || [Name]==LargeCharm || [Name]==SmallCharm) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
+
+//======================SETS======================//
+// Tal Rashas Wrappings
+[Name]==SwirlingCrystal && [Quality]==Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
+[Name]==DeathMask && [Quality]==Set # [Defense] >= 54															//Tal Rashas Horadric Crest
+[Name]==LacqueredPlate && [Quality]==Set # [Defense] >= 433														//Tal Rashas Guardianship
+[Name]==MeshBelt && [Quality]==Set # [Defense] >= 35 && [ItemMagicBonus] >= 10									//Tal Rashas FineSpun Cloth
+[Type]==Amulet && [Quality]==Set # [SorceressSkills]==2															//Tal Rashas Adjucation
+
+// Griswolds Legacy
+[Name]==OrnatePlate && [Quality]==Set # [Defense] >= 417														//Griswolds Heart
+[Name]==Corona && [Quality]==Set # [Defense] >= 249 && [ItemMagicBonus] >= 20									//Griswolds Valor
+[Name]==Caduceus && [Quality]==Set # [Sockets] >= 3 && [EnhancedDamage] >= 200									//Griswolds Redemption
+[Name]==VortexShield && [Quality]==Set # [Defense] >= 182														//Griswolds Honor
+
+// Aldurs Watchtower
+// [Name]==HuntersGuise && [Quality]==Set # [Defense] >= 157 && [ColdResist] >= 40								//Aldurs Stony Gaze
+// [Name]==BattleBoots && [Quality]==Set # [Defense] >= 39 && [FireResist] >= 40								//Aldurs Advance
+// [Name]==ShadowPlate && [Quality]==Set # [Defense] >= 746 && [LightResist] >= 40								//Aldurs Deception
+// [Name]==JaggedStar && [Quality]==Set # [Sockets] >= 2														//Aldurs Rhythm
+
+// Immortal King
+// [Name]==AvengerGuard && [Quality]==Set # [Defense] >= 160 && [ItemMagicBonus] >= 25							//Immortal Kings Will
+// [Name]==OgreMaul && [Quality]==Set # [ItemCrushingBlow] >= 35												//Immortal Kings Stone Crusher
+// [Name]==SacredArmor && [Quality]==Set																		//Immortal Kings Soul Cage
+// [Name]==WarBelt && [Quality]==Set																			//Immortal Kings Detail
+// [Name]==WarGauntlets && [Quality]==Set # [Defense] >= 43														//Immortal Kings Forge
+// [Name]==WarBoots && [Quality]==Set # [Defense] >= 43															//Immortal Kings Pillar
+
+// TrangOuls Avatar
+// [Name]==BoneVisage && [Quality]==Set # [Defense] >= 180														//TrangOuls Guise
+// [Name]==ChaosArmor && [Quality]==Set																			//TrangOuls Scales
+// [Name]==CantorTrophy && [Quality]==Set # [Defense] >= 175 && [FireResist] >= 38								//TrangOuls Wing
+// [Name]==TrollBelt && [Quality]==Set # [Defense] >= 134 && [MaxMana] >= 25									//TrangOuls Girth
+// [Name]==HeavyBracers && [Quality]==Set # [Defense] >= 37														//TrangOuls Claws
