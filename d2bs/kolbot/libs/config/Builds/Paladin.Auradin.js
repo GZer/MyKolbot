@@ -63,10 +63,10 @@ var AutoBuildTemplate={
 		},
 
 	2: 	{
-			SkillPoints: [98],//Might
+			SkillPoints: [99],//Prayer
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[0,0,98,0,98,0,0];
+				Config.AttackSkill=[0,0,99,0,99,0,0];
 			}
 		},
 
@@ -74,12 +74,12 @@ var AutoBuildTemplate={
 			SkillPoints: [97],//Smite
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[0,97,98,97,98,0,0];
+				Config.AttackSkill=[0,97,99,97,99,0,0];
 			}
 		},
 
 	4: 	{
-			SkillPoints: [99],//Prayer
+			SkillPoints: [99],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
 				Config.AttackSkill=[0,97,99,97,99,0,0];

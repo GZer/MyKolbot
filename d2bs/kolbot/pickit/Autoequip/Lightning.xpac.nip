@@ -1,6 +1,6 @@
 //Weapon
 ([Type]==Staff || [Type]==Orb) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillLightning]+[SkillLightningMastery]+[SkillWarmth] >= 2 # [Tier]==1
-([Type]==Wand || [Type]==Orb || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillLightning]+[SkillLightningMastery]+[SkillWarmth] >= 2 && ([FCR] >= 10 || [MaxMana]+[MaxHP] >= 5) # [Tier]==2
+([Type]==Orb || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillLightning]+[SkillLightningMastery]+[SkillWarmth] >= 2 && ([FCR] >= 10 || [MaxMana]+[MaxHP] >= 5) # [Tier]==2
 [Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==3
 ([Type]==Wand || [Type]==Orb || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillLightning]+[SkillLightningMastery]+[SkillWarmth] >= 2 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 # [Tier]==4
 [Name]==SwirlingCrystal && [Flag]!=Ethereal && [Quality]==Set # [SkillLightningMastery]==2 # [Tier]==95
