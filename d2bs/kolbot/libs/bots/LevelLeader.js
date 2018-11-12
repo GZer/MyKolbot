@@ -269,24 +269,25 @@ function LevelLeader(){
 				if(Pather.moveToExit(107,true,true)){Pather.makePortal();}
 				Pather.getWP(me.area);
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
-				try{
+				while(!getUnit(1,742)){
 					this.openSeal(395);
 					this.openSeal(396);
 					delay(1000);
-					this.killQuestBoss(742);
-				}catch(err){print("Vizier failed");}
+				}
+				this.killQuestBoss(742);
 				Pather.makePortal();
-				try{
+				while(!getUnit(1,741)){
 					this.openSeal(394);
 					delay(1000);
-					this.killQuestBoss(741);
-				}catch(err){print("De Sies failed");}
+				}
+				this.killQuestBoss(741);
 				Pather.makePortal();
-				try{
+				while(!getUnit(1,740)){
 					this.openSeal(392);
 					this.openSeal(393);
-					this.killQuestBoss(740);
-				}catch(err){print("Infector failed");}
+					delay(250);
+				}
+				this.killQuestBoss(740);
 				Pather.moveTo(7763,5267,true,true);
 				Pather.makePortal();
 				Pather.moveTo(7727,5267,true,true);
@@ -371,8 +372,11 @@ function LevelLeader(){
 		return true;
 	};
 	
-	this.logProgress=function(Progress,Quest){		
-		try{FileTools.appendText("logs/ScriptErrorLog.txt",Quest+" - "+Progress+"\n");
+	this.logProgress=function(Progress,Quest){
+		var date=new Date(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
+			dateString="["+(h<10?"0"+h:h)+":"+(m<10?"0"+m:m)+":"+(s<10?"0"+s:s)+"]";
+
+		try{FileTools.appendText("logs/ScriptErrorLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
 		}catch(err){D2Bot.printToConsole("Failed to Log Progress",10);return false;}
 		return true;
 	};
@@ -394,7 +398,8 @@ function LevelLeader(){
 			case 3:
 				Pather.journeyTo(40);
 				this.talkToNPC("Jerhyn");
-				Town.move("portalspot");
+				Pather.journeyTo(50);
+				Town.goToTown();
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
 				if(NPC && NPC.openMenu()){
@@ -421,8 +426,13 @@ function LevelLeader(){
 			while(!me.area){
 				delay(500);
 			}
-			say("Act change done");
-			this.logProgress("Complete","Change to A"+DestinationAct);
+			if(preArea==me.area){
+				say("Act change failed");
+				this.logProgress("Failed","Change to A"+DestinationAct);
+			}else{
+				say("Act change done");
+				this.logProgress("Complete","Change to A"+DestinationAct);
+			}
 		}catch(err){me.cancel();this.logProgress("Failed","Change to A"+DestinationAct);return false;}
 		return true;
 	};
@@ -592,18 +602,23 @@ function LevelLeader(){
 	this.placeStaff=function(){
 		var HoradricStaff=me.getItem(91),item,Orifice=getUnit(2,152);
 		this.logProgress("Started","Placing Horadric Staff");
-		if(!Orifice || !HoradricStaff){
-			this.logProgress("Failed","Placing Horadric Staff");
-			this.cubeStaff();
-			Pather.usePortal(getRoom().correcttomb,null);
+		if(!me.getQuest(10,0)){
+			if(!Orifice){D2Bot.restart(true);}
+			if(!HoradricStaff){
+				this.logProgress("Failed","Placing Horadric Staff");
+				this.cubeStaff();
+				Pather.journeyTo(getRoom().correcttomb,null);
+				this.clearToQuestLocation(getRoom().correcttomb,2,152);
+				HoradricStaff=me.getItem(91);
+			}
+			Misc.openChest(Orifice);
+			HoradricStaff.toCursor();
+			submitItem();
+			delay(1000);
+			item=me.findItem(-1,0,3);
+			if(item && item.toCursor()){Storage.Inventory.MoveTo(item);}
+			this.logProgress("Complete","Placing Horadric Staff");
 		}
-		Misc.openChest(Orifice);
-		HoradricStaff.toCursor();
-		submitItem();
-		delay(1000);
-		item=me.findItem(-1,0,3);
-		if(item && item.toCursor()){Storage.Inventory.MoveTo(item);}
-		this.logProgress("Complete","Placing Horadric Staff");
 		return true;
 	};
 	
@@ -719,7 +734,7 @@ function LevelLeader(){
 	
 	for(ActNumber; ActNumber<LevelingAreas.length; ActNumber++){
 		if(me.act!=ActNumber+1){this.ChangeAct(ActNumber+1);}
-		this.logProgress("Started","Act "+ActNumber+1);
+		this.logProgress("Started","Act "+(ActNumber+1));
 		for(LevelArea=0; LevelArea<LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{
@@ -737,7 +752,7 @@ function LevelLeader(){
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
 		}
-		this.logProgress("Complete","Act "+ActNumber+1);
+		this.logProgress("Complete","Act "+(ActNumber+1));
 	}
 	return true;
 }
