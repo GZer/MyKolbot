@@ -8,7 +8,3 @@
 //======================POTIONS======================//
 [Name]==LightManaPotion
 [Name]==LightHealingPotion
-
-//======================MERC======================//
-([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDamage] > 40 || [LifeLeech] > 3 # [MercTier]==2 && [MaxQuantity]==1
-([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier]==2 && [MaxQuantity]==1

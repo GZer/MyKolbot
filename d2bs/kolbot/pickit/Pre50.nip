@@ -3,7 +3,7 @@
 [Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>9 || [Mana]>13) && ([MaxHP]>16 || [Strength]+[Dexterity]>1)
 
 //======================ACCESSORIES======================//
-[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills][ItemAddClassSkills]+[ItemAddSkillTab] >= 3
+[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
 
 //======================POTIONS======================//
 [Name]==GreaterManaPotion
@@ -11,30 +11,30 @@
 
 //======================QUEST======================//
 //Quest Items
-[Name]==HoradricCube//Horadric Cube
-[Name]==BookOfSkill//Book Of Skill
-[Name]==ScrollOfResistance//Scroll Of Resistance
-[Name]==AJadeFigurine//Jade Figurine
-[Name]==TheGoldenBird//Golden Bird
-[Name]==PotionOfLife//Potion Of Life
-[Name]==BBB//Black Book
-[Name]==QF1//Khalim Flail
-[Name]==QEY//Khalim Eye
-[Name]==QHR//Khalim Heart
-[Name]==QBR//Khalim Brain
-[Name]==QF2//Khalim Will
+[Name]==HoradricCube																	//Horadric Cube
+[Name]==BookOfSkill																		//Book Of Skill
+[Name]==ScrollOfResistance																//Scroll Of Resistance
+[Name]==AJadeFigurine																	//Jade Figurine
+[Name]==TheGoldenBird																	//Golden Bird
+[Name]==PotionOfLife																	//Potion Of Life
+[Name]==BBB																				//Black Book
+[Name]==QF1																				//Khalim Flail
+[Name]==QEY																				//Khalim Eye
+[Name]==QHR																				//Khalim Heart
+[Name]==QBR																				//Khalim Brain
+[Name]==QF2																				//Khalim Will
 
 //======================SETS======================//
 //Sigon's Steel
-[Name]==GreatHelm && [Quality]==Set # [MaxMana] >= 30															//Sigon's Visor
-[Name]==GothicPlate && [Quality]==Set # [LightResist] >= 30														//Sigon's Shelter
-[Name]==Greaves && [Quality]==Set # [ColdResist] >= 40															//Sigon's Sabot
-[Name]==TowerShield && [Quality]==Set # [ItemAllSkills] >= 1													//Sigon's Guard
-[Name]==PlatedBelt && [Quality]==Set # [MaxHP] >= 20															//Sigon's Warp
-[Name]==Gauntlets && [Quality]==Set # [Strength] >= 10															//Sigon's Gage
+[Name]==GreatHelm && [Quality]==Set # [MaxMana] >= 30									//Sigon's Visor
+[Name]==GothicPlate && [Quality]==Set # [LightResist] >= 30								//Sigon's Shelter
+[Name]==Greaves && [Quality]==Set # [ColdResist] >= 40									//Sigon's Sabot
+[Name]==TowerShield && [Quality]==Set # [ItemAllSkills] >= 1							//Sigon's Guard
+[Name]==PlatedBelt && [Quality]==Set # [MaxHP] >= 20									//Sigon's Warp
+[Name]==Gauntlets && [Quality]==Set # [Strength] >= 10									//Sigon's Gage
 
 //Angelic Raiment
-[Name]==RingMail && [Quality]==Set # [EnhancedDefense] >= 40													//Angelic Mantle
-[Name]==Sabre && [Quality]==Set # [ItemUndeadDamagePercent] >= 75												//Angelic Sickle
-[Type]==Ring && [Quality]==Set # [MaxHP] >= 20																	//Angelic Halo
-[Type]==Amulet && [Quality]==Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20							//Angelic Wings
+[Name]==RingMail && [Quality]==Set # [EnhancedDefense] >= 40							//Angelic Mantle
+[Name]==Sabre && [Quality]==Set # [ItemUndeadDamagePercent] >= 75						//Angelic Sickle
+[Type]==Ring && [Quality]==Set # [MaxHP] >= 20											//Angelic Halo
+[Type]==Amulet && [Quality]==Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20	//Angelic Wings
