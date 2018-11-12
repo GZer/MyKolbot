@@ -33,7 +33,8 @@
 
 //======================RUNEWORDS======================//
 //Spirit
-([Name]==CrystalSword || [Name]==BroadSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
+([Name]==CrystalSword || [Name]==BroadSword || [Name]==LongSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
+[Type]==Staves && [Flag]!=Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 3 && [Sockets]==2 # [MaxQuantity]==1
 
 //Stealth
 ([Name]==HardLeatherArmor || [Name]==BreastPlate) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==1

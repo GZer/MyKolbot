@@ -165,8 +165,14 @@ var AutoBuildTemplate={
 				Config.BeltColumn=["hp","hp","hp","rv"];
 				Config.MakeRunewords=true;
 				//Weapon
+				Config.Runewords.push([Runeword.Leaf,"Short Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"Long Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"Gnarled Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"Battle Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"War Staff"]);
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
 				//Armor
 				Config.Runewords.push([Runeword.Stealth,"Hard Leather Armor"]);
 				Config.Runewords.push([Runeword.Stealth,"Breast Plate"]);
