@@ -14,6 +14,14 @@
 [Name]==ScrollOfTownPortal # # [MaxQuantity]==20
 [Type]==Gold
 
+//======================RUNEWORDS======================//
+//+Skill
+[Flag]==Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
+//FCR
+[Flag]==Runeword # [FCR]>=10
+//Aura Merc
+[Flag]==Runeword # [ItemAura]>=1
+
 //======================UNIQUES======================//
 // 2h Weapon
 ([Type]==Axe || [Type]==Bow || [Type]==Hammer || [Type]==Polearm || [Type]==Spear || [Type]==Staff || [Type]==Sword || [Type]==ThrowingAxe) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
