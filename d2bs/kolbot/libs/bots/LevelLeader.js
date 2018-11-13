@@ -269,20 +269,20 @@ function LevelLeader(){
 				if(Pather.moveToExit(107,true,true)){Pather.makePortal();}
 				Pather.getWP(me.area);
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
-				while(!getUnit(1,742)){
+				while(getUnit(2,395) || getUnit(2,396)){
 					this.openSeal(395);
 					this.openSeal(396);
 					delay(1000);
 				}
 				this.killQuestBoss(742);
 				Pather.makePortal();
-				while(!getUnit(1,741)){
+				while(getUnit(2,394)){
 					this.openSeal(394);
 					delay(1000);
 				}
 				this.killQuestBoss(741);
 				Pather.makePortal();
-				while(!getUnit(1,740)){
+				while(getUnit(2,392) || getUnit(2,393)){
 					this.openSeal(392);
 					this.openSeal(393);
 					delay(250);
@@ -383,7 +383,6 @@ function LevelLeader(){
 	
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
-		this.logProgress("Started","Change to A"+DestinationAct);
 		try{
 			switch(DestinationAct){
 			case 2:
@@ -428,18 +427,17 @@ function LevelLeader(){
 			}
 			if(preArea==me.area){
 				say("Act change failed");
-				this.logProgress("Failed","Change to A"+DestinationAct);
+				this.logProgress("Failed","Change to Act "+DestinationAct);
 			}else{
 				say("Act change done");
-				this.logProgress("Complete","Change to A"+DestinationAct);
+				this.logProgress("Complete","Change to Act "+DestinationAct);
 			}
-		}catch(err){me.cancel();this.logProgress("Failed","Change to A"+DestinationAct);return false;}
+		}catch(err){me.cancel();this.logProgress("Failed","Change to Act "+DestinationAct);return false;}
 		return true;
 	};
 	
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
 		var count=0;
-		this.logProgress("Started","Clear to Unit:"+UnitId+" in Area:"+QuestArea);
 		while(count<30){
 			try{
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
@@ -459,7 +457,6 @@ function LevelLeader(){
 	
 	this.killQuestBoss=function(BossId){
 		try{
-			this.logProgress("Started","Kill Boss:"+BossId);
 			Attack.clear(20,0,BossId);
 			this.logProgress("Complete","Kill Boss:"+BossId);
 		}catch(err){this.logProgress("Failed","Kill Boss:"+BossId);return false;}
@@ -468,7 +465,6 @@ function LevelLeader(){
 	
 	this.getQuestItem=function(ItemId,ChestId){
 		var Chest,Item,Tick=getTickCount();
-		this.logProgress("Started","Get QuestItem:"+ItemId+",ChestId:"+ChestId);
 		me.getItem(ItemId);
 		Chest=getUnit(2,ChestId);
 		try{Misc.openChest(Chest);
@@ -484,44 +480,29 @@ function LevelLeader(){
 	
 	this.talkToNPC=function(NPCName){
 		var NPC;
-		this.logProgress("Started","Talk to NPC"+NPCName);
 		Town.doChores();
 		Pather.getWP(me.area);
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
-		if(NPC && NPC.openMenu()){me.cancel();}
+		if(NPC && NPC.openMenu()){me.cancel();this.logProgress("Complete","Talk to NPC"+NPCName);}
 		else{this.logProgress("Failed","Talk to NPC"+NPCName);return false;}
 		if(NPCName=="Alkor"){
 			Town.move("Asheara");
 			Town.move("Ormus");
 		}
-		this.logProgress("Complete","Talk to NPC"+NPCName);
 		return true;
 	};
 	
 	this.talkToNPCWild=function(NPCName){
 		var i,NPC=getUnit(1,NPCName);
-		this.logProgress("Started","Talk to NPC"+NPCName);
-		if(!NPC){this.logProgress("Failed","Talk to NPC"+NPCName);return false;}
+		if(!NPC){this.logProgress("Failed","Talk to WildNPC"+NPCName);return false;}
 		for(i=0; i<3; i += 1){
 			if(getDistance(me,NPC)>3){Pather.moveToUnit(NPC);}
 			NPC.interact();
 			delay(2000);
 			me.cancel();
 		}
-		this.logProgress("Complete","Talk to NPC"+NPCName);
-		return true;
-	};
-	
-	this.talkToAnya=function(){
-		var Anya=getUnit(2,558);
-		this.logProgress("Started","Talk to Anya");
-		if(!Anya){this.logProgress("Failed","Talk to Anya");return false;}
-		Pather.moveToUnit(Anya);
-		Anya.interact();
-		delay(250);
-		me.cancel();
-		this.logProgress("Complete","Talk to Anya");
+		this.logProgress("Complete","Talk to WildNPC"+NPCName);
 		return true;
 	};
 	
@@ -537,8 +518,18 @@ function LevelLeader(){
 		return false;
 	};
 	
+	this.talkToAnya=function(){
+		var Anya=getUnit(2,558);
+		if(!Anya){this.logProgress("Failed","Talk to Anya");return false;}
+		Pather.moveToUnit(Anya);
+		Anya.interact();
+		delay(250);
+		me.cancel();
+		this.logProgress("Complete","Talk to Anya");
+		return true;
+	};
+	
 	this.openSeal=function(SealId){
-		this.logProgress("Started","Opening Seal ID:"+SealId);
 		Pather.moveToPreset(108,2,SealId,SealId==394 ? 5 : 2,SealId==394 ? 5 : 0,true,true);
 		var i,tick,Seal=getUnit(2,SealId);
 		if(Seal){
