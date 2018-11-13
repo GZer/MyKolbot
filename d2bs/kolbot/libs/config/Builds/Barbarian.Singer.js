@@ -124,13 +124,16 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.Recipes.push([Recipe.Gem,"Flawless Amethyst"]);
-				Config.Recipes.push([Recipe.Gem,"Flawless Topaz"]);
-				Config.Recipes.push([Recipe.Gem,"Flawless Sapphire"]);
-				Config.Recipes.push([Recipe.Gem,"Flawless Emerald"]);
-				Config.Recipes.push([Recipe.Gem,"Flawless Ruby"]);
-				Config.Recipes.push([Recipe.Gem,"Flawless Diamond"]);
-				Config.Recipes.push([Recipe.Gem,"Flawless Skull"]);
+				// Config.Recipes.push([Recipe.Gem,"Flawless Amethyst"]);
+				// Config.Recipes.push([Recipe.Gem,"Flawless Topaz"]);
+				// Config.Recipes.push([Recipe.Gem,"Flawless Sapphire"]);
+				// Config.Recipes.push([Recipe.Gem,"Flawless Emerald"]);
+				// Config.Recipes.push([Recipe.Gem,"Flawless Ruby"]);
+				// Config.Recipes.push([Recipe.Gem,"Flawless Diamond"]);
+				// Config.Recipes.push([Recipe.Gem,"Flawless Skull"]);
+				// Config.Recipes.push([Recipe.Reroll.Magic,"Diadem"]);
+				// Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
+				// Config.Recipes.push([Recipe.Reroll.Rare,"Diadem"]);
 				Config.Recipes.push([Recipe.Rune,"El Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Eld Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Tir Rune"]);
@@ -151,10 +154,7 @@ var AutoBuildTemplate={
 				Config.Recipes.push([Recipe.Rune,"Ko Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Fal Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Lem Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Pul Rune"]);				
-				Config.Recipes.push([Recipe.Reroll.Magic,"Diadem"]);
-				Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
-				Config.Recipes.push([Recipe.Reroll.Rare,"Diadem"]);
+				Config.Recipes.push([Recipe.Rune,"Pul Rune"]);
 			}
 		},
 

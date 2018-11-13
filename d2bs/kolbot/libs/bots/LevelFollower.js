@@ -5,7 +5,7 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhereIsLeader;
+	var LeaderUnit,WhereIsLeader,ClearType;
 		
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
@@ -73,6 +73,7 @@ function LevelFollower(){
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
 				delay(2000);
+				this.areaClearCheck(LeaderArea);
 				if(LeaderArea==73){
 					try{
 						Pather.useUnit(2,100,73);								//Try duriels hole
@@ -133,6 +134,30 @@ function LevelFollower(){
 		return false;
 	};
 	
+	this.areaClearCheck=function(Area){
+		switch(Area){
+			case 110:
+				ClearType=0xF;
+			break;
+			case 111:
+				ClearType=0xF;
+			break;
+			case 112:
+				ClearType=0xF;
+			break;
+			case 115:
+				ClearType=0xF;
+			break;
+			case 117:
+				ClearType=0xF;
+			break;
+			default:
+				ClearType=0;
+			break;
+		}
+		return true;
+	};
+	
 	Town.doChores();
 	Town.move("portalspot");
 	Pather.getWP(me.area);
@@ -154,7 +179,7 @@ function LevelFollower(){
 			if(getDistance(me,LeaderUnit)>6){
 				Pather.teleport=false;
 				Pather.moveToUnit(LeaderUnit,rand(-5,5),rand(-5,5),true,true);
-				Attack.clear(20);
+				Attack.clear(20,ClearType);
 				delay(500);
 			}
 		}else{

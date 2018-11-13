@@ -10,7 +10,7 @@ function LevelLeader(){
 	[47,48,41,42,56,57,43,44,50,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
 	[104,105,106,107],
-	[111,112,113,115,121,122,123,117,118,128,129,130]];	
+	[110,111,112,113,115,121,122,123,117,118,128,129,130]];	
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
 	75,76,77,78,79,80,81,83,101,
@@ -267,38 +267,37 @@ function LevelLeader(){
 			case 107://Diablo
 				this.logProgress("Started","Diablo");
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
-				// Pather.moveTo(7693,5304,5,true,true);
+				this.openSeal(395);
+				this.openSeal(396);
 				this.openSeal(395);
 				this.openSeal(396);
 				delay(1000);
 				this.killQuestBoss(742);
-				// Pather.moveTo(7785,5191,5,true,true);
-				Pather.makePortal();
+				this.openSeal(394);
 				this.openSeal(394);
 				delay(1000);
 				this.killQuestBoss(741);
-				Pather.makePortal();
+				this.openSeal(392);
+				this.openSeal(393);
 				this.openSeal(392);
 				this.openSeal(393);
 				this.killQuestBoss(740);
-				Pather.moveTo(7763,5267,5,true,true);
+				Pather.moveTo(7769,5263,5,true,true);
 				Pather.makePortal();
-				Pather.moveTo(7727,5267,5,true,true);
-				while(!getUnit(1,243)){
-					delay(500);
-				}
+				Pather.moveTo(7788,5293,5,true,true);
+				while(!getUnit(1,243)){delay(500);}
 				this.killQuestBoss(243);
 				Town.doChores();
 				this.logProgress("Complete","Diablo");
 			break;
-			case 111://Prisoners
-				this.logProgress("Started","Prisoners");
+			case 111://Shenk and Prisoners
+				this.logProgress("Started","Shenk and Prisoners");
 				Pather.journeyTo(110);
 				Pather.moveTo(3883,5113,2,true,true);
 				this.killQuestBoss(760);
 				this.talkToNPC("Qual-Kehk");
 				Town.doChores();
-				this.logProgress("Complete","Prisoners");
+				this.logProgress("Complete","Shenk and Prisoners");
 			break;
 			case 113://Anya
 				this.logProgress("Started","Anya");
@@ -355,8 +354,9 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){					
-					Pather.moveTo(15134,5923,true,true);
-					this.killQuestBoss(544);
+					quit();
+					// Pather.moveTo(15134,5923,true,true);
+					// this.killQuestBoss(544);
 				}
 				Town.doChores();
 				this.logProgress("Complete","Baal");
@@ -527,16 +527,13 @@ function LevelLeader(){
 		var i,tick,Seal=getUnit(2,SealId);
 		if(Seal){
 			for(i=0; i<3; i++){
-				if(SealId==394){
-					Misc.click(0,0,Seal);
-				}else{
-					Seal.interact();
-				}
+				if(SealId==394){Misc.click(0,0,Seal);}
+				else{Seal.interact();}
 				tick=getTickCount();
 				while(getTickCount()-tick<500){
-					if(seal.mode){
-						return true;
+					if(Seal.mode){
 						delay(1000);
+						return true;
 					}
 					delay(100);
 				}
@@ -568,7 +565,7 @@ function LevelLeader(){
 			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
 			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);}
-			if(Flail){Storage.Cube.MoveTo(Flail);}else{D2Bot.restart(true);}
+			if(Flail){Storage.Cube.MoveTo(Flail);}else{quit();}
 		}
 		Cubing.openCube();
 		transmute();
@@ -590,7 +587,7 @@ function LevelLeader(){
 		var HoradricStaff=me.getItem(91),item,Orifice=getUnit(2,152);
 		this.logProgress("Started","Placing Horadric Staff");
 		if(!me.getQuest(10,0)){
-			if(!Orifice){D2Bot.restart(true);}
+			if(!Orifice){quit();}
 			if(!HoradricStaff){
 				this.logProgress("Failed","Placing Horadric Staff");
 				this.cubeStaff();
@@ -619,7 +616,7 @@ function LevelLeader(){
 		transmute();
 		delay(1000);
 		HoradricStaff=me.getItem(91);
-		if(!HoradricStaff){this.logProgress("Failed","Make Horadric Staff");D2Bot.restart(true);}		
+		if(!HoradricStaff){this.logProgress("Failed","Make Horadric Staff");quit();}		
 		Storage.Inventory.MoveTo(HoradricStaff);
 		me.cancel();
 		this.logProgress("Complete","Make Horadric Staff");
@@ -706,8 +703,8 @@ function LevelLeader(){
 			break;
 		}
 		return true;
-	}
-
+	};
+	
 	Town.move("portalspot");
 	delay(7000);
 	Pather.getWP(me.area);
