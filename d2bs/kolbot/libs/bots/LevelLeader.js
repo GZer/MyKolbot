@@ -269,24 +269,13 @@ function LevelLeader(){
 				if(Pather.moveToExit(107,true,true)){Pather.makePortal();}
 				Pather.getWP(me.area);
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
-				while(getUnit(2,395) || getUnit(2,396)){
-					this.openSeal(395);
-					this.openSeal(396);
-					delay(1000);
-				}
+				while(this.openSeal(395) || this.openSeal(396)){delay(1000);}
 				this.killQuestBoss(742);
 				Pather.makePortal();
-				while(getUnit(2,394)){
-					this.openSeal(394);
-					delay(1000);
-				}
+				while(!this.openSeal(394)){delay(1000);}
 				this.killQuestBoss(741);
 				Pather.makePortal();
-				while(getUnit(2,392) || getUnit(2,393)){
-					this.openSeal(392);
-					this.openSeal(393);
-					delay(250);
-				}
+				while(!this.openSeal(392) || !this.openSeal(393)){delay(250);}
 				this.killQuestBoss(740);
 				Pather.moveTo(7763,5267,true,true);
 				Pather.makePortal();
