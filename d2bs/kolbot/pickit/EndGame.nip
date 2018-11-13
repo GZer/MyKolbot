@@ -37,8 +37,8 @@
 //======================SETS======================//
 // Tal Rashas Wrappings
 [Name]==SwirlingCrystal && [Quality]==Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
-[Name]==DeathMask && [Quality]==Set # [Defense] >= 54															//Tal Rashas Horadric Crest
-[Name]==LacqueredPlate && [Quality]==Set # [Defense] >= 433														//Tal Rashas Guardianship
+[Name]==DeathMask && [Quality]==Set # [FireResist] >= 15														//Tal Rashas Horadric Crest
+[Name]==LacqueredPlate && [Quality]==Set # [ColdResist] >= 40													//Tal Rashas Guardianship
 [Name]==MeshBelt && [Quality]==Set # [Defense] >= 35 && [ItemMagicBonus] >= 10									//Tal Rashas FineSpun Cloth
 [Type]==Amulet && [Quality]==Set # [SorceressSkills]==2															//Tal Rashas Adjucation
 
