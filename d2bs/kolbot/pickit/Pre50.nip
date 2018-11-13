@@ -30,8 +30,8 @@
 [Name]==GothicPlate && [Quality]==Set # [LightResist] >= 30								//Sigon's Shelter
 [Name]==Greaves && [Quality]==Set # [ColdResist] >= 40									//Sigon's Sabot
 [Name]==TowerShield && [Quality]==Set # [ItemAllSkills] >= 1							//Sigon's Guard
-[Name]==PlatedBelt && [Quality]==Set # [MaxHP] >= 20									//Sigon's Warp
-[Name]==Gauntlets && [Quality]==Set # [Strength] >= 10									//Sigon's Gage
+[Name]==PlatedBelt && [Quality]==Set # [MaxHP] >= 10									//Sigon's Warp
+[Name]==Gauntlets && [Quality]==Set # [Strength] >= 5									//Sigon's Gage
 
 //Angelic Raiment
 [Name]==RingMail && [Quality]==Set # [EnhancedDefense] >= 40							//Angelic Mantle

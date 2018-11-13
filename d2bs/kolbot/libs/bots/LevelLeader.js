@@ -9,7 +9,7 @@ function LevelLeader(){
 	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,29,32,34,35,36],
 	[47,48,41,42,56,57,43,44,50,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
-	[104,105,106],
+	[104,105,106,107],
 	[111,112,113,115,121,122,123,117,118,128,129,130]];	
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
@@ -264,22 +264,26 @@ function LevelLeader(){
 				this.killQuestBoss(256);
 				this.logProgress("Complete","Izual");
 			break;
-			case 106://Diablo
+			case 107://Diablo
 				this.logProgress("Started","Diablo");
-				if(Pather.moveToExit(107,true,true)){Pather.makePortal();}
-				Pather.getWP(me.area);
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
-				while(this.openSeal(395) || this.openSeal(396)){delay(1000);}
+				// Pather.moveTo(7693,5304,5,true,true);
+				this.openSeal(395);
+				this.openSeal(396);
+				delay(1000);
 				this.killQuestBoss(742);
+				// Pather.moveTo(7785,5191,5,true,true);
 				Pather.makePortal();
-				while(!this.openSeal(394)){delay(1000);}
+				this.openSeal(394);
+				delay(1000);
 				this.killQuestBoss(741);
 				Pather.makePortal();
-				while(!this.openSeal(392) || !this.openSeal(393)){delay(250);}
+				this.openSeal(392);
+				this.openSeal(393);
 				this.killQuestBoss(740);
-				Pather.moveTo(7763,5267,true,true);
+				Pather.moveTo(7763,5267,5,true,true);
 				Pather.makePortal();
-				Pather.moveTo(7727,5267,true,true);
+				Pather.moveTo(7727,5267,5,true,true);
 				while(!getUnit(1,243)){
 					delay(500);
 				}
@@ -363,7 +367,7 @@ function LevelLeader(){
 	
 	this.logProgress=function(Progress,Quest){
 		var date=new Date(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
-			dateString="["+(h<10?"0"+h:h)+":"+(m<10?"0"+m:m)+":"+(s<10?"0"+s:s)+"]";
+		dateString="["+(h<10?"0"+h:h)+":"+(m<10?"0"+m:m)+":"+(s<10?"0"+s:s)+"]";
 
 		try{FileTools.appendText("logs/ScriptErrorLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
 		}catch(err){D2Bot.printToConsole("Failed to Log Progress",10);return false;}
@@ -519,19 +523,22 @@ function LevelLeader(){
 	};
 	
 	this.openSeal=function(SealId){
-		Pather.moveToPreset(108,2,SealId,SealId==394 ? 5 : 2,SealId==394 ? 5 : 0,true,true);
+		this.clearToQuestLocation(108,2,SealId);
 		var i,tick,Seal=getUnit(2,SealId);
 		if(Seal){
 			for(i=0; i<3; i++){
-				if(SealId==394){Misc.click(0,0,Seal);}
-				else{Seal.interact();}
+				if(SealId==394){
+					Misc.click(0,0,Seal);
+				}else{
+					Seal.interact();
+				}
 				tick=getTickCount();
-				while(getTickCount()- tick<500){
-					if(Seal.mode){
-						this.logProgress("Complete","Opening Seal ID:"+SealId);
+				while(getTickCount()-tick<500){
+					if(seal.mode){
 						return true;
+						delay(1000);
 					}
-					delay(10);
+					delay(100);
 				}
 			}
 		}
@@ -663,7 +670,6 @@ function LevelLeader(){
 				i--;
 				if(WaypointAreas[i]==74){UpToArea=52;}
 				else if(WaypointAreas[i]==83){UpToArea=82;}
-				else if(WaypointAreas[i]==107){UpToArea=106;}
 				else{UpToArea=WaypointAreas[i];}
 				break;
 			}
