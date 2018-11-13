@@ -17,8 +17,6 @@
 //======================RUNEWORDS======================//
 //+Skill
 [Flag]==Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]>=1
-//FCR
-[Flag]==Runeword # [FCR]>=10
 //Aura Merc
 [Flag]==Runeword # [ItemAura]>=1
 
