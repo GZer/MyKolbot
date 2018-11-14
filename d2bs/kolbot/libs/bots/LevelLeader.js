@@ -267,20 +267,15 @@ function LevelLeader(){
 			case 107://Diablo
 				this.logProgress("Started","Diablo");
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
-				this.openSeal(395);
-				this.openSeal(396);
-				this.openSeal(395);
-				this.openSeal(396);
+				this.openSeal(395);this.openSeal(396);
+				this.openSeal(395);this.openSeal(396);
 				delay(1000);
 				this.killQuestBoss(742);
-				this.openSeal(394);
-				this.openSeal(394);
+				this.openSeal(394);this.openSeal(394);
 				delay(1000);
 				this.killQuestBoss(741);
-				this.openSeal(392);
-				this.openSeal(393);
-				this.openSeal(392);
-				this.openSeal(393);
+				this.openSeal(392);this.openSeal(393);
+				this.openSeal(392);this.openSeal(393);
 				this.killQuestBoss(740);
 				Pather.moveTo(7769,5263,5,true,true);
 				Pather.makePortal();

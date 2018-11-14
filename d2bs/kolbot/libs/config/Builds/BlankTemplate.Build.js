@@ -1,937 +1,921 @@
-// 	/d2bs/kolbot/libs/Builds/Sorceress.ExampleBuild.js
+//	/d2bs/kolbot/libs/Builds/Class.BuildName.js
 
 /**
 *
-* Instructions:	See /d2bs/kolbot/libs/config/Builds/README.txt
+* Instructions: 	See /d2bs/kolbot/libs/config/Builds/README.txt
 *
-* Skill IDs:	See /d2bs/kolbot/sdk/skills.txt for a list of skill IDs.
+* Skill IDs: 	See /d2bs/kolbot/sdk/skills.txt for a list of skill IDs.
 *
-* Stat IDs:
+* Stat IDs: 
 *
-* 	Strength = 0
-* 	Energy = 1
-* 	Dexterity = 2
-* 	Vitality = 3
+* 	Strength=0
+* 	Energy=1
+* 	Dexterity=2
+* 	Vitality=3
 *
 */
 js_strict(true);
 
-if (!isIncluded("common/Cubing.js")){include("common/Cubing.js");};
-if (!isIncluded("common/Prototypes.js")){include("common/Prototypes.js");};
-if (!isIncluded("common/Runewords.js")){include("common/Runewords.js");};
+if(!isIncluded("common/Cubing.js")){include("common/Cubing.js");};
+if(!isIncluded("common/Prototypes.js")){include("common/Prototypes.js");};
+if(!isIncluded("common/Runewords.js")){include("common/Runewords.js");};
 
-var AutoBuildTemplate = {
+var AutoBuildTemplate={
 
-	1:	{
-			Update:function (){
+	1: 	{
+			Update: function(){
+				Config.PickitFiles.push("EndGame.nip");
+				Config.PickitFiles.push("Pre50.nip");
+				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
-				// Scripts.ClearAnyArea = true;// Blood,Den,Cold,Stony
-					// Config.ClearAnyArea.AreaList = [2,8,3,4,10,14,5];
-				Config.OpenChests = false;
-				Config.ClearType = 0;// Monster spectype to kill in level clear scripts (0 = all)
-				Config.LogExperience = true;// Print experience statistics in the manager.
-				Config.StashGold = 200;// Minimum amount of gold to stash.
-				Config.AttackSkill = [0,0,0,0,0,0,0];
-				Config.LowManaSkill = [0,0];
-				Config.PublicMode = 2;
-				Config.ScanShrines = [18,17,1,2,3,4,5,15,13,12,14,9,10,11,14];	
-				Config.BeltColumn = ["hp","hp","hp","mp"];// Keep tons of health potions!				
-				Config.MinColumn = [2,2,2,2];
-				Config.HealHP = 99;
-				Config.HealMP = 99;
-				Config.LifeChicken = 20;
-				Config.ManaChicken = 0;
-				Config.MercChicken = 0;
-				Config.UseHP = 50;
-				Config.UseMP = 3;
-				Config.UseRejuvHP = 25;
-				Config.PickRange = 60;
-				Config.FastPick = false;
-				Config.Leader = "Zer_Shout";
-				Config.LevelLeader = false;
-				Scripts.LevelFollower = true;
-			}
-		},
-
-	2:	{	
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	3:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	4:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	5:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	6:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	7:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	8:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	9:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
-		},
-
-	10:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+				Config.PickitFiles.push("Pre15.nip");
+				Config.PickitFiles.push("Runes.nip");
+				Config.PickitFiles.push("AutoEquip/BuildName.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
+				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
+				Config.AutoEquip=true;
+				Config.OpenChests=true;
+				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
+				Config.LogExperience=true;//Print experience statistics in the manager.
+				Config.StashGold=200;//Minimum amount of gold to stash.
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.LowManaSkill=[0,0];
+				Config.PublicMode=3;
+				Config.ScanShrines=[17,1,2,15,6,7,12,14,8,9,10,11];
+				Config.BeltColumn=["hp","hp","hp","hp"];//Keep tons of health potions!
+				Config.MinColumn=[2,2,2,2];
+				Config.HealHP=99;
+				Config.HealMP=99;
+				Config.LifeChicken=20;
+				Config.ManaChicken=0;
+				Config.MercChicken=0;
+				Config.UseHP=65;
+				Config.UseMP=3;
+				Config.UseRejuvHP=25;
+				Config.PickRange=30;
+				Config.MaxGameTime=3600;//Only run for an hour in case of failure
+				Config.BossPriority=true;
+				//Config.Leader="PapaBear";
+				Scripts.LevelLeader=true;
+				Scripts.LevelFollower=false;
+			}
+		},
+		
+	2: 	{
+			SkillPoints: [130],//Howl
+			StatPoints: [-1,-1,-1,-1,-1],//Str+1,Vitality+4
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}
+		},
+		
+	3: 	{
+			SkillPoints: [-1],
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}
+		},
+		
+	4: 	{
+			SkillPoints: [-1],
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}
+		},
+
+	5: 	{
+			SkillPoints: [-1],
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}
+		},
+
+	6: 	{
+			SkillPoints: [138],//Shout
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}
+		},
+
+	7: 	{
+			SkillPoints: [132,138],//Leap
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}				
+		},
+
+	8: 	{
+			SkillPoints: [137,138],//Taunt
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
+		},
+
+	9: 	{
+			SkillPoints: [138],
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.Recipes.push([Recipe.Rune,"El Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Eld Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Tir Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Nef Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Eth Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ith Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Tal Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Sol Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Shael Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Dol Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Hel Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Io Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Lum Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ko Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Fal Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Lem Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Pul Rune"]);
+			}
+		},
+
+	10: 	{
+			SkillPoints: [138],
+			StatPoints: [-1,-1,-1,-1,-1],
+			Update: function(){
+				Config.BeltColumn=["hp","hp","hp","rv"];
+				Config.MakeRunewords=true;
+				//Weapon
+				Config.Runewords.push([Runeword.Leaf,"Short Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"Long Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"Gnarled Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"Battle Staff"]);
+				Config.Runewords.push([Runeword.Leaf,"War Staff"]);
+				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
+				//Armor
+				Config.Runewords.push([Runeword.Stealth,"Hard Leather Armor"]);
+				Config.Runewords.push([Runeword.Stealth,"Breast Plate"]);
+				Config.Runewords.push([Runeword.Myth,"Breast Plate"]);
+				Config.Runewords.push([Runeword.Myth,"Light Plate"]);
+				Config.Runewords.push([Runeword.Enlightenment,"Mage Plate"]);
+				Config.Runewords.push([Runeword.Bone,"Mage Plate"]);
+				Config.Runewords.push([Runeword.Enigma,"Mage Plate"]);
+				//Helm
+				Config.Runewords.push([Runeword.Lore,"Cap"]);
+				Config.Runewords.push([Runeword.Lore,"Skull Cap"]);
+				Config.Runewords.push([Runeword.Lore,"Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Wolf Head"]);
+				Config.Runewords.push([Runeword.Lore,"Hawk Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Antlers"]);
+				Config.Runewords.push([Runeword.Lore,"Falcon Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Spirit Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Jawbone Cap"]);
+				Config.Runewords.push([Runeword.Lore,"Fanged Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Horned Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Assault Helmet"]);
+				Config.Runewords.push([Runeword.Lore,"Avenger Guard"]);
+				//Shield
+				Config.Runewords.push([Runeword.Splendor,"Small Shield"]);
+				Config.Runewords.push([Runeword.Splendor,"Bone Shield"]);
+				Config.Runewords.push([Runeword.Splendor,"Preserved Head"]);
+				Config.Runewords.push([Runeword.Splendor,"Zombie Head"]);
+				Config.Runewords.push([Runeword.Splendor,"Unraveller Head"]);
+				Config.Runewords.push([Runeword.Splendor,"Gargoyle Head"]);
+				Config.Runewords.push([Runeword.Splendor,"Demon Head"]);
+				Config.Runewords.push([Runeword.Spirit,"Monarch"]);
+				Config.Runewords.push([Runeword.Spirit,"Targe"]);
+				Config.Runewords.push([Runeword.Spirit,"Rondache"]);
+				Config.Runewords.push([Runeword.Spirit,"Heraldic Shield"]);
+				Config.Runewords.push([Runeword.Spirit,"Aerin Shield"]);
+				Config.Runewords.push([Runeword.Spirit,"Crown Shield"]);
+				//Merc Gear
+				Config.Runewords.push([Runeword.Insight,"Poleaxe"]);
+				Config.Runewords.push([Runeword.Insight,"Halberd"]);
+				Config.Runewords.push([Runeword.Insight,"War Scythe"]);
 			}
 		},
 
-	11:	{	
-			SkillPoints: [-1],
+	11: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.MinColumn=[3,3,3,3];
 			}
 		},
 
-	12:	{
-			SkillPoints: [-1],
+	12: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	13:	{
-			SkillPoints: [-1],
+	13: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	14:	{
-			SkillPoints: [-1],
+	14: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	15:	{
-			SkillPoints: [-1],
+	15: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"),1);
+			}	
 		},
 
-	16:	{
-			SkillPoints: [-1],
+	16: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];	
+			}	
 		},
 
-	17:	{
-			SkillPoints: [-1],
+	17: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+			}	
 		},
 
-	18:	{
-			SkillPoints: [-1],
+	18: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	19:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+	19: 	{
+			SkillPoints: [145],//Iron Skin
+			StatPoints: [-1,-1,-1,-1,-1],	
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	20:	{
-			SkillPoints: [-1],
+	20: 	{
+			SkillPoints: [146],//Battle Cry
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.Cubing=true;
+				Config.UseMerc=true;
 			}
 		},
 
-	21:	{	
-			SkillPoints: [-1],
+	21: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[146,132,0,0,0,0,0];
+			}	
 		},
 
-	22:	{
-			SkillPoints: [-1],
+	22: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	23:	{
-			SkillPoints: [-1],
+	23: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	24:	{
-			SkillPoints: [-1],
+	24: 	{
+			SkillPoints: [149],//Battle Orders
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	25:	{
-			SkillPoints: [-1],
+	25: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	26:	{
-			SkillPoints: [-1],
+	26: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	27:	{
-			SkillPoints: [-1],
+	27: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	28:	{
-			SkillPoints: [-1],
+	28: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
-			}
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
+			}	
 		},
 
-	29:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+	29: 	{
+			SkillPoints: [149],
+			StatPoints: [-1,-1,-1,-1,-1],	
+			Update: function(){
+				Config.MinColumn=[4,4,4,4];
 			}
 		},
 
-	30:	{
-			SkillPoints: [-1],
-			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+	30: 	{
+			SkillPoints: [155,153,154,149],//Battle Command,Natural Resistance,War Cry
+			StatPoints: [-1,-1,-1,-1,-1],	
+			Update: function(){
+				Config.AttackSkill=[132,154,0,0,0,0,0];
 			}
 		},
 
-	31:	{	
-			SkillPoints: [-1],
+	31: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[132,154,0,0,0,0,0];
 			}
 		},
 
-	32:	{
-			SkillPoints: [-1],
+	32: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[132,154,0,0,0,0,0];
 			}
 		},
 
-	33:	{
-			SkillPoints: [-1],
+	33: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	34:	{
-			SkillPoints: [-1],
+	34: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	35:	{
-			SkillPoints: [-1],
+	35: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	36:	{
-			SkillPoints: [-1],
+	36: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	37:	{
-			SkillPoints: [-1],
+	37: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	38:	{
-			SkillPoints: [-1],
+	38: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	39:	{
-			SkillPoints: [-1],
+	39: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	40:	{
-			SkillPoints: [-1],
+	40: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre40.nip"),1);
 			}
 		},
 
-	41:	{	
-			SkillPoints: [-1],
+	41: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	42:	{
-			SkillPoints: [-1],
+	42: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	43:	{
-			SkillPoints: [-1],
+	43: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	44:	{
-			SkillPoints: [-1],
+	44: 	{
+			SkillPoints: [149],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	45:	{
-			SkillPoints: [-1],
+	45: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	46:	{
-			SkillPoints: [-1],
+	46: 	{
+			SkillPoints: [138],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	47:	{
-			SkillPoints: [-1],
+	47: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	48:	{
-			SkillPoints: [-1],
+	48: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	49:	{
-			SkillPoints: [-1],
+	49: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	50:	{
-			SkillPoints: [-1],
+	50: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre50.nip"),1);
 			}
 		},
 
-	51:	{	
-			SkillPoints: [-1],
+	51: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	52:	{
-			SkillPoints: [-1],
+	52: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	53:	{
-			SkillPoints: [-1],
+	53: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	54:	{
-			SkillPoints: [-1],
+	54: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	55:	{
-			SkillPoints: [-1],
+	55: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	56:	{
-			SkillPoints: [-1],
+	56: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	57:	{
-			SkillPoints: [-1],
+	57: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	58:	{
-			SkillPoints: [-1],
+	58: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	59:	{
-			SkillPoints: [-1],
+	59: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	60:	{
-			SkillPoints: [-1],
+	60: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	61:	{	
-			SkillPoints: [-1],
+	61: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	62:	{
-			SkillPoints: [-1],
+	62: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	63:	{
-			SkillPoints: [-1],
+	63: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	64:	{
-			SkillPoints: [-1],
+	64: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	65:	{
-			SkillPoints: [-1],
+	65: 	{
+			SkillPoints: [154],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	66:	{
-			SkillPoints: [-1],
+	66: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	67:	{
-			SkillPoints: [-1],
+	67: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	68:	{
-			SkillPoints: [-1],
+	68: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	69:	{
-			SkillPoints: [-1],
+	69: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	70:	{
-			SkillPoints: [-1],
+	70: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	71:	{	
-			SkillPoints: [-1],
+	71: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	72:	{
-			SkillPoints: [-1],
+	72: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	73:	{
-			SkillPoints: [-1],
+	73: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	74:	{
-			SkillPoints: [-1],
+	74: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	75:	{
-			SkillPoints: [-1],
+	75: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	76:	{
-			SkillPoints: [-1],
+	76: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	77:	{
-			SkillPoints: [-1],
+	77: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	78:	{
-			SkillPoints: [-1],
+	78: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	79:	{
-			SkillPoints: [-1],
+	79: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	80:	{
-			SkillPoints: [-1],
+	80: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	81:	{	
-			SkillPoints: [-1],
+	81: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	82:	{
-			SkillPoints: [-1],
+	82: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	83:	{
-			SkillPoints: [-1],
+	83: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	84:	{
-			SkillPoints: [-1],
+	84: 	{
+			SkillPoints: [146],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	85:	{
-			SkillPoints: [-1],
+	85: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	86:	{
-			SkillPoints: [-1],
+	86: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	87:	{
-			SkillPoints: [-1],
+	87: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	88:	{
-			SkillPoints: [-1],
+	88: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	89:	{
-			SkillPoints: [-1],
+	89: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	90:	{
-			SkillPoints: [-1],
+	90: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	91:	{	
-			SkillPoints: [-1],
+	91: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	92:	{
-			SkillPoints: [-1],
+	92: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	93:	{
-			SkillPoints: [-1],
+	93: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	94:	{
-			SkillPoints: [-1],
+	94: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	95:	{
-			SkillPoints: [-1],
+	95: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	96:	{
-			SkillPoints: [-1],
+	96: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	97:	{
-			SkillPoints: [-1],
+	97: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	98:	{
-			SkillPoints: [-1],
+	98: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		},
 
-	99:	{
-			SkillPoints: [-1],
+	99: 	{
+			SkillPoints: [130],
 			StatPoints: [-1,-1,-1,-1,-1],
-			Update: function () {
-				Config.AttackSkill = [-1,-1,-1,-1,-1,-1,-1];
-				Config.LowManaSkill = [-1,-1];
+			Update: function(){
+				Config.AttackSkill=[0,0,0,0,0,0,0];
 			}
 		}
 };
