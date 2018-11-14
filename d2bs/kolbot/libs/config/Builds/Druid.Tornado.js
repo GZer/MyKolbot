@@ -30,6 +30,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("AutoEquip/Tornado.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
@@ -209,6 +210,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.UseMerc=true;
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 

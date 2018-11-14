@@ -30,6 +30,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("AutoEquip/Blizzard.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
@@ -220,6 +221,7 @@ var AutoBuildTemplate={
 			Update: function (){
 				Config.AttackSkill=[42,45,45,55,55,53,49];
 				Config.UseMerc=true;
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 

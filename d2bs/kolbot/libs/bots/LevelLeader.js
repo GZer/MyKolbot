@@ -24,20 +24,18 @@ function LevelLeader(){
 		,i;
 		switch(ClearedArea){
 			case 8://Walk to Town after Den
-				this.logProgress("Complete","Den");
-				if(Pather.getWP(3,true) && Pather.useWP(1)){delay(250);}else{Pather.journeyTo(1)}
+				if(Pather.getWP(3,true) && Pather.useWaypoint(1)){delay(250);}else{Pather.journeyTo(1)}
 				Town.doChores();
+				this.logProgress(me.getQuest(1,0),"Den");
 			break;
 			case 17://BloodRaven
-				this.logProgress("Started","BloodRaven");
 				this.killQuestBoss(775);
-				if(Pather.getWP(3,true) && Pather.useWP(1)){delay(250);}else{Pather.journeyTo(1)}
+				if(Pather.getWP(3,true) && Pather.useWaypoint(1)){delay(250);}else{Pather.journeyTo(1)}
 				Town.doChores();
-				this.logProgress("Complete","BloodRaven");
+				this.logProgress(me.getQuest(2,3),"BloodRaven");
 			break;
 			case 5://Tristram
-				this.logProgress("Started","Tristram");
-				if(!me.getQuest(4,4)&& !me.getItem(525)){
+				if(!me.getQuest(4,4) && !me.getItem(525)){
 					if(!me.getItem(524)){
 						Pather.moveToPreset(5,2,30,2,2,true,true);
 						this.getQuestItem(524,30);
@@ -65,27 +63,26 @@ function LevelLeader(){
 				}
 				Attack.clearLevel(0);
 				Town.doChores();
-				this.logProgress("Complete","Tristram");
+				this.talkToNPC("Deckard Cain");
+				this.logProgress(me.getQuest(4,0),"Tristram");
 			break;
 			case 6://Countess
-				this.logProgress("Started","Countess");
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){Pather.makePortal();}
 				Pather.makePortal();
 				Attack.clearLevel(0);
 				Town.doChores();
-				this.logProgress("Complete","Countess");
+				this.logProgress(me.getQuest(5,0),"Countess");
 			break;
 			case 27://Smith
-				this.logProgress("Started","Smith");
 				Pather.journeyTo(28);
 				this.clearToQuestLocation(28,2,108);
 				this.killQuestBoss(724);
 				this.getQuestItem(89,108);
 				Town.doChores();
-				this.logProgress("Complete","Smith");
+				this.talkToNPC("Charsi");
+				this.logProgress(me.getQuest(3,0),"Smith");
 			break;
 			case 36://Andariel
-				this.logProgress("Started","Andariel");
 				if(Pather.moveToExit(37,true,true)){Pather.makePortal();}
 				Pather.moveTo(22480,9570,2,true,true);
 				Pather.moveTo(22549,9520,2,true,true);
@@ -95,7 +92,7 @@ function LevelLeader(){
 				delay(5000);
 				Pather.usePortal(null);
 				Town.doChores();
-				this.logProgress("Complete","Andariel");
+				this.logProgress(me.getQuest(6,3),"Andariel");
 			break;
 			case 48://Radament
 				this.logProgress("Started","Radament");
@@ -104,8 +101,8 @@ function LevelLeader(){
 				this.killQuestBoss(229);
 				this.getQuestItem(552,20);
 				Pickit.pickItems();
-				Town.doChores();
-				this.logProgress("Complete","Radament");
+				this.talkToNPC("Atma");
+				this.logProgress(me.getQuest(9,0),"Radament");
 			break;
 			case 57://Cube
 				this.logProgress("Started","Cube");
@@ -114,10 +111,9 @@ function LevelLeader(){
 				this.getQuestItem(549,354);
 				Pickit.pickItems();
 				Town.doChores();
-				this.logProgress("Complete","Cube");
+				this.logProgress(me.getItem(549),"Cube");
 			break;
 			case 43://Staff
-				this.logProgress("Started","Staff of Kings");
 				Pather.journeyTo(43);
 				while(true){try{if(Pather.moveToExit(62,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter MaggotLvl1");}}
 				while(true){try{if(Pather.moveToExit(63,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter MaggotLvl2");}}
@@ -126,10 +122,9 @@ function LevelLeader(){
 				this.getQuestItem(92,356);
 				Pickit.pickItems();
 				Town.doChores();
-				this.logProgress("Complete","Staff of Kings");
+				this.logProgress(me.getItem(92),"Staff of Kings");
 			break;
 			case 44://Amulet
-				this.logProgress("Started","Amulet of Viper");
 				Pather.journeyTo(44);
 				if(Pather.moveToExit([45,58,61],true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(61,2,716);
@@ -140,19 +135,19 @@ function LevelLeader(){
 				this.cubeStaff();
 				this.talkToNPC("Drognan");
 				this.talkToNPC("Jerhyn");
-				this.logProgress("Complete","Amulet of Viper");
+				this.logProgress(me.getQuest(11,0),"Amulet of Viper");
 			break;
 			case 54://Summoner
-				this.logProgress("Started","Summoner");
 				try{if(Pather.moveToExit(74,true,true)){Pather.makePortal();}}catch(err){Pather.journeyTo(74);Pather.makePortal();}
 				Pather.getWP(74);
 				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
-				this.logProgress("Complete","Summoner");
+				Pather.getWP(46);
+				this.talkToNPC("Atma");
+				this.logProgress(me.getQuest(11,0),"Summoner");
 			break;
 			case 46://Duriel
-				this.logProgress("Started","Duriel");
 				Pather.journeyTo(getRoom().correcttomb);
 				Pather.makePortal();
 				this.clearToQuestLocation(getRoom().correcttomb,2,152);
@@ -168,10 +163,9 @@ function LevelLeader(){
 				Pather.moveTo(22577,15609,10);
 				this.talkToNPCWild("Tyrael");
 				Pather.getPortal(null);
-				this.logProgress("Complete","Duriel");
+				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 76://Khalim Eye
-				this.logProgress("Started","Khalim Eye");
 				Pather.journeyTo(76);
 				if(Pather.moveToExit(85,true,true)){Pather.makePortal();}
 				say("Waiting for Party Quest");
@@ -179,17 +173,15 @@ function LevelLeader(){
 				Attack.clearLevel(0x7);
 				this.getQuestItem(553,405);
 				Town.doChores();
-				this.logProgress("Complete","Khalim Eye");
+				this.logProgress(me.getItem(553),"Khalim Eye");
 			break;
 			case 78://Gidbinn and Khalim Brain
-				this.logProgress("Started","Gidbinn");
 				Pather.journeyTo(78);
 				this.clearToQuestLocation(78,2,86);
 				Attack.clear(20);
 				this.getQuestItem(87,86);
 				Town.doChores();
-				this.logProgress("Complete","Gidbinn");
-				this.logProgress("Started","Khalim Brain");
+				this.logProgress(me.getQuest(19,3),"Gidbinn");
 				Pather.useWaypoint(78);
 				while(true){try{if(Pather.moveToExit(88,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter FlayerLvl1");}}
 				while(true){try{if(Pather.moveToExit(89,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter FlayerLvl2");}}
@@ -198,32 +190,27 @@ function LevelLeader(){
 				this.killQuestBoss(726);
 				this.getQuestItem(555,406);
 				Town.doChores();
-				this.logProgress("Complete","Khalim Brain");
+				this.logProgress(me.getItem(555),"Khalim Brain");
 			break;
 			case 80://Black Book and Khalim Heart
-				this.logProgress("Started","Black Book");
 				Pather.journeyTo(80);
 				if(Pather.moveToExit(94,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(94,2,193);
 				this.getQuestItem(548,193);
-				this.logProgress("Complete","Black Book");
-				this.logProgress("Started","Khalim Heart");
+				this.talkToNPC("Alkor");
+				this.logProgress(me.getQuest(17,3),"Black Book");
 				Pather.journeyTo(80);
 				if(Pather.moveToExit([92,93],true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
 				this.talkToNPC("Alkor");
 				Town.doChores();
-				this.logProgress("Complete","Khalim Heart");
+				this.logProgress(me.getItem(554),"Khalim Heart");
 			break;
 			case 82://Khalim Flail
-				this.logProgress("Started","Khalim Flail");
 				Pather.journeyTo(83);
 				Pather.getWP(83);
 				Town.doChores();
-				Pather.useWaypoint(83);
-				Pather.makePortal();
-				say("Waiting for Party Quest");
-				delay(15000);
+				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
 				this.getQuestItem(173);
 				Town.doChores();
@@ -231,13 +218,12 @@ function LevelLeader(){
 				Pather.usePortal(83,null);
 				this.clearToQuestLocation(83,2,404);
 				this.smashOrb();
-				Town.doChores();
+				this.talkToNPC("Deckard Cain");
+				this.logProgress(me.getQuest(21,0),"Travincal");
 				Pather.usePortal(83,null);
 				if(Pather.moveToExit(100,true,true)){Pather.makePortal();}
-				this.logProgress("Complete","Khalim Flail");
 			break;
 			case 101://Mephisto
-				this.logProgress("Started","Mephisto");
 				if(Pather.moveToExit(102,true,true)){Pather.makePortal();}
 				say("Waiting for Party Quest");
 				delay(15000);
@@ -248,24 +234,19 @@ function LevelLeader(){
 				}
 				Pather.moveTo(17566,8069,1,true,true);
 				this.killQuestBoss(242);
+				this.logProgress(me.getQuest(22,0),"Mephisto");
 				Pather.moveTo(17590,8068,1,true,true);
 				Pather.moveTo(17572,8031,1,true,true);
 				Attack.openChests(25);
-				Pather.moveTo(17601,8070,2);
-				Pather.usePortal(null);
-				delay(2000);
-				Town.doChores();
-				this.logProgress("Complete","Mephisto");
+				this.logProgress(me.getQuest(23,0),"Act 3");
 			break;
 			case 104://Izual
-				this.logProgress("Started","Izual");
 				if(Pather.moveToExit(105,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
-				this.logProgress("Complete","Izual");
+				this.logProgress(me.getQuest(25,3),"Izual");
 			break;
 			case 107://Diablo
-				this.logProgress("Started","Diablo");
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
 				this.openSeal(395);this.openSeal(396);
 				this.openSeal(395);this.openSeal(396);
@@ -282,20 +263,19 @@ function LevelLeader(){
 				Pather.moveTo(7788,5293,5,true,true);
 				while(!getUnit(1,243)){delay(500);}
 				this.killQuestBoss(243);
-				Town.doChores();
-				this.logProgress("Complete","Diablo");
+				this.talkToNPC("Tyrael");
+				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
-			case 111://Shenk and Prisoners
-				this.logProgress("Started","Shenk and Prisoners");
+			case 111://Shenk
 				Pather.journeyTo(110);
 				Pather.moveTo(3883,5113,2,true,true);
 				this.killQuestBoss(760);
+				this.talkToNPC("Larzuk");
+				this.logProgress(me.getQuest(35,0),"Shenk");
 				this.talkToNPC("Qual-Kehk");
-				Town.doChores();
-				this.logProgress("Complete","Shenk and Prisoners");
+				this.logProgress(me.getQuest(36,0),"Prisoners");
 			break;
 			case 113://Anya
-				this.logProgress("Started","Anya");
 				if(Pather.moveToExit(114,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(114,2,460);
 				delay(1000);
@@ -309,18 +289,16 @@ function LevelLeader(){
 				this.talkToNPC("Anya");
 				me.cancel();
 				Town.doChores();
-				this.logProgress("Complete","Anya");
+				this.logProgress(me.getQuest(37,0),"Anya");
 			break;
 			case 123://Nihlathak
-				this.logProgress("Started","Nihlathak");
 				if(Pather.moveToExit(124,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(124,2,462);
 				this.killQuestBoss(526);
-				Town.doChores();
-				this.logProgress("Complete","Nihlathak");
+				this.talkToNPC("Anya");
+				this.logProgress(me.getQuest(38,0),"Nihlathak");
 			break;
 			case 118://Ancients
-				this.logProgress("Started","Ancients");
 				if(Pather.moveToExit(120,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(120,2,546);
 				Altar=getUnit(2,546);
@@ -336,7 +314,7 @@ function LevelLeader(){
 				Attack.clear(50);
 				Pather.openExit(128);
 				Pather.journeyTo(128);
-				this.logProgress("Complete","Ancients");
+				this.logProgress(me.getQuest(39,0),"Ancients");
 			break;
 			case 130://Baal
 				this.logProgress("Started","Baal");
@@ -348,29 +326,31 @@ function LevelLeader(){
 					delay(500);
 				}
 				BaalPortal=getUnit(2,563);
-				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){					
-					quit();
+				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
 					// Pather.moveTo(15134,5923,true,true);
 					// this.killQuestBoss(544);
+					Town.doChores();
 				}
-				Town.doChores();
-				this.logProgress("Complete","Baal");
+				this.logProgress(me.getQuest(40,0),"Baal");
+				quit();
 			break;
 		}
 		return true;
 	};
 	
-	this.logProgress=function(Progress,Quest){
-		var date=new Date(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
+	this.logProgress=function(Completed,Quest){
+		var date=new Date(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
 		dateString="["+(h<10?"0"+h:h)+":"+(m<10?"0"+m:m)+":"+(s<10?"0"+s:s)+"]";
-
-		try{FileTools.appendText("logs/ScriptErrorLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
+		
+		if(Completed){Progress="Completed";}
+		
+		try{FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
 		}catch(err){D2Bot.printToConsole("Failed to Log Progress",10);return false;}
 		return true;
 	};
 	
 	this.ChangeAct=function(DestinationAct){
-		var NPC,preArea=me.area;
+		var NPC,preArea=me.area,ActProgress;
 		try{
 			switch(DestinationAct){
 			case 2:
@@ -381,6 +361,7 @@ function LevelLeader(){
 				}
 				delay(2000);
 				//this.getA2Merc();
+				ActProgress=7;
 				break;
 			case 3:
 				Pather.journeyTo(40);
@@ -392,11 +373,13 @@ function LevelLeader(){
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D38);
 				}
+				ActProgress=15;
 				break;
 			case 4:
 				if(me.area != 102){Pather.journeyTo(102);}
 				Pather.moveTo(17591,8070,2,true,true);
 				Pather.usePortal(null);
+				ActProgress=23;
 				break;
 			case 5:
 				Pather.journeyTo(103);
@@ -408,6 +391,7 @@ function LevelLeader(){
 				}else{
 					Misc.useMenu(0x58D2);
 				}
+				ActProgress=28;
 				break;
 			}
 			while(!me.area){
@@ -415,12 +399,9 @@ function LevelLeader(){
 			}
 			if(preArea==me.area){
 				say("Act change failed");
-				this.logProgress("Failed","Change to Act "+DestinationAct);
-			}else{
-				say("Act change done");
-				this.logProgress("Complete","Change to Act "+DestinationAct);
 			}
-		}catch(err){me.cancel();this.logProgress("Failed","Change to Act "+DestinationAct);return false;}
+		}catch(err){me.cancel();return false;}
+		this.logProgress(me.getQuest(ActProgress,0),"Change to Act "+DestinationAct);
 		return true;
 	};
 	
@@ -434,20 +415,19 @@ function LevelLeader(){
 						say("Waiting for Party Quest");
 						delay(15000);
 					}
-					this.logProgress("Complete","Clear to Unit:"+UnitId+" in Area:"+QuestArea);
+					this.logProgress(true,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);
 					break;
 				}
-			}catch(err){this.logProgress("Failed","Clear to Unit:"+UnitId+" in Area:"+QuestArea);return false;}
+			}catch(err){this.logProgress(null,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);return false;}
 			count++;
 		}
 		return true;
 	};
 	
 	this.killQuestBoss=function(BossId){
-		try{
-			Attack.clear(20,0,BossId);
-			this.logProgress("Complete","Kill Boss:"+BossId);
-		}catch(err){this.logProgress("Failed","Kill Boss:"+BossId);return false;}
+		try{Attack.clear(20,0,BossId);
+		}catch(err){return false;}
+		this.logProgress(!getUnit(1,BossId),"Kill Boss:"+BossId);
 		return true;
 	};
 	
@@ -456,13 +436,13 @@ function LevelLeader(){
 		me.getItem(ItemId);
 		Chest=getUnit(2,ChestId);
 		try{Misc.openChest(Chest);
-		}catch(err){this.logProgress("Failed","OpenChestId:"+ChestId);return false;}
+		}catch(err){this.logProgress(null,"OpenChestId:"+ChestId);return false;}
 		delay(1000);
 		Item=getUnit(4,ItemId);
 		try{Pickit.pickItem(Item);
-		}catch(err){this.logProgress("Failed","GetQuestItem:"+ItemId);return false;}
+		}catch(err){this.logProgress(null,"GetQuestItem:"+ItemId);return false;}
 		delay(1000);
-		this.logProgress("Complete","Get QuestItem:"+ItemId+",ChestId:"+ChestId);
+		this.logProgress(true,"Get QuestItem:"+ItemId+",ChestId:"+ChestId);
 		return true;
 	};
 	
@@ -472,8 +452,8 @@ function LevelLeader(){
 		Pather.getWP(me.area);
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
-		if(NPC && NPC.openMenu()){me.cancel();this.logProgress("Complete","Talk to NPC"+NPCName);}
-		else{this.logProgress("Failed","Talk to NPC"+NPCName);return false;}
+		if(NPC && NPC.openMenu()){me.cancel();this.logProgress(true,"Talk to NPC "+NPCName);}
+		else{this.logProgress(null,"Talk to NPC "+NPCName);return false;}
 		if(NPCName=="Alkor"){
 			Town.move("Asheara");
 			Town.move("Ormus");
@@ -483,14 +463,14 @@ function LevelLeader(){
 	
 	this.talkToNPCWild=function(NPCName){
 		var i,NPC=getUnit(1,NPCName);
-		if(!NPC){this.logProgress("Failed","Talk to WildNPC"+NPCName);return false;}
+		if(!NPC){this.logProgress(null,"Talk to WildNPC "+NPCName);return false;}
 		for(i=0; i<3; i += 1){
 			if(getDistance(me,NPC)>3){Pather.moveToUnit(NPC);}
 			NPC.interact();
 			delay(2000);
 			me.cancel();
 		}
-		this.logProgress("Complete","Talk to WildNPC"+NPCName);
+		this.logProgress(true,"Talk to WildNPC "+NPCName);
 		return true;
 	};
 	
@@ -498,7 +478,7 @@ function LevelLeader(){
 		var MyParty=getParty();
 		if(MyParty){
 			do{
-				if(MyParty.name != me.name && MyParty.area==me.area){//MyParty.area==me.area
+				if(MyParty.name != me.name && MyParty.area==me.area){
 					return true;
 				}
 			}while(MyParty.getNext());
@@ -508,12 +488,11 @@ function LevelLeader(){
 	
 	this.talkToAnya=function(){
 		var Anya=getUnit(2,558);
-		if(!Anya){this.logProgress("Failed","Talk to Anya");return false;}
+		if(!Anya){this.logProgress(null,"Talk to Anya");return false;}
 		Pather.moveToUnit(Anya);
 		Anya.interact();
 		delay(250);
 		me.cancel();
-		this.logProgress("Complete","Talk to Anya");
 		return true;
 	};
 	
@@ -534,13 +513,12 @@ function LevelLeader(){
 				}
 			}
 		}
-		this.logProgress("Failed","Opening Seal ID:"+SealId);
+		this.logProgress(Seal.mode,"Opening Seal ID:"+SealId);
 		return false;
 	};
 
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0;
-		this.logProgress("Started","Smash Compelling Orb");
 		try{
 			while(Orb && orbTimeout<10){
 				Orb.interact();
@@ -548,14 +526,13 @@ function LevelLeader(){
 				orbTimeout++;
 			}
 			weaponSwitch();
-		}catch(err){this.logProgress("Failed","Smash Compelling Orb");return false;}
-		this.logProgress("Complete","Smash Compelling Orb");
+		}catch(err){return false;}
+		this.logProgress(me.getQuest(21,3),"Smash Compelling Orb");
 		return true;
 	};
 
 	this.cubeFlail=function(){
 		var Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
-		this.logProgress("Started","Make Khalim Flail");
 		if(!me.getQuest(21,0)){
 			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
@@ -566,25 +543,23 @@ function LevelLeader(){
 		transmute();
 		delay(1000);
 		Flail=me.getItem(174);
-		if(!Flail){
-			this.logProgress("Failed","Make Khalim Flail");
-			return false;
-		}		
-		Storage.Inventory.MoveTo(Flail);
-		me.cancel();
-		weaponSwitch();
-		Town.doChores();
-		this.logProgress("Complete","Make Khalim Flail");
+		if(Flail){		
+			Storage.Inventory.MoveTo(Flail);
+			me.cancel();
+			weaponSwitch();
+			Town.doChores();
+			this.logProgress(me.getItem(174),"Make Khalim Will");
+		}
 		return true;
 	};
 	
 	this.placeStaff=function(){
 		var HoradricStaff=me.getItem(91),item,Orifice=getUnit(2,152);
-		this.logProgress("Started","Placing Horadric Staff");
 		if(!me.getQuest(10,0)){
 			if(!Orifice){quit();}
 			if(!HoradricStaff){
-				this.logProgress("Failed","Placing Horadric Staff");
+				this.logProgress(me.getItem(91),"Making Horadric Staff");
+				Town.doChores();
 				this.cubeStaff();
 				Pather.journeyTo(getRoom().correcttomb,null);
 				this.clearToQuestLocation(getRoom().correcttomb,2,152);
@@ -596,39 +571,36 @@ function LevelLeader(){
 			delay(1000);
 			item=me.findItem(-1,0,3);
 			if(item && item.toCursor()){Storage.Inventory.MoveTo(item);}
-			this.logProgress("Complete","Placing Horadric Staff");
+			this.logProgress(me.getQuest(10,0),"Placing Horadric Staff");
 		}
 		return true;
 	};
 	
 	this.cubeStaff=function(){
 		var HoradricStaff,Staff=me.getItem(92),Amulet=me.getItem(521);
-		this.logProgress("Started","Make Horadric Staff");
 		if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(43);}
 		if(Amulet){Storage.Cube.MoveTo(Amulet);}else{this.CheckQuests(44);}
-		Town.doChores();
 		Cubing.openCube();
 		transmute();
 		delay(1000);
 		HoradricStaff=me.getItem(91);
-		if(!HoradricStaff){this.logProgress("Failed","Make Horadric Staff");quit();}		
+		if(!HoradricStaff){this.logProgress(me.getItem(91),"Make Horadric Staff");quit();return false;}		
 		Storage.Inventory.MoveTo(HoradricStaff);
 		me.cancel();
-		this.logProgress("Complete","Make Horadric Staff");
+		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return true;
 	};
 		
 	this.getA2Merc=function(){
-		this.logProgress("Started","Hiring A2 Merc");
 		Pather.getWP(me.area);
 		Town.move("Griez");
 		var Griez=getUnit(1,"Greiz");
-		if(!me.getMerc()&& !me.mercrevivecost){
+		if(!me.getMerc() && !me.mercrevivecost){
 			if(Griez && Griez.openMenu()){
 				Misc.useMenu(0x0D45);
 				for(i=0x0; i<0xFFFF; i++){
 					try{if(Griez.useMenu(i)){print(i+" worked");delay(10000);break;}}
-					catch(err){delay(50);print(i+" failed");}
+					catch(err){delay(100);print(i+" failed");}
 				}
 				// Lines=getDialogLines();
 				// if(!Lines){
@@ -649,7 +621,7 @@ function LevelLeader(){
 				//}
 			}
 		}
-		this.logProgress("Complete","Hiring A2 Merc");
+		this.logProgress(me.getMerc(,"Hiring A2 Merc");
 		return true;
 	};
 	
@@ -677,26 +649,16 @@ function LevelLeader(){
 	};
 	
 	this.areaClearCheck=function(Area){
-		switch(Area){
-			case 110:
-				ClearType=0xF;
-			break;
-			case 111:
-				ClearType=0xF;
-			break;
-			case 112:
-				ClearType=0xF;
-			break;
-			case 115:
-				ClearType=0xF;
-			break;
-			case 117:
-				ClearType=0xF;
-			break;
-			default:
-				ClearType=0;
-			break;
-		}
+		try{
+			switch(Area){
+				case 110:ClearType=0xF;break;
+				case 111:ClearType=0xF;break;
+				case 112:ClearType=0xF;break;
+				case 115:ClearType=0xF;break;
+				case 117:ClearType=0xF;break;
+				default:ClearType=0;break;
+			}
+		}catch(err){return false;}
 		return true;
 	};
 	
@@ -712,25 +674,23 @@ function LevelLeader(){
 	
 	for(ActNumber; ActNumber<LevelingAreas.length; ActNumber++){
 		if(me.act!=ActNumber+1){this.ChangeAct(ActNumber+1);}
-		this.logProgress("Started","Act "+(ActNumber+1));
 		for(LevelArea=0; LevelArea<LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
-				try{
-					Pather.makePortal();
+				try{Pather.makePortal();
 				}catch(err){print("Failed to make portal");}
-				WaitingLimit=0;
-				this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);
-				while(!this.playerClose()&& WaitingLimit<6){
+				WaitingLimit=3;
+				while(!this.playerClose() && WaitingLimit>0){
 					say("Waiting");
-					delay(10000);
-					WaitingLimit++;
+					delay(10000*WaitingLimit--);
 				}
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
-				Attack.clearLevel(ClearType);
+				if(this.areaClearCheck(LevelingAreas[ActNumber][LevelArea])){
+					Attack.clearLevel(ClearType);
+				}
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
 		}
-		this.logProgress("Complete","Act "+(ActNumber+1));
+		this.logProgress("Completed","Act "+(ActNumber+1));
 	}
 	return true;
 }

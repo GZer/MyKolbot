@@ -31,6 +31,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("Runes.nip");
 				Config.PickitFiles.push("AutoEquip/Singer.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
@@ -175,7 +176,9 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
 				//Armor
 				Config.Runewords.push([Runeword.Stealth,"Hard Leather Armor"]);
+				Config.Runewords.push([Runeword.Stealth,"Studded Leather"]);
 				Config.Runewords.push([Runeword.Stealth,"Breast Plate"]);
+				Config.Runewords.push([Runeword.Myth,"Ring Mail"]);
 				Config.Runewords.push([Runeword.Myth,"Breast Plate"]);
 				Config.Runewords.push([Runeword.Myth,"Light Plate"]);
 				Config.Runewords.push([Runeword.Enlightenment,"Mage Plate"]);
@@ -294,6 +297,7 @@ var AutoBuildTemplate={
 				Config.AttackSkill=[146,132,0,0,0,0,0];
 				Config.Cubing=true;
 				Config.UseMerc=true;
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 
