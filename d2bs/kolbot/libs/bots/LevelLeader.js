@@ -621,7 +621,7 @@ function LevelLeader(){
 				//}
 			}
 		}
-		this.logProgress(me.getMerc(,"Hiring A2 Merc");
+		this.logProgress(me.getMerc(),"Hiring A2 Merc");
 		return true;
 	};
 	
