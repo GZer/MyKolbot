@@ -293,7 +293,7 @@ var AutoBuildTemplate={
 			SkillPoints: [49],
 			StatPoints: [0,1,1,3,3],	
 			Update: function (){
-				Config.AttackSkill=[42,49,49,49,49,53,53];
+				Config.MinColumn=[4,4,4,4];
 			}
 		},
 
@@ -301,7 +301,7 @@ var AutoBuildTemplate={
 			SkillPoints: [49,63],//Lightning Mastery
 			StatPoints: [0,1,1,3,3],	
 			Update: function (){
-				Config.MinColumn=[4,4,4,4];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre30.nip"),1);
 			}
 		},
 

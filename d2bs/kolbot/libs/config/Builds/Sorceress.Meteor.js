@@ -295,7 +295,7 @@ var AutoBuildTemplate={
 			SkillPoints: [56],
 			StatPoints: [0,1,1,3,3],	
 			Update: function (){
-				Config.AttackSkill=[42,56,47,56,47,53,49];
+				Config.MinColumn=[4,4,4,4];
 			}
 		},
 
@@ -303,7 +303,7 @@ var AutoBuildTemplate={
 			SkillPoints: [56,61],//Fire Mastery
 			StatPoints: [0,1,1,3,3],	
 			Update: function (){
-				Config.MinColumn=[4,4,4,4];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre30.nip"),1);
 			}
 		},
 

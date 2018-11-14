@@ -32,11 +32,11 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("AutoEquip/Auradin.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
-				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[3] = [1,1,1,1,1,1,1,1,1,1];
-				Config.AutoEquip = true;
+				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
+				Config.AutoEquip=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts (0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
@@ -285,7 +285,7 @@ var AutoBuildTemplate={
 			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[97,97,120,97,120,110,120];
+				Config.MinColumn=[4,4,4,4];
 			}
 		},
 
@@ -293,8 +293,9 @@ var AutoBuildTemplate={
 			SkillPoints: [125,120],//Salvation
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.Redemption = [50,0];
+				Config.Redemption=[50,0];
 				Config.AttackSkill=[97,97,125,97,120,110,120];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre30.nip"),1);
 			}
 		},
 

@@ -377,6 +377,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],	
 			Update: function(){
 				Config.AttackSkill=[132,154,0,0,0,0,0];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre30.nip"),1);
 			}
 		},
 

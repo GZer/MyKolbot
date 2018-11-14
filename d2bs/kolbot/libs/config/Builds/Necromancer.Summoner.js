@@ -280,7 +280,7 @@ var AutoBuildTemplate={
 			SkillPoints: [82],//Life Tap
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[70,70,70,70,70,70,70];
+				Config.MinColumn=[4,4,4,4];
 			}
 		},
 
@@ -301,6 +301,7 @@ var AutoBuildTemplate={
 				Config.ReviveUnstackable=true;
 				Config.Curse[0]=87;
 				Config.Curse[1]=91;
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre30.nip"),1);
 			}
 		},
 

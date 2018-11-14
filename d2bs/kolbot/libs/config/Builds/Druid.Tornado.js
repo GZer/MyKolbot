@@ -282,7 +282,7 @@ var AutoBuildTemplate={
 			SkillPoints: [245],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[240,245,245,245,245,230,230];
+				Config.MinColumn=[4,4,4,4];
 			}
 		},
 
@@ -290,7 +290,7 @@ var AutoBuildTemplate={
 			SkillPoints: [250,245],//Hurricane
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[240,245,245,245,245,230,230];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre30.nip"),1);
 			}
 		},
 
