@@ -1,0 +1,84 @@
+[17:56:59] <ColdSorc> Error in LevelFollower (pather.js line 1016): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2219, Pather.makePortal@pather.js:1016
+[18:18:16] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:678, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[18:32:20] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:678, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[19:43:50] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 14
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[21:31:57] <Hammerdin> Error in LevelFollower (levelfollower.js line 170): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170
+[21:31:58] <Wind> Error in LevelFollower (levelfollower.js line 170): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170
+[21:32:05] <FireSorc> Error in LevelFollower (levelfollower.js line 170): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170
+[21:32:06] <Auradin> Error in LevelFollower (levelfollower.js line 170): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170
+[21:32:08] <Summoner> Error in LevelFollower (levelfollower.js line 170): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170
+[21:32:09] <ColdSorc> Error in LevelFollower (levelfollower.js line 170): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170
+[21:33:43] <LightSorc> Error in LevelFollower (levelfollower.js line 170): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170
+[21:43:42] <Singer> Error in LevelLeader (attack.js line 866): Level Not loaded
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:670, Town.doChores@town.js:101, Cubing.doCubing@cubing.js:916, Cubing.getCube@cubing.js:156, useWaypoint@pather.js:937, Pather.getWP@pather.js:1301, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:615, Pather.moveTo@pather.js:227, Pather.walkTo@pather.js:412, Attack.validSpot@attack.js:866
+[21:52:01] <Singer> Error in LevelLeader (pather.js line 941): Pather.useWaypoint: Failed to go to waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:670, Town.doChores@town.js:101, Cubing.doCubing@cubing.js:916, Cubing.getCube@cubing.js:156, useWaypoint@pather.js:937, Pather.getWP@pather.js:1301, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:615, Pather.moveTo@pather.js:247, Attack.clear@attack.js:443, ClassAttack.afterAttack@barbarian.js:71, Town.visitTown@town.js:2264, Town.doChores@town.js:101, Cubing.doCubing@cubing.js:916, Cubing.getCube@cubing.js:156, useWaypoint@pather.js:941
+[21:53:40] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 33
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[21:56:25] <Singer> Error in LevelLeader (pather.js line 941): Pather.useWaypoint: Failed to go to waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:670, Town.doChores@town.js:101, Cubing.doCubing@cubing.js:916, Cubing.getCube@cubing.js:156, useWaypoint@pather.js:941
+[23:12:20] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[23:40:03] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[23:40:08] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[23:40:31] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[23:43:44] <Singer> Error in LevelLeader (town.js line 2224): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:691, @levelleader.js:124, Town.doChores@town.js:66, Town.goToTown@town.js:2224
+[00:28:35] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 29
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:678, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[02:58:41] <Singer> Error in LevelLeader (town.js line 2224): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:691, @levelleader.js:135, @levelleader.js:582, @levelleader.js:135, @levelleader.js:581, @levelleader.js:124, Town.doChores@town.js:66, Town.goToTown@town.js:2224
+[04:37:42] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:37:51] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:40:53] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:40:54] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:50:42] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:52:59] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:53:32] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 47
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[05:29:16] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[05:29:28] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[05:34:12] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[05:40:35] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[05:43:32] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[05:52:46] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:170, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[05:56:06] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:14:18] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:691, @levelleader.js:129, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:37:35] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:37:43] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:37:54] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:37:59] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[07:56:01] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:186, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810

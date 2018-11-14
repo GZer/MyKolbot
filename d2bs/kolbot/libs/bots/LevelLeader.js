@@ -449,7 +449,6 @@ function LevelLeader(){
 	this.talkToNPC=function(NPCName){
 		var NPC;
 		Town.doChores();
-		Pather.getWP(me.area);
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){me.cancel();this.logProgress(true,"Talk to NPC "+NPCName);}
@@ -577,17 +576,17 @@ function LevelLeader(){
 	};
 	
 	this.cubeStaff=function(){
-		var HoradricStaff,Staff=me.getItem(92),Amulet=me.getItem(521);
-		if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(43);}
-		if(Amulet){Storage.Cube.MoveTo(Amulet);}else{this.CheckQuests(44);}
+		var HoradricStaff=me.getItem(91),Staff=me.getItem(92),Amulet=me.getItem(521);
+		if(Staff){Storage.Cube.MoveTo(Staff);}else if(!HoradricStaff){this.CheckQuests(43);}
+		if(Amulet){Storage.Cube.MoveTo(Amulet);}else if(!HoradricStaff){this.CheckQuests(44);}
 		Cubing.openCube();
 		transmute();
 		delay(1000);
-		HoradricStaff=me.getItem(91);
-		if(!HoradricStaff){this.logProgress(me.getItem(91),"Make Horadric Staff");quit();return false;}		
+		HoradricStaff=me.getItem(91);		
 		Storage.Inventory.MoveTo(HoradricStaff);
 		me.cancel();
-		this.logProgress(me.getItem(91),"Make Horadric Staff");
+		if(HoradricStaff){this.logProgress(me.getItem(91),"Make Horadric Staff");}
+		else{this.logProgress(me.getItem(91),"Make Horadric Staff");quit();return false;}
 		return true;
 	};
 		
