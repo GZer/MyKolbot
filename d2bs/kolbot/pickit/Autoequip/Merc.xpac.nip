@@ -1,4 +1,6 @@
 //======================MERC======================//
+//Any Etheral
+([Type]==Spear || [Type]==Polearm || [Type]==Armor || [Type]==Helm) && [Flag]==Ethereal # # [MercTier]==1 && [MaxQuantity]==1
 //Mid level Magic
 ([Type]==Spear || [Type]==Polearm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDamage] > 40 || [LifeLeech] > 3 # [MercTier]==2
 ([Type]==Armor || [Type]==Helm) && [Flag]==Ethereal && [Quality] >= Magic # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier]==2

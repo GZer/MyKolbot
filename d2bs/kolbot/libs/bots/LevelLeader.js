@@ -197,19 +197,18 @@ function LevelLeader(){
 				if(Pather.moveToExit(94,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(94,2,193);
 				this.getQuestItem(548,193);
-				this.talkToNPC("Alkor");
-				this.logProgress(me.getQuest(17,3),"Black Book");
+				this.logProgress(me.getQuest(17,3),"Black Book");				
 				Pather.journeyTo(80);
 				if(Pather.moveToExit([92,93],true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
-				this.talkToNPC("Alkor");
-				Town.doChores();
 				this.logProgress(me.getItem(554),"Khalim Heart");
+				quit();
 			break;
 			case 82://Khalim Flail
 				Pather.journeyTo(83);
 				Pather.getWP(83);
 				Town.doChores();
+				this.talkToNPC("Alkor");
 				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
 				this.getQuestItem(173);
@@ -268,7 +267,7 @@ function LevelLeader(){
 			break;
 			case 111://Shenk
 				Pather.journeyTo(110);
-				Pather.moveTo(3883,5113,2,true,true);
+				Pather.moveTo(3883,5113,15,true,true);
 				this.killQuestBoss(760);
 				this.talkToNPC("Larzuk");
 				this.logProgress(me.getQuest(35,0),"Shenk");
@@ -453,10 +452,6 @@ function LevelLeader(){
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){me.cancel();this.logProgress(true,"Talk to NPC "+NPCName);}
 		else{this.logProgress(null,"Talk to NPC "+NPCName);return false;}
-		if(NPCName=="Alkor"){
-			Town.move("Asheara");
-			Town.move("Ormus");
-		}
 		return true;
 	};
 	

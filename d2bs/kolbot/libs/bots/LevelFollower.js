@@ -21,6 +21,7 @@ function LevelFollower(){
 				//this.getA2Merc();
 				break;
 			case 3:
+				Town.goToTown(2);
 				Pather.journeyTo(40);
 				this.talkToNPC("Jerhyn");
 				Town.move("portalspot");
@@ -36,7 +37,7 @@ function LevelFollower(){
 				Pather.usePortal(null);
 				break;
 			case 5:
-				Pather.journeyTo(103);
+				Town.goToTown(4);
 				this.talkToNPC("Tyrael");			
 				delay(1000);
 				if(getUnit(2,566)){
@@ -65,7 +66,7 @@ function LevelFollower(){
 			else{LeaderAct=5;}
 			if(LeaderAct != me.act){											//Make sure we are in the same act
 				try{
-					if(Pather.useWaypoint(LeaderArea)){
+					if(Town.goToTown(LeaderAct)){
 						delay(200);
 					}
 				}catch(er){this.ChangeAct(LeaderAct);}
@@ -135,26 +136,15 @@ function LevelFollower(){
 	};
 	
 	this.areaClearCheck=function(Area){
-		switch(Area){
-			case 110:
-				ClearType=0xF;
-			break;
-			case 111:
-				ClearType=0xF;
-			break;
-			case 112:
-				ClearType=0xF;
-			break;
-			case 115:
-				ClearType=0xF;
-			break;
-			case 117:
-				ClearType=0xF;
-			break;
-			default:
-				ClearType=0;
-			break;
-		}
+		try{switch(Area){
+				case 110:ClearType=0xF;break;
+				case 111:ClearType=0xF;break;
+				case 112:ClearType=0xF;break;
+				case 115:ClearType=0xF;break;
+				case 117:ClearType=0xF;break;
+				default:ClearType=0;break;
+			}
+		}catch(err){return false;}
 		return true;
 	};
 	
