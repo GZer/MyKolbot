@@ -1,0 +1,14 @@
+[22:59:56] <Singer> Error in LevelLeader (pather.js line 1016): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:685, @levelleader.js:28, Town.doChores@town.js:66, Town.goToTown@town.js:2219, Pather.makePortal@pather.js:1016
+[23:15:40] <Singer> Error in LevelLeader (pather.js line 1016): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:685, @levelleader.js:28, Town.doChores@town.js:66, Town.goToTown@town.js:2219, Pather.makePortal@pather.js:1016
+[23:34:14] <Singer> Error in LevelLeader (pather.js line 1016): makePortal: No TP tomes.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:685, @levelleader.js:28, Town.doChores@town.js:66, Town.goToTown@town.js:2219, Pather.makePortal@pather.js:1016
+[00:34:09] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:672, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[00:48:14] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:672, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:50:27] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:176, @levelfollower.js:94, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:50:28] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:176, @levelfollower.js:94, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
