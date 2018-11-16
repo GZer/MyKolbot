@@ -1,8 +1,9 @@
 //Weapon
 ([Type]==Staff || [Type]==Orb) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillBlizzard]+[SkillGlacialSpike]+[SkillWarmth] >= 2 # [Tier]==1
-([Type]==Orb || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillBlizzard]+[SkillGlacialSpike]+[SkillWarmth] >= 2 && ([FCR] >= 10 || [MaxMana]+[MaxHP] >= 5) # [Tier]==2
+([Type]==Orb || [Type]==Sword) && [Flag]!=Ethereal && [Quality] >= Magic # [SkillBlizzard]+[SkillGlacialSpike] >= 2 && ([FCR] >= 10 || [MaxMana]+[MaxHP] >= 5) # [Tier]==2
 [Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==3
-([Type]==Wand || [Type]==Orb || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillBlizzard]+[SkillGlacialSpike]+[SkillWarmth] >= 2 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 # [Tier]==4
+[Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier]==4
+[Type]==Orb && [Flag]!=Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 2 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 # [Tier]==10
 [Name]==SwirlingCrystal && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==90
 [Name]==SwirlingCrystal && [Flag]!=Ethereal && [Quality]==Set # [SkillColdMastery]==2 # [Tier]==95
 [Name]==DimensionalShard && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==98
@@ -10,8 +11,9 @@
 
 //Shield
 [Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxMana]+[MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==1
-[Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab] >= 1 # [Tier]==2
-[Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FCR] >= 20 && [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab] >= 1 # [Tier]==3
+[Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxMana]+[MaxHP] >= 10 # [Tier]==2
+[Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab] >= 1 # [Tier]==3
+[Type]==Shield && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FCR] >= 20 && [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab] >= 1 # [Tier]==4
 [Type]==Shield && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==98
 [Type]==Shield && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier]==99
 
@@ -37,13 +39,15 @@
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxMana]+[MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxMana]+[MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Boots && [Flag]!=Ethereal && [Quality]==Unique # [ItemMagicBonus] >= 30 && [Strength]+[Vitality]==20 # [Tier]==99
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxMana]+[MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==4
+[Type]==Boots && [Flag]!=Ethereal && [Quality]==Unique # [ItemMagicBonus] >= 30 && [Strength]+[Vitality]==20 # [Tier]==98
+[Type]==Boots && [Flag]!=Ethereal && [Quality]==Unique # [ItemMagicBonus] >= 50 && [Strength]+[Vitality]==20 # [Tier]==99
 
 //Gloves
 [Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxMana]+[MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxMana]+[MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Ring && [Quality] >= Magic # [SkillWarmth] >= 1 && [FCR] >= 20 # [Tier]==99
+[Type]==Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxMana]+[MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
+[Type]==Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxMana]+[MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Gloves && [Quality] >= Magic # [SkillWarmth] >= 1 && [FCR] >= 20 # [Tier]==99
 
 //Belt
 [Type]==Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
@@ -54,9 +58,9 @@
 [Type]==Belt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillBlizzard]+[SkillGlacialSpike]+[SkillWarmth] >= 5 # [Tier]==99
 
 //Rings
-[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxMana]+[MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1
+[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxMana]+[MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 || [FCR] >= 10 # [Tier]==1
 [Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 && [MaxMana]+[MaxHP] >= 10 && [Strength]+[Dexterity] >= 10 # [Tier]==2
-[Type]==Ring && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 10 # [Tier]==3
+[Type]==Ring && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxMana]+[MaxHP] >= 10) && [FCR] >= 10 # [Tier]==3
 [Type]==Ring && [Quality]==Unique # [ItemAllSkills] >= 1 # [Tier]==99
 
 //Amulets

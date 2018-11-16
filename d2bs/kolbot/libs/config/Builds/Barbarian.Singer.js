@@ -171,9 +171,12 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Leaf,"Gnarled Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"Battle Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"War Staff"]);
+				Config.Runewords.push([Runeword.Strength,"War Scepter"]);
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Claymore"]);
+				Config.Runewords.push([Runeword.Spirit,"Bastard Sword"]);
 				//Armor
 				Config.Runewords.push([Runeword.Stealth,"Hard Leather Armor"]);
 				Config.Runewords.push([Runeword.Stealth,"Studded Leather"]);

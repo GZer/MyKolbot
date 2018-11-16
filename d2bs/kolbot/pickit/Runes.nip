@@ -24,6 +24,10 @@
 [Name] >= MalRune && [Name] <= ZodRune
 
 //======================RUNEWORDS======================//
+//Strength
+[Name]==WarScepter && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 3 && [Sockets]==2
+//Black
+[Name]==Flail && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] == Superior # [Sockets]==3 # [MaxQuantity]==1
 //Spirit
 ([Name]==CrystalSword || [Name]==BroadSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4
 ([Name]==LongSword || [Name]==Claymore || [Name]==BastardSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2

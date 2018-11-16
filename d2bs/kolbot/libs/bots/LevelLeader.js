@@ -23,16 +23,17 @@ function LevelLeader(){
 		,Altar,BaalPortal
 		,i;
 		switch(ClearedArea){
-			case 8://Walk to Town after Den
-				if(Pather.getWP(3,true) && Pather.useWaypoint(1)){delay(250);}else{Pather.journeyTo(1)}
+			case 8://Waypoint to Town after Den
+				Pather.getWP(3);
+				Pather.journeyTo(1);
 				Town.doChores();
 				this.logProgress(me.getQuest(1,0),"Den");
 			break;
 			case 17://BloodRaven
 				this.killQuestBoss(775);
-				if(Pather.getWP(3,true) && Pather.useWaypoint(1)){delay(250);}else{Pather.journeyTo(1)}
+				Pather.journeyTo(1);
 				Town.doChores();
-				this.logProgress(me.getQuest(2,3),"BloodRaven");
+				this.logProgress(me.getQuest(2,0),"BloodRaven");
 			break;
 			case 5://Tristram
 				if(!me.getQuest(4,4) && !me.getItem(525)){
@@ -349,7 +350,7 @@ function LevelLeader(){
 	};
 	
 	this.ChangeAct=function(DestinationAct){
-		var NPC,preArea=me.area,ActProgress;
+		var NPC,preArea=me.area;
 		try{
 			switch(DestinationAct){
 			case 2:
@@ -360,7 +361,6 @@ function LevelLeader(){
 				}
 				delay(2000);
 				//this.getA2Merc();
-				ActProgress=7;
 				break;
 			case 3:
 				Pather.journeyTo(40);
@@ -372,13 +372,11 @@ function LevelLeader(){
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D38);
 				}
-				ActProgress=15;
 				break;
 			case 4:
 				if(me.area != 102){Pather.journeyTo(102);}
 				Pather.moveTo(17591,8070,2,true,true);
 				Pather.usePortal(null);
-				ActProgress=23;
 				break;
 			case 5:
 				Pather.journeyTo(103);
@@ -390,7 +388,6 @@ function LevelLeader(){
 				}else{
 					Misc.useMenu(0x58D2);
 				}
-				ActProgress=28;
 				break;
 			}
 			while(!me.area){
@@ -400,7 +397,7 @@ function LevelLeader(){
 				say("Act change failed");
 			}
 		}catch(err){me.cancel();return false;}
-		this.logProgress(me.getQuest(ActProgress,0),"Change to Act "+DestinationAct);
+		this.logProgress(me.act==DestinationAct,"Change to Act "+DestinationAct);
 		return true;
 	};
 	

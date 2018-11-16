@@ -1,10 +1,12 @@
 //Weapon
 ([Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==1
 ([Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==2
-([Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillBlessedHammer]+[SkillConcentration] >= 1 || [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier]==3
+([Type]==Hammer || [Type]==Mace || [Type]==Sword || [Type]==Scepter) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillBlessedHammer]+[SkillConcentration] >= 2 || [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier]==3
 [Name]==WarScepter && [Flag]!=Ethereal && [Quality]==Set # # [Tier]==4
 [Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
-[Type]==Mace && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier]==99
+[Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier]==95
+[Type]==Mace && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier]==98
+[Type]==Mace && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 && [FireResist]+[ColdResist]+[LightResist] >= 120 # [Tier]==99
 
 //Shield
 [Type]==AuricShields && [Flag]!=Ethereal && [Quality] >= LowQuality # # [Tier]==1 && [MaxQuantity]==1
@@ -12,7 +14,9 @@
 ([Type]==AuricShields || [Type]==Shield) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier]==3
 [Name]==KiteShield && [Flag]!=Ethereal && [Quality]==Set # # [Tier]==4
 [Type]==AuricShields && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
-[Name]==GildedShield && [Quality]==Unique # # [Tier]==99
+[Type]==AuricShields && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier]==95
+[Name]==GildedShield && [Quality]==Unique # # [Tier]==98
+[Name]==GildedShield && [Quality]==Unique # [EnhancedDefense]>=200 # [Tier]==99
 
 //Helm
 ([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
@@ -33,14 +37,16 @@
 //Boots
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Boots && [Flag]==Ethereal && [Quality]==Unique # [PoisonResist] >= 40 && [Strength]+[Vitality] >= 20 # [Tier]==99
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 15) && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==4
+[Type]==Boots && [Flag]!=Ethereal && [Quality]==Unique # [PoisonResist] >= 40 && [Strength]+[Vitality] >= 20 # [Tier]==98
+[Type]==Boots && [Flag]==Ethereal && [Quality]==Unique # [PoisonResist] >= 70 && [Strength]+[Vitality] >= 30 # [Tier]==99
 
 //Gloves
 [Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Ring && [Quality] >= Magic # [FCR] >= 20 # [Tier]==99
+[Type]==Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
+[Type]==Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Gloves && [Quality] >= Magic # [FCR] >= 20 # [Tier]==99
 
 //Belt
 [Type]==Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
@@ -58,7 +64,8 @@
 [Type]==Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1
 [Type]==Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 && [MaxHP] >= 10 && [Strength]+[Dexterity] >= 10 # [Tier]==2
 [Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier]==3
-[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 && [FCR] >= 10 # [Tier]==4
-[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 2 && [FCR] >= 20 # [Tier]==5
+[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 2 && [FCR] >= 10 # [Tier]==4
+[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 3 && [FCR] >= 20 # [Tier]==5
 [Type]==Amulet && [Quality]==Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 60 # [Tier]==90
+[Type]==Amulet && [Quality]==Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 90 # [Tier]==95
 [Type]==Amulet && [Quality] >= Rare # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 20 && [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier]==99
