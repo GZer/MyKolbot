@@ -192,18 +192,18 @@ var Town = {
 			}
 		}
 		
-		//Qual-Kehk for Runes
-		if(me.getQuest(36, 3)){
-			try{
-				Town.move("Qual-Kehk");
-				NPC=getUnit(1,"Qual-Kehk");
-				if(NPC && NPC.openMenu()){
-					me.cancel();
-				}
-			}catch(err){
-				D2Bot.printToConsole("No Free Runes");
-			}
-		}
+		// //Qual-Kehk for Runes
+		// if(me.getQuest(36, 3)){
+			// try{
+				// Town.move("Qual-Kehk");
+				// NPC=getUnit(1,"Qual-Kehk");
+				// if(NPC && NPC.openMenu()){
+					// me.cancel();
+				// }
+			// }catch(err){
+				// D2Bot.printToConsole("No Free Runes");
+			// }
+		// }
 		
 		//Scroll Of Resistance
 		if (me.getItem(646)) {

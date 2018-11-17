@@ -9,7 +9,7 @@ function LevelLeader(){
 	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,29,32,34,35,36],
 	[47,48,41,42,56,57,43,44,50,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
-	[104,105,106,107],
+	[104,105,106],
 	[110,111,112,113,115,121,122,123,117,118,128,129,130]];	
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
@@ -139,8 +139,9 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(11,0),"Amulet of Viper");
 			break;
 			case 54://Summoner
-				try{if(Pather.moveToExit(74,true,true)){Pather.makePortal();}}catch(err){Pather.journeyTo(74);Pather.makePortal();}
+				Pather.journeyTo(74);
 				Pather.getWP(74);
+				Pather.makePortal();
 				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
@@ -198,7 +199,7 @@ function LevelLeader(){
 				if(Pather.moveToExit(94,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(94,2,193);
 				this.getQuestItem(548,193);
-				this.logProgress(me.getQuest(17,3),"Black Book");				
+				this.logProgress(me.getItem(548),"Black Book");				
 				Pather.journeyTo(80);
 				if(Pather.moveToExit([92,93],true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
@@ -244,9 +245,11 @@ function LevelLeader(){
 				if(Pather.moveToExit(105,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
-				this.logProgress(me.getQuest(25,3),"Izual");
+				this.logProgress(me.getQuest(25,0),"Izual");
 			break;
-			case 107://Diablo
+			case 106://Diablo
+				if(Pather.moveToExit(107,true,true)){Pather.makePortal();}
+				while(true){if(Pather.getWP(107,true)){break;}}
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
 				this.openSeal(395);this.openSeal(396);
 				this.openSeal(395);this.openSeal(396);
@@ -327,8 +330,8 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					// Pather.moveTo(15134,5923,true,true);
-					// this.killQuestBoss(544);
+					Pather.moveTo(15134,5923,true,true);
+					this.killQuestBoss(544);
 					Town.doChores();
 				}
 				this.logProgress(me.getQuest(40,0),"Baal");
@@ -363,10 +366,10 @@ function LevelLeader(){
 				//this.getA2Merc();
 				break;
 			case 3:
-				Pather.journeyTo(40);
+				Town.goToTown(2);
+				Pather.moveTo(5091,5155,2,true,true);
 				this.talkToNPC("Jerhyn");
-				Pather.journeyTo(50);
-				Town.goToTown();
+				Pather.moveTo(5202,5056,2,true,true);
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
 				if(NPC && NPC.openMenu()){
@@ -379,7 +382,7 @@ function LevelLeader(){
 				Pather.usePortal(null);
 				break;
 			case 5:
-				Pather.journeyTo(103);
+				Town.goToTown(4);
 				this.talkToNPC("Tyrael");			
 				delay(1000);
 				if(getUnit(2,566)){
@@ -444,7 +447,6 @@ function LevelLeader(){
 	
 	this.talkToNPC=function(NPCName){
 		var NPC;
-		Town.doChores();
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){me.cancel();this.logProgress(true,"Talk to NPC "+NPCName);}
@@ -510,8 +512,7 @@ function LevelLeader(){
 
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0;
-		try{
-			while(Orb && orbTimeout<10){
+		try{while(Orb && orbTimeout<5){
 				Orb.interact();
 				delay(500);
 				orbTimeout++;
@@ -524,7 +525,7 @@ function LevelLeader(){
 
 	this.cubeFlail=function(){
 		var Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
-		if(!me.getQuest(21,0)){
+		if(!me.getQuest(18,0)){
 			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
 			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);}
@@ -539,7 +540,7 @@ function LevelLeader(){
 			me.cancel();
 			weaponSwitch();
 			Town.doChores();
-			this.logProgress(me.getItem(174),"Make Khalim Will");
+			this.logProgress(me.getItem(174),"Making Khalim Will");
 		}
 		return true;
 	};
@@ -619,12 +620,13 @@ function LevelLeader(){
 	this.checkProgress=function(){
 		var i,UpToArea;
 		for(i=0; i<WaypointAreas.length; i++){
-			if(getWaypoint(38)){
-				UpToArea=129;
-			}else if(!getWaypoint(i)){
+			//say("GetWP "+WaypointAreas[i]+" "+getWaypoint(i));
+			if(getWaypoint(38)){UpToArea=129;}
+			else if(!getWaypoint(i)){
 				i--;
 				if(WaypointAreas[i]==74){UpToArea=52;}
 				else if(WaypointAreas[i]==83){UpToArea=82;}
+				else if(WaypointAreas[i]==107){UpToArea=106;}
 				else{UpToArea=WaypointAreas[i];}
 				break;
 			}
@@ -675,9 +677,8 @@ function LevelLeader(){
 					delay(10000*WaitingLimit--);
 				}
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
-				if(this.areaClearCheck(LevelingAreas[ActNumber][LevelArea])){
-					Attack.clearLevel(ClearType);
-				}
+				this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);
+				Attack.clearLevel(ClearType);
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
 		}

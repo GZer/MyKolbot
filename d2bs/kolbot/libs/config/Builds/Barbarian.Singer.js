@@ -297,9 +297,8 @@ var AutoBuildTemplate={
 			SkillPoints: [146],//Battle Cry
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 				Config.UseMerc=true;
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 
@@ -307,7 +306,7 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 
@@ -315,7 +314,7 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 
@@ -323,7 +322,7 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 
@@ -331,7 +330,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],//Battle Orders
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.Cubing=true;
 			}
 		},
 
@@ -339,7 +338,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.Cubing=true;
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}	
 		},
 
@@ -347,7 +346,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 
@@ -355,7 +354,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 
@@ -363,7 +362,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[146,132,0,0,0,0,0];
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 

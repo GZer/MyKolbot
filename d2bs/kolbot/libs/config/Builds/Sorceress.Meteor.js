@@ -32,11 +32,11 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("AutoEquip/Meteor.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
-				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[3] = [1,1,1,1,1,1,1,1,1,1];
-				Config.AutoEquip = true;
+				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
+				Config.AutoEquip=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts (0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
@@ -67,9 +67,7 @@ var AutoBuildTemplate={
 			SkillPoints: [37],//Warmth
 			StatPoints: [0,1,1,3,3],//Str,Vit + 1 & Energy +2
 			Update: function (){
-				Config.StaticList=[250,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,723,724,725,726,727
-				,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756
-				,757,758,759,760,761,762,763,764,765,766,767,768,769];
+				Config.StaticList=["Countess","Andariel","Radament","Duriel","Mephisto","Izual","Diablo","Shenk","Baal"];
 			}
 		},
 		
@@ -128,7 +126,7 @@ var AutoBuildTemplate={
 			SkillPoints: [36],
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
-				Config.AttackSkill=[36,36,36,36,36,38,38];
+				Config.CastStatic=20;
 			}
 		},
 
@@ -221,7 +219,6 @@ var AutoBuildTemplate={
 			Update: function (){
 				Config.AttackSkill=[42,47,47,47,47,53,49];
 				Config.UseMerc=true;
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 
@@ -263,7 +260,7 @@ var AutoBuildTemplate={
 			SkillPoints: [56,58],//Energy Shield
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
-				Config.AttackSkill=[42,56,47,56,47,53,49];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}	
 		},
 

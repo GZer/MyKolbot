@@ -32,11 +32,11 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("AutoEquip/Summoner.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
-				Config.Inventory[0] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[1] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[2] = [1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[3] = [1,1,1,1,1,1,1,1,1,1];
-				Config.AutoEquip = true;
+				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
+				Config.AutoEquip=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts (0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
@@ -214,7 +214,6 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.UseMerc=true;
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 
@@ -256,7 +255,7 @@ var AutoBuildTemplate={
 			SkillPoints: [90],//Iron Golem
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[70,70,70,70,70,70,70];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 

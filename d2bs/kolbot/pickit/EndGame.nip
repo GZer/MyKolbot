@@ -30,7 +30,7 @@
 [Type]==Boots && [Flag]==Ethereal && [Quality]==Unique # ([PoisonResist] >= 40 || [ItemMagicBonus] >= 30 || [SkillSkeletonMastery] >= 1) && [Strength] >= 10
 
 //======================PHYSICAL UNIQUES======================//
-[Name]==Armor && [Quality]==Unique # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20
+[Type]==Armor && [Quality]==Unique # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20
 [Type]==Boots && [Quality]==Unique # [ItemCrushingBlow] >= 15
 [Type]==Gloves && [Quality]==Unique # [ItemOpenWounds] >= 25 || [IAS] >= 10
 [Type]==Helm && [Quality]==Unique # [IAS] >= 10

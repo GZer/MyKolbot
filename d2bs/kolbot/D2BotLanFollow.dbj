@@ -153,6 +153,10 @@ function locationAction() {
 		case 16:// Logging in Select
 			delay(500);
 		break;
+		case 30:// Connecting
+			ControlAction.click(6, 351, 337, 96, 32);
+			delay(500);
+		break;
 		case 39:// Other Multiplayer Screen
 			ControlAction.click(6, 264, 350, 272, 35);//TCP/IP Game
 			delay(500);

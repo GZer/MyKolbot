@@ -210,7 +210,6 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.UseMerc=true;
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 
@@ -250,7 +249,7 @@ var AutoBuildTemplate={
 			SkillPoints: [245],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[240,245,245,245,245,230,230];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 
