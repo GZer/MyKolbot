@@ -1,0 +1,8 @@
+[23:23:19] <Singer> Error in LevelLeader (town.js line 2224): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:681, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2224
+[23:45:25] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:693, @levelleader.js:253, Pather.getWP@pather.js:1305
+[00:33:53] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:693, @levelleader.js:253, Pather.getWP@pather.js:1305
+[00:54:57] <Singer> Error in LevelLeader (town.js line 2240): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:691, Attack.clearLevel@attack.js:781, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:444, Attack.openChests@attack.js:908, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2267, Town.goToTown@town.js:2240

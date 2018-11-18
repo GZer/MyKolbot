@@ -379,7 +379,9 @@ function LevelLeader(){
 				break;
 			case 4:
 				if(me.area != 102){Pather.journeyTo(102);}
-				Pather.moveTo(17591,8070,2,true,true);
+				Pather.moveTo(17590,8068,2,true,true);
+				delay(2000);
+				Pather.moveTo(17601,8070,2,true,true);
 				Pather.usePortal(null);
 				break;
 			case 5:
@@ -664,7 +666,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-	// while(true){say(me.x+", "+me.y);delay(2000);}
+	// while(true){say(me.x+","+me.y);delay(2000);}
 	Town.move("portalspot");
 	delay(7000);
 	Pather.getWP(me.area);
