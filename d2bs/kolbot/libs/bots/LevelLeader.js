@@ -196,11 +196,14 @@ function LevelLeader(){
 			break;
 			case 80://Black Book and Khalim Heart
 				Pather.journeyTo(80);
-				if(Pather.moveToExit(94,true,true)){Pather.makePortal();}
-				this.clearToQuestLocation(94,2,193);
-				this.getQuestItem(548,193);
-				this.logProgress(me.getItem(548),"Black Book");				
-				Pather.journeyTo(80);
+				if(!me.getQuest(17,0)){
+					if(Pather.moveToExit(94,true,true)){Pather.makePortal();}
+					this.clearToQuestLocation(94,2,193);
+					this.getQuestItem(548,193);
+					this.talkToNPC("Alkor");
+					this.logProgress(me.getQuest(17,0),"Black Book");
+					Pather.journeyTo(80);
+				}
 				if(Pather.moveToExit([92,93],true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
 				this.logProgress(me.getItem(554),"Khalim Heart");
@@ -209,7 +212,6 @@ function LevelLeader(){
 				Pather.journeyTo(83);
 				while(true){if(Pather.getWP(83,true)){break;}}
 				Town.doChores();
-				this.talkToNPC("Alkor");
 				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
 				this.getQuestItem(173);
