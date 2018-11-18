@@ -12,7 +12,7 @@ function LevelFollower(){
 		try{
 			switch(DestinationAct){
 			case 2:
-				Town.move("Warriv");
+				Pather.moveTo(4862,5662,5);
 				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
@@ -22,15 +22,14 @@ function LevelFollower(){
 				break;
 			case 3:
 				Pather.journeyTo(40);
-				Pather.moveTo(5091,5155,2,true,true);
+				Pather.moveTo(5091,5155,5);
 				this.talkToNPC("Jerhyn");
-				Pather.moveTo(5202,5056,2,true,true);
+				Pather.moveTo(5202,5056,5);
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D38);
 				}
-				break;
 				break;
 			case 4:
 				if(me.area != 102){Pather.journeyTo(102);}
@@ -66,8 +65,8 @@ function LevelFollower(){
 			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct=4;}
 			else{LeaderAct=5;}
 			if(LeaderAct != me.act){														//Make sure we are in the same act
-				try{if(getWaypoint(TownWaypoints[LeaderAct]-1)){Pather.journeyTo(TownWaypoints[LeaderAct]-1);}
-				}catch(er){this.ChangeAct(LeaderAct);}
+				if(Pather.journeyTo(TownWaypoints[LeaderAct-1])){say("Act change done");}
+				else{this.ChangeAct(LeaderAct);}
 			}
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
@@ -112,7 +111,7 @@ function LevelFollower(){
 		}
 	};
 	
-	this.getLeaderUnit=function(name){											//Get Leader's unit
+	this.getLeaderUnit=function(name){														//Get Leader's unit
 		var Player=getUnit(0,name);
 		if(Player){
 			do{

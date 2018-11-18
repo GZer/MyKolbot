@@ -49,7 +49,7 @@
 [Type]==VoodooHeads && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && [Sockets]==2 # [MaxQuantity]==2
 //Spirit
 [Type]==AuricShields && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 24 && [Sockets]==4 # [MaxQuantity]==2
-[Name]==Monarch && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==4 # [MaxQuantity]==2
+[Name]==Monarch && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
 
 //Insight or Infinity
 [Type]==Polearm && [Flag]==Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==1

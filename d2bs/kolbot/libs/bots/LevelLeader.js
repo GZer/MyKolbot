@@ -142,7 +142,7 @@ function LevelLeader(){
 				Pather.journeyTo(74);
 				Pather.getWP(74);
 				Pather.makePortal();
-				this.clearToQuestLocation(74,2,357);
+				while(true){if(this.clearToQuestLocation(74,2,357)){break;}}
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
 				Pather.getWP(46);
@@ -155,7 +155,7 @@ function LevelLeader(){
 				this.clearToQuestLocation(getRoom().correcttomb,2,152);
 				this.clearToQuestLocation(getRoom().correcttomb,2,100);
 				this.placeStaff();
-				while(!getUnit(2,100)){delay(500);}
+				this.waitForUnit(2,100);
 				Pather.useUnit(2,100,73);
 				Pather.makePortal();
 				this.killQuestBoss(211);
@@ -164,7 +164,7 @@ function LevelLeader(){
 				Pather.moveTo(22577,15649,10);
 				Pather.moveTo(22577,15609,10);
 				this.talkToNPCWild("Tyrael");
-				Pather.getPortal(null);
+				Pather.usePortal(null);
 				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 76://Khalim Eye
@@ -183,7 +183,7 @@ function LevelLeader(){
 				Attack.clear(20);
 				this.getQuestItem(87,86);
 				Town.doChores();
-				this.logProgress(me.getQuest(19,3),"Gidbinn");
+				this.logProgress(me.getItem(87),"Gidbinn");
 				Pather.useWaypoint(78);
 				while(true){try{if(Pather.moveToExit(88,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter FlayerLvl1");}}
 				while(true){try{if(Pather.moveToExit(89,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter FlayerLvl2");}}
@@ -204,11 +204,10 @@ function LevelLeader(){
 				if(Pather.moveToExit([92,93],true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
 				this.logProgress(me.getItem(554),"Khalim Heart");
-				quit();
 			break;
 			case 82://Khalim Flail
 				Pather.journeyTo(83);
-				Pather.getWP(83);
+				while(true){if(Pather.getWP(83,true)){break;}}
 				Town.doChores();
 				this.talkToNPC("Alkor");
 				Pather.journeyTo(83);
@@ -264,7 +263,7 @@ function LevelLeader(){
 				Pather.moveTo(7769,5263,5,true,true);
 				Pather.makePortal();
 				Pather.moveTo(7788,5293,5,true,true);
-				while(!getUnit(1,243)){delay(500);}
+				this.waitForUnit(1,243);
 				this.killQuestBoss(243);
 				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(26,0),"Diablo");
@@ -306,14 +305,14 @@ function LevelLeader(){
 				this.clearToQuestLocation(120,2,546);
 				Altar=getUnit(2,546);
 				if(Altar){
-					while(Altar.mode !== 2){
+					while(Altar.mode!=2){
 						Pather.moveToUnit(Altar);
 						Altar.interact();
 						delay(2000);
 						me.cancel();
 					}
 				}
-				while(!getUnit(1,542)){delay(250);}				
+				this.waitForUnit(1,542);			
 				Attack.clear(50);
 				Pather.openExit(128);
 				Pather.journeyTo(128);
@@ -330,8 +329,8 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					Pather.moveTo(15134,5923,true,true);
-					this.killQuestBoss(544);
+					// Pather.moveTo(15134,5923,true,true);
+					// this.killQuestBoss(544);
 					Town.doChores();
 				}
 				this.logProgress(me.getQuest(40,0),"Baal");
@@ -357,7 +356,7 @@ function LevelLeader(){
 		try{
 			switch(DestinationAct){
 			case 2:
-				Town.move("Warriv");
+				Pather.moveTo(4862,5662,5);
 				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
@@ -366,10 +365,10 @@ function LevelLeader(){
 				//this.getA2Merc();
 				break;
 			case 3:
-				Town.goToTown(2);
-				Pather.moveTo(5091,5155,2,true,true);
+				Pather.journeyTo(40);
+				Pather.moveTo(5091,5155,5);
 				this.talkToNPC("Jerhyn");
-				Pather.moveTo(5202,5056,2,true,true);
+				Pather.moveTo(5202,5056,5);
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
 				if(NPC && NPC.openMenu()){
@@ -382,7 +381,7 @@ function LevelLeader(){
 				Pather.usePortal(null);
 				break;
 			case 5:
-				Town.goToTown(4);
+				Pather.journeyTo(103);
 				this.talkToNPC("Tyrael");			
 				delay(1000);
 				if(getUnit(2,566)){
@@ -452,6 +451,14 @@ function LevelLeader(){
 		if(NPC && NPC.openMenu()){me.cancel();this.logProgress(true,"Talk to NPC "+NPCName);}
 		else{this.logProgress(null,"Talk to NPC "+NPCName);return false;}
 		return true;
+	};
+	
+	this.waitForUnit=function(ClassId,UnitId){
+		var timeOut=0;
+		while(!getUnit(ClassId,UnitId) && timeOut<30){
+			delay(1000);
+			timeOut++;
+		}
 	};
 	
 	this.talkToNPCWild=function(NPCName){
@@ -655,6 +662,7 @@ function LevelLeader(){
 		return true;
 	};
 	
+	// while(true){say(me.x+", "+me.y);delay(2000);}
 	Town.move("portalspot");
 	delay(7000);
 	Pather.getWP(me.area);

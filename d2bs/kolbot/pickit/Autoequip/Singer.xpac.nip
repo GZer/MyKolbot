@@ -2,7 +2,6 @@
 ([Type]==Axe || [Type]==Club || [Type]==Hammer || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==1
 ([Type]==Axe || [Type]==Club || [Type]==Hammer || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==2
 ([Type]==Axe || [Type]==Club || [Type]==Hammer || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Sword) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 1 # [Tier]==3
-([Name]==DoubleAxe || [Name]==Sabre) && [Quality]==Set # # [Tier]==4
 [Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
 [Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier]==95
 [Type]==Mace && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier]==98
@@ -21,7 +20,6 @@
 [Type]==Armor && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
 [Type]==Armor && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
 [Type]==Armor && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 1 # [Tier]==3
-([Name]==SplintMail || [Name]==RingMail) && [Flag]!=Ethereal && [Quality]==Set # # [Tier]==4
 [Name]==SerpentskinArmor && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==90
 [Type]==Armor && [Flag]!=Ethereal && [Flag]==Runeword # [BarbarianSkills] >= 2 # [Tier]==95
 [Type]==Armor && [Flag]!=Ethereal && [Flag]==Runeword # [ItemAllSkills] >= 2 && [SkillTeleport] >= 1 # [Tier]==99

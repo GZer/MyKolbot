@@ -1,4 +1,5 @@
 //======================CHARMS======================//
+[Name]==GrandCharm # [WarcriesSkillTab]+[NecromancerSummoningSkillTab]+[PaliCombatSkillTab]+[ColdSkillTab]+[LightningSkillTab]+[FireSkillTab]+[ElementalSkillTab] >= 1
 [Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>=15 || [Mana]>=30) && ([MaxHP]>=30 || [Strength]+[Dexterity]>=5)
 [Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>=11 || [Mana]>=13) && ([MaxHP]>=20 || [Strength]+[Dexterity]>=2)
 
