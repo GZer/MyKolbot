@@ -62,7 +62,6 @@ var AutoBuildTemplate={
 				//Config.Leader="PapaBear";
 				Scripts.LevelLeader=true;
 				Scripts.LevelFollower=false;
-				Scripts.Questing=true;
 			}
 		},
 		
