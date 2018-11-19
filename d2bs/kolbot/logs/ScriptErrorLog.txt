@@ -6,3 +6,13 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:693, @levelleader.js:253, Pather.getWP@pather.js:1305
 [00:54:57] <Singer> Error in LevelLeader (town.js line 2240): Town.goToTown: Failed use WP
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:691, Attack.clearLevel@attack.js:781, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:444, Attack.openChests@attack.js:908, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2267, Town.goToTown@town.js:2240
+[08:37:12] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:695, @levelleader.js:253, Pather.getWP@pather.js:1305
+[09:02:56] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:695, @levelleader.js:253, Pather.getWP@pather.js:1305
+[10:39:41] <Singer> Error in LevelLeader (levelleader.js line 520): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:695, @levelleader.js:255, @levelleader.js:520
+[11:45:01] <ColdSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[12:19:53] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:683, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
