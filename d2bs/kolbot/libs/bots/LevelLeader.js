@@ -133,9 +133,10 @@ function LevelLeader(){
 				this.getQuestItem(521,149);
 				Pickit.pickItems();
 				Town.doChores();
-				this.cubeStaff();
-				this.talkToNPC("Drognan");
-				this.talkToNPC("Jerhyn");
+				if(this.cubeStaff()){
+					this.talkToNPC("Drognan");
+					this.talkToNPC("Jerhyn");
+				}else{quit();}
 				this.logProgress(me.getQuest(11,0),"Amulet of Viper");
 			break;
 			case 54://Summoner
@@ -206,6 +207,8 @@ function LevelLeader(){
 				}
 				if(Pather.moveToExit([92,93],true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
+				delay(1000);
+				this.getQuestItem(554);
 				this.logProgress(me.getItem(554),"Khalim Heart");
 			break;
 			case 82://Khalim Flail
@@ -240,12 +243,13 @@ function LevelLeader(){
 				Pather.moveTo(17590,8068,1,true,true);
 				Pather.moveTo(17572,8031,1,true,true);
 				Attack.openChests(25);
-				this.logProgress(me.getQuest(23,0),"Act 3");
 			break;
 			case 104://Izual
 				if(Pather.moveToExit(105,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
+				this.talkToNPC("Tyrael");
+				Pather.usePortal(105,null);
 				this.logProgress(me.getQuest(25,0),"Izual");
 			break;
 			case 106://Diablo
@@ -321,7 +325,6 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(39,0),"Ancients");
 			break;
 			case 130://Baal
-				this.logProgress("Started","Baal");
 				if(Pather.moveToExit(131,true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
 				Pather.moveTo(15095,5029,true,true);
@@ -336,7 +339,7 @@ function LevelLeader(){
 					Town.doChores();
 				}
 				this.logProgress(me.getQuest(40,0),"Baal");
-				quit();
+				// quit();
 			break;
 		}
 		return true;
@@ -417,19 +420,17 @@ function LevelLeader(){
 						say("Waiting for Party Quest");
 						delay(15000);
 					}
-					this.logProgress(true,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);
-					break;
+					return true;
 				}
 			}catch(err){this.logProgress(null,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);return false;}
 			count++;
 		}
-		return true;
+		return false;
 	};
 	
 	this.killQuestBoss=function(BossId){
 		try{Attack.clear(20,0,BossId);
-		}catch(err){return false;}
-		this.logProgress(!getUnit(1,BossId),"Kill Boss:"+BossId);
+		}catch(err){this.logProgress(null,"Kill Boss:"+BossId);return false;}
 		return true;
 	};
 	
@@ -437,8 +438,10 @@ function LevelLeader(){
 		var Chest,Item,Tick=getTickCount();
 		me.getItem(ItemId);
 		Chest=getUnit(2,ChestId);
-		try{Misc.openChest(Chest);
-		}catch(err){this.logProgress(null,"OpenChestId:"+ChestId);return false;}
+		if(Chest){
+			try{Misc.openChest(Chest);
+			}catch(err){this.logProgress(null,"OpenChestId:"+ChestId);return false;}
+		}
 		delay(1000);
 		Item=getUnit(4,ItemId);
 		try{Pickit.pickItem(Item);
@@ -452,7 +455,7 @@ function LevelLeader(){
 		var NPC;
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
-		if(NPC && NPC.openMenu()){me.cancel();this.logProgress(true,"Talk to NPC "+NPCName);}
+		if(NPC && NPC.openMenu()){me.cancel();}
 		else{this.logProgress(null,"Talk to NPC "+NPCName);return false;}
 		return true;
 	};
@@ -474,7 +477,6 @@ function LevelLeader(){
 			delay(2000);
 			me.cancel();
 		}
-		this.logProgress(true,"Talk to WildNPC "+NPCName);
 		return true;
 	};
 	
@@ -510,10 +512,10 @@ function LevelLeader(){
 				tick=getTickCount();
 				while(getTickCount()-tick<500){
 					if(Seal.mode){
-						delay(1000);
+						delay(500);
 						return true;
 					}
-					delay(100);
+					delay(250);
 				}
 			}
 		}
@@ -522,14 +524,16 @@ function LevelLeader(){
 	};
 
 	this.smashOrb=function(){
-		var Orb=getUnit(2,404),orbTimeout=0;
-		try{while(Orb && orbTimeout<5){
-				Orb.interact();
-				delay(500);
-				orbTimeout++;
-			}
-			weaponSwitch();
-		}catch(err){return false;}
+		var Orb=getUnit(2,404),orbTimeout=0,Flail=me.getItem(174);
+		if(Flail){
+			try{while(Orb && orbTimeout<4){
+					Orb.interact();
+					delay(250);
+					orbTimeout++;
+				}
+				weaponSwitch();
+			}catch(err){return false;}
+		}else{return false;}
 		this.logProgress(me.getQuest(21,3),"Smash Compelling Orb");
 		return true;
 	};
@@ -546,14 +550,12 @@ function LevelLeader(){
 		transmute();
 		delay(1000);
 		Flail=me.getItem(174);
-		if(Flail){		
-			Storage.Inventory.MoveTo(Flail);
-			me.cancel();
-			weaponSwitch();
-			Town.doChores();
-			this.logProgress(me.getItem(174),"Making Khalim Will");
-		}
-		return true;
+		Storage.Inventory.MoveTo(Flail);
+		me.cancel();
+		weaponSwitch();
+		Town.doChores();
+		this.logProgress(me.getItem(174),"Making Khalim Will");
+		return me.getItem(174);
 	};
 	
 	this.placeStaff=function(){
@@ -561,11 +563,11 @@ function LevelLeader(){
 		if(!me.getQuest(10,0)){
 			if(!Orifice){quit();}
 			if(!HoradricStaff){
-				this.logProgress(me.getItem(91),"Making Horadric Staff");
 				Town.doChores();
 				this.cubeStaff();
 				Pather.journeyTo(getRoom().correcttomb,null);
 				this.clearToQuestLocation(getRoom().correcttomb,2,152);
+				this.clearToQuestLocation(getRoom().correcttomb,2,100);
 				HoradricStaff=me.getItem(91);
 			}
 			Misc.openChest(Orifice);
@@ -586,12 +588,11 @@ function LevelLeader(){
 		Cubing.openCube();
 		transmute();
 		delay(1000);
-		HoradricStaff=me.getItem(91);		
+		HoradricStaff=me.getItem(91);
 		Storage.Inventory.MoveTo(HoradricStaff);
 		me.cancel();
-		if(HoradricStaff){this.logProgress(me.getItem(91),"Make Horadric Staff");}
-		else{this.logProgress(me.getItem(91),"Make Horadric Staff");quit();return false;}
-		return true;
+		this.logProgress(me.getItem(91),"Make Horadric Staff");
+		return me.getItem(91);
 	};
 		
 	this.getA2Merc=function(){
@@ -667,11 +668,11 @@ function LevelLeader(){
 	};
 	
 	// while(true){say(me.x+","+me.y);delay(2000);}
+	// this.getA2Merc();
 	Town.move("portalspot");
 	delay(7000);
 	Pather.getWP(me.area);
 	delay(1000);
-	// this.getA2Merc();
 	Town.doChores();
 	delay(1000);
 	this.checkProgress();
@@ -683,10 +684,10 @@ function LevelLeader(){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{Pather.makePortal();
 				}catch(err){print("Failed to make portal");}
-				WaitingLimit=3;
-				while(!this.playerClose() && WaitingLimit>0){
-					say("Waiting");
-					delay(10000*WaitingLimit--);
+				WaitingLimit=0;
+				while(!this.playerClose() && WaitingLimit<2){
+					say("Waiting for Party");
+					delay(10000*WaitingLimit++);
 				}
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
 				this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);

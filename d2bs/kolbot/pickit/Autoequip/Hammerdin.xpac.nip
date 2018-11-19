@@ -16,7 +16,7 @@
 [Type]==AuricShields && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
 [Type]==AuricShields && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier]==95
 [Name]==GildedShield && [Quality]==Unique # # [Tier]==98
-[Name]==GildedShield && [Quality]==Unique # [EnhancedDefense]>=200 # [Tier]==99
+[Name]==GildedShield && [Quality]==Unique # [EnhancedDefense] >= 200 # [Tier]==99
 
 //Helm
 ([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
@@ -32,7 +32,7 @@
 [Type]==Armor && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier]==3
 [Name]==AncientArmor && [Flag]!=Ethereal && [Quality]==Set # # [Tier]==4
 [Name]==SerpentskinArmor && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==90
-[Type]==Armor && [Flag]!=Ethereal && [Flag]==Runeword # [ItemAllSkills] >= 2 && [SkillTeleport] >= 1 # [Tier]==99
+[Type]==Armor && [Flag]!=Ethereal && [Flag]==Runeword # [ItemAllSkills] >= 2 && [PlusSkillTeleport] >= 1 # [Tier]==99
 
 //Boots
 [Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
@@ -50,9 +50,9 @@
 
 //Belt
 [Type]==Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Belt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Belt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Belt && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills] >= 1 # [Tier]==99
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
+[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [ItemAllSkills] >= 1 # [Tier]==99
 
 //Rings
 [Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1

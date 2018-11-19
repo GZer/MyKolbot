@@ -1,16 +1,4 @@
-//======================RUNES & GEMS======================//
-[Name]==ElRune # # [MaxQuantity]==3
-[Name]==EldRune # # [MaxQuantity]==3
-[Name]==TirRune # # [MaxQuantity]==3
-[Name]==NefRune # # [MaxQuantity]==3
-[Name]==EthRune # # [MaxQuantity]==3
-[Name]==IthRune # # [MaxQuantity]==3
-[Name]==TalRune # # [MaxQuantity]==3
-[Name]==RalRune # # [MaxQuantity]==3
-[Name]==OrtRune # # [MaxQuantity]==3
-[Name]==ThulRune # # [MaxQuantity]==3
-[Name]==AmnRune # # [MaxQuantity]==3
-[Name]==SolRune # # [MaxQuantity]==3
+//===============RUNES & GEMS===============//
 [Name]==ShaelRune # # [MaxQuantity]==3
 [Name]==DolRune # # [MaxQuantity]==3
 [Name]==HelRune # # [MaxQuantity]==3
@@ -23,33 +11,28 @@
 [Name]==UmRune # # [MaxQuantity]==5
 [Name] >= MalRune && [Name] <= ZodRune
 
-//======================RUNEWORDS======================//
-//Strength
-[Name]==WarScepter && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 3 && [Sockets]==2
+//===============RUNEWORDS===============//
 //Black
-[Name]==Flail && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] == Superior # [Sockets]==3 # [MaxQuantity]==1
+[Name]==Flail && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDamage] >= 15 && [Sockets]==3 # [MaxQuantity]==1
 //Spirit
 ([Name]==CrystalSword || [Name]==BroadSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4
-([Name]==LongSword || [Name]==Claymore || [Name]==BastardSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
-[Type]==Staff && [Flag]!=Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 3 && [Sockets]==2 # [MaxQuantity]==1
+([Name]==LongSword || [Name]==Claymore || [Name]==BastardSword || [Name]==BattleSword || [Name]==DimensionalBlade || [Name]==DacianFalx || [Name]==GothicSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==1
 
-//Stealth
-([Name]==HardLeatherArmor || [Name]==StuddedLeather || [Name]==BreastPlate || [Name]==LightPlate) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==2 # [MaxQuantity]==1
 //Myth
-([Name]==RingMail || [Name]==BreastPlate || [Name]==LightPlate) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==3 # [MaxQuantity]==1
+([Name]==RingMail || [Name]==BreastPlate || [Name]==LightPlate || [Name]==LinkedMail || [Name]==Cuirass || [Name]==MagePlate) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==3 # [MaxQuantity]==1
 //Enlightenment or Enigma
-[Name]==MagePlate && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 10 && [Sockets]==3 # [MaxQuantity]==1
+[Name]==MagePlate && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && [Sockets]==3
 
 //Lore
-([Type]==Pelt || [Type]==PrimalHelm) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # ([SkillTornado]+[SkillOakSage] >= 2 || [SkillBattleOrders]+[SkillShout] >= 2) && [Sockets]==2 # [MaxQuantity]==2
-([Name]==Cap || [Name]==SkullCap || [Name]==Helm) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==2 # [MaxQuantity]==2
+[Type]==Pelt && [Flag]!=Ethereal && [Quality] <= Superior # [SkillTornado]+[SkillOakSage] >= 3 && [Sockets]==2 # [MaxQuantity]==1
+[Type]==PrimalHelm && [Flag]!=Ethereal && [Quality] <= Superior # [SkillBattleOrders] >= 3 && [Sockets]==2 # [MaxQuantity]==1
 
 //Splendor
-([Name]==BoneShield || [Name]==SmallShield) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 1 && [Sockets]==2 # [MaxQuantity]==2
-[Type]==VoodooHeads && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && [Sockets]==2 # [MaxQuantity]==2
+([Name]==SmallShield || [Name]==BoneShield || [Name]==RoundShield || [Name]==GrimShield) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && [Sockets]==2 # [MaxQuantity]==1
+[Type]==VoodooHeads && [Flag]!=Ethereal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 3 && [Sockets]==2 # [MaxQuantity]==1
 //Spirit
-[Type]==AuricShields && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 24 && [Sockets]==4 # [MaxQuantity]==2
-[Name]==Monarch && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==2
+[Type]==AuricShields && [Flag]!=Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 24 && [Sockets]==4 # [MaxQuantity]==1
+[Name]==Monarch && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==1
 
 //Insight or Infinity
-[Type]==Polearm && [Flag]==Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets]==4 # [MaxQuantity]==1
+[Type]==Polearm && [Flag]==Ethereal && [Quality] <= Superior && [Class] >= Exceptional # [Sockets]==4 # [MaxQuantity]==1

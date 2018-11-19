@@ -29,7 +29,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
-				Config.PickitFiles.push("Runes.nip");
+				Config.PickitFiles.push("EarlyRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Singer.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
@@ -177,13 +177,25 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Claymore"]);
 				Config.Runewords.push([Runeword.Spirit,"Bastard Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Battle Sword"]);
+				Config.Runewords.push([Runeword.Spirit,"Dimensional Blade"]);
+				Config.Runewords.push([Runeword.Spirit,"Dacian Falx"]);
+				Config.Runewords.push([Runeword.Spirit,"Gothic Sword"]);
 				//Armor
 				Config.Runewords.push([Runeword.Stealth,"Hard Leather Armor"]);
 				Config.Runewords.push([Runeword.Stealth,"Studded Leather"]);
 				Config.Runewords.push([Runeword.Stealth,"Breast Plate"]);
+				Config.Runewords.push([Runeword.Stealth,"Light Plate"]);
+				Config.Runewords.push([Runeword.Stealth,"Ghost Armor"]);
+				Config.Runewords.push([Runeword.Stealth,"Trellised Armor"]);
+				Config.Runewords.push([Runeword.Stealth,"Cuirass"]);
+				Config.Runewords.push([Runeword.Stealth,"Mage Plate"]);
 				Config.Runewords.push([Runeword.Myth,"Ring Mail"]);
 				Config.Runewords.push([Runeword.Myth,"Breast Plate"]);
 				Config.Runewords.push([Runeword.Myth,"Light Plate"]);
+				Config.Runewords.push([Runeword.Myth,"Linked Mail"]);
+				Config.Runewords.push([Runeword.Myth,"Cuirass"]);
+				Config.Runewords.push([Runeword.Myth,"Mage Plate"]);
 				Config.Runewords.push([Runeword.Enlightenment,"Mage Plate"]);
 				Config.Runewords.push([Runeword.Bone,"Mage Plate"]);
 				Config.Runewords.push([Runeword.Enigma,"Mage Plate"]);
@@ -540,6 +552,9 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre50.nip"),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyRunes.nip"),1);
+				Config.PickitFiles.push("MidRunes.nip");
+				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Spirit, "Broad Sword"]), 1);
 			}
 		},
 
