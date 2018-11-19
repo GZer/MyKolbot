@@ -16,3 +16,59 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
 [12:19:53] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:683, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[17:24:05] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[17:24:30] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:674, Pather.getWP@pather.js:1305
+[17:24:52] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[17:34:18] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[17:35:36] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[17:36:36] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[20:22:21] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[20:24:30] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[20:25:31] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[20:26:50] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[20:55:19] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:00:16] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:09:53] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:11:41] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:19:56] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:22:19] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:22:57] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:25:49] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:27:39] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:27:51] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:31:43] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[21:34:27] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[22:32:04] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[23:28:23] <FireSorc> Error in LevelFollower (town.js line 2220): Town.goToTown: Failed to make TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2220
+[23:32:23] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[00:16:02] <Singer> Error in LevelLeader (town.js line 2273): Town.visitTown: Failed to go back from town
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:694, Attack.clearLevel@attack.js:781, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:443, ClassAttack.afterAttack@barbarian.js:71, Town.visitTown@town.js:2273
+[00:16:26] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[01:12:15] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[02:12:35] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[02:31:58] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[02:45:44] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[03:06:49] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[03:15:23] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[03:38:06] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[03:59:15] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[04:05:51] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[04:26:20] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[04:50:19] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[05:05:02] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[05:06:40] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:683, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[05:07:02] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[05:26:06] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[05:47:16] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[05:53:05] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[06:12:30] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[06:25:10] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[06:36:00] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[06:56:08] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[07:15:52] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[07:37:14] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[07:52:41] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[08:00:01] <Singer> NIP file doesn't exist: pickit/MidRunes.nip

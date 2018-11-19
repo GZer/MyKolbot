@@ -32,9 +32,9 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("AutoEquip/Lightning.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
-				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
-				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[0]=[0,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[1]=[0,1,1,1,1,1,1,1,1,1];
+				Config.Inventory[2]=[0,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
 				Config.AutoEquip=true;
 				Config.OpenChests=false;

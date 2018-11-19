@@ -1,10 +1,10 @@
 //Weapon
 ([Type]==Wand || [Type]==Knife) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 1 # [Tier]==1
-([Type]==Wand || [Type]==Knife) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && ([FCR] >= 10 || [MaxMana]+[MaxHP] >= 5) # [Tier]==2
+([Type]==Wand || [Type]==Knife) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && [MaxMana]+[MaxHP] >= 5 # [Tier]==2
 ([Type]==Wand || [Type]==Knife) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier]==3
 [Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
 [Type]==Mace && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier]==95
-[Name]==TombWand && [Flag]!=Ethereal # # [Tier]==99
+[Name]==TombWand && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==99
 
 //Shield
 [Type]==VoodooHeads && [Flag]!=Ethereal && [Quality] >= LowQuality # # [Tier]==1 && [MaxQuantity]==1

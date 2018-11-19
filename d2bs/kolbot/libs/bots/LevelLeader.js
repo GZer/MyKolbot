@@ -5,12 +5,12 @@
 */
 
 function LevelLeader(){
-	var ActNumber,QuestNumber,LevelArea,WaitingLimit,ClearType;
+	var ActNumber,QuestNumber,LevelArea,WaitingLimit,ClearType=0;
 	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,29,32,34,35,36],
 	[47,48,41,42,56,57,43,44,50,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
 	[104,105,106],
-	[110,111,112,113,115,121,122,123,117,118,128,129,130]];	
+	[111,112,113,115,121,122,123,117,118,128,129,130]];	
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
 	75,76,77,78,79,80,81,83,101,
@@ -300,6 +300,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(37,0),"Anya");
 			break;
 			case 123://Nihlathak
+				if(!me.getQuest(37,0)){this.CheckQuests(113);}
 				if(Pather.moveToExit(124,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(124,2,462);
 				this.killQuestBoss(526);
@@ -656,7 +657,6 @@ function LevelLeader(){
 	this.areaClearCheck=function(Area){
 		try{
 			switch(Area){
-				case 110:ClearType=0xF;break;
 				case 111:ClearType=0xF;break;
 				case 112:ClearType=0xF;break;
 				case 115:ClearType=0xF;break;
@@ -684,13 +684,14 @@ function LevelLeader(){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{Pather.makePortal();
 				}catch(err){print("Failed to make portal");}
-				WaitingLimit=0;
-				while(!this.playerClose() && WaitingLimit<2){
+				WaitingLimit=3;
+				while(!this.playerClose() && WaitingLimit>0){
 					say("Waiting for Party");
-					delay(10000*WaitingLimit++);
+					delay(10000*WaitingLimit--);
 				}
+				Precast.doPrecast(true);
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
-				this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);
+				// this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);
 				Attack.clearLevel(ClearType);
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
