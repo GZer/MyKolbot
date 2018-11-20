@@ -119,9 +119,9 @@ all resist [ColdResist]+[FireResist]+[LightResist] >=
 1 && [Quality] == lowquality
 2 && [Quality] == normal
 3 && [Quality] == superior
-4 && [Quality] == [magic
+4 && [Quality] == magic
 5 && [Quality] == set
-6 && [Quality] == are
+6 && [Quality] == rare
 7 && [Quality] == unique
 8 && [Quality] == crafted
 

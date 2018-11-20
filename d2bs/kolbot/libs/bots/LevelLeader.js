@@ -6,7 +6,7 @@
 
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit,ClearType=0;
-	var LevelingAreas=[[2,8,3,17,18,19,4,5,6,27,29,32,34,35,36],
+	var LevelingAreas=[[2,8,3,4,5,6,27,29,32,34,35,36],
 	[47,48,41,42,56,57,43,44,50,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
 	[104,105,106],
@@ -29,7 +29,8 @@ function LevelLeader(){
 				Town.doChores();
 				this.logProgress(me.getQuest(1,0),"Den");
 			break;
-			case 17://BloodRaven
+			case 3://BloodRaven
+				Pather.journeyTo(17);
 				this.killQuestBoss(775);
 				Pather.journeyTo(1);
 				Town.doChores();
@@ -69,7 +70,6 @@ function LevelLeader(){
 			break;
 			case 6://Countess
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){Pather.makePortal();}
-				Pather.makePortal();
 				Attack.clearLevel(0);
 				Town.doChores();
 				this.logProgress(me.getQuest(5,0),"Countess");
@@ -89,39 +89,32 @@ function LevelLeader(){
 				Pather.moveTo(22549,9520,2,true,true);
 				Pather.makePortal();
 				this.killQuestBoss(156);
-				Pickit.pickItems();
-				delay(5000);
-				Pather.usePortal(null);
 				Town.doChores();
 				this.logProgress(me.getQuest(6,3),"Andariel");
 			break;
 			case 48://Radament
-				this.logProgress("Started","Radament");
 				if(Pather.moveToExit(49,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(49,2,355);
 				this.killQuestBoss(229);
 				this.getQuestItem(552,20);
-				Pickit.pickItems();
+				delay(5000);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(9,0),"Radament");
 			break;
 			case 57://Cube
-				this.logProgress("Started","Cube");
 				if(Pather.moveToExit(60,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(60,2,354);
 				this.getQuestItem(549,354);
-				Pickit.pickItems();
 				Town.doChores();
 				this.logProgress(me.getItem(549),"Cube");
 			break;
 			case 43://Staff
 				Pather.journeyTo(43);
-				while(true){try{if(Pather.moveToExit(62,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter MaggotLvl1");}}
-				while(true){try{if(Pather.moveToExit(63,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter MaggotLvl2");}}
-				while(true){try{if(Pather.moveToExit(64,true,true)){Pather.makePortal();break;}}catch(err){print("Retry enter MaggotLvl3");}}
+				while(me.area!=62){try{Pather.moveToExit(62,true,true);}catch(err){print("Retry enter MaggotLvl1");}}Pather.makePortal();
+				while(me.area!=63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
+				while(me.area!=64){try{Pather.moveToExit(64,true,true);}catch(err){print("Retry enter MaggotLvl3");}}Pather.makePortal();
 				this.clearToQuestLocation(64,2,356);
 				this.getQuestItem(92,356);
-				Pickit.pickItems();
 				Town.doChores();
 				this.logProgress(me.getItem(92),"Staff of Kings");
 			break;
@@ -130,8 +123,7 @@ function LevelLeader(){
 				if(Pather.moveToExit([45,58,61],true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(61,2,716);
 				Pather.moveTo(15044,14045,2,true,true);
-				this.getQuestItem(521,149);
-				Pickit.pickItems();
+				this.getQuestItem(521,149);				
 				Town.doChores();
 				if(this.cubeStaff()){
 					this.talkToNPC("Drognan");
@@ -143,9 +135,9 @@ function LevelLeader(){
 				Pather.journeyTo(74);
 				Pather.getWP(74);
 				Pather.makePortal();
-				while(true){if(this.clearToQuestLocation(74,2,357)){break;}}
+				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
-				Pather.journeyTo(46);
+				while(me.area!=46){try{Pather.journeyTo(46);}catch{print("Retry enter MagiCanyon");}}
 				Pather.getWP(46);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
@@ -335,12 +327,13 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					// Pather.moveTo(15134,5923,true,true);
-					// this.killQuestBoss(544);
+					if((me.diff==0 && me.charlvl > 45) || (me.diff==1 && me.charlvl > 75) || me.diff==3){
+						Pather.moveTo(15134,5923,true,true);
+						this.killQuestBoss(544);
+					}
 					Town.doChores();
 				}
 				this.logProgress(me.getQuest(40,0),"Baal");
-				// quit();
 			break;
 		}
 		return true;
@@ -413,7 +406,7 @@ function LevelLeader(){
 	
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
 		var count=0;
-		while(count<30){
+		while(count<50){
 			try{
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
 					Pather.makePortal();
@@ -430,7 +423,7 @@ function LevelLeader(){
 	};
 	
 	this.killQuestBoss=function(BossId){
-		try{Attack.clear(20,0,BossId);
+		try{Attack.clear(20,0,BossId);delay(500);Pickit.pickItems();
 		}catch(err){this.logProgress(null,"Kill Boss:"+BossId);return false;}
 		return true;
 	};
@@ -448,6 +441,7 @@ function LevelLeader(){
 		try{Pickit.pickItem(Item);
 		}catch(err){this.logProgress(null,"GetQuestItem:"+ItemId);return false;}
 		delay(1000);
+		Pickit.pickItems();
 		this.logProgress(true,"Get QuestItem:"+ItemId+",ChestId:"+ChestId);
 		return true;
 	};
@@ -691,7 +685,7 @@ function LevelLeader(){
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
-				// this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);
+				if(me.diff==0){this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);}
 				Attack.clearLevel(ClearType);
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
