@@ -122,3 +122,57 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [17:22:31] <Singer> Failed to include script: LevelLeader
 [21:12:02] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:321, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[00:52:53] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:72, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:56:18] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:679, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[07:50:48] <ColdSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:51:16] <Summoner> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:51:16] <Hammerdin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:51:18] <Wind> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:51:22] <Auradin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:51:25] <FireSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:51:28] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:52:29] <FireSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:52:30] <Hammerdin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:52:31] <Wind> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:52:33] <Auradin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:52:34] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:52:36] <Summoner> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:53:50] <Hammerdin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:53:51] <FireSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:53:53] <Auradin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:53:54] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:53:58] <Wind> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:53:58] <Summoner> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:55:43] <Hammerdin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:55:47] <Wind> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:55:53] <FireSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:55:54] <Summoner> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:55:56] <Auradin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[07:55:58] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
