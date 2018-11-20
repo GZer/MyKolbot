@@ -137,7 +137,7 @@ function LevelLeader(){
 				Pather.makePortal();
 				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
-				while(me.area!=46){try{Pather.journeyTo(46);}catch{print("Retry enter MagiCanyon");}}
+				while(me.area!=46){try{Pather.journeyTo(46);}catch(err){print("Retry enter MagiCanyon");}}
 				Pather.getWP(46);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
@@ -322,6 +322,7 @@ function LevelLeader(){
 				Attack.clearLevel(0);
 				Pather.moveTo(15095,5029,true,true);
 				while(getUnit(1,543)){
+					Pather.moveTo(15095,5029,true,true);
 					Attack.clear(20);
 					delay(500);
 				}

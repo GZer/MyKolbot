@@ -72,3 +72,53 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [07:37:14] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
 [07:52:41] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
 [08:00:01] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[08:36:25] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[08:48:26] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[09:09:43] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[09:19:20] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[09:38:50] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[10:01:41] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[10:21:36] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[10:39:41] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[10:58:25] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[11:16:47] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[11:25:12] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[11:49:02] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[11:55:10] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:684, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[11:55:32] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[12:13:30] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[12:35:35] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[12:40:01] <ColdSorc> Error in LevelFollower (town.js line 2220): Town.goToTown: Failed to make TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2220
+[12:54:07] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[13:02:02] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[13:23:44] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[13:30:04] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:684, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:30:24] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[13:52:24] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[14:11:35] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[14:31:40] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[14:33:56] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:684, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[14:34:19] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[14:48:10] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:697, @levelleader.js:329, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:48:33] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[15:02:36] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:697, @levelleader.js:329, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[15:02:58] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[15:23:10] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[15:42:09] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[15:58:30] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[16:08:12] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[16:28:20] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[16:47:48] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[17:05:51] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[17:07:34] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:684, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[17:07:55] <Singer> NIP file doesn't exist: pickit/MidRunes.nip
+[17:22:31] <Singer> Failed to include script: LevelLeader
+[21:12:02] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:321, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
