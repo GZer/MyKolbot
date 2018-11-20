@@ -225,7 +225,7 @@ function LevelLeader(){
 				say("Waiting for Party Quest");
 				delay(15000);
 				CouncilCoord=[17600,8125,17600,8015,17643,8068];
-				for(i=0; i<CouncilCoord.length; i += 2){
+				for(i=0; i < CouncilCoord.length; i += 2){
 					Pather.moveTo(CouncilCoord[i],CouncilCoord[i + 1],1,true,true);
 					Attack.clearList(Attack.getMob([345,346,347],0,40));
 				}
@@ -324,11 +324,11 @@ function LevelLeader(){
 				while(getUnit(1,543)){
 					Pather.moveTo(15095,5029,true,true);
 					Attack.clear(20);
-					delay(500);
+					delay(1000);
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff==0 && me.charlvl > 45) || (me.diff==1 && me.charlvl > 75) || me.diff==3){
+					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 3){
 						Pather.moveTo(15134,5923,true,true);
 						this.killQuestBoss(544);
 					}
@@ -342,7 +342,7 @@ function LevelLeader(){
 	
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
-		dateString="["+(h<10?"0"+h:h)+":"+(m<10?"0"+m:m)+":"+(s<10?"0"+s:s)+"]";
+		dateString="["+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
 		
 		if(Completed){Progress="Completed";}
 		
@@ -397,17 +397,17 @@ function LevelLeader(){
 			while(!me.area){
 				delay(500);
 			}
-			if(preArea==me.area){
+			if(preArea == me.area){
 				say("Act change failed");
 			}
 		}catch(err){me.cancel();return false;}
-		this.logProgress(me.act==DestinationAct,"Change to Act "+DestinationAct);
+		this.logProgress(me.act == DestinationAct,"Change to Act "+DestinationAct);
 		return true;
 	};
 	
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
 		var count=0;
-		while(count<50){
+		while(count < 50){
 			try{
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
 					Pather.makePortal();
@@ -458,7 +458,7 @@ function LevelLeader(){
 	
 	this.waitForUnit=function(ClassId,UnitId){
 		var timeOut=0;
-		while(!getUnit(ClassId,UnitId) && timeOut<30){
+		while(!getUnit(ClassId,UnitId) && timeOut < 30){
 			delay(1000);
 			timeOut++;
 		}
@@ -467,8 +467,8 @@ function LevelLeader(){
 	this.talkToNPCWild=function(NPCName){
 		var i,NPC=getUnit(1,NPCName);
 		if(!NPC){this.logProgress(null,"Talk to WildNPC "+NPCName);return false;}
-		for(i=0; i<3; i += 1){
-			if(getDistance(me,NPC)>3){Pather.moveToUnit(NPC);}
+		for(i=0; i < 3; i += 1){
+			if(getDistance(me,NPC) > 3){Pather.moveToUnit(NPC);}
 			NPC.interact();
 			delay(2000);
 			me.cancel();
@@ -480,7 +480,7 @@ function LevelLeader(){
 		var MyParty=getParty();
 		if(MyParty){
 			do{
-				if(MyParty.name != me.name && MyParty.area==me.area){
+				if(MyParty.name != me.name && MyParty.area == me.area){
 					return true;
 				}
 			}while(MyParty.getNext());
@@ -502,11 +502,11 @@ function LevelLeader(){
 		this.clearToQuestLocation(108,2,SealId);
 		var i,tick,Seal=getUnit(2,SealId);
 		if(Seal){
-			for(i=0; i<3; i++){
-				if(SealId==394){Misc.click(0,0,Seal);}
+			for(i=0; i < 3; i++){
+				if(SealId == 394){Misc.click(0,0,Seal);}
 				else{Seal.interact();}
 				tick=getTickCount();
-				while(getTickCount()-tick<500){
+				while(getTickCount()-tick < 500){
 					if(Seal.mode){
 						delay(500);
 						return true;
@@ -522,7 +522,7 @@ function LevelLeader(){
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0,Flail=me.getItem(174);
 		if(Flail){
-			try{while(Orb && orbTimeout<4){
+			try{while(Orb && orbTimeout < 4){
 					Orb.interact();
 					delay(250);
 					orbTimeout++;
@@ -598,7 +598,7 @@ function LevelLeader(){
 		if(!me.getMerc() && !me.mercrevivecost){
 			if(Griez && Griez.openMenu()){
 				Misc.useMenu(0x0D45);
-				for(i=0x0; i<0xFFFF; i++){
+				for(i=0x0; i < 0xFFFF; i++){
 					try{if(Griez.useMenu(i)){print(i+" worked");delay(10000);break;}}
 					catch(err){delay(100);print(i+" failed");}
 				}
@@ -607,10 +607,10 @@ function LevelLeader(){
 					// print("No Dailog Lines");
 					// return false;
 				//}
-				// for(Type=0; Type<MercTypes.length; Type++){
-					// for(i=0; i<Lines.length; i++){
+				// for(Type=0; Type < MercTypes.length; Type++){
+					// for(i=0; i < Lines.length; i++){
 						// print("Selectable:"+Lines[i].selectable+" Text:"+Lines[i].text);
-						// if(Lines[i].selectable && Lines[i].text.indexOf(MercTypes[Type])>-1){
+						// if(Lines[i].selectable && Lines[i].text.indexOf(MercTypes[Type]) > -1){
 							// getDialogLines()[i].handler();
 							// delay(750);
 							// break;
@@ -627,21 +627,21 @@ function LevelLeader(){
 	
 	this.checkProgress=function(){
 		var i,UpToArea;
-		for(i=0; i<WaypointAreas.length; i++){
+		for(i=0; i < WaypointAreas.length; i++){
 			//say("GetWP "+WaypointAreas[i]+" "+getWaypoint(i));
 			if(getWaypoint(38)){UpToArea=129;}
 			else if(!getWaypoint(i)){
 				i--;
-				if(WaypointAreas[i]==74){UpToArea=52;}
-				else if(WaypointAreas[i]==83){UpToArea=82;}
-				else if(WaypointAreas[i]==107){UpToArea=106;}
+				if(WaypointAreas[i] == 74){UpToArea=52;}
+				else if(WaypointAreas[i] == 83){UpToArea=82;}
+				else if(WaypointAreas[i] == 107){UpToArea=106;}
 				else{UpToArea=WaypointAreas[i];}
 				break;
 			}
-			if(WaypointAreas[i]<40){ActNumber=0;}
-			else if(WaypointAreas[i]<75){ActNumber=1;}
-			else if(WaypointAreas[i]<103){ActNumber=2;}
-			else if(WaypointAreas[i]<109){ActNumber=3;}
+			if(WaypointAreas[i] < 40){ActNumber=0;}
+			else if(WaypointAreas[i] < 75){ActNumber=1;}
+			else if(WaypointAreas[i] < 103){ActNumber=2;}
+			else if(WaypointAreas[i] < 109){ActNumber=3;}
 			else{ActNumber=4;}
 		}
 		LevelingAreas[ActNumber].splice(0,LevelingAreas[ActNumber].indexOf(UpToArea));
@@ -673,20 +673,20 @@ function LevelLeader(){
 	this.checkProgress();
 	delay(1000);
 	
-	for(ActNumber; ActNumber<LevelingAreas.length; ActNumber++){
+	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		if(me.act!=ActNumber+1){this.ChangeAct(ActNumber+1);}
-		for(LevelArea=0; LevelArea<LevelingAreas[ActNumber].length; LevelArea++){
+		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{Pather.makePortal();
 				}catch(err){print("Failed to make portal");}
 				WaitingLimit=3;
-				while(!this.playerClose() && WaitingLimit>0){
+				while(!this.playerClose() && WaitingLimit > 0){
 					say("Waiting for Party");
 					delay(10000*WaitingLimit--);
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
-				if(me.diff==0){this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);}
+				if(me.diff == 0){this.areaClearCheck(LevelingAreas[ActNumber][LevelArea]);}
 				Attack.clearLevel(ClearType);
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);

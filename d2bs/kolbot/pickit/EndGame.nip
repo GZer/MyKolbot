@@ -1,45 +1,45 @@
-//===============CHARMS===============//
-[Name]==GrandCharm # [WarcriesSkillTab]+[NecromancerSummoningSkillTab]+[PaliCombatSkillTab]+[ColdSkillTab]+[LightningSkillTab]+[FireSkillTab]+[ElementalSkillTab] >= 1
-[Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist] >= 15 || [Mana] >= 30) && ([MaxHP] >= 30 || [Strength]+[Dexterity] >= 5)
-[Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist] >= 11 || [Mana] >= 13) && ([MaxHP]==20 || [Strength]+[Dexterity] >= 2)
+// ===============CHARMS ===============//
+[Name] == GrandCharm # [WarcriesSkillTab]+[NecromancerSummoningSkillTab]+[PaliCombatSkillTab]+[ColdSkillTab]+[LightningSkillTab]+[FireSkillTab]+[ElementalSkillTab] >= 1
+[Name] == LargeCharm # ([FireResist]+[ColdResist]+[LightResist] >= 15 || [Mana] >= 30) && ([MaxHP] >= 30 || [Strength]+[Dexterity] >= 5)
+[Name] == SmallCharm # ([FireResist]+[ColdResist]+[LightResist] >= 11 || [Mana] >= 13) && ([MaxHP] == 20 || [Strength]+[Dexterity] >= 2)
 
-//===============ACCESSORIES===============//
-[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
+// ===============ACCESSORIES ===============//
+[Type] == Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
 
-//===============POTIONS===============//
-[Name]==SuperManaPotion
-[Name]==SuperHealingPotion
-[Name]==RejuvenationPotion || [Name]==FullRejuvenationPotion
+// ===============POTIONS ===============//
+[Name] == SuperManaPotion
+[Name] == SuperHealingPotion
+[Name] == RejuvenationPotion || [Name] == FullRejuvenationPotion
 
-//===============MISC===============//
-[Name]==ScrollOfTownPortal # # [MaxQuantity]==20
-[Type]==Gold
+// ===============MISC ===============//
+[Name] == ScrollOfTownPortal # # [MaxQuantity] == 20
+[Type] == Gold
 
-//===============RUNEWORDS===============//
-[Flag]==Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1
+// ===============RUNEWORDS ===============//
+[Flag] == Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1
 
-//===============+SKILL UNIQUES===============//
-([Type]==Axe || [Type]==Hammer || [Type]==Polearm || [Type]==Spear || [Type]==Staff || [Type]==Sword || [Type]==ThrowingAxe || [Type]==Club || [Type]==Javelin || [Type]==Knife || [Type]==Mace || [Type]==Orb || [Type]==Scepter || [Type]==ThrowingKnife || [Type]==Wand) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
-([Type]==AuricShields || [Type]==Armor || [Type]==Belt || [Type]==Boots || [Type]==Circlet || [Type]==Gloves || [Type]==Helm || [Type]==Pelt || [Type]==PrimalHelm || [Type]==Shield || [Type]==VoodooHeads) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
-([Type]==Amulet || [Type]==Ring) && [Quality]==Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
-([Name]==GrandCharm || [Name]==LargeCharm || [Name]==SmallCharm) && [Quality]==Unique
+// ===============+SKILL UNIQUES ===============//
+([Type] == Axe || [Type] == Hammer || [Type] == Polearm || [Type] == Spear || [Type] == Staff || [Type] == Sword || [Type] == ThrowingAxe || [Type] == Club || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Orb || [Type] == Scepter || [Type] == ThrowingKnife || [Type] == Wand) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Type] == AuricShields || [Type] == Armor || [Type] == Belt || [Type] == Boots || [Type] == Circlet || [Type] == Gloves || [Type] == Helm || [Type] == Pelt || [Type] == PrimalHelm || [Type] == Shield || [Type] == VoodooHeads) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Type] == Amulet || [Type] == Ring) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Name] == GrandCharm || [Name] == LargeCharm || [Name] == SmallCharm) && [Quality] == Unique
 
-//===============CASTER UNIQUES===============//
-[Type]==Boots && [Flag]==Ethereal && [Quality]==Unique # [PoisonResist] >= 40 && [Strength] >= 10
-[Type]==Boots && [Flag]!=Ethereal && [Quality]==Unique # ([ItemMagicBonus] >= 30 || [SkillSkeletonMastery] >= 1) && [Strength] >= 10
+// ===============CASTER UNIQUES ===============//
+[Type] == Boots && [Flag] == Ethereal && [Quality] == Unique # [PoisonResist] >= 40 && [Strength] >= 10
+[Type] == Boots && [Flag]!=Ethereal && [Quality] == Unique # ([ItemMagicBonus] >= 30 || [SkillSkeletonMastery] >= 1) && [Strength] >= 10
 
-//===============PHYSICAL UNIQUES===============//
-[Type]==Armor && [Quality]==Unique # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20
-[Type]==Boots && [Quality]==Unique # [ItemCrushingBlow] >= 15
-[Type]==Gloves && [Quality]==Unique # [ItemOpenWounds] >= 25 || [IAS] >= 10
-[Type]==Helm && [Quality]==Unique # [IAS] >= 10
-[Name]==WarBelt && [Quality]==Unique # [EnhancedDefense] >= 160
-[Type]==Amulet && [Quality]==Unique # [IAS] >= 20
-[Type]==Ring && [Quality]==Unique # [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
+// ===============PHYSICAL UNIQUES ===============//
+[Type] == Armor && [Quality] == Unique # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20
+[Type] == Boots && [Quality] == Unique # [ItemCrushingBlow] >= 15
+[Type] == Gloves && [Quality] == Unique # [ItemOpenWounds] >= 25 || [IAS] >= 10
+[Type] == Helm && [Quality] == Unique # [IAS] >= 10
+[Name] == WarBelt && [Quality] == Unique # [EnhancedDefense] >= 160
+[Type] == Amulet && [Quality] == Unique # [IAS] >= 20
+[Type] == Ring && [Quality] == Unique # [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
 
-//===============SETS===============//
-[Name]==SwirlingCrystal && [Quality]==Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
-[Name]==DeathMask && [Quality]==Set # [FireResist] >= 15														//Tal Rashas Horadric Crest
-[Name]==LacqueredPlate && [Quality]==Set # [ColdResist] >= 40													//Tal Rashas Guardianship
-[Name]==MeshBelt && [Quality]==Set # [ItemMagicBonus] >= 10														//Tal Rashas FineSpun Cloth
-[Type]==Amulet && [Quality]==Set # [SorceressSkills]==2															//Tal Rashas Adjucation
+// ===============SETS ===============//
+[Name] == SwirlingCrystal && [Quality] == Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
+[Name] == DeathMask && [Quality] == Set # [FireResist] >= 15														//Tal Rashas Horadric Crest
+[Name] == LacqueredPlate && [Quality] == Set # [ColdResist] >= 40													//Tal Rashas Guardianship
+[Name] == MeshBelt && [Quality] == Set # [ItemMagicBonus] >= 10														//Tal Rashas FineSpun Cloth
+[Type] == Amulet && [Quality] == Set # [SorceressSkills] == 2														//Tal Rashas Adjucation

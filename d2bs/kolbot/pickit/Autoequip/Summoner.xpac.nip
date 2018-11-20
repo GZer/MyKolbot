@@ -1,63 +1,117 @@
 //Weapon
-([Type]==Wand || [Type]==Knife) && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 1 # [Tier]==1
-([Type]==Wand || [Type]==Knife) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && [MaxMana]+[MaxHP] >= 5 # [Tier]==2
-([Type]==Wand || [Type]==Knife) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier]==3
-[Type]==Sword && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
-[Type]==Mace && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier]==95
-[Name]==TombWand && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==99
+[Type] == Wand && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 # [Tier] == 1
+[Type] == Wand && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 2
+[Type] == Wand && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 3
+[Type] == Wand && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 4
+[Name] == GrimWand && [Quality] == Set # [NecromancerSkills] == 1 # [Tier] == 5
+[Type] == Sword && [Flag]!=Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 6
+[Type] == Wand && [Flag]!=Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 # [Tier] == 7
+[Type] == Wand && [Flag]!=Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 85
+[Type] == Mace && [Flag]!=Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier] == 90
+[Name] == PetrifiedWand && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 95
+[Name] == TombWand && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 99
 
 //Shield
-[Type]==VoodooHeads && [Flag]!=Ethereal && [Quality] >= LowQuality # # [Tier]==1 && [MaxQuantity]==1
-([Type]==VoodooHeads || [Type]==Shield) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-([Type]==VoodooHeads || [Type]==Shield) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier]==3
-[Type]==Shield && [Flag]!=Ethereal && [Flag]==Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier]==90
-[Name]==SuccubusSkull && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==98
-[Name]==SuccubusSkull && [Flag]!=Ethereal && [Quality]==Unique # [NecromancerSkills] >= 3 && [FireResist]+[ColdResist]+[LightResist] >= 90 # [Tier]==99
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= LowQuality # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 # [Tier] == 1 && [MaxQuantity] == 1
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 2
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 3
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 4
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 # [Tier] == 5
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 6
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20) # [Tier] == 7
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 30) # [Tier] == 8
+[Type] == VoodooHeads && [Flag]!=Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 40 || [MaxHP] > 40) # [Tier] == 9
+[Type] == VoodooHeads && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier] == 10
+[Type] == Shield && [Flag]!=Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 80
+[Name] == HierophantTrophy && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 90
+[Name] == BloodlordSkull && [Flag]!=Ethereal && [Quality] == Unique # [NecromancerSummoningSkillTab] >= 3 # [Tier] == 95
+[Name] == SuccubusSkull && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 98
+[Name] == SuccubusSkull && [Flag]!=Ethereal && [Quality] == Unique # [NecromancerSkills] >= 3 && [FireResist]+[ColdResist]+[LightResist] >= 90 # [Tier] == 99
 
 //Helm
-([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Name]==Cap && [Quality]==Set # [FireResist]+[ColdResist]+[LightResist] >= 30 # [Tier]==3
-[Name]==Shako && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==90
-([Type]==Helm || [Type]==Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 && [Strength]+[Dexterity] >= 5 # [Tier]==99
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier] == 1 && [MaxQuantity] == 1
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 2
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20 # [Tier] == 3
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 40 # [Tier] == 4
+[Name] == Cap && [Quality] == Set # [ItemDamageToMana] == 20 && [FireResist] == 10 # [Tier] == 5
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 60 # [Tier] == 6
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 80 # [Tier] == 7
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 30 # [Tier] == 8
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 60 # [Tier] == 9
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier] == 10
+[Name] == Shako && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 95
+([Type] == Helm || [Type] == Circlet) && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 # [Tier] == 99
 
 //Armor
-[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Armor && [Flag]!=Ethereal && ([Quality] >= Magic || [Flag]==Runeword) # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier]==3
-[Name]==SerpentskinArmor && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==90
-[Type]==Armor && [Flag]!=Ethereal && [Flag]==Runeword # [ItemAllSkills] >= 2 && [PlusSkillTeleport] >= 1 # [Tier]==99
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier] == 1 && [MaxQuantity] == 1
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 2
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20 # [Tier] == 3
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 30 # [Tier] == 4
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 40 # [Tier] == 5
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 60 # [Tier] == 6
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 80 # [Tier] == 7
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 30 # [Tier] == 8
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 60 # [Tier] == 9
+[Type] == Armor && [Flag]!=Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier] == 10
+[Name] == MagePlate && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 90
+[Name] == SerpentskinArmor && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 95
+[Type] == Armor && [Flag]!=Ethereal && [Flag] == Runeword # [ItemAllSkills] >= 2 && [PlusSkillTeleport] >= 1 # [Tier] == 99
 
 //Boots
-[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 || [MaxHP] >= 15) && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==4
-[Name]==BoneweaveBoots && [Flag]!=Ethereal && [Quality]==Unique # # [Tier]==98
-[Name]==BoneweaveBoots && [Flag]!=Ethereal && [Quality]==Unique # [SkillSkeletonMastery] >= 2 && [Strength] >= 20 # [Tier]==99
+[Type] == Boots && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier] == 1 && [MaxQuantity] == 1
+[Type] == Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 # [Tier] == 2
+[Type] == Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 # [Tier] == 3
+[Type] == Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 # [Tier] == 4
+[Type] == Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 40 || [MaxHP] >= 10 # [Tier] == 5
+[Type] == Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 || [Vitality] >= 10 # [Tier] == 6
+[Type] == Boots && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 60 || [MaxHP] >= 45 # [Tier] == 7
+[Name] == BoneweaveBoots && [Flag]!=Ethereal && [Quality] == Unique # # [Tier] == 98
+[Name] == BoneweaveBoots && [Flag]!=Ethereal && [Quality] == Unique # [SkillSkeletonMastery] >= 2 && [Strength] >= 20 # [Tier] == 99
 
 //Gloves
-[Type]==Gloves && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Gloves && [Quality] >= Magic # [FCR] >= 20 # [Tier]==99
+[Type] == Gloves && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier] == 1 && [MaxQuantity] == 1
+[Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 5 # [Tier] == 2
+[Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 # [Tier] == 3
+[Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 # [Tier] == 4
+[Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] >= 20 # [Tier] == 5
+[Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 40 || [MaxHP] >= 40 # [Tier] == 6
+[Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 60 # [Tier] == 6
 
 //Belt
-[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier]==1 && [MaxQuantity]==1
-[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10 || [Strength]+[Dexterity] >= 5 # [Tier]==2
-[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 15 && [MaxHP] >= 15 && [Strength]+[Dexterity] >= 10 # [Tier]==3
-[Type]==Belt && [Flag]!=Ethereal && [Quality] >= Magic # [ItemAllSkills] >= 1 # [Tier]==99
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier] == 1 && [MaxQuantity] == 1
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 2
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20 # [Tier] == 3
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 30 # [Tier] == 4
+[Name] == HeavyBelt && [Quality] == Set # [MaxHP] == 20 # [Tier] == 5
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 50 # [Tier] == 6
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 60 # [Tier] == 7
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 70 # [Tier] == 8
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 80 # [Tier] == 9
+[Type] == Belt && [Flag]!=Ethereal && [Quality] >= Magic # [ItemAllSkills] >= 1 # [Tier] == 99
 
 //Rings
-[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1
-[Type]==Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 && [MaxHP] >= 10 && [Strength]+[Dexterity] >= 10 # [Tier]==2
-[Type]==Ring && [Quality]==Unique # [ItemAllSkills] >= 1 # [Tier]==99
+[Type] == Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 1
+[Type] == Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20 # [Tier] == 2
+[Type] == Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 30 # [Tier] == 3
+[Type] == Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 && [MaxHP] > 10 # [Tier] == 4
+[Type] == Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 && [MaxHP] > 20 # [Tier] == 5
+[Type] == Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 && [MaxHP] > 30 # [Tier] == 6
+[Type] == Ring && [Quality] >= Magic # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 30) && [FCR] >= 10 # [Tier] == 10
+[Type] == Ring && [Quality] == Unique # [ItemAllSkills] >= 1 # [Tier] == 99
 
 //Amulets
-[Type]==Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 5 || [MaxHP] >= 5 || [Strength]+[Dexterity] >= 5 # [Tier]==1
-[Type]==Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 && [MaxHP] >= 10 && [Strength]+[Dexterity] >= 10 # [Tier]==2
-[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier]==3
-[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 && [FCR] >= 10 # [Tier]==4
-[Type]==Amulet && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 && [FCR] >= 20 # [Tier]==5
-[Type]==Amulet && [Quality]==Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 60 # [Tier]==90
-[Type]==Amulet && [Quality] >= Rare # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 10 || [MaxHP] >= 10) && [FCR] >= 20 && [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier]==99
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 1
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20 # [Tier] == 2
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 30 # [Tier] == 3
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 40 || [MaxHP] > 40 # [Tier] == 4
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 20 # [Tier] == 5
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 30 # [Tier] == 6
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 40 # [Tier] == 7
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 60 # [Tier] == 8
+[Type] == Amulet && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 80 # [Tier] == 9
+[Type] == Amulet && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier] == 10
+[Type] == Amulet && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 # [Tier] == 11
+[Type] == Amulet && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 3 && [FCR] >= 20 # [Tier] == 12
+[Type] == Amulet && [Quality] == Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 60 # [Tier] == 90
+[Type] == Amulet && [Quality] == Unique # [ItemAllSkills] >= 2 && [FireResist]+[ColdResist]+[LightResist] >= 90 # [Tier] == 95
+[Type] == Amulet && [Quality] >= Rare # ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30 || [MaxHP] >= 30) && [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 && [FCR] >= 20 # [Tier] == 99

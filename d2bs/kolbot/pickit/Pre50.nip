@@ -1,54 +1,54 @@
-//===============CHARMS===============//
-[Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>13 || [Mana]>24) && ([MaxHP]>21 || [Strength]+[Dexterity]>3)
-[Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>9 || [Mana]>13) && ([MaxHP]>16 || [Strength]+[Dexterity]>1)
+// ===============CHARMS ===============//
+[Name] == LargeCharm # ([FireResist]+[ColdResist]+[LightResist] > 13 || [Mana] > 24) && ([MaxHP] > 21 || [Strength]+[Dexterity] > 3)
+[Name] == SmallCharm # ([FireResist]+[ColdResist]+[LightResist] > 9 || [Mana] > 13) && ([MaxHP] > 16 || [Strength]+[Dexterity] > 1)
 
-//===============ACCESSORIES===============//
-[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
+// ===============ACCESSORIES ===============//
+[Type] == Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
 
-//===============POTIONS===============//
-[Name]==GreaterManaPotion
-[Name]==GreaterHealingPotion
+// ===============POTIONS ===============//
+[Name] == GreaterManaPotion
+[Name] == GreaterHealingPotion
 
-//===============QUEST===============//
+// ===============QUEST ===============//
 //Quest Items
-[Name]==HoradricCube																	//Horadric Cube
-[Name]==BookOfSkill																		//Book Of Skill
-[Name]==ScrollOfResistance																//Scroll Of Resistance
-[Name]==AJadeFigurine																	//Jade Figurine
-[Name]==BBB																				//Black Book
-[Name]==QF1																				//Khalim Flail
-[Name]==QEY																				//Khalim Eye
-[Name]==QHR																				//Khalim Heart
-[Name]==QBR																				//Khalim Brain
-[Name]==QF2																				//Khalim Will
+[Name] == HoradricCube																		//Horadric Cube
+[Name] == BookOfSkill																		//Book Of Skill
+[Name] == ScrollOfResistance																//Scroll Of Resistance
+[Name] == AJadeFigurine																		//Jade Figurine
+[Name] == BBB																				//Black Book
+[Name] == QF1																				//Khalim Flail
+[Name] == QEY																				//Khalim Eye
+[Name] == QHR																				//Khalim Heart
+[Name] == QBR																				//Khalim Brain
+[Name] == QF2																				//Khalim Will
 
-//===============SETS===============//
+// ===============SETS ===============//
 //Sigon's Steel
-[Name]==GreatHelm && [Quality]==Set # [MaxMana] >= 30									//Sigon's Visor
-[Name]==GothicPlate && [Quality]==Set # [LightResist] >= 30								//Sigon's Shelter
-[Name]==Greaves && [Quality]==Set # [ColdResist] >= 40									//Sigon's Sabot
-[Name]==TowerShield && [Quality]==Set # [ItemAllSkills] >= 1							//Sigon's Guard
-[Name]==PlatedBelt && [Quality]==Set # [MaxHP] >= 10									//Sigon's Warp
-[Name]==Gauntlets && [Quality]==Set # [Strength] >= 5									//Sigon's Gage
+[Name] == GreatHelm && [Quality] == Set # [MaxMana] >= 30									//Sigon's Visor
+[Name] == GothicPlate && [Quality] == Set # [LightResist] >= 30								//Sigon's Shelter
+[Name] == Greaves && [Quality] == Set # [ColdResist] >= 40									//Sigon's Sabot
+[Name] == TowerShield && [Quality] == Set # [ItemAllSkills] >= 1							//Sigon's Guard
+[Name] == PlatedBelt && [Quality] == Set # [MaxHP] >= 10									//Sigon's Warp
+[Name] == Gauntlets && [Quality] == Set # [Strength] >= 5									//Sigon's Gage
 
 //Angelic Raiment
-[Name]==RingMail && [Quality]==Set # [EnhancedDefense] >= 40							//Angelic Mantle
-[Name]==Sabre && [Quality]==Set # [ItemUndeadDamagePercent] >= 75						//Angelic Sickle
-[Type]==Ring && [Quality]==Set # [MaxHP] >= 20											//Angelic Halo
-[Type]==Amulet && [Quality]==Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20	//Angelic Wings
+[Name] == RingMail && [Quality] == Set # [EnhancedDefense] >= 40							//Angelic Mantle
+[Name] == Sabre && [Quality] == Set # [ItemUndeadDamagePercent] >= 75						//Angelic Sickle
+[Type] == Ring && [Quality] == Set # [MaxHP] >= 20											//Angelic Halo
+[Type] == Amulet && [Quality] == Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20	//Angelic Wings
 
 //Berserkers Arsenal
-[Name]==Helm && [Quality]==Set # [FireResist]==25										//Berserkers Headgear
-[Name]==SplintMail && [Quality]==Set # [BarbarianSkills]==1								//Berserkers Hauberk
-[Type]==DoubleAxe && [Quality]==Set # [ManaLeech]==5									//Berserkers Hatchet
+[Name] == Helm && [Quality] == Set # [FireResist] == 25										//Berserkers Headgear
+[Name] == SplintMail && [Quality] == Set # [BarbarianSkills] == 1							//Berserkers Hauberk
+[Type] == DoubleAxe && [Quality] == Set # [ManaLeech] == 5									//Berserkers Hatchet
 
 //Infernal Tools
-[Name]==Cap && [Quality]==Set # [ItemDamageToMana]==20 && [FireResist]==10				//Infernal Cranium
-[Name]==HeavyBelt && [Quality]==Set # [MaxHP]==20										//Infernal Sign
-[Type]==GrimWand && [Quality]==Set # [NecromancerSkills]==1								//Infernal Torch
+[Name] == Cap && [Quality] == Set # [ItemDamageToMana] == 20 && [FireResist] == 10			//Infernal Cranium
+[Name] == HeavyBelt && [Quality] == Set # [MaxHP] == 20										//Infernal Sign
+[Type] == GrimWand && [Quality] == Set # [NecromancerSkills] == 1							//Infernal Torch
 
 //Milabregas Regalia
-[Name]==Crown && [Quality]==Set # [MaxHP]==15											//Milabregas Diadem
-[Name]==AncientArmor && [Quality]==Set # [ItemAttackerTakesDamage]==3					//Milabregas Robe
-[Type]==KiteShield && [Quality]==Set # [ItemMagicBonus]==20								//Milabregas Orb
-[Type]==WarScepter && [Quality]==Set # [PaladinSkills]==1								//Milabregas Rod
+[Name] == Crown && [Quality] == Set # [MaxHP] == 15											//Milabregas Diadem
+[Name] == AncientArmor && [Quality] == Set # [ItemAttackerTakesDamage] == 3					//Milabregas Robe
+[Type] == KiteShield && [Quality] == Set # [ItemMagicBonus] == 20							//Milabregas Orb
+[Type] == WarScepter && [Quality] == Set # [PaladinSkills] == 1								//Milabregas Rod

@@ -1,10 +1,10 @@
-//======================CHARMS======================//
-[Name]==LargeCharm # ([FireResist]+[ColdResist]+[LightResist]>11 || [Mana]>19) && ([MaxHP]>16 || [Strength]+[Dexterity]>4)
-[Name]==SmallCharm # ([FireResist]+[ColdResist]+[LightResist]>8 || [Mana]>8) && ([MaxHP]>11 || [Strength]+[Dexterity]>1)
+// ====================== CHARMS ====================== //
+[Name] == LargeCharm # ([FireResist]+[ColdResist]+[LightResist] > 11 || [Mana] > 19) && ([MaxHP] > 16 || [Strength]+[Dexterity] > 4)
+[Name] == SmallCharm # ([FireResist]+[ColdResist]+[LightResist] > 8 || [Mana] > 8) && ([MaxHP] > 11 || [Strength]+[Dexterity] > 1)
 
-//======================ACCESSORIES======================//
-[Type]==Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 2
+// ====================== ACCESSORIES ====================== //
+[Type] == Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 2
 
-//======================POTIONS======================//
-[Name]==ManaPotion
-[Name]==HealingPotion
+// ====================== POTIONS ====================== //
+[Name] == ManaPotion
+[Name] == HealingPotion
