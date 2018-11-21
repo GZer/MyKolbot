@@ -1,17 +1,21 @@
 // ====================== MERC ====================== //
 //Any Etheral base for Insight
-[Type] == Polearm && [Flag] == Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == Polearm && [Flag] == Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MercTier] == 1 && [MaxQuantity] == 1
+
 //Mid level Magic
 ([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic # [EnhancedDamage] > 40 || [LifeLeech] > 3 # [MercTier] == 2
 ([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier] == 2
+
 //High level Magic
 ([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] >=Exceptional # [EnhancedDamage] > 65 && [LifeLeech] > 5 # [MercTier] == 3
 ([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] >=Exceptional # [EnhancedDefense] > 50 && [MaxHP] > 40 # [MercTier] == 3
-//Low Insight/Infinity/TalsRasha
+
+//Low Insight/Infinity/TalRasha/Fortitude
 [Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword # [MeditationAura]+[ConvictionAura] >= 1 # [MercTier] == 95
 [Type] == Armor && [Flag] == Ethereal && [Flag] == Runeword # [EnhancedDamage] >=300 # [MercTier] == 95
 [Type] == Helm && [Flag] == Ethereal && ([Quality] == Unique||[Quality] == Set) # [LifeLeech] >= 5 && ([IAS] >= 10 || [MaxHP] >= 50 || [NormalDamageReduction] >= 15) # [MercTier] == 95
-//Elite Insight/Infinity/Andariels
+
+//Elite Insight/Infinity/Andariels/Fortitude
 [Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword && [Class] == Elite # [MeditationAura]+[ConvictionAura] >= 1 # [MercTier] == 99
 [Type] == Armor && [Flag] == Ethereal && [Flag] == Runeword && [Class] == Elite # [EnhancedDamage] >=300 # [MercTier] == 99
 [Name] == DemonHead && [Flag] == Ethereal && [Quality] == Unique # # [MercTier] == 99

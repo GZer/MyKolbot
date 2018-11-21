@@ -1,0 +1,18 @@
+// ===============LEVEL >70 RUNES ===============//
+[Name] >= MalRune && [Name] <= ZodRune
+
+// ===============RUNEWORDS ===============//
+//Grief
+[Name] == PhaseBlade && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDamage] >= 15 && [Sockets] == 5 # [MaxQuantity] == 1
+
+//Enigma
+([Name] == MagePlate || [Name] == DuskShroud || [Name] == Wyrmhide || [Name] == ScarabHusk) && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && [Sockets] == 3
+
+//Heart of the Oak
+[Name] == Flail && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 4 # [MaxQuantity] == 1
+
+//Insight
+[Type] == Polearm && [Class] == Elite && [Flag] == Ethereal && [Quality] == Superior && [Class] >= Exceptional # [EnhancedDamage] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+
+//Spirit
+[Name] == Monarch && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1

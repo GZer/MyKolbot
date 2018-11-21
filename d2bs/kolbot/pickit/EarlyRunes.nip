@@ -1,0 +1,44 @@
+// ===============RUNES ===============//
+[Name] == ElRune # # [MaxQuantity] == 3
+[Name] == EldRune # # [MaxQuantity] == 3
+[Name] == TirRune # # [MaxQuantity] == 3
+[Name] == NefRune # # [MaxQuantity] == 3
+[Name] == EthRune # # [MaxQuantity] == 3
+[Name] == IthRune # # [MaxQuantity] == 3
+[Name] == TalRune # # [MaxQuantity] == 3
+[Name] == RalRune # # [MaxQuantity] == 3
+[Name] == OrtRune # # [MaxQuantity] == 3
+[Name] == ThulRune # # [MaxQuantity] == 3
+[Name] == AmnRune # # [MaxQuantity] == 3
+[Name] == SolRune # # [MaxQuantity] == 3
+[Name] == ShaelRune # # [MaxQuantity] == 3
+[Name] == DolRune # # [MaxQuantity] == 3
+[Name] == HelRune # # [MaxQuantity] == 3
+[Name] == IoRune # # [MaxQuantity] == 3
+[Name] == LumRune # # [MaxQuantity] == 3
+[Name] == KoRune # # [MaxQuantity] == 3
+[Name] == FalRune # # [MaxQuantity] == 3
+[Name] == LemRune # # [MaxQuantity] == 3
+[Name] == PulRune # # [MaxQuantity] == 5
+[Name] == UmRune # # [MaxQuantity] == 5
+[Name] >= MalRune && [Name] <= ZodRune
+
+// ===============RUNEWORDS ===============//
+//Leaf
+[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+
+//Lore
+[Type] == Pelt && [Flag] != Ethereal && [Quality] <= Superior # [SkillTornado]+[SkillOakSage] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == PrimalHelm && [Flag] != Ethereal && [Quality] <= Superior # [SkillBattleOrders] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 2
+
+//Spirit
+([Name] == CrystalSword || [Name] == BroadSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4
+([Name] == LongSword || [Name] == Claymore || [Name] == BastardSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+
+//Stealth
+([Name] == HardLeatherArmor || [Name] == StuddedLeather || [Name] == RingMail || [Name] == BreastPlate || [Name] == LightPlate) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 2
+
+//Strength
+[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 2 && [Sockets] == 2 # [MaxQuantity] == 2

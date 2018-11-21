@@ -110,9 +110,9 @@ function LevelLeader(){
 			break;
 			case 43://Staff
 				Pather.journeyTo(43);
-				while(me.area!=62){try{Pather.moveToExit(62,true,true);}catch(err){print("Retry enter MaggotLvl1");}}Pather.makePortal();
-				while(me.area!=63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
-				while(me.area!=64){try{Pather.moveToExit(64,true,true);}catch(err){print("Retry enter MaggotLvl3");}}Pather.makePortal();
+				while(me.area != 62){try{Pather.moveToExit(62,true,true);}catch(err){print("Retry enter MaggotLvl1");}}Pather.makePortal();
+				while(me.area != 63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
+				while(me.area != 64){try{Pather.moveToExit(64,true,true);}catch(err){print("Retry enter MaggotLvl3");}}Pather.makePortal();
 				this.clearToQuestLocation(64,2,356);
 				this.getQuestItem(92,356);
 				Town.doChores();
@@ -137,7 +137,7 @@ function LevelLeader(){
 				Pather.makePortal();
 				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
-				while(me.area!=46){try{Pather.journeyTo(46);}catch(err){print("Retry enter MagiCanyon");}}
+				while(me.area != 46){try{Pather.journeyTo(46);}catch(err){print("Retry enter MagiCanyon");}}
 				Pather.getWP(46);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
@@ -304,7 +304,7 @@ function LevelLeader(){
 				this.clearToQuestLocation(120,2,546);
 				Altar=getUnit(2,546);
 				if(Altar){
-					while(Altar.mode!=2){
+					while(Altar.mode != 2){
 						Pather.moveToUnit(Altar);
 						Altar.interact();
 						delay(2000);
@@ -674,7 +674,7 @@ function LevelLeader(){
 	delay(1000);
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
-		if(me.act!=ActNumber+1){this.ChangeAct(ActNumber+1);}
+		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{Pather.makePortal();

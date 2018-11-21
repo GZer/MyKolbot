@@ -1,4 +1,4 @@
-// ===============RUNES & GEMS ===============//
+// ===============LEVEL >45 RUNES ===============//
 [Name] == ShaelRune # # [MaxQuantity] == 3
 [Name] == DolRune # # [MaxQuantity] == 3
 [Name] == HelRune # # [MaxQuantity] == 3
@@ -13,27 +13,25 @@
 
 // ===============RUNEWORDS ===============//
 //Black
-[Name] == Flail && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDamage] >= 15 && [Sockets] == 3 # [MaxQuantity] == 1
+[Name] == Flail && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 3 # [MaxQuantity] == 1
 
 //Enlightenment
-[Name] == MagePlate && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && [Sockets] == 3
-
-//Insight
-[Type] == Polearm && [Flag] == Ethereal && [Quality] <= Superior && [Class] >= Exceptional # [Sockets] == 4 # [MaxQuantity] == 1
+[Name] == MagePlate && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 3
 
 //Lore
-[Type] == Pelt && [Flag]!=Ethereal && [Quality] <= Superior # [SkillTornado]+[SkillOakSage] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
-[Type] == PrimalHelm && [Flag]!=Ethereal && [Quality] <= Superior # [SkillBattleOrders] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Pelt && [Flag] != Ethereal && [Quality] == Superior # [SkillTornado]+[SkillOakSage] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == PrimalHelm && [Flag] != Ethereal && [Quality] == Superior # [SkillBattleOrders] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Helm && [Class] == Exceptional && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 2 # [MaxQuantity] == 2
 
 //Myth
-([Name] == LinkedMail || [Name] == Cuirass || [Name] == MagePlate) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets] == 3 # [MaxQuantity] == 1
+[Type] == Armor && [Class] == Exceptional && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 3 # [MaxQuantity] == 1
 
 //Spirit
-([Name] == CrystalSword || [Name] == BroadSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 4
-([Name] == LongSword || [Name] == Claymore || [Name] == BastardSword || [Name] == BattleSword || [Name] == DimensionalBlade || [Name] == DacianFalx || [Name] == GothicSword) && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
-[Type] == AuricShields && [Flag]!=Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 30 && [Sockets] == 4 # [MaxQuantity] == 1
-[Name] == Monarch && [Flag]!=Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+([Name] == CrystalSword || [Name] == BroadSword) && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 4
+([Name] == Claymore || [Name] == BastardSword || [Name] == DacianFalx || [Name] == GothicSword) && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] == Superior # [FireResist]+[ColdResist]+[LightResist] >= 30 && [Sockets] == 4 # [MaxQuantity] == 1
+[Name] == Monarch && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 4 # [MaxQuantity] == 1
 
 //Splendor
-([Name] == RoundShield || [Name] == GrimShield) && [Flag]!=Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && [Sockets] == 2 # [MaxQuantity] == 1
-[Type] == VoodooHeads && [Flag]!=Ethereal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+([Name] == RoundShield || [Name] == GrimShield) && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == VoodooHeads && [Flag] != Ethereal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1

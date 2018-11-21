@@ -620,7 +620,7 @@ var AutoBuildTemplate={
 			SkillPoints: [55],
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
-				Config.AttackSkill=[42,59,45,59,55,53,49];
+				Config.PickitFiles.push("LateRunes.nip");
 			}
 		},
 
