@@ -36,9 +36,11 @@
 ([Type] == Pelt || [Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 30 # [Tier] == 8
 ([Type] == Pelt || [Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 60 # [Tier] == 9
 ([Type] == Pelt || [Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado]+[SkillOakSage] >= 1 # [Tier] == 10
+([Type] == Pelt || [Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado]+[SkillOakSage] >= 1 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20) # [Tier] == 11
 [Name] == Shako && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 90
 [Type] == Pelt && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado]+[SkillOakSage] >= 4 # [Tier] == 95
-[Type] == Pelt && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado]+[SkillOakSage] >= 6 # [Tier] == 99
+[Type] == Pelt && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado]+[SkillOakSage] >= 6 # [Tier] == 98
+[Type] == Pelt && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[DruidSkills]+[ElementalSkillTab]+[SkillTornado]+[SkillOakSage] >= 5 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 15 || [MaxHP] > 15 || [FHR] > 5) # [Tier] == 99
 
 //Armor
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # # [Tier] == 1 && [MaxQuantity] == 1

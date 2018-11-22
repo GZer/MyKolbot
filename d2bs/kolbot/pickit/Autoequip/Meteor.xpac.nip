@@ -42,6 +42,7 @@
 ([Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxMana]+[MaxHP] > 30 # [Tier] == 8
 ([Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxMana]+[MaxHP] > 60 # [Tier] == 9
 ([Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 1 # [Tier] == 10
+([Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 1 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxMana]+[MaxHP] > 20) # [Tier] == 11
 [Name] == Shako && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 90
 [Name] == DeathMask && [Flag] != Ethereal && [Quality] == Set # # [Tier] == 95
 ([Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && [Quality] >= Magic # [FCR] >= 10 && [ItemAllSkills]+[SorceressSkills]+[FireSkillTab] >= 2 # [Tier] == 98

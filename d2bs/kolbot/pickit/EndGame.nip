@@ -39,7 +39,16 @@
 
 // ===============CASTER UNIQUES ===============//
 [Type] == Boots && [Flag] == Ethereal && [Quality] == Unique # [PoisonResist] >= 40 && [Strength] >= 10
-[Type] == Boots && [Flag] != Ethereal && [Quality] == Unique # ([ItemMagicBonus] >= 30 || [SkillSkeletonMastery] >= 1) && [Strength] >= 10
+[Type] == Boots && [Flag] != Ethereal && [Quality] == Unique # [SkillSkeletonMastery] >= 1 && [Strength] >= 10
+
+// ===============MAGIC FIND UNIQUES ===============//
+[Name] == HeavyBelt && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 30
+[Name] == BattleBoots && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 50
+[Name] == ChainGloves && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 40
+[Name] == Tulwar && [Flag] != Ethereal && [Quality] == Unique # [Dexterity] == 15
+[Name] == WarSpike && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 50
+[Name] == Dagger && [Flag] != Ethereal && [Quality] == Unique # # [MaxQuantity] == 1
+[Name] == Rondel && [Flag] != Ethereal && [Quality] == Unique # # [MaxQuantity] == 2
 
 // ===============PHYSICAL UNIQUES ===============//
 [Type] == Armor && ([Quality] == Unique || [Quality] == Set) # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 ||[ItemCrushingBlow] >= 25

@@ -313,7 +313,8 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[0,132,0,0,0,0,0];
+				Config.FindItem=true;
+				Config.FindItemSwitch=1;
 			}	
 		},
 
