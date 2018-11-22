@@ -166,16 +166,18 @@ var Town = {
 			}
 
 			item.interact();
-			
+		}
+		
+		//Atma for Discount
+		if(me.getQuest(9, 3) && me.area == 40){
 			try{
-				this.goToTown(2);
-				Town.move("Atma");
+				Town.move("portalspot");
 				NPC=getUnit(1,"Atma");
 				if(NPC && NPC.openMenu()){
 					me.cancel();
 				}
 			}catch(err){
-				D2Bot.printToConsole("No Atma Discount");
+				FileTools.appendText("logs/ProgressLog.txt","Atma Discount - Failed \n");
 			}
 		}
 		

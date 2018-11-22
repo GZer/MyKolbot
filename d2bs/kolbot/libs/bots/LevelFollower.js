@@ -5,13 +5,19 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhereIsLeader,ClearType;
+	var LeaderUnit,WhereIsLeader;
 		
 	this.ChangeAct=function(DestinationAct){
-		var NPC,preArea=me.area;
+		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
+		if(getWaypoint(TownWaypoints[DestinationAct-1])){
+			say("Using Waypoint to change to Act "+DestinationAct);
+			Pather.journeyTo(TownWaypoints[DestinationAct-1]);
+			return true;
+		}
 		try{
 			switch(DestinationAct){
 			case 2:
+				Pather.journeyTo(0);
 				Pather.moveTo(4862,5662,5);
 				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
@@ -33,7 +39,9 @@ function LevelFollower(){
 				break;
 			case 4:
 				if(me.area != 102){Pather.journeyTo(102);}
-				Pather.moveTo(17591,8070,2,true,true);
+				Pather.moveTo(17590,8068,2,true,true);
+				delay(2000);
+				Pather.moveTo(17601,8070,2,true,true);
 				Pather.usePortal(null);
 				break;
 			case 5:
@@ -51,13 +59,15 @@ function LevelFollower(){
 			while(!me.area){
 				delay(500);
 			}
-			say("Act change done");
-		}catch(err){me.cancel();print("Act change failed");return false;}
-		return true;
+			if(preArea == me.area){
+				say("Act change failed");
+			}
+		}catch(err){me.cancel();return false;}
+		return me.act == DestinationAct;
 	};
 	
 	this.goFindLeader=function(LeaderArea){
-		var LeaderAct,BaalPortal,TownWaypoints=[0,40,75,103,109];
+		var LeaderAct,BaalPortal;
 		if(LeaderArea){
 			if(LeaderArea <= 39){LeaderAct=1;}
 			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct=2;}
@@ -65,8 +75,7 @@ function LevelFollower(){
 			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct=4;}
 			else{LeaderAct=5;}
 			if(LeaderAct != me.act){														//Make sure we are in the same act
-				if(Pather.journeyTo(TownWaypoints[LeaderAct-1])){say("Act change done");}
-				else{this.ChangeAct(LeaderAct);}
+				this.ChangeAct(LeaderAct);
 			}
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
@@ -130,14 +139,12 @@ function LevelFollower(){
 	Town.move("portalspot");
 	WhereIsLeader=getParty(Config.Leader);
 	var partyTimeout=0;
-	while(!this.getLeaderUnit(Config.Leader)){									//Loop to ensure leader is assigned
+	while(!this.getLeaderUnit(Config.Leader)){												//Loop to ensure leader is assigned
 		delay(1000);
-		say("Finding Leader "+partyTimeout++);
+		say("Initiate Leader - "+partyTimeout++);
 		this.goFindLeader(WhereIsLeader.area);
-		if(partyTimeout>5){
-			quit();
-		}
-	}	
+		if(partyTimeout>5){quit();}
+	}
 	LeaderUnit=this.getLeaderUnit(Config.Leader);
 
 	while(LeaderUnit){
@@ -145,7 +152,7 @@ function LevelFollower(){
 			if(getDistance(me,LeaderUnit)>5){
 				Pather.teleport=false;
 				Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);
-				Attack.clear(20,ClearType);
+				Attack.clear(20);
 				delay(500);
 			}
 		}else{
