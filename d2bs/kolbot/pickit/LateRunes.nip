@@ -1,5 +1,6 @@
 // ===============LEVEL >70 RUNES ===============//
 [Name] >= MalRune && [Name] <= ZodRune
+[Name] == PerfectDiamond # # [MaxQuantity] == 4
 
 // ===============RUNEWORDS ===============//
 //Grief
@@ -15,4 +16,4 @@
 [Type] == Polearm && [Class] == Elite && [Flag] == Ethereal && [Quality] == Superior && [Class] >= Exceptional # [EnhancedDamage] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
 
 //Spirit
-[Name] == Monarch && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+[Name] == Monarch && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1

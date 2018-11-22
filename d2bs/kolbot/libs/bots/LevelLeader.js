@@ -69,6 +69,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(4,0),"Tristram");
 			break;
 			case 6://Countess
+				Pather.journeyTo(6);
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){Pather.makePortal();}
 				Attack.clearLevel(0);
 				Town.doChores();
@@ -93,6 +94,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(6,3),"Andariel");
 			break;
 			case 48://Radament
+				Pather.journeyTo(48);
 				if(Pather.moveToExit(49,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(49,2,355);
 				this.killQuestBoss(229);
@@ -237,6 +239,7 @@ function LevelLeader(){
 				Attack.openChests(25);
 			break;
 			case 104://Izual
+				Pather.journeyTo(104);
 				if(Pather.moveToExit(105,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
@@ -276,6 +279,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(36,0),"Prisoners");
 			break;
 			case 113://Anya
+				Pather.journeyTo(113);
 				if(Pather.moveToExit(114,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(114,2,460);
 				delay(1000);
@@ -292,7 +296,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(37,0),"Anya");
 			break;
 			case 123://Nihlathak
-				if(!me.getQuest(37,0)){this.CheckQuests(113);}
+				Pather.journeyTo(123);
 				if(Pather.moveToExit(124,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(124,2,462);
 				this.killQuestBoss(526);
@@ -625,6 +629,20 @@ function LevelLeader(){
 		return true;
 	};
 	
+	this.finalCheck=function(){
+		say("Final Quest Check");
+		if(!me.getQuest(1,0)){say("Den");Pather.journeyTo(8);Attack.clearLevel(0);}
+		if(!me.getQuest(3,0)){say("Malus");this.CheckQuests(27);}
+		if(!me.getQuest(5,0)){say("Countess");this.CheckQuests(6);}
+		if(!me.getQuest(9,0)){say("Radament");this.CheckQuests(48);}
+		if(!me.getQuest(17,0)){say("Black Book");this.CheckQuests(80);}
+		if(!me.getQuest(25,0)){say("Izual");this.CheckQuests(104);}
+		if(!me.getQuest(35,0)){say("Shenk");this.CheckQuests(111);}
+		if(!me.getQuest(37,0)){say("Anya");this.CheckQuests(113);}
+		if(!me.getQuest(38,0)){say("Nihlathak");this.CheckQuests(123);}
+		this.logProgress("Completed","Final Check");
+	}
+	
 	this.checkProgress=function(){
 		var i,UpToArea;
 		for(i=0; i < WaypointAreas.length; i++){
@@ -665,13 +683,13 @@ function LevelLeader(){
 	// while(true){say(me.x+","+me.y);delay(2000);}
 	// this.getA2Merc();
 	Town.move("portalspot");
-	delay(7000);
+	delay(4500);
 	Pather.getWP(me.area);
-	delay(1000);
+	delay(500);
 	Town.doChores();
-	delay(1000);
+	delay(500);
 	this.checkProgress();
-	delay(1000);
+	delay(500);
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}
@@ -693,5 +711,6 @@ function LevelLeader(){
 		}
 		this.logProgress("Completed","Act "+(ActNumber+1));
 	}
+	this.finalCheck();	
 	return true;
 }

@@ -3,6 +3,19 @@
 [Name] == LargeCharm # ([FireResist]+[ColdResist]+[LightResist] >= 15 || [Mana] >= 30) && ([MaxHP] >= 30 || [Strength]+[Dexterity] >= 5)
 [Name] == SmallCharm # ([FireResist]+[ColdResist]+[LightResist] >= 11 || [Mana] >= 13) && ([MaxHP] == 20 || [Strength]+[Dexterity] >= 2)
 
+// ===============QUEST ===============//
+//Quest Items
+[Name] == HoradricCube																		//Horadric Cube
+[Name] == BookOfSkill																		//Book Of Skill
+[Name] == ScrollOfResistance																//Scroll Of Resistance
+[Name] == AJadeFigurine																		//Jade Figurine
+[Name] == BBB																				//Black Book
+[Name] == QF1																				//Khalim Flail
+[Name] == QEY																				//Khalim Eye
+[Name] == QHR																				//Khalim Heart
+[Name] == QBR																				//Khalim Brain
+[Name] == QF2																				//Khalim Will
+
 // ===============ACCESSORIES ===============//
 [Type] == Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
 

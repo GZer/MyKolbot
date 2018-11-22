@@ -176,3 +176,149 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
 [07:55:58] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[09:11:02] <Hammerdin> Error in LevelFollower (town.js line 2224): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2224
+[09:12:44] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[14:41:58] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[17:21:12] <Singer> Invalid runewords entry: Bec-De-Corbin
+[17:21:12] <Singer> Invalid runewords entry: Bec-De-Corbin
+[17:50:06] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:321, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[18:22:26] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:321, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[22:19:09] <Singer> Error in LevelLeader (pather.js line 561): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:140, Pather.journeyTo@pather.js:1418, Pather.moveToPreset@pather.js:561
+[22:56:01] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:679, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[23:07:59] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:321, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[00:12:37] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:679, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[01:54:23] <Singer> Error in LevelLeader (runewords.js line 315): runeword is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:335, Town.doChores@town.js:102, Runewords.makeRunewords@runewords.js:400, Runewords.buildLists@runewords.js:188, Runewords.getBase@runewords.js:315
+[08:12:55] <Singer> Unknown stat: maxquantity File: LateRunes.nip Line: 3
+[08:12:55] <Singer> Unknown stat: maxquantity File: LateRunes.nip Line: 3
+[09:38:57] <LightSorc> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[13:01:09] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:01:10] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:01:10] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:01:11] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:04:54] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:04:55] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:04:56] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:04:56] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:12:15] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:12:17] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:12:53] <Summoner> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[13:20:40] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:37:41] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:40:06] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:40:16] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:42:53] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:42:54] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[13:52:21] <Hammerdin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[14:05:33] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[14:05:35] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[14:20:12] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[14:20:12] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[14:27:31] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[14:44:18] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:06:48] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:14:31] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:18:02] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:18:34] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:20:44] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:20:44] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:20:46] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:39:08] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[15:39:22] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[16:08:04] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[16:13:57] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[16:31:36] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[16:33:56] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[16:55:34] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[16:55:35] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[16:55:37] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[17:19:28] <Auradin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[17:19:29] <Wind> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[17:19:29] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[17:19:30] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[17:41:20] <Wind> Error in LevelFollower (town.js line 2224): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2224
+[18:32:52] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:692, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[19:43:04] <ColdSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[19:43:06] <LightSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[19:43:09] <Wind> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[19:43:11] <Auradin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[19:43:13] <FireSorc> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[19:43:15] <Summoner> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[19:43:18] <Hammerdin> Error in LevelFollower (levelfollower.js line 136): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:136
+[20:09:44] <Singer> Error in LevelLeader (town.js line 2224): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:714, @levelleader.js:635, @levelleader.js:79, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2224
+[21:14:38] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[21:14:40] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:152, @levelfollower.js:83, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[00:21:31] <Singer> Error in LevelLeader (town.js line 2224): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:710, @levelleader.js:180, Town.doChores@town.js:66, Town.goToTown@town.js:2224
+[01:40:41] <Singer> Error in LevelLeader (town.js line 2273): Town.visitTown: Failed to go back from town
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:710, @levelleader.js:203, Attack.clearLevel@attack.js:784, Attack.clear@attack.js:444, Attack.openChests@attack.js:907, Misc.openChest@misc.js:1138, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.popChests@pather.js:55, Misc.openChests@misc.js:1251, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2273
+[03:25:10] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:710, @levelleader.js:252, Pather.getWP@pather.js:1305
+[07:57:02] <Singer> Error in LevelLeader (attack.js line 866): Level Not loaded
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:708, Attack.clearLevel@attack.js:781, Pather.moveTo@pather.js:227, Pather.walkTo@pather.js:412, Attack.validSpot@attack.js:866

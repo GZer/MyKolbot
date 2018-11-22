@@ -459,6 +459,8 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function (){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre50.nip"),1);
+				Config.UseHP=90;
+				Config.UseMP=50;
 			}
 		},
 

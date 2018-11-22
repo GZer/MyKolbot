@@ -221,7 +221,7 @@ var AutoBuildTemplate={
 			SkillPoints: [85],//Blood Golem
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.AttackSkill=[70,70,70,70,70,70,70];
+				Config.BeltColumn=["hp","hp","hp","rv"];
 			}
 		},
 
@@ -461,6 +461,8 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre50.nip"),1);
+				Config.UseHP=90;
+				Config.UseMP=50;
 			}
 		},
 
