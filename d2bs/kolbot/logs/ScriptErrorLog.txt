@@ -24,3 +24,13 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:684, @levelleader.js:625
 [19:42:31] <Singer> Error in LevelLeader (levelleader.js line 626): MercTypes is not defined
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:685, @levelleader.js:626
+[21:35:18] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 100
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:717, @levelleader.js:152, Pather.useUnit@pather.js:810
+[21:54:32] <Singer> Error in LevelLeader (town.js line 2242): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:704, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2242
+[22:11:36] <Singer> Error in LevelLeader (town.js line 2242): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:704, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2242
+[22:23:45] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 100
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:717, @levelleader.js:152, Pather.useUnit@pather.js:810
+[23:00:38] <FireSorc> Error in LevelFollower (levelfollower.js line 12): me.getWaypoint is not a function
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:78, @levelfollower.js:12

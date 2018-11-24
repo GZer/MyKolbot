@@ -365,8 +365,6 @@ var AutoBuildTemplate={
 				Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]);
 				//Make Spirit, HOTO and Black base Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon, "Flail", Roll.NonEth]);
-				Config.Recipes.push([Recipe.Socket.Weapon, "Crystal Sword", Roll.NonEth]);
-				Config.Recipes.push([Recipe.Socket.Weapon, "Broad Sword", Roll.NonEth]);
 				//Make Spirit, Enigma and Splendor base Armor
 				Config.Recipes.push([Recipe.Socket.Armor, "Light Plate", Roll.NonEth]);
 				Config.Recipes.push([Recipe.Socket.Armor, "Mage Plate", Roll.NonEth]);

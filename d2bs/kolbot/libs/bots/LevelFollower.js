@@ -9,9 +9,9 @@ function LevelFollower(){
 		
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
-		if(getWaypoint(TownWaypoints[DestinationAct-1])){
-			say("Using Waypoint to change to Act "+DestinationAct);
-			Pather.journeyTo(TownWaypoints[DestinationAct-1]);
+		if(Pather.accessToAct(DestinationAct)){
+			say("Using Waypoint "+TownWaypoints[DestinationAct-1]+" to change to Act "+DestinationAct);
+			try{Pather.journeyTo(TownWaypoints[DestinationAct-1]);}catch(err){print("Failed using Waypoint to change acts")}
 			return true;
 		}
 		try{
