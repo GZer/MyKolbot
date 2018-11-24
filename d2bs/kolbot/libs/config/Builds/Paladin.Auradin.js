@@ -24,11 +24,12 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function (){
-				Config.PickitFiles.push("EndGame.nip");
+				Config.PickitFiles.push("LateGame.nip");
 				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
+				Config.PickitFiles.push("LateRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Auradin.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
@@ -616,7 +617,8 @@ var AutoBuildTemplate={
 			SkillPoints: [122],
 			StatPoints: [0,2,3,3,3],
 			Update: function (){
-				Config.PickitFiles.push("LateRunes.nip");
+				Config.Recipes.push([Recipe.Caster.Amulet]);
+				Config.Recipes.push([Recipe.Caster.Ring]);
 			}
 		},
 

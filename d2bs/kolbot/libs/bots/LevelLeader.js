@@ -18,7 +18,7 @@ function LevelLeader(){
 	109,111,112,113,115,123,117,118,129];
 
 	this.CheckQuests=function(ClearedArea){
-		var Stones,Gibbet,CouncilCoord,Altar,BaalPortal,i;
+		var Stones,Gibbet,CouncilCoord,Altar,BaalPortal,i=0;
 		switch(ClearedArea){
 			case 8://Waypoint to Town after Den
 				Pather.getWP(3);
@@ -45,7 +45,7 @@ function LevelLeader(){
 				Pather.useWaypoint(4);
 				this.clearToQuestLocation(4,1,737);
 				if(!me.getQuest(4,4)){Stones=[getUnit(2,17),getUnit(2,18),getUnit(2,19),getUnit(2,20),getUnit(2,21)];}
-				while(!me.getQuest(4,4)){
+				while(!me.getQuest(4,4) && me.getItem(525)){
 					Stones.forEach(function(stone){
 						if(!stone.mode){
 							Attack.securePosition(stone.x,stone.y,10,250);
@@ -53,7 +53,7 @@ function LevelLeader(){
 						}
 					});
 				}
-				while(!Pather.getPortal(38)){delay(500);}
+				while(!Pather.getPortal(38) && i<10){delay(1000);i++;}
 				Pather.usePortal(38);
 				Pather.makePortal();
 				if(getUnit(2,26)){
@@ -286,12 +286,11 @@ function LevelLeader(){
 				Pather.usePortal(114,me.name);
 				this.talkToAnya();
 				this.talkToNPC("Malah");
-				delay(5000);
+				Pather.moveTo(17590,8068);
+				delay(15000);
 				this.talkToNPC("Anya");
-				me.cancel();
 				Town.doChores();
 				this.logProgress(me.getQuest(37,0),"Anya");
-				if(!me.getQuest(37,0)){quit();}
 			break;
 			case 123://Nihlathak
 				Pather.journeyTo(123);
@@ -608,21 +607,27 @@ function LevelLeader(){
 	};
 		
 	this.getA2Merc=function(){
+		var Lines,Type,x,y,MercTypes=["Combat","Offensive","Defensive"];
 		Pather.getWP(me.area);
-		Town.move("Griez");
+		Pather.moveTo(5031,5048);
 		var Griez=getUnit(1,"Greiz");
 		if(!me.getMerc() && !me.mercrevivecost){
 			if(Griez && Griez.openMenu()){
 				Misc.useMenu(0x0D45);
-				for(i=0x0; i < 0xFFFF; i++){
-					try{if(Griez.useMenu(i)){print(i+" worked");delay(10000);break;}}
-					catch(err){delay(100);print(i+" failed");}
+				for(x=0; x < 5000; x++){
+					for(y=0; y < 5000; y++){
+						try{
+							print("Clicking x:"+x+", y:"+y);
+							clickItem(0, x, y, 2);
+							clickItem(1, x, y, 2);
+						}catch(err){print("Failed to click");}
+					}
 				}
 				// Lines=getDialogLines();
 				// if(!Lines){
 					// print("No Dailog Lines");
 					// return false;
-				//}
+				// }
 				// for(Type=0; Type < MercTypes.length; Type++){
 					// for(i=0; i < Lines.length; i++){
 						// print("Selectable:"+Lines[i].selectable+" Text:"+Lines[i].text);
@@ -630,13 +635,14 @@ function LevelLeader(){
 							// getDialogLines()[i].handler();
 							// delay(750);
 							// break;
-						//}else{
+						// }else{
 							// print("No "+MercTypes[Type]+" Merc");
-						//}
-					//}
-				//}
+						// }
+					// }
+				// }
 			}
 		}
+		say("Merc Hiring over");
 		this.logProgress(me.getMerc(),"Hiring A2 Merc");
 		return true;
 	};
@@ -701,7 +707,8 @@ function LevelLeader(){
 				WaitingLimit=3;
 				while(!this.playerClose() && WaitingLimit > 0){
 					say("Waiting for Party");
-					delay(10000*WaitingLimit--);
+					Attack.clear(5);
+					delay(7000*WaitingLimit--);
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);

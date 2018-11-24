@@ -24,12 +24,13 @@ var AutoBuildTemplate={
 
 	1: 	{
 			Update: function(){
-				Config.PickitFiles.push("EndGame.nip");
+				Config.PickitFiles.push("LateGame.nip");
 				Config.PickitFiles.push("Pre50.nip");
 				Config.PickitFiles.push("Pre40.nip");
 				Config.PickitFiles.push("Pre30.nip");
 				Config.PickitFiles.push("Pre15.nip");
 				Config.PickitFiles.push("EarlyRunes.nip");
+				Config.PickitFiles.push("LateRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Singer.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
@@ -125,28 +126,17 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				// Config.Recipes.push([Recipe.Gem,"Flawless Amethyst"]);
-				// Config.Recipes.push([Recipe.Gem,"Flawless Topaz"]);
-				// Config.Recipes.push([Recipe.Gem,"Flawless Sapphire"]);
-				// Config.Recipes.push([Recipe.Gem,"Flawless Emerald"]);
-				// Config.Recipes.push([Recipe.Gem,"Flawless Ruby"]);
-				// Config.Recipes.push([Recipe.Gem,"Flawless Diamond"]);
-				// Config.Recipes.push([Recipe.Gem,"Flawless Skull"]);
-				// Config.Recipes.push([Recipe.Reroll.Magic,"Diadem"]);
-				// Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
-				// Config.Recipes.push([Recipe.Reroll.Rare,"Diadem"]);
-				// Config.Recipes.push([Recipe.Rune,"El Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Eld Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Tir Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Nef Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Eth Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Ith Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Tal Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
-				// Config.Recipes.push([Recipe.Rune,"Sol Rune"]);
+				Config.Recipes.push([Recipe.Rune,"El Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Eld Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Tir Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Nef Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Eth Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ith Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Tal Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
 			}
 		},
 
@@ -163,6 +153,7 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Leaf,"Battle Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"War Staff"]);
 				Config.Runewords.push([Runeword.Strength,"War Scepter"]);
+				Config.Runewords.push([Runeword.Black,"Flail"]);
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Long Sword"]);
@@ -191,6 +182,13 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Lore,"Cap"]);
 				Config.Runewords.push([Runeword.Lore,"Skull Cap"]);
 				Config.Runewords.push([Runeword.Lore,"Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Bone Helm"]);
+				Config.Runewords.push([Runeword.Lore,"War Hat"]);
+				Config.Runewords.push([Runeword.Lore,"Sallet"]);
+				Config.Runewords.push([Runeword.Lore,"Casque"]);
+				Config.Runewords.push([Runeword.Lore,"Death Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Grim Helm"]);
 				Config.Runewords.push([Runeword.Lore,"Wolf Head"]);
 				Config.Runewords.push([Runeword.Lore,"Hawk Helm"]);
 				Config.Runewords.push([Runeword.Lore,"Antlers"]);
@@ -202,8 +200,8 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Lore,"Assault Helmet"]);
 				Config.Runewords.push([Runeword.Lore,"Avenger Guard"]);
 				//Shield
-				Config.Runewords.push([Runeword.Splendor,"Small Shield"]);
-				Config.Runewords.push([Runeword.Splendor,"Bone Shield"]);
+				Config.Runewords.push([Runeword.Splendor,"Round Shield"]);
+				Config.Runewords.push([Runeword.Splendor,"Grim Shield"]);
 				Config.Runewords.push([Runeword.Splendor,"Preserved Head"]);
 				Config.Runewords.push([Runeword.Splendor,"Zombie Head"]);
 				Config.Runewords.push([Runeword.Splendor,"Unraveller Head"]);
@@ -354,7 +352,36 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[0,132,0,0,0,0,0];
+				//Make Eth Insight base Weapon
+				Config.Recipes.push([Recipe.Socket.Weapon, "Poleaxe", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Halberd", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "War Scythe", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Partizan", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Bec De Corbin", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Grim Scythe", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Ogre Axe", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Colossus Voulge", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Cryptic Axe", Roll.Eth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]);
+				//Make Spirit, HOTO and Black base Weapon
+				Config.Recipes.push([Recipe.Socket.Weapon, "Flail", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Crystal Sword", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "Broad Sword", Roll.NonEth]);
+				//Make Spirit, Enigma and Splendor base Armor
+				Config.Recipes.push([Recipe.Socket.Armor, "Light Plate", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Mage Plate", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Archon Plate", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "DuskShroud", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Wyrmhide", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "ScarabHusk", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Round Shield", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Grim Shield", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Monarch", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Targe", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Rondache", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Heraldic Shield", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Aerin Shield", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor, "Crown Shield", Roll.NonEth]);
 			}	
 		},
 
@@ -509,7 +536,6 @@ var AutoBuildTemplate={
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyRunes.nip"),1);
 				Config.PickitFiles.push("MidRunes.nip");
-				Config.Recipes.push([Recipe.Gem,"Flawless Diamond"]);
 			}
 		},
 
@@ -550,22 +576,22 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre50.nip"),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"El Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Eld Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Tir Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Nef Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Eth Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Ith Rune"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Leaf,"Short Staff"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Leaf,"Long Staff"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Leaf,"Gnarled Staff"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Leaf,"Battle Staff"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Leaf,"War Staff"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Strength,"War Scepter"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Spirit,"Long Sword"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Insight,"Poleaxe"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Insight,"Halberd"]),1);
-				// Config.PickitFiles.splice(Config.Runewords.push([Runeword.Insight,"War Scythe"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"El Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Eld Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Tir Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Nef Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Eth Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Ith Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Leaf,"Short Staff"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Leaf,"Long Staff"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Leaf,"Gnarled Staff"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Leaf,"Battle Staff"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Leaf,"War Staff"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Strength,"War Scepter"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Spirit,"Long Sword"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Insight,"Poleaxe"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Insight,"Halberd"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Runeword.Insight,"War Scythe"]),1);
 				Config.UseHP=90;
 				Config.UseMP=50;
 			}
@@ -728,13 +754,23 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidRunes.nip"),1);
-				Config.PickitFiles.push("LateRunes.nip");
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Tal Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Ral Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Ort Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Thul Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Amn Rune"]),1);
-				// Config.PickitFiles.splice(Config.Recipes.push([Recipe.Rune,"Sol Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Tal Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Ral Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Ort Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Thul Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Amn Rune"]),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf([Recipe.Rune,"Sol Rune"]),1);
+				Config.Recipes.push([Recipe.Gem,"Flawless Amethyst"]);
+				Config.Recipes.push([Recipe.Gem,"Flawless Topaz"]);
+				Config.Recipes.push([Recipe.Gem,"Flawless Sapphire"]);
+				Config.Recipes.push([Recipe.Gem,"Flawless Emerald"]);
+				Config.Recipes.push([Recipe.Gem,"Flawless Ruby"]);
+				Config.Recipes.push([Recipe.Gem,"Flawless Diamond"]);
+				Config.Recipes.push([Recipe.Gem,"Flawless Skull"]);
+				Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
+				Config.Recipes.push([Recipe.Reroll.Rare,"Diadem"]);
+				Config.Recipes.push([Recipe.Caster.Amulet]);
+				Config.Recipes.push([Recipe.Caster.Ring]);
 			}
 		},
 

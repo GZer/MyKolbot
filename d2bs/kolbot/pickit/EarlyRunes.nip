@@ -19,21 +19,15 @@
 [Name] == KoRune # # [MaxQuantity] == 3
 [Name] == FalRune # # [MaxQuantity] == 3
 [Name] == LemRune # # [MaxQuantity] == 3
-[Name] == PulRune # # [MaxQuantity] == 5
-[Name] == UmRune # # [MaxQuantity] == 5
-[Name] >= MalRune && [Name] <= ZodRune
 
 // ===============RUNEWORDS ===============//
 //Leaf
 [Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Lore
-[Type] == Pelt && [Flag] != Ethereal && [Quality] <= Superior # [SkillTornado]+[SkillOakSage] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
-[Type] == PrimalHelm && [Flag] != Ethereal && [Quality] <= Superior # [SkillBattleOrders] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
-[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 2
+[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Spirit
-([Name] == CrystalSword || [Name] == BroadSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4
 ([Name] == LongSword || [Name] == Claymore || [Name] == BastardSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
 [Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
 

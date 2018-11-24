@@ -1,5 +1,5 @@
 // ===============LEVEL >70 RUNES ===============//
-[Name] >= MalRune && [Name] <= ZodRune
+[Name] >= PulRune && [Name] <= ZodRune
 [Name] == PerfectDiamond # # [MaxQuantity] == 4
 
 // ===============RUNEWORDS ===============//
@@ -7,13 +7,21 @@
 [Name] == PhaseBlade && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDamage] >= 15 && [Sockets] == 5 # [MaxQuantity] == 1
 
 //Enigma
-([Name] == MagePlate || [Name] == DuskShroud || [Name] == Wyrmhide || [Name] == ScarabHusk) && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && [Sockets] == 3
+([Name] == MagePlate || [Name] == DuskShroud || [Name] == Wyrmhide || [Name] == ScarabHusk || [Name] == ArchonPlate) && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && [Sockets] == 3
 
 //Heart of the Oak
-[Name] == Flail && [Flag] != Ethereal && [Quality] == Superior # [Sockets] == 4 # [MaxQuantity] == 1
+[Name] == Flail && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDamage] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
 
 //Insight
 [Type] == Polearm && [Class] == Elite && [Flag] == Ethereal && [Quality] == Superior && [Class] >= Exceptional # [EnhancedDamage] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
 
+//Lore
+[Type] == Pelt && [Flag] != Ethereal && [Quality] <= Superior # [SkillTornado]+[SkillOakSage] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == PrimalHelm && [Flag] != Ethereal && [Quality] <= Superior # [SkillBattleOrders] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+
 //Spirit
-[Name] == Monarch && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+([Name] == CrystalSword || [Name] == BroadSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4
+[Name] == Monarch && [Flag] != Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && ([Sockets] == 4 || [Sockets] == 0) # [MaxQuantity] == 1
+
+//Splendor
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 3 && ([Sockets] == 2 || [Sockets] == 0) # [MaxQuantity] == 2

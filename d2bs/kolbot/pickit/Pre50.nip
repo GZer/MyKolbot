@@ -27,15 +27,15 @@
 //Berserkers Arsenal
 [Name] == Helm && [Quality] == Set # [FireResist] == 25										//Berserkers Headgear
 [Name] == SplintMail && [Quality] == Set # [BarbarianSkills] == 1							//Berserkers Hauberk
-[Type] == DoubleAxe && [Quality] == Set # [ManaLeech] == 5									//Berserkers Hatchet
+[Name] == DoubleAxe && [Quality] == Set # [ManaLeech] == 5									//Berserkers Hatchet
 
 //Infernal Tools
 [Name] == Cap && [Quality] == Set # [ItemDamageToMana] == 20 && [FireResist] == 10			//Infernal Cranium
 [Name] == HeavyBelt && [Quality] == Set # [MaxHP] == 20										//Infernal Sign
-[Type] == GrimWand && [Quality] == Set # [NecromancerSkills] == 1							//Infernal Torch
+[Name] == GrimWand && [Quality] == Set # [NecromancerSkills] == 1							//Infernal Torch
 
 //Milabregas Regalia
 [Name] == Crown && [Quality] == Set # [MaxHP] == 15											//Milabregas Diadem
 [Name] == AncientArmor && [Quality] == Set # [ItemAttackerTakesDamage] == 3					//Milabregas Robe
-[Type] == KiteShield && [Quality] == Set # [ItemMagicBonus] == 20							//Milabregas Orb
-[Type] == WarScepter && [Quality] == Set # [PaladinSkills] == 1								//Milabregas Rod
+[Name] == KiteShield && [Quality] == Set # [ItemMagicBonus] == 20							//Milabregas Orb
+[Name] == WarScepter && [Quality] == Set # [PaladinSkills] == 1								//Milabregas Rod

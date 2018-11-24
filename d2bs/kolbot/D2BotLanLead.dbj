@@ -120,6 +120,7 @@ function main() {
 		}
 		isUp = "no";
 		locationAction(getLocation());
+		print(getLocation());
 		delay(1000);
 	}
 }
