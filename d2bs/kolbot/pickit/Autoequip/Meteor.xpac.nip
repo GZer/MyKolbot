@@ -1,10 +1,10 @@
 //Weapon
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [SkillMeteor]+[SkillFireball] >= 2 # [Tier] == 1
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [SkillMeteor]+[SkillFireball] >= 2 && [FCR] >= 20 # [Tier] == 2
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [SkillMeteor]+[SkillFireball] >= 2 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 3
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [SkillMeteor]+[SkillFireball] >= 4 # [Tier] == 4
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 2 # [Tier] == 1
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 2 && [FCR] >= 20 # [Tier] == 2
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 2 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 3
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 4 # [Tier] == 4
 [Type] == Staff && [Flag] != Ethereal && [Flag] == Runeword # [FireSkillTab]+[SkillWarmth] >= 6 # [Tier] == 5
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [SkillMeteor]+[SkillFireball] >= 4 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 6
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 4 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 6
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 10
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 11
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 6 # [Tier] == 12

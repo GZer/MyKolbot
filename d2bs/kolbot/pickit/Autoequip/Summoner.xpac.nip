@@ -1,8 +1,8 @@
 //Weapon
-[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 # [Tier] == 1
-[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 2
-[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 3
-[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 4
+[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab]+[SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 # [Tier] == 1
+[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab]+[SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 2
+[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab]+[SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 3
+[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab]+[SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 4
 [Name] == GrimWand && [Quality] == Set # [NecromancerSkills] == 1 # [Tier] == 5
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 6
 [Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 # [Tier] == 7
