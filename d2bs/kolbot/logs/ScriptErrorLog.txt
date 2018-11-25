@@ -54,3 +54,5 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:704, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
 [08:04:49] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 547
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:722, @levelleader.js:317, Pather.openExit@pather.js:731, Pather.useUnit@pather.js:810
+[09:13:12] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:726, @levelleader.js:666, @levelleader.js:296, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
