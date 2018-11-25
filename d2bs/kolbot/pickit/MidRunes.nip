@@ -23,7 +23,7 @@
 
 //Spirit
 ([Name] == Claymore || [Name] == BastardSword || [Name] == DacianFalx || [Name] == GothicSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
-[Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 45 && ([Sockets] == 4 || [Sockets] == 0) # [MaxQuantity] == 1
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 60 && ([Sockets] == 4 || [Sockets] == 0) # [MaxQuantity] == 1
 
 //Splendor
 ([Name] == RoundShield || [Name] == GrimShield) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 || [Sockets] == 0 # [MaxQuantity] == 1

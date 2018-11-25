@@ -314,8 +314,8 @@ function LevelLeader(){
 				}
 				this.waitForUnit(1,542);			
 				Attack.clear(50);
-				Pather.openExit(128);
-				Pather.journeyTo(128);
+				try{Pather.moveToExit(128,true,true);
+				}catch(err){Pather.journeyTo(128);}
 				this.logProgress(me.getQuest(39,0),"Ancients");
 			break;
 			case 130://Baal
@@ -329,7 +329,7 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 3){
+					if((me.diff == 0 && me.charlvl > 60) || (me.diff == 1 && me.charlvl > 80) || me.diff == 3){
 						Pather.moveTo(15134,5923,true,true);
 						this.killQuestBoss(544);
 					}
