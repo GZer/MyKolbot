@@ -38,7 +38,7 @@ function LevelFollower(){
 				}
 				break;
 			case 4:
-				if(me.area ! = 102){Pather.journeyTo(102);}
+				if(me.area != 102){Pather.journeyTo(102);}
 				Pather.moveTo(17590,8068,2,true,true);
 				delay(2000);
 				Pather.moveTo(17601,8070,2,true,true);
@@ -74,10 +74,10 @@ function LevelFollower(){
 			else if(LeaderArea > = 75 && LeaderArea < = 102){LeaderAct = 3;}
 			else if(LeaderArea > = 103 && LeaderArea < = 108){LeaderAct = 4;}
 			else{LeaderAct = 5;}
-			if(LeaderAct ! = me.act){														//Make sure we are in the same act
+			if(LeaderAct != me.act){														//Make sure we are in the same act
 				this.ChangeAct(LeaderAct);
 			}
-			if(LeaderArea ! = me.area){
+			if(LeaderArea != me.area){
 				Pather.teleport = true;
 				delay(2000);
 				if(LeaderArea == 73){
@@ -124,7 +124,7 @@ function LevelFollower(){
 		var Player = getUnit(0,name);
 		if(Player){
 			do{
-				if(Player.mode ! = 0 && Player.mode ! = 17){
+				if(Player.mode != 0 && Player.mode != 17){
 					say("Found Leader");
 					return Player;
 				}

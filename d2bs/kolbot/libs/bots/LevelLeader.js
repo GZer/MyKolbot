@@ -110,9 +110,9 @@ function LevelLeader(){
 			break;
 			case 43://Staff
 				Pather.journeyTo(43);
-				while(me.area ! = 62){try{Pather.moveToExit(62,true,true);}catch(err){print("Retry enter MaggotLvl1");}}Pather.makePortal();
-				while(me.area ! = 63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
-				while(me.area ! = 64){try{Pather.moveToExit(64,true,true);}catch(err){print("Retry enter MaggotLvl3");}}Pather.makePortal();
+				while(me.area != 62){try{Pather.moveToExit(62,true,true);}catch(err){print("Retry enter MaggotLvl1");}}Pather.makePortal();
+				while(me.area != 63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
+				while(me.area != 64){try{Pather.moveToExit(64,true,true);}catch(err){print("Retry enter MaggotLvl3");}}Pather.makePortal();
 				this.clearToQuestLocation(64,2,356);
 				this.getQuestItem(92,356);
 				Town.doChores();
@@ -137,7 +137,7 @@ function LevelLeader(){
 				Pather.makePortal();
 				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
-				while(me.area ! = 46){try{Pather.journeyTo(46);}catch(err){print("Retry enter MagiCanyon");}}
+				while(me.area != 46){try{Pather.journeyTo(46);}catch(err){print("Retry enter MagiCanyon");}}
 				Pather.getWP(46);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
@@ -181,9 +181,9 @@ function LevelLeader(){
 					this.logProgress(me.getQuest(19,0),"Gidbinn");
 				}
 				Pather.journeyTo(78);
-				while(me.area ! = 88){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl1");}}Pather.makePortal();
-				while(me.area ! = 89){try{Pather.moveToExit(89,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
-				while(me.area ! = 91){try{Pather.moveToExit(91,true,true);}catch(err){print("Retry enter FlayerLvl3");}}Pather.makePortal();
+				while(me.area != 88){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl1");}}Pather.makePortal();
+				while(me.area != 89){try{Pather.moveToExit(89,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
+				while(me.area != 91){try{Pather.moveToExit(91,true,true);}catch(err){print("Retry enter FlayerLvl3");}}Pather.makePortal();
 				this.clearToQuestLocation(91,2,406);
 				this.killQuestBoss(726);
 				this.getQuestItem(555,406);
@@ -305,7 +305,7 @@ function LevelLeader(){
 				this.clearToQuestLocation(120,2,546);
 				Altar = getUnit(2,546);
 				if(Altar){
-					while(Altar.mode ! = 2){
+					while(Altar.mode != 2){
 						Pather.moveToUnit(Altar);
 						Altar.interact();
 						delay(2000);
@@ -358,7 +358,7 @@ function LevelLeader(){
 		var MyParty = getParty();
 		if(MyParty){
 			do{
-				if(MyParty.name ! = me.name && MyParty.area == me.area){
+				if(MyParty.name != me.name && MyParty.area == me.area){
 					return true;
 				}
 			}while(MyParty.getNext());
@@ -455,7 +455,7 @@ function LevelLeader(){
 				}
 				break;
 			case 4:
-				if(me.area ! = 102){Pather.journeyTo(102);}
+				if(me.area != 102){Pather.journeyTo(102);}
 				Pather.moveTo(17590,8068,2,true,true);
 				delay(2000);
 				Pather.moveTo(17601,8070,2,true,true);
@@ -704,7 +704,7 @@ function LevelLeader(){
 	delay(500);
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
-		if(me.act ! = ActNumber+1){this.ChangeAct(ActNumber+1);}
+		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}
 		for(LevelArea = 0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{Pather.makePortal();
