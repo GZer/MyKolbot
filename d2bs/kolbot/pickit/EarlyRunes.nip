@@ -22,17 +22,17 @@
 
 // ===============RUNEWORDS ===============//
 //Leaf
-[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 1 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Lore
-[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 15 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
 
 //Spirit
 ([Name] == LongSword || [Name] == Claymore || [Name] == BastardSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
-[Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist] >= 30 && ([Sockets] == 4 || [Sockets] == 0) # [MaxQuantity] == 1
 
 //Stealth
 ([Name] == HardLeatherArmor || [Name] == StuddedLeather || [Name] == RingMail || [Name] == BreastPlate || [Name] == LightPlate) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 2
 
 //Strength
-[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 2 && [Sockets] == 2 # [MaxQuantity] == 2
+[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 1 && [Sockets] == 2 # [MaxQuantity] == 1

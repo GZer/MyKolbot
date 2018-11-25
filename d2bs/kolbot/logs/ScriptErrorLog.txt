@@ -34,3 +34,21 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:717, @levelleader.js:152, Pather.useUnit@pather.js:810
 [23:00:38] <FireSorc> Error in LevelFollower (levelfollower.js line 12): me.getWaypoint is not a function
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:78, @levelfollower.js:12
+[00:31:56] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:717, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[11:35:48] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 54
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[11:38:25] <ColdSorc> Error in LevelFollower (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2221, Pather.makePortal@pather.js:1020
+[11:38:28] <LightSorc> Error in LevelFollower (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2221, Pather.makePortal@pather.js:1020
+[11:39:18] <FireSorc> Error in LevelFollower (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2221, Pather.makePortal@pather.js:1020
+[13:26:04] <Singer> Error in LevelLeader (pather.js line 264): moveTo: Failed to generate path.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:716, Attack.clearLevel@attack.js:781, Pather.moveTo@pather.js:264
+[15:54:35] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 547
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:718, @levelleader.js:317, Pather.openExit@pather.js:731, Pather.useUnit@pather.js:810
+[17:04:57] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:704, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[18:14:56] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:704, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810

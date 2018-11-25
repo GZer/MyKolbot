@@ -365,6 +365,7 @@ var AutoBuildTemplate={
 				Config.Recipes.push([Recipe.Socket.Weapon, "Great Poleaxe", Roll.Eth]);
 				//Make Spirit, HOTO and Black base Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon, "Flail", Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Weapon, "War Scepter", Roll.NonEth]);
 				//Make Spirit, Enigma and Splendor base Armor
 				Config.Recipes.push([Recipe.Socket.Armor, "Light Plate", Roll.NonEth]);
 				Config.Recipes.push([Recipe.Socket.Armor, "Mage Plate", Roll.NonEth]);
@@ -743,7 +744,10 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[130,154,0,132,0,132,0];
+				Config.UseHP=70;
+				Config.UseMP=30;
+				Config.UseRejuvHP=35;
+				Config.LifeChicken=30;
 			}
 		},
 

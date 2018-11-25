@@ -182,8 +182,8 @@ function LevelLeader(){
 				}
 				Pather.journeyTo(78);
 				while(me.area != 88){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl1");}}Pather.makePortal();
-				while(me.area != 89){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
-				while(me.area != 91){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl3");}}Pather.makePortal();
+				while(me.area != 89){try{Pather.moveToExit(89,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
+				while(me.area != 91){try{Pather.moveToExit(91,true,true);}catch(err){print("Retry enter FlayerLvl3");}}Pather.makePortal();
 				this.clearToQuestLocation(91,2,406);
 				this.killQuestBoss(726);
 				this.getQuestItem(555,406);
@@ -492,6 +492,10 @@ function LevelLeader(){
 		Anya.interact();
 		delay(250);
 		me.cancel();
+		Pather.moveToUnit(Anya);
+		Anya.interact();
+		delay(250);
+		me.cancel();
 		return true;
 	};
 	
@@ -712,6 +716,7 @@ function LevelLeader(){
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
+				Pather.makePortal();
 				Attack.clearLevel(0);
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
