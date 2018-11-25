@@ -228,7 +228,7 @@ function LevelLeader(){
 				say("Waiting for Party Quest");
 				delay(15000);
 				CouncilCoord = [17600,8125,17600,8015,17643,8068];
-				for(i = 0; i < CouncilCoord.length; i + = 2){
+				for(i = 0; i < CouncilCoord.length; i += 2){
 					Pather.moveTo(CouncilCoord[i],CouncilCoord[i + 1],1,true,true);
 					Attack.clearList(Attack.getMob([345,346,347],0,40));
 				}
@@ -563,7 +563,7 @@ function LevelLeader(){
 	this.talkToTyrael = function(){
 		var i,NPC = getUnit(1,"Tyrael");
 		if(!NPC){this.logProgress(null,"Free Tyrael");return false;}
-		for(i = 0; i < 3; i + = 1){
+		for(i = 0; i < 3; i += 1){
 			if(getDistance(me,NPC) > 3){Pather.moveToUnit(NPC);}
 			NPC.interact();
 			delay(2000);
