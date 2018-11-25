@@ -69,10 +69,10 @@ function LevelFollower(){
 	this.goFindLeader = function(LeaderArea){
 		var LeaderAct,BaalPortal;
 		if(LeaderArea){
-			if(LeaderArea < = 39){LeaderAct = 1;}
-			else if(LeaderArea > = 40 && LeaderArea < = 74){LeaderAct = 2;}
-			else if(LeaderArea > = 75 && LeaderArea < = 102){LeaderAct = 3;}
-			else if(LeaderArea > = 103 && LeaderArea < = 108){LeaderAct = 4;}
+			if(LeaderArea <= 39){LeaderAct = 1;}
+			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct = 2;}
+			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct = 3;}
+			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct = 4;}
 			else{LeaderAct = 5;}
 			if(LeaderAct != me.act){														//Make sure we are in the same act
 				this.ChangeAct(LeaderAct);
