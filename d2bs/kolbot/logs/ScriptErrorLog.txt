@@ -58,3 +58,11 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:726, @levelleader.js:666, @levelleader.js:296, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
 [11:47:00] <LightSorc> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[18:23:52] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:709, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[19:47:10] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 18
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:86, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[20:13:05] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[20:19:32] <Singer> Error in LevelLeader (town.js line 2230): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:101, @levelleader.js:395, Town.goToTown@town.js:2230
