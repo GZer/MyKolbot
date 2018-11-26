@@ -329,7 +329,7 @@ function LevelLeader(){
 				}
 				BaalPortal = getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 60) || (me.diff == 1 && me.charlvl > 80) || me.diff == 3){
+					if((me.diff == 0 && me.charlvl > 50) || (me.diff == 1 && me.charlvl > 80) || me.diff == 3){
 						Pather.moveTo(15134,5923,true,true);
 						this.killQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
