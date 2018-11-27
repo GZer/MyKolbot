@@ -36,7 +36,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(2,3),"BloodRaven");
 			break;
 			case 5://Tristram
-				if(!me.getQuest(4,4) && !me.getItem(525)){
+				if(!me.getQuest(4,4)&& !me.getItem(525)){
 					if(!me.getItem(524)){
 						Pather.moveToPreset(5,2,30,2,2,true,true);
 						this.getQuestItem(524,30);
@@ -46,7 +46,7 @@ function LevelLeader(){
 				Pather.useWaypoint(4);
 				this.clearToQuestLocation(4,1,737);
 				if(!me.getQuest(4,4)){Stones = [getUnit(2,17),getUnit(2,18),getUnit(2,19),getUnit(2,20),getUnit(2,21)];}
-				while(!me.getQuest(4,4) && me.getItem(525)){
+				while(!me.getQuest(4,4)&& me.getItem(525)){
 					Stones.forEach(function(stone){
 						if(!stone.mode){
 							Attack.securePosition(stone.x,stone.y,10,250);
@@ -54,7 +54,7 @@ function LevelLeader(){
 						}
 					});
 				}
-				while(!Pather.getPortal(38) && i<10){delay(1000);i++;}
+				while(!Pather.getPortal(38)&& i<10){delay(1000);i++;}
 				Pather.usePortal(38);
 				Pather.makePortal();
 				if(getUnit(2,26)){
@@ -223,7 +223,7 @@ function LevelLeader(){
 				Pather.usePortal(83,null);
 				this.clearToQuestLocation(83,2,404);
 				this.smashOrb();
-				this.talkToNPC("Deckard Cain");
+				Town.doChores();
 				this.logProgress(me.getQuest(21,0),"Travincal");
 				Pather.usePortal(83,null);
 				if(Pather.moveToExit(100,true,true)){Pather.makePortal();}
@@ -336,7 +336,7 @@ function LevelLeader(){
 				}
 				BaalPortal = getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 50) || (me.diff == 1 && me.charlvl > 80) || me.diff == 3){
+					if((me.diff == 0 && me.charlvl > 50)||(me.diff == 1 && me.charlvl > 80)|| me.diff == 3){
 						Pather.moveTo(15134,5923,true,true);
 						this.killQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
@@ -428,7 +428,7 @@ function LevelLeader(){
 	
 	this.waitForUnit = function(ClassId,UnitId){
 		var timeOut = 0;
-		while(!getUnit(ClassId,UnitId) && timeOut < 30){
+		while(!getUnit(ClassId,UnitId)&& timeOut < 30){
 			delay(1000);
 			timeOut++;
 		}
@@ -536,17 +536,28 @@ function LevelLeader(){
 // =============== ACT III FUNCTIONS =============== //
 
 	this.smashOrb = function(){
-		var Orb = getUnit(2,404),orbTimeout = 0,Flail = me.getItem(174);
+		var Orb = getUnit(2,404),orbTimeout = 0,Flail = me.getItem(174),cursorItem;
 		if(Flail){
+			weaponSwitch();
+			for(var i = 0; i < 3; i++){
+				if(Flail.toCursor()){
+					clickItem(0,4);
+					delay(1500);
+					if(Flail.bodylocation == 4 && getCursorType()== 3){
+						cursorItem = getUnit(100);
+						if(cursorItem && Storage.Inventory.CanFit(cursorItem)){Storage.Inventory.MoveTo(cursorItem);}
+					}
+				}
+			}
 			try{while(Orb && orbTimeout < 4){
 					Orb.interact();
 					delay(250);
 					orbTimeout++;
 				}
-				weaponSwitch();
-			}catch(err){return false;}
+			}catch(err){print("Hit Orb Failed");}
+			weaponSwitch();
 		}else{return false;}
-		this.logProgress(me.getQuest(18,3),"Smash Compelling Orb");
+		this.logProgress(me.getQuest(18,0),"Smash Compelling Orb");
 		return true;
 	};
 
@@ -564,8 +575,8 @@ function LevelLeader(){
 		Flail = me.getItem(174);
 		Storage.Inventory.MoveTo(Flail);
 		me.cancel();
-		weaponSwitch();
-		Town.doChores();
+		// weaponSwitch();
+		// Town.doChores();
 		this.logProgress(me.getItem(174),"Making Khalim Will");
 		return me.getItem(174);
 	};
@@ -574,7 +585,7 @@ function LevelLeader(){
 		var i,NPC = getUnit(1,"Tyrael");
 		if(!NPC){this.logProgress(null,"Free Tyrael");return false;}
 		for(i = 0; i < 3; i += 1){
-			if(getDistance(me,NPC) > 3){Pather.moveToUnit(NPC);}
+			if(getDistance(me,NPC)> 3){Pather.moveToUnit(NPC);}
 			NPC.interact();
 			delay(2000);
 			me.cancel();
@@ -626,15 +637,15 @@ function LevelLeader(){
 		Pather.getWP(me.area);
 		Pather.moveTo(5031,5048);
 		var Griez = getUnit(1,"Greiz");
-		if(!me.getMerc() && !me.mercrevivecost){
+		if(!me.getMerc()&& !me.mercrevivecost){
 			if(Griez && Griez.openMenu()){
 				Misc.useMenu(0x0D45);
 				for(x = 0; x < 5000; x++){
 					for(y = 0; y < 5000; y++){
 						try{
-							print("Clicking x:"+x+", y:"+y);
-							clickItem(0, x, y, 2);
-							clickItem(1, x, y, 2);
+							print("Clicking x:"+x+",y:"+y);
+							clickItem(0,x,y,2);
+							clickItem(1,x,y,2);
 						}catch(err){print("Failed to click");}
 					}
 				}
@@ -646,7 +657,7 @@ function LevelLeader(){
 				// for(Type = 0; Type < MercTypes.length; Type++){
 					// for(i = 0; i < Lines.length; i++){
 						// print("Selectable:"+Lines[i].selectable+" Text:"+Lines[i].text);
-						// if(Lines[i].selectable && Lines[i].text.indexOf(MercTypes[Type]) > -1){
+						// if(Lines[i].selectable && Lines[i].text.indexOf(MercTypes[Type])> -1){
 							// getDialogLines()[i].handler();
 							// delay(750);
 							// break;
@@ -720,7 +731,7 @@ function LevelLeader(){
 				try{Pather.makePortal();
 				}catch(err){print("Failed to make portal");}
 				WaitingLimit = 3;
-				while(!this.playerClose() && WaitingLimit > 0){
+				while(!this.playerClose()&& WaitingLimit > 0){
 					say("Waiting for Party");
 					Attack.clear(5);
 					delay(7000*WaitingLimit--);

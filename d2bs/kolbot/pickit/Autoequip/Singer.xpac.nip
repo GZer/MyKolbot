@@ -8,7 +8,7 @@
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 95
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier] == 98
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 && [FireResist]+[ColdResist]+[LightResist] >= 120 # [Tier] == 99
-[Name] == QF2 && [Quality] == Unique # # [Tier] == 99
+//[Name] == QF2 && [Quality] == Unique # # [Tier] == 99
 
 //Helm
 [Type] == PrimalHelm && [Flag] != Ethereal && [Quality] >= LowQuality # # [Tier] == 1 && [MaxQuantity] == 1
