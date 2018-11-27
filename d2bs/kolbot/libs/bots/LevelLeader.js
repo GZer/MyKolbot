@@ -399,8 +399,11 @@ function LevelLeader(){
 		var Boss = getUnit(1,BossId);
 		try{Attack.clear(20,0,BossId);delay(500);Pickit.pickItems();
 		}catch(err){print("Boss not found");}
-		this.logProgress(Boss.dead,"Kill Boss:"+BossId);
-		return Boss.dead;
+		if(Boss){
+			this.logProgress(Boss.dead,"Kill Boss:"+BossId);
+			return Boss.dead;
+		}
+		return false;
 	};
 	
 	this.talkToNPC = function(NPCName){
