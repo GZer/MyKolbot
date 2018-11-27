@@ -517,7 +517,7 @@ function LevelLeader(){
 	
 	this.openSeal = function(SealId){
 		while(true){if(this.clearToQuestLocation(108,2,SealId)){break;}}
-		var i,tick,Seal = getPresetUnit(108,2,SealId);
+		var i,tick,Seal = getUnit(2,SealId);
 		if(Seal){
 			for(i = 0; i < 3; i++){
 				if(SealId == 394){Misc.click(0,0,Seal);}
