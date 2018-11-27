@@ -519,20 +519,17 @@ function LevelLeader(){
 		while(true){if(this.clearToQuestLocation(108,2,SealId)){break;}}
 		var i,tick,Seal = getUnit(2,SealId);
 		if(Seal){
-			for(i = 0; i < 3; i++){
+			for(i = 0; i < 5; i++){
 				if(SealId == 394){Misc.click(0,0,Seal);}
 				else{Seal.interact();}
 				tick = getTickCount();
 				while(getTickCount()-tick < 500){
-					if(Seal.mode){
-						delay(500);
-						return true;
-					}
-					delay(150);
+					if(Seal.mode){return true;}
+					delay(500);
 				}
 			}
+			this.logProgress(Seal.mode,"Opening Seal ID:"+SealId);
 		}
-		this.logProgress(Seal.mode,"Opening Seal ID:"+SealId);
 		return false;
 	};
 	
