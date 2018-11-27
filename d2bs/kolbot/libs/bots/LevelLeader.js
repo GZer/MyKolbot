@@ -217,15 +217,16 @@ function LevelLeader(){
 				Town.doChores();
 				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
+				this.killQuestBoss(256);
 				this.getQuestItem(173);
 				Town.doChores();
 				this.cubeFlail();
-				Pather.usePortal(83,null);
+				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
 				this.smashOrb();
 				Town.doChores();
 				this.logProgress(me.getQuest(21,0),"Travincal");
-				Pather.usePortal(83,null);
+				Pather.journeyTo(83);
 				if(Pather.moveToExit(100,true,true)){Pather.makePortal();}
 			break;
 			case 101://Mephisto
@@ -257,6 +258,7 @@ function LevelLeader(){
 				if(Pather.moveToExit(107,true,true)){Pather.makePortal();}
 				while(true){if(Pather.getWP(107,true)){break;}}
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
+				if(Pather.moveTo(7791,5293,true,true)){Pather.makePortal();}
 				this.openSeal(395);this.openSeal(396);
 				this.openSeal(395);this.openSeal(396);
 				this.killQuestBoss(742);
@@ -383,6 +385,7 @@ function LevelLeader(){
 					Attack.clear(5);
 					delay(5000);
 				}
+				Precast.doPrecast(true);
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
 					return true;
 				}
@@ -513,8 +516,8 @@ function LevelLeader(){
 // =============== ACT IV FUNCTIONS =============== //
 	
 	this.openSeal = function(SealId){
-		this.clearToQuestLocation(108,2,SealId);
-		var i,tick,Seal = getUnit(2,SealId);
+		while(true){if(this.clearToQuestLocation(108,2,SealId)){break;}}
+		var i,tick,Seal = getPresetUnit(108,2,SealId);
 		if(Seal){
 			for(i = 0; i < 3; i++){
 				if(SealId == 394){Misc.click(0,0,Seal);}
@@ -539,14 +542,12 @@ function LevelLeader(){
 		var Orb = getUnit(2,404),orbTimeout = 0,Flail = me.getItem(174),cursorItem;
 		if(Flail){
 			weaponSwitch();
-			for(var i = 0; i < 3; i++){
-				if(Flail.toCursor()){
-					clickItem(0,4);
-					delay(1500);
-					if(Flail.bodylocation == 4 && getCursorType()== 3){
-						cursorItem = getUnit(100);
-						if(cursorItem && Storage.Inventory.CanFit(cursorItem)){Storage.Inventory.MoveTo(cursorItem);}
-					}
+			if(Flail.toCursor()){
+				clickItem(0,4);
+				delay(1500);
+				if(Flail.bodylocation == 4 && getCursorType()== 3){
+					cursorItem = getUnit(100);
+					if(cursorItem && Storage.Inventory.CanFit(cursorItem)){Storage.Inventory.MoveTo(cursorItem);}
 				}
 			}
 			try{while(Orb && orbTimeout < 4){
@@ -563,15 +564,15 @@ function LevelLeader(){
 
 	this.cubeFlail = function(){
 		var Flail = me.getItem(173),Eye = me.getItem(553),Heart = me.getItem(554),Brain = me.getItem(555);
-		if(!me.getQuest(18,0)){
+		if(!me.getQuest(18,0) && !me.getItem(174)){
 			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
 			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);}
 			if(Flail){Storage.Cube.MoveTo(Flail);}else{quit();}
+			Cubing.openCube();
+			transmute();
+			delay(1000);
 		}
-		Cubing.openCube();
-		transmute();
-		delay(1000);
 		Flail = me.getItem(174);
 		Storage.Inventory.MoveTo(Flail);
 		me.cancel();
@@ -581,6 +582,8 @@ function LevelLeader(){
 		return me.getItem(174);
 	};
 	
+// =============== ACT II FUNCTIONS =============== //
+		
 	this.talkToTyrael = function(){
 		var i,NPC = getUnit(1,"Tyrael");
 		if(!NPC){this.logProgress(null,"Free Tyrael");return false;}
@@ -592,8 +595,6 @@ function LevelLeader(){
 		}
 		return true;
 	};
-	
-// =============== ACT II FUNCTIONS =============== //
 	
 	this.placeStaff = function(){
 		var HoradricStaff = me.getItem(91),item,Orifice = getUnit(2,152);
@@ -716,7 +717,7 @@ function LevelLeader(){
 	// while(true){say(me.x+","+me.y);delay(2000);}
 	// this.getA2Merc();
 	Town.move("portalspot");
-	delay(4500);
+	delay(500);
 	Pather.getWP(me.area);
 	delay(500);
 	Town.doChores();

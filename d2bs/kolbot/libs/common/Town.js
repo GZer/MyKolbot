@@ -180,20 +180,20 @@ var Town = {
 		}
 		
 		//Atma for Discount
-		if(me.getQuest(9, 3) && !me.getQuest(9, 0)){
-			Pather.journeyTo(40);
-			Town.move("Atma");
-			NPC=getUnit(1,"Atma");
-			if(NPC && NPC.openMenu()){
-				me.cancel();
-			}
-		}
+		// if(me.getQuest(9, 3) && !me.getQuest(9, 0)){
+			// Pather.journeyTo(40);
+			// Town.move("atma");
+			// NPC=getUnit(1,"atma");
+			// if(NPC && NPC.openMenu()){
+				// me.cancel();
+			// }
+		// }
 		
 		//Cain for Access to Durance
 		if(me.getQuest(21, 3) && !me.getQuest(21, 0)){
 			Pather.journeyTo(75);
-			Town.move("Cain");
-			NPC=getUnit(1,"Deckard Cain");
+			Town.move("cain");
+			NPC=getUnit(1,"deckard cain");
 			if(NPC && NPC.openMenu()){
 				me.cancel();
 			}

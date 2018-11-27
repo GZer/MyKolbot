@@ -200,4 +200,73 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
 [15:52:19] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
-
+[16:11:59] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:733, @levelleader.js:222, @levelleader.js:556, @levelleader.js:166, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[16:18:21] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:733, @levelleader.js:222, @levelleader.js:556, @levelleader.js:166, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[16:34:24] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:733, @levelleader.js:222, @levelleader.js:556, @levelleader.js:166, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[16:35:45] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:719, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
+[16:55:38] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[17:06:47] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:733, @levelleader.js:222, @levelleader.js:556, @levelleader.js:166, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[20:49:29] <Auradin> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
+[22:42:58] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[23:03:23] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[23:43:32] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[23:59:01] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[00:40:39] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[01:01:38] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[01:22:10] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[01:55:58] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[02:50:09] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[03:09:44] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[03:30:52] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[03:49:14] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[04:08:13] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[04:32:30] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[04:49:21] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[05:13:40] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[05:28:30] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 69
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:258, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[06:02:32] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[06:19:50] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[06:38:39] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[06:59:34] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[07:15:11] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[07:40:29] <Singer> Error in LevelLeader (levelleader.js line 401): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:263, @levelleader.js:401
+[08:03:48] <Singer> Error in LevelLeader (levelleader.js line 534): Seal is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:744, @levelleader.js:261, @levelleader.js:534
+[08:25:26] <Singer> Error in LevelLeader (levelleader.js line 524): Seal.interact is not a function
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:745, @levelleader.js:262, @levelleader.js:524
+[08:49:49] <Singer> Error in LevelLeader (levelleader.js line 524): Seal.interact is not a function
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:745, @levelleader.js:262, @levelleader.js:524
+[09:09:22] <Singer> Error in LevelLeader (levelleader.js line 524): Seal.interact is not a function
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:745, @levelleader.js:262, @levelleader.js:524
+[09:27:05] <Singer> Error in LevelLeader (levelleader.js line 524): Seal.interact is not a function
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:745, @levelleader.js:262, @levelleader.js:524
