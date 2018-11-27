@@ -377,13 +377,13 @@ function LevelLeader(){
 		var count = 0;
 		while(count < 40){
 			try{
+				Pather.makePortal();
+				while(!this.playerClose()){
+					say("Waiting for Party Quest");
+					Attack.clear(5);
+					delay(5000);
+				}
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
-					Pather.makePortal();
-					while(!this.playerClose()){
-						say("Waiting for Party Quest");
-						Attack.clear(5);
-						delay(15000);
-					}
 					return true;
 				}
 			}catch(err){this.logProgress(null,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);return false;}
