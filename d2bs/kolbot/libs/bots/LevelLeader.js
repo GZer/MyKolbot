@@ -28,7 +28,8 @@ function LevelLeader(){
 			break;
 			case 3://BloodRaven
 				Pather.journeyTo(17);
-				this.killQuestBoss(775);
+				this.clearToQuestLocation(17,1,805);
+				this.killQuestBoss(805);
 				Pather.getWP(3);
 				Pather.journeyTo(1);
 				Town.doChores();
@@ -164,7 +165,9 @@ function LevelLeader(){
 				Pather.journeyTo(76);
 				if(Pather.moveToExit(85,true,true)){Pather.makePortal();}
 				say("Waiting for Party Quest");
-				delay(15000);
+				delay(5000);
+				Attack.clear(5);
+				delay(10000);
 				Attack.clearLevel(0x7);
 				this.getQuestItem(553,405);
 				Town.doChores();
@@ -174,9 +177,11 @@ function LevelLeader(){
 				Pather.journeyTo(78);
 				if(!me.getQuest(19,0)){
 					this.clearToQuestLocation(78,2,86);
-					delay(1000);
+					this.getQuestItem(87,86);
+					delay(3000);
 					Attack.clear(35);
-					this.getQuestItem(87);
+					delay(2000);
+					Attack.clear(35);
 					Town.doChores();
 					this.logProgress(me.getQuest(19,0),"Gidbinn");
 				}
@@ -226,7 +231,9 @@ function LevelLeader(){
 			case 101://Mephisto
 				if(Pather.moveToExit(102,true,true)){Pather.makePortal();}
 				say("Waiting for Party Quest");
-				delay(15000);
+				delay(5000);
+				Attack.clear(5);
+				delay(10000);
 				CouncilCoord = [17600,8125,17600,8015,17643,8068];
 				for(i = 0; i < CouncilCoord.length; i += 2){
 					Pather.moveTo(CouncilCoord[i],CouncilCoord[i + 1],1,true,true);
@@ -368,14 +375,15 @@ function LevelLeader(){
 	
 	this.clearToQuestLocation = function(QuestArea,UnitType,UnitId){
 		var count = 0;
-		while(count < 50){
+		while(count < 40){
 			try{
+				Pather.makePortal();
+				while(!this.playerClose()){
+					say("Waiting for Party Quest");
+					Attack.clear(5);
+					delay(15000);
+				}
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
-					Pather.makePortal();
-					while(!this.playerClose()){
-						say("Waiting for Party Quest");
-						delay(15000);
-					}
 					return true;
 				}
 			}catch(err){this.logProgress(null,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);return false;}
@@ -385,9 +393,11 @@ function LevelLeader(){
 	};
 	
 	this.killQuestBoss = function(BossId){
+		var Boss = getUnit(1,BossId);
 		try{Attack.clear(20,0,BossId);delay(500);Pickit.pickItems();
-		}catch(err){this.logProgress(null,"Kill Boss:"+BossId);return false;}
-		return true;
+		}catch(err){print("Boss not found");}}
+		this.logProgress(Boss.dead,"Kill Boss:"+BossId);
+		return Boss.dead;
 	};
 	
 	this.talkToNPC = function(NPCName){
@@ -405,12 +415,12 @@ function LevelLeader(){
 		if(me.getItem(ItemId)){return true;}
 		if(Chest){
 			try{Misc.openChest(Chest);
-			}catch(err){this.logProgress(null,"GetQuestItem Chest:"+ChestId);return false;}
+			}catch(err){this.logProgress(null,"GetQuestChest:"+ChestId);return false;}
 		}
 		delay(1000);
 		Item = getUnit(4,ItemId);
 		try{Pickit.pickItem(Item);
-		}catch(err){this.logProgress(null,"GetQuestItem Item:"+ItemId);return false;}
+		}catch(err){this.logProgress(null,"GetQuestItem:"+ItemId);return false;}
 		delay(1000);
 		Pickit.pickItems();
 		return true;
