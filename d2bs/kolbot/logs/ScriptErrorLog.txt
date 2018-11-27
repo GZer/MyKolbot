@@ -66,3 +66,125 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
 [20:19:32] <Singer> Error in LevelLeader (town.js line 2230): Town.goToTown: Failed to take TP
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:101, @levelleader.js:395, Town.goToTown@town.js:2230
+[22:40:29] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:136, Pather.getWP@pather.js:1305
+[22:45:51] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:136, Pather.getWP@pather.js:1305
+[02:26:28] <Singer> Error in LevelLeader (pather.js line 561): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:140, Pather.journeyTo@pather.js:1418, Pather.moveToPreset@pather.js:561
+[06:26:53] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[06:42:20] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[06:42:28] <Wind> Error in LevelFollower (town.js line 2230): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2230
+[06:52:11] <LightSorc> Error in LevelFollower (town.js line 2230): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2230
+[07:02:43] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:04:35] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:05:53] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:07:12] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:08:30] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:09:50] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:11:08] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:12:26] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:13:46] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:15:02] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:16:23] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:17:40] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:18:59] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:20:17] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:21:36] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:22:53] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:26:30] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:27:38] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:29:49] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:31:41] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:33:01] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:34:20] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:35:37] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:36:56] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:39:43] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:41:02] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:42:21] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:43:40] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:44:57] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:46:17] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:47:36] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:48:55] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:51:42] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:55:46] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[07:57:40] <FireSorc> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[08:31:34] <Auradin> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:145, @levelfollower.js:92, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[08:53:54] <Auradin> Error in LevelFollower (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[10:36:44] <Singer> Error in LevelLeader (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:709, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2246
+[12:03:16] <Auradin> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
+[12:06:42] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[12:14:54] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[12:17:18] <FireSorc> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
+[13:02:08] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:251, Pather.getWP@pather.js:1305
+[13:10:34] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:251, Pather.getWP@pather.js:1305
+[13:22:40] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:251, Pather.getWP@pather.js:1305
+[13:39:34] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:44:41] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:51:19] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:08:04] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:13:16] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:164, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
+[14:20:41] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:52:40] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:58:27] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, @levelleader.js:217, @levelleader.js:546, @levelleader.js:165, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:59:41] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:709, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
