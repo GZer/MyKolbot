@@ -270,3 +270,11 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:745, @levelleader.js:262, @levelleader.js:524
 [09:27:05] <Singer> Error in LevelLeader (levelleader.js line 524): Seal.interact is not a function
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:745, @levelleader.js:262, @levelleader.js:524
+[10:16:59] <Singer> Error in LevelLeader (levelleader.js line 402): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:742, @levelleader.js:264, @levelleader.js:402
+[10:18:46] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:728, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[10:39:17] <Singer> Error in LevelLeader (levelleader.js line 402): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:742, @levelleader.js:264, @levelleader.js:402
+[10:57:57] <Singer> Error in LevelLeader (levelleader.js line 402): Boss is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:742, @levelleader.js:264, @levelleader.js:402
