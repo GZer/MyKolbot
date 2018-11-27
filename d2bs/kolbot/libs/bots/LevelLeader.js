@@ -258,7 +258,7 @@ function LevelLeader(){
 				if(Pather.moveToExit(107,true,true)){Pather.makePortal();}
 				while(true){if(Pather.getWP(107,true)){break;}}
 				if(Pather.moveToExit(108,true,true)){Pather.makePortal();}
-				if(Pather.moveTo(7791,5293,true,true)){Pather.makePortal();}
+				if(Pather.moveTo(7791,5293,5,true,true)){Pather.makePortal();}
 				this.openSeal(395);this.openSeal(396);
 				this.openSeal(395);this.openSeal(396);
 				this.killQuestBoss(742);
