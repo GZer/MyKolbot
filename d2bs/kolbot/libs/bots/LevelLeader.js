@@ -519,7 +519,7 @@ function LevelLeader(){
 // =============== ACT IV FUNCTIONS =============== //
 	
 	this.openSeal = function(SealId){
-		while(true){if(this.clearToQuestLocation(108,2,SealId)){break;}}
+		this.clearToQuestLocation(108,2,SealId);
 		var i,tick,Seal = getUnit(2,SealId);
 		if(Seal){
 			for(i = 0; i < 5; i++){
