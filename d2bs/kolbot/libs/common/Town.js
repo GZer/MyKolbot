@@ -168,7 +168,7 @@ var Town = {
 			item.interact();
 		}
 		
-		//Scroll Of Resistance
+		/*Scroll Of Resistance*/
 		if (me.getItem(646)) {
 			item = me.getItem(646);
 
@@ -179,17 +179,17 @@ var Town = {
 			item.interact();
 		}
 		
-		//Atma for Discount
-		// if(me.getQuest(9, 3) && !me.getQuest(9, 0)){
-			// Pather.journeyTo(40);
-			// Town.move("atma");
-			// NPC=getUnit(1,"atma");
-			// if(NPC && NPC.openMenu()){
-				// me.cancel();
-			// }
-		// }
+		/*Atma for Discount*/
+		if(me.getQuest(9, 3) && !me.getQuest(9, 0)){
+			Pather.journeyTo(40);
+			Town.move("atma");
+			NPC=getUnit(1,"atma");
+			if(NPC && NPC.openMenu()){
+				me.cancel();
+			}
+		}
 		
-		//Cain for Access to Durance
+		/*Cain for Access to Durance*/
 		if(me.getQuest(21, 3) && !me.getQuest(21, 0)){
 			Pather.journeyTo(75);
 			Town.move("cain");
@@ -199,7 +199,7 @@ var Town = {
 			}
 		}
 		
-		//Anya for Item
+		/*Anya for Item*/
 		if(me.getQuest(37, 3) && !me.getQuest(37, 0)){
 			Pather.journeyTo(109);
 			Town.move("Anya");

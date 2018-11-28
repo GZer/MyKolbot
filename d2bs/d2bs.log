@@ -14469,3 +14469,16 @@ Line: ry.CanFit(cursorItem)){Storage.Inventory.MoveTo(cursorItem);break;}
 [11/28/18 11:29:52] D2BS 22952: D2BS Shutdown complete.
 [11/28/18 11:29:53] D2BS 12872: D2BS Engine startup complete. 1.5.1869
 [11/28/18 11:29:53] D2BS 12872: Auradin
+[11/28/18 13:13:54] D2BS 12872: Crash File: BlizzardError/2018-11-28 13.13.53/Crash.txt
+
+[11/28/18 13:13:54] D2BS 12872: D2BS Shutdown complete.
+[11/28/18 13:14:02] D2BS 17808: D2BS Engine startup complete. 1.5.1869
+[11/28/18 13:14:02] D2BS 17808: Auradin
+[11/28/18 13:27:52] D2BS 17808: [Error] Code(109) File(c:\users\geoffrey\documents\github\mykolbot\d2bs\kolbot\libs\common\town.js:182) SyntaxError: missing ; before statement
+Line: 		Atma for Discount
+
+[11/28/18 13:27:52] D2BS 17808: [Error] Code(1) File(c:\users\geoffrey\documents\github\mykolbot\d2bs\kolbot\default.dbj:160) ReferenceError: Town is not defined
+Line: (null)
+[11/28/18 13:27:52] D2BS 17808: [Error] Code(109) File(c:\users\geoffrey\documents\github\mykolbot\d2bs\kolbot\libs\common\town.js:182) SyntaxError: missing ; before statement
+Line: 		Atma for Discount
+
