@@ -739,7 +739,8 @@ function LevelLeader(){
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
-				Pather.makePortal();
+				try{Pather.makePortal();
+				}catch(err){print("Failed to make portal");}
 				Attack.clearLevel(0);
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
