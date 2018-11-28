@@ -76,6 +76,9 @@
 [Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [IAS] >= 10 # [Tier] == 3
 [Type] == Gloves && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [IAS] >= 10 # [Tier] == 4
 [Name] == Gauntlets && [Flag] != Ethereal && [Quality] == Set # # [Tier] == 5
+[Type] == Gloves && [Quality] >= Magic # [MaxHP] >= 20 && [IAS] >= 10 # [Tier] == 6
+[Name] == BrambleMitts && [Quality] == Set # # [Tier] == 8
+[Name] == HeavyGloves && [Quality] == Set # # [Tier] == 9
 [Name] == HeavyGloves && [Quality] == Unique # # [Tier] == 10
 [Name] == SharkskinGloves && [Quality] == Set # # [Tier] == 95
 [Name] == VampireboneGloves && [Quality] == Unique # [ItemOpenWounds] >= 25 && [Strength] >= 10 # [Tier] == 98
