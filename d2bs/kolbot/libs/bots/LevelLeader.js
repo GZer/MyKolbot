@@ -28,8 +28,8 @@ function LevelLeader(){
 			break;
 			case 3://BloodRaven
 				Pather.journeyTo(17);
-				this.clearToQuestLocation(17,1,805);
-				this.killQuestBoss(805);
+				this.clearToQuestLocation(17,1,775);
+				this.killQuestBoss(775);
 				Pather.getWP(3);
 				Pather.journeyTo(1);
 				Town.doChores();
@@ -138,7 +138,8 @@ function LevelLeader(){
 				Pather.makePortal();
 				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
-				while(me.area != 46){try{Pather.journeyTo(46);}catch(err){print("Retry enter MagiCanyon");}}
+				WaitingLimit=0
+				while(me.area != 46 && WaitingLimit < 30){try{Pather.journeyTo(46);WaitingLimit++;}catch(err){print("Retry enter MagiCanyon");}}if(WaitingLimit >= 30){quit();}
 				Pather.getWP(46);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");

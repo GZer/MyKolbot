@@ -111,10 +111,10 @@ var AutoBuildTemplate={
 		},
 
 	8: 	{
-			SkillPoints: [227,226],//Summon Spirit Wolf
+			SkillPoints: [226],
 			StatPoints: [0,3,3,3,3],
 			Update: function (){
-				Config.SummonAnimal=1;
+				Config.AttackSkill=[230,230,0,230,0,0,0];
 			}
 		},
 
