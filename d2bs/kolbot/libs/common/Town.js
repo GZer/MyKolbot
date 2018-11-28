@@ -120,7 +120,7 @@ var Town = {
 	checkQuestItems: function () {
 		var i, NPC, item;
 		
-		//BookOfSkill
+		/*BookOfSkill*/
 		if (me.getItem(552)) {
 			item = me.getItem(552);
 
@@ -131,7 +131,7 @@ var Town = {
 			item.interact();
 		}
 		
-		// golden bird stuff
+		/*golden bird stuff*/
 		if (me.getItem(546)) {
 			this.goToTown(3);
 			this.move("meshif");
