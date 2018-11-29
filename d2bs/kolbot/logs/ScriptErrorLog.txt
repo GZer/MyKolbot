@@ -20,3 +20,15 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:723, Town.doChores@town.js:87, Town.fillTome@town.js:523, Town.initNPC@town.js:249, Town.move@town.js:2117, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
 [08:47:17] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 51
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:159, @levelfollower.js:92, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[09:24:13] <Singer> Error in LevelLeader (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:747, @levelleader.js:174, Town.doChores@town.js:97, Town.buyKeys@town.js:1140, Town.goToTown@town.js:2246
+[12:38:43] <Singer> Error in LevelLeader (town.js line 2279): Town.visitTown: Failed to go back from town
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:745, Attack.clearLevel@attack.js:781, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:443, ClassAttack.afterAttack@barbarian.js:71, Town.visitTown@town.js:2279
+[12:54:30] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 60
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:747, @levelleader.js:209, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:02:52] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 60
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:747, @levelleader.js:209, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:39:10] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:747, @levelleader.js:260, Pather.getWP@pather.js:1305
+[13:45:30] <Singer> Error in LevelLeader (town.js line 2279): Town.visitTown: Failed to go back from town
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:747, @levelleader.js:224, @levelleader.js:571, @levelleader.js:209, Pather.moveToExit@pather.js:615, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:443, ClassAttack.afterAttack@barbarian.js:71, Town.visitTown@town.js:2279
