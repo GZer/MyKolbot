@@ -77,9 +77,10 @@ function LevelFollower(){
 			if(LeaderAct != me.act){														//Make sure we are in the same act
 				this.ChangeAct(LeaderAct);
 			}
+			if(me.area == 62 || me.area == 74 || me.area == 88){this.teleportToLocation(me.area);}
 			if(LeaderArea != me.area){
 				Pather.teleport = true;
-				delay(2000);
+				delay(1500);
 				if(LeaderArea == 73){
 					try{Pather.useUnit(2,100,73);											//Try duriels hole
 					}catch(err){Town.goToTown();}
@@ -117,7 +118,30 @@ function LevelFollower(){
 			me.cancel();
 		}else{
 			print("Failed talking to "+NPCName);
+			return false;
 		}
+		return true;
+	};
+	
+	this.teleportToLocation = function(CurrentArea){											//Teleport to hard destinations
+		var DestinationReached = false;
+		Pather.teleport = true;
+		switch(CurrentArea){
+			case 62:																			//Maggot Lair
+				Pather.journeyTo(64);
+				if(Pather.moveToPreset(64,2,356)){DestinationReached = true;}
+			break;
+			case 74:																			//Arcane Sanctuary
+				if(Pather.moveToPreset(74,2,357)){DestinationReached = true;}
+			break;
+			case 88:																			//Flayer Dungeon
+				Pather.journeyTo(91);
+				if(Pather.moveToPreset(91,2,406)){DestinationReached = true;}
+			break;
+		}
+		Town.doChores();
+		Town.move("portalspot");
+		return DestinationReached;
 	};
 	
 	this.getLeaderUnit = function(name){														//Get Leader's unit

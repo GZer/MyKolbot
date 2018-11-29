@@ -111,11 +111,14 @@ function LevelLeader(){
 				this.logProgress(me.getItem(549),"Cube");
 			break;
 			case 43://Staff
-				Pather.journeyTo(43);
-				while(me.area != 62){try{Pather.moveToExit(62,true,true);}catch(err){print("Retry enter MaggotLvl1");}}Pather.makePortal();
-				while(me.area != 63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
-				while(me.area != 64){try{Pather.moveToExit(64,true,true);}catch(err){print("Retry enter MaggotLvl3");}}Pather.makePortal();
-				this.clearToQuestLocation(64,2,356);
+				Pather.journeyTo(62);
+				if(!this.waitForTeleporter(64)){
+					Pather.journeyTo(62);
+					while(me.area != 63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
+					while(me.area != 64){try{Pather.moveToExit(64,true,true);}catch(err){print("Retry enter MaggotLvl3");}}Pather.makePortal();
+					this.clearToQuestLocation(64,2,356);
+				}
+				this.killQuestBoss(284);
 				this.getQuestItem(92,356);
 				Town.doChores();
 				this.logProgress(me.getItem(92),"Staff of Kings");
@@ -136,11 +139,12 @@ function LevelLeader(){
 			case 54://Summoner
 				Pather.journeyTo(74);
 				Pather.getWP(74);
-				Pather.makePortal();
-				this.clearToQuestLocation(74,2,357);
+				if(!this.waitForTeleporter(74)){
+					Pather.journeyTo(74);
+					this.clearToQuestLocation(74,2,357);
+				}
 				this.killQuestBoss(250);
-				WaitingLimit=0
-				while(me.area != 46 && WaitingLimit < 30){try{Pather.journeyTo(46);WaitingLimit++;}catch(err){print("Retry enter MagiCanyon");}}if(WaitingLimit >= 30){quit();}
+				Pather.journeyTo(46);
 				Pather.getWP(46);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
@@ -187,11 +191,13 @@ function LevelLeader(){
 					Town.doChores();
 					this.logProgress(me.getQuest(19,0),"Gidbinn");
 				}
-				Pather.journeyTo(78);
-				while(me.area != 88){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl1");}}Pather.makePortal();
-				while(me.area != 89){try{Pather.moveToExit(89,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
-				while(me.area != 91){try{Pather.moveToExit(91,true,true);}catch(err){print("Retry enter FlayerLvl3");}}Pather.makePortal();
-				this.clearToQuestLocation(91,2,406);
+				Pather.journeyTo(88);
+				if(!this.waitForTeleporter(91)){
+					Pather.journeyTo(88);
+					while(me.area != 89){try{Pather.moveToExit(89,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
+					while(me.area != 91){try{Pather.moveToExit(91,true,true);}catch(err){print("Retry enter FlayerLvl3");}}Pather.makePortal();
+					this.clearToQuestLocation(91,2,406);
+				}
 				this.killQuestBoss(726);
 				this.getQuestItem(555,406);
 				Town.doChores();
@@ -633,6 +639,31 @@ function LevelLeader(){
 		me.cancel();
 		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
+	};
+	
+	this.waitForTeleporter = function(DestinationArea){
+		var Teleporter = getParty();
+		if(Teleporter){
+			do{
+				if(Teleporter.classid == 1 && Teleporter.area == me.area){
+					Precast.doPrecast(true);
+					Town.doChores();
+				}
+			}while(Teleporter.getNext());
+		}
+		Town.move("portalspot");
+		delay(5000);
+		WaitingLimit=0;
+		while(true && WaitingLimit < 10){
+			delay(1000);
+			if(Pather.getPortal(DestinationArea,null)){
+				Pather.usePortal(DestinationArea,null);
+				break;
+			}
+			WaitingLimit++;
+		}
+		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+DestinationArea);
+		return DestinationArea == me.area;
 	};
 		
 	this.getA2Merc = function(){
