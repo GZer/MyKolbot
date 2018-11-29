@@ -22,7 +22,7 @@
 
 // ===============RUNEWORDS ===============//
 //Leaf
-[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 1 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 2 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Lore
 [Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
@@ -35,4 +35,4 @@
 ([Name] == HardLeatherArmor || [Name] == StuddedLeather || [Name] == RingMail || [Name] == BreastPlate || [Name] == LightPlate) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 2
 
 //Strength
-[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 1 && [Sockets] == 2 # [MaxQuantity] == 1
+[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 2 && [Sockets] == 2 # [MaxQuantity] == 1

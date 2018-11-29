@@ -638,6 +638,7 @@ function LevelLeader(){
 	this.getA2Merc = function(){
 		var Lines,Type,MercTypes = ["Combat","Offensive","Defensive"];
 		Town.goToTown(2);
+		Pather.getWP(me.area);
 		Pather.moveTo(5031,5048);
 		addEventListener("gamepacket",gamePacket);
 		var Greiz = getUnit(1,"Greiz");
@@ -647,8 +648,9 @@ function LevelLeader(){
 				// sendPacket(1,0x36,4,Greiz.gid,4,MercId[Math.floor((Math.random() * MercId.length-1))]);
 				for(var i = 0; i < MercId.length; i++){
 					say("MercId = "+MercId[i]);
+					sendPacket(1,0x36,4,Greiz.gid,4,MercId[i]);
 				}
-				// Lines = getDialogLines();
+				Lines = getDialogLines();
 				// if(!Lines){
 					// print("No Dailog Lines");
 					// return false;
