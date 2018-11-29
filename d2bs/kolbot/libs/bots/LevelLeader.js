@@ -6,6 +6,7 @@
 
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
+	var MercId = [];
 	var LevelingAreas = [[2,8,3,4,5,6,27,29,32,34,35,36],
 	[47,48,42,56,57,43,44,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
@@ -635,21 +636,17 @@ function LevelLeader(){
 	};
 		
 	this.getA2Merc = function(){
-		var Lines,Type,x,y,MercTypes = ["Combat","Offensive","Defensive"];
-		Pather.getWP(me.area);
+		var Lines,Type,MercTypes = ["Combat","Offensive","Defensive"];
+		Town.goToTown(2);
 		Pather.moveTo(5031,5048);
-		var Griez = getUnit(1,"Greiz");
-		if(!me.getMerc()&& !me.mercrevivecost){
-			if(Griez && Griez.openMenu()){
+		addEventListener("gamepacket",gamePacket);
+		var Greiz = getUnit(1,"Greiz");
+		if(!me.getMerc() && !me.mercrevivecost){
+			if(Greiz && Greiz.openMenu()){
 				Misc.useMenu(0x0D45);
-				for(x = 0; x < 5000; x++){
-					for(y = 0; y < 5000; y++){
-						try{
-							print("Clicking x:"+x+",y:"+y);
-							clickItem(0,x,y,2);
-							clickItem(1,x,y,2);
-						}catch(err){print("Failed to click");}
-					}
+				// sendPacket(1,0x36,4,Greiz.gid,4,MercId[Math.floor((Math.random() * MercId.length-1))]);
+				for(var i = 0; i < MercId.length; i++){
+					say("MercId = "+MercId[i]);
 				}
 				// Lines = getDialogLines();
 				// if(!Lines){
@@ -659,7 +656,7 @@ function LevelLeader(){
 				// for(Type = 0; Type < MercTypes.length; Type++){
 					// for(i = 0; i < Lines.length; i++){
 						// print("Selectable:"+Lines[i].selectable+" Text:"+Lines[i].text);
-						// if(Lines[i].selectable && Lines[i].text.indexOf(MercTypes[Type])> -1){
+						// if(Lines[i].selectable && Lines[i].text.indexOf(MercTypes[Type]) > -1){
 							// getDialogLines()[i].handler();
 							// delay(750);
 							// break;
@@ -670,9 +667,20 @@ function LevelLeader(){
 				// }
 			}
 		}
-		say("Merc Hiring over");
 		this.logProgress(me.getMerc(),"Hiring A2 Merc");
 		return true;
+	};
+	
+	this.gamePacket = function(bytes){
+		switch(bytes[0]){
+			case 0x4e:
+				var id = (bytes[2] << 8) + bytes[1];
+				if(MercId.indexOf(id) != -1) {
+					MercId.length = 0;
+				}
+				MercId.push(id);
+			break;
+		}
 	};
 
 // =============== START & END FUNCTIONS =============== //
