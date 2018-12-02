@@ -9,9 +9,6 @@
 [Name] == LemRune # # [MaxQuantity] == 3
 
 // ===============RUNEWORDS ===============//
-//Black
-[Name] == Flail && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 3 # [MaxQuantity] == 1
-
 //Enlightenment
 [Name] == MagePlate && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 3 || [Sockets] == 0
 

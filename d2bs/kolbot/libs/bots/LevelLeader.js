@@ -508,6 +508,41 @@ function LevelLeader(){
 		return me.act == DestinationAct;
 	};
 	
+	this.waitForTeleporter = function(DestinationArea){
+		WaitingLimit=0,PortalTown=0;
+		if(DestinationArea > 75){}
+		while(!teleporterClose() && WaitingLimit < 20){delay(100);}
+		Precast.doPrecast(true);
+		Town.doChores();
+		Town.goToTown(PortalTown);
+		Town.move("portalspot");
+		delay(5000);
+		WaitingLimit=0;
+		while(true && WaitingLimit < 10){
+			delay(1000);
+			if(Pather.getPortal(DestinationArea,null)){
+				Pather.usePortal(DestinationArea,null);
+				Attack.clear(10);
+				delay(500);
+				break;
+			}
+			WaitingLimit++;
+		}
+		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+DestinationArea);
+		return DestinationArea == me.area;
+	};
+	
+	this.teleporterClose = function(){
+		var Teleporter = getParty();
+		if(Teleporter){
+			do{
+				if(Teleporter.classid == 1 && Teleporter.area == me.area){return true;}
+				delay(150);
+			}while(Teleporter.getNext());
+		}
+		return false;
+	};
+	
 // =============== ACT V FUNCTIONS =============== //
 	
 	this.FreeAnya = function(){
@@ -547,31 +582,21 @@ function LevelLeader(){
 // =============== ACT III FUNCTIONS =============== //
 
 	this.smashOrb = function(){
-		var Orb = getUnit(2,404),orbTimeout = 0,Flail = me.getItem(174),cursorItem;
-		if(Flail){
-			weaponSwitch();
-			if(Flail.toCursor()){
-				clickItem(0,4);
-				delay(1500);
-				if(Flail.bodylocation == 4 && getCursorType()== 3){
-					cursorItem = getUnit(100);
-					if(cursorItem && Storage.Inventory.CanFit(cursorItem)){Storage.Inventory.MoveTo(cursorItem);}
-				}
-			}
-			try{while(Orb && orbTimeout < 4){
+		var Orb = getUnit(2,404),orbTimeout = 0,Will = me.getItem(174);
+		if(Will && Orb){
+			try{while(Orb && orbTimeout < 8){
 					Orb.interact();
-					delay(250);
+					delay(100);
 					orbTimeout++;
 				}
 			}catch(err){print("Hit Orb Failed");}
-			weaponSwitch();
 		}else{return false;}
 		this.logProgress(me.getQuest(18,0),"Smash Compelling Orb");
 		return true;
 	};
 
 	this.cubeFlail = function(){
-		var Flail = me.getItem(173),Eye = me.getItem(553),Heart = me.getItem(554),Brain = me.getItem(555);
+		var Will, PrevWeapon, Flail = me.getItem(173),Eye = me.getItem(553),Heart = me.getItem(554),Brain = me.getItem(555);
 		if(!me.getQuest(18,0) && !me.getItem(174)){
 			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
@@ -581,11 +606,21 @@ function LevelLeader(){
 			transmute();
 			delay(1000);
 		}
-		Flail = me.getItem(174);
-		Storage.Inventory.MoveTo(Flail);
+		Will = me.getItem(174);
+		if(Will){
+			Storage.Inventory.MoveTo(Will);
+			if(Will.toCursor()){
+				clickItem(0,4);
+				delay(1500);
+				if(Will.bodylocation == 4 && getCursorType()== 3){
+					PrevWeapon = getUnit(100);
+					if(PrevWeapon && Storage.Cube.CanFit(PrevWeapon)){Storage.Cube.MoveTo(PrevWeapon);}
+					else{Storage.Inventory.MoveTo(PrevWeapon);}
+				}
+			}
+		}
 		me.cancel();
 		// weaponSwitch();
-		// Town.doChores();
 		this.logProgress(me.getItem(174),"Making Khalim Will");
 		return me.getItem(174);
 	};
@@ -639,31 +674,6 @@ function LevelLeader(){
 		me.cancel();
 		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
-	};
-	
-	this.waitForTeleporter = function(DestinationArea){
-		var Teleporter = getParty();
-		if(Teleporter){
-			do{
-				if(Teleporter.classid == 1 && Teleporter.area == me.area){
-					Precast.doPrecast(true);
-					Town.doChores();
-				}
-			}while(Teleporter.getNext());
-		}
-		Town.move("portalspot");
-		delay(5000);
-		WaitingLimit=0;
-		while(true && WaitingLimit < 10){
-			delay(1000);
-			if(Pather.getPortal(DestinationArea,null)){
-				Pather.usePortal(DestinationArea,null);
-				break;
-			}
-			WaitingLimit++;
-		}
-		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+DestinationArea);
-		return DestinationArea == me.area;
 	};
 		
 	this.getA2Merc = function(){

@@ -66,3 +66,57 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:742, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
 [12:42:15] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 46
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:757, @levelleader.js:125, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:42:13] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:80, @levelfollower.js:131, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:42:15] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:80, @levelfollower.js:131, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[13:45:30] <Auradin> Error in LevelFollower (pather.js line 561): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:80, @levelfollower.js:132, Pather.moveToPreset@pather.js:561
+[13:52:22] <Hammerdin> Error in LevelFollower (pather.js line 561): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:80, @levelfollower.js:132, Pather.moveToPreset@pather.js:561
+[16:09:41] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:172, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[19:12:24] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:779, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[19:43:23] <Hammerdin> Error in LevelFollower (town.js line 2230): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2230
+[21:11:57] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:267, Pather.getWP@pather.js:1305
+[21:19:39] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:231, @levelleader.js:576, @levelleader.js:172, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[21:24:47] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:231, @levelleader.js:576, @levelleader.js:172, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[21:30:38] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:231, @levelleader.js:576, @levelleader.js:172, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[21:40:36] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 54
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:231, @levelleader.js:577, @levelleader.js:194, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[21:58:33] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:231, @levelleader.js:576, @levelleader.js:172, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[22:04:49] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:794, @levelleader.js:231, @levelleader.js:576, @levelleader.js:172, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[11:51:49] <FireSorc> Error in LevelFollower (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
+[12:07:09] <Singer> Error in LevelLeader (attack.js line 866): Level Not loaded
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:795, @levelleader.js:238, Pather.moveToExit@pather.js:636, Pather.openExit@pather.js:725, Pather.useUnit@pather.js:826, Pather.openUnit@pather.js:765, Pather.moveToUnit@pather.js:527, Pather.moveTo@pather.js:179, Pather.walkTo@pather.js:412, Attack.validSpot@attack.js:866
+[12:57:20] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 68
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:788, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[17:16:54] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:279, Pather.makePortal@pather.js:1020
+[18:20:05] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[18:23:45] <ColdSorc> Error in LevelFollower (levelfollower.js line 183): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183
+[20:03:29] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:53:26] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[16:54:03] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 82
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[17:40:05] <ColdSorc> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[19:06:41] <Auradin> Pickit error! Line # 53 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 30 || [Vitality] > 9) # [Tier] == 8 (Auradin.xpac.nip) Error message: syntax error Trigger item: Trellised Armor
+[19:06:41] <Auradin> Pickit error! Line # 54 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 60 || [Vitality] > 19) # [Tier] == 9 (Auradin.xpac.nip) Error message: syntax error Trigger item: Trellised Armor
+[19:22:54] <Auradin> Pickit error! Line # 53 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 30 || [Vitality] > 9) # [Tier] == 8 (Auradin.xpac.nip) Error message: syntax error Trigger item: Glorious Trellised Armor 
+[19:22:54] <Auradin> Pickit error! Line # 54 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 60 || [Vitality] > 19) # [Tier] == 9 (Auradin.xpac.nip) Error message: syntax error Trigger item: Glorious Trellised Armor 
+[19:35:13] <Auradin> Pickit error! Line # 53 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 30 || [Vitality] > 9) # [Tier] == 8 (Auradin.xpac.nip) Error message: syntax error Trigger item: Studded Leather
+[19:35:13] <Auradin> Pickit error! Line # 54 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 60 || [Vitality] > 19) # [Tier] == 9 (Auradin.xpac.nip) Error message: syntax error Trigger item: Studded Leather

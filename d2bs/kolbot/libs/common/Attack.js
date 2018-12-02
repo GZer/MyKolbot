@@ -423,6 +423,11 @@ var Attack = {
 						break;
 					}
 
+					// Skip catapults
+					if (target.name == "Catapult") {
+						monsterList.shift();
+					}
+					
 					// Skip non-unique monsters after 15 attacks, except in Throne of Destruction
 					if (me.area !== 131 && !(target.spectype & 0x7) && gidAttack[i].attacks > 15) {
 						print("\xFFc1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
