@@ -182,3 +182,5 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
 [07:17:56] <Summoner> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:56:35] <Singer> Error in LevelLeader (attack.js line 871): Level Not loaded
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:796, Attack.clearLevel@attack.js:786, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:389, ClassAttack.doAttack@barbarian.js:15, Attack.getIntoPosition@attack.js:1422, Pather.moveTo@pather.js:227, Pather.walkTo@pather.js:412, Attack.validSpot@attack.js:871
