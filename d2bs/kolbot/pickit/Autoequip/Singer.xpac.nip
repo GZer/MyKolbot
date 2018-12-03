@@ -5,7 +5,6 @@
 ([Type] == Axe || [Type] == Club || [Type] == Hammer || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Sword) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 30 # [Tier] == 4
 ([Type] == Axe || [Type] == Club || [Type] == Hammer || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Sword) && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 1 # [Tier] == 10
 ([Type] == Axe || [Type] == Club || [Type] == Hammer || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Sword) && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 2 # [Tier] == 11
-([Type] == Axe || [Type] == Club || [Type] == Hammer || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Sword) && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 3 # [Tier] == 12
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 90
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 95
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier] == 98

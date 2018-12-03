@@ -164,3 +164,21 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
 [20:04:50] <Singer> Error in LevelLeader (town.js line 2246): Town.goToTown: Failed use WP
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:775, Town.doChores@town.js:100, Town.reviveMerc@town.js:1495, Town.goToTown@town.js:2246
+[00:22:01] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:267, Pather.getWP@pather.js:1305
+[00:30:20] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:267, Pather.getWP@pather.js:1305
+[07:17:40] <Auradin> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:17:41] <ColdSorc> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:17:45] <Wind> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:17:47] <Hammerdin> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:17:49] <FireSorc> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:17:52] <LightSorc> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:17:56] <Summoner> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
