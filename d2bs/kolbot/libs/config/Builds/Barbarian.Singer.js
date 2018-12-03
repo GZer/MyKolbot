@@ -768,8 +768,8 @@ var AutoBuildTemplate = {
 				// Config.Recipes.push([Recipe.Gem,"Flawless Skull"]);
 				Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
 				Config.Recipes.push([Recipe.Reroll.Rare,"Diadem"]);
-				Config.Recipes.push([Recipe.Caster.Amulet]);
-				Config.Recipes.push([Recipe.Caster.Ring]);
+				// Config.Recipes.push([Recipe.Caster.Amulet]);
+				// Config.Recipes.push([Recipe.Caster.Ring]);
 			}
 		},
 

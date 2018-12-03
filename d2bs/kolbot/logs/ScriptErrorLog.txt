@@ -120,3 +120,47 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [19:22:54] <Auradin> Pickit error! Line # 54 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 60 || [Vitality] > 19) # [Tier] == 9 (Auradin.xpac.nip) Error message: syntax error Trigger item: Glorious Trellised Armor 
 [19:35:13] <Auradin> Pickit error! Line # 53 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 30 || [Vitality] > 9) # [Tier] == 8 (Auradin.xpac.nip) Error message: syntax error Trigger item: Studded Leather
 [19:35:13] <Auradin> Pickit error! Line # 54 Entry: [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 (&& [MaxHP] > 60 || [Vitality] > 19) # [Tier] == 9 (Auradin.xpac.nip) Error message: syntax error Trigger item: Studded Leather
+[01:14:28] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 18
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[01:23:16] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[02:45:22] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:98, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[03:09:39] <Auradin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[03:09:39] <Summoner> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[04:01:02] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[04:48:31] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[05:53:02] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[06:09:22] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[06:32:26] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[07:01:38] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[07:15:11] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[07:36:57] <Singer> Error in LevelLeader (town.js line 2239): Town.goToTown: Invalid act
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2239
+[08:12:23] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 47
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:114, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[10:04:24] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[10:04:29] <Hammerdin> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[12:07:00] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 100
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:159, Pather.useUnit@pather.js:810
+[13:50:01] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 100
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:159, Pather.useUnit@pather.js:810
+[15:52:35] <Singer> Error in LevelLeader (town.js line 2230): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1350, Town.goToTown@town.js:2230
+[17:31:41] <Wind> Error in LevelFollower (town.js line 2230): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1345, Town.goToTown@town.js:2230
+[19:49:12] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[20:04:50] <Singer> Error in LevelLeader (town.js line 2246): Town.goToTown: Failed use WP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:775, Town.doChores@town.js:100, Town.reviveMerc@town.js:1495, Town.goToTown@town.js:2246
