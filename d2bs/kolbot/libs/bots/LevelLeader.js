@@ -362,7 +362,7 @@ function LevelLeader(){
 
 	this.logProgress = function(Completed,Quest){
 		var date = new Date(),day = date.getDate(),month = date.getMonth(),year = date.getYear(),h = date.getHours(),m = date.getMinutes(),s = date.getSeconds(),Progress = "Failed",
-		dateString = "["+day+"/"+month+"/"+year+" - "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
+		dateString = "["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+"/"+year+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
 		
 		if(Completed){Progress = "Completed";}
 		
@@ -778,8 +778,7 @@ function LevelLeader(){
 	delay(500);
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
-		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}		
-		this.logProgress("Starting","Act "+(ActNumber+1));
+		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}
 		for(LevelArea = 0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{Pather.makePortal();
