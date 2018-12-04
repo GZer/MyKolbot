@@ -184,3 +184,19 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
 [07:56:35] <Singer> Error in LevelLeader (attack.js line 871): Level Not loaded
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:796, Attack.clearLevel@attack.js:786, Pather.moveTo@pather.js:232, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:389, ClassAttack.doAttack@barbarian.js:15, Attack.getIntoPosition@attack.js:1422, Pather.moveTo@pather.js:227, Pather.walkTo@pather.js:412, Attack.validSpot@attack.js:871
+[07:57:39] <FireSorc> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:57:41] <LightSorc> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:57:42] <Summoner> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:57:43] <ColdSorc> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[07:57:45] <Auradin> Error in LevelFollower (levelfollower.js line 169): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:169
+[12:04:20] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:296, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[12:41:03] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:301, @levelleader.js:419, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
+[13:36:46] <FireSorc> Error in LevelFollower (levelfollower.js line 183): WhereIsLeader is undefined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183
