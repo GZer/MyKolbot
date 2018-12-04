@@ -1,4 +1,5 @@
 // ====================== MERC ====================== //
 //Any Etheral
+([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
 [Type] == Armor && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
 [Type] == Helm && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1

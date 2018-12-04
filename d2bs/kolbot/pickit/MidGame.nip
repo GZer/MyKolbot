@@ -1,11 +1,24 @@
+// ===============RUNEWORDS ===============//
+[Name] == TalRune # # [MaxQuantity] == 1
+[Name] == OrtRune # # [MaxQuantity] == 1
+[Name] == ThulRune # # [MaxQuantity] == 1
+[Name] == AmnRune # # [MaxQuantity] == 1
+[Name] == SolRune # # [MaxQuantity] == 1
+
+// ===============RUNEWORDS ===============//
+//Lore
+[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 5 && [Sockets] == 2 # [MaxQuantity] == 1
+
 // ===============CHARMS ===============//
-[Name] == LargeCharm # ([FireResist]+[ColdResist]+[LightResist] > 13 || [Mana] > 24) && ([MaxHP] > 21 || [Strength]+[Dexterity] > 3)
-[Name] == SmallCharm # ([FireResist]+[ColdResist]+[LightResist] > 9 || [Mana] > 13) && ([MaxHP] > 16 || [Strength]+[Dexterity] > 1)
+[Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] > 11 || [Mana] > 19) && ([MaxHP] > 16 || [Strength]+[Dexterity] > 4)
+[Name] == SmallCharm #([FireResist]+[ColdResist]+[LightResist] > 8 || [Mana] > 8) && ([MaxHP] > 11 || [Strength]+[Dexterity] > 1)
 
 // ===============ACCESSORIES ===============//
-[Type] == Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
+[Type] == Amulet && [Quality] >= Magic # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 2
 
 // ===============POTIONS ===============//
+[Name] == ManaPotion
+[Name] == HealingPotion
 [Name] == GreaterManaPotion
 [Name] == GreaterHealingPotion
 

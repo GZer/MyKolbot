@@ -613,6 +613,7 @@ var Item = {
 
 		switch (item.itemType) {
 		case 2: // Shield
+		case 69: // Voodoo Heads
 		case 70: // Auric Shields
 			bodyLoc = 5;
 
@@ -670,7 +671,6 @@ var Item = {
 		case 44: //
 		case 67: // Handtohand (Assasin Claw)
 		case 68: //
-		case 69: //
 		case 72: //
 		case 85: //
 		case 86: //

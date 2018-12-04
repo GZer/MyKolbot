@@ -1,22 +1,33 @@
+// ===============RUNES ===============//
+[Name] >= PulRune && [Name] <= ZodRune
+
+// ===============RUNEWORDS ===============//
+//Enigma
+([Name] == MagePlate || [Name] == ArchonPlate) && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && ([Sockets] == 3 || [Sockets] == 0)# [MaxQuantity] == 1
+[Name] == ArchonPlate && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && ([Sockets] == 4 || [Sockets] == 0)# [MaxQuantity] == 1
+
+// ===============GEMS ===============//
+[Name] == PerfectDiamond # # [MaxQuantity] == 4
+
 // ===============CHARMS ===============//
 [Name] == GrandCharm # [WarcriesSkillTab]+[NecromancerSummoningSkillTab]+[PaliCombatSkillTab]+[ColdSkillTab]+[LightningSkillTab]+[FireSkillTab]+[ElementalSkillTab] >= 1
-[Name] == LargeCharm # ([FireResist]+[ColdResist]+[LightResist] >= 15 || [Mana] >= 30) && ([MaxHP] >= 30 || [Strength]+[Dexterity] >= 5)
-[Name] == SmallCharm # ([FireResist]+[ColdResist]+[LightResist] >= 11 || [Mana] >= 13) && ([MaxHP] == 20 || [Strength]+[Dexterity] >= 2)
+[Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] >= 15 || [Mana] >= 30) && ([MaxHP] >= 30 || [Strength]+[Dexterity] >= 5)
+[Name] == SmallCharm #([FireResist]+[ColdResist]+[LightResist] >= 11 || [Mana] >= 13) && ([MaxHP] == 20 || [Strength]+[Dexterity] >= 2)
 
 // ===============QUEST ===============//
 //Quest Items
-[Name] == HoradricMalus																		//Horadric Malus
-[Name] == HoradricCube																		//Horadric Cube
-[Name] == BookOfSkill																		//Book Of Skill
-[Name] == ScrollOfResistance																//Scroll Of Resistance
-[Name] == AJadeFigurine																		//Jade Figurine
-[Name] == TheGidbinn																		//The Gidbinn
-[Name] == BBB																				//Black Book
-[Name] == QF1																				//Khalim Flail
-[Name] == QEY																				//Khalim Eye
-[Name] == QHR																				//Khalim Heart
-[Name] == QBR																				//Khalim Brain
-[Name] == QF2																				//Khalim Will
+[Name] == HoradricMalus			//Horadric Malus
+[Name] == HoradricCube			//Horadric Cube
+[Name] == BookOfSkill			//Book Of Skill
+[Name] == ScrollOfResistance	//Scroll Of Resistance
+[Name] == AJadeFigurine			//Jade Figurine
+[Name] == TheGidbinn			//The Gidbinn
+[Name] == BBB					//Black Book
+[Name] == QF1					//Khalim Flail
+[Name] == QEY					//Khalim Eye
+[Name] == QHR					//Khalim Heart
+[Name] == QBR					//Khalim Brain
+[Name] == QF2					//Khalim Will
 
 // ===============ACCESSORIES ===============//
 [Type] == Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
@@ -24,7 +35,8 @@
 // ===============POTIONS ===============//
 [Name] == SuperManaPotion
 [Name] == SuperHealingPotion
-[Name] == RejuvenationPotion || [Name] == FullRejuvenationPotion
+[Name] == RejuvenationPotion
+[Name] == FullRejuvenationPotion
 
 // ===============MISC ===============//
 [Name] == ScrollOfTownPortal # # [MaxQuantity] == 20
@@ -53,13 +65,13 @@
 [Name] == Rondel && [Flag] != Ethereal && [Quality] == Unique # # [MaxQuantity] == 2
 
 // ===============PHYSICAL UNIQUES ===============//
-[Type] == Armor && ([Quality] == Unique || [Quality] == Set) # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 ||[ItemCrushingBlow] >= 25
-[Type] == Boots && ([Quality] == Unique || [Quality] == Set) # [ItemCrushingBlow] >= 15
-[Type] == Gloves && ([Quality] == Unique || [Quality] == Set) # [ItemOpenWounds] >= 25 || [IAS] >= 10
-[Type] == Helm && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 10 || [ItemCrushingBlow] >= 15
-[Name] == WarBelt && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbLight] >= 20
-[Type] == Amulet && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 20
-[Type] == Ring && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
+[Type] == Armor && ([Quality] == Unique || [Quality] == Set)# [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 || [ItemCrushingBlow] >= 25
+[Type] == Boots && ([Quality] == Unique || [Quality] == Set)# [ItemCrushingBlow] >= 15
+[Type] == Gloves && ([Quality] == Unique || [Quality] == Set)# [ItemOpenWounds] >= 25 || [IAS] >= 10
+[Type] == Helm && ([Quality] == Unique || [Quality] == Set)# [IAS] >= 10 || [ItemCrushingBlow] >= 15
+[Name] == WarBelt && ([Quality] == Unique || [Quality] == Set)# [ItemAbsorbLight] >= 20
+[Type] == Amulet && ([Quality] == Unique || [Quality] == Set)# [IAS] >= 20
+[Type] == Ring && ([Quality] == Unique || [Quality] == Set)# [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
 
 // ===============SETS ===============//
 [Name] == SwirlingCrystal && [Quality] == Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
