@@ -12,3 +12,9 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:80, @levelfollower.js:132, Pather.moveToPreset@pather.js:561
 [06:53:24] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 46
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:128, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[08:32:01] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:103, @levelleader.js:419, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
+[10:32:12] <LightSorc> Error in LevelFollower (town.js line 2226): Town.goToTown: Failed to make TP
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:80, @levelfollower.js:142, Town.doChores@town.js:66, Town.goToTown@town.js:2226
+[10:34:16] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
