@@ -3,11 +3,7 @@
 
 // ===============RUNEWORDS ===============//
 //Enigma
-([Name] == MagePlate || [Name] == ArchonPlate) && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && ([Sockets] == 3 || [Sockets] == 0)# [MaxQuantity] == 1
-[Name] == ArchonPlate && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && ([Sockets] == 4 || [Sockets] == 0)# [MaxQuantity] == 1
-
-// ===============GEMS ===============//
-[Name] == PerfectDiamond # # [MaxQuantity] == 4
+([Name] == MagePlate || [Name] == ArchonPlate) && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && ([Sockets] == 4 || [Sockets] == 3 || [Sockets] == 0) # [MaxQuantity] == 1
 
 // ===============CHARMS ===============//
 [Name] == GrandCharm # [WarcriesSkillTab]+[NecromancerSummoningSkillTab]+[PaliCombatSkillTab]+[ColdSkillTab]+[LightningSkillTab]+[FireSkillTab]+[ElementalSkillTab] >= 1
@@ -65,13 +61,13 @@
 [Name] == Rondel && [Flag] != Ethereal && [Quality] == Unique # # [MaxQuantity] == 2
 
 // ===============PHYSICAL UNIQUES ===============//
-[Type] == Armor && ([Quality] == Unique || [Quality] == Set)# [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 || [ItemCrushingBlow] >= 25
-[Type] == Boots && ([Quality] == Unique || [Quality] == Set)# [ItemCrushingBlow] >= 15
-[Type] == Gloves && ([Quality] == Unique || [Quality] == Set)# [ItemOpenWounds] >= 25 || [IAS] >= 10
-[Type] == Helm && ([Quality] == Unique || [Quality] == Set)# [IAS] >= 10 || [ItemCrushingBlow] >= 15
-[Name] == WarBelt && ([Quality] == Unique || [Quality] == Set)# [ItemAbsorbLight] >= 20
-[Type] == Amulet && ([Quality] == Unique || [Quality] == Set)# [IAS] >= 20
-[Type] == Ring && ([Quality] == Unique || [Quality] == Set)# [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
+[Type] == Armor && ([Quality] == Unique || [Quality] == Set) # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 || [ItemCrushingBlow] >= 25
+[Type] == Boots && ([Quality] == Unique || [Quality] == Set) # [ItemCrushingBlow] >= 15
+[Type] == Gloves && ([Quality] == Unique || [Quality] == Set) # [ItemOpenWounds] >= 25 || [IAS] >= 10
+[Type] == Helm && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 10 || [ItemCrushingBlow] >= 15
+[Name] == WarBelt && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbLight] >= 20
+[Type] == Amulet && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 20
+[Type] == Ring && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
 
 // ===============SETS ===============//
 [Name] == SwirlingCrystal && [Quality] == Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye

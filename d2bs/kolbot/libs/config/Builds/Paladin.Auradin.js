@@ -193,6 +193,11 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Spirit,"Zakarum Shield"]);
 				Config.Runewords.push([Runeword.Spirit,"Vortex Shield"]);
 				//Merc Gear
+				Config.Runewords.push([Runeword.Insight,"Voulge"]);
+				Config.Runewords.push([Runeword.Insight,"Poleaxe"]);
+				Config.Runewords.push([Runeword.Insight,"Scythe"]);
+				Config.Runewords.push([Runeword.Insight,"Halberd"]);
+				Config.Runewords.push([Runeword.Insight,"War Scythe"]);
 				Config.Runewords.push([Runeword.Insight,"Bill"]);
 				Config.Runewords.push([Runeword.Insight,"Battle Scythe"]);
 				Config.Runewords.push([Runeword.Insight,"Partizan"]);

@@ -668,11 +668,6 @@ var AutoBuildTemplate={
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
 				//Eth Merc Weapon
-				Config.Recipes.push([Recipe.Socket.Weapon,"Voulge",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"Poleaxe",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"Scythe",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"Halberd",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"War Scythe",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Battle Scythe",Roll.Eth]);

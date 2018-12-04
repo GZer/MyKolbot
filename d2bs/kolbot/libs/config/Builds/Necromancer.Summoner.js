@@ -202,6 +202,11 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Splendor,"Succubus Skull"]);
 				Config.Runewords.push([Runeword.Splendor,"Bloodlord Skull"]);
 				//Merc Gear
+				Config.Runewords.push([Runeword.Insight,"Voulge"]);
+				Config.Runewords.push([Runeword.Insight,"Poleaxe"]);
+				Config.Runewords.push([Runeword.Insight,"Scythe"]);
+				Config.Runewords.push([Runeword.Insight,"Halberd"]);
+				Config.Runewords.push([Runeword.Insight,"War Scythe"]);
 				Config.Runewords.push([Runeword.Insight,"Bill"]);
 				Config.Runewords.push([Runeword.Insight,"Battle Scythe"]);
 				Config.Runewords.push([Runeword.Insight,"Partizan"]);
