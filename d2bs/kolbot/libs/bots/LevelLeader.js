@@ -346,7 +346,7 @@ function LevelLeader(){
 				}
 				BaalPortal = getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 50)||(me.diff == 1 && me.charlvl > 80)|| me.diff == 3){
+					if((me.diff == 0 && me.charlvl > 40) || (me.diff == 1 && me.charlvl > 70) || me.charlvl > 85){
 						Pather.moveTo(15134,5923,true,true);
 						this.killQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
@@ -361,8 +361,8 @@ function LevelLeader(){
 // =============== COMMON FUNCTIONS =============== //
 
 	this.logProgress = function(Completed,Quest){
-		var date = new Date(),h = date.getHours(),m = date.getMinutes(),s = date.getSeconds(),Progress = "Failed",
-		dateString = "["+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
+		var date = new Date(),day = date.getDate(),month = date.getMonth(),year = date.getYear(),h = date.getHours(),m = date.getMinutes(),s = date.getSeconds(),Progress = "Failed",
+		dateString = "["+day+"/"+month+"/"+year+" - "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
 		
 		if(Completed){Progress = "Completed";}
 		
@@ -736,7 +736,7 @@ function LevelLeader(){
 		if(!me.getQuest(9,0)){say("Radament");this.CheckQuests(48);}
 		if(!me.getQuest(17,0)){say("Black Book");this.CheckQuests(80);}
 		if(!me.getQuest(25,0)){say("Izual");this.CheckQuests(104);}
-		if(!me.getQuest(35,0)){say("Shenk");this.CheckQuests(111);}
+		if(!me.getQuest(35,3)){say("Shenk");this.CheckQuests(111);}
 		if(!me.getQuest(37,0)){say("Anya");this.CheckQuests(113);}
 		if(!me.getQuest(38,3)){say("Nihlathak");this.CheckQuests(123);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
@@ -778,7 +778,8 @@ function LevelLeader(){
 	delay(500);
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
-		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}
+		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}		
+		this.logProgress("Starting","Act "+(ActNumber+1));
 		for(LevelArea = 0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
 				try{Pather.makePortal();
