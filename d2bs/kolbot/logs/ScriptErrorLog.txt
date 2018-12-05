@@ -22,3 +22,15 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:147, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
 [12:37:07] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[18:28:49] <Singer> Error in LevelLeader (pather.js line 1305): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:267, Pather.getWP@pather.js:1305
+[19:29:07] <Singer> Error in LevelLeader (attack.js line 871): Level Not loaded
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:224, Pather.getWP@pather.js:1308, Pather.moveToUnit@pather.js:519, Pather.moveTo@pather.js:227, Pather.walkTo@pather.js:412, Attack.validSpot@attack.js:871
+[22:34:47] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[07:47:37] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[08:23:57] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[09:36:18] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 14
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
