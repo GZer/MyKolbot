@@ -109,6 +109,13 @@ function LevelFollower(){
 		return true;
 	};
 	
+	this.isImportantQuest = function(LeaderArea){
+		var QuestAreas=[37,73,74,83,102,108,120],i;
+		if(me.mode == 17){me.revive();}
+		for(i = 0; i < QuestAreas.length; i++){if(LeaderArea == QuestAreas[i]){return true;}}
+		return false;
+	};
+	
 	this.talkToNPC = function(NPCName){
 		var NPC;
 		Town.goToTown();
@@ -172,6 +179,11 @@ function LevelFollower(){
 	LeaderUnit = this.getLeaderUnit(Config.Leader);
 
 	while(LeaderUnit){
+		if(this.isImportantQuest(WhereIsLeader.area)){
+			Config.LifeChicken=0;
+		}else{
+			Config.LifeChicken=30;
+		}
 		if(copyUnit(LeaderUnit).x){
 			if(getDistance(me,LeaderUnit)>5){
 				Pather.teleport = false;
