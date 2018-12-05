@@ -48,12 +48,12 @@ var AutoBuildTemplate={
 				Config.MinColumn=[2,2,2,2];
 				Config.HealHP=99;
 				Config.HealMP=99;
-				Config.LifeChicken=20;
+				Config.LifeChicken=30;
 				Config.ManaChicken=0;
 				Config.MercChicken=0;
 				Config.UseHP=65;
 				Config.UseMP=3;
-				Config.UseRejuvHP=25;
+				Config.UseRejuvHP=35;
 				Config.PickRange=30;
 				Config.MaxGameTime=3600;//Only run for an hour in case of failure
 				Config.BossPriority=true;
@@ -654,8 +654,8 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.UseRejuvHP=35;
-				Config.LifeChicken=30;
+				Config.UseRejuvHP=40;
+				Config.LifeChicken=35;
 			}
 		},
 

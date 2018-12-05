@@ -48,12 +48,12 @@ var AutoBuildTemplate={
 				Config.MinColumn=[2,2,2,2];
 				Config.HealHP=99;
 				Config.HealMP=99;
-				Config.LifeChicken=20;
+				Config.LifeChicken=30;
 				Config.ManaChicken=0;
 				Config.MercChicken=0;
 				Config.UseHP=50;
 				Config.UseMP=3;
-				Config.UseRejuvHP=25;
+				Config.UseRejuvHP=35;
 				Config.PickRange=60;
 				Config.BossPriority=true;
 				Config.Leader="Zer_Shout";
@@ -660,8 +660,8 @@ var AutoBuildTemplate={
 			SkillPoints: [108],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.UseRejuvHP=35;
-				Config.LifeChicken=30;
+				Config.UseRejuvHP=40;
+				Config.LifeChicken=35;
 			}
 		},
 
