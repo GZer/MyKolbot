@@ -18,3 +18,7 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:80, @levelfollower.js:142, Town.doChores@town.js:66, Town.goToTown@town.js:2226
 [10:34:16] <Wind> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[12:24:19] <Singer> Error in LevelLeader (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:147, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
+[12:37:07] <Summoner> Error in LevelFollower (misc.js line 1023): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:183, @levelfollower.js:93, Pather.journeyTo@pather.js:1423, Misc.click@misc.js:1023
