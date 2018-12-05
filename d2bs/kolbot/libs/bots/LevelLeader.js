@@ -124,16 +124,16 @@ function LevelLeader(){
 				this.logProgress(me.getItem(92),"Staff of Kings");
 			break;
 			case 44://Amulet
-				Pather.journeyTo(44);
-				if(Pather.moveToExit([45,58,61],true,true)){Pather.makePortal();}
-				this.clearToQuestLocation(61,2,716);
+				Pather.journeyTo(45);
+				if(Pather.moveToExit([58,61],true,true)){Pather.makePortal();}
+				this.clearToQuestLocation(61,2,149);
 				Pather.moveTo(15044,14045,2,true,true);
 				this.getQuestItem(521,149);				
 				Town.doChores();
 				if(this.cubeStaff()){
 					this.talkToNPC("Drognan");
 					this.talkToNPC("Jerhyn");
-				}else{quit();}
+				}else{this.logProgress(null,"Quit CubingStaff");quit();}
 				this.logProgress(me.getQuest(11,0),"Amulet of Viper");
 			break;
 			case 54://Summoner
@@ -361,8 +361,8 @@ function LevelLeader(){
 // =============== COMMON FUNCTIONS =============== //
 
 	this.logProgress = function(Completed,Quest){
-		var date = new Date(),day = date.getDate(),month = date.getMonth(),year = date.getYear(),h = date.getHours(),m = date.getMinutes(),s = date.getSeconds(),Progress = "Failed",
-		dateString = "["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+"/"+year+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
+		var date = new Date(),day = date.getDate(),month = date.getMonth(),h = date.getHours(),m = date.getMinutes(),s = date.getSeconds(),Progress = "Failed",
+		dateString = "["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
 		
 		if(Completed){Progress = "Completed";}
 		
@@ -519,13 +519,13 @@ function LevelLeader(){
 		delay(5000);
 		WaitingLimit=0;
 		while(true && WaitingLimit < 10){
-			delay(1000);
 			if(Pather.getPortal(DestinationArea,null)){
 				Pather.usePortal(DestinationArea,null);
 				Attack.clear(10);
 				delay(500);
 				break;
 			}
+			delay(1000);
 			WaitingLimit++;
 		}
 		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+DestinationArea);
@@ -601,7 +601,7 @@ function LevelLeader(){
 			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
 			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);}
-			if(Flail){Storage.Cube.MoveTo(Flail);}else{quit();}
+			if(Flail){Storage.Cube.MoveTo(Flail);}else{this.logProgress(null,"Quit CubingFlail");quit();}
 			Cubing.openCube();
 			transmute();
 			delay(1000);
@@ -642,7 +642,7 @@ function LevelLeader(){
 	this.placeStaff = function(){
 		var HoradricStaff = me.getItem(91),item,Orifice = getUnit(2,152);
 		if(!me.getQuest(10,0)){
-			if(!Orifice){quit();}
+			if(!Orifice){this.logProgress(null,"Quit Orifice");quit();}
 			if(!HoradricStaff){
 				Town.doChores();
 				this.cubeStaff();
@@ -732,6 +732,7 @@ function LevelLeader(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
 		if(!me.getQuest(1,0)){say("Den");Pather.journeyTo(8);Attack.clearLevel(0);}
 		if(!me.getQuest(3,3)){say("Malus");this.CheckQuests(27);}
+		if(!me.getQuest(4,0)){say("Cain");this.CheckQuests(5);}
 		if(!me.getQuest(5,0)){say("Countess");this.CheckQuests(6);}
 		if(!me.getQuest(9,0)){say("Radament");this.CheckQuests(48);}
 		if(!me.getQuest(17,0)){say("Black Book");this.CheckQuests(80);}
