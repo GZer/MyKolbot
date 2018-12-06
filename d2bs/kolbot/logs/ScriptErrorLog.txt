@@ -152,3 +152,5 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:267, Pather.getWP@pather.js:1305
 [08:41:50] <Singer> Error in LevelLeader (town.js line 2246): Town.goToTown: Failed use WP
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:776, Town.doChores@town.js:97, Town.buyKeys@town.js:1140, Town.goToTown@town.js:2246
+[09:57:28] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 69
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:266, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
