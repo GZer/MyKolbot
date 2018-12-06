@@ -509,7 +509,7 @@ function LevelLeader(){
 	};
 	
 	this.waitForTeleporter = function(DestinationArea){
-		WaitingLimit=0,PortalTown=2;
+		var WaitingLimit=0,PortalTown=2;
 		if(DestinationArea > 75){PortalTown=3;}
 		while(!teleporterClose() && WaitingLimit < 20){delay(100);}
 		Precast.doPrecast(true);
