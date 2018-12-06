@@ -38,3 +38,7 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:783, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
 [10:28:49] <Singer> Error in LevelLeader (town.js line 2246): Town.goToTown: Failed use WP
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:798, @levelleader.js:115, @levelleader.js:517, Town.goToTown@town.js:2246
+[12:43:44] <Hammerdin> Error in LevelFollower (pather.js line 810): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:191, @levelfollower.js:94, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[12:58:52] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:132, Town.doChores@town.js:66, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
