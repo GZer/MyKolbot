@@ -173,6 +173,7 @@ var AutoBuildTemplate={
 			SkillPoints: [49],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
+				Config.MakeRunewords=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);

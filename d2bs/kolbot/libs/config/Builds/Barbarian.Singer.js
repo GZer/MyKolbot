@@ -123,7 +123,7 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[0,132,0,0,0,0,0];
+				Config.BeltColumn=["hp","hp","hp","rv"];
 			}
 		},
 
@@ -131,7 +131,6 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.BeltColumn=["hp","hp","hp","rv"];
 				Config.MakeRunewords=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);

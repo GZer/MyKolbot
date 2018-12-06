@@ -174,6 +174,7 @@ var AutoBuildTemplate={
 			SkillPoints: [47],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
+				Config.MakeRunewords=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Leaf,"Short Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"Long Staff"]);

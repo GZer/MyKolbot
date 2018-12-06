@@ -174,7 +174,7 @@ var AutoBuildTemplate={
 			SkillPoints: [45],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("Pre15.nip"),1);
+				Config.MakeRunewords=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
