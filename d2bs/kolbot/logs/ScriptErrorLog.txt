@@ -42,3 +42,9 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:191, @levelfollower.js:94, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
 [12:58:52] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:132, Town.doChores@town.js:66, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
+[13:31:30] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:784, Pather.journeyTo@pather.js:1340, Pather.plotCourse@pather.js:1475, useWaypoint@pather.js:994
+[14:33:29] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:132, Town.doChores@town.js:66, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
+[15:12:20] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:132, Town.doChores@town.js:66, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
