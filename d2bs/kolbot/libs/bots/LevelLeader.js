@@ -310,6 +310,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(37,0),"Anya");
 			break;
 			case 123://Nihlathak
+				if(!me.getQuest(37,0)){this.CheckQuests(113);}
 				Pather.journeyTo(123);
 				if(Pather.moveToExit(124,true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(124,2,462);
