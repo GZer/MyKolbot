@@ -154,3 +154,9 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:776, Town.doChores@town.js:97, Town.buyKeys@town.js:1140, Town.goToTown@town.js:2246
 [09:57:28] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 69
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:266, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[12:22:21] <Singer> Error in LevelLeader (pather.js line 810): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:784, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
+[14:09:59] <Singer> Error in LevelLeader (pather.js line 1020): makePortal: No scrolls.
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:799, @levelleader.js:301, @levelleader.js:419, Town.goToTown@town.js:2225, Pather.makePortal@pather.js:1020
+[16:52:08] <Singer> Error in LevelLeader (pather.js line 994): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:784, Pather.journeyTo@pather.js:1377, useWaypoint@pather.js:994
