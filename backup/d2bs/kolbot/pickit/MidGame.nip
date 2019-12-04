@@ -1,0 +1,54 @@
+// ===============RUNEWORDS ===============//
+[Name] == TalRune # # [MaxQuantity] == 1
+[Name] == OrtRune # # [MaxQuantity] == 1
+[Name] == ThulRune # # [MaxQuantity] == 1
+[Name] == AmnRune # # [MaxQuantity] == 1
+[Name] == SolRune # # [MaxQuantity] == 1
+
+// ===============RUNEWORDS ===============//
+//Lore
+[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 5 && [Sockets] == 2 # [MaxQuantity] == 1
+
+// ===============CHARMS ===============//
+[Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] > 11 || [Mana] > 19) && ([MaxHP] > 16 || [Strength]+[Dexterity] > 4)
+[Name] == SmallCharm #([FireResist]+[ColdResist]+[LightResist] > 8 || [Mana] > 8) && ([MaxHP] > 11 || [Strength]+[Dexterity] > 1)
+
+// ===============ACCESSORIES ===============//
+[Type] == Amulet && [Quality] >= Magic # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 2
+
+// ===============POTIONS ===============//
+[Name] == ManaPotion
+[Name] == HealingPotion
+[Name] == GreaterManaPotion
+[Name] == GreaterHealingPotion
+
+// ===============SETS ===============//
+//Sigon's Steel
+[Name] == GreatHelm && [Quality] == Set # [MaxMana] >= 30									//Sigon's Visor
+[Name] == GothicPlate && [Quality] == Set # [LightResist] >= 30								//Sigon's Shelter
+[Name] == Greaves && [Quality] == Set # [ColdResist] >= 40									//Sigon's Sabot
+[Name] == TowerShield && [Quality] == Set # [ItemAllSkills] >= 1							//Sigon's Guard
+[Name] == PlatedBelt && [Quality] == Set # [MaxHP] >= 10									//Sigon's Warp
+[Name] == Gauntlets && [Quality] == Set # [Strength] >= 5									//Sigon's Gage
+
+//Angelic Raiment
+[Name] == RingMail && [Quality] == Set # [EnhancedDefense] >= 40							//Angelic Mantle
+[Name] == Sabre && [Quality] == Set # [ItemUndeadDamagePercent] >= 75						//Angelic Sickle
+[Type] == Ring && [Quality] == Set # [MaxHP] >= 20											//Angelic Halo
+[Type] == Amulet && [Quality] == Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20	//Angelic Wings
+
+//Berserkers Arsenal
+[Name] == Helm && [Quality] == Set # [FireResist] == 25										//Berserkers Headgear
+[Name] == SplintMail && [Quality] == Set # [BarbarianSkills] == 1							//Berserkers Hauberk
+[Name] == DoubleAxe && [Quality] == Set # [ManaLeech] == 5									//Berserkers Hatchet
+
+//Infernal Tools
+[Name] == Cap && [Quality] == Set # [ItemDamageToMana] == 20 && [FireResist] == 10			//Infernal Cranium
+[Name] == HeavyBelt && [Quality] == Set # [MaxHP] == 20										//Infernal Sign
+[Name] == GrimWand && [Quality] == Set # [NecromancerSkills] == 1							//Infernal Torch
+
+//Milabregas Regalia
+[Name] == Crown && [Quality] == Set # [MaxHP] == 15											//Milabregas Diadem
+[Name] == AncientArmor && [Quality] == Set # [ItemAttackerTakesDamage] == 3					//Milabregas Robe
+[Name] == KiteShield && [Quality] == Set # [ItemMagicBonus] == 20							//Milabregas Orb
+[Name] == WarScepter && [Quality] == Set # [PaladinSkills] == 1								//Milabregas Rod

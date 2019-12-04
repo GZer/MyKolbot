@@ -1,0 +1,77 @@
+// ===============RUNES ===============//
+[Name] >= PulRune && [Name] <= ZodRune
+
+// ===============RUNEWORDS ===============//
+//Enigma
+([Name] == MagePlate || [Name] == ArchonPlate) && [Flag] != Ethereal && [Quality] == Superior # [EnhancedDefense] >= 15 && ([Sockets] == 4 || [Sockets] == 3 || [Sockets] == 0) # [MaxQuantity] == 1
+
+// ===============CHARMS ===============//
+[Name] == GrandCharm # [WarcriesSkillTab]+[NecromancerSummoningSkillTab]+[PaliCombatSkillTab]+[ColdSkillTab]+[LightningSkillTab]+[FireSkillTab]+[ElementalSkillTab] >= 1
+[Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] >= 15 || [Mana] >= 30) && ([MaxHP] >= 30 || [Strength]+[Dexterity] >= 5)
+[Name] == SmallCharm #([FireResist]+[ColdResist]+[LightResist] >= 11 || [Mana] >= 13) && ([MaxHP] == 20 || [Strength]+[Dexterity] >= 2)
+
+// ===============QUEST ===============//
+//Quest Items
+[Name] == HoradricMalus			//Horadric Malus
+[Name] == HoradricCube			//Horadric Cube
+[Name] == BookOfSkill			//Book Of Skill
+[Name] == ScrollOfResistance	//Scroll Of Resistance
+[Name] == AJadeFigurine			//Jade Figurine
+[Name] == TheGidbinn			//The Gidbinn
+[Name] == BBB					//Black Book
+[Name] == QF1					//Khalim Flail
+[Name] == QEY					//Khalim Eye
+[Name] == QHR					//Khalim Heart
+[Name] == QBR					//Khalim Brain
+[Name] == QF2					//Khalim Will
+
+// ===============ACCESSORIES ===============//
+[Type] == Amulet && [Quality] >= Magic # [FCR] >= 20 && [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 3
+
+// ===============POTIONS ===============//
+[Name] == SuperManaPotion
+[Name] == SuperHealingPotion
+[Name] == RejuvenationPotion
+[Name] == FullRejuvenationPotion
+
+// ===============MISC ===============//
+[Name] == ScrollOfTownPortal # # [MaxQuantity] == 20
+[Type] == Gold
+
+// ===============RUNEWORDS ===============//
+[Flag] == Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1
+
+// ===============+SKILL UNIQUES ===============//
+([Type] == Axe || [Type] == Hammer || [Type] == Polearm || [Type] == Spear || [Type] == Staff || [Type] == Sword || [Type] == ThrowingAxe || [Type] == Club || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Orb || [Type] == Scepter || [Type] == ThrowingKnife || [Type] == Wand) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Type] == AuricShields || [Type] == Armor || [Type] == Belt || [Type] == Boots || [Type] == Circlet || [Type] == Gloves || [Type] == Helm || [Type] == Pelt || [Type] == PrimalHelm || [Type] == Shield || [Type] == VoodooHeads) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Type] == Amulet || [Type] == Ring) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Name] == GrandCharm || [Name] == LargeCharm || [Name] == SmallCharm) && [Quality] == Unique
+
+// ===============CASTER UNIQUES ===============//
+[Type] == Boots && [Flag] == Ethereal && [Quality] == Unique # [PoisonResist] >= 40 && [Strength] >= 10
+[Type] == Boots && [Flag] != Ethereal && [Quality] == Unique # [SkillSkeletonMastery] >= 1 && [Strength] >= 10
+
+// ===============MAGIC FIND UNIQUES ===============//
+[Name] == HeavyBelt && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 30
+[Name] == BattleBoots && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 50
+[Name] == ChainGloves && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 40
+[Name] == Tulwar && [Flag] != Ethereal && [Quality] == Unique # [Dexterity] == 15
+[Name] == WarSpike && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 50
+[Name] == Dagger && [Flag] != Ethereal && [Quality] == Unique # # [MaxQuantity] == 1
+[Name] == Rondel && [Flag] != Ethereal && [Quality] == Unique # # [MaxQuantity] == 2
+
+// ===============PHYSICAL UNIQUES ===============//
+[Type] == Armor && ([Quality] == Unique || [Quality] == Set) # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 || [ItemCrushingBlow] >= 25
+[Type] == Boots && ([Quality] == Unique || [Quality] == Set) # [ItemCrushingBlow] >= 15
+[Type] == Gloves && ([Quality] == Unique || [Quality] == Set) # [ItemOpenWounds] >= 25 || [IAS] >= 10
+[Type] == Helm && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 10 || [ItemCrushingBlow] >= 15
+[Name] == WarBelt && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbLight] >= 20
+[Type] == Amulet && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 20
+[Type] == Ring && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
+
+// ===============SETS ===============//
+[Name] == SwirlingCrystal && [Quality] == Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
+[Name] == DeathMask && [Quality] == Set # [FireResist] >= 15														//Tal Rashas Horadric Crest
+[Name] == LacqueredPlate && [Quality] == Set # [ColdResist] >= 40													//Tal Rashas Guardianship
+[Name] == MeshBelt && [Quality] == Set # [ItemMagicBonus] >= 10														//Tal Rashas FineSpun Cloth
+[Type] == Amulet && [Quality] == Set # [SorceressSkills] == 2														//Tal Rashas Adjucation

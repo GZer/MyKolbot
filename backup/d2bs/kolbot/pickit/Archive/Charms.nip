@@ -1,0 +1,1349 @@
+//PF:
+//[defense] == 8 [itemlevelreq] <= 16
+//[defense] == 20 [itemlevelreq] = 27
+//[defense] == 30 
+//[MINDamage] == 1
+//[ToHit] == 4 [itemlevelreq] <= 9
+//[ToHit] == 12 [itemlevelreq] <= 16
+//[ToHit] == 24 [itemlevelreq] <= 30
+//[ToHit] == 36 
+//[MAXDamage] == 3 && [ToHit] >= 15 [itemlevelreq] = 21
+//[MAXDamage] >= 2 && [ToHit] >= 20 [itemlevelreq] = 21
+//[MaxMana] == 7 [itemlevelreq] = 12
+//[MaxMana] == 12 [itemlevelreq] = 24
+//[MaxMana] == 17
+//[FireResist] == 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 [itemlevelreq] <= 25
+//[FireResist] == 5 [itemlevelreq] <= 9
+//[FireResist] == 7 [itemlevelreq] <= 11
+//[FireResist] == 9 [itemlevelreq] <= 21
+//[FireResist] == 11
+//[LightResist] == 5 [itemlevelreq] <= 9
+//[LightResist] == 7 [itemlevelreq] <= 11
+//[LightResist] == 9 [itemlevelreq] <= 21
+//[LightResist] == 11
+//[ColdResist] == 5 [itemlevelreq] <= 9
+//[ColdResist] == 7 [itemlevelreq] <= 11
+//[ColdResist] == 9 [itemlevelreq] <= 21
+//[ColdResist] == 11
+//[PoisonResist] == 5 [itemlevelreq] <= 9
+//[PoisonResist] == 7 [itemlevelreq] <= 11
+//[PoisonResist] == 9 [itemlevelreq] <= 21
+//[PoisonResist] == 11
+//[coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 [itemlevelreq] <= 21
+//[coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 
+//[coldmindam] == 7 && [coldmaxdam] == 14 && [coldlength] == 1 
+//[coldmindam] == 10 && [coldmaxdam] == 20 && [coldlength] == 1
+//[firemindam] == 1 && [firemaxdam] == 3 [itemlevelreq] <= 16
+//[firemindam] == 3 && [firemaxdam] == 10 [itemlevelreq] <= 30
+//[firemindam] == 19 && [firemaxdam] == 29 
+//[lightmindam] == 1 && [lightmaxdam] == 11 [itemlevelreq] <= 18
+//[lightmindam] == 1 && [lightmaxdam] == 71
+//[PoisonMaxDam] >= 52 && [PoisonLength] == 3 // Septic Small Charm -  15 damage over 3 seconds [itemlevelreq] <= 14
+//[PoisonMaxDam] >= 128 && [PoisonLength] == 4 // Foul Small Charm  -  50 damage over 4 seconds [itemlevelreq] <= 30
+//[PoisonMaxDam] >= 205 && [PoisonLength] == 5 // Toxic Small Charm -  100 damage over 5 seconds
+//[PoisonMaxDam] >= 299 && [PoisonLength] == 6 // Pestilent Small Charm -  175 damage over 6 seconds
+
+//SF:
+//[MAXDamage] == 1 [itemlevelreq] = 64 
+//[FHR] == 5 [itemlevelreq] <= 28
+//[ItemGoldBonus] == 10
+//[ItemMagicBonus] == 7 
+//[MaxHP] == 10  [itemlevelreq] <= 11
+//[MaxHP] == 15  [itemlevelreq] <= 18
+//[MaxHP] >= 16
+//[MaxHP] == 20
+//[Strength] == 1 [itemlevelreq] <= 6
+//[Strength] == 2 [itemlevelreq] <= 17
+//[Dexterity] == 1 [itemlevelreq] <= 6
+//[Dexterity] == 2 [itemlevelreq] <= 17
+//[FRW] == 3 [itemlevelreq] <= 27
+//[coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 [itemlevelreq] <= 11
+//[coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 [itemlevelreq] <= 16
+//[coldmindam] == 3 && [coldmaxdam] == 6 && [coldlength] == 1 [itemlevelreq] <= 25
+//[coldmindam] == 5 && [coldmaxdam] == 9 && [coldlength] == 1
+//[firemindam] == 1 && [firemaxdam] == 2 [itemlevelreq] <= 9
+//[firemindam] == 2 && [firemaxdam] == 4 [itemlevelreq] <= 15
+//[firemindam] == 7 && [firemaxdam] == 13
+//[lightmindam] == 1 && [lightmaxdam] == 6 [itemlevelreq] <= 9
+//[lightmindam] == 1 && [lightmaxdam] == 10 [itemlevelreq] <= 16
+//[lightmindam] == 1 && [lightmaxdam] == 18 [itemlevelreq] <= 25
+//[lightmindam] == 1 && [lightmaxdam] == 28
+
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [MaxHP] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [MaxHP] == 15 && [itemlevelreq] <= 18
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [Strength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [Strength] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [Dexterity] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [Dexterity] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 8 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 16 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [FHR] == 5 && [itemlevelreq] <= 28
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [MaxHP] == 15 && [itemlevelreq] <= 27
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [Strength] == 2 && [itemlevelreq] <= 27
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [Dexterity] == 2 && [itemlevelreq] <= 27
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [FRW] == 3 && [itemlevelreq] <= 27
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [coldmindam] == 3 && [coldmaxdam] == 6 && [coldlength] == 1 && [itemlevelreq] <= 27
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 27
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [lightmindam] == 1 && [lightmaxdam] == 18 && [itemlevelreq] <= 27
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 20 && [PoisonMaxDam] >= 52 && [PoisonLength] == 5 && [itemlevelreq] <= 27
+
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [MAXDamage] == 1 
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [MaxHP] >= 16
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [Strength] == 2
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [Dexterity] == 2
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [coldmindam] == 5 && [coldmaxdam] == 9 && [coldlength] == 1
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [firemindam] == 7 && [firemaxdam] == 13
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [lightmindam] == 1 && [lightmaxdam] == 28
+[Name] == SmallCharm && [Quality] == 4 # [defense] == 30 && [PoisonMaxDam] >= 86 && [PoisonLength] == 6
+
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [MAXDamage] == 1 
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [MaxHP] >= 16
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [Strength] == 2
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [Dexterity] == 2
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [coldmindam] == 5 && [coldmaxdam] == 9 && [coldlength] == 1
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [firemindam] == 7 && [firemaxdam] == 13
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [lightmindam] == 1 && [lightmaxdam] == 28
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [PoisonMaxDam] >= 86 && [PoisonLength] == 6
+
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [Strength] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [Strength] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [MaxHP] == 10 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 15
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 9 // Small Charm of Blight -  6 damage over 3 seconds
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 4 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 15 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [MaxHP] == 15 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [Strength] == 2 && [itemlevelreq] <= 30  
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [Dexterity] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [coldmindam] == 3 && [coldmaxdam] == 6 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [lightmindam] == 1 && [lightmaxdam] == 18 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 24 && [PoisonMaxDam] >= 52 && [PoisonLength] == 5 && [itemlevelreq] <= 30 // Small Charm of Pestilence -  25 damage over 5 seconds  
+
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [MAXDamage] == 1
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [MaxHP] >= 16
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [Strength] == 2
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [Dexterity] == 2
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [FRW] == 3
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [coldmindam] == 5 && [coldmaxdam] == 9 && [coldlength] == 1
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [firemindam] == 7 && [firemaxdam] == 13
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [lightmindam] == 1 && [lightmaxdam] == 28
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] == 36 && [PoisonMaxDam] >= 86 && [PoisonLength] == 6 // Small Charm of Anthrax -  50 damage over 6 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 15 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [MaxHP] == 15 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [Strength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [Dexterity] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [firemindam] >= 1 && [firemaxdam] >= 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 20 && [PoisonMaxDam] >= 39 && [PoisonLength] >= 4 && [itemlevelreq] <= 30 // Small Charm of Venom -  15 damage over 4 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 4 && [ToHit] >= 10
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [MaxHP] >= 16
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [Strength] == 2
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [Dexterity] == 2
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [FRW] == 3
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [coldmindam] == 5 && [coldmaxdam] == 9 && [coldlength] == 1
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [firemindam] == 7 && [firemaxdam] == 13
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [lightmindam] == 1 && [lightmaxdam] == 28
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [PoisonMaxDam] >= 86 && [PoisonLength] == 6 // Small Charm of Anthrax -  50 damage over 6 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] == 7 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [MaxHP] >= 5 && [itemlevelreq] <= 18
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [Strength] >= 1 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [Dexterity] >= 1 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 && [itemlevelreq] <= 12
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 12
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 12
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 12
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [lightmindam] == 1 && [lightmaxdam] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 12 // Small Charm of Blight -  6 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 5 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 15 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] == 12 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [MaxHP] >= 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [Strength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [Dexterity] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [firemindam] >= 1 && [firemaxdam] >= 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 8 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 // Small Charm of Blight -  6 damage over 3 second 
+
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] == 17
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [MaxHP] >= 5
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [Strength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [Dexterity] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [FRW] == 3
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [firemindam] >= 1 && [firemaxdam] >= 2
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [lightmindam] == 1 && [lightmaxdam] >= 3
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 13 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 // Small Charm of Blight -  6 damage over 3 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 
+
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 5 && [Strength] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 5 && [Dexterity] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 5 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 5 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 5 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 9 // Small Charm of Blight -  6 damage over 3 seconds  
+
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [MaxHP] == 10 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [MaxHP] == 15 && [itemlevelreq] <= 18
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [Strength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [Strength] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [Dexterity] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [Dexterity] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 15
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 11 // Small Charm of Blight -  6 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 7 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 15 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [MaxHP] == 15 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [Strength] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [Dexterity] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] == 9 && [PoisonMaxDam] >= 52 && [PoisonLength] >= 5 && [itemlevelreq] <= 30 // Small Charm of Pestilence -  25 damage over 5 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [MAXDamage] == 1
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [MaxHP] >= 5
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [Strength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [Dexterity] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [FRW] == 3
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [firemindam] >= 1 && [firemaxdam] >= 2
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [lightmindam] == 1 && [lightmaxdam] >= 3
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 10 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 // Small Charm of Blight -  6 damage over 3 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 5 && [Strength] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 5 && [Dexterity] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 5 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 5 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 5 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 9 // Small Charm of Blight -  6 damage over 3 seconds  
+
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [MaxHP] == 10 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [MaxHP] == 15 && [itemlevelreq] <= 18
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [Strength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [Strength] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [Dexterity] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [Dexterity] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 15
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 11 // Small Charm of Blight -  6 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 7 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 15 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [MaxHP] == 15 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [Strength] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [Dexterity] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] == 9 && [PoisonMaxDam] >= 52 && [PoisonLength] >= 5 && [itemlevelreq] <= 30 // Small Charm of Pestilence -  25 damage over 5 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [MAXDamage] == 1
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [MaxHP] >= 5
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [Strength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [Dexterity] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [FRW] == 3
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [firemindam] >= 1 && [firemaxdam] >= 2
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [lightmindam] == 1 && [lightmaxdam] >= 3
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 10 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 // Small Charm of Blight -  6 damage over 3 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 5 && [Strength] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 5 && [Dexterity] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 5 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 5 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 5 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 9 // Small Charm of Blight -  6 damage over 3 seconds  
+
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [MaxHP] == 10 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [MaxHP] == 15 && [itemlevelreq] <= 18
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [Strength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [Strength] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [Dexterity] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [Dexterity] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 15
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 11 // Small Charm of Blight -  6 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 7 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 15 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [MaxHP] == 15 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [Strength] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [Dexterity] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] == 9 && [PoisonMaxDam] >= 52 && [PoisonLength] >= 5 && [itemlevelreq] <= 30 // Small Charm of Pestilence -  25 damage over 5 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [MAXDamage] == 1
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [MaxHP] >= 5
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [Strength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [Dexterity] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [FRW] == 3
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] == 1
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [firemindam] >= 1 && [firemaxdam] >= 2
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [lightmindam] == 1 && [lightmaxdam] >= 3
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 10 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 // Small Charm of Blight -  6 damage over 3 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 5 && [Strength] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 5 && [Dexterity] == 1 && [itemlevelreq] <= 9
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 5 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 5 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 10
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 5 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 9 // Small Charm of Blight -  6 damage over 3 seconds  
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [MaxHP] == 10 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [MaxHP] == 15 && [itemlevelreq] <= 18
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [Strength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [Strength] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [Dexterity] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [Dexterity] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 15
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 11
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [lightmindam] == 1 && [lightmaxdam] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [PoisonMaxDam] >= 21 && [PoisonLength] == 3 && [itemlevelreq] <= 11 // Small Charm of Blight -  6 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 7 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 15 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [MaxHP] == 15 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [Strength] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [Dexterity] == 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] == 9 && [PoisonMaxDam] >= 52 && [PoisonLength] >= 5 && [itemlevelreq] <= 30 // Small Charm of Pestilence -  25 damage over 5 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [MAXDamage] == 1
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [FHR] == 5
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [ItemGoldBonus] == 10
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [MaxHP] >= 5
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [Strength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [Dexterity] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [FRW] == 3
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [firemindam] >= 1 && [firemaxdam] >= 2
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [lightmindam] == 1 && [lightmaxdam] >= 3
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 10 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 // Small Charm of Blight -  6 damage over 3 seconds 
+ 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [FHR] == 5 && [itemlevelreq] <= 29 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [MaxHP] == 10 && [itemlevelreq] <= 14 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [MaxHP] == 15 && [itemlevelreq] <= 18 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [Strength] == 1 && [itemlevelreq] <= 14 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [Strength] == 2 && [itemlevelreq] <= 17 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [Dexterity] == 1 && [itemlevelreq] <= 14 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [Dexterity] == 2 && [itemlevelreq] <= 17 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [FRW] == 3 && [itemlevelreq] <= 29 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [coldmindam] == 1 && [coldmaxdam] == 2 && [coldlength] == 1 && [itemlevelreq] <= 14 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16 // Septic Small Charm -  15 damage over 3 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [coldmindam] == 3 && [coldmaxdam] == 6 && [coldlength] == 1 && [itemlevelreq] <= 29 // Septic Small Charm -  15 damage over 3 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [firemindam] == 1 && [firemaxdam] == 2 && [itemlevelreq] <= 14 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [firemindam] == 2 && [firemaxdam] == 4 && [itemlevelreq] <= 15 // Septic Small Charm -  15 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [lightmindam] == 1 && [lightmaxdam] == 6 && [itemlevelreq] <= 14 // Septic Small Charm -  15 damage over 3 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [lightmindam] == 1 && [lightmaxdam] == 10 && [itemlevelreq] <= 16 // Septic Small Charm -  15 damage over 3 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 3 && [lightmindam] == 1 && [lightmaxdam] == 18 && [itemlevelreq] <= 29 // Septic Small Charm -  15 damage over 3 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [FHR] == 5 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [MaxHP] >= 5 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [Strength] >= 1 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [Dexterity] >= 1 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [FRW] == 3 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [firemindam] >= 1 && [firemaxdam] >= 2 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 128 && [PoisonLength] == 4 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30 // Foul Small Charm  -  50 damage over 4 seconds 
+
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [MAXDamage] == 1 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [FHR] == 5 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [ItemGoldBonus] == 10 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [MaxHP] >= 5 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [Strength] >= 1 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [Dexterity] >= 1 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [FRW] == 3 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [firemindam] >= 1 && [firemaxdam] >= 2 // Toxic Small Charm -  100 damage over 5 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 205 && [PoisonLength] == 5 && [lightmindam] >= 1 && [lightmaxdam] >= 3 // Toxic Small Charm -  100 damage over 5 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 299 && [PoisonLength] >= 6 // Pestilent Small Charm -  >= 175 damage over >= 6 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [MaxHP] >= 5 && [itemlevelreq] <= 21
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [Strength] >= 1 && [itemlevelreq] <= 21
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [Dexterity] >= 1 && [itemlevelreq] <= 21
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [firemindam] >= 1 && [firemaxdam] >= 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 && [itemlevelreq] <= 30 // Small Charm of Blight -  6 damage over 3 seconds 
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] >= 1 
+
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [MaxHP] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [MaxHP] == 15 && [itemlevelreq] <= 18
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [Strength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [Strength] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [Dexterity] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [Dexterity] == 2 && [itemlevelreq] <= 17
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [coldmindam] == 2 && [coldmaxdam] == 4 && [coldlength] == 1 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [lightmindam] == 1 && [lightmaxdam] == 10 && [itemlevelreq] <= 16
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [PoisonMaxDam] >= 39 && [PoisonLength] == 4 && [itemlevelreq] <= 16 // Small Charm of Venom -  15 damage over 4 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [MaxHP] >= 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [Strength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [Dexterity] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [lightmindam] == 1 && [lightmaxdam] >= 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 10 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 && [itemlevelreq] <= 30 // Small Charm of Blight -  6 damage over 3 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] >= 19 && [firemaxdam] >= 29 
+
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [FHR] == 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [MaxHP] >= 5 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [Strength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [Dexterity] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [FRW] == 3 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [coldmindam] >= 1 && [coldmaxdam] >= 2 && [coldlength] >= 1 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [firemindam] >= 1 && [firemaxdam] >= 2 && [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 11 && [PoisonMaxDam] >= 21 && [PoisonLength] >= 3 && [itemlevelreq] <= 30 // Small Charm of Blight -  6 damage over 3 seconds 
+
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] >= 71
+
+// Combinations of Pre+Suf Small Chamrs
+
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] >= 3 && [coldmaxdam] >= 5 && [coldlength] >= 1 && [itemlevelreq] <= 30 
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 30 
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] >= 12 && [itemlevelreq] <= 30 
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 73 && [PoisonLength] == 6 // Septic Small Charm of Blight             -  43 damage over 6 seconds [itemlevelreq] <= 14
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 91 && [PoisonLength] == 7 // Septic Small Charm of Venom              -  62 damage over 7 seconds [itemlevelreq] <= 15
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 104 && [PoisonLength] == 8 // Septic Small Charm of Pestilence        -  81 damage over 8 seconds [itemlevelreq] = 24
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 138 && [PoisonLength] == 9 // Septic Small Charm of Anthrax           - 121 damage over 9 seconds
+ 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 149 && [PoisonLength] == 7 // Foul Small Charm of Blight              - 102 damage over 7 seconds [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 167 && [PoisonLength] == 8 // Foul Small Charm of Venom               - 130 damage over 8 seconds [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 180 && [PoisonLength] == 9 // Foul Small Charm of Pestilence          - 158 damage over 9 seconds [itemlevelreq] <= 30
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 214 && [PoisonLength] == 10 // Foul Small Charm of Anthrax            - 209 damage over 10 seconds
+ 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 226 && [PoisonLength] == 8 // Toxic Small Charm of Blight             - 177 damage over 8 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 244 && [PoisonLength] == 9 // Toxic Small Charm of Venom              - 214 damage over 9 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 257 && [PoisonLength] == 10 // Toxic Small Charm of Pestilence        - 251 damage over 10 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 291 && [PoisonLength] == 11 // Toxic Small Charm of Anthrax           - 313 damage over 11 seconds
+ 
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 320 && [PoisonLength] == 9 // Pestilent Small Charm of Blight         - 281 damage over 9 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 338 && [PoisonLength] == 10 // Pestilent Small Charm of Venom         - 330 damage over 10 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 351 && [PoisonLength] == 11 // Pestilent Small Charm of Pestilence    - 377 damage over 11 seconds
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 385 && [PoisonLength] == 12 // Pestilent Small Charm of Anthrax       - 451 damage over 12 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 21 && [PoisonLength] == 3 // Small Charm of Blight -  6 damage over 3 seconds [itemlevelreq] <= 7
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 39 && [PoisonLength] == 4 // Small Charm of Venom -  15 damage over 4 seconds [itemlevelreq] = 15
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 52 && [PoisonLength] == 5 // Small Charm of Pestilence -  25 damage over 5 seconds [itemlevelreq] = 24
+[Name] == SmallCharm && [Quality] == 4 # [PoisonMaxDam] >= 86 && [PoisonLength] == 6 // Small Charm of Anthrax -  50 damage over 6 seconds
+
+[Name] == SmallCharm && [Quality] == 4 # [MaxHP] == 20
+
+//SF:
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 30
+
+
+//[Name] == SmallCharm && [Quality] == 4 # [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [lightmindam] >= 1 && [lightmaxdam] >= 43 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [firemindam] >= 9 && [firemaxdam] >= 19 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [coldmindam] >= 7 && [coldmaxdam] >= 14 && [coldlength] >= 1 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [PoisonResist] >= 3 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [ColdResist] >= 3 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [LightResist] >= 3 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 3 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [ItemMagicBonus] >= 3
+[Name] == SmallCharm && [Quality] == 4 # [MaxMana] >= 1 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [ToHit] >= 21 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [MAXDamage] >= 1 && [ToHit] >= 10 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [MINDamage] == 1 && [ItemMagicBonus] == 7
+[Name] == SmallCharm && [Quality] == 4 # [defense] >= 20 && [ItemMagicBonus] == 7
+
+
+
+//PF:
+//[MAXDamage] == 6 && [ToHit] >= 41 
+//[MaxMana] >= 24
+//[FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3
+
+//SF:
+//[MAXDamage] == 1
+//[MAXDamage] == 2
+//[Strength] == 5
+//[Dexterity] == 5
+//[MaxHP] == 35
+//[FHR] == 8
+//[FRW] == 5
+//[ItemGoldBonus] >= 21
+
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [itemlevelreq] <= 15 
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] == 6 && [ToHit] >= 41
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] >= 7 
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] == 6 && [ToHit] >= 40 && [Strength] == 5
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] == 6 && [ToHit] >= 40 && [Dexterity] == 5
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] == 6 && [ToHit] >= 40 && [MaxHP] == 35
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] == 6 && [ToHit] >= 40 && [FHR] == 8
+[type] == Largecharm && [Quality] == 4 # [MAXDamage] == 6 && [ToHit] >= 40 && [FRW] == 5
+
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 30
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 24 && [MAXDamage] >= 1
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 24 && [Strength] == 5
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 24 && [Dexterity] == 5 
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 24 && [MaxHP] == 35
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 24 && [FHR] == 8
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 24 && [FRW] == 5
+[type] == Largecharm && [Quality] == 4 # [MaxMana] >= 24 && [ItemGoldBonus] >= 21
+
+
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 5 && [LightResist] >= 5 && [ColdResist] >= 5 && [PoisonResist] >= 5
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [MAXDamage] >= 1
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [Strength] == 5
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [Dexterity] == 5
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [MaxHP] == 35
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [FHR] == 8
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [FRW] == 5
+[type] == Largecharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [ItemGoldBonus] >= 21
+
+//SF:
+//&& [MAXDamage] >= 1
+//&& [Dexterity] >= 3
+//&& [FHR] >= 12
+//&& [ItemGoldBonus] >= 40
+//&& [MaxHP] >= 5
+//&& [Strength] >= 3
+//&& [FRW] >= 7
+
+
+//[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1  
+[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [passiveandmagicskilltab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [JavelinAndSpearSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1  
+[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [BowAndCrossbowSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 
+[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 && [Dexterity] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 && [Strength] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [FireSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 
+[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 && [Dexterity] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [LightningSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1 && [Dexterity] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1 && [Strength] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [ColdSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 
+[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 && [Dexterity] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 && [Strength] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [PoisonAndBoneSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1  
+[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1 && [Dexterity] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1 && [Strength] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [NecromancerSummoningSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1  
+//[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1 && [MAXDamage] >= 1
+//[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1 && [Dexterity] >= 6
+//[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1 && [FHR] >= 12
+//[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1 && [MaxHP] >= 25
+//[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1 && [Strength] >= 6
+//[Name] == GrandCharm && [Quality] == 4 # [CursesSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1 && [Dexterity] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1 && [ItemGoldBonus] >= 10
+[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1 && [Strength] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [PaliCombatSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [OffensiveAurasSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 
+[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [DefensiveAurasSkillTab] == 1 && [FRW] >= 7
+
+[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1
+//[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1 && [MAXDamage] >= 1
+//[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1 && [Dexterity] >= 6
+//[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1 && [FHR] >= 12
+//[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1 && [ItemGoldBonus] >= 40
+//[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1 && [MaxHP] >= 5
+//[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1 && [Strength] >= 6
+//[Name] == GrandCharm && [Quality] == 4 # [WarcriesSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 
+[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [BarbCombatSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 
+[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [MasteriesSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [DruidSummoningSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [ShapeShiftingSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 
+[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [ElementalSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [TrapsSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [ShadowDisciplinesSkillTab] == 1 && [FRW] >= 7
+
+//[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1
+[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1 && [MAXDamage] >= 1
+[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1 && [Dexterity] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1 && [FHR] >= 12
+[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1 && [ItemGoldBonus] >= 40
+[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1 && [MaxHP] >= 5
+[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1 && [Strength] >= 6
+[Name] == GrandCharm && [Quality] == 4 # [martialartsskilltab] == 1 && [FRW] >= 7
+
+//PF:
+//[defense] >= 90
+//[MAXDamage] >= 9 && [ToHit] >= 60
+//[MaxMana] >= 40
+//[FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3
+//[FireResist] == 30
+//[LightResist] == 30
+//[ColdResist] == 30
+//[PoisonResist] == 30
+
+//SF:
+//[MAXDamage] >= 1
+//[Strength] == 6
+//[Dexterity] == 6
+//[MaxHP] >= 36
+//[FHR] >= 12
+//[FRW] >= 7
+//[ItemGoldBonus] >= 30
+
+
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [FHR] == 12 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [Strength] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [Dexterity] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [MaxHP] >= 11 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [MAXDamage] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [firemindam] >= 1 && [firemaxdam] == 3 
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 12 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [FHR] == 12 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [MaxHP] >= 11 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [MAXDamage] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 15 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [FHR] == 12 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [FRW] == 7 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [Strength] >= 4 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [Dexterity] >= 4 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [MaxHP] >= 16 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [MAXDamage] == 1 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 22 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [FHR] == 12 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [FRW] == 7 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [Strength] >= 4 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [Dexterity] >= 4 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [MaxHP] >= 16 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [MAXDamage] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 20 
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 30 && [MaxHP] >= 21 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [FHR] == 12 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [FRW] == 7 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [Strength] >= 4 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [Dexterity] >= 4 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [MaxHP] >= 21 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [MAXDamage] == 1 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 29 
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 40 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 29
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [FHR] == 12 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [FRW] == 7 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [Strength] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [Dexterity] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [MAXDamage] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 50 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [MaxHP] == 45
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [defense] == 100 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13 
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 1 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [MaxHP] == 45
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [MINDamage] == 3 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 1 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 1 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 1 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 1 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 2 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 1 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 1 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 10 && [FHR] == 12 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 10 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 10 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 10 && [MaxHP] >= 11 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 3 && [ToHit] >= 10 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 10 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 10 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 2 && [ToHit] >= 10 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 3 && [ToHit] >= 10 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [FHR] == 12 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [FRW] == 7 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [Strength] >= 4 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [Dexterity] >= 4 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [MaxHP] >= 16 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 6 && [ToHit] >= 21 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 5 && [ToHit] >= 21 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [FHR] == 12 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [FRW] == 7 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [Strength] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [Dexterity] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 10 && [ToHit] >= 49 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 9 && [ToHit] >= 49 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 10 && [ToHit] >= 49 && [MaxHP] >= 26 && [itemlevelreq] >= 31  
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] >= 12 && [ToHit] >= 49 
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 10 && [ToHit] >= 49 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1 && [itemlevelreq] >= 31 
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 10 && [ToHit] >= 49 && [firemindam] == 7 && [firemaxdam] == 14 && [itemlevelreq] >= 31 
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 10 && [ToHit] >= 49 && [lightmindam] == 1 && [lightmaxdam] == 33 && [itemlevelreq] >= 31 
+[Name] == GrandCharm && [Quality] == 4 # [MAXDamage] == 10 && [ToHit] >= 49 && [ItemGoldBonus] == 40 && [itemlevelreq] >= 31 
+
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 42 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [FHR] == 12 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [Strength] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [Dexterity] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [MAXDamage] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 57 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [FHR] == 12 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [FRW] == 7 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [Strength] >= 4 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [Dexterity] >= 4 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [MaxHP] >= 16 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [MAXDamage] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 20 
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 72 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [FHR] == 12 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [FRW] == 7 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [Strength] >= 4 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [Dexterity] >= 4 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [MaxHP] >= 21 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [MAXDamage] == 1 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 87 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [FHR] == 12 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [FRW] == 7 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [Strength] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [Dexterity] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [MAXDamage] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 30  
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 102 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [MaxHP] >= 26
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [ToHit] == 132 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [FHR] == 12 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [Strength] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [Dexterity] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [MAXDamage] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 26 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [FHR] == 12 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [FRW] == 7 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [Strength] >= 4 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [Dexterity] >= 4 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [MaxHP] >= 16 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [MAXDamage] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 20 
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 33 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [FHR] == 12 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [FRW] == 7 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [Strength] >= 4 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [Dexterity] >= 4 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [MaxHP] >= 21 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [MAXDamage] == 1 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 39 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 23
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [FHR] == 12 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [FRW] == 7 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [Strength] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [Dexterity] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [MAXDamage] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 30  
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 46 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [MaxHP] == 45
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [MaxMana] == 59 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [FHR] == 12 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [MaxHP] >= 11 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [MAXDamage] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 3 && [LightResist] >= 3 && [ColdResist] >= 3 && [PoisonResist] >= 3 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [FHR] == 12 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [Strength] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [Dexterity] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [MAXDamage] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 8 && [LightResist] >= 8 && [ColdResist] >= 8 && [PoisonResist] >= 8 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] >= 13 && [LightResist] >= 13 && [ColdResist] >= 13 && [PoisonResist] >= 13 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [FHR] == 12 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [Strength] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [Dexterity] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [MAXDamage] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 25 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 30 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 30 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 30 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 30 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 30 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [FireResist] == 30 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [FHR] == 12 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [Strength] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [Dexterity] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [MAXDamage] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 25 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 30 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 30 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 30 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 30 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 30 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [LightResist] == 30 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [FHR] == 12 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [Strength] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [Dexterity] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [MAXDamage] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 25 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 30 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 30 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 30 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 30 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 30 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [ColdResist] == 30 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 20 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [FHR] == 12 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [Strength] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [Dexterity] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [MAXDamage] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 25 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 30 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 30 && [MaxHP] >= 25
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 30 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 30 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 30 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [PoisonResist] == 30 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 1 && [coldmaxdam] == 3 && [coldlength] == 1 && [FHR] == 12 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 1 && [coldmaxdam] == 3 && [coldlength] == 1 && [Strength] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 1 && [coldmaxdam] == 3 && [coldlength] == 1 && [Dexterity] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 1 && [coldmaxdam] == 3 && [coldlength] == 1 && [MaxHP] >= 11 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 1 && [coldmaxdam] == 3 && [coldlength] == 1 && [MAXDamage] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 1 && [coldmaxdam] == 3 && [coldlength] == 1 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] >= 3 && [coldmaxdam] >= 4 && [coldlength] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 1 && [coldmaxdam] == 3 && [coldlength] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] >= 5 && [coldmaxdam] >= 9 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [coldlength] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] >= 7 && [coldmaxdam] >= 13 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 4 && [coldmaxdam] == 8 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] >= 8 && [coldmaxdam] >= 16 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [FHR] == 12 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [FRW] == 7 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [Strength] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [Dexterity] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [MAXDamage] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] >= 11 && [coldmaxdam] >= 23 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 7 && [coldmaxdam] == 15 && [coldlength] == 1 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [MaxHP] == 45
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] >= 19 && [coldmaxdam] >= 36 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [coldmindam] == 13 && [coldmaxdam] == 25 && [coldlength] == 1 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [FHR] == 12 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [Strength] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [Dexterity] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [MaxHP] >= 11 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [MAXDamage] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] >= 2 && [firemaxdam] >= 6 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 1 && [firemaxdam] == 3 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] >= 5 && [firemaxdam] >= 9 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [lightmindam] == 1 && [lightmaxdam] >= 4 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [FHR] == 12 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [Name] == GrandCharm && [Quality] == 4 # [firemindam] >= 5 && [firemaxdam] >= 11 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [lightmindam] == 1 && [lightmaxdam] >= 8 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] >= 6 && [firemaxdam] >= 15 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 3 && [firemaxdam] == 7 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [FHR] == 12 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [FRW] == 7 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [Strength] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [Dexterity] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [MAXDamage] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] >= 11 && [firemaxdam] >= 27 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 7 && [firemaxdam] == 19 && [lightmindam] == 1 && [lightmaxdam] >= 22 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [MaxHP] == 45
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 25 && [firemaxdam] == 50 
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [lightmindam] == 1 && [lightmaxdam] == 33 
+[Name] == GrandCharm && [Quality] == 4 # [firemindam] == 18 && [firemaxdam] == 36 && [ItemGoldBonus] == 40
+
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 5 && [FHR] == 12 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 5 && [Strength] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 5 && [Dexterity] >= 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 5 && [MaxHP] >= 11 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 5 && [MAXDamage] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 5 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 5 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] >= 9 && [itemlevelreq] <= 9
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [FHR] == 12 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [Strength] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [Dexterity] >= 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [MaxHP] >= 11 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [MAXDamage] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [firemindam] >= 1 && [firemaxdam] == 3 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [coldmindam] == 2 && [coldmaxdam] >= 3 && [coldlength] == 1 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] >= 21 && [itemlevelreq] <= 11
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [Strength] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [Dexterity] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [MaxHP] >= 11 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [firemindam] >= 2 && [firemaxdam] >= 4 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [coldmindam] == 3 && [coldmaxdam] >= 5 && [coldlength] == 1 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] >= 25 && [itemlevelreq] <= 13
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [FRW] == 7 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [MaxHP] >= 16 && [itemlevelreq] <= 15
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 17 
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] >= 39 && [itemlevelreq] <= 17
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 17 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 20
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [FHR] == 12 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [FRW] == 7 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [Strength] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [Dexterity] >= 4 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [MaxHP] >= 21 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [MAXDamage] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [firemindam] >= 4 && [firemaxdam] >= 8 && [itemlevelreq] <= 30  
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 44 && [coldmindam] >= 4 && [coldmaxdam] >= 8 && [coldlength] == 1 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] >= 66 && [itemlevelreq] <= 30
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [FHR] == 12
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [FRW] == 7
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [Strength] == 6
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [Dexterity] == 6
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [MaxHP] == 45
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [MAXDamage] == 4
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [coldmindam] == 6 && [coldmaxdam] == 11 && [coldlength] == 1
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [firemindam] == 7 && [firemaxdam] == 14 
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 112
+[Name] == GrandCharm && [Quality] == 4 # [lightmindam] == 1 && [lightmaxdam] == 79 && [ItemGoldBonus] == 40

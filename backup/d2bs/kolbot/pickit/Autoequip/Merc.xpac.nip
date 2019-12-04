@@ -1,0 +1,30 @@
+// ====================== MERC ====================== //
+//Low tier
+([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic # [EnhancedDamage] > 40 || [LifeLeech] > 3 # [MercTier] == 2
+([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic # [EnhancedDamage] > 65 && [LifeLeech] > 5 # [MercTier] == 3
+([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier] == 2
+([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic # [EnhancedDefense] > 50 && [MaxHP] > 40 # [MercTier] == 3
+
+//Mid tier
+([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Exceptional # [EnhancedDamage] > 40 || [LifeLeech] > 3 # [MercTier] == 4
+([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Exceptional # [EnhancedDamage] > 65 && [LifeLeech] > 5 # [MercTier] == 5
+([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Exceptional # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier] == 4
+([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Exceptional # [EnhancedDefense] > 50 && [MaxHP] > 40 # [MercTier] == 5
+
+//High tier
+([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Elite # [EnhancedDamage] > 40 || [LifeLeech] > 3 # [MercTier] == 6
+([Type] == Spear || [Type] == Polearm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Elite # [EnhancedDamage] > 65 && [LifeLeech] > 5 # [MercTier] == 7
+([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Elite # [EnhancedDefense] > 30 || [MaxHP] > 20 # [MercTier] == 6
+([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && [Quality] >= Magic && [Class] == Elite # [EnhancedDefense] > 50 && [MaxHP] > 40 # [MercTier] == 7
+
+//Low Insight/Infinity/TalRasha/Duriels/Shaft
+[Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword # [MeditationAura] >= 12 # [MercTier] == 93
+[Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword # [MeditationAura] >= 15 # [MercTier] == 94
+[Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword # [MeditationAura] == 17 # [MercTier] == 95
+([Name] == Cuirass || [Name] == MeshArmor) && [Quality] == Unique # # [MercTier] == 95
+[Type] == Helm && ([Quality] == Unique||[Quality] == Set) # [LifeLeech] >= 5 && ([IAS] >= 10 || [MaxHP] >= 50 || [NormalDamageReduction] >= 15) # [MercTier] == 95
+
+//Elite Insight/Infinity/Andariels/Fortitude
+[Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword && [Class] == Elite # [MeditationAura] == 17 || [ConvictionAura] == 12 # [MercTier] == 99
+[Type] == Armor && [Flag] == Ethereal && [Flag] == Runeword && [Class] == Elite # [EnhancedDamage] == 300 # [MercTier] == 99
+[Name] == DemonHead && [Flag] == Ethereal && [Quality] == Unique # # [MercTier] == 99

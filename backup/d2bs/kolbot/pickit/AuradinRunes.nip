@@ -1,0 +1,22 @@
+// ===============RUNES ===============//
+[Name] == DolRune # # [MaxQuantity] == 1
+[Name] == IoRune # # [MaxQuantity] == 1
+[Name] == UmRune # # [MaxQuantity] == 1
+[Name] == MalRune # # [MaxQuantity] == 1
+[Name] == IstRune # # [MaxQuantity] == 1
+[Name] == LoRune # # [MaxQuantity] == 1
+[Name] == BerRune # # [MaxQuantity] == 1
+
+// ===============RUNEWORDS ===============//
+//Black
+[Name] == Flail && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 3 # [MaxQuantity] == 1
+//Grief
+[Name] == PhaseBlade && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 5 || [Sockets] == 0 # [MaxQuantity] == 1
+//Strength
+[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+
+//Spirit
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [FireResist] >= 35 && ([Sockets] == 4 || [Sockets] == 0)# [MaxQuantity] == 1
+
+//Merc
+[Type] == Polearm && [Flag] == Ethereal && [Quality] == Superior && [Class] >= Exceptional # [EnhancedDamage] >= 15 && ([Sockets] == 4 || [Sockets] == 0)# [MaxQuantity] == 1

@@ -1,0 +1,418 @@
+// Rare and Magic Jewels//
+[Type] == 58 && [Quality] <= 6 # [Level] == 12
+[Type] == 58 && [Quality] <= 6 # [Level] == 24
+[Type] == 58 && [Quality] <= 6 # [Level] == 40
+//Lvling//
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 20 && [MaxHP] == 8 && [itemlevelreq] <= 1
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 20 && [ItemReqPercent] == -15 && [itemlevelreq] <= 1
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 20 && [MAXDamage] == 5 && [itemlevelreq] <= 3
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 20 && [MINDamage] == 4 && [itemlevelreq] <= 3
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 20 && [Dexterity] == 3 && [itemlevelreq] <= 5
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 20 && [PoisonMAXDam] >= 1 && [poisonlength] == 2 && [itemlevelreq] <= 1
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 10 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 10 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 10 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 10 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 10 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 10 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 10 && [PoisonMAXDam] >= 1 && [poisonlength] == 2 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [MaxHP] == 8 && [itemlevelreq] <= 16
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [ItemReqPercent] == -15 && [itemlevelreq] <= 16
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [MINDamage] == 4 && [itemlevelreq] <= 16
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [MAXDamage] >= 6 && [itemlevelreq] <= 16
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [energy] == 6 && [itemlevelreq] <= 16
+
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 40 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [MaxHP] == 8 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [ItemReqPercent] == -15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [MINDamage] == 4 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ToHit] == 60 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ToHit] == 60 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [ItemReqPercent] == -15
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [MAXDamage] == 15
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [Dexterity] == 9
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [IAS] == 15
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [energy] == 9
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [HPRegen] == 4
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [MINDamage] == 10
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [MaxHP] == 20
+[Type] == 58 && [Quality] == 4 # [ToHit] == 100 && [Strength] == 9
+
+[Type] == 58 && [Quality] <= 6 # [defense] == 8 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [defense] == 8 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [defense] == 8 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [defense] == 8 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [defense] == 8 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [defense] == 8 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [MaxHP] == 8 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [ItemReqPercent] == -15 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [energy] == 5 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [MAXDamage] == 9 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 20 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [MaxHP] == 8 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [ItemReqPercent] == -15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [MINDamage] == 4 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [defense] == 40 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [defense] == 40 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 20 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [EnhancedDamage] == 20 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [ItemReqPercent] == -15
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [MAXDamage] == 15
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [Dexterity] == 9
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [IAS] == 15
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [energy] == 9
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [MINDamage] == 10
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [MaxHP] == 20
+[Type] == 58 && [Quality] == 4 # [EnhancedDamage] == 40 && [Strength] == 9
+
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 15 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 15 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 15 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 15 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 15 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 15 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 15 && [PoisonMAXDam] >= 1 && [poisonlength] == 2 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [MaxHP] == 8 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [ItemReqPercent] == -15 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [energy] == 5 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [MAXDamage] == 9 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [FireResist] == 30 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [FireResist] == 30 && [IAS] == 15
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [energy] == 9
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [HPRegen] == 4
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [FireResist] == 30 && [MaxHP] == 20
+[Type] == 58 && [Quality] <= 6 # [FireResist] == 30 && [Strength] == 9
+
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 15 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 15 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 15 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 15 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 15 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 15 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 15 && [PoisonMAXDam] >= 1 && [poisonlength] == 2 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [MaxHP] == 8 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [ItemReqPercent] == -15 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [energy] == 5 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [MAXDamage] == 9 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [ColdResist] == 30 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [ColdResist] == 30 && [IAS] == 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [energy] == 9
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [HPRegen] == 4
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [ColdResist] == 30 && [MaxHP] == 20
+[Type] == 58 && [Quality] <= 6 # [ColdResist] == 30 && [Strength] == 9
+
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 15 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 15 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 15 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 15 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 15 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 15 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 15 && [PoisonMAXDam] >= 1 && [poisonlength] == 2 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [MaxHP] == 8 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [ItemReqPercent] == -15 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [energy] == 5 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [MAXDamage] == 9 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [LightResist] == 30 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [LightResist] == 30 && [IAS] == 15
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [energy] == 9
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [HPRegen] == 4
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [LightResist] == 30 && [MaxHP] == 20
+[Type] == 58 && [Quality] <= 6 # [LightResist] == 30 && [Strength] == 9
+
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 15 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 15 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 15 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 15 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 15 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 15 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 15 && [PoisonMAXDam] >= 1 && [poisonlength] == 2 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [MaxHP] == 8 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [ItemReqPercent] == -15 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [energy] == 5 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [MAXDamage] == 9 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [PoisonResist] == 30 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [PoisonResist] == 30 && [IAS] == 15
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [energy] == 9
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [HPRegen] == 4
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [PoisonResist] == 30 && [MaxHP] == 20
+[Type] == 58 && [Quality] <= 6 # [PoisonResist] == 30 && [Strength] == 9
+
+[Type] == 58 && [Quality] <= 6 # [mana] == 10 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [mana] == 10 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [mana] == 10 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [mana] == 10 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [mana] == 10 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [mana] == 10 && [MAXDamage] == 9 && [itemlevelreq] <= 9 
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [MaxHP] == 8 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [ItemReqPercent] == -15 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [energy] == 5 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [MAXDamage] == 9 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [mana] == 15 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [MaxHP] == 8 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [ItemReqPercent] == -15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [MINDamage] == 4 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [IAS] == 15
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [energy] == 9
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [HPRegen] == 4
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [MaxHP] == 20
+[Type] == 58 && [Quality] == 4 # [mana] == 20 && [Strength] == 9 
+
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [MINDamage] == 4 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [itemdamagetomana] == 12 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [itemdamagetomana] == 12 && [IAS] == 15
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [energy] == 9
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [HPRegen] == 4
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [itemdamagetomana] == 12 && [MaxHP] == 20
+[Type] == 58 && [Quality] <= 6 # [itemdamagetomana] == 12 && [Strength] == 9 
+
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [itemmanaafterkill] == 3 && [IAS] == 15
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [energy] == 9
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [HPRegen] == 4
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [itemmanaafterkill] == 3 && [MaxHP] == 20
+[Type] == 58 && [Quality] <= 6 # [itemmanaafterkill] == 3 && [Strength] == 9  
+
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [MAXDamage] == 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [PoisonMAXDam] >= 1 && [poisonlength] == 2 && [itemlevelreq] <= 9 
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 4 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [MaxHP] == 8 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [ItemReqPercent] == -15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] >= 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [MINDamage] == 8 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MINDamage] == 8 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [MaxHP] == 8 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [ItemReqPercent] == -15 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [Dexterity] == 3 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [energy] == 5 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] >= 9 && [itemlevelreq] <= 9
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 5 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [MaxHP] == 8 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [ItemReqPercent] == -15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [MINDamage] == 4 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [MAXDamage] >= 16 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] <= 6 # [MAXDamage] == 9 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [MaxHP] == 8 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [ItemReqPercent] == -15 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [MINDamage] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [energy] == 5 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [MAXDamage] == 9 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [lightmindam] >= 1 && [lightmaxdam] == 20 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [firemindam] == 3 && [firemaxdam] == 10 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [coldmindam] == 1 && [coldmaxdam] == 5 && [coldlength] == 2 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [Strength] == 4 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] <= 6 # [ColdResist] >= 5 && [FireResist] >= 5 && [LightResist] >= 5 && [PoisonResist] >= 5 && [Dexterity] == 6 && [itemlevelreq] <= 15
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [MaxHP] == 8 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [ItemReqPercent] == -15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [MINDamage] == 4 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [MAXDamage] == 15 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [energy] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [Strength] == 6 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [Dexterity] == 9 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [itemattackertakesdamage] == 5 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [lightmindam] == 1 && [lightmaxdam] == 60 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [firemindam] == 10 && [firemaxdam] == 30 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [coldmindam] == 3 && [coldmaxdam] == 10 && [coldlength] >= 2 && [itemlevelreq] <= 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [itemMagicbonus] == 10
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [IAS] == 15
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [energy] == 9
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [HPRegen] == 4
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [MaxHP] == 20
+[Type] == 58 && [Quality] == 4 # [ColdResist] >= 11 && [FireResist] >= 11 && [LightResist] >= 11 && [PoisonResist] >= 11 && [Strength] == 9    
+
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] == 7 && [ItemGoldBonus] == 30
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] == 7 && [ItemReqPercent] == -15
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] >= 16 
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] == 7 && [Dexterity] == 9
+[Type] == 58 && [Quality] == 4 # [ItemMagicBonus] == 7 && [IAS] == 15
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] == 7 && [energy] == 9
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] == 7 && [HPRegen] == 4
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] == 7 && [FHR] == 7
+[Type] == 58 && [Quality] == 4 # [ItemMagicBonus] == 7 && [MaxHP] == 20
+[Type] == 58 && [Quality] <= 6 # [ItemMagicBonus] == 7 && [Strength] == 9

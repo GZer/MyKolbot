@@ -1,0 +1,23 @@
+// ===============RUNES ===============//
+[Name] == DolRune # # [MaxQuantity] == 1
+[Name] == PulRune # # [MaxQuantity] == 1
+[Name] == UmRune # # [MaxQuantity] == 1
+[Name] == MalRune # # [MaxQuantity] == 1
+[Name] == IstRune # # [MaxQuantity] == 1
+[Name] == LoRune # # [MaxQuantity] == 1
+[Name] == BerRune # # [MaxQuantity] == 1
+
+// ===============RUNEWORDS ===============//
+//Spirit
+([Name] == CrystalSword || [Name] == BroadSword) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+
+//Enlightenment
+([Name] == LightPlate || [Name] == MagePlate) && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 3 || [Sockets] == 0 # [MaxQuantity] == 1
+
+//Splendor
+[Name] == GrimShield && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 2 || [Sockets] == 0 # [MaxQuantity] == 1
+//Spirit
+[Name] == Monarch && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 4 || [Sockets] == 0 # [MaxQuantity] == 1
+
+//Merc
+[Type] == Polearm && [Flag] == Ethereal && [Quality] <= Superior && [Class] >= Exceptional # [EnhancedDamage] >= 15 && ([Sockets] == 4 || [Sockets] == 0)# [MaxQuantity] == 1

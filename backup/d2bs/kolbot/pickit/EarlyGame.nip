@@ -1,0 +1,27 @@
+// ===============RUNES ===============//
+[Name] == TirRune # # [MaxQuantity] == 1
+[Name] == EthRune # # [MaxQuantity] == 1
+[Name] == RalRune # # [MaxQuantity] == 1
+
+// ===============RUNEWORDS ===============//
+//Insight
+[Type] == Polearm && [Flag] == Ethereal && [Quality] == Superior # [Sockets] == 4 # [MaxQuantity] == 1
+
+//Leaf
+[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+
+//Stealth
+([Name] == QuiltedArmor || [Name] == LeatherArmor || [Name] == HardLeatherArmor || [Name] == StuddedLeather || [Name] == RingMail || [Name] == BreastPlate || [Name] == LightPlate) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
+
+// ====================== CHARMS ====================== //
+[Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] > 4 || [Mana] > 2) && ([MaxHP] > 6 || [Strength]+[Dexterity] > 2)
+[Name] == SmallCharm #([FireResist]+[ColdResist]+[LightResist] > 3 || [Mana] > 0) && ([MaxHP] > 5 || [Strength]+[Dexterity] > 0)
+
+// ====================== ACCESSORIES ====================== //
+[Type] == Amulet && [Quality] >= Magic # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+
+// ====================== POTIONS ====================== //
+[Name] == MinorManaPotion
+[Name] == MinorHealingPotion
+[Name] == LightManaPotion
+[Name] == LightHealingPotion
