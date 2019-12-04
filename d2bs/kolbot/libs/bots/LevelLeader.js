@@ -112,6 +112,7 @@ function LevelLeader(){
 			break;
 			case 43://Staff
 				Pather.journeyTo(62);
+				if(me.getItem(92)){break;}
 				if(!this.waitForTeleporter(64)){
 					Pather.journeyTo(62);
 					while(me.area != 63){try{Pather.moveToExit(63,true,true);}catch(err){print("Retry enter MaggotLvl2");}}Pather.makePortal();
@@ -125,6 +126,7 @@ function LevelLeader(){
 			break;
 			case 44://Amulet
 				Pather.journeyTo(45);
+				if(me.getItem(521)){break;}
 				if(Pather.moveToExit([58,61],true,true)){Pather.makePortal();}
 				this.clearToQuestLocation(61,2,149);
 				Pather.moveTo(15044,14045,2,true,true);
@@ -512,7 +514,7 @@ function LevelLeader(){
 	this.waitForTeleporter = function(DestinationArea){
 		var WaitingLimit=0,PortalTown=2;
 		if(DestinationArea > 75){PortalTown=3;}
-		while(!teleporterClose() && WaitingLimit < 20){delay(100);}
+		while(!teleporterClose() && WaitingLimit++ < 20){delay(1000);}
 		Precast.doPrecast(true);
 		Town.doChores();
 		Town.goToTown(PortalTown);

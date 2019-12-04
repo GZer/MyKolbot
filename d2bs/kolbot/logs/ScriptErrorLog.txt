@@ -168,3 +168,9 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:785, Pather.journeyTo@pather.js:1447, Pather.moveToExit@pather.js:636, Pather.useUnit@pather.js:810
 [21:01:19] <Singer> Error in LevelLeader (pather.js line 561): getPresetUnits failed, couldn't access the level!
 Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelLeader@levelleader.js:804, @levelleader.js:736, @levelleader.js:42, Pather.moveToPreset@pather.js:561
+[20:42:00] <ColdSorc> Error in LevelFollower (levelfollower.js line 141): player is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[20:43:28] <LightSorc> Error in LevelFollower (levelfollower.js line 141): player is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[20:43:35] <FireSorc> Error in LevelFollower (levelfollower.js line 141): player is not defined
+Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
