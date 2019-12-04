@@ -1,7 +1,15 @@
 # D2BS IS NOT SAFE FROM DETECTION!
 
-## Discord Channel
+# Contribute $$ or CD-Keys
+I don't want to do this but if you want this Autobuilder/Leveler to continue being updated I'm goin to need Valid BNet CD-Keys (up to 8) or $$ to buy CD-Keys
+
+## Kolbot Discord Channel
 [Click Here!](https://discord.gg/FuBG8N2)
+
+## My Personal Discord
+Coming soon
+
+----- All of this below here will be updated with a video and instructions on how to use Kolbot later-----
 
 ## Install Dependencies - DO THIS FIRST!
 - [Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=5555)
