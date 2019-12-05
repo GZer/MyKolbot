@@ -33,14 +33,16 @@ function main() {
 		debugInfo = {area: 0, currScript: "no entry"},
 		pingTimer = [],
 		quitFlag = false,
+		quitListDelayTime,
 		cloneWalked = false,
 		canQuit = true,
 		timerLastDrink = [];
 
-	print("ÿc3Start ToolsThread script");
+	print("3Start ToolsThread script");
 	D2Bot.init();
 	Config.init(false);
 	Pickit.init(false);
+	Attack.init();
 	Storage.Init();
 	CraftingSystem.buildLists();
 	Runewords.init();
@@ -126,7 +128,7 @@ function main() {
 
 		for (i = 0; i < items.length; i += 1) {
 			if (type < 3 && items[i].mode === 0 && items[i].location === 3 && items[i].itemType === pottype) {
-				print("ÿc2Drinking potion from inventory.");
+				print("2Drinking potion from inventory.");
 
 				return copyUnit(items[i]);
 			}
@@ -149,7 +151,7 @@ function main() {
 			if (script) {
 				if (script.running) {
 					if (i === 0) { // default.dbj
-						print("ÿc1Pausing.");
+						print("1Pausing.");
 					}
 
 					// don't pause townchicken during clone walk
@@ -158,7 +160,7 @@ function main() {
 					}
 				} else {
 					if (i === 0) { // default.dbj
-						print("ÿc2Resuming.");
+						print("2Resuming.");
 					}
 
 					script.resume();
@@ -197,8 +199,13 @@ function main() {
 
 			break;
 		case 2:
-		case 4:
 			if (timerLastDrink[type] && (tNow - timerLastDrink[type] < 300)) { // small delay for juvs just to prevent using more at once
+				return false;
+			}
+
+			break;
+		case 4:
+			if (timerLastDrink[type] && (tNow - timerLastDrink[type] < 2000)) { // larger delay for juvs just to prevent using more at once, considering merc update rate
 				return false;
 			}
 
@@ -358,25 +365,25 @@ function main() {
 			var realFCR = me.getStat(105) - Config.FCR;
 			var realIAS = me.getStat(93) - Config.IAS;
 			var realFBR = me.getStat(102) - Config.FBR;
-			var realFHR = me.getStat(99) - Config.FHR;	
+			var realFHR = me.getStat(99) - Config.FHR;
 
-			print("ÿc4MF: ÿc0" + me.getStat(80) + " ÿc4GF: ÿc0" + me.getStat(79) + " ÿc1FR: ÿc0" + me.getStat(39) +
-				" ÿc3CR: ÿc0" + me.getStat(43) + " ÿc9LR: ÿc0" + me.getStat(41) + " ÿc2PR: ÿc0" + me.getStat(45) + 
-				"\n" + 
-				"FCR: " + realFCR + " IAS: " + realIAS + " FBR: " + realFBR + 
-				" FHR: " + realFHR + " FRW: " + me.getStat(96) + 
+			print("MF: " + me.getStat(80) + " GF: " + me.getStat(79) + " 1FR: " + me.getStat(39) +
+				" 3CR: " + me.getStat(43) + " 9LR: " + me.getStat(41) + " 2PR: " + me.getStat(45) +
 				"\n" +
-				"CB: " + me.getStat(136) + " DS: " + me.getStat(141) + " OW: " + me.getStat(135) + 
-				" ÿc1LL: ÿc0" + me.getStat(60) + " ÿc3ML: ÿc0" + me.getStat(62) + 
-				" DR: " + me.getStat(36) + "% + " + me.getStat(34) + " MDR: " + me.getStat(37) + "% + " + me.getStat(35) + 
-				"\n" + 
-				(me.getStat(153) > 0 ? "ÿc3Cannot be Frozenÿc1" : "" ));
+				"FCR: " + realFCR + " IAS: " + realIAS + " FBR: " + realFBR +
+				" FHR: " + realFHR + " FRW: " + me.getStat(96) +
+				"\n" +
+				"CB: " + me.getStat(136) + " DS: " + me.getStat(141) + " OW: " + me.getStat(135) +
+				" 1LL: " + me.getStat(60) + " 3ML: " + me.getStat(62) +
+				" DR: " + me.getStat(36) + "% + " + me.getStat(34) + " MDR: " + me.getStat(37) + "% + " + me.getStat(35) +
+				"\n" +
+				(me.getStat(153) > 0 ? "3Cannot be Frozen1" : "" ));
 
 			break;
 		case 101: // numpad 5
 			if (AutoMule.getInfo() && AutoMule.getInfo().hasOwnProperty("muleInfo")) {
 				if (AutoMule.getMuleItems().length > 0) {
-					print("ÿc2Mule triggered");
+					print("2Mule triggered");
 					scriptBroadcast("mule");
 					this.exit();
 				} else {
@@ -420,6 +427,13 @@ function main() {
 					(Config.QuitList instanceof Array && Config.QuitList.indexOf(name1) > -1)) {
 				print(name1 + (mode === 0 ? " timed out" : " left"));
 
+				if (typeof Config.QuitListDelay !== "undefined" && typeof quitListDelayTime === "undefined" && Config.QuitListDelay.length > 0) {
+					Config.QuitListDelay.sort(function(a, b){return a-b});
+					quitListDelayTime = getTickCount() + rand(Config.QuitListDelay[0] * 1e3, Config.QuitListDelay[1] * 1e3);
+				} else {
+					quitListDelayTime = getTickCount();
+				}
+
 				quitFlag = true;
 			}
 
@@ -428,7 +442,7 @@ function main() {
 			}
 
 			break;
-		case 0x06: // "%Name1 was Slain by %Name2" 
+		case 0x06: // "%Name1 was Slain by %Name2"
 			if (Config.AntiHostile && param2 === 0x00 && name2 === me.name) {
 				scriptBroadcast("mugshot " + name1);
 			}
@@ -472,7 +486,7 @@ function main() {
 				this.togglePause();
 				Town.goToTown();
 				showConsole();
-				print("ÿc4Diablo Walks the Earth");
+				print("Diablo Walks the Earth");
 
 				me.maxgametime = 0;
 
@@ -635,8 +649,8 @@ function main() {
 			quitFlag = true;
 		}
 
-		if (quitFlag && canQuit) {
-			print("ÿc8Run duration ÿc2" + ((getTickCount() - me.gamestarttime) / 1000));
+		if (quitFlag && canQuit && (typeof quitListDelayTime === "undefined" || getTickCount() >= quitListDelayTime)) {
+			print("8Run duration 2" + ((getTickCount() - me.gamestarttime) / 1000));
 
 			if (Config.LogExperience) {
 				Experience.log();

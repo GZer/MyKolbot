@@ -122,7 +122,7 @@ function Enchant() {
 
 			if (leg) {
 				do {
-					if (leg.name.indexOf("ÿc1") > -1) {
+					if (leg.name.indexOf("") > -1) {
 						wrongLeg = true;
 					} else if (getDistance(me, leg) <= 15) {
 						gid = leg.gid;
@@ -203,7 +203,7 @@ function Enchant() {
 			} while (tome.getNext());
 		}
 
-		Town.move("akara");
+		Town.move(NPC.Akara);
 
 		akara = getUnit(1, NPC.Akara);
 
@@ -493,6 +493,10 @@ MainLoop:
 	this.floodCheck = function (command) {
 		var cmd = command[0],
 			nick = command[1];
+			
+		if (!nick) {	// ignore overhead messages
+			return true;
+		}
 
 		if ([	"help", "timeleft",
 				Config.Enchant.Triggers[0].toLowerCase(),

@@ -9,12 +9,16 @@ var NPC = {
 	Gheed: getLocaleString(2891).toLowerCase(),
 	Charsi: getLocaleString(2894).toLowerCase(),
 	Kashya: getLocaleString(2893).toLowerCase(),
+	Warriv: getLocaleString(2895).toLowerCase(),
 
 	Fara: getLocaleString(3025).toLowerCase(),
 	Drognan: getLocaleString(3023).toLowerCase(),
 	Elzix: getLocaleString(3030).toLowerCase(),
 	Greiz: getLocaleString(3031).toLowerCase(),
 	Lysander: getLocaleString(3026).toLowerCase(),
+	Jerhyn: getLocaleString(3027).toLowerCase(),
+	Meshif: getLocaleString(3032).toLowerCase(),
+	Atma: getLocaleString(3024).toLowerCase(),
 
 	Ormus: getLocaleString(1011).toLowerCase(),
 	Alkor: getLocaleString(1010).toLowerCase(),
@@ -28,7 +32,8 @@ var NPC = {
 	Malah: getLocaleString(22478).toLowerCase(),
 	Anya: getLocaleString(22477).toLowerCase(),
 	Larzuk: getLocaleString(22476).toLowerCase(),
-	"Qual-Kehk": getLocaleString(22480).toLowerCase(),
+	Qual_Kehk: getLocaleString(22480).toLowerCase(),
+	Nihlathak: getLocaleString(22483).toLowerCase(),
 
 	Cain: getLocaleString(2890).toLowerCase()
 };
@@ -42,7 +47,7 @@ var Town = {
 		{Heal: NPC.Fara, Shop: NPC.Drognan, Gamble: NPC.Elzix, Repair: NPC.Fara, Merc: NPC.Greiz, Key: NPC.Lysander, CainID: NPC.Cain},
 		{Heal: NPC.Ormus, Shop: NPC.Ormus, Gamble: NPC.Alkor, Repair: NPC.Hratli, Merc: NPC.Asheara, Key: NPC.Hratli, CainID: NPC.Cain},
 		{Heal: NPC.Jamella, Shop: NPC.Jamella, Gamble: NPC.Jamella, Repair: NPC.Halbu, Merc: NPC.Tyrael, Key: NPC.Jamella, CainID: NPC.Cain},
-		{Heal: NPC.Malah, Shop: NPC.Malah, Gamble: NPC.Anya, Repair: NPC.Larzuk, Merc: NPC["Qual-Kehk"], Key: NPC.Malah, CainID: NPC.Cain}
+		{Heal: NPC.Malah, Shop: NPC.Malah, Gamble: NPC.Anya, Repair: NPC.Larzuk, Merc: NPC.Qual_Kehk, Key: NPC.Malah, CainID: NPC.Cain}
 	],
 
 	ignoredItemTypes: [ // Items that won't be stashed
@@ -61,7 +66,7 @@ var Town = {
 	],
 
 	// Do town chores
-	doChores: function () {
+	doChores: function (repair = false) {
 		if (!me.inTown) {
 			this.goToTown();
 		}
@@ -69,17 +74,7 @@ var Town = {
 		var i,
 			cancelFlags = [0x01, 0x02, 0x04, 0x08, 0x14, 0x16, 0x0c, 0x0f, 0x19, 0x1a];
 
-		if (me.classid === 4 && Config.FindItem && Config.FindItemSwitch) { // weapon switch fix in case last game dropped with item find switch on
-			Precast.weaponSwitch(Math.abs(Config.FindItemSwitch - 1));
-		}
-
-		if (Config.MFSwitchPercent) {
-			Precast.weaponSwitch(Math.abs(Config.MFSwitch - 1));
-		}
-
-		if (Precast.haveCTA > -1) {
-			Precast.weaponSwitch(Math.abs(Precast.haveCTA - 1));
-		}
+		Attack.weaponSwitch(Attack.getPrimarySlot());
 
 		this.heal();
 		this.identify();
@@ -93,9 +88,8 @@ var Town = {
 		this.buyPotions();
 		this.clearInventory();
 		Item.autoEquip();
-		Item.autoEquipMerc();
 		this.buyKeys();
-		this.repair();
+		this.repair(repair);
 		this.gamble();
 		this.reviveMerc();
 		Cubing.doCubing();
@@ -118,41 +112,30 @@ var Town = {
 	},
 
 	checkQuestItems: function () {
-		var i, NPC, item;
-		
-		/*BookOfSkill*/
-		if (me.getItem(552)) {
-			item = me.getItem(552);
+		var i, npc, item;
 
-			if (item.location > 3) {
-				this.openStash();
-			}
-
-			item.interact();
-		}
-		
-		/*golden bird stuff*/
+		// golden bird stuff
 		if (me.getItem(546)) {
 			this.goToTown(3);
-			this.move("meshif");
+			this.move(NPC.Meshif);
 
-			NPC = getUnit(1, "meshif");
+			npc = getUnit(1, NPC.Meshif);
 
-			if (NPC) {
-				NPC.openMenu();
+			if (npc) {
+				npc.openMenu();
 				me.cancel();
 			}
 		}
 
 		if (me.getItem(547)) {
 			this.goToTown(3);
-			this.move("alkor");
+			this.move(NPC.Alkor);
 
-			NPC = getUnit(1, "alkor");
+			npc = getUnit(1, NPC.Alkor);
 
-			if (NPC) {
+			if (npc) {
 				for (i = 0; i < 2; i += 1) {
-					NPC.openMenu();
+					npc.openMenu();
 					me.cancel();
 				}
 			}
@@ -182,9 +165,9 @@ var Town = {
 		/*Atma for Discount*/
 		if(me.getQuest(9, 3) && !me.getQuest(9, 0)){
 			Pather.journeyTo(40);
-			Town.move("atma");
-			NPC=getUnit(1,"atma");
-			if(NPC && NPC.openMenu()){
+			Town.move(NPC.Atma);
+			npc=getUnit(1,NPC.Atma);
+			if(npc && npc.openMenu()){
 				me.cancel();
 			}
 		}
@@ -192,9 +175,9 @@ var Town = {
 		/*Cain for Access to Durance*/
 		if(me.getQuest(21, 3) && !me.getQuest(21, 0)){
 			Pather.journeyTo(75);
-			Town.move("cain");
-			NPC=getUnit(1,"deckard cain");
-			if(NPC && NPC.openMenu()){
+			Town.move(NPC.Cain);
+			npc=getUnit(1,NPC.Cain);
+			if(npc && npc.openMenu()){
 				me.cancel();
 			}
 		}
@@ -202,9 +185,9 @@ var Town = {
 		/*Anya for Item*/
 		if(me.getQuest(37, 3) && !me.getQuest(37, 0)){
 			Pather.journeyTo(109);
-			Town.move("Anya");
-			NPC=getUnit(1,"Anya");
-			if(NPC && NPC.openMenu()){
+			Town.move(NPC.Anya);
+			npc=getUnit(1,NPC.Anya);
+			if(npc && npc.openMenu()){
 				me.cancel();
 			}
 		}
@@ -213,8 +196,8 @@ var Town = {
 		// if(me.getQuest(36, 3)){
 			// try{
 				// Town.move("Qual-Kehk");
-				// NPC=getUnit(1,"Qual-Kehk");
-				// if(NPC && NPC.openMenu()){
+				// npc=getUnit(1,"Qual-Kehk");
+				// if(npc && npc.openMenu()){
 					// me.cancel();
 				// }
 			// }catch(err){
@@ -391,7 +374,7 @@ var Town = {
 				pot = this.getPotion(npc, Config.BeltColumn[i]);
 
 				if (pot) {
-					//print("\xFFc2column \xFFc0" + i + "\xFFc2 needs \xFFc0" + col[i] + " \xFFc2potions");
+					//print("2column " + i + "2 needs " + col[i] + " 2potions");
 
 					// Shift+buy will trigger if there's no empty columns or if only the current column is empty
 					if (useShift) {
@@ -837,7 +820,7 @@ MainLoop:
 					Misc.itemLogger("Dropped", item, "fieldID");
 
 					if (Config.DroppedItemsAnnounce.Enable && Config.DroppedItemsAnnounce.Quality.indexOf(item.quality) > -1) {
-						say("Dropped: [" + Pickit.itemQualityToName(item.quality).charAt(0).toUpperCase() + Pickit.itemQualityToName(item.quality).slice(1) + "] " + item.fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]/, "").trim());
+						say("Dropped: [" + Pickit.itemQualityToName(item.quality).charAt(0).toUpperCase() + Pickit.itemQualityToName(item.quality).slice(1) + "] " + item.fname.split("\n").reverse().join(" ").replace(/[0-9!"+<;.*]/, "").trim());
 
 						if (Config.DroppedItemsAnnounce.LogToOOG && Config.DroppedItemsAnnounce.OOGQuality.indexOf(item.quality) > -1) {
 							Misc.logItem("Field Dropped", item, result.line);
@@ -961,7 +944,7 @@ CursorLoop:
 			return false;
 		}
 
-		print("\xFFc4MiniShopBot\xFFc0: Scanning " + npc.itemcount + " items.");
+		print("MiniShopBot: Scanning " + npc.itemcount + " items.");
 
 		do {
 			if (this.ignoredItemTypes.indexOf(item.itemType) === -1) {
@@ -1007,7 +990,7 @@ CursorLoop:
 					if (NTIPAliasClassID.hasOwnProperty(Config.GambleItems[i].replace(/\s+/g, "").toLowerCase())) {
 						this.gambleIds.push(NTIPAliasClassID[Config.GambleItems[i].replace(/\s+/g, "").toLowerCase()]);
 					} else {
-						Misc.errorReport("\xFFc1Invalid gamble entry:\xFFc0 " + Config.GambleItems[i]);
+						Misc.errorReport("1Invalid gamble entry: " + Config.GambleItems[i]);
 					}
 				} else {
 					this.gambleIds.push(Config.GambleItems[i]);
@@ -1308,8 +1291,8 @@ CursorLoop:
 						delay(me.ping * 2 + 500);
 
 						if (cubeItems[0].bodylocation === bodyLoc) {
-							print(cubeItems[0].fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]/, "").trim() + " successfully repaired and equipped.");
-							D2Bot.printToConsole(cubeItems[0].fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]/, "").trim() + " successfully repaired and equipped.", 5);
+							print(cubeItems[0].fname.split("\n").reverse().join(" ").replace(/[0-9!"+<;.*]/, "").trim() + " successfully repaired and equipped.");
+							D2Bot.printToConsole(cubeItems[0].fname.split("\n").reverse().join(" ").replace(/[0-9!"+<;.*]/, "").trim() + " successfully repaired and equipped.", 5);
 
 							return true;
 						}
@@ -1326,12 +1309,16 @@ CursorLoop:
 		return false;
 	},
 
-	repair: function () {
+	repair: function (force = false) {
 		var i, quiver, myQuiver, npc, repairAction, bowCheck;
 
 		this.cubeRepair();
 
 		repairAction = this.needRepair();
+
+		if (force && repairAction.indexOf("repair") === -1) {
+			repairAction.push("repair");
+		}
 
 		if (!repairAction || !repairAction.length) {
 			return true;
@@ -1424,7 +1411,7 @@ CursorLoop:
 				repairAction.push("repair");
 			}
 		} else {
-			print("\xFFc4Town: \xFFc1Can't afford repairs.");
+			print("Town: 1Can't afford repairs.");
 		}
 
 		return repairAction;
@@ -1438,28 +1425,30 @@ CursorLoop:
 		if (item) {
 			do {
 				if (!item.getFlag(0x400000)) { // Skip ethereal items
-					switch (item.itemType) {
-					// Quantity check
-					case 42: // Throwing knives
-					case 43: // Throwing axes
-					case 44: // Javelins
-					case 87: // Amazon javelins
-						quantity = item.getStat(70);
+					if (!item.getStat(152)) { // Skip indestructible items
+						switch (item.itemType) {
+						// Quantity check
+						case 42: // Throwing knives
+						case 43: // Throwing axes
+						case 44: // Javelins
+						case 87: // Amazon javelins
+							quantity = item.getStat(70);
 
-						if (typeof quantity === "number" && quantity * 100 / (getBaseStat("items", item.classid, "maxstack") + item.getStat(254)) <= repairPercent) { // Stat 254 = increased stack size
-							itemList.push(copyUnit(item));
+							if (typeof quantity === "number" && quantity * 100 / (getBaseStat("items", item.classid, "maxstack") + item.getStat(254)) <= repairPercent) { // Stat 254 = increased stack size
+								itemList.push(copyUnit(item));
+							}
+
+							break;
+						// Durability check
+						default:
+							durability = item.getStat(72);
+
+							if (typeof durability === "number" && durability * 100 / item.getStat(73) <= repairPercent) {
+								itemList.push(copyUnit(item));
+							}
+
+							break;
 						}
-
-						break;
-					// Durability check
-					default:
-						durability = item.getStat(72);
-
-						if (typeof durability === "number" && durability * 100 / item.getStat(73) <= repairPercent) {
-							itemList.push(copyUnit(item));
-						}
-
-						break;
 					}
 
 					if (chargedItems) {
@@ -1661,40 +1650,34 @@ MainLoop:
 			me.cancel();
 
 			if (this.move("stash")) {
-				break;
-			}
+				stash = getUnit(2, 267);
 
-			delay(100 + me.ping * 2);
-		}
+				if (stash) {
+					Misc.click(0, 0, stash);
+					//stash.interact();
 
-		for (i = 0; i < 5; i += 1) {
-			stash = getUnit(2, 267);
+					tick = getTickCount();
 
-			if (stash) {
-				Misc.click(0, 0, stash);
-				//stash.interact();
+					while (getTickCount() - tick < 5000) {
+						if (getUIFlag(0x19)) {
+							delay(100 + me.ping * 2); // allow UI to initialize
 
-				tick = getTickCount();
+							return true;
+						}
 
-				while (getTickCount() - tick < 5000) {
-					if (getUIFlag(0x19)) {
-						delay(100 + me.ping * 2); // allow UI to initialize
-
-						return true;
+						delay(100);
 					}
-
-					delay(100);
 				}
 			}
 
-			delay(100);
+			Packet.flash(me.gid);
 		}
 
 		return false;
 	},
 
 	getCorpse: function () {
-		var i, corpse, gid,
+		var i, corpse, gid, coord,
 			corpseList = [],
 			timer = getTickCount();
 
@@ -1735,7 +1718,8 @@ MainLoop:
 			delay(500);
 
 			if (getTickCount() - timer > 3000) {
-				Pather.moveTo(me.x + rand(-1, 1) * 4, me.y + rand(-1, 1) * 4);
+				coord = CollMap.getRandCoordinate(me.x, -1, 1, me.y, -1, 1, 4);
+				Pather.moveTo(coord.x, coord.y);
 			}
 
 			if (getTickCount() - timer > 30000) {
@@ -2036,8 +2020,8 @@ MainLoop:
 
 			this.act[0].spot = {};
 			this.act[0].spot.stash = [fire[0] - 7, fire[1] - 12];
-			this.act[0].spot.warriv = [fire[0] - 5, fire[1] - 2];
-			this.act[0].spot.cain = [fire[0] + 6, fire[1] - 5];
+			this.act[0].spot[NPC.Warriv] = [fire[0] - 5, fire[1] - 2];
+			this.act[0].spot[NPC.Cain] = [fire[0] + 6, fire[1] - 5];
 			this.act[0].spot[NPC.Kashya] = [fire[0] + 14, fire[1] - 4];
 			this.act[0].spot[NPC.Akara] = [fire[0] + 56, fire[1] - 30];
 			this.act[0].spot[NPC.Charsi] = [fire[0] - 39, fire[1] - 25];
@@ -2050,16 +2034,16 @@ MainLoop:
 		case 2:
 			this.act[1].spot = {};
 			this.act[1].spot[NPC.Fara] = [5124, 5082];
-			this.act[1].spot.cain = [5124, 5082];
+			this.act[1].spot[NPC.Cain] = [5124, 5082];
 			this.act[1].spot[NPC.Lysander] = [5118, 5104];
 			this.act[1].spot[NPC.Greiz] = [5033, 5053];
 			this.act[1].spot[NPC.Elzix] = [5032, 5102];
 			this.act[1].spot.palace = [5088, 5153];
 			this.act[1].spot.sewers = [5221, 5181];
-			this.act[1].spot.meshif = [5205, 5058];
+			this.act[1].spot[NPC.Meshif] = [5205, 5058];
 			this.act[1].spot[NPC.Drognan] = [5097, 5035];
-			this.act[1].spot.atma = [5137, 5060];
-			this.act[1].spot.warriv = [5152, 5201];
+			this.act[1].spot[NPC.Atma] = [5137, 5060];
+			this.act[1].spot[NPC.Warriv] = [5152, 5201];
 			this.act[1].spot.portalspot = [5168, 5060];
 			this.act[1].spot.stash = [5124, 5076];
 			this.act[1].spot.waypoint = [5070, 5083];
@@ -2068,12 +2052,12 @@ MainLoop:
 			break;
 		case 3:
 			this.act[2].spot = {};
-			this.act[2].spot.meshif = [5118, 5168];
+			this.act[2].spot[NPC.Meshif] = [5118, 5168];
 			this.act[2].spot[NPC.Hratli] = [5223, 5048, 5127, 5172];
 			this.act[2].spot[NPC.Ormus] = [5129, 5093];
 			this.act[2].spot[NPC.Asheara] = [5043, 5093];
 			this.act[2].spot[NPC.Alkor] = [5083, 5016];
-			this.act[2].spot.cain = [5148, 5066];
+			this.act[2].spot[NPC.Cain] = [5148, 5066];
 			this.act[2].spot.stash = [5144, 5059];
 			this.act[2].spot.portalspot = [5150, 5063];
 			this.act[2].spot.waypoint = [5158, 5050];
@@ -2082,7 +2066,7 @@ MainLoop:
 			break;
 		case 4:
 			this.act[3].spot = {};
-			this.act[3].spot.cain = [5027, 5027];
+			this.act[3].spot[NPC.Cain] = [5027, 5027];
 			this.act[3].spot[NPC.Halbu] = [5089, 5031];
 			this.act[3].spot[NPC.Tyrael] = [5027, 5027];
 			this.act[3].spot[NPC.Jamella] = [5088, 5054];
@@ -2098,12 +2082,12 @@ MainLoop:
 			this.act[4].spot.stash = [5129, 5061];
 			this.act[4].spot[NPC.Larzuk] = [5141, 5045];
 			this.act[4].spot[NPC.Malah] = [5078, 5029];
-			this.act[4].spot.cain = [5119, 5061];
-			this.act[4].spot[NPC["Qual-Kehk"]] = [5066, 5083];
+			this.act[4].spot[NPC.Cain] = [5119, 5061];
+			this.act[4].spot[NPC.Qual_Kehk] = [5066, 5083];
 			this.act[4].spot[NPC.Anya] = [5112, 5120];
 			this.act[4].spot.portal = [5118, 5120];
 			this.act[4].spot.waypoint = [5113, 5068];
-			this.act[4].spot.nihlathak = [5071, 5111];
+			this.act[4].spot[NPC.Nihlathak] = [5071, 5111];
 			this.act[4].initialized = true;
 
 			break;
@@ -2181,14 +2165,8 @@ MainLoop:
 				}
 
 				break;
-			case "cain":
-				if (!!getUnit(1, NPC.Cain)) {
-					return true;
-				}
-
-				break;
 			case "palace":
-				if (!!getUnit(1, "jerhyn")) {
+				if (!!getUnit(1, NPC.Jerhyn)) {
 					return true;
 				}
 
@@ -2250,7 +2228,7 @@ MainLoop:
 		return true;
 	},
 
-	visitTown: function () {
+	visitTown: function (repair = false) {
 		if (me.inTown) {
 			this.doChores();
 			this.move("stash");
@@ -2267,7 +2245,7 @@ MainLoop:
 			return false;
 		}
 
-		this.doChores();
+		this.doChores(repair);
 
 		if (me.act !== preAct) {
 			this.goToTown(preAct);

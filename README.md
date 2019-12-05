@@ -1,19 +1,14 @@
 # D2BS IS NOT SAFE FROM DETECTION!
 
-# Contribute $$ or CD-Keys
-I don't want to do this but if you want this Autobuilder/Leveler to continue being updated I'm goin to need Valid BNet CD-Keys (up to 8) or $$ to buy CD-Keys
+[**Join the Forums!**](https://d2bot.discourse.group/)
 
-## Kolbot Discord Channel
-[Click Here!](https://discord.gg/FuBG8N2)
+[**Join the Discord Channel!**](https://discord.gg/FuBG8N2)
 
-## My Personal Discord
-Coming soon
-
------ All of this below here will be updated with a video and instructions on how to use Kolbot later-----
+[**Documentation Repo**](https://github.com/blizzhackers/documentation)
 
 ## Install Dependencies - DO THIS FIRST!
 - [Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=5555)
-- [Microsoft .NET Framework 4.0 (or higher)](https://www.microsoft.com/net/download/Windows/run)
+- [Microsoft .NET Framework 4.0 (or higher)](https://dotnet.microsoft.com/download/dotnet-framework)
 
 ## MASTER Branch (also known as TRUNK)
 
@@ -22,10 +17,11 @@ The package contains 3 distinct components:
 - D2Bot# - manager
 - kolbot - script library
 
-If you want to contribute to kolbot code, make sure you use JSLint for final polish.
+If you want to contribute to kolbot code, make sure you use JSLint or ESLint for final polish.
 If you want to contribute to d2bs/d2bot#, come to irc.synirc.net/d2bs and ask around.
 
-JSLint options for kolbot code: [https://gist.githubusercontent.com](https://gist.githubusercontent.com/noah-/d917342e52281d54c404e0b2c18b0c6e/raw/fbade95e38b103d2654b90d85ef62a51c4295153/jslint.config)
+- [JSLint options for kolbot code](https://gist.githubusercontent.com/noah-/d917342e52281d54c404e0b2c18b0c6e/raw/fbade95e38b103d2654b90d85ef62a51c4295153/jslint.config)
+- [ESLint options for kolbot code](https://gist.githubusercontent.com/Nishimura-Katsuo/2d6866666c7acf10047c486a15a7fe60/raw/99ef9c2995929c492ef856772ff346e0f19709cd/.eslintrc.js)
 
 ## Getting Started
 - [D2Bot # Manager Setup](https://github.com/kolton/d2bot-with-kolbot/wiki/D2Bot-%23-Manager-Setup)
@@ -38,3 +34,11 @@ JSLint options for kolbot code: [https://gist.githubusercontent.com](https://gis
 - [Kolbot Leader config](https://github.com/kolton/d2bot-with-kolbot/wiki/Kolbot-Leader-config)
 - [Kolbot Leecher config](https://github.com/kolton/d2bot-with-kolbot/wiki/Kolbot-Leecher-Starter)
 - [Kolbot Character config](https://github.com/kolton/d2bot-with-kolbot/wiki/Kolbot-Character-config)
+
+# LimeDrop Web Based Item Manager and Dropper
+## Setup
+**Limedrop is available by default on the master and unicode branches.**
+- [Limedrop Install and Usage](https://github.com/blizzhackers/documentation/blob/master/limedrop/README.md)
+
+
+![](https://i.imgur.com/bsmEv3j.png)

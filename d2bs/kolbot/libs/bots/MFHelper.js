@@ -5,7 +5,7 @@
 */
 
 function MFHelper() {
-	var i, player, playerAct, split, area,
+	var i, player, playerAct, split,
 		oldCommand = "",
 		command = "";
 
@@ -180,10 +180,9 @@ MainLoop:
 				oldCommand = command;
 
 				if (command.indexOf("kill") > -1) {
-					print("ÿc4MFHelperÿc0: Kill");
+					print("MFHelper: Kill");
 
 					split = command.split("kill ")[1];
-					area = player.area;
 
 					for (i = 0; i < 5; i += 1) {
 						if (Pather.usePortal(player.area, player.name)) {
@@ -193,7 +192,7 @@ MainLoop:
 						delay(1000);
 					}
 
-					if (me.area === area) {
+					if (me.area === player.area) {
 						Precast.doPrecast(false);
 
 						try {
@@ -216,9 +215,7 @@ MainLoop:
 						print("Failed to use portal.");
 					}
 				} else if (command.indexOf("clearlevel") > -1) {
-					print("ÿc4MFHelperÿc0: Clear Level");
-
-					area = player.area;
+					print("MFHelper: Clear Level");
 
 					for (i = 0; i < 5; i += 1) {
 						if (Pather.usePortal(player.area, player.name)) {
@@ -228,7 +225,7 @@ MainLoop:
 						delay(1000);
 					}
 
-					if (me.area === area) {
+					if (me.area === player.area) {
 						Precast.doPrecast(false);
 						Attack.clearLevel(Config.ClearType);
 						Precast.doPrecast(true);
@@ -240,10 +237,9 @@ MainLoop:
 						print("Failed to use portal.");
 					}
 				} else if (command.indexOf("clear") > -1) {
-					print("ÿc4MFHelperÿc0: Clear");
+					print("MFHelper: Clear");
 
 					split = command.split("clear ")[1];
-					area = player.area;
 
 					for (i = 0; i < 5; i += 1) {
 						if (Pather.usePortal(player.area, player.name)) {
@@ -253,7 +249,7 @@ MainLoop:
 						delay(1000);
 					}
 
-					if (me.area === area) {
+					if (me.area === player.area) {
 						Precast.doPrecast(false);
 
 						try {
@@ -277,7 +273,7 @@ MainLoop:
 				} else if (command.indexOf("quit") > -1) {
 					break MainLoop;
 				} else if (command.indexOf("cows") > -1) {
-					print("ÿc4MFHelperÿc0: Clear Cows");
+					print("MFHelper: Clear Cows");
 
 					for (i = 0; i < 5; i += 1) {
 						if (Town.goToTown(1) && Pather.usePortal(39)) {
@@ -299,9 +295,7 @@ MainLoop:
 						print("Failed to use portal.");
 					}
 				} else if (command.indexOf("council") > -1) {
-					print("ÿc4MFHelperÿc0: Kill Council");
-
-					area = player.area;
+					print("MFHelper: Kill Council");
 
 					for (i = 0; i < 5; i += 1) {
 						if (Pather.usePortal(player.area, player.name)) {
@@ -311,7 +305,7 @@ MainLoop:
 						delay(1000);
 					}
 
-					if (me.area === area) {
+					if (me.area === player.area) {
 						Precast.doPrecast(false);
 						Attack.clearList(Attack.getMob([345, 346, 347], 0, 40));
 

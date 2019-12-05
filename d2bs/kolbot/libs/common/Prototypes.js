@@ -103,38 +103,35 @@ Unit.prototype.openMenu = function (addDelay) {
 		return true;
 	}
 
-	var i, j;
+	var i, tick;
 
 	for (i = 0; i < 5; i += 1) {
 		if (getDistance(me, this) > 4) {
 			Pather.moveToUnit(this);
 		}
 
-		if (i > 0) {
-			Packet.flash(me.gid);
-			// delay?
-		}
+		Misc.click(0, 0, this);
+		tick = getTickCount();
 
-		if (!getUIFlag(0x08)) {
-			delay(100);
-			this.interact();
-		}
-
-		for (j = 0; j < 40; j += 1) {
-			if (j > 0 && j % 10 === 0 && !getUIFlag(0x08)) {
-				me.cancel();
-				delay(400);
-				this.interact();
-			}
-
+		while (getTickCount() - tick < 5000) {
 			if (getUIFlag(0x08)) {
 				delay(Math.max(700 + me.ping, 500 + me.ping * 2 + addDelay * 500));
 
 				return true;
 			}
 
-			delay(25);
+			if (getInteractedNPC() && getTickCount() - tick > 1000) {
+				me.cancel();
+			}
+
+			delay(100);
 		}
+
+		sendPacket(1, 0x2f, 4, 1, 4, this.gid);
+		delay(me.ping * 2);
+		sendPacket(1, 0x30, 4, 1, 4, this.gid);
+		delay(me.ping * 2);
+		Packet.flash(me.gid);
 	}
 
 	return false;
@@ -681,11 +678,11 @@ Unit.prototype.getStatEx = function (id, subid) {
 			}
 
 			temp = this.desc.split("\n");
-			regex = new RegExp("\\+\\d+ " + getLocaleString(3481));
+			regex = new RegExp("\\+\\d+ " + getLocaleString(3481).replace(/^\s+|\s+$/g, ""));
 
 			for (i = 0; i < temp.length; i += 1) {
 				if (temp[i].match(regex, "i")) {
-					return parseInt(temp[i].replace(/\xFFc[0-9!"+<;.*]/, ""), 10);
+					return parseInt(temp[i].replace(/[0-9!"+<;.*]/, ""), 10);
 				}
 			}
 
@@ -763,8 +760,8 @@ Unit.prototype.getStatEx = function (id, subid) {
 			temp = this.desc.split("\n");
 
 			for (i = 0; i < temp.length; i += 1) {
-				if (temp[i].match(getLocaleString(3520), "i")) {
-					return parseInt(temp[i].replace(/\xFFc[0-9!"+<;.*]/, ""), 10);
+				if (temp[i].match(getLocaleString(3520).replace(/^\s+|\s+$/g, ""), "i")) {
+					return parseInt(temp[i].replace(/[0-9!"+<;.*]/, ""), 10);
 				}
 			}
 
@@ -781,8 +778,8 @@ Unit.prototype.getStatEx = function (id, subid) {
 			temp = this.desc.split("\n");
 
 			for (i = 0; i < temp.length; i += 1) {
-				if (temp[i].match(getLocaleString(10038), "i")) {
-					return parseInt(temp[i].replace(/\xFFc[0-9!"+<;.*]/, ""), 10);
+				if (temp[i].match(getLocaleString(10038).replace(/^\s+|\s+$/g, ""), "i")) {
+					return parseInt(temp[i].replace(/[0-9!"+<;.*]/, ""), 10);
 				}
 			}
 
@@ -1021,7 +1018,7 @@ Unit.prototype.getColor = function () {
 		}
 	} else if (this.quality === 7) { // Unique
 		for (i = 0; i < 401; i += 1) {
-			if (this.fname.split("\n").reverse()[0].indexOf(getLocaleString(getBaseStat(17, i, 2))) > -1) {
+			if (this.code === getBaseStat(17, i, 4).replace(/^\s+|\s+$/g, "") && this.fname.split("\n").reverse()[0].indexOf(getLocaleString(getBaseStat(17, i, 2))) > -1) {
 				return getBaseStat(17, i, 13) > 20 ? -1 : getBaseStat(17, i, 13);
 			}
 		}
@@ -1040,4 +1037,216 @@ Unit.prototype.getColor = function () {
 	}
 
 	return -1;
+};
+
+// Object.assign polyfill from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+if (typeof Object.assign !== 'function') {
+	Object.defineProperty(Object, "assign", {
+		value: function assign (target) {
+			if (target === null) {
+				throw new TypeError('Cannot convert undefined or null to object');
+			}
+
+			var to = Object(target);
+
+			for (var index = 1; index < arguments.length; index++) {
+				var nextSource = arguments[index];
+
+				if (nextSource !== null) {
+					for (var nextKey in nextSource) {
+						if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
+							to[nextKey] = nextSource[nextKey];
+						}
+					}
+				}
+			}
+
+			return to;
+		},
+		writable: true,
+		configurable: true
+	});
+}
+
+// Array.find polyfill from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+if (!Array.prototype.find) {
+	Object.defineProperty(Array.prototype, 'find', {
+		value: function (predicate) {
+			if (this === null) {
+				throw new TypeError('"this" is null or not defined');
+			}
+
+			var o = Object(this);
+
+			var len = o.length >>> 0;
+
+			if (typeof predicate !== 'function') {
+				throw new TypeError('predicate must be a function');
+			}
+
+			var thisArg = arguments[1];
+
+			var k = 0;
+
+			while (k < len) {
+				var kValue = o[k];
+
+				if (predicate.call(thisArg, kValue, k, o)) {
+					return kValue;
+				}
+
+				k++;
+			}
+
+			return undefined;
+		},
+		configurable: true,
+		writable: true
+	});
+}
+
+/**
+ * @description Return the first element or undefined
+ * @return undefined|*
+ */
+if (!Array.prototype.first) {
+	Array.prototype.first = function () {
+		return this.length > 0 ? this[0] : undefined;
+	};
+}
+
+/**
+ * @description Return the items of a player, or an empty array
+ * @param args
+ * @returns Unit[]
+ */
+Unit.prototype.getItems = function (...args) {
+	let item = this.getItem.apply(this, args), items = [];
+
+	if (item) {
+		do {
+			items.push(copyUnit(item));
+		} while (item.getNext());
+	}
+
+	return items;
+};
+
+/**
+ * @description Used upon item units like ArachnidMesh.castChargedSkill([skillId]) or directly on the "me" unit me.castChargedSkill(278);
+ * @param {int} skillId = undefined
+ * @param {int} x = undefined
+ * @param {int} y = undefined
+ * @return boolean
+ * @throws Error
+ */
+Unit.prototype.castChargedSkill = function (...args) {
+	let skillId, x, y, unit, chargedItem, charge,
+		chargedItems = [],
+		validCharge = function (itemCharge) {
+			return itemCharge.skill === skillId && itemCharge.charges;
+		};
+
+	switch (args.length) {
+	case 0: // item.castChargedSkill()
+		break;
+	case 1:
+		if (args[0] instanceof Unit) { // hellfire.castChargedSkill(monster);
+			unit = args[0];
+		} else {
+			skillId = args[0];
+		}
+
+		break;
+	case 2:
+		if (typeof args[0] === 'number') {
+			if (args[1] instanceof Unit) { // me.castChargedSkill(skillId,unit)
+				[skillId, unit] = [...args];
+			} else if (typeof args[1] === 'number') { // item.castChargedSkill(x,y)
+				[x, y] = [...args];
+			}
+		} else {
+			throw new Error(' invalid arguments, expected (skillId, unit) or (x, y)');
+		}
+
+		break;
+	case 3:
+		// If all arguments are numbers
+		if (typeof args[0] === 'number' && typeof args[1] === 'number' && typeof args[2] === 'number') {
+			[skillId, x, y] = [...args];
+		}
+
+		break;
+	default:
+		throw new Error("invalid arguments, expected 'me' object or 'item' unit");
+	}
+
+	// Charged skills can only be casted on x, y coordinates
+	unit && ([x, y] = [unit.x, unit.y]);
+
+	if (this !== me && this.type === 4) {
+		throw Error("invalid arguments, expected 'me' object or 'item' unit");
+	}
+
+	if (this === me) { // Called the function the unit, me.
+		if (!skillId) {
+			throw Error('Must supply skillId on me.castChargedSkill');
+		}
+
+		chargedItems = [];
+
+		this.getItems(-1) // Item must be in inventory, or a charm in inventory
+			.filter(item => item && (item.location === 1 || (item.location === 3 && item.itemType === 82)))
+			.forEach(function (item) {
+				let stats = item.getStat(-2);
+
+				if (!stats.hasOwnProperty(204)) {
+					stats = stats[204].filter(validCharge);
+					stats.length && chargedItems.push({
+						charge: stats.first(),
+						item: item
+					});
+				}
+			});
+
+		if (chargedItems.length === 0) {
+			throw Error("Don't have the charged skill (" + skillId + "), or not enough charges");
+		}
+
+		chargedItem = chargedItems.sort((a, b) => a.charge.level - b.charge.level).first().item;
+
+		return chargedItem.castChargedSkill.apply(chargedItem, args);
+	} else if (this.type === 4) {
+		charge = this.getStat(-2)[204]; // WARNING. Somehow this gives duplicates
+
+		if (!charge) {
+			throw Error('No charged skill on this item');
+		}
+
+		if (skillId) {
+			charge = charge.filter(item => (skillId && item.skill === skillId) && !!item.charges); // Filter out all other charged skills
+		} else if (charge.length > 1) {
+			throw new Error('multiple charges on this item without a given skillId');
+		}
+
+		charge = charge.first();
+
+		if (charge) {
+			// Setting skill on hand
+			if (!Config.PacketCasting || Config.PacketCasting === 1 && skillId !== 54) {
+				return Skill.cast(skillId, 0, x || me.x, y || me.y, this); // Non packet casting
+			}
+
+			// Packet casting
+			sendPacket(1, 0x3c, 2, charge.skill, 1, 0x0, 1, 0x00, 4, this.gid);
+			// No need for a delay, since its TCP, the server recv's the next statement always after the send cast skill packet
+
+			// The result of "successfully" casted is different, so we cant wait for it here. We have to assume it worked
+			sendPacket(1, 0x0C, 2, x || me.x, 2, y || me.y); // Cast the skill
+
+			return true;
+		}
+	}
+
+	return false;
 };

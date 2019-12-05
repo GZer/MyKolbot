@@ -18,13 +18,84 @@ var Attack = {
 
 		if (Config.AttackSkill[1] < 0 || Config.AttackSkill[3] < 0) {
 			showConsole();
-			print("\xFFc1Bad attack config. Don't expect your bot to attack.");
+			print("1Bad attack config. Don't expect your bot to attack.");
 		}
 
 		if (me.gametype === 1) {
 			this.checkInfinity();
 			this.getCharges();
+			this.getPrimarySlot();
 		}
+	},
+
+	weaponSwitch: function (slot) {
+		if (me.gametype === 0 || me.weaponswitch === slot) {
+			return true;
+		}
+
+		var i, tick;
+
+		if (slot === undefined) {
+			slot = me.weaponswitch ^ 1;
+		}
+
+		delay(500);
+
+		for (i = 0; i < 5; i += 1) {
+			weaponSwitch();
+
+			tick = getTickCount();
+
+			while (getTickCount() - tick < 2000 + me.ping) {
+				if (me.weaponswitch === slot) {
+					//delay(me.ping + 1);
+
+					return true;
+				}
+
+				delay(10);
+			}
+		}
+
+		return false;
+	},
+
+	checkSlot: function (slot = me.weaponswitch) { // check if slot has items
+		var item = me.getItem(-1, 1);
+
+		if (item) {
+			do {
+				if (me.weaponswitch !== slot) {
+					if (item.bodylocation === 11 || item.bodylocation === 12) {
+						return true;
+					}
+				} else {
+					if (item.bodylocation === 4 || item.bodylocation === 5) {
+						return true;
+					}
+				}
+			} while (item.getNext());
+		}
+
+		return false;
+	},
+
+	getPrimarySlot: function () {
+		if (Config.PrimarySlot === -1) { // determine primary slot if not set
+			if ((Precast.haveCTA > -1) || Precast.checkCTA()) { // have cta
+				if (this.checkSlot(Precast.haveCTA ^ 1)) { // have item on non-cta slot
+					Config.PrimarySlot = Precast.haveCTA ^ 1; // set non-cta slot as primary
+				} else { // other slot is empty
+					Config.PrimarySlot = Precast.haveCTA; // set cta as primary slot
+				}
+			} else if (!this.checkSlot(0) && this.checkSlot(1)) { // only slot II has items
+				Config.PrimarySlot = 1;
+			} else { // both slots have items, both are empty, or only slot I has items
+				Config.PrimarySlot = 0;
+			}
+		}
+
+		return Config.PrimarySlot;
 	},
 
 	getCustomAttack: function (unit) {
@@ -139,7 +210,8 @@ var Attack = {
 			return false;
 		}
 
-		var i, target, gid,
+		var i, target, gid, result,
+			retry = 0,
 			errorInfo = "",
 			attackCount = 0;
 
@@ -180,17 +252,29 @@ var Attack = {
 			}
 
 			if (Config.MFSwitchPercent && target.hp / 128 * 100 < Config.MFSwitchPercent) {
-				Precast.weaponSwitch(Math.abs(Config.MFSwitch));
+				this.weaponSwitch(this.getPrimarySlot() ^ 1);
 			}
 
 			if (attackCount > 0 && attackCount % 15 === 0 && Skill.getRange(Config.AttackSkill[1]) < 4) {
 				Packet.flash(me.gid);
 			}
 
-			if (!ClassAttack.doAttack(target, attackCount % 15 === 0)) {
-				errorInfo = " (doAttack failed)";
+			result = ClassAttack.doAttack(target, attackCount % 15 === 0);
+
+			if (result === 0) {
+				if (retry++ > 3) {
+					errorInfo = " (doAttack failed)";
+
+					break;
+				}
+
+				Packet.flash(me.gid);
+			} else if (result === 2) {
+				errorInfo = " (No valid attack skills)";
 
 				break;
+			} else {
+				retry = 0;
 			}
 
 			attackCount += 1;
@@ -201,7 +285,7 @@ var Attack = {
 		}
 
 		if (Config.MFSwitchPercent) {
-			Precast.weaponSwitch(Math.abs(Config.MFSwitch - 1));
+			this.weaponSwitch(this.getPrimarySlot());
 		}
 
 		ClassAttack.afterAttack();
@@ -218,7 +302,8 @@ var Attack = {
 	},
 
 	hurt: function (classId, percent) {
-		var i, target,
+		var i, target, result,
+			retry = 0,
 			attackCount = 0;
 
 		for (i = 0; i < 5; i += 1) {
@@ -232,8 +317,18 @@ var Attack = {
 		}
 
 		while (attackCount < 300 && Attack.checkMonster(target) && Attack.skipCheck(target)) {
-			if (!ClassAttack.doAttack(target, attackCount % 15 === 0)) {
+			result = ClassAttack.doAttack(target, attackCount % 15 === 0);
+
+			if (result === 0) {
+				if (retry++ > 3) {
+					break;
+				}
+
+				Packet.flash(me.gid);
+			} else if (result === 2) {
 				break;
+			} else {
+				retry = 0;
 			}
 
 			if (!copyUnit(target).x) {
@@ -316,7 +411,8 @@ var Attack = {
 			throw new Error("Attack.clear: range must be a number.");
 		}
 
-		var i, boss, orgx, orgy, target, result, monsterList, start,
+		var i, boss, orgx, orgy, target, result, monsterList, start, coord,
+			retry = 0,
 			gidAttack = [],
 			attackCount = 0;
 
@@ -389,6 +485,14 @@ var Attack = {
 				result = ClassAttack.doAttack(target, attackCount % 15 === 0);
 
 				if (result) {
+					retry = 0;
+
+					if (result === 2) {
+						monsterList.shift();
+
+						continue;
+					}
+
 					for (i = 0; i < gidAttack.length; i += 1) {
 						if (gidAttack[i].gid === target.gid) {
 							break;
@@ -410,7 +514,8 @@ var Attack = {
 						// Tele in random direction with Blessed Hammer
 						if (gidAttack[i].attacks > 0 && gidAttack[i].attacks % ((target.spectype & 0x7) ? 4 : 2) === 0) {
 							//print("random move m8");
-							Pather.moveTo(me.x + rand(-1, 1) * 5, me.y + rand(-1, 1) * 5);
+							coord = CollMap.getRandCoordinate(me.x, -1, 1, me.y, -1, 1, 5);
+							Pather.moveTo(coord.x, coord.y);
 						}
 
 						break;
@@ -423,14 +528,9 @@ var Attack = {
 						break;
 					}
 
-					// Skip catapults
-					if (target.name == "Catapult") {
-						monsterList.shift();
-					}
-					
 					// Skip non-unique monsters after 15 attacks, except in Throne of Destruction
 					if (me.area !== 131 && !(target.spectype & 0x7) && gidAttack[i].attacks > 15) {
-						print("\xFFc1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
+						print("1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
 						monsterList.shift();
 					}
 
@@ -438,7 +538,12 @@ var Attack = {
 						Pickit.fastPick();
 					}
 				} else {
-					monsterList.shift();
+					if (retry++ > 3) {
+						monsterList.shift();
+						retry = 0;
+					}
+
+					Packet.flash(me.gid);
 				}
 			} else {
 				monsterList.shift();
@@ -505,7 +610,8 @@ var Attack = {
 
 	// Clear an already formed array of monstas
 	clearList: function (mainArg, sortFunc, refresh) {
-		var i, target, result, monsterList,
+		var i, target, result, monsterList, coord,
+			retry = 0,
 			gidAttack = [],
 			attackCount = 0;
 
@@ -552,6 +658,14 @@ var Attack = {
 				result = ClassAttack.doAttack(target, attackCount % 15 === 0);
 
 				if (result) {
+					retry = 0;
+
+					if (result === 2) {
+						monsterList.shift();
+
+						continue;
+					}
+
 					for (i = 0; i < gidAttack.length; i += 1) {
 						if (gidAttack[i].gid === target.gid) {
 							break;
@@ -569,7 +683,8 @@ var Attack = {
 					case 112:
 						// Tele in random direction with Blessed Hammer
 						if (gidAttack[i].attacks > 0 && gidAttack[i].attacks % ((target.spectype & 0x7) ? 5 : 15) === 0) {
-							Pather.moveTo(me.x + rand(-1, 1) * 4, me.y + rand(-1, 1) * 4);
+							coord = CollMap.getRandCoordinate(me.x, -1, 1, me.y, -1, 1, 4);
+							Pather.moveTo(coord.x, coord.y);
 						}
 
 						break;
@@ -584,7 +699,7 @@ var Attack = {
 
 					// Skip non-unique monsters after 15 attacks, except in Throne of Destruction
 					if (me.area !== 131 && !(target.spectype & 0x7) && gidAttack[i].attacks > 15) {
-						print("\xFFc1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
+						print("1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
 						monsterList.shift();
 					}
 
@@ -594,7 +709,12 @@ var Attack = {
 						Pickit.fastPick();
 					}
 				} else {
-					monsterList.shift();
+					if (retry++ > 3) {
+						monsterList.shift();
+						retry = 0;
+					}
+
+					Packet.flash(me.gid);
 				}
 			} else {
 				monsterList.shift();
@@ -741,7 +861,7 @@ var Attack = {
 			say("clearlevel " + getArea().name);
 		}
 
-		var room, result, rooms, myRoom;
+		var room, result, rooms, myRoom, currentArea, previousArea;
 
 		function RoomSort(a, b) {
 			return getDistance(myRoom[0], myRoom[1], a[0], a[1]) - getDistance(myRoom[0], myRoom[1], b[0], b[1]);
@@ -758,6 +878,8 @@ var Attack = {
 		}
 
 		rooms = [];
+
+		currentArea = getArea().id;
 
 		do {
 			rooms.push([room.x * 5 + room.xsize / 2, room.y * 5 + room.ysize / 2]);
@@ -784,11 +906,16 @@ var Attack = {
 
 			if (result) {
 				Pather.moveTo(result[0], result[1], 3, spectype);
+				previousArea = result;
 				//this.countUniques();
 
 				if (!this.clear(40, spectype)) {
 					break;
 				}
+			}
+			// Make sure bot does not get stuck in different area.
+			else if (currentArea !== getArea().id) {
+				Pather.moveTo(previousArea[0], previousArea[1], 3, spectype);
 			}
 		}
 
@@ -1067,6 +1194,10 @@ var Attack = {
 			return false;
 		}
 
+		if (unit.charlvl < 1) { // catapults were returning a level of 0 and hanging up clear scripts
+			return false;
+		}
+
 		if (getBaseStat("monstats", unit.classid, "neverCount")) { // neverCount base stat - hydras, traps etc.
 			return false;
 		}
@@ -1119,7 +1250,7 @@ var Attack = {
 		}
 
 		if ((unit.spectype & 0x7) && Config.SkipException && Config.SkipException.indexOf(unit.name) > -1) {
-			print("\xFFc1Skip Exception: " + unit.name);
+			print("1Skip Exception: " + unit.name);
 			return true;
 		}
 
@@ -1448,7 +1579,7 @@ AuraLoop: // Skip monsters with auras
 				}
 			}
 
-			//print("\xFFc9potential spots: \xFFc2" + coords.length);
+			//print("9potential spots: 2" + coords.length);
 
 			if (coords.length > 0) {
 				coords.sort(Sort.units);
@@ -1456,7 +1587,7 @@ AuraLoop: // Skip monsters with auras
 				for (i = 0; i < coords.length; i += 1) {
 					// Valid position found
 					if (!CollMap.checkColl({x: coords[i].x, y: coords[i].y}, unit, coll, 1)) {
-						//print("\xFFc9optimal pos build time: \xFFc2" + (getTickCount() - t) + " \xFFc9distance from target: \xFFc2" + getDistance(cx, cy, unit.x, unit.y));
+						//print("9optimal pos build time: 2" + (getTickCount() - t) + " 9distance from target: 2" + getDistance(cx, cy, unit.x, unit.y));
 
 						switch (walk) {
 						case 1:
@@ -1484,7 +1615,7 @@ AuraLoop: // Skip monsters with auras
 		}
 
 		if (name) {
-			print("\xFFc4Attack\xFFc0: No valid positions for: " + name);
+			print("Attack: No valid positions for: " + name);
 		}
 
 		return false;

@@ -23,7 +23,7 @@ var Config = {
 					if (CustomConfig.hasOwnProperty(n)) {
 						if (CustomConfig[n].indexOf(me.profile) > -1) {
 							if (notify) {
-								print("\xFFc2Loading custom config: \xFFc9" + n + ".js");
+								print("2Loading custom config: 9" + n + ".js");
 							}
 
 							configFilename = n + ".js";
@@ -67,14 +67,14 @@ var Config = {
 			}
 		} else {
 			if (notify) {
-				print("\xFFc1" + classes[me.classid] + "." + me.charname + ".js not found!"); // Use the primary format
-				print("\xFFc1Loading default config.");
+				print("1" + classes[me.classid] + "." + me.charname + ".js not found!"); // Use the primary format
+				print("1Loading default config.");
 			}
 
 			// Try to find default config
 			if (!FileTools.exists("libs/config/" + classes[me.classid] + ".js")) {
 				D2Bot.printToConsole("Not going well? Read the wiki: https://github.com/kolton/d2bot-with-kolbot/wiki");
-				throw new Error("\xFFc1Default config not found. \n\xFFc9     Try reading the kolbot wiki.");
+				throw new Error("1Default config not found. \n9     Try reading the kolbot wiki.");
 			}
 
 			try {
@@ -82,7 +82,7 @@ var Config = {
 					throw new Error();
 				}
 			} catch (e) {
-				throw new Error("\xFFc1Failed to load default config.");
+				throw new Error("1Failed to load default config.");
 			}
 		}
 
@@ -90,7 +90,7 @@ var Config = {
 			LoadConfig.call();
 		} catch (e2) {
 			if (notify) {
-				print("\xFFc8Error in " + e2.fileName.substring(e2.fileName.lastIndexOf("\\") + 1, e2.fileName.length) + "(line " + e2.lineNumber + "): " + e2.message);
+				print("8Error in " + e2.fileName.substring(e2.fileName.lastIndexOf("\\") + 1, e2.fileName.length) + "(line " + e2.lineNumber + "): " + e2.message);
 
 				throw new Error("Config.init: Error in character config.");
 			}
@@ -101,7 +101,7 @@ var Config = {
 				AutoBuild.initialize();
 			}
 		} catch (e3) {
-			print("\xFFc8Error in libs/common/AutoBuild.js (AutoBuild system is not active!)");
+			print("8Error in libs/common/AutoBuild.js (AutoBuild system is not active!)");
 			print(e3.toSource());
 		}
 	},
@@ -155,6 +155,11 @@ var Config = {
 		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 	],
+	LocalChat: {
+		Enabled: false,
+		Toggle: false,
+		Mode: 0
+	},
 	PublicMode: false,
 	PartyAfterScript: false,
 	Greetings: [],
@@ -165,6 +170,7 @@ var Config = {
 	Leader: "",
 	QuitList: [],
 	QuitListMode: 0,
+	QuitListDelay: [],
 	HPBuffer: 0,
 	MPBuffer: 0,
 	RejuvBuffer: 0,
@@ -182,14 +188,23 @@ var Config = {
 	ScanShrines: [],
 	Debug: false,
 
+	AutoMule: {
+		Trigger: [],
+		Force: [],
+		Exclude: []
+	},
+
 	ItemInfo: false,
 	ItemInfoQuality: [],
 
-	ShowLowRunes: false,
-	ShowMiddleRunes: false,
-	ShowHighRunes: true,
-	ShowLowGems: false,
-	ShowHighGems: false,
+	LogKeys: false,
+	LogOrgans: true,
+	LogLowRunes: false,
+	LogMiddleRunes: false,
+	LogHighRunes: true,
+	LogLowGems: false,
+	LogHighGems: false,
+	SkipLogging: [],
 	ShowCubingInfo: true,
 
 	Cubing: false,
@@ -205,8 +220,8 @@ var Config = {
 	GambleGoldStop: 0,
 	MiniShopBot: false,
 	TeleSwitch: false,
-	MFSwitch: 0,
 	MFSwitchPercent: 0,
+	PrimarySlot: -1,
 	LogExperience: false,
 	TownCheck: false,
 	PingQuit: [{Ping: 0, Duration: 0}],
@@ -236,6 +251,9 @@ var Config = {
 	// Experimental
 	FastParty: false,
 	AutoEquip: false,
+
+	// GameData
+	ChampionBias: 60,
 
 	// Attack specific
 	Dodge: false,
@@ -277,7 +295,7 @@ var Config = {
 
 	// Barbarian specific
 	FindItem: false,
-	FindItemSwitch: 1,
+	FindItemSwitch: false,
 
 	// Druid specific
 	Wereform: 0,
@@ -386,7 +404,8 @@ var Config = {
 		SealWarning: "Leave the seals alone!",
 		EntranceTP: "Entrance TP up",
 		StarTP: "Star TP up",
-		DiabloMsg: "Diablo"
+		DiabloMsg: "Diablo",
+		WalkClear: false
 	},
 	DiabloHelper: {
 		Wait: 120,
@@ -454,7 +473,8 @@ var Config = {
 		Wait: 120
 	},
 	Tristram: {
-		PortalLeech: false
+		PortalLeech: false,
+		WalkClear: false
 	},
 	Travincal: {
 		PortalLeech: false
@@ -487,6 +507,18 @@ var Config = {
 	Rushee: {
 		Quester: false,
 		Bumper: false
+	},
+	AutoSkill: {
+		Enabled: false,
+		Build: [],
+		Save: 0
+	},
+	AutoStat: {
+		Enabled: false,
+		Build: [],
+		Save: 0,
+		BlockChance: 0,
+		UseBulk: true
 	},
 	AutoBuild: {
 		Enabled: false,

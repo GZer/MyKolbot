@@ -113,7 +113,7 @@ var Cubing = {
 				if (NTIPAliasClassID.hasOwnProperty(Config.Recipes[i][1].replace(/\s+/g, "").toLowerCase())) {
 					Config.Recipes[i][1] = NTIPAliasClassID[Config.Recipes[i][1].replace(/\s+/g, "").toLowerCase()];
 				} else {
-					Misc.errorReport("\xFFc1Invalid cubing entry:\xFFc0 " + Config.Recipes[i][1]);
+					Misc.errorReport("1Invalid cubing entry: " + Config.Recipes[i][1]);
 					Config.Recipes.splice(i, 1);
 
 					i -= 1;
@@ -919,6 +919,7 @@ IngredientLoop:
 
 		var i, j, items, string, result, tempArray;
 
+		this.update();
 		// Randomize the recipe array to prevent recipe blocking (multiple caster items etc.)
 		tempArray = this.recipes.slice().shuffle();
 
@@ -948,7 +949,8 @@ IngredientLoop:
 
 				transmute();
 				delay(700 + me.ping);
-				print("\xFFc4Cubing: " + string);
+				print("Cubing: " + string);
+
 				if (Config.ShowCubingInfo) {
 					D2Bot.printToConsole(string, 5);
 				}
@@ -969,9 +971,7 @@ IngredientLoop:
 							break;
 						case 1:
 							Misc.itemLogger("Cubing Kept", items[j]);
-							if (Config.ShowCubingInfo) {
-								Misc.logItem("Cubing Kept", items[j], result.line);
-							}
+							Misc.logItem("Cubing Kept", items[j], result.line);
 
 							break;
 						case 5: // Crafting System

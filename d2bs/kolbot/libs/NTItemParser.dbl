@@ -27,7 +27,7 @@ var NTIP = {},
 NTIP.OpenFile = function (filepath, notify) {
 	if (!FileTools.exists(filepath)) {
 		if (notify) {
-			Misc.errorReport("ÿc1NIP file doesn't exist: ÿc0" + filepath);
+			Misc.errorReport("1NIP file doesn't exist: " + filepath);
 		}
 
 		return false;
@@ -42,7 +42,7 @@ NTIP.OpenFile = function (filepath, notify) {
 		nipfile = File.open(filepath, 0);
 	} catch (fileError) {
 		if (notify) {
-			Misc.errorReport("ÿc1Failed to load NIP: ÿc0" + filename);
+			Misc.errorReport("1Failed to load NIP: " + filename);
 		}
 	}
 
@@ -72,7 +72,7 @@ NTIP.OpenFile = function (filepath, notify) {
 	}
 
 	if (notify) {
-		print("ÿc4Loaded NIP: ÿc2" + filename + "ÿc4. Lines: ÿc2" + lines.length + "ÿc4. Valid entries: ÿc2" + entries + ". ÿc4Time: ÿc2" + (getTickCount() - tick) + " ms");
+		print("Loaded NIP: 2" + filename + ". Lines: 2" + lines.length + ". Valid entries: 2" + entries + ". Time: 2" + (getTickCount() - tick) + " ms");
 	}
 
 	return true;
@@ -195,44 +195,6 @@ NTIP.GetTier = function (item) {
 	return tier;
 };
 
-NTIP.GetMercTier = function (item) {
-	var i,
-		merctier = 0;
-
-	// Go through ALL lines that describe the item
-	for (i = 0; i < NTIP_CheckList.length; i += 1) {
-		if (NTIP_CheckList[i].length === 3 && NTIP_CheckList[i][2].hasOwnProperty("MercTier") && !isNaN(NTIP_CheckList[i][2].MercTier)) {
-			try {
-				if (NTIP_CheckList[i][0].length > 0) {
-					if (eval(NTIP_CheckList[i][0])) {
-						if (NTIP_CheckList[i][1].length > 0) {
-							if (eval(NTIP_CheckList[i][1])) {
-								if (NTIP_CheckList[i][2].MercTier > merctier) {
-									merctier = NTIP_CheckList[i][2].MercTier;
-								}
-							}
-						} else {
-							if (NTIP_CheckList[i][2].MercTier > merctier) {
-								merctier = NTIP_CheckList[i][2].MercTier;
-							}
-						}
-					}
-				} else if (NTIP_CheckList[i][1].length > 0) {
-					if (eval(NTIP_CheckList[i][1])) {
-						if (NTIP_CheckList[i][2].MercTier > merctier) {
-							merctier = NTIP_CheckList[i][2].MercTier;
-						}
-					}
-				}
-			} catch (e) {
-
-			}
-		}
-	}
-
-	return merctier;
-};
-
 NTIP.CheckItem = function (item, entryList, verbose) {
 	var i, list, identified, num,
 		rval = {},
@@ -333,11 +295,11 @@ NTIP.CheckItem = function (item, entryList, verbose) {
 			showConsole();
 
 			if (!entryList) {
-				Misc.errorReport("ÿc1Pickit error! Line # ÿc2" + stringArray[i].line + " ÿc1Entry: ÿc0" + stringArray[i].string + " (" + stringArray[i].file + ") Error message: " + pickError.message + " Trigger item: " + item.fname.split("\n").reverse().join(" "));
+				Misc.errorReport("1Pickit error! Line # 2" + stringArray[i].line + " 1Entry: " + stringArray[i].string + " (" + stringArray[i].file + ") Error message: " + pickError.message + " Trigger item: " + item.fname.split("\n").reverse().join(" "));
 
 				NTIP_CheckList[i] = ["", "", ""]; // make the bad entry blank
 			} else {
-				Misc.errorReport("ÿc1Pickit error in runeword config!");
+				Misc.errorReport("1Pickit error in runeword config!");
 			}
 
 			result = 0;
@@ -609,14 +571,6 @@ NTIP.ParseLineInt = function (input, info) {
 
 				if (!isNaN(value)) {
 					p_result[2].Tier = value;
-				}
-
-				break;
-			case "merctier":
-				value = Number(p_section[i].split("==")[1].match(/\d+/g));
-
-				if (!isNaN(value)) {
-					p_result[2].MercTier = value;
 				}
 
 				break;

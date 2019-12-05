@@ -110,7 +110,7 @@ var Skill = {
 
 			return leap[Math.min(me.getSkill(132, 1) - 1, 24)];
 		case 230: // Arctic Blast
-			var arctic = [5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10, 10, 10, 10, 11, 11, 12]; 
+			var arctic = [5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10, 10, 10, 10, 11, 11, 12];
 
 			return arctic[Math.min(me.getSkill(230, 1) - 1, 19)];
 		case 49: // Lightning
@@ -247,12 +247,12 @@ var Skill = {
 	charges: [],
 
 	// Cast a skill on self, Unit or coords
-	cast: function (skillId, hand, x, y) {
+	cast: function (skillId, hand, x, y, item) {
 		if (me.inTown && !this.townSkill(skillId)) {
 			return false;
 		}
 
-		if (!me.getSkill(skillId, 1)) {
+		if (!item && !me.getSkill(skillId, 1)) {
 			return false;
 		}
 
@@ -260,8 +260,8 @@ var Skill = {
 			return false;
 		}
 
-		// No mana to cast
-		if (this.getManaCost(skillId) > me.mp) {
+		// Check mana cost, charged skills don't use mana
+		if (!item && this.getManaCost(skillId) > me.mp) {
 			// Maybe delay on ALL skills that we don't have enough mana for?
 			if (Config.AttackSkill.concat([42, 54]).concat(Config.LowManaSkill).indexOf(skillId) > -1) {
 				delay(300);
@@ -288,7 +288,7 @@ var Skill = {
 			y = me.y;
 		}
 
-		if (!this.setSkill(skillId, hand)) {
+		if (!this.setSkill(skillId, hand, item)) {
 			return false;
 		}
 
@@ -377,46 +377,24 @@ MainLoop:
 	},
 
 	// Put a skill on desired slot
-	setSkill: function (skillId, hand) {
+	setSkill: function (skillId, hand, item) {
 		// Check if the skill is already set
 		if (me.getSkill(hand === 0 ? 2 : 3) === skillId) {
 			return true;
 		}
 
-		if (!me.getSkill(skillId, 1)) {
+		if (!item && !me.getSkill(skillId, 1)) {
 			return false;
 		}
 
-		if (hand === undefined || hand === 3) {
+		// Charged skills must be cast from right hand
+		if (hand === undefined || hand === 3 || item) {
+			item && hand !== 0 && print('[9Warning] charged skills must be cast from right hand');
 			hand = 0;
 		}
 
-		var charge = this.getCharge(skillId);
-
-		if (!!charge) {
-			// charge.charges is a cached value from Attack.getCharges
-			/*if (charge.charges > 0 && me.setSkill(skillId, hand, charge.unit)) {
-				return true;
-			}*/
-
-			return false;
-		}
-
-		if (me.setSkill(skillId, hand)) {
+		if (me.setSkill(skillId, hand, item)) {
 			return true;
-		}
-
-		return false;
-	},
-
-	// Charged skill
-	getCharge: function (skillId) {
-		var i;
-
-		for (i = 0; i < this.charges.length; i += 1) {
-			if (this.charges[i].skill === skillId && me.getSkill(skillId, 0) === this.charges[i].level && me.getSkill(skillId, 0) === me.getSkill(skillId, 1)) {
-				return this.charges[i];
-			}
 		}
 
 		return false;
@@ -489,7 +467,6 @@ var Item = {
 	hasMercTier: function (item) {
 		return Config.AutoEquip && NTIP.GetMercTier(item) > 0;
 	},
-	
 	canEquip: function (item) {
 		if (item.type !== 4) { // Not an item
 			return false;
@@ -537,8 +514,8 @@ var Item = {
 						cursorItem = getUnit(100);
 
 						if (cursorItem && Pickit.checkItem(cursorItem).result > 0 && (NTIP.GetTier(cursorItem) < 1 || NTIP.GetTier(cursorItem) > 99)) {
-							if (Storage.Inventory.CanFit(cursorItem)) {
-								Storage.Inventory.MoveTo(cursorItem);
+							if (!Storage.Inventory.CanFit(cursorItem) || !Storage.Inventory.MoveTo(cursorItem)) {
+								cursorItem.drop();
 							}
 						}
 					}
@@ -606,8 +583,7 @@ var Item = {
 		}
 
 		return bodyLocMerc;
-	},
-
+	
 	getBodyLoc: function (item) {
 		var bodyLoc;
 
@@ -671,6 +647,7 @@ var Item = {
 		case 44: //
 		case 67: // Handtohand (Assasin Claw)
 		case 68: //
+		case 69: //
 		case 72: //
 		case 85: //
 		case 86: //
@@ -689,7 +666,7 @@ var Item = {
 
 		return bodyLoc;
 	},
-	
+
 	autoEquipCheck: function (item) {
 		if (!Config.AutoEquip) {
 			return true;
@@ -1247,7 +1224,7 @@ var Misc = {
 
 			unit = unitList.shift();
 
-			if (unit && (Pather.useTeleport || !checkCollision(me, unit, 0x4)) && this.openChest(unit)) {
+			if (unit && (Pather.useTeleport() || !checkCollision(me, unit, 0x4)) && this.openChest(unit)) {
 				Pickit.pickItems();
 			}
 		}
@@ -1263,11 +1240,11 @@ var Misc = {
 		}
 
 		if (!range) {
-			range = Pather.useTeleport ? 25 : 15;
+			range = Pather.useTeleport() ? 25 : 15;
 		}
 
 		var i, j, shrine,
-			index  = -1,
+			index = -1,
 			shrineList = [];
 
 		// Initiate shrine states
@@ -1334,7 +1311,7 @@ var Misc = {
 					// Get the shrine if we have no active state or to refresh current state or if the shrine has no state
 					// Don't override shrine state with a lesser priority shrine
 					if (index === -1 || i <= index || this.shrineStates[i] === 0) {
-						if (shrineList[j].objtype === Config.ScanShrines[i] && (Pather.useTeleport || !checkCollision(me, shrineList[j], 0x4))) {
+						if (shrineList[j].objtype === Config.ScanShrines[i] && (Pather.useTeleport() || !checkCollision(me, shrineList[j], 0x4))) {
 							this.getShrine(shrineList[j]);
 
 							// Gem shrine - pick gem
@@ -1419,7 +1396,7 @@ var Misc = {
 	},
 
 	getItemDesc: function (unit) {
-		var i, desc,
+		var i, desc, index,
 			stringColor = "";
 
 		desc = unit.description;
@@ -1437,14 +1414,20 @@ var Misc = {
 
 				i -= 1;
 			} else {
-				if (desc[i].match(/^(y|\xFF)c/)) {
-					stringColor = desc[i].substring(0, 3);
-				} else {
+				// Add color info
+				if (!desc[i].match(/^(y|ÿ)c/)) {
 					desc[i] = stringColor + desc[i];
+				}
+
+				// Find and store new color info
+				index = desc[i].lastIndexOf("");
+
+				if (index > -1) {
+					stringColor = desc[i].substring(index, index + "ÿ".length + 2);
 				}
 			}
 
-			desc[i] = desc[i].replace(/(y|\xFF)c([0-9!"+<;.*])/g, "\\xffc$2");
+			desc[i] = desc[i].replace(/(y|ÿ)c([0-9!"+<:;.*])/g, "\\xffc$2");
 		}
 
 		if (desc[desc.length - 1]) {
@@ -1532,10 +1515,7 @@ var Misc = {
 
 		var desc,
 			date = new Date(),
-			h = date.getHours(),
-			m = date.getMinutes(),
-			s = date.getSeconds(),
-			dateString = "[" + (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s) + "]";
+			dateString = "[" + new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString().slice(0,-5).replace(/-/g, '/').replace('T', ' ') + "]";
 
 		switch (action) {
 		case "Sold":
@@ -1543,7 +1523,7 @@ var Misc = {
 				return false;
 			}
 
-			desc = this.getItemDesc(unit).split("\n").join(" | ").replace(/(\\xff|\xFF)c[0-9!"+<;.*]/gi, "").trim();
+			desc = this.getItemDesc(unit).split("\n").join(" | ").replace(/(\\xff|ÿ)c[0-9!"+<:;.*]/gi, "").trim();
 
 			break;
 		case "Kept":
@@ -1553,7 +1533,7 @@ var Misc = {
 		case "Shopped":
 		case "Gambled":
 		case "Dropped":
-			desc = this.getItemDesc(unit).split("\n").join(" | ").replace(/(\\xff|\xFF)c[0-9!"+<;.*]|\/|\\/gi, "").trim();
+			desc = this.getItemDesc(unit).split("\n").join(" | ").replace(/(\\xff|ÿ)c[0-9!"+<:;.*]|\/|\\/gi, "").trim();
 
 			break;
 		case "No room for":
@@ -1561,15 +1541,11 @@ var Misc = {
 
 			break;
 		default:
-			desc = unit.fname.split("\n").reverse().join(" ").replace(/(\\xff|\xFF)c[0-9!"+<;.*]|\/|\\/gi, "").trim();
+			desc = unit.fname.split("\n").reverse().join(" ").replace(/(\\xff|ÿ)c[0-9!"+<:;.*]|\/|\\/gi, "").trim();
 
 			break;
 		}
 
-		if((action == "Dropped" || action == "Sold") && (unit.quality == 7 || unit.quality == 5)) {
-			this.logItem( action, unit );
-		}
-		
 		return this.fileAction("logs/ItemLog.txt", 2, dateString + " <" + me.profile + "> <" + action + "> (" + Pickit.itemQualityToName(unit.quality) + ") " + desc + (text ? " {" + text + "}" : "") + "\n");
 	},
 
@@ -1579,9 +1555,45 @@ var Misc = {
 			return false;
 		}
 
-		var i, lastArea, code, desc, sock, itemObj,
+		var i;
+
+		if (!Config.LogKeys && ["pk1", "pk2", "pk3"].indexOf(unit.code) > -1) {
+			return false;
+		}
+
+		if (!Config.LogOrgans && ["dhn", "bey", "mbr"].indexOf(unit.code) > -1) {
+			return false;
+		}
+
+		if (!Config.LogLowRunes && ["r01", "r02", "r03", "r04", "r05", "r06", "r07", "r08", "r09", "r10", "r11", "r12", "r13", "r14"].indexOf(unit.code) > -1) {
+			return false;
+		}
+
+		if (!Config.LogMiddleRunes && ["r15", "r16", "r17", "r18", "r19", "r20", "r21", "r22", "r23"].indexOf(unit.code) > -1) {
+			return false;
+		}
+
+		if (!Config.LogHighRunes && ["r24", "r25", "r26", "r27", "r28", "r29", "r30", "r31", "r32", "r33"].indexOf(unit.code) > -1) {
+			return false;
+		}
+
+		if (!Config.LogLowGems && ["gcv", "gcy", "gcb", "gcg", "gcr", "gcw", "skc", "gfv", "gfy", "gfb", "gfg", "gfr", "gfw", "skf", "gsv", "gsy", "gsb", "gsg", "gsr", "gsw", "sku"].indexOf(unit.code) > -1) {
+			return false;
+		}
+
+		if (!Config.LogHighGems && ["gzv", "gly", "glb", "glg", "glr", "glw", "skl", "gpv", "gpy", "gpb", "gpg", "gpr", "gpw", "skz"].indexOf(unit.code) > -1) {
+			return false;
+		}
+
+		for (i = 0; i < Config.SkipLogging.length; i++) {
+			if (Config.SkipLogging[i] === unit.classid || Config.SkipLogging[i] === unit.code) {
+				return false;
+			}
+		}
+
+		var lastArea, code, desc, sock, itemObj,
 			color = -1,
-			name = unit.fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]|\/|\\/, "").trim();
+			name = unit.fname.split("\n").reverse().join(" ").replace(/[0-9!"+<:;.*]|\/|\\/g, "").trim();
 
 		desc = this.getItemDesc(unit);
 		color = unit.getColor();
@@ -1713,7 +1725,7 @@ var Misc = {
 				break;
 			case 7: // Unique
 				for (i = 0; i < 401; i += 1) {
-					if (unit.fname.split("\n").reverse()[0].indexOf(getLocaleString(getBaseStat(17, i, 2))) > -1) {
+					if (unit.code === getBaseStat(17, i, 4).trim() && unit.fname.split("\n").reverse()[0].indexOf(getLocaleString(getBaseStat(17, i, 2))) > -1) {
 						code = getBaseStat(17, i, "invfile");
 
 						break;
@@ -1753,6 +1765,8 @@ var Misc = {
 			desc += ("\n\\xffc0Line: " + keptLine);
 		}
 
+		desc += "$" + (unit.getFlag(0x400000) ? ":eth" : "");
+
 		itemObj = {
 			title: action + " " + name,
 			description: desc,
@@ -1766,6 +1780,44 @@ var Misc = {
 		D2Bot.printToItemLog(itemObj);
 
 		return true;
+	},
+
+	// skip low items: MuleLogger
+	skipItem: function (id) {
+		switch (id) {
+		//case 549: // horadric cube
+		case   0: // hand axe
+		case  10: // wand
+		case  14: // club
+		case  25: // shortsword
+		case  47: // javelin
+		case  63: // shortstaff
+		case 175: // katar
+		case 328: // buckler
+		case 513: // stamina potion
+		case 514: // antidote potion
+		case 515: // rejuvenationpotion
+		case 516: // fullrejuvenationpotion
+		case 517: // thawing potion
+		case 518: // tomeoftownportal
+		case 519: // tomeofidentify
+		case 529: // scrolloftownportal
+		case 530: // scrollofidentify
+		case 543: // key
+		case 587: // minorhealingpotion
+		case 588: // lighthealingpotion
+		case 589: // healingpotion
+		case 590: // greathealingpotion
+		case 591: // superhealingpotion
+		case 592: // minormanapotion
+		case 593: // lightmanapotion
+		case 594: // manapotion
+		case 595: // greatermanapotion
+		case 596: // supermanapotion
+			return true;
+		}
+
+		return false;
 	},
 
 	// Change into werewolf or werebear
@@ -1839,15 +1891,6 @@ var Misc = {
 		}
 
 		return false;
-	},
-
-	// Teleport with slot II
-	teleSwitch: function () {
-		this.oldSwitch = me.weaponswitch;
-
-		Precast.weaponSwitch();
-
-		return true;
 	},
 
 	// Go to town when low on hp/mp or when out of potions. can be upgraded to check for curses etc.
@@ -2026,23 +2069,21 @@ MainLoop:
 
 	// Report script errors to logs/ScriptErrorLog.txt
 	errorReport: function (error, script) {
-		var i, h, m, s, date, msg, oogmsg, filemsg, source, stack,
+		var i, date, dateString, msg, oogmsg, filemsg, source, stack,
 			stackLog = "";
 
 		date = new Date();
-		h = date.getHours();
-		m = date.getMinutes();
-		s = date.getSeconds();
+		dateString = "[" + new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString().slice(0,-5).replace(/-/g, '/').replace('T', ' ') + "]";
 
 		if (typeof error === "string") {
 			msg = error;
-			oogmsg = error.replace(/\xFFc[0-9!"+<;.*]/gi, "");
-			filemsg = "[" + (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s) + "] <" + me.profile + "> " + error.replace(/\xFFc[0-9!"+<;.*]/gi, "") + "\n";
+			oogmsg = error.replace(/[0-9!"+<:;.*]/gi, "");
+			filemsg = dateString + " <" + me.profile + "> " + error.replace(/[0-9!"+<:;.*]/gi, "") + "\n";
 		} else {
 			source = error.fileName.substring(error.fileName.lastIndexOf("\\") + 1, error.fileName.length);
-			msg = "\xFFc1Error in \xFFc0" + script + " \xFFc1(" + source + " line \xFFc1" + error.lineNumber + "): \xFFc1" + error.message;
+			msg = "1Error in " + script + " 1(" + source + " line 1" + error.lineNumber + "): 1" + error.message;
 			oogmsg = " Error in " + script + " (" + source + " #" + error.lineNumber + ") " + error.message + " (Area: " + me.area + ", Ping:" + me.ping + ", Game: " + me.gamename + ")";
-			filemsg = "[" + (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s) + "] <" + me.profile + "> " + msg.replace(/\xFFc[0-9!"+<;.*]/gi, "") + "\n";
+			filemsg = dateString + " <" + me.profile + "> " + msg.replace(/[0-9!"+<:;.*]/gi, "") + "\n";
 
 			if (error.hasOwnProperty("stack")) {
 				stack = error.stack;
@@ -2201,6 +2242,27 @@ MainLoop:
 		}
 
 		return false;
+	},
+
+	getUIFlags: function (excluded = []) { // returns array of UI flags that are set, or null if none are set
+		if (!me.gameReady) {
+			return null;
+		}
+
+		const MAX_FLAG = 37;
+		let flags = [];
+
+		if (typeof excluded !== 'object' || excluded.length === undefined) {
+			excluded = [excluded]; // not an array-like object, make it an array
+		}
+
+		for (let c = 1; c <= MAX_FLAG; c++) { // anything over 37 crashes
+			if (c !== 0x23 && excluded.indexOf(c) === -1 && getUIFlag(c)) { // 0x23 is always set in-game
+				flags.push(c);
+			}
+		}
+
+		return flags.length ? flags : null;
 	}
 };
 
@@ -2228,7 +2290,24 @@ var Sort = {
 var Experience = {
 	totalExp: [0, 0, 500, 1500, 3750, 7875, 14175, 22680, 32886, 44396, 57715, 72144, 90180, 112725, 140906, 176132, 220165, 275207, 344008, 430010, 537513, 671891, 839864, 1049830, 1312287, 1640359, 2050449, 2563061, 3203826, 3902260, 4663553, 5493363, 6397855, 7383752, 8458379, 9629723, 10906488, 12298162, 13815086, 15468534, 17270791, 19235252, 21376515, 23710491, 26254525, 29027522, 32050088, 35344686, 38935798, 42850109, 47116709, 51767302, 56836449, 62361819, 68384473, 74949165, 82104680, 89904191, 98405658, 107672256, 117772849, 128782495, 140783010, 153863570, 168121381, 183662396, 200602101, 219066380, 239192444, 261129853, 285041630, 311105466, 339515048, 370481492, 404234916, 441026148, 481128591, 524840254, 572485967, 624419793, 681027665, 742730244, 809986056, 883294891, 963201521, 1050299747, 1145236814, 1248718217, 1361512946, 1484459201, 1618470619, 1764543065, 1923762030, 2097310703, 2286478756, 2492671933, 2717422497, 2962400612, 3229426756, 3520485254, 0, 0],
 	nextExp: [0, 500, 1000, 2250, 4125, 6300, 8505, 10206, 11510, 13319, 14429, 18036, 22545, 28181, 35226, 44033, 55042, 68801, 86002, 107503, 134378, 167973, 209966, 262457, 328072, 410090, 512612, 640765, 698434, 761293, 829810, 904492, 985897, 1074627, 1171344, 1276765, 1391674, 1516924, 1653448, 1802257, 1964461, 2141263, 2333976, 2544034, 2772997, 3022566, 3294598, 3591112, 3914311, 4266600, 4650593, 5069147, 5525370, 6022654, 6564692, 7155515, 7799511, 8501467, 9266598, 10100593, 11009646, 12000515, 13080560, 14257811, 15541015, 16939705, 18464279, 20126064, 21937409, 23911777, 26063836, 28409582, 30966444, 33753424, 36791232, 40102443, 43711663, 47645713, 51933826, 56607872, 61702579, 67255812, 73308835, 79906630, 87098226, 94937067, 103481403, 112794729, 122946255, 134011418, 146072446, 159218965, 173548673, 189168053, 206193177, 224750564, 244978115, 267026144, 291058498, 0, 0],
-
+	expCurve: [13, 16, 110, 159, 207, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 225, 174, 92, 38, 5],
+	expPenalty: [1024, 976, 928, 880, 832, 784, 736, 688, 640, 592, 544, 496, 448, 400, 352, 304, 256, 192, 144, 108, 81, 61, 46, 35, 26, 20, 15, 11, 8, 6, 5],
+	monsterExp: [
+		[1, 1, 1], [30, 78, 117], [40, 104, 156], [50, 131, 197], [60, 156, 234], [70, 182, 273], [80, 207, 311], [90, 234, 351], [100, 260, 390], [110, 285, 428], [120, 312, 468],
+		[130, 338, 507], [140, 363, 545], [154, 401, 602], [169, 440, 660], [186, 482, 723], [205, 533, 800], [225, 584, 876], [248, 644, 966], [273, 708, 1062], [300, 779, 1169],
+		[330, 857, 1286], [363, 942, 1413], [399, 1035, 1553], [439, 1139, 1709], [470, 1220, 1830], [503, 1305, 1958], [538, 1397, 2096], [576, 1494, 2241], [616, 1598, 2397],
+		[659, 1709, 2564], [706, 1832, 2748], [755, 1958, 2937], [808, 2097, 3146], [864, 2241, 3362], [925, 2399, 3599], [990, 2568, 3852], [1059, 2745, 4118], [1133, 2939, 4409],
+		[1212, 3144, 4716], [1297, 3365, 5048], [1388, 3600, 5400], [1485, 3852, 5778], [1589, 4121, 6182], [1693, 4409, 6614], [1797, 4718, 7077], [1901, 5051, 7577],
+		[2005, 5402, 8103], [2109, 5783, 8675], [2213, 6186, 9279], [2317, 6618, 9927], [2421, 7080, 10620], [2525, 7506, 11259], [2629, 7956, 11934], [2733, 8435, 12653],
+		[2837, 8942, 13413], [2941, 9477, 14216], [3045, 10044, 15066], [3149, 10647, 15971], [3253, 11286, 16929], [3357, 11964, 17946], [3461, 12680, 19020],
+		[3565, 13442, 20163], [3669, 14249, 21374], [3773, 15104, 22656], [3877, 16010, 24015], [3981, 16916, 25374], [4085, 17822, 26733], [4189, 18728, 28092],
+		[4293, 19634, 29451], [4397, 20540, 30810], [4501, 21446, 32169], [4605, 22352, 33528], [4709, 23258, 34887], [4813, 24164, 36246], [4917, 25070, 37605],
+		[5021, 25976, 38964], [5125, 26882, 40323], [5229, 27788, 41682], [5333, 28694, 43041], [5437, 29600, 44400], [5541, 30506, 45759], [5645, 31412, 47118],
+		[5749, 32318, 48477], [5853, 33224, 49836], [5957, 34130, 51195], [6061, 35036, 52554], [6165, 35942, 53913], [6269, 36848, 55272], [6373, 37754, 56631],
+		[6477, 38660, 57990], [6581, 39566, 59349], [6685, 40472, 60708], [6789, 41378, 62067], [6893, 42284, 63426], [6997, 43190, 64785], [7101, 44096, 66144],
+		[7205, 45002, 67503], [7309, 45908, 68862], [7413, 46814, 70221], [7517, 47720, 71580], [7621, 48626, 72939], [7725, 49532, 74298], [7829, 50438, 75657],
+		[7933, 51344, 77016], [8037, 52250, 78375], [8141, 53156, 79734], [8245, 54062, 81093], [8349, 54968, 82452], [8453, 55874, 83811], [160000, 160000, 160000]
+	],
 	// Percent progress into the current level. Format: xx.xx%
 	progress: function () {
 		return me.getStat(12) === 99 ? 0 : (((me.getStat(13) - this.totalExp[me.getStat(12)]) / this.nextExp[me.getStat(12)]) * 100).toFixed(2);
@@ -2318,36 +2397,35 @@ var Packet = {
 			return true;
 		}
 
-		var i, j;
+		var i, tick;
 
 		for (i = 0; i < 5; i += 1) {
-			if (getDistance(me, unit) > 5) {
+			if (getDistance(me, unit) > 4) {
 				Pather.moveToUnit(unit);
 			}
 
-			if (i > 0) {
-				Packet.flash(me.gid);
-			}
+			sendPacket(1, 0x13, 4, 1, 4, unit.gid);
+			tick = getTickCount();
 
-			if (!getUIFlag(0x08)) {
-				sendPacket(1, 0x13, 4, 1, 4, unit.gid);
-			}
-
-			for (j = 0; j < 40; j += 1) {
-				if (j > 0 && j % 8 === 0 && !getUIFlag(0x08)) {
-					me.cancel();
-					delay(300);
-					sendPacket(1, 0x13, 4, 1, 4, unit.gid);
-				}
-
+			while (getTickCount() - tick < 5000) {
 				if (getUIFlag(0x08)) {
 					delay(Math.max(500, me.ping * 2));
 
 					return true;
 				}
 
-				delay(25);
+				if (getInteractedNPC() && getTickCount() - tick > 1000) {
+					me.cancel();
+				}
+
+				delay(100);
 			}
+
+			sendPacket(1, 0x2f, 4, 1, 4, unit.gid);
+			delay(me.ping * 2);
+			sendPacket(1, 0x30, 4, 1, 4, unit.gid);
+			delay(me.ping * 2);
+			this.flash(me.gid);
 		}
 
 		return false;
@@ -2598,9 +2676,12 @@ CursorLoop:
 		return false;
 	},
 
-	flash: function (gid) {
-		// disabling packet flash
-		// sendPacket(1, 0x4b, 4, 0, 4, gid);
+	flash: function (gid, wait = 300 + 2 * me.ping) {
+		sendPacket(1, 0x4b, 4, 0, 4, gid);
+
+		if (wait > 0) {
+			delay(wait);
+		}
 	},
 
 	changeStat: function (stat, value) {
@@ -2623,6 +2704,129 @@ CursorLoop:
 	},
 
 	removeListener: callback => removeEventListener('gamepacket', callback), // just a wrapper
+};
+
+/*
+
+new PacketBuilder() - create new packet object
+
+Example (Spoof 'reassign player' packet to client):
+	new PacketBuilder().byte(0x15).byte(0).dword(me.gid).word(x).word(y).byte(1).get();
+
+Example (Spoof 'player move' packet to server):
+	new PacketBuilder().byte(0x3).word(x).word(y).send();
+*/
+
+function PacketBuilder () {
+	/* globals DataView ArrayBuffer */
+	if (this.__proto__.constructor !== PacketBuilder) {
+		throw new Error("PacketBuilder must be called with 'new' operator!");
+	}
+
+	let queue = [], count = 0;
+
+	let enqueue = (type, size) => (...args) => { // accepts any number of arguments
+		args.forEach(arg => {
+			if (type === 'String') {
+				arg = stringToEUC(arg);
+				size = arg.length + 1;
+			}
+
+			queue.push({type: type, size: size, data: arg});
+			count += size;
+		});
+
+		return this;
+	};
+
+	this.float = enqueue("Float32", 4);
+	this.dword = enqueue("Uint32", 4);
+	this.word = enqueue("Uint16", 2);
+	this.byte = enqueue("Uint8", 1);
+	this.string = enqueue("String");
+
+	this.buildDataView = () => {
+		let dv = new DataView(new ArrayBuffer(count)), i = 0;
+		queue.forEach(field => {
+			if (field.type === "String") {
+				for (let l = 0; l < field.data.length; l++) {
+					dv.setUint8(i++, field.data.charCodeAt(l), true);
+				}
+
+				i += field.size - field.data.length; // fix index for field.size !== field.data.length
+			} else {
+				dv['set' + field.type](i, field.data, true);
+				i += field.size;
+			}
+		});
+
+		return dv;
+	};
+
+	this.send = () => (sendPacket(this.buildDataView().buffer), this);
+	this.spoof = () => (getPacket(this.buildDataView().buffer), this);
+	this.get = this.spoof; // same thing but spoof has clearer intent than get
+};
+
+var LocalChat = new function () {
+	const LOCAL_CHAT_ID = 0xD2BAAAA;
+	let toggle, proxy = say;
+
+	let relay = (msg) => D2Bot.shoutGlobal(JSON.stringify({ msg: msg, realm: me.realm, charname: me.charname, gamename: me.gamename }), LOCAL_CHAT_ID);
+
+	let onChatInput = (speaker, msg) => {
+		relay(msg);
+		return true;
+	};
+
+	let onChatRecv = (mode, msg) => {
+		if (mode !== LOCAL_CHAT_ID) {
+			return;
+		}
+
+		msg = JSON.parse(msg);
+
+		if (me.gamename === msg.gamename && me.realm === msg.realm) {
+			new PacketBuilder().byte(38).byte(1, me.locale).word(2, 0, 0).byte(90).string(msg.charname, msg.msg).get();
+		}
+	};
+
+	let onKeyEvent = (key) => {
+		if (toggle === key) {
+			this.init(true);
+		}
+	};
+
+	this.init = (cycle = false) => {
+		if (!Config.LocalChat.Enabled) {
+			return;
+		}
+
+		Config.LocalChat.Mode = (Config.LocalChat.Mode + cycle) % 3;
+		print("2LocalChat enabled. Mode: " + Config.LocalChat.Mode);
+
+		switch (Config.LocalChat.Mode) {
+		case 2:
+			removeEventListener("chatinputblocker", onChatInput);
+			addEventListener("chatinputblocker", onChatInput);
+		case 1:
+			removeEventListener("copydata", onChatRecv);
+			addEventListener("copydata", onChatRecv);
+			say = (msg, force = false) => force ? proxy(msg) : relay(msg);
+			break;
+		case 0:
+			removeEventListener("chatinputblocker", onChatInput);
+			removeEventListener("copydata", onChatRecv);
+			say = proxy;
+			break;
+		}
+
+		if (Config.LocalChat.Toggle) {
+			toggle = typeof Config.LocalChat.Toggle === 'string' ? Config.LocalChat.Toggle.charCodeAt(0) : Config.LocalChat.Toggle;
+			Config.LocalChat.Toggle = false;
+			addEventListener("keyup", onKeyEvent);
+		}
+	};
 };
 
 var Messaging = {

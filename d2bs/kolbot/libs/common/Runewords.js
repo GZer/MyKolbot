@@ -60,53 +60,29 @@ var Runeword = {
 	Wind: [638, 610], // Sur + El
 
 	// Don't use ladder-only on NL
-	// Brand: me.ladder ? [640, 637, 632, 634] : false, // Jah + Lo + Mal + Gul
-	// Death: me.ladder ? [624, 610, 635, 618, 634] : false, // Hel + El + Vex + Ort + Gul
-	// Destruction: me.ladder ? [635, 637, 639, 640, 627] : false, // Vex + Lo + Ber + Jah + Ko
-	// Dragon: me.ladder ? [638, 637, 621] : false, // Sur + Lo + Sol
-	// Dream: me.ladder ? [625, 640, 630] : false, // Io + Jah + Pul
-	// Edge: me.ladder ? [612, 616, 620] : false, // Tir + Tal + Amn
-	// Faith: me.ladder ? [636, 640, 629, 611] : false, // Ohm + Jah + Lem + Eld
-	// Fortitude: me.ladder ? [610, 621, 623, 637] : false, // El + Sol + Dol + Lo
-	// Grief: me.ladder ? [614, 612, 637, 632, 617] : false, // Eth + Tir + Lo + Mal + Ral
-	// Harmony: me.ladder ? [612, 615, 621, 627] : false, // Tir + Ith + Sol + Ko
-	// Ice: me.ladder ? [620, 622, 640, 637] : false, // Amn + Shael + Jah + Lo
-	// "Infinity": me.ladder ? [639, 632, 639, 633] : false, // Ber + Mal + Ber + Ist
-	// Insight: me.ladder ? [617, 612, 616, 621] : false, // Ral + Tir + Tal + Sol
-	// LastWish: me.ladder ? [640, 632, 640, 638, 640, 639] : false, // Jah + Mal + Jah + Sur + Jah + Ber
-	// Lawbringer: me.ladder ? [620, 629, 627] : false, // Amn + Lem + Ko
-	// Oath: me.ladder ? [622, 630, 632, 626] : false, // Shael + Pul + Mal + Lum
-	// Obedience: me.ladder ? [624, 627, 619, 614, 628] : false, // Hel + Ko + Thul + Eth + Fal
-	// Phoenix: me.ladder ? [635, 635, 637, 640] : false, // Vex + Vex + Lo + Jah
-	// Pride: me.ladder ? [641, 638, 625, 637] : false, // Cham + Sur + Io + Lo
-	// Rift: me.ladder ? [624, 627, 629, 634] : false, // Hel + Ko + Lem + Gul
-	// Spirit: me.ladder ? [616, 619, 618, 620] : false, // Tal + Thul + Ort + Amn
-	// VoiceofReason: me.ladder ? [629, 627, 610, 611] : false, // Lem + Ko + El + Eld
-	// Wrath: me.ladder ? [630, 626, 639, 632] : false, // Pul + Lum + Ber + Mal
-	// Brand: me.ladder ? [640, 637, 632, 634] : false, // Jah + Lo + Mal + Gul
-	
-	Death: [624, 610, 635, 618, 634], // Hel + El + Vex + Ort + Gul
-	Destruction: [635, 637, 639, 640, 627], // Vex + Lo + Ber + Jah + Ko
-	Dragon: [638, 637, 621], // Sur + Lo + Sol
-	Dream: [625, 640, 630], // Io + Jah + Pul
-	Edge: [612, 616, 620], // Tir + Tal + Amn
-	Faith: [636, 640, 629, 611], // Ohm + Jah + Lem + Eld
-	Fortitude: [610, 621, 623, 637], // El + Sol + Dol + Lo
-	Grief: [614, 612, 637, 632, 617], // Eth + Tir + Lo + Mal + Ral
-	Harmony: [612, 615, 621, 627], // Tir + Ith + Sol + Ko
-	Ice: [620, 622, 640, 637], // Amn + Shael + Jah + Lo
-	"Infinity": [639, 632, 639, 633], // Ber + Mal + Ber + Ist
-	Insight: [617, 612, 616, 621], // Ral + Tir + Tal + Sol
-	LastWish: [640, 632, 640, 638, 640, 639], // Jah + Mal + Jah + Sur + Jah + Ber
-	Lawbringer: [620, 629, 627], // Amn + Lem + Ko
-	Oath: [622, 630, 632, 626], // Shael + Pul + Mal + Lum
-	Obedience: [624, 627, 619, 614, 628], // Hel + Ko + Thul + Eth + Fal
-	Phoenix: [635, 635, 637, 640], // Vex + Vex + Lo + Jah
-	Pride: [641, 638, 625, 637], // Cham + Sur + Io + Lo
-	Rift: [624, 627, 629, 634], // Hel + Ko + Lem + Gul
-	Spirit: [616, 619, 618, 620], // Tal + Thul + Ort + Amn
-	VoiceofReason: [629, 627, 610, 611], // Lem + Ko + El + Eld
-	Wrath: [630, 626, 639, 632], // Pul + Lum + Ber + Mal
+	Brand: me.ladder ? [640, 637, 632, 634] : false, // Jah + Lo + Mal + Gul
+	Death: me.ladder ? [624, 610, 635, 618, 634] : false, // Hel + El + Vex + Ort + Gul
+	Destruction: me.ladder ? [635, 637, 639, 640, 627] : false, // Vex + Lo + Ber + Jah + Ko
+	Dragon: me.ladder ? [638, 637, 621] : false, // Sur + Lo + Sol
+	Dream: me.ladder ? [625, 640, 630] : false, // Io + Jah + Pul
+	Edge: me.ladder ? [612, 616, 620] : false, // Tir + Tal + Amn
+	Faith: me.ladder ? [636, 640, 629, 611] : false, // Ohm + Jah + Lem + Eld
+	Fortitude: me.ladder ? [610, 621, 623, 637] : false, // El + Sol + Dol + Lo
+	Grief: me.ladder ? [614, 612, 637, 632, 617] : false, // Eth + Tir + Lo + Mal + Ral
+	Harmony: me.ladder ? [612, 615, 621, 627] : false, // Tir + Ith + Sol + Ko
+	Ice: me.ladder ? [620, 622, 640, 637] : false, // Amn + Shael + Jah + Lo
+	"Infinity": me.ladder ? [639, 632, 639, 633] : false, // Ber + Mal + Ber + Ist
+	Insight: me.ladder ? [617, 612, 616, 621] : false, // Ral + Tir + Tal + Sol
+	LastWish: me.ladder ? [640, 632, 640, 638, 640, 639] : false, // Jah + Mal + Jah + Sur + Jah + Ber
+	Lawbringer: me.ladder ? [620, 629, 627] : false, // Amn + Lem + Ko
+	Oath: me.ladder ? [622, 630, 632, 626] : false, // Shael + Pul + Mal + Lum
+	Obedience: me.ladder ? [624, 627, 619, 614, 628] : false, // Hel + Ko + Thul + Eth + Fal
+	Phoenix: me.ladder ? [635, 635, 637, 640] : false, // Vex + Vex + Lo + Jah
+	Pride: me.ladder ? [641, 638, 625, 637] : false, // Cham + Sur + Io + Lo
+	Rift: me.ladder ? [624, 627, 629, 634] : false, // Hel + Ko + Lem + Gul
+	Spirit: me.ladder ? [616, 619, 618, 620] : false, // Tal + Thul + Ort + Amn
+	VoiceofReason: me.ladder ? [629, 627, 610, 611] : false, // Lem + Ko + El + Eld
+	Wrath: me.ladder ? [630, 626, 639, 632] : false, // Pul + Lum + Ber + Mal
 
 	// 1.11
 	Bone: [621, 631, 631], // Sol + Um + Um
@@ -155,7 +131,7 @@ var Runewords = {
 					if (NTIPAliasClassID.hasOwnProperty(Config.Runewords[i][1].replace(/\s+/g, "").toLowerCase())) {
 						Config.Runewords[i][1] = NTIPAliasClassID[Config.Runewords[i][1].replace(/\s+/g, "").toLowerCase()];
 					} else {
-						Misc.errorReport("\xFFc1Invalid runewords entry:\xFFc0 " + Config.Runewords[i][1]);
+						Misc.errorReport("1Invalid runewords entry: " + Config.Runewords[i][1]);
 						Config.Runewords.splice(i, 1);
 
 						i -= 1;
@@ -185,10 +161,10 @@ var Runewords = {
 
 		for (i = 0; i < Config.Runewords.length; i += 1) {
 			if (!baseCheck) {
-				baseCheck = this.getBase(Config.Runewords[i][0], Config.Runewords[i][1]) || this.getBase(Config.Runewords[i][0], Config.Runewords[i][1], true);
+				baseCheck = this.getBase(Config.Runewords[i][0], Config.Runewords[i][1], (Config.Runewords[i][2]||0)) || this.getBase(Config.Runewords[i][0], Config.Runewords[i][1], (Config.Runewords[i][2]||0), true);
 			}
 
-			if (this.getBase(Config.Runewords[i][0], Config.Runewords[i][1])) {
+			if (this.getBase(Config.Runewords[i][0], Config.Runewords[i][1], (Config.Runewords[i][2]||0))) {
 RuneLoop:
 				for (j = 0; j < Config.Runewords[i][0].length; j += 1) {
 					for (k = 0; k < items.length; k += 1) {
@@ -249,7 +225,7 @@ RuneLoop:
 
 		for (i = 0; i < Config.Runewords.length; i += 1) {
 			itemList = []; // reset item list
-			base = this.getBase(Config.Runewords[i][0], Config.Runewords[i][1]); // check base
+			base = this.getBase(Config.Runewords[i][0], Config.Runewords[i][1], (Config.Runewords[i][2]||0)); // check base
 
 			if (base) {
 				itemList.push(base); // push the base
@@ -301,7 +277,7 @@ RuneLoop:
 		optional reroll argument = gets a runeword that needs rerolling
 		rigged to accept item or classid as 2nd arg
 	*/
-	getBase: function (runeword, base, reroll) {
+	getBase: function (runeword, base, ethFlag, reroll) {
 		var item;
 
 		if (typeof base === "object") {
@@ -317,12 +293,10 @@ RuneLoop:
 						better check than getFlag(0x4000000) because randomly socketed items return false for it
 					*/
 
-					if (reroll && item.getItem() && !NTIP.CheckItem(item, this.pickitEntries)) {
-						return copyUnit(item);
-					}
-
-					if (!reroll && !item.getItem()) {
-						return copyUnit(item);
+					if ((!reroll && !item.getItem()) || (reroll && item.getItem() && !NTIP.CheckItem(item, this.pickitEntries))) {
+						if (!ethFlag || (ethFlag === 1 && item.getFlag(0x400000)) || (ethFlag === 2 && !item.getFlag(0x400000))) {
+							return copyUnit(item);
+						}
 					}
 				}
 			} while (typeof base !== "object" && item.getNext());
@@ -413,8 +387,8 @@ RuneLoop:
 				this.socketItem(items[0], items[i]);
 			}
 
-			print("\xFFc4Runewords: \xFFc0Made runeword: " + items[0].fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]/, ""));
-			D2Bot.printToConsole("Made runeword: " + items[0].fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]/, ""), 5);
+			print("Runewords: Made runeword: " + items[0].fname.split("\n").reverse().join(" ").replace(/[0-9!"+<;.*]/, ""));
+			D2Bot.printToConsole("Made runeword: " + items[0].fname.split("\n").reverse().join(" ").replace(/[0-9!"+<;.*]/, ""), 5);
 
 			if (NTIP.CheckItem(items[0], this.pickitEntries)) {
 				Misc.itemLogger("Runeword Kept", items[0]);
@@ -439,7 +413,7 @@ RuneLoop:
 				return false;
 			}
 
-			base = this.getBase(Config.Runewords[i][0], Config.Runewords[i][1], true); // get a bad runeword
+			base = this.getBase(Config.Runewords[i][0], Config.Runewords[i][1], (Config.Runewords[i][2]||0), true); // get a bad runeword
 
 			if (base) {
 				scroll = this.getScroll();
@@ -458,8 +432,8 @@ RuneLoop:
 					return false;
 				}
 
-				print("\xFFc4Runewords: \xFFc0Rerolling runeword: " + base.fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]/, ""));
-				D2Bot.printToConsole("Rerolling runeword: " + base.fname.split("\n").reverse().join(" ").replace(/\xFFc[0-9!"+<;.*]/, ""), 5);
+				print("Runewords: Rerolling runeword: " + base.fname.split("\n").reverse().join(" ").replace(/[0-9!"+<;.*]/, ""));
+				D2Bot.printToConsole("Rerolling runeword: " + base.fname.split("\n").reverse().join(" ").replace(/[0-9!"+<;.*]/, ""), 5);
 				transmute();
 				delay(500);
 
