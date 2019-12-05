@@ -583,7 +583,7 @@ var Item = {
 		}
 
 		return bodyLocMerc;
-	
+	},
 	getBodyLoc: function (item) {
 		var bodyLoc;
 
