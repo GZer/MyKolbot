@@ -276,3 +276,73 @@ Stack: main@default.dbj:174, Loader.init@loader.js:14, Loader.loadScripts@loader
 [2019/12/05 21:49:00] <Singer> Unknown rd part keyword merctier
 [2019/12/05 21:49:00] <Singer> Unknown rd part keyword merctier
 [2019/12/05 21:49:00] <Singer> Unknown rd part keyword merctier
+[2019/12/05 22:31:21] <LightSorc> Error in LevelFollower (patherjs line ) makePortal No TP tomes
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:94, Pather.journeyTo@pather.js:1372, Town.goToTown@town.js:2203, Pather.makePortal@pather.js:1044
+[2019/12/05 22:31:22] <Wind> Error in LevelFollower (patherjs line ) makePortal No TP tomes
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:94, Pather.journeyTo@pather.js:1372, Town.goToTown@town.js:2203, Pather.makePortal@pather.js:1044
+[2019/12/05 22:45:35] <Wind> Error in LevelFollower (patherjs line ) useUnit Unit not found ID 
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:94, Pather.journeyTo@pather.js:1478, Pather.moveToExit@pather.js:644, Pather.useUnit@pather.js:819
+[2019/12/06 00:25:45] <Singer> Error in LevelLeader (townjs line ) TowngoToTown Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:116, @levelleader.js:520, Town.goToTown@town.js:2224
+[2019/12/06 00:59:11] <Singer> Error in LevelLeader (patherjs line ) useUnit Unit not found ID 
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:98, Pather.moveToExit@pather.js:644, Pather.useUnit@pather.js:819
+[2019/12/06 02:42:55] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 02:47:02] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 02:49:25] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 02:49:26] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 03:20:35] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 04:00:22] <Singer> Error in LevelLeader (miscjs line ) Miscclick Third arg must be a Unit
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:149, Pather.journeyTo@pather.js:1454, Misc.click@misc.js:1000
+[2019/12/06 04:07:37] <Singer> Error in LevelLeader (miscjs line ) Miscclick Third arg must be a Unit
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:149, Pather.journeyTo@pather.js:1454, Misc.click@misc.js:1000
+[2019/12/06 04:53:03] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 04:53:07] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 04:59:12] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 04:59:14] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 05:02:39] <Singer> Error in LevelLeader (levelleaderjs line ) HoradricStaff is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:159, @levelleader.js:658
+[2019/12/06 05:22:03] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 05:22:05] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 05:28:56] <Singer> Error in LevelLeader (levelleaderjs line ) HoradricStaff is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:159, @levelleader.js:658
+[2019/12/06 05:45:19] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 05:45:31] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 05:49:55] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 05:49:57] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 05:51:41] <Singer> Error in LevelLeader (levelleaderjs line ) HoradricStaff is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:159, @levelleader.js:658
+[2019/12/06 06:19:50] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 06:19:53] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 06:27:16] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 06:27:29] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 06:31:01] <Singer> Error in LevelLeader (levelleaderjs line ) HoradricStaff is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:159, @levelleader.js:658
+[2019/12/06 07:12:23] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 07:21:11] <LightSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 07:21:14] <ColdSorc> Error in LevelFollower (levelfollowerjs line ) player is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:201, @levelfollower.js:81, @levelfollower.js:141
+[2019/12/06 07:33:11] <Singer> Error in LevelLeader (levelleaderjs line ) HoradricStaff is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:159, @levelleader.js:658
+[2019/12/06 08:03:04] <Singer> Error in LevelLeader (patherjs line ) useUnit Unit not found ID 
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:161, Pather.useUnit@pather.js:819
