@@ -514,14 +514,14 @@ function LevelLeader(){
 	this.waitForTeleporter = function(DestinationArea){
 		var WaitingLimit=0,PortalTown=2;
 		if(DestinationArea > 75){PortalTown=3;}
-		while(!teleporterClose() && WaitingLimit++ < 20){delay(1000);}
+		while(!teleporterClose() && WaitingLimit < 60){delay(500);WaitingLimit++;}
 		Precast.doPrecast(true);
-		Town.doChores();
 		Town.goToTown(PortalTown);
+		Town.doChores();
 		Town.move("portalspot");
 		delay(5000);
 		WaitingLimit=0;
-		while(true && WaitingLimit < 10){
+		while(WaitingLimit < 20){
 			if(Pather.getPortal(DestinationArea,null)){
 				Pather.usePortal(DestinationArea,null);
 				Attack.clear(10);
@@ -679,20 +679,26 @@ function LevelLeader(){
 		return me.getItem(91);
 	};
 		
-	this.getA2Merc = function(){
-		var Lines,Type,MercTypes = ["Combat","Offensive","Defensive"];
+	this.getA2Merc = function(MercChoice){
+		var Lines,Type,MyMercId,MercIds = []
+		,MercTypes = [99,104,108,103,114,98]
+		,MercChoices=["NormCom","NormDef","NormOff","NmCom","NmDef","NmOff",];
+		MyMercId=MercTypes[MercChoices.indexOf(MercChoice)];
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5031,5048);
-		addEventListener("gamepacket",gamePacket);
+		addEventListener("gamepacket",mercPacket);
 		var Greiz = getUnit(1,"Greiz");
 		if(!me.getMerc() && !me.mercrevivecost){
 			if(Greiz && Greiz.openMenu()){
 				Misc.useMenu(0x0D45);
-				// sendPacket(1,0x36,4,Greiz.gid,4,MercId[Math.floor((Math.random() * MercId.length-1))]);
-				for(var i = 0; i < MercId.length; i++){
-					say("MercId = "+MercId[i]);
-					sendPacket(1,0x36,4,Greiz.gid,4,MercId[i]);
+				// sendPacket(1,0x36,4,Greiz.gid,4,MercIds[Math.floor((Math.random() * MercIds.length-1))]);
+				for(var i = 0; i < MercIds.length; i++){
+					say("MercId = "+MercIds[i]);
+					if(MercIds[i]==MyMercId){
+						say("This is my Merc = "+MercIds[i]);
+					}
+					//sendPacket(1,0x36,4,Greiz.gid,4,MercIds[i]);
 				}
 				Lines = getDialogLines();
 				// if(!Lines){
@@ -717,7 +723,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-	this.gamePacket = function(bytes){
+	this.mercPacket = function(bytes){
 		switch(bytes[0]){
 			case 0x4e:
 				var id = (bytes[2] << 8) + bytes[1];
