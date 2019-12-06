@@ -686,10 +686,13 @@ function LevelLeader(){
 		MyMercId=MercTypes[MercChoices.indexOf(MercChoice)];
 		Town.goToTown(2);
 		Pather.getWP(me.area);
+		Town.move(Town.tasks[1].Merc);
 		Pather.moveTo(5031,5048);
 		addEventListener("gamepacket",mercPacket);
-		var Greiz = getUnit(1,"Greiz");
-		if(!me.getMerc() && !me.mercrevivecost){
+		var Greiz = getUnit(1,Town.tasks[1].Merc);
+		say("trying to talk to G");
+		Greiz.openMenu();
+		//if(!me.getMerc() && !me.mercrevivecost){
 			if(Greiz && Greiz.openMenu()){
 				Misc.useMenu(0x0D45);
 				// sendPacket(1,0x36,4,Greiz.gid,4,MercIds[Math.floor((Math.random() * MercIds.length-1))]);
@@ -718,7 +721,7 @@ function LevelLeader(){
 					// }
 				// }
 			}
-		}
+		//}
 		this.logProgress(me.getMerc(),"Hiring A2 Merc");
 		return true;
 	};
@@ -776,8 +779,9 @@ function LevelLeader(){
 		return true;
 	};
 	
-	// while(true){say(me.x+","+me.y);delay(2000);}
-	// this.getA2Merc();
+	//while(true){say(me.x+","+me.y);delay(2000);}
+	this.getA2Merc("NormCom");
+	say("Tried and Failed");
 	Town.move("portalspot");
 	delay(500);
 	Pather.getWP(me.area);

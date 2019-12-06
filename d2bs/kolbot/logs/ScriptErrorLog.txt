@@ -346,3 +346,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:159, @levelleader.js:658
 [2019/12/06 08:03:04] <Singer> Error in LevelLeader (patherjs line ) useUnit Unit not found ID 
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:802, @levelleader.js:161, Pather.useUnit@pather.js:819
+[2019/12/06 16:35:29] <Singer> Error in LevelLeader (levelleaderjs line ) TownmoveTo is not a function
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:782, @levelleader.js:690
