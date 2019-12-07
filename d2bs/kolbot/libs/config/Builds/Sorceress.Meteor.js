@@ -175,6 +175,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
+				Config.UseMerc=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Leaf,"Short Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"Long Staff"]);
@@ -267,7 +268,6 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.AttackSkill=[42,47,47,47,47,53,49];
-				Config.UseMerc=true;
 			}
 		},
 

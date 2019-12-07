@@ -17,6 +17,7 @@ function LevelLeader(){
 	75,76,77,78,79,80,81,83,101,
 	103,106,107,
 	109,111,112,113,115,123,117,118,129];
+	
 
 	this.CheckQuests = function(ClearedArea){
 		var Stones,Gibbet,CouncilCoord,Altar,BaalPortal,i = 0;
@@ -468,7 +469,7 @@ function LevelLeader(){
 					Misc.useMenu(0x0D36);
 				}
 				delay(2000);
-				//this.getA2Merc();
+				if(Config.UseMerc){this.getA2Merc();}
 				break;
 			case 3:
 				Pather.journeyTo(40);
@@ -678,63 +679,62 @@ function LevelLeader(){
 		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
 	};
-		
-	this.getA2Merc = function(MercChoice){
-		var Lines,Type,MyMercId,MercIds = []
-		,MercTypes = [99,104,108,103,114,98]
-		,MercChoices=["NormCom","NormDef","NormOff","NmCom","NmDef","NmOff",];
-		MyMercId=MercTypes[MercChoices.indexOf(MercChoice)];
+
+	this.getA2Merc = function(){
+		var MyMercType,MyMercDiff,MyMercAura;
+		switch(me.classid){			
+			case 0://Amazon
+				break;
+			case 1://Sorcerer
+				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
+				break;
+			case 2://Necromancer
+				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
+				break;
+			case 3://Paladin
+				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
+				break;
+			case 4://Barbarian
+				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
+				break;
+			case 5://Druid
+				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
+				break;
+			case 6://Assassin
+				break;
+		}
+		if(me.getMerc() || me.mercReviveCost>0 || me.diff != MyMercDiff){return true;}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
-		Town.move(Town.tasks[1].Merc);
-		Pather.moveTo(5031,5048);
-		addEventListener("gamepacket",mercPacket);
+		Pather.moveTo(5041,5055);
+		addEventListener("gamepacket", gamePacket);
 		var Greiz = getUnit(1,Town.tasks[1].Merc);
-		say("trying to talk to G");
-		Greiz.openMenu();
-		//if(!me.getMerc() && !me.mercrevivecost){
-			if(Greiz && Greiz.openMenu()){
+		if(Greiz && Greiz.openMenu()){
+			while(MercId.length>0){
+				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
+				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
-				// sendPacket(1,0x36,4,Greiz.gid,4,MercIds[Math.floor((Math.random() * MercIds.length-1))]);
-				for(var i = 0; i < MercIds.length; i++){
-					say("MercId = "+MercIds[i]);
-					if(MercIds[i]==MyMercId){
-						say("This is my Merc = "+MercIds[i]);
-					}
-					//sendPacket(1,0x36,4,Greiz.gid,4,MercIds[i]);
+				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
+				delay(2500);
+				var MyMerc=me.getMerc();
+				if(MyMerc.getSkill(MyMercType,1)){
+					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc");
+					return true;
 				}
-				Lines = getDialogLines();
-				// if(!Lines){
-					// print("No Dailog Lines");
-					// return false;
-				// }
-				// for(Type = 0; Type < MercTypes.length; Type++){
-					// for(i = 0; i < Lines.length; i++){
-						// print("Selectable:"+Lines[i].selectable+" Text:"+Lines[i].text);
-						// if(Lines[i].selectable && Lines[i].text.indexOf(MercTypes[Type]) > -1){
-							// getDialogLines()[i].handler();
-							// delay(750);
-							// break;
-						// }else{
-							// print("No "+MercTypes[Type]+" Merc");
-						// }
-					// }
-				// }
 			}
-		//}
-		this.logProgress(me.getMerc(),"Hiring A2 Merc");
-		return true;
+		}
+		return false;
 	};
 	
-	this.mercPacket = function(bytes){
-		switch(bytes[0]){
+	this.gamePacket = function (bytes) {
+		 switch(bytes[0]) {
 			case 0x4e:
 				var id = (bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) != -1) {
-					MercId.length = 0;
+				if(MercId.indexOf(id) !== -1) {
+						MercId.length = 0;
 				}
 				MercId.push(id);
-			break;
+				break;
 		}
 	};
 
@@ -779,9 +779,8 @@ function LevelLeader(){
 		return true;
 	};
 	
+	
 	//while(true){say(me.x+","+me.y);delay(2000);}
-	this.getA2Merc("NormCom");
-	say("Tried and Failed");
 	Town.move("portalspot");
 	delay(500);
 	Pather.getWP(me.area);

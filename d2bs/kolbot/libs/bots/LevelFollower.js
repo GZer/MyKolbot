@@ -5,7 +5,7 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhereIsLeader;
+	var LeaderUnit,WhereIsLeader,MercId=[];
 		
 	this.ChangeAct = function(DestinationAct){
 		var NPC,preArea = me.area,TownWaypoints = [0,40,75,103,109];
@@ -24,7 +24,7 @@ function LevelFollower(){
 					Misc.useMenu(0x0D36);
 				}
 				delay(2000);
-				//this.getA2Merc();
+				if(Config.UseMerc){this.getA2Merc();}
 				break;
 			case 3:
 				Pather.journeyTo(40);
@@ -165,6 +165,63 @@ function LevelFollower(){
 			}while(Player.getNext(WhereIsLeader.area));
 		}
 		return false;
+	};
+	
+	this.getA2Merc = function(){
+		var MyMercType,MyMercDiff,MyMercAura;
+		switch(me.classid){			
+			case 0://Amazon
+				break;
+			case 1://Sorcerer
+				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
+				break;
+			case 2://Necromancer
+				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
+				break;
+			case 3://Paladin
+				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
+				break;
+			case 4://Barbarian
+				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
+				break;
+			case 5://Druid
+				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
+				break;
+			case 6://Assassin
+				break;
+		}
+		if(me.getMerc() || me.mercrevivecost || me.diff != MyMercDiff){return true;}
+		Town.goToTown(2);
+		Pather.getWP(me.area);
+		Pather.moveTo(5041,5055);
+		addEventListener("gamepacket", gamePacket);
+		var Greiz = getUnit(1,Town.tasks[1].Merc);
+		if(Greiz && Greiz.openMenu()){
+			while(MercId.length>0){
+				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
+				Greiz.openMenu();
+				Misc.useMenu(0x0D45);
+				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
+				delay(2500);
+				var MyMerc=me.getMerc();
+				if(MyMerc.getSkill(MyMercType,1)){
+					return true;
+				}
+			}
+		}
+		return false;
+	};
+	
+	this.gamePacket = function (bytes) {
+		 switch(bytes[0]) {
+			case 0x4e:
+				var id = (bytes[2] << 8) + bytes[1];
+				if(MercId.indexOf(id) !== -1) {
+						MercId.length = 0;
+				}
+				MercId.push(id);
+				break;
+		}
 	};
 	
 	Town.doChores();

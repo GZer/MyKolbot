@@ -173,6 +173,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
+				Config.UseMerc=true;
 				//Armor
 				Config.Runewords.push([Runeword.Bone,"Mage Plate"]);
 				//Helm
@@ -257,7 +258,7 @@ var AutoBuildTemplate={
 			SkillPoints: [69],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.UseMerc=true;
+				Config.AttackSkill=[70,70,70,70,70,70,70];
 			}
 		},
 

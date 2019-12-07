@@ -171,6 +171,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
+				Config.UseMerc=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Strength,"War Scepter"]);
 				Config.Runewords.push([Runeword.Black,"Flail"]);
@@ -248,7 +249,7 @@ var AutoBuildTemplate={
 			SkillPoints: [99],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.UseMerc=true;
+				Config.AttackSkill=[0,97,99,97,99,0,0];
 			}
 		},
 

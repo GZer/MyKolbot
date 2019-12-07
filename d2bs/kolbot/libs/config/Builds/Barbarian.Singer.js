@@ -131,7 +131,48 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
+				Config.AttackSkill=[0,132,0,0,0,0,0];
+			}
+		},
+
+	11: 	{
+			SkillPoints: [138],
+			StatPoints: [0,3,3,3,3],
+			Update: function(){
+				Config.MinColumn=[3,3,3,3];
+			}
+		},
+
+	12: 	{
+			SkillPoints: [138],
+			StatPoints: [0,3,3,3,3],
+			Update: function(){
+				Config.AttackSkill=[0,132,0,0,0,0,0];
+			}
+		},
+
+	13: 	{
+			SkillPoints: [138],
+			StatPoints: [0,3,3,3,3],
+			Update: function(){
+				Config.AttackSkill=[0,132,0,0,0,0,0];
+			}	
+		},
+
+	14: 	{
+			SkillPoints: [138],
+			StatPoints: [0,3,3,3,3],
+			Update: function(){
+				Config.AttackSkill=[0,132,0,0,0,0,0];
+			}	
+		},
+
+	15: 	{
+			SkillPoints: [138],
+			StatPoints: [0,3,3,3,3],
+			Update: function(){
 				Config.MakeRunewords=true;
+				Config.UseMerc=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
@@ -180,46 +221,6 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Insight,"Cryptic Axe"]);
 				Config.Runewords.push([Runeword.Insight,"Great Poleaxe"]);
 				Config.Runewords.push([Runeword.Insight,"Giant Thresher"]);
-			}
-		},
-
-	11: 	{
-			SkillPoints: [138],
-			StatPoints: [0,3,3,3,3],
-			Update: function(){
-				Config.MinColumn=[3,3,3,3];
-			}
-		},
-
-	12: 	{
-			SkillPoints: [138],
-			StatPoints: [0,3,3,3,3],
-			Update: function(){
-				Config.AttackSkill=[0,132,0,0,0,0,0];
-			}
-		},
-
-	13: 	{
-			SkillPoints: [138],
-			StatPoints: [0,3,3,3,3],
-			Update: function(){
-				Config.AttackSkill=[0,132,0,0,0,0,0];
-			}	
-		},
-
-	14: 	{
-			SkillPoints: [138],
-			StatPoints: [0,3,3,3,3],
-			Update: function(){
-				Config.AttackSkill=[0,132,0,0,0,0,0];
-			}	
-		},
-
-	15: 	{
-			SkillPoints: [138],
-			StatPoints: [0,3,3,3,3],
-			Update: function(){
-				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 
@@ -259,7 +260,6 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[0,132,0,0,0,0,0];
-				Config.UseMerc=true;
 			}
 		},
 
