@@ -207,23 +207,6 @@ function LoadConfig() {
 
 	// *** Guest scripts ***
 
-	// Baal Assistant by YourGreatestMember
-	Scripts.BaalAssistant = false; // Used to leech or help in baal runs.
-		Config.BaalAssistant.Wait = 120; // Seconds to wait for a runner to be in the throne / portal wait / safe TP wait / hot TP wait...
-		Config.BaalAssistant.KillNihlathak = false; // Kill Nihlathak before going to Throne
-		Config.BaalAssistant.FastChaos = false; // Kill Diablo before going to Throne
-		Config.BaalAssistant.Helper = true; // Set to true to help attack, set false to to leech.
-		Config.BaalAssistant.GetShrine = false; // Set to true to get a experience shrine at the start of the run.
-		Config.BaalAssistant.GetShrineWaitForHotTP = false; // Set to true to get a experience shrine after leader shouts the hot tp message as defined in Config.BaalAssistant.HotTPMessage
-		Config.BaalAssistant.SkipTP = false; // Set to true to enable the helper to skip the TP and teleport down to the throne room.
-		Config.BaalAssistant.WaitForSafeTP = false; // Set to true to wait for a safe TP message (defined in SafeTPMessage)
-		Config.BaalAssistant.DollQuit = false; // Quit on dolls. (Hardcore players?)
-		Config.BaalAssistant.SoulQuit = false; // Quit on Souls. (Hardcore players?)
-		Config.BaalAssistant.KillBaal = true; // Set to true to kill baal, if you set to false you MUST configure Config.QuitList or Config.BaalAssistant.NextGameMessage or the bot will wait indefinitely.
-		Config.BaalAssistant.HotTPMessage = ["Hot"]; // Configure safe TP messages.
-		Config.BaalAssistant.SafeTPMessage = ["Safe", "Clear"]; // Configure safe TP messages.
-		Config.BaalAssistant.BaalMessage = ["Baal"]; // Configure baal messages, this is a precautionary measure.
-		Config.BaalAssistant.NextGameMessage = ["Next Game", "Next", "New Game"];	// Next Game message, this is a precautionary quit command, Reccomended setting up: Config.QuitList
 
 	// Town settings
 	Config.HealHP = 50; // Go to a healer if under designated percent of life.
@@ -281,8 +264,6 @@ function LoadConfig() {
 	Config.MinColumn[3] = 0;
 
 	// Pickit config. Default folder is kolbot/pickit.
-	Config.PickitFiles.push("kolton.nip");
-	Config.PickitFiles.push("LLD.nip");
 	Config.PickRange = 40; // Pick radius
 	Config.FastPick = false; // Check and pick items between attacks
 
