@@ -4,3 +4,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:811, @levelleader.js:99, Pather.moveToExit@pather.js:644, Pather.useUnit@pather.js:819
 [2019/12/07 15:27:28] <Hammerdin> Error in LevelFollower (patherjs line ) useUnit Unit not found ID 
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:250, @levelfollower.js:94, Pather.journeyTo@pather.js:1478, Pather.moveToExit@pather.js:644, Pather.useUnit@pather.js:819
+[2019/12/07 16:24:39] <Singer> Error in LevelLeader (townjs line ) TowngoToTown Failed to take TP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:783, @levelleader.js:125, Town.doChores@town.js:71, Town.goToTown@town.js:2208

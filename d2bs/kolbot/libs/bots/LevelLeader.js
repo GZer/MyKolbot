@@ -514,15 +514,21 @@ function LevelLeader(){
 	
 	this.waitForTeleporter = function(DestinationArea){
 		var WaitingLimit=0,PortalTown=2;
-		if(DestinationArea > 75){PortalTown=3;}
-		while(!teleporterClose() && WaitingLimit < 60){delay(500);WaitingLimit++;}
-		Precast.doPrecast(true);
+		if(DestinationArea > 75){
+			PortalTown=3;
+		}
+		while(!teleporterClose()){
+			delay(100);
+		}
+		for(var i=0;i<10;i++){
+			Precast.doPrecast(true);
+			delay(1000);
+		}
 		Town.goToTown(PortalTown);
 		Town.doChores();
 		Town.move("portalspot");
 		delay(5000);
-		WaitingLimit=0;
-		while(WaitingLimit < 20){
+		while(WaitingLimit < 240){
 			if(Pather.getPortal(DestinationArea,null)){
 				Pather.usePortal(DestinationArea,null);
 				Attack.clear(10);

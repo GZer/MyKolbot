@@ -136,16 +136,16 @@ function LevelFollower(){
 		Pather.teleport = true;
 		switch(CurrentArea){
 			case 62:																			//Maggot Lair
-				Pather.journeyTo(63);Town.doChores();Pather.usePortal(63);
-				Pather.moveToExit(64,false,false);Town.doChores();Pather.usePortal(63);Pather.journeyTo(64);
+				Pather.journeyTo(63);Town.doChores();Town.move("portalspot");Pather.usePortal(63);
+				Pather.moveToExit(64,false,false);Town.doChores();Town.move("portalspot");Pather.usePortal(63);Pather.journeyTo(64);
 				if(Pather.moveToPreset(64,2,356)){DestinationReached = true;}
 			break;
 			case 74:																			//Arcane Sanctuary
 				if(Pather.moveToPreset(74,2,357)){DestinationReached = true;}
 			break;
 			case 88:																			//Flayer Dungeon
-				Pather.journeyTo(89);Town.doChores();Pather.usePortal(89);
-				Pather.moveToExit(91,false,false);Town.doChores();Pather.usePortal(89);Pather.journeyTo(91);
+				Pather.journeyTo(89);Town.doChores();Town.move("portalspot");Pather.usePortal(89);
+				Pather.moveToExit(91,false,false);Town.doChores();Town.move("portalspot");Pather.usePortal(89);Pather.journeyTo(91);
 				if(Pather.moveToPreset(91,2,406)){DestinationReached = true;}
 			break;
 		}
