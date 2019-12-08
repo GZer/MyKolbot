@@ -98,3 +98,15 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:817, @levelleader.js:234, @levelleader.js:612, @levelleader.js:197, Pather.journeyTo@pather.js:1478, Pather.moveToExit@pather.js:644, Pather.useUnit@pather.js:819
 [2019/12/08 12:45:52] <Summoner> Error in LevelFollower (townjs line ) TowngoToTown Failed to take TP
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:250, @levelfollower.js:94, Pather.journeyTo@pather.js:1377, Town.goToTown@town.js:2208
+[2019/12/08 13:57:58] <Singer> Error in LevelLeader (levelleaderjs line ) Say is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:818, @levelleader.js:235, @levelleader.js:613, @levelleader.js:198
+[2019/12/08 15:21:31] <Hammerdin> Error in LevelFollower (patherjs line ) useUnit Unit not found ID 
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:255, @levelfollower.js:96, Pather.journeyTo@pather.js:1478, Pather.moveToExit@pather.js:644, Pather.useUnit@pather.js:819
+[2019/12/08 15:22:07] <Summoner> Error in LevelFollower (patherjs line ) useUnit Unit not found ID 
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:255, @levelfollower.js:96, Pather.journeyTo@pather.js:1478, Pather.moveToExit@pather.js:644, Pather.useUnit@pather.js:819
+[2019/12/08 15:43:54] <FireSorc> Error in LevelFollower (patherjs line ) makePortal No scrolls
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:259, @levelfollower.js:96, Pather.journeyTo@pather.js:1372, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1048
+[2019/12/08 15:57:40] <ColdSorc> Error in LevelFollower (townjs line ) TowngoToTown Failed to take TP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:259, @levelfollower.js:96, Pather.journeyTo@pather.js:1377, Town.goToTown@town.js:2209
+[2019/12/08 16:44:48] <Singer> Error in LevelLeader (patherjs line ) getPresetUnits failed, couldn't access the level
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:819, @levelleader.js:270, Pather.getWP@pather.js:1332

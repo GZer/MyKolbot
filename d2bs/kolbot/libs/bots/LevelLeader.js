@@ -183,21 +183,20 @@ function LevelLeader(){
 				this.logProgress(me.getItem(553),"Khalim Eye");
 			break;
 			case 78://Gidbinn and Khalim Brain
-				Pather.journeyTo(78);
-				if(!me.getQuest(19,0)){
-					this.clearToQuestLocation(78,2,86);
-					this.getQuestItem(87,86);
-					delay(3000);
-					Attack.clear(35);
-					delay(2000);
-					Attack.clear(35);
-					Town.doChores();
-					this.logProgress(me.getQuest(19,0),"Gidbinn");
-				}
+				// Pather.journeyTo(78);
+				// if(!me.getQuest(19,0)){
+					// this.clearToQuestLocation(78,2,86);
+					// this.getQuestItem(87,86);
+					// delay(3000);
+					// Attack.clear(35);
+					// delay(2000);
+					// Attack.clear(35);
+					// Town.doChores();
+					// this.logProgress(me.getQuest(19,0),"Gidbinn");
+				// }
 				Pather.journeyTo(78);
 				while(me.area != 88){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl1");}}Pather.makePortal();
 				if(!this.waitForTeleporter(91)){
-					Pather.journeyTo(88);
 					while(me.area != 89){try{Pather.moveToExit(89,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
 					while(me.area != 91){try{Pather.moveToExit(91,true,true);}catch(err){print("Retry enter FlayerLvl3");}}Pather.makePortal();
 					this.clearToQuestLocation(91,2,406);
@@ -518,18 +517,19 @@ function LevelLeader(){
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
-		while(!teleporterClose() && WaitingLimit < 60){
-			delay(1000);
+		while(!teleporterClose() && WaitingLimit < 120){
+			delay(500);
 			WaitingLimit++;
 		}
 		Precast.doPrecast(true);
+		delay(5000);
 		if(DestinationArea==74){
 			Pather.useWaypoint(40);
+		}else{
+			Town.goToTown(PortalTown);
 		}
-		Town.goToTown(PortalTown);
 		Town.move("portalspot");
-		delay(5000);
-		while(WaitingLimit < 240){
+		while(WaitingLimit < 120){
 			if(Pather.getPortal(DestinationArea,null)){
 				Pather.usePortal(DestinationArea,null);
 				Attack.clear(10);

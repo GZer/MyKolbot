@@ -78,7 +78,9 @@ function LevelFollower(){
 				this.ChangeAct(LeaderAct);
 			}
 			if(this.isImportantQuest(LeaderArea)){Config.LifeChicken=0;}else{Config.LifeChicken=30;}
-			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){this.teleportToLocation(me.area);}
+			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
+				this.teleportToLocation(me.area);
+			}
 			if(LeaderArea != me.area){
 				Pather.teleport = true;
 				delay(1500);
@@ -136,16 +138,14 @@ function LevelFollower(){
 		Pather.teleport = true;
 		switch(CurrentArea){
 			case 62:																			//Maggot Lair
-				Pather.journeyTo(63);Town.doChores();Town.move("portalspot");Pather.usePortal(63);
-				Pather.moveToExit(64,false,false);Town.doChores();Town.move("portalspot");Pather.usePortal(63);Pather.journeyTo(64);
+				this.teleportHeal(63,64);
 				if(Pather.moveToPreset(64,2,356)){DestinationReached = true;}
 			break;
 			case 74:																			//Arcane Sanctuary
 				if(Pather.moveToPreset(74,2,357)){DestinationReached = true;}
 			break;
 			case 88:																			//Flayer Dungeon
-				Pather.journeyTo(89);Town.doChores();Town.move("portalspot");Pather.usePortal(89);
-				Pather.moveToExit(91,false,false);Town.doChores();Town.move("portalspot");Pather.usePortal(89);Pather.journeyTo(91);
+				this.teleportHeal(89,91);
 				if(Pather.moveToPreset(91,2,406)){DestinationReached = true;}
 			break;
 		}
@@ -153,6 +153,12 @@ function LevelFollower(){
 		Town.move("portalspot");
 		return DestinationReached;
 	};
+	
+	this.teleportHeal = function(FirstLevel,SecondLevel){
+		Pather.journeyTo(FirstLevel);
+		Town.heal();Town.move("portalspot");Pather.usePortal(FirstLevel, me.name);Pather.moveToExit(SecondLevel,false,false);
+		Town.heal();Town.move("portalspot");Pather.usePortal(FirstLevel, me.name);Pather.moveToExit(SecondLevel,true,false);
+	}
 	
 	this.getLeaderUnit = function(name){														//Get Leader's unit
 		var Player = getUnit(0,name);
