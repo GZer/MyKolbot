@@ -88,6 +88,7 @@ var Town = {
 		this.buyPotions();
 		this.clearInventory();
 		Item.autoEquip();
+		Item.autoEquipMerc();
 		this.buyKeys();
 		this.repair(repair);
 		this.gamble();

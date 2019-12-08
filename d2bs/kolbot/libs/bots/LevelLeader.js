@@ -194,7 +194,8 @@ function LevelLeader(){
 					Town.doChores();
 					this.logProgress(me.getQuest(19,0),"Gidbinn");
 				}
-				Pather.journeyTo(88);
+				Pather.journeyTo(78);
+				while(me.area != 88){try{Pather.moveToExit(88,true,true);}catch(err){print("Retry enter FlayerLvl1");}}Pather.makePortal();
 				if(!this.waitForTeleporter(91)){
 					Pather.journeyTo(88);
 					while(me.area != 89){try{Pather.moveToExit(89,true,true);}catch(err){print("Retry enter FlayerLvl2");}}Pather.makePortal();
@@ -517,15 +518,15 @@ function LevelLeader(){
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
-		while(!teleporterClose()){
-			delay(100);
-		}
-		for(var i=0;i<10;i++){
-			Precast.doPrecast(true);
+		while(!teleporterClose() && WaitingLimit < 60){
 			delay(1000);
+			WaitingLimit++;
+		}
+		Precast.doPrecast(true);
+		if(DestinationArea==74){
+			Pather.useWaypoint(40);
 		}
 		Town.goToTown(PortalTown);
-		Town.doChores();
 		Town.move("portalspot");
 		delay(5000);
 		while(WaitingLimit < 240){
