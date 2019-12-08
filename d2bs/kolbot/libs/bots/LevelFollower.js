@@ -174,7 +174,7 @@ function LevelFollower(){
 	};
 	
 	this.getA2Merc = function(){
-		var MyMercType,MyMercDiff,MyMercAura;
+		var MyMercType,MyMercDiff,MyMercAura,MyMerc;
 		switch(me.classid){			
 			case 0://Amazon
 				break;
@@ -196,7 +196,13 @@ function LevelFollower(){
 			case 6://Assassin
 				break;
 		}
-		if(me.getMerc() || me.mercrevivecost || me.diff != MyMercDiff){return true;}
+		//If we have the right aura merc stop function
+		if(me.getMerc() || me.mercrevivecost){
+			MyMerc=me.getMerc();
+			if(MyMerc.getSkill(MyMercType,1)){
+				return true;
+			}
+		}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
@@ -208,8 +214,12 @@ function LevelFollower(){
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
+				//If it's the wrong difficulty just hire a random merc
+				if(me.diff != MyMercDiff){
+					return true;
+				}
 				delay(2500);
-				var MyMerc=me.getMerc();
+				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
 					return true;
 				}
