@@ -27,7 +27,7 @@ var NTIP = {},
 NTIP.OpenFile = function (filepath, notify) {
 	if (!FileTools.exists(filepath)) {
 		if (notify) {
-			Misc.errorReport("1NIP file doesn't exist: " + filepath);
+			Misc.errorReport("ÿc1NIP file doesn't exist: ÿc0" + filepath);
 		}
 
 		return false;
@@ -42,7 +42,7 @@ NTIP.OpenFile = function (filepath, notify) {
 		nipfile = File.open(filepath, 0);
 	} catch (fileError) {
 		if (notify) {
-			Misc.errorReport("1Failed to load NIP: " + filename);
+			Misc.errorReport("ÿc1Failed to load NIP: ÿc0" + filename);
 		}
 	}
 
@@ -72,7 +72,7 @@ NTIP.OpenFile = function (filepath, notify) {
 	}
 
 	if (notify) {
-		print("Loaded NIP: 2" + filename + ". Lines: 2" + lines.length + ". Valid entries: 2" + entries + ". Time: 2" + (getTickCount() - tick) + " ms");
+		print("ÿc4Loaded NIP: ÿc2" + filename + "ÿc4. Lines: ÿc2" + lines.length + "ÿc4. Valid entries: ÿc2" + entries + ". ÿc4Time: ÿc2" + (getTickCount() - tick) + " ms");
 	}
 
 	return true;
@@ -333,11 +333,11 @@ NTIP.CheckItem = function (item, entryList, verbose) {
 			showConsole();
 
 			if (!entryList) {
-				Misc.errorReport("1Pickit error! Line # 2" + stringArray[i].line + " 1Entry: " + stringArray[i].string + " (" + stringArray[i].file + ") Error message: " + pickError.message + " Trigger item: " + item.fname.split("\n").reverse().join(" "));
+				Misc.errorReport("ÿc1Pickit error! Line # ÿc2" + stringArray[i].line + " ÿc1Entry: ÿc0" + stringArray[i].string + " (" + stringArray[i].file + ") Error message: " + pickError.message + " Trigger item: " + item.fname.split("\n").reverse().join(" "));
 
 				NTIP_CheckList[i] = ["", "", ""]; // make the bad entry blank
 			} else {
-				Misc.errorReport("1Pickit error in runeword config!");
+				Misc.errorReport("ÿc1Pickit error in runeword config!");
 			}
 
 			result = 0;
@@ -611,15 +611,15 @@ NTIP.ParseLineInt = function (input, info) {
 					p_result[2].Tier = value;
 				}
 
-				break;
+				break;				
 			case "merctier":
 				value = Number(p_section[i].split("==")[1].match(/\d+/g));
 
 				if (!isNaN(value)) {
 					p_result[2].MercTier = value;
 				}
-
-				break;
+				
+				break;				
 			default:
 				Misc.errorReport("Unknown 3rd part keyword: " + p_keyword.toLowerCase());
 
