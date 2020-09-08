@@ -241,7 +241,7 @@ MainLoop:
 				break;
 			}
 
-			if (failCount >= 60) {
+			if (failCount >= 260) {
 				D2Bot.printToConsole("No response from mule profile.", 9);
 
 				break;
@@ -259,7 +259,7 @@ MainLoop:
 		this.torchAnniCheck = false;
 
 		// No response - stop mule profile
-		if (failCount >= 60) {
+		if (failCount >= 260) {
 			D2Bot.stop(muleObj.muleProfile, true);
 			delay(1000);
 		}
@@ -351,15 +351,15 @@ MainLoop:
 		sendCopyData(null, muleObj.muleProfile, 11, "begin");
 
 		if (this.torchAnniCheck === 2) {
-			print("AutoMule: In anni mule game.");
+			print("ÿc4AutoMuleÿc0: In anni mule game.");
 			D2Bot.updateStatus("AutoMule: In game.");
 			this.dropCharm(true);
 		} else if (this.torchAnniCheck === 1) {
-			print("AutoMule: In torch mule game.");
+			print("ÿc4AutoMuleÿc0: In torch mule game.");
 			D2Bot.updateStatus("AutoMule: In game.");
 			this.dropCharm(false);
 		} else {
-			print("AutoMule: In mule game.");
+			print("ÿc4AutoMuleÿc0: In mule game.");
 			D2Bot.updateStatus("AutoMule: In game.");
 			this.dropStuff();
 		}

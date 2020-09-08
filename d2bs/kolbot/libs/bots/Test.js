@@ -1,5 +1,5 @@
 function Test() {
-	print("TESTING");
+	print("ÿc8TESTING");
 
 	var c;
 

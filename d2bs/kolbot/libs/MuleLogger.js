@@ -53,7 +53,7 @@ var MuleLogger = {
 				}
 
 				// Find and store new color info
-				index = desc[i].lastIndexOf("");
+				index = desc[i].lastIndexOf("ÿc");
 
 				if (index > -1) {
 					stringColor = desc[i].substring(index, index + "ÿ".length + 2);
@@ -76,13 +76,13 @@ var MuleLogger = {
 		var tick;
 
 		if (getScript("D2BotMuleLog.dbj") && this.LogGame[0] && me.gamename.match(this.LogGame[0], "i")) {
-			print("MuleLogger: Logging items on " + me.account + " - " + me.name + ".");
+			print("ÿc4MuleLoggerÿc0: Logging items on " + me.account + " - " + me.name + ".");
 			D2Bot.printToConsole("MuleLogger: Logging items on " + me.account + " - " + me.name + ".", 7);
 			this.logChar();
 			tick = getTickCount() + rand(1500, 1750) * 1000; // trigger anti-idle every ~30 minutes
 
 			while ((getTickCount() - me.gamestarttime) < this.IngameTime * 1000) {
-				me.overhead("2Log items done. Stay in " + "game more: " + Math.floor(this.IngameTime - (getTickCount() - me.gamestarttime) / 1000) + " sec");
+				me.overhead("ÿc2Log items done. ÿc4Stay in " + "ÿc4game more:ÿc0 " + Math.floor(this.IngameTime - (getTickCount() - me.gamestarttime) / 1000) + " sec");
 
 				delay(1000);
 

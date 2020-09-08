@@ -325,7 +325,7 @@ function BaalAssistant() {
 					}
 
 					if (!hotCheck) {
-						print("" + "Leader didn't tell me to start hunting for an experience shrine.");
+						print("ÿc1" + "Leader didn't tell me to start hunting for an experience shrine.");
 						ShrineStatus = true;
 					}
 

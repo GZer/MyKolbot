@@ -18,10 +18,10 @@ function main() {
 			do {
 				if (script.name.indexOf(".dbj") > -1) {
 					if (script.running) {
-						print("1Pausing " + script.name);
+						print("ÿc1Pausing ÿc0" + script.name);
 						script.pause();
 					} else {
-						print("2Resuming " + script.name);
+						print("ÿc2Resuming ÿc0" + script.name);
 						script.resume();
 					}
 				}

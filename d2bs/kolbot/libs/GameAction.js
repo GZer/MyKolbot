@@ -134,7 +134,7 @@ var GameAction = {
 				}
 
 				// Find and store new color info
-				index = desc[i].lastIndexOf("");
+				index = desc[i].lastIndexOf("ÿc");
 
 				if (index > -1) {
 					stringColor = desc[i].substring(index, index + "ÿ".length + 2);

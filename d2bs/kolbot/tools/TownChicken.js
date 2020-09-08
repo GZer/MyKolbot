@@ -38,14 +38,14 @@ function main() {
 			if (script) {
 				if (script.running) {
 					if (i === 0) { // default.dbj
-						print("1Pausing.");
+						print("ÿc1Pausing.");
 					}
 
 					script.pause();
 				} else {
 					if (i === 0) { // default.dbj
 						if (!getScript("tools/clonekilla.js")) { // resume only if clonekilla isn't running
-							print("2Resuming.");
+							print("ÿc2Resuming.");
 							script.resume();
 						}
 					} else {

@@ -71,7 +71,7 @@ function main() {
 		var script = getScript("default.dbj");
 
 		if (script && script.running) {
-			print("1Pausing.");
+			print("ÿc1Pausing.");
 			script.pause();
 		}
 	};
@@ -81,7 +81,7 @@ function main() {
 		var script = getScript("default.dbj");
 
 		if (script && !script.running) {
-			print("2Resuming.");
+			print("ÿc2Resuming.");
 			script.resume();
 		}
 	};
@@ -184,7 +184,7 @@ function main() {
 	};
 
 	addEventListener("scriptmsg", this.scriptEvent);
-	print("2Anti-Hostile thread loaded.");
+	print("ÿc2Anti-Hostile thread loaded.");
 
 	// Main Loop
 	while (true) {
@@ -194,7 +194,7 @@ function main() {
 
 			if (hostiles.length > 0 && (Config.HostileAction === 0 || (Config.HostileAction === 1 && me.inTown))) {
 				if (Config.TownOnHostile) {
-					print("1Hostility detected, going to town.");
+					print("ÿc1Hostility detected, going to town.");
 					this.pause();
 
 					if (!me.inTown) {
@@ -306,7 +306,7 @@ function main() {
 				// Mode 1 - Quit if hostile player is nearby
 				if (Config.HostileAction === 1) {
 					if (Config.TownOnHostile) {
-						print("1Hostile player nearby, going to town.");
+						print("ÿc1Hostile player nearby, going to town.");
 						this.pause();
 
 						if (!me.inTown) {

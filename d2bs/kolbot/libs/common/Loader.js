@@ -105,7 +105,7 @@ var Loader = {
 			script = this.scriptList[this.scriptIndex];
 
 			if (this.fileList.indexOf(script) < 0) {
-				Misc.errorReport("1Script " + script + " doesn't exist.");
+				Misc.errorReport("ÿc1Script " + script + " doesn't exist.");
 				continue;
 			}
 
@@ -121,21 +121,21 @@ var Loader = {
 					}
 
 					if (this.skipTown.indexOf(script) > -1 || Town.goToTown()) {
-						print("2Starting script: 9" + script);
+						print("ÿc2Starting script: ÿc9" + script);
 						//scriptBroadcast(JSON.stringify({currScript: script}));
 						Messaging.sendToScript("tools/toolsthread.js", JSON.stringify({currScript: script}));
 
 						reconfiguration = typeof Scripts[script] === 'object';
 
 						if (reconfiguration) {
-							print("2Copying Config properties from " + script + " object.");
+							print("ÿc2Copying Config properties from " + script + " object.");
 							this.copy(Scripts[script], Config);
 						}
 
 						global[script]();
 
 						if (reconfiguration) {
-							print("2Reverting back unmodified config properties.");
+							print("ÿc2Reverting back unmodified config properties.");
 							this.copy(unmodifiedConfig, Config);
 						}
 					}

@@ -70,7 +70,7 @@ README.txt - AutoBuild Script Installation and Configuration
 			LoadConfig.call();
 		} catch (e2) {
 			if (notify) {
-				print("8Error in " + e2.fileName.substring(e2.fileName.lastIndexOf("\\") + 1, e2.fileName.length) + "(line " + e2.lineNumber + "): " + e2.message);
+				print("ÿc8Error in " + e2.fileName.substring(e2.fileName.lastIndexOf("\\") + 1, e2.fileName.length) + "(line " + e2.lineNumber + "): " + e2.message);
 
 				throw new Error("Config.init: Error in character config.");
 			}
@@ -82,7 +82,7 @@ README.txt - AutoBuild Script Installation and Configuration
 				AutoBuild.initialize();
 			}
 		} catch (e3) {
-			print("8Error in libs/common/AutoBuild.js (AutoBuild system is not active!)");
+			print("ÿc8Error in libs/common/AutoBuild.js (AutoBuild system is not active!)");
 			print(e3.toSource());
 		}
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

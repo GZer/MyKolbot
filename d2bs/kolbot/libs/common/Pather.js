@@ -256,8 +256,9 @@ var Pather = {
 
 						if (fail > 1 && me.getSkill(143, 1)) {
 							Skill.cast(143, 0, node.x, node.y);
+						// Added leap as well as leap attack
 						}else if (fail > 1 && me.getSkill(132, 1)){
-							Skill.cast(132, 0, node.x, node.y);							
+							Skill.cast(132, 0, node.x, node.y);
 						}
 					}
 

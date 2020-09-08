@@ -18,7 +18,7 @@ var Attack = {
 
 		if (Config.AttackSkill[1] < 0 || Config.AttackSkill[3] < 0) {
 			showConsole();
-			print("1Bad attack config. Don't expect your bot to attack.");
+			print("ÿc1Bad attack config. Don't expect your bot to attack.");
 		}
 
 		if (me.gametype === 1) {
@@ -530,7 +530,7 @@ var Attack = {
 
 					// Skip non-unique monsters after 15 attacks, except in Throne of Destruction
 					if (me.area !== 131 && !(target.spectype & 0x7) && gidAttack[i].attacks > 15) {
-						print("1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
+						print("ÿc1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
 						monsterList.shift();
 					}
 
@@ -699,7 +699,7 @@ var Attack = {
 
 					// Skip non-unique monsters after 15 attacks, except in Throne of Destruction
 					if (me.area !== 131 && !(target.spectype & 0x7) && gidAttack[i].attacks > 15) {
-						print("1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
+						print("ÿc1Skipping " + target.name + " " + target.gid + " " + gidAttack[i].attacks);
 						monsterList.shift();
 					}
 
@@ -1250,7 +1250,7 @@ var Attack = {
 		}
 
 		if ((unit.spectype & 0x7) && Config.SkipException && Config.SkipException.indexOf(unit.name) > -1) {
-			print("1Skip Exception: " + unit.name);
+			print("ÿc1Skip Exception: " + unit.name);
 			return true;
 		}
 
@@ -1579,7 +1579,7 @@ AuraLoop: // Skip monsters with auras
 				}
 			}
 
-			//print("9potential spots: 2" + coords.length);
+			//print("ÿc9potential spots: ÿc2" + coords.length);
 
 			if (coords.length > 0) {
 				coords.sort(Sort.units);
@@ -1587,7 +1587,7 @@ AuraLoop: // Skip monsters with auras
 				for (i = 0; i < coords.length; i += 1) {
 					// Valid position found
 					if (!CollMap.checkColl({x: coords[i].x, y: coords[i].y}, unit, coll, 1)) {
-						//print("9optimal pos build time: 2" + (getTickCount() - t) + " 9distance from target: 2" + getDistance(cx, cy, unit.x, unit.y));
+						//print("ÿc9optimal pos build time: ÿc2" + (getTickCount() - t) + " ÿc9distance from target: ÿc2" + getDistance(cx, cy, unit.x, unit.y));
 
 						switch (walk) {
 						case 1:
@@ -1615,7 +1615,7 @@ AuraLoop: // Skip monsters with auras
 		}
 
 		if (name) {
-			print("Attack: No valid positions for: " + name);
+			print("ÿc4Attackÿc0: No valid positions for: " + name);
 		}
 
 		return false;

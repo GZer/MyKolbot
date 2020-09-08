@@ -180,7 +180,7 @@ MainLoop:
 				oldCommand = command;
 
 				if (command.indexOf("kill") > -1) {
-					print("MFHelper: Kill");
+					print("ÿc4MFHelperÿc0: Kill");
 
 					split = command.split("kill ")[1];
 
@@ -215,7 +215,7 @@ MainLoop:
 						print("Failed to use portal.");
 					}
 				} else if (command.indexOf("clearlevel") > -1) {
-					print("MFHelper: Clear Level");
+					print("ÿc4MFHelperÿc0: Clear Level");
 
 					for (i = 0; i < 5; i += 1) {
 						if (Pather.usePortal(player.area, player.name)) {
@@ -237,7 +237,7 @@ MainLoop:
 						print("Failed to use portal.");
 					}
 				} else if (command.indexOf("clear") > -1) {
-					print("MFHelper: Clear");
+					print("ÿc4MFHelperÿc0: Clear");
 
 					split = command.split("clear ")[1];
 
@@ -273,7 +273,7 @@ MainLoop:
 				} else if (command.indexOf("quit") > -1) {
 					break MainLoop;
 				} else if (command.indexOf("cows") > -1) {
-					print("MFHelper: Clear Cows");
+					print("ÿc4MFHelperÿc0: Clear Cows");
 
 					for (i = 0; i < 5; i += 1) {
 						if (Town.goToTown(1) && Pather.usePortal(39)) {
@@ -295,7 +295,7 @@ MainLoop:
 						print("Failed to use portal.");
 					}
 				} else if (command.indexOf("council") > -1) {
-					print("MFHelper: Kill Council");
+					print("ÿc4MFHelperÿc0: Kill Council");
 
 					for (i = 0; i < 5; i += 1) {
 						if (Pather.usePortal(player.area, player.name)) {

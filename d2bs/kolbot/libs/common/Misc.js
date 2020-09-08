@@ -28,7 +28,6 @@ var Skill = {
 		case 112: // Blessed Hammer
 		case 116: // Conversion
 		case 126: // Bash
-		case 130: // Howl
 		case 131: // Find Potion
 		case 133: // Double Swing
 		case 139: // Stun
@@ -69,10 +68,8 @@ var Skill = {
 		case 101: // Holy Bolt
 		case 107: // Charge
 		case 130: // Howl
-		case 132: // Leap
 		case 225: // Firestorm
 		case 229: // Molten Boulder
-		case 230: // Arctic Blast
 		case 243: // Shock Wave
 			return 10;
 		case 8: // Inner Sight
@@ -389,7 +386,7 @@ MainLoop:
 
 		// Charged skills must be cast from right hand
 		if (hand === undefined || hand === 3 || item) {
-			item && hand !== 0 && print('[9Warning] charged skills must be cast from right hand');
+			item && hand !== 0 && print('[ÿc9Warningÿc0] charged skills must be cast from right hand');
 			hand = 0;
 		}
 
@@ -463,10 +460,11 @@ var Item = {
 	hasTier: function (item) {
 		return Config.AutoEquip && NTIP.GetTier(item) > 0;
 	},
-
+	
 	hasMercTier: function (item) {
 		return Config.AutoEquip && NTIP.GetMercTier(item) > 0;
 	},
+	
 	canEquip: function (item) {
 		if (item.type !== 4) { // Not an item
 			return false;
@@ -548,7 +546,7 @@ var Item = {
 			tier: -1
 		};
 	},
-
+	
 	getBodyLocMerc: function (item) {
 		var bodyLocMerc;
 
@@ -584,6 +582,7 @@ var Item = {
 
 		return bodyLocMerc;
 	},
+	
 	getBodyLoc: function (item) {
 		var bodyLoc;
 
@@ -769,7 +768,7 @@ var Item = {
 		return true;
 	},
 	
-    canEquipMerc: function (item, bodyLoc) {
+	canEquipMerc: function (item, bodyLoc) {
         if (item.type !== 4) { // Not an item
             return false;
         }
@@ -1420,7 +1419,7 @@ var Misc = {
 				}
 
 				// Find and store new color info
-				index = desc[i].lastIndexOf("");
+				index = desc[i].lastIndexOf("ÿc");
 
 				if (index > -1) {
 					stringColor = desc[i].substring(index, index + "ÿ".length + 2);
@@ -1593,7 +1592,7 @@ var Misc = {
 
 		var lastArea, code, desc, sock, itemObj,
 			color = -1,
-			name = unit.fname.split("\n").reverse().join(" ").replace(/[0-9!"+<:;.*]|\/|\\/g, "").trim();
+			name = unit.fname.split("\n").reverse().join(" ").replace(/ÿc[0-9!"+<:;.*]|\/|\\/g, "").trim();
 
 		desc = this.getItemDesc(unit);
 		color = unit.getColor();
@@ -2077,13 +2076,13 @@ MainLoop:
 
 		if (typeof error === "string") {
 			msg = error;
-			oogmsg = error.replace(/[0-9!"+<:;.*]/gi, "");
-			filemsg = dateString + " <" + me.profile + "> " + error.replace(/[0-9!"+<:;.*]/gi, "") + "\n";
+			oogmsg = error.replace(/ÿc[0-9!"+<:;.*]/gi, "");
+			filemsg = dateString + " <" + me.profile + "> " + error.replace(/ÿc[0-9!"+<:;.*]/gi, "") + "\n";
 		} else {
 			source = error.fileName.substring(error.fileName.lastIndexOf("\\") + 1, error.fileName.length);
-			msg = "1Error in " + script + " 1(" + source + " line 1" + error.lineNumber + "): 1" + error.message;
+			msg = "ÿc1Error in ÿc0" + script + " ÿc1(" + source + " line ÿc1" + error.lineNumber + "): ÿc1" + error.message;
 			oogmsg = " Error in " + script + " (" + source + " #" + error.lineNumber + ") " + error.message + " (Area: " + me.area + ", Ping:" + me.ping + ", Game: " + me.gamename + ")";
-			filemsg = dateString + " <" + me.profile + "> " + msg.replace(/[0-9!"+<:;.*]/gi, "") + "\n";
+			filemsg = dateString + " <" + me.profile + "> " + msg.replace(/ÿc[0-9!"+<:;.*]/gi, "") + "\n";
 
 			if (error.hasOwnProperty("stack")) {
 				stack = error.stack;
@@ -2803,7 +2802,7 @@ var LocalChat = new function () {
 		}
 
 		Config.LocalChat.Mode = (Config.LocalChat.Mode + cycle) % 3;
-		print("2LocalChat enabled. Mode: " + Config.LocalChat.Mode);
+		print("ÿc2LocalChat enabled. Mode: " + Config.LocalChat.Mode);
 
 		switch (Config.LocalChat.Mode) {
 		case 2:

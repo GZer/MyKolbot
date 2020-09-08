@@ -18,14 +18,14 @@ function ShopBot() {
 			filename = filepath.substring(filepath.lastIndexOf("/") + 1, filepath.length);
 
 		if (!FileTools.exists(filepath)) {
-			Misc.errorReport("NIP file doesn't exist: " + filepath);
+			Misc.errorReport("ÿc1NIP file doesn't exist: ÿc0" + filepath);
 			return false;
 		}
 
 		try {
 			nipfile = File.open(filepath, 0);
 		} catch (fileError) {
-			Misc.errorReport("Failed to load NIP: " + filename);
+			Misc.errorReport("ÿc1Failed to load NIP: ÿc0" + filename);
 		}
 
 		if (!nipfile) {
@@ -249,7 +249,7 @@ function ShopBot() {
 			if (NTIPAliasClassID.hasOwnProperty(Config.ShopBot.ScanIDs[i].replace(/\s+/g, "").toLowerCase())) {
 				Config.ShopBot.ScanIDs[i] = NTIPAliasClassID[Config.ShopBot.ScanIDs[i].replace(/\s+/g, "").toLowerCase()];
 			} else {
-				Misc.errorReport("Invalid ShopBot entry: " + Config.ShopBot.ScanIDs[i]);
+				Misc.errorReport("ÿc1Invalid ShopBot entry:ÿc0 " + Config.ShopBot.ScanIDs[i]);
 				Config.ShopBot.ScanIDs.splice(i, 1);
 				i -= 1;
 			}

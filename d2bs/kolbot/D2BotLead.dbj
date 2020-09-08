@@ -499,7 +499,7 @@ MainSwitch:
 					if (ControlAction.joinChannel(chanInfo.joinChannel[i])) {
 						useChat = true;
 					} else {
-						print("1Unable to join channel, disabling chat messages.");
+						print("ÿc1Unable to join channel, disabling chat messages.");
 
 						useChat = false;
 					}
