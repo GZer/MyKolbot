@@ -710,7 +710,7 @@ function LevelLeader(){
 			case 6://Assassin
 				break;
 		}
-		if(me.getMerc() || me.mercReviveCost>0 || me.diff != MyMercDiff){return true;}
+		if(me.getMerc() || me.mercrevivecost > 0 || me.diff != MyMercDiff){return true;}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);

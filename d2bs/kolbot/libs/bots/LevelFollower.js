@@ -77,7 +77,13 @@ function LevelFollower(){
 			if(LeaderAct != me.act){														//Make sure we are in the same act
 				this.ChangeAct(LeaderAct);
 			}
-			if(this.isImportantQuest(LeaderArea)){Config.LifeChicken=0;}else{Config.LifeChicken=30;}
+			if(this.isImportantQuest(LeaderArea)){
+				say("Important Quest Area");
+				Config.LifeChicken=0;
+				Config.TownHP=15;
+			}else{
+				Config.LifeChicken=30;
+			}
 			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
 				this.teleportToLocation(me.area);
 			}
