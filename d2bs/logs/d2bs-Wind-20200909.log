@@ -1,0 +1,334 @@
+[09/09/20 14:40:28] D2BS 2684: D2BS Engine startup complete. 1.6.4U
+[09/09/20 14:40:28] D2BS 2684: Wind
+[09/09/20 14:40:28] D2BS 2684: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/09/20 14:40:28] D2BS 2684: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/09/20 14:40:28] D2BS 2684: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/09/20 14:40:28] D2BS 2684: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/09/20 14:40:28] D2BS 2684: ÿc2D2BSÿc0 :: Started Console Script
+[09/09/20 14:40:31] D2BS 2684: Heartbeat loaded
+[09/09/20 14:40:48] D2BS 2684: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/09/20 14:40:48] D2BS 2684: ÿc2D2BSÿc0 :: default.dbj running.
+[09/09/20 14:40:48] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/09/20 14:40:48] D2BS 2684: Updating Config from level 0 to 1
+[09/09/20 14:40:48] D2BS 2684: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 2684: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 2684: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 2684: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 2684: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc215 ms
+[09/09/20 14:40:48] D2BS 2684: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 2684: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/09/20 14:40:48] D2BS 2684: Updating Config from level 0 to 1
+[09/09/20 14:40:48] D2BS 2684: AutoBuild: Loaded helper thread
+[09/09/20 14:40:48] D2BS 2684: ÿc2Starting script: ÿc9LevelFollower
+[09/09/20 14:40:48] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/09/20 14:40:48] D2BS 2684: Updating Config from level 0 to 1
+[09/09/20 14:40:48] D2BS 2684: ÿc2Party thread loaded. Mode: Accept
+[09/09/20 14:40:48] D2BS 2684: ÿc3Start ToolsThread script
+[09/09/20 14:40:48] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/09/20 14:40:48] D2BS 2684: Updating Config from level 0 to 1
+[09/09/20 14:40:57] D2BS 2684: move retry 1
+[09/09/20 14:41:52] D2BS 2684: move retry 1
+[09/09/20 14:42:27] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:42:33] D2BS 2684: move retry 1
+[09/09/20 14:42:52] D2BS 2684: move retry 1
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: Level up detected ( 1 --> 2 )
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: useSkillPoint(): Raven (221)
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: Skill (1/1) Increased Raven (221) by one (level:  1)
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: Stat (2/5) Increased Vitality from 25 to 26
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: Stat (3/5) Increased Vitality from 26 to 27
+[09/09/20 14:42:56] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:57] D2BS 2684: AutoBuild: Stat (4/5) Increased Vitality from 27 to 28
+[09/09/20 14:42:57] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:57] D2BS 2684: AutoBuild: Stat (5/5) Increased Vitality from 28 to 29
+[09/09/20 14:42:57] D2BS 2684: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 2684: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 2684: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 2684: AutoBuild: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 2684: AutoBuild: Incrementing cached character level to 2
+[09/09/20 14:43:04] D2BS 2684: move retry 1
+[09/09/20 14:43:37] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:43:43] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:43:58] D2BS 2684: move retry 1
+[09/09/20 14:44:30] D2BS 2684: ÿc7Picked up ÿc41 Gold
+[09/09/20 14:44:33] D2BS 2684: move retry 1
+[09/09/20 14:44:35] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:44:44] D2BS 2684: move retry 1
+[09/09/20 14:44:55] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:45:27] D2BS 2684: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:45:27] D2BS 2684: AutoBuild: Level up detected ( 2 --> 3 )
+[09/09/20 14:45:27] D2BS 2684: AutoBuild: useSkillPoint(): Poison Creeper (222)
+[09/09/20 14:45:27] D2BS 2684: AutoBuild: Skill (1/1) Increased Poison Creeper (222) by one (level:  3)
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: Stat (2/5) Increased Vitality from 29 to 30
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: Stat (3/5) Increased Vitality from 30 to 31
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: Stat (4/5) Increased Vitality from 31 to 32
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: Stat (5/5) Increased Vitality from 32 to 33
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 2684: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 2684: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 2684: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 2684: AutoBuild: Incrementing cached character level to 3
+[09/09/20 14:45:38] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:45:58] D2BS 2684: move retry 1
+[09/09/20 14:46:08] D2BS 2684: move retry 1
+[09/09/20 14:46:34] D2BS 2684: move retry 1
+[09/09/20 14:46:36] D2BS 2684: move retry 1
+[09/09/20 14:46:44] D2BS 2684: ÿc7Picked up ÿc41 Gold
+[09/09/20 14:46:53] D2BS 2684: move retry 1
+[09/09/20 14:47:33] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:47:40] D2BS 2684: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:48:03] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:48:09] D2BS 2684: move retry 1
+[09/09/20 14:48:41] D2BS 2684: move retry 1
+[09/09/20 14:50:33] D2BS 2684: 2,8
+[09/09/20 14:51:16] D2BS 2684: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:51:18] D2BS 2684: ÿc7Picked up ÿc43 Gold
+[09/09/20 14:51:35] D2BS 2684: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:51:35] D2BS 2684: AutoBuild: Level up detected ( 3 --> 4 )
+[09/09/20 14:51:35] D2BS 2684: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:51:35] D2BS 2684: AutoBuild: Stat (1/5) Increased Strength from 17 to 18
+[09/09/20 14:51:35] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: Stat (2/5) Increased Vitality from 33 to 34
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: Stat (3/5) Increased Vitality from 34 to 35
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: Stat (4/5) Increased Vitality from 35 to 36
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 2684: ÿc7Picked up ÿc411 Gold
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: Stat (5/5) Increased Vitality from 36 to 37
+[09/09/20 14:51:36] D2BS 2684: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 2684: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 2684: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 2684: AutoBuild: Incrementing cached character level to 4
+[09/09/20 14:51:47] D2BS 2684: move retry 1
+[09/09/20 14:51:54] D2BS 2684: move retry 1
+[09/09/20 14:52:18] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:52:32] D2BS 2684: ÿc7Picked up ÿc46 Gold
+[09/09/20 14:52:33] D2BS 2684: move retry 1
+[09/09/20 14:53:00] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:53:12] D2BS 2684: move retry 1
+[09/09/20 14:53:33] D2BS 2684: ÿc7Picked up ÿc423 Gold
+[09/09/20 14:53:34] D2BS 2684: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:53:49] D2BS 2684: move retry 1
+[09/09/20 14:53:51] D2BS 2684: move retry 1
+[09/09/20 14:54:36] D2BS 2684: 8,2
+[09/09/20 14:55:48] D2BS 2684: move retry 1
+[09/09/20 14:55:51] D2BS 2684: 2,1
+[09/09/20 14:56:05] D2BS 2684: initNPC: heal
+[09/09/20 14:56:37] D2BS 2684: move retry 1
+[09/09/20 14:56:40] D2BS 2684: 1,2,3
+[09/09/20 14:57:52] D2BS 2684: AutoBuild: Stat points: 5      Skill points: 3
+[09/09/20 14:57:52] D2BS 2684: AutoBuild: Level up detected ( 4 --> 5 )
+[09/09/20 14:57:52] D2BS 2684: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:57:52] D2BS 2684: AutoBuild: Stat (1/5) Increased Strength from 18 to 19
+[09/09/20 14:57:52] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:52] D2BS 2684: AutoBuild: Stat (2/5) Increased Vitality from 37 to 38
+[09/09/20 14:57:52] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:53] D2BS 2684: AutoBuild: Stat (3/5) Increased Vitality from 38 to 39
+[09/09/20 14:57:53] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:53] D2BS 2684: AutoBuild: Stat (4/5) Increased Vitality from 39 to 40
+[09/09/20 14:57:53] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:53] D2BS 2684: AutoBuild: Stat (5/5) Increased Vitality from 40 to 41
+[09/09/20 14:57:53] D2BS 2684: Updating Config from level 4 to 5
+[09/09/20 14:57:53] D2BS 2684: Updating Config from level 4 to 5
+[09/09/20 14:57:53] D2BS 2684: AutoBuild: Updating Config from level 4 to 5
+[09/09/20 14:57:53] D2BS 2684: Updating Config from level 4 to 5
+[09/09/20 14:57:53] D2BS 2684: AutoBuild: Incrementing cached character level to 5
+[09/09/20 14:58:16] D2BS 2684: move retry 1
+[09/09/20 14:58:22] D2BS 2684: move retry 1
+[09/09/20 14:58:26] D2BS 2684: move retry 1
+[09/09/20 14:58:51] D2BS 2684: ÿc7Picked up ÿc411 Gold
+[09/09/20 14:59:02] D2BS 2684: ÿc7Picked up ÿc47 Gold
+[09/09/20 14:59:02] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:59:03] D2BS 2684: ÿc7Picked up ÿc411 Gold
+[09/09/20 14:59:04] D2BS 2684: move retry 1
+[09/09/20 14:59:16] D2BS 2684: move retry 1
+[09/09/20 14:59:21] D2BS 2684: move retry 1
+[09/09/20 14:59:37] D2BS 2684: move retry 1
+[09/09/20 15:00:08] D2BS 2684: move retry 1
+[09/09/20 15:01:06] D2BS 2684: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:01:25] D2BS 2684: move retry 1
+[09/09/20 15:01:37] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:02:10] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:02:17] D2BS 2684: ÿc7Picked up ÿc47 Gold
+[09/09/20 15:02:37] D2BS 2684: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:03:28] D2BS 2684: move retry 1
+[09/09/20 15:03:28] D2BS 2684: move retry 1
+[09/09/20 15:04:11] D2BS 2684: AutoBuild: Stat points: 5      Skill points: 4
+[09/09/20 15:04:11] D2BS 2684: AutoBuild: Level up detected ( 5 --> 6 )
+[09/09/20 15:04:11] D2BS 2684: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/09/20 15:04:11] D2BS 2684: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  1)
+[09/09/20 15:04:11] D2BS 2684: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: Stat (1/5) Increased Strength from 19 to 20
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: Stat (2/5) Increased Vitality from 41 to 42
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: Stat (3/5) Increased Vitality from 42 to 43
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: Stat (4/5) Increased Vitality from 43 to 44
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: Stat (5/5) Increased Vitality from 44 to 45
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: Updating Config from level 5 to 6
+[09/09/20 15:04:12] D2BS 2684: Updating Config from level 5 to 6
+[09/09/20 15:04:12] D2BS 2684: Updating Config from level 5 to 6
+[09/09/20 15:04:12] D2BS 2684: Updating Config from level 5 to 6
+[09/09/20 15:04:12] D2BS 2684: AutoBuild: Incrementing cached character level to 6
+[09/09/20 15:04:13] D2BS 2684: ÿc7Picked up ÿc411 Gold
+[09/09/20 15:04:24] D2BS 2684: ÿc7Picked up ÿc44 Gold
+[09/09/20 15:04:36] D2BS 2684: move retry 1
+[09/09/20 15:04:45] D2BS 2684: ÿc7Picked up ÿc3Short Sword ÿc0(ilvl 5) (Tornado.xpac.nip #2)
+[09/09/20 15:04:45] D2BS 2684: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:04:48] D2BS 2684: move retry 1
+[09/09/20 15:04:52] D2BS 2684: move retry 1
+[09/09/20 15:04:53] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:05:04] D2BS 2684: move retry 1
+[09/09/20 15:05:09] D2BS 2684: move retry 1
+[09/09/20 15:05:11] D2BS 2684: move retry 1
+[09/09/20 15:05:28] D2BS 2684: move retry 1
+[09/09/20 15:05:29] D2BS 2684: move retry 2
+[09/09/20 15:05:33] D2BS 2684: move retry 1
+[09/09/20 15:05:48] D2BS 2684: move retry 1
+[09/09/20 15:07:54] D2BS 2684: ÿc7Picked up ÿc49 Gold
+[09/09/20 15:08:11] D2BS 2684: move retry 1
+[09/09/20 15:08:54] D2BS 2684: move retry 1
+[09/09/20 15:10:37] D2BS 2684: 3,2
+[09/09/20 15:11:12] D2BS 2684: initNPC: heal
+[09/09/20 15:11:23] D2BS 2684: initNPC: identify
+[09/09/20 15:11:24] D2BS 2684: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[09/09/20 15:11:41] D2BS 2684: 3
+[09/09/20 15:12:51] D2BS 2684: move retry 1
+[09/09/20 15:13:00] D2BS 2684: ÿc7Picked up ÿc422 Gold
+[09/09/20 15:13:23] D2BS 2684: ÿc7Picked up ÿc416 Gold
+[09/09/20 15:14:21] D2BS 2684: ÿc7Picked up ÿc46 Gold
+[09/09/20 15:15:11] D2BS 2684: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:15:15] D2BS 2684: ÿc7Picked up ÿc47 Gold
+[09/09/20 15:15:21] D2BS 2684: move retry 1
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: Stat points: 5      Skill points: 4
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: Level up detected ( 6 --> 7 )
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: useSkillPoint(): Arctic Blast (230)
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: Skill (1/2) Increased Arctic Blast (230) by one (level:  1)
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: Skill (2/2) Increased Oak Sage (226) by one (level:  2)
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: Stat (1/5) Increased Strength from 20 to 21
+[09/09/20 15:15:57] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: Stat (2/5) Increased Vitality from 45 to 46
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: Stat (3/5) Increased Vitality from 46 to 47
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: Stat (4/5) Increased Vitality from 47 to 48
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: Stat (5/5) Increased Vitality from 48 to 49
+[09/09/20 15:15:58] D2BS 2684: Updating Config from level 6 to 7
+[09/09/20 15:15:58] D2BS 2684: Updating Config from level 6 to 7
+[09/09/20 15:15:58] D2BS 2684: Updating Config from level 6 to 7
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: Updating Config from level 6 to 7
+[09/09/20 15:15:58] D2BS 2684: AutoBuild: Incrementing cached character level to 7
+[09/09/20 15:16:16] D2BS 2684: move retry 1
+[09/09/20 15:16:55] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:17:05] D2BS 2684: move retry 1
+[09/09/20 15:17:26] D2BS 2684: ÿc7Picked up ÿc418 Gold
+[09/09/20 15:17:26] D2BS 2684: ÿc7Picked up ÿc422 Gold
+[09/09/20 15:18:15] D2BS 2684: move retry 1
+[09/09/20 15:18:33] D2BS 2684: move retry 1
+[09/09/20 15:18:55] D2BS 2684: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:19:46] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:20:07] D2BS 2684: ÿc7Picked up ÿc46 Gold
+[09/09/20 15:20:11] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:20:39] D2BS 2684: move retry 1
+[09/09/20 15:20:51] D2BS 2684: move retry 1
+[09/09/20 15:20:53] D2BS 2684: move retry 1
+[09/09/20 15:21:25] D2BS 2684: AutoBuild: Stat points: 5      Skill points: 3
+[09/09/20 15:21:25] D2BS 2684: AutoBuild: Level up detected ( 7 --> 8 )
+[09/09/20 15:21:25] D2BS 2684: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/09/20 15:21:25] D2BS 2684: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  3)
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: Stat (1/5) Increased Strength from 21 to 22
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: Stat (2/5) Increased Vitality from 49 to 50
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: Stat (5/5) Increased Vitality from 52 to 53
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: Updating Config from level 7 to 8
+[09/09/20 15:21:26] D2BS 2684: Updating Config from level 7 to 8
+[09/09/20 15:21:26] D2BS 2684: Updating Config from level 7 to 8
+[09/09/20 15:21:26] D2BS 2684: Updating Config from level 7 to 8
+[09/09/20 15:21:26] D2BS 2684: AutoBuild: Incrementing cached character level to 8
+[09/09/20 15:21:28] D2BS 2684: move retry 1
+[09/09/20 15:21:28] D2BS 2684: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:21:46] D2BS 2684: move retry 1
+[09/09/20 15:22:16] D2BS 2684: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:22:17] D2BS 2684: move retry 1
+[09/09/20 15:25:10] D2BS 2684: move retry 1
+[09/09/20 15:26:14] D2BS 2684: move retry 1
+[09/09/20 15:26:34] D2BS 2684: 4,10
+[09/09/20 15:27:17] D2BS 2684: Script default.dbj ended
+[09/09/20 15:27:17] D2BS 2684: Script tools\autobuildthread.js ended
+[09/09/20 15:27:17] D2BS 2684: Script tools\party.js ended
+[09/09/20 15:27:17] D2BS 2684: Script tools\toolsthread.js ended
+[09/09/20 15:27:24] D2BS 2684: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/09/20 15:27:24] D2BS 2684: ÿc2D2BSÿc0 :: default.dbj running.
+[09/09/20 15:27:24] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/09/20 15:27:24] D2BS 2684: Updating Config from level 0 to 8
+[09/09/20 15:27:24] D2BS 2684: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 2684: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 2684: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 2684: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 2684: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc215 ms
+[09/09/20 15:27:24] D2BS 2684: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 2684: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/09/20 15:27:24] D2BS 2684: Updating Config from level 0 to 8
+[09/09/20 15:27:24] D2BS 2684: AutoBuild: Loaded helper thread
+[09/09/20 15:27:24] D2BS 2684: ÿc2Starting script: ÿc9LevelFollower
+[09/09/20 15:27:24] D2BS 2684: initNPC: heal
+[09/09/20 15:27:24] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/09/20 15:27:24] D2BS 2684: Updating Config from level 0 to 8
+[09/09/20 15:27:24] D2BS 2684: ÿc2Party thread loaded. Mode: Accept
+[09/09/20 15:27:24] D2BS 2684: ÿc3Start ToolsThread script
+[09/09/20 15:27:24] D2BS 2684: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/09/20 15:27:24] D2BS 2684: Updating Config from level 0 to 8
+[09/09/20 15:27:31] D2BS 2684: move retry 1
+[09/09/20 15:27:35] D2BS 2684: move retry 1
+[09/09/20 15:27:36] D2BS 2684: initNPC: identify
+[09/09/20 15:27:39] D2BS 2684: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[09/09/20 15:27:55] D2BS 2684: move retry 1
+[09/09/20 15:28:29] D2BS 2684: move retry 1
+[09/09/20 15:28:39] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:28:52] D2BS 2684: ÿc7Picked up ÿc46 Gold
+[09/09/20 15:29:09] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:29:09] D2BS 2684: move retry 1
+[09/09/20 15:29:29] D2BS 2684: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:29:36] D2BS 2684: ÿc7Picked up ÿc417 Gold
+[09/09/20 15:29:40] D2BS 2684: move retry 1
+[09/09/20 15:29:57] D2BS 2684: move retry 1
+[09/09/20 15:29:58] D2BS 2684: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:29:58] D2BS 2684: move retry 1
+[09/09/20 15:30:29] D2BS 2684: move retry 1
+[09/09/20 15:30:42] D2BS 2684: ÿc7Picked up ÿc9Small Shield ÿc0(ilvl 5) (Tornado.xpac.nip #13)
+[09/09/20 15:31:09] D2BS 2684: ÿc7Picked up ÿc421 Gold
+[09/09/20 15:31:16] D2BS 2684: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:31:18] D2BS 2684: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:31:22] D2BS 2684: move retry 1
+[09/09/20 15:31:23] D2BS 2684: move retry 1
+[09/09/20 15:31:43] D2BS 2684: move retry 1
+[09/09/20 15:32:00] D2BS 2684: ÿc7Picked up ÿc415 Gold
+[09/09/20 15:32:01] D2BS 2684: move retry 1
+[09/09/20 15:32:25] D2BS 2684: move retry 1
+[09/09/20 15:32:40] D2BS 2684: move retry 1
+[09/09/20 15:32:56] D2BS 2684: move retry 1

@@ -1,0 +1,365 @@
+[09/09/20 14:39:10] D2BS 14256: D2BS Engine startup complete. 1.6.4U
+[09/09/20 14:39:10] D2BS 14256: FireSorc
+[09/09/20 14:39:10] D2BS 14256: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/09/20 14:39:10] D2BS 14256: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/09/20 14:39:10] D2BS 14256: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/09/20 14:39:10] D2BS 14256: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/09/20 14:39:10] D2BS 14256: ÿc2D2BSÿc0 :: Started Console Script
+[09/09/20 14:39:12] D2BS 14256: Heartbeat loaded
+[09/09/20 14:39:46] D2BS 14256: ÿc1Pausing ÿc0d2botlanfollow.dbj
+[09/09/20 14:40:17] D2BS 14256: ÿc2Resuming ÿc0d2botlanfollow.dbj
+[09/09/20 14:40:21] D2BS 14256: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/09/20 14:40:21] D2BS 14256: ÿc2D2BSÿc0 :: default.dbj running.
+[09/09/20 14:40:21] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/09/20 14:40:21] D2BS 14256: Updating Config from level 0 to 1
+[09/09/20 14:40:21] D2BS 14256: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:21] D2BS 14256: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:21] D2BS 14256: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:21] D2BS 14256: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:21] D2BS 14256: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc216 ms
+[09/09/20 14:40:21] D2BS 14256: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:21] D2BS 14256: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:21] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/09/20 14:40:21] D2BS 14256: Updating Config from level 0 to 1
+[09/09/20 14:40:21] D2BS 14256: AutoBuild: Loaded helper thread
+[09/09/20 14:40:21] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/09/20 14:40:21] D2BS 14256: Updating Config from level 0 to 1
+[09/09/20 14:40:21] D2BS 14256: ÿc2Party thread loaded. Mode: Accept
+[09/09/20 14:40:21] D2BS 14256: ÿc3Start ToolsThread script
+[09/09/20 14:40:21] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/09/20 14:40:21] D2BS 14256: Updating Config from level 0 to 1
+[09/09/20 14:40:22] D2BS 14256: ÿc2Starting script: ÿc9LevelFollower
+[09/09/20 14:41:41] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:41:46] D2BS 14256: move retry 1
+[09/09/20 14:41:51] D2BS 14256: move retry 1
+[09/09/20 14:42:01] D2BS 14256: move retry 1
+[09/09/20 14:42:27] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: Level up detected ( 1 --> 2 )
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: useSkillPoint(): Warmth (37)
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: Skill (1/1) Increased Warmth (37) by one (level:  1)
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: Stat (1/5) Increased Strength from 10 to 11
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: Stat (2/5) Increased Energy from 35 to 36
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: Stat (3/5) Increased Energy from 36 to 37
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: Stat (4/5) Increased Vitality from 10 to 11
+[09/09/20 14:42:56] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:57] D2BS 14256: AutoBuild: Stat (5/5) Increased Vitality from 11 to 12
+[09/09/20 14:42:57] D2BS 14256: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 14256: AutoBuild: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 14256: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 14256: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 14256: AutoBuild: Incrementing cached character level to 2
+[09/09/20 14:43:10] D2BS 14256: move retry 1
+[09/09/20 14:43:16] D2BS 14256: move retry 1
+[09/09/20 14:43:44] D2BS 14256: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:44:00] D2BS 14256: move retry 1
+[09/09/20 14:44:56] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:45:13] D2BS 14256: move retry 1
+[09/09/20 14:45:15] D2BS 14256: move retry 1
+[09/09/20 14:45:27] D2BS 14256: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:45:27] D2BS 14256: AutoBuild: Level up detected ( 2 --> 3 )
+[09/09/20 14:45:27] D2BS 14256: AutoBuild: useSkillPoint(): Frozen Armor (40)
+[09/09/20 14:45:27] D2BS 14256: AutoBuild: Skill (1/1) Increased Frozen Armor (40) by one (level:  1)
+[09/09/20 14:45:27] D2BS 14256: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: Stat (1/5) Increased Strength from 11 to 12
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: Stat (2/5) Increased Energy from 37 to 38
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: Stat (3/5) Increased Energy from 38 to 39
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: Stat (4/5) Increased Vitality from 12 to 13
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: Stat (5/5) Increased Vitality from 13 to 14
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 14256: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 14256: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 14256: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 14256: AutoBuild: Incrementing cached character level to 3
+[09/09/20 14:45:38] D2BS 14256: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:45:58] D2BS 14256: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:46:10] D2BS 14256: move retry 1
+[09/09/20 14:46:15] D2BS 14256: move retry 1
+[09/09/20 14:46:24] D2BS 14256: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:46:34] D2BS 14256: move retry 1
+[09/09/20 14:46:35] D2BS 14256: move retry 1
+[09/09/20 14:47:24] D2BS 14256: move retry 1
+[09/09/20 14:47:52] D2BS 14256: move retry 1
+[09/09/20 14:48:04] D2BS 14256: move retry 1
+[09/09/20 14:48:29] D2BS 14256: move retry 1
+[09/09/20 14:50:11] D2BS 14256: move retry 1
+[09/09/20 14:50:36] D2BS 14256: 2,8
+[09/09/20 14:51:38] D2BS 14256: move retry 1
+[09/09/20 14:51:38] D2BS 14256: ÿc7Picked up ÿc411 Gold
+[09/09/20 14:51:47] D2BS 14256: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:51:50] D2BS 14256: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:51:50] D2BS 14256: AutoBuild: Level up detected ( 3 --> 4 )
+[09/09/20 14:51:50] D2BS 14256: AutoBuild: useSkillPoint(): Fire Bolt (36)
+[09/09/20 14:51:50] D2BS 14256: AutoBuild: Skill (1/1) Increased Fire Bolt (36) by one (level:  2)
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: Stat (1/5) Increased Strength from 12 to 13
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: Stat (2/5) Increased Energy from 39 to 40
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: Stat (3/5) Increased Energy from 40 to 41
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: Stat (4/5) Increased Vitality from 14 to 15
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[09/09/20 14:51:51] D2BS 14256: Updating Config from level 3 to 4
+[09/09/20 14:51:51] D2BS 14256: Updating Config from level 3 to 4
+[09/09/20 14:51:51] D2BS 14256: Updating Config from level 3 to 4
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: Updating Config from level 3 to 4
+[09/09/20 14:51:51] D2BS 14256: AutoBuild: Incrementing cached character level to 4
+[09/09/20 14:52:20] D2BS 14256: move retry 1
+[09/09/20 14:52:33] D2BS 14256: move retry 1
+[09/09/20 14:52:56] D2BS 14256: move retry 1
+[09/09/20 14:53:03] D2BS 14256: move retry 1
+[09/09/20 14:53:32] D2BS 14256: ÿc7Picked up ÿc43 Gold
+[09/09/20 14:53:33] D2BS 14256: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/09/20 14:53:33] D2BS 14256: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/09/20 14:53:35] D2BS 14256: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:53:50] D2BS 14256: move retry 1
+[09/09/20 14:54:37] D2BS 14256: 8,2
+[09/09/20 14:55:01] D2BS 14256: 2,3
+[09/09/20 14:56:01] D2BS 14256: 2,1
+[09/09/20 14:56:28] D2BS 14256: initNPC: heal
+[09/09/20 14:57:08] D2BS 14256: 3
+[09/09/20 14:57:28] D2BS 14256: ÿc7Picked up ÿc47 Gold
+[09/09/20 14:57:35] D2BS 14256: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 14:57:49] D2BS 14256: AutoBuild: Stat points: 5      Skill points: 2
+[09/09/20 14:57:49] D2BS 14256: AutoBuild: Level up detected ( 4 --> 5 )
+[09/09/20 14:57:49] D2BS 14256: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  1)
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Stat (1/5) Increased Strength from 13 to 14
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Stat (2/5) Increased Energy from 41 to 42
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Stat (3/5) Increased Energy from 42 to 43
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Stat (4/5) Increased Vitality from 16 to 17
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Stat (5/5) Increased Vitality from 17 to 18
+[09/09/20 14:57:50] D2BS 14256: Updating Config from level 4 to 5
+[09/09/20 14:57:50] D2BS 14256: Updating Config from level 4 to 5
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Updating Config from level 4 to 5
+[09/09/20 14:57:50] D2BS 14256: Updating Config from level 4 to 5
+[09/09/20 14:57:50] D2BS 14256: AutoBuild: Incrementing cached character level to 5
+[09/09/20 14:57:53] D2BS 14256: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:58:08] D2BS 14256: ÿc7Picked up ÿc411 Gold
+[09/09/20 14:58:12] D2BS 14256: ÿc7Picked up ÿc41 Gold
+[09/09/20 14:58:19] D2BS 14256: move retry 1
+[09/09/20 14:58:28] D2BS 14256: ÿc7Picked up ÿc43 Gold
+[09/09/20 14:58:51] D2BS 14256: ÿc7Picked up ÿc411 Gold
+[09/09/20 14:59:03] D2BS 14256: ÿc7Picked up ÿc410 Gold
+[09/09/20 14:59:28] D2BS 14256: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/09/20 14:59:44] D2BS 14256: move retry 1
+[09/09/20 15:00:18] D2BS 14256: move retry 1
+[09/09/20 15:00:22] D2BS 14256: move retry 1
+[09/09/20 15:00:27] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:00:55] D2BS 14256: move retry 1
+[09/09/20 15:01:04] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:01:13] D2BS 14256: move retry 1
+[09/09/20 15:01:23] D2BS 14256: move retry 1
+[09/09/20 15:01:37] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:01:39] D2BS 14256: move retry 1
+[09/09/20 15:01:49] D2BS 14256: move retry 1
+[09/09/20 15:02:05] D2BS 14256: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:02:12] D2BS 14256: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:02:14] D2BS 14256: move retry 1
+[09/09/20 15:03:03] D2BS 14256: move retry 1
+[09/09/20 15:03:28] D2BS 14256: move retry 1
+[09/09/20 15:03:28] D2BS 14256: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:03:41] D2BS 14256: move retry 1
+[09/09/20 15:03:45] D2BS 14256: move retry 1
+[09/09/20 15:03:46] D2BS 14256: ÿc7Picked up ÿc410 Gold
+[09/09/20 15:03:50] D2BS 14256: ÿc7Picked up ÿc47 Gold
+[09/09/20 15:03:55] D2BS 14256: move retry 1
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: Stat points: 5      Skill points: 2
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: Level up detected ( 5 --> 6 )
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: useSkillPoint(): Static Field (42)
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: Skill (1/1) Increased Static Field (42) by one (level:  1)
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: Stat (1/5) Increased Strength from 14 to 15
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: Stat (2/5) Increased Energy from 43 to 44
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: Stat (3/5) Increased Energy from 44 to 45
+[09/09/20 15:04:00] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:04:01] D2BS 14256: AutoBuild: Stat (4/5) Increased Vitality from 18 to 19
+[09/09/20 15:04:01] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:04:01] D2BS 14256: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/09/20 15:04:01] D2BS 14256: AutoBuild: Stat (5/5) Increased Vitality from 19 to 20
+[09/09/20 15:04:01] D2BS 14256: AutoBuild: Updating Config from level 5 to 6
+[09/09/20 15:04:01] D2BS 14256: Updating Config from level 5 to 6
+[09/09/20 15:04:01] D2BS 14256: Updating Config from level 5 to 6
+[09/09/20 15:04:01] D2BS 14256: Updating Config from level 5 to 6
+[09/09/20 15:04:01] D2BS 14256: AutoBuild: Incrementing cached character level to 6
+[09/09/20 15:04:14] D2BS 14256: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:04:23] D2BS 14256: ÿc7Picked up ÿc41 Gold
+[09/09/20 15:04:28] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:04:33] D2BS 14256: move retry 1
+[09/09/20 15:04:35] D2BS 14256: move retry 2
+[09/09/20 15:04:54] D2BS 14256: move retry 1
+[09/09/20 15:04:55] D2BS 14256: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:05:13] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:07:11] D2BS 14256: move retry 1
+[09/09/20 15:07:14] D2BS 14256: move retry 1
+[09/09/20 15:07:47] D2BS 14256: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:08:02] D2BS 14256: move retry 1
+[09/09/20 15:09:09] D2BS 14256: move retry 1
+[09/09/20 15:10:37] D2BS 14256: 3,2
+[09/09/20 15:11:10] D2BS 14256: 2,1
+[09/09/20 15:11:44] D2BS 14256: 3
+[09/09/20 15:12:24] D2BS 14256: 3,4
+[09/09/20 15:12:40] D2BS 14256: move retry 1
+[09/09/20 15:13:06] D2BS 14256: move retry 2
+[09/09/20 15:13:07] D2BS 14256: move retry 3
+[09/09/20 15:13:19] D2BS 14256: ÿc1Skipping Hungry Dead 345 16
+[09/09/20 15:13:21] D2BS 14256: ÿc7Picked up ÿc418 Gold
+[09/09/20 15:13:50] D2BS 14256: ÿc7Picked up ÿc49 Gold
+[09/09/20 15:13:51] D2BS 14256: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/09/20 15:15:16] D2BS 14256: ÿc7Picked up ÿc47 Gold
+[09/09/20 15:15:28] D2BS 14256: move retry 1
+[09/09/20 15:15:52] D2BS 14256: ÿc7Picked up ÿc416 Gold
+[09/09/20 15:15:52] D2BS 14256: AutoBuild: Stat points: 5      Skill points: 2
+[09/09/20 15:15:52] D2BS 14256: AutoBuild: Level up detected ( 6 --> 7 )
+[09/09/20 15:15:52] D2BS 14256: AutoBuild: useSkillPoint(): Telekinesis (43)
+[09/09/20 15:15:52] D2BS 14256: AutoBuild: Skill (1/1) Increased Telekinesis (43) by one (level:  1)
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:15:53] D2BS 14256: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: Stat (2/5) Increased Energy from 45 to 46
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: Attempt to spend point 3 in Energy may have failed!
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: Stat (4/5) Increased Vitality from 20 to 21
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: Stat (5/5) Increased Vitality from 21 to 22
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: Updating Config from level 6 to 7
+[09/09/20 15:15:53] D2BS 14256: Updating Config from level 6 to 7
+[09/09/20 15:15:53] D2BS 14256: Updating Config from level 6 to 7
+[09/09/20 15:15:53] D2BS 14256: Updating Config from level 6 to 7
+[09/09/20 15:15:53] D2BS 14256: AutoBuild: Incrementing cached character level to 7
+[09/09/20 15:15:53] D2BS 14256: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:16:40] D2BS 14256: ÿc7Picked up ÿc0Cap ÿc0(ilvl 4) (Meteor.xpac.nip #35)
+[09/09/20 15:16:50] D2BS 14256: move retry 1
+[09/09/20 15:16:52] D2BS 14256: ÿc7Picked up ÿc417 Gold
+[09/09/20 15:16:57] D2BS 14256: move retry 1
+[09/09/20 15:17:05] D2BS 14256: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/09/20 15:17:09] D2BS 14256: move retry 1
+[09/09/20 15:17:44] D2BS 14256: move retry 1
+[09/09/20 15:18:01] D2BS 14256: ÿc7Picked up ÿc3Boots ÿc0(ilvl 5) (Meteor.xpac.nip #69)
+[09/09/20 15:18:08] D2BS 14256: move retry 1
+[09/09/20 15:18:10] D2BS 14256: move retry 1
+[09/09/20 15:18:28] D2BS 14256: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:18:58] D2BS 14256: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/09/20 15:19:04] D2BS 14256: move retry 1
+[09/09/20 15:20:09] D2BS 14256: ÿc7Picked up ÿc47 Gold
+[09/09/20 15:20:13] D2BS 14256: AutoBuild: Stat points: 5      Skill points: 2
+[09/09/20 15:20:13] D2BS 14256: AutoBuild: Level up detected ( 7 --> 8 )
+[09/09/20 15:20:13] D2BS 14256: AutoBuild: useSkillPoint(): Fire Bolt (36)
+[09/09/20 15:20:13] D2BS 14256: AutoBuild: Skill (1/1) Increased Fire Bolt (36) by one (level:  3)
+[09/09/20 15:20:13] D2BS 14256: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: Stat (2/5) Increased Energy from 47 to 48
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: useStatPoint(1): Energy
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: Stat (3/5) Increased Energy from 48 to 49
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: Stat (4/5) Increased Vitality from 22 to 23
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: Stat (5/5) Increased Vitality from 23 to 24
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: Updating Config from level 7 to 8
+[09/09/20 15:20:14] D2BS 14256: Updating Config from level 7 to 8
+[09/09/20 15:20:14] D2BS 14256: Updating Config from level 7 to 8
+[09/09/20 15:20:14] D2BS 14256: Updating Config from level 7 to 8
+[09/09/20 15:20:14] D2BS 14256: AutoBuild: Incrementing cached character level to 8
+[09/09/20 15:20:36] D2BS 14256: move retry 1
+[09/09/20 15:20:50] D2BS 14256: move retry 1
+[09/09/20 15:21:26] D2BS 14256: move retry 1
+[09/09/20 15:21:28] D2BS 14256: move retry 1
+[09/09/20 15:22:10] D2BS 14256: move retry 1
+[09/09/20 15:22:17] D2BS 14256: move retry 1
+[09/09/20 15:22:26] D2BS 14256: move retry 1
+[09/09/20 15:22:30] D2BS 14256: move retry 1
+[09/09/20 15:22:39] D2BS 14256: ÿc7Picked up ÿc49 Gold
+[09/09/20 15:22:57] D2BS 14256: move retry 1
+[09/09/20 15:23:33] D2BS 14256: move retry 1
+[09/09/20 15:23:55] D2BS 14256: ÿc7Picked up ÿc0Quilted Armor ÿc0(ilvl 4) (Meteor.xpac.nip #52)
+[09/09/20 15:24:08] D2BS 14256: move retry 1
+[09/09/20 15:25:07] D2BS 14256: move retry 1
+[09/09/20 15:26:38] D2BS 14256: 4,10
+[09/09/20 15:27:17] D2BS 14256: Script default.dbj ended
+[09/09/20 15:27:17] D2BS 14256: Script tools\autobuildthread.js ended
+[09/09/20 15:27:17] D2BS 14256: Script tools\party.js ended
+[09/09/20 15:27:17] D2BS 14256: Script tools\toolsthread.js ended
+[09/09/20 15:27:24] D2BS 14256: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/09/20 15:27:24] D2BS 14256: ÿc2D2BSÿc0 :: default.dbj running.
+[09/09/20 15:27:24] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/09/20 15:27:24] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:27:24] D2BS 14256: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 14256: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc216 ms
+[09/09/20 15:27:24] D2BS 14256: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 14256: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 14256: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 14256: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 14256: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:24] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/09/20 15:27:24] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:27:24] D2BS 14256: AutoBuild: Loaded helper thread
+[09/09/20 15:27:24] D2BS 14256: ÿc2Starting script: ÿc9LevelFollower
+[09/09/20 15:27:24] D2BS 14256: initNPC: identify
+[09/09/20 15:27:24] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/09/20 15:27:24] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:27:24] D2BS 14256: ÿc2Party thread loaded. Mode: Accept
+[09/09/20 15:27:24] D2BS 14256: ÿc3Start ToolsThread script
+[09/09/20 15:27:24] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/09/20 15:27:24] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:27:29] D2BS 14256: move retry 1
+[09/09/20 15:27:33] D2BS 14256: ÿc4MiniShopBotÿc0: Scanning 58 items.
+[09/09/20 15:27:35] D2BS 14256: move retry 1
+[09/09/20 15:28:33] D2BS 14256: move retry 1
+[09/09/20 15:28:52] D2BS 14256: ÿc7Picked up ÿc46 Gold
+[09/09/20 15:28:57] D2BS 14256: Script default.dbj ended
+[09/09/20 15:28:57] D2BS 14256: Script tools\autobuildthread.js ended
+[09/09/20 15:28:57] D2BS 14256: Script tools\party.js ended
+[09/09/20 15:29:03] D2BS 14256: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/09/20 15:29:03] D2BS 14256: ÿc2D2BSÿc0 :: default.dbj running.
+[09/09/20 15:29:03] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/09/20 15:29:03] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:29:03] D2BS 14256: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/09/20 15:29:03] D2BS 14256: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/09/20 15:29:03] D2BS 14256: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/09/20 15:29:03] D2BS 14256: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc216 ms
+[09/09/20 15:29:03] D2BS 14256: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc20 ms
+[09/09/20 15:29:03] D2BS 14256: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/09/20 15:29:03] D2BS 14256: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/09/20 15:29:03] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/09/20 15:29:03] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:29:03] D2BS 14256: AutoBuild: Loaded helper thread
+[09/09/20 15:29:03] D2BS 14256: ÿc2Starting script: ÿc9LevelFollower
+[09/09/20 15:29:03] D2BS 14256: initNPC: heal
+[09/09/20 15:29:03] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/09/20 15:29:03] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:29:03] D2BS 14256: ÿc2Party thread loaded. Mode: Accept
+[09/09/20 15:29:03] D2BS 14256: ÿc3Start ToolsThread script
+[09/09/20 15:29:03] D2BS 14256: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/09/20 15:29:03] D2BS 14256: Updating Config from level 0 to 8
+[09/09/20 15:29:49] D2BS 14256: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:29:52] D2BS 14256: move retry 1
+[09/09/20 15:29:55] D2BS 14256: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:29:56] D2BS 14256: ÿc7Picked up ÿc423 Gold
+[09/09/20 15:31:23] D2BS 14256: ÿc7Picked up ÿc44 Gold
+[09/09/20 15:31:32] D2BS 14256: move retry 1
+[09/09/20 15:31:34] D2BS 14256: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:32:00] D2BS 14256: ÿc7Picked up ÿc415 Gold
+[09/09/20 15:32:24] D2BS 14256: move retry 1
+[09/09/20 15:32:27] D2BS 14256: move retry 1
+[09/09/20 15:32:35] D2BS 14256: move retry 1
+[09/09/20 15:32:58] D2BS 14256: move retry 1

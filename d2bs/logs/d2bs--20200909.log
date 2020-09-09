@@ -1,0 +1,237 @@
+[09/09/20 14:35:40] D2BS 7108: Stack Walk Thread: 5668
+[09/09/20 14:35:40] D2BS 7108: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:40] D2BS 7108: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:40] D2BS 7108: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:40] D2BS 7108: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:40] D2BS 7108: Stack Walk Thread: 8956
+[09/09/20 14:35:40] D2BS 7108: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:40] D2BS 7108: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:40] D2BS 7108: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:40] D2BS 7108: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:40] D2BS 7108: Stack Walk Thread: 1416
+[09/09/20 14:35:40] D2BS 7108: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:40] D2BS 7108: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:40] D2BS 7108: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:40] D2BS 7108: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:40] D2BS 7108: Stack Walk Thread: 13904
+[09/09/20 14:35:40] D2BS 7108: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:40] D2BS 7108: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:40] D2BS 7108: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:40] D2BS 7108: 004087FA (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:40] D2BS 7108: 7742DA75 (ntdll): (filename not available): TpSetWaitEx
+[09/09/20 14:35:40] D2BS 7108: 0068B30E (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:40] D2BS 7108: 77423815 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:40] D2BS 7108: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:40] D2BS 7108: 7622CAE1 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:40] D2BS 7108: 7743EC66 (ntdll): (filename not available): RtlpTimeToTimeFields
+[09/09/20 14:35:40] D2BS 7108: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:40] D2BS 7108: 7622CA37 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:40] D2BS 7108: 0040BFAE (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:40] D2BS 7108: 77423581 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:40] D2BS 7108: 774235F3 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:40] D2BS 7108: Stack Walk Thread: 11420
+[09/09/20 14:35:40] D2BS 7108: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:40] D2BS 7108: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:40] D2BS 7108: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:40] D2BS 7108: 0040B45E (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:40] D2BS 7108: 7622BBE7 (KERNELBASE): (filename not available): SetFilePointer
+[09/09/20 14:35:40] D2BS 7108: 0069B776 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:40] D2BS 7108: 006A3140 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:40] D2BS 7108: 0068D453 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:40] D2BS 7108: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:40] D2BS 7108: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:41] D2BS 7108: 0068D426 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:41] D2BS 7108: Stack Walk Thread: 13824
+[09/09/20 14:35:41] D2BS 7108: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:41] D2BS 7108: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:41] D2BS 7108: 00408FA6 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:41] D2BS 7108: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:41] D2BS 7108: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:41] D2BS 7108: Stack Walk Thread: 4544
+[09/09/20 14:35:41] D2BS 7108: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:41] D2BS 7108: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:41] D2BS 7108: 00415FB8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:41] D2BS 7108: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:41] D2BS 7108: Stack Walk Thread: 11040
+[09/09/20 14:35:41] D2BS 7108: 032FB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/09/20 14:35:41] D2BS 7108: 032F37F8 (D2BS): (filename not available): QueryInterface
+[09/09/20 14:35:41] D2BS 7108: 00401F32 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:41] D2BS 7108: Crash File: 
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 11288
+[09/09/20 14:35:42] D2BS 2760: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:42] D2BS 2760: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:42] D2BS 2760: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 8432
+[09/09/20 14:35:42] D2BS 2760: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:42] D2BS 2760: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:42] D2BS 2760: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 4492
+[09/09/20 14:35:42] D2BS 2760: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:42] D2BS 2760: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:42] D2BS 2760: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 7676
+[09/09/20 14:35:42] D2BS 2760: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:42] D2BS 2760: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:42] D2BS 2760: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: 004087FA (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: 7742DA75 (ntdll): (filename not available): TpSetWaitEx
+[09/09/20 14:35:42] D2BS 2760: 0068B30E (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:42] D2BS 2760: 77423815 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:42] D2BS 2760: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:42] D2BS 2760: 7622CAE1 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:42] D2BS 2760: 7743EC66 (ntdll): (filename not available): RtlpTimeToTimeFields
+[09/09/20 14:35:42] D2BS 2760: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:42] D2BS 2760: 7622CA37 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:42] D2BS 2760: 0040BFAE (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: 77423581 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:42] D2BS 2760: 774235F3 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 6936
+[09/09/20 14:35:42] D2BS 2760: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:42] D2BS 2760: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:42] D2BS 2760: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: 0040B45E (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: 7622BBE7 (KERNELBASE): (filename not available): SetFilePointer
+[09/09/20 14:35:42] D2BS 2760: 0069B776 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:42] D2BS 2760: 006A3140 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:42] D2BS 2760: 0068D453 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:42] D2BS 2760: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:42] D2BS 2760: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:42] D2BS 2760: 0068D426 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 11324
+[09/09/20 14:35:42] D2BS 2760: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:42] D2BS 2760: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:42] D2BS 2760: 00408FA6 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 13292
+[09/09/20 14:35:42] D2BS 2760: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:42] D2BS 2760: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:42] D2BS 2760: 00415FB8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:42] D2BS 2760: Stack Walk Thread: 3052
+[09/09/20 14:35:42] D2BS 2760: 030FB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/09/20 14:35:42] D2BS 2760: 030F37F8 (D2BS): (filename not available): QueryInterface
+[09/09/20 14:35:42] D2BS 2760: 00401F32 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:42] D2BS 2760: Crash File: 
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 9460
+[09/09/20 14:35:43] D2BS 1636: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:43] D2BS 1636: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:43] D2BS 1636: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 2764
+[09/09/20 14:35:43] D2BS 1636: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:43] D2BS 1636: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:43] D2BS 1636: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 10408
+[09/09/20 14:35:43] D2BS 1636: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:43] D2BS 1636: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:43] D2BS 1636: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 3896
+[09/09/20 14:35:43] D2BS 1636: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:43] D2BS 1636: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:43] D2BS 1636: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 004087FA (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 00D92F38 ((module-name not available)): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 7742DA75 (ntdll): (filename not available): TpSetWaitEx
+[09/09/20 14:35:43] D2BS 1636: 0068B30E (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:43] D2BS 1636: 77423815 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:43] D2BS 1636: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:43] D2BS 1636: 7622CAE1 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:43] D2BS 1636: 7743EC66 (ntdll): (filename not available): RtlpTimeToTimeFields
+[09/09/20 14:35:43] D2BS 1636: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:43] D2BS 1636: 7622CA37 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:43] D2BS 1636: 0040BFAE (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 77423581 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:43] D2BS 1636: 774235F3 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 6220
+[09/09/20 14:35:43] D2BS 1636: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:43] D2BS 1636: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:43] D2BS 1636: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 0040B45E (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 7622BBE7 (KERNELBASE): (filename not available): SetFilePointer
+[09/09/20 14:35:43] D2BS 1636: 0069B776 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:43] D2BS 1636: 006A3140 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:43] D2BS 1636: 0068D453 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:43] D2BS 1636: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:43] D2BS 1636: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:43] D2BS 1636: 0068D426 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 10992
+[09/09/20 14:35:43] D2BS 1636: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:43] D2BS 1636: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:43] D2BS 1636: 00408FA6 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 9976
+[09/09/20 14:35:43] D2BS 1636: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:43] D2BS 1636: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:43] D2BS 1636: 00415FB8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:43] D2BS 1636: Stack Walk Thread: 4728
+[09/09/20 14:35:43] D2BS 1636: 0310B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/09/20 14:35:43] D2BS 1636: 031037F8 (D2BS): (filename not available): QueryInterface
+[09/09/20 14:35:43] D2BS 1636: 00401F32 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:43] D2BS 1636: Crash File: 
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 8380
+[09/09/20 14:35:44] D2BS 5752: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:44] D2BS 5752: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:44] D2BS 5752: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 3044
+[09/09/20 14:35:44] D2BS 5752: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:44] D2BS 5752: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:44] D2BS 5752: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 13088
+[09/09/20 14:35:44] D2BS 5752: 7745321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/09/20 14:35:44] D2BS 5752: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:44] D2BS 5752: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 1684
+[09/09/20 14:35:44] D2BS 5752: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:44] D2BS 5752: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:44] D2BS 5752: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: 004087FA (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: 7742DA75 (ntdll): (filename not available): TpSetWaitEx
+[09/09/20 14:35:44] D2BS 5752: 0068B30E (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:44] D2BS 5752: 77423815 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:44] D2BS 5752: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:44] D2BS 5752: 7622CAE1 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:44] D2BS 5752: 7743EC66 (ntdll): (filename not available): RtlpTimeToTimeFields
+[09/09/20 14:35:44] D2BS 5752: 7622CA93 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:44] D2BS 5752: 7622CA37 (KERNELBASE): (filename not available): GetLocalTime
+[09/09/20 14:35:44] D2BS 5752: 0040BFAE (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: 77423581 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:44] D2BS 5752: 774235F3 (ntdll): (filename not available): RtlDosApplyFileIsolationRedirection_Ustr
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 5360
+[09/09/20 14:35:44] D2BS 5752: 7745182C (ntdll): (filename not available): NtDelayExecution
+[09/09/20 14:35:44] D2BS 5752: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/09/20 14:35:44] D2BS 5752: 0040B3B8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: 0040B45E (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: 7622BBE7 (KERNELBASE): (filename not available): SetFilePointer
+[09/09/20 14:35:44] D2BS 5752: 0069B776 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:44] D2BS 5752: 006A3140 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:44] D2BS 5752: 0068D453 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:44] D2BS 5752: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:44] D2BS 5752: 0068DA40 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:44] D2BS 5752: 0068D426 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 11368
+[09/09/20 14:35:44] D2BS 5752: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:44] D2BS 5752: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:44] D2BS 5752: 00408FA6 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: 774474B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: 77447484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 11492
+[09/09/20 14:35:44] D2BS 5752: 7745150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/09/20 14:35:44] D2BS 5752: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/09/20 14:35:44] D2BS 5752: 00415FB8 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: 758EF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/09/20 14:35:44] D2BS 5752: Stack Walk Thread: 8612
+[09/09/20 14:35:44] D2BS 5752: 0305B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/09/20 14:35:44] D2BS 5752: 030537F8 (D2BS): (filename not available): QueryInterface
+[09/09/20 14:35:44] D2BS 5752: 00401F32 (Game): (filename not available): (function-name not available)
+[09/09/20 14:35:44] D2BS 5752: Crash File: 

@@ -1,0 +1,846 @@
+[09/09/20 14:40:28] D2BS 7328: D2BS Engine startup complete. 1.6.4U
+[09/09/20 14:40:28] D2BS 7328: Summoner
+[09/09/20 14:40:28] D2BS 7328: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[09/09/20 14:40:28] D2BS 7328: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/09/20 14:40:28] D2BS 7328: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/09/20 14:40:28] D2BS 7328: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/09/20 14:40:28] D2BS 7328: ÿc2D2BSÿc0 :: Started Console Script
+[09/09/20 14:40:31] D2BS 7328: Heartbeat loaded
+[09/09/20 14:40:48] D2BS 7328: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/09/20 14:40:48] D2BS 7328: ÿc2D2BSÿc0 :: default.dbj running.
+[09/09/20 14:40:48] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/09/20 14:40:48] D2BS 7328: Updating Config from level 0 to 1
+[09/09/20 14:40:48] D2BS 7328: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/09/20 14:40:48] D2BS 7328: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 7328: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 7328: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 7328: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2114ÿc4. Valid entries: ÿc297. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 7328: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 7328: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/09/20 14:40:48] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/09/20 14:40:48] D2BS 7328: Updating Config from level 0 to 1
+[09/09/20 14:40:48] D2BS 7328: AutoBuild: Loaded helper thread
+[09/09/20 14:40:48] D2BS 7328: ÿc2Starting script: ÿc9LevelFollower
+[09/09/20 14:40:48] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/09/20 14:40:48] D2BS 7328: Updating Config from level 0 to 1
+[09/09/20 14:40:48] D2BS 7328: ÿc2Party thread loaded. Mode: Accept
+[09/09/20 14:40:48] D2BS 7328: ÿc3Start ToolsThread script
+[09/09/20 14:40:48] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/09/20 14:40:48] D2BS 7328: Updating Config from level 0 to 1
+[09/09/20 14:40:52] D2BS 7328: move retry 1
+[09/09/20 14:40:57] D2BS 7328: move retry 2
+[09/09/20 14:40:59] D2BS 7328: move retry 3
+[09/09/20 14:41:40] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:42:30] D2BS 7328: ÿc7Picked up ÿc41 Gold
+[09/09/20 14:42:35] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 14:42:49] D2BS 7328: move retry 1
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: Level up detected ( 1 --> 2 )
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  2)
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 15 to 16
+[09/09/20 14:42:56] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:57] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 16 to 17
+[09/09/20 14:42:57] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:57] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 17 to 18
+[09/09/20 14:42:57] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:42:57] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 18 to 19
+[09/09/20 14:42:57] D2BS 7328: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 7328: AutoBuild: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 7328: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 7328: Updating Config from level 1 to 2
+[09/09/20 14:42:57] D2BS 7328: AutoBuild: Incrementing cached character level to 2
+[09/09/20 14:43:15] D2BS 7328: move retry 1
+[09/09/20 14:43:18] D2BS 7328: move retry 1
+[09/09/20 14:43:33] D2BS 7328: move retry 1
+[09/09/20 14:43:39] D2BS 7328: move retry 1
+[09/09/20 14:43:58] D2BS 7328: move retry 1
+[09/09/20 14:44:16] D2BS 7328: move retry 1
+[09/09/20 14:44:28] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:44:28] D2BS 7328: ÿc7Picked up ÿc0Boots ÿc0(ilvl 1) (Summoner.xpac.nip #58)
+[09/09/20 14:44:37] D2BS 7328: move retry 1
+[09/09/20 14:45:10] D2BS 7328: move retry 1
+[09/09/20 14:45:14] D2BS 7328: ÿc7Picked up ÿc41 Gold
+[09/09/20 14:45:27] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:45:27] D2BS 7328: AutoBuild: Level up detected ( 2 --> 3 )
+[09/09/20 14:45:27] D2BS 7328: AutoBuild: useSkillPoint(): Amplify Damage (66)
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Skill (1/1) Increased Amplify Damage (66) by one (level:  1)
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 19 to 20
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 20 to 21
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 21 to 22
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 22 to 23
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 7328: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 7328: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 7328: Updating Config from level 2 to 3
+[09/09/20 14:45:28] D2BS 7328: AutoBuild: Incrementing cached character level to 3
+[09/09/20 14:45:32] D2BS 7328: move retry 1
+[09/09/20 14:45:35] D2BS 7328: move retry 1
+[09/09/20 14:45:38] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:46:06] D2BS 7328: move retry 1
+[09/09/20 14:46:11] D2BS 7328: move retry 1
+[09/09/20 14:46:24] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:46:39] D2BS 7328: ÿc1Skipping Fallen 81 16
+[09/09/20 14:46:41] D2BS 7328: ÿc1Skipping Fallen 81 16
+[09/09/20 14:46:44] D2BS 7328: ÿc7Picked up ÿc41 Gold
+[09/09/20 14:47:09] D2BS 7328: ÿc1Skipping Fallen 88 16
+[09/09/20 14:47:10] D2BS 7328: ÿc4Attackÿc0: No valid positions for: Fallen
+[09/09/20 14:47:11] D2BS 7328: ÿc4Attackÿc0: No valid positions for: Fallen
+[09/09/20 14:47:11] D2BS 7328: ÿc4Attackÿc0: No valid positions for: Fallen
+[09/09/20 14:47:12] D2BS 7328: ÿc4Attackÿc0: No valid positions for: Fallen
+[09/09/20 14:47:12] D2BS 7328: ÿc4Attackÿc0: No valid positions for: Fallen
+[09/09/20 14:47:18] D2BS 7328: move retry 1
+[09/09/20 14:47:19] D2BS 7328: move retry 1
+[09/09/20 14:47:27] D2BS 7328: ÿc1Skipping Fallen 67 16
+[09/09/20 14:47:30] D2BS 7328: move retry 1
+[09/09/20 14:47:33] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:47:37] D2BS 7328: ÿc7Picked up ÿc41 Gold
+[09/09/20 14:47:39] D2BS 7328: ÿc1Skipping Zombie 91 16
+[09/09/20 14:47:56] D2BS 7328: ÿc1Skipping Zombie 68 16
+[09/09/20 14:48:04] D2BS 7328: move retry 1
+[09/09/20 14:48:04] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 14:48:11] D2BS 7328: move retry 1
+[09/09/20 14:48:16] D2BS 7328: move retry 1
+[09/09/20 14:48:26] D2BS 7328: move retry 1
+[09/09/20 14:48:30] D2BS 7328: move retry 1
+[09/09/20 14:48:49] D2BS 7328: move retry 1
+[09/09/20 14:49:08] D2BS 7328: move retry 1
+[09/09/20 14:50:59] D2BS 7328: 2,8
+[09/09/20 14:51:22] D2BS 7328: move retry 1
+[09/09/20 14:51:22] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Level up detected ( 3 --> 4 )
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: useSkillPoint(): Bone Armor (68)
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Skill (1/1) Increased Bone Armor (68) by one (level:  1)
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 17 to 18
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 23 to 24
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 24 to 25
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 25 to 26
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 26 to 27
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 7328: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 7328: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 7328: Updating Config from level 3 to 4
+[09/09/20 14:51:36] D2BS 7328: AutoBuild: Incrementing cached character level to 4
+[09/09/20 14:51:45] D2BS 7328: ÿc1Skipping Fallen 106 16
+[09/09/20 14:51:45] D2BS 7328: ÿc1Skipping Fallen 105 16
+[09/09/20 14:51:47] D2BS 7328: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:51:49] D2BS 7328: ÿc1Skipping Fallen Shaman 100 16
+[09/09/20 14:51:49] D2BS 7328: ÿc1Skipping Fallen 101 16
+[09/09/20 14:51:50] D2BS 7328: ÿc1Skipping Fallen 101 16
+[09/09/20 14:52:10] D2BS 7328: ÿc1Skipping Fallen 124 16
+[09/09/20 14:52:11] D2BS 7328: ÿc1Skipping Fallen 124 16
+[09/09/20 14:52:11] D2BS 7328: ÿc1Skipping Fallen 123 16
+[09/09/20 14:52:12] D2BS 7328: ÿc1Skipping Fallen 123 16
+[09/09/20 14:52:13] D2BS 7328: ÿc1Skipping Zombie 127 16
+[09/09/20 14:52:13] D2BS 7328: ÿc1Skipping Zombie 127 16
+[09/09/20 14:52:14] D2BS 7328: ÿc1Skipping Fallen 125 16
+[09/09/20 14:52:14] D2BS 7328: ÿc1Skipping Fallen Shaman 121 16
+[09/09/20 14:52:15] D2BS 7328: ÿc1Skipping Fallen 125 16
+[09/09/20 14:52:15] D2BS 7328: ÿc1Skipping Zombie 130 16
+[09/09/20 14:52:15] D2BS 7328: ÿc1Skipping Zombie 128 16
+[09/09/20 14:52:15] D2BS 7328: ÿc1Skipping Zombie 129 16
+[09/09/20 14:52:18] D2BS 7328: ÿc1Skipping Zombie 130 16
+[09/09/20 14:52:18] D2BS 7328: ÿc1Skipping Zombie 128 16
+[09/09/20 14:52:19] D2BS 7328: ÿc1Skipping Zombie 128 16
+[09/09/20 14:52:19] D2BS 7328: ÿc1Skipping Zombie 129 16
+[09/09/20 14:52:20] D2BS 7328: ÿc1Skipping Zombie 129 16
+[09/09/20 14:52:21] D2BS 7328: ÿc1Skipping Zombie 129 16
+[09/09/20 14:52:21] D2BS 7328: ÿc1Skipping Zombie 129 16
+[09/09/20 14:52:22] D2BS 7328: ÿc1Skipping Zombie 129 16
+[09/09/20 14:52:28] D2BS 7328: ÿc1Skipping Gargantuan Beast 120 16
+[09/09/20 14:52:28] D2BS 7328: ÿc1Skipping Gargantuan Beast 120 16
+[09/09/20 14:52:30] D2BS 7328: ÿc1Skipping Gargantuan Beast 120 16
+[09/09/20 14:52:32] D2BS 7328: ÿc7Picked up ÿc46 Gold
+[09/09/20 14:52:36] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 14:52:37] D2BS 7328: ÿc1Skipping Fallen 119 16
+[09/09/20 14:52:38] D2BS 7328: ÿc1Skipping Fallen 117 16
+[09/09/20 14:52:38] D2BS 7328: ÿc1Skipping Fallen 118 16
+[09/09/20 14:52:40] D2BS 7328: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 14:52:43] D2BS 7328: ÿc1Skipping Fallen Shaman 116 16
+[09/09/20 14:52:53] D2BS 7328: ÿc1Skipping Gargantuan Beast 114 16
+[09/09/20 14:52:54] D2BS 7328: ÿc1Skipping Gargantuan Beast 114 16
+[09/09/20 14:52:57] D2BS 7328: ÿc1Skipping Zombie 112 16
+[09/09/20 14:52:58] D2BS 7328: ÿc1Skipping Zombie 112 16
+[09/09/20 14:52:58] D2BS 7328: ÿc1Skipping Zombie 113 16
+[09/09/20 14:52:59] D2BS 7328: ÿc1Skipping Zombie 113 16
+[09/09/20 14:52:59] D2BS 7328: ÿc1Skipping Zombie 113 16
+[09/09/20 14:53:00] D2BS 7328: ÿc1Skipping Zombie 111 16
+[09/09/20 14:53:03] D2BS 7328: ÿc1Skipping Zombie 111 16
+[09/09/20 14:53:03] D2BS 7328: ÿc1Skipping Zombie 111 16
+[09/09/20 14:53:22] D2BS 7328: ÿc1Skipping Zombie 137 16
+[09/09/20 14:53:23] D2BS 7328: ÿc1Skipping Zombie 137 16
+[09/09/20 14:53:23] D2BS 7328: ÿc1Skipping Zombie 137 16
+[09/09/20 14:53:36] D2BS 7328: ÿc1Skipping Fallen 141 16
+[09/09/20 14:53:36] D2BS 7328: ÿc1Skipping Fallen 142 16
+[09/09/20 14:53:37] D2BS 7328: ÿc1Skipping Zombie 133 16
+[09/09/20 14:53:37] D2BS 7328: ÿc1Skipping Zombie 134 16
+[09/09/20 14:53:38] D2BS 7328: ÿc7Picked up ÿc3Leather Armor ÿc0(ilvl 4) (Summoner.xpac.nip #44)
+[09/09/20 14:53:38] D2BS 7328: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 14:53:38] D2BS 7328: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 14:53:40] D2BS 7328: move retry 1
+[09/09/20 14:53:40] D2BS 7328: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:53:41] D2BS 7328: ÿc1Skipping Fallen 142 16
+[09/09/20 14:53:45] D2BS 7328: ÿc1Skipping Fallen 144 16
+[09/09/20 14:53:46] D2BS 7328: ÿc1Skipping Fallen 144 16
+[09/09/20 14:53:46] D2BS 7328: ÿc1Skipping Fallen 144 16
+[09/09/20 14:54:38] D2BS 7328: 8,2
+[09/09/20 14:54:45] D2BS 7328: move retry 1
+[09/09/20 14:54:59] D2BS 7328: 2,3
+[09/09/20 14:55:14] D2BS 7328: move retry 1
+[09/09/20 14:55:19] D2BS 7328: move retry 2
+[09/09/20 14:55:45] D2BS 7328: move retry 1
+[09/09/20 14:55:49] D2BS 7328: 2,1
+[09/09/20 14:55:53] D2BS 7328: move retry 1
+[09/09/20 14:56:04] D2BS 7328: initNPC: heal
+[09/09/20 14:56:22] D2BS 7328: initNPC: identify
+[09/09/20 14:56:24] D2BS 7328: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[09/09/20 14:56:39] D2BS 7328: 3
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 2
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: Level up detected ( 4 --> 5 )
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  1)
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 18 to 19
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 27 to 28
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
+[09/09/20 14:57:06] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 14:57:07] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[09/09/20 14:57:07] D2BS 7328: AutoBuild: Updating Config from level 4 to 5
+[09/09/20 14:57:07] D2BS 7328: Updating Config from level 4 to 5
+[09/09/20 14:57:07] D2BS 7328: Updating Config from level 4 to 5
+[09/09/20 14:57:07] D2BS 7328: Updating Config from level 4 to 5
+[09/09/20 14:57:07] D2BS 7328: AutoBuild: Incrementing cached character level to 5
+[09/09/20 14:57:11] D2BS 7328: ÿc7Picked up ÿc475 Gold
+[09/09/20 14:57:27] D2BS 7328: ÿc1Skipping Dark Hunter 163 16
+[09/09/20 14:57:27] D2BS 7328: ÿc1Skipping Dark Hunter 166 16
+[09/09/20 14:57:28] D2BS 7328: ÿc1Skipping Dark Hunter 161 16
+[09/09/20 14:57:28] D2BS 7328: ÿc1Skipping Dark Hunter 162 16
+[09/09/20 14:57:30] D2BS 7328: ÿc1Skipping Dark Hunter 163 16
+[09/09/20 14:57:31] D2BS 7328: ÿc1Skipping Dark Hunter 162 16
+[09/09/20 14:57:32] D2BS 7328: ÿc1Skipping Dark Hunter 162 16
+[09/09/20 14:57:32] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:57:33] D2BS 7328: ÿc1Skipping Dark Hunter 162 16
+[09/09/20 14:57:34] D2BS 7328: ÿc1Skipping Dark Hunter 162 16
+[09/09/20 14:57:48] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:57:49] D2BS 7328: ÿc1Skipping Fallen 198 16
+[09/09/20 14:57:49] D2BS 7328: ÿc1Skipping Fallen 200 16
+[09/09/20 14:57:49] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:57:50] D2BS 7328: ÿc1Skipping Fallen 200 16
+[09/09/20 14:57:50] D2BS 7328: ÿc1Skipping Fallen 189 16
+[09/09/20 14:57:51] D2BS 7328: ÿc7Picked up ÿc44 Gold
+[09/09/20 14:57:51] D2BS 7328: ÿc1Skipping Fallen 189 16
+[09/09/20 14:57:52] D2BS 7328: ÿc1Skipping Fallen 193 16
+[09/09/20 14:57:52] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:57:56] D2BS 7328: ÿc1Skipping Fallen 198 16
+[09/09/20 14:57:57] D2BS 7328: ÿc1Skipping Fallen 188 16
+[09/09/20 14:58:01] D2BS 7328: move retry 1
+[09/09/20 14:58:02] D2BS 7328: ÿc1Skipping Fallen Shaman 197 16
+[09/09/20 14:58:02] D2BS 7328: ÿc1Skipping Fallen 201 16
+[09/09/20 14:58:09] D2BS 7328: ÿc1Skipping Fallen 187 16
+[09/09/20 14:58:12] D2BS 7328: ÿc1Skipping Fallen 187 16
+[09/09/20 14:58:13] D2BS 7328: ÿc1Skipping Fallen 187 16
+[09/09/20 14:58:14] D2BS 7328: ÿc1Skipping Fallen 187 16
+[09/09/20 14:58:15] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 14:58:20] D2BS 7328: move retry 1
+[09/09/20 14:58:29] D2BS 7328: move retry 1
+[09/09/20 14:59:10] D2BS 7328: move retry 1
+[09/09/20 14:59:22] D2BS 7328: ÿc1Skipping Dark Hunter 222 16
+[09/09/20 14:59:22] D2BS 7328: ÿc1Skipping Dark Hunter 220 16
+[09/09/20 14:59:22] D2BS 7328: ÿc1Skipping Dark Hunter 217 16
+[09/09/20 14:59:25] D2BS 7328: ÿc1Skipping Dark Hunter 221 16
+[09/09/20 14:59:25] D2BS 7328: ÿc1Skipping Dark Hunter 218 16
+[09/09/20 14:59:26] D2BS 7328: ÿc1Skipping Dark Hunter 221 16
+[09/09/20 14:59:26] D2BS 7328: ÿc1Skipping Dark Hunter 218 16
+[09/09/20 14:59:26] D2BS 7328: ÿc7Picked up ÿc411 Gold
+[09/09/20 14:59:31] D2BS 7328: ÿc1Skipping Dark Hunter 227 16
+[09/09/20 14:59:32] D2BS 7328: ÿc1Skipping Dark Hunter 226 16
+[09/09/20 14:59:33] D2BS 7328: ÿc1Skipping Dark Hunter 226 16
+[09/09/20 14:59:42] D2BS 7328: ÿc1Skipping Dark Spearwoman 213 16
+[09/09/20 14:59:54] D2BS 7328: ÿc1Skipping Fallen 230 16
+[09/09/20 15:00:03] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:00:11] D2BS 7328: ÿc1Skipping Gargantuan Beast 228 16
+[09/09/20 15:00:23] D2BS 7328: ÿc1Skipping Dark Hunter 243 16
+[09/09/20 15:00:24] D2BS 7328: ÿc1Skipping Dark Hunter 241 16
+[09/09/20 15:00:25] D2BS 7328: ÿc1Skipping Dark Spearwoman 244 16
+[09/09/20 15:00:25] D2BS 7328: ÿc1Skipping Gargantuan Beast 246 16
+[09/09/20 15:00:26] D2BS 7328: ÿc1Skipping Gargantuan Beast 246 16
+[09/09/20 15:00:26] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:00:35] D2BS 7328: ÿc1Skipping Dark Spearwoman 239 16
+[09/09/20 15:00:35] D2BS 7328: ÿc1Skipping Dark Spearwoman 237 16
+[09/09/20 15:00:36] D2BS 7328: ÿc1Skipping Dark Spearwoman 239 16
+[09/09/20 15:00:42] D2BS 7328: move retry 1
+[09/09/20 15:00:56] D2BS 7328: ÿc1Skipping Dark Hunter 251 16
+[09/09/20 15:00:58] D2BS 7328: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:01:00] D2BS 7328: ÿc1Skipping Dark Spearwoman 261 16
+[09/09/20 15:01:00] D2BS 7328: ÿc1Skipping Dark Spearwoman 260 16
+[09/09/20 15:01:00] D2BS 7328: ÿc1Skipping Dark Hunter 256 16
+[09/09/20 15:01:01] D2BS 7328: ÿc1Skipping Dark Hunter 257 16
+[09/09/20 15:01:01] D2BS 7328: ÿc1Skipping Dark Hunter 252 16
+[09/09/20 15:01:01] D2BS 7328: ÿc1Skipping Dark Spearwoman 254 16
+[09/09/20 15:01:02] D2BS 7328: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 2) (LateGame.nip #11)
+[09/09/20 15:01:04] D2BS 7328: ÿc1Skipping Gargantuan Beast 249 16
+[09/09/20 15:01:05] D2BS 7328: ÿc1Skipping Dark Spearwoman 261 16
+[09/09/20 15:01:06] D2BS 7328: ÿc1Skipping Gargantuan Beast 249 16
+[09/09/20 15:01:13] D2BS 7328: ÿc1Skipping Dark Hunter 259 16
+[09/09/20 15:01:13] D2BS 7328: ÿc1Skipping Dark Hunter 258 16
+[09/09/20 15:01:16] D2BS 7328: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:01:25] D2BS 7328: move retry 1
+[09/09/20 15:01:33] D2BS 7328: ÿc1Skipping Dark Hunter 265 16
+[09/09/20 15:01:33] D2BS 7328: ÿc1Skipping Dark Hunter 268 16
+[09/09/20 15:01:34] D2BS 7328: ÿc1Skipping Dark Hunter 266 16
+[09/09/20 15:01:34] D2BS 7328: ÿc1Skipping Dark Hunter 264 16
+[09/09/20 15:01:34] D2BS 7328: ÿc1Skipping Dark Hunter 267 16
+[09/09/20 15:01:35] D2BS 7328: ÿc1Skipping Dark Hunter 266 16
+[09/09/20 15:01:35] D2BS 7328: ÿc1Skipping Dark Hunter 267 16
+[09/09/20 15:01:36] D2BS 7328: ÿc7Picked up ÿc410 Gold
+[09/09/20 15:01:37] D2BS 7328: move retry 1
+[09/09/20 15:01:45] D2BS 7328: move retry 1
+[09/09/20 15:01:57] D2BS 7328: ÿc1Skipping Dark Hunter 270 16
+[09/09/20 15:01:58] D2BS 7328: ÿc1Skipping Dark Hunter 270 16
+[09/09/20 15:01:58] D2BS 7328: ÿc1Skipping Dark Hunter 271 16
+[09/09/20 15:01:59] D2BS 7328: ÿc1Skipping Dark Hunter 270 16
+[09/09/20 15:02:00] D2BS 7328: ÿc1Skipping Dark Hunter 271 16
+[09/09/20 15:02:00] D2BS 7328: ÿc1Skipping Dark Hunter 271 16
+[09/09/20 15:02:06] D2BS 7328: ÿc1Skipping Dark Hunter 279 16
+[09/09/20 15:02:11] D2BS 7328: ÿc1Skipping Gargantuan Beast 272 16
+[09/09/20 15:02:12] D2BS 7328: ÿc1Skipping Dark Spearwoman 284 16
+[09/09/20 15:02:13] D2BS 7328: move retry 1
+[09/09/20 15:02:14] D2BS 7328: ÿc1Skipping Dark Spearwoman 284 16
+[09/09/20 15:02:14] D2BS 7328: ÿc1Skipping Dark Spearwoman 285 16
+[09/09/20 15:02:15] D2BS 7328: ÿc1Skipping Dark Spearwoman 284 16
+[09/09/20 15:02:15] D2BS 7328: ÿc1Skipping Dark Spearwoman 285 16
+[09/09/20 15:02:16] D2BS 7328: ÿc1Skipping Dark Spearwoman 285 16
+[09/09/20 15:02:16] D2BS 7328: ÿc1Skipping Dark Spearwoman 285 16
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 2
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: Level up detected ( 5 --> 6 )
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  3)
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 19 to 20
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 31 to 32
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 32 to 33
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 33 to 34
+[09/09/20 15:02:17] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:02:18] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 34 to 35
+[09/09/20 15:02:18] D2BS 7328: AutoBuild: Updating Config from level 5 to 6
+[09/09/20 15:02:18] D2BS 7328: Updating Config from level 5 to 6
+[09/09/20 15:02:18] D2BS 7328: Updating Config from level 5 to 6
+[09/09/20 15:02:18] D2BS 7328: Updating Config from level 5 to 6
+[09/09/20 15:02:18] D2BS 7328: AutoBuild: Incrementing cached character level to 6
+[09/09/20 15:02:38] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:02:38] D2BS 7328: ÿc7Picked up ÿc0Quilted Armor ÿc0(ilvl 2) (Summoner.xpac.nip #43)
+[09/09/20 15:03:00] D2BS 7328: ÿc1Skipping Dark Hunter 290 16
+[09/09/20 15:03:01] D2BS 7328: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:03:26] D2BS 7328: ÿc1Skipping Dark Hunter 293 16
+[09/09/20 15:03:28] D2BS 7328: move retry 1
+[09/09/20 15:03:28] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:03:35] D2BS 7328: ÿc1Skipping Dark Hunter 173 16
+[09/09/20 15:03:36] D2BS 7328: ÿc1Skipping Dark Hunter 172 16
+[09/09/20 15:03:36] D2BS 7328: ÿc1Skipping Dark Hunter 172 16
+[09/09/20 15:03:40] D2BS 7328: ÿc1Skipping Dark Hunter 296 16
+[09/09/20 15:03:41] D2BS 7328: ÿc1Skipping Dark Hunter 167 16
+[09/09/20 15:03:42] D2BS 7328: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:03:44] D2BS 7328: ÿc1Skipping Dark Hunter 296 16
+[09/09/20 15:03:45] D2BS 7328: ÿc7Picked up ÿc410 Gold
+[09/09/20 15:03:47] D2BS 7328: ÿc1Skipping Dark Hunter 170 16
+[09/09/20 15:03:47] D2BS 7328: ÿc1Skipping Dark Hunter 171 16
+[09/09/20 15:03:57] D2BS 7328: ÿc1Skipping Gargantuan Beast 303 16
+[09/09/20 15:03:57] D2BS 7328: ÿc1Skipping Gargantuan Beast 303 16
+[09/09/20 15:04:03] D2BS 7328: ÿc1Skipping Dark Hunter 302 16
+[09/09/20 15:04:03] D2BS 7328: ÿc1Skipping Dark Hunter 301 16
+[09/09/20 15:04:04] D2BS 7328: ÿc7Picked up ÿc410 Gold
+[09/09/20 15:04:06] D2BS 7328: ÿc1Skipping Dark Hunter 300 16
+[09/09/20 15:04:08] D2BS 7328: ÿc1Skipping Fallen 313 16
+[09/09/20 15:04:08] D2BS 7328: ÿc1Skipping Fallen 314 16
+[09/09/20 15:04:09] D2BS 7328: ÿc1Skipping Fallen 315 16
+[09/09/20 15:04:11] D2BS 7328: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 2) (LateGame.nip #29)
+[09/09/20 15:04:15] D2BS 7328: ÿc1Skipping Dark Spearwoman 327 16
+[09/09/20 15:04:15] D2BS 7328: ÿc1Skipping Fallen 318 16
+[09/09/20 15:04:15] D2BS 7328: ÿc1Skipping Dark Spearwoman 326 16
+[09/09/20 15:04:16] D2BS 7328: ÿc1Skipping Fallen 321 16
+[09/09/20 15:04:16] D2BS 7328: ÿc7Picked up ÿc41 Gold
+[09/09/20 15:04:18] D2BS 7328: ÿc1Skipping Fallen Shaman 311 16
+[09/09/20 15:04:18] D2BS 7328: ÿc1Skipping Dark Spearwoman 327 16
+[09/09/20 15:04:18] D2BS 7328: ÿc1Skipping Fallen 321 16
+[09/09/20 15:04:19] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:04:21] D2BS 7328: ÿc1Skipping Fallen Shaman 311 16
+[09/09/20 15:04:21] D2BS 7328: ÿc1Skipping Fallen 321 16
+[09/09/20 15:04:22] D2BS 7328: ÿc1Skipping Fallen Shaman 311 16
+[09/09/20 15:04:23] D2BS 7328: move retry 1
+[09/09/20 15:04:24] D2BS 7328: ÿc7Picked up ÿc41 Gold
+[09/09/20 15:04:25] D2BS 7328: ÿc1Skipping Fallen 309 16
+[09/09/20 15:04:27] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:04:30] D2BS 7328: ÿc1Skipping Fallen 310 16
+[09/09/20 15:04:31] D2BS 7328: ÿc1Skipping Fallen 309 16
+[09/09/20 15:04:31] D2BS 7328: ÿc1Skipping Fallen 310 16
+[09/09/20 15:04:32] D2BS 7328: ÿc7Picked up ÿc411 Gold
+[09/09/20 15:04:46] D2BS 7328: move retry 1
+[09/09/20 15:04:52] D2BS 7328: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:04:53] D2BS 7328: ÿc1Skipping Fallen 324 16
+[09/09/20 15:04:54] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:05:10] D2BS 7328: ÿc1Skipping Dark Spearwoman 151 16
+[09/09/20 15:05:10] D2BS 7328: ÿc1Skipping Dark Spearwoman 150 16
+[09/09/20 15:05:11] D2BS 7328: ÿc1Skipping Dark Spearwoman 151 16
+[09/09/20 15:05:11] D2BS 7328: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:05:21] D2BS 7328: ÿc1Skipping Dark Spearwoman 159 16
+[09/09/20 15:05:22] D2BS 7328: ÿc1Skipping Dark Spearwoman 159 16
+[09/09/20 15:05:22] D2BS 7328: ÿc1Skipping Dark Spearwoman 158 16
+[09/09/20 15:05:23] D2BS 7328: ÿc1Skipping Dark Spearwoman 159 16
+[09/09/20 15:05:23] D2BS 7328: ÿc1Skipping Dark Spearwoman 158 16
+[09/09/20 15:05:24] D2BS 7328: ÿc1Skipping Dark Spearwoman 158 16
+[09/09/20 15:05:24] D2BS 7328: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:07:16] D2BS 7328: move retry 1
+[09/09/20 15:07:21] D2BS 7328: move retry 1
+[09/09/20 15:07:40] D2BS 7328: move retry 1
+[09/09/20 15:07:41] D2BS 7328: ÿc7Picked up ÿc411 Gold
+[09/09/20 15:07:43] D2BS 7328: ÿc1Skipping Dark Hunter 233 16
+[09/09/20 15:07:43] D2BS 7328: ÿc1Skipping Dark Hunter 235 16
+[09/09/20 15:07:43] D2BS 7328: ÿc1Skipping Dark Hunter 297 16
+[09/09/20 15:07:45] D2BS 7328: ÿc1Skipping Dark Hunter 202 16
+[09/09/20 15:07:46] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:07:47] D2BS 7328: ÿc1Skipping Dark Hunter 297 16
+[09/09/20 15:07:47] D2BS 7328: ÿc1Skipping Dark Hunter 202 16
+[09/09/20 15:07:48] D2BS 7328: ÿc1Skipping Dark Hunter 297 16
+[09/09/20 15:07:53] D2BS 7328: ÿc1Skipping Gargantuan Beast 208 16
+[09/09/20 15:07:53] D2BS 7328: ÿc1Skipping Gargantuan Beast 208 16
+[09/09/20 15:08:01] D2BS 7328: move retry 1
+[09/09/20 15:08:13] D2BS 7328: move retry 1
+[09/09/20 15:08:17] D2BS 7328: move retry 1
+[09/09/20 15:08:29] D2BS 7328: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:09:57] D2BS 7328: 3,17
+[09/09/20 15:10:43] D2BS 7328: 3,2
+[09/09/20 15:11:17] D2BS 7328: 2,1
+[09/09/20 15:11:34] D2BS 7328: initNPC: identify
+[09/09/20 15:11:48] D2BS 7328: initNPC: fillTome
+[09/09/20 15:11:50] D2BS 7328: ÿc4MiniShopBotÿc0: Scanning 56 items.
+[09/09/20 15:12:03] D2BS 7328: 3
+[09/09/20 15:12:47] D2BS 7328: ÿc7Picked up ÿc0Leather Gloves ÿc0(ilvl 4) (Summoner.xpac.nip #69)
+[09/09/20 15:12:57] D2BS 7328: ÿc1Skipping Moon Clan 363 16
+[09/09/20 15:12:58] D2BS 7328: ÿc1Skipping Dark Ranger 365 16
+[09/09/20 15:12:59] D2BS 7328: ÿc1Skipping Dark Ranger 365 16
+[09/09/20 15:12:59] D2BS 7328: ÿc1Skipping Dark Ranger 365 16
+[09/09/20 15:13:00] D2BS 7328: ÿc7Picked up ÿc422 Gold
+[09/09/20 15:13:01] D2BS 7328: ÿc1Skipping Moon Clan 366 16
+[09/09/20 15:13:01] D2BS 7328: ÿc1Skipping Moon Clan 364 16
+[09/09/20 15:13:05] D2BS 7328: ÿc1Skipping Moon Clan 366 16
+[09/09/20 15:13:05] D2BS 7328: ÿc1Skipping Moon Clan 366 16
+[09/09/20 15:13:16] D2BS 7328: ÿc1Skipping Dark Ranger 372 16
+[09/09/20 15:13:21] D2BS 7328: ÿc7Picked up ÿc416 Gold
+[09/09/20 15:13:21] D2BS 7328: ÿc7Picked up ÿc412 Gold
+[09/09/20 15:13:23] D2BS 7328: ÿc1Skipping Fallen Shaman 388 16
+[09/09/20 15:13:24] D2BS 7328: ÿc1Skipping Fallen Shaman 384 16
+[09/09/20 15:13:24] D2BS 7328: ÿc1Skipping Fallen 387 16
+[09/09/20 15:13:24] D2BS 7328: ÿc1Skipping Fallen 398 16
+[09/09/20 15:13:25] D2BS 7328: ÿc1Skipping Fallen 385 16
+[09/09/20 15:13:25] D2BS 7328: ÿc1Skipping Carver 383 16
+[09/09/20 15:13:25] D2BS 7328: ÿc1Skipping Carver 381 16
+[09/09/20 15:13:26] D2BS 7328: ÿc1Skipping Fallen 396 16
+[09/09/20 15:13:26] D2BS 7328: ÿc1Skipping Fallen 386 16
+[09/09/20 15:13:26] D2BS 7328: ÿc1Skipping Fallen 395 16
+[09/09/20 15:13:26] D2BS 7328: ÿc1Skipping Fallen 397 16
+[09/09/20 15:13:27] D2BS 7328: ÿc1Skipping Carver 382 16
+[09/09/20 15:13:27] D2BS 7328: ÿc1Skipping Carver 379 16
+[09/09/20 15:13:28] D2BS 7328: ÿc1Skipping Dark Ranger 374 16
+[09/09/20 15:13:28] D2BS 7328: ÿc1Skipping Carver 378 16
+[09/09/20 15:13:28] D2BS 7328: ÿc1Skipping Carver 377 16
+[09/09/20 15:13:30] D2BS 7328: ÿc7Picked up ÿc41 Gold
+[09/09/20 15:13:31] D2BS 7328: ÿc1Skipping Fallen Shaman 388 16
+[09/09/20 15:13:31] D2BS 7328: ÿc1Skipping Fallen Shaman 384 16
+[09/09/20 15:13:32] D2BS 7328: ÿc1Skipping Fallen 385 16
+[09/09/20 15:13:32] D2BS 7328: ÿc1Skipping Carver 377 16
+[09/09/20 15:13:32] D2BS 7328: ÿc1Skipping Carver 381 16
+[09/09/20 15:13:32] D2BS 7328: ÿc1Skipping Fallen 397 16
+[09/09/20 15:13:35] D2BS 7328: ÿc1Skipping Fallen 396 16
+[09/09/20 15:13:35] D2BS 7328: ÿc1Skipping Carver 382 16
+[09/09/20 15:13:35] D2BS 7328: ÿc1Skipping Carver 379 16
+[09/09/20 15:13:35] D2BS 7328: ÿc1Skipping Fallen 395 16
+[09/09/20 15:13:35] D2BS 7328: ÿc1Skipping Fallen 386 16
+[09/09/20 15:13:38] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:13:40] D2BS 7328: ÿc1Skipping Carver 377 16
+[09/09/20 15:13:41] D2BS 7328: ÿc1Skipping Carver 382 16
+[09/09/20 15:13:41] D2BS 7328: ÿc1Skipping Fallen 395 16
+[09/09/20 15:13:42] D2BS 7328: ÿc1Skipping Dark Ranger 374 16
+[09/09/20 15:13:42] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:13:44] D2BS 7328: ÿc7Picked up ÿc416 Gold
+[09/09/20 15:13:46] D2BS 7328: ÿc1Skipping Dark Ranger 371 16
+[09/09/20 15:13:46] D2BS 7328: ÿc1Skipping Dark Ranger 400 16
+[09/09/20 15:13:47] D2BS 7328: ÿc1Skipping Dark Ranger 370 16
+[09/09/20 15:13:49] D2BS 7328: ÿc7Picked up ÿc49 Gold
+[09/09/20 15:13:50] D2BS 7328: ÿc1Skipping Dark Ranger 400 16
+[09/09/20 15:13:51] D2BS 7328: ÿc1Skipping Dark Ranger 374 16
+[09/09/20 15:13:52] D2BS 7328: ÿc1Skipping Dark Ranger 374 16
+[09/09/20 15:13:59] D2BS 7328: ÿc1Skipping Dark Ranger 399 16
+[09/09/20 15:14:00] D2BS 7328: ÿc1Skipping Dark Ranger 399 16
+[09/09/20 15:14:17] D2BS 7328: ÿc1Skipping Hungry Dead 458 16
+[09/09/20 15:14:17] D2BS 7328: ÿc1Skipping Hungry Dead 460 16
+[09/09/20 15:14:17] D2BS 7328: ÿc1Skipping Hungry Dead 458 16
+[09/09/20 15:14:18] D2BS 7328: ÿc1Skipping Hungry Dead 460 16
+[09/09/20 15:14:20] D2BS 7328: ÿc1Skipping Hungry Dead 458 16
+[09/09/20 15:14:21] D2BS 7328: ÿc7Picked up ÿc46 Gold
+[09/09/20 15:14:29] D2BS 7328: move retry 1
+[09/09/20 15:14:36] D2BS 7328: ÿc1Skipping Hungry Dead 439 16
+[09/09/20 15:15:21] D2BS 7328: ÿc1Skipping Hungry Dead 339 16
+[09/09/20 15:15:21] D2BS 7328: ÿc1Skipping Hungry Dead 358 16
+[09/09/20 15:15:22] D2BS 7328: ÿc1Skipping Hungry Dead 339 16
+[09/09/20 15:15:23] D2BS 7328: ÿc1Skipping Hungry Dead 338 16
+[09/09/20 15:15:23] D2BS 7328: ÿc1Skipping Hungry Dead 337 16
+[09/09/20 15:15:24] D2BS 7328: ÿc1Skipping Hungry Dead 338 16
+[09/09/20 15:15:24] D2BS 7328: ÿc1Skipping Hungry Dead 337 16
+[09/09/20 15:15:25] D2BS 7328: ÿc1Skipping Hungry Dead 338 16
+[09/09/20 15:15:25] D2BS 7328: ÿc1Skipping Hungry Dead 337 16
+[09/09/20 15:15:25] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 2
+[09/09/20 15:15:25] D2BS 7328: AutoBuild: Level up detected ( 6 --> 7 )
+[09/09/20 15:15:25] D2BS 7328: AutoBuild: useSkillPoint(): Clay Golem (75)
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: Skill (1/2) Increased Clay Golem (75) by one (level:  1)
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: Skill (2/2) Increased Skeleton Mastery (69) by one (level:  2)
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 20 to 21
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 35 to 36
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 36 to 37
+[09/09/20 15:15:26] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:27] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 37 to 38
+[09/09/20 15:15:27] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:15:27] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 38 to 39
+[09/09/20 15:15:27] D2BS 7328: AutoBuild: Updating Config from level 6 to 7
+[09/09/20 15:15:27] D2BS 7328: Updating Config from level 6 to 7
+[09/09/20 15:15:27] D2BS 7328: Updating Config from level 6 to 7
+[09/09/20 15:15:27] D2BS 7328: Updating Config from level 6 to 7
+[09/09/20 15:15:27] D2BS 7328: AutoBuild: Incrementing cached character level to 7
+[09/09/20 15:15:28] D2BS 7328: ÿc1Skipping Hungry Dead 359 16
+[09/09/20 15:15:53] D2BS 7328: ÿc1Skipping Dark Ranger 470 16
+[09/09/20 15:15:54] D2BS 7328: ÿc1Skipping Dark Ranger 469 16
+[09/09/20 15:15:55] D2BS 7328: ÿc1Skipping Dark Ranger 470 16
+[09/09/20 15:15:55] D2BS 7328: ÿc1Skipping Dark Ranger 469 16
+[09/09/20 15:15:56] D2BS 7328: ÿc7Picked up ÿc3Wand ÿc0(ilvl 4) (Summoner.xpac.nip #2)
+[09/09/20 15:15:58] D2BS 7328: ÿc1Skipping Dark Ranger 469 16
+[09/09/20 15:16:05] D2BS 7328: ÿc1Skipping Hungry Dead 340 16
+[09/09/20 15:16:06] D2BS 7328: ÿc1Skipping Hungry Dead 340 16
+[09/09/20 15:16:07] D2BS 7328: ÿc1Skipping Hungry Dead 340 16
+[09/09/20 15:16:08] D2BS 7328: ÿc1Skipping Hungry Dead 340 16
+[09/09/20 15:16:41] D2BS 7328: ÿc1Skipping Carver 423 16
+[09/09/20 15:16:42] D2BS 7328: ÿc1Skipping Carver 423 16
+[09/09/20 15:16:43] D2BS 7328: ÿc1Skipping Carver 422 16
+[09/09/20 15:16:43] D2BS 7328: ÿc1Skipping Carver 422 16
+[09/09/20 15:16:44] D2BS 7328: ÿc1Skipping Carver 418 16
+[09/09/20 15:16:44] D2BS 7328: ÿc1Skipping Carver 422 16
+[09/09/20 15:16:44] D2BS 7328: ÿc1Skipping Carver 418 16
+[09/09/20 15:16:45] D2BS 7328: ÿc1Skipping Carver 418 16
+[09/09/20 15:16:46] D2BS 7328: ÿc1Skipping Fallen 428 16
+[09/09/20 15:16:47] D2BS 7328: ÿc1Skipping Fallen 428 16
+[09/09/20 15:16:47] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:16:49] D2BS 7328: ÿc1Skipping Carver 419 16
+[09/09/20 15:16:49] D2BS 7328: ÿc1Skipping Carver 421 16
+[09/09/20 15:16:49] D2BS 7328: ÿc1Skipping Carver 420 16
+[09/09/20 15:16:50] D2BS 7328: ÿc1Skipping Fallen 428 16
+[09/09/20 15:16:50] D2BS 7328: ÿc1Skipping Carver 419 16
+[09/09/20 15:16:50] D2BS 7328: ÿc1Skipping Carver 421 16
+[09/09/20 15:16:51] D2BS 7328: ÿc1Skipping Carver 413 16
+[09/09/20 15:16:52] D2BS 7328: ÿc7Picked up ÿc417 Gold
+[09/09/20 15:16:53] D2BS 7328: ÿc1Skipping Fallen 426 16
+[09/09/20 15:16:53] D2BS 7328: ÿc1Skipping Fallen 425 16
+[09/09/20 15:16:53] D2BS 7328: ÿc1Skipping Carver 413 16
+[09/09/20 15:16:55] D2BS 7328: move retry 1
+[09/09/20 15:16:57] D2BS 7328: ÿc1Skipping Carver 408 16
+[09/09/20 15:16:59] D2BS 7328: ÿc1Skipping Fallen Shaman 424 16
+[09/09/20 15:17:00] D2BS 7328: ÿc1Skipping Carver 408 16
+[09/09/20 15:17:02] D2BS 7328: ÿc1Skipping Carver 409 16
+[09/09/20 15:17:02] D2BS 7328: ÿc1Skipping Carver 406 16
+[09/09/20 15:17:03] D2BS 7328: ÿc1Skipping Carver 410 16
+[09/09/20 15:17:05] D2BS 7328: ÿc1Skipping Dark Ranger 485 16
+[09/09/20 15:17:08] D2BS 7328: ÿc7Picked up ÿc415 Gold
+[09/09/20 15:17:09] D2BS 7328: ÿc7Picked up ÿc49 Gold
+[09/09/20 15:17:11] D2BS 7328: ÿc1Skipping Carver 403 16
+[09/09/20 15:17:12] D2BS 7328: ÿc1Skipping Carver 403 16
+[09/09/20 15:17:13] D2BS 7328: ÿc1Skipping Carver 403 16
+[09/09/20 15:17:14] D2BS 7328: ÿc1Skipping Carver 405 16
+[09/09/20 15:17:18] D2BS 7328: ÿc1Skipping Carver 415 16
+[09/09/20 15:17:19] D2BS 7328: ÿc1Skipping Carver 415 16
+[09/09/20 15:17:20] D2BS 7328: ÿc1Skipping Carver 415 16
+[09/09/20 15:17:20] D2BS 7328: ÿc1Skipping Hungry Dead 487 16
+[09/09/20 15:17:20] D2BS 7328: ÿc1Skipping Hungry Dead 486 16
+[09/09/20 15:17:31] D2BS 7328: ÿc1Skipping Hungry Dead 432 16
+[09/09/20 15:17:32] D2BS 7328: ÿc1Skipping Hungry Dead 432 16
+[09/09/20 15:17:32] D2BS 7328: ÿc1Skipping Hungry Dead 431 16
+[09/09/20 15:17:34] D2BS 7328: ÿc1Skipping Hungry Dead 431 16
+[09/09/20 15:17:35] D2BS 7328: ÿc1Skipping Hungry Dead 431 16
+[09/09/20 15:17:51] D2BS 7328: ÿc1Skipping Hungry Dead 438 16
+[09/09/20 15:17:52] D2BS 7328: ÿc1Skipping Hungry Dead 438 16
+[09/09/20 15:18:00] D2BS 7328: ÿc1Skipping Hungry Dead 437 16
+[09/09/20 15:18:01] D2BS 7328: ÿc1Skipping Hungry Dead 437 16
+[09/09/20 15:18:02] D2BS 7328: ÿc1Skipping Hungry Dead 436 16
+[09/09/20 15:18:04] D2BS 7328: move retry 1
+[09/09/20 15:18:06] D2BS 7328: ÿc1Skipping Hungry Dead 436 16
+[09/09/20 15:18:23] D2BS 7328: ÿc1Skipping Carver 445 16
+[09/09/20 15:18:23] D2BS 7328: ÿc1Skipping Carver 446 16
+[09/09/20 15:18:23] D2BS 7328: ÿc1Skipping Carver 447 16
+[09/09/20 15:18:24] D2BS 7328: ÿc1Skipping Carver 444 16
+[09/09/20 15:18:24] D2BS 7328: ÿc7Picked up ÿc422 Gold
+[09/09/20 15:18:25] D2BS 7328: ÿc1Skipping Carver 446 16
+[09/09/20 15:18:25] D2BS 7328: ÿc1Skipping Carver 444 16
+[09/09/20 15:18:26] D2BS 7328: ÿc1Skipping Carver 447 16
+[09/09/20 15:18:26] D2BS 7328: ÿc1Skipping Carver 444 16
+[09/09/20 15:18:29] D2BS 7328: ÿc1Skipping Carver 443 16
+[09/09/20 15:18:33] D2BS 7328: ÿc1Skipping Hungry Dead 448 16
+[09/09/20 15:18:34] D2BS 7328: ÿc1Skipping Hungry Dead 448 16
+[09/09/20 15:18:35] D2BS 7328: ÿc1Skipping Hungry Dead 448 16
+[09/09/20 15:18:36] D2BS 7328: ÿc1Skipping Hungry Dead 449 16
+[09/09/20 15:18:36] D2BS 7328: ÿc1Skipping Carver 497 16
+[09/09/20 15:18:38] D2BS 7328: ÿc1Skipping Carver 497 16
+[09/09/20 15:18:39] D2BS 7328: ÿc1Skipping Carver 497 16
+[09/09/20 15:18:39] D2BS 7328: ÿc1Skipping Carver 493 16
+[09/09/20 15:18:40] D2BS 7328: ÿc1Skipping Carver 491 16
+[09/09/20 15:18:41] D2BS 7328: ÿc1Skipping Carver 491 16
+[09/09/20 15:18:41] D2BS 7328: ÿc1Skipping Carver 493 16
+[09/09/20 15:18:41] D2BS 7328: ÿc1Skipping Carver 498 16
+[09/09/20 15:18:42] D2BS 7328: ÿc1Skipping Carver 491 16
+[09/09/20 15:18:42] D2BS 7328: ÿc1Skipping Carver 493 16
+[09/09/20 15:18:51] D2BS 7328: ÿc1Skipping Carver 496 16
+[09/09/20 15:18:52] D2BS 7328: ÿc1Skipping Carver 492 16
+[09/09/20 15:18:58] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 15:18:58] D2BS 7328: AutoBuild: Level up detected ( 7 --> 8 )
+[09/09/20 15:18:58] D2BS 7328: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  4)
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 21 to 22
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 39 to 40
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 40 to 41
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 41 to 42
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 42 to 43
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Updating Config from level 7 to 8
+[09/09/20 15:18:59] D2BS 7328: Updating Config from level 7 to 8
+[09/09/20 15:18:59] D2BS 7328: Updating Config from level 7 to 8
+[09/09/20 15:18:59] D2BS 7328: Updating Config from level 7 to 8
+[09/09/20 15:18:59] D2BS 7328: AutoBuild: Incrementing cached character level to 8
+[09/09/20 15:19:08] D2BS 7328: ÿc1Skipping Moon Clan 488 16
+[09/09/20 15:19:08] D2BS 7328: ÿc1Skipping Moon Clan 489 16
+[09/09/20 15:19:09] D2BS 7328: ÿc7Picked up ÿc420 Gold
+[09/09/20 15:19:12] D2BS 7328: ÿc1Skipping Carver 495 16
+[09/09/20 15:19:42] D2BS 7328: ÿc1Skipping Dark Ranger 503 16
+[09/09/20 15:19:45] D2BS 7328: move retry 1
+[09/09/20 15:19:48] D2BS 7328: ÿc1Skipping Hungry Dead 502 16
+[09/09/20 15:19:50] D2BS 7328: ÿc1Skipping Dark Ranger 508 16
+[09/09/20 15:19:51] D2BS 7328: ÿc1Skipping Dark Ranger 508 16
+[09/09/20 15:20:07] D2BS 7328: ÿc7Picked up ÿc46 Gold
+[09/09/20 15:20:12] D2BS 7328: move retry 1
+[09/09/20 15:20:12] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:20:13] D2BS 7328: move retry 1
+[09/09/20 15:20:23] D2BS 7328: ÿc1Skipping Hungry Dead 509 16
+[09/09/20 15:20:24] D2BS 7328: ÿc1Skipping Hungry Dead 509 16
+[09/09/20 15:20:24] D2BS 7328: ÿc1Skipping Hungry Dead 510 16
+[09/09/20 15:20:34] D2BS 7328: ÿc1Skipping Hungry Dead 453 16
+[09/09/20 15:20:36] D2BS 7328: ÿc1Skipping Hungry Dead 453 16
+[09/09/20 15:20:36] D2BS 7328: ÿc1Skipping Hungry Dead 452 16
+[09/09/20 15:20:36] D2BS 7328: ÿc1Skipping Hungry Dead 454 16
+[09/09/20 15:20:37] D2BS 7328: ÿc1Skipping Hungry Dead 454 16
+[09/09/20 15:20:38] D2BS 7328: ÿc1Skipping Hungry Dead 454 16
+[09/09/20 15:20:38] D2BS 7328: ÿc1Skipping Dark Ranger 451 16
+[09/09/20 15:20:39] D2BS 7328: ÿc1Skipping Dark Ranger 451 16
+[09/09/20 15:20:41] D2BS 7328: ÿc1Skipping Dark Ranger 451 16
+[09/09/20 15:20:43] D2BS 7328: ÿc1Skipping Dark Ranger 451 16
+[09/09/20 15:20:46] D2BS 7328: move retry 1
+[09/09/20 15:21:01] D2BS 7328: ÿc1Skipping Moon Clan 512 16
+[09/09/20 15:21:02] D2BS 7328: ÿc1Skipping Moon Clan 512 16
+[09/09/20 15:21:02] D2BS 7328: move retry 1
+[09/09/20 15:21:25] D2BS 7328: ÿc1Skipping Hungry Dead 516 16
+[09/09/20 15:21:25] D2BS 7328: ÿc1Skipping Hungry Dead 516 16
+[09/09/20 15:21:26] D2BS 7328: ÿc1Skipping Hungry Dead 516 16
+[09/09/20 15:21:28] D2BS 7328: ÿc7Picked up ÿc48 Gold
+[09/09/20 15:21:33] D2BS 7328: move retry 1
+[09/09/20 15:21:39] D2BS 7328: ÿc1Skipping Hungry Dead 515 16
+[09/09/20 15:21:40] D2BS 7328: move retry 1
+[09/09/20 15:21:41] D2BS 7328: ÿc1Skipping Hungry Dead 513 16
+[09/09/20 15:21:42] D2BS 7328: ÿc1Skipping Hungry Dead 514 16
+[09/09/20 15:21:43] D2BS 7328: ÿc1Skipping Hungry Dead 514 16
+[09/09/20 15:21:44] D2BS 7328: ÿc1Skipping Hungry Dead 514 16
+[09/09/20 15:21:48] D2BS 7328: move retry 1
+[09/09/20 15:22:13] D2BS 7328: ÿc1Skipping Hungry Dead 463 16
+[09/09/20 15:22:13] D2BS 7328: ÿc1Skipping Hungry Dead 465 16
+[09/09/20 15:22:14] D2BS 7328: ÿc1Skipping Hungry Dead 465 16
+[09/09/20 15:22:15] D2BS 7328: ÿc7Picked up ÿc43 Gold
+[09/09/20 15:22:24] D2BS 7328: ÿc1Skipping Hungry Dead 467 16
+[09/09/20 15:22:25] D2BS 7328: ÿc1Skipping Hungry Dead 467 16
+[09/09/20 15:22:28] D2BS 7328: move retry 1
+[09/09/20 15:22:29] D2BS 7328: ÿc1Skipping Hungry Dead 462 16
+[09/09/20 15:22:30] D2BS 7328: ÿc1Skipping Hungry Dead 462 16
+[09/09/20 15:22:32] D2BS 7328: ÿc1Skipping Hungry Dead 462 16
+[09/09/20 15:22:33] D2BS 7328: ÿc1Skipping Hungry Dead 462 16
+[09/09/20 15:22:34] D2BS 7328: ÿc1Skipping Hungry Dead 462 16
+[09/09/20 15:22:34] D2BS 7328: ÿc1Skipping Hungry Dead 466 16
+[09/09/20 15:22:34] D2BS 7328: ÿc1Skipping Hungry Dead 461 16
+[09/09/20 15:22:35] D2BS 7328: ÿc1Skipping Hungry Dead 466 16
+[09/09/20 15:22:35] D2BS 7328: ÿc1Skipping Hungry Dead 461 16
+[09/09/20 15:22:36] D2BS 7328: ÿc1Skipping Hungry Dead 455 16
+[09/09/20 15:22:36] D2BS 7328: ÿc1Skipping Hungry Dead 457 16
+[09/09/20 15:22:37] D2BS 7328: ÿc1Skipping Hungry Dead 461 16
+[09/09/20 15:22:37] D2BS 7328: ÿc1Skipping Hungry Dead 455 16
+[09/09/20 15:22:37] D2BS 7328: ÿc1Skipping Hungry Dead 457 16
+[09/09/20 15:22:41] D2BS 7328: ÿc1Skipping Hungry Dead 455 16
+[09/09/20 15:22:42] D2BS 7328: ÿc1Skipping Hungry Dead 456 16
+[09/09/20 15:22:42] D2BS 7328: ÿc1Skipping Hungry Dead 457 16
+[09/09/20 15:22:43] D2BS 7328: ÿc1Skipping Hungry Dead 457 16
+[09/09/20 15:22:43] D2BS 7328: ÿc1Skipping Hungry Dead 456 16
+[09/09/20 15:22:44] D2BS 7328: ÿc1Skipping Hungry Dead 457 16
+[09/09/20 15:22:45] D2BS 7328: ÿc1Skipping Hungry Dead 457 16
+[09/09/20 15:22:47] D2BS 7328: ÿc7Picked up ÿc46 Gold
+[09/09/20 15:23:00] D2BS 7328: ÿc1Skipping Dark Ranger 479 16
+[09/09/20 15:23:00] D2BS 7328: ÿc1Skipping Dark Ranger 480 16
+[09/09/20 15:23:00] D2BS 7328: ÿc1Skipping Dark Ranger 479 16
+[09/09/20 15:23:01] D2BS 7328: ÿc1Skipping Dark Ranger 480 16
+[09/09/20 15:23:01] D2BS 7328: ÿc1Skipping Dark Ranger 482 16
+[09/09/20 15:23:02] D2BS 7328: ÿc7Picked up ÿc47 Gold
+[09/09/20 15:23:02] D2BS 7328: ÿc1Skipping Dark Ranger 482 16
+[09/09/20 15:23:03] D2BS 7328: ÿc1Skipping Moon Clan 478 16
+[09/09/20 15:23:03] D2BS 7328: ÿc1Skipping Dark Ranger 481 16
+[09/09/20 15:23:20] D2BS 7328: ÿc1Skipping Moon Clan 472 16
+[09/09/20 15:23:20] D2BS 7328: ÿc1Skipping Moon Clan 471 16
+[09/09/20 15:23:21] D2BS 7328: ÿc1Skipping Hungry Dead 474 16
+[09/09/20 15:23:21] D2BS 7328: ÿc1Skipping Moon Clan 471 16
+[09/09/20 15:23:22] D2BS 7328: ÿc1Skipping Hungry Dead 474 16
+[09/09/20 15:23:22] D2BS 7328: ÿc1Skipping Hungry Dead 473 16
+[09/09/20 15:23:23] D2BS 7328: ÿc1Skipping Moon Clan 471 16
+[09/09/20 15:23:23] D2BS 7328: ÿc1Skipping Hungry Dead 474 16
+[09/09/20 15:23:23] D2BS 7328: ÿc1Skipping Hungry Dead 473 16
+[09/09/20 15:23:48] D2BS 7328: ÿc7Picked up ÿc0Sash ÿc0(ilvl 4) (Summoner.xpac.nip #78)
+[09/09/20 15:24:13] D2BS 7328: move retry 1
+[09/09/20 15:24:46] D2BS 7328: ÿc1Skipping Hungry Dead 440 16
+[09/09/20 15:24:47] D2BS 7328: ÿc1Skipping Hungry Dead 442 16
+[09/09/20 15:24:47] D2BS 7328: ÿc1Skipping Hungry Dead 440 16
+[09/09/20 15:24:48] D2BS 7328: ÿc1Skipping Hungry Dead 440 16
+[09/09/20 15:25:08] D2BS 7328: move retry 1
+[09/09/20 15:26:20] D2BS 7328: move retry 1
+[09/09/20 15:26:31] D2BS 7328: 4,10
+[09/09/20 15:27:11] D2BS 7328: ÿc1Skipping Misshapen 528 16
+[09/09/20 15:27:14] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:27:17] D2BS 7328: Script default.dbj ended
+[09/09/20 15:27:17] D2BS 7328: Script tools\autobuildthread.js ended
+[09/09/20 15:27:17] D2BS 7328: Script tools\party.js ended
+[09/09/20 15:27:17] D2BS 7328: Script tools\toolsthread.js ended
+[09/09/20 15:27:23] D2BS 7328: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/09/20 15:27:23] D2BS 7328: ÿc2D2BSÿc0 :: default.dbj running.
+[09/09/20 15:27:23] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/09/20 15:27:23] D2BS 7328: Updating Config from level 0 to 8
+[09/09/20 15:27:23] D2BS 7328: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:23] D2BS 7328: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:23] D2BS 7328: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:23] D2BS 7328: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:23] D2BS 7328: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2114ÿc4. Valid entries: ÿc297. ÿc4Time: ÿc215 ms
+[09/09/20 15:27:23] D2BS 7328: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc216 ms
+[09/09/20 15:27:23] D2BS 7328: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/09/20 15:27:23] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/09/20 15:27:23] D2BS 7328: Updating Config from level 0 to 8
+[09/09/20 15:27:23] D2BS 7328: AutoBuild: Loaded helper thread
+[09/09/20 15:27:24] D2BS 7328: ÿc2Starting script: ÿc9LevelFollower
+[09/09/20 15:27:24] D2BS 7328: initNPC: heal
+[09/09/20 15:27:24] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/09/20 15:27:24] D2BS 7328: Updating Config from level 0 to 8
+[09/09/20 15:27:24] D2BS 7328: ÿc2Party thread loaded. Mode: Accept
+[09/09/20 15:27:24] D2BS 7328: ÿc3Start ToolsThread script
+[09/09/20 15:27:24] D2BS 7328: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/09/20 15:27:24] D2BS 7328: Updating Config from level 0 to 8
+[09/09/20 15:27:30] D2BS 7328: initNPC: identify
+[09/09/20 15:27:33] D2BS 7328: ÿc4MiniShopBotÿc0: Scanning 57 items.
+[09/09/20 15:27:34] D2BS 7328: initNPC: buyPotions
+[09/09/20 15:28:08] D2BS 7328: move retry 1
+[09/09/20 15:28:31] D2BS 7328: move retry 1
+[09/09/20 15:28:33] D2BS 7328: move retry 1
+[09/09/20 15:28:44] D2BS 7328: ÿc1Skipping Skeleton 37 16
+[09/09/20 15:28:44] D2BS 7328: ÿc1Skipping Skeleton 36 16
+[09/09/20 15:28:45] D2BS 7328: ÿc1Skipping Skeleton 37 16
+[09/09/20 15:28:46] D2BS 7328: ÿc1Skipping Skeleton 36 16
+[09/09/20 15:28:47] D2BS 7328: ÿc7Picked up ÿc410 Gold
+[09/09/20 15:28:49] D2BS 7328: move retry 1
+[09/09/20 15:28:59] D2BS 7328: ÿc1Skipping Carver 19 16
+[09/09/20 15:29:00] D2BS 7328: ÿc1Skipping Carver 23 16
+[09/09/20 15:29:00] D2BS 7328: ÿc1Skipping Foul Crow 47 16
+[09/09/20 15:29:01] D2BS 7328: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/09/20 15:29:01] D2BS 7328: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/09/20 15:29:04] D2BS 7328: ÿc1Skipping Carver 24 16
+[09/09/20 15:29:05] D2BS 7328: ÿc1Skipping Carver 20 16
+[09/09/20 15:29:05] D2BS 7328: ÿc7Picked up ÿc44 Gold
+[09/09/20 15:29:07] D2BS 7328: ÿc7Picked up ÿc412 Gold
+[09/09/20 15:29:09] D2BS 7328: ÿc1Skipping Carver 20 16
+[09/09/20 15:29:10] D2BS 7328: ÿc1Skipping Carver 20 16
+[09/09/20 15:29:11] D2BS 7328: ÿc1Skipping Carver 20 16
+[09/09/20 15:29:22] D2BS 7328: ÿc1Skipping Skeleton 52 16
+[09/09/20 15:29:33] D2BS 7328: ÿc1Skipping Foul Crow 103 16
+[09/09/20 15:29:33] D2BS 7328: ÿc1Skipping Foul Crow 100 16
+[09/09/20 15:29:52] D2BS 7328: ÿc7Picked up ÿc0Cap ÿc0(ilvl 4) (Summoner.xpac.nip #28)
+[09/09/20 15:29:54] D2BS 7328: ÿc1Skipping Skeleton 104 16
+[09/09/20 15:29:56] D2BS 7328: ÿc7Picked up ÿc45 Gold
+[09/09/20 15:30:30] D2BS 7328: ÿc1Skipping Carver 80 16
+[09/09/20 15:30:34] D2BS 7328: ÿc1Skipping Carver 81 16
+[09/09/20 15:30:35] D2BS 7328: ÿc1Skipping Carver 78 16
+[09/09/20 15:30:39] D2BS 7328: move retry 1
+[09/09/20 15:30:54] D2BS 7328: move retry 1
+[09/09/20 15:30:57] D2BS 7328: ÿc1Skipping Skeleton 89 16
+[09/09/20 15:30:57] D2BS 7328: ÿc1Skipping Skeleton 87 16
+[09/09/20 15:30:58] D2BS 7328: ÿc1Skipping Skeleton 89 16
+[09/09/20 15:30:58] D2BS 7328: ÿc1Skipping Skeleton 87 16
+[09/09/20 15:30:58] D2BS 7328: ÿc1Skipping Skeleton 88 16
+[09/09/20 15:30:59] D2BS 7328: ÿc7Picked up ÿc410 Gold
+[09/09/20 15:31:00] D2BS 7328: ÿc1Skipping Skeleton 89 16
+[09/09/20 15:31:00] D2BS 7328: ÿc1Skipping Skeleton 88 16
+[09/09/20 15:31:01] D2BS 7328: ÿc1Skipping Skeleton 88 16
+[09/09/20 15:31:02] D2BS 7328: ÿc1Skipping Foul Crow 85 16
+[09/09/20 15:31:02] D2BS 7328: ÿc1Skipping Foul Crow 83 16
+[09/09/20 15:31:02] D2BS 7328: ÿc1Skipping Foul Crow 86 16
+[09/09/20 15:31:15] D2BS 7328: ÿc1Skipping Fallen 70 16
+[09/09/20 15:31:17] D2BS 7328: ÿc1Skipping Fallen 74 16
+[09/09/20 15:31:17] D2BS 7328: ÿc1Skipping Fallen 76 16
+[09/09/20 15:31:17] D2BS 7328: ÿc1Skipping Fallen 77 16
+[09/09/20 15:31:18] D2BS 7328: ÿc1Skipping Fallen 66 16
+[09/09/20 15:31:18] D2BS 7328: ÿc7Picked up ÿc42 Gold
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: Stat points: 5      Skill points: 1
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: Level up detected ( 8 --> 9 )
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  3)
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: useStatPoint(0): Strength
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: Stat (1/5) Increased Strength from 22 to 23
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: Stat (2/5) Increased Vitality from 43 to 44
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: Stat (3/5) Increased Vitality from 44 to 45
+[09/09/20 15:31:20] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:31:21] D2BS 7328: AutoBuild: Stat (4/5) Increased Vitality from 45 to 46
+[09/09/20 15:31:21] D2BS 7328: AutoBuild: useStatPoint(3): Vitality
+[09/09/20 15:31:21] D2BS 7328: AutoBuild: Stat (5/5) Increased Vitality from 46 to 47
+[09/09/20 15:31:21] D2BS 7328: Updating Config from level 8 to 9
+[09/09/20 15:31:21] D2BS 7328: Updating Config from level 8 to 9
+[09/09/20 15:31:21] D2BS 7328: Updating Config from level 8 to 9
+[09/09/20 15:31:21] D2BS 7328: AutoBuild: Updating Config from level 8 to 9
+[09/09/20 15:31:21] D2BS 7328: AutoBuild: Incrementing cached character level to 9
+[09/09/20 15:31:23] D2BS 7328: ÿc7Picked up ÿc44 Gold
+[09/09/20 15:31:32] D2BS 7328: ÿc7Picked up ÿc414 Gold
+[09/09/20 15:32:06] D2BS 7328: ÿc7Picked up ÿc416 Gold
+[09/09/20 15:32:09] D2BS 7328: ÿc1Skipping Skeleton 120 16
+[09/09/20 15:32:09] D2BS 7328: ÿc1Skipping Skeleton 121 16
+[09/09/20 15:32:15] D2BS 7328: move retry 1
