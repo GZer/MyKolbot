@@ -166,7 +166,7 @@ var Town = {
 		/*Atma for Discount*/
 		if(me.getQuest(9, 3) && !me.getQuest(9, 0)){
 			Pather.journeyTo(40);
-			Town.move(NPC.Atma);
+			this.move(NPC.Atma);
 			npc=getUnit(1,NPC.Atma);
 			if(npc && npc.openMenu()){
 				me.cancel();
@@ -176,7 +176,7 @@ var Town = {
 		/*Cain for Access to Durance*/
 		if(me.getQuest(21, 3) && !me.getQuest(21, 0)){
 			Pather.journeyTo(75);
-			Town.move(NPC.Cain);
+			this.move(NPC.Cain);
 			npc=getUnit(1,NPC.Cain);
 			if(npc && npc.openMenu()){
 				me.cancel();
@@ -186,7 +186,7 @@ var Town = {
 		/*Anya for Item*/
 		if(me.getQuest(37, 3) && !me.getQuest(37, 0)){
 			Pather.journeyTo(109);
-			Town.move(NPC.Anya);
+			this.move(NPC.Anya);
 			npc=getUnit(1,NPC.Anya);
 			if(npc && npc.openMenu()){
 				me.cancel();
@@ -196,7 +196,7 @@ var Town = {
 		// //Qual-Kehk for Runes
 		// if(me.getQuest(36, 3)){
 			// try{
-				// Town.move("Qual-Kehk");
+				// this.move("Qual-Kehk");
 				// npc=getUnit(1,"Qual-Kehk");
 				// if(npc && npc.openMenu()){
 					// me.cancel();

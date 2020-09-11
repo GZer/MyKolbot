@@ -1,14 +1,15 @@
-[2020/09/09 18:14:18] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:266, @levelfollower.js:96, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1045
-[2020/09/09 18:14:30] <Auradin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:266, @levelfollower.js:96, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1045
-[2020/09/09 18:14:31] <ColdSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:266, @levelfollower.js:96, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1045
-[2020/09/09 18:14:32] <Wind> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:266, @levelfollower.js:96, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1045
-[2020/09/09 18:16:10] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 4
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:803, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
-[2020/09/09 18:25:11] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:266, @levelfollower.js:96, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1045
-[2020/09/09 18:29:27] <FireSorc> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 4
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:266, @levelfollower.js:96, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/11 14:39:11] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:808, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/11 18:02:55] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 18
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:809, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/11 18:25:28] <FireSorc> Error in LevelFollower (levelfollower.js line 296): LeaderArea is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:296
+[2020/09/11 18:43:26] <Auradin> Failed to include script: LevelFollower
+[2020/09/11 18:43:26] <FireSorc> Failed to include script: LevelFollower
+[2020/09/11 18:43:29] <Summoner> Failed to include script: LevelFollower
+[2020/09/11 18:43:44] <LightSorc> Failed to include script: LevelFollower
+[2020/09/11 18:43:44] <ColdSorc> Failed to include script: LevelFollower
+[2020/09/11 18:43:45] <Wind> Failed to include script: LevelFollower
+[2020/09/11 18:43:45] <Hammerdin> Failed to include script: LevelFollower
+[2020/09/11 19:10:01] <Singer> Error in LevelLeader (town.js line 2225): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:828, @levelleader.js:118, @levelleader.js:538, Town.goToTown@town.js:2225

@@ -87,6 +87,8 @@ function LevelLeader(){
 			break;
 			case 36://Andariel
 				if(Pather.moveToExit(37,true,true)){Pather.makePortal();}
+				Pather.moveTo(22535,9653,2,true,true);
+				delay(5000);
 				Pather.moveTo(22480,9570,2,true,true);
 				Pather.moveTo(22549,9520,2,true,true);
 				Pather.makePortal();
@@ -147,6 +149,7 @@ function LevelLeader(){
 					this.clearToQuestLocation(74,2,357);
 				}
 				this.killQuestBoss(250);
+				Pather.makePortal();
 				Pather.journeyTo(46);
 				Pather.getWP(46);
 				this.talkToNPC("Atma");
@@ -401,7 +404,10 @@ function LevelLeader(){
 				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
 					return true;
 				}
-			}catch(err){this.logProgress(null,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);return false;}
+			}catch(err){
+				this.logProgress(null,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);
+				return false;
+			}
 			count++;
 		}
 		return false;
@@ -409,8 +415,12 @@ function LevelLeader(){
 	
 	this.killQuestBoss = function(BossId){
 		var Boss = getUnit(1,BossId);
-		try{Attack.clear(20,0,BossId);delay(500);Pickit.pickItems();
-		}catch(err){print("Boss not found");}
+		
+		try{
+			Attack.clear(20,0,BossId);delay(500);Pickit.pickItems();
+		}catch(err){
+			print("Boss not found");
+		}
 		if(Boss){
 			this.logProgress(Boss.dead,"Kill Boss:"+BossId);
 			return Boss.dead;
@@ -667,7 +677,9 @@ function LevelLeader(){
 			submitItem();
 			delay(1000);
 			item = me.findItem(-1,0,3);
-			if(item && item.toCursor()){Storage.Inventory.MoveTo(item);}
+			if(item && item.toCursor()){
+				Storage.Inventory.MoveTo(item);
+			}
 			this.logProgress(me.getQuest(10,0),"Placing Horadric Staff");
 		}
 		return true;
@@ -786,7 +798,6 @@ function LevelLeader(){
 		return true;
 	};
 	
-	
 	//while(true){say(me.x+","+me.y);delay(2000);}
 	Town.move("portalspot");
 	delay(500);
@@ -801,8 +812,11 @@ function LevelLeader(){
 		if(me.act != ActNumber+1){this.ChangeAct(ActNumber+1);}
 		for(LevelArea = 0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
-				try{Pather.makePortal();
-				}catch(err){print("Failed to make portal");}
+				try{
+					Pather.makePortal();
+				}catch(err){
+					print("Failed to make portal");
+				}
 				WaitingLimit = 3;
 				while(!this.playerClose()&& WaitingLimit > 0){
 					say("Waiting for Party");
@@ -811,9 +825,11 @@ function LevelLeader(){
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(LevelingAreas[ActNumber][LevelArea],true);
-				try{Pather.makePortal();
-				}catch(err){print("Failed to make portal");}
-				Attack.clearLevel(0);
+				try{
+					Pather.makePortal();
+				}catch(err){
+					print("Failed to make portal");}
+				//+Attack.clearLevel(0);
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
 		}

@@ -12,7 +12,7 @@ AutoBuild: Stat (1/5) Increased Strength from 15 to 16
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (2/5) Increased Vitality from 15 to 16
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+AutoBuild: Stat (3/5) Increased Vitality from 16 to 17
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (4/5) Increased Vitality from 17 to 18
 AutoBuild: useStatPoint(3): Vitality
@@ -22,7 +22,7 @@ AutoBuild: Incrementing cached character level to 2
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 2 --> 3 )
 AutoBuild: useSkillPoint(): Amplify Damage (66)
-AutoBuild: Skill (1/1) Increased Amplify Damage (66) by one (level:  1)
+AutoBuild: Skill (1/1) Increased Amplify Damage (66) by one (level:  3)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 16 to 17
 AutoBuild: useStatPoint(3): Vitality
@@ -51,7 +51,7 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 26 to 27
 AutoBuild: Updating Config from level 3 to 4
 AutoBuild: Incrementing cached character level to 4
-AutoBuild: Stat points: 5      Skill points: 2
+AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 4 --> 5 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
 AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  1)
@@ -67,6 +67,11 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
 AutoBuild: Updating Config from level 4 to 5
 AutoBuild: Incrementing cached character level to 5
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 2
 AutoBuild: Level up detected ( 5 --> 6 )
 AutoBuild: useSkillPoint(): Raise Skeleton (70)
@@ -117,6 +122,11 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 42 to 43
 AutoBuild: Updating Config from level 7 to 8
 AutoBuild: Incrementing cached character level to 8
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 8 --> 9 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
@@ -141,7 +151,7 @@ AutoBuild: Including build template config/builds/necromancer.summoner.js into t
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 9 --> 10 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
-AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  4)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  7)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 23 to 24
 AutoBuild: useStatPoint(3): Vitality
@@ -149,7 +159,7 @@ AutoBuild: Stat (2/5) Increased Vitality from 47 to 48
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (3/5) Increased Vitality from 48 to 49
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+AutoBuild: Stat (4/5) Increased Vitality from 49 to 50
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 50 to 51
 AutoBuild: Updating Config from level 9 to 10
@@ -157,11 +167,11 @@ AutoBuild: Incrementing cached character level to 10
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 10 --> 11 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
-AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  5)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  8)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 24 to 25
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 2 in Vitality may have failed!
+AutoBuild: Stat (2/5) Increased Vitality from 51 to 52
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (3/5) Increased Vitality from 52 to 53
 AutoBuild: useStatPoint(3): Vitality
@@ -223,31 +233,33 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 66 to 67
 AutoBuild: Updating Config from level 13 to 14
 AutoBuild: Incrementing cached character level to 14
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 14 --> 15 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
-AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  6)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  11)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 28 to 29
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (2/5) Increased Vitality from 67 to 68
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+AutoBuild: Stat (3/5) Increased Vitality from 68 to 69
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+AutoBuild: Stat (4/5) Increased Vitality from 69 to 70
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 70 to 71
 AutoBuild: Updating Config from level 14 to 15
 AutoBuild: Incrementing cached character level to 15
-AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
-AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
-AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 15 --> 16 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
-AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  7)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  12)
 AutoBuild: useStatPoint(0): Strength
-AutoBuild: Attempt to spend point 1 in Strength may have failed!
+AutoBuild: Stat (1/5) Increased Strength from 29 to 30
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (2/5) Increased Vitality from 71 to 72
 AutoBuild: useStatPoint(3): Vitality
@@ -255,13 +267,13 @@ AutoBuild: Stat (3/5) Increased Vitality from 72 to 73
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (4/5) Increased Vitality from 73 to 74
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+AutoBuild: Stat (5/5) Increased Vitality from 74 to 75
 AutoBuild: Updating Config from level 15 to 16
 AutoBuild: Incrementing cached character level to 16
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 16 --> 17 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
-AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  8)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  13)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 30 to 31
 AutoBuild: useStatPoint(3): Vitality
@@ -279,18 +291,23 @@ AutoBuild: Including build template config/builds/necromancer.summoner.js into t
 AutoBuild: Loaded helper thread
 AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
 AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 17 --> 18 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
-AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  9)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  14)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 31 to 32
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (2/5) Increased Vitality from 79 to 80
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+AutoBuild: Stat (3/5) Increased Vitality from 80 to 81
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+AutoBuild: Stat (4/5) Increased Vitality from 81 to 82
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 82 to 83
 AutoBuild: Updating Config from level 17 to 18
@@ -300,10 +317,25 @@ AutoBuild: Including build template config/builds/necromancer.summoner.js into t
 AutoBuild: Loaded helper thread
 AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
 AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 18 --> 19 )
 AutoBuild: useSkillPoint(): Skeleton Mastery (69)
-AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  10)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  15)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 32 to 33
 AutoBuild: useStatPoint(3): Vitality
@@ -316,3 +348,74 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 86 to 87
 AutoBuild: Updating Config from level 18 to 19
 AutoBuild: Incrementing cached character level to 19
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Stat points: 5      Skill points: 1
+AutoBuild: Level up detected ( 19 --> 20 )
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  16)
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 33 to 34
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Attempt to spend point 2 in Vitality may have failed!
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 88 to 89
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 89 to 90
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 90 to 91
+AutoBuild: Updating Config from level 19 to 20
+AutoBuild: Incrementing cached character level to 20
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js

@@ -39,6 +39,7 @@ var AutoBuildTemplate={
 				Config.OpenChests=true;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
+				Config.ItemInfo=false;//Log stashed, skipped (due to no space) or sold items.
 				Config.StashGold=200;//Minimum amount of gold to stash.
 				Config.AttackSkill=[0,0,0,0,0,0,0];
 				Config.LowManaSkill=[0,0];
@@ -48,7 +49,7 @@ var AutoBuildTemplate={
 				Config.MinColumn=[2,2,2,2];
 				Config.HealHP=99;
 				Config.HealMP=99;
-				Config.LifeChicken=30;
+				Config.LifeChicken=15;
 				Config.ManaChicken=0;
 				Config.MercChicken=0;
 				Config.UseHP=65;
@@ -236,6 +237,7 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
+				Config.AttackSkill=[0,132,0,0,0,0,0];
 			}	
 		},
 
@@ -654,7 +656,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.UseRejuvHP=40;
-				Config.LifeChicken=35;
+				Config.LifeChicken=30;
 			}
 		},
 

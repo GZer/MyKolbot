@@ -39,16 +39,17 @@ var AutoBuildTemplate={
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
+				Config.ItemInfo=false;//Log stashed, skipped (due to no space) or sold items.
 				Config.StashGold=200;//Minimum amount of gold to stash.
 				Config.AttackSkill=[36,36,36,36,36,0,0];
 				Config.LowManaSkill=[0,0];
 				Config.PublicMode=2;
 				Config.ScanShrines=[17,1,2,3,15,13,12,8,9,10,11];
-				Config.BeltColumn=["hp","hp","mp","mp"];//Keep tons of health potions!
+				Config.BeltColumn=["hp","mp","mp","mp"];//Keep tons of health potions!
 				Config.MinColumn=[2,2,2,2];
 				Config.HealHP=99;
 				Config.HealMP=99;
-				Config.LifeChicken=30;
+				Config.LifeChicken=15;
 				Config.ManaChicken=0;
 				Config.MercChicken=0;
 				Config.UseHP=60;
@@ -663,7 +664,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.UseRejuvHP=40;
-				Config.LifeChicken=35;
+				Config.LifeChicken=30;
 			}
 		},
 

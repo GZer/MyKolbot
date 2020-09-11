@@ -14,9 +14,9 @@ AutoBuild: Stat (2/5) Increased Energy from 35 to 36
 AutoBuild: useStatPoint(1): Energy
 AutoBuild: Stat (3/5) Increased Energy from 36 to 37
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (4/5) Increased Vitality from 10 to 11
+AutoBuild: Attempt to spend point 4 in Vitality may have failed!
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (5/5) Increased Vitality from 11 to 12
+AutoBuild: Attempt to spend point 5 in Vitality may have failed!
 AutoBuild: Updating Config from level 1 to 2
 AutoBuild: Incrementing cached character level to 2
 AutoBuild: Stat points: 5      Skill points: 1
@@ -46,7 +46,7 @@ AutoBuild: Stat (2/5) Increased Energy from 39 to 40
 AutoBuild: useStatPoint(1): Energy
 AutoBuild: Stat (3/5) Increased Energy from 40 to 41
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (4/5) Increased Vitality from 14 to 15
+AutoBuild: Attempt to spend point 4 in Vitality may have failed!
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 15 to 16
 AutoBuild: Updating Config from level 3 to 4
@@ -62,7 +62,7 @@ AutoBuild: Stat (2/5) Increased Energy from 41 to 42
 AutoBuild: useStatPoint(1): Energy
 AutoBuild: Stat (3/5) Increased Energy from 42 to 43
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+AutoBuild: Stat (4/5) Increased Vitality from 16 to 17
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 17 to 18
 AutoBuild: Updating Config from level 4 to 5
@@ -96,21 +96,21 @@ AutoBuild: Stat (3/5) Increased Energy from 46 to 47
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (4/5) Increased Vitality from 20 to 21
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (5/5) Increased Vitality from 21 to 22
+AutoBuild: Attempt to spend point 5 in Vitality may have failed!
 AutoBuild: Updating Config from level 6 to 7
 AutoBuild: Incrementing cached character level to 7
-AutoBuild: Stat points: 5      Skill points: 1
+AutoBuild: Stat points: 5      Skill points: 2
 AutoBuild: Level up detected ( 7 --> 8 )
 AutoBuild: useSkillPoint(): Ice Blast (45)
 AutoBuild: Skill (1/1) Increased Ice Blast (45) by one (level:  1)
 AutoBuild: useStatPoint(0): Strength
-AutoBuild: Attempt to spend point 1 in Strength may have failed!
+AutoBuild: Stat (1/5) Increased Strength from 16 to 17
 AutoBuild: useStatPoint(1): Energy
 AutoBuild: Stat (2/5) Increased Energy from 47 to 48
 AutoBuild: useStatPoint(1): Energy
 AutoBuild: Stat (3/5) Increased Energy from 48 to 49
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (4/5) Increased Vitality from 22 to 23
+AutoBuild: Attempt to spend point 4 in Vitality may have failed!
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 23 to 24
 AutoBuild: Updating Config from level 7 to 8
@@ -133,7 +133,7 @@ AutoBuild: Stat (3/5) Increased Energy from 50 to 51
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (4/5) Increased Vitality from 24 to 25
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+AutoBuild: Stat (5/5) Increased Vitality from 25 to 26
 AutoBuild: Updating Config from level 8 to 9
 AutoBuild: Incrementing cached character level to 9
 AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
@@ -237,14 +237,11 @@ AutoBuild: Stat (2/5) Increased Energy from 61 to 62
 AutoBuild: useStatPoint(1): Energy
 AutoBuild: Stat (3/5) Increased Energy from 62 to 63
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (4/5) Increased Vitality from 36 to 37
+AutoBuild: Attempt to spend point 4 in Vitality may have failed!
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 37 to 38
 AutoBuild: Updating Config from level 14 to 15
 AutoBuild: Incrementing cached character level to 15
-AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
-AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
-AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 2
 AutoBuild: Level up detected ( 15 --> 16 )
 AutoBuild: useSkillPoint(): Ice Blast (45)
@@ -261,6 +258,11 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 39 to 40
 AutoBuild: Updating Config from level 15 to 16
 AutoBuild: Incrementing cached character level to 16
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 2
 AutoBuild: Level up detected ( 16 --> 17 )
 AutoBuild: useSkillPoint(): Ice Blast (45)
@@ -277,6 +279,11 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 41 to 42
 AutoBuild: Updating Config from level 16 to 17
 AutoBuild: Incrementing cached character level to 17
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
 AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
 AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
 AutoBuild: Loaded helper thread
@@ -308,11 +315,6 @@ AutoBuild: Including build template config/builds/sorceress.blizzard.js into too
 AutoBuild: Loaded helper thread
 AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
 AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
-AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
-AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 2
 AutoBuild: Level up detected ( 18 --> 19 )
 AutoBuild: useSkillPoint(): Glacial Spike (55)
@@ -320,7 +322,7 @@ AutoBuild: Skill (1/1) Increased Glacial Spike (55) by one (level:  1)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 27 to 28
 AutoBuild: useStatPoint(1): Energy
-AutoBuild: Stat (2/5) Increased Energy from 69 to 70
+AutoBuild: Attempt to spend point 2 in Energy may have failed!
 AutoBuild: useStatPoint(1): Energy
 AutoBuild: Stat (3/5) Increased Energy from 70 to 71
 AutoBuild: useStatPoint(3): Vitality
@@ -329,3 +331,104 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 45 to 46
 AutoBuild: Updating Config from level 18 to 19
 AutoBuild: Incrementing cached character level to 19
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Stat points: 5      Skill points: 2
+AutoBuild: Level up detected ( 19 --> 20 )
+AutoBuild: useSkillPoint(): Chain Lightning (53)
+AutoBuild: Skill (1/1) Increased Chain Lightning (53) by one (level:  1)
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 28 to 29
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (2/5) Increased Energy from 71 to 72
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (3/5) Increased Energy from 72 to 73
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 46 to 47
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 47 to 48
+AutoBuild: Updating Config from level 19 to 20
+AutoBuild: Incrementing cached character level to 20
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.blizzard.js into tools\toolsthread.js

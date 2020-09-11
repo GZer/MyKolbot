@@ -5,13 +5,17 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhereIsLeader,MercId=[];
+	var LeaderUnit,WhereIsLeader,MercId=[],ImportantQuest=false;
 		
 	this.ChangeAct = function(DestinationAct){
 		var NPC,preArea = me.area,TownWaypoints = [0,40,75,103,109];
 		if(Pather.accessToAct(DestinationAct)){
 			// say("Using Waypoint "+TownWaypoints[DestinationAct-1]+" to change to Act "+DestinationAct);
-			try{Pather.journeyTo(TownWaypoints[DestinationAct-1]);}catch(err){print("Failed using Waypoint to change acts")}
+			try{
+				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
+			}catch(err){
+				print("Failed using Waypoint to change acts")
+			}
 			return true;
 		}
 		try{
@@ -74,16 +78,17 @@ function LevelFollower(){
 			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct = 3;}
 			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct = 4;}
 			else{LeaderAct = 5;}
-			if(LeaderAct != me.act){														//Make sure we are in the same act
-				this.ChangeAct(LeaderAct);
+			if(LeaderAct != me.act){
+				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
 			}
-			if(this.isImportantQuest(LeaderArea)){
-				say("Important Quest Area");
-				Config.LifeChicken=0;
-				Config.TownHP=15;
+			if(this.isImportantQuest(LeaderArea)){											//Make sure we dont chicken on important quests
+				ImportantQuest=true;
+				Config.UseHP=85;
 			}else{
-				Config.LifeChicken=30;
+				ImportantQuest=false;
+				Config.UseHP=60;
 			}
+			
 			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
 				this.teleportToLocation(me.area);
 			}
@@ -92,14 +97,23 @@ function LevelFollower(){
 				delay(1500);
 				if(LeaderArea == 73){
 					try{Pather.useUnit(2,100,73);											//Try duriels hole
-					}catch(err){Town.goToTown();}
+					}catch(err){
+						Town.goToTown();
+					}
 				}
 				if(LeaderArea == 132){
 					BaalPortal = getUnit(2,563);
 					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){delay(250);}
 				}
-				if(Pather.getPortal(LeaderArea,null)){Pather.usePortal(LeaderArea,null);}	//Check portals to area
-				else{Pather.journeyTo(LeaderArea);}											//Otherwise walk to leader
+				if(Pather.getPortal(LeaderArea,Config.Leader)){
+					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
+				}
+				else if(Pather.getPortal(LeaderArea,null)){
+					Pather.usePortal(LeaderArea,null);										//Else if any portals to area
+				}
+				else{
+					Pather.journeyTo(LeaderArea);											//Otherwise walk to leader
+				}
 				delay(200);
 				Pather.teleport = false;
 				Pather.getWP(me.area,true);
@@ -120,8 +134,14 @@ function LevelFollower(){
 	
 	this.isImportantQuest = function(LeaderArea){
 		var QuestAreas=[37,73,74,83,102,108,120],i;
-		if(me.mode == 17){me.revive();}
-		for(i = 0; i < QuestAreas.length; i++){if(LeaderArea == QuestAreas[i]){return true;}}
+		if(me.mode == 17){
+			me.revive();
+		}
+		for(i = 0; i < QuestAreas.length; i++){
+			if(LeaderArea == QuestAreas[i]){
+				return true;
+			}
+		}
 		return false;
 	};
 	
@@ -139,21 +159,23 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.teleportToLocation = function(CurrentArea){											//Teleport to hard destinations
+	this.teleportToLocation = function(CurrentArea){										//Teleport to hard destinations
 		var DestinationReached = false;
 		Pather.teleport = true;
-		switch(CurrentArea){
-			case 62:																			//Maggot Lair
-				this.teleportHeal(63,64);
-				if(Pather.moveToPreset(64,2,356)){DestinationReached = true;}
-			break;
-			case 74:																			//Arcane Sanctuary
-				if(Pather.moveToPreset(74,2,357)){DestinationReached = true;}
-			break;
-			case 88:																			//Flayer Dungeon
-				this.teleportHeal(89,91);
-				if(Pather.moveToPreset(91,2,406)){DestinationReached = true;}
-			break;
+		while(!DestinationReached){
+			switch(CurrentArea){
+				case 62:																	//Maggot Lair
+					this.teleportHeal(63,64);
+					if(Pather.moveToPreset(64,2,356)){DestinationReached = true;}
+				break;
+				case 74:																	//Arcane Sanctuary
+					if(Pather.moveToPreset(74,2,357)){DestinationReached = true;}
+				break;
+				case 88:																	//Flayer Dungeon
+					this.teleportHeal(89,91);
+					if(Pather.moveToPreset(91,2,406)){DestinationReached = true;}
+				break;
+			}
 		}
 		Town.doChores();
 		Town.move("portalspot");
@@ -166,7 +188,7 @@ function LevelFollower(){
 		Town.heal();Town.move("portalspot");Pather.usePortal(FirstLevel, me.name);Pather.moveToExit(SecondLevel,true,false);
 	}
 	
-	this.getLeaderUnit = function(name){														//Get Leader's unit
+	this.getLeaderUnit = function(name){													//Get Leader's unit
 		var Player = getUnit(0,name);
 		if(Player){
 			do{
@@ -256,22 +278,33 @@ function LevelFollower(){
 		delay(1000);
 		partyTimeout++;
 		this.goFindLeader(WhereIsLeader.area);
-		if(partyTimeout>5){quit();}
+		if(partyTimeout>5){
+			quit();
+		}
 	}
 	LeaderUnit = this.getLeaderUnit(Config.Leader);
 
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
+			if(ImportantQuest && me.hp < me.hpmax * .5){									//If low hp and its a quest heal in town
+				say("IN DANGER");
+				Town.doChores();
+				Pather.usePortal(null,me.name);
+			}
 			if(getDistance(me,LeaderUnit)>5){
 				Pather.teleport = false;
-				Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);
-				Attack.clear(20);
+				if(me.inTown){
+					Town.move("portalspot");
+				}else{
+					Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);
+					Attack.clear(20);
+				}
 				delay(500);
 			}
 		}else{
 			this.goFindLeader(WhereIsLeader.area);
+			delay(1000);
 		}
-		delay(1000);
 	}
 	return true;
 }
