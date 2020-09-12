@@ -4648,3 +4648,62 @@ Line: (null)
 [09/12/20 14:18:52] D2BS 9140: initNPC: heal
 [09/12/20 14:19:03] D2BS 9140: 77
 [09/12/20 14:19:17] D2BS 9140: D2BS Shutdown complete.
+[09/12/20 15:15:49] D2BS 5336: D2BS Engine startup complete. 1.6.4U
+[09/12/20 15:15:49] D2BS 5336: LightSorc
+[09/12/20 15:15:49] D2BS 5336: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[09/12/20 15:15:49] D2BS 5336: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/12/20 15:15:49] D2BS 5336: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/12/20 15:15:49] D2BS 5336: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/12/20 15:15:49] D2BS 5336: ÿc2D2BSÿc0 :: Started Console Script
+[09/12/20 15:15:52] D2BS 5336: Heartbeat loaded
+[09/12/20 15:16:10] D2BS 5336: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/12/20 15:16:10] D2BS 5336: ÿc2D2BSÿc0 :: default.dbj running.
+[09/12/20 15:16:10] D2BS 5336: AutoBuild: Including build template config/builds/sorceress.lightning.js into default.dbj
+[09/12/20 15:16:10] D2BS 5336: Updating Config from level 0 to 25
+[09/12/20 15:16:10] D2BS 5336: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/12/20 15:16:10] D2BS 5336: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/12/20 15:16:10] D2BS 5336: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/12/20 15:16:10] D2BS 5336: ÿc4Loaded NIP: ÿc2LightningRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/12/20 15:16:10] D2BS 5336: ÿc4Loaded NIP: ÿc2Lightning.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc216 ms
+[09/12/20 15:16:10] D2BS 5336: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/12/20 15:16:10] D2BS 5336: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\autobuildthread.js
+[09/12/20 15:16:10] D2BS 5336: ÿc2Starting script: ÿc9LevelFollower
+[09/12/20 15:16:10] D2BS 5336: Updating Config from level 0 to 25
+[09/12/20 15:16:10] D2BS 5336: AutoBuild: Loaded helper thread
+[09/12/20 15:16:10] D2BS 5336: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\party.js
+[09/12/20 15:16:10] D2BS 5336: Updating Config from level 0 to 25
+[09/12/20 15:16:10] D2BS 5336: ÿc2Party thread loaded. Mode: Accept
+[09/12/20 15:16:10] D2BS 5336: ÿc3Start ToolsThread script
+[09/12/20 15:16:10] D2BS 5336: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\toolsthread.js
+[09/12/20 15:16:10] D2BS 5336: Updating Config from level 0 to 25
+[09/12/20 15:17:00] D2BS 5336: ÿc7Picked up ÿc441 Gold
+[09/12/20 15:17:05] D2BS 5336: move retry 1
+[09/12/20 15:17:07] D2BS 5336: move retry 1
+[09/12/20 15:17:13] D2BS 5336: move retry 1
+[09/12/20 15:17:36] D2BS 5336: ÿc7Picked up ÿc434 Gold
+[09/12/20 15:17:36] D2BS 5336: move retry 1
+[09/12/20 15:17:38] D2BS 5336: move retry 2
+[09/12/20 15:17:49] D2BS 5336: AutoBuild: Stat points: 10      Skill points: 3
+[09/12/20 15:17:49] D2BS 5336: AutoBuild: Level up detected ( 25 --> 26 )
+[09/12/20 15:17:49] D2BS 5336: AutoBuild: useSkillPoint(): Lightning (49)
+[09/12/20 15:17:49] D2BS 5336: AutoBuild: Skill (1/1) Increased Lightning (49) by one (level:  11)
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: useStatPoint(0): Strength
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: Stat (1/5) Increased Strength from 33 to 34
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: useStatPoint(1): Energy
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: Stat (2/5) Increased Energy from 81 to 82
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: useStatPoint(1): Energy
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: Stat (3/5) Increased Energy from 82 to 83
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: useStatPoint(3): Vitality
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: Stat (4/5) Increased Vitality from 56 to 57
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: useStatPoint(3): Vitality
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: Stat (5/5) Increased Vitality from 57 to 58
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: Updating Config from level 25 to 26
+[09/12/20 15:17:50] D2BS 5336: Updating Config from level 25 to 26
+[09/12/20 15:17:50] D2BS 5336: Updating Config from level 25 to 26
+[09/12/20 15:17:50] D2BS 5336: AutoBuild: Incrementing cached character level to 26
+[09/12/20 15:17:50] D2BS 5336: Updating Config from level 25 to 26
+[09/12/20 15:17:54] D2BS 5336: ÿc7Picked up ÿc4190 Gold
+[09/12/20 15:17:58] D2BS 5336: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #20)
+[09/12/20 15:18:05] D2BS 5336: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/12/20 15:18:24] D2BS 5336: ÿc7Picked up ÿc486 Gold
+[09/12/20 15:18:30] D2BS 5336: ÿc7Picked up ÿc463 Gold
