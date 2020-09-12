@@ -229,7 +229,7 @@ var AutoBuildTemplate={
 			SkillPoints: [45],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.UseMP=10;
+				Config.UseMP=20;
 			}	
 		},
 
@@ -255,7 +255,7 @@ var AutoBuildTemplate={
 			SkillPoints: [55],//Glacial Spike
 			StatPoints: [0,1,1,3,3],	
 			Update: function(){
-				Config.BeltColumn=["hp","rv","rv","mp"];
+				Config.AttackSkill=[42,45,45,55,55,53,49];
 			}
 		},
 
@@ -321,7 +321,7 @@ var AutoBuildTemplate={
 			SkillPoints: [59],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[42,59,45,59,55,53,49];
+				Config.BeltColumn=["hp","rv","rv","mp"];
 			}	
 		},
 

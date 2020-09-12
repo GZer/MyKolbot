@@ -228,7 +228,7 @@ var AutoBuildTemplate={
 			SkillPoints: [49],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.UseMP=10;
+				Config.UseMP=20;
 			}	
 		},
 
@@ -254,7 +254,7 @@ var AutoBuildTemplate={
 			SkillPoints: [49],
 			StatPoints: [0,1,1,3,3],	
 			Update: function(){
-				Config.BeltColumn=["hp","rv","rv","mp"];
+				Config.AttackSkill=[42,49,49,38,38,36,36];
 			}
 		},
 
@@ -319,7 +319,7 @@ var AutoBuildTemplate={
 			SkillPoints: [49],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[42,49,49,49,49,53,53];
+				Config.BeltColumn=["hp","rv","rv","mp"];
 			}	
 		},
 

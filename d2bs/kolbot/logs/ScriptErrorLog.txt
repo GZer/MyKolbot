@@ -13,3 +13,31 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 [2020/09/11 18:43:45] <Hammerdin> Failed to include script: LevelFollower
 [2020/09/11 19:10:01] <Singer> Error in LevelLeader (town.js line 2225): Town.goToTown: Failed use WP
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:828, @levelleader.js:118, @levelleader.js:538, Town.goToTown@town.js:2225
+[2020/09/11 20:25:52] <Singer> Error in LevelLeader (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:835, @levelleader.js:106, @levelleader.js:434, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1049
+[2020/09/12 10:53:25] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:835, @levelleader.js:133, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/12 11:46:54] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:837, @levelleader.js:155, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/12 11:53:06] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:837, @levelleader.js:155, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/12 11:55:12] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:809, Town.doChores@town.js:96, Cubing.doCubing@cubing.js:916, Cubing.getCube@cubing.js:159, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/12 12:19:40] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:280, @levelfollower.js:115, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/12 12:32:44] <Auradin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:305, @levelfollower.js:115, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/12 12:34:05] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 100
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:837, @levelleader.js:167, Pather.useUnit@pather.js:820
+[2020/09/12 12:59:25] <Singer> Failed to include script: LevelLeader
+[2020/09/12 13:00:30] <Singer> Failed to include script: LevelLeader
+[2020/09/12 13:01:35] <Singer> Failed to include script: LevelLeader
+[2020/09/12 13:07:21] <Singer> Failed to include script: LevelLeader
+[2020/09/12 13:57:49] <FireSorc> Unknown type: stave File: Meteor.xpac.nip Line: 6
+[2020/09/12 13:57:49] <FireSorc> Unknown type: stave File: Meteor.xpac.nip Line: 6
+[2020/09/12 14:50:00] <FireSorc> Error in LevelFollower (levelfollower.js line 280): WhereIsLeader is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:280
+[2020/09/12 15:12:07] <FireSorc> Error in LevelFollower (levelfollower.js line 280): WhereIsLeader is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:280
+[2020/09/12 15:13:58] <FireSorc> Error in LevelFollower (levelfollower.js line 280): WhereIsLeader is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:280

@@ -11,6 +11,22 @@
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 && [FireResist]+[ColdResist]+[LightResist] >= 120 # [Tier] == 99
 [Name] == QF2 && [Quality] == Unique # # [Tier] == 100
 
+//Shield
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 1
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxHP] > 20 # [Tier] == 2
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxHP] > 30 # [Tier] == 3
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 40 || [MaxHP] > 40 # [Tier] == 4
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 || [MaxHP] > 50 # [Tier] == 5
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 && [MaxHP] > 20 # [Tier] == 6
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 && [MaxHP] > 30 # [Tier] == 7
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 && [MaxHP] > 40 # [Tier] == 8
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 && [MaxHP] > 50 # [Tier] == 9
+[Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab] >= 1 # [Tier] == 10
+[Type] == Shield && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 10 && [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab] >= 1 # [Tier] == 90
+[Name] == GrimShield && [Flag] != Ethereal && [Quality] == Unique # [FCR] >= 20 && [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab] >= 1 # [Tier] == 95
+[Type] == Shield && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 98
+[Type] == Shield && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 99
+
 //Helm
 [Type] == PrimalHelm && [Flag] != Ethereal && [Quality] >= LowQuality # # [Tier] == 1 && [MaxQuantity] == 1
 ([Type] == PrimalHelm || [Type] == Helm || [Type] == Circlet) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 2

@@ -234,7 +234,7 @@ var AutoBuildTemplate={
 			SkillPoints: [47],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.UseMP=10;
+				Config.UseMP=20;
 			}	
 		},
 
@@ -260,7 +260,7 @@ var AutoBuildTemplate={
 			SkillPoints: [52],//Enchant
 			StatPoints: [0,1,1,3,3],	
 			Update: function(){
-				Config.BeltColumn=["hp","rv","rv","mp"];
+				Config.AttackSkill=[42,47,47,47,47,49,49];
 			}
 		},
 
@@ -326,7 +326,7 @@ var AutoBuildTemplate={
 			SkillPoints: [56],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[42,56,47,56,47,53,49];
+				Config.BeltColumn=["hp","rv","rv","mp"];
 			}	
 		},
 

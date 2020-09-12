@@ -6206,3 +6206,613 @@ c0 :: Engine startup complete!
 [09/11/20 19:33:36] D2BS 2972: ÿc4MiniShopBotÿc0: Scanning 55 items.
 [09/11/20 19:33:37] D2BS 2972: initNPC: buyPotions
 [09/11/20 19:34:19] D2BS 2972: 35,36
+[09/11/20 19:34:29] D2BS 2972: D2BS Shutdown complete.
+[09/11/20 19:34:31] D2BS 16816: D2BS Engine startup complete. 1.6.4U
+[09/11/20 19:34:31] D2BS 16816: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/11/20 19:34:31] D2BS 16816: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/11/20 19:34:31] D2BS 16816: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/11/20 19:34:31] D2BS 16816: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/11/20 19:34:31] D2BS 16816: FireSorc
+[09/11/20 19:34:31] D2BS 16816: ÿc2D2BSÿc0 :: Started Console Script
+[09/11/20 19:34:33] D2BS 16816: Heartbeat loaded
+[09/11/20 19:34:50] D2BS 16816: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/11/20 19:34:50] D2BS 16816: ÿc2D2BSÿc0 :: default.dbj running.
+[09/11/20 19:34:50] D2BS 16816: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/11/20 19:34:50] D2BS 16816: Updating Config from level 0 to 20
+[09/11/20 19:34:50] D2BS 16816: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/11/20 19:34:50] D2BS 16816: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/11/20 19:34:50] D2BS 16816: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/11/20 19:34:50] D2BS 16816: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/11/20 19:34:50] D2BS 16816: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc20 ms
+[09/11/20 19:34:50] D2BS 16816: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/11/20 19:34:50] D2BS 16816: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc216 ms
+[09/11/20 19:34:50] D2BS 16816: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/11/20 19:34:50] D2BS 16816: Updating Config from level 0 to 20
+[09/11/20 19:34:50] D2BS 16816: AutoBuild: Loaded helper thread
+[09/11/20 19:34:50] D2BS 16816: ÿc2Starting script: ÿc9LevelFollower
+[09/11/20 19:34:50] D2BS 16816: initNPC: heal
+[09/11/20 19:34:50] D2BS 16816: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/11/20 19:34:50] D2BS 16816: Updating Config from level 0 to 20
+[09/11/20 19:34:50] D2BS 16816: ÿc2Party thread loaded. Mode: Accept
+[09/11/20 19:34:50] D2BS 16816: ÿc3Start ToolsThread script
+[09/11/20 19:34:50] D2BS 16816: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/11/20 19:34:50] D2BS 16816: Updating Config from level 0 to 20
+[09/11/20 19:34:56] D2BS 16816: initNPC: buyPotions
+[09/11/20 19:35:05] D2BS 16816: move retry 1
+[09/11/20 19:35:29] D2BS 16816: 36,37
+[09/11/20 19:35:47] D2BS 16816: ÿc7Picked up ÿc439 Gold
+[09/11/20 19:35:50] D2BS 16816: ÿc7Picked up ÿc463 Gold
+[09/11/20 19:35:55] D2BS 16816: move retry 1
+[09/11/20 19:36:02] D2BS 16816: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 19:36:09] D2BS 16816: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 19:36:17] D2BS 16816: ÿc7Picked up ÿc430 Gold
+[09/11/20 19:36:32] D2BS 16816: initNPC: heal
+[09/11/20 19:36:40] D2BS 16816: move retry 1
+[09/11/20 19:36:41] D2BS 16816: move retry 2
+[09/11/20 19:36:53] D2BS 16816: 1,2
+[09/11/20 19:37:02] D2BS 16816: move retry 1
+[09/11/20 19:37:09] D2BS 16816: Script default.dbj ended
+[09/11/20 19:37:09] D2BS 16816: Script tools\autobuildthread.js ended
+[09/11/20 19:37:09] D2BS 16816: Script tools\party.js ended
+[09/11/20 19:37:09] D2BS 16816: Script tools\toolsthread.js ended
+[09/11/20 19:37:16] D2BS 16816: D2BS Shutdown complete.
+[09/11/20 19:37:16] D2BS 15884: D2BS Engine startup complete. 1.6.4U
+[09/11/20 19:37:16] D2BS 15884: FireSorc
+[09/11/20 19:37:16] D2BS 15884: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/11/20 19:37:16] D2BS 15884: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/11/20 19:37:16] D2BS 15884: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/11/20 19:37:16] D2BS 15884: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/11/20 19:37:16] D2BS 15884: ÿc2D2BSÿc0 :: Started Console Script
+[09/11/20 19:37:19] D2BS 15884: Heartbeat loaded
+[09/11/20 19:37:36] D2BS 15884: D2BS Shutdown complete.
+[09/11/20 19:37:36] D2BS 5736: D2BS Engine startup complete. 1.6.4U
+[09/11/20 19:37:36] D2BS 5736: FireSorc
+[09/11/20 19:37:36] D2BS 5736: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/11/20 19:37:36] D2BS 5736: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/11/20 19:37:36] D2BS 5736: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/11/20 19:37:36] D2BS 5736: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/11/20 19:37:36] D2BS 5736: ÿc2D2BSÿc0 :: Started Console Script
+[09/11/20 19:37:38] D2BS 5736: Heartbeat loaded
+[09/11/20 19:37:57] D2BS 5736: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/11/20 19:37:57] D2BS 5736: ÿc2D2BSÿc0 :: default.dbj running.
+[09/11/20 19:37:57] D2BS 5736: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/11/20 19:37:57] D2BS 5736: Updating Config from level 0 to 20
+[09/11/20 19:37:57] D2BS 5736: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/11/20 19:37:57] D2BS 5736: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/11/20 19:37:57] D2BS 5736: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/11/20 19:37:57] D2BS 5736: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/11/20 19:37:57] D2BS 5736: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc216 ms
+[09/11/20 19:37:57] D2BS 5736: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/11/20 19:37:57] D2BS 5736: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/11/20 19:37:57] D2BS 5736: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/11/20 19:37:57] D2BS 5736: Updating Config from level 0 to 20
+[09/11/20 19:37:57] D2BS 5736: AutoBuild: Loaded helper thread
+[09/11/20 19:37:57] D2BS 5736: ÿc2Starting script: ÿc9LevelFollower
+[09/11/20 19:37:57] D2BS 5736: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/11/20 19:37:57] D2BS 5736: Updating Config from level 0 to 20
+[09/11/20 19:37:57] D2BS 5736: ÿc2Party thread loaded. Mode: Accept
+[09/11/20 19:37:57] D2BS 5736: ÿc3Start ToolsThread script
+[09/11/20 19:37:57] D2BS 5736: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/11/20 19:37:57] D2BS 5736: Updating Config from level 0 to 20
+[09/11/20 19:37:58] D2BS 5736: move retry 1
+[09/11/20 19:38:05] D2BS 5736: move retry 1
+[09/11/20 19:38:18] D2BS 5736: 1,0
+[09/11/20 19:38:43] D2BS 5736: 1,40
+[09/11/20 19:38:44] D2BS 5736: 1,40,47
+[09/11/20 19:38:46] D2BS 5736: initNPC: heal
+[09/11/20 19:38:49] D2BS 5736: D2BS Shutdown complete.
+[09/11/20 19:38:50] D2BS 8308: D2BS Engine startup complete. 1.6.4U
+[09/11/20 19:38:50] D2BS 8308: FireSorc
+[09/11/20 19:38:50] D2BS 8308: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/11/20 19:38:50] D2BS 8308: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/11/20 19:38:50] D2BS 8308: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/11/20 19:38:50] D2BS 8308: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/11/20 19:38:50] D2BS 8308: ÿc2D2BSÿc0 :: Started Console Script
+[09/11/20 19:38:52] D2BS 8308: Heartbeat loaded
+[09/11/20 19:39:10] D2BS 8308: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/11/20 19:39:10] D2BS 8308: ÿc2D2BSÿc0 :: default.dbj running.
+[09/11/20 19:39:10] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/11/20 19:39:10] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:39:10] D2BS 8308: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:10] D2BS 8308: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:10] D2BS 8308: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:10] D2BS 8308: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:10] D2BS 8308: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:10] D2BS 8308: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:10] D2BS 8308: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc215 ms
+[09/11/20 19:39:10] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/11/20 19:39:10] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:39:10] D2BS 8308: AutoBuild: Loaded helper thread
+[09/11/20 19:39:10] D2BS 8308: ÿc2Starting script: ÿc9LevelFollower
+[09/11/20 19:39:10] D2BS 8308: initNPC: heal
+[09/11/20 19:39:10] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/11/20 19:39:10] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:39:10] D2BS 8308: ÿc2Party thread loaded. Mode: Accept
+[09/11/20 19:39:10] D2BS 8308: ÿc3Start ToolsThread script
+[09/11/20 19:39:10] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/11/20 19:39:10] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:39:37] D2BS 8308: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc00 ÿc3CR: ÿc09 ÿc9LR: ÿc00 ÿc2PR: ÿc00
+[09/11/20 19:39:37] D2BS 8308: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[09/11/20 19:39:37] D2BS 8308: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[09/11/20 19:39:38] D2BS 8308: ÿc2D2BSÿc0 :: Stopping all scripts
+[09/11/20 19:39:38] D2BS 8308: Script d2botlanfollow.dbj ended
+[09/11/20 19:39:38] D2BS 8308: Script default.dbj ended
+[09/11/20 19:39:38] D2BS 8308: Script tools\autobuildthread.js ended
+[09/11/20 19:39:38] D2BS 8308: Script tools\heartbeat.js ended
+[09/11/20 19:39:38] D2BS 8308: Script tools\party.js ended
+[09/11/20 19:39:38] D2BS 8308: Script tools\toolsthread.js ended
+[09/11/20 19:39:40] D2BS 8308: ÿc2D2BSÿc0 :: Started default.dbj
+[09/11/20 19:39:40] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/11/20 19:39:40] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:39:40] D2BS 8308: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/11/20 19:39:40] D2BS 8308: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:40] D2BS 8308: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:40] D2BS 8308: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:40] D2BS 8308: Heartbeat loaded
+[09/11/20 19:39:40] D2BS 8308: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:40] D2BS 8308: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:40] D2BS 8308: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/11/20 19:39:40] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/11/20 19:39:40] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:39:40] D2BS 8308: AutoBuild: Loaded helper thread
+[09/11/20 19:39:40] D2BS 8308: ÿc2Starting script: ÿc9LevelFollower
+[09/11/20 19:39:40] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/11/20 19:39:40] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:39:40] D2BS 8308: ÿc2Party thread loaded. Mode: Accept
+[09/11/20 19:39:40] D2BS 8308: ÿc3Start ToolsThread script
+[09/11/20 19:39:40] D2BS 8308: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/11/20 19:39:40] D2BS 8308: Updating Config from level 0 to 20
+[09/11/20 19:40:01] D2BS 8308: move retry 1
+[09/11/20 19:40:04] D2BS 8308: 1,0
+[09/11/20 19:40:56] D2BS 8308: 40,47
+[09/11/20 19:41:20] D2BS 8308: move retry 1
+[09/11/20 19:41:23] D2BS 8308: ÿc7Picked up ÿc427 Gold
+[09/11/20 19:41:43] D2BS 8308: move retry 1
+[09/11/20 19:41:45] D2BS 8308: move retry 1
+[09/11/20 19:41:47] D2BS 8308: move retry 1
+[09/11/20 19:41:50] D2BS 8308: move retry 1
+[09/11/20 19:41:58] D2BS 8308: move retry 1
+[09/11/20 19:42:12] D2BS 8308: move retry 1
+[09/11/20 19:42:14] D2BS 8308: move retry 2
+[09/11/20 19:42:16] D2BS 8308: move retry 3
+[09/11/20 19:42:28] D2BS 8308: move retry 1
+[09/11/20 19:42:32] D2BS 8308: move retry 1
+[09/11/20 19:42:38] D2BS 8308: move retry 1
+[09/11/20 19:42:47] D2BS 8308: move retry 1
+[09/11/20 19:42:48] D2BS 8308: move retry 1
+[09/11/20 19:42:52] D2BS 8308: move retry 1
+[09/11/20 19:42:55] D2BS 8308: move retry 1
+[09/11/20 19:42:58] D2BS 8308: move retry 1
+[09/11/20 19:43:51] D2BS 8308: ÿc7Picked up ÿc420 Gold
+[09/11/20 19:43:52] D2BS 8308: move retry 1
+[09/11/20 19:43:54] D2BS 8308: move retry 2
+[09/11/20 19:44:54] D2BS 8308: 47,48
+[09/11/20 19:44:57] D2BS 8308: move retry 1
+[09/11/20 19:45:00] D2BS 8308: move retry 2
+[09/11/20 19:45:14] D2BS 8308: move retry 1
+[09/11/20 19:45:15] D2BS 8308: move retry 2
+[09/11/20 19:45:17] D2BS 8308: move retry 3
+[09/11/20 19:45:32] D2BS 8308: move retry 1
+[09/11/20 19:45:43] D2BS 8308: move retry 1
+[09/11/20 19:45:56] D2BS 8308: move retry 1
+[09/11/20 19:46:07] D2BS 8308: move retry 1
+[09/11/20 19:46:43] D2BS 8308: ÿc7Picked up ÿc452 Gold
+[09/11/20 19:46:45] D2BS 8308: move retry 1
+[09/11/20 19:46:48] D2BS 8308: ÿc7Picked up ÿc450 Gold
+[09/11/20 19:47:02] D2BS 8308: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/11/20 19:47:03] D2BS 8308: ÿc7Picked up ÿc428 Gold
+[09/11/20 19:47:06] D2BS 8308: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 19:47:38] D2BS 8308: move retry 1
+[09/11/20 19:47:53] D2BS 8308: ÿc7Picked up ÿc434 Gold
+[09/11/20 19:47:53] D2BS 8308: ÿc7Picked up ÿc454 Gold
+[09/11/20 19:47:58] D2BS 8308: ÿc7Picked up ÿc441 Gold
+[09/11/20 19:48:16] D2BS 8308: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #20)
+[09/11/20 19:48:34] D2BS 8308: ÿc7Picked up ÿc459 Gold
+[09/11/20 19:48:34] D2BS 8308: ÿc7Picked up ÿc441 Gold
+[09/11/20 19:48:48] D2BS 8308: move retry 1
+[09/11/20 19:49:15] D2BS 8308: move retry 1
+[09/11/20 19:49:19] D2BS 8308: move retry 1
+[09/11/20 19:49:21] D2BS 8308: move retry 1
+[09/11/20 19:49:24] D2BS 8308: move retry 1
+[09/11/20 19:49:26] D2BS 8308: move retry 1
+[09/11/20 19:49:27] D2BS 8308: move retry 1
+[09/11/20 19:49:32] D2BS 8308: move retry 1
+[09/11/20 19:49:40] D2BS 8308: move retry 1
+[09/11/20 19:49:43] D2BS 8308: move retry 1
+[09/11/20 19:49:48] D2BS 8308: move retry 1
+[09/11/20 19:49:52] D2BS 8308: move retry 1
+[09/11/20 19:49:54] D2BS 8308: move retry 1
+[09/11/20 19:49:55] D2BS 8308: move retry 1
+[09/11/20 19:49:57] D2BS 8308: move retry 1
+[09/11/20 19:49:59] D2BS 8308: move retry 1
+[09/11/20 19:50:05] D2BS 8308: move retry 1
+[09/11/20 19:50:06] D2BS 8308: move retry 1
+[09/11/20 19:50:28] D2BS 8308: move retry 1
+[09/11/20 19:50:30] D2BS 8308: move retry 2
+[09/11/20 20:19:31] D2BS 8308: 48,49
+[09/11/20 20:19:35] D2BS 8308: move retry 1
+[09/11/20 20:19:37] D2BS 8308: move retry 2
+[09/11/20 20:19:40] D2BS 8308: move retry 3
+[09/11/20 20:19:47] D2BS 8308: Script default.dbj ended
+[09/11/20 20:19:47] D2BS 8308: Script tools\autobuildthread.js ended
+[09/11/20 20:19:47] D2BS 8308: Script tools\heartbeat.js ended
+[09/11/20 20:19:47] D2BS 8308: Script tools\party.js ended
+[09/11/20 20:19:47] D2BS 8308: Script tools\toolsthread.js ended
+[09/11/20 20:19:59] D2BS 8308: D2BS Shutdown complete.
+[09/11/20 20:20:00] D2BS 3488: D2BS Engine startup complete. 1.6.4U
+[09/11/20 20:20:00] D2BS 3488: FireSorc
+[09/11/20 20:20:00] D2BS 3488: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/11/20 20:20:00] D2BS 3488: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/11/20 20:20:00] D2BS 3488: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/11/20 20:20:00] D2BS 3488: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/11/20 20:20:00] D2BS 3488: ÿc2D2BSÿc0 :: Started Console Script
+[09/11/20 20:20:02] D2BS 3488: Heartbeat loaded
+[09/11/20 20:20:19] D2BS 3488: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/11/20 20:20:19] D2BS 3488: ÿc2D2BSÿc0 :: default.dbj running.
+[09/11/20 20:20:19] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/11/20 20:20:19] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:20:19] D2BS 3488: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/11/20 20:20:19] D2BS 3488: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/11/20 20:20:19] D2BS 3488: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/11/20 20:20:19] D2BS 3488: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/11/20 20:20:19] D2BS 3488: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc216 ms
+[09/11/20 20:20:19] D2BS 3488: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/11/20 20:20:19] D2BS 3488: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/11/20 20:20:19] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/11/20 20:20:19] D2BS 3488: ÿc2Starting script: ÿc9LevelFollower
+[09/11/20 20:20:19] D2BS 3488: initNPC: heal
+[09/11/20 20:20:19] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:20:19] D2BS 3488: AutoBuild: Loaded helper thread
+[09/11/20 20:20:19] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/11/20 20:20:19] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:20:19] D2BS 3488: ÿc2Party thread loaded. Mode: Accept
+[09/11/20 20:20:19] D2BS 3488: ÿc3Start ToolsThread script
+[09/11/20 20:20:19] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/11/20 20:20:19] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:20:30] D2BS 3488: move retry 1
+[09/11/20 20:21:10] D2BS 3488: initNPC: buyPotions
+[09/11/20 20:22:18] D2BS 3488: ÿc7Picked up ÿc422 Gold
+[09/11/20 20:22:22] D2BS 3488: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/11/20 20:22:22] D2BS 3488: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/11/20 20:22:50] D2BS 3488: ÿc7Picked up ÿc422 Gold
+[09/11/20 20:23:30] D2BS 3488: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/11/20 20:23:32] D2BS 3488: move retry 1
+[09/11/20 20:23:58] D2BS 3488: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #20)
+[09/11/20 20:24:07] D2BS 3488: ÿc7Picked up ÿc419 Gold
+[09/11/20 20:24:09] D2BS 3488: ÿc7Picked up ÿc448 Gold
+[09/11/20 20:24:35] D2BS 3488: move retry 1
+[09/11/20 20:24:37] D2BS 3488: move retry 1
+[09/11/20 20:24:40] D2BS 3488: move retry 1
+[09/11/20 20:25:31] D2BS 3488: move retry 1
+[09/11/20 20:25:55] D2BS 3488: Script default.dbj ended
+[09/11/20 20:25:55] D2BS 3488: Script tools\autobuildthread.js ended
+[09/11/20 20:25:55] D2BS 3488: Script tools\party.js ended
+[09/11/20 20:25:55] D2BS 3488: Script tools\toolsthread.js ended
+[09/11/20 20:26:02] D2BS 3488: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/11/20 20:26:02] D2BS 3488: ÿc2D2BSÿc0 :: default.dbj running.
+[09/11/20 20:26:02] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/11/20 20:26:02] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:26:02] D2BS 3488: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/11/20 20:26:02] D2BS 3488: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/11/20 20:26:02] D2BS 3488: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/11/20 20:26:02] D2BS 3488: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/11/20 20:26:02] D2BS 3488: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc216 ms
+[09/11/20 20:26:02] D2BS 3488: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/11/20 20:26:02] D2BS 3488: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/11/20 20:26:02] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/11/20 20:26:02] D2BS 3488: ÿc2Starting script: ÿc9LevelFollower
+[09/11/20 20:26:02] D2BS 3488: initNPC: buyPotions
+[09/11/20 20:26:02] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:26:02] D2BS 3488: AutoBuild: Loaded helper thread
+[09/11/20 20:26:02] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/11/20 20:26:02] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:26:02] D2BS 3488: ÿc2Party thread loaded. Mode: Accept
+[09/11/20 20:26:02] D2BS 3488: ÿc3Start ToolsThread script
+[09/11/20 20:26:02] D2BS 3488: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/11/20 20:26:02] D2BS 3488: Updating Config from level 0 to 20
+[09/11/20 20:26:43] D2BS 3488: move retry 1
+[09/11/20 20:27:16] D2BS 3488: move retry 1
+[09/11/20 20:27:18] D2BS 3488: move retry 1
+[09/11/20 20:27:21] D2BS 3488: move retry 1
+[09/11/20 20:27:23] D2BS 3488: move retry 1
+[09/11/20 20:27:26] D2BS 3488: move retry 1
+[09/11/20 20:27:29] D2BS 3488: move retry 1
+[09/11/20 20:27:32] D2BS 3488: move retry 1
+[09/11/20 20:27:35] D2BS 3488: move retry 1
+[09/11/20 20:27:41] D2BS 3488: move retry 1
+[09/11/20 20:27:43] D2BS 3488: move retry 1
+[09/11/20 20:27:50] D2BS 3488: ÿc7Picked up ÿc471 Gold
+[09/11/20 20:27:59] D2BS 3488: move retry 1
+[09/11/20 20:28:01] D2BS 3488: move retry 1
+[09/11/20 20:28:03] D2BS 3488: ÿc7Picked up ÿc436 Gold
+[09/11/20 20:28:05] D2BS 3488: move retry 1
+[09/11/20 20:28:18] D2BS 3488: ÿc7Picked up ÿc471 Gold
+[09/11/20 20:28:26] D2BS 3488: ÿc7Picked up ÿc430 Gold
+[09/11/20 20:28:53] D2BS 3488: move retry 1
+[09/11/20 20:29:01] D2BS 3488: move retry 1
+[09/11/20 20:29:10] D2BS 3488: ÿc7Picked up ÿc426 Gold
+[09/11/20 20:29:18] D2BS 3488: ÿc1Skipping Burning Dead 83 16
+[09/11/20 20:29:34] D2BS 3488: move retry 1
+[09/11/20 20:29:39] D2BS 3488: move retry 1
+[09/11/20 20:29:47] D2BS 3488: move retry 1
+[09/11/20 20:29:58] D2BS 3488: move retry 1
+[09/11/20 20:30:02] D2BS 3488: move retry 1
+[09/11/20 20:30:09] D2BS 3488: move retry 1
+[09/11/20 20:30:17] D2BS 3488: move retry 1
+[09/11/20 20:30:20] D2BS 3488: move retry 1
+[09/11/20 20:32:00] D2BS 3488: move retry 1
+[09/11/20 20:32:11] D2BS 3488: move retry 1
+[09/11/20 20:32:14] D2BS 3488: ÿc7Picked up ÿc427 Gold
+[09/11/20 20:32:17] D2BS 3488: ÿc7Picked up ÿc460 Gold
+[09/11/20 20:32:57] D2BS 3488: 48,49
+[09/11/20 20:32:59] D2BS 3488: move retry 1
+[09/11/20 20:33:02] D2BS 3488: move retry 2
+[09/11/20 20:33:10] D2BS 3488: ÿc7Picked up ÿc437 Gold
+[09/11/20 20:33:14] D2BS 3488: ÿc7Picked up ÿc452 Gold
+[09/11/20 20:33:26] D2BS 3488: move retry 1
+[09/11/20 20:33:36] D2BS 3488: ÿc7Picked up ÿc466 Gold
+[09/11/20 20:33:53] D2BS 3488: ÿc7Picked up ÿc0ÿc4Right Click to learn skill of your choice ÿc0(ilvl 1) (LateGame.nip #17)
+[09/11/20 20:33:53] D2BS 3488: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/11/20 20:33:53] D2BS 3488: move retry 1
+[09/11/20 20:33:54] D2BS 3488: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/11/20 20:34:16] D2BS 3488: initNPC: heal
+[09/11/20 20:34:29] D2BS 3488: initNPC: buyPotions
+[09/11/20 20:34:41] D2BS 3488: Successfully placed ÿc4Right Click to learn skill of your choice at X: 2 Y: 0
+[09/11/20 20:35:19] D2BS 3488: initNPC: heal
+[09/11/20 20:36:20] D2BS 3488: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/11/20 20:36:33] D2BS 3488: ÿc7Picked up ÿc459 Gold
+[09/11/20 20:36:35] D2BS 3488: move retry 1
+[09/11/20 20:36:55] D2BS 3488: ÿc1Skipping Spear Cat 262 16
+[09/11/20 20:37:03] D2BS 3488: ÿc1Skipping Spear Cat 262 16
+[09/11/20 20:37:16] D2BS 3488: ÿc1Skipping Spear Cat 268 16
+[09/11/20 20:37:37] D2BS 3488: ÿc1Skipping Spear Cat 268 16
+[09/11/20 20:37:44] D2BS 3488: ÿc1Skipping Spear Cat 262 16
+[09/11/20 20:37:45] D2BS 3488: ÿc7Picked up ÿc437 Gold
+[09/11/20 20:38:08] D2BS 3488: move retry 1
+[09/11/20 20:38:41] D2BS 3488: ÿc7Picked up ÿc422 Gold
+[09/11/20 20:38:41] D2BS 3488: ÿc7Picked up ÿc422 Gold
+[09/11/20 20:38:42] D2BS 3488: ÿc7Picked up ÿc452 Gold
+[09/11/20 20:38:42] D2BS 3488: ÿc7Picked up ÿc445 Gold
+[09/11/20 20:38:42] D2BS 3488: ÿc7Picked up ÿc443 Gold
+[09/11/20 20:38:46] D2BS 3488: ÿc7Picked up ÿc428 Gold
+[09/11/20 20:38:53] D2BS 3488: move retry 1
+[09/11/20 20:39:18] D2BS 3488: ÿc7Picked up ÿc460 Gold
+[09/11/20 20:39:19] D2BS 3488: move retry 1
+[09/11/20 20:39:20] D2BS 3488: move retry 2
+[09/11/20 20:39:25] D2BS 3488: move retry 1
+[09/11/20 20:39:27] D2BS 3488: move retry 1
+[09/11/20 20:39:28] D2BS 3488: move retry 2
+[09/11/20 20:39:29] D2BS 3488: move retry 3
+[09/11/20 20:39:30] D2BS 3488: move retry 1
+[09/11/20 20:39:36] D2BS 3488: ÿc7Picked up ÿc462 Gold
+[09/11/20 20:39:42] D2BS 3488: move retry 1
+[09/11/20 20:39:53] D2BS 3488: initNPC: heal
+[09/11/20 20:39:59] D2BS 3488: move retry 1
+[09/11/20 20:40:01] D2BS 3488: initNPC: buyPotions
+[09/11/20 20:40:11] D2BS 3488: move retry 1
+[09/11/20 20:40:42] D2BS 3488: ÿc7Picked up ÿc468 Gold
+[09/11/20 20:42:28] D2BS 3488: move retry 1
+[09/11/20 20:42:42] D2BS 3488: move retry 1
+[09/11/20 20:43:10] D2BS 3488: ÿc7Picked up ÿc456 Gold
+[09/11/20 20:43:16] D2BS 3488: move retry 1
+[09/11/20 20:43:18] D2BS 3488: move retry 1
+[09/11/20 20:43:28] D2BS 3488: move retry 1
+[09/11/20 20:44:20] D2BS 3488: move retry 1
+[09/11/20 20:45:12] D2BS 3488: move retry 1
+[09/11/20 20:46:13] D2BS 3488: move retry 1
+[09/11/20 20:46:18] D2BS 3488: move retry 1
+[09/11/20 20:47:59] D2BS 3488: 42,56
+[09/11/20 20:48:01] D2BS 3488: move retry 1
+[09/11/20 20:48:04] D2BS 3488: move retry 2
+[09/11/20 20:48:13] D2BS 3488: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/11/20 20:48:19] D2BS 3488: move retry 1
+[09/11/20 20:48:22] D2BS 3488: move retry 1
+[09/11/20 20:48:24] D2BS 3488: move retry 1
+[09/11/20 20:48:37] D2BS 3488: move retry 1
+[09/11/20 20:48:43] D2BS 3488: move retry 1
+[09/11/20 20:48:49] D2BS 3488: move retry 1
+[09/11/20 20:48:50] D2BS 3488: move retry 1
+[09/11/20 20:49:02] D2BS 3488: ÿc7Picked up ÿc435 Gold
+[09/11/20 20:49:02] D2BS 3488: ÿc7Picked up ÿc413 Gold
+[09/11/20 20:49:02] D2BS 3488: ÿc7Picked up ÿc414 Gold
+[09/11/20 20:49:02] D2BS 3488: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/11/20 20:49:09] D2BS 3488: ÿc7Picked up ÿc428 Gold
+[09/11/20 20:49:10] D2BS 3488: ÿc7Picked up ÿc46 Gold
+[09/11/20 20:49:10] D2BS 3488: ÿc7Picked up ÿc417 Gold
+[09/11/20 20:49:11] D2BS 3488: ÿc7Picked up ÿc422 Gold
+[09/11/20 20:49:17] D2BS 3488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 20:49:31] D2BS 3488: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/11/20 20:50:05] D2BS 3488: move retry 1
+[09/11/20 20:50:07] D2BS 3488: move retry 1
+[09/11/20 20:50:11] D2BS 3488: move retry 1
+[09/11/20 20:50:15] D2BS 3488: move retry 1
+[09/11/20 20:50:15] D2BS 3488: ÿc7Picked up ÿc415 Gold
+[09/11/20 20:50:19] D2BS 3488: move retry 1
+[09/11/20 20:50:22] D2BS 3488: move retry 1
+[09/11/20 20:50:25] D2BS 3488: move retry 1
+[09/11/20 20:50:43] D2BS 3488: ÿc1Skipping Hollow One 447 16
+[09/11/20 20:51:06] D2BS 3488: move retry 1
+[09/11/20 20:51:35] D2BS 3488: ÿc7Picked up ÿc411 Gold
+[09/11/20 20:51:36] D2BS 3488: ÿc7Picked up ÿc457 Gold
+[09/11/20 20:51:37] D2BS 3488: move retry 1
+[09/11/20 20:51:42] D2BS 3488: move retry 1
+[09/11/20 20:51:56] D2BS 3488: move retry 1
+[09/11/20 20:52:01] D2BS 3488: move retry 1
+[09/11/20 20:52:10] D2BS 3488: move retry 1
+[09/11/20 20:52:14] D2BS 3488: move retry 1
+[09/11/20 20:52:17] D2BS 3488: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/11/20 20:52:34] D2BS 3488: move retry 1
+[09/11/20 20:52:45] D2BS 3488: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/11/20 20:53:18] D2BS 3488: 56,57
+[09/11/20 20:53:20] D2BS 3488: move retry 1
+[09/11/20 20:53:23] D2BS 3488: move retry 2
+[09/11/20 20:53:27] D2BS 3488: move retry 3
+[09/11/20 20:53:31] D2BS 3488: 56,57
+[09/11/20 20:53:33] D2BS 3488: move retry 1
+[09/11/20 20:53:36] D2BS 3488: move retry 2
+[09/11/20 20:53:39] D2BS 3488: move retry 3
+[09/11/20 20:53:42] D2BS 3488: 56,57
+[09/11/20 20:53:45] D2BS 3488: move retry 1
+[09/11/20 20:53:48] D2BS 3488: move retry 2
+[09/11/20 20:53:51] D2BS 3488: move retry 3
+[09/11/20 20:53:55] D2BS 3488: 56,57
+[09/11/20 20:53:57] D2BS 3488: move retry 1
+[09/11/20 20:54:01] D2BS 3488: move retry 2
+[09/11/20 20:54:03] D2BS 3488: move retry 3
+[09/11/20 20:54:07] D2BS 3488: 56,57
+[09/11/20 20:54:09] D2BS 3488: move retry 1
+[09/11/20 20:54:12] D2BS 3488: move retry 2
+[09/11/20 20:54:17] D2BS 3488: move retry 3
+[09/11/20 20:54:20] D2BS 3488: 56,57
+[09/11/20 20:54:22] D2BS 3488: move retry 1
+[09/11/20 20:54:25] D2BS 3488: move retry 2
+[09/11/20 20:54:28] D2BS 3488: move retry 3
+[09/11/20 20:54:32] D2BS 3488: 56,57
+[09/11/20 20:54:48] D2BS 3488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/11/20 20:55:07] D2BS 3488: move retry 1
+[09/11/20 20:55:14] D2BS 3488: ÿc1Skipping Returned 586 16
+[09/11/20 20:55:14] D2BS 3488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 20:55:14] D2BS 3488: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/11/20 20:55:14] D2BS 3488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/11/20 20:55:35] D2BS 3488: AutoBuild: Stat points: 5      Skill points: 2
+[09/11/20 20:55:35] D2BS 3488: AutoBuild: Level up detected ( 20 --> 21 )
+[09/11/20 20:55:35] D2BS 3488: AutoBuild: useSkillPoint(): Inferno (41)
+[09/11/20 20:55:35] D2BS 3488: AutoBuild: Skill (1/1) Increased Inferno (41) by one (level:  1)
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: useStatPoint(0): Strength
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: Stat (1/5) Increased Strength from 29 to 30
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: useStatPoint(1): Energy
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: Stat (2/5) Increased Energy from 73 to 74
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: useStatPoint(1): Energy
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: Stat (3/5) Increased Energy from 74 to 75
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: useStatPoint(3): Vitality
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: Stat (4/5) Increased Vitality from 48 to 49
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: useStatPoint(3): Vitality
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[09/11/20 20:55:36] D2BS 3488: Updating Config from level 20 to 21
+[09/11/20 20:55:36] D2BS 3488: Updating Config from level 20 to 21
+[09/11/20 20:55:36] D2BS 3488: Updating Config from level 20 to 21
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: Updating Config from level 20 to 21
+[09/11/20 20:55:36] D2BS 3488: AutoBuild: Incrementing cached character level to 21
+[09/11/20 20:55:40] D2BS 3488: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/11/20 20:55:40] D2BS 3488: ÿc7Picked up ÿc4360 Gold
+[09/11/20 20:55:40] D2BS 3488: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/11/20 20:55:40] D2BS 3488: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/11/20 20:55:40] D2BS 3488: ÿc7Picked up ÿc3Sash ÿc0(ilvl 17) (Meteor.xpac.nip #89)
+[09/11/20 20:55:40] D2BS 3488: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/11/20 20:55:40] D2BS 3488: ÿc7Picked up ÿc495 Gold
+[09/11/20 20:55:43] D2BS 3488: ÿc7Picked up ÿc423 Gold
+[09/11/20 20:55:46] D2BS 3488: move retry 1
+[09/11/20 20:55:54] D2BS 3488: move retry 2
+[09/11/20 20:57:53] D2BS 3488: move retry 1
+[09/11/20 20:58:08] D2BS 3488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 20:58:17] D2BS 3488: move retry 1
+[09/11/20 20:58:27] D2BS 3488: move retry 1
+[09/11/20 20:58:55] D2BS 3488: ÿc7Picked up ÿc460 Gold
+[09/11/20 20:59:29] D2BS 3488: move retry 1
+[09/11/20 20:59:38] D2BS 3488: 57,60
+[09/11/20 20:59:55] D2BS 3488: ÿc7Picked up ÿc418 Gold
+[09/11/20 20:59:55] D2BS 3488: ÿc7Picked up ÿc426 Gold
+[09/11/20 20:59:57] D2BS 3488: move retry 1
+[09/11/20 20:59:58] D2BS 3488: ÿc7Picked up ÿc421 Gold
+[09/11/20 21:00:02] D2BS 3488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 21:00:11] D2BS 3488: move retry 1
+[09/11/20 21:00:12] D2BS 3488: ÿc7Picked up ÿc413 Gold
+[09/11/20 21:00:28] D2BS 3488: move retry 1
+[09/11/20 21:00:38] D2BS 3488: 40
+[09/11/20 21:00:51] D2BS 3488: initNPC: heal
+[09/11/20 21:00:59] D2BS 3488: initNPC: identify
+[09/11/20 21:01:09] D2BS 3488: ÿc4MiniShopBotÿc0: Scanning 72 items.
+[09/11/20 21:01:10] D2BS 3488: initNPC: buyPotions
+[09/11/20 21:01:15] D2BS 3488: move retry 1
+[09/11/20 21:01:39] D2BS 3488: 42
+[09/11/20 21:02:39] D2BS 3488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/11/20 21:02:40] D2BS 3488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/11/20 21:03:03] D2BS 3488: ÿc7Picked up ÿc479 Gold
+[09/11/20 21:03:16] D2BS 3488: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #20)
+[09/11/20 21:03:22] D2BS 3488: ÿc7Picked up ÿc460 Gold
+[09/11/20 21:03:36] D2BS 3488: move retry 1
+[09/11/20 21:05:22] D2BS 3488: ÿc7Picked up ÿc453 Gold
+[09/11/20 21:05:24] D2BS 3488: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #20)
+[09/11/20 21:05:46] D2BS 3488: ÿc7Picked up ÿc417 Gold
+[09/11/20 21:05:47] D2BS 3488: move retry 1
+[09/11/20 21:06:01] D2BS 3488: move retry 1
+[09/11/20 21:06:10] D2BS 3488: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/11/20 21:06:22] D2BS 3488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/11/20 21:06:46] D2BS 3488: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/11/20 21:06:46] D2BS 3488: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #20)
+[09/11/20 21:06:59] D2BS 3488: ÿc7Picked up ÿc428 Gold
+[09/11/20 21:07:09] D2BS 3488: ÿc7Picked up ÿc450 Gold
+[09/11/20 21:07:30] D2BS 3488: move retry 1
+[09/11/20 21:07:56] D2BS 3488: move retry 1
+[09/11/20 21:07:58] D2BS 3488: ÿc7Picked up ÿc431 Gold
+[09/11/20 21:08:28] D2BS 3488: move retry 1
+[09/11/20 21:08:30] D2BS 3488: move retry 1
+[09/11/20 21:08:36] D2BS 3488: ÿc7Picked up ÿc422 Gold
+[09/11/20 21:08:44] D2BS 3488: move retry 1
+[09/11/20 21:08:56] D2BS 3488: move retry 1
+[09/11/20 21:09:09] D2BS 3488: move retry 1
+[09/11/20 21:09:21] D2BS 3488: move retry 1
+[09/11/20 21:09:43] D2BS 3488: move retry 1
+[09/11/20 21:10:04] D2BS 3488: move retry 1
+[09/11/20 21:10:10] D2BS 3488: move retry 1
+[09/11/20 21:10:11] D2BS 3488: move retry 1
+[09/11/20 21:10:32] D2BS 3488: move retry 1
+[09/11/20 21:10:53] D2BS 3488: move retry 1
+[09/11/20 21:13:36] D2BS 3488: move retry 1
+[09/11/20 21:13:37] D2BS 3488: move retry 2
+[09/11/20 21:13:54] D2BS 3488: 43,62
+[09/11/20 21:14:01] D2BS 3488: move retry 1
+[09/11/20 21:14:06] D2BS 3488: move retry 2
+[09/11/20 21:14:09] D2BS 3488: move retry 3
+[09/11/20 21:14:23] D2BS 3488: 43,62
+[09/11/20 21:14:26] D2BS 3488: move retry 1
+[09/11/20 21:14:29] D2BS 3488: move retry 2
+[09/11/20 21:14:32] D2BS 3488: move retry 3
+[09/11/20 21:14:39] D2BS 3488: 43,62
+[09/11/20 21:14:42] D2BS 3488: move retry 1
+[09/11/20 21:14:45] D2BS 3488: move retry 2
+[09/11/20 21:14:48] D2BS 3488: move retry 3
+[09/11/20 21:14:52] D2BS 3488: 43,62
+[09/11/20 21:14:55] D2BS 3488: move retry 1
+[09/11/20 21:14:59] D2BS 3488: move retry 2
+[09/11/20 21:15:02] D2BS 3488: move retry 3
+[09/11/20 21:15:08] D2BS 3488: 43,62
+[09/11/20 21:15:12] D2BS 3488: move retry 1
+[09/11/20 21:15:14] D2BS 3488: move retry 2
+[09/11/20 21:15:17] D2BS 3488: move retry 3
+[09/11/20 21:15:24] D2BS 3488: 43,62
+[09/11/20 21:15:27] D2BS 3488: move retry 1
+[09/11/20 21:15:30] D2BS 3488: move retry 2
+[09/11/20 21:15:33] D2BS 3488: move retry 3
+[09/11/20 21:15:40] D2BS 3488: 43,62
+[09/11/20 21:15:43] D2BS 3488: move retry 1
+[09/11/20 21:15:46] D2BS 3488: move retry 2
+[09/11/20 21:15:49] D2BS 3488: move retry 3
+[09/11/20 21:15:56] D2BS 3488: 43,62
+[09/11/20 21:16:00] D2BS 3488: move retry 1
+[09/11/20 21:16:03] D2BS 3488: move retry 2
+[09/11/20 21:16:06] D2BS 3488: move retry 3
+[09/11/20 21:16:12] D2BS 3488: 43,62
+[09/11/20 21:16:15] D2BS 3488: move retry 1
+[09/11/20 21:16:18] D2BS 3488: move retry 2
+[09/11/20 21:16:21] D2BS 3488: move retry 3
+[09/11/20 21:16:28] D2BS 3488: 43,62
+[09/11/20 21:16:31] D2BS 3488: move retry 1
+[09/11/20 21:16:34] D2BS 3488: move retry 2
+[09/11/20 21:16:37] D2BS 3488: move retry 3
+[09/11/20 21:16:44] D2BS 3488: 43,62
+[09/11/20 21:16:47] D2BS 3488: move retry 1
+[09/11/20 21:16:50] D2BS 3488: move retry 2
+[09/11/20 21:16:53] D2BS 3488: move retry 3
+[09/11/20 21:16:59] D2BS 3488: 43,62
+[09/11/20 21:17:03] D2BS 3488: move retry 1
+[09/11/20 21:17:06] D2BS 3488: move retry 2
+[09/11/20 21:17:09] D2BS 3488: move retry 3
+[09/11/20 21:17:13] D2BS 3488: 43,62
+[09/11/20 21:17:17] D2BS 3488: move retry 1
+[09/11/20 21:17:20] D2BS 3488: move retry 2
+[09/11/20 21:17:23] D2BS 3488: move retry 3
+[09/11/20 21:17:30] D2BS 3488: 43,62
+[09/11/20 21:17:33] D2BS 3488: move retry 1
+[09/11/20 21:17:36] D2BS 3488: move retry 2
+[09/11/20 21:17:39] D2BS 3488: move retry 3
