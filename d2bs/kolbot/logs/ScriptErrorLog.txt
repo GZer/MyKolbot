@@ -28,3 +28,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:826
 [2020/09/13 17:13:06] <Hammerdin> Error in LevelFollower (town.js line 2209): Town.goToTown: Failed to take TP
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:275, @levelfollower.js:107, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2209
+[2020/09/13 18:04:25] <FireSorc> Error in TownChicken.js (precast.js line 464): unit.getParent(...) is undefined
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2249, Town.doChores@town.js:89, Town.clearInventory@town.js:1860, Town.checkQuestItems@town.js:168, Pather.journeyTo@pather.js:1406, @precast.js:170, @precast.js:464

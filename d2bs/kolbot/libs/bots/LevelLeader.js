@@ -6,10 +6,10 @@
 
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
-	var MercId=[],TeleSorcs=[],AreasToSkim=[47,54,56,76,77,78,107,110,115,117];
+	var MercId=[],TeleSorcs=[],AreasToSkim=[47,54,56,46,76,77,78,107,110,115,117];
 	var LevelingAreas=[[2,8,3,4,5,6,27,29,32,34,35,36],
 	[47,48,42,56,57,43,44,52,54,46],
-	[76,77,78,79,80,81,82,83,100,101],
+	[76,77,78,79,80,81,82,100,101],
 	[104,105,106,107],
 	[110,111,112,113,115,121,122,123,117,118,128,129,130]];	
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
@@ -285,7 +285,7 @@ function LevelLeader(){
 				this.getQuestItem(554);
 				this.logProgress(me.getItem(554),"Khalim Heart");
 			break;
-			case 83://Khalim Flail
+			case 82://Khalim Flail
 				Pather.journeyTo(83);
 				while(true){
 					if(Pather.getWP(83,true)){
@@ -994,6 +994,7 @@ function LevelLeader(){
 				}catch(err){
 					print("Failed to make portal");}
 				if(AreasToSkim.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
+					say("Skim Clear");
 					Attack.clearLevel(0xF);
 				}else{
 					Attack.clearLevel(0);
@@ -1003,6 +1004,6 @@ function LevelLeader(){
 		}
 		this.logProgress("Completed","Act "+(ActNumber+1));
 	}
-	this.finalCheck();	
+	this.finalCheck();
 	return true;
 }
