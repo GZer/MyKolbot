@@ -38,6 +38,8 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(2,3),"BloodRaven");
 			break;
 			case 5://Tristram
+				Pather.useWaypoint(5);
+				Pather.makePortal();
 				if(!me.getQuest(4,4)&& !me.getItem(525)){
 					if(!me.getItem(524)){
 						Pather.moveToPreset(5,2,30,2,2,true,true);

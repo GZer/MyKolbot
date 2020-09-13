@@ -8,3 +8,7 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:305, @levelfollower.js:115, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1045
 [2020/09/13 14:25:01] <FireSorc> Error in LevelFollower (levelfollower.js line 85): this.isImportantQuest is not a function
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:297, @levelfollower.js:85
+[2020/09/13 15:15:26] <Singer> Error in LevelLeader (pather.js line 570): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:831, @levelleader.js:43, Pather.moveToPreset@pather.js:570
+[2020/09/13 15:16:37] <Singer> Error in LevelLeader (pather.js line 570): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:831, @levelleader.js:43, Pather.moveToPreset@pather.js:570

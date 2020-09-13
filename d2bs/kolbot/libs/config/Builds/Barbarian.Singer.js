@@ -59,7 +59,6 @@ var AutoBuildTemplate={
 				Config.PickRange=30;
 				Config.MaxGameTime=3600;//Only run for an hour in case of failure
 				Config.BossPriority=true;
-				//Config.Leader="PapaBear";
 				Scripts.LevelLeader=true;
 				Scripts.LevelFollower=false;
 			}

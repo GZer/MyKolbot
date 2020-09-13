@@ -5,12 +5,11 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhereIsLeader,MercId=[],ImportantQuest=false;
+	var LeaderUnit,WhereIsLeader,MercId=[];
 		
 	this.ChangeAct = function(DestinationAct){
 		var NPC,preArea = me.area,TownWaypoints = [0,40,75,103,109];
 		if(Pather.accessToAct(DestinationAct)){
-			// say("Using Waypoint "+TownWaypoints[DestinationAct-1]+" to change to Act "+DestinationAct);
 			try{
 				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
 			}catch(err){
@@ -82,8 +81,6 @@ function LevelFollower(){
 				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
 			}
 			
-			//this.ImportantQuestCheck(LeaderArea);
-			
 			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
 				this.teleportToLocation(me.area);
 			}
@@ -125,31 +122,6 @@ function LevelFollower(){
 			delay(1500);
 		}
 		return true;
-	};
-	
-	// this.ImportantQuestCheck = function(LeaderArea){
-		// var QuestAreas=[37,73,74,83,102,108,120],i;
-		// for(i = 0; i < QuestAreas.length; i++){
-			// if(LeaderArea == QuestAreas[i]){
-				// say("Important Quest");
-				// ImportantQuest=true;
-				// // var script=getScript("tools/townchicken.js");
-				// // if (script && script.running) {
-					// // script.pause();
-					// // Config.LifeChicken=0;
-					// // Config.TownHP=40;
-					// // Config.UseHP=85;
-					// // script.resume();
-				// // }
-			// }else{
-				// ImportantQuest=false;
-			// }
-		// }
-	// };	
-	
-	this.restartScript = function(){
-
-		return false;
 	};
 	
 	this.talkToNPC = function(NPCName){
@@ -253,7 +225,7 @@ function LevelFollower(){
 				if(me.diff != MyMercDiff){
 					return true;
 				}
-				delay(2500);
+				delay(rand(500,5000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
 					return true;
@@ -293,26 +265,20 @@ function LevelFollower(){
 
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
-			// if(ImportantQuest && me.hp < me.hpmax * .5){									//If low hp and its a quest heal in town
-				// say("IN DANGER");
-				// Town.doChores();
-				// Pather.usePortal(null,me.name);
-			// }
 			if(getDistance(me,LeaderUnit)>5){
 				Pather.teleport = false;
 				if(me.inTown){
 					Town.move("portalspot");
 				}else{
-					//say(Config.LifeChicken+" "+Config.TownHP+" "+Config.UseHP);
 					Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);
 					Attack.clear(20);
 				}
-				delay(500);
 			}
+			delay(500);
 		}else{
 			this.goFindLeader(WhereIsLeader.area);
-			delay(1000);
 		}
+		delay(1000);
 	}
 	return true;
 }
