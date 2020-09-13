@@ -2438,3 +2438,250 @@
 [09/13/20 15:25:27] D2BS 21888: move retry 1
 [09/13/20 15:25:33] D2BS 21888: ÿc7Picked up ÿc3Spiked Club ÿc0(ilvl 8) (Singer.xpac.nip #2)
 [09/13/20 15:25:38] D2BS 21888: ÿc7Picked up ÿc0ÿc4Scroll of Inifuss ÿc0(ilvl 1)
+[09/13/20 15:27:25] D2BS 21888: Script default.dbj ended
+[09/13/20 15:27:25] D2BS 21888: Script tools\autobuildthread.js ended
+[09/13/20 15:27:25] D2BS 21888: Script tools\heartbeat.js ended
+[09/13/20 15:27:25] D2BS 21888: Script tools\party.js ended
+[09/13/20 15:27:25] D2BS 21888: Script tools\toolsthread.js ended
+[09/13/20 15:27:25] D2BS 21888: Script tools\townchicken.js ended
+[09/13/20 15:27:39] D2BS 21888: D2BS Shutdown complete.
+[09/13/20 15:27:40] D2BS 22396: D2BS Engine startup complete. 1.6.4U
+[09/13/20 15:27:40] D2BS 22396: Singer
+[09/13/20 15:27:40] D2BS 22396: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/13/20 15:27:40] D2BS 22396: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/13/20 15:27:40] D2BS 22396: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/13/20 15:27:40] D2BS 22396: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/13/20 15:27:40] D2BS 22396: ÿc2D2BSÿc0 :: Started Console Script
+[09/13/20 15:27:42] D2BS 22396: Heartbeat loaded
+[09/13/20 15:27:46] D2BS 22396: 0
+[09/13/20 15:27:47] D2BS 22396: 0
+[09/13/20 15:27:48] D2BS 22396: 0
+[09/13/20 15:27:49] D2BS 22396: 39
+[09/13/20 15:27:51] D2BS 22396: 40
+[09/13/20 15:27:52] D2BS 22396: 12
+[09/13/20 15:27:56] D2BS 22396: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/13/20 15:27:56] D2BS 22396: ÿc2D2BSÿc0 :: default.dbj running.
+[09/13/20 15:27:56] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/13/20 15:27:56] D2BS 22396: Updating Config from level 0 to 18
+[09/13/20 15:27:56] D2BS 22396: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/13/20 15:27:56] D2BS 22396: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/13/20 15:27:56] D2BS 22396: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc216 ms
+[09/13/20 15:27:56] D2BS 22396: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/13/20 15:27:56] D2BS 22396: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[09/13/20 15:27:56] D2BS 22396: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/13/20 15:27:56] D2BS 22396: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/13/20 15:27:56] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/13/20 15:27:56] D2BS 22396: Updating Config from level 0 to 18
+[09/13/20 15:27:56] D2BS 22396: AutoBuild: Loaded helper thread
+[09/13/20 15:27:56] D2BS 22396: ÿc2Starting script: ÿc9LevelLeader
+[09/13/20 15:27:56] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/13/20 15:27:56] D2BS 22396: Updating Config from level 0 to 18
+[09/13/20 15:27:56] D2BS 22396: ÿc2Party thread loaded. Mode: Invite
+[09/13/20 15:27:56] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/13/20 15:27:56] D2BS 22396: Updating Config from level 0 to 18
+[09/13/20 15:27:56] D2BS 22396: ÿc3Start ToolsThread script
+[09/13/20 15:27:56] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/13/20 15:27:56] D2BS 22396: Updating Config from level 0 to 18
+[09/13/20 15:27:56] D2BS 22396: Updating Status
+[09/13/20 15:28:05] D2BS 22396: initNPC: identify
+[09/13/20 15:28:15] D2BS 22396: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[09/13/20 15:28:30] D2BS 22396: move retry 1
+[09/13/20 15:28:58] D2BS 22396: move retry 1
+[09/13/20 15:29:03] D2BS 22396: ÿc7Picked up ÿc430 Gold
+[09/13/20 15:29:04] D2BS 22396: ÿc7Picked up ÿc440 Gold
+[09/13/20 15:29:07] D2BS 22396: ÿc7Picked up ÿc418 Gold
+[09/13/20 15:29:07] D2BS 22396: ÿc7Picked up ÿc48 Gold
+[09/13/20 15:29:10] D2BS 22396: ÿc7Picked up ÿc3Club ÿc0(ilvl 7) (Singer.xpac.nip #2)
+[09/13/20 15:29:14] D2BS 22396: ÿc7Picked up ÿc412 Gold
+[09/13/20 15:29:15] D2BS 22396: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(12/20)
+[09/13/20 15:29:16] D2BS 22396: move retry 1
+[09/13/20 15:29:17] D2BS 22396: move retry 2
+[09/13/20 15:29:19] D2BS 22396: move retry 3
+[09/13/20 15:29:23] D2BS 22396: ÿc7Picked up ÿc416 Gold
+[09/13/20 15:29:23] D2BS 22396: ÿc7Picked up ÿc48 Gold
+[09/13/20 15:29:24] D2BS 22396: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[09/13/20 15:29:26] D2BS 22396: ÿc7Picked up ÿc410 Gold
+[09/13/20 15:29:27] D2BS 22396: ÿc7Picked up ÿc46 Gold
+[09/13/20 15:29:27] D2BS 22396: ÿc7Picked up ÿc412 Gold
+[09/13/20 15:29:27] D2BS 22396: ÿc7Picked up ÿc412 Gold
+[09/13/20 15:29:33] D2BS 22396: ÿc7Picked up ÿc43 Gold
+[09/13/20 15:29:54] D2BS 22396: ÿc7Picked up ÿc3Ring ÿc0(ilvl 8) (Singer.xpac.nip #95)
+[09/13/20 15:30:01] D2BS 22396: ÿc7Picked up ÿc416 Gold
+[09/13/20 15:30:01] D2BS 22396: ÿc7Picked up ÿc46 Gold
+[09/13/20 15:30:35] D2BS 22396: ÿc7Picked up ÿc424 Gold
+[09/13/20 15:30:38] D2BS 22396: move retry 1
+[09/13/20 15:30:40] D2BS 22396: move retry 2
+[09/13/20 15:30:57] D2BS 22396: ÿc7Picked up ÿc3Leather Armor ÿc0(ilvl 9) (Singer.xpac.nip #49)
+[09/13/20 15:31:22] D2BS 22396: initNPC: heal
+[09/13/20 15:31:34] D2BS 22396: initNPC: identify
+[09/13/20 15:31:40] D2BS 22396: initNPC: fillTome
+[09/13/20 15:31:41] D2BS 22396: ÿc4MiniShopBotÿc0: Scanning 57 items.
+[09/13/20 15:31:42] D2BS 22396: clearInventory sell Lizard's Ring 
+[09/13/20 15:31:42] D2BS 22396: Crimson Club 
+[09/13/20 15:31:44] D2BS 22396: initNPC: repair
+[09/13/20 15:31:45] D2BS 22396: move retry 1
+[09/13/20 15:32:36] D2BS 22396: move retry 1
+[09/13/20 15:33:04] D2BS 22396: ÿc7Picked up ÿc420 Gold
+[09/13/20 15:33:18] D2BS 22396: ÿc7Picked up ÿc416 Gold
+[09/13/20 15:33:57] D2BS 22396: 40
+[09/13/20 15:33:58] D2BS 22396: 40,47
+[09/13/20 15:34:41] D2BS 22396: move retry 1
+[09/13/20 15:35:15] D2BS 22396: ÿc7Picked up ÿc461 Gold
+[09/13/20 15:35:21] D2BS 22396: ÿc7Picked up ÿc470 Gold
+[09/13/20 15:35:24] D2BS 22396: ÿc7Picked up ÿc413 Gold
+[09/13/20 15:35:30] D2BS 22396: ÿc7Picked up ÿc470 Gold
+[09/13/20 15:35:56] D2BS 22396: ÿc7Picked up ÿc426 Gold
+[09/13/20 15:36:12] D2BS 22396: ÿc7Picked up ÿc467 Gold
+[09/13/20 15:36:12] D2BS 22396: ÿc7Picked up ÿc433 Gold
+[09/13/20 15:36:18] D2BS 22396: ÿc7Picked up ÿc3Ring ÿc0(ilvl 13) (Singer.xpac.nip #95)
+[09/13/20 15:36:20] D2BS 22396: move retry 1
+[09/13/20 15:36:35] D2BS 22396: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[09/13/20 15:36:36] D2BS 22396: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/13/20 15:36:37] D2BS 22396: move retry 1
+[09/13/20 15:36:43] D2BS 22396: move retry 1
+[09/13/20 15:36:44] D2BS 22396: move retry 2
+[09/13/20 15:36:48] D2BS 22396: ÿc7Picked up ÿc419 Gold
+[09/13/20 15:37:04] D2BS 22396: ÿc7Picked up ÿc421 Gold
+[09/13/20 15:37:13] D2BS 22396: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/13/20 15:37:54] D2BS 22396: ÿc7Picked up ÿc422 Gold
+[09/13/20 15:37:55] D2BS 22396: AutoBuild: Stat points: 5      Skill points: 3
+[09/13/20 15:37:55] D2BS 22396: AutoBuild: Level up detected ( 18 --> 19 )
+[09/13/20 15:37:55] D2BS 22396: AutoBuild: useSkillPoint(): Iron Skin (145)
+[09/13/20 15:37:55] D2BS 22396: AutoBuild: Skill (1/1) Increased Iron Skin (145) by one (level:  1)
+[09/13/20 15:37:55] D2BS 22396: AutoBuild: useStatPoint(0): Strength
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: Stat (1/5) Increased Strength from 47 to 48
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: useStatPoint(3): Vitality
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: Stat (2/5) Increased Vitality from 93 to 94
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: useStatPoint(3): Vitality
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: Stat (3/5) Increased Vitality from 94 to 95
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: useStatPoint(3): Vitality
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: Stat (4/5) Increased Vitality from 95 to 96
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: useStatPoint(3): Vitality
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: Stat (5/5) Increased Vitality from 96 to 97
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: Updating Config from level 18 to 19
+[09/13/20 15:37:56] D2BS 22396: Updating Config from level 18 to 19
+[09/13/20 15:37:56] D2BS 22396: Updating Config from level 18 to 19
+[09/13/20 15:37:56] D2BS 22396: Updating Config from level 18 to 19
+[09/13/20 15:37:56] D2BS 22396: Updating Config from level 18 to 19
+[09/13/20 15:37:56] D2BS 22396: AutoBuild: Incrementing cached character level to 19
+[09/13/20 15:38:02] D2BS 22396: move retry 1
+[09/13/20 15:38:03] D2BS 22396: move retry 2
+[09/13/20 15:38:06] D2BS 22396: move retry 3
+[09/13/20 15:38:08] D2BS 22396: move retry 1
+[09/13/20 15:38:10] D2BS 22396: move retry 1
+[09/13/20 15:38:13] D2BS 22396: move retry 1
+[09/13/20 15:38:15] D2BS 22396: move retry 2
+[09/13/20 15:38:18] D2BS 22396: move retry 3
+[09/13/20 15:38:57] D2BS 22396: ÿc7Picked up ÿc444 Gold
+[09/13/20 15:38:59] D2BS 22396: move retry 1
+[09/13/20 15:39:02] D2BS 22396: ÿc7Picked up ÿc434 Gold
+[09/13/20 15:39:04] D2BS 22396: ÿc7Picked up ÿc433 Gold
+[09/13/20 15:39:05] D2BS 22396: move retry 1
+[09/13/20 15:39:13] D2BS 22396: 47,48
+[09/13/20 15:40:28] D2BS 22396: move retry 1
+[09/13/20 15:40:30] D2BS 22396: move retry 2
+[09/13/20 15:40:34] D2BS 22396: move retry 1
+[09/13/20 15:40:36] D2BS 22396: move retry 2
+[09/13/20 15:40:39] D2BS 22396: move retry 3
+[09/13/20 15:41:01] D2BS 22396: ÿc7Picked up ÿc441 Gold
+[09/13/20 15:41:34] D2BS 22396: ÿc7Picked up ÿc441 Gold
+[09/13/20 15:42:14] D2BS 22396: ÿc7Picked up ÿc442 Gold
+[09/13/20 15:42:16] D2BS 22396: move retry 1
+[09/13/20 15:43:38] D2BS 22396: ÿc1Skipping Burning Dead 350 16
+[09/13/20 15:43:40] D2BS 22396: move retry 1
+[09/13/20 15:43:47] D2BS 22396: move retry 1
+[09/13/20 15:43:49] D2BS 22396: move retry 1
+[09/13/20 15:43:51] D2BS 22396: move retry 1
+[09/13/20 15:43:52] D2BS 22396: move retry 1
+[09/13/20 15:43:54] D2BS 22396: move retry 1
+[09/13/20 15:43:55] D2BS 22396: move retry 1
+[09/13/20 15:43:57] D2BS 22396: move retry 2
+[09/13/20 15:44:00] D2BS 22396: move retry 3
+[09/13/20 15:44:01] D2BS 22396: 48
+[09/13/20 15:44:03] D2BS 22396: move retry 1
+[09/13/20 15:44:05] D2BS 22396: move retry 2
+[09/13/20 15:44:08] D2BS 22396: move retry 3
+[09/13/20 15:44:09] D2BS 22396: ÿc1Error in ÿc0LevelLeader ÿc1(pather.js line ÿc1820): ÿc1useUnit: Unit not found. ID: 23
+[09/13/20 15:44:09] D2BS 22396: ÿc8Run duration ÿc2974.079
+[09/13/20 15:44:10] D2BS 22396: Script tools\autobuildthread.js ended
+[09/13/20 15:44:10] D2BS 22396: Script tools\party.js ended
+[09/13/20 15:44:10] D2BS 22396: Script tools\townchicken.js ended
+[09/13/20 15:44:10] D2BS 22396: 12
+[09/13/20 15:44:13] D2BS 22396: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/13/20 15:44:13] D2BS 22396: ÿc2D2BSÿc0 :: default.dbj running.
+[09/13/20 15:44:13] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/13/20 15:44:13] D2BS 22396: Updating Config from level 0 to 19
+[09/13/20 15:44:13] D2BS 22396: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/13/20 15:44:13] D2BS 22396: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/13/20 15:44:14] D2BS 22396: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/13/20 15:44:14] D2BS 22396: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/13/20 15:44:14] D2BS 22396: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[09/13/20 15:44:14] D2BS 22396: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/13/20 15:44:14] D2BS 22396: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/13/20 15:44:14] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/13/20 15:44:14] D2BS 22396: Updating Config from level 0 to 19
+[09/13/20 15:44:14] D2BS 22396: AutoBuild: Loaded helper thread
+[09/13/20 15:44:14] D2BS 22396: ÿc2Starting script: ÿc9LevelLeader
+[09/13/20 15:44:14] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/13/20 15:44:14] D2BS 22396: Updating Config from level 0 to 19
+[09/13/20 15:44:14] D2BS 22396: ÿc2Party thread loaded. Mode: Invite
+[09/13/20 15:44:14] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/13/20 15:44:14] D2BS 22396: Updating Config from level 0 to 19
+[09/13/20 15:44:14] D2BS 22396: ÿc3Start ToolsThread script
+[09/13/20 15:44:14] D2BS 22396: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/13/20 15:44:14] D2BS 22396: Updating Config from level 0 to 19
+[09/13/20 15:44:34] D2BS 22396: initNPC: identify
+[09/13/20 15:44:48] D2BS 22396: ÿc4MiniShopBotÿc0: Scanning 58 items.
+[09/13/20 15:45:00] D2BS 22396: 48
+[09/13/20 15:45:41] D2BS 22396: ÿc7Picked up ÿc435 Gold
+[09/13/20 15:45:49] D2BS 22396: ÿc7Picked up ÿc476 Gold
+[09/13/20 15:46:23] D2BS 22396: initNPC: heal
+[09/13/20 15:46:30] D2BS 22396: initNPC: fillTome
+[09/13/20 15:46:31] D2BS 22396: move retry 1
+[09/13/20 15:46:38] D2BS 22396: initNPC: repair
+[09/13/20 15:46:47] D2BS 22396: ÿc1Pausing.
+[09/13/20 15:46:49] D2BS 22396: ÿc2Resuming.
+[09/13/20 15:47:11] D2BS 22396: ÿc1Skipping Sand Raider 59 16
+[09/13/20 15:47:25] D2BS 22396: ÿc1Skipping Burning Dead Archer 137 16
+[09/13/20 15:47:37] D2BS 22396: ÿc7Picked up ÿc421 Gold
+[09/13/20 15:47:38] D2BS 22396: ÿc7Picked up ÿc452 Gold
+[09/13/20 15:48:01] D2BS 22396: ÿc1Skipping Sand Raider 123 16
+[09/13/20 15:48:19] D2BS 22396: ÿc1Skipping Sand Raider 123 16
+[09/13/20 15:48:21] D2BS 22396: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/13/20 15:48:30] D2BS 22396: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/13/20 15:48:31] D2BS 22396: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/13/20 15:49:19] D2BS 22396: ÿc7Picked up ÿc447 Gold
+[09/13/20 15:49:19] D2BS 22396: ÿc7Picked up ÿc458 Gold
+[09/13/20 15:49:42] D2BS 22396: move retry 1
+[09/13/20 15:49:44] D2BS 22396: move retry 2
+[09/13/20 15:49:47] D2BS 22396: move retry 3
+[09/13/20 15:50:04] D2BS 22396: ÿc7Picked up ÿc417 Gold
+[09/13/20 15:50:09] D2BS 22396: ÿc7Picked up ÿc430 Gold
+[09/13/20 15:50:17] D2BS 22396: ÿc7Picked up ÿc442 Gold
+[09/13/20 15:50:18] D2BS 22396: ÿc7Picked up ÿc450 Gold
+[09/13/20 15:50:18] D2BS 22396: move retry 1
+[09/13/20 15:50:22] D2BS 22396: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/13/20 15:50:48] D2BS 22396: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/13/20 15:51:04] D2BS 22396: 48
+[09/13/20 15:51:43] D2BS 22396: move retry 1
+[09/13/20 15:51:44] D2BS 22396: move retry 2
+[09/13/20 15:51:48] D2BS 22396: move retry 3
+[09/13/20 15:51:49] D2BS 22396: move retry 1
+[09/13/20 15:51:53] D2BS 22396: move retry 2
+[09/13/20 15:51:58] D2BS 22396: move retry 3
+[09/13/20 15:52:00] D2BS 22396: Boss not found
+[09/13/20 15:52:16] D2BS 22396: 40,41,42
+[09/13/20 15:52:48] D2BS 22396: move retry 1
+[09/13/20 15:53:04] D2BS 22396: ÿc1Skipping Huntress 275 16
+[09/13/20 15:53:14] D2BS 22396: ÿc1Skipping Huntress 277 16
+[09/13/20 15:53:30] D2BS 22396: ÿc7Picked up ÿc460 Gold
+[09/13/20 15:53:30] D2BS 22396: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/13/20 15:53:30] D2BS 22396: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/13/20 15:53:30] D2BS 22396: ÿc7Picked up ÿc461 Gold
+[09/13/20 15:53:31] D2BS 22396: ÿc7Picked up ÿc469 Gold
+[09/13/20 15:53:31] D2BS 22396: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/13/20 15:53:31] D2BS 22396: ÿc7Picked up ÿc422 Gold
+[09/13/20 15:53:31] D2BS 22396: ÿc7Picked up ÿc454 Gold
+[09/13/20 15:53:33] D2BS 22396: ÿc7Picked up ÿc459 Gold
+[09/13/20 15:53:33] D2BS 22396: move retry 2
+[09/13/20 15:54:58] D2BS 22396: ÿc7Picked up ÿc448 Gold

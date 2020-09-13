@@ -474,7 +474,6 @@ function LevelLeader(){
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
 		if(Pather.accessToAct(DestinationAct)){
-			// say("Using Waypoint "+TownWaypoints[DestinationAct-1]+" to change to Act "+DestinationAct);
 			try{Pather.journeyTo(TownWaypoints[DestinationAct-1]);}catch(err){print("Failed using Waypoint to change acts")}
 			return true;
 		}
@@ -790,7 +789,6 @@ function LevelLeader(){
 	this.checkProgress=function(){
 		var i,UpToArea;
 		for(i=0; i < WaypointAreas.length; i++){
-			//say("GetWP "+WaypointAreas[i]+" "+getWaypoint(i));
 			if(getWaypoint(38)){UpToArea=129;}
 			else if(!getWaypoint(i)){
 				i--;

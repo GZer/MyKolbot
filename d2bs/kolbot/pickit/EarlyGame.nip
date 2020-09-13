@@ -8,7 +8,7 @@
 [Type] == Polearm && [Flag] == Ethereal && [Quality] == Superior # [Sockets] == 4 # [MaxQuantity] == 1
 
 //Leaf
-[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillHydra] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Stealth
 ([Name] == QuiltedArmor || [Name] == LeatherArmor || [Name] == HardLeatherArmor || [Name] == StuddedLeather || [Name] == RingMail || [Name] == BreastPlate || [Name] == LightPlate) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1

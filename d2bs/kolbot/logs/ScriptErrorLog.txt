@@ -12,3 +12,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:831, @levelleader.js:43, Pather.moveToPreset@pather.js:570
 [2020/09/13 15:16:37] <Singer> Error in LevelLeader (pather.js line 570): getPresetUnits failed, couldn't access the level!
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:831, @levelleader.js:43, Pather.moveToPreset@pather.js:570
+[2020/09/13 15:44:09] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:861, @levelleader.js:107, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
