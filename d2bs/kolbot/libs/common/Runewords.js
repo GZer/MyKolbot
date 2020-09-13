@@ -60,29 +60,29 @@ var Runeword = {
 	Wind: [638, 610], // Sur + El
 
 	// Don't use ladder-only on NL
-	Brand: /*me.ladder ?*/ [640, 637, 632, 634] : false, // Jah + Lo + Mal + Gul
-	Death: /*me.ladder ?*/ [624, 610, 635, 618, 634] : false, // Hel + El + Vex + Ort + Gul
-	Destruction: /*me.ladder ?*/ [635, 637, 639, 640, 627] : false, // Vex + Lo + Ber + Jah + Ko
-	Dragon: /*me.ladder ?*/ [638, 637, 621] : false, // Sur + Lo + Sol
-	Dream: /*me.ladder ?*/ [625, 640, 630] : false, // Io + Jah + Pul
-	Edge: /*me.ladder ?*/ [612, 616, 620] : false, // Tir + Tal + Amn
-	Faith: /*me.ladder ?*/ [636, 640, 629, 611] : false, // Ohm + Jah + Lem + Eld
-	Fortitude: /*me.ladder ?*/ [610, 621, 623, 637] : false, // El + Sol + Dol + Lo
-	Grief: /*me.ladder ?*/ [614, 612, 637, 632, 617] : false, // Eth + Tir + Lo + Mal + Ral
-	Harmony: /*me.ladder ?*/ [612, 615, 621, 627] : false, // Tir + Ith + Sol + Ko
-	Ice: /*me.ladder ?*/ [620, 622, 640, 637] : false, // Amn + Shael + Jah + Lo
-	"Infinity": /*me.ladder ?*/ [639, 632, 639, 633] : false, // Ber + Mal + Ber + Ist
-	Insight: /*me.ladder ?*/ [617, 612, 616, 621] : false, // Ral + Tir + Tal + Sol
-	LastWish: /*me.ladder ?*/ [640, 632, 640, 638, 640, 639] : false, // Jah + Mal + Jah + Sur + Jah + Ber
-	Lawbringer: /*me.ladder ?*/ [620, 629, 627] : false, // Amn + Lem + Ko
-	Oath: /*me.ladder ?*/ [622, 630, 632, 626] : false, // Shael + Pul + Mal + Lum
-	Obedience: /*me.ladder ?*/ [624, 627, 619, 614, 628] : false, // Hel + Ko + Thul + Eth + Fal
-	Phoenix: /*me.ladder ?*/ [635, 635, 637, 640] : false, // Vex + Vex + Lo + Jah
-	Pride: /*me.ladder ?*/ [641, 638, 625, 637] : false, // Cham + Sur + Io + Lo
-	Rift: /*me.ladder ?*/ [624, 627, 629, 634] : false, // Hel + Ko + Lem + Gul
-	Spirit: /*me.ladder ?*/ [616, 619, 618, 620] : false, // Tal + Thul + Ort + Amn
-	VoiceofReason: /*me.ladder ?*/ [629, 627, 610, 611] : false, // Lem + Ko + El + Eld
-	Wrath: /*me.ladder ?*/ [630, 626, 639, 632] : false, // Pul + Lum + Ber + Mal
+	Brand: me.ladder ? [640, 637, 632, 634]/* : false*/ : true, // Jah + Lo + Mal + Gul
+	Death: me.ladder ? [624, 610, 635, 618, 634]/* : false*/ : true, // Hel + El + Vex + Ort + Gul
+	Destruction: me.ladder ? [635, 637, 639, 640, 627]/* : false*/ : true, // Vex + Lo + Ber + Jah + Ko
+	Dragon: me.ladder ? [638, 637, 621]/* : false*/ : true, // Sur + Lo + Sol
+	Dream: me.ladder ? [625, 640, 630]/* : false*/ : true, // Io + Jah + Pul
+	Edge: me.ladder ? [612, 616, 620]/* : false*/ : true, // Tir + Tal + Amn
+	Faith: me.ladder ? [636, 640, 629, 611]/* : false*/ : true, // Ohm + Jah + Lem + Eld
+	Fortitude: me.ladder ? [610, 621, 623, 637]/* : false*/ : true, // El + Sol + Dol + Lo
+	Grief: me.ladder ? [614, 612, 637, 632, 617]/* : false*/ : true, // Eth + Tir + Lo + Mal + Ral
+	Harmony: me.ladder ? [612, 615, 621, 627]/* : false*/ : true, // Tir + Ith + Sol + Ko
+	Ice: me.ladder ? [620, 622, 640, 637]/* : false*/ : true, // Amn + Shael + Jah + Lo
+	"Infinity": me.ladder ? [639, 632, 639, 633]/* : false*/ : true, // Ber + Mal + Ber + Ist
+	Insight: me.ladder ? [617, 612, 616, 621]/* : false*/ : true, // Ral + Tir + Tal + Sol
+	LastWish: me.ladder ? [640, 632, 640, 638, 640, 639]/* : false*/ : true, // Jah + Mal + Jah + Sur + Jah + Ber
+	Lawbringer: me.ladder ? [620, 629, 627]/* : false*/ : true, // Amn + Lem + Ko
+	Oath: me.ladder ? [622, 630, 632, 626]/* : false*/ : true, // Shael + Pul + Mal + Lum
+	Obedience: me.ladder ? [624, 627, 619, 614, 628]/* : false*/ : true, // Hel + Ko + Thul + Eth + Fal
+	Phoenix: me.ladder ? [635, 635, 637, 640]/* : false*/ : true, // Vex + Vex + Lo + Jah
+	Pride: me.ladder ? [641, 638, 625, 637]/* : false*/ : true, // Cham + Sur + Io + Lo
+	Rift: me.ladder ? [624, 627, 629, 634]/* : false*/ : true, // Hel + Ko + Lem + Gul
+	Spirit: me.ladder ? [616, 619, 618, 620]/* : false*/ : true, // Tal + Thul + Ort + Amn
+	VoiceofReason: me.ladder ? [629, 627, 610, 611]/* : false*/ : true, // Lem + Ko + El + Eld
+	Wrath: me.ladder ? [630, 626, 639, 632]/* : false*/ : true, // Pul + Lum + Ber + Mal
 
 	// 1.11
 	Bone: [621, 631, 631], // Sol + Um + Um

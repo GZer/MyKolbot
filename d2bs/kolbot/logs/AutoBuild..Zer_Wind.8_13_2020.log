@@ -3,6 +3,11 @@ AutoBuild: Including build template config/builds/druid.tornado.js into tools\au
 AutoBuild: Loaded helper thread
 AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
 AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 1
 AutoBuild: Level up detected ( 1 --> 2 )
 AutoBuild: useSkillPoint(): Raven (221)
@@ -49,6 +54,11 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 36 to 37
 AutoBuild: Updating Config from level 3 to 4
 AutoBuild: Incrementing cached character level to 4
+AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 2
 AutoBuild: Level up detected ( 4 --> 5 )
 AutoBuild: useStatPoint(0): Strength
@@ -63,12 +73,12 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 40 to 41
 AutoBuild: Updating Config from level 4 to 5
 AutoBuild: Incrementing cached character level to 5
-AutoBuild: Stat points: 5      Skill points: 4
+AutoBuild: Stat points: 5      Skill points: 3
 AutoBuild: Level up detected ( 5 --> 6 )
 AutoBuild: useSkillPoint(): Oak Sage (226)
 AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  1)
 AutoBuild: useStatPoint(0): Strength
-AutoBuild: Attempt to spend point 1 in Strength may have failed!
+AutoBuild: Stat (1/5) Increased Strength from 19 to 20
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (2/5) Increased Vitality from 41 to 42
 AutoBuild: useStatPoint(3): Vitality
@@ -139,6 +149,11 @@ AutoBuild: Including build template config/builds/druid.tornado.js into tools\au
 AutoBuild: Loaded helper thread
 AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
 AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 3
 AutoBuild: Level up detected ( 9 --> 10 )
 AutoBuild: useSkillPoint(): Oak Sage (226)
@@ -164,13 +179,18 @@ AutoBuild: Stat (1/5) Increased Strength from 24 to 25
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (2/5) Increased Vitality from 61 to 62
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+AutoBuild: Stat (3/5) Increased Vitality from 62 to 63
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (4/5) Increased Vitality from 63 to 64
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 64 to 65
 AutoBuild: Updating Config from level 10 to 11
 AutoBuild: Incrementing cached character level to 11
+AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 3
 AutoBuild: Level up detected ( 11 --> 12 )
 AutoBuild: useSkillPoint(): Cyclone Armor (235)
@@ -235,18 +255,13 @@ AutoBuild: Stat (1/5) Increased Strength from 28 to 29
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (2/5) Increased Vitality from 77 to 78
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+AutoBuild: Stat (3/5) Increased Vitality from 78 to 79
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (4/5) Increased Vitality from 79 to 80
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 80 to 81
 AutoBuild: Updating Config from level 14 to 15
 AutoBuild: Incrementing cached character level to 15
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
 AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
 AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
 AutoBuild: Loaded helper thread
@@ -285,20 +300,15 @@ AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  12)
 AutoBuild: useStatPoint(0): Strength
 AutoBuild: Stat (1/5) Increased Strength from 30 to 31
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (2/5) Increased Vitality from 85 to 86
+AutoBuild: Attempt to spend point 2 in Vitality may have failed!
 AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (3/5) Increased Vitality from 86 to 87
+AutoBuild: Attempt to spend point 3 in Vitality may have failed!
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (4/5) Increased Vitality from 87 to 88
 AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 88 to 89
 AutoBuild: Updating Config from level 16 to 17
 AutoBuild: Incrementing cached character level to 17
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
 AutoBuild: Stat points: 5      Skill points: 2
 AutoBuild: Level up detected ( 17 --> 18 )
 AutoBuild: useSkillPoint(): Twister (240)
@@ -322,136 +332,3 @@ AutoBuild: Including build template config/builds/druid.tornado.js into tools\au
 AutoBuild: Loaded helper thread
 AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
 AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Stat points: 5      Skill points: 1
-AutoBuild: Level up detected ( 18 --> 19 )
-AutoBuild: useSkillPoint(): Oak Sage (226)
-AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  14)
-AutoBuild: useStatPoint(0): Strength
-AutoBuild: Stat (1/5) Increased Strength from 32 to 33
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Attempt to spend point 2 in Vitality may have failed!
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (3/5) Increased Vitality from 94 to 95
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (4/5) Increased Vitality from 95 to 96
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (5/5) Increased Vitality from 96 to 97
-AutoBuild: Updating Config from level 18 to 19
-AutoBuild: Incrementing cached character level to 19
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Stat points: 5      Skill points: 1
-AutoBuild: Level up detected ( 19 --> 20 )
-AutoBuild: useSkillPoint(): Oak Sage (226)
-AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  15)
-AutoBuild: useStatPoint(0): Strength
-AutoBuild: Stat (1/5) Increased Strength from 33 to 34
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (2/5) Increased Vitality from 97 to 98
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (3/5) Increased Vitality from 98 to 99
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (4/5) Increased Vitality from 99 to 100
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (5/5) Increased Vitality from 100 to 101
-AutoBuild: Updating Config from level 19 to 20
-AutoBuild: Incrementing cached character level to 20
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
-AutoBuild: Loaded helper thread
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
-AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
-AutoBuild: Stat points: 5      Skill points: 1
-AutoBuild: Level up detected ( 20 --> 21 )
-AutoBuild: useSkillPoint(): Oak Sage (226)
-AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  16)
-AutoBuild: useStatPoint(0): Strength
-AutoBuild: Stat (1/5) Increased Strength from 34 to 35
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (2/5) Increased Vitality from 101 to 102
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (3/5) Increased Vitality from 102 to 103
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (4/5) Increased Vitality from 103 to 104
-AutoBuild: useStatPoint(3): Vitality
-AutoBuild: Stat (5/5) Increased Vitality from 104 to 105
-AutoBuild: Updating Config from level 20 to 21
-AutoBuild: Incrementing cached character level to 21

@@ -81,13 +81,8 @@ function LevelFollower(){
 			if(LeaderAct != me.act){
 				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
 			}
-			if(this.isImportantQuest(LeaderArea)){											//Make sure we dont chicken on important quests
-				ImportantQuest=true;
-				Config.UseHP=85;
-			}else{
-				ImportantQuest=false;
-				Config.UseHP=60;
-			}
+			
+			//this.ImportantQuestCheck(LeaderArea);
 			
 			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
 				this.teleportToLocation(me.area);
@@ -132,16 +127,28 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.isImportantQuest = function(LeaderArea){
-		var QuestAreas=[37,73,74,83,102,108,120],i;
-		if(me.mode == 17){
-			me.revive();
-		}
-		for(i = 0; i < QuestAreas.length; i++){
-			if(LeaderArea == QuestAreas[i]){
-				return true;
-			}
-		}
+	// this.ImportantQuestCheck = function(LeaderArea){
+		// var QuestAreas=[37,73,74,83,102,108,120],i;
+		// for(i = 0; i < QuestAreas.length; i++){
+			// if(LeaderArea == QuestAreas[i]){
+				// say("Important Quest");
+				// ImportantQuest=true;
+				// // var script=getScript("tools/townchicken.js");
+				// // if (script && script.running) {
+					// // script.pause();
+					// // Config.LifeChicken=0;
+					// // Config.TownHP=40;
+					// // Config.UseHP=85;
+					// // script.resume();
+				// // }
+			// }else{
+				// ImportantQuest=false;
+			// }
+		// }
+	// };	
+	
+	this.restartScript = function(){
+
 		return false;
 	};
 	
@@ -186,7 +193,7 @@ function LevelFollower(){
 		Pather.journeyTo(FirstLevel);
 		Town.heal();Town.move("portalspot");Pather.usePortal(FirstLevel, me.name);Pather.moveToExit(SecondLevel,false,false);
 		Town.heal();Town.move("portalspot");Pather.usePortal(FirstLevel, me.name);Pather.moveToExit(SecondLevel,true,false);
-	}
+	};
 	
 	this.getLeaderUnit = function(name){													//Get Leader's unit
 		var Player = getUnit(0,name);
@@ -286,16 +293,17 @@ function LevelFollower(){
 
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
-			if(ImportantQuest && me.hp < me.hpmax * .5){									//If low hp and its a quest heal in town
-				say("IN DANGER");
-				Town.doChores();
-				Pather.usePortal(null,me.name);
-			}
+			// if(ImportantQuest && me.hp < me.hpmax * .5){									//If low hp and its a quest heal in town
+				// say("IN DANGER");
+				// Town.doChores();
+				// Pather.usePortal(null,me.name);
+			// }
 			if(getDistance(me,LeaderUnit)>5){
 				Pather.teleport = false;
 				if(me.inTown){
 					Town.move("portalspot");
 				}else{
+					//say(Config.LifeChicken+" "+Config.TownHP+" "+Config.UseHP);
 					Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);
 					Attack.clear(20);
 				}

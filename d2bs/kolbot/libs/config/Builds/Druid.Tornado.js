@@ -52,7 +52,8 @@ var AutoBuildTemplate={
 				Config.LifeChicken=15;
 				Config.ManaChicken=0;
 				Config.MercChicken=0;
-				Config.UseHP=50;
+				Config.TownHP=30;
+				Config.UseHP=60;
 				Config.UseMP=3;
 				Config.UseRejuvHP=35;
 				Config.PickRange=60;
@@ -654,6 +655,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.UseRejuvHP=40;
+				Config.TownHP=0;
 				Config.LifeChicken=30;
 			}
 		},

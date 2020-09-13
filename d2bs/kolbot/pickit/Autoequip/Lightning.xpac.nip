@@ -1,10 +1,10 @@
 //Weapon
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 2 # [Tier] == 1
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 2 && [FCR] >= 20 # [Tier] == 2
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 2 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 3
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 4 # [Tier] == 4
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 4 && [FCR] >= 20 # [Tier] == 5
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 4 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 6
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 1 || [FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 10 # [Tier] == 1
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 2 || [FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 20 # [Tier] == 2
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # ([ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 2 || [FCR] >= 10) && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 20 # [Tier] == 3
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # ([ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 3 || [FCR] >= 10) && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 30 # [Tier] == 4
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 4 && [FCR] >= 10 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 30 # [Tier] == 5
+[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 4 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 40 # [Tier] == 6
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 10
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 11
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 6 # [Tier] == 12

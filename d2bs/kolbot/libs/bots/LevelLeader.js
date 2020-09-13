@@ -11,7 +11,7 @@ function LevelLeader(){
 	[47,48,42,56,57,43,44,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
 	[104,105,106],
-	[111,112,113,115,121,122,123,117,118,128,129,130]];	
+	[110,111,112,113,115,121,122,123,117,118,128,129,130]];	
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
 	75,76,77,78,79,80,81,83,101,
@@ -47,7 +47,9 @@ function LevelLeader(){
 				this.talkToNPC("Akara");
 				Pather.useWaypoint(4);
 				this.clearToQuestLocation(4,1,737);
-				if(!me.getQuest(4,4)){Stones=[getUnit(2,17),getUnit(2,18),getUnit(2,19),getUnit(2,20),getUnit(2,21)];}
+				if(!me.getQuest(4,4)){
+					Stones=[getUnit(2,17),getUnit(2,18),getUnit(2,19),getUnit(2,20),getUnit(2,21)];
+				}
 				while(!me.getQuest(4,4)&& me.getItem(525)){
 					Stones.forEach(function(stone){
 						if(!stone.mode){
@@ -56,7 +58,9 @@ function LevelLeader(){
 						}
 					});
 				}
-				while(!Pather.getPortal(38)&& i<10){delay(1000);i++;}
+				while(!Pather.getPortal(38)&& i<10){
+					delay(1000);i++;
+				}
 				Pather.usePortal(38);
 				Pather.makePortal();
 				if(getUnit(2,26)){
@@ -549,7 +553,7 @@ function LevelLeader(){
 					Pather.usePortal(DestinationArea,TeleSorcs[i]);
 					Attack.clear(10);
 					delay(500);
-					break;
+					WaitingLimit=120;
 				}
 			}
 			delay(1000);
@@ -641,8 +645,9 @@ function LevelLeader(){
 				delay(1500);
 				if(Will.bodylocation == 4 && getCursorType()== 3){
 					PrevWeapon=getUnit(100);
-					if(PrevWeapon && Storage.Cube.CanFit(PrevWeapon)){Storage.Cube.MoveTo(PrevWeapon);}
-					else{Storage.Inventory.MoveTo(PrevWeapon);}
+					if(PrevWeapon && Storage.Inventory.CanFit(PrevWeapon)){
+						Storage.Inventory.MoveTo(PrevWeapon);
+					}
 				}
 			}
 		}
