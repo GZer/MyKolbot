@@ -27,7 +27,9 @@ function LevelFollower(){
 					Misc.useMenu(0x0D36);
 				}
 				delay(2000);
-				if(Config.UseMerc){this.getA2Merc();}
+				if(Config.UseMerc){
+					this.getA2Merc();
+				}
 				break;
 			case 3:
 				Pather.journeyTo(40);
@@ -41,7 +43,9 @@ function LevelFollower(){
 				}
 				break;
 			case 4:
-				if(me.area != 102){Pather.journeyTo(102);}
+				if(me.area != 102){
+					Pather.journeyTo(102);
+				}
 				Pather.moveTo(17590,8068,2,true,true);
 				delay(2000);
 				Pather.moveTo(17601,8070,2,true,true);
@@ -65,37 +69,53 @@ function LevelFollower(){
 			if(preArea == me.area){
 				say("Act change failed");
 			}
-		}catch(err){me.cancel();return false;}
+		}catch(err){
+			me.cancel();
+			return false;
+		}
 		return me.act == DestinationAct;
 	};
 	
 	this.goFindLeader = function(LeaderArea){
 		var LeaderAct,BaalPortal;
 		if(LeaderArea){
-			if(LeaderArea <= 39){LeaderAct = 1;}
-			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct = 2;}
-			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct = 3;}
-			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct = 4;}
-			else{LeaderAct = 5;}
+			if(LeaderArea <= 39){
+				LeaderAct = 1;
+			}
+			else if(LeaderArea >= 40 && LeaderArea <= 74){
+				LeaderAct = 2;
+			}
+			else if(LeaderArea >= 75 && LeaderArea <= 102){
+				LeaderAct = 3;
+			}
+			else if(LeaderArea >= 103 && LeaderArea <= 108){
+				LeaderAct = 4;
+			}
+			else{
+				LeaderAct = 5;
+			}
 			if(LeaderAct != me.act){
 				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
 			}
 			
 			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
-				this.teleportToLocation(me.area);
+				this.teleportFromLocation(me.area);
 			}
 			if(LeaderArea != me.area){
 				Pather.teleport = true;
 				delay(1500);
 				if(LeaderArea == 73){
-					try{Pather.useUnit(2,100,73);											//Try duriels hole
+					try{
+						Pather.useUnit(2,100,73);											//Try duriels hole
 					}catch(err){
 						Town.goToTown();
 					}
 				}
 				if(LeaderArea == 132){
 					BaalPortal = getUnit(2,563);
-					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){delay(250);}
+					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
+						delay(250);
+					}
 				}
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
 					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
@@ -138,20 +158,22 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.teleportToLocation = function(CurrentArea){										//Teleport to hard destinations
+	this.teleportFromLocation = function(CurrentArea){										//Teleport to hard destinations
 		var DestinationReached = false;
 		Pather.teleport = true;
 		while(!DestinationReached){
 			switch(CurrentArea){
 				case 62:																	//Maggot Lair
-					this.teleportHeal(63,64);
+					Pather.journeyTo(63);
+					Pather.journeyTo(64);
 					if(Pather.moveToPreset(64,2,356)){DestinationReached = true;}
 				break;
 				case 74:																	//Arcane Sanctuary
 					if(Pather.moveToPreset(74,2,357)){DestinationReached = true;}
 				break;
 				case 88:																	//Flayer Dungeon
-					this.teleportHeal(89,91);
+					Pather.journeyTo(89);
+					Pather.journeyTo(91);
 					if(Pather.moveToPreset(91,2,406)){DestinationReached = true;}
 				break;
 			}
@@ -159,12 +181,6 @@ function LevelFollower(){
 		Town.doChores();
 		Town.move("portalspot");
 		return DestinationReached;
-	};
-	
-	this.teleportHeal = function(FirstLevel,SecondLevel){
-		Pather.journeyTo(FirstLevel);
-		Town.heal();Town.move("portalspot");Pather.usePortal(FirstLevel, me.name);Pather.moveToExit(SecondLevel,false,false);
-		Town.heal();Town.move("portalspot");Pather.usePortal(FirstLevel, me.name);Pather.moveToExit(SecondLevel,true,false);
 	};
 	
 	this.getLeaderUnit = function(name){													//Get Leader's unit
@@ -240,7 +256,7 @@ function LevelFollower(){
 			case 0x4e:
 				var id = (bytes[2] << 8) + bytes[1];
 				if(MercId.indexOf(id) !== -1) {
-						MercId.length = 0;
+					MercId.length = 0;
 				}
 				MercId.push(id);
 				break;

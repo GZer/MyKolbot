@@ -14,3 +14,17 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:831, @levelleader.js:43, Pather.moveToPreset@pather.js:570
 [2020/09/13 15:44:09] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:861, @levelleader.js:107, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/13 16:39:53] <LightSorc> Error in LevelFollower (pather.js line 570): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:282, @levelfollower.js:85, @levelfollower.js:149, Pather.moveToPreset@pather.js:570
+[2020/09/13 16:45:30] <Singer> Error in LevelLeader (levelleader.js line 857): (intermediate value).includes is not a function
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:857
+[2020/09/13 16:46:48] <Singer> Error in LevelLeader (levelleader.js line 857): (intermediate value).includes is not a function
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:857
+[2020/09/13 16:48:08] <Singer> Error in LevelLeader (levelleader.js line 857): (intermediate value).includes is not a function
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:857
+[2020/09/13 16:49:24] <Singer> Error in LevelLeader (levelleader.js line 857): (intermediate value).includes is not a function
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:857
+[2020/09/13 16:52:33] <Singer> Error in LevelLeader (levelleader.js line 826): SkipAreas.includes is not a function
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:826
+[2020/09/13 17:13:06] <Hammerdin> Error in LevelFollower (town.js line 2209): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:275, @levelfollower.js:107, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2209
