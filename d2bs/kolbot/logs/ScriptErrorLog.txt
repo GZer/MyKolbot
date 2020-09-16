@@ -236,3 +236,7 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:310, @levelfollower.js:142, Pather.journeyTo@pather.js:1405, useWaypoint@pather.js:1023
 [2020/09/16 12:29:58] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 71
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:982, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/16 21:05:15] <Auradin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2262, Pather.makePortal@pather.js:1049
+[2020/09/16 21:09:11] <Auradin> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:310, @levelfollower.js:142, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1049
