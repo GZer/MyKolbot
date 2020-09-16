@@ -6,9 +6,24 @@
 
 function LevelFollower(){
 	var LeaderUnit,WhereIsLeader,MercId=[];
+	
+	this.logProgress=function(Completed,Quest){
+		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
+		dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
 		
-	this.ChangeAct = function(DestinationAct){
-		var NPC,preArea = me.area,TownWaypoints = [0,40,75,103,109];
+		if(Completed){
+			Progress="Completed";
+		}		
+		try{
+			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
+		}catch(err){
+			D2Bot.printToConsole("Failed to Log Progress",10);return false;
+		}
+		return true;
+	};
+	
+	this.ChangeAct=function(DestinationAct){
+		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
 		if(Pather.accessToAct(DestinationAct)){
 			try{
 				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
@@ -22,7 +37,7 @@ function LevelFollower(){
 			case 2:
 				Pather.journeyTo(0);
 				Pather.moveTo(4862,5662,5);
-				NPC = getUnit(1,"Warriv");
+				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
 				}
@@ -37,7 +52,7 @@ function LevelFollower(){
 				this.talkToNPC("Jerhyn");
 				Pather.moveTo(5202,5056,5);
 				Town.move("Meshif");
-				NPC = getUnit(1,"Meshif");
+				NPC=getUnit(1,"Meshif");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D38);
 				}
@@ -76,23 +91,23 @@ function LevelFollower(){
 		return me.act == DestinationAct;
 	};
 	
-	this.goFindLeader = function(LeaderArea){
+	this.goFindLeader=function(LeaderArea){
 		var LeaderAct,BaalPortal;
 		if(LeaderArea){
 			if(LeaderArea <= 39){
-				LeaderAct = 1;
+				LeaderAct=1;
 			}
 			else if(LeaderArea >= 40 && LeaderArea <= 74){
-				LeaderAct = 2;
+				LeaderAct=2;
 			}
 			else if(LeaderArea >= 75 && LeaderArea <= 102){
-				LeaderAct = 3;
+				LeaderAct=3;
 			}
 			else if(LeaderArea >= 103 && LeaderArea <= 108){
-				LeaderAct = 4;
+				LeaderAct=4;
 			}
 			else{
-				LeaderAct = 5;
+				LeaderAct=5;
 			}
 			if(LeaderAct != me.act){
 				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
@@ -102,7 +117,7 @@ function LevelFollower(){
 				this.teleportFromLocation(me.area);
 			}
 			if(LeaderArea != me.area){
-				Pather.teleport = true;
+				Pather.teleport=true;
 				delay(1500);
 				if(LeaderArea == 73){
 					try{
@@ -112,7 +127,7 @@ function LevelFollower(){
 					}
 				}
 				if(LeaderArea == 132){
-					BaalPortal = getUnit(2,563);
+					BaalPortal=getUnit(2,563);
 					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
 						delay(250);
 					}
@@ -127,7 +142,7 @@ function LevelFollower(){
 					Pather.journeyTo(LeaderArea);											//Otherwise walk to leader
 				}
 				delay(200);
-				Pather.teleport = false;
+				Pather.teleport=false;
 				Pather.getWP(me.area,true);
 			}
 			if(!me.inTown){
@@ -144,11 +159,11 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.talkToNPC = function(NPCName){
+	this.talkToNPC=function(NPCName){
 		var NPC;
 		Town.goToTown();
 		Town.move(NPCName);
-		NPC = getUnit(1,NPCName);
+		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){
 			me.cancel();
 		}else{
@@ -158,23 +173,23 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.teleportFromLocation = function(CurrentArea){										//Teleport to hard destinations
-		var DestinationReached = false;
-		Pather.teleport = true;
+	this.teleportFromLocation=function(CurrentArea){										//Teleport to hard destinations
+		var DestinationReached=false;
+		Pather.teleport=true;
 		while(!DestinationReached){
 			switch(CurrentArea){
 				case 62:																	//Maggot Lair
 					Pather.journeyTo(63);
 					Pather.journeyTo(64);
-					if(Pather.moveToPreset(64,2,356)){DestinationReached = true;}
+					if(Pather.moveToPreset(64,2,356)){DestinationReached=true;}
 				break;
 				case 74:																	//Arcane Sanctuary
-					if(Pather.moveToPreset(74,2,357)){DestinationReached = true;}
+					if(Pather.moveToPreset(74,2,357)){DestinationReached=true;}
 				break;
 				case 88:																	//Flayer Dungeon
 					Pather.journeyTo(89);
 					Pather.journeyTo(91);
-					if(Pather.moveToPreset(91,2,406)){DestinationReached = true;}
+					if(Pather.moveToPreset(91,2,406)){DestinationReached=true;}
 				break;
 			}
 		}
@@ -183,8 +198,8 @@ function LevelFollower(){
 		return DestinationReached;
 	};
 	
-	this.getLeaderUnit = function(name){													//Get Leader's unit
-		var Player = getUnit(0,name);
+	this.getLeaderUnit=function(name){														//Get Leader's unit
+		var Player=getUnit(0,name);
 		if(Player){
 			do{
 				if(Player.mode != 0 && Player.mode != 17){
@@ -196,8 +211,8 @@ function LevelFollower(){
 		return false;
 	};
 	
-	this.getA2Merc = function(){
-		var MyMercType,MyMercDiff,MyMercAura,MyMerc;
+	this.getA2Merc=function(){
+		var MyMercType,MyMercDiff,MyMercAura,MyMerc=me.getMerc();
 		switch(me.classid){			
 			case 0://Amazon
 				break;
@@ -219,18 +234,16 @@ function LevelFollower(){
 			case 6://Assassin
 				break;
 		}
-		//If we have the right aura merc stop function
-		if(me.getMerc() || me.mercrevivecost){
-			MyMerc=me.getMerc();
-			if(MyMerc.getSkill(MyMercType,1)){
-				return true;
-			}
+		//If we have a Merc and it's the wrong difficulty stop function
+		if((MyMerc || me.mercrevivecost > 0) && me.diff != MyMercDiff){
+			this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
+			return true;
 		}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
 		addEventListener("gamepacket", gamePacket);
-		var Greiz = getUnit(1,Town.tasks[1].Merc);
+		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
 			while(MercId.length>0){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
@@ -239,11 +252,13 @@ function LevelFollower(){
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
 				//If it's the wrong difficulty just hire a random merc
 				if(me.diff != MyMercDiff){
+					this.logProgress(me.getMerc(),"Hired Random Merc - "+me.name);
 					return true;
 				}
-				delay(rand(500,5000));
+				delay(rand(100,15000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
+					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc - "+me.name);
 					return true;
 				}
 			}
@@ -251,12 +266,12 @@ function LevelFollower(){
 		return false;
 	};
 	
-	this.gamePacket = function (bytes) {
+	this.gamePacket=function (bytes) {
 		 switch(bytes[0]) {
 			case 0x4e:
-				var id = (bytes[2] << 8) + bytes[1];
+				var id=(bytes[2] << 8) + bytes[1];
 				if(MercId.indexOf(id) !== -1) {
-					MercId.length = 0;
+					MercId.length=0;
 				}
 				MercId.push(id);
 				break;
@@ -267,8 +282,8 @@ function LevelFollower(){
 	Town.move("portalspot");
 	Pather.getWP(me.area);
 	Town.move("portalspot");
-	WhereIsLeader = getParty(Config.Leader);
-	var partyTimeout = 0;
+	WhereIsLeader=getParty(Config.Leader);
+	var partyTimeout=0;
 	while(!this.getLeaderUnit(Config.Leader)){												//Loop to ensure leader is assigned
 		delay(1000);
 		partyTimeout++;
@@ -277,12 +292,12 @@ function LevelFollower(){
 			quit();
 		}
 	}
-	LeaderUnit = this.getLeaderUnit(Config.Leader);
+	LeaderUnit=this.getLeaderUnit(Config.Leader);
 
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
 			if(getDistance(me,LeaderUnit)>5){
-				Pather.teleport = false;
+				Pather.teleport=false;
 				if(me.inTown){
 					Town.move("portalspot");
 				}else{

@@ -6,8 +6,8 @@
 
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
-	var MercId=[],TeleSorcs=[],AreasToSkim=[47,54,56,46,76,77,78,107,110,115,117];
-	var LevelingAreas=[[2,8,3,4,5,6,27,29,32,34,35,36],
+	var MercId=[],TeleSorcs=[],FullClearAreas=[8,3,4,5,6,34,35,36,43,44,104,105,106,111,113,118];
+	var LevelingAreas=[[8,3,4,5,6,27,29,32,34,35,36],
 	[47,48,42,56,57,43,44,52,54,46],
 	[76,77,78,79,80,81,82,100,101],
 	[104,105,106,107],
@@ -23,21 +23,15 @@ function LevelLeader(){
 		switch(ClearedArea){
 			case 8://Waypoint to Town after Den
 				Pather.getWP(3);
-				Pather.journeyTo(1);
+				Pather.useWaypoint(1);
 				Town.doChores();
 				this.logProgress(me.getQuest(1,0),"Den");
 			break;
-			case 3://BloodRaven
-				Pather.journeyTo(17);
-				this.clearToQuestLocation(17,1,775);
-				this.killQuestBoss(775);
-				Pather.getWP(3);
-				Pather.journeyTo(1);
-				Town.doChores();
-				this.logProgress(me.getQuest(2,3),"BloodRaven");
-			break;
 			case 5://Tristram
-				Pather.useWaypoint(5);
+				Pather.getWP(5);
+				Pather.useWaypoint(1);
+				Town.doChores();
+				Pather.journeyTo(5);
 				Pather.makePortal();
 				if(!me.getQuest(4,4)&& !me.getItem(525)){
 					if(!me.getItem(524)){
@@ -652,6 +646,7 @@ function LevelLeader(){
 		}
 		while(!teleporterClose() && WaitingLimit < 120){
 			delay(1000);
+			Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
 			WaitingLimit++;
 		}
 		Precast.doPrecast(true);
@@ -852,7 +847,7 @@ function LevelLeader(){
 	};
 
 	this.getA2Merc=function(){
-		var MyMercType,MyMercDiff,MyMercAura;
+		var MyMercType,MyMercDiff,MyMercAura,MyMerc=me.getMerc();
 		switch(me.classid){			
 			case 0://Amazon
 				break;
@@ -874,7 +869,11 @@ function LevelLeader(){
 			case 6://Assassin
 				break;
 		}
-		if(me.getMerc() || me.mercrevivecost > 0 || me.diff != MyMercDiff){return true;}
+		//If we have a Merc and it's the wrong difficulty stop function
+		if((MyMerc || me.mercrevivecost > 0) && me.diff != MyMercDiff){
+			this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
+			return true;
+		}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
@@ -886,10 +885,15 @@ function LevelLeader(){
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
-				delay(2500);
-				var MyMerc=me.getMerc();
+				//If it's the wrong difficulty just hire a random merc
+				if(me.diff != MyMercDiff){
+					this.logProgress(me.getMerc(),"Hired Random Merc - "+me.name);
+					return true;
+				}
+				delay(500);
+				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
-					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc");
+					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc - "+me.name);
 					return true;
 				}
 			}
@@ -992,12 +996,13 @@ function LevelLeader(){
 				try{
 					Pather.makePortal();
 				}catch(err){
-					print("Failed to make portal");}
-				if(AreasToSkim.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
-					say("Skim Clear");
-					Attack.clearLevel(0xF);
-				}else{
+					print("Failed to make portal");
+				}
+				if(FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
+					say("Full Clear");
 					Attack.clearLevel(0);
+				}else{
+					Attack.clearLevel(0xF);
 				}
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
