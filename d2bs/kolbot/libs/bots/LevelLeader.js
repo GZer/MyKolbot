@@ -737,9 +737,9 @@ function LevelLeader(){
 		var Orb=getUnit(2,404),orbTimeout=0,Will=me.getItem(174);
 		if(Will && Orb){
 			try{
-				while(Orb && orbTimeout < 8){
+				while(Orb && orbTimeout < 12){
 					Orb.interact();
-					delay(100);
+					delay(200);
 					orbTimeout++;
 				}
 			}catch(err){

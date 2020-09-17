@@ -1,14 +1,14 @@
 //Weapon
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 1 || [FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 20 # [Tier] == 1
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 2 || [FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 30 # [Tier] == 2
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # ([SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 2 || [FCR] >= 10) && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 40 # [Tier] == 3
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # ([SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 || [FCR] >= 10) && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 50 # [Tier] == 4
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 1 || [FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 20 # [Tier] == 1
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 2 || [FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 30 # [Tier] == 2
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # ([ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 2 || [FCR] >= 10) && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 40 # [Tier] == 3
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # ([ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 || [FCR] >= 10) && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 50 # [Tier] == 4
 [Type] == Staff && [Flag] != Ethereal && [Flag] == Runeword # [SkillWarmth] >= 3 # [Tier] == 5
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 60 # [Tier] == 6
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 # [Tier] == 7
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 && [FCR] >= 20 # [Tier] == 10
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 70 # [Tier] == 15
-[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 4 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 70 # [Tier] == 20
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 60 # [Tier] == 6
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 # [Tier] == 7
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 && [FCR] >= 20 # [Tier] == 10
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 3 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 70 # [Tier] == 15
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[FireSkillTab]+[SkillMeteor]+[SkillFireball] >= 4 && [FCR] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 70 # [Tier] == 20
 [Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 90
 [Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillFireMastery] == 2 # [Tier] == 95
 [Name] == EldritchOrb && [Flag] != Ethereal && [Quality] == Unique # [SorceressSkills] >= 2 # [Tier] == 98
