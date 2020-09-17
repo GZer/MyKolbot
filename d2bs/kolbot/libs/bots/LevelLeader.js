@@ -540,11 +540,12 @@ function LevelLeader(){
 				}
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					Pather.makePortal();
-					DestinationReached=true;
+					DestinationReached=(me.area==DestinationArea);
 				}
 			}catch(err){
 				Attack.clearLevel(0);
 				Pather.journeyTo(DestinationArea);
+				DestinationReached=(me.area==DestinationArea);
 			}
 			count++;
 		}
@@ -1044,12 +1045,12 @@ function LevelLeader(){
 				}catch(err){
 					print("Failed to make portal");
 				}
-				if(LevelArea<LevelingAreas[ActNumber].length && FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
+				if(LevelArea<LevelingAreas[ActNumber].length-1 && !FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
+					say("Clearing to "+LevelingAreas[ActNumber][LevelArea+1]);
+					clearToNextArea(LevelingAreas[ActNumber][LevelArea],LevelingAreas[ActNumber][LevelArea+1]);
+				}else{
 					say("Full Clear");
 					Attack.clearLevel(0);
-				}else{
-					say("Skip Clear");
-					clearToNextArea(LevelingAreas[ActNumber][LevelArea],LevelingAreas[ActNumber][LevelArea+1]);
 				}
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);

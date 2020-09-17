@@ -3948,3 +3948,758 @@ Line: (null)
 [09/17/20 20:03:52] D2BS 37708: move retry 1
 [09/17/20 20:04:07] D2BS 37708: ÿc1Skipping Dark Shaman 781 16
 [09/17/20 20:04:13] D2BS 37708: D2BS Shutdown complete.
+[09/17/20 20:10:31] D2BS 11020: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:10:31] D2BS 11020: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:10:31] D2BS 11020: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:10:31] D2BS 11020: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:10:31] D2BS 11020: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:10:31] D2BS 11020: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:10:31] D2BS 11020: Auradin
+[09/17/20 20:10:33] D2BS 11020: Heartbeat loaded
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 10824
+[09/17/20 20:10:49] D2BS 11020: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 14020
+[09/17/20 20:10:49] D2BS 11020: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 14052
+[09/17/20 20:10:49] D2BS 11020: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 11036
+[09/17/20 20:10:49] D2BS 11020: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/17/20 20:10:49] D2BS 11020: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/17/20 20:10:49] D2BS 11020: 03023C94 (D2BS): (filename not available): QueryInterface
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 11048
+[09/17/20 20:10:49] D2BS 11020: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:10:49] D2BS 11020: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/17/20 20:10:49] D2BS 11020: 004027E5 (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 11000
+[09/17/20 20:10:49] D2BS 11020: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/17/20 20:10:49] D2BS 11020: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/17/20 20:10:49] D2BS 11020: 004102FC (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 11600
+[09/17/20 20:10:49] D2BS 11020: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:10:49] D2BS 11020: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/17/20 20:10:49] D2BS 11020: 0041A845 (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 11584
+[09/17/20 20:10:49] D2BS 11020: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 11528
+[09/17/20 20:10:49] D2BS 11020: 77741A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[09/17/20 20:10:49] D2BS 11020: 761D6676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 14216
+[09/17/20 20:10:49] D2BS 11020: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 4588
+[09/17/20 20:10:49] D2BS 11020: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 8956
+[09/17/20 20:10:49] D2BS 11020: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:10:49] D2BS 11020: 030A7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:10:49] D2BS 11020: 03192B1F (D2BS): (filename not available): JS_freeop
+[09/17/20 20:10:49] D2BS 11020: 03191A5E (D2BS): (filename not available): JS_freeop
+[09/17/20 20:10:49] D2BS 11020: 030BE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 5220
+[09/17/20 20:10:49] D2BS 11020: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/17/20 20:10:49] D2BS 11020: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/17/20 20:10:49] D2BS 11020: 0302E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:10:49] D2BS 11020: 030B01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:10:49] D2BS 11020: 03192B1F (D2BS): (filename not available): JS_freeop
+[09/17/20 20:10:49] D2BS 11020: 03191A5E (D2BS): (filename not available): JS_freeop
+[09/17/20 20:10:49] D2BS 11020: 030BE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 9672
+[09/17/20 20:10:49] D2BS 11020: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:10:49] D2BS 11020: 030A7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:10:49] D2BS 11020: 03192B1F (D2BS): (filename not available): JS_freeop
+[09/17/20 20:10:49] D2BS 11020: 03191A5E (D2BS): (filename not available): JS_freeop
+[09/17/20 20:10:49] D2BS 11020: 030BE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 2008
+[09/17/20 20:10:49] D2BS 11020: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Stack Walk Thread: 11024
+[09/17/20 20:10:49] D2BS 11020: 0302B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/17/20 20:10:49] D2BS 11020: 030237F8 (D2BS): (filename not available): QueryInterface
+[09/17/20 20:10:49] D2BS 11020: 00408A05 (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 00408A81 (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:10:49] D2BS 11020: 00638A89 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:10:49] D2BS 11020: 0061933E (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:10:49] D2BS 11020: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/17/20 20:10:49] D2BS 11020: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/17/20 20:10:49] D2BS 11020: 00405E6B (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 004065C7 (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 0040671F (Game): (filename not available): (function-name not available)
+[09/17/20 20:10:49] D2BS 11020: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:10:49] D2BS 11020: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:10:49] D2BS 11020: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:10:49] D2BS 11020: Crash File: BlizzardError/2020-09-17 20.10.49/Crash.txt
+[09/17/20 20:10:49] D2BS 11020: D2BS Shutdown complete.
+[09/17/20 20:10:50] D2BS 14816: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:10:50] D2BS 14816: Auradin
+[09/17/20 20:10:50] D2BS 14816: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:10:50] D2BS 14816: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:10:50] D2BS 14816: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:10:50] D2BS 14816: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:10:50] D2BS 14816: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:10:52] D2BS 14816: Heartbeat loaded
+[09/17/20 20:11:10] D2BS 14816: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:11:10] D2BS 14816: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:11:10] D2BS 14816: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 20:11:10] D2BS 14816: Updating Config from level 0 to 1
+[09/17/20 20:11:10] D2BS 14816: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 20:11:10] D2BS 14816: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:11:10] D2BS 14816: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:11:10] D2BS 14816: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 20:11:10] D2BS 14816: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc216 ms
+[09/17/20 20:11:10] D2BS 14816: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:11:10] D2BS 14816: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:11:10] D2BS 14816: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 20:11:10] D2BS 14816: Updating Config from level 0 to 1
+[09/17/20 20:11:10] D2BS 14816: AutoBuild: Loaded helper thread
+[09/17/20 20:11:10] D2BS 14816: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 20:11:10] D2BS 14816: Updating Config from level 0 to 1
+[09/17/20 20:11:10] D2BS 14816: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 20:11:10] D2BS 14816: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 20:11:10] D2BS 14816: Updating Config from level 0 to 1
+[09/17/20 20:11:10] D2BS 14816: ÿc3Start ToolsThread script
+[09/17/20 20:11:10] D2BS 14816: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 20:11:10] D2BS 14816: Updating Config from level 0 to 1
+[09/17/20 20:11:11] D2BS 14816: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 20:11:29] D2BS 14816: 1,2
+[09/17/20 20:11:50] D2BS 14816: 2,8
+[09/17/20 20:11:56] D2BS 14816: ÿc7Picked up ÿc42 Gold
+[09/17/20 20:12:01] D2BS 14816: ÿc7Picked up ÿc45 Gold
+[09/17/20 20:12:01] D2BS 14816: ÿc7Picked up ÿc44 Gold
+[09/17/20 20:12:11] D2BS 14816: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:12:11] D2BS 14816: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 20:12:11] D2BS 14816: AutoBuild: useSkillPoint(): Prayer (99)
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  1)
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Stat (1/5) Increased Strength from 25 to 26
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Stat (2/5) Increased Dexterity from 20 to 21
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Stat (3/5) Increased Vitality from 25 to 26
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Stat (4/5) Increased Vitality from 26 to 27
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Stat (5/5) Increased Vitality from 27 to 28
+[09/17/20 20:12:12] D2BS 14816: Updating Config from level 1 to 2
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 20:12:12] D2BS 14816: Updating Config from level 1 to 2
+[09/17/20 20:12:12] D2BS 14816: Updating Config from level 1 to 2
+[09/17/20 20:12:12] D2BS 14816: Updating Config from level 1 to 2
+[09/17/20 20:12:12] D2BS 14816: AutoBuild: Incrementing cached character level to 2
+[09/17/20 20:12:18] D2BS 14816: move retry 1
+[09/17/20 20:12:53] D2BS 14816: ÿc7Picked up ÿc42 Gold
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: useSkillPoint(): Smite (97)
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: Skill (1/1) Increased Smite (97) by one (level:  1)
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: Attempt to spend point 1 in Strength may have failed!
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: Attempt to spend point 2 in Dexterity may have failed!
+[09/17/20 20:13:16] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:13:17] D2BS 14816: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
+[09/17/20 20:13:17] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:13:17] D2BS 14816: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
+[09/17/20 20:13:17] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:13:17] D2BS 14816: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[09/17/20 20:13:17] D2BS 14816: Updating Config from level 2 to 3
+[09/17/20 20:13:17] D2BS 14816: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 20:13:17] D2BS 14816: Updating Config from level 2 to 3
+[09/17/20 20:13:17] D2BS 14816: Updating Config from level 2 to 3
+[09/17/20 20:13:17] D2BS 14816: Updating Config from level 2 to 3
+[09/17/20 20:13:17] D2BS 14816: AutoBuild: Incrementing cached character level to 3
+[09/17/20 20:13:19] D2BS 14816: move retry 1
+[09/17/20 20:13:20] D2BS 14816: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 20:13:22] D2BS 14816: move retry 1
+[09/17/20 20:13:27] D2BS 14816: move retry 1
+[09/17/20 20:13:29] D2BS 14816: move retry 1
+[09/17/20 20:13:31] D2BS 14816: move retry 1
+[09/17/20 20:13:34] D2BS 14816: move retry 1
+[09/17/20 20:13:55] D2BS 14816: move retry 1
+[09/17/20 20:14:41] D2BS 14816: ÿc7Picked up ÿc3Short Sword ÿc0(ilvl 4) (Auradin.xpac.nip #2)
+[09/17/20 20:14:45] D2BS 14816: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:14:45] D2BS 14816: AutoBuild: Level up detected ( 3 --> 4 )
+[09/17/20 20:14:45] D2BS 14816: AutoBuild: useSkillPoint(): Prayer (99)
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  2)
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Stat (1/5) Increased Strength from 27 to 28
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Stat (2/5) Increased Dexterity from 22 to 23
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Stat (3/5) Increased Vitality from 31 to 32
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Stat (4/5) Increased Vitality from 32 to 33
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Stat (5/5) Increased Vitality from 33 to 34
+[09/17/20 20:14:46] D2BS 14816: Updating Config from level 3 to 4
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Updating Config from level 3 to 4
+[09/17/20 20:14:46] D2BS 14816: Updating Config from level 3 to 4
+[09/17/20 20:14:46] D2BS 14816: Updating Config from level 3 to 4
+[09/17/20 20:14:46] D2BS 14816: Updating Config from level 3 to 4
+[09/17/20 20:14:46] D2BS 14816: AutoBuild: Incrementing cached character level to 4
+[09/17/20 20:14:57] D2BS 14816: move retry 1
+[09/17/20 20:15:01] D2BS 14816: move retry 1
+[09/17/20 20:15:09] D2BS 14816: move retry 1
+[09/17/20 20:15:46] D2BS 14816: move retry 1
+[09/17/20 20:15:47] D2BS 14816: move retry 1
+[09/17/20 20:16:05] D2BS 14816: move retry 1
+[09/17/20 20:16:15] D2BS 14816: ÿc7Picked up ÿc45 Gold
+[09/17/20 20:16:23] D2BS 14816: move retry 1
+[09/17/20 20:18:56] D2BS 14816: move retry 1
+[09/17/20 20:19:11] D2BS 14816: move retry 1
+[09/17/20 20:19:13] D2BS 14816: move retry 1
+[09/17/20 20:19:16] D2BS 14816: move retry 1
+[09/17/20 20:19:49] D2BS 14816: move retry 1
+[09/17/20 20:20:12] D2BS 14816: move retry 1
+[09/17/20 20:20:43] D2BS 14816: move retry 1
+[09/17/20 20:21:12] D2BS 14816: move retry 1
+[09/17/20 20:21:21] D2BS 14816: move retry 1
+[09/17/20 20:22:00] D2BS 14816: move retry 1
+[09/17/20 20:23:37] D2BS 14816: move retry 1
+[09/17/20 20:24:52] D2BS 14816: move retry 1
+[09/17/20 20:25:03] D2BS 14816: move retry 1
+[09/17/20 20:25:48] D2BS 14816: move retry 1
+[09/17/20 20:27:03] D2BS 14816: move retry 1
+[09/17/20 20:27:11] D2BS 14816: move retry 1
+[09/17/20 20:27:20] D2BS 14816: move retry 1
+[09/17/20 20:30:08] D2BS 14816: move retry 1
+[09/17/20 20:32:04] D2BS 14816: move retry 1
+[09/17/20 20:32:08] D2BS 14816: move retry 1
+[09/17/20 20:33:43] D2BS 14816: move retry 1
+[09/17/20 20:33:45] D2BS 14816: move retry 1
+[09/17/20 20:33:50] D2BS 14816: move retry 1
+[09/17/20 20:36:05] D2BS 14816: move retry 1
+[09/17/20 20:36:38] D2BS 14816: move retry 1
+[09/17/20 20:37:17] D2BS 14816: move retry 1
+[09/17/20 20:37:23] D2BS 14816: move retry 1
+[09/17/20 20:38:42] D2BS 14816: move retry 1
+[09/17/20 20:39:17] D2BS 14816: D2BS Shutdown complete.
+[09/17/20 20:44:29] D2BS 14752: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:44:29] D2BS 14752: Auradin
+[09/17/20 20:44:29] D2BS 14752: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:44:29] D2BS 14752: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:44:29] D2BS 14752: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:44:29] D2BS 14752: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:44:29] D2BS 14752: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:44:33] D2BS 14752: Heartbeat loaded
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 15224
+[09/17/20 20:44:47] D2BS 14752: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 11016
+[09/17/20 20:44:47] D2BS 14752: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 11124
+[09/17/20 20:44:47] D2BS 14752: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 11008
+[09/17/20 20:44:47] D2BS 14752: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/17/20 20:44:47] D2BS 14752: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/17/20 20:44:47] D2BS 14752: 02F13C94 (D2BS): (filename not available): QueryInterface
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 14744
+[09/17/20 20:44:47] D2BS 14752: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:44:47] D2BS 14752: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/17/20 20:44:47] D2BS 14752: 004027E5 (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 14748
+[09/17/20 20:44:47] D2BS 14752: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/17/20 20:44:47] D2BS 14752: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/17/20 20:44:47] D2BS 14752: 004102FC (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 9588
+[09/17/20 20:44:47] D2BS 14752: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:44:47] D2BS 14752: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/17/20 20:44:47] D2BS 14752: 0041A845 (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 7992
+[09/17/20 20:44:47] D2BS 14752: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 14724
+[09/17/20 20:44:47] D2BS 14752: 77741A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[09/17/20 20:44:47] D2BS 14752: 761D6676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 13212
+[09/17/20 20:44:47] D2BS 14752: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 3684
+[09/17/20 20:44:47] D2BS 14752: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 7964
+[09/17/20 20:44:47] D2BS 14752: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:44:47] D2BS 14752: 02F97236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:44:47] D2BS 14752: 03082B1F (D2BS): (filename not available): JS_freeop
+[09/17/20 20:44:47] D2BS 14752: 03081A5E (D2BS): (filename not available): JS_freeop
+[09/17/20 20:44:47] D2BS 14752: 02FAE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 9592
+[09/17/20 20:44:47] D2BS 14752: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/17/20 20:44:47] D2BS 14752: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/17/20 20:44:47] D2BS 14752: 02F1E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:44:47] D2BS 14752: 02FA01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:44:47] D2BS 14752: 03082B1F (D2BS): (filename not available): JS_freeop
+[09/17/20 20:44:47] D2BS 14752: 03081A5E (D2BS): (filename not available): JS_freeop
+[09/17/20 20:44:47] D2BS 14752: 02FAE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 14332
+[09/17/20 20:44:47] D2BS 14752: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/17/20 20:44:47] D2BS 14752: 02F97236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:44:47] D2BS 14752: 03082B1F (D2BS): (filename not available): JS_freeop
+[09/17/20 20:44:47] D2BS 14752: 03081A5E (D2BS): (filename not available): JS_freeop
+[09/17/20 20:44:47] D2BS 14752: 02FAE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Stack Walk Thread: 14756
+[09/17/20 20:44:47] D2BS 14752: 02F1B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/17/20 20:44:47] D2BS 14752: 02F137F8 (D2BS): (filename not available): QueryInterface
+[09/17/20 20:44:47] D2BS 14752: 00408A05 (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 00408A81 (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:44:47] D2BS 14752: 00612D28 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:44:47] D2BS 14752: 0061930D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:44:47] D2BS 14752: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/17/20 20:44:47] D2BS 14752: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/17/20 20:44:47] D2BS 14752: 00405E6B (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 004065C7 (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 0040671F (Game): (filename not available): (function-name not available)
+[09/17/20 20:44:47] D2BS 14752: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/17/20 20:44:47] D2BS 14752: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/17/20 20:44:47] D2BS 14752: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/17/20 20:44:47] D2BS 14752: Crash File: BlizzardError/2020-09-17 20.44.47/Crash.txt
+[09/17/20 20:44:47] D2BS 14752: D2BS Shutdown complete.
+[09/17/20 20:44:48] D2BS 14904: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:44:48] D2BS 14904: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:44:48] D2BS 14904: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:44:48] D2BS 14904: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:44:48] D2BS 14904: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:44:48] D2BS 14904: Auradin
+[09/17/20 20:44:48] D2BS 14904: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:44:50] D2BS 14904: Heartbeat loaded
+[09/17/20 20:44:58] D2BS 14904: D2BS Shutdown complete.
+[09/17/20 20:45:03] D2BS 3512: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:45:03] D2BS 3512: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:45:03] D2BS 3512: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:45:03] D2BS 3512: Auradin
+[09/17/20 20:45:03] D2BS 3512: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:45:03] D2BS 3512: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:45:03] D2BS 3512: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:45:05] D2BS 3512: Heartbeat loaded
+[09/17/20 20:45:24] D2BS 3512: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:45:24] D2BS 3512: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:45:24] D2BS 3512: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 20:45:24] D2BS 3512: Updating Config from level 0 to 1
+[09/17/20 20:45:24] D2BS 3512: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:24] D2BS 3512: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:24] D2BS 3512: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:24] D2BS 3512: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:24] D2BS 3512: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc216 ms
+[09/17/20 20:45:24] D2BS 3512: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:24] D2BS 3512: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:24] D2BS 3512: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 20:45:24] D2BS 3512: Updating Config from level 0 to 1
+[09/17/20 20:45:24] D2BS 3512: AutoBuild: Loaded helper thread
+[09/17/20 20:45:24] D2BS 3512: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 20:45:24] D2BS 3512: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 20:45:24] D2BS 3512: Updating Config from level 0 to 1
+[09/17/20 20:45:24] D2BS 3512: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 20:45:24] D2BS 3512: ÿc3Start ToolsThread script
+[09/17/20 20:45:24] D2BS 3512: Updating Config from level 0 to 1
+[09/17/20 20:45:24] D2BS 3512: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 20:45:24] D2BS 3512: Updating Config from level 0 to 1
+[09/17/20 20:45:25] D2BS 3512: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 20:45:30] D2BS 3512: move retry 1
+[09/17/20 20:45:35] D2BS 3512: move retry 2
+[09/17/20 20:45:42] D2BS 3512: move retry 1
+[09/17/20 20:45:50] D2BS 3512: 1,2
+[09/17/20 20:46:06] D2BS 3512: move retry 1
+[09/17/20 20:46:11] D2BS 3512: move retry 1
+[09/17/20 20:46:50] D2BS 3512: 2,8
+[09/17/20 20:47:16] D2BS 3512: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:47:16] D2BS 3512: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 20:47:16] D2BS 3512: AutoBuild: useSkillPoint(): Prayer (99)
+[09/17/20 20:47:16] D2BS 3512: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  1)
+[09/17/20 20:47:16] D2BS 3512: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:47:16] D2BS 3512: AutoBuild: Stat (1/5) Increased Strength from 25 to 26
+[09/17/20 20:47:16] D2BS 3512: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: Stat (2/5) Increased Dexterity from 20 to 21
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: Stat (3/5) Increased Vitality from 25 to 26
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: Stat (4/5) Increased Vitality from 26 to 27
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: Stat (5/5) Increased Vitality from 27 to 28
+[09/17/20 20:47:17] D2BS 3512: Updating Config from level 1 to 2
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 20:47:17] D2BS 3512: Updating Config from level 1 to 2
+[09/17/20 20:47:17] D2BS 3512: Updating Config from level 1 to 2
+[09/17/20 20:47:17] D2BS 3512: Updating Config from level 1 to 2
+[09/17/20 20:47:17] D2BS 3512: AutoBuild: Incrementing cached character level to 2
+[09/17/20 20:48:15] D2BS 3512: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/17/20 20:48:22] D2BS 3512: move retry 1
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: useSkillPoint(): Smite (97)
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: Skill (1/1) Increased Smite (97) by one (level:  1)
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: Stat (1/5) Increased Strength from 26 to 27
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: Stat (2/5) Increased Dexterity from 21 to 22
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
+[09/17/20 20:48:32] D2BS 3512: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:48:33] D2BS 3512: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[09/17/20 20:48:33] D2BS 3512: Updating Config from level 2 to 3
+[09/17/20 20:48:33] D2BS 3512: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 20:48:33] D2BS 3512: Updating Config from level 2 to 3
+[09/17/20 20:48:33] D2BS 3512: Updating Config from level 2 to 3
+[09/17/20 20:48:33] D2BS 3512: Updating Config from level 2 to 3
+[09/17/20 20:48:33] D2BS 3512: AutoBuild: Incrementing cached character level to 3
+[09/17/20 20:48:58] D2BS 3512: move retry 1
+[09/17/20 20:49:21] D2BS 3512: ÿc7Picked up ÿc0Quilted Armor ÿc0(ilvl 1) (Auradin.xpac.nip #46)
+[09/17/20 20:49:32] D2BS 3512: ÿc7Picked up ÿc45 Gold
+[09/17/20 20:49:53] D2BS 3512: ÿc7Picked up ÿc411 Gold
+[09/17/20 20:50:09] D2BS 3512: ÿc7Picked up ÿc44 Gold
+[09/17/20 20:55:57] D2BS 6824: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:55:57] D2BS 6824: Auradin
+[09/17/20 20:55:57] D2BS 6824: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:55:57] D2BS 6824: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:55:57] D2BS 6824: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:55:57] D2BS 6824: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:55:57] D2BS 6824: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:56:01] D2BS 6824: Heartbeat loaded
+[09/17/20 20:56:16] D2BS 6824: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:56:16] D2BS 6824: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:56:16] D2BS 6824: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 20:56:16] D2BS 6824: Updating Config from level 0 to 3
+[09/17/20 20:56:16] D2BS 6824: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 20:56:16] D2BS 6824: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:16] D2BS 6824: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:16] D2BS 6824: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:16] D2BS 6824: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc216 ms
+[09/17/20 20:56:16] D2BS 6824: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:16] D2BS 6824: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:16] D2BS 6824: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 20:56:16] D2BS 6824: Updating Config from level 0 to 3
+[09/17/20 20:56:16] D2BS 6824: AutoBuild: Loaded helper thread
+[09/17/20 20:56:16] D2BS 6824: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 20:56:16] D2BS 6824: initNPC: heal
+[09/17/20 20:56:16] D2BS 6824: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 20:56:16] D2BS 6824: Updating Config from level 0 to 3
+[09/17/20 20:56:16] D2BS 6824: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 20:56:16] D2BS 6824: ÿc3Start ToolsThread script
+[09/17/20 20:56:16] D2BS 6824: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 20:56:16] D2BS 6824: Updating Config from level 0 to 3
+[09/17/20 20:56:16] D2BS 6824: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 20:56:16] D2BS 6824: Updating Config from level 0 to 3
+[09/17/20 20:56:37] D2BS 12340: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:56:37] D2BS 12340: Auradin
+[09/17/20 20:56:37] D2BS 12340: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:56:37] D2BS 12340: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:56:37] D2BS 12340: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:56:37] D2BS 12340: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:56:37] D2BS 12340: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:56:41] D2BS 12340: Heartbeat loaded
+[09/17/20 20:56:57] D2BS 12340: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:56:57] D2BS 12340: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:56:57] D2BS 12340: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 20:56:57] D2BS 12340: Updating Config from level 0 to 1
+[09/17/20 20:56:57] D2BS 12340: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 20:56:57] D2BS 12340: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:57] D2BS 12340: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:57] D2BS 12340: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:57] D2BS 12340: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 20:56:57] D2BS 12340: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc215 ms
+[09/17/20 20:56:57] D2BS 12340: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:57] D2BS 12340: Updating Config from level 0 to 1
+[09/17/20 20:56:57] D2BS 12340: AutoBuild: Loaded helper thread
+[09/17/20 20:56:57] D2BS 12340: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:57] D2BS 12340: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 20:56:57] D2BS 12340: Updating Config from level 0 to 1
+[09/17/20 20:56:57] D2BS 12340: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 20:56:57] D2BS 12340: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 20:56:57] D2BS 12340: Updating Config from level 0 to 1
+[09/17/20 20:56:57] D2BS 12340: ÿc3Start ToolsThread script
+[09/17/20 20:56:57] D2BS 12340: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 20:56:57] D2BS 12340: Updating Config from level 0 to 1
+[09/17/20 20:56:57] D2BS 12340: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 20:57:01] D2BS 12340: move retry 1
+[09/17/20 20:57:09] D2BS 12340: move retry 1
+[09/17/20 20:57:14] D2BS 12340: move retry 2
+[09/17/20 20:57:23] D2BS 12340: D2BS Shutdown complete.
+[09/17/20 20:57:41] D2BS 10260: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:57:41] D2BS 10260: Auradin
+[09/17/20 20:57:41] D2BS 10260: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 20:57:41] D2BS 10260: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:57:41] D2BS 10260: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 20:57:41] D2BS 10260: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 20:57:41] D2BS 10260: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:57:43] D2BS 10260: Heartbeat loaded
+[09/17/20 20:58:01] D2BS 10260: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:58:01] D2BS 10260: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:58:01] D2BS 10260: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 20:58:01] D2BS 10260: Updating Config from level 0 to 1
+[09/17/20 20:58:02] D2BS 10260: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 20:58:02] D2BS 10260: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:58:02] D2BS 10260: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:58:02] D2BS 10260: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 20:58:02] D2BS 10260: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc216 ms
+[09/17/20 20:58:02] D2BS 10260: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:58:02] D2BS 10260: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:58:02] D2BS 10260: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 20:58:02] D2BS 10260: Updating Config from level 0 to 1
+[09/17/20 20:58:02] D2BS 10260: AutoBuild: Loaded helper thread
+[09/17/20 20:58:02] D2BS 10260: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 20:58:02] D2BS 10260: ÿc3Start ToolsThread script
+[09/17/20 20:58:02] D2BS 10260: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 20:58:02] D2BS 10260: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 20:58:02] D2BS 10260: Updating Config from level 0 to 1
+[09/17/20 20:58:02] D2BS 10260: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 20:58:02] D2BS 10260: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 20:58:02] D2BS 10260: Updating Config from level 0 to 1
+[09/17/20 20:58:02] D2BS 10260: Updating Config from level 0 to 1
+[09/17/20 20:58:24] D2BS 10260: 1,2
+[09/17/20 21:00:50] D2BS 10260: 1,2
+[09/17/20 21:01:10] D2BS 10260: move retry 1
+[09/17/20 21:01:33] D2BS 10260: ÿc7Picked up ÿc41 Gold
+[09/17/20 21:01:39] D2BS 10260: 2,8
+[09/17/20 21:01:48] D2BS 10260: move retry 1
+[09/17/20 21:03:21] D2BS 10260: Script default.dbj ended
+[09/17/20 21:03:21] D2BS 10260: Script tools\autobuildthread.js ended
+[09/17/20 21:03:21] D2BS 10260: Script tools\party.js ended
+[09/17/20 21:03:21] D2BS 10260: Script tools\toolsthread.js ended
+[09/17/20 21:03:21] D2BS 10260: Script tools\townchicken.js ended
+[09/17/20 21:03:27] D2BS 10260: D2BS Shutdown complete.
+[09/17/20 21:03:28] D2BS 13852: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:03:28] D2BS 13852: Auradin
+[09/17/20 21:03:28] D2BS 13852: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 21:03:28] D2BS 13852: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:03:28] D2BS 13852: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:03:28] D2BS 13852: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:03:28] D2BS 13852: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:03:30] D2BS 13852: Heartbeat loaded
+[09/17/20 21:03:47] D2BS 13852: D2BS Shutdown complete.
+[09/17/20 21:03:47] D2BS 6332: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:03:47] D2BS 6332: Auradin
+[09/17/20 21:03:47] D2BS 6332: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 21:03:47] D2BS 6332: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:03:47] D2BS 6332: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:03:47] D2BS 6332: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:03:47] D2BS 6332: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:03:49] D2BS 6332: Heartbeat loaded
+[09/17/20 21:04:07] D2BS 6332: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:04:07] D2BS 6332: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:04:07] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 21:04:07] D2BS 6332: Updating Config from level 0 to 1
+[09/17/20 21:04:07] D2BS 6332: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 21:04:07] D2BS 6332: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:04:07] D2BS 6332: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:04:07] D2BS 6332: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 21:04:07] D2BS 6332: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc216 ms
+[09/17/20 21:04:07] D2BS 6332: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:04:07] D2BS 6332: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:04:07] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 21:04:07] D2BS 6332: Updating Config from level 0 to 1
+[09/17/20 21:04:07] D2BS 6332: AutoBuild: Loaded helper thread
+[09/17/20 21:04:07] D2BS 6332: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:04:07] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 21:04:07] D2BS 6332: Updating Config from level 0 to 1
+[09/17/20 21:04:07] D2BS 6332: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:04:07] D2BS 6332: ÿc3Start ToolsThread script
+[09/17/20 21:04:07] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 21:04:07] D2BS 6332: Updating Config from level 0 to 1
+[09/17/20 21:04:07] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 21:04:07] D2BS 6332: Updating Config from level 0 to 1
+[09/17/20 21:04:09] D2BS 6332: move retry 1
+[09/17/20 21:04:28] D2BS 6332: 1,2
+[09/17/20 21:04:44] D2BS 6332: move retry 1
+[09/17/20 21:05:00] D2BS 6332: move retry 1
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: useSkillPoint(): Prayer (99)
+[09/17/20 21:05:01] D2BS 6332: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  1)
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Stat (1/5) Increased Strength from 25 to 26
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Stat (2/5) Increased Dexterity from 20 to 21
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Stat (3/5) Increased Vitality from 25 to 26
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Stat (4/5) Increased Vitality from 26 to 27
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Stat (5/5) Increased Vitality from 27 to 28
+[09/17/20 21:05:01] D2BS 6332: Updating Config from level 1 to 2
+[09/17/20 21:05:01] D2BS 6332: Updating Config from level 1 to 2
+[09/17/20 21:05:01] D2BS 6332: Updating Config from level 1 to 2
+[09/17/20 21:05:01] D2BS 6332: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 21:05:02] D2BS 6332: Updating Config from level 1 to 2
+[09/17/20 21:05:02] D2BS 6332: AutoBuild: Incrementing cached character level to 2
+[09/17/20 21:05:08] D2BS 6332: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:05:14] D2BS 6332: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:05:22] D2BS 6332: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:05:27] D2BS 6332: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:05:34] D2BS 6332: move retry 1
+[09/17/20 21:05:44] D2BS 6332: 2,8
+[09/17/20 21:07:09] D2BS 6332: Script default.dbj ended
+[09/17/20 21:07:09] D2BS 6332: Script tools\autobuildthread.js ended
+[09/17/20 21:07:09] D2BS 6332: Script tools\party.js ended
+[09/17/20 21:07:09] D2BS 6332: Script tools\toolsthread.js ended
+[09/17/20 21:07:09] D2BS 6332: Script tools\townchicken.js ended
+[09/17/20 21:07:15] D2BS 6332: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:07:15] D2BS 6332: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:07:15] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 21:07:15] D2BS 6332: Updating Config from level 0 to 2
+[09/17/20 21:07:15] D2BS 6332: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:15] D2BS 6332: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:15] D2BS 6332: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:15] D2BS 6332: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:15] D2BS 6332: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc216 ms
+[09/17/20 21:07:15] D2BS 6332: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:15] D2BS 6332: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:15] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 21:07:15] D2BS 6332: Updating Config from level 0 to 2
+[09/17/20 21:07:15] D2BS 6332: AutoBuild: Loaded helper thread
+[09/17/20 21:07:15] D2BS 6332: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:07:15] D2BS 6332: initNPC: heal
+[09/17/20 21:07:15] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 21:07:15] D2BS 6332: Updating Config from level 0 to 2
+[09/17/20 21:07:15] D2BS 6332: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:07:15] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 21:07:15] D2BS 6332: ÿc3Start ToolsThread script
+[09/17/20 21:07:15] D2BS 6332: Updating Config from level 0 to 2
+[09/17/20 21:07:15] D2BS 6332: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 21:07:15] D2BS 6332: Updating Config from level 0 to 2
+[09/17/20 21:07:32] D2BS 6332: move retry 1
+[09/17/20 21:07:33] D2BS 6332: move retry 2
+[09/17/20 21:07:43] D2BS 6332: move retry 1
+[09/17/20 21:07:54] D2BS 6332: 1,2
+[09/17/20 21:08:14] D2BS 6332: ÿc7Picked up ÿc3Short Sword ÿc0(ilvl 1) (Auradin.xpac.nip #2)
+[09/17/20 21:08:26] D2BS 6332: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:08:26] D2BS 6332: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 21:08:26] D2BS 6332: AutoBuild: useSkillPoint(): Smite (97)
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Skill (1/1) Increased Smite (97) by one (level:  1)
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Stat (1/5) Increased Strength from 26 to 27
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Stat (2/5) Increased Dexterity from 21 to 22
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[09/17/20 21:08:27] D2BS 6332: Updating Config from level 2 to 3
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 21:08:27] D2BS 6332: Updating Config from level 2 to 3
+[09/17/20 21:08:27] D2BS 6332: Updating Config from level 2 to 3
+[09/17/20 21:08:27] D2BS 6332: Updating Config from level 2 to 3
+[09/17/20 21:08:27] D2BS 6332: AutoBuild: Incrementing cached character level to 3
+[09/17/20 21:09:07] D2BS 6332: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:09:18] D2BS 6332: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:09:48] D2BS 6332: 2,8
+[09/17/20 21:09:52] D2BS 6332: move retry 1
+[09/17/20 21:09:58] D2BS 6332: ÿc7Picked up ÿc47 Gold
+[09/17/20 21:10:02] D2BS 6332: ÿc7Picked up ÿc46 Gold
+[09/17/20 21:11:58] D2BS 6332: D2BS Shutdown complete.
+[09/17/20 21:12:09] D2BS 2408: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:12:09] D2BS 2408: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/17/20 21:12:09] D2BS 2408: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:12:09] D2BS 2408: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:12:09] D2BS 2408: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:12:09] D2BS 2408: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:12:11] D2BS 2408: Heartbeat loaded
+[09/17/20 21:12:29] D2BS 2408: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:12:29] D2BS 2408: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:12:29] D2BS 2408: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/17/20 21:12:29] D2BS 2408: Updating Config from level 0 to 1
+[09/17/20 21:12:29] D2BS 2408: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:29] D2BS 2408: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:29] D2BS 2408: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:29] D2BS 2408: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:29] D2BS 2408: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2122ÿc4. Valid entries: ÿc2105. ÿc4Time: ÿc215 ms
+[09/17/20 21:12:29] D2BS 2408: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:29] D2BS 2408: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:29] D2BS 2408: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/17/20 21:12:29] D2BS 2408: Updating Config from level 0 to 1
+[09/17/20 21:12:29] D2BS 2408: AutoBuild: Loaded helper thread
+[09/17/20 21:12:29] D2BS 2408: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/17/20 21:12:29] D2BS 2408: Updating Config from level 0 to 1
+[09/17/20 21:12:29] D2BS 2408: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:12:29] D2BS 2408: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/17/20 21:12:29] D2BS 2408: Updating Config from level 0 to 1
+[09/17/20 21:12:29] D2BS 2408: ÿc3Start ToolsThread script
+[09/17/20 21:12:29] D2BS 2408: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/17/20 21:12:29] D2BS 2408: Updating Config from level 0 to 1
+[09/17/20 21:12:30] D2BS 2408: ÿc2Starting script: ÿc9LevelFollower

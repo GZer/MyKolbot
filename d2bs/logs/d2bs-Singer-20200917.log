@@ -3541,3 +3541,946 @@
 [09/17/20 20:03:39] D2BS 38988: ÿc7Picked up ÿc4120 Gold
 [09/17/20 20:04:03] D2BS 38988: ÿc7Picked up ÿc3Giant Axe ÿc0(ilvl 75) (Singer.xpac.nip #2)
 [09/17/20 20:04:04] D2BS 38988: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/17/20 20:10:31] D2BS 11144: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:10:31] D2BS 11144: Singer
+[09/17/20 20:10:31] D2BS 11144: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:10:31] D2BS 11144: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 20:10:31] D2BS 11144: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:10:31] D2BS 11144: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 20:10:31] D2BS 11144: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 20:10:34] D2BS 11144: Heartbeat loaded
+[09/17/20 20:10:34] D2BS 11144: 0
+[09/17/20 20:10:35] D2BS 11144: 0
+[09/17/20 20:10:36] D2BS 11144: 0
+[09/17/20 20:10:37] D2BS 11144: 0
+[09/17/20 20:10:38] D2BS 11144: 0
+[09/17/20 20:10:39] D2BS 11144: 0
+[09/17/20 20:10:40] D2BS 11144: 0
+[09/17/20 20:10:42] D2BS 11144: 39
+[09/17/20 20:10:43] D2BS 11144: 40
+[09/17/20 20:10:45] D2BS 11144: 42
+[09/17/20 20:10:49] D2BS 11144: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:10:49] D2BS 11144: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:10:49] D2BS 11144: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 20:10:49] D2BS 11144: Updating Config from level 0 to 1
+[09/17/20 20:10:49] D2BS 11144: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 20:10:49] D2BS 11144: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc216 ms
+[09/17/20 20:10:49] D2BS 11144: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:10:49] D2BS 11144: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 20:10:49] D2BS 11144: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[09/17/20 20:10:49] D2BS 11144: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:10:49] D2BS 11144: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc216 ms
+[09/17/20 20:10:49] D2BS 11144: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 20:10:49] D2BS 11144: Updating Config from level 0 to 1
+[09/17/20 20:10:49] D2BS 11144: AutoBuild: Loaded helper thread
+[09/17/20 20:10:49] D2BS 11144: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 20:10:49] D2BS 11144: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 20:10:49] D2BS 11144: Updating Config from level 0 to 1
+[09/17/20 20:10:49] D2BS 11144: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 20:10:49] D2BS 11144: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 20:10:49] D2BS 11144: Updating Config from level 0 to 1
+[09/17/20 20:10:49] D2BS 11144: ÿc3Start ToolsThread script
+[09/17/20 20:10:49] D2BS 11144: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 20:10:49] D2BS 11144: Updating Config from level 0 to 1
+[09/17/20 20:10:49] D2BS 11144: Updating Status
+[09/17/20 20:11:00] D2BS 11144: 1,2
+[09/17/20 20:11:09] D2BS 11144: Failed to make portal
+[09/17/20 20:11:30] D2BS 11144: Failed to make portal
+[09/17/20 20:11:46] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:47] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:47] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:48] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:48] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:49] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:50] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:50] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:51] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:52] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:53] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:54] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:54] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:55] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:56] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:56] D2BS 11144: ÿc7Picked up ÿc42 Gold
+[09/17/20 20:11:56] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:56] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:56] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:56] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:57] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:58] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:58] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:58] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:59] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:59] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:11:59] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:00] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:00] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:00] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:00] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:02] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:04] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:07] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:07] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:08] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:08] D2BS 11144: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:12:08] D2BS 11144: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 20:12:08] D2BS 11144: AutoBuild: useSkillPoint(): Howl (130)
+[09/17/20 20:12:08] D2BS 11144: AutoBuild: Skill (1/1) Increased Howl (130) by one (level:  1)
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: Stat (1/5) Increased Strength from 30 to 31
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: Stat (2/5) Increased Vitality from 25 to 26
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:12:09] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: Stat (3/5) Increased Vitality from 26 to 27
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: Stat (4/5) Increased Vitality from 27 to 28
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: Stat (5/5) Increased Vitality from 28 to 29
+[09/17/20 20:12:09] D2BS 11144: Updating Config from level 1 to 2
+[09/17/20 20:12:09] D2BS 11144: Updating Config from level 1 to 2
+[09/17/20 20:12:09] D2BS 11144: Updating Config from level 1 to 2
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 20:12:09] D2BS 11144: Updating Config from level 1 to 2
+[09/17/20 20:12:09] D2BS 11144: AutoBuild: Incrementing cached character level to 2
+[09/17/20 20:12:10] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:11] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:11] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:11] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:11] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:12] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:12] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:12] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:13] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:13] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:13] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:13] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:13] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:13] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:14] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:14] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:14] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:14] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:14] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:15] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:15] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:15] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:15] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:18] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:18] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:18] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:20] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:20] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:20] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:20] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:20] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:20] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:21] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:21] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:21] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:21] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:21] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:21] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:25] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:25] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:26] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:26] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:27] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:28] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:28] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:28] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:28] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:28] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:28] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:29] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:29] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:29] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:29] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:29] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:30] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:31] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:31] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:31] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:31] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:31] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:31] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:31] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:32] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:32] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:32] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:32] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:33] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:33] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:33] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:33] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:33] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:33] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:34] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:34] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:34] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:34] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:34] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:34] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:35] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:35] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:35] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:36] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:36] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:36] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:36] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:36] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:36] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:37] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:37] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:37] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:37] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:37] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:38] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:38] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:38] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:38] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:38] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:38] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:38] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:39] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:39] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:39] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:39] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:40] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:40] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:40] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:43] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:43] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:44] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:44] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:46] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:46] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:47] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:48] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:48] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:49] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:49] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:50] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:51] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:53] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:53] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:54] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:56] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:57] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:57] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:58] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:59] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:12:59] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:00] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Stat (1/5) Increased Strength from 31 to 32
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:13:01] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Stat (2/5) Increased Vitality from 29 to 30
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Stat (3/5) Increased Vitality from 30 to 31
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Stat (4/5) Increased Vitality from 31 to 32
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Stat (5/5) Increased Vitality from 32 to 33
+[09/17/20 20:13:01] D2BS 11144: Updating Config from level 2 to 3
+[09/17/20 20:13:01] D2BS 11144: Updating Config from level 2 to 3
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 20:13:01] D2BS 11144: Updating Config from level 2 to 3
+[09/17/20 20:13:01] D2BS 11144: Updating Config from level 2 to 3
+[09/17/20 20:13:01] D2BS 11144: AutoBuild: Incrementing cached character level to 3
+[09/17/20 20:13:02] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:02] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:02] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:03] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:04] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:04] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:04] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:04] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:05] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:06] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:07] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:07] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:07] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:07] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:08] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:08] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:08] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:10] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:11] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:12] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:12] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:13] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:14] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:15] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:15] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:16] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:17] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:17] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:18] D2BS 11144: move retry 1
+[09/17/20 20:13:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:19] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:21] D2BS 11144: move retry 1
+[09/17/20 20:13:23] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:24] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:24] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:25] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:26] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:27] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:27] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:28] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:28] D2BS 11144: ÿc7Picked up ÿc42 Gold
+[09/17/20 20:13:29] D2BS 11144: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 20:13:31] D2BS 11144: move retry 1
+[09/17/20 20:13:37] D2BS 11144: ÿc7Picked up ÿc41 Gold
+[09/17/20 20:14:21] D2BS 11144: ÿc7Picked up ÿc3Ring ÿc0(ilvl 1) (Singer.xpac.nip #95)
+[09/17/20 20:14:30] D2BS 11144: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 20:14:32] D2BS 11144: move retry 1
+[09/17/20 20:14:34] D2BS 11144: ÿc7Picked up ÿc41 Gold
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Stat points: 5      Skill points: 2
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Level up detected ( 3 --> 4 )
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Stat (1/5) Increased Strength from 32 to 33
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Stat (2/5) Increased Vitality from 33 to 34
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Stat (3/5) Increased Vitality from 34 to 35
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Stat (4/5) Increased Vitality from 35 to 36
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Stat (5/5) Increased Vitality from 36 to 37
+[09/17/20 20:14:42] D2BS 11144: Updating Config from level 3 to 4
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Updating Config from level 3 to 4
+[09/17/20 20:14:42] D2BS 11144: Updating Config from level 3 to 4
+[09/17/20 20:14:42] D2BS 11144: Updating Config from level 3 to 4
+[09/17/20 20:14:42] D2BS 11144: Updating Config from level 3 to 4
+[09/17/20 20:14:42] D2BS 11144: AutoBuild: Incrementing cached character level to 4
+[09/17/20 20:14:46] D2BS 11144: move retry 1
+[09/17/20 20:15:39] D2BS 11144: move retry 1
+[09/17/20 20:15:49] D2BS 11144: ÿc7Picked up ÿc42 Gold
+[09/17/20 20:15:50] D2BS 11144: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 20:16:15] D2BS 11144: ÿc7Picked up ÿc45 Gold
+[09/17/20 20:16:40] D2BS 11144: ÿc7Picked up ÿc44 Gold
+[09/17/20 20:16:53] D2BS 11144: move retry 1
+[09/17/20 20:16:54] D2BS 11144: move retry 2
+[09/17/20 20:16:59] D2BS 11144: move retry 1
+[09/17/20 20:17:02] D2BS 11144: 8
+[09/17/20 20:17:32] D2BS 11144: move retry 1
+[09/17/20 20:17:51] D2BS 11144: move retry 1
+[09/17/20 20:18:30] D2BS 11144: move retry 1
+[09/17/20 20:18:31] D2BS 11144: move retry 2
+[09/17/20 20:18:59] D2BS 11144: 8
+[09/17/20 20:19:19] D2BS 11144: move retry 1
+[09/17/20 20:20:54] D2BS 11144: 8
+[09/17/20 20:21:41] D2BS 11144: move retry 1
+[09/17/20 20:22:27] D2BS 11144: move retry 1
+[09/17/20 20:22:45] D2BS 11144: move retry 1
+[09/17/20 20:23:35] D2BS 11144: 8
+[09/17/20 20:24:48] D2BS 11144: move retry 1
+[09/17/20 20:24:54] D2BS 11144: move retry 1
+[09/17/20 20:24:56] D2BS 11144: move retry 2
+[09/17/20 20:24:59] D2BS 11144: move retry 3
+[09/17/20 20:25:20] D2BS 11144: move retry 1
+[09/17/20 20:25:55] D2BS 11144: 8
+[09/17/20 20:25:57] D2BS 11144: move retry 1
+[09/17/20 20:25:59] D2BS 11144: move retry 2
+[09/17/20 20:26:59] D2BS 11144: move retry 1
+[09/17/20 20:27:05] D2BS 11144: move retry 1
+[09/17/20 20:27:22] D2BS 11144: move retry 1
+[09/17/20 20:28:35] D2BS 11144: 8
+[09/17/20 20:29:00] D2BS 11144: move retry 1
+[09/17/20 20:29:25] D2BS 11144: move retry 1
+[09/17/20 20:29:26] D2BS 11144: move retry 2
+[09/17/20 20:30:33] D2BS 11144: 8
+[09/17/20 20:30:35] D2BS 11144: move retry 1
+[09/17/20 20:31:42] D2BS 11144: move retry 1
+[09/17/20 20:31:49] D2BS 11144: move retry 1
+[09/17/20 20:32:06] D2BS 11144: move retry 1
+[09/17/20 20:32:32] D2BS 11144: 8
+[09/17/20 20:34:19] D2BS 11144: move retry 1
+[09/17/20 20:35:07] D2BS 11144: 8
+[09/17/20 20:35:11] D2BS 11144: move retry 1
+[09/17/20 20:35:22] D2BS 11144: move retry 1
+[09/17/20 20:36:01] D2BS 11144: move retry 1
+[09/17/20 20:36:02] D2BS 11144: move retry 2
+[09/17/20 20:37:19] D2BS 11144: move retry 1
+[09/17/20 20:37:32] D2BS 11144: 8
+[09/17/20 20:38:26] D2BS 11144: move retry 1
+[09/17/20 20:38:37] D2BS 11144: move retry 1
+[09/17/20 20:38:45] D2BS 11144: move retry 1
+[09/17/20 20:39:01] D2BS 11144: move retry 1
+[09/17/20 20:39:14] D2BS 11144: move retry 2
+[09/17/20 20:44:29] D2BS 14676: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:44:29] D2BS 14676: Singer
+[09/17/20 20:44:29] D2BS 14676: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 20:44:29] D2BS 14676: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:44:29] D2BS 14676: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 20:44:29] D2BS 14676: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 20:44:29] D2BS 14676: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:44:33] D2BS 14676: Heartbeat loaded
+[09/17/20 20:44:34] D2BS 14676: 0
+[09/17/20 20:44:35] D2BS 14676: 0
+[09/17/20 20:44:36] D2BS 14676: 0
+[09/17/20 20:44:37] D2BS 14676: 0
+[09/17/20 20:44:38] D2BS 14676: 0
+[09/17/20 20:44:39] D2BS 14676: 39
+[09/17/20 20:44:41] D2BS 14676: 40
+[09/17/20 20:44:42] D2BS 14676: 12
+[09/17/20 20:44:45] D2BS 14676: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:44:45] D2BS 14676: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:44:45] D2BS 14676: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 20:44:45] D2BS 14676: Updating Config from level 0 to 1
+[09/17/20 20:44:45] D2BS 14676: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 20:44:45] D2BS 14676: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:44:45] D2BS 14676: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:44:45] D2BS 14676: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 20:44:45] D2BS 14676: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[09/17/20 20:44:45] D2BS 14676: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:44:45] D2BS 14676: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 20:44:45] D2BS 14676: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:44:45] D2BS 14676: Updating Config from level 0 to 1
+[09/17/20 20:44:45] D2BS 14676: AutoBuild: Loaded helper thread
+[09/17/20 20:44:46] D2BS 14676: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 20:44:46] D2BS 14676: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 20:44:46] D2BS 14676: Updating Config from level 0 to 1
+[09/17/20 20:44:46] D2BS 14676: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 20:44:46] D2BS 14676: ÿc3Start ToolsThread script
+[09/17/20 20:44:46] D2BS 14676: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 20:44:46] D2BS 14676: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 20:44:46] D2BS 14676: Updating Config from level 0 to 1
+[09/17/20 20:44:46] D2BS 14676: Updating Config from level 0 to 1
+[09/17/20 20:44:46] D2BS 14676: Updating Status
+[09/17/20 20:44:56] D2BS 14676: 1,2
+[09/17/20 20:45:03] D2BS 4080: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:45:03] D2BS 4080: Singer
+[09/17/20 20:45:03] D2BS 4080: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 20:45:03] D2BS 4080: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:45:03] D2BS 4080: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 20:45:03] D2BS 4080: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 20:45:03] D2BS 4080: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:45:05] D2BS 4080: Heartbeat loaded
+[09/17/20 20:45:06] D2BS 4080: 0
+[09/17/20 20:45:07] D2BS 4080: 0
+[09/17/20 20:45:08] D2BS 4080: 0
+[09/17/20 20:45:09] D2BS 4080: 0
+[09/17/20 20:45:10] D2BS 4080: 0
+[09/17/20 20:45:11] D2BS 4080: 0
+[09/17/20 20:45:12] D2BS 4080: 0
+[09/17/20 20:45:13] D2BS 4080: 39
+[09/17/20 20:45:15] D2BS 4080: 40
+[09/17/20 20:45:16] D2BS 4080: 12
+[09/17/20 20:45:19] D2BS 4080: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:45:19] D2BS 4080: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:45:19] D2BS 4080: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 20:45:19] D2BS 4080: Updating Config from level 0 to 1
+[09/17/20 20:45:19] D2BS 4080: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:19] D2BS 4080: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:19] D2BS 4080: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:19] D2BS 4080: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:19] D2BS 4080: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[09/17/20 20:45:19] D2BS 4080: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:19] D2BS 4080: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:45:19] D2BS 4080: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 20:45:19] D2BS 4080: Updating Config from level 0 to 1
+[09/17/20 20:45:19] D2BS 4080: AutoBuild: Loaded helper thread
+[09/17/20 20:45:20] D2BS 4080: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 20:45:20] D2BS 4080: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 20:45:20] D2BS 4080: Updating Config from level 0 to 1
+[09/17/20 20:45:20] D2BS 4080: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 20:45:20] D2BS 4080: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 20:45:20] D2BS 4080: ÿc3Start ToolsThread script
+[09/17/20 20:45:20] D2BS 4080: Updating Config from level 0 to 1
+[09/17/20 20:45:20] D2BS 4080: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 20:45:20] D2BS 4080: Updating Config from level 0 to 1
+[09/17/20 20:45:20] D2BS 4080: Updating Status
+[09/17/20 20:45:30] D2BS 4080: 1,2
+[09/17/20 20:45:40] D2BS 4080: Failed to make portal
+[09/17/20 20:46:01] D2BS 4080: Failed to make portal
+[09/17/20 20:46:11] D2BS 4080: ÿc7Picked up ÿc43 Gold
+[09/17/20 20:46:12] D2BS 4080: move retry 1
+[09/17/20 20:46:14] D2BS 4080: move retry 1
+[09/17/20 20:46:25] D2BS 4080: ÿc7Picked up ÿc42 Gold
+[09/17/20 20:46:48] D2BS 4080: ÿc7Picked up ÿc44 Gold
+[09/17/20 20:46:50] D2BS 4080: move retry 1
+[09/17/20 20:46:52] D2BS 4080: move retry 2
+[09/17/20 20:46:54] D2BS 4080: move retry 1
+[09/17/20 20:46:55] D2BS 4080: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:46:55] D2BS 4080: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 20:46:55] D2BS 4080: AutoBuild: useSkillPoint(): Howl (130)
+[09/17/20 20:46:55] D2BS 4080: AutoBuild: Skill (1/1) Increased Howl (130) by one (level:  1)
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: Stat (1/5) Increased Strength from 30 to 31
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: Stat (2/5) Increased Vitality from 25 to 26
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: Stat (3/5) Increased Vitality from 26 to 27
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: Stat (4/5) Increased Vitality from 27 to 28
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: Stat (5/5) Increased Vitality from 28 to 29
+[09/17/20 20:46:56] D2BS 4080: Updating Config from level 1 to 2
+[09/17/20 20:46:56] D2BS 4080: Updating Config from level 1 to 2
+[09/17/20 20:46:56] D2BS 4080: Updating Config from level 1 to 2
+[09/17/20 20:46:56] D2BS 4080: Updating Config from level 1 to 2
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 20:46:56] D2BS 4080: AutoBuild: Incrementing cached character level to 2
+[09/17/20 20:47:27] D2BS 4080: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 20:47:27] D2BS 4080: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 20:47:27] D2BS 4080: AutoBuild: useStatPoint(0): Strength
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: Stat (1/5) Increased Strength from 31 to 32
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: Stat (2/5) Increased Vitality from 29 to 30
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: Stat (3/5) Increased Vitality from 30 to 31
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: Stat (4/5) Increased Vitality from 31 to 32
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: Stat (5/5) Increased Vitality from 32 to 33
+[09/17/20 20:47:28] D2BS 4080: Updating Config from level 2 to 3
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 20:47:28] D2BS 4080: Updating Config from level 2 to 3
+[09/17/20 20:47:28] D2BS 4080: Updating Config from level 2 to 3
+[09/17/20 20:47:28] D2BS 4080: Updating Config from level 2 to 3
+[09/17/20 20:47:28] D2BS 4080: AutoBuild: Incrementing cached character level to 3
+[09/17/20 20:47:37] D2BS 4080: move retry 1
+[09/17/20 20:48:15] D2BS 4080: move retry 1
+[09/17/20 20:48:19] D2BS 4080: ÿc7Picked up ÿc46 Gold
+[09/17/20 20:48:20] D2BS 4080: move retry 1
+[09/17/20 20:48:34] D2BS 4080: move retry 1
+[09/17/20 20:48:35] D2BS 4080: move retry 2
+[09/17/20 20:48:47] D2BS 4080: move retry 1
+[09/17/20 20:48:49] D2BS 4080: move retry 2
+[09/17/20 20:48:51] D2BS 4080: move retry 3
+[09/17/20 20:49:40] D2BS 4080: ÿc1Pausing.
+[09/17/20 20:55:38] D2BS 4080: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc00 ÿc3CR: ÿc00 ÿc9LR: ÿc00 ÿc2PR: ÿc00
+[09/17/20 20:55:38] D2BS 4080: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[09/17/20 20:55:38] D2BS 4080: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[09/17/20 20:55:57] D2BS 15304: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:55:57] D2BS 15304: Singer
+[09/17/20 20:55:57] D2BS 15304: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 20:55:57] D2BS 15304: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:55:57] D2BS 15304: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 20:55:57] D2BS 15304: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 20:55:57] D2BS 15304: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:56:02] D2BS 15304: Heartbeat loaded
+[09/17/20 20:56:02] D2BS 15304: 0
+[09/17/20 20:56:03] D2BS 15304: 0
+[09/17/20 20:56:04] D2BS 15304: 0
+[09/17/20 20:56:05] D2BS 15304: 0
+[09/17/20 20:56:07] D2BS 15304: 39
+[09/17/20 20:56:08] D2BS 15304: 40
+[09/17/20 20:56:09] D2BS 15304: 12
+[09/17/20 20:56:13] D2BS 15304: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:56:13] D2BS 15304: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:56:13] D2BS 15304: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 20:56:13] D2BS 15304: Updating Config from level 0 to 3
+[09/17/20 20:56:13] D2BS 15304: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:13] D2BS 15304: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:13] D2BS 15304: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:13] D2BS 15304: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:13] D2BS 15304: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[09/17/20 20:56:13] D2BS 15304: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:13] D2BS 15304: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:13] D2BS 15304: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 20:56:13] D2BS 15304: Updating Config from level 0 to 3
+[09/17/20 20:56:13] D2BS 15304: AutoBuild: Loaded helper thread
+[09/17/20 20:56:13] D2BS 15304: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 20:56:13] D2BS 15304: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 20:56:13] D2BS 15304: Updating Config from level 0 to 3
+[09/17/20 20:56:13] D2BS 15304: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 20:56:13] D2BS 15304: ÿc3Start ToolsThread script
+[09/17/20 20:56:13] D2BS 15304: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 20:56:13] D2BS 15304: Updating Config from level 0 to 3
+[09/17/20 20:56:13] D2BS 15304: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 20:56:13] D2BS 15304: Updating Config from level 0 to 3
+[09/17/20 20:56:13] D2BS 15304: Updating Status
+[09/17/20 20:56:37] D2BS 1652: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:56:37] D2BS 1652: Singer
+[09/17/20 20:56:37] D2BS 1652: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 20:56:37] D2BS 1652: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:56:37] D2BS 1652: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 20:56:37] D2BS 1652: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 20:56:37] D2BS 1652: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:56:42] D2BS 1652: Heartbeat loaded
+[09/17/20 20:56:42] D2BS 1652: 0
+[09/17/20 20:56:43] D2BS 1652: 0
+[09/17/20 20:56:44] D2BS 1652: 0
+[09/17/20 20:56:45] D2BS 1652: 0
+[09/17/20 20:56:47] D2BS 1652: 39
+[09/17/20 20:56:48] D2BS 1652: 40
+[09/17/20 20:56:49] D2BS 1652: 12
+[09/17/20 20:56:52] D2BS 1652: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:56:52] D2BS 1652: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:56:52] D2BS 1652: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 20:56:52] D2BS 1652: Updating Config from level 0 to 1
+[09/17/20 20:56:52] D2BS 1652: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:52] D2BS 1652: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:52] D2BS 1652: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:52] D2BS 1652: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:52] D2BS 1652: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[09/17/20 20:56:52] D2BS 1652: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:52] D2BS 1652: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:56:52] D2BS 1652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 20:56:52] D2BS 1652: Updating Config from level 0 to 1
+[09/17/20 20:56:52] D2BS 1652: AutoBuild: Loaded helper thread
+[09/17/20 20:56:53] D2BS 1652: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 20:56:53] D2BS 1652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 20:56:53] D2BS 1652: Updating Config from level 0 to 1
+[09/17/20 20:56:53] D2BS 1652: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 20:56:53] D2BS 1652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 20:56:53] D2BS 1652: ÿc3Start ToolsThread script
+[09/17/20 20:56:53] D2BS 1652: Updating Config from level 0 to 1
+[09/17/20 20:56:53] D2BS 1652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 20:56:53] D2BS 1652: Updating Config from level 0 to 1
+[09/17/20 20:56:53] D2BS 1652: Updating Status
+[09/17/20 20:57:01] D2BS 1652: ÿc1Pausing.
+[09/17/20 20:57:41] D2BS 1640: D2BS Engine startup complete. 1.6.4U
+[09/17/20 20:57:41] D2BS 1640: Singer
+[09/17/20 20:57:41] D2BS 1640: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 20:57:41] D2BS 1640: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 20:57:41] D2BS 1640: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 20:57:41] D2BS 1640: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 20:57:41] D2BS 1640: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 20:57:43] D2BS 1640: Heartbeat loaded
+[09/17/20 20:57:44] D2BS 1640: 0
+[09/17/20 20:57:45] D2BS 1640: 0
+[09/17/20 20:57:46] D2BS 1640: 0
+[09/17/20 20:57:47] D2BS 1640: 0
+[09/17/20 20:57:48] D2BS 1640: 0
+[09/17/20 20:57:49] D2BS 1640: 0
+[09/17/20 20:57:50] D2BS 1640: 0
+[09/17/20 20:57:51] D2BS 1640: 39
+[09/17/20 20:57:53] D2BS 1640: 40
+[09/17/20 20:57:54] D2BS 1640: 12
+[09/17/20 20:57:57] D2BS 1640: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 20:57:57] D2BS 1640: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 20:57:57] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 20:57:57] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 20:57:57] D2BS 1640: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 20:57:57] D2BS 1640: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 20:57:57] D2BS 1640: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 20:57:57] D2BS 1640: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 20:57:57] D2BS 1640: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[09/17/20 20:57:57] D2BS 1640: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 20:57:57] D2BS 1640: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 20:57:57] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 20:57:57] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 20:57:57] D2BS 1640: AutoBuild: Loaded helper thread
+[09/17/20 20:57:57] D2BS 1640: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 20:57:57] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 20:57:57] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 20:57:57] D2BS 1640: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 20:57:57] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 20:57:57] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 20:57:57] D2BS 1640: ÿc3Start ToolsThread script
+[09/17/20 20:57:57] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 20:57:57] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 20:57:58] D2BS 1640: Updating Status
+[09/17/20 20:58:08] D2BS 1640: 1,2
+[09/17/20 20:58:09] D2BS 1640: move retry 1
+[09/17/20 20:58:18] D2BS 1640: Failed to make portal
+[09/17/20 20:58:39] D2BS 1640: Failed to make portal
+[09/17/20 20:58:56] D2BS 1640: ÿc1Pausing.
+[09/17/20 21:00:10] D2BS 1640: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc00 ÿc3CR: ÿc00 ÿc9LR: ÿc00 ÿc2PR: ÿc00
+[09/17/20 21:00:10] D2BS 1640: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[09/17/20 21:00:10] D2BS 1640: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[09/17/20 21:00:11] D2BS 1640: ÿc2D2BSÿc0 :: Stopping all scripts
+[09/17/20 21:00:11] D2BS 1640: Script d2botlanlead.dbj ended
+[09/17/20 21:00:11] D2BS 1640: Script default.dbj ended
+[09/17/20 21:00:11] D2BS 1640: Script tools\autobuildthread.js ended
+[09/17/20 21:00:11] D2BS 1640: Script tools\heartbeat.js ended
+[09/17/20 21:00:11] D2BS 1640: Script tools\party.js ended
+[09/17/20 21:00:11] D2BS 1640: Script tools\toolsthread.js ended
+[09/17/20 21:00:11] D2BS 1640: Script tools\townchicken.js ended
+[09/17/20 21:00:12] D2BS 1640: ÿc2D2BSÿc0 :: Started default.dbj
+[09/17/20 21:00:12] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 21:00:12] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:12] D2BS 1640: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 21:00:12] D2BS 1640: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:12] D2BS 1640: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:12] D2BS 1640: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:12] D2BS 1640: Heartbeat loaded
+[09/17/20 21:00:12] D2BS 1640: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:12] D2BS 1640: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:12] D2BS 1640: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc216 ms
+[09/17/20 21:00:12] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 21:00:12] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:12] D2BS 1640: AutoBuild: Loaded helper thread
+[09/17/20 21:00:12] D2BS 1640: ÿc1Error in ÿc0LevelLeader ÿc1(pather.js line ÿc11045): ÿc1makePortal: No TP tomes.
+[09/17/20 21:00:12] D2BS 1640: Error: makePortal: No TP tomes.
+[09/17/20 21:00:12] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 21:00:12] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:12] D2BS 1640: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 21:00:12] D2BS 1640: ÿc3Start ToolsThread script
+[09/17/20 21:00:12] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 21:00:12] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 21:00:12] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:12] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:25] D2BS 1640: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc00 ÿc3CR: ÿc00 ÿc9LR: ÿc00 ÿc2PR: ÿc00
+[09/17/20 21:00:25] D2BS 1640: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[09/17/20 21:00:25] D2BS 1640: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[09/17/20 21:00:26] D2BS 1640: ÿc2D2BSÿc0 :: Stopping all scripts
+[09/17/20 21:00:26] D2BS 1640: Script tools\autobuildthread.js ended
+[09/17/20 21:00:26] D2BS 1640: Script tools\heartbeat.js ended
+[09/17/20 21:00:26] D2BS 1640: Script tools\party.js ended
+[09/17/20 21:00:26] D2BS 1640: Script tools\toolsthread.js ended
+[09/17/20 21:00:26] D2BS 1640: Script tools\townchicken.js ended
+[09/17/20 21:00:27] D2BS 1640: ÿc2D2BSÿc0 :: Started default.dbj
+[09/17/20 21:00:27] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 21:00:27] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:27] D2BS 1640: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:27] D2BS 1640: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:27] D2BS 1640: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:27] D2BS 1640: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:27] D2BS 1640: Heartbeat loaded
+[09/17/20 21:00:27] D2BS 1640: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[09/17/20 21:00:27] D2BS 1640: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:27] D2BS 1640: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:00:27] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 21:00:27] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:27] D2BS 1640: AutoBuild: Loaded helper thread
+[09/17/20 21:00:27] D2BS 1640: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 21:00:27] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 21:00:27] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:27] D2BS 1640: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 21:00:27] D2BS 1640: ÿc3Start ToolsThread script
+[09/17/20 21:00:27] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 21:00:27] D2BS 1640: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 21:00:27] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:27] D2BS 1640: Updating Config from level 0 to 1
+[09/17/20 21:00:40] D2BS 1640: 1,2
+[09/17/20 21:00:49] D2BS 1640: Failed to make portal
+[09/17/20 21:01:10] D2BS 1640: Failed to make portal
+[09/17/20 21:01:30] D2BS 1640: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 1) (LateGame.nip #29)
+[09/17/20 21:01:45] D2BS 1640: ÿc1Pausing.
+[09/17/20 21:03:19] D2BS 1640: Script default.dbj ended
+[09/17/20 21:03:19] D2BS 1640: Script tools\autobuildthread.js ended
+[09/17/20 21:03:19] D2BS 1640: Script tools\heartbeat.js ended
+[09/17/20 21:03:19] D2BS 1640: Script tools\party.js ended
+[09/17/20 21:03:19] D2BS 1640: Script tools\toolsthread.js ended
+[09/17/20 21:03:19] D2BS 1640: Script tools\townchicken.js ended
+[09/17/20 21:03:32] D2BS 1640: D2BS Shutdown complete.
+[09/17/20 21:03:33] D2BS 5556: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:03:33] D2BS 5556: Singer
+[09/17/20 21:03:33] D2BS 5556: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 21:03:33] D2BS 5556: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:03:33] D2BS 5556: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 21:03:33] D2BS 5556: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 21:03:33] D2BS 5556: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:03:35] D2BS 5556: Heartbeat loaded
+[09/17/20 21:03:39] D2BS 5556: 0
+[09/17/20 21:03:40] D2BS 5556: 0
+[09/17/20 21:03:41] D2BS 5556: 0
+[09/17/20 21:03:42] D2BS 5556: 39
+[09/17/20 21:03:44] D2BS 5556: 40
+[09/17/20 21:03:45] D2BS 5556: 12
+[09/17/20 21:03:48] D2BS 5556: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:03:48] D2BS 5556: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:03:48] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 21:03:48] D2BS 5556: Updating Config from level 0 to 1
+[09/17/20 21:03:48] D2BS 5556: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 21:03:48] D2BS 5556: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:03:48] D2BS 5556: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:03:48] D2BS 5556: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 21:03:48] D2BS 5556: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[09/17/20 21:03:48] D2BS 5556: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:03:48] D2BS 5556: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:03:48] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 21:03:48] D2BS 5556: Updating Config from level 0 to 1
+[09/17/20 21:03:48] D2BS 5556: AutoBuild: Loaded helper thread
+[09/17/20 21:03:48] D2BS 5556: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 21:03:48] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 21:03:48] D2BS 5556: Updating Config from level 0 to 1
+[09/17/20 21:03:48] D2BS 5556: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 21:03:48] D2BS 5556: ÿc3Start ToolsThread script
+[09/17/20 21:03:48] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 21:03:48] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 21:03:48] D2BS 5556: Updating Config from level 0 to 1
+[09/17/20 21:03:48] D2BS 5556: Updating Config from level 0 to 1
+[09/17/20 21:03:49] D2BS 5556: Updating Status
+[09/17/20 21:03:57] D2BS 5556: initNPC: heal
+[09/17/20 21:04:06] D2BS 5556: initNPC: identify
+[09/17/20 21:04:07] D2BS 5556: ÿc4MiniShopBotÿc0: Scanning 42 items.
+[09/17/20 21:04:12] D2BS 5556: 1,2
+[09/17/20 21:04:22] D2BS 5556: Failed to make portal
+[09/17/20 21:04:43] D2BS 5556: Failed to make portal
+[09/17/20 21:04:51] D2BS 5556: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 21:04:51] D2BS 5556: ÿc7Picked up ÿc41 Gold
+[09/17/20 21:04:59] D2BS 5556: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: useSkillPoint(): Howl (130)
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: Skill (1/1) Increased Howl (130) by one (level:  1)
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: Stat (1/5) Increased Strength from 30 to 31
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: Stat (2/5) Increased Vitality from 25 to 26
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: Stat (3/5) Increased Vitality from 26 to 27
+[09/17/20 21:05:01] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:05:02] D2BS 5556: AutoBuild: Stat (4/5) Increased Vitality from 27 to 28
+[09/17/20 21:05:02] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:05:02] D2BS 5556: AutoBuild: Stat (5/5) Increased Vitality from 28 to 29
+[09/17/20 21:05:02] D2BS 5556: Updating Config from level 1 to 2
+[09/17/20 21:05:02] D2BS 5556: Updating Config from level 1 to 2
+[09/17/20 21:05:02] D2BS 5556: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 21:05:02] D2BS 5556: Updating Config from level 1 to 2
+[09/17/20 21:05:02] D2BS 5556: Updating Config from level 1 to 2
+[09/17/20 21:05:02] D2BS 5556: AutoBuild: Incrementing cached character level to 2
+[09/17/20 21:05:08] D2BS 5556: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:05:14] D2BS 5556: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:05:22] D2BS 5556: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:05:27] D2BS 5556: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:05:27] D2BS 5556: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:05:31] D2BS 5556: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:05:40] D2BS 5556: ÿc1Pausing.
+[09/17/20 21:07:06] D2BS 5556: Script default.dbj ended
+[09/17/20 21:07:06] D2BS 5556: Script tools\autobuildthread.js ended
+[09/17/20 21:07:06] D2BS 5556: Script tools\party.js ended
+[09/17/20 21:07:06] D2BS 5556: Script tools\toolsthread.js ended
+[09/17/20 21:07:06] D2BS 5556: Script tools\townchicken.js ended
+[09/17/20 21:07:08] D2BS 5556: 12
+[09/17/20 21:07:11] D2BS 5556: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:07:11] D2BS 5556: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:07:11] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 21:07:11] D2BS 5556: Updating Config from level 0 to 2
+[09/17/20 21:07:11] D2BS 5556: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:11] D2BS 5556: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:11] D2BS 5556: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:11] D2BS 5556: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:11] D2BS 5556: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[09/17/20 21:07:11] D2BS 5556: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:11] D2BS 5556: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:07:11] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 21:07:11] D2BS 5556: Updating Config from level 0 to 2
+[09/17/20 21:07:11] D2BS 5556: AutoBuild: Loaded helper thread
+[09/17/20 21:07:11] D2BS 5556: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 21:07:11] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 21:07:11] D2BS 5556: Updating Config from level 0 to 2
+[09/17/20 21:07:11] D2BS 5556: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 21:07:11] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 21:07:11] D2BS 5556: ÿc3Start ToolsThread script
+[09/17/20 21:07:11] D2BS 5556: Updating Config from level 0 to 2
+[09/17/20 21:07:11] D2BS 5556: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 21:07:11] D2BS 5556: Updating Config from level 0 to 2
+[09/17/20 21:07:20] D2BS 5556: initNPC: identify
+[09/17/20 21:07:25] D2BS 5556: ÿc4MiniShopBotÿc0: Scanning 45 items.
+[09/17/20 21:07:30] D2BS 5556: 1,2
+[09/17/20 21:07:39] D2BS 5556: Failed to make portal
+[09/17/20 21:08:00] D2BS 5556: Failed to make portal
+[09/17/20 21:08:13] D2BS 5556: ÿc1Pausing.
+[09/17/20 21:08:44] D2BS 5556: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:08:44] D2BS 5556: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 21:08:44] D2BS 5556: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:08:44] D2BS 5556: AutoBuild: Stat (1/5) Increased Strength from 31 to 32
+[09/17/20 21:08:44] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: Stat (2/5) Increased Vitality from 29 to 30
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: Stat (3/5) Increased Vitality from 30 to 31
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: Stat (4/5) Increased Vitality from 31 to 32
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: Stat (5/5) Increased Vitality from 32 to 33
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 21:08:45] D2BS 5556: Updating Config from level 2 to 3
+[09/17/20 21:08:45] D2BS 5556: AutoBuild: Incrementing cached character level to 3
+[09/17/20 21:08:50] D2BS 5556: ÿc2Resuming.
+[09/17/20 21:08:53] D2BS 5556: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:08:53] D2BS 5556: ÿc7Picked up ÿc41 Gold
+[09/17/20 21:08:55] D2BS 5556: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 21:08:55] D2BS 5556: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:08:55] D2BS 5556: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:08:55] D2BS 5556: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 21:09:03] D2BS 5556: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:09:03] D2BS 5556: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:09:08] D2BS 5556: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:09:45] D2BS 5556: ÿc1Pausing.
+[09/17/20 21:12:09] D2BS 652: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:12:09] D2BS 652: Singer
+[09/17/20 21:12:09] D2BS 652: ÿc2D2BSÿc0 :: Switched to profile Singer
+[09/17/20 21:12:09] D2BS 652: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:12:09] D2BS 652: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[09/17/20 21:12:09] D2BS 652: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[09/17/20 21:12:09] D2BS 652: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:12:11] D2BS 652: Heartbeat loaded
+[09/17/20 21:12:12] D2BS 652: 0
+[09/17/20 21:12:13] D2BS 652: 0
+[09/17/20 21:12:14] D2BS 652: 0
+[09/17/20 21:12:15] D2BS 652: 0
+[09/17/20 21:12:16] D2BS 652: 0
+[09/17/20 21:12:17] D2BS 652: 0
+[09/17/20 21:12:18] D2BS 652: 0
+[09/17/20 21:12:19] D2BS 652: 0
+[09/17/20 21:12:20] D2BS 652: 39
+[09/17/20 21:12:21] D2BS 652: 40
+[09/17/20 21:12:23] D2BS 652: 12
+[09/17/20 21:12:26] D2BS 652: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:12:26] D2BS 652: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:12:26] D2BS 652: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/17/20 21:12:26] D2BS 652: Updating Config from level 0 to 1
+[09/17/20 21:12:26] D2BS 652: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:26] D2BS 652: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc216 ms
+[09/17/20 21:12:26] D2BS 652: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:26] D2BS 652: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:26] D2BS 652: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:26] D2BS 652: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:26] D2BS 652: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:26] D2BS 652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/17/20 21:12:26] D2BS 652: Updating Config from level 0 to 1
+[09/17/20 21:12:26] D2BS 652: AutoBuild: Loaded helper thread
+[09/17/20 21:12:26] D2BS 652: ÿc2Starting script: ÿc9LevelLeader
+[09/17/20 21:12:26] D2BS 652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/17/20 21:12:26] D2BS 652: Updating Config from level 0 to 1
+[09/17/20 21:12:26] D2BS 652: ÿc2Party thread loaded. Mode: Invite
+[09/17/20 21:12:26] D2BS 652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/17/20 21:12:26] D2BS 652: ÿc3Start ToolsThread script
+[09/17/20 21:12:26] D2BS 652: Updating Config from level 0 to 1
+[09/17/20 21:12:26] D2BS 652: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/17/20 21:12:26] D2BS 652: Updating Config from level 0 to 1
+[09/17/20 21:12:27] D2BS 652: Updating Status
+[09/17/20 21:12:37] D2BS 652: 1,2
+[09/17/20 21:12:46] D2BS 652: Failed to make portal
