@@ -1047,7 +1047,9 @@ function LevelLeader(){
 				}catch(err){
 					print("Failed to make portal");
 				}
-				if(LevelArea<LevelingAreas[ActNumber].length-1 && !FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
+				say(!(FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1));
+				say((FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1));
+				if(LevelArea<LevelingAreas[ActNumber].length-1 && !(FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1)){
 					say("Clearing to "+Pather.getAreaName(LevelingAreas[ActNumber][LevelArea+1]));
 					clearToNextArea(LevelingAreas[ActNumber][LevelArea],LevelingAreas[ActNumber][LevelArea+1]);
 				}else{
