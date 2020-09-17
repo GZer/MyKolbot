@@ -4260,3 +4260,788 @@ BSÿc0 :: D2BotLanFollow.dbj running.
 [09/17/20 21:37:47] D2BS 1120: Updating Config from level 0 to 1
 [09/17/20 21:37:47] D2BS 1120: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
 [09/17/20 21:37:47] D2BS 1120: Updating Config from level 0 to 1
+[09/17/20 21:38:40] D2BS 14344: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:38:40] D2BS 14344: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/17/20 21:38:40] D2BS 14344: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:38:40] D2BS 14344: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:38:40] D2BS 14344: Wind
+BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:38:40] D2BS 14344: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:38:44] D2BS 14344: Heartbeat loaded
+[09/17/20 21:39:01] D2BS 14344: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:39:01] D2BS 14344: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:39:01] D2BS 14344: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/17/20 21:39:01] D2BS 14344: Updating Config from level 0 to 1
+[09/17/20 21:39:01] D2BS 14344: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:39:01] D2BS 14344: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:39:01] D2BS 14344: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:39:01] D2BS 14344: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/17/20 21:39:01] D2BS 14344: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/17/20 21:39:01] D2BS 14344: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:39:01] D2BS 14344: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:39:01] D2BS 14344: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/17/20 21:39:01] D2BS 14344: Updating Config from level 0 to 1
+[09/17/20 21:39:01] D2BS 14344: AutoBuild: Loaded helper thread
+[09/17/20 21:39:01] D2BS 14344: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:39:01] D2BS 14344: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/17/20 21:39:01] D2BS 14344: Updating Config from level 0 to 1
+[09/17/20 21:39:01] D2BS 14344: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:39:01] D2BS 14344: ÿc3Start ToolsThread script
+[09/17/20 21:39:01] D2BS 14344: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/17/20 21:39:01] D2BS 14344: Updating Config from level 0 to 1
+[09/17/20 21:39:01] D2BS 14344: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/17/20 21:39:01] D2BS 14344: Updating Config from level 0 to 1
+[09/17/20 21:39:05] D2BS 14344: move retry 1
+[09/17/20 21:39:09] D2BS 14344: move retry 2
+[09/17/20 21:39:11] D2BS 14344: move retry 1
+[09/17/20 21:39:23] D2BS 14344: 1,2
+[09/17/20 21:39:40] D2BS 14344: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:39:47] D2BS 14344: move retry 1
+[09/17/20 21:40:07] D2BS 14344: 2,8
+[09/17/20 21:40:13] D2BS 14344: move retry 1
+[09/17/20 21:40:26] D2BS 14344: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:40:26] D2BS 14344: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 21:40:26] D2BS 14344: AutoBuild: useSkillPoint(): Raven (221)
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Skill (1/1) Increased Raven (221) by one (level:  1)
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Attempt to spend point 2 in Vitality may have failed!
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Stat (3/5) Increased Vitality from 26 to 27
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Stat (4/5) Increased Vitality from 27 to 28
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Stat (5/5) Increased Vitality from 28 to 29
+[09/17/20 21:40:27] D2BS 14344: Updating Config from level 1 to 2
+[09/17/20 21:40:27] D2BS 14344: Updating Config from level 1 to 2
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 21:40:27] D2BS 14344: Updating Config from level 1 to 2
+[09/17/20 21:40:27] D2BS 14344: Updating Config from level 1 to 2
+[09/17/20 21:40:27] D2BS 14344: AutoBuild: Incrementing cached character level to 2
+[09/17/20 21:40:33] D2BS 14344: move retry 1
+[09/17/20 21:40:45] D2BS 14344: ÿc7Picked up ÿc41 Gold
+[09/17/20 21:40:47] D2BS 14344: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:41:09] D2BS 14344: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:41:09] D2BS 14344: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 21:41:09] D2BS 14344: AutoBuild: useSkillPoint(): Poison Creeper (222)
+[09/17/20 21:41:09] D2BS 14344: AutoBuild: Skill (1/1) Increased Poison Creeper (222) by one (level:  1)
+[09/17/20 21:41:09] D2BS 14344: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:41:09] D2BS 14344: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[09/17/20 21:41:09] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: Stat (2/5) Increased Vitality from 29 to 30
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: Stat (3/5) Increased Vitality from 30 to 31
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: Stat (4/5) Increased Vitality from 31 to 32
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: Stat (5/5) Increased Vitality from 32 to 33
+[09/17/20 21:41:10] D2BS 14344: Updating Config from level 2 to 3
+[09/17/20 21:41:10] D2BS 14344: Updating Config from level 2 to 3
+[09/17/20 21:41:10] D2BS 14344: Updating Config from level 2 to 3
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 21:41:10] D2BS 14344: Updating Config from level 2 to 3
+[09/17/20 21:41:10] D2BS 14344: AutoBuild: Incrementing cached character level to 3
+[09/17/20 21:41:50] D2BS 14344: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:41:55] D2BS 14344: move retry 1
+[09/17/20 21:42:02] D2BS 14344: move retry 1
+[09/17/20 21:42:11] D2BS 14344: move retry 1
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: Level up detected ( 3 --> 4 )
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: Stat (1/5) Increased Strength from 17 to 18
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: Stat (2/5) Increased Vitality from 33 to 34
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: Stat (3/5) Increased Vitality from 34 to 35
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: Stat (4/5) Increased Vitality from 35 to 36
+[09/17/20 21:42:49] D2BS 14344: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:42:50] D2BS 14344: AutoBuild: Stat (5/5) Increased Vitality from 36 to 37
+[09/17/20 21:42:50] D2BS 14344: Updating Config from level 3 to 4
+[09/17/20 21:42:50] D2BS 14344: Updating Config from level 3 to 4
+[09/17/20 21:42:50] D2BS 14344: AutoBuild: Updating Config from level 3 to 4
+[09/17/20 21:42:50] D2BS 14344: Updating Config from level 3 to 4
+[09/17/20 21:42:50] D2BS 14344: Updating Config from level 3 to 4
+[09/17/20 21:42:50] D2BS 14344: AutoBuild: Incrementing cached character level to 4
+[09/17/20 21:43:03] D2BS 14344: move retry 1
+[09/17/20 21:43:04] D2BS 14344: move retry 1
+[09/17/20 21:43:41] D2BS 14344: move retry 1
+[09/17/20 21:43:48] D2BS 14344: move retry 1
+[09/17/20 21:44:04] D2BS 14344: move retry 1
+[09/17/20 21:44:08] D2BS 14344: move retry 1
+[09/17/20 21:44:15] D2BS 14344: move retry 1
+[09/17/20 21:44:29] D2BS 14344: move retry 1
+[09/17/20 21:45:11] D2BS 14344: move retry 1
+[09/17/20 21:45:31] D2BS 14344: move retry 1
+[09/17/20 21:45:41] D2BS 14344: move retry 1
+[09/17/20 21:45:59] D2BS 14344: move retry 1
+[09/17/20 21:46:39] D2BS 14344: move retry 1
+[09/17/20 21:46:42] D2BS 14344: move retry 2
+[09/17/20 21:46:57] D2BS 14344: move retry 1
+[09/17/20 21:47:04] D2BS 14344: 8,2
+[09/17/20 21:47:44] D2BS 14344: 2,1
+[09/17/20 21:48:21] D2BS 14344: initNPC: heal
+[09/17/20 21:48:46] D2BS 14344: 1,2,3
+[09/17/20 21:49:32] D2BS 14344: D2BS Shutdown complete.
+[09/17/20 21:49:36] D2BS 12560: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:49:36] D2BS 12560: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/17/20 21:49:36] D2BS 12560: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:49:36] D2BS 12560: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:49:36] D2BS 12560: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:49:36] D2BS 12560: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:49:36] D2BS 12560: Wind
+[09/17/20 21:49:38] D2BS 12560: Heartbeat loaded
+[09/17/20 21:49:56] D2BS 12560: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:49:56] D2BS 12560: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:49:56] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/17/20 21:49:56] D2BS 12560: Updating Config from level 0 to 4
+[09/17/20 21:49:56] D2BS 12560: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/17/20 21:49:56] D2BS 12560: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:49:56] D2BS 12560: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:49:56] D2BS 12560: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/17/20 21:49:56] D2BS 12560: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc215 ms
+[09/17/20 21:49:56] D2BS 12560: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:49:56] D2BS 12560: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:49:56] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/17/20 21:49:56] D2BS 12560: Updating Config from level 0 to 4
+[09/17/20 21:49:56] D2BS 12560: AutoBuild: Loaded helper thread
+[09/17/20 21:49:56] D2BS 12560: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:49:56] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/17/20 21:49:56] D2BS 12560: Updating Config from level 0 to 4
+[09/17/20 21:49:56] D2BS 12560: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:49:56] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/17/20 21:49:56] D2BS 12560: Updating Config from level 0 to 4
+[09/17/20 21:49:56] D2BS 12560: ÿc3Start ToolsThread script
+[09/17/20 21:49:56] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/17/20 21:49:56] D2BS 12560: Updating Config from level 0 to 4
+[09/17/20 21:50:19] D2BS 12560: 1,2,3
+[09/17/20 21:51:28] D2BS 12560: ÿc7Picked up ÿc46 Gold
+[09/17/20 21:51:28] D2BS 12560: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:51:30] D2BS 12560: move retry 1
+[09/17/20 21:51:37] D2BS 12560: move retry 1
+[09/17/20 21:51:57] D2BS 12560: move retry 1
+[09/17/20 21:52:02] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 3
+[09/17/20 21:52:02] D2BS 12560: AutoBuild: Level up detected ( 4 --> 5 )
+[09/17/20 21:52:02] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 18 to 19
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 37 to 38
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 38 to 39
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 39 to 40
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 40 to 41
+[09/17/20 21:52:03] D2BS 12560: Updating Config from level 4 to 5
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: Updating Config from level 4 to 5
+[09/17/20 21:52:03] D2BS 12560: Updating Config from level 4 to 5
+[09/17/20 21:52:03] D2BS 12560: Updating Config from level 4 to 5
+[09/17/20 21:52:03] D2BS 12560: Updating Config from level 4 to 5
+[09/17/20 21:52:03] D2BS 12560: AutoBuild: Incrementing cached character level to 5
+[09/17/20 21:52:04] D2BS 12560: ÿc7Picked up ÿc3Leather Armor ÿc0(ilvl 5) (Tornado.xpac.nip #47)
+[09/17/20 21:52:06] D2BS 12560: move retry 1
+[09/17/20 21:52:19] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:52:19] D2BS 12560: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:52:21] D2BS 12560: move retry 1
+[09/17/20 21:52:37] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:53:07] D2BS 12560: move retry 1
+[09/17/20 21:53:31] D2BS 12560: move retry 1
+[09/17/20 21:53:52] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:54:03] D2BS 12560: move retry 1
+[09/17/20 21:54:21] D2BS 12560: move retry 1
+[09/17/20 21:54:40] D2BS 12560: move retry 1
+[09/17/20 21:55:10] D2BS 12560: ÿc7Picked up ÿc0Boots ÿc0(ilvl 1) (Tornado.xpac.nip #61)
+[09/17/20 21:55:10] D2BS 12560: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:55:19] D2BS 12560: ÿc7Picked up ÿc43 Gold
+[09/17/20 21:55:45] D2BS 12560: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 21:55:45] D2BS 12560: ÿc7Picked up ÿc3Cap ÿc0(ilvl 5) (Tornado.xpac.nip #30)
+[09/17/20 21:56:00] D2BS 12560: move retry 1
+[09/17/20 21:56:02] D2BS 12560: move retry 1
+[09/17/20 21:56:29] D2BS 12560: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 21:56:53] D2BS 12560: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:56:59] D2BS 12560: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 21:56:59] D2BS 12560: ÿc7Picked up ÿc411 Gold
+[09/17/20 21:57:00] D2BS 12560: ÿc7Picked up ÿc410 Gold
+[09/17/20 21:58:21] D2BS 12560: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:58:24] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:58:27] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:58:31] D2BS 12560: move retry 1
+[09/17/20 21:58:48] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 4
+[09/17/20 21:58:48] D2BS 12560: AutoBuild: Level up detected ( 5 --> 6 )
+[09/17/20 21:58:48] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 21:58:48] D2BS 12560: ÿc7Picked up ÿc46 Gold
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  1)
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 19 to 20
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 41 to 42
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 42 to 43
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 43 to 44
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 44 to 45
+[09/17/20 21:58:49] D2BS 12560: Updating Config from level 5 to 6
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Updating Config from level 5 to 6
+[09/17/20 21:58:49] D2BS 12560: Updating Config from level 5 to 6
+[09/17/20 21:58:49] D2BS 12560: Updating Config from level 5 to 6
+[09/17/20 21:58:49] D2BS 12560: Updating Config from level 5 to 6
+[09/17/20 21:58:49] D2BS 12560: AutoBuild: Incrementing cached character level to 6
+[09/17/20 21:58:53] D2BS 12560: move retry 1
+[09/17/20 21:59:44] D2BS 12560: ÿc7Picked up ÿc48 Gold
+[09/17/20 21:59:58] D2BS 12560: move retry 1
+[09/17/20 21:59:59] D2BS 12560: ÿc7Picked up ÿc47 Gold
+[09/17/20 22:00:05] D2BS 12560: move retry 1
+[09/17/20 22:00:06] D2BS 12560: ÿc7Picked up ÿc43 Gold
+[09/17/20 22:00:07] D2BS 12560: ÿc7Picked up ÿc48 Gold
+[09/17/20 22:00:10] D2BS 12560: ÿc7Picked up ÿc48 Gold
+[09/17/20 22:00:19] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:00:22] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 22:00:23] D2BS 12560: move retry 1
+[09/17/20 22:00:34] D2BS 12560: move retry 1
+[09/17/20 22:00:45] D2BS 12560: move retry 1
+[09/17/20 22:00:47] D2BS 12560: move retry 1
+[09/17/20 22:00:48] D2BS 12560: ÿc7Picked up ÿc45 Gold
+[09/17/20 22:01:06] D2BS 12560: move retry 1
+[09/17/20 22:01:11] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 22:01:19] D2BS 12560: ÿc7Picked up ÿc41 Gold
+[09/17/20 22:01:22] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 22:01:22] D2BS 12560: move retry 1
+[09/17/20 22:01:25] D2BS 12560: move retry 2
+[09/17/20 22:01:36] D2BS 12560: ÿc7Picked up ÿc43 Gold
+[09/17/20 22:02:10] D2BS 12560: move retry 1
+[09/17/20 22:02:52] D2BS 12560: move retry 1
+[09/17/20 22:03:31] D2BS 12560: move retry 1
+[09/17/20 22:04:00] D2BS 12560: move retry 1
+[09/17/20 22:05:32] D2BS 12560: ÿc7Picked up ÿc416 Gold
+[09/17/20 22:05:36] D2BS 12560: move retry 1
+[09/17/20 22:05:37] D2BS 12560: move retry 2
+[09/17/20 22:05:39] D2BS 12560: move retry 3
+[09/17/20 22:05:41] D2BS 12560: move retry 1
+[09/17/20 22:05:45] D2BS 12560: move retry 1
+[09/17/20 22:06:37] D2BS 12560: move retry 1
+[09/17/20 22:07:18] D2BS 12560: ÿc7Picked up ÿc0Quilted Armor ÿc0(ilvl 4) (Tornado.xpac.nip #46)
+[09/17/20 22:08:11] D2BS 12560: ÿc7Picked up ÿc45 Gold
+[09/17/20 22:08:11] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 4
+[09/17/20 22:08:11] D2BS 12560: AutoBuild: Level up detected ( 6 --> 7 )
+[09/17/20 22:08:11] D2BS 12560: AutoBuild: useSkillPoint(): Arctic Blast (230)
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: Skill (1/2) Increased Arctic Blast (230) by one (level:  1)
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: Skill (2/2) Increased Oak Sage (226) by one (level:  2)
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 20 to 21
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 45 to 46
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 46 to 47
+[09/17/20 22:08:12] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:08:13] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 47 to 48
+[09/17/20 22:08:13] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:08:13] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 48 to 49
+[09/17/20 22:08:13] D2BS 12560: Updating Config from level 6 to 7
+[09/17/20 22:08:13] D2BS 12560: AutoBuild: Updating Config from level 6 to 7
+[09/17/20 22:08:13] D2BS 12560: Updating Config from level 6 to 7
+[09/17/20 22:08:13] D2BS 12560: Updating Config from level 6 to 7
+[09/17/20 22:08:13] D2BS 12560: Updating Config from level 6 to 7
+[09/17/20 22:08:13] D2BS 12560: AutoBuild: Incrementing cached character level to 7
+[09/17/20 22:08:41] D2BS 12560: ÿc7Picked up ÿc44 Gold
+[09/17/20 22:08:42] D2BS 12560: move retry 1
+[09/17/20 22:09:18] D2BS 12560: ÿc7Picked up ÿc413 Gold
+[09/17/20 22:10:10] D2BS 12560: move retry 1
+[09/17/20 22:11:03] D2BS 12560: ÿc7Picked up ÿc422 Gold
+[09/17/20 22:11:10] D2BS 12560: move retry 1
+[09/17/20 22:11:12] D2BS 12560: move retry 1
+[09/17/20 22:11:37] D2BS 12560: ÿc7Picked up ÿc45 Gold
+[09/17/20 22:11:38] D2BS 12560: ÿc7Picked up ÿc419 Gold
+[09/17/20 22:11:42] D2BS 12560: ÿc7Picked up ÿc43 Gold
+[09/17/20 22:11:43] D2BS 12560: move retry 1
+[09/17/20 22:11:47] D2BS 12560: ÿc7Picked up ÿc3Ring ÿc0(ilvl 1) (Tornado.xpac.nip #93)
+[09/17/20 22:11:47] D2BS 12560: ÿc7Picked up ÿc43 Gold
+[09/17/20 22:11:48] D2BS 12560: move retry 2
+[09/17/20 22:11:57] D2BS 12560: ÿc7Picked up ÿc46 Gold
+[09/17/20 22:12:07] D2BS 12560: move retry 1
+[09/17/20 22:12:59] D2BS 12560: move retry 1
+[09/17/20 22:13:54] D2BS 12560: move retry 1
+[09/17/20 22:14:40] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 22:15:29] D2BS 12560: move retry 1
+[09/17/20 22:17:08] D2BS 12560: 4,10
+[09/17/20 22:18:34] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 3
+[09/17/20 22:18:34] D2BS 12560: AutoBuild: Level up detected ( 7 --> 8 )
+[09/17/20 22:18:34] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  3)
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Attempt to spend point 1 in Strength may have failed!
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 49 to 50
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 50 to 51
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 51 to 52
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 52 to 53
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Updating Config from level 7 to 8
+[09/17/20 22:18:35] D2BS 12560: Updating Config from level 7 to 8
+[09/17/20 22:18:35] D2BS 12560: Updating Config from level 7 to 8
+[09/17/20 22:18:35] D2BS 12560: Updating Config from level 7 to 8
+[09/17/20 22:18:35] D2BS 12560: Updating Config from level 7 to 8
+[09/17/20 22:18:35] D2BS 12560: AutoBuild: Incrementing cached character level to 8
+[09/17/20 22:18:39] D2BS 12560: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 22:18:40] D2BS 12560: ÿc7Picked up ÿc412 Gold
+[09/17/20 22:18:40] D2BS 12560: ÿc7Picked up ÿc422 Gold
+[09/17/20 22:18:42] D2BS 12560: ÿc7Picked up ÿc426 Gold
+[09/17/20 22:18:58] D2BS 12560: ÿc7Picked up ÿc415 Gold
+[09/17/20 22:19:04] D2BS 12560: ÿc7Picked up ÿc41 Gold
+[09/17/20 22:19:15] D2BS 12560: 10,5
+[09/17/20 22:19:26] D2BS 12560: ÿc7Picked up ÿc423 Gold
+[09/17/20 22:19:51] D2BS 12560: ÿc7Picked up ÿc426 Gold
+[09/17/20 22:20:08] D2BS 12560: ÿc7Picked up ÿc427 Gold
+[09/17/20 22:20:35] D2BS 12560: move retry 1
+[09/17/20 22:20:41] D2BS 12560: ÿc7Picked up ÿc425 Gold
+[09/17/20 22:20:56] D2BS 12560: move retry 1
+[09/17/20 22:21:12] D2BS 12560: ÿc7Picked up ÿc422 Gold
+[09/17/20 22:21:24] D2BS 12560: ÿc7Picked up ÿc429 Gold
+[09/17/20 22:22:11] D2BS 12560: move retry 1
+[09/17/20 22:23:29] D2BS 12560: move retry 1
+[09/17/20 22:23:30] D2BS 12560: ÿc7Picked up ÿc410 Gold
+[09/17/20 22:23:30] D2BS 12560: ÿc7Picked up ÿc418 Gold
+[09/17/20 22:23:48] D2BS 12560: ÿc1Skipping Carver Shaman 607 16
+[09/17/20 22:24:22] D2BS 12560: ÿc7Picked up ÿc0Hard Leather Armor ÿc0(ilvl 5) (PreMerc.xpac.nip #4)
+[09/17/20 22:24:43] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:25:10] D2BS 12560: move retry 1
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 3
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: Level up detected ( 8 --> 9 )
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  4)
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 22 to 23
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 53 to 54
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 54 to 55
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 55 to 56
+[09/17/20 22:25:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:25:40] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 56 to 57
+[09/17/20 22:25:40] D2BS 12560: Updating Config from level 8 to 9
+[09/17/20 22:25:40] D2BS 12560: Updating Config from level 8 to 9
+[09/17/20 22:25:40] D2BS 12560: Updating Config from level 8 to 9
+[09/17/20 22:25:40] D2BS 12560: AutoBuild: Updating Config from level 8 to 9
+[09/17/20 22:25:40] D2BS 12560: Updating Config from level 8 to 9
+[09/17/20 22:25:40] D2BS 12560: AutoBuild: Incrementing cached character level to 9
+[09/17/20 22:25:40] D2BS 12560: ÿc7Picked up ÿc3Club ÿc0(ilvl 5) (Tornado.xpac.nip #2)
+[09/17/20 22:25:48] D2BS 12560: ÿc7Picked up ÿc48 Gold
+[09/17/20 22:25:52] D2BS 12560: ÿc7Picked up ÿc46 Gold
+[09/17/20 22:25:59] D2BS 12560: ÿc7Picked up ÿc420 Gold
+[09/17/20 22:26:00] D2BS 12560: ÿc7Picked up ÿc411 Gold
+[09/17/20 22:26:21] D2BS 12560: ÿc7Picked up ÿc417 Gold
+[09/17/20 22:27:14] D2BS 12560: move retry 1
+[09/17/20 22:27:25] D2BS 12560: ÿc7Picked up ÿc429 Gold
+[09/17/20 22:27:41] D2BS 12560: move retry 1
+[09/17/20 22:27:57] D2BS 12560: move retry 1
+[09/17/20 22:27:59] D2BS 12560: move retry 1
+[09/17/20 22:28:00] D2BS 12560: ÿc7Picked up ÿc427 Gold
+[09/17/20 22:28:03] D2BS 12560: move retry 1
+[09/17/20 22:28:17] D2BS 12560: ÿc7Picked up ÿc428 Gold
+[09/17/20 22:28:48] D2BS 12560: move retry 1
+[09/17/20 22:29:30] D2BS 12560: ÿc7Picked up ÿc0Leather Gloves ÿc0(ilvl 5) (Tornado.xpac.nip #72)
+[09/17/20 22:29:37] D2BS 12560: ÿc7Picked up ÿc428 Gold
+[09/17/20 22:29:39] D2BS 12560: ÿc7Picked up ÿc415 Gold
+[09/17/20 22:30:16] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:30:16] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:30:17] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:30:31] D2BS 12560: ÿc7Picked up ÿc412 Gold
+[09/17/20 22:30:39] D2BS 12560: move retry 1
+[09/17/20 22:31:02] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:32:07] D2BS 12560: ÿc7Picked up ÿc0Wolf Head ÿc0(ilvl 5) (Tornado.xpac.nip #29)
+[09/17/20 22:32:21] D2BS 12560: move retry 1
+[09/17/20 22:32:49] D2BS 12560: move retry 1
+[09/17/20 22:33:21] D2BS 12560: move retry 1
+[09/17/20 22:33:31] D2BS 12560: move retry 1
+[09/17/20 22:35:57] D2BS 12560: Script default.dbj ended
+[09/17/20 22:35:57] D2BS 12560: Script tools\autobuildthread.js ended
+[09/17/20 22:35:57] D2BS 12560: Script tools\party.js ended
+[09/17/20 22:35:57] D2BS 12560: Script tools\toolsthread.js ended
+[09/17/20 22:35:57] D2BS 12560: Script tools\townchicken.js ended
+[09/17/20 22:36:03] D2BS 12560: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 22:36:03] D2BS 12560: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 22:36:03] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/17/20 22:36:03] D2BS 12560: Updating Config from level 0 to 9
+[09/17/20 22:36:03] D2BS 12560: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 22:36:03] D2BS 12560: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc216 ms
+[09/17/20 22:36:03] D2BS 12560: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 22:36:03] D2BS 12560: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/17/20 22:36:03] D2BS 12560: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/17/20 22:36:03] D2BS 12560: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 22:36:03] D2BS 12560: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 22:36:03] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/17/20 22:36:03] D2BS 12560: Updating Config from level 0 to 9
+[09/17/20 22:36:03] D2BS 12560: AutoBuild: Loaded helper thread
+[09/17/20 22:36:03] D2BS 12560: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 22:36:03] D2BS 12560: initNPC: identify
+[09/17/20 22:36:03] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/17/20 22:36:03] D2BS 12560: Updating Config from level 0 to 9
+[09/17/20 22:36:03] D2BS 12560: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 22:36:03] D2BS 12560: ÿc3Start ToolsThread script
+[09/17/20 22:36:03] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/17/20 22:36:03] D2BS 12560: Updating Config from level 0 to 9
+[09/17/20 22:36:03] D2BS 12560: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/17/20 22:36:03] D2BS 12560: Updating Config from level 0 to 9
+[09/17/20 22:36:04] D2BS 12560: move retry 1
+[09/17/20 22:36:11] D2BS 12560: move retry 1
+[09/17/20 22:36:20] D2BS 12560: initNPC: fillTome
+[09/17/20 22:36:22] D2BS 12560: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[09/17/20 22:36:23] D2BS 12560: ÿc4Town: ÿc1Can't afford repairs.
+[09/17/20 22:36:29] D2BS 12560: Successfully placed Hard Leather Armor at X: 0 Y: 0
+[09/17/20 22:36:31] D2BS 12560: move retry 1
+[09/17/20 22:36:32] D2BS 12560: move retry 2
+[09/17/20 22:36:34] D2BS 12560: move retry 3
+[09/17/20 22:37:46] D2BS 12560: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 22:37:59] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 3
+[09/17/20 22:37:59] D2BS 12560: AutoBuild: Level up detected ( 9 --> 10 )
+[09/17/20 22:37:59] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  5)
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 23 to 24
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 57 to 58
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 58 to 59
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 59 to 60
+[09/17/20 22:38:00] D2BS 12560: ÿc7Picked up ÿc421 Gold
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[09/17/20 22:38:00] D2BS 12560: Updating Config from level 9 to 10
+[09/17/20 22:38:00] D2BS 12560: Updating Config from level 9 to 10
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Updating Config from level 9 to 10
+[09/17/20 22:38:00] D2BS 12560: Updating Config from level 9 to 10
+[09/17/20 22:38:00] D2BS 12560: Updating Config from level 9 to 10
+[09/17/20 22:38:00] D2BS 12560: AutoBuild: Incrementing cached character level to 10
+[09/17/20 22:38:05] D2BS 12560: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[09/17/20 22:38:06] D2BS 12560: ÿc7Picked up ÿc3Sash ÿc0(ilvl 5) (Tornado.xpac.nip #82)
+[09/17/20 22:38:07] D2BS 12560: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 22:38:15] D2BS 12560: ÿc7Picked up ÿc410 Gold
+[09/17/20 22:38:21] D2BS 12560: ÿc7Picked up ÿc423 Gold
+[09/17/20 22:38:22] D2BS 12560: move retry 1
+[09/17/20 22:38:30] D2BS 12560: move retry 1
+[09/17/20 22:38:34] D2BS 12560: move retry 1
+[09/17/20 22:38:37] D2BS 12560: ÿc7Picked up ÿc418 Gold
+[09/17/20 22:38:43] D2BS 12560: ÿc7Picked up ÿc412 Gold
+[09/17/20 22:39:13] D2BS 12560: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[09/17/20 22:39:53] D2BS 12560: ÿc7Picked up ÿc426 Gold
+[09/17/20 22:40:07] D2BS 12560: ÿc7Picked up ÿc423 Gold
+[09/17/20 22:40:21] D2BS 12560: ÿc7Picked up ÿc49 Gold
+[09/17/20 22:40:22] D2BS 12560: ÿc7Picked up ÿc0Wolf Head ÿc0(ilvl 5) (Tornado.xpac.nip #29)
+[09/17/20 22:40:37] D2BS 12560: move retry 1
+[09/17/20 22:40:39] D2BS 12560: ÿc7Picked up ÿc410 Gold
+[09/17/20 22:41:08] D2BS 12560: move retry 1
+[09/17/20 22:41:09] D2BS 12560: ÿc7Picked up ÿc419 Gold
+[09/17/20 22:41:52] D2BS 12560: ÿc1Skipping Skeleton Archer 108 16
+[09/17/20 22:42:16] D2BS 12560: ÿc1Skipping Skeleton Archer 150 16
+[09/17/20 22:42:32] D2BS 12560: ÿc1Skipping Skeleton Archer 150 16
+[09/17/20 22:43:11] D2BS 12560: move retry 1
+[09/17/20 22:43:14] D2BS 12560: ÿc7Picked up ÿc49 Gold
+[09/17/20 22:43:48] D2BS 12560: move retry 1
+[09/17/20 22:44:11] D2BS 12560: move retry 1
+[09/17/20 22:44:20] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:44:38] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 3
+[09/17/20 22:44:38] D2BS 12560: AutoBuild: Level up detected ( 10 --> 11 )
+[09/17/20 22:44:38] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  6)
+[09/17/20 22:44:39] D2BS 12560: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 24 to 25
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 61 to 62
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 62 to 63
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 63 to 64
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 64 to 65
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Updating Config from level 10 to 11
+[09/17/20 22:44:39] D2BS 12560: Updating Config from level 10 to 11
+[09/17/20 22:44:39] D2BS 12560: Updating Config from level 10 to 11
+[09/17/20 22:44:39] D2BS 12560: Updating Config from level 10 to 11
+[09/17/20 22:44:39] D2BS 12560: Updating Config from level 10 to 11
+[09/17/20 22:44:39] D2BS 12560: AutoBuild: Incrementing cached character level to 11
+[09/17/20 22:45:16] D2BS 12560: move retry 1
+[09/17/20 22:46:03] D2BS 12560: move retry 1
+[09/17/20 22:46:18] D2BS 12560: ÿc7Picked up ÿc427 Gold
+[09/17/20 22:46:37] D2BS 12560: ÿc7Picked up ÿc419 Gold
+[09/17/20 22:46:38] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:46:45] D2BS 12560: ÿc7Picked up ÿc45 Gold
+[09/17/20 22:46:58] D2BS 12560: ÿc7Picked up ÿc427 Gold
+[09/17/20 22:46:59] D2BS 12560: ÿc7Picked up ÿc46 Gold
+[09/17/20 22:47:32] D2BS 12560: move retry 1
+[09/17/20 22:48:38] D2BS 12560: move retry 1
+[09/17/20 22:49:39] D2BS 12560: ÿc7Picked up ÿc417 Gold
+[09/17/20 22:50:58] D2BS 12560: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/17/20 22:52:24] D2BS 12560: initNPC: identify
+[09/17/20 22:52:34] D2BS 12560: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[09/17/20 22:52:35] D2BS 12560: Wolf Head
+[09/17/20 22:53:25] D2BS 12560: 4
+[09/17/20 22:53:54] D2BS 12560: ÿc7Picked up ÿc410 Gold
+[09/17/20 22:54:06] D2BS 12560: ÿc7Picked up ÿc437 Gold
+[09/17/20 22:54:11] D2BS 12560: ÿc7Picked up ÿc46 Gold
+[09/17/20 22:54:21] D2BS 12560: ÿc7Picked up ÿc9Spiked Club ÿc0(ilvl 8) (Tornado.xpac.nip #2)
+[09/17/20 22:54:21] D2BS 12560: ÿc7Picked up ÿc9Small Shield ÿc0(ilvl 8) (Tornado.xpac.nip #13)
+[09/17/20 22:55:06] D2BS 12560: ÿc7Picked up ÿc42 Gold
+[09/17/20 22:55:18] D2BS 12560: ÿc7Picked up ÿc47 Gold
+[09/17/20 22:55:19] D2BS 12560: move retry 1
+[09/17/20 22:55:28] D2BS 12560: move retry 1
+[09/17/20 22:55:49] D2BS 12560: ÿc7Picked up ÿc414 Gold
+[09/17/20 22:56:01] D2BS 12560: move retry 1
+[09/17/20 22:56:12] D2BS 12560: ÿc7Picked up ÿc418 Gold
+[09/17/20 22:56:19] D2BS 12560: ÿc7Picked up ÿc417 Gold
+[09/17/20 22:56:49] D2BS 12560: move retry 1
+[09/17/20 22:57:02] D2BS 12560: ÿc7Picked up ÿc411 Gold
+[09/17/20 22:57:03] D2BS 12560: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/17/20 22:57:27] D2BS 12560: ÿc7Picked up ÿc411 Gold
+[09/17/20 22:57:27] D2BS 12560: ÿc7Picked up ÿc422 Gold
+[09/17/20 22:57:37] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:57:48] D2BS 12560: ÿc7Picked up ÿc0Sash ÿc0(ilvl 5) (Tornado.xpac.nip #81)
+[09/17/20 22:58:06] D2BS 12560: ÿc7Picked up ÿc44 Gold
+[09/17/20 22:58:53] D2BS 12560: ÿc7Picked up ÿc421 Gold
+[09/17/20 22:59:04] D2BS 12560: move retry 1
+[09/17/20 22:59:07] D2BS 12560: ÿc7Picked up ÿc47 Gold
+[09/17/20 22:59:19] D2BS 12560: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/17/20 22:59:29] D2BS 12560: move retry 1
+[09/17/20 22:59:35] D2BS 12560: move retry 1
+[09/17/20 23:00:03] D2BS 12560: move retry 1
+[09/17/20 23:00:45] D2BS 12560: ÿc7Picked up ÿc48 Gold
+[09/17/20 23:00:46] D2BS 12560: ÿc7Picked up ÿc410 Gold
+[09/17/20 23:01:16] D2BS 12560: move retry 1
+[09/17/20 23:01:27] D2BS 12560: ÿc7Picked up ÿc45 Gold
+[09/17/20 23:01:53] D2BS 12560: ÿc7Picked up ÿc49 Gold
+[09/17/20 23:01:58] D2BS 12560: ÿc7Picked up ÿc420 Gold
+[09/17/20 23:01:58] D2BS 12560: ÿc7Picked up ÿc47 Gold
+[09/17/20 23:01:59] D2BS 12560: move retry 1
+[09/17/20 23:02:12] D2BS 12560: move retry 1
+[09/17/20 23:02:16] D2BS 12560: move retry 1
+[09/17/20 23:02:27] D2BS 12560: ÿc7Picked up ÿc48 Gold
+[09/17/20 23:02:40] D2BS 12560: ÿc7Picked up ÿc47 Gold
+[09/17/20 23:02:47] D2BS 12560: move retry 1
+[09/17/20 23:02:52] D2BS 12560: initNPC: identify
+[09/17/20 23:03:03] D2BS 12560: ÿc4MiniShopBotÿc0: Scanning 49 items.
+[09/17/20 23:03:04] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:03:05] D2BS 12560: Spiked Club
+[09/17/20 23:03:25] D2BS 12560: move retry 1
+[09/17/20 23:03:26] D2BS 12560: move retry 2
+[09/17/20 23:05:35] D2BS 12560: 3,2,1
+[09/17/20 23:06:51] D2BS 12560: ÿc7Picked up ÿc418 Gold
+[09/17/20 23:06:59] D2BS 12560: ÿc7Picked up ÿc427 Gold
+[09/17/20 23:07:00] D2BS 12560: ÿc7Picked up ÿc419 Gold
+[09/17/20 23:07:10] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 3
+[09/17/20 23:07:10] D2BS 12560: AutoBuild: Level up detected ( 11 --> 12 )
+[09/17/20 23:07:10] D2BS 12560: AutoBuild: useSkillPoint(): Cyclone Armor (235)
+[09/17/20 23:07:10] D2BS 12560: AutoBuild: Skill (1/2) Increased Cyclone Armor (235) by one (level:  1)
+[09/17/20 23:07:10] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 23:07:10] D2BS 12560: AutoBuild: Skill (2/2) Increased Oak Sage (226) by one (level:  7)
+[09/17/20 23:07:10] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 25 to 26
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 65 to 66
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 66 to 67
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 67 to 68
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 68 to 69
+[09/17/20 23:07:11] D2BS 12560: Updating Config from level 11 to 12
+[09/17/20 23:07:11] D2BS 12560: Updating Config from level 11 to 12
+[09/17/20 23:07:11] D2BS 12560: Updating Config from level 11 to 12
+[09/17/20 23:07:11] D2BS 12560: Updating Config from level 11 to 12
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: Updating Config from level 11 to 12
+[09/17/20 23:07:11] D2BS 12560: AutoBuild: Incrementing cached character level to 12
+[09/17/20 23:09:53] D2BS 12560: move retry 1
+[09/17/20 23:10:01] D2BS 12560: ÿc7Picked up ÿc435 Gold
+[09/17/20 23:10:10] D2BS 12560: ÿc7Picked up ÿc413 Gold
+[09/17/20 23:10:31] D2BS 12560: move retry 1
+[09/17/20 23:10:51] D2BS 12560: ÿc7Picked up ÿc412 Gold
+[09/17/20 23:11:06] D2BS 12560: move retry 1
+[09/17/20 23:11:13] D2BS 12560: move retry 1
+[09/17/20 23:11:15] D2BS 12560: move retry 1
+[09/17/20 23:11:21] D2BS 12560: move retry 1
+[09/17/20 23:11:34] D2BS 12560: move retry 1
+[09/17/20 23:11:51] D2BS 12560: ÿc7Picked up ÿc429 Gold
+[09/17/20 23:11:54] D2BS 12560: ÿc7Picked up ÿc423 Gold
+[09/17/20 23:11:58] D2BS 12560: move retry 1
+[09/17/20 23:12:56] D2BS 12560: ÿc7Picked up ÿc412 Gold
+[09/17/20 23:13:58] D2BS 12560: move retry 1
+[09/17/20 23:14:08] D2BS 12560: ÿc7Picked up ÿc415 Gold
+[09/17/20 23:14:38] D2BS 12560: ÿc7Picked up ÿc426 Gold
+[09/17/20 23:15:20] D2BS 12560: move retry 1
+[09/17/20 23:15:25] D2BS 12560: ÿc7Picked up ÿc430 Gold
+[09/17/20 23:15:26] D2BS 12560: ÿc7Picked up ÿc413 Gold
+[09/17/20 23:15:49] D2BS 12560: move retry 1
+[09/17/20 23:15:52] D2BS 12560: move retry 1
+[09/17/20 23:16:21] D2BS 12560: move retry 1
+[09/17/20 23:16:49] D2BS 12560: move retry 1
+[09/17/20 23:17:10] D2BS 12560: move retry 1
+[09/17/20 23:17:46] D2BS 12560: move retry 1
+[09/17/20 23:19:10] D2BS 12560: 6,20,21
+[09/17/20 23:19:40] D2BS 12560: ÿc7Picked up ÿc4215 Gold
+[09/17/20 23:19:46] D2BS 12560: 21,22
+[09/17/20 23:19:55] D2BS 12560: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/17/20 23:19:59] D2BS 12560: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/17/20 23:20:03] D2BS 12560: move retry 1
+[09/17/20 23:20:07] D2BS 12560: 22,23
+[09/17/20 23:20:32] D2BS 12560: 23,24
+[09/17/20 23:21:08] D2BS 12560: ÿc1Skipping Ghost 696 16
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 2
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: Level up detected ( 12 --> 13 )
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 23:21:21] D2BS 12560: ÿc1Skipping Ghost 695 16
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  8)
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 26 to 27
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 69 to 70
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 70 to 71
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 71 to 72
+[09/17/20 23:21:21] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:21:22] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 72 to 73
+[09/17/20 23:21:22] D2BS 12560: Updating Config from level 12 to 13
+[09/17/20 23:21:22] D2BS 12560: Updating Config from level 12 to 13
+[09/17/20 23:21:22] D2BS 12560: AutoBuild: Updating Config from level 12 to 13
+[09/17/20 23:21:22] D2BS 12560: Updating Config from level 12 to 13
+[09/17/20 23:21:22] D2BS 12560: Updating Config from level 12 to 13
+[09/17/20 23:21:22] D2BS 12560: AutoBuild: Incrementing cached character level to 13
+[09/17/20 23:21:27] D2BS 12560: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/17/20 23:21:27] D2BS 12560: ÿc7Picked up ÿc3Scimitar ÿc0(ilvl 10) (Tornado.xpac.nip #2)
+[09/17/20 23:21:33] D2BS 12560: 24,25
+[09/17/20 23:21:41] D2BS 12560: move retry 1
+[09/17/20 23:22:06] D2BS 12560: move retry 1
+[09/17/20 23:22:09] D2BS 12560: move retry 1
+[09/17/20 23:22:12] D2BS 12560: move retry 1
+[09/17/20 23:22:15] D2BS 12560: move retry 1
+[09/17/20 23:22:34] D2BS 12560: ÿc1Skipping Dark Stalker 725 16
+[09/17/20 23:22:37] D2BS 12560: ÿc1Pausing.
+[09/17/20 23:22:37] D2BS 12560: initNPC: heal
+[09/17/20 23:22:42] D2BS 12560: initNPC: identify
+[09/17/20 23:22:45] D2BS 12560: ÿc4MiniShopBotÿc0: Scanning 49 items.
+[09/17/20 23:22:46] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:22:56] D2BS 12560: ÿc2Resuming.
+[09/17/20 23:23:50] D2BS 12560: initNPC: heal
+[09/17/20 23:24:55] D2BS 12560: ÿc7Picked up ÿc436 Gold
+[09/17/20 23:24:59] D2BS 12560: ÿc7Picked up ÿc464 Gold
+[09/17/20 23:25:02] D2BS 12560: ÿc7Picked up ÿc410 Gold
+[09/17/20 23:25:06] D2BS 12560: ÿc7Picked up ÿc447 Gold
+[09/17/20 23:25:12] D2BS 12560: ÿc7Picked up ÿc9Spiked Club ÿc0(ilvl 11) (Tornado.xpac.nip #2)
+[09/17/20 23:25:44] D2BS 12560: 7,26
+[09/17/20 23:26:18] D2BS 12560: initNPC: heal
+[09/17/20 23:26:26] D2BS 12560: initNPC: identify
+[09/17/20 23:26:28] D2BS 12560: ÿc4MiniShopBotÿc0: Scanning 45 items.
+[09/17/20 23:27:06] D2BS 12560: ÿc7Picked up ÿc450 Gold
+[09/17/20 23:27:27] D2BS 12560: ÿc7Picked up ÿc425 Gold
+[09/17/20 23:27:37] D2BS 12560: 27,28
+[09/17/20 23:27:56] D2BS 12560: ÿc7Picked up ÿc417 Gold
+[09/17/20 23:27:56] D2BS 12560: ÿc7Picked up ÿc427 Gold
+[09/17/20 23:28:02] D2BS 12560: ÿc7Picked up ÿc426 Gold
+[09/17/20 23:28:14] D2BS 12560: ÿc7Picked up ÿc421 Gold
+[09/17/20 23:29:14] D2BS 12560: AutoBuild: Stat points: 5      Skill points: 2
+[09/17/20 23:29:14] D2BS 12560: AutoBuild: Level up detected ( 13 --> 14 )
+[09/17/20 23:29:14] D2BS 12560: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/17/20 23:29:14] D2BS 12560: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  9)
+[09/17/20 23:29:14] D2BS 12560: AutoBuild: useStatPoint(0): Strength
+[09/17/20 23:29:14] D2BS 12560: AutoBuild: Stat (1/5) Increased Strength from 27 to 28
+[09/17/20 23:29:14] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: Stat (2/5) Increased Vitality from 73 to 74
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: Stat (3/5) Increased Vitality from 74 to 75
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: Stat (4/5) Increased Vitality from 75 to 76
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: Stat (5/5) Increased Vitality from 76 to 77
+[09/17/20 23:29:15] D2BS 12560: Updating Config from level 13 to 14
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: Updating Config from level 13 to 14
+[09/17/20 23:29:15] D2BS 12560: Updating Config from level 13 to 14
+[09/17/20 23:29:15] D2BS 12560: Updating Config from level 13 to 14
+[09/17/20 23:29:15] D2BS 12560: Updating Config from level 13 to 14
+[09/17/20 23:29:15] D2BS 12560: AutoBuild: Incrementing cached character level to 14
+[09/17/20 23:29:30] D2BS 12560: move retry 1
+[09/17/20 23:30:25] D2BS 12560: ÿc1Pausing.
+[09/17/20 23:30:25] D2BS 12560: initNPC: heal
+[09/17/20 23:30:31] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:30:39] D2BS 12560: ÿc2Resuming.
+[09/17/20 23:30:41] D2BS 12560: ÿc1Skipping Death Clan 960 16
+[09/17/20 23:30:48] D2BS 12560: ÿc1Pausing.
+[09/17/20 23:30:49] D2BS 12560: initNPC: heal
+[09/17/20 23:30:55] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:31:03] D2BS 12560: ÿc2Resuming.
+[09/17/20 23:31:15] D2BS 12560: 28,29
+[09/17/20 23:31:25] D2BS 12560: move retry 1
+[09/17/20 23:32:38] D2BS 12560: ÿc7Picked up ÿc450 Gold
+[09/17/20 23:32:38] D2BS 12560: ÿc7Picked up ÿc453 Gold
+[09/17/20 23:33:05] D2BS 12560: ÿc7Picked up ÿc437 Gold
+[09/17/20 23:33:44] D2BS 12560: ÿc7Picked up ÿc435 Gold
+[09/17/20 23:33:45] D2BS 12560: ÿc7Picked up ÿc412 Gold
+[09/17/20 23:33:45] D2BS 12560: ÿc7Picked up ÿc421 Gold
+[09/17/20 23:33:45] D2BS 12560: ÿc7Picked up ÿc433 Gold
+[09/17/20 23:33:45] D2BS 12560: ÿc7Picked up ÿc427 Gold
+[09/17/20 23:33:46] D2BS 12560: ÿc7Picked up ÿc434 Gold
+[09/17/20 23:34:21] D2BS 12560: move retry 1
+[09/17/20 23:34:27] D2BS 12560: 29,30,31
+[09/17/20 23:34:52] D2BS 12560: 31,32
+[09/17/20 23:35:22] D2BS 12560: move retry 1
+[09/17/20 23:35:31] D2BS 12560: ÿc1Pausing.
+[09/17/20 23:35:31] D2BS 12560: initNPC: heal
+[09/17/20 23:35:40] D2BS 12560: initNPC: fillTome
+[09/17/20 23:35:43] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:35:43] D2BS 12560: initNPC: repair
+[09/17/20 23:35:51] D2BS 12560: move retry 1
+[09/17/20 23:36:12] D2BS 12560: ÿc2Resuming.
+[09/17/20 23:36:32] D2BS 12560: ÿc1Pausing.
+[09/17/20 23:36:32] D2BS 12560: initNPC: heal
+[09/17/20 23:36:43] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:36:54] D2BS 12560: ÿc2Resuming.
+[09/17/20 23:37:20] D2BS 12560: ÿc1Pausing.
+[09/17/20 23:37:20] D2BS 12560: initNPC: heal
+[09/17/20 23:37:30] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:37:40] D2BS 12560: ÿc2Resuming.
+[09/17/20 23:37:53] D2BS 12560: ÿc1Skipping Bone Archer 1142 16
+[09/17/20 23:37:53] D2BS 12560: move retry 2
+[09/17/20 23:37:58] D2BS 12560: ÿc1Pausing.
+[09/17/20 23:37:58] D2BS 12560: initNPC: heal
+[09/17/20 23:38:06] D2BS 12560: initNPC: buyPotions
+[09/17/20 23:38:17] D2BS 12560: ÿc2Resuming.
+[09/17/20 23:38:41] D2BS 2088: D2BS Engine startup complete. 1.6.4U
+[09/17/20 23:38:41] D2BS 2088: Wind
+[09/17/20 23:38:41] D2BS 2088: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/17/20 23:38:41] D2BS 2088: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 23:38:41] D2BS 2088: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 23:38:41] D2BS 2088: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 23:38:41] D2BS 2088: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 23:38:43] D2BS 2088: Heartbeat loaded
+[09/17/20 23:39:00] D2BS 2088: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 23:39:00] D2BS 2088: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 23:39:00] D2BS 2088: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/17/20 23:39:00] D2BS 2088: Updating Config from level 0 to 14
+[09/17/20 23:39:00] D2BS 2088: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 23:39:00] D2BS 2088: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc215 ms
+[09/17/20 23:39:00] D2BS 2088: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 23:39:00] D2BS 2088: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/17/20 23:39:00] D2BS 2088: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/17/20 23:39:00] D2BS 2088: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 23:39:00] D2BS 2088: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 23:39:00] D2BS 2088: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/17/20 23:39:00] D2BS 2088: Updating Config from level 0 to 14
+[09/17/20 23:39:00] D2BS 2088: AutoBuild: Loaded helper thread
+[09/17/20 23:39:00] D2BS 2088: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 23:39:00] D2BS 2088: initNPC: heal
+[09/17/20 23:39:00] D2BS 2088: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/17/20 23:39:00] D2BS 2088: Updating Config from level 0 to 14
+[09/17/20 23:39:00] D2BS 2088: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 23:39:00] D2BS 2088: ÿc3Start ToolsThread script
+[09/17/20 23:39:00] D2BS 2088: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/17/20 23:39:00] D2BS 2088: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/17/20 23:39:00] D2BS 2088: Updating Config from level 0 to 14
+[09/17/20 23:39:00] D2BS 2088: Updating Config from level 0 to 14
+[09/17/20 23:39:06] D2BS 2088: initNPC: buyPotions
+[09/17/20 23:40:36] D2BS 2088: move retry 1
+[09/17/20 23:40:38] D2BS 2088: move retry 1
+[09/17/20 23:40:44] D2BS 2088: move retry 1

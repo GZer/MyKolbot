@@ -12,7 +12,7 @@ function LevelLeader(){
 	104,105,106,
 	111,113,124,120,128,129];
 	var LevelingAreas=[[2,8,3,4,10,5,6,27,29,32,34,35,36,37],
-	[47,48,49,42,56,57,58,43,44,52,54,46],
+	[47,48,49,42,56,57,60,43,44,52,54,46],
 	[76,85,77,78,88,79,80,94,81,82,83,100,101,102],
 	[104,105,106,107,108],
 	[110,111,112,113,115,121,122,123,124,117,118,120,128,129,130,131]];	
@@ -484,7 +484,7 @@ function LevelLeader(){
 			Progress="Completed";
 		}		
 		try{
-			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
+			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" "+Progress+"\n");
 		}catch(err){
 			D2Bot.printToConsole("Failed to Log Progress",10);return false;
 		}
@@ -519,7 +519,7 @@ function LevelLeader(){
 					return true;
 				}
 			}catch(err){
-				this.logProgress(null,"Clear to Unit:"+monster.name+" in - "+Pather.getAreaName(QuestArea));
+				this.logProgress(null,"Clear to Unit:"+monster.name+" in "+Pather.getAreaName(QuestArea));
 				return false;
 			}
 			count++;
@@ -543,13 +543,12 @@ function LevelLeader(){
 					DestinationReached=(me.area == DestinationArea);
 				}
 			}catch(err){
-				Attack.clearLevel(0);
 				Pather.journeyTo(DestinationArea);
 				DestinationReached=(me.area == DestinationArea);
 			}
 			count++;
 		}
-		this.logProgress(DestinationReached,"Clear to - "+Pather.getAreaName(DestinationArea)+" from:"+Pather.getAreaName(CurrentArea));
+		this.logProgress(DestinationReached,"Clear to "+Pather.getAreaName(DestinationArea)+" from "+Pather.getAreaName(CurrentArea));
 		return DestinationReached;
 	};
 	
@@ -920,7 +919,7 @@ function LevelLeader(){
 		}
 		//If we have a Merc and it's the wrong difficulty stop function
 		if((MyMerc || me.mercrevivecost > 0) && me.diff != MyMercDiff){
-			this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
+			this.logProgress(me.getMerc(),"Didn't hire Merc "+me.name);
 			return true;
 		}
 		Town.goToTown(2);
@@ -936,13 +935,13 @@ function LevelLeader(){
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
 				//If it's the wrong difficulty just hire a random merc
 				if(me.diff != MyMercDiff){
-					this.logProgress(me.getMerc(),"Hired Random Merc - "+me.name);
+					this.logProgress(me.getMerc(),"Hired Random Merc "+me.name);
 					return true;
 				}
 				delay(500);
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
-					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc - "+me.name);
+					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc "+me.name);
 					return true;
 				}
 			}
@@ -998,7 +997,7 @@ function LevelLeader(){
 			else{ActNumber=4;}
 		}
 		LevelingAreas[ActNumber].splice(0,LevelingAreas[ActNumber].indexOf(UpToArea));
-		say("Up to Act:"+(ActNumber+1)+" - "+Pather.getAreaName(LevelingAreas[ActNumber][0]));
+		say("Up to Act:"+(ActNumber+1)+" "+Pather.getAreaName(LevelingAreas[ActNumber][0]));
 		return true;
 	};
 	
