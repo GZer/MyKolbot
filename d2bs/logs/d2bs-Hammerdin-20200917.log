@@ -4443,3 +4443,267 @@
 [09/17/20 21:12:29] D2BS 2052: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
 [09/17/20 21:12:29] D2BS 2052: ÿc2D2BSÿc0 :: Started Console Script
 [09/17/20 21:12:32] D2BS 2052: Heartbeat loaded
+[09/17/20 21:12:49] D2BS 2052: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:12:49] D2BS 2052: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:12:49] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[09/17/20 21:12:49] D2BS 2052: Updating Config from level 0 to 1
+[09/17/20 21:12:49] D2BS 2052: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:49] D2BS 2052: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:49] D2BS 2052: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:49] D2BS 2052: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:49] D2BS 2052: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2116ÿc4. Valid entries: ÿc299. ÿc4Time: ÿc215 ms
+[09/17/20 21:12:49] D2BS 2052: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:49] D2BS 2052: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:12:49] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[09/17/20 21:12:49] D2BS 2052: Updating Config from level 0 to 1
+[09/17/20 21:12:49] D2BS 2052: AutoBuild: Loaded helper thread
+[09/17/20 21:12:49] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[09/17/20 21:12:49] D2BS 2052: Updating Config from level 0 to 1
+[09/17/20 21:12:49] D2BS 2052: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:12:49] D2BS 2052: ÿc3Start ToolsThread script
+[09/17/20 21:12:49] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[09/17/20 21:12:49] D2BS 2052: Updating Config from level 0 to 1
+[09/17/20 21:12:49] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[09/17/20 21:12:49] D2BS 2052: Updating Config from level 0 to 1
+[09/17/20 21:12:50] D2BS 2052: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:13:11] D2BS 2052: 1,2
+[09/17/20 21:14:05] D2BS 2052: 2,8
+[09/17/20 21:14:06] D2BS 2052: move retry 1
+[09/17/20 21:14:07] D2BS 2052: move retry 2
+[09/17/20 21:14:11] D2BS 2052: move retry 1
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: Level up detected ( 1 --> 2 )
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: useSkillPoint(): Might (98)
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: Skill (1/1) Increased Might (98) by one (level:  1)
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: Attempt to spend point 1 in Strength may have failed!
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: Stat (2/5) Increased Dexterity from 20 to 21
+[09/17/20 21:14:13] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:14:14] D2BS 2052: AutoBuild: Stat (3/5) Increased Vitality from 25 to 26
+[09/17/20 21:14:14] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:14:14] D2BS 2052: AutoBuild: Stat (4/5) Increased Vitality from 26 to 27
+[09/17/20 21:14:14] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:14:14] D2BS 2052: AutoBuild: Stat (5/5) Increased Vitality from 27 to 28
+[09/17/20 21:14:14] D2BS 2052: Updating Config from level 1 to 2
+[09/17/20 21:14:14] D2BS 2052: Updating Config from level 1 to 2
+[09/17/20 21:14:14] D2BS 2052: Updating Config from level 1 to 2
+[09/17/20 21:14:14] D2BS 2052: AutoBuild: Updating Config from level 1 to 2
+[09/17/20 21:14:14] D2BS 2052: Updating Config from level 1 to 2
+[09/17/20 21:14:14] D2BS 2052: AutoBuild: Incrementing cached character level to 2
+[09/17/20 21:14:15] D2BS 2052: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:14:17] D2BS 2052: ÿc7Picked up ÿc42 Gold
+[09/17/20 21:14:26] D2BS 2052: move retry 1
+[09/17/20 21:14:32] D2BS 2052: move retry 1
+[09/17/20 21:14:46] D2BS 2052: move retry 1
+[09/17/20 21:14:57] D2BS 2052: move retry 1
+[09/17/20 21:15:07] D2BS 2052: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:15:07] D2BS 2052: AutoBuild: Level up detected ( 2 --> 3 )
+[09/17/20 21:15:07] D2BS 2052: AutoBuild: useSkillPoint(): Smite (97)
+[09/17/20 21:15:07] D2BS 2052: ÿc7Picked up ÿc9Cap ÿc0(ilvl 1) (Hammerdin.xpac.nip #31)
+[09/17/20 21:15:07] D2BS 2052: AutoBuild: Skill (1/1) Increased Smite (97) by one (level:  1)
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: Stat (1/5) Increased Strength from 26 to 27
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: Stat (2/5) Increased Dexterity from 21 to 22
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: Updating Config from level 2 to 3
+[09/17/20 21:15:08] D2BS 2052: Updating Config from level 2 to 3
+[09/17/20 21:15:08] D2BS 2052: Updating Config from level 2 to 3
+[09/17/20 21:15:08] D2BS 2052: Updating Config from level 2 to 3
+[09/17/20 21:15:08] D2BS 2052: Updating Config from level 2 to 3
+[09/17/20 21:15:08] D2BS 2052: AutoBuild: Incrementing cached character level to 3
+[09/17/20 21:15:08] D2BS 2052: ÿc7Picked up ÿc44 Gold
+[09/17/20 21:15:12] D2BS 2052: move retry 1
+[09/17/20 21:15:42] D2BS 2052: move retry 1
+[09/17/20 21:15:55] D2BS 2052: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/17/20 21:15:57] D2BS 2052: move retry 1
+[09/17/20 21:16:03] D2BS 2052: ÿc7Picked up ÿc41 Gold
+[09/17/20 21:16:03] D2BS 2052: move retry 1
+[09/17/20 21:16:17] D2BS 2052: move retry 1
+[09/17/20 21:16:20] D2BS 2052: move retry 1
+[09/17/20 21:16:38] D2BS 2052: move retry 1
+[09/17/20 21:17:04] D2BS 2052: move retry 1
+[09/17/20 21:17:07] D2BS 2052: move retry 1
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: Stat points: 5      Skill points: 1
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: Level up detected ( 3 --> 4 )
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: useSkillPoint(): Prayer (99)
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  1)
+[09/17/20 21:17:25] D2BS 2052: ÿc7Picked up ÿc49 Gold
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: useStatPoint(0): Strength
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: Stat (1/5) Increased Strength from 27 to 28
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: useStatPoint(2): Dexterity
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: Stat (2/5) Increased Dexterity from 22 to 23
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: Stat (3/5) Increased Vitality from 31 to 32
+[09/17/20 21:17:25] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:17:26] D2BS 2052: AutoBuild: Stat (4/5) Increased Vitality from 32 to 33
+[09/17/20 21:17:26] D2BS 2052: AutoBuild: useStatPoint(3): Vitality
+[09/17/20 21:17:26] D2BS 2052: AutoBuild: Stat (5/5) Increased Vitality from 33 to 34
+[09/17/20 21:17:26] D2BS 2052: Updating Config from level 3 to 4
+[09/17/20 21:17:26] D2BS 2052: Updating Config from level 3 to 4
+[09/17/20 21:17:26] D2BS 2052: AutoBuild: Updating Config from level 3 to 4
+[09/17/20 21:17:26] D2BS 2052: Updating Config from level 3 to 4
+[09/17/20 21:17:26] D2BS 2052: Updating Config from level 3 to 4
+[09/17/20 21:17:26] D2BS 2052: AutoBuild: Incrementing cached character level to 4
+[09/17/20 21:17:42] D2BS 2052: ÿc7Picked up ÿc45 Gold
+[09/17/20 21:17:47] D2BS 2052: move retry 1
+[09/17/20 21:18:08] D2BS 2052: move retry 1
+[09/17/20 21:18:12] D2BS 2052: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/17/20 21:19:34] D2BS 2052: 8,2
+[09/17/20 21:19:58] D2BS 2052: 2,1
+[09/17/20 21:20:44] D2BS 2052: initNPC: heal
+[09/17/20 21:20:59] D2BS 2052: initNPC: identify
+[09/17/20 21:21:01] D2BS 2052: ÿc4MiniShopBotÿc0: Scanning 51 items.
+[09/17/20 21:21:10] D2BS 2052: 1,2,3
+[09/17/20 21:21:13] D2BS 2052: Script default.dbj ended
+[09/17/20 21:21:13] D2BS 2052: Script tools\autobuildthread.js ended
+[09/17/20 21:21:13] D2BS 2052: Script tools\party.js ended
+[09/17/20 21:21:13] D2BS 2052: Script tools\toolsthread.js ended
+[09/17/20 21:21:13] D2BS 2052: Script tools\townchicken.js ended
+[09/17/20 21:21:20] D2BS 2052: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:21:20] D2BS 2052: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:21:20] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[09/17/20 21:21:20] D2BS 2052: Updating Config from level 0 to 4
+[09/17/20 21:21:20] D2BS 2052: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/17/20 21:21:20] D2BS 2052: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:21:20] D2BS 2052: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:21:20] D2BS 2052: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[09/17/20 21:21:20] D2BS 2052: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2116ÿc4. Valid entries: ÿc299. ÿc4Time: ÿc20 ms
+[09/17/20 21:21:20] D2BS 2052: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:21:20] D2BS 2052: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:21:20] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[09/17/20 21:21:20] D2BS 2052: Updating Config from level 0 to 4
+[09/17/20 21:21:20] D2BS 2052: AutoBuild: Loaded helper thread
+[09/17/20 21:21:20] D2BS 2052: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:21:20] D2BS 2052: initNPC: identify
+[09/17/20 21:21:20] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[09/17/20 21:21:20] D2BS 2052: Updating Config from level 0 to 4
+[09/17/20 21:21:20] D2BS 2052: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:21:20] D2BS 2052: ÿc3Start ToolsThread script
+[09/17/20 21:21:20] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[09/17/20 21:21:20] D2BS 2052: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[09/17/20 21:21:20] D2BS 2052: Updating Config from level 0 to 4
+[09/17/20 21:21:20] D2BS 2052: Updating Config from level 0 to 4
+[09/17/20 21:21:34] D2BS 2052: ÿc4MiniShopBotÿc0: Scanning 46 items.
+[09/17/20 21:21:45] D2BS 2052: move retry 1
+[09/17/20 21:21:57] D2BS 2052: 1,2,3
+[09/17/20 21:26:54] D2BS 2052: 3,2,1
+[09/17/20 21:27:36] D2BS 2052: initNPC: heal
+[09/17/20 21:27:40] D2BS 2052: initNPC: identify
+[09/17/20 21:27:42] D2BS 2052: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[09/17/20 21:27:59] D2BS 2052: Script default.dbj ended
+[09/17/20 21:27:59] D2BS 2052: Script tools\autobuildthread.js ended
+[09/17/20 21:27:59] D2BS 2052: Script tools\party.js ended
+[09/17/20 21:27:59] D2BS 2052: Script tools\toolsthread.js ended
+[09/17/20 21:27:59] D2BS 2052: Script tools\townchicken.js ended
+[09/17/20 21:28:05] D2BS 2052: D2BS Shutdown complete.
+[09/17/20 21:28:06] D2BS 10672: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:28:06] D2BS 10672: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[09/17/20 21:28:06] D2BS 10672: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:28:06] D2BS 10672: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:28:06] D2BS 10672: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:28:06] D2BS 10672: Hammerdin
+[09/17/20 21:28:06] D2BS 10672: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:28:08] D2BS 10672: Heartbeat loaded
+[09/17/20 21:28:27] D2BS 10672: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:28:27] D2BS 10672: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:28:27] D2BS 10672: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[09/17/20 21:28:27] D2BS 10672: Updating Config from level 0 to 4
+[09/17/20 21:28:27] D2BS 10672: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:28:27] D2BS 10672: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:28:27] D2BS 10672: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:28:27] D2BS 10672: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[09/17/20 21:28:27] D2BS 10672: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2116ÿc4. Valid entries: ÿc299. ÿc4Time: ÿc216 ms
+[09/17/20 21:28:27] D2BS 10672: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:28:27] D2BS 10672: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:28:27] D2BS 10672: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[09/17/20 21:28:27] D2BS 10672: Updating Config from level 0 to 4
+[09/17/20 21:28:27] D2BS 10672: AutoBuild: Loaded helper thread
+[09/17/20 21:28:27] D2BS 10672: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:28:27] D2BS 10672: initNPC: identify
+[09/17/20 21:28:27] D2BS 10672: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[09/17/20 21:28:27] D2BS 10672: Updating Config from level 0 to 4
+[09/17/20 21:28:27] D2BS 10672: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:28:27] D2BS 10672: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[09/17/20 21:28:27] D2BS 10672: ÿc3Start ToolsThread script
+[09/17/20 21:28:27] D2BS 10672: Updating Config from level 0 to 4
+[09/17/20 21:28:27] D2BS 10672: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[09/17/20 21:28:27] D2BS 10672: Updating Config from level 0 to 4
+[09/17/20 21:28:35] D2BS 10672: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[09/17/20 21:28:37] D2BS 10672: D2BS Shutdown complete.
+[09/17/20 21:29:21] D2BS 2304: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:29:21] D2BS 2304: Hammerdin
+[09/17/20 21:29:21] D2BS 2304: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[09/17/20 21:29:21] D2BS 2304: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:29:21] D2BS 2304: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:29:21] D2BS 2304: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:29:21] D2BS 2304: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:29:23] D2BS 2304: Heartbeat loaded
+[09/17/20 21:29:42] D2BS 2304: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:29:42] D2BS 2304: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:29:42] D2BS 2304: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[09/17/20 21:29:42] D2BS 2304: Updating Config from level 0 to 4
+[09/17/20 21:29:42] D2BS 2304: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/17/20 21:29:42] D2BS 2304: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:29:42] D2BS 2304: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:29:42] D2BS 2304: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[09/17/20 21:29:42] D2BS 2304: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2116ÿc4. Valid entries: ÿc299. ÿc4Time: ÿc216 ms
+[09/17/20 21:29:42] D2BS 2304: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:29:42] D2BS 2304: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:29:42] D2BS 2304: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[09/17/20 21:29:42] D2BS 2304: Updating Config from level 0 to 4
+[09/17/20 21:29:42] D2BS 2304: AutoBuild: Loaded helper thread
+[09/17/20 21:29:42] D2BS 2304: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:29:42] D2BS 2304: initNPC: identify
+[09/17/20 21:29:42] D2BS 2304: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[09/17/20 21:29:42] D2BS 2304: Updating Config from level 0 to 4
+[09/17/20 21:29:42] D2BS 2304: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:29:42] D2BS 2304: ÿc3Start ToolsThread script
+[09/17/20 21:29:42] D2BS 2304: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[09/17/20 21:29:42] D2BS 2304: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[09/17/20 21:29:42] D2BS 2304: Updating Config from level 0 to 4
+[09/17/20 21:29:42] D2BS 2304: Updating Config from level 0 to 4
+[09/17/20 21:30:03] D2BS 2332: D2BS Engine startup complete. 1.6.4U
+[09/17/20 21:30:03] D2BS 2332: Hammerdin
+[09/17/20 21:30:03] D2BS 2332: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[09/17/20 21:30:03] D2BS 2332: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/17/20 21:30:03] D2BS 2332: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/17/20 21:30:03] D2BS 2332: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/17/20 21:30:03] D2BS 2332: ÿc2D2BSÿc0 :: Started Console Script
+[09/17/20 21:30:05] D2BS 2332: Heartbeat loaded
+[09/17/20 21:30:23] D2BS 2332: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/17/20 21:30:23] D2BS 2332: ÿc2D2BSÿc0 :: default.dbj running.
+[09/17/20 21:30:23] D2BS 2332: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[09/17/20 21:30:23] D2BS 2332: Updating Config from level 0 to 4
+[09/17/20 21:30:23] D2BS 2332: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/17/20 21:30:23] D2BS 2332: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/17/20 21:30:23] D2BS 2332: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/17/20 21:30:23] D2BS 2332: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[09/17/20 21:30:23] D2BS 2332: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2116ÿc4. Valid entries: ÿc299. ÿc4Time: ÿc20 ms
+[09/17/20 21:30:23] D2BS 2332: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/17/20 21:30:23] D2BS 2332: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/17/20 21:30:23] D2BS 2332: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[09/17/20 21:30:23] D2BS 2332: Updating Config from level 0 to 4
+[09/17/20 21:30:23] D2BS 2332: AutoBuild: Loaded helper thread
+[09/17/20 21:30:23] D2BS 2332: ÿc2Starting script: ÿc9LevelFollower
+[09/17/20 21:30:23] D2BS 2332: initNPC: identify
+[09/17/20 21:30:23] D2BS 2332: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[09/17/20 21:30:23] D2BS 2332: Updating Config from level 0 to 4
+[09/17/20 21:30:23] D2BS 2332: ÿc2Party thread loaded. Mode: Accept
+[09/17/20 21:30:23] D2BS 2332: ÿc3Start ToolsThread script
+[09/17/20 21:30:23] D2BS 2332: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[09/17/20 21:30:23] D2BS 2332: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[09/17/20 21:30:23] D2BS 2332: Updating Config from level 0 to 4
+[09/17/20 21:30:23] D2BS 2332: Updating Config from level 0 to 4
+[09/17/20 21:30:30] D2BS 2332: ÿc4MiniShopBotÿc0: Scanning 44 items.
+[09/17/20 21:30:55] D2BS 2332: 3
+[09/17/20 21:31:02] D2BS 2332: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 21:31:03] D2BS 2332: ÿc7Picked up ÿc3Cap ÿc0(ilvl 5) (Hammerdin.xpac.nip #31)
+[09/17/20 21:31:03] D2BS 2332: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/17/20 21:31:03] D2BS 2332: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)

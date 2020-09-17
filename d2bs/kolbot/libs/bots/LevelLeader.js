@@ -474,7 +474,7 @@ function LevelLeader(){
 		return true;
 	};
 		
-// =============== COMMON FUNCTIONS =============== //
+// == == == == == == == = COMMON FUNCTIONS == == == == == == == = //
 
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
@@ -504,7 +504,7 @@ function LevelLeader(){
 	};
 	
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
-		var count=0;
+		var count=0, monster=getUnit(1,UnitId);
 		while(count < 45){
 			try{
 				Pather.makePortal();
@@ -519,7 +519,7 @@ function LevelLeader(){
 					return true;
 				}
 			}catch(err){
-				this.logProgress(null,"Clear to Unit:"+UnitId+" in Area:"+QuestArea);
+				this.logProgress(null,"Clear to Unit:"+monster.name+" in - "+Pather.getAreaName(QuestArea));
 				return false;
 			}
 			count++;
@@ -540,16 +540,16 @@ function LevelLeader(){
 				}
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					Pather.makePortal();
-					DestinationReached=(me.area==DestinationArea);
+					DestinationReached=(me.area == DestinationArea);
 				}
 			}catch(err){
 				Attack.clearLevel(0);
 				Pather.journeyTo(DestinationArea);
-				DestinationReached=(me.area==DestinationArea);
+				DestinationReached=(me.area == DestinationArea);
 			}
 			count++;
 		}
-		this.logProgress(DestinationReached,"Clear to Area:"+DestinationArea+" from:"+CurrentArea);
+		this.logProgress(DestinationReached,"Clear to - "+Pather.getAreaName(DestinationArea)+" from:"+Pather.getAreaName(CurrentArea));
 		return DestinationReached;
 	};
 	
@@ -563,7 +563,7 @@ function LevelLeader(){
 			print("Boss not found");
 		}
 		if(Boss){
-			this.logProgress(Boss.dead,"Kill Boss:"+BossId);
+			this.logProgress(Boss.dead,"Kill Boss:"+BossId.name);
 			return Boss.dead;
 		}
 		return false;
@@ -593,7 +593,8 @@ function LevelLeader(){
 			try{
 				Misc.openChest(Chest);
 			}catch(err){
-				this.logProgress(null,"GetQuestChest:"+ChestId);return false;
+				this.logProgress(null,"GetQuestChest:"+ChestId);
+				return false;
 			}
 		}
 		delay(1000);
@@ -601,7 +602,8 @@ function LevelLeader(){
 		try{
 			Pickit.pickItem(Item);
 		}catch(err){
-			this.logProgress(null,"GetQuestItem:"+ItemId);return false;
+			this.logProgress(null,"GetQuestItem:"+Item.name);
+			return false;
 		}
 		delay(1000);
 		Pickit.pickItems();
@@ -698,7 +700,7 @@ function LevelLeader(){
 		}
 		Precast.doPrecast(true);
 		delay(5000);
-		if(DestinationArea==74){
+		if(DestinationArea == 74){
 			Pather.useWaypoint(40);
 		}else{
 			Town.goToTown(PortalTown);
@@ -716,7 +718,7 @@ function LevelLeader(){
 			delay(1000);
 			WaitingLimit++;
 		}
-		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+DestinationArea);
+		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
 		return DestinationArea == me.area;
 	};
 	
@@ -733,7 +735,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// =============== ACT V FUNCTIONS =============== //
+// == == == == == == == = ACT V FUNCTIONS == == == == == == == = //
 	
 	this.FreeAnya=function(){
 		var Anya=getUnit(2,558);
@@ -752,7 +754,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-// =============== ACT IV FUNCTIONS =============== //
+// == == == == == == == = ACT IV FUNCTIONS == == == == == == == = //
 	
 	this.openSeal=function(SealId){
 		this.clearToQuestLocation(108,2,SealId);
@@ -778,7 +780,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// =============== ACT III FUNCTIONS =============== //
+// == == == == == == == = ACT III FUNCTIONS == == == == == == == = //
 
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0,Will=me.getItem(174);
@@ -816,7 +818,7 @@ function LevelLeader(){
 			if(Will.toCursor()){
 				clickItem(0,4);
 				delay(1500);
-				if(Will.bodylocation == 4 && getCursorType()== 3){
+				if(Will.bodylocation == 4 && getCursorType() == 3){
 					PrevWeapon=getUnit(100);
 					if(PrevWeapon && Storage.Inventory.CanFit(PrevWeapon)){
 						Storage.Inventory.MoveTo(PrevWeapon);
@@ -830,7 +832,7 @@ function LevelLeader(){
 		return me.getItem(174);
 	};
 	
-// =============== ACT II FUNCTIONS =============== //
+// == == == == == == == = ACT II FUNCTIONS == == == == == == == = //
 		
 	this.talkToTyrael=function(){
 		var i,NPC=getUnit(1,"Tyrael");
@@ -952,7 +954,7 @@ function LevelLeader(){
 		 switch(bytes[0]) {
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) !== -1) {
+				if(MercId.indexOf(id) != -1) {
 						MercId.length=0;
 				}
 				MercId.push(id);
@@ -960,7 +962,7 @@ function LevelLeader(){
 		}
 	};
 
-// =============== START & END FUNCTIONS =============== //
+// == == == == == == == = START & END FUNCTIONS == == == == == == == = //
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
@@ -996,7 +998,7 @@ function LevelLeader(){
 			else{ActNumber=4;}
 		}
 		LevelingAreas[ActNumber].splice(0,LevelingAreas[ActNumber].indexOf(UpToArea));
-		say("Up to Act:"+(ActNumber+1)+" Area:"+LevelingAreas[ActNumber][0]);
+		say("Up to Act:"+(ActNumber+1)+" - "+Pather.getAreaName(LevelingAreas[ActNumber][0]));
 		return true;
 	};
 	
@@ -1046,7 +1048,7 @@ function LevelLeader(){
 					print("Failed to make portal");
 				}
 				if(LevelArea<LevelingAreas[ActNumber].length-1 && !FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
-					say("Clearing to "+LevelingAreas[ActNumber][LevelArea+1]);
+					say("Clearing to "+Pather.getAreaName(LevelingAreas[ActNumber][LevelArea+1]));
 					clearToNextArea(LevelingAreas[ActNumber][LevelArea],LevelingAreas[ActNumber][LevelArea+1]);
 				}else{
 					say("Full Clear");
