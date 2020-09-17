@@ -11,7 +11,7 @@ function LevelLeader(){
 	43,44,
 	104,105,106,
 	111,113,124,120,128,129];
-	var LevelingAreas=[[2,8,3,4,5,6,27,29,32,34,35,36,37],
+	var LevelingAreas=[[2,8,3,4,10,5,6,27,29,32,34,35,36,37],
 	[47,48,49,42,56,57,58,43,44,52,54,46],
 	[76,85,77,78,88,79,80,94,81,82,83,100,101,102],
 	[104,105,106,107,108],
@@ -73,6 +73,9 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(4,0),"Tristram");
 			break;
 			case 6://Countess
+				if(me.getQuest(5,0)){
+					break;
+				}
 				Pather.journeyTo(6);
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){
 					Pather.makePortal();
@@ -91,6 +94,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(3,3),"Smith");
 			break;
 			case 36://Andariel
+				Pather.journeyTo(37);
 				// if(Pather.moveToExit(37,true,true)){
 					// Pather.makePortal();
 				// }
@@ -1040,11 +1044,12 @@ function LevelLeader(){
 				}catch(err){
 					print("Failed to make portal");
 				}
-				if(LevelArea<LevelingAreas[ActNumber].length && !FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
-					clearToNextArea(LevelingAreas[ActNumber][LevelArea],LevelingAreas[ActNumber][LevelArea+1]);
-				}else{
+				if(LevelArea<LevelingAreas[ActNumber].length && FullClearAreas.indexOf(LevelingAreas[ActNumber][LevelArea])>-1){
 					say("Full Clear");
 					Attack.clearLevel(0);
+				}else{
+					say("Skip Clear");
+					clearToNextArea(LevelingAreas[ActNumber][LevelArea],LevelingAreas[ActNumber][LevelArea+1]);
 				}
 			}
 			this.CheckQuests(LevelingAreas[ActNumber][LevelArea]);
