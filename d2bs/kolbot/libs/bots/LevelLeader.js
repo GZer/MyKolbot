@@ -7,15 +7,15 @@
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
 	var MercId=[],TeleSorcs=[];
-	var FullClearAreas=[8,3,4,5,6,34,35,36,
+	var FullClearAreas=[8,3,4,5,6,34,35,
 	43,44,
 	104,105,106,
-	111,113,120,128,129,130,131];
+	111,113,124,120,128,129];
 	var LevelingAreas=[[2,8,3,4,5,6,27,29,32,34,35,36,37],
 	[47,48,49,42,56,57,58,43,44,52,54,46],
 	[76,85,77,78,88,79,80,94,81,82,83,100,101,102],
 	[104,105,106,107,108],
-	[110,111,112,113,115,121,122,123,124,117,118,120,128,129,130]];	
+	[110,111,112,113,115,121,122,123,124,117,118,120,128,129,130,131]];	
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
 	75,76,77,78,79,80,81,83,101,
@@ -420,10 +420,11 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(38,0),"Nihlathak");
 			break;
 			case 118://Ancients
-				Pather.journeyTo(118);
-				if(Pather.moveToExit(120,true,true)){
-					Pather.makePortal();
-				}
+				Pather.journeyTo(120);
+				// if(Pather.moveToExit(120,true,true)){
+					// Pather.makePortal();
+				// }
+				Pather.makePortal();
 				this.clearToQuestLocation(120,2,546);
 				Altar=getUnit(2,546);
 				if(Altar){
