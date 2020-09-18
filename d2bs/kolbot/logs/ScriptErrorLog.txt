@@ -1,0 +1,6 @@
+[2020/09/18 12:55:29] <Singer> Error in LevelLeader (pather.js line 1023): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1066, @levelleader.js:30, useWaypoint@pather.js:1023
+[2020/09/18 13:08:22] <Singer> Error in LevelLeader (pather.js line 1023): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1067, @levelleader.js:31, useWaypoint@pather.js:1023
+[2020/09/18 13:44:22] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:313, @levelfollower.js:145, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2204, Pather.makePortal@pather.js:1045

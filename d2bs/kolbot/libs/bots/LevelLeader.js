@@ -26,7 +26,7 @@ function LevelLeader(){
 		var Stones,Gibbet,CouncilCoord,Altar,BaalPortal,i=0;
 		switch(ClearedArea){
 			case 8://Waypoint to Town after Den
-				Pather.getWP(ClearedArea);
+				Pather.getWP(3);
 				Pather.useWaypoint(1);
 				Town.doChores();
 				this.logProgress(me.getQuest(1,0),"Den");
