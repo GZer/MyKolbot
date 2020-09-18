@@ -8,11 +8,11 @@ function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit;
 	var MercId=[],TeleSorcs=[];
 	var FullClearAreas=[8,3,4,5,6,34,35,
-	43,44,
+	60,43,44,
 	104,105,106,
 	111,113,124,120,128,129];
 	var LevelingAreas=[[2,8,3,4,10,5,6,27,29,32,34,35,36,37],
-	[47,48,49,42,56,57,60,43,44,52,54,46],
+	[47,48,49,42,56,57,60,43,44,52,54,46,getRoom().correcttomb],
 	[76,85,77,78,88,79,80,94,81,82,83,100,101,102],
 	[104,105,106,107,108],
 	[110,111,112,113,115,121,122,123,124,117,118,120,128,129,130,131]];	
@@ -26,13 +26,23 @@ function LevelLeader(){
 		var Stones,Gibbet,CouncilCoord,Altar,BaalPortal,i=0;
 		switch(ClearedArea){
 			case 8://Waypoint to Town after Den
-				Pather.getWP(3);
+				Pather.getWP(ClearedArea);
 				Pather.useWaypoint(1);
 				Town.doChores();
 				this.logProgress(me.getQuest(1,0),"Den");
 			break;
+			case 3://Waypoint to Town after Cold Plains
+				Pather.getWP(ClearedArea);
+				Pather.useWaypoint(1);
+				Town.doChores();
+			break;
+			case 4://Waypoint to Town after Stony Field
+				Pather.getWP(ClearedArea);
+				Pather.useWaypoint(1);
+				Town.doChores();
+			break;
 			case 5://Tristram
-				Pather.getWP(5);
+				Pather.getWP(ClearedArea);
 				Pather.useWaypoint(1);
 				Town.doChores();
 				Pather.journeyTo(5);
@@ -193,7 +203,6 @@ function LevelLeader(){
 			break;
 			case 46://Duriel
 				Pather.journeyTo(getRoom().correcttomb);
-				Pather.makePortal();
 				this.clearToQuestLocation(getRoom().correcttomb,2,152);
 				this.clearToQuestLocation(getRoom().correcttomb,2,100);
 				this.placeStaff();
@@ -504,8 +513,8 @@ function LevelLeader(){
 	};
 	
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
-		var count=0, monster=getUnit(1,UnitId);
-		while(count < 45){
+		var count=0;
+		while(count < 60){
 			try{
 				Pather.makePortal();
 				while(!this.playerClose() && count < 3){
@@ -519,7 +528,7 @@ function LevelLeader(){
 					return true;
 				}
 			}catch(err){
-				this.logProgress(null,"Clear to Unit:"+monster.name+" in "+Pather.getAreaName(QuestArea));
+				this.logProgress(null,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));
 				return false;
 			}
 			count++;
@@ -562,7 +571,7 @@ function LevelLeader(){
 			print("Boss not found");
 		}
 		if(Boss){
-			this.logProgress(Boss.dead,"Kill Boss:"+BossId.name);
+			this.logProgress(Boss.dead,"Kill Boss:"+Boss.name);
 			return Boss.dead;
 		}
 		return false;

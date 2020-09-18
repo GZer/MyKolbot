@@ -132,6 +132,9 @@ function LevelFollower(){
 						delay(250);
 					}
 				}
+				if((LeaderArea == 46 || LeaderArea == getRoom().correcttomb) && getWaypoint(17)){									//Tal Rasha tomb fix
+					Pather.useWaypoint(46);
+				}
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
 					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
 				}
