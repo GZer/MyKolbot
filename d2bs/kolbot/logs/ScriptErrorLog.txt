@@ -42,3 +42,13 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:123, Town.goToTown@town.js:2215, Pather.makePortal@pather.js:1049
 [2020/09/18 22:23:36] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 74
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:313, @levelfollower.js:145, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/19 12:14:42] <Singer> Failed to include script: LevelLeader
+[2020/09/19 12:15:00] <Singer> Failed to include script: LevelLeader
+[2020/09/19 12:27:23] <Singer> Error in LevelLeader (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:966, @levelleader.js:462, Pather.makePortal@pather.js:1049
+[2020/09/19 12:37:54] <Singer> Error in LevelLeader (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:123, Town.goToTown@town.js:2215, Pather.makePortal@pather.js:1049
+[2020/09/19 12:46:52] <Singer> Error in LevelLeader (levelleader.js line 520): Item is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:968, @levelleader.js:94, @levelleader.js:520
+[2020/09/19 12:52:00] <Singer> Error in LevelLeader (levelleader.js line 516): Item is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:964, @levelleader.js:94, @levelleader.js:516

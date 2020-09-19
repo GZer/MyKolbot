@@ -7,7 +7,7 @@
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb;
 	var MercId=[],TeleSorcs=[];
-	var FullClearAreas=[3,4,5,6,35,36
+	var FullClearAreas=[3,4,5,6,35,36,
 	42,43,44,
 	104,105,106,
 	111,113,115,118,129,130,131];
@@ -18,9 +18,9 @@ function LevelLeader(){
 	109,111,112,113,115,123,117,118,129];
 	var LevelingAreas=[[2,8,3,4,10,5,6,27,28,29,32,34,35,36,37],
 	[47,48,49,42,56,57,60,43,44,45,52,54,74,46,TalRashaTomb],
-	[76,85,77,78,88,79,80,94,81,82,83,100,101,102],
+	[76,85,77,78,88,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
-	[110,111,112,113,115,121,122,123,124,117,118,120,128,129,130,131]];	
+	[110,111,112,113,114,115,121,122,123,124,117,118,120,128,129,130,131]];	
 
 	this.CheckQuests=function(ClearedArea){
 		var Stones,Gibbet,CouncilCoord,Altar,BaalPortal,i=0;
@@ -169,10 +169,9 @@ function LevelLeader(){
 					Pather.journeyTo(74);
 					this.clearToQuestLocation(74,2,357);
 				}
-				Pather.makePortal();
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
-				Pather.getWP(46, true);
+				Pather.getWP(46,true);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
 			break;
@@ -210,8 +209,6 @@ function LevelLeader(){
 					// Town.doChores();
 					// this.logProgress(me.getQuest(19,0),"Gidbinn");
 				// }
-				// Pather.journeyTo(88);
-				// Pather.makePortal();
 				if(!this.waitForTeleporter(91)){
 					while(me.area != 89){
 						try{
@@ -237,7 +234,6 @@ function LevelLeader(){
 				this.logProgress(me.getItem(555),"Khalim Brain");
 			break;
 			case 94: //Black Book and Khalim Heart
-				// Pather.journeyTo(94);
 				if(!me.getQuest(17,0)){
 					this.clearToQuestLocation(94,2,193);
 					this.getQuestItem(548,193);
@@ -254,12 +250,7 @@ function LevelLeader(){
 				this.logProgress(me.getItem(554),"Khalim Heart");
 			break;
 			case 83: //Khalim Flail
-				// Pather.journeyTo(83);
-				while(true){
-					if(Pather.getWP(83,true)){
-						break;
-					}
-				}
+				Pather.useWaypoint(75);
 				Town.doChores();
 				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
@@ -275,31 +266,15 @@ function LevelLeader(){
 				Pather.journeyTo(83);
 			break;
 			case 102: //Mephisto
-				// Pather.journeyTo(102);
-				// if(Pather.moveToExit(102,true,true)){
-					// Pather.makePortal();
-				// }
-				// say("Waiting for Party Quest");
-				// delay(5000);
-				// Attack.clear(5);
-				// delay(10000);
-				// CouncilCoord=[17600,8125,17600,8015,17643,8068];
-				// for(i=0; i < CouncilCoord.length; i += 2){
-					// Pather.moveTo(CouncilCoord[i],CouncilCoord[i + 1],1,true,true);
-					// Attack.clearList(Attack.getMob([345,346,347],0,40));
-				// }
 				Pather.moveTo(17606,8127,1,true,true);
 				Pather.moveTo(17549,8067,1,true,true);
 				this.killQuestBoss(242);
 				this.logProgress(me.getQuest(22,0),"Mephisto");
+				Attack.clearLevel(0);
 				Pather.moveTo(17590,8068,2,true,true);
 				Pather.moveTo(17601,8070,2,true,true);
 			break;
 			case 104: //Izual
-				// Pather.journeyTo(104);
-				// if(Pather.moveToExit(105,true,true)){
-					// Pather.makePortal();
-				// }
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
 				this.talkToNPC("Tyrael");
@@ -307,7 +282,6 @@ function LevelLeader(){
 				Pather.usePortal(105,null);
 			break;
 			case 108: //Diablo
-				// Pather.journeyTo(108);
 				if(Pather.moveTo(7791,5293,5,true,true)){
 					Pather.makePortal();
 				}
@@ -328,7 +302,6 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
 			case 110: //Shenk
-				// Pather.journeyTo(110);
 				Pather.moveTo(3883,5113,15,true,true);
 				this.killQuestBoss(760);
 				this.talkToNPC("Larzuk");
@@ -338,11 +311,7 @@ function LevelLeader(){
 				this.talkToNPC("Qual-Kehk");
 				this.logProgress(me.getQuest(36,0),"Prisoners");
 			break;
-			case 113: //Anya
-				// Pather.journeyTo(113);
-				if(Pather.moveToExit(114,true,true)){
-					Pather.makePortal();
-				}
+			case 114: //Anya
 				this.clearToQuestLocation(114,2,460);
 				delay(1000);
 				this.FreeAnya();
@@ -368,8 +337,6 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(38,0),"Nihlathak");
 			break;
 			case 120: //Ancients
-				// Pather.journeyTo(120);
-				Pather.makePortal();
 				this.clearToQuestLocation(120,2,546);
 				Altar=getUnit(2,546);
 				if(Altar){
@@ -448,7 +415,6 @@ function LevelLeader(){
 		}
 		while(count < 60){
 			try{
-				Pather.makePortal();
 				while(!this.playerClose() && count < 3){
 					say("Waiting for Party Quest");
 					Attack.clear(5);
@@ -469,33 +435,21 @@ function LevelLeader(){
 	};
 	
 	this.clearToNextArea=function(DestinationArea){
-		var count=0, DestinationReached=false, CurrentArea=me.area;
+		var count=0,DestinationReached=false;
 		while(count < 45 && !DestinationReached){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					Pather.makePortal();
-					DestinationReached=(CurrentArea == DestinationArea);
+					DestinationReached=(me.area == DestinationArea);
 				}
 			}catch(err){
 				Pather.journeyTo(DestinationArea);
-				DestinationReached=(CurrentArea == DestinationArea);
+				DestinationReached=(me.area == DestinationArea);
 			}
 			count++;
 		}
-		this.logProgress(DestinationReached,"Clear to "+Pather.getAreaName(DestinationArea)+" from "+Pather.getAreaName(CurrentArea));
+		this.logProgress(DestinationReached,"Clear to "+Pather.getAreaName(DestinationArea)+" from "+Pather.getAreaName(me.area));
 		return DestinationReached;
-	};
-	
-	this.getAreaWP=function(CurrentArea){
-		var count=0, GotWP=getWaypoint(WaypointAreas.indexOf(CurrentArea));
-		while(count < 10 && !GotWP){
-			Pather.getWP(CurrentArea,true);
-			Pather.makePortal();
-			GotWP=getWaypoint(WaypointAreas.indexOf(CurrentArea));
-			count++;
-		}
-		this.logProgress(GotWP,"Getting Waypoint "+Pather.getAreaName(CurrentArea));
-		return GotWP;
 	};
 	
 	this.killQuestBoss=function(BossId){
@@ -547,7 +501,7 @@ function LevelLeader(){
 		try{
 			Pickit.pickItem(Item);
 		}catch(err){
-			this.logProgress(null,"GetQuestItem:"+Item.name);
+			this.logProgress(null,"GetQuestItem:"+ItemId);
 			return false;
 		}
 		delay(1000);
@@ -748,7 +702,7 @@ function LevelLeader(){
 	};
 
 	this.cubeFlail=function(){
-		var Will, PrevWeapon, Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
+		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
 		if(!me.getQuest(18,0) && !me.getItem(174)){
 			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
@@ -795,7 +749,7 @@ function LevelLeader(){
 	};
 	
 	this.placeStaff=function(){
-		var HoradricStaff=me.getItem(91),item,Orifice=getUnit(2,152);
+		var HoradricStaff=me.getItem(91),Item,Orifice=getUnit(2,152);
 		if(!me.getQuest(10,0)){
 			if(!Orifice){this.logProgress(null,"Quit Orifice");quit();}
 			if(!HoradricStaff){
@@ -810,9 +764,9 @@ function LevelLeader(){
 			HoradricStaff.toCursor();
 			submitItem();
 			delay(1000);
-			item=me.findItem(-1,0,3);
-			if(item && item.toCursor()){
-				Storage.Inventory.MoveTo(item);
+			Item=me.findItem(-1,0,3);
+			if(Item && Item.toCursor()){
+				Storage.Inventory.MoveTo(Item);
 			}
 			this.logProgress(me.getQuest(10,0),"Placing Horadric Staff");
 		}
@@ -872,7 +826,7 @@ function LevelLeader(){
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
-		addEventListener("gamepacket", gamePacket);
+		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
 			while(MercId.length>0){
@@ -994,14 +948,14 @@ function LevelLeader(){
 					delay(7000*WaitingLimit--);
 				}
 				Precast.doPrecast(true);
-				this.getAreaWP(UpToArea);
+				Pather.getWP(UpToArea,true);
 				this.CheckQuests(UpToArea);
 				if(FullClearAreas.indexOf(UpToArea)>-1){
 					Pather.journeyTo(UpToArea);
 					say("Full Clear");
 					Attack.clearLevel(0);
 				}else if(NextArea>0){
-					say("Clearing to "+Pather.getAreaName(NextArea);
+					say("Clearing to "+Pather.getAreaName(NextArea));
 					clearToNextArea(NextArea);
 				}
 			}

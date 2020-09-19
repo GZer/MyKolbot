@@ -1411,3 +1411,587 @@
 [09/19/20 12:05:02] D2BS 11832: 6
 [09/19/20 12:05:18] D2BS 11832: move retry 1
 [09/19/20 12:05:29] D2BS 11832: move retry 2
+[09/19/20 12:06:17] D2BS 11832: ÿc1Skipping Thorn Beast 2548 16
+[09/19/20 12:06:31] D2BS 11832: ÿc1Pausing.
+[09/19/20 12:06:31] D2BS 11832: initNPC: heal
+[09/19/20 12:06:42] D2BS 11832: initNPC: buyPotions
+[09/19/20 12:06:50] D2BS 11832: ÿc2Resuming.
+[09/19/20 12:08:00] D2BS 11832: ÿc1Pausing.
+[09/19/20 12:08:00] D2BS 11832: initNPC: heal
+[09/19/20 12:08:11] D2BS 11832: initNPC: buyPotions
+[09/19/20 12:08:16] D2BS 11832: initNPC: reviveMerc
+[09/19/20 12:08:27] D2BS 11832: ÿc2Resuming.
+[09/19/20 12:08:33] D2BS 11832: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/19/20 12:08:33] D2BS 11832: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/19/20 12:08:33] D2BS 11832: ÿc7Picked up ÿc3Kite Shield ÿc0(ilvl 42) (Tornado.xpac.nip #13)
+[09/19/20 12:08:33] D2BS 11832: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/19/20 12:08:37] D2BS 11832: 7,26,27,28
+[09/19/20 12:08:44] D2BS 11832: move retry 1
+[09/19/20 12:09:04] D2BS 11832: move retry 1
+[09/19/20 12:09:15] D2BS 11832: move retry 1
+[09/19/20 12:09:25] D2BS 11832: move retry 2
+[09/19/20 12:09:41] D2BS 11832: ÿc1Skipping Devilkin Shaman 2698 16
+[09/19/20 12:09:57] D2BS 11832: move retry 1
+[09/19/20 12:10:01] D2BS 11832: initNPC: heal
+[09/19/20 12:10:11] D2BS 11832: initNPC: identify
+[09/19/20 12:10:14] D2BS 11832: ÿc4MiniShopBotÿc0: Scanning 37 items.
+[09/19/20 12:10:14] D2BS 11832: initNPC: buyPotions
+[09/19/20 12:10:37] D2BS 11832: move retry 1
+[09/19/20 12:10:53] D2BS 11832: move retry 1
+[09/19/20 12:11:09] D2BS 11832: ÿc1Pausing.
+[09/19/20 12:11:10] D2BS 11832: Script default.dbj ended
+[09/19/20 12:11:10] D2BS 11832: Script tools\autobuildthread.js ended
+[09/19/20 12:11:10] D2BS 11832: Script tools\party.js ended
+[09/19/20 12:11:10] D2BS 11832: Script tools\townchicken.js ended
+[09/19/20 12:11:17] D2BS 11832: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:11:17] D2BS 11832: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:11:17] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:11:17] D2BS 11832: Updating Config from level 0 to 42
+[09/19/20 12:11:17] D2BS 11832: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 12:11:17] D2BS 11832: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc216 ms
+[09/19/20 12:11:17] D2BS 11832: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:11:17] D2BS 11832: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/19/20 12:11:17] D2BS 11832: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:11:17] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:11:17] D2BS 11832: Updating Config from level 0 to 42
+[09/19/20 12:11:17] D2BS 11832: AutoBuild: Loaded helper thread
+[09/19/20 12:11:17] D2BS 11832: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:11:17] D2BS 11832: initNPC: heal
+[09/19/20 12:11:17] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:11:17] D2BS 11832: Updating Config from level 0 to 42
+[09/19/20 12:11:17] D2BS 11832: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:11:17] D2BS 11832: ÿc3Start ToolsThread script
+[09/19/20 12:11:17] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:11:17] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:11:17] D2BS 11832: Updating Config from level 0 to 42
+[09/19/20 12:11:17] D2BS 11832: Updating Config from level 0 to 42
+[09/19/20 12:11:23] D2BS 11832: initNPC: buyPotions
+[09/19/20 12:11:26] D2BS 11832: initNPC: reviveMerc
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: Stat points: 5      Skill points: 3
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: Level up detected ( 42 --> 43 )
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: useSkillPoint(): Tornado (245)
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  20)
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: useStatPoint(0): Strength
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: Stat (1/5) Increased Strength from 56 to 57
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: Stat (2/5) Increased Vitality from 189 to 190
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: Stat (3/5) Increased Vitality from 190 to 191
+[09/19/20 12:12:02] D2BS 11832: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:12:03] D2BS 11832: AutoBuild: Stat (4/5) Increased Vitality from 191 to 192
+[09/19/20 12:12:03] D2BS 11832: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:12:03] D2BS 11832: AutoBuild: Stat (5/5) Increased Vitality from 192 to 193
+[09/19/20 12:12:03] D2BS 11832: Updating Config from level 42 to 43
+[09/19/20 12:12:03] D2BS 11832: Updating Config from level 42 to 43
+[09/19/20 12:12:03] D2BS 11832: AutoBuild: Updating Config from level 42 to 43
+[09/19/20 12:12:03] D2BS 11832: Updating Config from level 42 to 43
+[09/19/20 12:12:03] D2BS 11832: Updating Config from level 42 to 43
+[09/19/20 12:12:03] D2BS 11832: AutoBuild: Incrementing cached character level to 43
+[09/19/20 12:12:04] D2BS 11832: ÿc7Picked up ÿc41045 Gold
+[09/19/20 12:12:12] D2BS 11832: ÿc7Picked up ÿc4130 Gold
+[09/19/20 12:13:09] D2BS 11832: ÿc7Picked up ÿc4119 Gold
+[09/19/20 12:13:21] D2BS 11832: move retry 1
+[09/19/20 12:13:37] D2BS 11832: move retry 1
+[09/19/20 12:13:42] D2BS 11832: move retry 1
+[09/19/20 12:14:01] D2BS 11832: ÿc7Picked up ÿc4176 Gold
+[09/19/20 12:14:04] D2BS 11832: 29,30
+[09/19/20 12:14:40] D2BS 11832: Script default.dbj ended
+[09/19/20 12:14:40] D2BS 11832: Script tools\autobuildthread.js ended
+[09/19/20 12:14:40] D2BS 11832: Script tools\party.js ended
+[09/19/20 12:14:40] D2BS 11832: Script tools\toolsthread.js ended
+[09/19/20 12:14:40] D2BS 11832: Script tools\townchicken.js ended
+[09/19/20 12:14:46] D2BS 11832: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:14:46] D2BS 11832: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:14:46] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:14:46] D2BS 11832: Updating Config from level 0 to 43
+[09/19/20 12:14:47] D2BS 11832: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 12:14:47] D2BS 11832: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:14:47] D2BS 11832: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[09/19/20 12:14:47] D2BS 11832: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/19/20 12:14:47] D2BS 11832: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:14:47] D2BS 11832: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:14:47] D2BS 11832: initNPC: heal
+[09/19/20 12:14:47] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:14:47] D2BS 11832: Updating Config from level 0 to 43
+[09/19/20 12:14:47] D2BS 11832: AutoBuild: Loaded helper thread
+[09/19/20 12:14:47] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:14:47] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:14:47] D2BS 11832: ÿc3Start ToolsThread script
+[09/19/20 12:14:47] D2BS 11832: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:14:47] D2BS 11832: Updating Config from level 0 to 43
+[09/19/20 12:14:47] D2BS 11832: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:14:47] D2BS 11832: Updating Config from level 0 to 43
+[09/19/20 12:14:47] D2BS 11832: Updating Config from level 0 to 43
+[09/19/20 12:14:54] D2BS 11832: initNPC: buyPotions
+[09/19/20 12:15:12] D2BS 11832: move retry 1
+[09/19/20 12:15:50] D2BS 11832: move retry 1
+[09/19/20 12:15:51] D2BS 11832: 27
+[09/19/20 12:16:16] D2BS 11832: ÿc7Picked up ÿc476 Gold
+[09/19/20 12:16:30] D2BS 11832: move retry 1
+[09/19/20 12:16:57] D2BS 11832: ÿc7Picked up ÿc4136 Gold
+[09/19/20 12:17:06] D2BS 11832: ÿc7Picked up ÿc4119 Gold
+[09/19/20 12:17:12] D2BS 11832: Script default.dbj ended
+[09/19/20 12:17:12] D2BS 11832: Script tools\autobuildthread.js ended
+[09/19/20 12:17:12] D2BS 11832: Script tools\party.js ended
+[09/19/20 12:17:12] D2BS 11832: Script tools\toolsthread.js ended
+[09/19/20 12:17:12] D2BS 11832: Script tools\townchicken.js ended
+[09/19/20 12:17:18] D2BS 11832: D2BS Shutdown complete.
+[09/19/20 12:17:19] D2BS 17140: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:17:19] D2BS 17140: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:17:19] D2BS 17140: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:17:19] D2BS 17140: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:17:19] D2BS 17140: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:17:19] D2BS 17140: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:17:21] D2BS 17140: Heartbeat loaded
+[09/19/20 12:17:38] D2BS 17140: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:17:38] D2BS 17140: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:17:39] D2BS 17140: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:17:39] D2BS 17140: Updating Config from level 0 to 43
+[09/19/20 12:17:39] D2BS 17140: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 12:17:39] D2BS 17140: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc216 ms
+[09/19/20 12:17:39] D2BS 17140: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:17:39] D2BS 17140: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/19/20 12:17:39] D2BS 17140: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:17:39] D2BS 17140: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:17:39] D2BS 17140: Updating Config from level 0 to 43
+[09/19/20 12:17:39] D2BS 17140: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:17:39] D2BS 17140: initNPC: heal
+[09/19/20 12:17:39] D2BS 17140: AutoBuild: Loaded helper thread
+[09/19/20 12:17:39] D2BS 17140: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:17:39] D2BS 17140: Updating Config from level 0 to 43
+[09/19/20 12:17:39] D2BS 17140: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:17:39] D2BS 17140: ÿc3Start ToolsThread script
+[09/19/20 12:17:39] D2BS 17140: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:17:39] D2BS 17140: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:17:39] D2BS 17140: Updating Config from level 0 to 43
+[09/19/20 12:17:39] D2BS 17140: Updating Config from level 0 to 43
+[09/19/20 12:17:40] D2BS 17140: move retry 1
+[09/19/20 12:17:48] D2BS 17140: move retry 1
+[09/19/20 12:17:49] D2BS 17140: initNPC: buyPotions
+[09/19/20 12:18:20] D2BS 17140: 27
+[09/19/20 12:18:43] D2BS 17140: ÿc7Picked up ÿc9Ring ÿc0(ilvl 43) (Tornado.xpac.nip #93)
+[09/19/20 12:18:43] D2BS 17140: ÿc7Picked up ÿc4236 Gold
+[09/19/20 12:19:03] D2BS 17140: move retry 1
+[09/19/20 12:19:03] D2BS 17140: ÿc7Picked up ÿc4149 Gold
+[09/19/20 12:19:18] D2BS 17140: move retry 1
+[09/19/20 12:19:34] D2BS 17140: Script default.dbj ended
+[09/19/20 12:19:34] D2BS 17140: Script tools\autobuildthread.js ended
+[09/19/20 12:19:34] D2BS 17140: Script tools\party.js ended
+[09/19/20 12:19:34] D2BS 17140: Script tools\toolsthread.js ended
+[09/19/20 12:19:34] D2BS 17140: Script tools\townchicken.js ended
+[09/19/20 12:19:40] D2BS 17140: D2BS Shutdown complete.
+[09/19/20 12:19:41] D2BS 17016: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:19:41] D2BS 17016: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:19:41] D2BS 17016: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:19:41] D2BS 17016: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:19:41] D2BS 17016: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:19:41] D2BS 17016: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:19:41] D2BS 17016: Wind
+[09/19/20 12:19:42] D2BS 17016: Heartbeat loaded
+[09/19/20 12:20:01] D2BS 17016: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:20:01] D2BS 17016: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:20:01] D2BS 17016: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:20:01] D2BS 17016: Updating Config from level 0 to 43
+[09/19/20 12:20:01] D2BS 17016: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 12:20:01] D2BS 17016: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:20:01] D2BS 17016: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:20:01] D2BS 17016: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc215 ms
+[09/19/20 12:20:01] D2BS 17016: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:20:01] D2BS 17016: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:20:01] D2BS 17016: initNPC: heal
+[09/19/20 12:20:01] D2BS 17016: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:20:01] D2BS 17016: Updating Config from level 0 to 43
+[09/19/20 12:20:01] D2BS 17016: AutoBuild: Loaded helper thread
+[09/19/20 12:20:01] D2BS 17016: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:20:01] D2BS 17016: Updating Config from level 0 to 43
+[09/19/20 12:20:01] D2BS 17016: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:20:01] D2BS 17016: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:20:01] D2BS 17016: ÿc3Start ToolsThread script
+[09/19/20 12:20:01] D2BS 17016: Updating Config from level 0 to 43
+[09/19/20 12:20:01] D2BS 17016: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:20:01] D2BS 17016: Updating Config from level 0 to 43
+[09/19/20 12:20:31] D2BS 17016: 27
+[09/19/20 12:21:19] D2BS 17016: ÿc1Skipping Yeti 56 16
+[09/19/20 12:21:19] D2BS 17016: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/19/20 12:21:26] D2BS 17016: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(14/20)
+[09/19/20 12:21:50] D2BS 17016: move retry 1
+[09/19/20 12:21:57] D2BS 17016: ÿc7Picked up ÿc4167 Gold
+[09/19/20 12:21:57] D2BS 17016: ÿc7Picked up ÿc4109 Gold
+[09/19/20 12:21:57] D2BS 17016: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/19/20 12:22:03] D2BS 17016: Script default.dbj ended
+[09/19/20 12:22:03] D2BS 17016: Script tools\autobuildthread.js ended
+[09/19/20 12:22:03] D2BS 17016: Script tools\party.js ended
+[09/19/20 12:22:03] D2BS 17016: Script tools\toolsthread.js ended
+[09/19/20 12:22:03] D2BS 17016: Script tools\townchicken.js ended
+[09/19/20 12:22:10] D2BS 17016: D2BS Shutdown complete.
+[09/19/20 12:22:10] D2BS 7284: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:22:10] D2BS 7284: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:22:10] D2BS 7284: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:22:10] D2BS 7284: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:22:10] D2BS 7284: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:22:10] D2BS 7284: Wind
+[09/19/20 12:22:10] D2BS 7284: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:22:12] D2BS 7284: Heartbeat loaded
+[09/19/20 12:22:30] D2BS 7284: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:22:30] D2BS 7284: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:22:30] D2BS 7284: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:22:30] D2BS 7284: Updating Config from level 0 to 43
+[09/19/20 12:22:30] D2BS 7284: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/19/20 12:22:30] D2BS 7284: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:22:30] D2BS 7284: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:22:30] D2BS 7284: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/19/20 12:22:30] D2BS 7284: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc216 ms
+[09/19/20 12:22:30] D2BS 7284: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:22:30] D2BS 7284: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:22:30] D2BS 7284: initNPC: heal
+[09/19/20 12:22:30] D2BS 7284: Updating Config from level 0 to 43
+[09/19/20 12:22:30] D2BS 7284: AutoBuild: Loaded helper thread
+[09/19/20 12:22:30] D2BS 7284: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:22:30] D2BS 7284: Updating Config from level 0 to 43
+[09/19/20 12:22:30] D2BS 7284: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:22:30] D2BS 7284: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:22:30] D2BS 7284: ÿc3Start ToolsThread script
+[09/19/20 12:22:30] D2BS 7284: Updating Config from level 0 to 43
+[09/19/20 12:22:30] D2BS 7284: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:22:30] D2BS 7284: Updating Config from level 0 to 43
+[09/19/20 12:22:38] D2BS 7284: move retry 1
+[09/19/20 12:22:54] D2BS 7284: move retry 1
+[09/19/20 12:23:14] D2BS 7284: move retry 1
+[09/19/20 12:23:31] D2BS 7284: ÿc1Skipping Black Rogue 46 16
+[09/19/20 12:23:33] D2BS 7284: move retry 1
+[09/19/20 12:23:35] D2BS 7284: move retry 2
+[09/19/20 12:23:37] D2BS 7284: move retry 3
+[09/19/20 12:23:47] D2BS 7284: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/19/20 12:24:19] D2BS 7284: initNPC: heal
+[09/19/20 12:24:22] D2BS 7284: initNPC: buyPotions
+[09/19/20 12:25:35] D2BS 7284: move retry 1
+[09/19/20 12:25:36] D2BS 7284: move retry 2
+[09/19/20 12:26:01] D2BS 7284: initNPC: heal
+[09/19/20 12:26:27] D2BS 7284: move retry 1
+[09/19/20 12:26:34] D2BS 7284: move retry 1
+[09/19/20 12:26:37] D2BS 7284: move retry 1
+[09/19/20 12:26:40] D2BS 7284: move retry 1
+[09/19/20 12:26:45] D2BS 7284: move retry 1
+[09/19/20 12:27:26] D2BS 7284: Script default.dbj ended
+[09/19/20 12:27:26] D2BS 7284: Script tools\autobuildthread.js ended
+[09/19/20 12:27:26] D2BS 7284: Script tools\party.js ended
+[09/19/20 12:27:26] D2BS 7284: Script tools\toolsthread.js ended
+[09/19/20 12:27:26] D2BS 7284: Script tools\townchicken.js ended
+[09/19/20 12:27:32] D2BS 7284: D2BS Shutdown complete.
+[09/19/20 12:27:33] D2BS 11588: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:27:33] D2BS 11588: Wind
+[09/19/20 12:27:33] D2BS 11588: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:27:33] D2BS 11588: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:27:33] D2BS 11588: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:27:33] D2BS 11588: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:27:33] D2BS 11588: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:27:35] D2BS 11588: Heartbeat loaded
+[09/19/20 12:27:52] D2BS 11588: D2BS Shutdown complete.
+[09/19/20 12:27:52] D2BS 19064: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:27:52] D2BS 19064: Wind
+[09/19/20 12:27:52] D2BS 19064: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:27:52] D2BS 19064: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:27:52] D2BS 19064: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:27:52] D2BS 19064: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:27:52] D2BS 19064: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:27:55] D2BS 19064: Heartbeat loaded
+[09/19/20 12:28:13] D2BS 19064: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:28:13] D2BS 19064: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:28:13] D2BS 19064: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:28:13] D2BS 19064: Updating Config from level 0 to 43
+[09/19/20 12:28:13] D2BS 19064: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 12:28:13] D2BS 19064: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:28:13] D2BS 19064: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[09/19/20 12:28:13] D2BS 19064: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/19/20 12:28:13] D2BS 19064: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:28:13] D2BS 19064: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:28:13] D2BS 19064: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:28:13] D2BS 19064: Updating Config from level 0 to 43
+[09/19/20 12:28:13] D2BS 19064: AutoBuild: Loaded helper thread
+[09/19/20 12:28:13] D2BS 19064: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:28:13] D2BS 19064: Updating Config from level 0 to 43
+[09/19/20 12:28:13] D2BS 19064: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:28:13] D2BS 19064: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:28:13] D2BS 19064: Updating Config from level 0 to 43
+[09/19/20 12:28:13] D2BS 19064: ÿc3Start ToolsThread script
+[09/19/20 12:28:13] D2BS 19064: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:28:13] D2BS 19064: Updating Config from level 0 to 43
+[09/19/20 12:28:25] D2BS 19064: move retry 1
+[09/19/20 12:28:33] D2BS 19064: 27
+[09/19/20 12:29:40] D2BS 19064: initNPC: heal
+[09/19/20 12:29:43] D2BS 19064: initNPC: buyPotions
+[09/19/20 12:30:03] D2BS 19064: ÿc7Picked up ÿc4103 Gold
+[09/19/20 12:30:07] D2BS 19064: move retry 1
+[09/19/20 12:30:18] D2BS 19064: move retry 1
+[09/19/20 12:30:26] D2BS 19064: move retry 1
+[09/19/20 12:33:18] D2BS 19064: move retry 1
+[09/19/20 12:33:20] D2BS 19064: initNPC: heal
+[09/19/20 12:33:26] D2BS 19064: initNPC: buyPotions
+[09/19/20 12:33:29] D2BS 19064: initNPC: reviveMerc
+[09/19/20 12:34:03] D2BS 19064: move retry 1
+[09/19/20 12:34:15] D2BS 19064: move retry 1
+[09/19/20 12:34:21] D2BS 19064: move retry 1
+[09/19/20 12:34:28] D2BS 19064: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(14/20)
+[09/19/20 12:34:45] D2BS 19064: Script default.dbj ended
+[09/19/20 12:34:45] D2BS 19064: Script tools\autobuildthread.js ended
+[09/19/20 12:34:45] D2BS 19064: Script tools\party.js ended
+[09/19/20 12:34:45] D2BS 19064: Script tools\toolsthread.js ended
+[09/19/20 12:34:45] D2BS 19064: Script tools\townchicken.js ended
+[09/19/20 12:34:51] D2BS 19064: D2BS Shutdown complete.
+[09/19/20 12:34:52] D2BS 540: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:34:52] D2BS 540: Wind
+[09/19/20 12:34:52] D2BS 540: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:34:52] D2BS 540: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:34:52] D2BS 540: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:34:52] D2BS 540: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:34:52] D2BS 540: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:34:54] D2BS 540: Heartbeat loaded
+[09/19/20 12:35:12] D2BS 540: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:35:12] D2BS 540: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:35:12] D2BS 540: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:35:12] D2BS 540: Updating Config from level 0 to 43
+[09/19/20 12:35:12] D2BS 540: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/19/20 12:35:12] D2BS 540: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:35:12] D2BS 540: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:35:12] D2BS 540: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/19/20 12:35:12] D2BS 540: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:35:12] D2BS 540: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:35:12] D2BS 540: Updating Config from level 0 to 43
+[09/19/20 12:35:12] D2BS 540: AutoBuild: Loaded helper thread
+[09/19/20 12:35:12] D2BS 540: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:35:12] D2BS 540: initNPC: heal
+[09/19/20 12:35:12] D2BS 540: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:35:12] D2BS 540: Updating Config from level 0 to 43
+[09/19/20 12:35:12] D2BS 540: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:35:12] D2BS 540: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:35:12] D2BS 540: ÿc3Start ToolsThread script
+[09/19/20 12:35:12] D2BS 540: Updating Config from level 0 to 43
+[09/19/20 12:35:12] D2BS 540: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:35:12] D2BS 540: Updating Config from level 0 to 43
+[09/19/20 12:35:18] D2BS 540: initNPC: buyPotions
+[09/19/20 12:35:21] D2BS 540: initNPC: reviveMerc
+[09/19/20 12:35:39] D2BS 540: move retry 1
+[09/19/20 12:35:47] D2BS 540: 27
+[09/19/20 12:36:11] D2BS 540: move retry 1
+[09/19/20 12:36:21] D2BS 540: move retry 1
+[09/19/20 12:36:24] D2BS 540: ÿc7Picked up ÿc4232 Gold
+[09/19/20 12:36:24] D2BS 540: ÿc7Picked up ÿc4219 Gold
+[09/19/20 12:38:08] D2BS 540: move retry 1
+[09/19/20 12:38:08] D2BS 540: move retry 2
+[09/19/20 12:38:10] D2BS 540: move retry 3
+[09/19/20 12:38:11] D2BS 540: initNPC: heal
+[09/19/20 12:38:14] D2BS 540: move retry 1
+[09/19/20 12:38:15] D2BS 540: initNPC: buyPotions
+[09/19/20 12:38:22] D2BS 540: move retry 1
+[09/19/20 12:38:49] D2BS 540: move retry 1
+[09/19/20 12:38:51] D2BS 540: move retry 1
+[09/19/20 12:38:53] D2BS 540: move retry 1
+[09/19/20 12:40:43] D2BS 540: initNPC: heal
+[09/19/20 12:41:22] D2BS 540: move retry 1
+[09/19/20 12:41:32] D2BS 540: 27,28
+[09/19/20 12:44:03] D2BS 540: move retry 1
+[09/19/20 12:44:37] D2BS 540: move retry 1
+[09/19/20 12:44:47] D2BS 540: ÿc7Picked up ÿc494 Gold
+[09/19/20 12:45:02] D2BS 540: ÿc7Picked up ÿc4199 Gold
+[09/19/20 12:45:07] D2BS 540: ÿc7Picked up ÿc445 Gold
+[09/19/20 12:45:09] D2BS 540: move retry 1
+[09/19/20 12:45:18] D2BS 540: move retry 1
+[09/19/20 12:45:22] D2BS 540: move retry 1
+[09/19/20 12:45:26] D2BS 540: move retry 1
+[09/19/20 12:45:47] D2BS 540: move retry 1
+[09/19/20 12:46:00] D2BS 540: ÿc4Attackÿc0: No valid positions for: Star Eye
+[09/19/20 12:46:00] D2BS 540: ÿc4Attackÿc0: No valid positions for: Star Eye
+[09/19/20 12:46:01] D2BS 540: ÿc4Attackÿc0: No valid positions for: Star Eye
+[09/19/20 12:46:01] D2BS 540: ÿc4Attackÿc0: No valid positions for: Star Eye
+[09/19/20 12:46:01] D2BS 540: ÿc4Attackÿc0: No valid positions for: Star Eye
+[09/19/20 12:46:11] D2BS 540: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/19/20 12:46:16] D2BS 540: move retry 1
+[09/19/20 12:46:20] D2BS 540: move retry 2
+[09/19/20 12:46:41] D2BS 540: move retry 1
+[09/19/20 12:46:55] D2BS 540: Script default.dbj ended
+[09/19/20 12:46:55] D2BS 540: Script tools\autobuildthread.js ended
+[09/19/20 12:46:55] D2BS 540: Script tools\party.js ended
+[09/19/20 12:46:55] D2BS 540: Script tools\toolsthread.js ended
+[09/19/20 12:46:55] D2BS 540: Script tools\townchicken.js ended
+[09/19/20 12:47:01] D2BS 540: D2BS Shutdown complete.
+[09/19/20 12:47:02] D2BS 7404: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:47:02] D2BS 7404: Wind
+[09/19/20 12:47:02] D2BS 7404: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:47:02] D2BS 7404: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:47:02] D2BS 7404: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:47:02] D2BS 7404: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:47:02] D2BS 7404: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:47:04] D2BS 7404: Heartbeat loaded
+[09/19/20 12:47:22] D2BS 7404: D2BS Shutdown complete.
+[09/19/20 12:47:22] D2BS 16288: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:47:22] D2BS 16288: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:47:22] D2BS 16288: Wind
+[09/19/20 12:47:22] D2BS 16288: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:47:22] D2BS 16288: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:47:22] D2BS 16288: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:47:22] D2BS 16288: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:47:24] D2BS 16288: Heartbeat loaded
+[09/19/20 12:47:42] D2BS 16288: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:47:42] D2BS 16288: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:47:42] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:47:42] D2BS 16288: Updating Config from level 0 to 43
+[09/19/20 12:47:42] D2BS 16288: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 12:47:42] D2BS 16288: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:47:42] D2BS 16288: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:47:42] D2BS 16288: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/19/20 12:47:42] D2BS 16288: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:47:42] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:47:42] D2BS 16288: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:47:42] D2BS 16288: initNPC: buyPotions
+[09/19/20 12:47:42] D2BS 16288: Updating Config from level 0 to 43
+[09/19/20 12:47:42] D2BS 16288: AutoBuild: Loaded helper thread
+[09/19/20 12:47:42] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:47:42] D2BS 16288: Updating Config from level 0 to 43
+[09/19/20 12:47:42] D2BS 16288: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:47:42] D2BS 16288: ÿc3Start ToolsThread script
+[09/19/20 12:47:42] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:47:42] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:47:42] D2BS 16288: Updating Config from level 0 to 43
+[09/19/20 12:47:42] D2BS 16288: Updating Config from level 0 to 43
+[09/19/20 12:48:04] D2BS 16288: move retry 1
+[09/19/20 12:48:06] D2BS 16288: move retry 2
+[09/19/20 12:48:13] D2BS 16288: move retry 1
+[09/19/20 12:48:24] D2BS 16288: 27
+[09/19/20 12:48:40] D2BS 16288: move retry 1
+[09/19/20 12:48:54] D2BS 16288: move retry 1
+[09/19/20 12:49:43] D2BS 16288: ÿc7Picked up ÿc4220 Gold
+[09/19/20 12:50:02] D2BS 16288: ÿc7Picked up ÿc4830 Gold
+[09/19/20 12:50:21] D2BS 16288: ÿc7Picked up ÿc464 Gold
+[09/19/20 12:50:22] D2BS 16288: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(14/20)
+[09/19/20 12:50:27] D2BS 16288: move retry 1
+[09/19/20 12:50:46] D2BS 16288: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/19/20 12:50:46] D2BS 16288: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/19/20 12:50:48] D2BS 16288: move retry 1
+[09/19/20 12:50:56] D2BS 16288: move retry 1
+[09/19/20 12:51:04] D2BS 16288: ÿc7Picked up ÿc4169 Gold
+[09/19/20 12:51:16] D2BS 16288: move retry 1
+[09/19/20 12:51:42] D2BS 16288: move retry 1
+[09/19/20 12:51:52] D2BS 16288: AutoBuild: Stat points: 5      Skill points: 3
+[09/19/20 12:51:52] D2BS 16288: AutoBuild: Level up detected ( 43 --> 44 )
+[09/19/20 12:51:52] D2BS 16288: AutoBuild: useSkillPoint(): Tornado (245)
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Attempt to spend skill point 1 in Tornado (245) may have failed!
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: useStatPoint(0): Strength
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Stat (1/5) Increased Strength from 57 to 58
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Stat (2/5) Increased Vitality from 193 to 194
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Stat (3/5) Increased Vitality from 194 to 195
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Stat (4/5) Increased Vitality from 195 to 196
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Stat (5/5) Increased Vitality from 196 to 197
+[09/19/20 12:51:53] D2BS 16288: Updating Config from level 43 to 44
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Updating Config from level 43 to 44
+[09/19/20 12:51:53] D2BS 16288: Updating Config from level 43 to 44
+[09/19/20 12:51:53] D2BS 16288: Updating Config from level 43 to 44
+[09/19/20 12:51:53] D2BS 16288: Updating Config from level 43 to 44
+[09/19/20 12:51:53] D2BS 16288: AutoBuild: Incrementing cached character level to 44
+[09/19/20 12:51:57] D2BS 16288: move retry 1
+[09/19/20 12:52:03] D2BS 16288: Script default.dbj ended
+[09/19/20 12:52:03] D2BS 16288: Script tools\autobuildthread.js ended
+[09/19/20 12:52:03] D2BS 16288: Script tools\party.js ended
+[09/19/20 12:52:03] D2BS 16288: Script tools\toolsthread.js ended
+[09/19/20 12:52:03] D2BS 16288: Script tools\townchicken.js ended
+[09/19/20 12:52:10] D2BS 16288: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:52:10] D2BS 16288: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:52:10] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:52:10] D2BS 16288: Updating Config from level 0 to 44
+[09/19/20 12:52:10] D2BS 16288: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/19/20 12:52:10] D2BS 16288: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:52:11] D2BS 16288: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:52:11] D2BS 16288: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/19/20 12:52:11] D2BS 16288: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 12:52:11] D2BS 16288: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:52:11] D2BS 16288: initNPC: buyPotions
+[09/19/20 12:52:11] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:52:11] D2BS 16288: Updating Config from level 0 to 44
+[09/19/20 12:52:11] D2BS 16288: AutoBuild: Loaded helper thread
+[09/19/20 12:52:11] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:52:11] D2BS 16288: Updating Config from level 0 to 44
+[09/19/20 12:52:11] D2BS 16288: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:52:11] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:52:11] D2BS 16288: Updating Config from level 0 to 44
+[09/19/20 12:52:11] D2BS 16288: ÿc3Start ToolsThread script
+[09/19/20 12:52:11] D2BS 16288: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:52:11] D2BS 16288: Updating Config from level 0 to 44
+[09/19/20 12:53:20] D2BS 16288: ÿc7Picked up ÿc4159 Gold
+[09/19/20 12:53:41] D2BS 16288: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[09/19/20 12:54:00] D2BS 16288: move retry 1
+[09/19/20 12:54:11] D2BS 16288: ÿc7Picked up ÿc4142 Gold
+[09/19/20 12:54:24] D2BS 16288: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[09/19/20 12:54:25] D2BS 16288: ÿc7Picked up ÿc492 Gold
+[09/19/20 12:54:37] D2BS 16288: ÿc7Picked up ÿc4231 Gold
+[09/19/20 12:54:56] D2BS 16288: ÿc7Picked up ÿc4204 Gold
+[09/19/20 12:55:07] D2BS 16288: ÿc7Picked up ÿc4175 Gold
+[09/19/20 12:55:07] D2BS 16288: ÿc7Picked up ÿc4253 Gold
+[09/19/20 12:55:28] D2BS 16288: ÿc7Picked up ÿc4126 Gold
+[09/19/20 12:55:39] D2BS 16288: move retry 1
+[09/19/20 12:56:15] D2BS 16288: move retry 1
+[09/19/20 12:56:50] D2BS 16288: Script default.dbj ended
+[09/19/20 12:56:50] D2BS 16288: Script tools\autobuildthread.js ended
+[09/19/20 12:56:50] D2BS 16288: Script tools\party.js ended
+[09/19/20 12:56:50] D2BS 16288: Script tools\toolsthread.js ended
+[09/19/20 12:56:50] D2BS 16288: Script tools\townchicken.js ended
+[09/19/20 12:56:56] D2BS 16288: D2BS Shutdown complete.
+[09/19/20 12:56:57] D2BS 9244: D2BS Engine startup complete. 1.6.4U
+[09/19/20 12:56:57] D2BS 9244: Wind
+[09/19/20 12:56:57] D2BS 9244: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/19/20 12:56:57] D2BS 9244: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 12:56:57] D2BS 9244: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 12:56:57] D2BS 9244: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 12:56:57] D2BS 9244: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 12:56:59] D2BS 9244: Heartbeat loaded
+[09/19/20 12:57:18] D2BS 9244: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 12:57:18] D2BS 9244: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 12:57:18] D2BS 9244: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/19/20 12:57:18] D2BS 9244: Updating Config from level 0 to 44
+[09/19/20 12:57:18] D2BS 9244: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 12:57:18] D2BS 9244: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 12:57:18] D2BS 9244: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/19/20 12:57:18] D2BS 9244: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/19/20 12:57:18] D2BS 9244: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc215 ms
+[09/19/20 12:57:18] D2BS 9244: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/19/20 12:57:18] D2BS 9244: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 12:57:18] D2BS 9244: initNPC: buyPotions
+[09/19/20 12:57:18] D2BS 9244: Updating Config from level 0 to 44
+[09/19/20 12:57:18] D2BS 9244: AutoBuild: Loaded helper thread
+[09/19/20 12:57:18] D2BS 9244: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/19/20 12:57:18] D2BS 9244: Updating Config from level 0 to 44
+[09/19/20 12:57:18] D2BS 9244: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 12:57:18] D2BS 9244: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/19/20 12:57:18] D2BS 9244: ÿc3Start ToolsThread script
+[09/19/20 12:57:18] D2BS 9244: Updating Config from level 0 to 44
+[09/19/20 12:57:18] D2BS 9244: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/19/20 12:57:18] D2BS 9244: Updating Config from level 0 to 44
+[09/19/20 12:57:44] D2BS 9244: move retry 1
+[09/19/20 12:57:55] D2BS 9244: 27
+[09/19/20 12:58:04] D2BS 9244: move retry 1
+[09/19/20 12:58:31] D2BS 9244: ÿc7Picked up ÿc494 Gold
+[09/19/20 12:58:42] D2BS 9244: initNPC: heal
+[09/19/20 12:58:49] D2BS 9244: move retry 1
+[09/19/20 12:59:13] D2BS 9244: 27,28
+[09/19/20 12:59:35] D2BS 9244: move retry 1
+[09/19/20 12:59:47] D2BS 9244: ÿc7Picked up ÿc474 Gold
+[09/19/20 12:59:51] D2BS 9244: move retry 1
+[09/19/20 12:59:55] D2BS 9244: move retry 1
+[09/19/20 12:59:58] D2BS 9244: ÿc7Picked up ÿc4175 Gold
+[09/19/20 12:59:59] D2BS 9244: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/19/20 12:59:59] D2BS 9244: ÿc7Picked up ÿc4158 Gold
+[09/19/20 13:00:00] D2BS 9244: ÿc7Picked up ÿc4129 Gold
+[09/19/20 13:00:04] D2BS 9244: move retry 1
+[09/19/20 13:00:13] D2BS 9244: move retry 1
+[09/19/20 13:00:17] D2BS 9244: ÿc7Picked up ÿc4760 Gold
+[09/19/20 13:00:23] D2BS 9244: ÿc7Picked up ÿc488 Gold
+[09/19/20 13:00:59] D2BS 9244: move retry 1
+[09/19/20 13:01:12] D2BS 9244: move retry 1
+[09/19/20 13:01:19] D2BS 9244: move retry 1
+[09/19/20 13:01:39] D2BS 9244: move retry 1
+[09/19/20 13:01:52] D2BS 9244: move retry 1
+[09/19/20 13:02:00] D2BS 9244: 3,2,1
+[09/19/20 13:02:49] D2BS 9244: initNPC: heal
+[09/19/20 13:02:56] D2BS 9244: initNPC: buyPotions
