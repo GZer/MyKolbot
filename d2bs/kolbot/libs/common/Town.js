@@ -152,6 +152,17 @@ var Town = {
 			item.interact();
 		}
 
+		/*Book Of Skill*/
+		if (me.getItem(552)) {
+			item = me.getItem(552);
+
+			if (item.location > 3) {
+				this.openStash();
+			}
+
+			item.interact();
+		}
+		
 		/*Scroll Of Resistance*/
 		if (me.getItem(646)) {
 			item = me.getItem(646);

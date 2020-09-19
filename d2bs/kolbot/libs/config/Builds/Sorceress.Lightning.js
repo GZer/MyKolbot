@@ -39,7 +39,7 @@ var AutoBuildTemplate={
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
-				Config.ItemInfo=false;//Log stashed, skipped (due to no space) or sold items.
+				Config.ItemInfo=true;//Log stashed, skipped (due to no space) or sold items.
 				Config.StashGold=200;//Minimum amount of gold to stash.
 				Config.AttackSkill=[36,36,36,36,36,0,0];
 				Config.LowManaSkill=[0,0];
