@@ -16,7 +16,7 @@ function LevelLeader(){
 	75,76,77,78,79,80,81,83,101,
 	103,106,107,
 	109,111,112,113,115,123,117,118,129];
-	var LevelingAreas=[[2,8,3,4,10,5,6,27,28,29,32,34,35,36,37],
+	var LevelingAreas=[[2,8,3,4,5,6,27,28,29,32,34,35,36,37],
 	[47,48,49,42,56,57,60,43,44,45,52,54,74,46,TalRashaTomb],
 	[76,85,77,78,88,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
@@ -434,7 +434,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-	this.clearToNextArea=function(DestinationArea){
+	this.clearToNextArea=function(CurrentArea,DestinationArea){
 		var count=0,DestinationReached=false;
 		while(count < 45 && !DestinationReached){
 			try{
@@ -448,7 +448,7 @@ function LevelLeader(){
 			}
 			count++;
 		}
-		this.logProgress(DestinationReached,"Clear to "+Pather.getAreaName(DestinationArea)+" from "+Pather.getAreaName(me.area));
+		this.logProgress(DestinationReached,"Clear from "+Pather.getAreaName(CurrentArea)+" to "+Pather.getAreaName(DestinationArea));
 		return DestinationReached;
 	};
 	
@@ -931,11 +931,11 @@ function LevelLeader(){
 			this.ChangeAct(UptoAct);
 		}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
-			if(Pather.journeyTo(LevelingAreas[ActNumber][LevelArea])){
-				UpToArea=LevelingAreas[ActNumber][LevelArea];
-				if(LevelArea<LevelingAreas[ActNumber].length-1){
-					NextArea=LevelingAreas[ActNumber][LevelArea+1];
-				}
+			UpToArea=LevelingAreas[ActNumber][LevelArea];
+			if(LevelArea<LevelingAreas[ActNumber].length-1){
+				NextArea=LevelingAreas[ActNumber][LevelArea+1];
+			}
+			if(Pather.journeyTo(UpToArea)){
 				try{
 					Pather.makePortal();
 				}catch(err){
@@ -956,7 +956,7 @@ function LevelLeader(){
 					Attack.clearLevel(0);
 				}else if(NextArea>0){
 					say("Clearing to "+Pather.getAreaName(NextArea));
-					clearToNextArea(NextArea);
+					clearToNextArea(UpToArea,NextArea);
 				}
 			}
 		}

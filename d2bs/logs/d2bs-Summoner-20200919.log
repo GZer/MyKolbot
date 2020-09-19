@@ -2950,3 +2950,1479 @@ c0 :: Starting D2BotLanFollow.dbj
 [09/19/20 13:04:28] D2BS 15760: ÿc3Start ToolsThread script
 [09/19/20 13:04:28] D2BS 15760: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
 [09/19/20 13:04:28] D2BS 15760: Updating Config from level 0 to 1
+[09/19/20 13:05:25] D2BS 20320: D2BS Engine startup complete. 1.6.4U
+[09/19/20 13:05:25] D2BS 20320: Summoner
+[09/19/20 13:05:25] D2BS 20320: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[09/19/20 13:05:25] D2BS 20320: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 13:05:25] D2BS 20320: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 13:05:25] D2BS 20320: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 13:05:25] D2BS 20320: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 13:05:29] D2BS 20320: Heartbeat loaded
+[09/19/20 13:05:42] D2BS 20320: Stack Walk Thread: 5804
+[09/19/20 13:05:43] D2BS 20320: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 18408
+[09/19/20 13:05:43] D2BS 20320: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 3156
+[09/19/20 13:05:43] D2BS 20320: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 15556
+[09/19/20 13:05:43] D2BS 20320: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/19/20 13:05:43] D2BS 20320: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/19/20 13:05:43] D2BS 20320: 02FD3C94 (D2BS): (filename not available): QueryInterface
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 1560
+[09/19/20 13:05:43] D2BS 20320: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:05:43] D2BS 20320: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/19/20 13:05:43] D2BS 20320: 004027E5 (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 6536
+[09/19/20 13:05:43] D2BS 20320: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/19/20 13:05:43] D2BS 20320: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/19/20 13:05:43] D2BS 20320: 004102FC (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 17376
+[09/19/20 13:05:43] D2BS 20320: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:05:43] D2BS 20320: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/19/20 13:05:43] D2BS 20320: 0041A845 (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 1472
+[09/19/20 13:05:43] D2BS 20320: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 19200
+[09/19/20 13:05:43] D2BS 20320: 77741A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[09/19/20 13:05:43] D2BS 20320: 761D6676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 18820
+[09/19/20 13:05:43] D2BS 20320: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 5900
+[09/19/20 13:05:43] D2BS 20320: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 18212
+[09/19/20 13:05:43] D2BS 20320: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:05:43] D2BS 20320: 03057236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:05:43] D2BS 20320: 03142B1F (D2BS): (filename not available): JS_freeop
+[09/19/20 13:05:43] D2BS 20320: 03141A5E (D2BS): (filename not available): JS_freeop
+[09/19/20 13:05:43] D2BS 20320: 0306E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 14208
+[09/19/20 13:05:43] D2BS 20320: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/19/20 13:05:43] D2BS 20320: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/19/20 13:05:43] D2BS 20320: 02FDE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:05:43] D2BS 20320: 030601B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:05:43] D2BS 20320: 03142B1F (D2BS): (filename not available): JS_freeop
+[09/19/20 13:05:43] D2BS 20320: 03141A5E (D2BS): (filename not available): JS_freeop
+[09/19/20 13:05:43] D2BS 20320: 0306E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 6772
+[09/19/20 13:05:43] D2BS 20320: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:05:43] D2BS 20320: 03057236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:05:43] D2BS 20320: 03142B1F (D2BS): (filename not available): JS_freeop
+[09/19/20 13:05:43] D2BS 20320: 03141A5E (D2BS): (filename not available): JS_freeop
+[09/19/20 13:05:43] D2BS 20320: 0306E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Stack Walk Thread: 11556
+[09/19/20 13:05:43] D2BS 20320: 02FDB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/19/20 13:05:43] D2BS 20320: 02FD37F8 (D2BS): (filename not available): QueryInterface
+[09/19/20 13:05:43] D2BS 20320: 00408A05 (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 00408A81 (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:05:43] D2BS 20320: 006381D6 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:05:43] D2BS 20320: 00619337 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:05:43] D2BS 20320: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/19/20 13:05:43] D2BS 20320: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/19/20 13:05:43] D2BS 20320: 00405E6B (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 004065C7 (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 0040671F (Game): (filename not available): (function-name not available)
+[09/19/20 13:05:43] D2BS 20320: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:05:43] D2BS 20320: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:05:43] D2BS 20320: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:05:43] D2BS 20320: Crash File: BlizzardError/2020-09-19 13.05.42/Crash.txt
+[09/19/20 13:05:43] D2BS 20320: D2BS Shutdown complete.
+[09/19/20 13:05:44] D2BS 8092: D2BS Engine startup complete. 1.6.4U
+[09/19/20 13:05:44] D2BS 8092: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[09/19/20 13:05:44] D2BS 8092: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 13:05:44] D2BS 8092: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 13:05:44] D2BS 8092: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 13:05:44] D2BS 8092: Summoner
+[09/19/20 13:05:44] D2BS 8092: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 13:05:46] D2BS 8092: Heartbeat loaded
+[09/19/20 13:06:03] D2BS 8092: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 13:06:03] D2BS 8092: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 13:06:03] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/19/20 13:06:03] D2BS 8092: Updating Config from level 0 to 1
+[09/19/20 13:06:03] D2BS 8092: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 13:06:03] D2BS 8092: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 13:06:03] D2BS 8092: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/19/20 13:06:03] D2BS 8092: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/19/20 13:06:03] D2BS 8092: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2114ÿc4. Valid entries: ÿc297. ÿc4Time: ÿc215 ms
+[09/19/20 13:06:03] D2BS 8092: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 13:06:03] D2BS 8092: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 13:06:03] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/19/20 13:06:03] D2BS 8092: Updating Config from level 0 to 1
+[09/19/20 13:06:03] D2BS 8092: AutoBuild: Loaded helper thread
+[09/19/20 13:06:03] D2BS 8092: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 13:06:03] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/19/20 13:06:03] D2BS 8092: Updating Config from level 0 to 1
+[09/19/20 13:06:03] D2BS 8092: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 13:06:03] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/19/20 13:06:03] D2BS 8092: ÿc3Start ToolsThread script
+[09/19/20 13:06:03] D2BS 8092: Updating Config from level 0 to 1
+[09/19/20 13:06:04] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/19/20 13:06:04] D2BS 8092: Updating Config from level 0 to 1
+[09/19/20 13:06:07] D2BS 8092: move retry 1
+[09/19/20 13:06:23] D2BS 8092: 1,2
+[09/19/20 13:06:39] D2BS 8092: move retry 1
+[09/19/20 13:06:48] D2BS 8092: 2,8
+[09/19/20 13:07:02] D2BS 8092: move retry 1
+[09/19/20 13:07:05] D2BS 8092: move retry 1
+[09/19/20 13:07:08] D2BS 8092: move retry 1
+[09/19/20 13:07:12] D2BS 8092: move retry 1
+[09/19/20 13:07:19] D2BS 8092: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 13:07:19] D2BS 8092: AutoBuild: Level up detected ( 1 --> 2 )
+[09/19/20 13:07:19] D2BS 8092: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[09/19/20 13:07:19] D2BS 8092: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  2)
+[09/19/20 13:07:19] D2BS 8092: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: Stat (2/5) Increased Vitality from 15 to 16
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: Stat (3/5) Increased Vitality from 16 to 17
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: Stat (4/5) Increased Vitality from 17 to 18
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: Stat (5/5) Increased Vitality from 18 to 19
+[09/19/20 13:07:20] D2BS 8092: Updating Config from level 1 to 2
+[09/19/20 13:07:20] D2BS 8092: Updating Config from level 1 to 2
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: Updating Config from level 1 to 2
+[09/19/20 13:07:20] D2BS 8092: Updating Config from level 1 to 2
+[09/19/20 13:07:20] D2BS 8092: Updating Config from level 1 to 2
+[09/19/20 13:07:20] D2BS 8092: AutoBuild: Incrementing cached character level to 2
+[09/19/20 13:07:30] D2BS 8092: move retry 1
+[09/19/20 13:08:34] D2BS 8092: move retry 1
+[09/19/20 13:09:08] D2BS 8092: move retry 1
+[09/19/20 13:09:14] D2BS 8092: ÿc7Picked up ÿc3Ring ÿc0(ilvl 1) (Summoner.xpac.nip #90)
+[09/19/20 13:09:24] D2BS 8092: ÿc7Picked up ÿc0Boots ÿc0(ilvl 1) (Summoner.xpac.nip #58)
+[09/19/20 13:09:33] D2BS 8092: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: Level up detected ( 2 --> 3 )
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: useSkillPoint(): Amplify Damage (66)
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: Skill (1/1) Increased Amplify Damage (66) by one (level:  1)
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: Stat (2/5) Increased Vitality from 19 to 20
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: Stat (3/5) Increased Vitality from 20 to 21
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: Stat (4/5) Increased Vitality from 21 to 22
+[09/19/20 13:09:41] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:09:42] D2BS 8092: AutoBuild: Stat (5/5) Increased Vitality from 22 to 23
+[09/19/20 13:09:42] D2BS 8092: Updating Config from level 2 to 3
+[09/19/20 13:09:42] D2BS 8092: AutoBuild: Updating Config from level 2 to 3
+[09/19/20 13:09:42] D2BS 8092: Updating Config from level 2 to 3
+[09/19/20 13:09:42] D2BS 8092: Updating Config from level 2 to 3
+[09/19/20 13:09:42] D2BS 8092: Updating Config from level 2 to 3
+[09/19/20 13:09:42] D2BS 8092: AutoBuild: Incrementing cached character level to 3
+[09/19/20 13:09:43] D2BS 8092: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 13:09:53] D2BS 8092: move retry 1
+[09/19/20 13:10:08] D2BS 8092: move retry 1
+[09/19/20 13:10:31] D2BS 8092: ÿc1Skipping Zombie 69 16
+[09/19/20 13:10:34] D2BS 8092: move retry 1
+[09/19/20 13:10:44] D2BS 8092: move retry 1
+[09/19/20 13:10:47] D2BS 8092: ÿc1Skipping Zombie 80 16
+[09/19/20 13:10:48] D2BS 8092: ÿc1Skipping Zombie 80 16
+[09/19/20 13:10:50] D2BS 8092: ÿc1Skipping Zombie 80 16
+[09/19/20 13:10:51] D2BS 8092: ÿc7Picked up ÿc41 Gold
+[09/19/20 13:10:53] D2BS 8092: move retry 1
+[09/19/20 13:11:01] D2BS 8092: move retry 1
+[09/19/20 13:12:20] D2BS 8092: ÿc1Skipping Zombie 94 16
+[09/19/20 13:12:28] D2BS 8092: ÿc1Skipping Fallen Shaman 87 16
+[09/19/20 13:12:32] D2BS 8092: move retry 1
+[09/19/20 13:12:43] D2BS 8092: ÿc1Skipping Zombie 85 16
+[09/19/20 13:12:45] D2BS 8092: ÿc1Skipping Zombie 85 16
+[09/19/20 13:12:46] D2BS 8092: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:12:48] D2BS 8092: ÿc1Skipping Zombie 84 16
+[09/19/20 13:12:51] D2BS 8092: ÿc1Skipping Zombie 84 16
+[09/19/20 13:12:54] D2BS 8092: ÿc1Skipping Zombie 86 16
+[09/19/20 13:12:56] D2BS 8092: move retry 1
+[09/19/20 13:12:56] D2BS 8092: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:12:58] D2BS 8092: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 13:12:58] D2BS 8092: AutoBuild: Level up detected ( 3 --> 4 )
+[09/19/20 13:12:58] D2BS 8092: AutoBuild: useSkillPoint(): Bone Armor (68)
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Skill (1/1) Increased Bone Armor (68) by one (level:  1)
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Stat (1/5) Increased Strength from 17 to 18
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Stat (2/5) Increased Vitality from 23 to 24
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Stat (3/5) Increased Vitality from 24 to 25
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Stat (4/5) Increased Vitality from 25 to 26
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Stat (5/5) Increased Vitality from 26 to 27
+[09/19/20 13:12:59] D2BS 8092: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 8092: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 8092: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 8092: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 8092: AutoBuild: Incrementing cached character level to 4
+[09/19/20 13:13:10] D2BS 8092: ÿc1Skipping Zombie 82 16
+[09/19/20 13:13:11] D2BS 8092: ÿc1Skipping Zombie 82 16
+[09/19/20 13:13:19] D2BS 8092: move retry 1
+[09/19/20 13:14:04] D2BS 8092: 8,2
+[09/19/20 13:14:25] D2BS 8092: move retry 1
+[09/19/20 13:14:45] D2BS 8092: move retry 1
+[09/19/20 13:14:47] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:14:47] D2BS 8092: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:14:48] D2BS 8092: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:14:51] D2BS 8092: 2,3
+[09/19/20 13:15:06] D2BS 8092: move retry 1
+[09/19/20 13:15:17] D2BS 8092: 3,2,1
+[09/19/20 13:16:13] D2BS 8092: initNPC: heal
+[09/19/20 13:16:29] D2BS 8092: initNPC: identify
+[09/19/20 13:16:30] D2BS 8092: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[09/19/20 13:16:39] D2BS 8092: 3
+[09/19/20 13:17:03] D2BS 8092: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:17:06] D2BS 8092: move retry 1
+[09/19/20 13:17:06] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:17:40] D2BS 8092: move retry 1
+[09/19/20 13:17:54] D2BS 8092: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:17:55] D2BS 8092: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 13:18:02] D2BS 8092: ÿc1Skipping Dark Hunter 209 16
+[09/19/20 13:18:11] D2BS 8092: ÿc1Skipping Dark Spearwoman 210 16
+[09/19/20 13:18:14] D2BS 8092: move retry 1
+[09/19/20 13:18:16] D2BS 8092: move retry 2
+[09/19/20 13:18:41] D2BS 8092: ÿc1Skipping Fallen 233 16
+[09/19/20 13:18:41] D2BS 8092: ÿc1Skipping Dark Hunter 236 16
+[09/19/20 13:18:41] D2BS 8092: ÿc1Skipping Dark Hunter 234 16
+[09/19/20 13:18:42] D2BS 8092: ÿc1Skipping Dark Hunter 236 16
+[09/19/20 13:18:43] D2BS 8092: ÿc1Skipping Fallen 228 16
+[09/19/20 13:18:43] D2BS 8092: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:18:44] D2BS 8092: ÿc1Skipping Fallen 228 16
+[09/19/20 13:18:46] D2BS 8092: ÿc1Skipping Fallen 228 16
+[09/19/20 13:18:48] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:18:50] D2BS 8092: move retry 1
+[09/19/20 13:19:10] D2BS 8092: ÿc1Skipping Fallen 242 16
+[09/19/20 13:19:11] D2BS 8092: ÿc1Skipping Fallen 243 16
+[09/19/20 13:19:11] D2BS 8092: ÿc1Skipping Fallen 244 16
+[09/19/20 13:19:12] D2BS 8092: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:19:12] D2BS 8092: ÿc1Skipping Fallen 244 16
+[09/19/20 13:19:13] D2BS 8092: ÿc1Skipping Fallen 243 16
+[09/19/20 13:19:13] D2BS 8092: ÿc1Skipping Fallen 244 16
+[09/19/20 13:19:14] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:19:17] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:19:20] D2BS 8092: ÿc1Skipping Dark Hunter 247 16
+[09/19/20 13:19:20] D2BS 8092: ÿc1Skipping Dark Hunter 248 16
+[09/19/20 13:19:21] D2BS 8092: ÿc1Skipping Dark Hunter 248 16
+[09/19/20 13:19:21] D2BS 8092: ÿc1Skipping Dark Hunter 246 16
+[09/19/20 13:19:22] D2BS 8092: ÿc1Skipping Dark Hunter 246 16
+[09/19/20 13:19:23] D2BS 8092: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:19:25] D2BS 8092: ÿc1Skipping Fallen 261 16
+[09/19/20 13:19:26] D2BS 8092: ÿc1Skipping Fallen 261 16
+[09/19/20 13:19:26] D2BS 8092: ÿc1Skipping Fallen 271 16
+[09/19/20 13:19:27] D2BS 8092: ÿc1Skipping Fallen 261 16
+[09/19/20 13:19:27] D2BS 8092: ÿc7Picked up ÿc41 Gold
+[09/19/20 13:19:28] D2BS 8092: ÿc1Skipping Fallen 272 16
+[09/19/20 13:19:28] D2BS 8092: ÿc1Skipping Fallen 259 16
+[09/19/20 13:19:29] D2BS 8092: ÿc1Skipping Fallen 260 16
+[09/19/20 13:19:30] D2BS 8092: ÿc1Skipping Fallen 259 16
+[09/19/20 13:19:30] D2BS 8092: ÿc1Skipping Fallen 270 16
+[09/19/20 13:19:30] D2BS 8092: ÿc1Skipping Fallen 260 16
+[09/19/20 13:19:31] D2BS 8092: ÿc1Skipping Fallen 270 16
+[09/19/20 13:19:32] D2BS 8092: ÿc1Skipping Fallen 270 16
+[09/19/20 13:19:32] D2BS 8092: ÿc1Skipping Fallen 267 16
+[09/19/20 13:19:32] D2BS 8092: ÿc7Picked up ÿc41 Gold
+[09/19/20 13:19:35] D2BS 8092: ÿc1Skipping Fallen 264 16
+[09/19/20 13:19:35] D2BS 8092: ÿc1Skipping Fallen 264 16
+[09/19/20 13:19:36] D2BS 8092: ÿc1Skipping Fallen 257 16
+[09/19/20 13:19:36] D2BS 8092: ÿc1Skipping Fallen 257 16
+[09/19/20 13:19:37] D2BS 8092: ÿc1Skipping Fallen 257 16
+[09/19/20 13:19:37] D2BS 8092: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:19:39] D2BS 8092: ÿc1Skipping Fallen 270 16
+[09/19/20 13:19:39] D2BS 8092: ÿc1Skipping Fallen 258 16
+[09/19/20 13:19:40] D2BS 8092: ÿc1Skipping Fallen 252 16
+[09/19/20 13:19:40] D2BS 8092: ÿc1Skipping Fallen 271 16
+[09/19/20 13:19:41] D2BS 8092: ÿc1Skipping Fallen 271 16
+[09/19/20 13:19:41] D2BS 8092: ÿc1Skipping Fallen 272 16
+[09/19/20 13:19:45] D2BS 8092: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 13:19:45] D2BS 8092: AutoBuild: Level up detected ( 4 --> 5 )
+[09/19/20 13:19:45] D2BS 8092: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  1)
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Stat (1/5) Increased Strength from 18 to 19
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Stat (2/5) Increased Vitality from 27 to 28
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[09/19/20 13:19:46] D2BS 8092: Updating Config from level 4 to 5
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Updating Config from level 4 to 5
+[09/19/20 13:19:46] D2BS 8092: Updating Config from level 4 to 5
+[09/19/20 13:19:46] D2BS 8092: Updating Config from level 4 to 5
+[09/19/20 13:19:46] D2BS 8092: Updating Config from level 4 to 5
+[09/19/20 13:19:46] D2BS 8092: AutoBuild: Incrementing cached character level to 5
+[09/19/20 13:20:09] D2BS 8092: move retry 1
+[09/19/20 13:20:36] D2BS 8092: move retry 1
+[09/19/20 13:20:40] D2BS 8092: ÿc1Skipping Dark Spearwoman 280 16
+[09/19/20 13:20:41] D2BS 8092: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:21:00] D2BS 8092: ÿc1Skipping Dark Hunter 296 16
+[09/19/20 13:21:01] D2BS 8092: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:21:02] D2BS 8092: ÿc1Skipping Dark Hunter 297 16
+[09/19/20 13:21:03] D2BS 8092: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:21:04] D2BS 8092: ÿc1Skipping Dark Hunter 297 16
+[09/19/20 13:21:14] D2BS 8092: ÿc1Skipping Dark Spearwoman 279 16
+[09/19/20 13:21:15] D2BS 8092: ÿc1Skipping Dark Spearwoman 278 16
+[09/19/20 13:21:21] D2BS 8092: ÿc1Skipping Dark Spearwoman 284 16
+[09/19/20 13:21:23] D2BS 8092: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 13:21:24] D2BS 8092: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 13:21:24] D2BS 8092: ÿc1Skipping Dark Spearwoman 283 16
+[09/19/20 13:21:25] D2BS 8092: ÿc1Skipping Dark Spearwoman 283 16
+[09/19/20 13:21:26] D2BS 8092: ÿc1Skipping Dark Spearwoman 283 16
+[09/19/20 13:21:29] D2BS 8092: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 13:21:30] D2BS 8092: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 13:21:30] D2BS 8092: ÿc1Skipping Dark Hunter 287 16
+[09/19/20 13:21:31] D2BS 8092: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:21:32] D2BS 8092: ÿc1Skipping Dark Hunter 325 16
+[09/19/20 13:21:33] D2BS 8092: ÿc1Skipping Fallen 329 16
+[09/19/20 13:21:33] D2BS 8092: ÿc1Skipping Dark Hunter 327 16
+[09/19/20 13:21:35] D2BS 8092: move retry 1
+[09/19/20 13:21:37] D2BS 8092: ÿc1Skipping Dark Hunter 237 16
+[09/19/20 13:21:38] D2BS 8092: ÿc1Skipping Dark Hunter 238 16
+[09/19/20 13:21:38] D2BS 8092: ÿc1Skipping Dark Hunter 327 16
+[09/19/20 13:21:38] D2BS 8092: ÿc1Skipping Dark Hunter 239 16
+[09/19/20 13:21:39] D2BS 8092: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:21:40] D2BS 8092: ÿc1Skipping Fallen 330 16
+[09/19/20 13:21:40] D2BS 8092: ÿc1Skipping Fallen 331 16
+[09/19/20 13:21:41] D2BS 8092: ÿc1Skipping Dark Hunter 239 16
+[09/19/20 13:21:46] D2BS 8092: move retry 1
+[09/19/20 13:21:52] D2BS 8092: ÿc1Skipping Dark Spearwoman 323 16
+[09/19/20 13:21:52] D2BS 8092: ÿc1Skipping Dark Spearwoman 324 16
+[09/19/20 13:21:53] D2BS 8092: ÿc1Skipping Dark Spearwoman 323 16
+[09/19/20 13:21:54] D2BS 8092: ÿc1Skipping Dark Spearwoman 323 16
+[09/19/20 13:21:54] D2BS 8092: ÿc1Skipping Dark Spearwoman 323 16
+[09/19/20 13:22:00] D2BS 8092: ÿc1Skipping Fallen 331 16
+[09/19/20 13:22:01] D2BS 8092: ÿc1Skipping Fallen 329 16
+[09/19/20 13:22:01] D2BS 8092: ÿc1Skipping Fallen 330 16
+[09/19/20 13:22:03] D2BS 8092: ÿc1Skipping Fallen 329 16
+[09/19/20 13:22:07] D2BS 8092: move retry 1
+[09/19/20 13:22:08] D2BS 8092: ÿc1Skipping Dark Hunter 336 16
+[09/19/20 13:22:08] D2BS 8092: ÿc1Skipping Dark Hunter 337 16
+[09/19/20 13:22:09] D2BS 8092: ÿc1Skipping Dark Hunter 336 16
+[09/19/20 13:22:09] D2BS 8092: ÿc1Skipping Dark Hunter 337 16
+[09/19/20 13:22:10] D2BS 8092: ÿc1Skipping Fallen 198 16
+[09/19/20 13:22:11] D2BS 8092: ÿc1Skipping Fallen 196 16
+[09/19/20 13:22:11] D2BS 8092: ÿc1Skipping Fallen 196 16
+[09/19/20 13:22:12] D2BS 8092: ÿc1Skipping Fallen 195 16
+[09/19/20 13:22:12] D2BS 8092: ÿc1Skipping Fallen 198 16
+[09/19/20 13:22:12] D2BS 8092: ÿc1Skipping Fallen 194 16
+[09/19/20 13:22:13] D2BS 8092: ÿc1Skipping Fallen 198 16
+[09/19/20 13:22:13] D2BS 8092: ÿc1Skipping Fallen 194 16
+[09/19/20 13:22:14] D2BS 8092: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:22:15] D2BS 8092: ÿc7Picked up ÿc3Ring ÿc0(ilvl 1) (Summoner.xpac.nip #90)
+[09/19/20 13:22:17] D2BS 8092: ÿc1Skipping Fallen Shaman 193 16
+[09/19/20 13:22:17] D2BS 8092: ÿc1Skipping Fallen 194 16
+[09/19/20 13:22:18] D2BS 8092: ÿc1Skipping Fallen 200 16
+[09/19/20 13:22:18] D2BS 8092: ÿc1Skipping Fallen 203 16
+[09/19/20 13:22:20] D2BS 8092: ÿc1Skipping Fallen 194 16
+[09/19/20 13:22:21] D2BS 8092: ÿc1Skipping Fallen 201 16
+[09/19/20 13:22:22] D2BS 8092: ÿc1Skipping Fallen 201 16
+[09/19/20 13:22:22] D2BS 8092: ÿc1Skipping Fallen 201 16
+[09/19/20 13:22:23] D2BS 8092: ÿc1Skipping Fallen Shaman 197 16
+[09/19/20 13:22:24] D2BS 8092: ÿc1Skipping Fallen Shaman 197 16
+[09/19/20 13:22:25] D2BS 8092: ÿc1Skipping Fallen 341 16
+[09/19/20 13:22:26] D2BS 8092: ÿc1Skipping Fallen Shaman 197 16
+[09/19/20 13:22:26] D2BS 8092: ÿc1Skipping Fallen 341 16
+[09/19/20 13:22:27] D2BS 8092: ÿc1Skipping Fallen Shaman 197 16
+[09/19/20 13:22:27] D2BS 8092: ÿc1Skipping Fallen 340 16
+[09/19/20 13:22:27] D2BS 8092: ÿc1Skipping Fallen 342 16
+[09/19/20 13:22:27] D2BS 8092: ÿc1Skipping Fallen 343 16
+[09/19/20 13:22:28] D2BS 8092: ÿc1Skipping Fallen 339 16
+[09/19/20 13:22:30] D2BS 8092: ÿc1Skipping Fallen 341 16
+[09/19/20 13:22:32] D2BS 8092: ÿc1Skipping Fallen 343 16
+[09/19/20 13:22:40] D2BS 8092: ÿc1Skipping Fallen Shaman 332 16
+[09/19/20 13:22:41] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:22:43] D2BS 8092: ÿc1Skipping Fallen Shaman 332 16
+[09/19/20 13:22:55] D2BS 8092: move retry 1
+[09/19/20 13:22:57] D2BS 8092: move retry 1
+[09/19/20 13:23:24] D2BS 8092: move retry 1
+[09/19/20 13:23:31] D2BS 8092: ÿc1Skipping Dark Spearwoman 345 16
+[09/19/20 13:23:40] D2BS 8092: ÿc1Skipping Dark Hunter 348 16
+[09/19/20 13:23:41] D2BS 8092: ÿc1Skipping Dark Hunter 348 16
+[09/19/20 13:23:41] D2BS 8092: ÿc1Skipping Dark Hunter 346 16
+[09/19/20 13:23:43] D2BS 8092: move retry 1
+[09/19/20 13:23:43] D2BS 8092: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:23:44] D2BS 8092: ÿc1Skipping Dark Hunter 376 16
+[09/19/20 13:23:45] D2BS 8092: ÿc1Skipping Dark Hunter 376 16
+[09/19/20 13:23:45] D2BS 8092: ÿc1Skipping Dark Hunter 377 16
+[09/19/20 13:23:45] D2BS 8092: ÿc1Skipping Dark Hunter 372 16
+[09/19/20 13:23:46] D2BS 8092: ÿc1Skipping Dark Hunter 306 16
+[09/19/20 13:23:46] D2BS 8092: ÿc1Skipping Dark Hunter 374 16
+[09/19/20 13:23:46] D2BS 8092: ÿc1Skipping Dark Hunter 375 16
+[09/19/20 13:23:47] D2BS 8092: ÿc1Skipping Dark Hunter 373 16
+[09/19/20 13:23:49] D2BS 8092: ÿc1Skipping Dark Hunter 306 16
+[09/19/20 13:23:49] D2BS 8092: ÿc1Skipping Dark Hunter 372 16
+[09/19/20 13:23:51] D2BS 8092: ÿc1Skipping Dark Hunter 374 16
+[09/19/20 13:23:52] D2BS 8092: ÿc1Skipping Dark Hunter 305 16
+[09/19/20 13:23:53] D2BS 8092: ÿc1Skipping Dark Hunter 305 16
+[09/19/20 13:23:53] D2BS 8092: ÿc1Skipping Dark Hunter 305 16
+[09/19/20 13:23:54] D2BS 8092: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:24:10] D2BS 8092: ÿc1Skipping Fallen 358 16
+[09/19/20 13:24:10] D2BS 8092: ÿc1Skipping Fallen 350 16
+[09/19/20 13:24:10] D2BS 8092: ÿc1Skipping Fallen 351 16
+[09/19/20 13:24:12] D2BS 8092: ÿc7Picked up ÿc0Leather Gloves ÿc0(ilvl 2) (Summoner.xpac.nip #69)
+[09/19/20 13:24:13] D2BS 8092: ÿc1Skipping Fallen 357 16
+[09/19/20 13:24:14] D2BS 8092: ÿc1Skipping Fallen 349 16
+[09/19/20 13:24:15] D2BS 8092: ÿc1Skipping Fallen 349 16
+[09/19/20 13:24:18] D2BS 8092: ÿc1Skipping Fallen 355 16
+[09/19/20 13:24:19] D2BS 8092: ÿc1Skipping Fallen 364 16
+[09/19/20 13:24:19] D2BS 8092: ÿc1Skipping Fallen 354 16
+[09/19/20 13:24:20] D2BS 8092: ÿc1Skipping Fallen 355 16
+[09/19/20 13:24:21] D2BS 8092: ÿc1Skipping Fallen 355 16
+[09/19/20 13:24:22] D2BS 8092: move retry 1
+[09/19/20 13:24:23] D2BS 8092: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:24:39] D2BS 8092: ÿc1Skipping Dark Spearwoman 383 16
+[09/19/20 13:24:40] D2BS 8092: ÿc1Skipping Dark Spearwoman 383 16
+[09/19/20 13:24:40] D2BS 8092: ÿc1Skipping Dark Spearwoman 382 16
+[09/19/20 13:24:42] D2BS 8092: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:24:44] D2BS 8092: ÿc1Skipping Fallen 379 16
+[09/19/20 13:24:44] D2BS 8092: ÿc1Skipping Fallen 379 16
+[09/19/20 13:24:45] D2BS 8092: ÿc1Skipping Fallen 379 16
+[09/19/20 13:24:46] D2BS 8092: ÿc1Skipping Fallen Shaman 378 16
+[09/19/20 13:24:47] D2BS 8092: ÿc1Skipping Fallen Shaman 378 16
+[09/19/20 13:24:48] D2BS 8092: ÿc1Skipping Fallen Shaman 378 16
+[09/19/20 13:24:54] D2BS 8092: ÿc1Skipping Fallen 369 16
+[09/19/20 13:25:12] D2BS 8092: ÿc1Skipping Gargantuan Beast 179 16
+[09/19/20 13:25:23] D2BS 8092: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 13:25:23] D2BS 8092: AutoBuild: Level up detected ( 5 --> 6 )
+[09/19/20 13:25:23] D2BS 8092: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[09/19/20 13:25:23] D2BS 8092: ÿc1Skipping Gargantuan Beast 180 16
+[09/19/20 13:25:23] D2BS 8092: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  3)
+[09/19/20 13:25:23] D2BS 8092: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:25:23] D2BS 8092: AutoBuild: Stat (1/5) Increased Strength from 19 to 20
+[09/19/20 13:25:23] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: Stat (2/5) Increased Vitality from 31 to 32
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: Stat (3/5) Increased Vitality from 32 to 33
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: Stat (4/5) Increased Vitality from 33 to 34
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: Stat (5/5) Increased Vitality from 34 to 35
+[09/19/20 13:25:24] D2BS 8092: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 8092: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 8092: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 8092: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 8092: AutoBuild: Incrementing cached character level to 6
+[09/19/20 13:25:26] D2BS 8092: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 13:25:29] D2BS 8092: ÿc1Skipping Fallen 175 16
+[09/19/20 13:25:29] D2BS 8092: ÿc1Skipping Fallen 173 16
+[09/19/20 13:25:32] D2BS 8092: ÿc1Skipping Fallen 174 16
+[09/19/20 13:25:32] D2BS 8092: ÿc1Skipping Fallen 176 16
+[09/19/20 13:25:33] D2BS 8092: ÿc1Skipping Gargantuan Beast 178 16
+[09/19/20 13:25:34] D2BS 8092: ÿc1Skipping Fallen 174 16
+[09/19/20 13:25:34] D2BS 8092: ÿc1Skipping Gargantuan Beast 178 16
+[09/19/20 13:25:34] D2BS 8092: ÿc1Skipping Fallen 173 16
+[09/19/20 13:25:35] D2BS 8092: ÿc1Skipping Gargantuan Beast 178 16
+[09/19/20 13:25:35] D2BS 8092: ÿc1Skipping Fallen 172 16
+[09/19/20 13:25:36] D2BS 8092: ÿc1Skipping Fallen 172 16
+[09/19/20 13:25:36] D2BS 8092: ÿc1Skipping Gargantuan Beast 178 16
+[09/19/20 13:25:37] D2BS 8092: ÿc1Skipping Dark Hunter 161 16
+[09/19/20 13:25:38] D2BS 8092: ÿc1Skipping Fallen 175 16
+[09/19/20 13:25:38] D2BS 8092: ÿc1Skipping Fallen 174 16
+[09/19/20 13:25:38] D2BS 8092: ÿc1Skipping Dark Hunter 161 16
+[09/19/20 13:25:39] D2BS 8092: ÿc1Skipping Fallen 175 16
+[09/19/20 13:25:40] D2BS 8092: ÿc1Skipping Dark Hunter 161 16
+[09/19/20 13:25:40] D2BS 8092: ÿc1Skipping Dark Hunter 163 16
+[09/19/20 13:25:41] D2BS 8092: ÿc1Skipping Dark Hunter 161 16
+[09/19/20 13:25:42] D2BS 8092: ÿc1Skipping Fallen 167 16
+[09/19/20 13:25:42] D2BS 8092: ÿc1Skipping Fallen 167 16
+[09/19/20 13:25:43] D2BS 8092: ÿc1Skipping Fallen 167 16
+[09/19/20 13:25:44] D2BS 8092: ÿc1Skipping Fallen Shaman 166 16
+[09/19/20 13:25:44] D2BS 8092: ÿc1Skipping Fallen 170 16
+[09/19/20 13:25:47] D2BS 8092: ÿc1Skipping Fallen 170 16
+[09/19/20 13:25:48] D2BS 8092: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:25:49] D2BS 8092: move retry 1
+[09/19/20 13:25:51] D2BS 8092: ÿc1Skipping Fallen 174 16
+[09/19/20 13:25:51] D2BS 8092: ÿc1Skipping Fallen 174 16
+[09/19/20 13:26:32] D2BS 8092: move retry 1
+[09/19/20 13:27:42] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:27:49] D2BS 8092: ÿc7Picked up ÿc0Superior Sash ÿc0(ilvl 2) (Summoner.xpac.nip #78)
+[09/19/20 13:27:51] D2BS 8092: ÿc1Skipping Fallen 393 16
+[09/19/20 13:27:52] D2BS 8092: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:28:08] D2BS 8092: ÿc1Skipping Fallen 309 16
+[09/19/20 13:28:09] D2BS 8092: ÿc1Skipping Fallen 300 16
+[09/19/20 13:28:10] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:28:12] D2BS 8092: ÿc1Skipping Fallen 302 16
+[09/19/20 13:28:14] D2BS 8092: ÿc1Skipping Dark Spearwoman 312 16
+[09/19/20 13:28:14] D2BS 8092: ÿc1Skipping Fallen 303 16
+[09/19/20 13:28:14] D2BS 8092: ÿc1Skipping Dark Hunter 318 16
+[09/19/20 13:28:18] D2BS 8092: ÿc7Picked up ÿc49 Gold
+[09/19/20 13:28:21] D2BS 8092: ÿc1Skipping Fallen Shaman 299 16
+[09/19/20 13:28:21] D2BS 8092: ÿc1Skipping Fallen 309 16
+[09/19/20 13:28:21] D2BS 8092: ÿc1Skipping Dark Spearwoman 313 16
+[09/19/20 13:28:22] D2BS 8092: ÿc1Skipping Fallen Shaman 299 16
+[09/19/20 13:28:22] D2BS 8092: ÿc1Skipping Dark Spearwoman 313 16
+[09/19/20 13:28:22] D2BS 8092: ÿc1Skipping Fallen 322 16
+[09/19/20 13:28:23] D2BS 8092: ÿc1Skipping Fallen 315 16
+[09/19/20 13:28:25] D2BS 8092: ÿc1Skipping Fallen 300 16
+[09/19/20 13:28:25] D2BS 8092: ÿc1Skipping Fallen 315 16
+[09/19/20 13:28:31] D2BS 8092: ÿc1Skipping Fallen 315 16
+[09/19/20 13:28:31] D2BS 8092: ÿc1Skipping Fallen 315 16
+[09/19/20 13:28:32] D2BS 8092: ÿc1Skipping Fallen Shaman 314 16
+[09/19/20 13:28:37] D2BS 8092: ÿc1Skipping Fallen 321 16
+[09/19/20 13:28:40] D2BS 8092: ÿc1Skipping Fallen Shaman 320 16
+[09/19/20 13:28:41] D2BS 8092: ÿc1Skipping Fallen 322 16
+[09/19/20 13:28:41] D2BS 8092: ÿc1Skipping Fallen 322 16
+[09/19/20 13:29:03] D2BS 8092: move retry 1
+[09/19/20 13:29:31] D2BS 8092: move retry 1
+[09/19/20 13:29:34] D2BS 8092: move retry 2
+[09/19/20 13:31:08] D2BS 8092: ÿc1Skipping Fallen 414 16
+[09/19/20 13:31:08] D2BS 8092: move retry 1
+[09/19/20 13:31:09] D2BS 8092: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:31:10] D2BS 8092: ÿc1Skipping Fallen 415 16
+[09/19/20 13:31:10] D2BS 8092: ÿc1Skipping Fallen 410 16
+[09/19/20 13:31:10] D2BS 8092: ÿc1Skipping Carver 405 16
+[09/19/20 13:31:11] D2BS 8092: ÿc1Skipping Carver 402 16
+[09/19/20 13:31:11] D2BS 8092: ÿc1Skipping Carver 406 16
+[09/19/20 13:31:12] D2BS 8092: ÿc1Skipping Carver 406 16
+[09/19/20 13:31:13] D2BS 8092: ÿc1Skipping Carver 406 16
+[09/19/20 13:31:14] D2BS 8092: ÿc1Skipping Carver 406 16
+[09/19/20 13:31:14] D2BS 8092: ÿc1Skipping Carver 405 16
+[09/19/20 13:31:15] D2BS 8092: ÿc1Skipping Carver 406 16
+[09/19/20 13:31:15] D2BS 8092: ÿc1Skipping Carver 404 16
+[09/19/20 13:31:15] D2BS 8092: ÿc1Skipping Fallen 409 16
+[09/19/20 13:31:18] D2BS 8092: ÿc1Skipping Carver 406 16
+[09/19/20 13:31:19] D2BS 8092: move retry 1
+[09/19/20 13:31:20] D2BS 8092: ÿc1Skipping Fallen 409 16
+[09/19/20 13:31:21] D2BS 8092: ÿc1Skipping Fallen Shaman 413 16
+[09/19/20 13:31:21] D2BS 8092: ÿc1Skipping Fallen 409 16
+[09/19/20 13:31:21] D2BS 8092: ÿc1Skipping Carver 405 16
+[09/19/20 13:31:24] D2BS 8092: ÿc1Skipping Fallen Shaman 413 16
+[09/19/20 13:31:25] D2BS 8092: ÿc1Skipping Fallen Shaman 413 16
+[09/19/20 13:31:25] D2BS 8092: ÿc1Skipping Fallen Shaman 413 16
+[09/19/20 13:31:27] D2BS 8092: ÿc1Skipping Skeleton 220 16
+[09/19/20 13:31:39] D2BS 8092: ÿc1Skipping Skeleton 221 16
+[09/19/20 13:31:40] D2BS 8092: ÿc1Skipping Skeleton 220 16
+[09/19/20 13:31:40] D2BS 8092: ÿc1Skipping Skeleton 219 16
+[09/19/20 13:31:40] D2BS 8092: ÿc1Skipping Skeleton 224 16
+[09/19/20 13:31:41] D2BS 8092: ÿc1Skipping Skeleton 223 16
+[09/19/20 13:31:42] D2BS 8092: ÿc7Picked up ÿc3Quilted Armor ÿc0(ilvl 5) (Summoner.xpac.nip #44)
+[09/19/20 13:31:43] D2BS 8092: ÿc1Skipping Skeleton 221 16
+[09/19/20 13:31:44] D2BS 8092: ÿc1Skipping Skeleton 220 16
+[09/19/20 13:31:44] D2BS 8092: ÿc1Skipping Skeleton 224 16
+[09/19/20 13:31:44] D2BS 8092: ÿc1Skipping Skeleton 223 16
+[09/19/20 13:31:45] D2BS 8092: ÿc1Skipping Skeleton 224 16
+[09/19/20 13:31:46] D2BS 8092: ÿc1Skipping Skeleton 223 16
+[09/19/20 13:31:47] D2BS 8092: ÿc1Skipping Skeleton 224 16
+[09/19/20 13:31:47] D2BS 8092: ÿc1Skipping Skeleton 223 16
+[09/19/20 13:31:48] D2BS 8092: ÿc1Skipping Skeleton 224 16
+[09/19/20 13:31:48] D2BS 8092: ÿc1Skipping Skeleton 223 16
+[09/19/20 13:31:49] D2BS 8092: ÿc1Skipping Skeleton 223 16
+[09/19/20 13:32:14] D2BS 8092: 3,2,1
+[09/19/20 13:32:14] D2BS 8092: ÿc1Error in ÿc0LevelFollower ÿc1(pather.js line ÿc11045): ÿc1makePortal: No TP tomes.
+[09/19/20 13:32:14] D2BS 8092: ÿc8Run duration ÿc21571.047
+[09/19/20 13:32:14] D2BS 8092: Script tools\autobuildthread.js ended
+[09/19/20 13:32:14] D2BS 8092: Script tools\party.js ended
+[09/19/20 13:32:14] D2BS 8092: Script tools\townchicken.js ended
+[09/19/20 13:32:21] D2BS 8092: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 13:32:21] D2BS 8092: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 13:32:21] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/19/20 13:32:21] D2BS 8092: Updating Config from level 0 to 6
+[09/19/20 13:32:21] D2BS 8092: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 13:32:21] D2BS 8092: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 13:32:21] D2BS 8092: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/19/20 13:32:21] D2BS 8092: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/19/20 13:32:21] D2BS 8092: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2114ÿc4. Valid entries: ÿc297. ÿc4Time: ÿc215 ms
+[09/19/20 13:32:21] D2BS 8092: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 13:32:21] D2BS 8092: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 13:32:21] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/19/20 13:32:21] D2BS 8092: Updating Config from level 0 to 6
+[09/19/20 13:32:21] D2BS 8092: AutoBuild: Loaded helper thread
+[09/19/20 13:32:21] D2BS 8092: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 13:32:21] D2BS 8092: initNPC: heal
+[09/19/20 13:32:21] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/19/20 13:32:21] D2BS 8092: Updating Config from level 0 to 6
+[09/19/20 13:32:21] D2BS 8092: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 13:32:21] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/19/20 13:32:21] D2BS 8092: Updating Config from level 0 to 6
+[09/19/20 13:32:21] D2BS 8092: ÿc3Start ToolsThread script
+[09/19/20 13:32:21] D2BS 8092: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/19/20 13:32:21] D2BS 8092: Updating Config from level 0 to 6
+[09/19/20 13:32:22] D2BS 8092: move retry 1
+[09/19/20 13:32:30] D2BS 8092: initNPC: identify
+[09/19/20 13:32:36] D2BS 8092: initNPC: fillTome
+[09/19/20 13:32:38] D2BS 8092: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[09/19/20 13:33:00] D2BS 8092: 3,4
+[09/19/20 13:34:08] D2BS 8092: ÿc1Skipping Foul Crow 482 16
+[09/19/20 13:34:09] D2BS 8092: ÿc1Skipping Foul Crow 478 16
+[09/19/20 13:34:10] D2BS 8092: ÿc7Picked up ÿc49 Gold
+[09/19/20 13:34:11] D2BS 8092: ÿc1Skipping Foul Crow 484 16
+[09/19/20 13:34:12] D2BS 8092: ÿc1Skipping Foul Crow 484 16
+[09/19/20 13:34:12] D2BS 8092: ÿc1Skipping Foul Crow 484 16
+[09/19/20 13:34:20] D2BS 8092: ÿc7Picked up ÿc0Cap ÿc0(ilvl 3) (Summoner.xpac.nip #28)
+[09/19/20 13:34:26] D2BS 8092: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 13:34:27] D2BS 8092: ÿc1Skipping Skeleton 475 16
+[09/19/20 13:34:52] D2BS 8092: ÿc1Skipping Carver 501 16
+[09/19/20 13:34:53] D2BS 8092: ÿc1Skipping Carver 503 16
+[09/19/20 13:34:53] D2BS 8092: ÿc1Skipping Carver 501 16
+[09/19/20 13:34:54] D2BS 8092: ÿc1Skipping Carver 503 16
+[09/19/20 13:34:54] D2BS 8092: ÿc1Skipping Carver 502 16
+[09/19/20 13:34:54] D2BS 8092: ÿc1Skipping Fallen 505 16
+[09/19/20 13:34:54] D2BS 8092: ÿc1Skipping Fallen 506 16
+[09/19/20 13:34:55] D2BS 8092: ÿc1Skipping Carver 497 16
+[09/19/20 13:34:56] D2BS 8092: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:34:58] D2BS 8092: ÿc1Skipping Carver 497 16
+[09/19/20 13:34:59] D2BS 8092: ÿc7Picked up ÿc418 Gold
+[09/19/20 13:34:59] D2BS 8092: ÿc1Skipping Fallen Shaman 504 16
+[09/19/20 13:34:59] D2BS 8092: ÿc1Skipping Carver 496 16
+[09/19/20 13:35:00] D2BS 8092: ÿc1Skipping Carver 486 16
+[09/19/20 13:35:00] D2BS 8092: ÿc1Skipping Carver 490 16
+[09/19/20 13:35:00] D2BS 8092: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 13:35:03] D2BS 8092: move retry 1
+[09/19/20 13:35:06] D2BS 8092: ÿc1Skipping Carver 496 16
+[09/19/20 13:35:08] D2BS 8092: ÿc1Skipping Carver 491 16
+[09/19/20 13:35:10] D2BS 8092: ÿc7Picked up ÿc427 Gold
+[09/19/20 13:35:10] D2BS 8092: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 13:35:10] D2BS 8092: AutoBuild: Level up detected ( 6 --> 7 )
+[09/19/20 13:35:10] D2BS 8092: AutoBuild: useSkillPoint(): Clay Golem (75)
+[09/19/20 13:35:10] D2BS 8092: AutoBuild: Skill (1/2) Increased Clay Golem (75) by one (level:  1)
+[09/19/20 13:35:10] D2BS 8092: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/19/20 13:35:10] D2BS 8092: AutoBuild: Skill (2/2) Increased Skeleton Mastery (69) by one (level:  2)
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: Stat (1/5) Increased Strength from 20 to 21
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: Stat (2/5) Increased Vitality from 35 to 36
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: Stat (3/5) Increased Vitality from 36 to 37
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: Stat (4/5) Increased Vitality from 37 to 38
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: Stat (5/5) Increased Vitality from 38 to 39
+[09/19/20 13:35:11] D2BS 8092: Updating Config from level 6 to 7
+[09/19/20 13:35:11] D2BS 8092: Updating Config from level 6 to 7
+[09/19/20 13:35:11] D2BS 8092: Updating Config from level 6 to 7
+[09/19/20 13:35:11] D2BS 8092: Updating Config from level 6 to 7
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: Updating Config from level 6 to 7
+[09/19/20 13:35:11] D2BS 8092: AutoBuild: Incrementing cached character level to 7
+[09/19/20 13:35:26] D2BS 8092: move retry 1
+[09/19/20 13:35:50] D2BS 8092: ÿc7Picked up ÿc417 Gold
+[09/19/20 13:35:51] D2BS 8092: ÿc1Skipping Carver 493 16
+[09/19/20 13:35:54] D2BS 8092: ÿc1Skipping Hungry Dead 509 16
+[09/19/20 13:35:55] D2BS 8092: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:35:57] D2BS 8092: ÿc1Skipping Hungry Dead 509 16
+[09/19/20 13:35:59] D2BS 8092: ÿc1Skipping Hungry Dead 509 16
+[09/19/20 13:36:00] D2BS 8092: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:36:42] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:36:53] D2BS 8092: move retry 1
+[09/19/20 13:36:59] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:37:04] D2BS 8092: move retry 1
+[09/19/20 13:37:15] D2BS 8092: ÿc1Skipping Skeleton 527 16
+[09/19/20 13:37:16] D2BS 8092: ÿc1Skipping Skeleton 528 16
+[09/19/20 13:37:16] D2BS 8092: ÿc1Skipping Skeleton 539 16
+[09/19/20 13:37:16] D2BS 8092: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 13:37:30] D2BS 8092: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 13:37:30] D2BS 8092: ÿc7Picked up ÿc0Leather Armor ÿc0(ilvl 2) (Summoner.xpac.nip #43)
+[09/19/20 13:37:33] D2BS 8092: ÿc1Skipping Skeleton 540 16
+[09/19/20 13:37:33] D2BS 8092: ÿc1Skipping Skeleton 541 16
+[09/19/20 13:37:55] D2BS 8092: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:37:56] D2BS 8092: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:38:18] D2BS 8092: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:38:23] D2BS 8092: ÿc1Skipping Hungry Dead 557 16
+[09/19/20 13:38:24] D2BS 8092: ÿc1Skipping Foul Crow 554 16
+[09/19/20 13:38:25] D2BS 8092: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:38:26] D2BS 8092: move retry 1
+[09/19/20 13:38:29] D2BS 8092: ÿc1Skipping Skeleton 551 16
+[09/19/20 13:38:29] D2BS 8092: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:38:33] D2BS 8092: ÿc1Skipping Hungry Dead 558 16
+[09/19/20 13:38:37] D2BS 8092: ÿc1Skipping Foul Crow 556 16
+[09/19/20 13:38:37] D2BS 8092: ÿc1Skipping Foul Crow 556 16
+[09/19/20 13:38:38] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:38:38] D2BS 8092: ÿc1Skipping Hungry Dead 560 16
+[09/19/20 13:38:39] D2BS 8092: ÿc1Skipping Hungry Dead 560 16
+[09/19/20 13:38:40] D2BS 8092: ÿc1Skipping Hungry Dead 560 16
+[09/19/20 13:38:40] D2BS 8092: ÿc1Skipping Hungry Dead 559 16
+[09/19/20 13:38:41] D2BS 8092: ÿc1Skipping Hungry Dead 560 16
+[09/19/20 13:38:41] D2BS 8092: ÿc1Skipping Hungry Dead 559 16
+[09/19/20 13:38:42] D2BS 8092: ÿc1Skipping Hungry Dead 560 16
+[09/19/20 13:38:42] D2BS 8092: ÿc1Skipping Hungry Dead 559 16
+[09/19/20 13:38:47] D2BS 8092: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:38:49] D2BS 8092: ÿc1Skipping Foul Crow 466 16
+[09/19/20 13:38:54] D2BS 8092: ÿc1Skipping Skeleton 562 16
+[09/19/20 13:38:55] D2BS 8092: ÿc1Skipping Skeleton 562 16
+[09/19/20 13:38:56] D2BS 8092: ÿc1Skipping Skeleton 562 16
+[09/19/20 13:38:58] D2BS 8092: ÿc1Skipping Skeleton 563 16
+[09/19/20 13:38:59] D2BS 8092: ÿc7Picked up ÿc3Ring ÿc0(ilvl 2) (Summoner.xpac.nip #90)
+[09/19/20 13:39:01] D2BS 8092: move retry 1
+[09/19/20 13:39:44] D2BS 8092: ÿc1Skipping Foul Crow 462 16
+[09/19/20 13:39:45] D2BS 8092: ÿc1Skipping Foul Crow 462 16
+[09/19/20 13:39:46] D2BS 8092: ÿc1Skipping Foul Crow 462 16
+[09/19/20 13:39:46] D2BS 8092: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 13:39:49] D2BS 8092: ÿc1Skipping Skeleton 464 16
+[09/19/20 13:39:49] D2BS 8092: ÿc1Skipping Hungry Dead 458 16
+[09/19/20 13:39:50] D2BS 8092: ÿc1Skipping Skeleton 463 16
+[09/19/20 13:39:50] D2BS 8092: ÿc1Skipping Hungry Dead 456 16
+[09/19/20 13:39:51] D2BS 8092: ÿc1Skipping Hungry Dead 458 16
+[09/19/20 13:39:52] D2BS 8092: ÿc1Skipping Hungry Dead 456 16
+[09/19/20 13:39:52] D2BS 8092: ÿc1Skipping Hungry Dead 457 16
+[09/19/20 13:39:53] D2BS 8092: ÿc1Skipping Hungry Dead 458 16
+[09/19/20 13:39:53] D2BS 8092: ÿc1Skipping Hungry Dead 457 16
+[09/19/20 13:39:53] D2BS 8092: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:39:54] D2BS 8092: ÿc1Skipping Hungry Dead 457 16
+[09/19/20 13:39:55] D2BS 8092: ÿc1Skipping Hungry Dead 457 16
+[09/19/20 13:39:55] D2BS 8092: ÿc1Skipping Hungry Dead 457 16
+[09/19/20 13:39:56] D2BS 8092: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:40:00] D2BS 8092: move retry 1
+[09/19/20 13:40:10] D2BS 8092: move retry 1
+[09/19/20 13:42:43] D2BS 8092: move retry 1
+[09/19/20 13:43:13] D2BS 8092: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 13:43:13] D2BS 8092: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 13:43:13] D2BS 8092: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 13:43:21] D2BS 8092: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:43:24] D2BS 8092: ÿc1Skipping Carver 433 16
+[09/19/20 13:43:26] D2BS 8092: ÿc1Skipping Carver 431 16
+[09/19/20 13:43:30] D2BS 8092: move retry 1
+[09/19/20 13:44:34] D2BS 8092: move retry 1
+[09/19/20 13:44:47] D2BS 8092: move retry 1
+[09/19/20 13:45:02] D2BS 8092: move retry 1
+[09/19/20 13:45:27] D2BS 8092: 4,10
+[09/19/20 13:47:37] D2BS 8092: 10,4
+[09/19/20 13:48:10] D2BS 8092: move retry 1
+[09/19/20 13:48:59] D2BS 8092: move retry 2
+[09/19/20 13:49:02] D2BS 8092: 4
+[09/19/20 13:50:38] D2BS 8092: move retry 1
+[09/19/20 13:53:42] D2BS 8092: move retry 1
+[09/19/20 13:54:30] D2BS 8092: move retry 1
+[09/19/20 13:55:05] D2BS 8092: 4,10
+[09/19/20 13:55:07] D2BS 8092: move retry 1
+[09/19/20 13:55:17] D2BS 8092: ÿc7Picked up ÿc422 Gold
+[09/19/20 13:55:21] D2BS 8092: ÿc7Picked up ÿc415 Gold
+[09/19/20 13:55:24] D2BS 8092: move retry 2
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: Level up detected ( 7 --> 8 )
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  4)
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: Stat (1/5) Increased Strength from 21 to 22
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: Stat (2/5) Increased Vitality from 39 to 40
+[09/19/20 13:55:25] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:55:26] D2BS 8092: AutoBuild: Stat (3/5) Increased Vitality from 40 to 41
+[09/19/20 13:55:26] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:55:26] D2BS 8092: AutoBuild: Stat (4/5) Increased Vitality from 41 to 42
+[09/19/20 13:55:26] D2BS 8092: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:55:26] D2BS 8092: AutoBuild: Stat (5/5) Increased Vitality from 42 to 43
+[09/19/20 13:55:26] D2BS 8092: Updating Config from level 7 to 8
+[09/19/20 13:55:26] D2BS 8092: Updating Config from level 7 to 8
+[09/19/20 13:55:26] D2BS 8092: Updating Config from level 7 to 8
+[09/19/20 13:55:26] D2BS 8092: Updating Config from level 7 to 8
+[09/19/20 13:55:26] D2BS 8092: AutoBuild: Updating Config from level 7 to 8
+[09/19/20 13:55:26] D2BS 8092: AutoBuild: Incrementing cached character level to 8
+[09/19/20 13:55:28] D2BS 8092: move retry 1
+[09/19/20 13:55:30] D2BS 8092: move retry 2
+[09/19/20 13:55:37] D2BS 8092: move retry 1
+[09/19/20 13:55:54] D2BS 8092: move retry 2
+[09/19/20 13:56:02] D2BS 8092: move retry 1
+[09/19/20 13:56:06] D2BS 8092: move retry 1
+[09/19/20 13:56:13] D2BS 8092: move retry 1
+[09/19/20 13:56:13] D2BS 8092: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:56:15] D2BS 8092: ÿc1Skipping Vile Hunter 608 16
+[09/19/20 13:56:17] D2BS 8092: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:56:18] D2BS 8092: move retry 1
+[09/19/20 13:56:20] D2BS 8092: move retry 1
+[09/19/20 13:56:29] D2BS 8092: Script default.dbj ended
+[09/19/20 13:56:29] D2BS 8092: Script tools\autobuildthread.js ended
+[09/19/20 13:56:29] D2BS 8092: Script tools\party.js ended
+[09/19/20 13:56:29] D2BS 8092: Script tools\toolsthread.js ended
+[09/19/20 13:56:29] D2BS 8092: Script tools\townchicken.js ended
+[09/19/20 13:56:35] D2BS 8092: D2BS Shutdown complete.
+[09/19/20 13:56:36] D2BS 9488: D2BS Engine startup complete. 1.6.4U
+[09/19/20 13:56:36] D2BS 9488: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[09/19/20 13:56:36] D2BS 9488: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 13:56:36] D2BS 9488: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 13:56:36] D2BS 9488: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 13:56:36] D2BS 9488: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 13:56:36] D2BS 9488: Summoner
+[09/19/20 13:56:38] D2BS 9488: Heartbeat loaded
+[09/19/20 13:56:58] D2BS 9488: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 13:56:58] D2BS 9488: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 13:56:58] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/19/20 13:56:58] D2BS 9488: Updating Config from level 0 to 8
+[09/19/20 13:56:58] D2BS 9488: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 13:56:58] D2BS 9488: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 13:56:58] D2BS 9488: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/19/20 13:56:58] D2BS 9488: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/19/20 13:56:58] D2BS 9488: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2114ÿc4. Valid entries: ÿc297. ÿc4Time: ÿc216 ms
+[09/19/20 13:56:58] D2BS 9488: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 13:56:58] D2BS 9488: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 13:56:58] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/19/20 13:56:58] D2BS 9488: Updating Config from level 0 to 8
+[09/19/20 13:56:58] D2BS 9488: AutoBuild: Loaded helper thread
+[09/19/20 13:56:58] D2BS 9488: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 13:56:58] D2BS 9488: initNPC: heal
+[09/19/20 13:56:58] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/19/20 13:56:58] D2BS 9488: Updating Config from level 0 to 8
+[09/19/20 13:56:58] D2BS 9488: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 13:56:58] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/19/20 13:56:58] D2BS 9488: ÿc3Start ToolsThread script
+[09/19/20 13:56:58] D2BS 9488: Updating Config from level 0 to 8
+[09/19/20 13:56:58] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/19/20 13:56:58] D2BS 9488: Updating Config from level 0 to 8
+[09/19/20 13:57:05] D2BS 9488: initNPC: identify
+[09/19/20 13:57:08] D2BS 9488: ÿc4MiniShopBotÿc0: Scanning 49 items.
+[09/19/20 13:57:34] D2BS 9488: 4
+[09/19/20 13:57:46] D2BS 9488: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:57:48] D2BS 9488: ÿc1Skipping Fallen 48 16
+[09/19/20 13:57:49] D2BS 9488: ÿc1Skipping Fallen 46 16
+[09/19/20 13:57:49] D2BS 9488: ÿc1Skipping Fallen 37 16
+[09/19/20 13:57:51] D2BS 9488: ÿc1Skipping Fallen 37 16
+[09/19/20 13:57:55] D2BS 9488: ÿc1Skipping Fallen 45 16
+[09/19/20 13:57:56] D2BS 9488: ÿc1Skipping Fallen 45 16
+[09/19/20 13:57:57] D2BS 9488: ÿc1Skipping Fallen 45 16
+[09/19/20 13:57:58] D2BS 9488: ÿc1Skipping Fallen 45 16
+[09/19/20 13:57:58] D2BS 9488: ÿc1Skipping Dark Ranger 22 16
+[09/19/20 13:57:59] D2BS 9488: ÿc1Skipping Dark Ranger 23 16
+[09/19/20 13:58:09] D2BS 9488: ÿc1Skipping Carver 79 16
+[09/19/20 13:58:10] D2BS 9488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 13:58:11] D2BS 9488: ÿc1Skipping Carver 79 16
+[09/19/20 13:58:12] D2BS 9488: ÿc1Skipping Carver 70 16
+[09/19/20 13:58:12] D2BS 9488: ÿc1Skipping Hungry Dead 99 16
+[09/19/20 13:58:12] D2BS 9488: ÿc1Skipping Carver 71 16
+[09/19/20 13:58:13] D2BS 9488: ÿc1Skipping Carver 72 16
+[09/19/20 13:58:14] D2BS 9488: ÿc1Skipping Hungry Dead 99 16
+[09/19/20 13:58:14] D2BS 9488: ÿc1Skipping Carver 79 16
+[09/19/20 13:58:15] D2BS 9488: ÿc1Skipping Carver 71 16
+[09/19/20 13:58:15] D2BS 9488: ÿc1Skipping Carver 70 16
+[09/19/20 13:58:15] D2BS 9488: ÿc1Skipping Carver 78 16
+[09/19/20 13:58:16] D2BS 9488: ÿc1Skipping Hungry Dead 100 16
+[09/19/20 13:58:16] D2BS 9488: ÿc1Skipping Carver 72 16
+[09/19/20 13:58:16] D2BS 9488: ÿc1Skipping Carver 68 16
+[09/19/20 13:58:27] D2BS 9488: ÿc1Skipping Hungry Dead 100 16
+[09/19/20 13:58:27] D2BS 9488: ÿc1Skipping Carver 69 16
+[09/19/20 13:58:27] D2BS 9488: ÿc1Skipping Carver 71 16
+[09/19/20 13:58:28] D2BS 9488: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:58:28] D2BS 9488: ÿc7Picked up ÿc418 Gold
+[09/19/20 13:58:30] D2BS 9488: ÿc1Skipping Carver 69 16
+[09/19/20 13:58:30] D2BS 9488: ÿc1Skipping Hungry Dead 100 16
+[09/19/20 13:58:34] D2BS 9488: ÿc1Skipping Carver 71 16
+[09/19/20 13:58:38] D2BS 9488: ÿc7Picked up ÿc427 Gold
+[09/19/20 13:58:38] D2BS 9488: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:58:42] D2BS 9488: ÿc1Skipping Carver 76 16
+[09/19/20 13:58:43] D2BS 9488: ÿc1Skipping Carver 76 16
+[09/19/20 13:58:46] D2BS 9488: ÿc7Picked up ÿc415 Gold
+[09/19/20 13:59:51] D2BS 9488: ÿc7Picked up ÿc3Cap ÿc0(ilvl 4) (Summoner.xpac.nip #29)
+[09/19/20 13:59:51] D2BS 9488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 13:59:51] D2BS 9488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 14:00:17] D2BS 9488: ÿc7Picked up ÿc4115 Gold
+[09/19/20 14:00:17] D2BS 9488: ÿc7Picked up ÿc455 Gold
+[09/19/20 14:00:24] D2BS 9488: ÿc1Skipping Dark Hunter 198 16
+[09/19/20 14:00:24] D2BS 9488: ÿc1Skipping Dark Hunter 197 16
+[09/19/20 14:00:25] D2BS 9488: ÿc1Skipping Dark Hunter 196 16
+[09/19/20 14:00:25] D2BS 9488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 14:00:27] D2BS 9488: ÿc1Skipping Dark Hunter 197 16
+[09/19/20 14:00:28] D2BS 9488: ÿc1Skipping Dark Hunter 196 16
+[09/19/20 14:00:28] D2BS 9488: ÿc1Skipping Dark Hunter 198 16
+[09/19/20 14:00:29] D2BS 9488: ÿc1Skipping Dark Hunter 197 16
+[09/19/20 14:00:29] D2BS 9488: ÿc1Skipping Dark Hunter 196 16
+[09/19/20 14:00:30] D2BS 9488: ÿc1Skipping Dark Hunter 198 16
+[09/19/20 14:00:31] D2BS 9488: ÿc1Skipping Dark Hunter 197 16
+[09/19/20 14:00:31] D2BS 9488: ÿc1Skipping Dark Hunter 196 16
+[09/19/20 14:00:31] D2BS 9488: ÿc1Skipping Dark Hunter 198 16
+[09/19/20 14:00:37] D2BS 9488: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:00:39] D2BS 9488: ÿc1Skipping Fallen Shaman 192 16
+[09/19/20 14:00:39] D2BS 9488: ÿc1Skipping Fallen 194 16
+[09/19/20 14:00:40] D2BS 9488: ÿc1Skipping Fallen Shaman 192 16
+[09/19/20 14:00:40] D2BS 9488: ÿc1Skipping Fallen 194 16
+[09/19/20 14:00:41] D2BS 9488: ÿc1Skipping Fallen Shaman 192 16
+[09/19/20 14:00:42] D2BS 9488: ÿc1Skipping Dark Hunter 197 16
+[09/19/20 14:00:44] D2BS 9488: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:00:47] D2BS 9488: ÿc1Skipping Fallen Shaman 192 16
+[09/19/20 14:00:47] D2BS 9488: ÿc1Skipping Dark Hunter 197 16
+[09/19/20 14:00:48] D2BS 9488: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/19/20 14:00:54] D2BS 9488: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:00:59] D2BS 9488: ÿc1Skipping Fallen 220 16
+[09/19/20 14:01:00] D2BS 9488: ÿc1Skipping Fallen Shaman 219 16
+[09/19/20 14:01:01] D2BS 9488: ÿc1Skipping Fallen 220 16
+[09/19/20 14:01:01] D2BS 9488: ÿc7Picked up ÿc42 Gold
+[09/19/20 14:01:09] D2BS 9488: ÿc1Skipping Fallen 224 16
+[09/19/20 14:01:09] D2BS 9488: ÿc1Skipping Fallen 275 16
+[09/19/20 14:01:09] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:01:09] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:01:10] D2BS 9488: ÿc1Skipping Fallen 225 16
+[09/19/20 14:01:10] D2BS 9488: ÿc1Skipping Fallen 272 16
+[09/19/20 14:01:10] D2BS 9488: ÿc1Skipping Fallen 274 16
+[09/19/20 14:01:11] D2BS 9488: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:01:11] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:01:12] D2BS 9488: ÿc1Skipping Fallen 225 16
+[09/19/20 14:01:12] D2BS 9488: ÿc1Skipping Fallen 224 16
+[09/19/20 14:01:13] D2BS 9488: ÿc1Skipping Fallen 226 16
+[09/19/20 14:01:13] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:01:13] D2BS 9488: ÿc1Skipping Fallen 275 16
+[09/19/20 14:01:14] D2BS 9488: ÿc1Skipping Fallen 272 16
+[09/19/20 14:01:15] D2BS 9488: ÿc7Picked up ÿc42 Gold
+[09/19/20 14:01:21] D2BS 9488: ÿc1Skipping Fallen Shaman 222 16
+[09/19/20 14:01:21] D2BS 9488: ÿc1Skipping Fallen 277 16
+[09/19/20 14:01:22] D2BS 9488: ÿc1Skipping Dark Hunter 281 16
+[09/19/20 14:01:22] D2BS 9488: ÿc1Skipping Fallen 279 16
+[09/19/20 14:01:22] D2BS 9488: ÿc1Skipping Fallen 275 16
+[09/19/20 14:01:23] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:01:23] D2BS 9488: ÿc1Skipping Fallen 270 16
+[09/19/20 14:01:23] D2BS 9488: ÿc1Skipping Fallen 226 16
+[09/19/20 14:01:24] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:01:24] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:01:25] D2BS 9488: ÿc1Skipping Fallen 224 16
+[09/19/20 14:01:25] D2BS 9488: ÿc1Skipping Fallen 225 16
+[09/19/20 14:01:25] D2BS 9488: ÿc1Skipping Fallen 266 16
+[09/19/20 14:01:26] D2BS 9488: ÿc7Picked up ÿc410 Gold
+[09/19/20 14:01:27] D2BS 9488: ÿc1Skipping Fallen Shaman 222 16
+[09/19/20 14:01:27] D2BS 9488: ÿc1Skipping Dark Hunter 281 16
+[09/19/20 14:01:27] D2BS 9488: ÿc1Skipping Fallen 277 16
+[09/19/20 14:01:28] D2BS 9488: ÿc1Skipping Dark Hunter 283 16
+[09/19/20 14:01:29] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:01:29] D2BS 9488: ÿc1Skipping Fallen 226 16
+[09/19/20 14:01:29] D2BS 9488: ÿc1Skipping Fallen 224 16
+[09/19/20 14:01:30] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:01:31] D2BS 9488: ÿc7Picked up ÿc41 Gold
+[09/19/20 14:01:33] D2BS 9488: ÿc1Skipping Fallen Shaman 222 16
+[09/19/20 14:01:37] D2BS 9488: ÿc1Skipping Fallen 280 16
+[09/19/20 14:01:37] D2BS 9488: ÿc1Skipping Fallen 278 16
+[09/19/20 14:01:37] D2BS 9488: ÿc1Skipping Dark Hunter 283 16
+[09/19/20 14:01:38] D2BS 9488: ÿc1Skipping Fallen 226 16
+[09/19/20 14:01:38] D2BS 9488: ÿc1Skipping Fallen 279 16
+[09/19/20 14:01:38] D2BS 9488: ÿc1Skipping Dark Hunter 281 16
+[09/19/20 14:01:39] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:01:39] D2BS 9488: ÿc7Picked up ÿc41 Gold
+[09/19/20 14:01:40] D2BS 9488: ÿc1Skipping Fallen Shaman 222 16
+[09/19/20 14:01:40] D2BS 9488: ÿc1Skipping Fallen 278 16
+[09/19/20 14:01:40] D2BS 9488: ÿc1Skipping Fallen 280 16
+[09/19/20 14:01:41] D2BS 9488: ÿc1Skipping Dark Hunter 283 16
+[09/19/20 14:01:41] D2BS 9488: ÿc1Skipping Fallen 226 16
+[09/19/20 14:01:41] D2BS 9488: ÿc1Skipping Fallen 279 16
+[09/19/20 14:01:51] D2BS 9488: ÿc1Skipping Dark Hunter 281 16
+[09/19/20 14:01:52] D2BS 9488: ÿc1Skipping Fallen 224 16
+[09/19/20 14:01:52] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:01:52] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:01:53] D2BS 9488: ÿc1Skipping Fallen 270 16
+[09/19/20 14:01:55] D2BS 9488: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:02:02] D2BS 9488: ÿc1Skipping Dark Hunter 283 16
+[09/19/20 14:02:03] D2BS 9488: ÿc1Skipping Fallen 278 16
+[09/19/20 14:02:03] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:02:03] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:02:04] D2BS 9488: ÿc1Skipping Fallen 270 16
+[09/19/20 14:02:05] D2BS 9488: ÿc1Skipping Fallen 271 16
+[09/19/20 14:02:05] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:02:06] D2BS 9488: ÿc1Skipping Fallen 224 16
+[09/19/20 14:02:06] D2BS 9488: ÿc1Skipping Fallen 279 16
+[09/19/20 14:02:06] D2BS 9488: ÿc1Skipping Fallen 226 16
+[09/19/20 14:02:08] D2BS 9488: ÿc7Picked up ÿc46 Gold
+[09/19/20 14:02:09] D2BS 9488: ÿc1Skipping Fallen 224 16
+[09/19/20 14:02:11] D2BS 9488: ÿc1Skipping Fallen 279 16
+[09/19/20 14:02:11] D2BS 9488: ÿc1Skipping Dark Hunter 283 16
+[09/19/20 14:02:15] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:15] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:02:16] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:02:16] D2BS 9488: ÿc1Skipping Fallen 270 16
+[09/19/20 14:02:16] D2BS 9488: ÿc1Skipping Fallen 280 16
+[09/19/20 14:02:17] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:02:17] D2BS 9488: ÿc1Skipping Fallen 271 16
+[09/19/20 14:02:17] D2BS 9488: ÿc1Skipping Fallen 265 16
+[09/19/20 14:02:18] D2BS 9488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 14:02:19] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:19] D2BS 9488: ÿc1Skipping Fallen 279 16
+[09/19/20 14:02:20] D2BS 9488: ÿc1Skipping Dark Hunter 283 16
+[09/19/20 14:02:20] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:02:20] D2BS 9488: ÿc1Skipping Fallen 270 16
+[09/19/20 14:02:21] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:02:21] D2BS 9488: ÿc1Skipping Fallen 280 16
+[09/19/20 14:02:22] D2BS 9488: ÿc1Skipping Fallen 272 16
+[09/19/20 14:02:22] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:02:29] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:30] D2BS 9488: ÿc1Skipping Dark Hunter 282 16
+[09/19/20 14:02:30] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:02:32] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:33] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:34] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:35] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:36] D2BS 9488: ÿc1Skipping Fallen 223 16
+[09/19/20 14:02:40] D2BS 9488: ÿc1Skipping Dark Hunter 296 16
+[09/19/20 14:02:40] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:02:41] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:02:41] D2BS 9488: ÿc1Skipping Dark Hunter 295 16
+[09/19/20 14:02:42] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:02:42] D2BS 9488: ÿc1Skipping Dark Hunter 296 16
+[09/19/20 14:02:42] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:02:43] D2BS 9488: ÿc1Skipping Dark Hunter 295 16
+[09/19/20 14:02:43] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:02:45] D2BS 9488: ÿc7Picked up ÿc411 Gold
+[09/19/20 14:02:47] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:02:47] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:02:47] D2BS 9488: ÿc1Skipping Dark Hunter 295 16
+[09/19/20 14:02:48] D2BS 9488: ÿc1Skipping Fallen 268 16
+[09/19/20 14:02:48] D2BS 9488: ÿc1Skipping Dark Hunter 296 16
+[09/19/20 14:02:49] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:02:49] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:02:50] D2BS 9488: ÿc1Skipping Dark Hunter 295 16
+[09/19/20 14:02:57] D2BS 9488: ÿc1Skipping Fallen 271 16
+[09/19/20 14:02:57] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:02:58] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:02:59] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:02:59] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:03:00] D2BS 9488: ÿc1Skipping Fallen 269 16
+[09/19/20 14:03:00] D2BS 9488: ÿc1Skipping Fallen 271 16
+[09/19/20 14:03:01] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:03:01] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:03:02] D2BS 9488: ÿc1Skipping Fallen 260 16
+[09/19/20 14:03:03] D2BS 9488: ÿc1Skipping Fallen 260 16
+[09/19/20 14:03:03] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:03:04] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:03:08] D2BS 9488: ÿc1Skipping Fallen 298 16
+[09/19/20 14:03:09] D2BS 9488: ÿc1Skipping Fallen 299 16
+[09/19/20 14:03:09] D2BS 9488: ÿc1Skipping Fallen 300 16
+[09/19/20 14:03:09] D2BS 9488: ÿc1Skipping Fallen 301 16
+[09/19/20 14:03:10] D2BS 9488: ÿc1Skipping Fallen 300 16
+[09/19/20 14:03:11] D2BS 9488: ÿc1Skipping Fallen 299 16
+[09/19/20 14:03:11] D2BS 9488: ÿc1Skipping Fallen 298 16
+[09/19/20 14:03:11] D2BS 9488: ÿc1Skipping Fallen 301 16
+[09/19/20 14:03:12] D2BS 9488: ÿc1Skipping Fallen 301 16
+[09/19/20 14:03:13] D2BS 9488: ÿc1Skipping Fallen 298 16
+[09/19/20 14:03:13] D2BS 9488: ÿc1Skipping Fallen 299 16
+[09/19/20 14:03:13] D2BS 9488: ÿc1Skipping Fallen 300 16
+[09/19/20 14:03:14] D2BS 9488: ÿc1Skipping Fallen 299 16
+[09/19/20 14:03:15] D2BS 9488: ÿc1Skipping Fallen 298 16
+[09/19/20 14:03:15] D2BS 9488: ÿc1Skipping Fallen 301 16
+[09/19/20 14:03:15] D2BS 9488: ÿc1Skipping Fallen 300 16
+[09/19/20 14:03:16] D2BS 9488: ÿc1Skipping Fallen 299 16
+[09/19/20 14:03:17] D2BS 9488: ÿc1Skipping Fallen 300 16
+[09/19/20 14:03:17] D2BS 9488: ÿc1Skipping Fallen 298 16
+[09/19/20 14:03:20] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:03:20] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:03:21] D2BS 9488: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:03:21] D2BS 9488: ÿc7Picked up ÿc42 Gold
+[09/19/20 14:03:22] D2BS 9488: ÿc1Skipping Dark Hunter 285 16
+[09/19/20 14:03:23] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:03:26] D2BS 9488: ÿc1Skipping Fallen 271 16
+[09/19/20 14:03:28] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:03:29] D2BS 9488: ÿc1Skipping Dark Hunter 286 16
+[09/19/20 14:03:31] D2BS 9488: ÿc1Skipping Fallen Shaman 297 16
+[09/19/20 14:04:08] D2BS 9488: ÿc1Skipping Fallen 364 16
+[09/19/20 14:04:08] D2BS 9488: ÿc1Skipping Fallen 367 16
+[09/19/20 14:04:09] D2BS 9488: ÿc1Skipping Fallen 364 16
+[09/19/20 14:04:11] D2BS 9488: ÿc1Skipping Fallen 367 16
+[09/19/20 14:04:12] D2BS 9488: ÿc1Skipping Fallen 367 16
+[09/19/20 14:04:15] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:16] D2BS 9488: ÿc1Skipping Fallen 367 16
+[09/19/20 14:04:17] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:18] D2BS 9488: ÿc1Skipping Fallen 367 16
+[09/19/20 14:04:18] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:18] D2BS 9488: ÿc1Skipping Fallen 364 16
+[09/19/20 14:04:19] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:20] D2BS 9488: ÿc1Skipping Fallen 364 16
+[09/19/20 14:04:21] D2BS 9488: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:04:22] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:23] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:24] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:25] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:25] D2BS 9488: ÿc1Skipping Fallen 378 16
+[09/19/20 14:04:28] D2BS 9488: ÿc1Skipping Zombie 363 16
+[09/19/20 14:04:30] D2BS 9488: ÿc1Skipping Fallen 376 16
+[09/19/20 14:04:30] D2BS 9488: ÿc1Skipping Fallen 376 16
+[09/19/20 14:04:33] D2BS 9488: ÿc1Skipping Fallen 379 16
+[09/19/20 14:04:34] D2BS 9488: ÿc1Skipping Fallen 379 16
+[09/19/20 14:04:34] D2BS 9488: ÿc1Skipping Zombie 372 16
+[09/19/20 14:04:36] D2BS 9488: ÿc1Skipping Fallen 379 16
+[09/19/20 14:04:36] D2BS 9488: ÿc1Skipping Zombie 372 16
+[09/19/20 14:04:36] D2BS 9488: ÿc1Skipping Fallen 379 16
+[09/19/20 14:04:37] D2BS 9488: ÿc1Skipping Zombie 372 16
+[09/19/20 14:04:37] D2BS 9488: ÿc1Skipping Zombie 372 16
+[09/19/20 14:04:38] D2BS 9488: ÿc1Skipping Fallen 379 16
+[09/19/20 14:04:39] D2BS 9488: ÿc1Skipping Zombie 390 16
+[09/19/20 14:04:39] D2BS 9488: ÿc1Skipping Zombie 372 16
+[09/19/20 14:04:43] D2BS 9488: ÿc1Skipping Fallen 379 16
+[09/19/20 14:04:43] D2BS 9488: ÿc1Skipping Fallen 377 16
+[09/19/20 14:04:45] D2BS 9488: ÿc1Skipping Fallen 377 16
+[09/19/20 14:04:46] D2BS 9488: ÿc1Skipping Zombie 390 16
+[09/19/20 14:04:47] D2BS 9488: ÿc1Skipping Zombie 390 16
+[09/19/20 14:04:49] D2BS 9488: ÿc1Skipping Zombie 390 16
+[09/19/20 14:04:51] D2BS 9488: ÿc1Skipping Zombie 392 16
+[09/19/20 14:04:52] D2BS 9488: ÿc1Skipping Zombie 392 16
+[09/19/20 14:04:52] D2BS 9488: ÿc1Skipping Zombie 392 16
+[09/19/20 14:06:31] D2BS 9488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 14:07:14] D2BS 9488: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 14:07:14] D2BS 9488: AutoBuild: Level up detected ( 8 --> 9 )
+[09/19/20 14:07:14] D2BS 9488: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  3)
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: useStatPoint(0): Strength
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Stat (1/5) Increased Strength from 22 to 23
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Stat (2/5) Increased Vitality from 43 to 44
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Stat (3/5) Increased Vitality from 44 to 45
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Stat (4/5) Increased Vitality from 45 to 46
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Stat (5/5) Increased Vitality from 46 to 47
+[09/19/20 14:07:15] D2BS 9488: Updating Config from level 8 to 9
+[09/19/20 14:07:15] D2BS 9488: Updating Config from level 8 to 9
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Updating Config from level 8 to 9
+[09/19/20 14:07:15] D2BS 9488: Updating Config from level 8 to 9
+[09/19/20 14:07:15] D2BS 9488: Updating Config from level 8 to 9
+[09/19/20 14:07:15] D2BS 9488: AutoBuild: Incrementing cached character level to 9
+[09/19/20 14:07:18] D2BS 9488: ÿc7Picked up ÿc48 Gold
+[09/19/20 14:07:22] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:07:24] D2BS 9488: ÿc7Picked up ÿc418 Gold
+[09/19/20 14:07:31] D2BS 9488: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:07:36] D2BS 9488: ÿc1Skipping Hungry Dead 114 16
+[09/19/20 14:07:38] D2BS 9488: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:07:45] D2BS 9488: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:07:45] D2BS 9488: ÿc7Picked up ÿc412 Gold
+[09/19/20 14:07:46] D2BS 9488: ÿc1Skipping Hungry Dead 125 16
+[09/19/20 14:08:17] D2BS 9488: move retry 1
+[09/19/20 14:08:17] D2BS 9488: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:08:25] D2BS 9488: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:08:26] D2BS 9488: move retry 1
+[09/19/20 14:08:36] D2BS 9488: ÿc1Skipping Hungry Dead 408 16
+[09/19/20 14:08:36] D2BS 9488: ÿc1Skipping Hungry Dead 402 16
+[09/19/20 14:08:37] D2BS 9488: ÿc1Skipping Hungry Dead 409 16
+[09/19/20 14:08:39] D2BS 9488: ÿc1Skipping Hungry Dead 408 16
+[09/19/20 14:08:40] D2BS 9488: ÿc1Skipping Hungry Dead 408 16
+[09/19/20 14:08:41] D2BS 9488: ÿc1Skipping Hungry Dead 400 16
+[09/19/20 14:09:05] D2BS 9488: move retry 1
+[09/19/20 14:09:36] D2BS 9488: move retry 1
+[09/19/20 14:09:53] D2BS 9488: move retry 1
+[09/19/20 14:10:03] D2BS 9488: move retry 1
+[09/19/20 14:10:16] D2BS 9488: ÿc1Skipping Foul Crow 209 16
+[09/19/20 14:10:27] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:10:34] D2BS 9488: ÿc1Skipping Foul Crow 420 16
+[09/19/20 14:10:36] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:10:39] D2BS 9488: ÿc1Skipping Moon Clan 207 16
+[09/19/20 14:10:41] D2BS 9488: ÿc1Skipping Moon Clan 207 16
+[09/19/20 14:11:02] D2BS 9488: move retry 1
+[09/19/20 14:12:04] D2BS 9488: 4,10
+[09/19/20 14:12:15] D2BS 9488: ÿc7Picked up ÿc414 Gold
+[09/19/20 14:12:22] D2BS 9488: ÿc7Picked up ÿc425 Gold
+[09/19/20 14:12:32] D2BS 9488: ÿc7Picked up ÿc49 Gold
+[09/19/20 14:12:33] D2BS 9488: ÿc7Picked up ÿc413 Gold
+[09/19/20 14:12:33] D2BS 9488: move retry 1
+[09/19/20 14:12:34] D2BS 9488: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:12:36] D2BS 9488: ÿc1Skipping Vile Hunter 446 16
+[09/19/20 14:12:37] D2BS 9488: ÿc1Skipping Vile Hunter 450 16
+[09/19/20 14:12:37] D2BS 9488: ÿc1Skipping Vile Hunter 445 16
+[09/19/20 14:12:38] D2BS 9488: ÿc1Skipping Vile Hunter 450 16
+[09/19/20 14:12:38] D2BS 9488: ÿc1Skipping Vile Hunter 445 16
+[09/19/20 14:12:38] D2BS 9488: ÿc1Skipping Fallen 441 16
+[09/19/20 14:12:39] D2BS 9488: ÿc7Picked up ÿc419 Gold
+[09/19/20 14:12:39] D2BS 9488: ÿc1Skipping Fallen Shaman 438 16
+[09/19/20 14:12:40] D2BS 9488: ÿc1Skipping Fallen 441 16
+[09/19/20 14:12:41] D2BS 9488: ÿc1Skipping Fallen Shaman 438 16
+[09/19/20 14:12:42] D2BS 9488: ÿc1Skipping Fallen 442 16
+[09/19/20 14:12:55] D2BS 9488: initNPC: heal
+[09/19/20 14:12:58] D2BS 9488: move retry 1
+[09/19/20 14:12:59] D2BS 9488: initNPC: identify
+[09/19/20 14:13:02] D2BS 9488: ÿc4MiniShopBotÿc0: Scanning 56 items.
+[09/19/20 14:13:32] D2BS 9488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 14:13:32] D2BS 9488: ÿc7Picked up ÿc434 Gold
+[09/19/20 14:13:34] D2BS 9488: ÿc1Skipping Skeleton Archer 472 16
+[09/19/20 14:13:34] D2BS 9488: ÿc1Skipping Skeleton Archer 473 16
+[09/19/20 14:13:35] D2BS 9488: ÿc1Skipping Skeleton Archer 472 16
+[09/19/20 14:13:35] D2BS 9488: ÿc1Skipping Skeleton Archer 473 16
+[09/19/20 14:13:36] D2BS 9488: ÿc1Skipping Vile Hunter 483 16
+[09/19/20 14:13:36] D2BS 9488: ÿc1Skipping Skeleton Archer 476 16
+[09/19/20 14:13:37] D2BS 9488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 14:13:37] D2BS 9488: ÿc1Skipping Vile Hunter 483 16
+[09/19/20 14:13:38] D2BS 9488: ÿc1Skipping Skeleton Archer 473 16
+[09/19/20 14:13:38] D2BS 9488: ÿc1Skipping Skeleton Archer 476 16
+[09/19/20 14:13:39] D2BS 9488: ÿc1Skipping Skeleton Archer 476 16
+[09/19/20 14:13:39] D2BS 9488: ÿc1Skipping Skeleton Archer 473 16
+[09/19/20 14:13:40] D2BS 9488: ÿc1Skipping Skeleton Archer 476 16
+[09/19/20 14:13:40] D2BS 9488: ÿc1Skipping Skeleton Archer 473 16
+[09/19/20 14:13:41] D2BS 9488: ÿc1Skipping Skeleton Archer 476 16
+[09/19/20 14:13:42] D2BS 9488: ÿc1Skipping Skeleton Archer 476 16
+[09/19/20 14:13:49] D2BS 9488: ÿc1Skipping Skeleton Archer 537 16
+[09/19/20 14:13:50] D2BS 9488: ÿc1Skipping Skeleton Archer 537 16
+[09/19/20 14:13:51] D2BS 9488: ÿc1Skipping Skeleton Archer 537 16
+[09/19/20 14:13:54] D2BS 9488: ÿc1Skipping Skeleton Archer 536 16
+[09/19/20 14:13:54] D2BS 9488: ÿc1Skipping Skeleton Archer 536 16
+[09/19/20 14:13:55] D2BS 9488: ÿc1Skipping Skeleton Archer 536 16
+[09/19/20 14:14:02] D2BS 9488: Script default.dbj ended
+[09/19/20 14:14:02] D2BS 9488: Script tools\autobuildthread.js ended
+[09/19/20 14:14:02] D2BS 9488: Script tools\party.js ended
+[09/19/20 14:14:02] D2BS 9488: Script tools\toolsthread.js ended
+[09/19/20 14:14:02] D2BS 9488: Script tools\townchicken.js ended
+[09/19/20 14:14:08] D2BS 9488: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 14:14:08] D2BS 9488: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 14:14:08] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/19/20 14:14:08] D2BS 9488: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 9488: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 9488: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 9488: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 9488: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc216 ms
+[09/19/20 14:14:08] D2BS 9488: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2114ÿc4. Valid entries: ÿc297. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 9488: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 9488: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/19/20 14:14:08] D2BS 9488: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 9488: AutoBuild: Loaded helper thread
+[09/19/20 14:14:08] D2BS 9488: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 14:14:08] D2BS 9488: initNPC: heal
+[09/19/20 14:14:08] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/19/20 14:14:08] D2BS 9488: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 9488: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 14:14:08] D2BS 9488: ÿc3Start ToolsThread script
+[09/19/20 14:14:08] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/19/20 14:14:08] D2BS 9488: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/19/20 14:14:08] D2BS 9488: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 9488: Updating Config from level 0 to 9
+[09/19/20 14:14:09] D2BS 9488: move retry 1
+[09/19/20 14:14:15] D2BS 9488: move retry 1
+[09/19/20 14:18:16] D2BS 9488: move retry 1
+[09/19/20 14:18:19] D2BS 9488: move retry 2
+[09/19/20 14:19:05] D2BS 9488: move retry 1
+[09/19/20 14:19:06] D2BS 9488: move retry 2
+[09/19/20 14:19:09] D2BS 9488: move retry 3
+[09/19/20 14:19:35] D2BS 9488: move retry 1
+[09/19/20 14:19:40] D2BS 9488: ÿc7Picked up ÿc46 Gold
+[09/19/20 14:19:57] D2BS 9488: move retry 1
+[09/19/20 14:20:31] D2BS 9488: move retry 1
+[09/19/20 14:20:52] D2BS 9488: move retry 1
+[09/19/20 14:21:04] D2BS 9488: ÿc7Picked up ÿc413 Gold
+[09/19/20 14:21:23] D2BS 9488: move retry 1
+[09/19/20 14:21:27] D2BS 9488: move retry 1
+[09/19/20 14:21:43] D2BS 9488: move retry 1
+[09/19/20 14:21:45] D2BS 9488: ÿc1Skipping Carver 71 16
+[09/19/20 14:21:45] D2BS 9488: ÿc1Skipping Carver 71 16
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: Level up detected ( 9 --> 10 )
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  4)
+[09/19/20 14:21:46] D2BS 9488: ÿc7Picked up ÿc416 Gold
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: useStatPoint(0): Strength
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: Stat (1/5) Increased Strength from 23 to 24
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: Stat (2/5) Increased Vitality from 47 to 48
+[09/19/20 14:21:46] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:21:47] D2BS 9488: AutoBuild: Stat (3/5) Increased Vitality from 48 to 49
+[09/19/20 14:21:47] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:21:47] D2BS 9488: AutoBuild: Stat (4/5) Increased Vitality from 49 to 50
+[09/19/20 14:21:47] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:21:47] D2BS 9488: AutoBuild: Stat (5/5) Increased Vitality from 50 to 51
+[09/19/20 14:21:47] D2BS 9488: Updating Config from level 9 to 10
+[09/19/20 14:21:47] D2BS 9488: Updating Config from level 9 to 10
+[09/19/20 14:21:47] D2BS 9488: AutoBuild: Updating Config from level 9 to 10
+[09/19/20 14:21:47] D2BS 9488: Updating Config from level 9 to 10
+[09/19/20 14:21:47] D2BS 9488: Updating Config from level 9 to 10
+[09/19/20 14:21:47] D2BS 9488: AutoBuild: Incrementing cached character level to 10
+[09/19/20 14:21:54] D2BS 9488: move retry 1
+[09/19/20 14:22:00] D2BS 9488: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:22:02] D2BS 9488: ÿc1Skipping Carver 92 16
+[09/19/20 14:22:02] D2BS 9488: ÿc1Skipping Fallen 97 16
+[09/19/20 14:22:02] D2BS 9488: ÿc1Skipping Fallen 95 16
+[09/19/20 14:22:03] D2BS 9488: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:22:04] D2BS 9488: move retry 1
+[09/19/20 14:22:06] D2BS 9488: ÿc1Skipping Carver 110 16
+[09/19/20 14:22:08] D2BS 9488: move retry 1
+[09/19/20 14:22:10] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:22:13] D2BS 9488: ÿc1Skipping Fallen 94 16
+[09/19/20 14:22:13] D2BS 9488: ÿc1Skipping Fallen 94 16
+[09/19/20 14:22:14] D2BS 9488: ÿc1Skipping Fallen 94 16
+[09/19/20 14:22:15] D2BS 9488: ÿc1Skipping Fallen 94 16
+[09/19/20 14:22:41] D2BS 9488: ÿc1Skipping Carver 88 16
+[09/19/20 14:22:42] D2BS 9488: ÿc1Skipping Carver 87 16
+[09/19/20 14:22:43] D2BS 9488: ÿc1Skipping Carver 87 16
+[09/19/20 14:22:43] D2BS 9488: ÿc1Skipping Carver 89 16
+[09/19/20 14:22:44] D2BS 9488: ÿc1Skipping Carver 87 16
+[09/19/20 14:22:44] D2BS 9488: ÿc1Skipping Carver 89 16
+[09/19/20 14:22:44] D2BS 9488: ÿc7Picked up ÿc427 Gold
+[09/19/20 14:22:45] D2BS 9488: ÿc1Skipping Fallen Shaman 99 16
+[09/19/20 14:22:45] D2BS 9488: ÿc1Skipping Hungry Dead 117 16
+[09/19/20 14:22:46] D2BS 9488: ÿc1Skipping Fallen 102 16
+[09/19/20 14:22:51] D2BS 9488: ÿc1Skipping Fallen Shaman 93 16
+[09/19/20 14:22:52] D2BS 9488: ÿc7Picked up ÿc46 Gold
+[09/19/20 14:22:55] D2BS 9488: ÿc1Skipping Fallen 102 16
+[09/19/20 14:22:55] D2BS 9488: ÿc1Skipping Fallen 102 16
+[09/19/20 14:23:34] D2BS 9488: move retry 1
+[09/19/20 14:23:39] D2BS 9488: ÿc1Skipping Carver 146 16
+[09/19/20 14:23:39] D2BS 9488: ÿc1Skipping Carver 143 16
+[09/19/20 14:23:40] D2BS 9488: ÿc1Skipping Carver 148 16
+[09/19/20 14:23:41] D2BS 9488: ÿc1Skipping Carver 133 16
+[09/19/20 14:23:41] D2BS 9488: ÿc1Skipping Carver 134 16
+[09/19/20 14:23:41] D2BS 9488: ÿc1Skipping Carver 146 16
+[09/19/20 14:23:42] D2BS 9488: ÿc1Skipping Carver 150 16
+[09/19/20 14:23:45] D2BS 9488: move retry 1
+[09/19/20 14:23:58] D2BS 9488: move retry 1
+[09/19/20 14:24:04] D2BS 9488: ÿc7Picked up ÿc421 Gold
+[09/19/20 14:24:08] D2BS 9488: ÿc1Skipping Carver 135 16
+[09/19/20 14:24:36] D2BS 9488: ÿc7Picked up ÿc411 Gold
+[09/19/20 14:24:37] D2BS 9488: move retry 1
+[09/19/20 14:24:42] D2BS 9488: ÿc1Skipping Fallen 175 16
+[09/19/20 14:24:43] D2BS 9488: ÿc1Skipping Fallen 172 16
+[09/19/20 14:24:45] D2BS 9488: ÿc1Skipping Fallen 172 16
+[09/19/20 14:24:45] D2BS 9488: ÿc1Skipping Fallen 165 16
+[09/19/20 14:24:47] D2BS 9488: ÿc7Picked up ÿc41 Gold
+[09/19/20 14:24:48] D2BS 9488: ÿc1Skipping Dark Ranger 184 16
+[09/19/20 14:24:51] D2BS 9488: ÿc1Skipping Fallen Shaman 171 16
+[09/19/20 14:24:52] D2BS 9488: ÿc1Skipping Fallen Shaman 171 16
+[09/19/20 14:24:52] D2BS 9488: ÿc1Skipping Dark Ranger 183 16
+[09/19/20 14:24:59] D2BS 9488: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:25:00] D2BS 9488: move retry 1
+[09/19/20 14:25:01] D2BS 9488: move retry 2
+[09/19/20 14:25:29] D2BS 9488: ÿc7Picked up ÿc423 Gold
+[09/19/20 14:25:31] D2BS 9488: ÿc1Skipping Carver 160 16
+[09/19/20 14:25:32] D2BS 9488: ÿc1Skipping Fallen 181 16
+[09/19/20 14:25:33] D2BS 9488: ÿc1Skipping Carver 160 16
+[09/19/20 14:25:43] D2BS 9488: initNPC: heal
+[09/19/20 14:25:52] D2BS 9488: initNPC: repair
+[09/19/20 14:26:42] D2BS 9488: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:26:45] D2BS 9488: ÿc1Skipping Hungry Dead 196 16
+[09/19/20 14:26:45] D2BS 9488: ÿc7Picked up ÿc410 Gold
+[09/19/20 14:26:47] D2BS 9488: ÿc1Skipping Dark Ranger 28 16
+[09/19/20 14:26:58] D2BS 9488: 4,10
+[09/19/20 14:27:06] D2BS 9488: ÿc7Picked up ÿc421 Gold
+[09/19/20 14:27:11] D2BS 9488: ÿc1Skipping Carver 224 16
+[09/19/20 14:27:12] D2BS 9488: ÿc1Skipping Carver 233 16
+[09/19/20 14:27:13] D2BS 9488: ÿc1Skipping Carver 233 16
+[09/19/20 14:27:13] D2BS 9488: ÿc1Skipping Carver 232 16
+[09/19/20 14:27:14] D2BS 9488: ÿc1Skipping Carver 233 16
+[09/19/20 14:27:17] D2BS 9488: move retry 1
+[09/19/20 14:27:19] D2BS 9488: move retry 1
+[09/19/20 14:27:20] D2BS 9488: move retry 1
+[09/19/20 14:27:25] D2BS 9488: ÿc7Picked up ÿc425 Gold
+[09/19/20 14:27:27] D2BS 9488: move retry 1
+[09/19/20 14:27:28] D2BS 9488: ÿc7Picked up ÿc418 Gold
+[09/19/20 14:27:38] D2BS 9488: ÿc1Skipping Carver 244 16
+[09/19/20 14:27:39] D2BS 9488: ÿc1Skipping Carver 244 16
+[09/19/20 14:27:41] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:27:47] D2BS 9488: ÿc1Skipping Vile Hunter 338 16
+[09/19/20 14:27:48] D2BS 9488: ÿc1Skipping Vile Hunter 337 16
+[09/19/20 14:27:49] D2BS 9488: ÿc1Skipping Carver 347 16
+[09/19/20 14:27:51] D2BS 9488: ÿc1Skipping Carver 347 16
+[09/19/20 14:27:52] D2BS 9488: ÿc7Picked up ÿc423 Gold
+[09/19/20 14:27:54] D2BS 9488: ÿc1Skipping Carver 346 16
+[09/19/20 14:27:54] D2BS 9488: ÿc1Skipping Vile Hunter 344 16
+[09/19/20 14:27:54] D2BS 9488: ÿc1Skipping Vile Hunter 353 16
+[09/19/20 14:27:55] D2BS 9488: ÿc1Skipping Carver 346 16
+[09/19/20 14:27:55] D2BS 9488: ÿc1Skipping Vile Hunter 344 16
+[09/19/20 14:27:56] D2BS 9488: ÿc1Skipping Vile Hunter 353 16
+[09/19/20 14:27:57] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:27:57] D2BS 9488: ÿc1Skipping Vile Hunter 344 16
+[09/19/20 14:27:58] D2BS 9488: ÿc1Skipping Vile Hunter 344 16
+[09/19/20 14:27:59] D2BS 9488: ÿc1Skipping Vile Hunter 344 16
+[09/19/20 14:28:00] D2BS 9488: ÿc1Skipping Vile Hunter 344 16
+[09/19/20 14:28:17] D2BS 9488: ÿc1Skipping Vile Hunter 343 16
+[09/19/20 14:28:18] D2BS 9488: ÿc1Skipping Carver 348 16
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: Level up detected ( 10 --> 11 )
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  5)
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: useStatPoint(0): Strength
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: Stat (1/5) Increased Strength from 24 to 25
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: Stat (2/5) Increased Vitality from 51 to 52
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: Stat (3/5) Increased Vitality from 52 to 53
+[09/19/20 14:28:20] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:28:21] D2BS 9488: AutoBuild: Stat (4/5) Increased Vitality from 53 to 54
+[09/19/20 14:28:21] D2BS 9488: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:28:21] D2BS 9488: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[09/19/20 14:28:21] D2BS 9488: Updating Config from level 10 to 11
+[09/19/20 14:28:21] D2BS 9488: Updating Config from level 10 to 11
+[09/19/20 14:28:21] D2BS 9488: AutoBuild: Updating Config from level 10 to 11
+[09/19/20 14:28:21] D2BS 9488: Updating Config from level 10 to 11
+[09/19/20 14:28:21] D2BS 9488: Updating Config from level 10 to 11
+[09/19/20 14:28:21] D2BS 9488: AutoBuild: Incrementing cached character level to 11
+[09/19/20 14:28:27] D2BS 9488: ÿc1Skipping Skeleton Archer 371 16
+[09/19/20 14:28:28] D2BS 9488: ÿc1Skipping Skeleton Archer 371 16
+[09/19/20 14:28:28] D2BS 9488: ÿc1Skipping Carver 348 16
+[09/19/20 14:28:29] D2BS 9488: ÿc1Skipping Skeleton Archer 371 16
+[09/19/20 14:28:29] D2BS 9488: ÿc1Skipping Carver 348 16
+[09/19/20 14:28:30] D2BS 9488: ÿc1Skipping Carver 348 16
+[09/19/20 14:28:30] D2BS 9488: ÿc1Skipping Carver 373 16
+[09/19/20 14:28:30] D2BS 9488: ÿc7Picked up ÿc3Ring ÿc0(ilvl 5) (Summoner.xpac.nip #90)
+[09/19/20 14:28:30] D2BS 9488: ÿc7Picked up ÿc413 Gold
+[09/19/20 14:28:35] D2BS 9488: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 14:28:39] D2BS 9488: 10,5
+[09/19/20 14:28:42] D2BS 9488: move retry 1
+[09/19/20 14:28:43] D2BS 9488: ÿc1Skipping Carver 392 16
+[09/19/20 14:28:44] D2BS 9488: ÿc1Skipping Carver 374 16
+[09/19/20 14:28:44] D2BS 9488: ÿc1Skipping Carver 395 16
+[09/19/20 14:28:45] D2BS 9488: ÿc1Skipping Carver 396 16
+[09/19/20 14:28:48] D2BS 9488: ÿc1Skipping Carver 394 16
+[09/19/20 14:28:48] D2BS 9488: move retry 2
+[09/19/20 14:28:59] D2BS 9488: ÿc1Skipping Brute 479 16
+[09/19/20 14:29:00] D2BS 9488: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 14:29:08] D2BS 9488: ÿc7Picked up ÿc3Grand Charm ÿc0(ilvl 8) (LateGame.nip #9)
+[09/19/20 14:29:19] D2BS 9488: ÿc1Skipping Vile Hunter 483 16
+[09/19/20 14:29:19] D2BS 9488: ÿc1Skipping Vile Hunter 482 16
+[09/19/20 14:29:20] D2BS 9488: ÿc1Skipping Vile Hunter 483 16
+[09/19/20 14:29:20] D2BS 9488: ÿc1Skipping Vile Hunter 482 16
+[09/19/20 14:29:21] D2BS 9488: ÿc1Skipping Vile Hunter 482 16
+[09/19/20 14:29:21] D2BS 9488: ÿc7Picked up ÿc421 Gold
+[09/19/20 14:29:25] D2BS 9488: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:29:26] D2BS 9488: ÿc7Picked up ÿc423 Gold
+[09/19/20 14:29:26] D2BS 9488: ÿc7Picked up ÿc417 Gold
+[09/19/20 14:29:26] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:29:26] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:29:26] D2BS 9488: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:29:26] D2BS 9488: ÿc7Picked up ÿc417 Gold
+[09/19/20 14:29:26] D2BS 9488: ÿc7Picked up ÿc422 Gold
+[09/19/20 14:29:37] D2BS 9488: ÿc7Picked up ÿc421 Gold
+[09/19/20 14:29:38] D2BS 9488: ÿc7Picked up ÿc413 Gold
+[09/19/20 14:29:39] D2BS 9488: ÿc7Picked up ÿc49 Gold
+[09/19/20 14:29:45] D2BS 9488: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:29:48] D2BS 9488: ÿc7Picked up ÿc428 Gold
+[09/19/20 14:29:49] D2BS 9488: ÿc1Skipping Carver 523 16
+[09/19/20 14:29:50] D2BS 9488: ÿc1Skipping Carver 525 16
+[09/19/20 14:29:52] D2BS 9488: ÿc1Skipping Carver 524 16
+[09/19/20 14:30:01] D2BS 9488: ÿc7Picked up ÿc417 Gold
+[09/19/20 14:30:09] D2BS 9488: ÿc1Skipping Carver 562 16
+[09/19/20 14:30:12] D2BS 9488: ÿc1Skipping Carver 572 16
+[09/19/20 14:30:13] D2BS 9488: ÿc1Skipping Carver 576 16
+[09/19/20 14:30:13] D2BS 9488: ÿc1Skipping Carver 520 16
+[09/19/20 14:30:14] D2BS 9488: ÿc7Picked up ÿc420 Gold
+[09/19/20 14:30:17] D2BS 9488: ÿc1Skipping Carver 572 16
+[09/19/20 14:30:17] D2BS 9488: ÿc1Skipping Carver 573 16
+[09/19/20 14:30:17] D2BS 9488: ÿc1Skipping Carver 575 16
+[09/19/20 14:30:19] D2BS 9488: ÿc7Picked up ÿc46 Gold
+[09/19/20 14:30:20] D2BS 9488: move retry 1
+[09/19/20 14:30:27] D2BS 9488: ÿc1Skipping Carver 554 16
+[09/19/20 14:30:29] D2BS 9488: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:30:30] D2BS 9488: ÿc1Skipping Carver 557 16
+[09/19/20 14:30:30] D2BS 9488: ÿc1Skipping Carver 560 16
+[09/19/20 14:30:31] D2BS 9488: ÿc1Skipping Carver 560 16
+[09/19/20 14:30:31] D2BS 9488: ÿc1Skipping Carver 559 16
+[09/19/20 14:30:32] D2BS 9488: ÿc1Skipping Carver 552 16
+[09/19/20 14:30:33] D2BS 9488: ÿc1Skipping Carver 552 16
+[09/19/20 14:30:38] D2BS 9488: 3,2,1

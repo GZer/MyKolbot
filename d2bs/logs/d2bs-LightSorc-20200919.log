@@ -2104,3 +2104,699 @@
 [09/19/20 13:04:28] D2BS 6604: Updating Config from level 0 to 1
 [09/19/20 13:04:28] D2BS 6604: ÿc2Starting script: ÿc9LevelFollower
 [09/19/20 13:04:48] D2BS 6604: D2BS Shutdown complete.
+[09/19/20 13:05:25] D2BS 1996: D2BS Engine startup complete. 1.6.4U
+[09/19/20 13:05:25] D2BS 1996: LightSorc
+[09/19/20 13:05:25] D2BS 1996: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[09/19/20 13:05:25] D2BS 1996: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 13:05:25] D2BS 1996: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 13:05:25] D2BS 1996: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 13:05:25] D2BS 1996: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 13:05:29] D2BS 1996: Heartbeat loaded
+[09/19/20 13:05:44] D2BS 1996: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 13:05:44] D2BS 1996: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 13:05:44] D2BS 1996: AutoBuild: Including build template config/builds/sorceress.lightning.js into default.dbj
+[09/19/20 13:05:44] D2BS 1996: Updating Config from level 0 to 1
+[09/19/20 13:05:44] D2BS 1996: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 13:05:44] D2BS 1996: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 13:05:44] D2BS 1996: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/19/20 13:05:44] D2BS 1996: ÿc4Loaded NIP: ÿc2LightningRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc215 ms
+[09/19/20 13:05:44] D2BS 1996: ÿc4Loaded NIP: ÿc2Lightning.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc20 ms
+[09/19/20 13:05:44] D2BS 1996: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 13:05:44] D2BS 1996: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\autobuildthread.js
+[09/19/20 13:05:44] D2BS 1996: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 13:05:44] D2BS 1996: Updating Config from level 0 to 1
+[09/19/20 13:05:44] D2BS 1996: AutoBuild: Loaded helper thread
+[09/19/20 13:05:44] D2BS 1996: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 13:05:44] D2BS 1996: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\party.js
+[09/19/20 13:05:44] D2BS 1996: Updating Config from level 0 to 1
+[09/19/20 13:05:44] D2BS 1996: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 13:05:44] D2BS 1996: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\townchicken.js
+[09/19/20 13:05:44] D2BS 1996: Updating Config from level 0 to 1
+[09/19/20 13:05:44] D2BS 1996: ÿc3Start ToolsThread script
+[09/19/20 13:05:44] D2BS 1996: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\toolsthread.js
+[09/19/20 13:05:44] D2BS 1996: Updating Config from level 0 to 1
+[09/19/20 13:06:07] D2BS 1996: waypoint retry 1
+[09/19/20 13:06:09] D2BS 1996: 1,2
+[09/19/20 13:06:43] D2BS 1996: 2,8
+[09/19/20 13:07:06] D2BS 1996: move retry 1
+[09/19/20 13:07:10] D2BS 1996: move retry 1
+[09/19/20 13:07:15] D2BS 1996: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 13:07:15] D2BS 1996: AutoBuild: Level up detected ( 1 --> 2 )
+[09/19/20 13:07:15] D2BS 1996: AutoBuild: useSkillPoint(): Warmth (37)
+[09/19/20 13:07:15] D2BS 1996: AutoBuild: Skill (1/1) Increased Warmth (37) by one (level:  1)
+[09/19/20 13:07:15] D2BS 1996: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:07:15] D2BS 1996: AutoBuild: Stat (1/5) Increased Strength from 10 to 11
+[09/19/20 13:07:15] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: Stat (2/5) Increased Energy from 35 to 36
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:07:16] D2BS 1996: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: Stat (3/5) Increased Energy from 36 to 37
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: Stat (4/5) Increased Vitality from 10 to 11
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: Stat (5/5) Increased Vitality from 11 to 12
+[09/19/20 13:07:16] D2BS 1996: Updating Config from level 1 to 2
+[09/19/20 13:07:16] D2BS 1996: Updating Config from level 1 to 2
+[09/19/20 13:07:16] D2BS 1996: Updating Config from level 1 to 2
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: Updating Config from level 1 to 2
+[09/19/20 13:07:16] D2BS 1996: Updating Config from level 1 to 2
+[09/19/20 13:07:16] D2BS 1996: AutoBuild: Incrementing cached character level to 2
+[09/19/20 13:07:18] D2BS 1996: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:07:20] D2BS 1996: move retry 1
+[09/19/20 13:09:30] D2BS 1996: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:09:32] D2BS 1996: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 13:09:32] D2BS 1996: AutoBuild: Level up detected ( 2 --> 3 )
+[09/19/20 13:09:32] D2BS 1996: AutoBuild: useSkillPoint(): Frozen Armor (40)
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Skill (1/1) Increased Frozen Armor (40) by one (level:  1)
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Stat (1/5) Increased Strength from 11 to 12
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Stat (2/5) Increased Energy from 37 to 38
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Stat (3/5) Increased Energy from 38 to 39
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Stat (4/5) Increased Vitality from 12 to 13
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Stat (5/5) Increased Vitality from 13 to 14
+[09/19/20 13:09:33] D2BS 1996: Updating Config from level 2 to 3
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Updating Config from level 2 to 3
+[09/19/20 13:09:33] D2BS 1996: Updating Config from level 2 to 3
+[09/19/20 13:09:33] D2BS 1996: Updating Config from level 2 to 3
+[09/19/20 13:09:33] D2BS 1996: Updating Config from level 2 to 3
+[09/19/20 13:09:33] D2BS 1996: AutoBuild: Incrementing cached character level to 3
+[09/19/20 13:09:45] D2BS 1996: move retry 1
+[09/19/20 13:10:04] D2BS 1996: move retry 1
+[09/19/20 13:10:25] D2BS 1996: move retry 1
+[09/19/20 13:11:00] D2BS 1996: move retry 1
+[09/19/20 13:11:02] D2BS 1996: move retry 2
+[09/19/20 13:11:45] D2BS 1996: move retry 1
+[09/19/20 13:12:22] D2BS 1996: ÿc7Picked up ÿc41 Gold
+[09/19/20 13:12:28] D2BS 1996: move retry 1
+[09/19/20 13:12:32] D2BS 1996: move retry 1
+[09/19/20 13:12:47] D2BS 1996: move retry 1
+[09/19/20 13:12:54] D2BS 1996: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:12:56] D2BS 1996: move retry 1
+[09/19/20 13:12:58] D2BS 1996: AutoBuild: Stat points: 5      Skill points: 1
+[09/19/20 13:12:58] D2BS 1996: AutoBuild: Level up detected ( 3 --> 4 )
+[09/19/20 13:12:58] D2BS 1996: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  1)
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Stat (1/5) Increased Strength from 12 to 13
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Stat (2/5) Increased Energy from 39 to 40
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Stat (3/5) Increased Energy from 40 to 41
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Stat (4/5) Increased Vitality from 14 to 15
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Stat (5/5) Increased Vitality from 15 to 16
+[09/19/20 13:12:59] D2BS 1996: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 1996: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 1996: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 1996: Updating Config from level 3 to 4
+[09/19/20 13:12:59] D2BS 1996: AutoBuild: Incrementing cached character level to 4
+[09/19/20 13:13:16] D2BS 1996: ÿc7Picked up ÿc412 Gold
+[09/19/20 13:13:18] D2BS 1996: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:13:18] D2BS 1996: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:13:19] D2BS 1996: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:13:50] D2BS 1996: move retry 1
+[09/19/20 13:14:05] D2BS 1996: 8,2
+[09/19/20 13:14:10] D2BS 1996: move retry 1
+[09/19/20 13:14:45] D2BS 1996: 2,3
+[09/19/20 13:15:19] D2BS 1996: 3,2,1
+[09/19/20 13:15:44] D2BS 1996: move retry 1
+[09/19/20 13:16:20] D2BS 1996: initNPC: heal
+[09/19/20 13:16:43] D2BS 1996: 3
+[09/19/20 13:17:05] D2BS 1996: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:17:06] D2BS 1996: move retry 1
+[09/19/20 13:17:34] D2BS 1996: move retry 1
+[09/19/20 13:17:54] D2BS 1996: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:17:55] D2BS 1996: move retry 1
+[09/19/20 13:18:09] D2BS 1996: ÿc1Skipping Dark Spearwoman 210 16
+[09/19/20 13:18:15] D2BS 1996: move retry 1
+[09/19/20 13:19:04] D2BS 1996: move retry 1
+[09/19/20 13:19:11] D2BS 1996: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:19:14] D2BS 1996: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:19:16] D2BS 1996: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:19:24] D2BS 1996: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:19:27] D2BS 1996: ÿc7Picked up ÿc41 Gold
+[09/19/20 13:19:28] D2BS 1996: move retry 1
+[09/19/20 13:19:29] D2BS 1996: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 13:19:29] D2BS 1996: AutoBuild: Level up detected ( 4 --> 5 )
+[09/19/20 13:19:29] D2BS 1996: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  2)
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Stat (1/5) Increased Strength from 13 to 14
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Stat (2/5) Increased Energy from 41 to 42
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Stat (3/5) Increased Energy from 42 to 43
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Stat (4/5) Increased Vitality from 16 to 17
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Stat (5/5) Increased Vitality from 17 to 18
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Updating Config from level 4 to 5
+[09/19/20 13:19:30] D2BS 1996: Updating Config from level 4 to 5
+[09/19/20 13:19:30] D2BS 1996: Updating Config from level 4 to 5
+[09/19/20 13:19:30] D2BS 1996: Updating Config from level 4 to 5
+[09/19/20 13:19:30] D2BS 1996: Updating Config from level 4 to 5
+[09/19/20 13:19:30] D2BS 1996: AutoBuild: Incrementing cached character level to 5
+[09/19/20 13:19:40] D2BS 1996: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:19:41] D2BS 1996: move retry 1
+[09/19/20 13:19:44] D2BS 1996: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:19:55] D2BS 1996: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:19:56] D2BS 1996: move retry 1
+[09/19/20 13:20:00] D2BS 1996: move retry 1
+[09/19/20 13:20:20] D2BS 1996: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 13:20:33] D2BS 1996: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:20:35] D2BS 1996: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:20:54] D2BS 1996: move retry 1
+[09/19/20 13:21:08] D2BS 1996: move retry 1
+[09/19/20 13:21:31] D2BS 1996: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:21:33] D2BS 1996: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:21:34] D2BS 1996: ÿc7Picked up ÿc41 Gold
+[09/19/20 13:21:36] D2BS 1996: move retry 1
+[09/19/20 13:21:37] D2BS 1996: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:22:10] D2BS 1996: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:22:22] D2BS 1996: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 13:23:33] D2BS 1996: move retry 1
+[09/19/20 13:23:45] D2BS 1996: move retry 1
+[09/19/20 13:23:51] D2BS 1996: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 13:24:23] D2BS 1996: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:25:23] D2BS 1996: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 13:25:23] D2BS 1996: AutoBuild: Level up detected ( 5 --> 6 )
+[09/19/20 13:25:23] D2BS 1996: AutoBuild: useSkillPoint(): Static Field (42)
+[09/19/20 13:25:23] D2BS 1996: AutoBuild: Skill (1/1) Increased Static Field (42) by one (level:  1)
+[09/19/20 13:25:23] D2BS 1996: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:25:23] D2BS 1996: AutoBuild: Stat (1/5) Increased Strength from 14 to 15
+[09/19/20 13:25:23] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: Stat (2/5) Increased Energy from 43 to 44
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: Stat (3/5) Increased Energy from 44 to 45
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: Stat (4/5) Increased Vitality from 18 to 19
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: Stat (5/5) Increased Vitality from 19 to 20
+[09/19/20 13:25:24] D2BS 1996: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 1996: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 1996: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 1996: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: Updating Config from level 5 to 6
+[09/19/20 13:25:24] D2BS 1996: AutoBuild: Incrementing cached character level to 6
+[09/19/20 13:25:50] D2BS 1996: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:31:29] D2BS 1996: 3,4
+[09/19/20 13:32:59] D2BS 5880: D2BS Engine startup complete. 1.6.4U
+[09/19/20 13:32:59] D2BS 5880: LightSorc
+[09/19/20 13:32:59] D2BS 5880: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[09/19/20 13:32:59] D2BS 5880: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 13:32:59] D2BS 5880: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 13:32:59] D2BS 5880: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 13:32:59] D2BS 5880: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 13:33:01] D2BS 5880: Heartbeat loaded
+[09/19/20 13:33:18] D2BS 5880: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 13:33:18] D2BS 5880: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 13:33:19] D2BS 5880: AutoBuild: Including build template config/builds/sorceress.lightning.js into default.dbj
+[09/19/20 13:33:19] D2BS 5880: Updating Config from level 0 to 6
+[09/19/20 13:33:19] D2BS 5880: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 13:33:19] D2BS 5880: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 13:33:19] D2BS 5880: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/19/20 13:33:19] D2BS 5880: ÿc4Loaded NIP: ÿc2LightningRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/19/20 13:33:19] D2BS 5880: ÿc4Loaded NIP: ÿc2Lightning.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc216 ms
+[09/19/20 13:33:19] D2BS 5880: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 13:33:19] D2BS 5880: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 13:33:19] D2BS 5880: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\autobuildthread.js
+[09/19/20 13:33:19] D2BS 5880: Updating Config from level 0 to 6
+[09/19/20 13:33:19] D2BS 5880: AutoBuild: Loaded helper thread
+[09/19/20 13:33:19] D2BS 5880: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 13:33:19] D2BS 5880: initNPC: heal
+[09/19/20 13:33:19] D2BS 5880: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\party.js
+[09/19/20 13:33:19] D2BS 5880: Updating Config from level 0 to 6
+[09/19/20 13:33:19] D2BS 5880: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 13:33:19] D2BS 5880: ÿc3Start ToolsThread script
+[09/19/20 13:33:19] D2BS 5880: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\townchicken.js
+[09/19/20 13:33:19] D2BS 5880: Updating Config from level 0 to 6
+[09/19/20 13:33:19] D2BS 5880: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\toolsthread.js
+[09/19/20 13:33:19] D2BS 5880: Updating Config from level 0 to 6
+[09/19/20 13:33:45] D2BS 5880: 3,4
+[09/19/20 13:34:51] D2BS 5880: move retry 1
+[09/19/20 13:34:55] D2BS 5880: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:35:03] D2BS 5880: ÿc7Picked up ÿc0Skull Cap ÿc0(ilvl 5) (Lightning.xpac.nip #35)
+[09/19/20 13:35:12] D2BS 5880: ÿc7Picked up ÿc424 Gold
+[09/19/20 13:35:23] D2BS 5880: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 13:35:31] D2BS 5880: ÿc7Picked up ÿc48 Gold
+[09/19/20 13:35:37] D2BS 5880: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:35:57] D2BS 5880: ÿc7Picked up ÿc428 Gold
+[09/19/20 13:35:59] D2BS 5880: move retry 1
+[09/19/20 13:36:42] D2BS 5880: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:36:49] D2BS 5880: move retry 1
+[09/19/20 13:36:58] D2BS 5880: move retry 1
+[09/19/20 13:37:17] D2BS 5880: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:37:17] D2BS 5880: ÿc7Picked up ÿc0Quilted Armor ÿc0(ilvl 2) (Lightning.xpac.nip #52)
+[09/19/20 13:37:17] D2BS 5880: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:37:18] D2BS 5880: move retry 1
+[09/19/20 13:37:21] D2BS 5880: ÿc7Picked up ÿc49 Gold
+[09/19/20 13:37:25] D2BS 5880: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:37:55] D2BS 5880: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:38:29] D2BS 5880: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:38:33] D2BS 5880: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:38:35] D2BS 5880: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:38:38] D2BS 5880: ÿc7Picked up ÿc44 Gold
+[09/19/20 13:38:43] D2BS 5880: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:38:50] D2BS 5880: move retry 1
+[09/19/20 13:39:00] D2BS 5880: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:39:24] D2BS 5880: move retry 1
+[09/19/20 13:39:36] D2BS 5880: ÿc7Picked up ÿc49 Gold
+[09/19/20 13:39:52] D2BS 5880: ÿc7Picked up ÿc47 Gold
+[09/19/20 13:39:56] D2BS 5880: ÿc7Picked up ÿc410 Gold
+[09/19/20 13:40:09] D2BS 5880: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 13:40:09] D2BS 5880: AutoBuild: Level up detected ( 6 --> 7 )
+[09/19/20 13:40:09] D2BS 5880: AutoBuild: useSkillPoint(): Telekinesis (43)
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Skill (1/1) Increased Telekinesis (43) by one (level:  1)
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: useStatPoint(0): Strength
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Stat (2/5) Increased Energy from 45 to 46
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: useStatPoint(1): Energy
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Stat (3/5) Increased Energy from 46 to 47
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Stat (4/5) Increased Vitality from 20 to 21
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Stat (5/5) Increased Vitality from 21 to 22
+[09/19/20 13:40:10] D2BS 5880: Updating Config from level 6 to 7
+[09/19/20 13:40:10] D2BS 5880: Updating Config from level 6 to 7
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Updating Config from level 6 to 7
+[09/19/20 13:40:10] D2BS 5880: Updating Config from level 6 to 7
+[09/19/20 13:40:10] D2BS 5880: Updating Config from level 6 to 7
+[09/19/20 13:40:10] D2BS 5880: AutoBuild: Incrementing cached character level to 7
+[09/19/20 13:40:45] D2BS 5880: move retry 1
+[09/19/20 13:42:19] D2BS 5880: move retry 1
+[09/19/20 13:42:37] D2BS 5880: move retry 1
+[09/19/20 13:43:08] D2BS 5880: ÿc7Picked up ÿc0Superior Sash ÿc0(ilvl 2) (Lightning.xpac.nip #88)
+[09/19/20 13:43:26] D2BS 5880: ÿc7Picked up ÿc426 Gold
+[09/19/20 13:43:26] D2BS 5880: move retry 1
+[09/19/20 13:45:31] D2BS 5880: 4,10
+[09/19/20 13:45:37] D2BS 5880: move retry 1
+[09/19/20 13:45:39] D2BS 5880: move retry 2
+[09/19/20 13:46:46] D2BS 5880: move retry 1
+[09/19/20 13:46:48] D2BS 5880: move retry 1
+[09/19/20 13:47:41] D2BS 5880: 10,4
+[09/19/20 13:49:03] D2BS 5880: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:49:04] D2BS 5880: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:49:08] D2BS 5880: ÿc7Picked up ÿc0Leather Gloves ÿc0(ilvl 1) (Lightning.xpac.nip #79)
+[09/19/20 13:53:04] D2BS 5880: move retry 1
+[09/19/20 13:55:04] D2BS 5880: 4,10
+[09/19/20 13:55:11] D2BS 5880: move retry 1
+[09/19/20 13:55:16] D2BS 5880: move retry 1
+[09/19/20 13:55:28] D2BS 5880: move retry 1
+[09/19/20 13:55:31] D2BS 5880: move retry 1
+[09/19/20 13:55:32] D2BS 5880: move retry 1
+[09/19/20 13:55:37] D2BS 5880: move retry 2
+[09/19/20 13:55:47] D2BS 5880: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 13:55:59] D2BS 5880: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 13:56:00] D2BS 5880: ÿc7Picked up ÿc46 Gold
+[09/19/20 13:56:02] D2BS 5880: move retry 1
+[09/19/20 13:56:03] D2BS 5880: move retry 1
+[09/19/20 13:56:05] D2BS 5880: move retry 1
+[09/19/20 13:56:06] D2BS 5880: ÿc7Picked up ÿc425 Gold
+[09/19/20 13:56:13] D2BS 5880: ÿc7Picked up ÿc45 Gold
+[09/19/20 13:56:22] D2BS 5880: move retry 1
+[09/19/20 13:56:29] D2BS 5880: Script default.dbj ended
+[09/19/20 13:56:29] D2BS 5880: Script tools\autobuildthread.js ended
+[09/19/20 13:56:29] D2BS 5880: Script tools\party.js ended
+[09/19/20 13:56:29] D2BS 5880: Script tools\toolsthread.js ended
+[09/19/20 13:56:29] D2BS 5880: Script tools\townchicken.js ended
+[09/19/20 13:56:35] D2BS 5880: D2BS Shutdown complete.
+[09/19/20 13:56:36] D2BS 16940: D2BS Engine startup complete. 1.6.4U
+[09/19/20 13:56:36] D2BS 16940: LightSorc
+[09/19/20 13:56:36] D2BS 16940: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[09/19/20 13:56:36] D2BS 16940: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 13:56:36] D2BS 16940: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 13:56:36] D2BS 16940: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 13:56:36] D2BS 16940: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 13:56:38] D2BS 16940: Heartbeat loaded
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 19444
+[09/19/20 13:56:57] D2BS 16940: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 16260
+[09/19/20 13:56:57] D2BS 16940: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 13124
+[09/19/20 13:56:57] D2BS 16940: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 19044
+[09/19/20 13:56:57] D2BS 16940: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/19/20 13:56:57] D2BS 16940: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/19/20 13:56:57] D2BS 16940: 02F23C94 (D2BS): (filename not available): QueryInterface
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 14376
+[09/19/20 13:56:57] D2BS 16940: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:56:57] D2BS 16940: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/19/20 13:56:57] D2BS 16940: 004027E5 (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 8636
+[09/19/20 13:56:57] D2BS 16940: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/19/20 13:56:57] D2BS 16940: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/19/20 13:56:57] D2BS 16940: 004102FC (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 6764
+[09/19/20 13:56:57] D2BS 16940: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:56:57] D2BS 16940: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/19/20 13:56:57] D2BS 16940: 0041A845 (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 17684
+[09/19/20 13:56:57] D2BS 16940: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 14516
+[09/19/20 13:56:57] D2BS 16940: 77741A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[09/19/20 13:56:57] D2BS 16940: 761D6676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 7572
+[09/19/20 13:56:57] D2BS 16940: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 6856
+[09/19/20 13:56:57] D2BS 16940: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 17776
+[09/19/20 13:56:57] D2BS 16940: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:56:57] D2BS 16940: 02FA7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:56:57] D2BS 16940: 03092B1F (D2BS): (filename not available): JS_freeop
+[09/19/20 13:56:57] D2BS 16940: 03091A5E (D2BS): (filename not available): JS_freeop
+[09/19/20 13:56:57] D2BS 16940: 02FBE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 5364
+[09/19/20 13:56:57] D2BS 16940: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/19/20 13:56:57] D2BS 16940: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/19/20 13:56:57] D2BS 16940: 02F2E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:56:57] D2BS 16940: 02FB01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:56:57] D2BS 16940: 03092B1F (D2BS): (filename not available): JS_freeop
+[09/19/20 13:56:57] D2BS 16940: 03091A5E (D2BS): (filename not available): JS_freeop
+[09/19/20 13:56:57] D2BS 16940: 02FBE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 6760
+[09/19/20 13:56:57] D2BS 16940: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/19/20 13:56:57] D2BS 16940: 02FA7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:56:57] D2BS 16940: 03092B1F (D2BS): (filename not available): JS_freeop
+[09/19/20 13:56:57] D2BS 16940: 03091A5E (D2BS): (filename not available): JS_freeop
+[09/19/20 13:56:57] D2BS 16940: 02FBE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Stack Walk Thread: 14208
+[09/19/20 13:56:57] D2BS 16940: 02F2B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/19/20 13:56:57] D2BS 16940: 02F237F8 (D2BS): (filename not available): QueryInterface
+[09/19/20 13:56:57] D2BS 16940: 00408A05 (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 00408A81 (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:56:57] D2BS 16940: 00640DE3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:56:57] D2BS 16940: 0061944B (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:56:57] D2BS 16940: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/19/20 13:56:57] D2BS 16940: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/19/20 13:56:57] D2BS 16940: 00405E6B (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 004065C7 (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 0040671F (Game): (filename not available): (function-name not available)
+[09/19/20 13:56:57] D2BS 16940: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/19/20 13:56:57] D2BS 16940: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/19/20 13:56:57] D2BS 16940: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/19/20 13:56:57] D2BS 16940: Crash File: BlizzardError/2020-09-19 13.56.57/Crash.txt
+[09/19/20 13:56:57] D2BS 16940: D2BS Shutdown complete.
+[09/19/20 13:56:58] D2BS 17384: D2BS Engine startup complete. 1.6.4U
+[09/19/20 13:56:58] D2BS 17384: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[09/19/20 13:56:58] D2BS 17384: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/19/20 13:56:58] D2BS 17384: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/19/20 13:56:58] D2BS 17384: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/19/20 13:56:58] D2BS 17384: ÿc2D2BSÿc0 :: Started Console Script
+[09/19/20 13:57:01] D2BS 17384: Heartbeat loaded
+[09/19/20 13:57:18] D2BS 17384: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 13:57:18] D2BS 17384: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 13:57:18] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into default.dbj
+[09/19/20 13:57:18] D2BS 17384: Updating Config from level 0 to 7
+[09/19/20 13:57:18] D2BS 17384: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 13:57:18] D2BS 17384: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 13:57:18] D2BS 17384: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/19/20 13:57:18] D2BS 17384: ÿc4Loaded NIP: ÿc2LightningRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/19/20 13:57:18] D2BS 17384: ÿc4Loaded NIP: ÿc2Lightning.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc216 ms
+[09/19/20 13:57:18] D2BS 17384: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 13:57:18] D2BS 17384: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[09/19/20 13:57:18] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\autobuildthread.js
+[09/19/20 13:57:18] D2BS 17384: Updating Config from level 0 to 7
+[09/19/20 13:57:18] D2BS 17384: AutoBuild: Loaded helper thread
+[09/19/20 13:57:18] D2BS 17384: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 13:57:18] D2BS 17384: initNPC: heal
+[09/19/20 13:57:18] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\party.js
+[09/19/20 13:57:18] D2BS 17384: Updating Config from level 0 to 7
+[09/19/20 13:57:18] D2BS 17384: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 13:57:18] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\townchicken.js
+[09/19/20 13:57:18] D2BS 17384: Updating Config from level 0 to 7
+[09/19/20 13:57:18] D2BS 17384: ÿc3Start ToolsThread script
+[09/19/20 13:57:18] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\toolsthread.js
+[09/19/20 13:57:18] D2BS 17384: Updating Config from level 0 to 7
+[09/19/20 13:57:54] D2BS 17384: 4
+[09/19/20 13:58:03] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 13:58:05] D2BS 17384: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 13:58:12] D2BS 17384: ÿc7Picked up ÿc428 Gold
+[09/19/20 13:58:19] D2BS 17384: ÿc7Picked up ÿc416 Gold
+[09/19/20 13:58:21] D2BS 17384: ÿc7Picked up ÿc411 Gold
+[09/19/20 13:58:22] D2BS 17384: move retry 1
+[09/19/20 13:58:34] D2BS 17384: move retry 1
+[09/19/20 13:58:46] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 13:58:52] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 13:58:52] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 13:58:56] D2BS 17384: move retry 1
+[09/19/20 13:58:57] D2BS 17384: move retry 1
+[09/19/20 13:59:04] D2BS 17384: ÿc7Picked up ÿc42 Gold
+[09/19/20 13:59:26] D2BS 17384: move retry 1
+[09/19/20 13:59:30] D2BS 17384: ÿc7Picked up ÿc416 Gold
+[09/19/20 13:59:37] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 13:59:54] D2BS 17384: move retry 1
+[09/19/20 14:00:22] D2BS 17384: ÿc7Picked up ÿc410 Gold
+[09/19/20 14:00:31] D2BS 17384: move retry 1
+[09/19/20 14:01:05] D2BS 17384: ÿc1Skipping Foul Crow Nest 215 16
+[09/19/20 14:01:08] D2BS 17384: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 14:01:08] D2BS 17384: AutoBuild: Level up detected ( 7 --> 8 )
+[09/19/20 14:01:08] D2BS 17384: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  3)
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: useStatPoint(0): Strength
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: useStatPoint(1): Energy
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Stat (2/5) Increased Energy from 47 to 48
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: useStatPoint(1): Energy
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Stat (3/5) Increased Energy from 48 to 49
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Stat (4/5) Increased Vitality from 22 to 23
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Stat (5/5) Increased Vitality from 23 to 24
+[09/19/20 14:01:09] D2BS 17384: Updating Config from level 7 to 8
+[09/19/20 14:01:09] D2BS 17384: Updating Config from level 7 to 8
+[09/19/20 14:01:09] D2BS 17384: Updating Config from level 7 to 8
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Updating Config from level 7 to 8
+[09/19/20 14:01:09] D2BS 17384: Updating Config from level 7 to 8
+[09/19/20 14:01:09] D2BS 17384: AutoBuild: Incrementing cached character level to 8
+[09/19/20 14:01:09] D2BS 17384: move retry 1
+[09/19/20 14:01:18] D2BS 17384: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 14:01:37] D2BS 17384: ÿc7Picked up ÿc48 Gold
+[09/19/20 14:01:38] D2BS 17384: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:03:12] D2BS 17384: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 14:03:12] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:03:21] D2BS 17384: ÿc7Picked up ÿc414 Gold
+[09/19/20 14:03:38] D2BS 17384: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:04:18] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:04:25] D2BS 17384: move retry 1
+[09/19/20 14:04:49] D2BS 17384: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:04:55] D2BS 17384: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:04:58] D2BS 17384: move retry 1
+[09/19/20 14:06:42] D2BS 17384: move retry 1
+[09/19/20 14:07:01] D2BS 17384: move retry 1
+[09/19/20 14:07:19] D2BS 17384: ÿc7Picked up ÿc48 Gold
+[09/19/20 14:07:30] D2BS 17384: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:07:39] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:07:44] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 14:07:45] D2BS 17384: ÿc7Picked up ÿc412 Gold
+[09/19/20 14:08:05] D2BS 17384: move retry 1
+[09/19/20 14:08:10] D2BS 17384: move retry 1
+[09/19/20 14:08:15] D2BS 17384: ÿc7Picked up ÿc45 Gold
+[09/19/20 14:08:24] D2BS 17384: ÿc7Picked up ÿc48 Gold
+[09/19/20 14:08:25] D2BS 17384: move retry 1
+[09/19/20 14:08:27] D2BS 17384: move retry 1
+[09/19/20 14:08:42] D2BS 17384: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:08:44] D2BS 17384: ÿc7Picked up ÿc49 Gold
+[09/19/20 14:08:58] D2BS 17384: move retry 1
+[09/19/20 14:09:32] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 14:09:36] D2BS 17384: ÿc7Picked up ÿc48 Gold
+[09/19/20 14:10:05] D2BS 17384: move retry 1
+[09/19/20 14:10:21] D2BS 17384: move retry 1
+[09/19/20 14:10:35] D2BS 17384: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:10:38] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 14:11:02] D2BS 17384: move retry 1
+[09/19/20 14:12:03] D2BS 17384: 4,10
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: Level up detected ( 8 --> 9 )
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  4)
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: useStatPoint(0): Strength
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: Stat (1/5) Increased Strength from 17 to 18
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: useStatPoint(1): Energy
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: Stat (2/5) Increased Energy from 49 to 50
+[09/19/20 14:12:12] D2BS 17384: AutoBuild: useStatPoint(1): Energy
+[09/19/20 14:12:13] D2BS 17384: AutoBuild: Stat (3/5) Increased Energy from 50 to 51
+[09/19/20 14:12:13] D2BS 17384: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:12:13] D2BS 17384: AutoBuild: Stat (4/5) Increased Vitality from 24 to 25
+[09/19/20 14:12:13] D2BS 17384: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:12:13] D2BS 17384: AutoBuild: Stat (5/5) Increased Vitality from 25 to 26
+[09/19/20 14:12:13] D2BS 17384: Updating Config from level 8 to 9
+[09/19/20 14:12:13] D2BS 17384: Updating Config from level 8 to 9
+[09/19/20 14:12:13] D2BS 17384: Updating Config from level 8 to 9
+[09/19/20 14:12:13] D2BS 17384: AutoBuild: Updating Config from level 8 to 9
+[09/19/20 14:12:13] D2BS 17384: Updating Config from level 8 to 9
+[09/19/20 14:12:13] D2BS 17384: AutoBuild: Incrementing cached character level to 9
+[09/19/20 14:12:17] D2BS 17384: move retry 1
+[09/19/20 14:12:22] D2BS 17384: ÿc7Picked up ÿc425 Gold
+[09/19/20 14:12:22] D2BS 17384: move retry 1
+[09/19/20 14:12:38] D2BS 17384: ÿc7Picked up ÿc427 Gold
+[09/19/20 14:12:50] D2BS 17384: initNPC: heal
+[09/19/20 14:13:12] D2BS 17384: ÿc7Picked up ÿc417 Gold
+[09/19/20 14:13:24] D2BS 17384: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/19/20 14:13:32] D2BS 17384: ÿc7Picked up ÿc434 Gold
+[09/19/20 14:13:53] D2BS 17384: move retry 1
+[09/19/20 14:13:54] D2BS 17384: move retry 2
+[09/19/20 14:14:01] D2BS 17384: Script default.dbj ended
+[09/19/20 14:14:01] D2BS 17384: Script tools\autobuildthread.js ended
+[09/19/20 14:14:01] D2BS 17384: Script tools\party.js ended
+[09/19/20 14:14:01] D2BS 17384: Script tools\toolsthread.js ended
+[09/19/20 14:14:01] D2BS 17384: Script tools\townchicken.js ended
+[09/19/20 14:14:08] D2BS 17384: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/19/20 14:14:08] D2BS 17384: ÿc2D2BSÿc0 :: default.dbj running.
+[09/19/20 14:14:08] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into default.dbj
+[09/19/20 14:14:08] D2BS 17384: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 17384: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 17384: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 17384: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc216 ms
+[09/19/20 14:14:08] D2BS 17384: ÿc4Loaded NIP: ÿc2LightningRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 17384: ÿc4Loaded NIP: ÿc2Lightning.xpac.nipÿc4. Lines: ÿc2126ÿc4. Valid entries: ÿc2109. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 17384: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/19/20 14:14:08] D2BS 17384: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc216 ms
+[09/19/20 14:14:08] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\autobuildthread.js
+[09/19/20 14:14:08] D2BS 17384: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 17384: AutoBuild: Loaded helper thread
+[09/19/20 14:14:08] D2BS 17384: ÿc2Starting script: ÿc9LevelFollower
+[09/19/20 14:14:08] D2BS 17384: initNPC: heal
+[09/19/20 14:14:08] D2BS 17384: ÿc3Start ToolsThread script
+[09/19/20 14:14:08] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\toolsthread.js
+[09/19/20 14:14:08] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\party.js
+[09/19/20 14:14:08] D2BS 17384: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 17384: Updating Config from level 0 to 9
+[09/19/20 14:14:08] D2BS 17384: ÿc2Party thread loaded. Mode: Accept
+[09/19/20 14:14:08] D2BS 17384: AutoBuild: Including build template config/builds/sorceress.lightning.js into tools\townchicken.js
+[09/19/20 14:14:08] D2BS 17384: Updating Config from level 0 to 9
+[09/19/20 14:19:05] D2BS 17384: move retry 1
+[09/19/20 14:19:07] D2BS 17384: move retry 2
+[09/19/20 14:19:13] D2BS 17384: move retry 3
+[09/19/20 14:19:34] D2BS 17384: move retry 1
+[09/19/20 14:19:38] D2BS 17384: ÿc7Picked up ÿc416 Gold
+[09/19/20 14:19:59] D2BS 17384: move retry 1
+[09/19/20 14:20:20] D2BS 17384: move retry 1
+[09/19/20 14:20:24] D2BS 17384: move retry 1
+[09/19/20 14:20:42] D2BS 17384: ÿc7Picked up ÿc410 Gold
+[09/19/20 14:21:03] D2BS 17384: ÿc7Picked up ÿc413 Gold
+[09/19/20 14:21:41] D2BS 17384: ÿc7Picked up ÿc423 Gold
+[09/19/20 14:21:46] D2BS 17384: ÿc7Picked up ÿc416 Gold
+[09/19/20 14:21:58] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:22:00] D2BS 17384: ÿc7Picked up ÿc48 Gold
+[09/19/20 14:22:01] D2BS 17384: move retry 1
+[09/19/20 14:22:05] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:22:08] D2BS 17384: move retry 1
+[09/19/20 14:22:08] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:22:11] D2BS 17384: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:22:36] D2BS 17384: move retry 1
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: Stat points: 5      Skill points: 2
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: Level up detected ( 9 --> 10 )
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  5)
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: useStatPoint(0): Strength
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: Stat (1/5) Increased Strength from 18 to 19
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: useStatPoint(1): Energy
+[09/19/20 14:22:44] D2BS 17384: ÿc7Picked up ÿc427 Gold
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: Stat (2/5) Increased Energy from 51 to 52
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: useStatPoint(1): Energy
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: Stat (3/5) Increased Energy from 52 to 53
+[09/19/20 14:22:44] D2BS 17384: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:22:45] D2BS 17384: AutoBuild: Stat (4/5) Increased Vitality from 26 to 27
+[09/19/20 14:22:45] D2BS 17384: AutoBuild: useStatPoint(3): Vitality
+[09/19/20 14:22:45] D2BS 17384: AutoBuild: Stat (5/5) Increased Vitality from 27 to 28
+[09/19/20 14:22:45] D2BS 17384: Updating Config from level 9 to 10
+[09/19/20 14:22:45] D2BS 17384: Updating Config from level 9 to 10
+[09/19/20 14:22:45] D2BS 17384: Updating Config from level 9 to 10
+[09/19/20 14:22:45] D2BS 17384: AutoBuild: Updating Config from level 9 to 10
+[09/19/20 14:22:45] D2BS 17384: Updating Config from level 9 to 10
+[09/19/20 14:22:45] D2BS 17384: AutoBuild: Incrementing cached character level to 10
+[09/19/20 14:22:53] D2BS 17384: ÿc7Picked up ÿc42 Gold
+[09/19/20 14:23:15] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 14:23:22] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:23:30] D2BS 17384: move retry 1
+[09/19/20 14:23:39] D2BS 17384: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:23:43] D2BS 17384: ÿc7Picked up ÿc427 Gold
+[09/19/20 14:23:48] D2BS 17384: ÿc7Picked up ÿc42 Gold
+[09/19/20 14:23:51] D2BS 17384: move retry 1
+[09/19/20 14:24:18] D2BS 17384: ÿc7Picked up ÿc413 Gold
+[09/19/20 14:24:34] D2BS 17384: ÿc7Picked up ÿc410 Gold
+[09/19/20 14:24:38] D2BS 17384: ÿc7Picked up ÿc411 Gold
+[09/19/20 14:24:46] D2BS 17384: ÿc7Picked up ÿc41 Gold
+[09/19/20 14:24:47] D2BS 17384: ÿc7Picked up ÿc41 Gold
+[09/19/20 14:25:00] D2BS 17384: ÿc7Picked up ÿc415 Gold
+[09/19/20 14:25:13] D2BS 17384: move retry 1
+[09/19/20 14:25:17] D2BS 17384: move retry 1
+[09/19/20 14:25:30] D2BS 17384: move retry 1
+[09/19/20 14:25:43] D2BS 17384: initNPC: heal
+[09/19/20 14:26:26] D2BS 17384: ÿc7Picked up ÿc49 Gold
+[09/19/20 14:26:30] D2BS 17384: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:27:01] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 14:27:12] D2BS 17384: ÿc7Picked up ÿc411 Gold
+[09/19/20 14:27:12] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:27:14] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:27:25] D2BS 17384: ÿc7Picked up ÿc0Boots ÿc0(ilvl 2) (Lightning.xpac.nip #68)
+[09/19/20 14:27:26] D2BS 17384: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[09/19/20 14:27:41] D2BS 17384: ÿc7Picked up ÿc411 Gold
+[09/19/20 14:27:42] D2BS 17384: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:27:44] D2BS 17384: ÿc7Picked up ÿc41 Gold
+[09/19/20 14:27:49] D2BS 17384: ÿc7Picked up ÿc42 Gold
+[09/19/20 14:27:49] D2BS 17384: ÿc7Picked up ÿc411 Gold
+[09/19/20 14:27:49] D2BS 17384: ÿc7Picked up ÿc44 Gold
+[09/19/20 14:28:05] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:28:06] D2BS 17384: ÿc7Picked up ÿc42 Gold
+[09/19/20 14:28:16] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:28:23] D2BS 17384: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/19/20 14:28:29] D2BS 17384: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[09/19/20 14:28:37] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:29:02] D2BS 17384: ÿc7Picked up ÿc41 Gold
+[09/19/20 14:29:23] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:29:38] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:29:39] D2BS 17384: ÿc7Picked up ÿc43 Gold
+[09/19/20 14:30:20] D2BS 17384: ÿc7Picked up ÿc47 Gold
+[09/19/20 14:30:20] D2BS 17384: move retry 1
