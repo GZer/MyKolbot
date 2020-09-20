@@ -587,7 +587,7 @@ var AutoBuildTemplate={
 			SkillPoints: [80],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[70,70,70,70,70,70,70];
+				Config.UseMerc=false;
 			}
 		},
 

@@ -7,9 +7,9 @@
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb;
 	var MercId=[],TeleSorcs=[];
-	var FullClearAreas=[3,4,5,6,35,36,
-	42,43,44,
-	104,105,106,
+	var FullClearAreas=[3,4,5,6,7,35,36,
+	43,44,
+	105,106,
 	111,113,115,118,129,130,131];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
@@ -17,14 +17,15 @@ function LevelLeader(){
 	103,106,107,
 	109,111,112,113,115,123,117,118,129];
 	var LevelingAreas=[[2,8,3,4,5,6,27,28,29,32,34,35,36,37],
-	[47,48,49,42,56,57,60,43,44,45,52,54,74,46,TalRashaTomb],
+	[47,48,49,42,56,57,60,43,62,44,45,52,54,74,46,TalRashaTomb],
 	[76,85,77,78,88,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
 	[110,111,112,113,114,115,121,122,123,124,117,118,120,128,129,130,131]];	
 
-	this.CheckQuests=function(ClearedArea){
-		var Stones,Gibbet,CouncilCoord,Altar,BaalPortal,i=0;
-		switch(ClearedArea){
+	this.CheckQuests=function(CurrentArea){
+		var Stones,Gibbet,Altar,BaalPortal,i=0;
+		Pather.journeyTo(CurrentArea);
+		switch(CurrentArea){
 			case 8: //Clear Den of Evil
 				Attack.clearLevel(0);
 				this.logProgress(me.getQuest(1,0),"Den");
@@ -78,9 +79,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(4,0),"Tristram");
 			break;
 			case 6: //Countess
-				if(me.getQuest(5,0)){
-					break;
-				}
+				if(me.getQuest(5,0)){break;}
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){
 					Pather.makePortal();
 				}
@@ -115,6 +114,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(9,0),"Radament");
 			break;
 			case 60: //Cube
+				if(me.getItem(549)){break;}
 				this.clearToQuestLocation(60,2,354);
 				this.getQuestItem(549,354);
 				Town.doChores();
@@ -122,26 +122,7 @@ function LevelLeader(){
 			break;
 			case 62: //Staff
 				if(me.getItem(92)){break;}
-				if(!this.waitForTeleporter(64)){
-					Pather.journeyTo(62);
-					while(me.area != 63){
-						try{
-							Pather.moveToExit(63,true,true);
-						}catch(err){
-							print("Retry enter MaggotLvl2");
-						}
-					}
-					Pather.makePortal();
-					while(me.area != 64){
-						try{
-							Pather.moveToExit(64,true,true);
-						}catch(err){
-							print("Retry enter MaggotLvl3");
-						}
-					}
-					Pather.makePortal();
-					this.clearToQuestLocation(64,2,356);
-				}
+				if(!this.waitForTeleporter(64)){quit();}
 				this.killQuestBoss(284);
 				this.getQuestItem(92,356);
 				Town.doChores();
@@ -149,9 +130,7 @@ function LevelLeader(){
 			break;
 			case 45: //Amulet
 				if(me.getItem(521)){break;}
-				if(Pather.moveToExit([58,61],true,true)){
-					Pather.makePortal();
-				}
+				Pather.moveToExit([58,61],true,true);
 				this.clearToQuestLocation(61,2,149);
 				Pather.moveTo(15044,14045,2,true,true);
 				this.getQuestItem(521,149);
@@ -166,7 +145,6 @@ function LevelLeader(){
 			break;
 			case 74: //Summoner
 				if(!this.waitForTeleporter(74)){
-					Pather.journeyTo(74);
 					this.clearToQuestLocation(74,2,357);
 				}
 				this.killQuestBoss(250);
@@ -174,6 +152,7 @@ function LevelLeader(){
 				Pather.getWP(46,true);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
+				if(!me.getQuest(11,0)){quit();}
 			break;
 			case TalRashaTomb: //Duriel
 				this.clearToQuestLocation(TalRashaTomb,2,152);
@@ -193,39 +172,14 @@ function LevelLeader(){
 			break;
 			case 85: //Khalim Eye
 				this.clearToQuestLocation(85,2,405);
+				Attack.clearLevel(0x7);
 				this.getQuestItem(553,405);
 				Town.doChores();
 				this.logProgress(me.getItem(553),"Khalim Eye");
 			break;
 			case 88: //Gidbinn and Khalim Brain
-				// Pather.journeyTo(78);
-				// if(!me.getQuest(19,0)){
-					// this.clearToQuestLocation(78,2,86);
-					// this.getQuestItem(87,86);
-					// delay(3000);
-					// Attack.clear(35);
-					// delay(2000);
-					// Attack.clear(35);
-					// Town.doChores();
-					// this.logProgress(me.getQuest(19,0),"Gidbinn");
-				// }
 				if(!this.waitForTeleporter(91)){
-					while(me.area != 89){
-						try{
-							Pather.moveToExit(89,true,true);
-						}catch(err){
-							print("Retry enter FlayerLvl2");
-						}
-					}
-					Pather.makePortal();
-					while(me.area != 91){
-						try{
-							Pather.moveToExit(91,true,true);
-						}catch(err){
-							print("Retry enter FlayerLvl3");
-						}
-					}
-					Pather.makePortal();
+					Pather.moveToExit([89,91],true,true);
 					this.clearToQuestLocation(91,2,406);
 				}
 				this.killQuestBoss(726);
@@ -233,14 +187,7 @@ function LevelLeader(){
 				Town.doChores();
 				this.logProgress(me.getItem(555),"Khalim Brain");
 			break;
-			case 94: //Black Book and Khalim Heart
-				if(!me.getQuest(17,0)){
-					this.clearToQuestLocation(94,2,193);
-					this.getQuestItem(548,193);
-					this.talkToNPC("Alkor");
-					this.logProgress(me.getQuest(17,0),"Black Book");
-				}
-				Pather.journeyTo(80);
+			case 80: //Khalim Heart
 				if(Pather.moveToExit([92,93],true,true)){
 					Pather.makePortal();
 				}
@@ -248,6 +195,13 @@ function LevelLeader(){
 				delay(1000);
 				this.getQuestItem(554);
 				this.logProgress(me.getItem(554),"Khalim Heart");
+			break;
+			case 94: //Black Book
+				if(me.getQuest(17,0)){break;}
+				this.clearToQuestLocation(94,2,193);
+				this.getQuestItem(548,193);
+				this.talkToNPC("Alkor");
+				this.logProgress(me.getQuest(17,0),"Black Book");
 			break;
 			case 83: //Khalim Flail
 				Pather.useWaypoint(75);
@@ -270,11 +224,11 @@ function LevelLeader(){
 				Pather.moveTo(17549,8067,1,true,true);
 				this.killQuestBoss(242);
 				this.logProgress(me.getQuest(22,0),"Mephisto");
-				Attack.clearLevel(0);
+				Attack.clearLevel(0x7);
 				Pather.moveTo(17590,8068,2,true,true);
 				Pather.moveTo(17601,8070,2,true,true);
 			break;
-			case 104: //Izual
+			case 105: //Izual
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
 				this.talkToNPC("Tyrael");
@@ -305,7 +259,7 @@ function LevelLeader(){
 				Pather.moveTo(3883,5113,15,true,true);
 				this.killQuestBoss(760);
 				this.talkToNPC("Larzuk");
-				this.logProgress(me.getQuest(35,0),"Shenk");
+				this.logProgress(me.getQuest(35,5),"Shenk");
 			break;
 			case 111: //Prisoners
 				this.talkToNPC("Qual-Kehk");
@@ -328,7 +282,7 @@ function LevelLeader(){
 			break;
 			case 124: //Nihlathak
 				if(!me.getQuest(37,0)){
-					this.CheckQuests(113);
+					this.CheckQuests(114);
 				}
 				// Pather.journeyTo(124);
 				this.clearToQuestLocation(124,2,462);
@@ -357,7 +311,6 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(39,0),"Ancients");
 			break;
 			case 131: //Baal
-				// Pather.journeyTo(131);
 				Attack.clearLevel(0);
 				Pather.moveTo(15095,5029,true,true);
 				while(getUnit(1,543)){
@@ -367,7 +320,7 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 40) || (me.diff == 1 && me.charlvl > 70) || me.charlvl > 85){
+					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 70) || me.charlvl > 80){
 						Pather.moveTo(15134,5923,true,true);
 						this.killQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
@@ -379,7 +332,7 @@ function LevelLeader(){
 		return true;
 	};
 		
-// == == == == == == == = COMMON FUNCTIONS == == == == == == == = //
+// ==  ==  ==  ==  ==  ==  == =COMMON FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
 
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
@@ -410,14 +363,12 @@ function LevelLeader(){
 	
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
 		var count=0;
-		if(me.area != QuestArea){
-			Pather.journeyTo(QuestArea);
-		}
-		while(count < 60){
+		Pather.journeyTo(QuestArea);
+		while(count < 20){
 			try{
 				while(!this.playerClose() && count < 3){
 					say("Waiting for Party Quest");
-					Attack.clear(5);
+					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
 					delay(5000);
 					count++;
 				}
@@ -434,9 +385,10 @@ function LevelLeader(){
 		return false;
 	};
 	
-	this.clearToNextArea=function(CurrentArea,DestinationArea){
-		var count=0,DestinationReached=false;
-		while(count < 45 && !DestinationReached){
+	this.clearToNextArea=function(DestinationArea){
+		var count=0,DestinationReached=false,CurrentArea=me.area;
+		say("Clearing to "+Pather.getAreaName(DestinationArea));
+		while(count < 20 && !DestinationReached){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					Pather.makePortal();
@@ -444,6 +396,7 @@ function LevelLeader(){
 				}
 			}catch(err){
 				Pather.journeyTo(DestinationArea);
+				Pather.makePortal();
 				DestinationReached=(me.area == DestinationArea);
 			}
 			count++;
@@ -538,7 +491,7 @@ function LevelLeader(){
 				}
 				delay(2000);
 				if(Config.UseMerc){
-					this.getA2Merc();
+					if(!this.getA2Merc()){this.getA2Merc();}
 				}
 				break;
 			case 3:
@@ -588,7 +541,8 @@ function LevelLeader(){
 	};
 	
 	this.waitForTeleporter=function(DestinationArea){
-		var i,WaitingLimit=0,PortalTown=2;		
+		var i,WaitingLimit=0,PortalTown=2;
+		Pather.makePortal();
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
@@ -635,7 +589,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// == == == == == == == = ACT V FUNCTIONS == == == == == == == = //
+// ==  ==  ==  ==  ==  ==  == =ACT V FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
 	
 	this.FreeAnya=function(){
 		var Anya=getUnit(2,558);
@@ -654,7 +608,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-// == == == == == == == = ACT IV FUNCTIONS == == == == == == == = //
+// ==  ==  ==  ==  ==  ==  == =ACT IV FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
 	
 	this.openSeal=function(SealId){
 		this.clearToQuestLocation(108,2,SealId);
@@ -680,7 +634,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// == == == == == == == = ACT III FUNCTIONS == == == == == == == = //
+// ==  ==  ==  ==  ==  ==  == =ACT III FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
 
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0,Will=me.getItem(174);
@@ -704,9 +658,9 @@ function LevelLeader(){
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
 		if(!me.getQuest(18,0) && !me.getItem(174)){
-			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(76);}
-			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(78);}
-			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);}
+			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(85);Storage.Cube.MoveTo(getItem(553));}
+			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(88);Storage.Cube.MoveTo(getItem(555));}
+			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);Storage.Cube.MoveTo(getItem(554));}
 			if(Flail){Storage.Cube.MoveTo(Flail);}else{this.logProgress(null,"Quit CubingFlail");quit();}
 			Cubing.openCube();
 			transmute();
@@ -732,12 +686,12 @@ function LevelLeader(){
 		return me.getItem(174);
 	};
 	
-// == == == == == == == = ACT II FUNCTIONS == == == == == == == = //
+// ==  ==  ==  ==  ==  ==  == =ACT II FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
 		
 	this.talkToTyrael=function(){
 		var i,NPC=getUnit(1,"Tyrael");
 		if(!NPC){this.logProgress(null,"Free Tyrael");return false;}
-		for(i=0; i < 3; i += 1){
+		for(i=0; i < 3; i +=1){
 			if(getDistance(me,NPC)> 3){
 				Pather.moveToUnit(NPC);
 			}
@@ -755,7 +709,7 @@ function LevelLeader(){
 			if(!HoradricStaff){
 				Town.doChores();
 				this.cubeStaff();
-				Pather.journeyTo(TalRashaTomb,null);
+				Pather.usePortal(TalRashaTomb,null);
 				this.clearToQuestLocation(TalRashaTomb,2,152);
 				this.clearToQuestLocation(TalRashaTomb,2,100);
 				HoradricStaff=me.getItem(91);
@@ -775,15 +729,9 @@ function LevelLeader(){
 	
 	this.cubeStaff=function(){
 		var HoradricStaff=me.getItem(91),Staff=me.getItem(92),Amulet=me.getItem(521);
-		if(Staff){
-			Storage.Cube.MoveTo(Staff);
-		}else if(!HoradricStaff){
-			this.CheckQuests(43);
-		}
-		if(Amulet){
-			Storage.Cube.MoveTo(Amulet);
-		}else if(!HoradricStaff){
-			this.CheckQuests(44);
+		if(!HoradricStaff){
+			if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(62);Storage.Cube.MoveTo(getItem(92));}
+			if(Amulet){Storage.Cube.MoveTo(Amulet);}else {this.CheckQuests(45);Storage.Cube.MoveTo(getItem(521));}
 		}
 		Cubing.openCube();
 		transmute();
@@ -862,20 +810,20 @@ function LevelLeader(){
 		}
 	};
 
-// == == == == == == == = START & END FUNCTIONS == == == == == == == = //
+// ==  ==  ==  ==  ==  ==  == =START & END FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
 		if(!me.getQuest(1,0)){say("Den");Pather.journeyTo(8);Attack.clearLevel(0);}
-		if(!me.getQuest(3,3)){say("Malus");this.CheckQuests(27);}
+		if(!me.getQuest(3,3)){say("Malus");this.CheckQuests(28);}
 		if(!me.getQuest(4,0)){say("Cain");this.CheckQuests(5);}
 		if(!me.getQuest(5,0)){say("Countess");this.CheckQuests(6);}
-		if(!me.getQuest(9,0)){say("Radament");this.CheckQuests(48);}
-		if(!me.getQuest(17,0)){say("Black Book");this.CheckQuests(80);}
-		if(!me.getQuest(25,0)){say("Izual");this.CheckQuests(104);}
-		if(!me.getQuest(35,3)){say("Shenk");this.CheckQuests(111);}
-		if(!me.getQuest(37,0)){say("Anya");this.CheckQuests(113);}
-		if(!me.getQuest(38,3)){say("Nihlathak");this.CheckQuests(123);}
+		if(!me.getQuest(9,0)){say("Radament");this.CheckQuests(49);}
+		if(!me.getQuest(17,0)){say("Black Book");this.CheckQuests(94);}
+		if(!me.getQuest(25,0)){say("Izual");this.CheckQuests(105);}
+		if(!me.getQuest(35,5)){say("Shenk");this.CheckQuests(110);}
+		if(!me.getQuest(37,0)){say("Anya");this.CheckQuests(114);}
+		if(!me.getQuest(38,3)){say("Nihlathak");this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
 	}
 	
@@ -885,10 +833,7 @@ function LevelLeader(){
 			if(getWaypoint(38)){UpToArea=129;}
 			else if(!getWaypoint(i)){
 				i--;
-				if(WaypointAreas[i] == 74){UpToArea=52;}
-				else if(WaypointAreas[i] == 83){UpToArea=82;}
-				else if(WaypointAreas[i] == 107){UpToArea=106;}
-				else{UpToArea=WaypointAreas[i];}
+				UpToArea=WaypointAreas[i];
 				break;
 			}
 			if(WaypointAreas[i] < 40){ActNumber=0;}
@@ -941,22 +886,22 @@ function LevelLeader(){
 				}catch(err){
 					print("Failed to make portal");
 				}
-				WaitingLimit=3;
+				WaitingLimit=20;
 				while(!this.playerClose() && WaitingLimit > 0){
 					say("Waiting for Party");
-					Attack.clear(10);
-					delay(7000*WaitingLimit--);
+					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
+					delay(250*WaitingLimit--);
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(UpToArea,true);
+				Pather.makePortal();
 				this.CheckQuests(UpToArea);
 				if(FullClearAreas.indexOf(UpToArea)>-1){
 					Pather.journeyTo(UpToArea);
 					say("Full Clear");
 					Attack.clearLevel(0);
 				}else if(NextArea>0){
-					say("Clearing to "+Pather.getAreaName(NextArea));
-					clearToNextArea(UpToArea,NextArea);
+					this.clearToNextArea(NextArea);
 				}
 			}
 		}

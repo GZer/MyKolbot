@@ -43,7 +43,7 @@ function LevelFollower(){
 				}
 				delay(2000);
 				if(Config.UseMerc){
-					this.getA2Merc();
+					if(!this.getA2Merc()){this.getA2Merc();}
 				}
 				break;
 			case 3:
@@ -96,17 +96,13 @@ function LevelFollower(){
 		if(LeaderArea){
 			if(LeaderArea <= 39){
 				LeaderAct=1;
-			}
-			else if(LeaderArea >= 40 && LeaderArea <= 74){
+			}else if(LeaderArea >= 40 && LeaderArea <= 74){
 				LeaderAct=2;
-			}
-			else if(LeaderArea >= 75 && LeaderArea <= 102){
+			}else if(LeaderArea >= 75 && LeaderArea <= 102){
 				LeaderAct=3;
-			}
-			else if(LeaderArea >= 103 && LeaderArea <= 108){
+			}else if(LeaderArea >= 103 && LeaderArea <= 108){
 				LeaderAct=4;
-			}
-			else{
+			}else{
 				LeaderAct=5;
 			}
 			if(LeaderAct != me.act){
@@ -132,16 +128,17 @@ function LevelFollower(){
 						delay(250);
 					}
 				}
-				if((LeaderArea == 46 || LeaderArea == getRoom().correcttomb) && getWaypoint(17)){									//Tal Rasha tomb fix
-					Pather.useWaypoint(46);
+				if(LeaderArea == 46 || LeaderArea == getRoom().correcttomb){
+					this.talkToNPC("Atma");
+					if(getWaypoint(17)){
+						Pather.useWaypoint(46);												//Tal Rasha tomb fix
+					}
 				}
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
 					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
-				}
-				else if(Pather.getPortal(LeaderArea,null)){
+				}else if(Pather.getPortal(LeaderArea,null)){
 					Pather.usePortal(LeaderArea,null);										//Else if any portals to area
-				}
-				else{
+				}else{
 					Pather.journeyTo(LeaderArea);											//Otherwise walk to leader
 				}
 				delay(200);
@@ -215,7 +212,7 @@ function LevelFollower(){
 	};
 	
 	this.getA2Merc=function(){
-		var MyMercType,MyMercDiff,MyMercAura,MyMerc=me.getMerc();
+		var MyMercType,MyMercDiff,MyMercAura,MyMerc;
 		switch(me.classid){			
 			case 0://Amazon
 				break;
@@ -238,7 +235,7 @@ function LevelFollower(){
 				break;
 		}
 		//If we have a Merc and it's the wrong difficulty stop function
-		if((MyMerc || me.mercrevivecost > 0) && me.diff != MyMercDiff){
+		if((me.getMerc() || me.mercrevivecost > 0) && me.diff != MyMercDiff){
 			this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
 			return true;
 		}
@@ -256,17 +253,17 @@ function LevelFollower(){
 				//If it's the wrong difficulty just hire a random merc
 				if(me.diff != MyMercDiff){
 					this.logProgress(me.getMerc(),"Hired Random Merc - "+me.name);
-					return true;
+					return me.getMerc();
 				}
 				delay(rand(100,15000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
 					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc - "+me.name);
-					return true;
+					return me.getMerc();
 				}
 			}
 		}
-		return false;
+		return me.getMerc();
 	};
 	
 	this.gamePacket=function (bytes) {
