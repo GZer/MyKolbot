@@ -42,7 +42,7 @@ function LevelLeader(){
 				Pather.useWaypoint(1);
 				Town.doChores();
 				Pather.journeyTo(5);
-				Pather.makePortal();
+				this.tryMakePortal();
 				if(!me.getQuest(4,4) && !me.getItem(525)){
 					if(!me.getItem(524)){
 						Pather.moveToPreset(5,2,30,2,2,true,true);
@@ -67,7 +67,7 @@ function LevelLeader(){
 					delay(1000);i++;
 				}
 				Pather.usePortal(38);
-				Pather.makePortal();
+				this.tryMakePortal();
 				if(getUnit(2,26)){
 					Gibbet=getUnit(2,26);
 					this.clearToQuestLocation(38,2,26);
@@ -81,7 +81,7 @@ function LevelLeader(){
 			case 6: //Countess
 				if(me.getQuest(5,0)){break;}
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){
-					Pather.makePortal();
+					this.tryMakePortal();
 				}
 				Attack.clearLevel(0);
 				Town.doChores();
@@ -100,7 +100,7 @@ function LevelLeader(){
 				delay(5000);
 				Pather.moveTo(22480,9570,2,true,true);
 				Pather.moveTo(22549,9520,2,true,true);
-				Pather.makePortal();
+				this.tryMakePortal();
 				this.killQuestBoss(156);
 				Town.doChores();
 				this.logProgress(me.getQuest(6,3),"Andariel");
@@ -160,7 +160,7 @@ function LevelLeader(){
 				this.placeStaff();
 				this.waitForUnit(2,100);
 				Pather.useUnit(2,100,73);
-				Pather.makePortal();
+				this.tryMakePortal();
 				this.killQuestBoss(211);
 				Pather.teleport=false;
 				Pather.moveTo(22579,15706);
@@ -189,7 +189,7 @@ function LevelLeader(){
 			break;
 			case 80: //Khalim Heart
 				if(Pather.moveToExit([92,93],true,true)){
-					Pather.makePortal();
+					this.tryMakePortal();
 				}
 				Attack.clearLevel(0);
 				delay(1000);
@@ -237,7 +237,7 @@ function LevelLeader(){
 			break;
 			case 108: //Diablo
 				if(Pather.moveTo(7791,5293,5,true,true)){
-					Pather.makePortal();
+					this.tryMakePortal();
 				}
 				this.openSeal(395);this.openSeal(396);
 				this.openSeal(395);this.openSeal(396);
@@ -248,7 +248,7 @@ function LevelLeader(){
 				this.openSeal(392);this.openSeal(393);
 				this.killQuestBoss(740);
 				Pather.moveTo(7769,5263,5,true,true);
-				Pather.makePortal();
+				this.tryMakePortal();
 				Pather.moveTo(7788,5293,5,true,true);
 				this.waitForUnit(1,243);
 				this.killQuestBoss(243);
@@ -349,6 +349,15 @@ function LevelLeader(){
 		return true;
 	};
 	
+	this.tryMakePortal=function(){
+		try{
+			Pather.makePortal();
+		}catch(err){
+			print("Failed to make portal");
+		}
+		return true;
+	};
+	
 	this.playerClose=function(){
 		var Party=getParty();
 		if(Party){
@@ -391,12 +400,12 @@ function LevelLeader(){
 		while(count < 20 && !DestinationReached){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
-					Pather.makePortal();
+					this.tryMakePortal();
 					DestinationReached=(me.area == DestinationArea);
 				}
 			}catch(err){
 				Pather.journeyTo(DestinationArea);
-				Pather.makePortal();
+				this.tryMakePortal();
 				DestinationReached=(me.area == DestinationArea);
 			}
 			count++;
@@ -542,7 +551,7 @@ function LevelLeader(){
 	
 	this.waitForTeleporter=function(DestinationArea){
 		var i,WaitingLimit=0,PortalTown=2;
-		Pather.makePortal();
+		this.tryMakePortal();
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
@@ -563,7 +572,7 @@ function LevelLeader(){
 			for(i=0; i < TeleSorcs.length; i++){
 				if(Pather.getPortal(DestinationArea,TeleSorcs[i])){
 					Pather.usePortal(DestinationArea,TeleSorcs[i]);
-					Pather.makePortal();
+					this.tryMakePortal();
 					Attack.clear(10);
 					delay(500);
 					WaitingLimit=120;
@@ -881,11 +890,7 @@ function LevelLeader(){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
 			if(Pather.journeyTo(UpToArea)){
-				try{
-					Pather.makePortal();
-				}catch(err){
-					print("Failed to make portal");
-				}
+				this.tryMakePortal();
 				WaitingLimit=20;
 				while(!this.playerClose() && WaitingLimit > 0){
 					say("Waiting for Party");
@@ -894,7 +899,7 @@ function LevelLeader(){
 				}
 				Precast.doPrecast(true);
 				Pather.getWP(UpToArea,true);
-				Pather.makePortal();
+				this.tryMakePortal();
 				this.CheckQuests(UpToArea);
 				if(FullClearAreas.indexOf(UpToArea)>-1){
 					Pather.journeyTo(UpToArea);
