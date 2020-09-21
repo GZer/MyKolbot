@@ -12218,3 +12218,1481 @@
 [09/21/20 14:50:50] D2BS 14592: Updating Config from level 20 to 21
 [09/21/20 14:50:50] D2BS 14592: Updating Config from level 20 to 21
 [09/21/20 14:50:50] D2BS 14592: AutoBuild: Incrementing cached character level to 21
+[09/21/20 14:51:21] D2BS 14592: ÿc1Skipping Horror Mage 1095 16
+[09/21/20 14:51:25] D2BS 14592: move retry 2
+[09/21/20 14:51:59] D2BS 14592: 52,53,54,74
+[09/21/20 14:52:32] D2BS 14592: move retry 1
+[09/21/20 14:52:35] D2BS 14592: move retry 1
+[09/21/20 14:52:41] D2BS 14592: move retry 1
+[09/21/20 14:52:43] D2BS 14592: move retry 1
+[09/21/20 14:53:12] D2BS 14592: ÿc1Skipping Specter 1287 16
+[09/21/20 14:53:24] D2BS 14592: ÿc1Skipping Specter 1286 16
+[09/21/20 14:53:26] D2BS 14592: ÿc1Skipping Specter 1285 16
+[09/21/20 14:54:00] D2BS 14592: ÿc1Pausing.
+[09/21/20 14:54:01] D2BS 14592: initNPC: heal
+[09/21/20 14:54:12] D2BS 14592: initNPC: buyPotions
+[09/21/20 14:54:36] D2BS 14592: move retry 1
+[09/21/20 14:54:37] D2BS 14592: ÿc2Resuming.
+[09/21/20 14:55:05] D2BS 14592: ÿc1Skipping Specter 1285 16
+[09/21/20 14:55:12] D2BS 14592: ÿc1Skipping Specter 1286 16
+[09/21/20 14:55:46] D2BS 14592: ÿc1Pausing.
+[09/21/20 14:55:47] D2BS 14592: initNPC: heal
+[09/21/20 14:55:53] D2BS 14592: initNPC: buyPotions
+[09/21/20 14:56:11] D2BS 14592: ÿc2Resuming.
+[09/21/20 14:56:50] D2BS 14592: Script default.dbj ended
+[09/21/20 14:56:50] D2BS 14592: Script tools\autobuildthread.js ended
+[09/21/20 14:56:50] D2BS 14592: Script tools\party.js ended
+[09/21/20 14:56:50] D2BS 14592: Script tools\toolsthread.js ended
+[09/21/20 14:56:50] D2BS 14592: Script tools\townchicken.js ended
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 27160
+[09/21/20 14:56:54] D2BS 14592: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 14:56:54] D2BS 14592: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 14:56:54] D2BS 14592: 02EB3C94 (D2BS): (filename not available): QueryInterface
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 35064
+[09/21/20 14:56:54] D2BS 14592: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 14:56:54] D2BS 14592: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/21/20 14:56:54] D2BS 14592: 004027E5 (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 38480
+[09/21/20 14:56:54] D2BS 14592: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 14:56:54] D2BS 14592: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 14:56:54] D2BS 14592: 004102FC (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 23440
+[09/21/20 14:56:54] D2BS 14592: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 14:56:54] D2BS 14592: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/21/20 14:56:54] D2BS 14592: 0041A845 (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 32072
+[09/21/20 14:56:54] D2BS 14592: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 37592
+[09/21/20 14:56:54] D2BS 14592: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 14:56:54] D2BS 14592: 02F37236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 14:56:54] D2BS 14592: 03022B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 14:56:54] D2BS 14592: 03021A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 14:56:54] D2BS 14592: 02F4E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 35648
+[09/21/20 14:56:54] D2BS 14592: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 14:56:54] D2BS 14592: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 14:56:54] D2BS 14592: 02EBE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 14:56:54] D2BS 14592: 02F401B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 14:56:54] D2BS 14592: 03022B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 14:56:54] D2BS 14592: 03021A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 14:56:54] D2BS 14592: 02F4E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 38240
+[09/21/20 14:56:54] D2BS 14592: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 14:56:54] D2BS 14592: 02F37236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 14:56:54] D2BS 14592: 03022B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 14:56:54] D2BS 14592: 03021A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 14:56:54] D2BS 14592: 02F4E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 25872
+[09/21/20 14:56:54] D2BS 14592: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 32784
+[09/21/20 14:56:54] D2BS 14592: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Stack Walk Thread: 38000
+[09/21/20 14:56:54] D2BS 14592: 02EBB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/21/20 14:56:54] D2BS 14592: 02EB37F8 (D2BS): (filename not available): QueryInterface
+[09/21/20 14:56:54] D2BS 14592: 00408A05 (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 00408A81 (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 14:56:54] D2BS 14592: 006381D6 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 14:56:54] D2BS 14592: 00619337 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 14:56:54] D2BS 14592: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/21/20 14:56:54] D2BS 14592: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/21/20 14:56:54] D2BS 14592: 00405E6B (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 004065C7 (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 0040671F (Game): (filename not available): (function-name not available)
+[09/21/20 14:56:54] D2BS 14592: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 14:56:54] D2BS 14592: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 14:56:54] D2BS 14592: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 14:56:54] D2BS 14592: Crash File: BlizzardError/2020-09-21 14.56.54/Crash.txt
+[09/21/20 14:56:54] D2BS 14592: D2BS Shutdown complete.
+[09/21/20 14:56:55] D2BS 33376: D2BS Engine startup complete. 1.6.4U
+[09/21/20 14:56:55] D2BS 33376: Wind
+[09/21/20 14:56:55] D2BS 33376: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/21/20 14:56:55] D2BS 33376: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/21/20 14:56:55] D2BS 33376: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/21/20 14:56:55] D2BS 33376: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/21/20 14:56:55] D2BS 33376: ÿc2D2BSÿc0 :: Started Console Script
+[09/21/20 14:56:58] D2BS 33376: Heartbeat loaded
+[09/21/20 14:57:15] D2BS 33376: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 14:57:15] D2BS 33376: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 14:57:15] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 14:57:15] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 14:57:15] D2BS 33376: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 14:57:15] D2BS 33376: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 14:57:15] D2BS 33376: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 14:57:15] D2BS 33376: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[09/21/20 14:57:15] D2BS 33376: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 14:57:15] D2BS 33376: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 14:57:15] D2BS 33376: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 14:57:15] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 14:57:15] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 14:57:15] D2BS 33376: AutoBuild: Loaded helper thread
+[09/21/20 14:57:15] D2BS 33376: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 14:57:15] D2BS 33376: initNPC: heal
+[09/21/20 14:57:15] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 14:57:15] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 14:57:15] D2BS 33376: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 14:57:15] D2BS 33376: ÿc3Start ToolsThread script
+[09/21/20 14:57:15] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 14:57:15] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 14:57:15] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 14:57:15] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 14:58:01] D2BS 33376: initNPC: buyPotions
+[09/21/20 14:59:03] D2BS 33376: move retry 1
+[09/21/20 14:59:11] D2BS 33376: initNPC: heal
+[09/21/20 14:59:14] D2BS 33376: move retry 1
+[09/21/20 14:59:52] D2BS 33376: initNPC: buyPotions
+[09/21/20 15:01:29] D2BS 33376: Failed talking to Atma
+[09/21/20 15:02:02] D2BS 33376: move retry 1
+[09/21/20 15:02:16] D2BS 33376: move retry 1
+[09/21/20 15:02:31] D2BS 33376: initNPC: buyPotions
+[09/21/20 15:03:36] D2BS 33376: move retry 1
+[09/21/20 15:03:42] D2BS 33376: move retry 1
+[09/21/20 15:03:48] D2BS 33376: move retry 1
+[09/21/20 15:03:55] D2BS 33376: move retry 1
+[09/21/20 15:03:55] D2BS 33376: move retry 1
+[09/21/20 15:04:00] D2BS 33376: move retry 1
+[09/21/20 15:04:19] D2BS 33376: move retry 1
+[09/21/20 15:04:34] D2BS 33376: initNPC: buyPotions
+[09/21/20 15:05:29] D2BS 33376: move retry 1
+[09/21/20 15:05:29] D2BS 33376: move retry 1
+[09/21/20 15:05:42] D2BS 33376: move retry 1
+[09/21/20 15:05:46] D2BS 33376: Script default.dbj ended
+[09/21/20 15:05:46] D2BS 33376: Script tools\autobuildthread.js ended
+[09/21/20 15:05:46] D2BS 33376: Script tools\party.js ended
+[09/21/20 15:05:46] D2BS 33376: Script tools\toolsthread.js ended
+[09/21/20 15:05:46] D2BS 33376: Script tools\townchicken.js ended
+[09/21/20 15:05:53] D2BS 33376: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:05:53] D2BS 33376: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:05:53] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:05:53] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:05:53] D2BS 33376: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/21/20 15:05:53] D2BS 33376: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:05:53] D2BS 33376: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:05:53] D2BS 33376: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:05:53] D2BS 33376: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/21/20 15:05:53] D2BS 33376: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:05:53] D2BS 33376: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:05:53] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:05:53] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:05:53] D2BS 33376: AutoBuild: Loaded helper thread
+[09/21/20 15:05:53] D2BS 33376: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:05:53] D2BS 33376: initNPC: buyPotions
+[09/21/20 15:05:53] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:05:53] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:05:53] D2BS 33376: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:05:53] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:05:53] D2BS 33376: ÿc3Start ToolsThread script
+[09/21/20 15:05:53] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:05:53] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:05:53] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:05:55] D2BS 33376: move retry 1
+[09/21/20 15:06:36] D2BS 33376: move retry 1
+[09/21/20 15:06:47] D2BS 33376: move retry 1
+[09/21/20 15:06:51] D2BS 33376: move retry 1
+[09/21/20 15:07:01] D2BS 33376: move retry 1
+[09/21/20 15:07:13] D2BS 33376: move retry 1
+[09/21/20 15:07:18] D2BS 33376: move retry 1
+[09/21/20 15:08:04] D2BS 33376: move retry 1
+[09/21/20 15:08:10] D2BS 33376: move retry 1
+[09/21/20 15:08:35] D2BS 33376: move retry 1
+[09/21/20 15:09:00] D2BS 33376: move retry 1
+[09/21/20 15:09:15] D2BS 33376: move retry 1
+[09/21/20 15:09:57] D2BS 33376: move retry 1
+[09/21/20 15:10:22] D2BS 33376: move retry 1
+[09/21/20 15:10:36] D2BS 33376: move retry 1
+[09/21/20 15:10:42] D2BS 33376: move retry 1
+[09/21/20 15:10:54] D2BS 33376: move retry 1
+[09/21/20 15:11:29] D2BS 33376: move retry 1
+[09/21/20 15:12:19] D2BS 33376: move retry 1
+[09/21/20 15:12:33] D2BS 33376: move retry 1
+[09/21/20 15:12:35] D2BS 33376: move retry 2
+[09/21/20 15:12:43] D2BS 33376: move retry 3
+[09/21/20 15:13:46] D2BS 33376: Script default.dbj ended
+[09/21/20 15:13:46] D2BS 33376: Script tools\autobuildthread.js ended
+[09/21/20 15:13:46] D2BS 33376: Script tools\party.js ended
+[09/21/20 15:13:46] D2BS 33376: Script tools\toolsthread.js ended
+[09/21/20 15:13:46] D2BS 33376: Script tools\townchicken.js ended
+[09/21/20 15:13:47] D2BS 33376: [Error] Code(206) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\bots\levelfollower.js:131) Error: Get Room Game not ready
+Line: (null)
+[09/21/20 15:13:47] D2BS 33376: [ÿc1Errorÿc0 (206)] File(kolbot\libs\bots\levelfollower.js:131) Error: Get Room Game not ready
+[09/21/20 15:13:52] D2BS 33376: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:13:52] D2BS 33376: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:13:52] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:13:52] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:13:52] D2BS 33376: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:13:52] D2BS 33376: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:13:52] D2BS 33376: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:13:52] D2BS 33376: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:13:52] D2BS 33376: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/21/20 15:13:52] D2BS 33376: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:13:52] D2BS 33376: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:13:52] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:13:52] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:13:52] D2BS 33376: AutoBuild: Loaded helper thread
+[09/21/20 15:13:52] D2BS 33376: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:13:52] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:13:52] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:13:52] D2BS 33376: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:13:52] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:13:52] D2BS 33376: ÿc3Start ToolsThread script
+[09/21/20 15:13:52] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:13:52] D2BS 33376: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:13:52] D2BS 33376: Updating Config from level 0 to 21
+[09/21/20 15:14:40] D2BS 33376: move retry 1
+[09/21/20 15:14:46] D2BS 33376: move retry 1
+[09/21/20 15:14:55] D2BS 33376: move retry 1
+[09/21/20 15:15:22] D2BS 33376: move retry 1
+[09/21/20 15:16:14] D2BS 33376: move retry 1
+[09/21/20 15:16:20] D2BS 33376: move retry 1
+[09/21/20 15:16:37] D2BS 33376: move retry 1
+[09/21/20 15:17:18] D2BS 33376: move retry 1
+[09/21/20 15:17:19] D2BS 33376: move retry 2
+[09/21/20 15:17:21] D2BS 33376: move retry 3
+[09/21/20 15:17:26] D2BS 33376: move retry 1
+[09/21/20 15:17:27] D2BS 33376: move retry 1
+[09/21/20 15:17:32] D2BS 33376: move retry 1
+[09/21/20 15:17:37] D2BS 33376: move retry 1
+[09/21/20 15:17:46] D2BS 33376: move retry 1
+[09/21/20 15:17:47] D2BS 33376: move retry 1
+[09/21/20 15:17:53] D2BS 33376: move retry 1
+[09/21/20 15:18:12] D2BS 33376: move retry 1
+[09/21/20 15:18:18] D2BS 33376: move retry 1
+[09/21/20 15:18:35] D2BS 33376: move retry 1
+[09/21/20 15:18:49] D2BS 33376: move retry 1
+[09/21/20 15:19:53] D2BS 33376: move retry 1
+[09/21/20 15:19:57] D2BS 33376: move retry 1
+[09/21/20 15:21:24] D2BS 33376: Script default.dbj ended
+[09/21/20 15:21:24] D2BS 33376: Script tools\autobuildthread.js ended
+[09/21/20 15:21:24] D2BS 33376: Script tools\party.js ended
+[09/21/20 15:21:24] D2BS 33376: Script tools\toolsthread.js ended
+[09/21/20 15:21:24] D2BS 33376: Script tools\townchicken.js ended
+[09/21/20 15:21:31] D2BS 33376: D2BS Shutdown complete.
+[09/21/20 15:21:31] D2BS 21008: D2BS Engine startup complete. 1.6.4U
+[09/21/20 15:21:31] D2BS 21008: Wind
+[09/21/20 15:21:31] D2BS 21008: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/21/20 15:21:31] D2BS 21008: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/21/20 15:21:31] D2BS 21008: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/21/20 15:21:31] D2BS 21008: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/21/20 15:21:31] D2BS 21008: ÿc2D2BSÿc0 :: Started Console Script
+[09/21/20 15:21:33] D2BS 21008: Heartbeat loaded
+[09/21/20 15:21:51] D2BS 21008: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:21:51] D2BS 21008: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:21:51] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:21:51] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:21:51] D2BS 21008: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/21/20 15:21:51] D2BS 21008: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:21:51] D2BS 21008: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:21:51] D2BS 21008: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:21:51] D2BS 21008: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/21/20 15:21:51] D2BS 21008: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:21:52] D2BS 21008: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:21:52] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:21:52] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:21:52] D2BS 21008: AutoBuild: Loaded helper thread
+[09/21/20 15:21:52] D2BS 21008: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:21:52] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:21:52] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:21:52] D2BS 21008: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:21:52] D2BS 21008: ÿc3Start ToolsThread script
+[09/21/20 15:21:52] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:21:52] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:21:52] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:21:52] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:22:12] D2BS 21008: move retry 1
+[09/21/20 15:22:31] D2BS 21008: Script default.dbj ended
+[09/21/20 15:22:31] D2BS 21008: Script tools\autobuildthread.js ended
+[09/21/20 15:22:31] D2BS 21008: Script tools\party.js ended
+[09/21/20 15:22:31] D2BS 21008: Script tools\toolsthread.js ended
+[09/21/20 15:22:31] D2BS 21008: Script tools\townchicken.js ended
+[09/21/20 15:22:38] D2BS 21008: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:22:38] D2BS 21008: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:22:38] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:22:38] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:22:38] D2BS 21008: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:22:38] D2BS 21008: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:22:38] D2BS 21008: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:22:38] D2BS 21008: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[09/21/20 15:22:38] D2BS 21008: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 15:22:38] D2BS 21008: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:22:38] D2BS 21008: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:22:38] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:22:38] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:22:38] D2BS 21008: AutoBuild: Loaded helper thread
+[09/21/20 15:22:38] D2BS 21008: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:22:39] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:22:39] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:22:39] D2BS 21008: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:22:39] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:22:39] D2BS 21008: ÿc3Start ToolsThread script
+[09/21/20 15:22:39] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:22:39] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:22:39] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:23:23] D2BS 21008: move retry 1
+[09/21/20 15:23:36] D2BS 21008: Script default.dbj ended
+[09/21/20 15:23:36] D2BS 21008: Script tools\autobuildthread.js ended
+[09/21/20 15:23:36] D2BS 21008: Script tools\party.js ended
+[09/21/20 15:23:36] D2BS 21008: Script tools\toolsthread.js ended
+[09/21/20 15:23:36] D2BS 21008: Script tools\townchicken.js ended
+[09/21/20 15:23:43] D2BS 21008: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:23:43] D2BS 21008: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:23:43] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:23:43] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:23:43] D2BS 21008: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:23:43] D2BS 21008: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:23:43] D2BS 21008: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:23:43] D2BS 21008: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:23:43] D2BS 21008: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/21/20 15:23:43] D2BS 21008: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:23:43] D2BS 21008: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:23:43] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:23:43] D2BS 21008: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:23:43] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:23:43] D2BS 21008: AutoBuild: Loaded helper thread
+[09/21/20 15:23:43] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:23:43] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:23:43] D2BS 21008: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:23:43] D2BS 21008: ÿc3Start ToolsThread script
+[09/21/20 15:23:43] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:23:43] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:23:43] D2BS 21008: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:23:43] D2BS 21008: Updating Config from level 0 to 21
+[09/21/20 15:24:28] D2BS 21008: move retry 1
+[09/21/20 15:24:30] D2BS 21008: move retry 1
+[09/21/20 15:24:39] D2BS 21008: move retry 1
+[09/21/20 15:24:45] D2BS 21008: move retry 1
+[09/21/20 15:24:47] D2BS 21008: move retry 1
+[09/21/20 15:24:52] D2BS 21008: move retry 1
+[09/21/20 15:24:58] D2BS 21008: move retry 1
+[09/21/20 15:25:00] D2BS 21008: move retry 1
+[09/21/20 15:25:07] D2BS 21008: move retry 1
+[09/21/20 15:25:08] D2BS 21008: move retry 1
+[09/21/20 15:25:12] D2BS 21008: move retry 1
+[09/21/20 15:25:16] D2BS 21008: move retry 1
+[09/21/20 15:25:23] D2BS 21008: move retry 1
+[09/21/20 15:25:42] D2BS 21008: move retry 1
+[09/21/20 15:26:12] D2BS 21008: move retry 1
+[09/21/20 15:26:17] D2BS 21008: move retry 1
+[09/21/20 15:26:33] D2BS 21008: move retry 1
+[09/21/20 15:27:31] D2BS 21008: move retry 1
+[09/21/20 15:27:43] D2BS 21008: move retry 1
+[09/21/20 15:27:49] D2BS 21008: move retry 1
+[09/21/20 15:27:57] D2BS 21008: move retry 1
+[09/21/20 15:28:04] D2BS 21008: move retry 1
+[09/21/20 15:28:14] D2BS 21008: Script default.dbj ended
+[09/21/20 15:28:14] D2BS 21008: Script tools\autobuildthread.js ended
+[09/21/20 15:28:14] D2BS 21008: Script tools\party.js ended
+[09/21/20 15:28:14] D2BS 21008: Script tools\toolsthread.js ended
+[09/21/20 15:28:14] D2BS 21008: Script tools\townchicken.js ended
+[09/21/20 15:28:21] D2BS 21008: D2BS Shutdown complete.
+[09/21/20 15:28:21] D2BS 29232: D2BS Engine startup complete. 1.6.4U
+[09/21/20 15:28:21] D2BS 29232: Wind
+[09/21/20 15:28:21] D2BS 29232: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/21/20 15:28:21] D2BS 29232: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/21/20 15:28:21] D2BS 29232: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/21/20 15:28:21] D2BS 29232: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/21/20 15:28:21] D2BS 29232: ÿc2D2BSÿc0 :: Started Console Script
+[09/21/20 15:28:23] D2BS 29232: Heartbeat loaded
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 37356
+[09/21/20 15:28:39] D2BS 29232: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 33000
+[09/21/20 15:28:39] D2BS 29232: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 12876
+[09/21/20 15:28:39] D2BS 29232: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 37588
+[09/21/20 15:28:39] D2BS 29232: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 15:28:39] D2BS 29232: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 15:28:39] D2BS 29232: 03133C94 (D2BS): (filename not available): QueryInterface
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 28848
+[09/21/20 15:28:39] D2BS 29232: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 15:28:39] D2BS 29232: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/21/20 15:28:39] D2BS 29232: 004027E5 (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 37540
+[09/21/20 15:28:39] D2BS 29232: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 15:28:39] D2BS 29232: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 15:28:39] D2BS 29232: 004102FC (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 22716
+[09/21/20 15:28:39] D2BS 29232: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 15:28:39] D2BS 29232: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/21/20 15:28:39] D2BS 29232: 0041A845 (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 29404
+[09/21/20 15:28:39] D2BS 29232: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 33836
+[09/21/20 15:28:39] D2BS 29232: 77741A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[09/21/20 15:28:39] D2BS 29232: 761D6676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 12620
+[09/21/20 15:28:39] D2BS 29232: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 23212
+[09/21/20 15:28:39] D2BS 29232: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 26280
+[09/21/20 15:28:39] D2BS 29232: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 15:28:39] D2BS 29232: 031B7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 15:28:39] D2BS 29232: 032A2B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 15:28:39] D2BS 29232: 032A1A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 15:28:39] D2BS 29232: 031CE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 24168
+[09/21/20 15:28:39] D2BS 29232: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 15:28:39] D2BS 29232: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 15:28:39] D2BS 29232: 0313E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 15:28:39] D2BS 29232: 031C01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 15:28:39] D2BS 29232: 032A2B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 15:28:39] D2BS 29232: 032A1A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 15:28:39] D2BS 29232: 031CE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 36408
+[09/21/20 15:28:39] D2BS 29232: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 15:28:39] D2BS 29232: 031B7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 15:28:39] D2BS 29232: 032A2B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 15:28:39] D2BS 29232: 032A1A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 15:28:39] D2BS 29232: 031CE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Stack Walk Thread: 37652
+[09/21/20 15:28:39] D2BS 29232: 0313B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/21/20 15:28:39] D2BS 29232: 031337F8 (D2BS): (filename not available): QueryInterface
+[09/21/20 15:28:39] D2BS 29232: 00408A05 (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 00408A81 (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 15:28:39] D2BS 29232: 00612E1A (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 15:28:39] D2BS 29232: 0061930D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 15:28:39] D2BS 29232: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/21/20 15:28:39] D2BS 29232: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/21/20 15:28:39] D2BS 29232: 00405E6B (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 004065C7 (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 0040671F (Game): (filename not available): (function-name not available)
+[09/21/20 15:28:39] D2BS 29232: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 15:28:39] D2BS 29232: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 15:28:39] D2BS 29232: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 15:28:39] D2BS 29232: Crash File: BlizzardError/2020-09-21 15.28.39/Crash.txt
+[09/21/20 15:28:39] D2BS 29232: D2BS Shutdown complete.
+[09/21/20 15:28:42] D2BS 32808: D2BS Engine startup complete. 1.6.4U
+[09/21/20 15:28:42] D2BS 32808: Wind
+[09/21/20 15:28:42] D2BS 32808: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/21/20 15:28:42] D2BS 32808: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/21/20 15:28:42] D2BS 32808: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/21/20 15:28:42] D2BS 32808: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/21/20 15:28:42] D2BS 32808: ÿc2D2BSÿc0 :: Started Console Script
+[09/21/20 15:28:44] D2BS 32808: Heartbeat loaded
+[09/21/20 15:29:01] D2BS 32808: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:29:01] D2BS 32808: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:29:01] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:29:01] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:29:01] D2BS 32808: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/21/20 15:29:01] D2BS 32808: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:29:01] D2BS 32808: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:29:01] D2BS 32808: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:29:01] D2BS 32808: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 15:29:01] D2BS 32808: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:29:01] D2BS 32808: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:29:01] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:29:01] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:29:01] D2BS 32808: AutoBuild: Loaded helper thread
+[09/21/20 15:29:01] D2BS 32808: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:29:01] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:29:01] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:29:01] D2BS 32808: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:29:01] D2BS 32808: ÿc3Start ToolsThread script
+[09/21/20 15:29:01] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:29:01] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:29:01] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:29:01] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:29:14] D2BS 32808: move retry 1
+[09/21/20 15:30:02] D2BS 32808: move retry 1
+[09/21/20 15:30:15] D2BS 32808: move retry 1
+[09/21/20 15:30:16] D2BS 32808: move retry 1
+[09/21/20 15:30:23] D2BS 32808: move retry 1
+[09/21/20 15:31:11] D2BS 32808: move retry 1
+[09/21/20 15:31:24] D2BS 32808: move retry 1
+[09/21/20 15:31:37] D2BS 32808: move retry 1
+[09/21/20 15:31:45] D2BS 32808: move retry 1
+[09/21/20 15:31:46] D2BS 32808: move retry 1
+[09/21/20 15:32:34] D2BS 32808: move retry 1
+[09/21/20 15:32:44] D2BS 32808: move retry 1
+[09/21/20 15:32:50] D2BS 32808: move retry 1
+[09/21/20 15:32:56] D2BS 32808: move retry 1
+[09/21/20 15:33:18] D2BS 32808: move retry 1
+[09/21/20 15:33:37] D2BS 32808: move retry 1
+[09/21/20 15:33:53] D2BS 32808: Script default.dbj ended
+[09/21/20 15:33:53] D2BS 32808: Script tools\autobuildthread.js ended
+[09/21/20 15:33:53] D2BS 32808: Script tools\party.js ended
+[09/21/20 15:33:53] D2BS 32808: Script tools\toolsthread.js ended
+[09/21/20 15:33:53] D2BS 32808: Script tools\townchicken.js ended
+[09/21/20 15:33:59] D2BS 32808: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:33:59] D2BS 32808: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:33:59] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:33:59] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:33:59] D2BS 32808: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:33:59] D2BS 32808: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:33:59] D2BS 32808: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc215 ms
+[09/21/20 15:33:59] D2BS 32808: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:33:59] D2BS 32808: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 15:33:59] D2BS 32808: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:33:59] D2BS 32808: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:33:59] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:33:59] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:33:59] D2BS 32808: AutoBuild: Loaded helper thread
+[09/21/20 15:33:59] D2BS 32808: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:33:59] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:33:59] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:33:59] D2BS 32808: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:33:59] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:33:59] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:33:59] D2BS 32808: ÿc3Start ToolsThread script
+[09/21/20 15:33:59] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:33:59] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:34:18] D2BS 32808: move retry 1
+[09/21/20 15:34:40] D2BS 32808: move retry 1
+[09/21/20 15:34:45] D2BS 32808: move retry 1
+[09/21/20 15:34:50] D2BS 32808: move retry 1
+[09/21/20 15:34:55] D2BS 32808: move retry 1
+[09/21/20 15:35:00] D2BS 32808: move retry 1
+[09/21/20 15:35:05] D2BS 32808: move retry 1
+[09/21/20 15:35:07] D2BS 32808: move retry 2
+[09/21/20 15:35:56] D2BS 32808: move retry 1
+[09/21/20 15:36:04] D2BS 32808: move retry 1
+[09/21/20 15:36:09] D2BS 32808: move retry 1
+[09/21/20 15:36:34] D2BS 32808: move retry 1
+[09/21/20 15:36:39] D2BS 32808: move retry 1
+[09/21/20 15:37:56] D2BS 32808: move retry 1
+[09/21/20 15:38:07] D2BS 32808: move retry 1
+[09/21/20 15:38:13] D2BS 32808: move retry 1
+[09/21/20 15:38:27] D2BS 32808: move retry 1
+[09/21/20 15:39:31] D2BS 32808: move retry 1
+[09/21/20 15:39:35] D2BS 32808: move retry 1
+[09/21/20 15:39:39] D2BS 32808: move retry 1
+[09/21/20 15:39:45] D2BS 32808: move retry 1
+[09/21/20 15:40:12] D2BS 32808: move retry 1
+[09/21/20 15:40:29] D2BS 32808: move retry 1
+[09/21/20 15:41:13] D2BS 32808: move retry 1
+[09/21/20 15:41:35] D2BS 32808: move retry 1
+[09/21/20 15:41:39] D2BS 32808: move retry 1
+[09/21/20 15:41:44] D2BS 32808: move retry 1
+[09/21/20 15:41:47] D2BS 32808: move retry 1
+[09/21/20 15:41:53] D2BS 32808: move retry 1
+[09/21/20 15:42:14] D2BS 32808: move retry 1
+[09/21/20 15:42:47] D2BS 32808: Script default.dbj ended
+[09/21/20 15:42:47] D2BS 32808: Script tools\autobuildthread.js ended
+[09/21/20 15:42:47] D2BS 32808: Script tools\party.js ended
+[09/21/20 15:42:47] D2BS 32808: Script tools\toolsthread.js ended
+[09/21/20 15:42:47] D2BS 32808: Script tools\townchicken.js ended
+[09/21/20 15:42:53] D2BS 32808: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:42:53] D2BS 32808: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:42:53] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:42:53] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:42:53] D2BS 32808: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:42:53] D2BS 32808: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:42:53] D2BS 32808: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:42:53] D2BS 32808: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:42:53] D2BS 32808: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc215 ms
+[09/21/20 15:42:53] D2BS 32808: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:42:53] D2BS 32808: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:42:53] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:42:53] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:42:53] D2BS 32808: AutoBuild: Loaded helper thread
+[09/21/20 15:42:53] D2BS 32808: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:42:53] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:42:53] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:42:53] D2BS 32808: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:42:53] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:42:53] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:42:53] D2BS 32808: ÿc3Start ToolsThread script
+[09/21/20 15:42:53] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:42:53] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:43:15] D2BS 32808: move retry 1
+[09/21/20 15:43:26] D2BS 32808: move retry 1
+[09/21/20 15:43:34] D2BS 32808: Script default.dbj ended
+[09/21/20 15:43:34] D2BS 32808: Script tools\autobuildthread.js ended
+[09/21/20 15:43:34] D2BS 32808: Script tools\party.js ended
+[09/21/20 15:43:34] D2BS 32808: Script tools\toolsthread.js ended
+[09/21/20 15:43:34] D2BS 32808: Script tools\townchicken.js ended
+[09/21/20 15:43:40] D2BS 32808: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:43:40] D2BS 32808: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:43:40] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:43:40] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:43:40] D2BS 32808: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/21/20 15:43:40] D2BS 32808: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:43:40] D2BS 32808: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:43:40] D2BS 32808: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:43:40] D2BS 32808: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 15:43:40] D2BS 32808: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:43:40] D2BS 32808: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[09/21/20 15:43:40] D2BS 32808: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:43:40] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:43:40] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:43:40] D2BS 32808: AutoBuild: Loaded helper thread
+[09/21/20 15:43:41] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:43:41] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:43:41] D2BS 32808: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:43:41] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:43:41] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:43:41] D2BS 32808: ÿc3Start ToolsThread script
+[09/21/20 15:43:41] D2BS 32808: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:43:41] D2BS 32808: Updating Config from level 0 to 21
+[09/21/20 15:43:42] D2BS 32808: move retry 1
+[09/21/20 15:43:51] D2BS 32808: move retry 2
+[09/21/20 15:43:54] D2BS 32808: move retry 3
+[09/21/20 15:44:13] D2BS 32808: move retry 1
+[09/21/20 15:44:38] D2BS 32808: move retry 1
+[09/21/20 15:45:16] D2BS 32808: move retry 1
+[09/21/20 15:45:18] D2BS 32808: move retry 1
+[09/21/20 15:46:17] D2BS 32808: move retry 1
+[09/21/20 15:47:19] D2BS 32808: move retry 1
+[09/21/20 15:47:37] D2BS 32808: Script default.dbj ended
+[09/21/20 15:47:37] D2BS 32808: Script tools\autobuildthread.js ended
+[09/21/20 15:47:37] D2BS 32808: Script tools\party.js ended
+[09/21/20 15:47:37] D2BS 32808: Script tools\toolsthread.js ended
+[09/21/20 15:47:37] D2BS 32808: Script tools\townchicken.js ended
+[09/21/20 15:47:43] D2BS 32808: D2BS Shutdown complete.
+[09/21/20 15:47:44] D2BS 38268: D2BS Engine startup complete. 1.6.4U
+[09/21/20 15:47:44] D2BS 38268: Wind
+[09/21/20 15:47:44] D2BS 38268: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/21/20 15:47:44] D2BS 38268: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/21/20 15:47:44] D2BS 38268: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/21/20 15:47:44] D2BS 38268: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/21/20 15:47:44] D2BS 38268: ÿc2D2BSÿc0 :: Started Console Script
+[09/21/20 15:47:45] D2BS 38268: Heartbeat loaded
+[09/21/20 15:48:02] D2BS 38268: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:48:02] D2BS 38268: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:48:03] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:48:03] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:03] D2BS 38268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/21/20 15:48:03] D2BS 38268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:03] D2BS 38268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:03] D2BS 38268: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:03] D2BS 38268: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/21/20 15:48:03] D2BS 38268: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:03] D2BS 38268: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:03] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:48:03] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:03] D2BS 38268: AutoBuild: Loaded helper thread
+[09/21/20 15:48:03] D2BS 38268: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:48:03] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:48:03] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:03] D2BS 38268: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:48:03] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:48:03] D2BS 38268: ÿc3Start ToolsThread script
+[09/21/20 15:48:03] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:03] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:48:03] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:24] D2BS 38268: move retry 1
+[09/21/20 15:48:42] D2BS 38268: Script default.dbj ended
+[09/21/20 15:48:42] D2BS 38268: Script tools\autobuildthread.js ended
+[09/21/20 15:48:42] D2BS 38268: Script tools\party.js ended
+[09/21/20 15:48:42] D2BS 38268: Script tools\toolsthread.js ended
+[09/21/20 15:48:42] D2BS 38268: Script tools\townchicken.js ended
+[09/21/20 15:48:49] D2BS 38268: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:48:49] D2BS 38268: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:48:49] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:48:49] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:49] D2BS 38268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:49] D2BS 38268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:49] D2BS 38268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:49] D2BS 38268: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:49] D2BS 38268: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/21/20 15:48:49] D2BS 38268: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:49] D2BS 38268: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:48:49] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:48:49] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:49] D2BS 38268: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:48:49] D2BS 38268: AutoBuild: Loaded helper thread
+[09/21/20 15:48:49] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:48:49] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:49] D2BS 38268: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:48:49] D2BS 38268: ÿc3Start ToolsThread script
+[09/21/20 15:48:49] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:48:49] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:48:49] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:48:49] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:49:24] D2BS 38268: move retry 1
+[09/21/20 15:49:41] D2BS 38268: move retry 1
+[09/21/20 15:49:43] D2BS 38268: move retry 1
+[09/21/20 15:49:44] D2BS 38268: move retry 1
+[09/21/20 15:50:02] D2BS 38268: move retry 1
+[09/21/20 15:50:08] D2BS 38268: move retry 1
+[09/21/20 15:50:08] D2BS 38268: move retry 2
+[09/21/20 15:50:38] D2BS 38268: move retry 1
+[09/21/20 15:50:43] D2BS 38268: move retry 1
+[09/21/20 15:50:51] D2BS 38268: move retry 1
+[09/21/20 15:50:58] D2BS 38268: move retry 1
+[09/21/20 15:50:59] D2BS 38268: move retry 1
+[09/21/20 15:51:23] D2BS 38268: move retry 1
+[09/21/20 15:51:30] D2BS 38268: move retry 1
+[09/21/20 15:52:23] D2BS 38268: move retry 1
+[09/21/20 15:52:30] D2BS 38268: move retry 1
+[09/21/20 15:52:49] D2BS 38268: move retry 1
+[09/21/20 15:52:57] D2BS 38268: move retry 2
+[09/21/20 15:53:06] D2BS 38268: move retry 1
+[09/21/20 15:53:27] D2BS 38268: move retry 1
+[09/21/20 15:53:28] D2BS 38268: move retry 1
+[09/21/20 15:53:53] D2BS 38268: move retry 1
+[09/21/20 15:53:56] D2BS 38268: move retry 2
+[09/21/20 15:53:58] D2BS 38268: move retry 3
+[09/21/20 15:54:14] D2BS 38268: move retry 1
+[09/21/20 15:54:21] D2BS 38268: move retry 1
+[09/21/20 15:54:23] D2BS 38268: move retry 1
+[09/21/20 15:54:24] D2BS 38268: move retry 1
+[09/21/20 15:54:29] D2BS 38268: move retry 1
+[09/21/20 15:54:30] D2BS 38268: move retry 2
+[09/21/20 15:54:43] D2BS 38268: move retry 1
+[09/21/20 15:55:03] D2BS 38268: Script default.dbj ended
+[09/21/20 15:55:03] D2BS 38268: Script tools\autobuildthread.js ended
+[09/21/20 15:55:03] D2BS 38268: Script tools\party.js ended
+[09/21/20 15:55:03] D2BS 38268: Script tools\toolsthread.js ended
+[09/21/20 15:55:03] D2BS 38268: Script tools\townchicken.js ended
+[09/21/20 15:55:09] D2BS 38268: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:55:09] D2BS 38268: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:55:09] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:55:09] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:55:09] D2BS 38268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:55:09] D2BS 38268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:55:09] D2BS 38268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:55:09] D2BS 38268: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:55:09] D2BS 38268: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc215 ms
+[09/21/20 15:55:09] D2BS 38268: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:55:09] D2BS 38268: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:55:09] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:55:09] D2BS 38268: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:55:09] D2BS 38268: initNPC: heal
+[09/21/20 15:55:09] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:55:09] D2BS 38268: AutoBuild: Loaded helper thread
+[09/21/20 15:55:09] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:55:09] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:55:09] D2BS 38268: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:55:09] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:55:09] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:55:09] D2BS 38268: ÿc3Start ToolsThread script
+[09/21/20 15:55:09] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:55:09] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:57:44] D2BS 38268: 74,46,67
+[09/21/20 15:57:45] D2BS 38268: ÿc1Error in ÿc0LevelFollower ÿc1(misc.js line ÿc1999): ÿc1Misc.click: Third arg must be a Unit.
+[09/21/20 15:57:45] D2BS 38268: ÿc8Run duration ÿc2156.39
+[09/21/20 15:57:46] D2BS 38268: Script tools\autobuildthread.js ended
+[09/21/20 15:57:46] D2BS 38268: Script tools\party.js ended
+[09/21/20 15:57:46] D2BS 38268: Script tools\townchicken.js ended
+[09/21/20 15:57:52] D2BS 38268: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:57:52] D2BS 38268: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:57:52] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:57:52] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:57:52] D2BS 38268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/21/20 15:57:52] D2BS 38268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:57:52] D2BS 38268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 15:57:52] D2BS 38268: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:57:52] D2BS 38268: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 15:57:52] D2BS 38268: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:57:52] D2BS 38268: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[09/21/20 15:57:52] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:57:52] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:57:52] D2BS 38268: AutoBuild: Loaded helper thread
+[09/21/20 15:57:52] D2BS 38268: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:57:52] D2BS 38268: initNPC: buyPotions
+[09/21/20 15:57:52] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:57:52] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:57:52] D2BS 38268: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:57:52] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:57:52] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:57:52] D2BS 38268: ÿc3Start ToolsThread script
+[09/21/20 15:57:52] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:57:52] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:58:44] D2BS 38268: 74,46,67
+[09/21/20 15:58:48] D2BS 38268: ÿc1Error in ÿc0LevelFollower ÿc1(misc.js line ÿc1999): ÿc1Misc.click: Third arg must be a Unit.
+[09/21/20 15:58:53] D2BS 38268: ÿc8Run duration ÿc261.313
+[09/21/20 15:58:53] D2BS 38268: Script tools\autobuildthread.js ended
+[09/21/20 15:58:53] D2BS 38268: Script tools\party.js ended
+[09/21/20 15:58:53] D2BS 38268: Script tools\townchicken.js ended
+[09/21/20 15:59:00] D2BS 38268: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 15:59:00] D2BS 38268: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 15:59:01] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 15:59:01] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:59:01] D2BS 38268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 15:59:01] D2BS 38268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 15:59:01] D2BS 38268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc216 ms
+[09/21/20 15:59:01] D2BS 38268: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 15:59:01] D2BS 38268: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 15:59:01] D2BS 38268: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 15:59:01] D2BS 38268: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 15:59:01] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 15:59:01] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:59:01] D2BS 38268: AutoBuild: Loaded helper thread
+[09/21/20 15:59:01] D2BS 38268: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 15:59:01] D2BS 38268: initNPC: heal
+[09/21/20 15:59:01] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 15:59:01] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:59:01] D2BS 38268: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 15:59:01] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 15:59:01] D2BS 38268: ÿc3Start ToolsThread script
+[09/21/20 15:59:01] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:59:01] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 15:59:01] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 15:59:45] D2BS 38268: 74,46,67
+[09/21/20 15:59:48] D2BS 38268: ÿc1Error in ÿc0LevelFollower ÿc1(misc.js line ÿc1999): ÿc1Misc.click: Third arg must be a Unit.
+[09/21/20 16:00:01] D2BS 38268: ÿc8Run duration ÿc260.735
+[09/21/20 16:00:01] D2BS 38268: Script tools\autobuildthread.js ended
+[09/21/20 16:00:01] D2BS 38268: Script tools\party.js ended
+[09/21/20 16:00:01] D2BS 38268: Script tools\townchicken.js ended
+[09/21/20 16:00:09] D2BS 38268: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 16:00:09] D2BS 38268: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 16:00:09] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 16:00:09] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 16:00:09] D2BS 38268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 16:00:09] D2BS 38268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 16:00:09] D2BS 38268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc216 ms
+[09/21/20 16:00:09] D2BS 38268: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 16:00:09] D2BS 38268: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc20 ms
+[09/21/20 16:00:09] D2BS 38268: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 16:00:09] D2BS 38268: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 16:00:09] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 16:00:09] D2BS 38268: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 16:00:09] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 16:00:09] D2BS 38268: initNPC: heal
+[09/21/20 16:00:09] D2BS 38268: AutoBuild: Loaded helper thread
+[09/21/20 16:00:10] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 16:00:10] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 16:00:10] D2BS 38268: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 16:00:10] D2BS 38268: ÿc3Start ToolsThread script
+[09/21/20 16:00:10] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 16:00:10] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 16:00:10] D2BS 38268: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 16:00:10] D2BS 38268: Updating Config from level 0 to 21
+[09/21/20 16:01:34] D2BS 38268: 40
+[09/21/20 16:02:23] D2BS 38268: initNPC: heal
+[09/21/20 16:03:23] D2BS 38268: ÿc7Picked up ÿc4103 Gold
+[09/21/20 16:03:37] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(14/20)
+[09/21/20 16:04:02] D2BS 38268: move retry 1
+[09/21/20 16:04:03] D2BS 38268: ÿc7Picked up ÿc473 Gold
+[09/21/20 16:04:08] D2BS 38268: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/21/20 16:04:19] D2BS 38268: move retry 1
+[09/21/20 16:04:29] D2BS 38268: move retry 2
+[09/21/20 16:04:42] D2BS 38268: ÿc7Picked up ÿc495 Gold
+[09/21/20 16:04:57] D2BS 38268: move retry 1
+[09/21/20 16:05:08] D2BS 38268: move retry 1
+[09/21/20 16:05:12] D2BS 38268: move retry 1
+[09/21/20 16:06:03] D2BS 38268: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 21) (LateGame.nip #29)
+[09/21/20 16:06:09] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:06:20] D2BS 38268: move retry 1
+[09/21/20 16:06:22] D2BS 38268: move retry 1
+[09/21/20 16:07:06] D2BS 38268: move retry 1
+[09/21/20 16:07:20] D2BS 38268: move retry 1
+[09/21/20 16:07:34] D2BS 38268: move retry 1
+[09/21/20 16:07:38] D2BS 38268: move retry 1
+[09/21/20 16:08:11] D2BS 38268: move retry 1
+[09/21/20 16:08:29] D2BS 38268: move retry 1
+[09/21/20 16:08:31] D2BS 38268: move retry 2
+[09/21/20 16:08:48] D2BS 38268: move retry 1
+[09/21/20 16:08:51] D2BS 38268: ÿc7Picked up ÿc488 Gold
+[09/21/20 16:08:55] D2BS 38268: move retry 1
+[09/21/20 16:08:55] D2BS 38268: ÿc7Picked up ÿc476 Gold
+[09/21/20 16:09:33] D2BS 38268: 76,85
+[09/21/20 16:09:40] D2BS 38268: move retry 1
+[09/21/20 16:09:54] D2BS 38268: ÿc7Picked up ÿc483 Gold
+[09/21/20 16:09:57] D2BS 38268: move retry 1
+[09/21/20 16:10:09] D2BS 38268: ÿc7Picked up ÿc4111 Gold
+[09/21/20 16:10:12] D2BS 38268: ÿc7Picked up ÿc0ÿc4Khalim's Eye ÿc0(ilvl 1) (LateGame.nip #23)
+[09/21/20 16:10:36] D2BS 38268: move retry 1
+[09/21/20 16:10:45] D2BS 38268: move retry 1
+[09/21/20 16:10:59] D2BS 38268: move retry 1
+[09/21/20 16:11:02] D2BS 38268: ÿc7Picked up ÿc429 Gold
+[09/21/20 16:11:33] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:11:33] D2BS 38268: ÿc7Picked up ÿc0ÿc4A Jade Figurine ÿc0(ilvl 1) (LateGame.nip #19)
+[09/21/20 16:11:33] D2BS 38268: ÿc7Picked up ÿc9Chain Boots ÿc0(ilvl 24) (Tornado.xpac.nip #62)
+[09/21/20 16:11:48] D2BS 38268: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/21/20 16:11:50] D2BS 38268: ÿc7Picked up ÿc4440 Gold
+[09/21/20 16:11:55] D2BS 38268: move retry 1
+[09/21/20 16:12:24] D2BS 38268: AutoBuild: Stat points: 5      Skill points: 2
+[09/21/20 16:12:24] D2BS 38268: AutoBuild: Level up detected ( 21 --> 22 )
+[09/21/20 16:12:24] D2BS 38268: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  17)
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: useStatPoint(0): Strength
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Stat (1/5) Increased Strength from 35 to 36
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Stat (2/5) Increased Vitality from 105 to 106
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Stat (3/5) Increased Vitality from 106 to 107
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Stat (4/5) Increased Vitality from 107 to 108
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Stat (5/5) Increased Vitality from 108 to 109
+[09/21/20 16:12:25] D2BS 38268: Updating Config from level 21 to 22
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Updating Config from level 21 to 22
+[09/21/20 16:12:25] D2BS 38268: Updating Config from level 21 to 22
+[09/21/20 16:12:25] D2BS 38268: Updating Config from level 21 to 22
+[09/21/20 16:12:25] D2BS 38268: Updating Config from level 21 to 22
+[09/21/20 16:12:25] D2BS 38268: AutoBuild: Incrementing cached character level to 22
+[09/21/20 16:12:26] D2BS 38268: move retry 1
+[09/21/20 16:12:35] D2BS 38268: ÿc7Picked up ÿc0Spear ÿc0(ilvl 19) (PreMerc.xpac.nip #3)
+[09/21/20 16:12:35] D2BS 38268: ÿc7Picked up ÿc488 Gold
+[09/21/20 16:13:00] D2BS 38268: initNPC: heal
+[09/21/20 16:13:05] D2BS 38268: initNPC: identify
+[09/21/20 16:13:10] D2BS 38268: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[09/21/20 16:14:03] D2BS 38268: Chain Boots
+[09/21/20 16:14:06] D2BS 38268: initNPC: repair
+[09/21/20 16:14:20] D2BS 38268: move retry 1
+[09/21/20 16:14:52] D2BS 38268: move retry 1
+[09/21/20 16:15:00] D2BS 38268: Successfully placed ÿc4Khalim's Eye at X: 0 Y: 0
+[09/21/20 16:15:30] D2BS 38268: ÿc7Picked up ÿc3Ring ÿc0(ilvl 21) (Tornado.xpac.nip #93)
+[09/21/20 16:15:31] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:15:31] D2BS 38268: ÿc7Picked up ÿc424 Gold
+[09/21/20 16:15:31] D2BS 38268: ÿc7Picked up ÿc440 Gold
+[09/21/20 16:15:40] D2BS 38268: ÿc7Picked up ÿc4123 Gold
+[09/21/20 16:15:44] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[09/21/20 16:16:03] D2BS 38268: ÿc7Picked up ÿc496 Gold
+[09/21/20 16:16:27] D2BS 38268: ÿc7Picked up ÿc447 Gold
+[09/21/20 16:16:28] D2BS 38268: move retry 1
+[09/21/20 16:16:45] D2BS 38268: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/21/20 16:16:55] D2BS 38268: move retry 1
+[09/21/20 16:16:57] D2BS 38268: move retry 1
+[09/21/20 16:16:58] D2BS 38268: move retry 2
+[09/21/20 16:17:01] D2BS 38268: move retry 3
+[09/21/20 16:17:22] D2BS 38268: ÿc7Picked up ÿc438 Gold
+[09/21/20 16:17:33] D2BS 38268: ÿc7Picked up ÿc444 Gold
+[09/21/20 16:18:08] D2BS 38268: ÿc7Picked up ÿc458 Gold
+[09/21/20 16:18:13] D2BS 38268: ÿc7Picked up ÿc481 Gold
+[09/21/20 16:18:17] D2BS 38268: move retry 1
+[09/21/20 16:18:17] D2BS 38268: ÿc7Picked up ÿc4105 Gold
+[09/21/20 16:18:20] D2BS 38268: ÿc7Picked up ÿc4106 Gold
+[09/21/20 16:18:27] D2BS 38268: ÿc4Attackÿc0: No valid positions for: River Stalker
+[09/21/20 16:18:27] D2BS 38268: ÿc4Attackÿc0: No valid positions for: River Stalker
+[09/21/20 16:18:28] D2BS 38268: ÿc4Attackÿc0: No valid positions for: River Stalker
+[09/21/20 16:18:28] D2BS 38268: ÿc4Attackÿc0: No valid positions for: River Stalker
+[09/21/20 16:20:38] D2BS 38268: ÿc7Picked up ÿc449 Gold
+[09/21/20 16:20:44] D2BS 38268: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/21/20 16:20:44] D2BS 38268: ÿc7Picked up ÿc429 Gold
+[09/21/20 16:20:47] D2BS 38268: ÿc7Picked up ÿc4123 Gold
+[09/21/20 16:21:24] D2BS 38268: move retry 1
+[09/21/20 16:22:18] D2BS 38268: 77,76
+[09/21/20 16:25:33] D2BS 38268: ÿc7Picked up ÿc438 Gold
+[09/21/20 16:25:33] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:25:33] D2BS 38268: ÿc7Picked up ÿc477 Gold
+[09/21/20 16:25:34] D2BS 38268: ÿc7Picked up ÿc4106 Gold
+[09/21/20 16:25:34] D2BS 38268: ÿc7Picked up ÿc466 Gold
+[09/21/20 16:26:16] D2BS 38268: ÿc7Picked up ÿc459 Gold
+[09/21/20 16:26:17] D2BS 38268: ÿc7Picked up ÿc4104 Gold
+[09/21/20 16:26:17] D2BS 38268: ÿc7Picked up ÿc428 Gold
+[09/21/20 16:26:18] D2BS 38268: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/21/20 16:27:01] D2BS 38268: ÿc1Skipping Flayer 1135 16
+[09/21/20 16:27:16] D2BS 38268: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[09/21/20 16:27:16] D2BS 38268: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/21/20 16:27:17] D2BS 38268: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 22) (LateGame.nip #29)
+[09/21/20 16:27:18] D2BS 38268: ÿc7Picked up ÿc470 Gold
+[09/21/20 16:27:18] D2BS 38268: ÿc7Picked up ÿc427 Gold
+[09/21/20 16:27:47] D2BS 38268: ÿc7Picked up ÿc497 Gold
+[09/21/20 16:27:48] D2BS 38268: ÿc7Picked up ÿc3Brandistock ÿc0(ilvl 26) (Merc.xpac.nip #3)
+[09/21/20 16:27:48] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:28:19] D2BS 38268: ÿc7Picked up ÿc455 Gold
+[09/21/20 16:29:13] D2BS 38268: 78,79
+[09/21/20 16:29:16] D2BS 38268: initNPC: heal
+[09/21/20 16:29:23] D2BS 38268: initNPC: identify
+[09/21/20 16:29:30] D2BS 38268: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[09/21/20 16:29:31] D2BS 38268: initNPC: buyPotions
+[09/21/20 16:29:32] D2BS 38268: Garnet Mask 
+[09/21/20 16:29:52] D2BS 38268: 40
+[09/21/20 16:29:56] D2BS 38268: initNPC: heal
+[09/21/20 16:30:17] D2BS 38268: 75
+[09/21/20 16:30:30] D2BS 38268: initNPC: heal
+[09/21/20 16:31:45] D2BS 38268: AutoBuild: Stat points: 5      Skill points: 2
+[09/21/20 16:31:45] D2BS 38268: AutoBuild: Level up detected ( 22 --> 23 )
+[09/21/20 16:31:45] D2BS 38268: AutoBuild: useSkillPoint(): Oak Sage (226)
+[09/21/20 16:31:45] D2BS 38268: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  18)
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: useStatPoint(0): Strength
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: Stat (1/5) Increased Strength from 36 to 37
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:31:46] D2BS 38268: ÿc7Picked up ÿc440 Gold
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: Stat (2/5) Increased Vitality from 109 to 110
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: Stat (3/5) Increased Vitality from 110 to 111
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: Stat (4/5) Increased Vitality from 111 to 112
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: Stat (5/5) Increased Vitality from 112 to 113
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: Updating Config from level 22 to 23
+[09/21/20 16:31:46] D2BS 38268: Updating Config from level 22 to 23
+[09/21/20 16:31:46] D2BS 38268: Updating Config from level 22 to 23
+[09/21/20 16:31:46] D2BS 38268: Updating Config from level 22 to 23
+[09/21/20 16:31:46] D2BS 38268: Updating Config from level 22 to 23
+[09/21/20 16:31:46] D2BS 38268: AutoBuild: Incrementing cached character level to 23
+[09/21/20 16:32:27] D2BS 38268: ÿc1Skipping Doom Ape 1651 16
+[09/21/20 16:32:32] D2BS 38268: ÿc1Pausing.
+[09/21/20 16:32:34] D2BS 38268: initNPC: heal
+[09/21/20 16:32:39] D2BS 38268: initNPC: buyPotions
+[09/21/20 16:32:44] D2BS 38268: ÿc2Resuming.
+[09/21/20 16:32:58] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[09/21/20 16:34:05] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(14/20)
+[09/21/20 16:34:09] D2BS 38268: 79,80
+[09/21/20 16:35:00] D2BS 38268: ÿc7Picked up ÿc4101 Gold
+[09/21/20 16:35:05] D2BS 38268: ÿc7Picked up ÿc4108 Gold
+[09/21/20 16:35:19] D2BS 38268: 80,92
+[09/21/20 16:35:54] D2BS 38268: move retry 1
+[09/21/20 16:35:55] D2BS 38268: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/21/20 16:36:18] D2BS 38268: ÿc7Picked up ÿc448 Gold
+[09/21/20 16:36:27] D2BS 38268: ÿc7Picked up ÿc4133 Gold
+[09/21/20 16:36:29] D2BS 38268: move retry 1
+[09/21/20 16:36:53] D2BS 38268: ÿc7Picked up ÿc4105 Gold
+[09/21/20 16:37:17] D2BS 38268: move retry 1
+[09/21/20 16:37:20] D2BS 38268: ÿc7Picked up ÿc430 Gold
+[09/21/20 16:37:44] D2BS 38268: 92,93
+[09/21/20 16:38:05] D2BS 38268: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/21/20 16:38:22] D2BS 38268: ÿc7Picked up ÿc494 Gold
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc444 Gold
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc4115 Gold
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc450 Gold
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc478 Gold
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc497 Gold
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc481 Gold
+[09/21/20 16:38:23] D2BS 38268: ÿc7Picked up ÿc435 Gold
+[09/21/20 16:38:32] D2BS 38268: initNPC: heal
+[09/21/20 16:39:28] D2BS 38268: 80
+[09/21/20 16:39:48] D2BS 38268: 80,94
+[09/21/20 16:39:55] D2BS 38268: ÿc7Picked up ÿc474 Gold
+[09/21/20 16:40:32] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:40:32] D2BS 38268: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/21/20 16:40:46] D2BS 38268: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/21/20 16:40:46] D2BS 38268: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/21/20 16:40:47] D2BS 38268: ÿc7Picked up ÿc4140 Gold
+[09/21/20 16:40:58] D2BS 38268: initNPC: heal
+[09/21/20 16:41:03] D2BS 38268: initNPC: identify
+[09/21/20 16:41:06] D2BS 38268: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[09/21/20 16:41:25] D2BS 38268: ÿc7Picked up ÿc475 Gold
+[09/21/20 16:42:25] D2BS 38268: ÿc7Picked up ÿc3Ring ÿc0(ilvl 23) (Tornado.xpac.nip #93)
+[09/21/20 16:43:14] D2BS 38268: ÿc1Skipping Winged Nightmare 2043 16
+[09/21/20 16:43:32] D2BS 38268: ÿc1Pausing.
+[09/21/20 16:43:32] D2BS 38268: initNPC: heal
+[09/21/20 16:43:38] D2BS 38268: initNPC: identify
+[09/21/20 16:43:40] D2BS 38268: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[09/21/20 16:43:41] D2BS 38268: initNPC: buyPotions
+[09/21/20 16:43:50] D2BS 38268: ÿc2Resuming.
+[09/21/20 16:44:03] D2BS 38268: ÿc1Pausing.
+[09/21/20 16:44:03] D2BS 38268: initNPC: heal
+[09/21/20 16:44:08] D2BS 38268: initNPC: fillTome
+[09/21/20 16:44:10] D2BS 38268: initNPC: buyPotions
+[09/21/20 16:44:16] D2BS 38268: ÿc2Resuming.
+[09/21/20 16:44:42] D2BS 38268: ÿc1Pausing.
+[09/21/20 16:44:42] D2BS 38268: initNPC: heal
+[09/21/20 16:44:47] D2BS 38268: initNPC: buyPotions
+[09/21/20 16:44:54] D2BS 38268: ÿc2Resuming.
+[09/21/20 16:45:03] D2BS 38268: ÿc1Pausing.
+[09/21/20 16:45:04] D2BS 38268: initNPC: heal
+[09/21/20 16:45:09] D2BS 38268: initNPC: buyPotions
+[09/21/20 16:45:35] D2BS 38268: ÿc2Resuming.
+[09/21/20 16:46:06] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:46:06] D2BS 38268: ÿc7Picked up ÿc4590 Gold
+[09/21/20 16:46:07] D2BS 38268: ÿc7Picked up ÿc3Large Charm ÿc0(ilvl 23) (LateGame.nip #10)
+[09/21/20 16:46:19] D2BS 38268: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/21/20 16:46:24] D2BS 38268: 81,82,83
+[09/21/20 16:48:04] D2BS 38268: ÿc1Skipping Faithful 2031 16
+[09/21/20 16:48:12] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[09/21/20 16:55:34] D2BS 38268: 101,102
+[09/21/20 16:55:54] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[09/21/20 16:56:07] D2BS 38268: initNPC: heal
+[09/21/20 16:56:13] D2BS 38268: initNPC: identify
+[09/21/20 16:56:16] D2BS 38268: ÿc4MiniShopBotÿc0: Scanning 58 items.
+[09/21/20 16:56:26] D2BS 38268: 40
+[09/21/20 16:56:29] D2BS 38268: initNPC: heal
+[09/21/20 16:56:45] D2BS 38268: 75
+[09/21/20 16:58:41] D2BS 38268: ÿc7Picked up ÿc4118 Gold
+[09/21/20 16:58:49] D2BS 38268: ÿc7Picked up ÿc4108 Gold
+[09/21/20 16:59:45] D2BS 38268: ÿc7Picked up ÿc4785 Gold
+[09/21/20 16:59:59] D2BS 38268: move retry 1
+[09/21/20 17:00:02] D2BS 38268: move retry 2
+[09/21/20 17:00:09] D2BS 38268: initNPC: heal
+[09/21/20 17:00:16] D2BS 38268: move retry 1
+[09/21/20 17:00:17] D2BS 38268: initNPC: buyPotions
+[09/21/20 17:01:03] D2BS 38268: 104,105
+[09/21/20 17:02:03] D2BS 38268: move retry 1
+[09/21/20 17:02:30] D2BS 38268: ÿc1Skipping Corpulent 2563 16
+[09/21/20 17:02:33] D2BS 38268: ÿc1Pausing.
+[09/21/20 17:02:33] D2BS 38268: initNPC: heal
+[09/21/20 17:02:38] D2BS 38268: initNPC: buyPotions
+[09/21/20 17:02:45] D2BS 38268: ÿc2Resuming.
+[09/21/20 17:03:23] D2BS 38268: AutoBuild: Stat points: 10      Skill points: 2
+[09/21/20 17:03:23] D2BS 38268: AutoBuild: Level up detected ( 23 --> 24 )
+[09/21/20 17:03:23] D2BS 38268: AutoBuild: useSkillPoint(): Tornado (245)
+[09/21/20 17:03:23] D2BS 38268: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  1)
+[09/21/20 17:03:23] D2BS 38268: AutoBuild: useStatPoint(0): Strength
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: Stat (1/5) Increased Strength from 37 to 38
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: Stat (2/5) Increased Vitality from 113 to 114
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: Stat (3/5) Increased Vitality from 114 to 115
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: Stat (4/5) Increased Vitality from 115 to 116
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: Stat (5/5) Increased Vitality from 116 to 117
+[09/21/20 17:03:24] D2BS 38268: Updating Config from level 23 to 24
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: Updating Config from level 23 to 24
+[09/21/20 17:03:24] D2BS 38268: Updating Config from level 23 to 24
+[09/21/20 17:03:24] D2BS 38268: Updating Config from level 23 to 24
+[09/21/20 17:03:24] D2BS 38268: Updating Config from level 23 to 24
+[09/21/20 17:03:24] D2BS 38268: AutoBuild: Incrementing cached character level to 24
+[09/21/20 17:04:41] D2BS 38268: ÿc7Picked up ÿc4740 Gold
+[09/21/20 17:04:54] D2BS 38268: initNPC: heal
+[09/21/20 17:06:35] D2BS 38268: ÿc1Skipping Doom Caster 2820 16
+[09/21/20 17:06:37] D2BS 38268: move retry 1
+[09/21/20 17:06:39] D2BS 38268: move retry 2
+[09/21/20 17:06:40] D2BS 38268: move retry 3
+[09/21/20 17:07:44] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[09/21/20 17:08:39] D2BS 38268: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/21/20 17:09:32] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[09/21/20 17:10:06] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[09/21/20 17:14:09] D2BS 38268: move retry 1
+[09/21/20 17:14:25] D2BS 38268: move retry 1
+[09/21/20 17:14:27] D2BS 38268: ÿc7Picked up ÿc4119 Gold
+[09/21/20 17:14:44] D2BS 38268: move retry 1
+[09/21/20 17:14:51] D2BS 38268: move retry 1
+[09/21/20 17:14:53] D2BS 38268: move retry 2
+[09/21/20 17:14:56] D2BS 38268: move retry 1
+[09/21/20 17:15:08] D2BS 38268: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/21/20 17:15:20] D2BS 38268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[09/21/20 17:15:23] D2BS 38268: ÿc7Picked up ÿc4139 Gold
+[09/21/20 17:15:40] D2BS 38268: ÿc1Skipping Stygian Hag 2946 16
+[09/21/20 17:15:49] D2BS 38268: ÿc1Pausing.
+[09/21/20 17:15:49] D2BS 38268: initNPC: heal
+[09/21/20 17:15:55] D2BS 38268: initNPC: fillTome
+[09/21/20 17:15:57] D2BS 38268: initNPC: buyPotions
+[09/21/20 17:16:03] D2BS 38268: ÿc2Resuming.
+[09/21/20 17:16:33] D2BS 38268: ÿc1Pausing.
+[09/21/20 17:16:33] D2BS 38268: initNPC: heal
+[09/21/20 17:16:40] D2BS 38268: initNPC: buyPotions
+[09/21/20 17:16:42] D2BS 38268: initNPC: repair
+[09/21/20 17:16:52] D2BS 38268: ÿc2Resuming.
+[09/21/20 17:17:23] D2BS 38268: ÿc1Pausing.
+[09/21/20 17:17:23] D2BS 38268: initNPC: heal
+[09/21/20 17:17:30] D2BS 38268: initNPC: buyPotions
+[09/21/20 17:17:37] D2BS 38268: ÿc2Resuming.
+[09/21/20 17:17:46] D2BS 38268: ÿc1Skipping Pit Lord 3092 16
+[09/21/20 17:17:54] D2BS 38268: Script default.dbj ended
+[09/21/20 17:17:54] D2BS 38268: Script tools\autobuildthread.js ended
+[09/21/20 17:17:54] D2BS 38268: Script tools\party.js ended
+[09/21/20 17:17:54] D2BS 38268: Script tools\toolsthread.js ended
+[09/21/20 17:17:54] D2BS 38268: Script tools\townchicken.js ended
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 1212
+[09/21/20 17:18:00] D2BS 38268: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 17:18:00] D2BS 38268: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 17:18:00] D2BS 38268: 02F93C94 (D2BS): (filename not available): QueryInterface
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 34612
+[09/21/20 17:18:00] D2BS 38268: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 17:18:00] D2BS 38268: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/21/20 17:18:00] D2BS 38268: 004027E5 (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 37248
+[09/21/20 17:18:00] D2BS 38268: 7774182C (ntdll): (filename not available): NtDelayExecution
+[09/21/20 17:18:00] D2BS 38268: 757A2DDF (KERNELBASE): (filename not available): Sleep
+[09/21/20 17:18:00] D2BS 38268: 004102FC (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 26984
+[09/21/20 17:18:00] D2BS 38268: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 17:18:00] D2BS 38268: 7578F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/21/20 17:18:00] D2BS 38268: 0041A845 (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 11140
+[09/21/20 17:18:00] D2BS 38268: 7774321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 23152
+[09/21/20 17:18:00] D2BS 38268: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 17:18:00] D2BS 38268: 03017236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 17:18:00] D2BS 38268: 03102B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 17:18:00] D2BS 38268: 03101A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 17:18:00] D2BS 38268: 0302E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 15780
+[09/21/20 17:18:00] D2BS 38268: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 17:18:00] D2BS 38268: 03017236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 17:18:00] D2BS 38268: 03102B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 17:18:00] D2BS 38268: 03101A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 17:18:00] D2BS 38268: 0302E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 32444
+[09/21/20 17:18:00] D2BS 38268: 7774150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/21/20 17:18:00] D2BS 38268: 03017236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 17:18:00] D2BS 38268: 03102B1F (D2BS): (filename not available): JS_freeop
+[09/21/20 17:18:00] D2BS 38268: 03101A5E (D2BS): (filename not available): JS_freeop
+[09/21/20 17:18:00] D2BS 38268: 0302E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Stack Walk Thread: 30120
+[09/21/20 17:18:00] D2BS 38268: 02F9B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/21/20 17:18:00] D2BS 38268: 02F937F8 (D2BS): (filename not available): QueryInterface
+[09/21/20 17:18:00] D2BS 38268: 00408A05 (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 00408A81 (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 17:18:00] D2BS 38268: 0063335C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 17:18:00] D2BS 38268: 0061936D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 17:18:00] D2BS 38268: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/21/20 17:18:00] D2BS 38268: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/21/20 17:18:00] D2BS 38268: 00405E6B (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 004065C7 (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 0040671F (Game): (filename not available): (function-name not available)
+[09/21/20 17:18:00] D2BS 38268: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/21/20 17:18:00] D2BS 38268: 76C2F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/21/20 17:18:00] D2BS 38268: 777374B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: 77737484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/21/20 17:18:00] D2BS 38268: Crash File: BlizzardError/2020-09-21 17.18.00/Crash.txt
+[09/21/20 17:18:00] D2BS 38268: D2BS Shutdown complete.
+[09/21/20 17:18:02] D2BS 35584: D2BS Engine startup complete. 1.6.4U
+[09/21/20 17:18:02] D2BS 35584: Wind
+[09/21/20 17:18:02] D2BS 35584: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/21/20 17:18:02] D2BS 35584: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/21/20 17:18:02] D2BS 35584: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/21/20 17:18:02] D2BS 35584: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/21/20 17:18:02] D2BS 35584: ÿc2D2BSÿc0 :: Started Console Script
+[09/21/20 17:18:04] D2BS 35584: Heartbeat loaded
+[09/21/20 17:18:19] D2BS 35584: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/21/20 17:18:19] D2BS 35584: ÿc2D2BSÿc0 :: default.dbj running.
+[09/21/20 17:18:19] D2BS 35584: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/21/20 17:18:19] D2BS 35584: Updating Config from level 0 to 24
+[09/21/20 17:18:19] D2BS 35584: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/21/20 17:18:19] D2BS 35584: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/21/20 17:18:19] D2BS 35584: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/21/20 17:18:19] D2BS 35584: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/21/20 17:18:19] D2BS 35584: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2117ÿc4. Valid entries: ÿc2100. ÿc4Time: ÿc216 ms
+[09/21/20 17:18:19] D2BS 35584: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc25ÿc4. Valid entries: ÿc23. ÿc4Time: ÿc20 ms
+[09/21/20 17:18:20] D2BS 35584: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc270ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/21/20 17:18:20] D2BS 35584: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/21/20 17:18:20] D2BS 35584: Updating Config from level 0 to 24
+[09/21/20 17:18:20] D2BS 35584: AutoBuild: Loaded helper thread
+[09/21/20 17:18:20] D2BS 35584: ÿc2Starting script: ÿc9LevelFollower
+[09/21/20 17:18:20] D2BS 35584: initNPC: heal
+[09/21/20 17:18:20] D2BS 35584: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/21/20 17:18:20] D2BS 35584: Updating Config from level 0 to 24
+[09/21/20 17:18:20] D2BS 35584: ÿc2Party thread loaded. Mode: Accept
+[09/21/20 17:18:20] D2BS 35584: ÿc3Start ToolsThread script
+[09/21/20 17:18:20] D2BS 35584: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/21/20 17:18:20] D2BS 35584: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/21/20 17:18:20] D2BS 35584: Updating Config from level 0 to 24
+[09/21/20 17:18:20] D2BS 35584: Updating Config from level 0 to 24
+[09/21/20 17:18:28] D2BS 35584: move retry 1
+[09/21/20 17:18:48] D2BS 35584: move retry 1
+[09/21/20 17:18:52] D2BS 35584: move retry 1
+[09/21/20 17:18:54] D2BS 35584: move retry 1
+[09/21/20 17:18:58] D2BS 35584: move retry 1
+[09/21/20 17:18:59] D2BS 35584: move retry 1
+[09/21/20 17:19:04] D2BS 35584: move retry 1
+[09/21/20 17:19:07] D2BS 35584: move retry 2
+[09/21/20 17:19:09] D2BS 35584: move retry 3
+[09/21/20 17:19:11] D2BS 35584: move retry 1
+[09/21/20 17:19:13] D2BS 35584: move retry 1
+[09/21/20 17:19:16] D2BS 35584: move retry 1
+[09/21/20 17:19:18] D2BS 35584: move retry 1
+[09/21/20 17:19:21] D2BS 35584: move retry 1
+[09/21/20 17:19:24] D2BS 35584: move retry 1
+[09/21/20 17:19:27] D2BS 35584: ÿc7Picked up ÿc4137 Gold
+[09/21/20 17:19:56] D2BS 35584: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[09/21/20 17:19:57] D2BS 35584: move retry 1
+[09/21/20 17:19:59] D2BS 35584: move retry 1
+[09/21/20 17:20:00] D2BS 35584: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/21/20 17:20:00] D2BS 35584: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/21/20 17:20:01] D2BS 35584: move retry 1
+[09/21/20 17:20:03] D2BS 35584: move retry 2
+[09/21/20 17:20:08] D2BS 35584: ÿc7Picked up ÿc463 Gold
+[09/21/20 17:20:20] D2BS 35584: ÿc7Picked up ÿc4104 Gold
+[09/21/20 17:20:29] D2BS 35584: ÿc7Picked up ÿc439 Gold
+[09/21/20 17:20:53] D2BS 35584: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[09/21/20 17:21:20] D2BS 35584: ÿc7Picked up ÿc4150 Gold
+[09/21/20 17:21:33] D2BS 35584: ÿc7Picked up ÿc4106 Gold
+[09/21/20 17:22:15] D2BS 35584: move retry 1
+[09/21/20 17:22:28] D2BS 35584: AutoBuild: Stat points: 10      Skill points: 2
+[09/21/20 17:22:28] D2BS 35584: AutoBuild: Level up detected ( 24 --> 25 )
+[09/21/20 17:22:28] D2BS 35584: AutoBuild: useSkillPoint(): Tornado (245)
+[09/21/20 17:22:28] D2BS 35584: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  2)
+[09/21/20 17:22:28] D2BS 35584: AutoBuild: useStatPoint(0): Strength
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: Stat (1/5) Increased Strength from 38 to 39
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: Stat (2/5) Increased Vitality from 117 to 118
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: Stat (3/5) Increased Vitality from 118 to 119
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: useStatPoint(3): Vitality
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: Stat (5/5) Increased Vitality from 120 to 121
+[09/21/20 17:22:29] D2BS 35584: Updating Config from level 24 to 25
+[09/21/20 17:22:29] D2BS 35584: Updating Config from level 24 to 25
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: Updating Config from level 24 to 25
+[09/21/20 17:22:29] D2BS 35584: Updating Config from level 24 to 25
+[09/21/20 17:22:29] D2BS 35584: Updating Config from level 24 to 25
+[09/21/20 17:22:29] D2BS 35584: AutoBuild: Incrementing cached character level to 25
+[09/21/20 17:22:39] D2BS 35584: ÿc7Picked up ÿc430 Gold
+[09/21/20 17:23:19] D2BS 35584: ÿc7Picked up ÿc441 Gold
+[09/21/20 17:23:23] D2BS 35584: ÿc7Picked up ÿc4132 Gold
+[09/21/20 17:23:53] D2BS 35584: ÿc7Picked up ÿc489 Gold
+[09/21/20 17:24:50] D2BS 35584: move retry 1
+[09/21/20 17:24:58] D2BS 35584: move retry 1
+[09/21/20 17:25:18] D2BS 35584: move retry 1
+[09/21/20 17:25:41] D2BS 35584: move retry 1
+[09/21/20 17:25:48] D2BS 35584: move retry 1
+[09/21/20 17:25:52] D2BS 35584: move retry 1
+[09/21/20 17:25:55] D2BS 35584: move retry 1
+[09/21/20 17:26:00] D2BS 35584: move retry 1
+[09/21/20 17:26:09] D2BS 35584: ÿc7Picked up ÿc454 Gold
+[09/21/20 17:26:09] D2BS 35584: move retry 1
+[09/21/20 17:26:28] D2BS 35584: ÿc7Picked up ÿc482 Gold
+[09/21/20 17:26:42] D2BS 35584: ÿc7Picked up ÿc453 Gold
+[09/21/20 17:26:49] D2BS 35584: move retry 1
+[09/21/20 17:26:59] D2BS 35584: ÿc7Picked up ÿc491 Gold
+[09/21/20 17:27:08] D2BS 35584: move retry 1
+[09/21/20 17:28:06] D2BS 35584: move retry 1
+[09/21/20 17:28:48] D2BS 35584: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[09/21/20 17:28:53] D2BS 35584: ÿc7Picked up ÿc4125 Gold
+[09/21/20 17:29:34] D2BS 35584: move retry 1
+[09/21/20 17:29:59] D2BS 35584: move retry 1
+[09/21/20 17:30:02] D2BS 35584: move retry 1
+[09/21/20 17:30:23] D2BS 35584: move retry 1
+[09/21/20 17:30:28] D2BS 35584: move retry 1
+[09/21/20 17:30:29] D2BS 35584: move retry 1
+[09/21/20 17:30:41] D2BS 35584: move retry 1
+[09/21/20 17:31:09] D2BS 35584: move retry 1
+[09/21/20 17:31:14] D2BS 35584: move retry 1
+[09/21/20 17:31:27] D2BS 35584: initNPC: heal
+[09/21/20 17:31:28] D2BS 35584: move retry 1
+[09/21/20 17:38:11] D2BS 35584: ÿc1Pausing.
+[09/21/20 17:39:25] D2BS 35584: ÿc2Resuming.
+[09/21/20 17:39:27] D2BS 35584: move retry 1
+[09/21/20 17:45:58] D2BS 35584: 104,105
+[09/21/20 17:46:25] D2BS 35584: 103
+[09/21/20 17:46:29] D2BS 35584: move retry 1
+[09/21/20 17:46:30] D2BS 35584: move retry 2
+[09/21/20 17:46:32] D2BS 35584: initNPC: heal
+[09/21/20 17:46:33] D2BS 35584: move retry 1
+[09/21/20 17:46:38] D2BS 35584: move retry 1
+[09/21/20 17:47:42] D2BS 35584: move retry 1
+[09/21/20 17:47:45] D2BS 35584: move retry 1
+[09/21/20 17:49:55] D2BS 35584: move retry 1
+[09/21/20 17:50:33] D2BS 35584: move retry 1
+[09/21/20 17:51:40] D2BS 35584: move retry 1
+[09/21/20 17:52:27] D2BS 35584: 105,106
+[09/21/20 17:53:07] D2BS 35584: move retry 1
+[09/21/20 17:53:10] D2BS 35584: move retry 2
+[09/21/20 17:53:46] D2BS 35584: ÿc7Picked up ÿc479 Gold
+[09/21/20 17:53:52] D2BS 35584: ÿc7Picked up ÿc4164 Gold
+[09/21/20 17:54:06] D2BS 35584: ÿc7Picked up ÿc4126 Gold
+[09/21/20 17:54:19] D2BS 35584: move retry 1
+[09/21/20 17:54:20] D2BS 35584: move retry 2
+[09/21/20 17:54:26] D2BS 35584: move retry 1
+[09/21/20 17:55:05] D2BS 35584: move retry 1
+[09/21/20 17:55:05] D2BS 35584: ÿc7Picked up ÿc445 Gold
+[09/21/20 17:55:19] D2BS 35584: move retry 1
+[09/21/20 17:55:53] D2BS 35584: move retry 1
+[09/21/20 17:56:21] D2BS 35584: ÿc7Picked up ÿc4132 Gold
+[09/21/20 17:56:29] D2BS 35584: ÿc7Picked up ÿc4127 Gold
+[09/21/20 17:56:39] D2BS 35584: move retry 1
+[09/21/20 17:56:47] D2BS 35584: move retry 1
+[09/21/20 17:56:57] D2BS 35584: move retry 1
+[09/21/20 17:56:57] D2BS 35584: ÿc7Picked up ÿc451 Gold
+[09/21/20 17:57:03] D2BS 35584: move retry 1
+[09/21/20 17:57:04] D2BS 35584: ÿc7Picked up ÿc432 Gold
+[09/21/20 17:57:12] D2BS 35584: ÿc7Picked up ÿc451 Gold
+[09/21/20 17:57:13] D2BS 35584: ÿc7Picked up ÿc4155 Gold
+[09/21/20 17:57:33] D2BS 35584: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[09/21/20 17:57:43] D2BS 35584: move retry 1
+[09/21/20 17:58:11] D2BS 35584: move retry 1
+[09/21/20 17:58:15] D2BS 35584: move retry 1
+[09/21/20 17:58:35] D2BS 35584: ÿc7Picked up ÿc4143 Gold
+[09/21/20 17:59:05] D2BS 35584: move retry 1
+[09/21/20 17:59:05] D2BS 35584: ÿc7Picked up ÿc482 Gold
+[09/21/20 17:59:16] D2BS 35584: ÿc7Picked up ÿc3War Sword ÿc0(ilvl 27) (Tornado.xpac.nip #2)
+[09/21/20 17:59:32] D2BS 35584: move retry 1
+[09/21/20 17:59:35] D2BS 35584: move retry 1
+[09/21/20 17:59:36] D2BS 35584: move retry 2
+[09/21/20 17:59:58] D2BS 35584: move retry 1
+[09/21/20 18:00:02] D2BS 35584: move retry 1
+[09/21/20 18:00:09] D2BS 35584: move retry 1
+[09/21/20 18:00:35] D2BS 35584: move retry 1
+[09/21/20 18:00:45] D2BS 35584: move retry 1
+[09/21/20 18:01:12] D2BS 35584: ÿc7Picked up ÿc459 Gold
+[09/21/20 18:01:22] D2BS 35584: move retry 1
+[09/21/20 18:01:30] D2BS 35584: move retry 1
+[09/21/20 18:01:39] D2BS 35584: move retry 1
+[09/21/20 18:01:41] D2BS 35584: initNPC: heal
+[09/21/20 18:01:49] D2BS 35584: move retry 1
+[09/21/20 18:01:51] D2BS 35584: initNPC: identify
+[09/21/20 18:01:53] D2BS 35584: ÿc4MiniShopBotÿc0: Scanning 56 items.
+[09/21/20 18:09:44] D2BS 35584: move retry 1
+[09/21/20 18:16:03] D2BS 35584: move retry 1
+[09/21/20 18:17:38] D2BS 35584: move retry 1
+[09/21/20 18:17:44] D2BS 35584: move retry 1
+[09/21/20 18:18:46] D2BS 35584: move retry 1
+[09/21/20 18:19:08] D2BS 35584: move retry 1
