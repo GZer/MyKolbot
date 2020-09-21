@@ -129,10 +129,7 @@ function LevelFollower(){
 					}
 				}
 				if(LeaderArea == 46 || LeaderArea == getRoom().correcttomb){
-					this.talkToNPC("Atma");
-					if(getWaypoint(17)){
-						Pather.useWaypoint(46);												//Tal Rasha tomb fix
-					}
+					this.talkToNPC("Atma");													//Tal Rasha tomb fix
 				}
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
 					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
