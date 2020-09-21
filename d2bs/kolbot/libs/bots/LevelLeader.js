@@ -152,9 +152,9 @@ function LevelLeader(){
 				Pather.getWP(46,true);
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(11,0),"Summoner");
-				if(!me.getQuest(11,0)){quit();}
 			break;
 			case TalRashaTomb: //Duriel
+				if(!me.getQuest(11,0)){this.CheckQuests(74);}
 				this.clearToQuestLocation(TalRashaTomb,2,152);
 				this.clearToQuestLocation(TalRashaTomb,2,100);
 				this.placeStaff();
