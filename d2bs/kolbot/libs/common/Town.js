@@ -155,28 +155,15 @@ var Town = {
 		/*Book Of Skill*/
 		if (me.getItem(552)) {
 			item = me.getItem(552);
-
 			if (item.location > 3) {
 				this.openStash();
 			}
-
-			item.interact();
-		}
-		
-		/*Scroll Of Resistance*/
-		if (me.getItem(646)) {
-			item = me.getItem(646);
-
-			if (item.location > 3) {
-				this.openStash();
-			}
-
 			item.interact();
 		}
 
 		/*Atma for Discount*/
-		if(me.getQuest(9, 3) && !me.getQuest(9, 0)){
-			Pather.journeyTo(40);
+		if(me.getQuest(9, 3) && !me.getQuest(9, 0)) {
+			this.goToTown(2);
 			this.move(NPC.Atma);
 			npc=getUnit(1,NPC.Atma);
 			if(npc && npc.openMenu()){
@@ -185,37 +172,43 @@ var Town = {
 		}
 		
 		/*Cain for Access to Durance*/
-		if(me.getQuest(21, 3) && !me.getQuest(21, 0)){
-			Pather.journeyTo(75);
+		if(me.getQuest(21, 3) && !me.getQuest(21, 0)) {
+			this.goToTown(3);
 			this.move(NPC.Cain);
 			npc=getUnit(1,NPC.Cain);
 			if(npc && npc.openMenu()){
 				me.cancel();
 			}
 		}
-		
-		/*Anya for Item*/
-		if(me.getQuest(37, 3) && !me.getQuest(37, 0)){
-			Pather.journeyTo(109);
-			this.move(NPC.Anya);
-			npc=getUnit(1,NPC.Anya);
-			if(npc && npc.openMenu()){
+
+		/*Black Book*/
+		if (me.getItem(548)) {
+			this.goToTown(3);
+			this.move(NPC.Alkor);
+			npc = getUnit(1, NPC.Alkor);
+			if (npc && npc.openMenu()) {
 				me.cancel();
 			}
 		}
 		
-		// //Qual-Kehk for Runes
-		// if(me.getQuest(36, 3)){
-			// try{
-				// this.move("Qual-Kehk");
-				// npc=getUnit(1,"Qual-Kehk");
-				// if(npc && npc.openMenu()){
-					// me.cancel();
-				// }
-			// }catch(err){
-				// D2Bot.printToConsole("No Free Runes");
-			// }
-		// }
+		/*Anya for Item*/
+		if(me.getQuest(37, 3) && !me.getQuest(37, 0)) {
+			this.goToTown(5);
+			this.move(NPC.Anya);
+			npc=getUnit(1,NPC.Anya);
+			if(npc && npc.openMenu()) {
+				me.cancel();
+			}
+		}
+		
+		/*Scroll Of Resistance*/
+		if (me.getItem(646)) {
+			item = me.getItem(646);
+			if (item.location > 3) {
+				this.openStash();
+			}
+			item.interact();
+		}
 	},
 
 	// Start a task and return the NPC Unit
