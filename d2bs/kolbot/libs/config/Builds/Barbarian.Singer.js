@@ -174,6 +174,7 @@ var AutoBuildTemplate={
 			Update: function(){
 				Config.MakeRunewords=true;
 				Config.UseMerc=true;
+				Config.MercWatch=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);

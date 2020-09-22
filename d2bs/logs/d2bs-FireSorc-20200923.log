@@ -1,0 +1,317 @@
+[09/23/20 08:37:43] D2BS 27820: D2BS Engine startup complete. 1.6.4U
+[09/23/20 08:37:43] D2BS 27820: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/23/20 08:37:43] D2BS 27820: FireSorc
+[09/23/20 08:37:43] D2BS 27820: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/23/20 08:37:43] D2BS 27820: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/23/20 08:37:43] D2BS 27820: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/23/20 08:37:43] D2BS 27820: ÿc2D2BSÿc0 :: Started Console Script
+[09/23/20 08:37:44] D2BS 27820: Heartbeat loaded
+[09/23/20 08:38:04] D2BS 27820: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/23/20 08:38:04] D2BS 27820: ÿc2D2BSÿc0 :: default.dbj running.
+[09/23/20 08:38:04] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/23/20 08:38:04] D2BS 27820: Updating Config from level 0 to 60
+[09/23/20 08:38:04] D2BS 27820: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/23/20 08:38:04] D2BS 27820: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/23/20 08:38:04] D2BS 27820: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/23/20 08:38:04] D2BS 27820: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc215 ms
+[09/23/20 08:38:04] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/23/20 08:38:04] D2BS 27820: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc276ÿc4. Valid entries: ÿc260. ÿc4Time: ÿc20 ms
+[09/23/20 08:38:04] D2BS 27820: Updating Config from level 0 to 60
+[09/23/20 08:38:04] D2BS 27820: AutoBuild: Loaded helper thread
+[09/23/20 08:38:04] D2BS 27820: ÿc2Starting script: ÿc9LevelFollower
+[09/23/20 08:38:04] D2BS 27820: initNPC: buyPotions
+[09/23/20 08:38:04] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/23/20 08:38:04] D2BS 27820: Updating Config from level 0 to 60
+[09/23/20 08:38:04] D2BS 27820: ÿc2Party thread loaded. Mode: Accept
+[09/23/20 08:38:04] D2BS 27820: ÿc3Start ToolsThread script
+[09/23/20 08:38:04] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/23/20 08:38:04] D2BS 27820: Updating Config from level 0 to 60
+[09/23/20 08:38:04] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/23/20 08:38:04] D2BS 27820: Updating Config from level 0 to 60
+[09/23/20 08:38:05] D2BS 27820: move retry 1
+[09/23/20 08:38:45] D2BS 27820: ÿc7Picked up ÿc4120 Gold
+[09/23/20 08:38:55] D2BS 27820: move retry 1
+[09/23/20 08:38:55] D2BS 27820: ÿc7Picked up ÿc4110 Gold
+[09/23/20 08:39:00] D2BS 27820: ÿc7Picked up ÿc4194 Gold
+[09/23/20 08:39:10] D2BS 27820: ÿc7Picked up ÿc4264 Gold
+[09/23/20 08:39:18] D2BS 27820: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/23/20 08:39:23] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:39:33] D2BS 27820: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/23/20 08:39:45] D2BS 27820: initNPC: heal
+[09/23/20 08:39:55] D2BS 27820: initNPC: buyPotions
+[09/23/20 08:40:06] D2BS 27820: 111
+[09/23/20 08:40:29] D2BS 27820: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/23/20 08:40:29] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:40:29] D2BS 27820: ÿc7Picked up ÿc3Studded Leather ÿc0(ilvl 62) (Meteor.xpac.nip #50)
+[09/23/20 08:41:09] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:41:09] D2BS 27820: ÿc7Picked up ÿc3Heavy Belt ÿc0(ilvl 61) (Meteor.xpac.nip #86)
+[09/23/20 08:42:00] D2BS 27820: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/23/20 08:42:40] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:43:58] D2BS 27820: ÿc1Skipping Barricaded Tower 465 16
+[09/23/20 08:44:10] D2BS 27820: ÿc7Picked up ÿc4298 Gold
+[09/23/20 08:44:11] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:44:33] D2BS 27820: ÿc7Picked up ÿc4220 Gold
+[09/23/20 08:44:52] D2BS 27820: ÿc1Skipping Barricaded Tower 464 16
+[09/23/20 08:45:12] D2BS 27820: ÿc7Picked up ÿc490 Gold
+[09/23/20 08:45:13] D2BS 27820: ÿc7Picked up ÿc474 Gold
+[09/23/20 08:45:14] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:45:25] D2BS 27820: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/23/20 08:45:26] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:45:31] D2BS 27820: move retry 1
+[09/23/20 08:45:48] D2BS 27820: move retry 1
+[09/23/20 08:48:15] D2BS 27820: move retry 1
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: Stat points: 15      Skill points: 6
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: Level up detected ( 60 --> 61 )
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: useSkillPoint(): Fire Mastery (61)
+[09/23/20 08:48:51] D2BS 27820: ÿc7Picked up ÿc4127 Gold
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: Skill (1/1) Increased Fire Mastery (61) by one (level:  22)
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: useStatPoint(0): Strength
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: Stat (1/5) Increased Strength from 69 to 70
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: useStatPoint(1): Energy
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: Stat (2/5) Increased Energy from 163 to 164
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: useStatPoint(1): Energy
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: Stat (3/5) Increased Energy from 164 to 165
+[09/23/20 08:48:51] D2BS 27820: AutoBuild: useStatPoint(3): Vitality
+[09/23/20 08:48:52] D2BS 27820: AutoBuild: Stat (4/5) Increased Vitality from 128 to 129
+[09/23/20 08:48:52] D2BS 27820: AutoBuild: useStatPoint(3): Vitality
+[09/23/20 08:48:52] D2BS 27820: AutoBuild: Stat (5/5) Increased Vitality from 129 to 130
+[09/23/20 08:48:52] D2BS 27820: Updating Config from level 60 to 61
+[09/23/20 08:48:52] D2BS 27820: AutoBuild: Updating Config from level 60 to 61
+[09/23/20 08:48:52] D2BS 27820: Updating Config from level 60 to 61
+[09/23/20 08:48:52] D2BS 27820: Updating Config from level 60 to 61
+[09/23/20 08:48:52] D2BS 27820: Updating Config from level 60 to 61
+[09/23/20 08:48:52] D2BS 27820: AutoBuild: Incrementing cached character level to 61
+[09/23/20 08:49:08] D2BS 27820: move retry 1
+[09/23/20 08:49:29] D2BS 27820: move retry 1
+[09/23/20 08:49:38] D2BS 27820: move retry 1
+[09/23/20 08:50:28] D2BS 27820: ÿc1Skipping Barricaded Tower 744 16
+[09/23/20 08:50:33] D2BS 27820: ÿc7Picked up ÿc4263 Gold
+[09/23/20 08:51:50] D2BS 27820: move retry 1
+[09/23/20 08:52:31] D2BS 27820: move retry 1
+[09/23/20 08:52:36] D2BS 27820: ÿc7Picked up ÿc461 Gold
+[09/23/20 08:53:09] D2BS 27820: move retry 1
+[09/23/20 08:53:31] D2BS 27820: move retry 1
+[09/23/20 08:53:38] D2BS 27820: ÿc7Picked up ÿc4185 Gold
+[09/23/20 08:53:52] D2BS 27820: ÿc7Picked up ÿc490 Gold
+[09/23/20 08:53:53] D2BS 27820: move retry 1
+[09/23/20 08:54:03] D2BS 27820: move retry 1
+[09/23/20 08:54:11] D2BS 27820: move retry 1
+[09/23/20 08:54:19] D2BS 27820: move retry 1
+[09/23/20 08:54:27] D2BS 27820: move retry 1
+[09/23/20 08:54:47] D2BS 27820: move retry 1
+[09/23/20 08:54:59] D2BS 27820: move retry 1
+[09/23/20 08:55:18] D2BS 27820: ÿc1Skipping Barricaded Tower 916 16
+[09/23/20 08:55:19] D2BS 27820: ÿc7Picked up ÿc4248 Gold
+[09/23/20 08:56:02] D2BS 27820: move retry 1
+[09/23/20 08:56:07] D2BS 27820: move retry 1
+[09/23/20 08:56:09] D2BS 27820: move retry 1
+[09/23/20 08:56:27] D2BS 27820: ÿc1Skipping Barricaded Tower 936 16
+[09/23/20 08:57:09] D2BS 27820: ÿc1Skipping Barricaded Tower 898 16
+[09/23/20 08:57:53] D2BS 27820: ÿc7Picked up ÿc4266 Gold
+[09/23/20 08:57:57] D2BS 27820: move retry 1
+[09/23/20 08:58:01] D2BS 27820: move retry 1
+[09/23/20 08:58:07] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 08:58:35] D2BS 27820: ÿc1Skipping Barricaded Tower 856 16
+[09/23/20 08:58:46] D2BS 27820: ÿc1Skipping Barricaded Tower 856 16
+[09/23/20 08:58:56] D2BS 27820: ÿc1Skipping Barricaded Tower 856 16
+[09/23/20 08:59:04] D2BS 27820: move retry 1
+[09/23/20 08:59:33] D2BS 27820: ÿc1Skipping Barricaded Tower 604 16
+[09/23/20 08:59:44] D2BS 27820: ÿc1Skipping Barricaded Tower 605 16
+[09/23/20 08:59:56] D2BS 27820: ÿc1Skipping Demon Gremlin 615 16
+[09/23/20 09:00:01] D2BS 27820: ÿc7Picked up ÿc4235 Gold
+[09/23/20 09:00:02] D2BS 27820: move retry 1
+[09/23/20 09:00:33] D2BS 27820: move retry 1
+[09/23/20 09:01:00] D2BS 27820: move retry 1
+[09/23/20 09:01:06] D2BS 27820: move retry 1
+[09/23/20 09:01:44] D2BS 27820: ÿc1Skipping Barricaded Tower 474 16
+[09/23/20 09:01:57] D2BS 27820: ÿc1Skipping Demon Gremlin 616 16
+[09/23/20 09:02:45] D2BS 27820: move retry 1
+[09/23/20 09:03:12] D2BS 27820: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/23/20 09:03:46] D2BS 27820: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/23/20 09:04:28] D2BS 27820: move retry 1
+[09/23/20 09:04:49] D2BS 27820: ÿc1Skipping Barricaded Tower 692 16
+[09/23/20 09:05:26] D2BS 27820: move retry 1
+[09/23/20 09:05:52] D2BS 27820: move retry 1
+[09/23/20 09:05:53] D2BS 27820: move retry 1
+[09/23/20 09:05:56] D2BS 27820: move retry 1
+[09/23/20 09:06:45] D2BS 27820: ÿc7Picked up ÿc4275 Gold
+[09/23/20 09:07:12] D2BS 27820: ÿc7Picked up ÿc4266 Gold
+[09/23/20 09:07:28] D2BS 27820: move retry 1
+[09/23/20 09:07:31] D2BS 27820: move retry 1
+[09/23/20 09:07:40] D2BS 27820: move retry 1
+[09/23/20 09:07:51] D2BS 27820: ÿc1Skipping Demon Gremlin 784 16
+[09/23/20 09:08:03] D2BS 27820: ÿc1Skipping Barricaded Tower 755 16
+[09/23/20 09:08:05] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:08:33] D2BS 27820: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/23/20 09:08:55] D2BS 27820: ÿc7Picked up ÿc4304 Gold
+[09/23/20 09:08:56] D2BS 27820: ÿc7Picked up ÿc3Ring ÿc0(ilvl 59) (Meteor.xpac.nip #98)
+[09/23/20 09:08:59] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:09:13] D2BS 27820: move retry 1
+[09/23/20 09:11:58] D2BS 27820: move retry 1
+[09/23/20 09:13:13] D2BS 27820: ÿc7Picked up ÿc4210 Gold
+[09/23/20 09:14:53] D2BS 27820: 111,112
+[09/23/20 09:15:19] D2BS 27820: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/23/20 09:15:34] D2BS 27820: ÿc7Picked up ÿc4133 Gold
+[09/23/20 09:15:42] D2BS 27820: move retry 1
+[09/23/20 09:16:13] D2BS 27820: ÿc7Picked up ÿc4108 Gold
+[09/23/20 09:16:19] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:16:22] D2BS 27820: move retry 1
+[09/23/20 09:16:26] D2BS 27820: move retry 1
+[09/23/20 09:16:30] D2BS 27820: move retry 1
+[09/23/20 09:16:33] D2BS 27820: move retry 1
+[09/23/20 09:16:35] D2BS 27820: move retry 1
+[09/23/20 09:16:36] D2BS 27820: move retry 2
+[09/23/20 09:16:38] D2BS 27820: move retry 3
+[09/23/20 09:17:08] D2BS 27820: ÿc7Picked up ÿc4240 Gold
+[09/23/20 09:18:04] D2BS 27820: ÿc1Skipping Barricaded Tower 1104 16
+[09/23/20 09:18:51] D2BS 27820: 112,113
+[09/23/20 09:19:27] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:19:42] D2BS 27820: ÿc7Picked up ÿc3Ring ÿc0(ilvl 61) (Meteor.xpac.nip #98)
+[09/23/20 09:19:48] D2BS 27820: ÿc7Picked up ÿc4208 Gold
+[09/23/20 09:19:58] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:20:07] D2BS 27820: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 61) (LateGame.nip #29)
+[09/23/20 09:20:07] D2BS 27820: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/23/20 09:20:07] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:20:07] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:20:26] D2BS 27820: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/23/20 09:20:27] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:21:28] D2BS 27820: ÿc7Picked up ÿc489 Gold
+[09/23/20 09:21:36] D2BS 27820: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/23/20 09:21:53] D2BS 27820: ÿc7Picked up ÿc4374 Gold
+[09/23/20 09:22:00] D2BS 27820: move retry 1
+[09/23/20 09:24:04] D2BS 27820: ÿc7Picked up ÿc4146 Gold
+[09/23/20 09:24:05] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:24:05] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:24:24] D2BS 27820: ÿc7Picked up ÿc4341 Gold
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: Stat points: 15      Skill points: 6
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: Level up detected ( 61 --> 62 )
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: useSkillPoint(): Fire Mastery (61)
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: Skill (1/1) Increased Fire Mastery (61) by one (level:  23)
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: useStatPoint(0): Strength
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: Stat (1/5) Increased Strength from 70 to 71
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: useStatPoint(1): Energy
+[09/23/20 09:24:32] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: Stat (2/5) Increased Energy from 165 to 166
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: useStatPoint(1): Energy
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: Stat (3/5) Increased Energy from 166 to 167
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: useStatPoint(3): Vitality
+[09/23/20 09:24:32] D2BS 27820: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: Stat (4/5) Increased Vitality from 130 to 131
+[09/23/20 09:24:32] D2BS 27820: AutoBuild: useStatPoint(3): Vitality
+[09/23/20 09:24:33] D2BS 27820: AutoBuild: Stat (5/5) Increased Vitality from 131 to 132
+[09/23/20 09:24:33] D2BS 27820: Updating Config from level 61 to 62
+[09/23/20 09:24:33] D2BS 27820: AutoBuild: Updating Config from level 61 to 62
+[09/23/20 09:24:33] D2BS 27820: Updating Config from level 61 to 62
+[09/23/20 09:24:33] D2BS 27820: Updating Config from level 61 to 62
+[09/23/20 09:24:33] D2BS 27820: Updating Config from level 61 to 62
+[09/23/20 09:24:33] D2BS 27820: AutoBuild: Incrementing cached character level to 62
+[09/23/20 09:27:25] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:27:40] D2BS 27820: ÿc7Picked up ÿc4350 Gold
+[09/23/20 09:28:05] D2BS 27820: ÿc7Picked up ÿc485 Gold
+[09/23/20 09:29:16] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:29:19] D2BS 27820: ÿc7Picked up ÿc4269 Gold
+[09/23/20 09:29:54] D2BS 27820: ÿc7Picked up ÿc4185 Gold
+[09/23/20 09:30:38] D2BS 27820: ÿc7Picked up ÿc4193 Gold
+[09/23/20 09:31:42] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:32:14] D2BS 27820: ÿc7Picked up ÿc4189 Gold
+[09/23/20 09:33:19] D2BS 27820: 113,114
+[09/23/20 09:33:36] D2BS 27820: ÿc7Picked up ÿc4101 Gold
+[09/23/20 09:33:47] D2BS 27820: ÿc7Picked up ÿc4265 Gold
+[09/23/20 09:33:52] D2BS 27820: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/23/20 09:33:56] D2BS 27820: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/23/20 09:34:04] D2BS 27820: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/23/20 09:34:12] D2BS 27820: ÿc7Picked up ÿc4272 Gold
+[09/23/20 09:34:21] D2BS 27820: initNPC: heal
+[09/23/20 09:34:22] D2BS 27820: move retry 1
+[09/23/20 09:34:29] D2BS 27820: initNPC: identify
+[09/23/20 09:34:40] D2BS 27820: ÿc4MiniShopBotÿc0: Scanning 74 items.
+[09/23/20 09:35:04] D2BS 27820: Successfully placed Powered Amulet  at X: 7 Y: 0
+[09/23/20 09:36:12] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:36:24] D2BS 27820: ÿc7Picked up ÿc4231 Gold
+[09/23/20 09:36:38] D2BS 27820: ÿc7Picked up ÿc4204 Gold
+[09/23/20 09:36:42] D2BS 27820: ÿc7Picked up ÿc4180 Gold
+[09/23/20 09:36:51] D2BS 27820: move retry 1
+[09/23/20 09:36:53] D2BS 27820: move retry 2
+[09/23/20 09:37:18] D2BS 27820: ÿc7Picked up ÿc4214 Gold
+[09/23/20 09:37:49] D2BS 27820: ÿc7Picked up ÿc4182 Gold
+[09/23/20 09:38:00] D2BS 27820: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/23/20 09:38:09] D2BS 27820: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/23/20 09:38:20] D2BS 27820: initNPC: buyPotions
+[09/23/20 09:38:57] D2BS 27820: [Strict Warning] Code(162) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\common\pickit.js:367) reference to undefined property qualNames[quality]
+Line: (null)
+[09/23/20 09:38:57] D2BS 27820: [ÿc9Strict Warningÿc0 (162)] File(kolbot\libs\common\pickit.js:367) reference to undefined property qualNames[quality]
+[09/23/20 09:38:57] D2BS 27820: ÿc1Error in ÿc0LevelFollower ÿc1(prototypes.js line ÿc1328): ÿc1Unit.drop: Must be used with items.
+[09/23/20 09:38:57] D2BS 27820: ÿc8Run duration ÿc23654.484
+[09/23/20 09:38:58] D2BS 27820: Script tools\autobuildthread.js ended
+[09/23/20 09:38:58] D2BS 27820: Script tools\party.js ended
+[09/23/20 09:38:58] D2BS 27820: Script tools\townchicken.js ended
+[09/23/20 09:39:05] D2BS 27820: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/23/20 09:39:05] D2BS 27820: ÿc2D2BSÿc0 :: default.dbj running.
+[09/23/20 09:39:05] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/23/20 09:39:05] D2BS 27820: Updating Config from level 0 to 62
+[09/23/20 09:39:05] D2BS 27820: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/23/20 09:39:05] D2BS 27820: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/23/20 09:39:05] D2BS 27820: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/23/20 09:39:05] D2BS 27820: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc20 ms
+[09/23/20 09:39:05] D2BS 27820: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc276ÿc4. Valid entries: ÿc260. ÿc4Time: ÿc20 ms
+[09/23/20 09:39:05] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/23/20 09:39:05] D2BS 27820: Updating Config from level 0 to 62
+[09/23/20 09:39:05] D2BS 27820: AutoBuild: Loaded helper thread
+[09/23/20 09:39:05] D2BS 27820: ÿc2Starting script: ÿc9LevelFollower
+[09/23/20 09:39:05] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/23/20 09:39:05] D2BS 27820: Updating Config from level 0 to 62
+[09/23/20 09:39:05] D2BS 27820: ÿc2Party thread loaded. Mode: Accept
+[09/23/20 09:39:05] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/23/20 09:39:05] D2BS 27820: Updating Config from level 0 to 62
+[09/23/20 09:39:05] D2BS 27820: ÿc3Start ToolsThread script
+[09/23/20 09:39:05] D2BS 27820: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/23/20 09:39:05] D2BS 27820: Updating Config from level 0 to 62
+[09/23/20 09:39:38] D2BS 27820: 113
+[09/23/20 09:40:06] D2BS 27820: 113,115
+[09/23/20 09:40:13] D2BS 27820: ÿc7Picked up ÿc4267 Gold
+[09/23/20 09:40:18] D2BS 27820: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/23/20 09:40:26] D2BS 27820: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/23/20 09:40:51] D2BS 27820: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/23/20 09:40:58] D2BS 27820: move retry 1
+[09/23/20 09:41:02] D2BS 27820: ÿc7Picked up ÿc492 Gold
+[09/23/20 09:41:03] D2BS 27820: move retry 1
+[09/23/20 09:41:07] D2BS 27820: move retry 2
+[09/23/20 09:41:17] D2BS 27820: move retry 3
+[09/23/20 09:42:05] D2BS 27820: ÿc7Picked up ÿc4264 Gold
+[09/23/20 09:43:00] D2BS 27820: move retry 1
+[09/23/20 09:43:08] D2BS 27820: move retry 1
+[09/23/20 09:43:32] D2BS 27820: move retry 1
+[09/23/20 09:43:43] D2BS 27820: ÿc7Picked up ÿc4252 Gold
+[09/23/20 09:44:34] D2BS 27820: move retry 1
+[09/23/20 09:44:56] D2BS 27820: move retry 1
+[09/23/20 09:45:18] D2BS 27820: move retry 1
+[09/23/20 09:45:58] D2BS 27820: move retry 1
+[09/23/20 09:46:27] D2BS 27820: move retry 1
+[09/23/20 09:46:39] D2BS 27820: move retry 1
+[09/23/20 09:46:54] D2BS 27820: move retry 1
+[09/23/20 09:46:59] D2BS 27820: AutoBuild: Stat points: 15      Skill points: 6
+[09/23/20 09:46:59] D2BS 27820: AutoBuild: Level up detected ( 62 --> 63 )
+[09/23/20 09:46:59] D2BS 27820: AutoBuild: useSkillPoint(): Fire Mastery (61)
+[09/23/20 09:46:59] D2BS 27820: AutoBuild: Skill (1/1) Increased Fire Mastery (61) by one (level:  23)
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: useStatPoint(0): Strength
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: Stat (1/5) Increased Strength from 71 to 72
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: useStatPoint(1): Energy
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: Stat (2/5) Increased Energy from 167 to 168
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: useStatPoint(1): Energy
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: Stat (3/5) Increased Energy from 168 to 169
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: useStatPoint(3): Vitality
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: Stat (4/5) Increased Vitality from 132 to 133
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: useStatPoint(3): Vitality
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: Stat (5/5) Increased Vitality from 133 to 134
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: Updating Config from level 62 to 63
+[09/23/20 09:47:00] D2BS 27820: Updating Config from level 62 to 63
+[09/23/20 09:47:00] D2BS 27820: Updating Config from level 62 to 63
+[09/23/20 09:47:00] D2BS 27820: Updating Config from level 62 to 63
+[09/23/20 09:47:00] D2BS 27820: Updating Config from level 62 to 63
+[09/23/20 09:47:00] D2BS 27820: AutoBuild: Incrementing cached character level to 63
+[09/23/20 09:49:23] D2BS 27820: move retry 1
+[09/23/20 09:49:45] D2BS 27820: move retry 1
+[09/23/20 09:49:46] D2BS 27820: ÿc7Picked up ÿc4263 Gold
+[09/23/20 09:50:41] D2BS 27820: ÿc7Picked up ÿc4181 Gold
+[09/23/20 09:51:34] D2BS 27820: move retry 1
+[09/23/20 09:52:36] D2BS 27820: move retry 1

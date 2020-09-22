@@ -76,3 +76,19 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:278, Town.doChores@town.js:89, Town.clearInventory@town.js:1995, Unit.prototype.drop@prototypes.js:328
 [2020/09/21 21:51:32] <ColdSorc> Error in LevelFollower (prototypes.js line 328): Unit.drop: Must be used with items.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307, @levelfollower.js:148, Town.doChores@town.js:89, Town.clearInventory@town.js:1995, Unit.prototype.drop@prototypes.js:328
+[2020/09/22 18:10:47] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 29
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:890, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/22 18:48:42] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307, @levelfollower.js:139, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/22 18:48:52] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307, @levelfollower.js:139, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/22 20:27:14] <Singer> Error in LevelLeader (levelleader.js line 668): getItem is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:901, @levelleader.js:214, @levelleader.js:668
+[2020/09/23 09:38:57] <FireSorc> Error in LevelFollower (prototypes.js line 328): Unit.drop: Must be used with items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307, @levelfollower.js:148, Town.doChores@town.js:89, Town.clearInventory@town.js:1995, Unit.prototype.drop@prototypes.js:328
+[2020/09/23 09:39:07] <Wind> Error in LevelFollower (prototypes.js line 328): Unit.drop: Must be used with items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307, @levelfollower.js:148, Town.doChores@town.js:89, Town.clearInventory@town.js:1995, Unit.prototype.drop@prototypes.js:328
+[2020/09/23 09:39:10] <Hammerdin> Error in LevelFollower (prototypes.js line 328): Unit.drop: Must be used with items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307, @levelfollower.js:148, Town.doChores@town.js:89, Town.clearInventory@town.js:1995, Unit.prototype.drop@prototypes.js:328
+[2020/09/23 09:39:47] <Auradin> Error in LevelFollower (prototypes.js line 328): Unit.drop: Must be used with items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307, @levelfollower.js:148, Town.doChores@town.js:89, Town.clearInventory@town.js:1995, Unit.prototype.drop@prototypes.js:328

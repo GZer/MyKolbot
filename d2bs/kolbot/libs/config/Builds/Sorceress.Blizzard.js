@@ -178,6 +178,7 @@ var AutoBuildTemplate={
 			Update: function(){
 				Config.MakeRunewords=true;
 				Config.UseMerc=true;
+				Config.MercWatch=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
@@ -322,7 +323,7 @@ var AutoBuildTemplate={
 			SkillPoints: [59],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.BeltColumn=["hp","rv","rv","mp"];
+				Config.BeltColumn=["hp","rv","mp","mp"];
 			}	
 		},
 
@@ -587,7 +588,7 @@ var AutoBuildTemplate={
 			SkillPoints: [65],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.UseMerc=false;
+				Config.UseMerc=true;
 			}
 		},
 
