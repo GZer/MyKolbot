@@ -421,7 +421,7 @@ var AutoBuildTemplate={
 			SkillPoints: [245],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyGame.nip"),1);
+				Config.AttackSkill=[240,245,245,245,245,230,230];
 			}
 		},
 
@@ -461,7 +461,7 @@ var AutoBuildTemplate={
 			SkillPoints: [226],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[240,245,245,245,245,230,230];
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyGame.nip"),1);
 			}
 		},
 

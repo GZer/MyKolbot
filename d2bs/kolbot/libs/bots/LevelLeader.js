@@ -255,13 +255,11 @@ function LevelLeader(){
 				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
-			case 110: //Shenk
+			case 111: //Shenk & Prisoners
 				Pather.moveTo(3883,5113,15,true,true);
 				this.killQuestBoss(760);
 				this.talkToNPC("Larzuk");
 				this.logProgress(me.getQuest(35,5),"Shenk");
-			break;
-			case 111: //Prisoners
 				this.talkToNPC("Qual-Kehk");
 				this.logProgress(me.getQuest(36,0),"Prisoners");
 			break;
@@ -830,7 +828,7 @@ function LevelLeader(){
 		if(!me.getQuest(9,0)){say("Radament");this.CheckQuests(49);}
 		if(!me.getQuest(17,0)){say("Black Book");this.CheckQuests(94);}
 		if(!me.getQuest(25,0)){say("Izual");this.CheckQuests(105);}
-		if(!me.getQuest(35,5)){say("Shenk");this.CheckQuests(110);}
+		if(!me.getQuest(35,5)){say("Shenk");this.CheckQuests(111);}
 		if(!me.getQuest(37,0)){say("Anya");this.CheckQuests(114);}
 		if(!me.getQuest(38,3)){say("Nihlathak");this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");

@@ -1,0 +1,1285 @@
+[09/22/20 10:50:19] D2BS 15712: D2BS Engine startup complete. 1.6.4U
+[09/22/20 10:50:19] D2BS 15712: FireSorc
+[09/22/20 10:50:19] D2BS 15712: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/22/20 10:50:19] D2BS 15712: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/22/20 10:50:19] D2BS 15712: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/22/20 10:50:19] D2BS 15712: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/22/20 10:50:19] D2BS 15712: ÿc2D2BSÿc0 :: Started Console Script
+[09/22/20 10:50:20] D2BS 15712: Heartbeat loaded
+[09/22/20 10:50:38] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 10:50:38] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 10:50:38] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 10:50:38] D2BS 15712: Updating Config from level 0 to 39
+[09/22/20 10:50:38] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/22/20 10:50:38] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 10:50:38] D2BS 15712: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/22/20 10:50:38] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/22/20 10:50:38] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc215 ms
+[09/22/20 10:50:38] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc20 ms
+[09/22/20 10:50:38] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 10:50:38] D2BS 15712: Updating Config from level 0 to 39
+[09/22/20 10:50:38] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 10:50:38] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 10:50:38] D2BS 15712: initNPC: heal
+[09/22/20 10:50:38] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 10:50:38] D2BS 15712: Updating Config from level 0 to 39
+[09/22/20 10:50:38] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 10:50:38] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 10:50:38] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 10:50:38] D2BS 15712: Updating Config from level 0 to 39
+[09/22/20 10:50:38] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 10:50:38] D2BS 15712: Updating Config from level 0 to 39
+[09/22/20 10:50:43] D2BS 15712: initNPC: buyPotions
+[09/22/20 10:50:45] D2BS 15712: Battle Staff
+[09/22/20 10:50:52] D2BS 15712: ÿc4Town: ÿc1Can't afford repairs.
+[09/22/20 10:50:56] D2BS 15712: move retry 1
+[09/22/20 10:51:23] D2BS 15712: move retry 1
+[09/22/20 10:51:49] D2BS 15712: ÿc7Picked up ÿc4146 Gold
+[09/22/20 10:52:08] D2BS 15712: ÿc7Picked up ÿc4233 Gold
+[09/22/20 10:52:45] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 10:53:02] D2BS 15712: move retry 1
+[09/22/20 10:53:21] D2BS 15712: ÿc7Picked up ÿc4127 Gold
+[09/22/20 10:54:00] D2BS 15712: ÿc7Picked up ÿc4124 Gold
+[09/22/20 10:54:02] D2BS 15712: move retry 1
+[09/22/20 10:54:06] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/22/20 10:55:13] D2BS 15712: move retry 1
+[09/22/20 10:56:02] D2BS 15712: ÿc7Picked up ÿc476 Gold
+[09/22/20 10:56:07] D2BS 15712: move retry 1
+[09/22/20 10:56:07] D2BS 15712: ÿc7Picked up ÿc4115 Gold
+[09/22/20 10:56:34] D2BS 15712: move retry 1
+[09/22/20 10:56:56] D2BS 15712: ÿc7Picked up ÿc4214 Gold
+[09/22/20 10:57:15] D2BS 15712: move retry 1
+[09/22/20 10:57:39] D2BS 15712: ÿc7Picked up ÿc4244 Gold
+[09/22/20 10:58:17] D2BS 15712: 129,130
+[09/22/20 10:58:34] D2BS 15712: move retry 1
+[09/22/20 10:58:57] D2BS 15712: initNPC: buyPotions
+[09/22/20 10:59:07] D2BS 15712: ÿc4Town: ÿc1Can't afford repairs.
+[09/22/20 10:59:40] D2BS 15712: ÿc7Picked up ÿc4141 Gold
+[09/22/20 10:59:46] D2BS 15712: ÿc7Picked up ÿc4194 Gold
+[09/22/20 10:59:47] D2BS 15712: ÿc7Picked up ÿc4107 Gold
+[09/22/20 11:00:32] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 11:00:39] D2BS 15712: ÿc7Picked up ÿc4123 Gold
+[09/22/20 11:00:40] D2BS 15712: ÿc7Picked up ÿc4178 Gold
+[09/22/20 11:00:46] D2BS 15712: ÿc7Picked up ÿc4154 Gold
+[09/22/20 11:00:49] D2BS 15712: move retry 1
+[09/22/20 11:00:50] D2BS 15712: ÿc7Picked up ÿc438 Gold
+[09/22/20 11:02:05] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 11:02:05] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 11:02:07] D2BS 15712: move retry 1
+[09/22/20 11:02:08] D2BS 15712: move retry 2
+[09/22/20 11:02:20] D2BS 15712: ÿc7Picked up ÿc4114 Gold
+[09/22/20 11:02:35] D2BS 15712: move retry 1
+[09/22/20 11:03:48] D2BS 15712: move retry 1
+[09/22/20 11:03:54] D2BS 15712: move retry 1
+[09/22/20 11:04:06] D2BS 15712: move retry 1
+[09/22/20 11:04:50] D2BS 15712: 130,131
+[09/22/20 11:04:58] D2BS 15712: ÿc7Picked up ÿc4164 Gold
+[09/22/20 11:05:39] D2BS 15712: ÿc7Picked up ÿc4124 Gold
+[09/22/20 11:05:43] D2BS 15712: ÿc7Picked up ÿc4162 Gold
+[09/22/20 11:05:43] D2BS 15712: ÿc7Picked up ÿc4203 Gold
+[09/22/20 11:06:06] D2BS 15712: move retry 1
+[09/22/20 11:07:28] D2BS 15712: move retry 1
+[09/22/20 11:07:35] D2BS 15712: ÿc7Picked up ÿc457 Gold
+[09/22/20 11:07:36] D2BS 15712: move retry 1
+[09/22/20 11:08:08] D2BS 15712: ÿc7Picked up ÿc4213 Gold
+[09/22/20 11:08:31] D2BS 15712: ÿc7Picked up ÿc4179 Gold
+[09/22/20 11:09:35] D2BS 15712: ÿc7Picked up ÿc4147 Gold
+[09/22/20 11:09:43] D2BS 15712: move retry 1
+[09/22/20 11:09:50] D2BS 15712: move retry 1
+[09/22/20 11:09:51] D2BS 15712: move retry 1
+[09/22/20 11:10:22] D2BS 15712: move retry 1
+[09/22/20 11:10:26] D2BS 15712: ÿc7Picked up ÿc469 Gold
+[09/22/20 11:10:31] D2BS 15712: move retry 1
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 1
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: Level up detected ( 39 --> 40 )
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: useSkillPoint(): Meteor (56)
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: Skill (1/1) Increased Meteor (56) by one (level:  23)
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 48 to 49
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 117 to 118
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 118 to 119
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 86 to 87
+[09/22/20 11:11:31] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 11:11:32] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 87 to 88
+[09/22/20 11:11:32] D2BS 15712: AutoBuild: Updating Config from level 39 to 40
+[09/22/20 11:11:32] D2BS 15712: Updating Config from level 39 to 40
+[09/22/20 11:11:32] D2BS 15712: Updating Config from level 39 to 40
+[09/22/20 11:11:32] D2BS 15712: Updating Config from level 39 to 40
+[09/22/20 11:11:32] D2BS 15712: Updating Config from level 39 to 40
+[09/22/20 11:11:32] D2BS 15712: AutoBuild: Incrementing cached character level to 40
+[09/22/20 11:12:55] D2BS 15712: 132
+[09/22/20 11:13:07] D2BS 15712: initNPC: buyPotions
+[09/22/20 11:13:16] D2BS 15712: ÿc4Town: ÿc1Can't afford repairs.
+[09/22/20 11:13:27] D2BS 15712: 129
+[09/22/20 11:13:32] D2BS 15712: 129,130
+[09/22/20 11:13:49] D2BS 15712: 130,131
+[09/22/20 11:14:02] D2BS 15712: move retry 1
+[09/22/20 11:15:37] D2BS 15712: move retry 1
+[09/22/20 11:16:29] D2BS 15712: move retry 1
+[09/22/20 11:16:32] D2BS 15712: Script default.dbj ended
+[09/22/20 11:16:32] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 11:16:32] D2BS 15712: Script tools\party.js ended
+[09/22/20 11:16:32] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 11:16:32] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 11:16:39] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 11:16:39] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 11:16:39] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 11:16:39] D2BS 15712: Updating Config from level 0 to 40
+[09/22/20 11:16:39] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/22/20 11:16:39] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 11:16:39] D2BS 15712: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/22/20 11:16:39] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/22/20 11:16:39] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc20 ms
+[09/22/20 11:16:39] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc215 ms
+[09/22/20 11:16:39] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 11:16:39] D2BS 15712: Updating Config from level 0 to 40
+[09/22/20 11:16:39] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 11:16:39] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 11:16:39] D2BS 15712: Updating Config from level 0 to 40
+[09/22/20 11:16:39] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 11:16:39] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 11:16:39] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 11:16:39] D2BS 15712: Updating Config from level 0 to 40
+[09/22/20 11:16:39] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 11:16:39] D2BS 15712: Updating Config from level 0 to 40
+[09/22/20 11:16:39] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 11:16:39] D2BS 15712: initNPC: buyPotions
+[09/22/20 11:16:40] D2BS 15712: move retry 1
+[09/22/20 11:16:46] D2BS 15712: ÿc4Town: ÿc1Can't afford repairs.
+[09/22/20 11:17:30] D2BS 15712: move retry 1
+[09/22/20 11:18:49] D2BS 15712: move retry 1
+[09/22/20 11:18:52] D2BS 15712: move retry 1
+[09/22/20 11:18:56] D2BS 15712: move retry 1
+[09/22/20 11:18:59] D2BS 15712: move retry 1
+[09/22/20 11:19:03] D2BS 15712: move retry 1
+[09/22/20 11:19:05] D2BS 15712: move retry 1
+[09/22/20 11:19:10] D2BS 15712: move retry 1
+[09/22/20 11:19:16] D2BS 15712: move retry 1
+[09/22/20 11:19:21] D2BS 15712: move retry 1
+[09/22/20 11:19:24] D2BS 15712: move retry 1
+[09/22/20 11:19:30] D2BS 15712: move retry 1
+[09/22/20 11:19:32] D2BS 15712: move retry 1
+[09/22/20 11:19:39] D2BS 15712: move retry 1
+[09/22/20 11:19:44] D2BS 15712: move retry 1
+[09/22/20 11:19:48] D2BS 15712: move retry 1
+[09/22/20 11:19:53] D2BS 15712: move retry 1
+[09/22/20 11:20:04] D2BS 15712: move retry 1
+[09/22/20 11:20:06] D2BS 15712: move retry 1
+[09/22/20 11:20:10] D2BS 15712: move retry 1
+[09/22/20 11:20:12] D2BS 15712: move retry 1
+[09/22/20 11:20:16] D2BS 15712: move retry 1
+[09/22/20 11:20:20] D2BS 15712: move retry 1
+[09/22/20 11:20:24] D2BS 15712: move retry 1
+[09/22/20 11:20:27] D2BS 15712: move retry 1
+[09/22/20 11:20:31] D2BS 15712: move retry 1
+[09/22/20 11:20:35] D2BS 15712: move retry 1
+[09/22/20 11:20:39] D2BS 15712: move retry 1
+[09/22/20 11:20:41] D2BS 15712: move retry 1
+[09/22/20 11:20:47] D2BS 15712: move retry 1
+[09/22/20 11:21:02] D2BS 15712: move retry 1
+[09/22/20 11:21:08] D2BS 15712: move retry 1
+[09/22/20 11:21:11] D2BS 15712: move retry 1
+[09/22/20 11:21:15] D2BS 15712: move retry 1
+[09/22/20 11:21:19] D2BS 15712: move retry 1
+[09/22/20 11:21:23] D2BS 15712: move retry 1
+[09/22/20 11:21:28] D2BS 15712: move retry 1
+[09/22/20 11:21:32] D2BS 15712: move retry 1
+[09/22/20 11:21:40] D2BS 15712: move retry 1
+[09/22/20 11:21:43] D2BS 15712: move retry 1
+[09/22/20 11:21:45] D2BS 15712: move retry 1
+[09/22/20 11:21:49] D2BS 15712: move retry 1
+[09/22/20 11:21:53] D2BS 15712: move retry 1
+[09/22/20 11:21:58] D2BS 15712: move retry 1
+[09/22/20 11:22:02] D2BS 15712: move retry 1
+[09/22/20 11:22:04] D2BS 15712: move retry 1
+[09/22/20 11:22:07] D2BS 15712: move retry 1
+[09/22/20 11:22:10] D2BS 15712: move retry 1
+[09/22/20 11:22:14] D2BS 15712: move retry 1
+[09/22/20 11:22:18] D2BS 15712: move retry 1
+[09/22/20 11:22:22] D2BS 15712: move retry 1
+[09/22/20 11:22:26] D2BS 15712: move retry 1
+[09/22/20 11:22:34] D2BS 15712: move retry 1
+[09/22/20 11:22:36] D2BS 15712: move retry 1
+[09/22/20 11:22:41] D2BS 15712: move retry 1
+[09/22/20 11:22:46] D2BS 15712: move retry 1
+[09/22/20 11:22:49] D2BS 15712: move retry 1
+[09/22/20 11:22:56] D2BS 15712: move retry 1
+[09/22/20 11:23:00] D2BS 15712: move retry 1
+[09/22/20 11:23:05] D2BS 15712: move retry 1
+[09/22/20 11:23:09] D2BS 15712: move retry 1
+[09/22/20 11:23:16] D2BS 15712: move retry 1
+[09/22/20 11:23:20] D2BS 15712: move retry 1
+[09/22/20 11:23:27] D2BS 15712: move retry 1
+[09/22/20 11:23:31] D2BS 15712: move retry 1
+[09/22/20 11:23:37] D2BS 15712: move retry 1
+[09/22/20 11:23:41] D2BS 15712: move retry 1
+[09/22/20 11:23:47] D2BS 15712: move retry 1
+[09/22/20 11:23:51] D2BS 15712: move retry 1
+[09/22/20 11:23:55] D2BS 15712: move retry 1
+[09/22/20 11:24:04] D2BS 15712: move retry 1
+[09/22/20 11:24:08] D2BS 15712: move retry 1
+[09/22/20 11:24:18] D2BS 15712: move retry 1
+[09/22/20 11:24:22] D2BS 15712: move retry 1
+[09/22/20 11:24:27] D2BS 15712: move retry 1
+[09/22/20 11:24:40] D2BS 15712: move retry 1
+[09/22/20 11:24:46] D2BS 15712: move retry 1
+[09/22/20 11:24:50] D2BS 15712: move retry 1
+[09/22/20 11:24:56] D2BS 15712: move retry 1
+[09/22/20 11:25:00] D2BS 15712: move retry 1
+[09/22/20 11:25:06] D2BS 15712: move retry 1
+[09/22/20 11:25:09] D2BS 15712: move retry 1
+[09/22/20 11:25:15] D2BS 15712: move retry 1
+[09/22/20 11:25:18] D2BS 15712: move retry 1
+[09/22/20 11:25:24] D2BS 15712: move retry 1
+[09/22/20 11:25:26] D2BS 15712: move retry 1
+[09/22/20 11:25:33] D2BS 15712: move retry 1
+[09/22/20 11:25:37] D2BS 15712: move retry 1
+[09/22/20 11:25:44] D2BS 15712: move retry 1
+[09/22/20 11:25:49] D2BS 15712: move retry 1
+[09/22/20 11:25:54] D2BS 15712: move retry 1
+[09/22/20 11:25:59] D2BS 15712: move retry 1
+[09/22/20 11:26:04] D2BS 15712: move retry 1
+[09/22/20 11:26:08] D2BS 15712: move retry 1
+[09/22/20 11:26:13] D2BS 15712: move retry 1
+[09/22/20 11:26:18] D2BS 15712: move retry 1
+[09/22/20 11:26:28] D2BS 15712: move retry 1
+[09/22/20 11:26:31] D2BS 15712: move retry 1
+[09/22/20 11:26:47] D2BS 15712: move retry 1
+[09/22/20 11:26:59] D2BS 15712: move retry 1
+[09/22/20 11:27:00] D2BS 15712: ÿc7Picked up ÿc466 Gold
+[09/22/20 11:27:39] D2BS 15712: ÿc7Picked up ÿc4119 Gold
+[09/22/20 11:27:58] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 11:28:34] D2BS 15712: move retry 1
+[09/22/20 11:28:53] D2BS 15712: move retry 1
+[09/22/20 11:29:15] D2BS 15712: move retry 1
+[09/22/20 11:29:49] D2BS 15712: ÿc7Picked up ÿc4231 Gold
+[09/22/20 11:32:19] D2BS 15712: 129,130
+[09/22/20 11:32:33] D2BS 15712: ÿc7Picked up ÿc4129 Gold
+[09/22/20 11:32:56] D2BS 15712: move retry 1
+[09/22/20 11:33:08] D2BS 15712: ÿc7Picked up ÿc4154 Gold
+[09/22/20 11:33:17] D2BS 15712: move retry 1
+[09/22/20 11:33:20] D2BS 15712: move retry 1
+[09/22/20 11:33:48] D2BS 15712: ÿc7Picked up ÿc4167 Gold
+[09/22/20 11:34:27] D2BS 15712: move retry 1
+[09/22/20 11:35:06] D2BS 15712: ÿc7Picked up ÿc4236 Gold
+[09/22/20 11:35:20] D2BS 15712: move retry 1
+[09/22/20 11:35:29] D2BS 15712: move retry 1
+[09/22/20 11:35:45] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 11:36:15] D2BS 15712: move retry 1
+[09/22/20 11:36:16] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 11:36:43] D2BS 15712: move retry 1
+[09/22/20 11:36:48] D2BS 15712: ÿc7Picked up ÿc472 Gold
+[09/22/20 11:36:49] D2BS 15712: move retry 1
+[09/22/20 11:36:50] D2BS 15712: move retry 2
+[09/22/20 11:37:01] D2BS 15712: move retry 1
+[09/22/20 11:37:15] D2BS 15712: move retry 1
+[09/22/20 11:37:18] D2BS 15712: ÿc7Picked up ÿc4230 Gold
+[09/22/20 11:38:04] D2BS 15712: ÿc7Picked up ÿc4171 Gold
+[09/22/20 11:38:55] D2BS 15712: move retry 1
+[09/22/20 11:39:19] D2BS 15712: 130,131
+[09/22/20 11:39:28] D2BS 15712: move retry 1
+[09/22/20 11:39:30] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 1
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: Level up detected ( 40 --> 41 )
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: useSkillPoint(): Meteor (56)
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: Skill (1/1) Increased Meteor (56) by one (level:  24)
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 49 to 50
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 119 to 120
+[09/22/20 11:40:07] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 11:40:08] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 120 to 121
+[09/22/20 11:40:08] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 11:40:08] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 88 to 89
+[09/22/20 11:40:08] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 11:40:08] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 89 to 90
+[09/22/20 11:40:08] D2BS 15712: AutoBuild: Updating Config from level 40 to 41
+[09/22/20 11:40:08] D2BS 15712: Updating Config from level 40 to 41
+[09/22/20 11:40:08] D2BS 15712: Updating Config from level 40 to 41
+[09/22/20 11:40:08] D2BS 15712: Updating Config from level 40 to 41
+[09/22/20 11:40:08] D2BS 15712: Updating Config from level 40 to 41
+[09/22/20 11:40:08] D2BS 15712: AutoBuild: Incrementing cached character level to 41
+[09/22/20 11:40:27] D2BS 15712: ÿc7Picked up ÿc4217 Gold
+[09/22/20 11:40:35] D2BS 15712: ÿc7Picked up ÿc4341 Gold
+[09/22/20 11:40:36] D2BS 15712: move retry 1
+[09/22/20 11:40:38] D2BS 15712: move retry 1
+[09/22/20 11:40:48] D2BS 15712: move retry 1
+[09/22/20 11:40:48] D2BS 15712: ÿc7Picked up ÿc4235 Gold
+[09/22/20 11:41:16] D2BS 15712: move retry 1
+[09/22/20 11:41:55] D2BS 15712: move retry 1
+[09/22/20 11:42:02] D2BS 15712: ÿc7Picked up ÿc4122 Gold
+[09/22/20 11:42:17] D2BS 15712: move retry 1
+[09/22/20 11:42:39] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 11:43:08] D2BS 15712: move retry 1
+[09/22/20 11:43:15] D2BS 15712: ÿc7Picked up ÿc4103 Gold
+[09/22/20 11:43:37] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 11:43:37] D2BS 15712: ÿc7Picked up ÿc4199 Gold
+[09/22/20 11:43:38] D2BS 15712: ÿc7Picked up ÿc9Chain Mail ÿc0(ilvl 43) (Meteor.xpac.nip #50)
+[09/22/20 11:43:38] D2BS 15712: ÿc7Picked up ÿc447 Gold
+[09/22/20 11:43:38] D2BS 15712: ÿc7Picked up ÿc4184 Gold
+[09/22/20 11:43:39] D2BS 15712: ÿc7Picked up ÿc441 Gold
+[09/22/20 11:43:40] D2BS 15712: ÿc7Picked up ÿc434 Gold
+[09/22/20 11:44:13] D2BS 15712: move retry 1
+[09/22/20 11:44:44] D2BS 15712: move retry 1
+[09/22/20 11:46:00] D2BS 15712: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/22/20 11:46:00] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 11:46:01] D2BS 15712: ÿc7Picked up ÿc42118 Gold
+[09/22/20 11:46:49] D2BS 15712: ÿc7Picked up ÿc4111 Gold
+[09/22/20 11:47:45] D2BS 15712: initNPC: identify
+[09/22/20 11:47:54] D2BS 15712: ÿc4MiniShopBotÿc0: Scanning 58 items.
+[09/22/20 11:47:55] D2BS 15712: initNPC: buyPotions
+[09/22/20 11:47:57] D2BS 15712: Chain Mail
+[09/22/20 11:47:58] D2BS 15712: ÿc4Town: ÿc1Can't afford repairs.
+[09/22/20 11:48:20] D2BS 15712: 129
+[09/22/20 11:48:28] D2BS 15712: 129,130
+[09/22/20 11:48:47] D2BS 15712: 130,131
+[09/22/20 11:49:03] D2BS 15712: move retry 1
+[09/22/20 11:49:30] D2BS 15712: move retry 1
+[09/22/20 11:50:01] D2BS 15712: move retry 1
+[09/22/20 11:50:07] D2BS 15712: move retry 1
+[09/22/20 11:51:25] D2BS 15712: Script default.dbj ended
+[09/22/20 11:51:25] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 11:51:25] D2BS 15712: Script tools\party.js ended
+[09/22/20 11:51:25] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 11:51:25] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 11:51:32] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 11:51:32] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 11:51:32] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 11:51:32] D2BS 15712: Updating Config from level 0 to 41
+[09/22/20 11:51:32] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/22/20 11:51:32] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 11:51:32] D2BS 15712: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/22/20 11:51:32] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc216 ms
+[09/22/20 11:51:32] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc20 ms
+[09/22/20 11:51:32] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc215 ms
+[09/22/20 11:51:32] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 11:51:32] D2BS 15712: Updating Config from level 0 to 41
+[09/22/20 11:51:32] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 11:51:32] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 11:51:32] D2BS 15712: Updating Config from level 0 to 41
+[09/22/20 11:51:32] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 11:51:32] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 11:51:32] D2BS 15712: Updating Config from level 0 to 41
+[09/22/20 11:51:32] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 11:51:32] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 11:51:32] D2BS 15712: Updating Config from level 0 to 41
+[09/22/20 11:51:32] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 11:51:32] D2BS 15712: initNPC: buyPotions
+[09/22/20 11:51:37] D2BS 15712: move retry 1
+[09/22/20 11:51:41] D2BS 15712: ÿc4Town: ÿc1Can't afford repairs.
+[09/22/20 11:52:20] D2BS 15712: ÿc7Picked up ÿc4219 Gold
+[09/22/20 11:52:56] D2BS 15712: move retry 1
+[09/22/20 11:53:01] D2BS 15712: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/22/20 11:53:06] D2BS 15712: ÿc7Picked up ÿc4219 Gold
+[09/22/20 11:53:10] D2BS 15712: ÿc7Picked up ÿc4175 Gold
+[09/22/20 11:53:17] D2BS 15712: ÿc7Picked up ÿc475 Gold
+[09/22/20 11:53:20] D2BS 15712: ÿc7Picked up ÿc4184 Gold
+[09/22/20 11:53:51] D2BS 15712: ÿc7Picked up ÿc4118 Gold
+[09/22/20 11:54:07] D2BS 15712: ÿc7Picked up ÿc484 Gold
+[09/22/20 11:54:25] D2BS 15712: ÿc7Picked up ÿc475 Gold
+[09/22/20 11:55:06] D2BS 15712: move retry 1
+[09/22/20 11:55:11] D2BS 15712: ÿc7Picked up ÿc4139 Gold
+[09/22/20 11:55:13] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 11:55:35] D2BS 15712: ÿc7Picked up ÿc472 Gold
+[09/22/20 11:55:46] D2BS 15712: move retry 1
+[09/22/20 11:55:51] D2BS 15712: move retry 1
+[09/22/20 11:55:57] D2BS 15712: move retry 1
+[09/22/20 11:56:22] D2BS 15712: ÿc7Picked up ÿc4143 Gold
+[09/22/20 11:56:28] D2BS 15712: ÿc7Picked up ÿc4184 Gold
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 1
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: Level up detected ( 41 --> 42 )
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: useSkillPoint(): Meteor (56)
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: Skill (1/1) Increased Meteor (56) by one (level:  25)
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 50 to 51
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 121 to 122
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 122 to 123
+[09/22/20 11:56:33] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 11:56:34] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 90 to 91
+[09/22/20 11:56:34] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 11:56:34] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 91 to 92
+[09/22/20 11:56:34] D2BS 15712: Updating Config from level 41 to 42
+[09/22/20 11:56:34] D2BS 15712: AutoBuild: Updating Config from level 41 to 42
+[09/22/20 11:56:34] D2BS 15712: Updating Config from level 41 to 42
+[09/22/20 11:56:34] D2BS 15712: Updating Config from level 41 to 42
+[09/22/20 11:56:34] D2BS 15712: Updating Config from level 41 to 42
+[09/22/20 11:56:34] D2BS 15712: AutoBuild: Incrementing cached character level to 42
+[09/22/20 11:56:34] D2BS 15712: ÿc7Picked up ÿc4213 Gold
+[09/22/20 11:56:49] D2BS 15712: move retry 1
+[09/22/20 11:56:52] D2BS 15712: move retry 1
+[09/22/20 11:56:58] D2BS 15712: move retry 1
+[09/22/20 11:57:02] D2BS 15712: 129,130
+[09/22/20 11:57:37] D2BS 15712: ÿc7Picked up ÿc4180 Gold
+[09/22/20 11:57:38] D2BS 15712: move retry 1
+[09/22/20 11:58:08] D2BS 15712: ÿc7Picked up ÿc4106 Gold
+[09/22/20 11:58:10] D2BS 15712: move retry 1
+[09/22/20 11:59:48] D2BS 15712: move retry 1
+[09/22/20 12:00:21] D2BS 15712: move retry 1
+[09/22/20 12:00:44] D2BS 15712: move retry 1
+[09/22/20 12:01:05] D2BS 15712: ÿc7Picked up ÿc4245 Gold
+[09/22/20 12:01:13] D2BS 15712: move retry 1
+[09/22/20 12:01:32] D2BS 15712: move retry 1
+[09/22/20 12:01:36] D2BS 15712: move retry 1
+[09/22/20 12:02:06] D2BS 15712: ÿc7Picked up ÿc4184 Gold
+[09/22/20 12:02:42] D2BS 15712: 130,131
+[09/22/20 12:03:06] D2BS 15712: ÿc7Picked up ÿc4123 Gold
+[09/22/20 12:03:38] D2BS 15712: ÿc7Picked up ÿc446 Gold
+[09/22/20 12:03:46] D2BS 15712: ÿc7Picked up ÿc4233 Gold
+[09/22/20 12:03:49] D2BS 15712: move retry 1
+[09/22/20 12:03:50] D2BS 15712: move retry 2
+[09/22/20 12:03:51] D2BS 15712: move retry 3
+[09/22/20 12:03:57] D2BS 15712: move retry 1
+[09/22/20 12:04:57] D2BS 15712: move retry 1
+[09/22/20 12:05:24] D2BS 15712: move retry 1
+[09/22/20 12:05:33] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:05:38] D2BS 15712: move retry 1
+[09/22/20 12:06:06] D2BS 15712: move retry 1
+[09/22/20 12:06:09] D2BS 15712: move retry 1
+[09/22/20 12:06:13] D2BS 15712: move retry 1
+[09/22/20 12:06:45] D2BS 15712: ÿc7Picked up ÿc474 Gold
+[09/22/20 12:06:46] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 12:06:46] D2BS 15712: ÿc7Picked up ÿc4805 Gold
+[09/22/20 12:06:46] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 12:06:50] D2BS 15712: move retry 1
+[09/22/20 12:07:06] D2BS 15712: move retry 1
+[09/22/20 12:07:13] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/22/20 12:07:15] D2BS 15712: move retry 1
+[09/22/20 12:07:44] D2BS 15712: ÿc7Picked up ÿc4204 Gold
+[09/22/20 12:08:03] D2BS 15712: ÿc7Picked up ÿc449 Gold
+[09/22/20 12:08:17] D2BS 15712: ÿc7Picked up ÿc456 Gold
+[09/22/20 12:09:16] D2BS 15712: move retry 1
+[09/22/20 12:10:27] D2BS 15712: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/22/20 12:10:28] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:10:49] D2BS 15712: ÿc7Picked up ÿc9Splint Mail ÿc0(ilvl 43) (Meteor.xpac.nip #50)
+[09/22/20 12:10:50] D2BS 15712: ÿc7Picked up ÿc4341 Gold
+[09/22/20 12:11:20] D2BS 15712: ÿc7Picked up ÿc4920 Gold
+[09/22/20 12:11:54] D2BS 15712: initNPC: heal
+[09/22/20 12:11:56] D2BS 15712: move retry 1
+[09/22/20 12:11:57] D2BS 15712: move retry 1
+[09/22/20 12:12:08] D2BS 15712: initNPC: identify
+[09/22/20 12:12:11] D2BS 15712: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[09/22/20 12:12:11] D2BS 15712: initNPC: buyPotions
+[09/22/20 12:12:33] D2BS 15712: 129,130
+[09/22/20 12:12:58] D2BS 15712: 130,131
+[09/22/20 12:15:39] D2BS 15712: Script default.dbj ended
+[09/22/20 12:15:39] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 12:15:39] D2BS 15712: Script tools\party.js ended
+[09/22/20 12:15:39] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 12:15:39] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 12:15:45] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 12:15:45] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 12:15:45] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 12:15:45] D2BS 15712: Updating Config from level 0 to 42
+[09/22/20 12:15:45] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/22/20 12:15:45] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc216 ms
+[09/22/20 12:15:45] D2BS 15712: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/22/20 12:15:45] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/22/20 12:15:45] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc20 ms
+[09/22/20 12:15:45] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc215 ms
+[09/22/20 12:15:45] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 12:15:45] D2BS 15712: Updating Config from level 0 to 42
+[09/22/20 12:15:45] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 12:15:45] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 12:15:45] D2BS 15712: Updating Config from level 0 to 42
+[09/22/20 12:15:45] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 12:15:45] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 12:15:45] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 12:15:45] D2BS 15712: Updating Config from level 0 to 42
+[09/22/20 12:15:45] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 12:15:45] D2BS 15712: Updating Config from level 0 to 42
+[09/22/20 12:15:45] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 12:15:45] D2BS 15712: initNPC: heal
+[09/22/20 12:15:47] D2BS 15712: move retry 1
+[09/22/20 12:15:51] D2BS 15712: initNPC: buyPotions
+[09/22/20 12:16:23] D2BS 15712: move retry 1
+[09/22/20 12:16:31] D2BS 15712: move retry 1
+[09/22/20 12:16:39] D2BS 15712: move retry 1
+[09/22/20 12:16:52] D2BS 15712: ÿc7Picked up ÿc451 Gold
+[09/22/20 12:17:27] D2BS 15712: move retry 1
+[09/22/20 12:17:30] D2BS 15712: ÿc7Picked up ÿc4160 Gold
+[09/22/20 12:17:32] D2BS 15712: move retry 1
+[09/22/20 12:17:54] D2BS 15712: move retry 1
+[09/22/20 12:18:04] D2BS 15712: move retry 1
+[09/22/20 12:18:16] D2BS 15712: ÿc7Picked up ÿc4153 Gold
+[09/22/20 12:18:16] D2BS 15712: move retry 1
+[09/22/20 12:18:34] D2BS 15712: move retry 1
+[09/22/20 12:18:39] D2BS 15712: ÿc7Picked up ÿc4239 Gold
+[09/22/20 12:18:45] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:18:46] D2BS 15712: move retry 1
+[09/22/20 12:18:47] D2BS 15712: ÿc7Picked up ÿc4181 Gold
+[09/22/20 12:19:01] D2BS 15712: move retry 1
+[09/22/20 12:19:19] D2BS 15712: move retry 1
+[09/22/20 12:19:37] D2BS 15712: move retry 1
+[09/22/20 12:19:42] D2BS 15712: ÿc7Picked up ÿc4234 Gold
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 1
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: Level up detected ( 42 --> 43 )
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: useSkillPoint(): Meteor (56)
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: Skill (1/1) Increased Meteor (56) by one (level:  27)
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 51 to 52
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 123 to 124
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 124 to 125
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 92 to 93
+[09/22/20 12:19:47] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 12:19:48] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 93 to 94
+[09/22/20 12:19:48] D2BS 15712: Updating Config from level 42 to 43
+[09/22/20 12:19:48] D2BS 15712: AutoBuild: Updating Config from level 42 to 43
+[09/22/20 12:19:48] D2BS 15712: Updating Config from level 42 to 43
+[09/22/20 12:19:48] D2BS 15712: Updating Config from level 42 to 43
+[09/22/20 12:19:48] D2BS 15712: Updating Config from level 42 to 43
+[09/22/20 12:19:48] D2BS 15712: AutoBuild: Incrementing cached character level to 43
+[09/22/20 12:20:26] D2BS 15712: ÿc7Picked up ÿc4218 Gold
+[09/22/20 12:20:26] D2BS 15712: ÿc7Picked up ÿc446 Gold
+[09/22/20 12:20:45] D2BS 15712: move retry 1
+[09/22/20 12:20:53] D2BS 15712: move retry 1
+[09/22/20 12:21:13] D2BS 15712: move retry 1
+[09/22/20 12:21:22] D2BS 15712: 129,130
+[09/22/20 12:21:39] D2BS 15712: ÿc7Picked up ÿc482 Gold
+[09/22/20 12:21:43] D2BS 15712: ÿc7Picked up ÿc4206 Gold
+[09/22/20 12:21:49] D2BS 15712: move retry 1
+[09/22/20 12:21:53] D2BS 15712: move retry 1
+[09/22/20 12:22:13] D2BS 15712: ÿc7Picked up ÿc4135 Gold
+[09/22/20 12:22:23] D2BS 15712: ÿc7Picked up ÿc4161 Gold
+[09/22/20 12:22:59] D2BS 15712: ÿc7Picked up ÿc478 Gold
+[09/22/20 12:23:16] D2BS 15712: ÿc7Picked up ÿc4186 Gold
+[09/22/20 12:23:29] D2BS 15712: ÿc7Picked up ÿc496 Gold
+[09/22/20 12:23:46] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/22/20 12:24:17] D2BS 15712: ÿc7Picked up ÿc4129 Gold
+[09/22/20 12:26:00] D2BS 15712: move retry 1
+[09/22/20 12:27:16] D2BS 15712: 130,131
+[09/22/20 12:27:28] D2BS 15712: ÿc7Picked up ÿc4247 Gold
+[09/22/20 12:27:32] D2BS 15712: move retry 1
+[09/22/20 12:28:18] D2BS 15712: move retry 1
+[09/22/20 12:28:41] D2BS 15712: move retry 1
+[09/22/20 12:29:10] D2BS 15712: ÿc7Picked up ÿc4220 Gold
+[09/22/20 12:29:24] D2BS 15712: ÿc7Picked up ÿc4154 Gold
+[09/22/20 12:29:25] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:29:25] D2BS 15712: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/22/20 12:29:37] D2BS 15712: move retry 1
+[09/22/20 12:29:40] D2BS 15712: ÿc7Picked up ÿc4209 Gold
+[09/22/20 12:29:45] D2BS 15712: move retry 1
+[09/22/20 12:29:45] D2BS 15712: ÿc7Picked up ÿc4175 Gold
+[09/22/20 12:30:34] D2BS 15712: ÿc7Picked up ÿc4141 Gold
+[09/22/20 12:30:38] D2BS 15712: ÿc7Picked up ÿc4103 Gold
+[09/22/20 12:30:49] D2BS 15712: ÿc7Picked up ÿc464 Gold
+[09/22/20 12:30:55] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/22/20 12:31:19] D2BS 15712: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/22/20 12:31:19] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:31:46] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 12:32:39] D2BS 15712: move retry 1
+[09/22/20 12:33:25] D2BS 15712: move retry 1
+[09/22/20 12:33:44] D2BS 15712: move retry 1
+[09/22/20 12:33:55] D2BS 15712: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/22/20 12:34:01] D2BS 15712: ÿc7Picked up ÿc452 Gold
+[09/22/20 12:34:04] D2BS 15712: move retry 1
+[09/22/20 12:34:05] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:34:12] D2BS 15712: move retry 1
+[09/22/20 12:34:22] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 12:34:22] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 12:34:57] D2BS 15712: ÿc7Picked up ÿc4135 Gold
+[09/22/20 12:34:58] D2BS 15712: move retry 1
+[09/22/20 12:35:30] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:35:50] D2BS 15712: 132
+[09/22/20 12:36:00] D2BS 15712: initNPC: buyPotions
+[09/22/20 12:36:21] D2BS 15712: move retry 1
+[09/22/20 12:36:27] D2BS 15712: move retry 1
+[09/22/20 12:36:32] D2BS 15712: 129
+[09/22/20 12:37:03] D2BS 15712: 129,130,131
+[09/22/20 12:37:29] D2BS 15712: move retry 1
+[09/22/20 12:38:10] D2BS 15712: move retry 1
+[09/22/20 12:39:34] D2BS 15712: Script default.dbj ended
+[09/22/20 12:39:34] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 12:39:34] D2BS 15712: Script tools\party.js ended
+[09/22/20 12:39:34] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 12:39:34] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 12:39:41] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 12:39:41] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 12:39:41] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 12:39:41] D2BS 15712: Updating Config from level 0 to 43
+[09/22/20 12:39:41] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/22/20 12:39:41] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 12:39:41] D2BS 15712: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/22/20 12:39:41] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/22/20 12:39:41] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc216 ms
+[09/22/20 12:39:41] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 12:39:41] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc20 ms
+[09/22/20 12:39:41] D2BS 15712: Updating Config from level 0 to 43
+[09/22/20 12:39:41] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 12:39:41] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 12:39:41] D2BS 15712: Updating Config from level 0 to 43
+[09/22/20 12:39:41] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 12:39:41] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 12:39:41] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 12:39:41] D2BS 15712: Updating Config from level 0 to 43
+[09/22/20 12:39:41] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 12:39:41] D2BS 15712: Updating Config from level 0 to 43
+[09/22/20 12:39:42] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 12:39:42] D2BS 15712: initNPC: buyPotions
+[09/22/20 12:39:43] D2BS 15712: move retry 1
+[09/22/20 12:39:46] D2BS 15712: move retry 1
+[09/22/20 12:39:55] D2BS 15712: move retry 1
+[09/22/20 12:40:23] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/22/20 12:40:29] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 12:40:35] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/22/20 12:40:36] D2BS 15712: move retry 1
+[09/22/20 12:41:39] D2BS 15712: move retry 1
+[09/22/20 12:41:59] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:42:04] D2BS 15712: ÿc7Picked up ÿc461 Gold
+[09/22/20 12:42:06] D2BS 15712: move retry 1
+[09/22/20 12:42:27] D2BS 15712: ÿc7Picked up ÿc4137 Gold
+[09/22/20 12:42:54] D2BS 15712: move retry 1
+[09/22/20 12:44:09] D2BS 15712: ÿc7Picked up ÿc4234 Gold
+[09/22/20 12:44:23] D2BS 15712: move retry 1
+[09/22/20 12:44:29] D2BS 15712: move retry 1
+[09/22/20 12:44:30] D2BS 15712: ÿc7Picked up ÿc465 Gold
+[09/22/20 12:44:37] D2BS 15712: ÿc7Picked up ÿc4229 Gold
+[09/22/20 12:44:55] D2BS 15712: ÿc7Picked up ÿc4106 Gold
+[09/22/20 12:45:03] D2BS 15712: move retry 1
+[09/22/20 12:46:00] D2BS 15712: 129,130
+[09/22/20 12:46:13] D2BS 15712: ÿc7Picked up ÿc4234 Gold
+[09/22/20 12:46:20] D2BS 15712: move retry 1
+[09/22/20 12:46:50] D2BS 15712: ÿc7Picked up ÿc476 Gold
+[09/22/20 12:46:54] D2BS 15712: move retry 1
+[09/22/20 12:47:19] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 1
+[09/22/20 12:47:19] D2BS 15712: AutoBuild: Level up detected ( 43 --> 44 )
+[09/22/20 12:47:19] D2BS 15712: AutoBuild: useSkillPoint(): Meteor (56)
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Attempt to spend skill point 1 in Meteor (56) may have failed!
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 52 to 53
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 125 to 126
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 126 to 127
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 94 to 95
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 95 to 96
+[09/22/20 12:47:20] D2BS 15712: Updating Config from level 43 to 44
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Updating Config from level 43 to 44
+[09/22/20 12:47:20] D2BS 15712: Updating Config from level 43 to 44
+[09/22/20 12:47:20] D2BS 15712: Updating Config from level 43 to 44
+[09/22/20 12:47:20] D2BS 15712: Updating Config from level 43 to 44
+[09/22/20 12:47:20] D2BS 15712: AutoBuild: Incrementing cached character level to 44
+[09/22/20 12:47:21] D2BS 15712: move retry 1
+[09/22/20 12:47:21] D2BS 15712: ÿc7Picked up ÿc4174 Gold
+[09/22/20 12:47:23] D2BS 15712: move retry 1
+[09/22/20 12:47:26] D2BS 15712: move retry 1
+[09/22/20 12:48:29] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:48:54] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/22/20 12:48:57] D2BS 15712: move retry 1
+[09/22/20 12:49:14] D2BS 15712: ÿc7Picked up ÿc4200 Gold
+[09/22/20 12:49:17] D2BS 15712: move retry 1
+[09/22/20 12:49:25] D2BS 15712: ÿc7Picked up ÿc4123 Gold
+[09/22/20 12:49:25] D2BS 15712: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/22/20 12:50:31] D2BS 15712: move retry 1
+[09/22/20 12:51:21] D2BS 15712: ÿc7Picked up ÿc4133 Gold
+[09/22/20 12:51:30] D2BS 15712: ÿc7Picked up ÿc4112 Gold
+[09/22/20 12:51:36] D2BS 15712: move retry 1
+[09/22/20 12:52:30] D2BS 15712: move retry 1
+[09/22/20 12:53:11] D2BS 15712: 130,131
+[09/22/20 12:53:44] D2BS 15712: ÿc7Picked up ÿc4193 Gold
+[09/22/20 12:53:47] D2BS 15712: ÿc7Picked up ÿc439 Gold
+[09/22/20 12:53:52] D2BS 15712: ÿc7Picked up ÿc498 Gold
+[09/22/20 12:54:11] D2BS 15712: ÿc7Picked up ÿc4246 Gold
+[09/22/20 12:54:15] D2BS 15712: ÿc7Picked up ÿc4148 Gold
+[09/22/20 12:54:31] D2BS 15712: ÿc7Picked up ÿc474 Gold
+[09/22/20 12:54:32] D2BS 15712: move retry 1
+[09/22/20 12:54:36] D2BS 15712: ÿc7Picked up ÿc4181 Gold
+[09/22/20 12:54:37] D2BS 15712: ÿc7Picked up ÿc4100 Gold
+[09/22/20 12:54:48] D2BS 15712: ÿc7Picked up ÿc4184 Gold
+[09/22/20 12:55:50] D2BS 15712: ÿc7Picked up ÿc4102 Gold
+[09/22/20 12:56:09] D2BS 15712: ÿc7Picked up ÿc449 Gold
+[09/22/20 12:56:21] D2BS 15712: move retry 1
+[09/22/20 12:56:42] D2BS 15712: move retry 1
+[09/22/20 12:56:43] D2BS 15712: ÿc7Picked up ÿc4189 Gold
+[09/22/20 12:56:54] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:56:59] D2BS 15712: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/22/20 12:57:11] D2BS 15712: move retry 1
+[09/22/20 12:57:52] D2BS 15712: ÿc7Picked up ÿc4149 Gold
+[09/22/20 12:57:58] D2BS 15712: move retry 1
+[09/22/20 12:58:55] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/22/20 12:58:58] D2BS 15712: ÿc7Picked up ÿc435 Gold
+[09/22/20 12:58:58] D2BS 15712: ÿc7Picked up ÿc421 Gold
+[09/22/20 12:59:06] D2BS 15712: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/22/20 12:59:07] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:59:07] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/22/20 12:59:07] D2BS 15712: ÿc7Picked up ÿc418 Gold
+[09/22/20 12:59:20] D2BS 15712: move retry 1
+[09/22/20 12:59:33] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 12:59:33] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:00:38] D2BS 15712: ÿc7Picked up ÿc489 Gold
+[09/22/20 13:00:59] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:01:00] D2BS 15712: move retry 1
+[09/22/20 13:01:02] D2BS 15712: move retry 1
+[09/22/20 13:01:16] D2BS 15712: initNPC: SellMercGear
+[09/22/20 13:01:37] D2BS 15712: waypoint retry 1
+[09/22/20 13:01:39] D2BS 15712: 129,130
+[09/22/20 13:02:06] D2BS 15712: 130,131
+[09/22/20 13:02:24] D2BS 15712: move retry 1
+[09/22/20 13:02:27] D2BS 15712: move retry 1
+[09/22/20 13:02:43] D2BS 15712: move retry 1
+[09/22/20 13:04:37] D2BS 15712: Script default.dbj ended
+[09/22/20 13:04:37] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 13:04:37] D2BS 15712: Script tools\party.js ended
+[09/22/20 13:04:37] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 13:04:37] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 13:04:44] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 13:04:44] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 13:04:44] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 13:04:44] D2BS 15712: Updating Config from level 0 to 44
+[09/22/20 13:04:44] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[09/22/20 13:04:44] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 13:04:44] D2BS 15712: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[09/22/20 13:04:44] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/22/20 13:04:44] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc20 ms
+[09/22/20 13:04:44] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc216 ms
+[09/22/20 13:04:44] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 13:04:44] D2BS 15712: Updating Config from level 0 to 44
+[09/22/20 13:04:44] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 13:04:44] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 13:04:44] D2BS 15712: Updating Config from level 0 to 44
+[09/22/20 13:04:44] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 13:04:44] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 13:04:44] D2BS 15712: Updating Config from level 0 to 44
+[09/22/20 13:04:44] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 13:04:44] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 13:04:44] D2BS 15712: Updating Config from level 0 to 44
+[09/22/20 13:04:44] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 13:04:44] D2BS 15712: initNPC: heal
+[09/22/20 13:04:48] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:04:51] D2BS 15712: move retry 1
+[09/22/20 13:05:26] D2BS 15712: ÿc7Picked up ÿc4209 Gold
+[09/22/20 13:05:36] D2BS 15712: move retry 1
+[09/22/20 13:05:43] D2BS 15712: move retry 1
+[09/22/20 13:05:47] D2BS 15712: move retry 1
+[09/22/20 13:06:24] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:06:48] D2BS 15712: move retry 1
+[09/22/20 13:06:48] D2BS 15712: ÿc7Picked up ÿc448 Gold
+[09/22/20 13:07:06] D2BS 15712: move retry 1
+[09/22/20 13:07:16] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:07:29] D2BS 15712: ÿc7Picked up ÿc447 Gold
+[09/22/20 13:07:32] D2BS 15712: move retry 1
+[09/22/20 13:07:36] D2BS 15712: ÿc7Picked up ÿc461 Gold
+[09/22/20 13:07:37] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 13:07:37] D2BS 15712: ÿc7Picked up ÿc4189 Gold
+[09/22/20 13:07:40] D2BS 15712: ÿc7Picked up ÿc4188 Gold
+[09/22/20 13:08:01] D2BS 15712: move retry 1
+[09/22/20 13:08:43] D2BS 15712: ÿc7Picked up ÿc4182 Gold
+[09/22/20 13:09:17] D2BS 15712: move retry 1
+[09/22/20 13:09:56] D2BS 15712: ÿc7Picked up ÿc4219 Gold
+[09/22/20 13:10:07] D2BS 15712: move retry 1
+[09/22/20 13:10:43] D2BS 15712: ÿc7Picked up ÿc4205 Gold
+[09/22/20 13:10:53] D2BS 15712: move retry 1
+[09/22/20 13:10:59] D2BS 15712: move retry 1
+[09/22/20 13:11:12] D2BS 15712: ÿc7Picked up ÿc455 Gold
+[09/22/20 13:11:16] D2BS 15712: ÿc7Picked up ÿc4224 Gold
+[09/22/20 13:11:44] D2BS 15712: ÿc7Picked up ÿc4138 Gold
+[09/22/20 13:11:54] D2BS 15712: ÿc7Picked up ÿc4157 Gold
+[09/22/20 13:11:54] D2BS 15712: undefined item (!?)
+[09/22/20 13:11:55] D2BS 15712: ÿc7Picked up ÿc4142 Gold
+[09/22/20 13:12:36] D2BS 15712: 129,130
+[09/22/20 13:12:51] D2BS 15712: ÿc7Picked up ÿc447 Gold
+[09/22/20 13:12:51] D2BS 15712: ÿc7Picked up ÿc4194 Gold
+[09/22/20 13:12:51] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 13:13:18] D2BS 15712: ÿc7Picked up ÿc456 Gold
+[09/22/20 13:13:19] D2BS 15712: move retry 1
+[09/22/20 13:13:28] D2BS 15712: ÿc7Picked up ÿc4196 Gold
+[09/22/20 13:13:50] D2BS 15712: move retry 1
+[09/22/20 13:14:45] D2BS 15712: move retry 1
+[09/22/20 13:14:56] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:14:57] D2BS 15712: move retry 1
+[09/22/20 13:15:19] D2BS 15712: ÿc7Picked up ÿc4182 Gold
+[09/22/20 13:16:44] D2BS 15712: ÿc7Picked up ÿc488 Gold
+[09/22/20 13:16:45] D2BS 15712: ÿc7Picked up ÿc469 Gold
+[09/22/20 13:16:52] D2BS 15712: ÿc7Picked up ÿc4143 Gold
+[09/22/20 13:17:27] D2BS 15712: ÿc7Picked up ÿc4232 Gold
+[09/22/20 13:18:20] D2BS 15712: ÿc7Picked up ÿc468 Gold
+[09/22/20 13:19:03] D2BS 15712: 130,131
+[09/22/20 13:19:08] D2BS 15712: ÿc7Picked up ÿc4157 Gold
+[09/22/20 13:19:45] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 2
+[09/22/20 13:19:45] D2BS 15712: AutoBuild: Level up detected ( 44 --> 45 )
+[09/22/20 13:19:45] D2BS 15712: AutoBuild: useSkillPoint(): Meteor (56)
+[09/22/20 13:19:45] D2BS 15712: AutoBuild: Attempt to spend skill point 1 in Meteor (56) may have failed!
+[09/22/20 13:19:45] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 53 to 54
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 127 to 128
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 128 to 129
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 96 to 97
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 97 to 98
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: Updating Config from level 44 to 45
+[09/22/20 13:19:46] D2BS 15712: Updating Config from level 44 to 45
+[09/22/20 13:19:46] D2BS 15712: Updating Config from level 44 to 45
+[09/22/20 13:19:46] D2BS 15712: Updating Config from level 44 to 45
+[09/22/20 13:19:46] D2BS 15712: Updating Config from level 44 to 45
+[09/22/20 13:19:46] D2BS 15712: AutoBuild: Incrementing cached character level to 45
+[09/22/20 13:19:49] D2BS 15712: ÿc7Picked up ÿc435 Gold
+[09/22/20 13:19:55] D2BS 15712: ÿc7Picked up ÿc4161 Gold
+[09/22/20 13:20:19] D2BS 15712: move retry 1
+[09/22/20 13:20:48] D2BS 15712: ÿc7Picked up ÿc4160 Gold
+[09/22/20 13:21:03] D2BS 15712: ÿc7Picked up ÿc4165 Gold
+[09/22/20 13:21:19] D2BS 15712: move retry 1
+[09/22/20 13:21:46] D2BS 15712: move retry 1
+[09/22/20 13:21:48] D2BS 15712: move retry 1
+[09/22/20 13:22:07] D2BS 15712: ÿc7Picked up ÿc4254 Gold
+[09/22/20 13:22:29] D2BS 15712: ÿc7Picked up ÿc491 Gold
+[09/22/20 13:22:29] D2BS 15712: ÿc7Picked up ÿc41085 Gold
+[09/22/20 13:22:30] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:22:45] D2BS 15712: ÿc7Picked up ÿc474 Gold
+[09/22/20 13:22:47] D2BS 15712: move retry 1
+[09/22/20 13:23:19] D2BS 15712: ÿc7Picked up ÿc458 Gold
+[09/22/20 13:23:22] D2BS 15712: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/22/20 13:23:32] D2BS 15712: ÿc7Picked up ÿc4205 Gold
+[09/22/20 13:23:32] D2BS 15712: ÿc7Picked up ÿc4147 Gold
+[09/22/20 13:24:01] D2BS 15712: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/22/20 13:24:24] D2BS 15712: move retry 1
+[09/22/20 13:24:46] D2BS 15712: move retry 1
+[09/22/20 13:25:15] D2BS 15712: move retry 1
+[09/22/20 13:25:26] D2BS 15712: move retry 1
+[09/22/20 13:25:37] D2BS 15712: move retry 1
+[09/22/20 13:25:52] D2BS 15712: ÿc7Picked up ÿc4191 Gold
+[09/22/20 13:26:18] D2BS 15712: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/22/20 13:26:43] D2BS 15712: move retry 1
+[09/22/20 13:27:05] D2BS 15712: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #21)
+[09/22/20 13:27:09] D2BS 15712: ÿc7Picked up ÿc4308 Gold
+[09/22/20 13:27:33] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:27:38] D2BS 15712: move retry 1
+[09/22/20 13:27:39] D2BS 15712: move retry 1
+[09/22/20 13:27:53] D2BS 15712: move retry 1
+[09/22/20 13:27:54] D2BS 15712: move retry 2
+[09/22/20 13:28:05] D2BS 15712: 129,130
+[09/22/20 13:28:34] D2BS 15712: 130,131
+[09/22/20 13:30:10] D2BS 15712: move retry 1
+[09/22/20 13:30:29] D2BS 15712: move retry 1
+[09/22/20 13:31:04] D2BS 15712: Script default.dbj ended
+[09/22/20 13:31:04] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 13:31:04] D2BS 15712: Script tools\party.js ended
+[09/22/20 13:31:04] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 13:31:04] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 13:31:11] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 13:31:11] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 13:31:11] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 13:31:11] D2BS 15712: Updating Config from level 0 to 45
+[09/22/20 13:31:11] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/22/20 13:31:11] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 13:31:11] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/22/20 13:31:11] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc215 ms
+[09/22/20 13:31:11] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc20 ms
+[09/22/20 13:31:11] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 13:31:11] D2BS 15712: Updating Config from level 0 to 45
+[09/22/20 13:31:11] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 13:31:11] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 13:31:11] D2BS 15712: Updating Config from level 0 to 45
+[09/22/20 13:31:11] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 13:31:11] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 13:31:11] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 13:31:11] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 13:31:11] D2BS 15712: Updating Config from level 0 to 45
+[09/22/20 13:31:11] D2BS 15712: Updating Config from level 0 to 45
+[09/22/20 13:31:11] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 13:31:11] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:31:34] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:32:04] D2BS 15712: move retry 1
+[09/22/20 13:32:26] D2BS 15712: ÿc7Picked up ÿc4108 Gold
+[09/22/20 13:32:43] D2BS 15712: ÿc7Picked up ÿc452 Gold
+[09/22/20 13:32:48] D2BS 15712: move retry 1
+[09/22/20 13:33:13] D2BS 15712: move retry 1
+[09/22/20 13:35:03] D2BS 15712: move retry 1
+[09/22/20 13:35:15] D2BS 15712: move retry 1
+[09/22/20 13:35:59] D2BS 15712: ÿc7Picked up ÿc4152 Gold
+[09/22/20 13:36:27] D2BS 15712: move retry 1
+[09/22/20 13:36:47] D2BS 15712: ÿc7Picked up ÿc486 Gold
+[09/22/20 13:37:01] D2BS 15712: ÿc7Picked up ÿc4158 Gold
+[09/22/20 13:37:06] D2BS 15712: ÿc7Picked up ÿc497 Gold
+[09/22/20 13:37:13] D2BS 15712: ÿc7Picked up ÿc496 Gold
+[09/22/20 13:37:16] D2BS 15712: ÿc7Picked up ÿc488 Gold
+[09/22/20 13:37:34] D2BS 15712: move retry 1
+[09/22/20 13:37:48] D2BS 15712: move retry 1
+[09/22/20 13:38:10] D2BS 15712: move retry 1
+[09/22/20 13:38:49] D2BS 15712: move retry 1
+[09/22/20 13:39:21] D2BS 15712: 129,130
+[09/22/20 13:39:47] D2BS 15712: move retry 1
+[09/22/20 13:40:00] D2BS 15712: ÿc7Picked up ÿc4128 Gold
+[09/22/20 13:40:17] D2BS 15712: move retry 1
+[09/22/20 13:41:19] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:41:31] D2BS 15712: move retry 1
+[09/22/20 13:41:44] D2BS 15712: move retry 1
+[09/22/20 13:41:58] D2BS 15712: ÿc7Picked up ÿc4172 Gold
+[09/22/20 13:42:04] D2BS 15712: move retry 1
+[09/22/20 13:42:26] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:44:28] D2BS 15712: move retry 1
+[09/22/20 13:44:58] D2BS 15712: move retry 1
+[09/22/20 13:45:00] D2BS 15712: ÿc7Picked up ÿc4238 Gold
+[09/22/20 13:45:33] D2BS 15712: 130,131
+[09/22/20 13:45:56] D2BS 15712: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/22/20 13:46:26] D2BS 15712: ÿc7Picked up ÿc4206 Gold
+[09/22/20 13:46:37] D2BS 15712: ÿc7Picked up ÿc492 Gold
+[09/22/20 13:46:58] D2BS 15712: move retry 1
+[09/22/20 13:47:12] D2BS 15712: move retry 1
+[09/22/20 13:47:36] D2BS 15712: ÿc7Picked up ÿc436 Gold
+[09/22/20 13:47:44] D2BS 15712: move retry 1
+[09/22/20 13:47:44] D2BS 15712: move retry 1
+[09/22/20 13:48:01] D2BS 15712: ÿc7Picked up ÿc4225 Gold
+[09/22/20 13:48:09] D2BS 15712: ÿc7Picked up ÿc4175 Gold
+[09/22/20 13:48:50] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:49:00] D2BS 15712: ÿc7Picked up ÿc4196 Gold
+[09/22/20 13:49:06] D2BS 15712: ÿc7Picked up ÿc438 Gold
+[09/22/20 13:49:23] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 13:49:49] D2BS 15712: ÿc7Picked up ÿc496 Gold
+[09/22/20 13:50:43] D2BS 15712: move retry 1
+[09/22/20 13:51:59] D2BS 15712: move retry 1
+[09/22/20 13:52:24] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 3
+[09/22/20 13:52:24] D2BS 15712: AutoBuild: Level up detected ( 45 --> 46 )
+[09/22/20 13:52:24] D2BS 15712: AutoBuild: useSkillPoint(): Fire Mastery (61)
+[09/22/20 13:52:24] D2BS 15712: AutoBuild: Skill (1/1) Increased Fire Mastery (61) by one (level:  6)
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 54 to 55
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 129 to 130
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 130 to 131
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 98 to 99
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 99 to 100
+[09/22/20 13:52:25] D2BS 15712: Updating Config from level 45 to 46
+[09/22/20 13:52:25] D2BS 15712: Updating Config from level 45 to 46
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: Updating Config from level 45 to 46
+[09/22/20 13:52:25] D2BS 15712: Updating Config from level 45 to 46
+[09/22/20 13:52:25] D2BS 15712: Updating Config from level 45 to 46
+[09/22/20 13:52:25] D2BS 15712: AutoBuild: Incrementing cached character level to 46
+[09/22/20 13:52:26] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 13:53:15] D2BS 15712: move retry 1
+[09/22/20 13:53:18] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:53:36] D2BS 15712: move retry 1
+[09/22/20 13:53:47] D2BS 15712: 129
+[09/22/20 13:54:21] D2BS 15712: 129,130,131
+[09/22/20 13:55:13] D2BS 15712: move retry 1
+[09/22/20 13:56:08] D2BS 15712: move retry 1
+[09/22/20 13:56:20] D2BS 15712: move retry 1
+[09/22/20 13:56:50] D2BS 15712: Script default.dbj ended
+[09/22/20 13:56:50] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 13:56:50] D2BS 15712: Script tools\party.js ended
+[09/22/20 13:56:50] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 13:56:50] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 13:56:57] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 13:56:57] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 13:56:57] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 13:56:57] D2BS 15712: Updating Config from level 0 to 46
+[09/22/20 13:56:57] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/22/20 13:56:57] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 13:56:57] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc215 ms
+[09/22/20 13:56:57] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc20 ms
+[09/22/20 13:56:57] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc216 ms
+[09/22/20 13:56:57] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 13:56:57] D2BS 15712: Updating Config from level 0 to 46
+[09/22/20 13:56:57] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 13:56:57] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 13:56:57] D2BS 15712: Updating Config from level 0 to 46
+[09/22/20 13:56:57] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 13:56:57] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 13:56:57] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 13:56:57] D2BS 15712: Updating Config from level 0 to 46
+[09/22/20 13:56:57] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 13:56:57] D2BS 15712: Updating Config from level 0 to 46
+[09/22/20 13:56:57] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 13:56:57] D2BS 15712: initNPC: buyPotions
+[09/22/20 13:57:00] D2BS 15712: move retry 1
+[09/22/20 13:57:40] D2BS 15712: move retry 1
+[09/22/20 13:57:54] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 13:57:59] D2BS 15712: ÿc7Picked up ÿc4220 Gold
+[09/22/20 13:58:02] D2BS 15712: move retry 1
+[09/22/20 13:58:07] D2BS 15712: move retry 1
+[09/22/20 13:58:40] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 13:58:43] D2BS 15712: ÿc7Picked up ÿc465 Gold
+[09/22/20 13:59:02] D2BS 15712: ÿc7Picked up ÿc4120 Gold
+[09/22/20 13:59:55] D2BS 15712: move retry 1
+[09/22/20 13:59:58] D2BS 15712: move retry 1
+[09/22/20 14:00:25] D2BS 15712: move retry 1
+[09/22/20 14:00:49] D2BS 15712: ÿc7Picked up ÿc4127 Gold
+[09/22/20 14:01:01] D2BS 15712: move retry 1
+[09/22/20 14:01:02] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 14:01:54] D2BS 15712: ÿc7Picked up ÿc459 Gold
+[09/22/20 14:02:03] D2BS 15712: ÿc7Picked up ÿc485 Gold
+[09/22/20 14:02:19] D2BS 15712: move retry 1
+[09/22/20 14:02:33] D2BS 15712: move retry 1
+[09/22/20 14:02:38] D2BS 15712: move retry 1
+[09/22/20 14:03:14] D2BS 15712: move retry 1
+[09/22/20 14:03:19] D2BS 15712: 129,130
+[09/22/20 14:03:59] D2BS 15712: move retry 1
+[09/22/20 14:04:14] D2BS 15712: move retry 1
+[09/22/20 14:04:19] D2BS 15712: ÿc7Picked up ÿc4181 Gold
+[09/22/20 14:04:36] D2BS 15712: move retry 1
+[09/22/20 14:04:41] D2BS 15712: ÿc7Picked up ÿc4168 Gold
+[09/22/20 14:05:34] D2BS 15712: move retry 1
+[09/22/20 14:05:36] D2BS 15712: move retry 1
+[09/22/20 14:05:50] D2BS 15712: ÿc7Picked up ÿc4194 Gold
+[09/22/20 14:05:59] D2BS 15712: ÿc7Picked up ÿc4140 Gold
+[09/22/20 14:05:59] D2BS 15712: ÿc7Picked up ÿc469 Gold
+[09/22/20 14:05:59] D2BS 15712: ÿc7Picked up ÿc452 Gold
+[09/22/20 14:06:00] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:06:09] D2BS 15712: move retry 1
+[09/22/20 14:06:44] D2BS 15712: ÿc7Picked up ÿc4186 Gold
+[09/22/20 14:06:53] D2BS 15712: ÿc7Picked up ÿc496 Gold
+[09/22/20 14:06:58] D2BS 15712: ÿc7Picked up ÿc4206 Gold
+[09/22/20 14:07:09] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:08:08] D2BS 15712: ÿc7Picked up ÿc4184 Gold
+[09/22/20 14:08:17] D2BS 15712: ÿc7Picked up ÿc4211 Gold
+[09/22/20 14:08:53] D2BS 15712: 130,131
+[09/22/20 14:09:36] D2BS 15712: move retry 1
+[09/22/20 14:09:37] D2BS 15712: initNPC: buyPotions
+[09/22/20 14:10:09] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:10:26] D2BS 15712: move retry 1
+[09/22/20 14:10:32] D2BS 15712: move retry 1
+[09/22/20 14:10:49] D2BS 15712: ÿc7Picked up ÿc445 Gold
+[09/22/20 14:11:30] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 14:11:46] D2BS 15712: ÿc7Picked up ÿc468 Gold
+[09/22/20 14:11:47] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:12:01] D2BS 15712: move retry 1
+[09/22/20 14:12:12] D2BS 15712: ÿc7Picked up ÿc4480 Gold
+[09/22/20 14:12:16] D2BS 15712: move retry 1
+[09/22/20 14:12:57] D2BS 15712: move retry 1
+[09/22/20 14:13:02] D2BS 15712: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/22/20 14:14:37] D2BS 15712: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #22)
+[09/22/20 14:14:44] D2BS 15712: move retry 1
+[09/22/20 14:14:49] D2BS 15712: move retry 1
+[09/22/20 14:15:05] D2BS 15712: move retry 1
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: Stat points: 10      Skill points: 3
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: Level up detected ( 46 --> 47 )
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: useSkillPoint(): Fire Mastery (61)
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: Skill (1/1) Increased Fire Mastery (61) by one (level:  6)
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: useStatPoint(0): Strength
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: Stat (1/5) Increased Strength from 55 to 56
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: Stat (2/5) Increased Energy from 131 to 132
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: useStatPoint(1): Energy
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: Stat (3/5) Increased Energy from 132 to 133
+[09/22/20 14:15:59] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 14:16:00] D2BS 15712: AutoBuild: Stat (4/5) Increased Vitality from 100 to 101
+[09/22/20 14:16:00] D2BS 15712: AutoBuild: useStatPoint(3): Vitality
+[09/22/20 14:16:00] D2BS 15712: AutoBuild: Stat (5/5) Increased Vitality from 101 to 102
+[09/22/20 14:16:00] D2BS 15712: Updating Config from level 46 to 47
+[09/22/20 14:16:00] D2BS 15712: Updating Config from level 46 to 47
+[09/22/20 14:16:00] D2BS 15712: Updating Config from level 46 to 47
+[09/22/20 14:16:00] D2BS 15712: AutoBuild: Updating Config from level 46 to 47
+[09/22/20 14:16:00] D2BS 15712: Updating Config from level 46 to 47
+[09/22/20 14:16:00] D2BS 15712: AutoBuild: Incrementing cached character level to 47
+[09/22/20 14:16:02] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:16:03] D2BS 15712: move retry 1
+[09/22/20 14:16:19] D2BS 15712: 132
+[09/22/20 14:16:48] D2BS 15712: ÿc7Picked up ÿc42069 Gold
+[09/22/20 14:16:49] D2BS 15712: move retry 1
+[09/22/20 14:16:49] D2BS 15712: ÿc7Picked up ÿc42837 Gold
+[09/22/20 14:17:00] D2BS 15712: initNPC: heal
+[09/22/20 14:17:01] D2BS 15712: move retry 1
+[09/22/20 14:17:30] D2BS 15712: move retry 1
+[09/22/20 14:17:34] D2BS 15712: 129
+[09/22/20 14:18:09] D2BS 15712: 129,130,131
+[09/22/20 14:20:26] D2BS 15712: move retry 1
+[09/22/20 14:20:45] D2BS 15712: move retry 1
+[09/22/20 14:20:53] D2BS 15712: Script default.dbj ended
+[09/22/20 14:20:53] D2BS 15712: Script tools\autobuildthread.js ended
+[09/22/20 14:20:53] D2BS 15712: Script tools\party.js ended
+[09/22/20 14:20:53] D2BS 15712: Script tools\toolsthread.js ended
+[09/22/20 14:20:53] D2BS 15712: Script tools\townchicken.js ended
+[09/22/20 14:21:00] D2BS 15712: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/22/20 14:21:00] D2BS 15712: ÿc2D2BSÿc0 :: default.dbj running.
+[09/22/20 14:21:00] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/22/20 14:21:00] D2BS 15712: Updating Config from level 0 to 47
+[09/22/20 14:21:00] D2BS 15712: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/22/20 14:21:00] D2BS 15712: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc254ÿc4. Valid entries: ÿc233. ÿc4Time: ÿc20 ms
+[09/22/20 14:21:00] D2BS 15712: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc215 ms
+[09/22/20 14:21:00] D2BS 15712: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2123ÿc4. Valid entries: ÿc296. ÿc4Time: ÿc20 ms
+[09/22/20 14:21:00] D2BS 15712: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc272ÿc4. Valid entries: ÿc256. ÿc4Time: ÿc216 ms
+[09/22/20 14:21:00] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/22/20 14:21:00] D2BS 15712: Updating Config from level 0 to 47
+[09/22/20 14:21:00] D2BS 15712: AutoBuild: Loaded helper thread
+[09/22/20 14:21:00] D2BS 15712: ÿc2Starting script: ÿc9LevelFollower
+[09/22/20 14:21:00] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/22/20 14:21:00] D2BS 15712: Updating Config from level 0 to 47
+[09/22/20 14:21:00] D2BS 15712: ÿc2Party thread loaded. Mode: Accept
+[09/22/20 14:21:00] D2BS 15712: ÿc3Start ToolsThread script
+[09/22/20 14:21:00] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/22/20 14:21:00] D2BS 15712: Updating Config from level 0 to 47
+[09/22/20 14:21:00] D2BS 15712: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/22/20 14:21:00] D2BS 15712: Updating Config from level 0 to 47
+[09/22/20 14:21:51] D2BS 15712: ÿc7Picked up ÿc3Breast Plate ÿc0(ilvl 39) (Meteor.xpac.nip #50)
+[09/22/20 14:21:52] D2BS 15712: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/22/20 14:22:11] D2BS 15712: 2,8
+[09/22/20 14:22:21] D2BS 15712: move retry 1
+[09/22/20 14:22:23] D2BS 15712: move retry 1
+[09/22/20 14:22:29] D2BS 15712: move retry 1
+[09/22/20 14:22:36] D2BS 15712: move retry 1
+[09/22/20 14:22:40] D2BS 15712: move retry 1
+[09/22/20 14:23:08] D2BS 15712: move retry 1
+[09/22/20 14:23:13] D2BS 15712: ÿc7Picked up ÿc463 Gold
+[09/22/20 14:23:14] D2BS 15712: ÿc7Picked up ÿc4151 Gold
+[09/22/20 14:23:28] D2BS 15712: ÿc7Picked up ÿc4147 Gold
+[09/22/20 14:23:43] D2BS 15712: move retry 1
+[09/22/20 14:23:46] D2BS 15712: move retry 1
+[09/22/20 14:25:20] D2BS 15712: move retry 1
+[09/22/20 14:26:29] D2BS 15712: move retry 1
+[09/22/20 14:26:38] D2BS 15712: ÿc7Picked up ÿc4209 Gold
+[09/22/20 14:28:07] D2BS 15712: move retry 1
+[09/22/20 14:28:54] D2BS 15712: 8,2
+[09/22/20 14:29:18] D2BS 15712: 2,3
+[09/22/20 14:29:27] D2BS 15712: ÿc7Picked up ÿc497 Gold
+[09/22/20 14:29:28] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 14:29:47] D2BS 15712: initNPC: identify
+[09/22/20 14:30:09] D2BS 15712: ÿc4MiniShopBotÿc0: Scanning 38 items.
+[09/22/20 14:30:10] D2BS 15712: initNPC: buyPotions
+[09/22/20 14:30:10] D2BS 15712: Jade Breast Plate 
+[09/22/20 14:30:50] D2BS 15712: ÿc7Picked up ÿc438 Gold
+[09/22/20 14:31:12] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 14:31:16] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:31:18] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 14:31:22] D2BS 15712: ÿc7Picked up ÿc4147 Gold
+[09/22/20 14:31:24] D2BS 15712: ÿc7Picked up ÿc4188 Gold
+[09/22/20 14:31:25] D2BS 15712: move retry 1
+[09/22/20 14:31:30] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 14:31:31] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 14:31:31] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 14:31:34] D2BS 15712: ÿc7Picked up ÿc4226 Gold
+[09/22/20 14:32:25] D2BS 15712: ÿc7Picked up ÿc4100 Gold
+[09/22/20 14:33:00] D2BS 15712: ÿc7Picked up ÿc4124 Gold
+[09/22/20 14:33:03] D2BS 15712: move retry 1
+[09/22/20 14:33:24] D2BS 15712: ÿc7Picked up ÿc4224 Gold
+[09/22/20 14:33:34] D2BS 15712: move retry 1
+[09/22/20 14:33:35] D2BS 15712: ÿc7Picked up ÿc438 Gold
+[09/22/20 14:34:14] D2BS 15712: move retry 1
+[09/22/20 14:34:14] D2BS 15712: ÿc7Picked up ÿc4100 Gold
+[09/22/20 14:34:28] D2BS 15712: ÿc7Picked up ÿc4124 Gold
+[09/22/20 14:34:36] D2BS 15712: ÿc7Picked up ÿc4152 Gold
+[09/22/20 14:34:43] D2BS 15712: ÿc7Picked up ÿc4168 Gold
+[09/22/20 14:35:04] D2BS 15712: ÿc7Picked up ÿc4120 Gold
+[09/22/20 14:35:14] D2BS 15712: ÿc7Picked up ÿc4197 Gold
+[09/22/20 14:35:25] D2BS 15712: move retry 1
+[09/22/20 14:35:38] D2BS 15712: ÿc7Picked up ÿc4198 Gold
+[09/22/20 14:36:34] D2BS 15712: ÿc7Picked up ÿc453 Gold
+[09/22/20 14:36:38] D2BS 15712: ÿc7Picked up ÿc4193 Gold
+[09/22/20 14:37:08] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:37:13] D2BS 15712: ÿc7Picked up ÿc485 Gold
+[09/22/20 14:37:28] D2BS 15712: ÿc7Picked up ÿc4116 Gold
+[09/22/20 14:37:54] D2BS 15712: ÿc7Picked up ÿc468 Gold
+[09/22/20 14:38:03] D2BS 15712: ÿc7Picked up ÿc4174 Gold
+[09/22/20 14:39:03] D2BS 15712: ÿc7Picked up ÿc4193 Gold
+[09/22/20 14:40:41] D2BS 15712: move retry 1
+[09/22/20 14:41:14] D2BS 15712: move retry 1
+[09/22/20 14:41:30] D2BS 15712: ÿc7Picked up ÿc4115 Gold
+[09/22/20 14:42:07] D2BS 15712: ÿc7Picked up ÿc4135 Gold
+[09/22/20 14:43:04] D2BS 15712: move retry 1
+[09/22/20 14:43:16] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:43:21] D2BS 15712: move retry 1
+[09/22/20 14:45:49] D2BS 15712: move retry 1
+[09/22/20 14:46:03] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:47:00] D2BS 15712: 3,2,1
+[09/22/20 14:47:06] D2BS 15712: move retry 1
+[09/22/20 14:47:19] D2BS 15712: initNPC: buyPotions
+[09/22/20 14:47:56] D2BS 15712: ÿc7Picked up ÿc4219 Gold
+[09/22/20 14:48:01] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 14:49:17] D2BS 15712: move retry 1
+[09/22/20 14:50:29] D2BS 15712: move retry 1
+[09/22/20 14:50:37] D2BS 15712: ÿc7Picked up ÿc4202 Gold
+[09/22/20 14:50:38] D2BS 15712: ÿc7Picked up ÿc4156 Gold
+[09/22/20 14:50:42] D2BS 15712: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/22/20 14:50:43] D2BS 15712: ÿc7Picked up ÿc4156 Gold
+[09/22/20 14:50:44] D2BS 15712: move retry 1
+[09/22/20 14:50:47] D2BS 15712: ÿc7Picked up ÿc4110 Gold
+[09/22/20 14:50:49] D2BS 15712: ÿc7Picked up ÿc490 Gold
+[09/22/20 14:50:53] D2BS 15712: ÿc7Picked up ÿc4145 Gold
+[09/22/20 14:51:08] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:51:11] D2BS 15712: ÿc7Picked up ÿc495 Gold
+[09/22/20 14:51:36] D2BS 15712: ÿc7Picked up ÿc469 Gold
+[09/22/20 14:51:43] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 14:51:45] D2BS 15712: ÿc7Picked up ÿc4117 Gold
+[09/22/20 14:51:54] D2BS 15712: move retry 1
+[09/22/20 14:52:20] D2BS 15712: move retry 1
+[09/22/20 14:52:29] D2BS 15712: ÿc7Picked up ÿc4219 Gold
+[09/22/20 14:52:44] D2BS 15712: move retry 1
+[09/22/20 14:52:56] D2BS 15712: move retry 1
+[09/22/20 14:54:44] D2BS 15712: ÿc7Picked up ÿc437 Gold
+[09/22/20 14:54:51] D2BS 15712: ÿc7Picked up ÿc4177 Gold
+[09/22/20 14:55:22] D2BS 15712: move retry 1
+[09/22/20 14:55:47] D2BS 15712: move retry 1
+[09/22/20 14:56:48] D2BS 15712: move retry 1
+[09/22/20 14:57:44] D2BS 15712: move retry 1
+[09/22/20 14:58:13] D2BS 15712: move retry 1
+[09/22/20 14:59:05] D2BS 15712: 4,10
+[09/22/20 14:59:16] D2BS 15712: move retry 1
+[09/22/20 14:59:17] D2BS 15712: move retry 2
+[09/22/20 14:59:31] D2BS 15712: move retry 1
+[09/22/20 15:00:03] D2BS 15712: move retry 1
+[09/22/20 15:00:03] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 15:00:10] D2BS 15712: 10,5
+[09/22/20 15:00:30] D2BS 15712: ÿc7Picked up ÿc461 Gold
+[09/22/20 15:00:30] D2BS 15712: ÿc7Picked up ÿc448 Gold
+[09/22/20 15:00:30] D2BS 15712: ÿc7Picked up ÿc4160 Gold
+[09/22/20 15:00:31] D2BS 15712: ÿc7Picked up ÿc4110 Gold
+[09/22/20 15:00:48] D2BS 15712: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/22/20 15:00:52] D2BS 15712: ÿc7Picked up ÿc41185 Gold
+[09/22/20 15:00:52] D2BS 15712: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/22/20 15:01:00] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 15:01:17] D2BS 15712: ÿc7Picked up ÿc4217 Gold
+[09/22/20 15:01:37] D2BS 15712: move retry 1
+[09/22/20 15:04:14] D2BS 15712: 4,38
+[09/22/20 15:04:25] D2BS 15712: move retry 1
+[09/22/20 15:04:36] D2BS 15712: move retry 1
+[09/22/20 15:05:33] D2BS 15712: move retry 1
+[09/22/20 15:05:37] D2BS 15712: move retry 1
+[09/22/20 15:06:23] D2BS 15712: ÿc7Picked up ÿc4160 Gold
+[09/22/20 15:06:27] D2BS 15712: ÿc7Picked up ÿc4184 Gold
+[09/22/20 15:07:45] D2BS 15712: move retry 1
+[09/22/20 15:08:33] D2BS 15712: move retry 1
+[09/22/20 15:09:21] D2BS 15712: move retry 1
+[09/22/20 15:09:22] D2BS 15712: ÿc7Picked up ÿc4208 Gold
+[09/22/20 15:10:34] D2BS 15712: move retry 1
+[09/22/20 15:10:54] D2BS 15712: move retry 1
+[09/22/20 15:11:47] D2BS 15712: ÿc7Picked up ÿc4109 Gold
+[09/22/20 15:11:57] D2BS 15712: ÿc7Picked up ÿc4106 Gold
+[09/22/20 15:12:04] D2BS 15712: ÿc7Picked up ÿc457 Gold
+[09/22/20 15:12:36] D2BS 15712: move retry 1
+[09/22/20 15:12:44] D2BS 15712: move retry 1
+[09/22/20 15:12:45] D2BS 15712: ÿc7Picked up ÿc465 Gold
+[09/22/20 15:12:50] D2BS 15712: ÿc7Picked up ÿc464 Gold
+[09/22/20 15:12:55] D2BS 15712: move retry 1
+[09/22/20 15:13:20] D2BS 15712: ÿc7Picked up ÿc4134 Gold
+[09/22/20 15:14:03] D2BS 15712: ÿc7Picked up ÿc4169 Gold
+[09/22/20 15:14:38] D2BS 15712: ÿc7Picked up ÿc455 Gold
+[09/22/20 15:14:42] D2BS 15712: move retry 1
+[09/22/20 15:14:50] D2BS 15712: move retry 1
+[09/22/20 15:14:56] D2BS 15712: ÿc7Picked up ÿc484 Gold
+[09/22/20 15:17:01] D2BS 15712: move retry 1
+[09/22/20 15:17:23] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 15:18:05] D2BS 15712: ÿc7Picked up ÿc497 Gold
+[09/22/20 15:18:13] D2BS 15712: ÿc7Picked up ÿc4159 Gold
+[09/22/20 15:18:26] D2BS 15712: ÿc7Picked up ÿc4218 Gold
+[09/22/20 15:18:30] D2BS 15712: ÿc7Picked up ÿc0Helm ÿc0(ilvl 38) (Merc.xpac.nip #11)
+[09/22/20 15:18:37] D2BS 15712: ÿc7Picked up ÿc4179 Gold
+[09/22/20 15:20:29] D2BS 15712: ÿc7Picked up ÿc4206 Gold
+[09/22/20 15:20:32] D2BS 15712: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[09/22/20 15:21:24] D2BS 15712: move retry 1
+[09/22/20 15:21:28] D2BS 15712: ÿc7Picked up ÿc458 Gold
+[09/22/20 15:21:46] D2BS 15712: ÿc7Picked up ÿc4136 Gold
+[09/22/20 15:21:48] D2BS 15712: move retry 1
+[09/22/20 15:21:48] D2BS 15712: ÿc7Picked up ÿc4119 Gold
+[09/22/20 15:21:57] D2BS 15712: ÿc7Picked up ÿc454 Gold
+[09/22/20 15:22:04] D2BS 15712: ÿc7Picked up ÿc4155 Gold
+[09/22/20 15:22:29] D2BS 15712: 6,20
+[09/22/20 15:23:11] D2BS 15712: 20,21
+[09/22/20 15:23:30] D2BS 15712: ÿc7Picked up ÿc4226 Gold
+[09/22/20 15:23:31] D2BS 15712: ÿc7Picked up ÿc4130 Gold
+[09/22/20 15:23:32] D2BS 15712: move retry 1
+[09/22/20 15:23:45] D2BS 15712: move retry 1
+[09/22/20 15:24:20] D2BS 15712: move retry 1
+[09/22/20 15:24:25] D2BS 15712: move retry 1
