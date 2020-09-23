@@ -1603,11 +1603,10 @@ MainLoop:
 						}
 						
 						var mercTier = NTIP.GetMercTier(items[i]);
-						if (mercTier > 0 && mercTier < 100 && !(tier > 0 && tier < 100)) {
+						if (mercTier > 0 && mercTier < 100 && !result && !(tier > 0 && tier < 100)) {
 							this.initNPC("Shop", "SellMercGear");
 							Misc.itemLogger("Sold", items[i]);
 							items[i].sell();
-							result = false;
 						}
 					}
 
