@@ -666,6 +666,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
+				Config.Cubing=true;
 				//Make Eth Insight base Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Battle Scythe",Roll.Eth]);
@@ -681,6 +682,7 @@ var AutoBuildTemplate={
 				Config.Recipes.push([Recipe.Socket.Armor,"Light Plate",Roll.NonEth]);
 				Config.Recipes.push([Recipe.Socket.Armor,"Mage Plate",Roll.NonEth]);
 				Config.Recipes.push([Recipe.Socket.Armor,"Archon Plate",Roll.NonEth]);
+				//Misc
 				Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
 				Config.Recipes.push([Recipe.Caster.Amulet]);
 				Config.Recipes.push([Recipe.Caster.Ring]);

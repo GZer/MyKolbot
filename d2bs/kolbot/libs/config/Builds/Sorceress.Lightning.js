@@ -668,6 +668,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,0,1,1,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
+				Config.Cubing=true;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);

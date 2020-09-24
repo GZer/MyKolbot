@@ -670,6 +670,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,0,1,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
+				Config.Cubing=true;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);
@@ -681,6 +682,25 @@ var AutoBuildTemplate={
 				Config.Recipes.push([Recipe.Socket.Weapon,"Cryptic Axe",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Great Poleaxe",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Giant Thresher",Roll.Eth]);
+				//Enigma
+				Config.Recipes.push([Recipe.Socket.Armor,"Mage Plate",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Archon Plate",Roll.NonEth]);
+				//Splendor
+				Config.Recipes.push([Recipe.Socket.Armor,"Preserved Head",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Zombie Head",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Unraveller Head",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Gargoyle Head",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Demon Head",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Mummified Trophy",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Fetish Trophy",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Sexton Trophy",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Cantor Trophy",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Hierophant Trophy",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Minion Skull",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Hellspawn Skull",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Overseer Skull",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Succubus Skull",Roll.NonEth]);
+				Config.Recipes.push([Recipe.Socket.Armor,"Bloodlord Skull",Roll.NonEth]);
 				//Misc
 				Config.Recipes.push([Recipe.Reroll.Magic,"Grand Charm"]);
 				Config.Recipes.push([Recipe.Caster.Amulet]);

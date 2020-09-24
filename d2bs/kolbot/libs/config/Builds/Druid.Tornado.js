@@ -665,6 +665,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,0,1,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
+				Config.Cubing=true;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);
@@ -676,7 +677,7 @@ var AutoBuildTemplate={
 				Config.Recipes.push([Recipe.Socket.Weapon,"Cryptic Axe",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Great Poleaxe",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Giant Thresher",Roll.Eth]);
-				//Enlightenment or Chains of Honor
+				//Enigma
 				Config.Recipes.push([Recipe.Socket.Armor,"Mage Plate",Roll.NonEth]);
 				Config.Recipes.push([Recipe.Socket.Armor,"Archon Plate",Roll.NonEth]);
 				//Spirit base

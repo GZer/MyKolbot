@@ -185,6 +185,13 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Leaf,"Gnarled Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"Battle Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"War Staff"]);
+				Config.Runewords.push([Runeword.Memory,"Gnarled Staff"]);
+				Config.Runewords.push([Runeword.Memory,"Battle Staff"]);
+				Config.Runewords.push([Runeword.Memory,"War Staff"]);
+				Config.Runewords.push([Runeword.Memory,"Cedar Staff"]);
+				Config.Runewords.push([Runeword.Memory,"Gothic Staff"]);
+				Config.Runewords.push([Runeword.Memory,"Rune Staff"]);
+				Config.Runewords.push([Runeword.Memory,"Archon Staff"]);
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
 				//Armor
@@ -675,6 +682,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,0,1,1,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
+				Config.Cubing=true;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);
