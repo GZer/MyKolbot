@@ -172,7 +172,7 @@ function LevelLeader(){
 			break;
 			case 85: //Khalim Eye
 				this.clearToQuestLocation(85,2,405);
-				Attack.clearLevel(0x7);
+				Attack.clearLevel(0);
 				this.getQuestItem(553,405);
 				Town.doChores();
 				this.logProgress(me.getItem(553),"Khalim Eye");

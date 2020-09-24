@@ -661,8 +661,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.UseRejuvHP=40;
-				Config.TownHP=0;
-				Config.LifeChicken=30;
+				Config.LifeChicken=20;
 			}
 		},
 
