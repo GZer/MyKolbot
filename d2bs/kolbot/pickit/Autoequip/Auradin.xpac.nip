@@ -5,6 +5,7 @@
 ([Type] == Hammer || [Type] == Mace || [Type] == Sword || [Type] == Scepter) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && ([MaxHP] > 30 || [Vitality] > 9) # [Tier] == 4
 ([Type] == Axe || [Type] == Mace || [Type] == Scepter || [Type] == Sword) && [Flag] != Ethereal && [Quality] >= Magic # [ItemCrushingBlow] >= 20 # [Tier] == 5
 ([Type] == Axe || [Type] == Mace || [Type] == Scepter || [Type] == Sword) && [Flag] != Ethereal && [Quality] >= Magic # [ItemCrushingBlow] >= 20 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 # [Tier] == 6
+([Type] == Axe || [Type] == Mace || [Type] == Scepter || [Type] == Sword) && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 && [IAS] >= 10 # [Tier] == 8
 ([Type] == Axe || [Type] == Mace || [Type] == Scepter || [Type] == Sword) && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 2 # [Tier] == 9
 [Type] == Scepter && [Flag] != Ethereal && [Flag] == Runeword # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 2 && [ItemCrushingBlow] >= 25 # [Tier] == 10
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [ItemCrushingBlow] >= 40 # [Tier] == 90

@@ -71,6 +71,9 @@
 [Type] == Helm && ([Quality] == Unique || [Quality] == Set) # [LifeLeech] > 0 && ([IAS] >= 10 || [MaxHP] >= 50 || [NormalDamageReduction] >= 10) # [MercTier] == 98
 
 //Elite Insight/Infinity/Andariels/Fortitude
-[Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword && [Class] == Elite # [MeditationAura] == 17 || [ConvictionAura] == 12 # [MercTier] == 99
+[Type] == Polearm && [Flag] == Runeword && [Class] == Elite # [MeditationAura] >= 00 || [ConvictionAura] >= 00 # [MercTier] == 98
+[Type] == Polearm && [Flag] == Ethereal && [Flag] == Runeword && [Class] == Elite # [MeditationAura] >= 00 || [ConvictionAura] >= 00 # [MercTier] == 99
+[Type] == Armor && [Flag] == Runeword && [Class] == Elite # [EnhancedDamage] == 300 # [MercTier] == 98
 [Type] == Armor && [Flag] == Ethereal && [Flag] == Runeword && [Class] == Elite # [EnhancedDamage] == 300 # [MercTier] == 99
+[Name] == DemonHead && [Quality] == Unique # # [MercTier] == 98
 [Name] == DemonHead && [Flag] == Ethereal && [Quality] == Unique # # [MercTier] == 99

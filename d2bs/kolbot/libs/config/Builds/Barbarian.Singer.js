@@ -174,7 +174,7 @@ var AutoBuildTemplate={
 			Update: function(){
 				Config.MakeRunewords=true;
 				Config.UseMerc=true;
-				Config.MercWatch=true;
+				Config.MercWatch=false;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
@@ -342,7 +342,7 @@ var AutoBuildTemplate={
 			SkillPoints: [155,153,154,149],//Battle Command,Natural Resistance,War Cry
 			StatPoints: [0,3,3,3,3],	
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -351,7 +351,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.LowManaSkill=[132,132];
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -359,7 +359,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -367,7 +367,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -375,7 +375,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -383,7 +383,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -391,7 +391,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -399,7 +399,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -407,7 +407,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -415,7 +415,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -423,7 +423,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -431,7 +431,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -439,7 +439,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -447,7 +447,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -455,7 +455,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -471,7 +471,7 @@ var AutoBuildTemplate={
 			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -479,7 +479,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -487,7 +487,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -495,7 +495,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -512,7 +512,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -520,7 +520,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -528,7 +528,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -536,7 +536,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -544,7 +544,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -552,7 +552,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -560,7 +560,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -568,7 +568,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -576,7 +576,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -584,7 +584,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.UseMerc=false;
+				Config.UseMerc=true;
 			}
 		},
 
@@ -592,7 +592,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -600,7 +600,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -608,7 +608,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -616,7 +616,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -624,7 +624,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -632,7 +632,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -640,7 +640,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -648,7 +648,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -691,7 +691,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -699,7 +699,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -707,7 +707,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -715,7 +715,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -723,7 +723,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -731,7 +731,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -739,7 +739,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -747,7 +747,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -755,7 +755,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -763,7 +763,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -771,7 +771,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -779,7 +779,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -787,7 +787,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -795,7 +795,7 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -803,7 +803,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -811,7 +811,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -819,7 +819,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -827,7 +827,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -835,7 +835,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -843,7 +843,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -851,7 +851,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -859,7 +859,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -867,7 +867,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -875,7 +875,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -883,7 +883,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -891,7 +891,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -899,7 +899,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -907,7 +907,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -915,7 +915,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[132,154,0,130,0,130,0];
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		}
 };

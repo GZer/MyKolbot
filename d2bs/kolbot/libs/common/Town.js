@@ -1604,9 +1604,10 @@ MainLoop:
 						
 						var mercTier = NTIP.GetMercTier(items[i]);
 						if (mercTier > 0 && mercTier < 100) {
-							this.initNPC("Shop", "SellMercGear");
-							// Misc.itemLogger("Sold", items[i]);
+							this.initNPC("Shop", "clearInventory");
+							Misc.itemLogger("Sold", items[i]);
 							items[i].sell();
+							result = false;
 						}
 					}
 

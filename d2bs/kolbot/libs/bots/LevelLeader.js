@@ -9,6 +9,7 @@ function LevelLeader(){
 	var MercId=[],TeleSorcs=[];
 	var FullClearAreas=[3,4,5,6,7,35,36,
 	43,44,
+	78,
 	105,106,
 	111,113,115,118,129,130,131];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
@@ -171,13 +172,15 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 85: //Khalim Eye
+				if(me.getItem(553)){break;}
 				this.clearToQuestLocation(85,2,405);
 				Attack.clearLevel(0);
 				this.getQuestItem(553,405);
 				Town.doChores();
 				this.logProgress(me.getItem(553),"Khalim Eye");
 			break;
-			case 88: //Gidbinn and Khalim Brain
+			case 88: //Khalim Brain
+				if(me.getItem(555)){break;}
 				if(!this.waitForTeleporter(91)){
 					Pather.moveToExit([89,91],true,true);
 					this.clearToQuestLocation(91,2,406);
@@ -188,6 +191,7 @@ function LevelLeader(){
 				this.logProgress(me.getItem(555),"Khalim Brain");
 			break;
 			case 80: //Khalim Heart
+				if(me.getItem(554)){break;}
 				if(Pather.moveToExit([92,93],true,true)){
 					this.tryMakePortal();
 				}
@@ -221,6 +225,9 @@ function LevelLeader(){
 			break;
 			case 102: //Mephisto
 				Pather.moveTo(17606,8127,1,true,true);
+				Pather.moveTo(17653,8075,1,true,true);
+				Pather.moveTo(17641,8037,1,true,true);
+				Pather.moveTo(17606,8013,1,true,true);
 				Pather.moveTo(17549,8067,1,true,true);
 				this.killQuestBoss(242);
 				this.logProgress(me.getQuest(22,0),"Mephisto");
@@ -479,7 +486,7 @@ function LevelLeader(){
 	
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
-		if(Pather.accessToAct(DestinationAct)){
+		if(Pather.accessToAct(DestinationAct) && getWaypoint(WaypointAreas.indexOf(TownWaypoints[DestinationAct-1]))){
 			try{
 				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
 			}catch(err){
@@ -756,7 +763,7 @@ function LevelLeader(){
 			case 0: //Amazon
 				break;
 			case 1: //Sorcerer
-				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
+				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
 				break;
 			case 2: //Necromancer
 				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
@@ -765,7 +772,7 @@ function LevelLeader(){
 				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
 				break;
 			case 4: //Barbarian
-				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
+				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
 				break;
 			case 5: //Druid
 				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
@@ -889,7 +896,7 @@ function LevelLeader(){
 			}
 			if(Pather.journeyTo(UpToArea)){
 				this.tryMakePortal();
-				WaitingLimit=20;
+				WaitingLimit=15;
 				while(!this.playerClose() && WaitingLimit > 0){
 					say("Waiting for Party");
 					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);

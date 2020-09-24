@@ -136,3 +136,37 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2260, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
 [2020/09/24 14:23:49] <Singer> Error in TownChicken.js (misc.js line 1543): unit.fname is undefined
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2260, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
+[2020/09/24 14:38:18] <FireSorc> Error in LevelFollower (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:278, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
+[2020/09/24 14:46:33] <Hammerdin> Error in LevelFollower (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:301, Pather.moveToUnit@pather.js:533, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:485, ClassAttack.doAttack@paladin.js:11, Town.visitTown@town.js:2260, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
+[2020/09/24 14:47:44] <Auradin> Error in TownChicken.js (misc.js line 1543): unit.fname is undefined
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2260, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
+[2020/09/24 14:48:02] <Singer> Error in LevelLeader (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:901, @levelleader.js:177, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
+[2020/09/24 14:56:06] <Auradin> Error in LevelFollower (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:301, Pather.moveToUnit@pather.js:533, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:485, ClassAttack.doAttack@paladin.js:11, Town.visitTown@town.js:2260, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
+[2020/09/24 15:01:49] <Singer> Error in LevelLeader (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:877, Town.doChores@town.js:98, Town.stash@town.js:1614, Misc.itemLogger@misc.js:1543
+[2020/09/24 15:10:03] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:910, @levelleader.js:408, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/24 15:10:55] <Singer> Error in LevelLeader (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:877, Town.doChores@town.js:98, Town.stash@town.js:1617, Misc.itemLogger@misc.js:1543
+[2020/09/24 15:11:00] <Summoner> Error in LevelFollower (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:278, Town.doChores@town.js:98, Town.stash@town.js:1617, Misc.itemLogger@misc.js:1543
+[2020/09/24 15:11:11] <Hammerdin> Error in LevelFollower (misc.js line 1543): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:278, Town.doChores@town.js:98, Town.stash@town.js:1617, Misc.itemLogger@misc.js:1543
+[2020/09/24 18:13:26] <Auradin> Error in LevelFollower (levelfollower.js line 307): WhereIsLeader is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307
+[2020/09/24 18:16:03] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 54
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:910, @levelleader.js:408, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/24 18:31:11] <Singer> Error in TownChicken.js (town.js line 2270): Town.visitTown: Failed to go back from town
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2270
+[2020/09/24 18:41:53] <Wind> Error in LevelFollower (levelfollower.js line 307): WhereIsLeader is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:307
+[2020/09/25 04:00:22] <Auradin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
+[2020/09/25 06:02:59] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:914, @levelleader.js:412, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/09/25 06:22:08] <Summoner> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:320, @levelfollower.js:152, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820

@@ -115,21 +115,42 @@ function LevelFollower(){
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
 				delay(1500);
-				if(LeaderArea == 73){
+				if(LeaderArea == 73 && me.area == getRoom().correcttomb){
 					try{
 						Pather.useUnit(2,100,73);											//Try duriels hole
 					}catch(err){
 						Town.goToTown();
 					}
 				}
-				if(LeaderArea == 132){
+				if(LeaderArea == 132 && me.area == 131){
 					BaalPortal=getUnit(2,563);
 					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
 						delay(250);
 					}
 				}
-				if(LeaderArea == 46 || LeaderArea == getRoom().correcttomb){
+				if((LeaderArea == 46 || LeaderArea == getRoom().correcttomb) && !me.getQuest(13,0)){
 					this.talkToNPC("Atma");													//Tal Rasha tomb fix
+					try{
+						Pather.useWaypoint(46);
+					}catch(err){
+						Pather.journeyTo(46);
+					}
+				}
+				if(LeaderArea == 102 && !me.getQuest(21,0)){
+					this.talkToNPC("Cain");													//Durance Lvl2 fix
+					try{
+						Pather.useWaypoint(101);
+					}catch(err){
+						Pather.journeyTo(102);
+					}
+				}
+				if(LeaderArea >= 129 && !me.getQuest(39,0) && me.inTown){
+					this.talkToNPC("Malah");													//Worldstone Keep fix
+					try{
+						Pather.useWaypoint(129);
+					}catch(err){
+						Pather.journeyTo(129);
+					}
 				}
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
 					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
@@ -211,24 +232,24 @@ function LevelFollower(){
 	this.getA2Merc=function(){
 		var MyMercType,MyMercDiff,MyMercAura,MyMerc;
 		switch(me.classid){			
-			case 0://Amazon
+			case 0: //Amazon
 				break;
-			case 1://Sorcerer
-				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
-				break;
-			case 2://Necromancer
-				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
-				break;
-			case 3://Paladin
-				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
-				break;
-			case 4://Barbarian
+			case 1: //Sorcerer
 				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
 				break;
-			case 5://Druid
+			case 2: //Necromancer
+				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
+				break;
+			case 3: //Paladin
+				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
+				break;
+			case 4: //Barbarian
+				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
+				break;
+			case 5: //Druid
 				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
 				break;
-			case 6://Assassin
+			case 6: //Assassin
 				break;
 		}
 		//If we have a Merc and it's the wrong difficulty stop function
