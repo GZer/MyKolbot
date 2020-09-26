@@ -108,6 +108,10 @@ function LevelFollower(){
 			if(LeaderAct != me.act){
 				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
 			}
+			if(me.getItem(644)){
+				var MalahPotion=me.getItem(644);
+				MalahPotion.drop();															//Only leader should carry Potion
+			}
 			
 			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
 				this.teleportFromLocation(me.area);
@@ -145,7 +149,7 @@ function LevelFollower(){
 					}
 				}
 				if(LeaderArea >= 129 && !me.getQuest(39,0) && me.inTown){
-					this.talkToNPC("Malah");													//Worldstone Keep fix
+					this.talkToNPC("Malah");												//Worldstone Keep fix
 					try{
 						Pather.useWaypoint(129);
 					}catch(err){

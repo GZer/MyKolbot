@@ -29,7 +29,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("EarlyGame.nip");
 				Config.PickitFiles.push("TornadoRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Tornado.xpac.nip");
-				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
+				//Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
