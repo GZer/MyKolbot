@@ -5,7 +5,7 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhereIsLeader,MercId=[];
+	var LeaderUnit,WhoIsLeader,MercId=[],TownWaypoints=[0,40,75,103,109];
 	
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
@@ -17,13 +17,27 @@ function LevelFollower(){
 		try{
 			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
 		}catch(err){
-			D2Bot.printToConsole("Failed to Log Progress",10);return false;
+			D2Bot.printToConsole("Failed to Log Progress",10);
+			return false;
+		}
+		return true;
+	};
+	
+	this.logGame=function(Details){
+		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
+		dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
+		
+		try{
+			FileTools.appendText("logs/JoinLog.txt",dateString+" "+Details+"\n");
+		}catch(err){
+			D2Bot.printToConsole("Failed to Log Join",10);
+			return false;
 		}
 		return true;
 	};
 	
 	this.ChangeAct=function(DestinationAct){
-		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
+		var NPC,preArea=me.area;
 		if(Pather.accessToAct(DestinationAct)){
 			try{
 				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
@@ -168,7 +182,7 @@ function LevelFollower(){
 				Pather.getWP(me.area,true);
 			}
 			if(!me.inTown){
-				Pather.moveTo(WhereIsLeader.x-2,WhereIsLeader.y-2,2,true);					//Find leader if not in Town
+				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);					//Find leader if not in Town
 			}else{
 				Town.doChores();
 				delay(500);
@@ -228,7 +242,7 @@ function LevelFollower(){
 					say("Found Leader");
 					return Player;
 				}
-			}while(Player.getNext(WhereIsLeader.area));
+			}while(Player.getNext(WhoIsLeader.area));
 		}
 		return false;
 	};
@@ -300,22 +314,32 @@ function LevelFollower(){
 		}
 	};
 	
-	Town.doChores();
-	Town.move("portalspot");
-	Pather.getWP(me.area);
-	Town.move("portalspot");
-	WhereIsLeader=getParty(Config.Leader);
-	var partyTimeout=0;
-	while(!this.getLeaderUnit(Config.Leader)){												//Loop to ensure leader is assigned
-		delay(1000);
-		partyTimeout++;
-		this.goFindLeader(WhereIsLeader.area);
-		if(partyTimeout>5){
-			quit();
+	this.configCharacter=function(CharacterLevel){
+		var i,Party=getParty(),partyTimeout=0;
+		Town.move("portalspot");
+		delay(500);
+		Pather.getWP(me.area);
+		delay(500);
+		Town.move("portalspot");
+		if(CharacterLevel > 7){
+			Town.doChores();
+		}else{
+			Town.heal();
 		}
-	}
-	LeaderUnit=this.getLeaderUnit(Config.Leader);
-
+		WhoIsLeader=getParty(Config.Leader);
+		while(!this.getLeaderUnit(Config.Leader)){											//Loop to ensure leader is assigned
+			delay(1000);
+			partyTimeout++;
+			this.goFindLeader(WhoIsLeader.area);
+			if(partyTimeout>5){
+				quit();
+			}
+		}
+		LeaderUnit=this.getLeaderUnit(Config.Leader);
+		this.logGame("Level:"+me.charlvl+" Gold:"+me.gold+" Char:"+me.name);
+	};
+	this.configCharacter(me.charlvl);
+	
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
 			if(getDistance(me,LeaderUnit)>5){
@@ -329,7 +353,7 @@ function LevelFollower(){
 			}
 			delay(500);
 		}else{
-			this.goFindLeader(WhereIsLeader.area);
+			this.goFindLeader(WhoIsLeader.area);
 		}
 		delay(1000);
 	}

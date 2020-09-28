@@ -36,6 +36,8 @@ var AutoBuildTemplate={
 				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
 				Config.AutoEquip=true;
+				Config.MiniShopBot=true;
+				Config.UseMerc=true;
 				Config.OpenChests=true;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
@@ -173,8 +175,8 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
-				Config.UseMerc=true;
 				Config.MercWatch=false;
+				Config.MiniShopBot=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
@@ -423,7 +425,7 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[154,132,132,130,132,130,132];
+				Config.UseMerc=false;
 			}
 		},
 
@@ -584,7 +586,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.UseMerc=true;
+				Config.AttackSkill=[154,132,132,130,132,130,132];
 			}
 		},
 
@@ -765,7 +767,8 @@ var AutoBuildTemplate={
 			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[154,132,132,130,132,130,132];
+				Config.KeepRunewords.push("[Type] == Shield || [Type] == AuricShields # [FCR] == 35");
+				Config.KeepRunewords.push("[Type] == Sword # [FCR] == 35");
 			}
 		},
 

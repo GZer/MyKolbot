@@ -7,7 +7,7 @@
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb;
 	var MercId=[],TeleSorcs=[];
-	var FullClearAreas=[3,4,5,6,7,35,36,
+	var FullClearAreas=[3,4,5,6,35,36,
 	43,44,
 	78,
 	105,106,
@@ -146,8 +146,9 @@ function LevelLeader(){
 			break;
 			case 74: //Summoner
 				if(!this.waitForTeleporter(74)){
-					this.clearToQuestLocation(74,2,357);
+					Pather.journeyTo(74);
 				}
+				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
 				Pather.getWP(46,true);
@@ -183,8 +184,8 @@ function LevelLeader(){
 				if(me.getItem(555)){break;}
 				if(!this.waitForTeleporter(91)){
 					Pather.moveToExit([89,91],true,true);
-					this.clearToQuestLocation(91,2,406);
 				}
+				this.clearToQuestLocation(91,2,406);
 				this.killQuestBoss(726);
 				this.getQuestItem(555,406);
 				Town.doChores();
@@ -215,6 +216,7 @@ function LevelLeader(){
 				this.killQuestBoss(256);
 				this.getQuestItem(173);
 				Town.doChores();
+				Pather.journeyTo(75);
 				this.cubeFlail();
 				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
@@ -349,7 +351,8 @@ function LevelLeader(){
 		try{
 			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" "+Progress+"\n");
 		}catch(err){
-			D2Bot.printToConsole("Failed to Log Progress",10);return false;
+			D2Bot.printToConsole("Failed to Log Progress",10);
+			return false;
 		}
 		return true;
 	};
@@ -583,7 +586,7 @@ function LevelLeader(){
 					WaitingLimit=120;
 				}
 			}
-			delay(1000);
+			delay(500);
 			WaitingLimit++;
 		}
 		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
@@ -672,9 +675,9 @@ function LevelLeader(){
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
 		if(!me.getQuest(18,0) && !me.getItem(174)){
-			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(85);Storage.Cube.MoveTo(getItem(553));}
-			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(88);Storage.Cube.MoveTo(getItem(555));}
-			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);Storage.Cube.MoveTo(getItem(554));}
+			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(85);Storage.Cube.MoveTo(Eye);}
+			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(88);Storage.Cube.MoveTo(Brain);}
+			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);Storage.Cube.MoveTo(Heart);}
 			if(Flail){Storage.Cube.MoveTo(Flail);}else{this.logProgress(null,"Quit CubingFlail");quit();}
 			Cubing.openCube();
 			transmute();
@@ -682,16 +685,16 @@ function LevelLeader(){
 		}
 		Will=me.getItem(174);
 		if(Will){
-			Storage.Inventory.MoveTo(Will);
-			if(Will.toCursor()){
-				clickItem(0,4);
-				delay(1500);
+			if(Will.toCursor() && clickItem(0,4)){
+				delay(500);
 				if(Will.bodylocation == 4 && getCursorType() == 3){
 					PrevWeapon=getUnit(100);
 					if(PrevWeapon && Storage.Inventory.CanFit(PrevWeapon)){
 						Storage.Inventory.MoveTo(PrevWeapon);
 					}
 				}
+			}else{
+				Storage.Inventory.MoveTo(Will);
 			}
 		}
 		me.cancel();
@@ -856,13 +859,24 @@ function LevelLeader(){
 			else if(WaypointAreas[i] < 109){ActNumber=3;}
 			else{ActNumber=4;}
 		}
+		if(me.diff < 2){
+			FullClearAreas.splice(FullClearAreas.indexOf(78),1);
+		}
 		LevelingAreas[ActNumber].splice(0,LevelingAreas[ActNumber].indexOf(UpToArea));
 		say("Up to Act:"+(ActNumber+1)+" "+Pather.getAreaName(LevelingAreas[ActNumber][0]));
 		return true;
 	};
 	
-	this.assignTeleSorcs=function(){
+	this.configCharacter=function(CharacterLevel){
 		var i,Party=getParty();
+		Town.move("portalspot");
+		delay(500);
+		Pather.getWP(me.area);
+		if(CharacterLevel > 7){
+			Town.doChores();
+		}else{
+			Town.heal();
+		}
 		if(Party){
 			do{
 				if(Party.classid == 1){
@@ -874,15 +888,8 @@ function LevelLeader(){
 	};
 	
 	// while(true){say(me.x+","+me.y);delay(2000);}
-	Town.move("portalspot");
-	delay(500);
-	Pather.getWP(me.area);
-	delay(500);
-	Town.doChores();
-	delay(500);
+	this.configCharacter(me.charlvl);
 	this.checkProgress();
-	this.assignTeleSorcs();
-	delay(500);
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		var UpToArea=0,NextArea=0,UptoAct=ActNumber+1;

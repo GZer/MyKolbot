@@ -10,6 +10,9 @@
 //Leaf
 [Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillHydra] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
 
+//Spirit
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [FireResist] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+
 //Stealth
 ([Name] == QuiltedArmor || [Name] == LeatherArmor || [Name] == HardLeatherArmor || [Name] == StuddedLeather || [Name] == RingMail || [Name] == BreastPlate || [Name] == LightPlate) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
 
