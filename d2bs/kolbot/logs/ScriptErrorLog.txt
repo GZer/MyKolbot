@@ -252,3 +252,11 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:356, @levelfollower.js:178, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
 [2020/09/29 08:10:03] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:341, @levelfollower.js:333, @levelfollower.js:178, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/09/29 10:06:43] <Auradin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
+[2020/09/29 10:32:32] <Hammerdin> Error in TownChicken.js (town.js line 2270): Town.visitTown: Failed to go back from town
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2270
+[2020/09/29 10:41:17] <Hammerdin> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:341, @levelfollower.js:333, @levelfollower.js:178, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/09/29 14:18:09] <Auradin> Error in TownChicken.js (town.js line 2217): Town.goToTown: Failed to make TP
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2256, Town.goToTown@town.js:2217
