@@ -5,7 +5,14 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhoIsLeader,MercId=[],TownWaypoints=[0,40,75,103,109];
+	var LeaderUnit,WhoIsLeader,MercId=[];
+	var TownWaypoints=[0,40,75,103,109];
+	var TeleportAreas=[62,74,76,77,78,88];
+	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
+	40,48,42,57,43,44,52,74,46,
+	75,76,77,78,79,80,81,83,101,
+	103,106,107,
+	109,111,112,113,115,123,117,118,129];
 	
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
@@ -106,7 +113,7 @@ function LevelFollower(){
 	};
 	
 	this.goFindLeader=function(LeaderArea){
-		var LeaderAct,BaalPortal;
+		var LeaderAct,BaalPortal,HaveWaypoint=getWaypoint(WaypointAreas.indexOf(me.area));
 		if(LeaderArea){
 			if(LeaderArea <= 39){
 				LeaderAct=1;
@@ -120,69 +127,72 @@ function LevelFollower(){
 				LeaderAct=5;
 			}
 			if(LeaderAct != me.act){
-				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
+				this.ChangeAct(LeaderAct);																//Make sure we are in the same act
 			}
 			if(me.getItem(644)){
 				var MalahPotion=me.getItem(644);
-				MalahPotion.drop();															//Only leader should carry Potion
+				MalahPotion.drop();																		//Only leader should carry Potion
 			}
 			
-			if(me.classid == 1 && (me.area == 62 || me.area == 74 || me.area == 88)){
-				this.teleportFromLocation(me.area);
+			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1)){									//Act3 Jungle fix
+				if(WhoIsLeader.inTown){
+					this.teleportFromLocation(me.area);
+				}else{
+					Town.doChores();
+				}
 			}
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
-				delay(1500);
-				if(LeaderArea == 73 && me.area == getRoom().correcttomb){
-					try{
-						Pather.useUnit(2,100,73);											//Try duriels hole
-					}catch(err){
-						Town.goToTown();
-					}
-				}
-				if(LeaderArea == 132 && me.area == 131){
-					BaalPortal=getUnit(2,563);
-					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-						delay(250);
-					}
-				}
-				if((LeaderArea == 46 || LeaderArea == getRoom().correcttomb) && !me.getQuest(13,0)){
-					this.talkToNPC("Atma");													//Tal Rasha tomb fix
+				delay(1000);
+				if((LeaderArea == 46 || LeaderArea == getRoom().correcttomb) && !me.getQuest(13,0)){	//Tal Rasha tomb fix
+					this.talkToNPC("Atma");
 					try{
 						Pather.useWaypoint(46);
 					}catch(err){
 						Pather.journeyTo(46);
 					}
-				}
-				if(LeaderArea == 102 && !me.getQuest(21,0)){
-					this.talkToNPC("Cain");													//Durance Lvl2 fix
+				}else if(LeaderArea == 73 && me.area == getRoom().correcttomb){							//Try duriels hole
+					try{
+						Pather.useUnit(2,100,73);
+					}catch(err){
+						Town.doChores();
+					}
+				}else if(LeaderArea == 102 && !me.getQuest(21,0)){										//Durance Lvl2 fix
+					this.talkToNPC("Cain");
 					try{
 						Pather.useWaypoint(101);
 					}catch(err){
 						Pather.journeyTo(102);
 					}
-				}
-				if(LeaderArea >= 129 && !me.getQuest(39,0) && me.inTown){
-					this.talkToNPC("Malah");												//Worldstone Keep fix
+				}else if(LeaderArea > 128 && LeaderArea < 132 && !me.getQuest(39,0) && me.inTown){		//Worldstone Keep fix
+					this.talkToNPC("Malah");
 					try{
 						Pather.useWaypoint(129);
 					}catch(err){
 						Pather.journeyTo(129);
 					}
+				}else if(LeaderArea == 132 && me.area == 131){											//Baal Portal fix
+					BaalPortal=getUnit(2,563);
+					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
+						delay(250);
+					}
 				}
+				
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
-					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
+					Pather.usePortal(LeaderArea,Config.Leader);											//Check leader portals to area
 				}else if(Pather.getPortal(LeaderArea,null)){
-					Pather.usePortal(LeaderArea,null);										//Else if any portals to area
+					Pather.usePortal(LeaderArea,null);													//Else if any portals to area
 				}else{
-					Pather.journeyTo(LeaderArea);											//Otherwise walk to leader
+					Pather.journeyTo(LeaderArea);														//Otherwise walk to leader
 				}
 				delay(200);
 				Pather.teleport=false;
-				Pather.getWP(me.area,true);
+				if(!HaveWaypoint){
+					Pather.getWP(me.area,true);
+				}
 			}
 			if(!me.inTown){
-				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);					//Find leader if not in Town
+				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);									//Find leader if not in Town
 			}else{
 				Town.doChores();
 				delay(500);
@@ -209,20 +219,29 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.teleportFromLocation=function(CurrentArea){										//Teleport to hard destinations
+	this.teleportFromLocation=function(CurrentArea){													//Teleport to hard destinations
 		var DestinationReached=false;
 		Pather.teleport=true;
 		while(!DestinationReached){
 			switch(CurrentArea){
-				case 62:																	//Maggot Lair
+				case 62:																				//Maggot Lair
 					Pather.journeyTo(63);
 					Pather.journeyTo(64);
 					if(Pather.moveToPreset(64,2,356)){DestinationReached=true;}
 				break;
-				case 74:																	//Arcane Sanctuary
+				case 74:																				//Arcane Sanctuary
 					if(Pather.moveToPreset(74,2,357)){DestinationReached=true;}
 				break;
-				case 88:																	//Flayer Dungeon
+				case 76:																				//Spider Forest
+					if(Pather.getWP(77)){DestinationReached=true;}
+				break;
+				case 77:																				//Great Marsh
+					if(Pather.getWP(78)){DestinationReached=true;}
+				break;
+				case 78:																				//Flayer Jungle
+					if(Pather.getWP(79)){DestinationReached=true;}
+				break;
+				case 88:																				//Flayer Dungeon
 					Pather.journeyTo(89);
 					Pather.journeyTo(91);
 					if(Pather.moveToPreset(91,2,406)){DestinationReached=true;}
@@ -234,7 +253,7 @@ function LevelFollower(){
 		return DestinationReached;
 	};
 	
-	this.getLeaderUnit=function(name){														//Get Leader's unit
+	this.getLeaderUnit=function(name){																	//Get Leader's unit
 		var Player=getUnit(0,name);
 		if(Player){
 			do{
@@ -327,7 +346,7 @@ function LevelFollower(){
 			Town.heal();
 		}
 		WhoIsLeader=getParty(Config.Leader);
-		while(!this.getLeaderUnit(Config.Leader)){											//Loop to ensure leader is assigned
+		while(!this.getLeaderUnit(Config.Leader)){														//Loop to ensure leader is assigned
 			delay(1000);
 			partyTimeout++;
 			this.goFindLeader(WhoIsLeader.area);

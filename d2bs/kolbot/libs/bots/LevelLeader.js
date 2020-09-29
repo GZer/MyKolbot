@@ -9,7 +9,6 @@ function LevelLeader(){
 	var MercId=[],TeleSorcs=[];
 	var FullClearAreas=[3,4,5,6,35,36,
 	43,44,
-	78,
 	105,106,
 	111,113,115,118,129,130];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
@@ -19,7 +18,7 @@ function LevelLeader(){
 	109,111,112,113,115,123,117,118,129];
 	var LevelingAreas=[[2,8,3,4,5,6,27,28,29,32,34,35,36,37],
 	[47,48,49,42,56,57,60,43,62,44,45,52,54,74,46,TalRashaTomb],
-	[76,85,77,78,88,79,80,94,81,83,100,101,102],
+	[76,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
 	[110,111,112,113,114,115,121,122,123,124,117,118,120,128,129,130,131]];	
 
@@ -172,34 +171,13 @@ function LevelLeader(){
 				Pather.usePortal(null);
 				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
-			case 85: //Khalim Eye
-				if(me.getItem(553)){break;}
-				this.clearToQuestLocation(85,2,405);
-				Attack.clearLevel(0);
-				this.getQuestItem(553,405);
-				Town.doChores();
-				this.logProgress(me.getItem(553),"Khalim Eye");
-			break;
-			case 88: //Khalim Brain
-				if(me.getItem(555)){break;}
-				if(!this.waitForTeleporter(91)){
-					Pather.moveToExit([89,91],true,true);
-				}
-				this.clearToQuestLocation(91,2,406);
-				this.killQuestBoss(726);
-				this.getQuestItem(555,406);
-				Town.doChores();
-				this.logProgress(me.getItem(555),"Khalim Brain");
+			case 76: //Skip Act3 Jungles
+				this.skipAreas(76,77);
+				this.skipAreas(77,78);
+				this.skipAreas(78,79);
 			break;
 			case 80: //Khalim Heart
-				if(me.getItem(554)){break;}
-				if(Pather.moveToExit([92,93],true,true)){
-					this.tryMakePortal();
-				}
-				Attack.clearLevel(0);
-				delay(1000);
-				this.getQuestItem(554);
-				this.logProgress(me.getItem(554),"Khalim Heart");
+				this.getKhalimHeart();
 			break;
 			case 94: //Black Book
 				if(me.getQuest(17,0)){break;}
@@ -358,12 +336,14 @@ function LevelLeader(){
 	};
 	
 	this.tryMakePortal=function(){
-		try{
-			Pather.makePortal();
-		}catch(err){
-			print("Failed to make portal");
+		if(!Pather.getPortal(null,me.name)){
+			try{
+				Pather.makePortal();
+			}catch(err){
+				print("Failed to make portal");
+			}
 		}
-		return true;
+		return Pather.getPortal(null,me.name);
 	};
 	
 	this.playerClose=function(){
@@ -422,6 +402,22 @@ function LevelLeader(){
 		return DestinationReached;
 	};
 	
+	this.skipAreas=function(FromArea,ToArea){
+		var DestinationReached=false;
+		say("Skipping to "+Pather.getAreaName(ToArea));
+		if(!getWaypoint(WaypointAreas.indexOf(ToArea))){
+			Pather.useWaypoint(FromArea);
+			delay(500);
+			this.waitForTeleporter(ToArea);
+			if(Pather.getWP(ToArea,true)){
+				DestinationReached=true;
+			}
+		}
+		this.logProgress(DestinationReached,"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
+		return DestinationReached;
+	};
+	
+				
 	this.killQuestBoss=function(BossId){
 		var Boss=getUnit(1,BossId);		
 		try{
@@ -559,31 +555,34 @@ function LevelLeader(){
 	
 	this.waitForTeleporter=function(DestinationArea){
 		var i,WaitingLimit=0,PortalTown=2;
+		say("Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
 		this.tryMakePortal();
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
-		while(!teleporterClose() && WaitingLimit < 120){
+		while(!this.teleporterClose() && WaitingLimit < 90){
 			delay(1000);
 			Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
+			Attack.clear(5);
 			WaitingLimit++;
 		}
-		Precast.doPrecast(true);
 		delay(5000);
+		Precast.doPrecast(true);
 		if(DestinationArea == 74){
 			Pather.useWaypoint(40);
 		}else{
+			Town.doChores();
 			Town.goToTown(PortalTown);
 		}
 		Town.move("portalspot");
-		while(WaitingLimit < 120){
+		while(WaitingLimit < 90){
 			for(i=0; i < TeleSorcs.length; i++){
 				if(Pather.getPortal(DestinationArea,TeleSorcs[i])){
 					Pather.usePortal(DestinationArea,TeleSorcs[i]);
 					this.tryMakePortal();
 					Attack.clear(10);
 					delay(500);
-					WaitingLimit=120;
+					WaitingLimit=90;
 				}
 			}
 			delay(500);
@@ -594,11 +593,14 @@ function LevelLeader(){
 	};
 	
 	this.teleporterClose=function(){
-		var Party=getParty();
+		var Party=getParty(),HowMany=0;
 		if(Party){
 			do{
 				if(Party.classid == 1 && Party.area == me.area){
-					return true;
+					HowMany++;
+					if(HowMany>1){
+						return true;
+					}
 				}
 				delay(150);
 			}while(Party.getNext());
@@ -675,9 +677,9 @@ function LevelLeader(){
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
 		if(!me.getQuest(18,0) && !me.getItem(174)){
-			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.CheckQuests(85);Storage.Cube.MoveTo(Eye);}
-			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.CheckQuests(88);Storage.Cube.MoveTo(Brain);}
-			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.CheckQuests(80);Storage.Cube.MoveTo(Heart);}
+			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.getKhalimEye();Storage.Cube.MoveTo(Eye);}
+			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.getKhalimBrain();Storage.Cube.MoveTo(Brain);}
+			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.getKhalimHeart();Storage.Cube.MoveTo(Heart);}
 			if(Flail){Storage.Cube.MoveTo(Flail);}else{this.logProgress(null,"Quit CubingFlail");quit();}
 			Cubing.openCube();
 			transmute();
@@ -698,9 +700,46 @@ function LevelLeader(){
 			}
 		}
 		me.cancel();
-		// weaponSwitch();
 		this.logProgress(me.getItem(174),"Making Khalim Will");
 		return me.getItem(174);
+	};
+	
+	this.getKhalimEye=function(){
+		if(me.getItem(553)){return true;}
+		this.clearToNextArea(85);
+		this.clearToQuestLocation(85,2,405);
+		Attack.clearLevel(0);
+		this.getQuestItem(553,405);
+		Town.doChores();
+		this.logProgress(me.getItem(553),"Khalim Eye");
+		return true;
+	};
+	
+	this.getKhalimHeart=function(){
+		if(me.getItem(554)){return true;}
+		this.clearToNextArea(80);
+		if(Pather.moveToExit([92,93],true,true)){
+			this.tryMakePortal();
+		}
+		Attack.clearLevel(0);
+		this.getQuestItem(554);
+		Town.doChores();
+		this.logProgress(me.getItem(554),"Khalim Heart");
+		return true;
+	};
+	
+	this.getKhalimBrain=function(){
+		if(me.getItem(555)){return true;}
+		this.clearToNextArea(88);
+		if(!this.waitForTeleporter(91)){
+			Pather.moveToExit([89,91],true,true);
+		}
+		this.clearToQuestLocation(91,2,406);
+		this.killQuestBoss(726);
+		this.getQuestItem(555,406);
+		Town.doChores();
+		this.logProgress(me.getItem(555),"Khalim Brain");
+		return true;
 	};
 	
 // ==  ==  ==  ==  ==  ==  == =ACT II FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
@@ -766,7 +805,7 @@ function LevelLeader(){
 			case 0: //Amazon
 				break;
 			case 1: //Sorcerer
-				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
+				MyMercType=104,MyMercDiff=2,MyMercAura="Defiance";
 				break;
 			case 2: //Necromancer
 				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
@@ -778,7 +817,7 @@ function LevelLeader(){
 				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
 				break;
 			case 5: //Druid
-				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
+				MyMercType=108,MyMercDiff=2,MyMercAura="Blessed Aim";
 				break;
 			case 6: //Assassin
 				break;
@@ -850,7 +889,11 @@ function LevelLeader(){
 			if(getWaypoint(38)){UpToArea=129;}
 			else if(!getWaypoint(i)){
 				i--;
-				UpToArea=WaypointAreas[i];
+				if(WaypointAreas[i] > 76 && WaypointAreas[i] < 79){
+					UpToArea=76;
+				}else{
+					UpToArea=WaypointAreas[i];
+				}
 				break;
 			}
 			if(WaypointAreas[i] < 40){ActNumber=0;}
@@ -858,9 +901,6 @@ function LevelLeader(){
 			else if(WaypointAreas[i] < 103){ActNumber=2;}
 			else if(WaypointAreas[i] < 109){ActNumber=3;}
 			else{ActNumber=4;}
-		}
-		if(me.diff < 2){
-			FullClearAreas.splice(FullClearAreas.indexOf(78),1);
 		}
 		LevelingAreas[ActNumber].splice(0,LevelingAreas[ActNumber].indexOf(UpToArea));
 		say("Up to Act:"+(ActNumber+1)+" "+Pather.getAreaName(LevelingAreas[ActNumber][0]));
