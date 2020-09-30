@@ -18,3 +18,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
 [2020/09/30 15:32:39] <Singer> Error in LevelLeader (levelleader.js line 789): getItem is not defined
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:955, @levelleader.js:161, @levelleader.js:767, @levelleader.js:789
+[2020/09/30 15:36:28] <Wind> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:123, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
