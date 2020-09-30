@@ -5,7 +5,7 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhoIsLeader,MercId=[];
+	var LeaderUnit,WhoIsLeader,MercId=[],TalRashaTomb=getRoom().correcttomb;
 	var TownWaypoints=[0,40,75,103,109];
 	var TeleportAreas=[62,74,76,77,78,88];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
@@ -115,74 +115,82 @@ function LevelFollower(){
 	this.goFindLeader=function(LeaderArea){
 		var LeaderAct,BaalPortal,HaveWaypoint=getWaypoint(WaypointAreas.indexOf(me.area));
 		if(LeaderArea){
-			if(LeaderArea <= 39){
-				LeaderAct=1;
-			}else if(LeaderArea >= 40 && LeaderArea <= 74){
-				LeaderAct=2;
-			}else if(LeaderArea >= 75 && LeaderArea <= 102){
-				LeaderAct=3;
-			}else if(LeaderArea >= 103 && LeaderArea <= 108){
-				LeaderAct=4;
-			}else{
-				LeaderAct=5;
-			}
+			if(LeaderArea <= 39){LeaderAct=1;}
+			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct=2;}
+			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct=3;}
+			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct=4;}
+			else{LeaderAct=5;}
+			
 			if(LeaderAct != me.act){
 				this.ChangeAct(LeaderAct);																//Make sure we are in the same act
 			}
 			if(me.getItem(644)){
 				var MalahPotion=me.getItem(644);
 				MalahPotion.drop();																		//Only leader should carry Potion
-			}
-			
-			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1)){									//Act3 Jungle fix
+			}			
+			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1)){
 				if(WhoIsLeader.inTown){
-					this.teleportFromLocation(me.area);
+					this.teleportFromLocation(me.area);													//Act3 Jungle fix
 				}else{
 					Town.doChores();
 				}
 			}
+			
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
 				delay(1000);
-				if(TeleportAreas.indexOf(LeaderArea)>-1){												//Baal Portal fix
-					Town.doChores();
-				}
-				if((LeaderArea == 46 || LeaderArea == getRoom().correcttomb) && !me.getQuest(13,0)){	//Tal Rasha tomb fix
-					this.talkToNPC("Atma");
-					try{
-						Pather.useWaypoint(46);
-					}catch(err){
-						Pather.journeyTo(46);
-					}
-				}
-				if(LeaderArea == 73 && me.area == getRoom().correcttomb){							//Try duriels hole
-					try{
-						Pather.useUnit(2,100,73);
-					}catch(err){
+				switch(LeaderArea){
+					//Act1
+					//Act2
+					case 46:
+					case TalRashaTomb:
+						if(!me.getQuest(13,0) && me.inTown){
+							this.talkToNPC("Atma");
+							try{Pather.useWaypoint(46);}catch(err){Pather.journeyTo(46);}
+						}
+					break;
+					case 62:
 						Town.doChores();
-					}
-				}
-				if(LeaderArea == 102 && !me.getQuest(21,0)){										//Durance Lvl2 fix
-					this.talkToNPC("Cain");
-					try{
-						Pather.useWaypoint(101);
-					}catch(err){
-						Pather.journeyTo(102);
-					}
-				}
-				if(LeaderArea > 128 && LeaderArea < 132 && !me.getQuest(39,0) && me.inTown){		//Worldstone Keep fix
-					this.talkToNPC("Malah");
-					try{
-						Pather.useWaypoint(129);
-					}catch(err){
-						Pather.journeyTo(129);
-					}
-				}
-				if(LeaderArea == 132 && me.area == 131){											//Baal Portal fix
-					BaalPortal=getUnit(2,563);
-					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-						delay(250);
-					}
+					break;
+					case 73:
+						if(me.area == TalRashaTomb){
+							try{Pather.useUnit(2,100,73);}catch(err){Town.doChores();}
+						}
+					break;
+					case 74:
+						Pather.journeyTo(74);
+					break;
+					//Act3
+					case 76:
+					case 77:
+					case 78:
+					case 88:
+						Town.doChores();
+					break;
+					case 102:
+						if(!me.getQuest(21,0) && me.inTown){
+							this.talkToNPC("Cain");
+							try{Pather.useWaypoint(101);}catch(err){Pather.journeyTo(102);}
+						}
+					break;
+					//Act4
+					//Act5
+					case 129:
+					case 130:
+					case 131:
+						if(!me.getQuest(39,0) && me.inTown){
+							this.talkToNPC("Malah");
+							try{Pather.useWaypoint(129);}catch(err){Pather.journeyTo(129);}
+						}
+					break;
+					case 132:
+						if(me.area == 131){
+							BaalPortal=getUnit(2,563);
+							if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
+								delay(250);
+							}
+						}
+					break;
 				}
 				
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
@@ -192,11 +200,10 @@ function LevelFollower(){
 				}else{
 					Pather.journeyTo(LeaderArea);														//Otherwise walk to leader
 				}
+				
 				delay(200);
 				Pather.teleport=false;
-				if(!HaveWaypoint){
-					Pather.getWP(me.area,true);
-				}
+				if(!HaveWaypoint){Pather.getWP(me.area,true);}
 			}
 			if(!me.inTown){
 				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);									//Find leader if not in Town

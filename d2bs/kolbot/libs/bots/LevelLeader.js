@@ -593,12 +593,12 @@ function LevelLeader(){
 	};
 	
 	this.teleporterClose=function(){
-		var Party=getParty(),HowMany=0;
+		var Party=getParty(),WaitForSorcs=3,Difficulty=me.diff;
 		if(Party){
 			do{
 				if(Party.classid == 1 && Party.area == me.area){
-					HowMany++;
-					if(HowMany>1){
+					WaitForSorcs--;
+					if(WaitForSorcs=Difficulty){
 						return true;
 					}
 				}
