@@ -786,8 +786,8 @@ function LevelLeader(){
 	this.cubeStaff=function(){
 		var HoradricStaff=me.getItem(91),Staff=me.getItem(92),Amulet=me.getItem(521);
 		if(!HoradricStaff){
-			if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(62);Storage.Cube.MoveTo(getItem(92));}
-			if(Amulet){Storage.Cube.MoveTo(Amulet);}else {this.CheckQuests(45);Storage.Cube.MoveTo(getItem(521));}
+			if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(62);Storage.Cube.MoveTo(Staff);}
+			if(Amulet){Storage.Cube.MoveTo(Amulet);}else {this.CheckQuests(45);Storage.Cube.MoveTo(Amulet);}
 		}
 		Cubing.openCube();
 		transmute();
