@@ -700,6 +700,8 @@ function LevelLeader(){
 			}else{
 				Storage.Inventory.MoveTo(Will);
 			}
+		}else{
+			quit();
 		}
 		me.cancel();
 		this.logProgress(me.getItem(174),"Making Khalim Will");
