@@ -113,7 +113,7 @@ function LevelFollower(){
 	};
 	
 	this.goFindLeader=function(LeaderArea){
-		var LeaderAct,BaalPortal,HaveWaypoint=getWaypoint(WaypointAreas.indexOf(me.area));
+		var LeaderAct,BaalPortal;
 		if(LeaderArea){
 			if(LeaderArea <= 39){LeaderAct=1;}
 			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct=2;}
@@ -122,15 +122,11 @@ function LevelFollower(){
 			else{LeaderAct=5;}
 			
 			if(LeaderAct != me.act){
-				this.ChangeAct(LeaderAct);																//Make sure we are in the same act
-			}
-			if(me.getItem(644)){
-				var MalahPotion=me.getItem(644);
-				MalahPotion.drop();																		//Only leader should carry Potion
-			}			
+				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
+			}	
 			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1)){
 				if(WhoIsLeader.inTown){
-					this.teleportFromLocation(me.area);													//Act3 Jungle fix
+					this.teleportFromLocation(me.area);										//Act3 Jungle fix
 				}else{
 					Town.doChores();
 				}
@@ -194,16 +190,15 @@ function LevelFollower(){
 				}
 				
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
-					Pather.usePortal(LeaderArea,Config.Leader);											//Check leader portals to area
+					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
 				}else if(Pather.getPortal(LeaderArea,null)){
-					Pather.usePortal(LeaderArea,null);													//Else if any portals to area
+					Pather.usePortal(LeaderArea,null);										//Else if any portals to area
 				}else{
-					Pather.journeyTo(LeaderArea);														//Otherwise walk to leader
+					Pather.journeyTo(LeaderArea);											//Otherwise walk to leader
 				}
-				
 				delay(200);
 				Pather.teleport=false;
-				if(!HaveWaypoint){Pather.getWP(me.area,true);}
+				Pather.getWP(me.area,true);
 			}
 			if(!me.inTown){
 				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);									//Find leader if not in Town
@@ -350,6 +345,10 @@ function LevelFollower(){
 	this.configCharacter=function(CharacterLevel){
 		var i,Party=getParty(),partyTimeout=0;
 		Town.move("portalspot");
+		if(me.getItem(644)){
+			var MalahPotion=me.getItem(644);
+			MalahPotion.drop();										//Only leader should carry Potion
+		}	
 		delay(500);
 		Pather.getWP(me.area);
 		delay(500);
@@ -360,7 +359,7 @@ function LevelFollower(){
 			Town.heal();
 		}
 		WhoIsLeader=getParty(Config.Leader);
-		while(!this.getLeaderUnit(Config.Leader)){														//Loop to ensure leader is assigned
+		while(!this.getLeaderUnit(Config.Leader)){					//Loop to ensure leader is assigned
 			delay(1000);
 			partyTimeout++;
 			this.goFindLeader(WhoIsLeader.area);
