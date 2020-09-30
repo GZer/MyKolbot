@@ -4,3 +4,11 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:375, @levelfollower.js:186, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
 [2020/09/30 09:18:11] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:375, @levelfollower.js:186, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 14:42:56] <Singer> Error in LevelLeader (levelleader.js line 789): getItem is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:955, @levelleader.js:138, @levelleader.js:789
+[2020/09/30 15:08:20] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:955, @levelleader.js:152, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/30 15:21:49] <Auradin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:382, @levelfollower.js:155, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/30 15:24:47] <Summoner> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:367, @levelfollower.js:359, @levelfollower.js:193, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
