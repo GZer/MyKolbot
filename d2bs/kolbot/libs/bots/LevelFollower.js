@@ -151,27 +151,31 @@ function LevelFollower(){
 					}catch(err){
 						Pather.journeyTo(46);
 					}
-				}else if(LeaderArea == 73 && me.area == getRoom().correcttomb){							//Try duriels hole
+				}
+				if(LeaderArea == 73 && me.area == getRoom().correcttomb){							//Try duriels hole
 					try{
 						Pather.useUnit(2,100,73);
 					}catch(err){
 						Town.doChores();
 					}
-				}else if(LeaderArea == 102 && !me.getQuest(21,0)){										//Durance Lvl2 fix
+				}
+				if(LeaderArea == 102 && !me.getQuest(21,0)){										//Durance Lvl2 fix
 					this.talkToNPC("Cain");
 					try{
 						Pather.useWaypoint(101);
 					}catch(err){
 						Pather.journeyTo(102);
 					}
-				}else if(LeaderArea > 128 && LeaderArea < 132 && !me.getQuest(39,0) && me.inTown){		//Worldstone Keep fix
+				}
+				if(LeaderArea > 128 && LeaderArea < 132 && !me.getQuest(39,0) && me.inTown){		//Worldstone Keep fix
 					this.talkToNPC("Malah");
 					try{
 						Pather.useWaypoint(129);
 					}catch(err){
 						Pather.journeyTo(129);
 					}
-				}else if(LeaderArea == 132 && me.area == 131){											//Baal Portal fix
+				}
+				if(LeaderArea == 132 && me.area == 131){											//Baal Portal fix
 					BaalPortal=getUnit(2,563);
 					if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
 						delay(250);
