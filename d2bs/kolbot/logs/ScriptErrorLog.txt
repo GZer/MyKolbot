@@ -1,46 +1,118 @@
-[2020/09/30 09:00:59] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:375, @levelfollower.js:186, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
-[2020/09/30 09:01:21] <Hammerdin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:375, @levelfollower.js:186, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
-[2020/09/30 09:18:11] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:375, @levelfollower.js:186, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
-[2020/09/30 14:42:56] <Singer> Error in LevelLeader (levelleader.js line 789): getItem is not defined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:955, @levelleader.js:138, @levelleader.js:789
-[2020/09/30 15:08:20] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:955, @levelleader.js:152, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
-[2020/09/30 15:21:49] <Auradin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:382, @levelfollower.js:155, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
-[2020/09/30 15:24:47] <Summoner> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:367, @levelfollower.js:359, @levelfollower.js:193, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
-[2020/09/30 15:28:21] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:374, @levelfollower.js:366, @levelfollower.js:201, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
-[2020/09/30 15:31:40] <Wind> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+[2020/09/30 20:44:33] <Wind> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 20:44:35] <Auradin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 20:44:36] <Summoner> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 20:44:36] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 20:44:37] <Hammerdin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 20:44:38] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:00:47] <Auradin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:00:49] <Summoner> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:01:09] <ColdSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:01:16] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:19:32] <Wind> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:19:32] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:19:33] <Summoner> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:19:34] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:19:35] <Hammerdin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:24:23] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:24:25] <Hammerdin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:24:27] <Wind> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:24:28] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:25:56] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:25:56] <Wind> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:25:58] <Hammerdin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:25:59] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:43:42] <Hammerdin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:43:53] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 21:46:59] <FireSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/09/30 22:22:09] <Hammerdin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
-[2020/09/30 15:32:39] <Singer> Error in LevelLeader (levelleader.js line 789): getItem is not defined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:955, @levelleader.js:161, @levelleader.js:767, @levelleader.js:789
-[2020/09/30 15:36:28] <Wind> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:123, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
-[2020/09/30 15:53:47] <Singer> Error in LevelLeader (pather.js line 1023): useWaypoint: Failed to use waypoint
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:766, @levelleader.js:363, Pather.journeyTo@pather.js:1405, useWaypoint@pather.js:1023
-[2020/09/30 16:06:53] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 16:12:31] <Wind> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 47
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:374, @levelfollower.js:366, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
-[2020/09/30 16:13:44] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 16:26:05] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 16:35:50] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 16:44:54] <FireSorc> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:374, @levelfollower.js:358, Town.doChores@town.js:98, Town.stash@town.js:1609, Unit.prototype.sell@prototypes.js:255
-[2020/09/30 16:46:31] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 16:55:25] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 17:01:36] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 17:13:15] <Singer> Error in LevelLeader (levelleader.js line 771): HoradricStaff is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:952, @levelleader.js:161, @levelleader.js:771
-[2020/09/30 17:26:32] <ColdSorc> Error in LevelFollower (levelfollower.js line 374): WhoIsLeader is undefined
-Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:382, @levelfollower.js:374
+[2020/09/30 22:27:39] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 18
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:951, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 00:58:31] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 47
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:951, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 02:17:11] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:19:56] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:23:03] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:26:31] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:27:42] <ColdSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:30:12] <ColdSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:30:12] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:33:39] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:37:08] <ColdSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:37:09] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:244, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:37:43] <ColdSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:249, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 02:46:09] <ColdSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:372, @levelfollower.js:364, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 03:23:17] <Hammerdin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
+[2020/10/01 03:27:30] <ColdSorc> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
+[2020/10/01 03:31:30] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:128, @levelfollower.js:249, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 03:33:24] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 03:33:25] <Hammerdin> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 03:42:42] <FireSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:141, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1049
+[2020/10/01 03:45:04] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:962, @levelleader.js:202, @levelleader.js:682, @levelleader.js:712, @levelleader.js:367, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 03:48:19] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:962, @levelleader.js:202, @levelleader.js:682, @levelleader.js:712, @levelleader.js:367, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 04:45:04] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:962, @levelleader.js:202, @levelleader.js:682, @levelleader.js:712, @levelleader.js:367, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 05:01:40] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 54
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:962, @levelleader.js:202, @levelleader.js:683, @levelleader.js:739, @levelleader.js:367, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 05:11:12] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 56
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:962, @levelleader.js:202, @levelleader.js:683, @levelleader.js:739, @levelleader.js:367, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 05:55:19] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 54
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:187, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 05:56:07] <Summoner> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 54
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:387, @levelfollower.js:187, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 05:58:03] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 56
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:372, @levelfollower.js:364, @levelfollower.js:187, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 05:59:58] <Summoner> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 56
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:372, @levelfollower.js:364, @levelfollower.js:187, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 06:46:12] <FireSorc> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
+[2020/10/01 07:55:31] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:968, @levelleader.js:399, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/01 08:14:38] <Singer> Error in LevelLeader (prototypes.js line 328): Unit.drop: Must be used with items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:962, @levelleader.js:269, Town.doChores@town.js:89, Town.clearInventory@town.js:1995, Unit.prototype.drop@prototypes.js:328

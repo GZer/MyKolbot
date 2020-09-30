@@ -5,7 +5,7 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhoIsLeader,MercId=[],TalRashaTomb=getRoom().correcttomb;
+	var LeaderUnit,WhoIsLeader,MercId=[],TalRashaTomb=getRoom().correcttomb,i=1;
 	var TownWaypoints=[0,40,75,103,109];
 	var TeleportAreas=[62,74,76,77,78,88];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
@@ -64,7 +64,7 @@ function LevelFollower(){
 				}
 				delay(2000);
 				if(Config.UseMerc){
-					if(!this.getA2Merc()){this.getA2Merc();}
+					while(!this.getA2Merc() && i<8){this.getA2Merc();i++;}
 				}
 				break;
 			case 3:
@@ -124,20 +124,24 @@ function LevelFollower(){
 			if(LeaderAct != me.act){
 				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
 			}	
-			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1)){
-				if(WhoIsLeader.inTown){
-					this.teleportFromLocation(me.area);										//Act3 Jungle fix
-				}else{
-					Town.doChores();
-				}
+			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1) && WhoIsLeader.inTown){
+				this.teleportFromLocation(me.area);											//Act3 Jungle fix
 			}
 			
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
 				delay(1000);
 				switch(LeaderArea){
-					//Act1
-					//Act2
+					//Go To Town
+					case 1:
+					case 40:
+					case 75:
+					case 103:
+					case 109:
+						Town.doChores();
+						delay(1000);
+					break;
+					//Talk to Atma for Tals Tomb
 					case 46:
 					case TalRashaTomb:
 						if(!me.getQuest(13,0) && me.inTown){
@@ -145,23 +149,11 @@ function LevelFollower(){
 							try{Pather.useWaypoint(46);}catch(err){Pather.journeyTo(46);}
 						}
 					break;
-					case 62:
-						Town.doChores();
-					break;
+					//Enter Duriels Lair
 					case 73:
 						if(me.area == TalRashaTomb){
 							try{Pather.useUnit(2,100,73);}catch(err){Town.doChores();}
 						}
-					break;
-					case 74:
-						Pather.journeyTo(74);
-					break;
-					//Act3
-					case 76:
-					case 77:
-					case 78:
-					case 88:
-						Town.doChores();
 					break;
 					case 102:
 						if(!me.getQuest(21,0) && me.inTown){
@@ -169,8 +161,6 @@ function LevelFollower(){
 							try{Pather.useWaypoint(101);}catch(err){Pather.journeyTo(102);}
 						}
 					break;
-					//Act4
-					//Act5
 					case 129:
 					case 130:
 					case 131:
@@ -233,27 +223,36 @@ function LevelFollower(){
 		Pather.teleport=true;
 		while(!DestinationReached){
 			switch(CurrentArea){
-				case 62:																				//Maggot Lair
+				//Maggot Lair
+				case 62:
 					Pather.journeyTo(63);
 					Pather.journeyTo(64);
-					if(Pather.moveToPreset(64,2,356)){DestinationReached=true;}
+					if(Pather.moveToPreset(64,2,356)){DestinationReached=true;}else{Town.doChores}
 				break;
-				case 74:																				//Arcane Sanctuary
-					if(Pather.moveToPreset(74,2,357)){DestinationReached=true;}
+				//Arcane Sanctuary
+				case 74:
+					if(Pather.moveToPreset(74,2,357)){DestinationReached=true;}else{Town.doChores}
 				break;
-				case 76:																				//Spider Forest
-					if(Pather.getWP(77)){DestinationReached=true;}
+				//Spider Forest
+				case 76:
+					try{if(getWaypoint(77) && Pather.useWaypoint(77)){DestinationReached=true;}}
+					catch(err){if(Pather.journeyTo(77) && Pather.getWP(77)){DestinationReached=true;}}
 				break;
-				case 77:																				//Great Marsh
-					if(Pather.getWP(78)){DestinationReached=true;}
+				//Great Marsh
+				case 77:
+					try{if(getWaypoint(78) && Pather.useWaypoint(78)){DestinationReached=true;}}
+					catch(err){if(Pather.journeyTo(78) && Pather.getWP(78)){DestinationReached=true;}}
 				break;
-				case 78:																				//Flayer Jungle
-					if(Pather.getWP(79)){DestinationReached=true;}
+				//Flayer Jungle
+				case 78:
+					try{if(getWaypoint(79) && Pather.useWaypoint(79)){DestinationReached=true;}}
+					catch(err){if(Pather.journeyTo(79) && Pather.getWP(79)){DestinationReached=true;}}
 				break;
-				case 88:																				//Flayer Dungeon
+				//Flayer Dungeon
+				case 88:
 					Pather.journeyTo(89);
 					Pather.journeyTo(91);
-					if(Pather.moveToPreset(91,2,406)){DestinationReached=true;}
+					if(Pather.moveToPreset(91,2,406)){DestinationReached=true;}else{Town.doChores}
 				break;
 			}
 		}
@@ -300,7 +299,7 @@ function LevelFollower(){
 		}
 		//If we have a Merc and it's the wrong difficulty stop function
 		if((me.getMerc() || me.mercrevivecost > 0) && me.diff != MyMercDiff){
-			this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
+			this.logProgress(me.getMerc(),i+" Tries. Didn't hire Merc - "+me.name);
 			return true;
 		}
 		Town.goToTown(2);
@@ -316,13 +315,13 @@ function LevelFollower(){
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
 				//If it's the wrong difficulty just hire a random merc
 				if(me.diff != MyMercDiff){
-					this.logProgress(me.getMerc(),"Hired Random Merc - "+me.name);
+					this.logProgress(me.getMerc(),i+" Tries. Hired Random Merc - "+me.name);
 					return me.getMerc();
 				}
 				delay(rand(100,15000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
-					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc - "+me.name);
+					this.logProgress(me.getMerc(),i+" Tries. Hired "+MyMercAura+" Merc - "+me.name);
 					return me.getMerc();
 				}
 			}

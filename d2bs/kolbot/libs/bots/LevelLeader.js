@@ -18,7 +18,7 @@ function LevelLeader(){
 	109,111,112,113,115,123,117,118,129];
 	var LevelingAreas=[[2,8,3,4,5,6,27,28,29,32,34,35,36,37],
 	[47,48,49,42,56,57,60,43,62,44,45,52,54,74,46,TalRashaTomb],
-	[76,79,80,94,81,83,100,101,102],
+	[76,77,78,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
 	[110,111,112,113,114,115,121,122,123,124,117,118,120,128,129,130,131]];	
 
@@ -172,9 +172,13 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 76: //Skip Act3 Jungles
-				this.skipAreas(76,77);
-				this.skipAreas(77,78);
-				this.skipAreas(78,79);
+				if(!this.skipAreas(76,77)){quit();}
+			break;
+			case 77: //Skip Act3 Jungles
+				if(!this.skipAreas(77,78)){quit();}
+			break;
+			case 78: //Skip Act3 Jungles
+				if(!this.skipAreas(78,79)){quit();}
 			break;
 			case 80: //Khalim Heart
 				this.getKhalimHeart();
@@ -407,17 +411,18 @@ function LevelLeader(){
 		say("Skipping to "+Pather.getAreaName(ToArea));
 		if(!getWaypoint(WaypointAreas.indexOf(ToArea))){
 			Pather.useWaypoint(FromArea);
-			delay(500);
+			delay(5000);
 			this.waitForTeleporter(ToArea);
-			if(Pather.getWP(ToArea,true)){
+			if(me.area == ToArea && Pather.getWP(ToArea,true)){
 				DestinationReached=true;
 			}
+		}else{
+			DestinationReached=true;
 		}
 		this.logProgress(DestinationReached,"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
 		return DestinationReached;
 	};
-	
-				
+		
 	this.killQuestBoss=function(BossId){
 		var Boss=getUnit(1,BossId);		
 		try{
@@ -560,7 +565,7 @@ function LevelLeader(){
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
-		while(!this.teleporterClose() && WaitingLimit < 90){
+		while(!this.teleporterClose() && WaitingLimit < 120){
 			delay(1000);
 			Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
 			Attack.clear(5);
@@ -575,17 +580,17 @@ function LevelLeader(){
 			Town.goToTown(PortalTown);
 		}
 		Town.move("portalspot");
-		while(WaitingLimit < 90){
+		while(WaitingLimit < 120){
 			for(i=0; i < TeleSorcs.length; i++){
 				if(Pather.getPortal(DestinationArea,TeleSorcs[i])){
 					Pather.usePortal(DestinationArea,TeleSorcs[i]);
 					this.tryMakePortal();
 					Attack.clear(10);
 					delay(500);
-					WaitingLimit=90;
+					WaitingLimit=120;
 				}
 			}
-			delay(500);
+			delay(1000);
 			WaitingLimit++;
 		}
 		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
@@ -790,7 +795,11 @@ function LevelLeader(){
 		transmute();
 		delay(1000);
 		HoradricStaff=me.getItem(91);
-		Storage.Inventory.MoveTo(HoradricStaff);
+		if(HoradricStaff){
+			Storage.Inventory.MoveTo(HoradricStaff);
+		}else{
+			quit();
+		}
 		me.cancel();
 		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
@@ -886,11 +895,12 @@ function LevelLeader(){
 			if(getWaypoint(38)){UpToArea=129;}
 			else if(!getWaypoint(i)){
 				i--;
-				if(WaypointAreas[i] > 76 && WaypointAreas[i] < 79){
-					UpToArea=76;
-				}else{
-					UpToArea=WaypointAreas[i];
-				}
+				// if(WaypointAreas[i] > 76 && WaypointAreas[i] < 79){
+					// UpToArea=76;
+				// }else{
+					// UpToArea=WaypointAreas[i];
+				// }
+				UpToArea=WaypointAreas[i];
 				break;
 			}
 			if(WaypointAreas[i] < 40){ActNumber=0;}
