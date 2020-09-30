@@ -144,6 +144,9 @@ function LevelFollower(){
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
 				delay(1000);
+				if(TeleportAreas.indexOf(LeaderArea)>-1){												//Baal Portal fix
+					Town.doChores();
+				}
 				if((LeaderArea == 46 || LeaderArea == getRoom().correcttomb) && !me.getQuest(13,0)){	//Tal Rasha tomb fix
 					this.talkToNPC("Atma");
 					try{

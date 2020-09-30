@@ -18432,3 +18432,412 @@ c0 :: Starting D2BotLanFollow.dbj
 [09/30/20 13:19:06] D2BS 25416: ÿc7Picked up ÿc445 Gold
 [09/30/20 13:20:06] D2BS 25416: move retry 1
 [09/30/20 13:20:29] D2BS 25416: ÿc7Picked up ÿc466 Gold
+[09/30/20 13:20:36] D2BS 25416: move retry 1
+[09/30/20 13:21:00] D2BS 25416: ÿc7Picked up ÿc455 Gold
+[09/30/20 13:21:03] D2BS 25416: ÿc7Picked up ÿc485 Gold
+[09/30/20 13:21:04] D2BS 25416: move retry 1
+[09/30/20 13:21:21] D2BS 25416: move retry 1
+[09/30/20 13:21:24] D2BS 25416: ÿc7Picked up ÿc446 Gold
+[09/30/20 13:21:25] D2BS 25416: move retry 1
+[09/30/20 13:22:35] D2BS 25416: move retry 1
+[09/30/20 13:22:46] D2BS 25416: move retry 1
+[09/30/20 13:22:56] D2BS 25416: ÿc7Picked up ÿc418 Gold
+[09/30/20 13:22:56] D2BS 25416: ÿc7Picked up ÿc458 Gold
+[09/30/20 13:23:22] D2BS 25416: move retry 1
+[09/30/20 13:23:23] D2BS 25416: ÿc7Picked up ÿc470 Gold
+[09/30/20 13:23:27] D2BS 25416: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/30/20 13:23:33] D2BS 25416: ÿc7Picked up ÿc488 Gold
+[09/30/20 13:23:35] D2BS 25416: move retry 1
+[09/30/20 13:23:44] D2BS 25416: ÿc7Picked up ÿc482 Gold
+[09/30/20 13:24:17] D2BS 25416: move retry 1
+[09/30/20 13:24:22] D2BS 25416: ÿc7Picked up ÿc435 Gold
+[09/30/20 13:27:05] D2BS 25416: move retry 1
+[09/30/20 13:27:11] D2BS 25416: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #29)
+[09/30/20 13:27:24] D2BS 25416: move retry 1
+[09/30/20 13:27:37] D2BS 25416: initNPC: heal
+[09/30/20 13:27:42] D2BS 25416: initNPC: identify
+[09/30/20 13:27:46] D2BS 25416: move retry 1
+[09/30/20 13:27:52] D2BS 25416: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[09/30/20 13:27:53] D2BS 25416: initNPC: buyPotions
+[09/30/20 13:27:54] D2BS 25416: Strong Studded Leather of Remedy
+[09/30/20 13:28:28] D2BS 25416: move retry 1
+[09/30/20 13:28:45] D2BS 25416: move retry 1
+[09/30/20 13:29:12] D2BS 25416: move retry 1
+[09/30/20 13:29:13] D2BS 25416: move retry 2
+[09/30/20 13:30:03] D2BS 25416: move retry 1
+[09/30/20 13:30:09] D2BS 25416: 43,62
+[09/30/20 13:30:30] D2BS 25416: move retry 1
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 15328
+[09/30/20 13:30:33] D2BS 25416: 7726182C (ntdll): (filename not available): NtDelayExecution
+[09/30/20 13:30:33] D2BS 25416: 0044EFA0 (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/30/20 13:30:33] D2BS 25416: 00451C23 (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/30/20 13:30:33] D2BS 25416: 0044F570 (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/30/20 13:30:33] D2BS 25416: 0044B959 (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/30/20 13:30:33] D2BS 25416: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/30/20 13:30:33] D2BS 25416: 00405E6B (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:33] D2BS 25416: 004065C7 (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:33] D2BS 25416: 0040671F (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:33] D2BS 25416: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 25800
+[09/30/20 13:30:33] D2BS 25416: 7726182C (ntdll): (filename not available): NtDelayExecution
+[09/30/20 13:30:33] D2BS 25416: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/30/20 13:30:33] D2BS 25416: 03013C94 (D2BS): (filename not available): QueryInterface
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 26836
+[09/30/20 13:30:33] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 004027E5 (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 11196
+[09/30/20 13:30:33] D2BS 25416: 7726182C (ntdll): (filename not available): NtDelayExecution
+[09/30/20 13:30:33] D2BS 25416: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/30/20 13:30:33] D2BS 25416: 004102FC (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 18680
+[09/30/20 13:30:33] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 0041A845 (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 27344
+[09/30/20 13:30:33] D2BS 25416: 7726321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 7164
+[09/30/20 13:30:33] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 03097236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:33] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:33] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:33] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 27052
+[09/30/20 13:30:33] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 03097236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:33] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:33] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:33] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 10540
+[09/30/20 13:30:33] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 03097236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:33] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:33] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:33] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: Stack Walk Thread: 26916
+[09/30/20 13:30:33] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:33] D2BS 25416: 74F57545 (mswsock): (filename not available): sethostname
+[09/30/20 13:30:33] D2BS 25416: 756B5F1E (WS2_32): (filename not available): select
+[09/30/20 13:30:33] D2BS 25416: 0052AB6C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/30/20 13:30:33] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:33] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:33] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: Stack Walk Thread: 26156
+[09/30/20 13:30:34] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:34] D2BS 25416: 03097236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:34] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: Stack Walk Thread: 25908
+[09/30/20 13:30:34] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:34] D2BS 25416: 03097236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:34] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: Stack Walk Thread: 16332
+[09/30/20 13:30:34] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:34] D2BS 25416: 03097236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:34] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: Stack Walk Thread: 22348
+[09/30/20 13:30:34] D2BS 25416: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:30:34] D2BS 25416: 03097236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:34] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: Stack Walk Thread: 14628
+[09/30/20 13:30:34] D2BS 25416: 0301B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/30/20 13:30:34] D2BS 25416: 030137F8 (D2BS): (filename not available): QueryInterface
+[09/30/20 13:30:34] D2BS 25416: 00408A05 (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:34] D2BS 25416: 00408A81 (Game): (filename not available): (function-name not available)
+[09/30/20 13:30:34] D2BS 25416: 00660E6F (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/30/20 13:30:34] D2BS 25416: 0309BCD6 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 03182B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 03181A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:30:34] D2BS 25416: 030AE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:30:34] D2BS 25416: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:30:34] D2BS 25416: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:30:34] D2BS 25416: Crash File: BlizzardError/2020-09-30 13.30.33/Crash.txt
+[09/30/20 13:30:34] D2BS 25416: D2BS Shutdown complete.
+[09/30/20 13:30:35] D2BS 28004: D2BS Engine startup complete. 1.6.4U
+[09/30/20 13:30:35] D2BS 28004: FireSorc
+[09/30/20 13:30:35] D2BS 28004: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/30/20 13:30:35] D2BS 28004: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/30/20 13:30:35] D2BS 28004: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/30/20 13:30:35] D2BS 28004: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/30/20 13:30:35] D2BS 28004: ÿc2D2BSÿc0 :: Started Console Script
+[09/30/20 13:30:37] D2BS 28004: Heartbeat loaded
+[09/30/20 13:30:55] D2BS 28004: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/30/20 13:30:55] D2BS 28004: ÿc2D2BSÿc0 :: default.dbj running.
+[09/30/20 13:30:55] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/30/20 13:30:55] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:30:55] D2BS 28004: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/30/20 13:30:55] D2BS 28004: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[09/30/20 13:30:55] D2BS 28004: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/30/20 13:30:55] D2BS 28004: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/30/20 13:30:55] D2BS 28004: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[09/30/20 13:30:55] D2BS 28004: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc261ÿc4. Valid entries: ÿc245. ÿc4Time: ÿc215 ms
+[09/30/20 13:30:55] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/30/20 13:30:55] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:30:55] D2BS 28004: AutoBuild: Loaded helper thread
+[09/30/20 13:30:55] D2BS 28004: ÿc2Starting script: ÿc9LevelFollower
+[09/30/20 13:30:55] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/30/20 13:30:55] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:30:55] D2BS 28004: ÿc2Party thread loaded. Mode: Accept
+[09/30/20 13:30:55] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/30/20 13:30:55] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:30:55] D2BS 28004: ÿc3Start ToolsThread script
+[09/30/20 13:30:55] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/30/20 13:30:55] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:31:25] D2BS 28004: initNPC: heal
+[09/30/20 13:31:41] D2BS 28004: Script default.dbj ended
+[09/30/20 13:31:41] D2BS 28004: Script tools\autobuildthread.js ended
+[09/30/20 13:31:41] D2BS 28004: Script tools\party.js ended
+[09/30/20 13:31:41] D2BS 28004: Script tools\toolsthread.js ended
+[09/30/20 13:31:41] D2BS 28004: Script tools\townchicken.js ended
+[09/30/20 13:31:47] D2BS 28004: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/30/20 13:31:47] D2BS 28004: ÿc2D2BSÿc0 :: default.dbj running.
+[09/30/20 13:31:47] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/30/20 13:31:47] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:31:47] D2BS 28004: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[09/30/20 13:31:47] D2BS 28004: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[09/30/20 13:31:47] D2BS 28004: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/30/20 13:31:47] D2BS 28004: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/30/20 13:31:47] D2BS 28004: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[09/30/20 13:31:47] D2BS 28004: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc261ÿc4. Valid entries: ÿc245. ÿc4Time: ÿc20 ms
+[09/30/20 13:31:47] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/30/20 13:31:47] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:31:47] D2BS 28004: AutoBuild: Loaded helper thread
+[09/30/20 13:31:48] D2BS 28004: ÿc2Starting script: ÿc9LevelFollower
+[09/30/20 13:31:48] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/30/20 13:31:48] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:31:48] D2BS 28004: ÿc2Party thread loaded. Mode: Accept
+[09/30/20 13:31:48] D2BS 28004: ÿc3Start ToolsThread script
+[09/30/20 13:31:48] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/30/20 13:31:48] D2BS 28004: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/30/20 13:31:48] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:31:48] D2BS 28004: Updating Config from level 0 to 19
+[09/30/20 13:32:18] D2BS 28004: initNPC: heal
+[09/30/20 13:32:23] D2BS 28004: initNPC: identify
+[09/30/20 13:32:32] D2BS 28004: ÿc4MiniShopBotÿc0: Scanning 69 items.
+[09/30/20 13:32:33] D2BS 28004: initNPC: buyPotions
+[09/30/20 13:32:34] D2BS 28004: Strong Studded Leather of Remedy
+[09/30/20 13:32:43] D2BS 28004: 42,43
+[09/30/20 13:33:11] D2BS 28004: ÿc7Picked up ÿc476 Gold
+[09/30/20 13:33:11] D2BS 28004: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/30/20 13:33:25] D2BS 28004: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[09/30/20 13:33:36] D2BS 28004: move retry 1
+[09/30/20 13:33:42] D2BS 28004: move retry 2
+[09/30/20 13:33:46] D2BS 28004: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/30/20 13:33:46] D2BS 28004: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #29)
+[09/30/20 13:33:53] D2BS 28004: move retry 1
+[09/30/20 13:35:33] D2BS 28004: ÿc7Picked up ÿc455 Gold
+[09/30/20 13:35:35] D2BS 28004: move retry 1
+[09/30/20 13:35:40] D2BS 28004: move retry 1
+[09/30/20 13:35:48] D2BS 28004: move retry 1
+[09/30/20 13:36:11] D2BS 28004: ÿc7Picked up ÿc487 Gold
+[09/30/20 13:36:24] D2BS 28004: move retry 1
+[09/30/20 13:36:43] D2BS 28004: AutoBuild: Stat points: 5      Skill points: 2
+[09/30/20 13:36:43] D2BS 28004: AutoBuild: Level up detected ( 19 --> 20 )
+[09/30/20 13:36:43] D2BS 28004: AutoBuild: useSkillPoint(): Chain Lightning (53)
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Skill (1/1) Increased Chain Lightning (53) by one (level:  1)
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: useStatPoint(0): Strength
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Stat (1/5) Increased Strength from 28 to 29
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: useStatPoint(1): Energy
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Stat (2/5) Increased Energy from 72 to 73
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: useStatPoint(1): Energy
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Stat (3/5) Increased Energy from 73 to 74
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: useStatPoint(3): Vitality
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Stat (4/5) Increased Vitality from 46 to 47
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: useStatPoint(3): Vitality
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Stat (5/5) Increased Vitality from 47 to 48
+[09/30/20 13:36:44] D2BS 28004: Updating Config from level 19 to 20
+[09/30/20 13:36:44] D2BS 28004: Updating Config from level 19 to 20
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Updating Config from level 19 to 20
+[09/30/20 13:36:44] D2BS 28004: Updating Config from level 19 to 20
+[09/30/20 13:36:44] D2BS 28004: Updating Config from level 19 to 20
+[09/30/20 13:36:44] D2BS 28004: AutoBuild: Incrementing cached character level to 20
+[09/30/20 13:36:47] D2BS 28004: ÿc7Picked up ÿc482 Gold
+[09/30/20 13:36:47] D2BS 28004: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #29)
+[09/30/20 13:37:24] D2BS 28004: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #29)
+[09/30/20 13:38:35] D2BS 28004: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[09/30/20 13:38:43] D2BS 28004: move retry 1
+[09/30/20 13:38:51] D2BS 28004: move retry 1
+[09/30/20 13:38:52] D2BS 28004: move retry 1
+[09/30/20 13:38:58] D2BS 28004: ÿc7Picked up ÿc417 Gold
+[09/30/20 13:39:04] D2BS 28004: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #29)
+[09/30/20 13:39:42] D2BS 28004: move retry 1
+[09/30/20 13:40:18] D2BS 28004: move retry 1
+[09/30/20 13:40:45] D2BS 28004: move retry 1
+[09/30/20 13:42:18] D2BS 28004: move retry 1
+[09/30/20 13:42:25] D2BS 28004: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #30)
+[09/30/20 13:42:29] D2BS 28004: move retry 1
+[09/30/20 13:42:55] D2BS 28004: move retry 1
+[09/30/20 13:43:09] D2BS 28004: move retry 1
+[09/30/20 13:43:45] D2BS 28004: move retry 1
+[09/30/20 13:48:16] D2BS 28004: Script default.dbj ended
+[09/30/20 13:48:16] D2BS 28004: Script tools\autobuildthread.js ended
+[09/30/20 13:48:16] D2BS 28004: Script tools\party.js ended
+[09/30/20 13:48:16] D2BS 28004: Script tools\toolsthread.js ended
+[09/30/20 13:48:16] D2BS 28004: Script tools\townchicken.js ended
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 13768
+[09/30/20 13:48:21] D2BS 28004: 7726182C (ntdll): (filename not available): NtDelayExecution
+[09/30/20 13:48:21] D2BS 28004: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/30/20 13:48:21] D2BS 28004: 02F03C94 (D2BS): (filename not available): QueryInterface
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 22804
+[09/30/20 13:48:21] D2BS 28004: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:48:21] D2BS 28004: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/30/20 13:48:21] D2BS 28004: 004027E5 (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 28276
+[09/30/20 13:48:21] D2BS 28004: 7726182C (ntdll): (filename not available): NtDelayExecution
+[09/30/20 13:48:21] D2BS 28004: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/30/20 13:48:21] D2BS 28004: 004102FC (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 25096
+[09/30/20 13:48:21] D2BS 28004: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:48:21] D2BS 28004: 7621F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/30/20 13:48:21] D2BS 28004: 0041A845 (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 27296
+[09/30/20 13:48:21] D2BS 28004: 7726321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 8824
+[09/30/20 13:48:21] D2BS 28004: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:48:21] D2BS 28004: 02F87236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:48:21] D2BS 28004: 03072B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:48:21] D2BS 28004: 03071A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:48:21] D2BS 28004: 02F9E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 26924
+[09/30/20 13:48:21] D2BS 28004: 7726182C (ntdll): (filename not available): NtDelayExecution
+[09/30/20 13:48:21] D2BS 28004: 76232DDF (KERNELBASE): (filename not available): Sleep
+[09/30/20 13:48:21] D2BS 28004: 02F0E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:48:21] D2BS 28004: 02F901B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:48:21] D2BS 28004: 03072B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:48:21] D2BS 28004: 03071A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:48:21] D2BS 28004: 02F9E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 28036
+[09/30/20 13:48:21] D2BS 28004: 7726150C (ntdll): (filename not available): NtWaitForSingleObject
+[09/30/20 13:48:21] D2BS 28004: 02F87236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:48:21] D2BS 28004: 03072B1F (D2BS): (filename not available): JS_freeop
+[09/30/20 13:48:21] D2BS 28004: 03071A5E (D2BS): (filename not available): JS_freeop
+[09/30/20 13:48:21] D2BS 28004: 02F9E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Stack Walk Thread: 26524
+[09/30/20 13:48:21] D2BS 28004: 02F0B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/30/20 13:48:21] D2BS 28004: 02F037F8 (D2BS): (filename not available): QueryInterface
+[09/30/20 13:48:21] D2BS 28004: 00408A05 (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 00408A81 (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/30/20 13:48:21] D2BS 28004: 00659C1B (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/30/20 13:48:21] D2BS 28004: 00619322 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/30/20 13:48:21] D2BS 28004: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/30/20 13:48:21] D2BS 28004: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/30/20 13:48:21] D2BS 28004: 00405E6B (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 004065C7 (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 0040671F (Game): (filename not available): (function-name not available)
+[09/30/20 13:48:21] D2BS 28004: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/30/20 13:48:21] D2BS 28004: 7556F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/30/20 13:48:21] D2BS 28004: 772574B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: 77257484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/30/20 13:48:21] D2BS 28004: Crash File: BlizzardError/2020-09-30 13.48.21/Crash.txt
+[09/30/20 13:48:21] D2BS 28004: D2BS Shutdown complete.
+[09/30/20 13:48:22] D2BS 14240: D2BS Engine startup complete. 1.6.4U
+[09/30/20 13:48:22] D2BS 14240: FireSorc
+[09/30/20 13:48:22] D2BS 14240: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[09/30/20 13:48:22] D2BS 14240: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/30/20 13:48:22] D2BS 14240: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/30/20 13:48:22] D2BS 14240: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/30/20 13:48:22] D2BS 14240: ÿc2D2BSÿc0 :: Started Console Script
+[09/30/20 13:48:25] D2BS 14240: Heartbeat loaded
+[09/30/20 13:48:42] D2BS 14240: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/30/20 13:48:42] D2BS 14240: ÿc2D2BSÿc0 :: default.dbj running.
+[09/30/20 13:48:42] D2BS 14240: AutoBuild: Including build template config/builds/sorceress.meteor.js into default.dbj
+[09/30/20 13:48:42] D2BS 14240: Updating Config from level 0 to 20
+[09/30/20 13:48:42] D2BS 14240: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/30/20 13:48:42] D2BS 14240: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[09/30/20 13:48:42] D2BS 14240: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/30/20 13:48:42] D2BS 14240: ÿc4Loaded NIP: ÿc2MeteorRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/30/20 13:48:42] D2BS 14240: ÿc4Loaded NIP: ÿc2Meteor.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[09/30/20 13:48:42] D2BS 14240: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc261ÿc4. Valid entries: ÿc245. ÿc4Time: ÿc20 ms
+[09/30/20 13:48:42] D2BS 14240: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\autobuildthread.js
+[09/30/20 13:48:42] D2BS 14240: Updating Config from level 0 to 20
+[09/30/20 13:48:42] D2BS 14240: AutoBuild: Loaded helper thread
+[09/30/20 13:48:43] D2BS 14240: ÿc2Starting script: ÿc9LevelFollower
+[09/30/20 13:48:43] D2BS 14240: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\party.js
+[09/30/20 13:48:43] D2BS 14240: Updating Config from level 0 to 20
+[09/30/20 13:48:43] D2BS 14240: ÿc2Party thread loaded. Mode: Accept
+[09/30/20 13:48:43] D2BS 14240: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\townchicken.js
+[09/30/20 13:48:43] D2BS 14240: Updating Config from level 0 to 20
+[09/30/20 13:48:43] D2BS 14240: ÿc3Start ToolsThread script
+[09/30/20 13:48:43] D2BS 14240: AutoBuild: Including build template config/builds/sorceress.meteor.js into tools\toolsthread.js
+[09/30/20 13:48:43] D2BS 14240: Updating Config from level 0 to 20
+[09/30/20 13:49:24] D2BS 14240: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #29)
+[09/30/20 13:50:11] D2BS 14240: move retry 1
+[09/30/20 13:50:14] D2BS 14240: ÿc7Picked up ÿc489 Gold
+[09/30/20 13:50:14] D2BS 14240: ÿc7Picked up ÿc471 Gold
+[09/30/20 13:50:15] D2BS 14240: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[09/30/20 13:50:23] D2BS 14240: ÿc7Picked up ÿc485 Gold
+[09/30/20 13:50:32] D2BS 14240: ÿc7Picked up ÿc468 Gold
+[09/30/20 13:50:34] D2BS 14240: move retry 1
+[09/30/20 13:50:35] D2BS 14240: ÿc7Picked up ÿc436 Gold

@@ -122,7 +122,7 @@ function LevelLeader(){
 			break;
 			case 62: //Staff
 				if(me.getItem(92)){break;}
-				if(!this.waitForTeleporter(64)){quit();}
+				if(!this.waitForTeleporter(64)){break;}
 				this.killQuestBoss(284);
 				this.getQuestItem(92,356);
 				Town.doChores();
