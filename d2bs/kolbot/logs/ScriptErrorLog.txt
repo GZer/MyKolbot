@@ -12,3 +12,9 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:382, @levelfollower.js:155, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
 [2020/09/30 15:24:47] <Summoner> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:367, @levelfollower.js:359, @levelfollower.js:193, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/30 15:28:21] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:374, @levelfollower.js:366, @levelfollower.js:201, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/09/30 15:31:40] <Wind> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2274, Pather.makePortal@pather.js:1049
+[2020/09/30 15:32:39] <Singer> Error in LevelLeader (levelleader.js line 789): getItem is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:955, @levelleader.js:161, @levelleader.js:767, @levelleader.js:789

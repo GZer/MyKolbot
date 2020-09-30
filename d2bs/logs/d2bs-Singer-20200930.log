@@ -5965,3 +5965,106 @@
 [09/30/20 15:26:14] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
 [09/30/20 15:26:14] D2BS 25404: Updating Config from level 0 to 23
 [09/30/20 15:26:32] D2BS 25404: initNPC: heal
+[09/30/20 15:26:37] D2BS 25404: initNPC: buyPotions
+[09/30/20 15:26:49] D2BS 25404: 46
+[09/30/20 15:27:01] D2BS 25404: 46
+[09/30/20 15:27:06] D2BS 25404: ÿc7Picked up ÿc451 Gold
+[09/30/20 15:27:06] D2BS 25404: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/30/20 15:27:06] D2BS 25404: ÿc7Picked up ÿc446 Gold
+[09/30/20 15:27:29] D2BS 25404: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/30/20 15:27:51] D2BS 25404: 71
+[09/30/20 15:27:57] D2BS 25404: 71
+[09/30/20 15:27:57] D2BS 25404: 71
+[09/30/20 15:28:27] D2BS 25404: ÿc7Picked up ÿc488 Gold
+[09/30/20 15:28:41] D2BS 25404: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #30)
+[09/30/20 15:28:42] D2BS 25404: ÿc7Picked up ÿc467 Gold
+[09/30/20 15:29:02] D2BS 25404: ÿc7Picked up ÿc469 Gold
+[09/30/20 15:29:27] D2BS 25404: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #30)
+[09/30/20 15:29:27] D2BS 25404: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[09/30/20 15:29:27] D2BS 25404: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[09/30/20 15:29:27] D2BS 25404: ÿc7Picked up ÿc460 Gold
+[09/30/20 15:29:27] D2BS 25404: ÿc7Picked up ÿc4109 Gold
+[09/30/20 15:29:51] D2BS 25404: 71
+[09/30/20 15:29:52] D2BS 25404: initNPC: heal
+[09/30/20 15:29:57] D2BS 25404: initNPC: buyPotions
+[09/30/20 15:30:04] D2BS 25404: 43,62
+[09/30/20 15:31:15] D2BS 25404: move retry 1
+[09/30/20 15:31:17] D2BS 25404: move retry 2
+[09/30/20 15:31:20] D2BS 25404: move retry 3
+[09/30/20 15:31:58] D2BS 25404: initNPC: heal
+[09/30/20 15:32:39] D2BS 25404: ÿc1Error in ÿc0LevelLeader ÿc1(levelleader.js line ÿc1789): ÿc1getItem is not defined
+[09/30/20 15:32:39] D2BS 25404: ÿc8Run duration ÿc2385.328
+[09/30/20 15:32:39] D2BS 25404: Script tools\autobuildthread.js ended
+[09/30/20 15:32:39] D2BS 25404: Script tools\party.js ended
+[09/30/20 15:32:39] D2BS 25404: Script tools\townchicken.js ended
+[09/30/20 15:32:40] D2BS 25404: 12
+[09/30/20 15:32:44] D2BS 25404: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/30/20 15:32:44] D2BS 25404: ÿc2D2BSÿc0 :: default.dbj running.
+[09/30/20 15:32:44] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/30/20 15:32:44] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:32:44] D2BS 25404: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/30/20 15:32:44] D2BS 25404: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[09/30/20 15:32:44] D2BS 25404: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc215 ms
+[09/30/20 15:32:44] D2BS 25404: [Strict Warning] Code(112) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\bots\levelleader.js:601) test for equality (==) mistyped as assignment (=)?
+Line: 					if(WaitForSorcs=Difficulty){
+[09/30/20 15:32:44] D2BS 25404: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[09/30/20 15:32:44] D2BS 25404: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2124ÿc4. Valid entries: ÿc2107. ÿc4Time: ÿc20 ms
+[09/30/20 15:32:44] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/30/20 15:32:44] D2BS 25404: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc261ÿc4. Valid entries: ÿc245. ÿc4Time: ÿc20 ms
+[09/30/20 15:32:44] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:32:44] D2BS 25404: AutoBuild: Loaded helper thread
+[09/30/20 15:32:44] D2BS 25404: [ÿc9Strict Warningÿc0 (112)] File(kolbot\libs\bots\levelleader.js:601) test for equality (==) mistyped as assignment (=)?
+[09/30/20 15:32:44] D2BS 25404: ÿc2Starting script: ÿc9LevelLeader
+[09/30/20 15:32:44] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/30/20 15:32:44] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:32:44] D2BS 25404: ÿc2Party thread loaded. Mode: Invite
+[09/30/20 15:32:44] D2BS 25404: ÿc3Start ToolsThread script
+[09/30/20 15:32:44] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/30/20 15:32:44] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/30/20 15:32:44] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:32:44] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:33:03] D2BS 25404: 46
+[09/30/20 15:33:17] D2BS 25404: ÿc4MF: ÿc010 ÿc4GF: ÿc00 ÿc1FR: ÿc06 ÿc3CR: ÿc023 ÿc9LR: ÿc012 ÿc2PR: ÿc040
+[09/30/20 15:33:17] D2BS 25404: FCR: 0 IAS: 0 FBR: 15 FHR: 0 FRW: 20
+[09/30/20 15:33:17] D2BS 25404: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc02 DR: 0% + 0 MDR: 0% + 0
+[09/30/20 15:33:18] D2BS 25404: ÿc2D2BSÿc0 :: Stopping all scripts
+[09/30/20 15:33:18] D2BS 25404: Script d2botlanlead.dbj ended
+[09/30/20 15:33:18] D2BS 25404: Script default.dbj ended
+[09/30/20 15:33:18] D2BS 25404: Script tools\autobuildthread.js ended
+[09/30/20 15:33:18] D2BS 25404: Script tools\heartbeat.js ended
+[09/30/20 15:33:18] D2BS 25404: Script tools\party.js ended
+[09/30/20 15:33:18] D2BS 25404: Script tools\toolsthread.js ended
+[09/30/20 15:33:18] D2BS 25404: Script tools\townchicken.js ended
+[09/30/20 15:33:19] D2BS 25404: ÿc2D2BSÿc0 :: Started default.dbj
+[09/30/20 15:33:19] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[09/30/20 15:33:19] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:33:19] D2BS 25404: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[09/30/20 15:33:19] D2BS 25404: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[09/30/20 15:33:19] D2BS 25404: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc230ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/30/20 15:33:19] D2BS 25404: Heartbeat loaded
+[09/30/20 15:33:19] D2BS 25404: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc216 ms
+[09/30/20 15:33:19] D2BS 25404: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2124ÿc4. Valid entries: ÿc2107. ÿc4Time: ÿc20 ms
+[09/30/20 15:33:19] D2BS 25404: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc261ÿc4. Valid entries: ÿc245. ÿc4Time: ÿc20 ms
+[09/30/20 15:33:19] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[09/30/20 15:33:19] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:33:19] D2BS 25404: AutoBuild: Loaded helper thread
+[09/30/20 15:33:19] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[09/30/20 15:33:19] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:33:19] D2BS 25404: ÿc2Party thread loaded. Mode: Invite
+[09/30/20 15:33:19] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[09/30/20 15:33:19] D2BS 25404: ÿc3Start ToolsThread script
+[09/30/20 15:33:19] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:33:19] D2BS 25404: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[09/30/20 15:33:19] D2BS 25404: Updating Config from level 0 to 23
+[09/30/20 15:33:19] D2BS 25404: ÿc2Starting script: ÿc9LevelLeader
+[09/30/20 15:33:21] D2BS 25404: move retry 1
+[09/30/20 15:33:27] D2BS 25404: move retry 2
+[09/30/20 15:33:30] D2BS 25404: initNPC: fillTome
+[09/30/20 15:33:42] D2BS 25404: 46
+[09/30/20 15:33:49] D2BS 25404: 46
+[09/30/20 15:33:53] D2BS 25404: ÿc7Picked up ÿc488 Gold
+[09/30/20 15:33:53] D2BS 25404: ÿc7Picked up ÿc427 Gold
+[09/30/20 15:33:54] D2BS 25404: ÿc7Picked up ÿc419 Gold
+[09/30/20 15:33:57] D2BS 25404: ÿc7Picked up ÿc429 Gold
+[09/30/20 15:33:57] D2BS 25404: ÿc7Picked up ÿc465 Gold
+[09/30/20 15:33:57] D2BS 25404: ÿc7Picked up ÿc458 Gold
