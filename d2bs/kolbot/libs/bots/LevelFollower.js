@@ -306,7 +306,7 @@ function LevelFollower(){
 			if(me.gold < me.mercrevivecost){
 				this.logProgress(true,"Not enough gold for Merc - "+me.name);
 				return false;
-			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>15)){
+			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>10)){
 				ReplaceMerc=true;
 			}else if(me.diff != MyMercDiff){
 				this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
@@ -325,7 +325,7 @@ function LevelFollower(){
 			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
-		return (Math.abs(me.charlvl-MyMerc.charlvl)<=15);
+		return (Math.abs(me.charlvl-MyMerc.charlvl)<=10);
 	};
 	
 	this.unEquipMerc=function(){

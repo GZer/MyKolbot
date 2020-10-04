@@ -149,7 +149,6 @@ function LevelLeader(){
 				if(!this.waitForTeleporter(74)){
 					Pather.journeyTo(74);
 				}
-				this.clearToQuestLocation(74,2,357);
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
 				Pather.getWP(46,true);
@@ -312,7 +311,7 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 70) || me.charlvl > 80){
+					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 2){
 						Pather.moveTo(15134,5923,true,true);
 						this.killQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
@@ -425,9 +424,29 @@ function LevelLeader(){
 		this.logProgress(DestinationReached,"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
 		return DestinationReached;
 	};
-		
+	
+	this.getPlayerCount=function () {
+		var Count=0, Party=getParty();
+		if (Party) {
+			do{Count++;}while(Party.getNext());
+		}
+		return Count;
+	};
+	
+	this.killImportantQuestBoss=function(){
+		var Party=getParty();
+		while(Party){
+			delay(500);
+			if(this.getPlayerCount()<8){
+				say("Woops");
+			}
+			Pickit.pickItems();
+		}
+		return false;
+	};
+	
 	this.killQuestBoss=function(BossId){
-		var Boss=getUnit(1,BossId);		
+		var Boss=getUnit(1,BossId);
 		try{
 			Attack.clear(20,0,BossId);
 			delay(500);
@@ -819,7 +838,7 @@ function LevelLeader(){
 			case 0: //Amazon
 				break;
 			case 1: //Sorcerer
-				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
+				MyMercType=104,MyMercDiff=2,MyMercAura="Defiance";
 				break;
 			case 2: //Necromancer
 				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
@@ -843,7 +862,7 @@ function LevelLeader(){
 			if(me.gold < me.mercrevivecost){
 				this.logProgress(true,"Not enough gold for Merc - "+me.name);
 				return false;
-			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>15)){
+			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>10)){
 				ReplaceMerc=true;
 			}else if(me.diff != MyMercDiff){
 				this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
@@ -862,7 +881,7 @@ function LevelLeader(){
 			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
-		return (Math.abs(me.charlvl-MyMerc.charlvl)<=15);
+		return (Math.abs(me.charlvl-MyMerc.charlvl)<=10);
 	};
 	
 	this.unEquipMerc=function(){
@@ -874,7 +893,7 @@ function LevelLeader(){
 
 			if (me.itemoncursor) {
 				delay(1000);
-				cursorItem = getUnit(100);
+				cursorItem=getUnit(100);
 
 				if (cursorItem) {
 					if (!Storage.Inventory.MoveTo(cursorItem)) {
