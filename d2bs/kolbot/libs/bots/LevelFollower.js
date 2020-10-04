@@ -5,7 +5,7 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhoIsLeader,MercId=[],TalRashaTomb=getRoom().correcttomb,i=1;
+	var LeaderUnit,WhoIsLeader,MercId=[],TalRashaTomb=getRoom().correcttomb,MyMercType,MyMercDiff,MyMercAura,HiredMercAura,MyMerc;
 	var TownWaypoints=[0,40,75,103,109];
 	var TeleportAreas=[62,74,76,77,78,88];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
@@ -45,7 +45,7 @@ function LevelFollower(){
 	
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
-		if(Pather.accessToAct(DestinationAct)){
+		if(Pather.accessToAct(DestinationAct) && getWaypoint(WaypointAreas.indexOf(TownWaypoints[DestinationAct-1]))){
 			try{
 				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
 			}catch(err){
@@ -61,10 +61,6 @@ function LevelFollower(){
 				NPC=getUnit(1,"Warriv");
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
-				}
-				delay(2000);
-				if(Config.UseMerc){
-					while(!this.getA2Merc() && i<8){this.getA2Merc();i++;}
 				}
 				break;
 			case 3:
@@ -109,6 +105,11 @@ function LevelFollower(){
 			me.cancel();
 			return false;
 		}
+		if(Config.UseMerc){
+			Town.doChores();
+			this.checkMerc();
+		}
+		
 		return me.act == DestinationAct;
 	};
 	
@@ -191,7 +192,7 @@ function LevelFollower(){
 				Pather.getWP(me.area,true);
 			}
 			if(!me.inTown){
-				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);									//Find leader if not in Town
+				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);						//Find leader if not in Town
 			}else{
 				Town.doChores();
 				delay(500);
@@ -274,8 +275,9 @@ function LevelFollower(){
 		return false;
 	};
 	
-	this.getA2Merc=function(){
-		var MyMercType,MyMercDiff,MyMercAura,MyMerc;
+	this.checkMerc=function(){
+		var ReplaceMerc=false,Count=1;
+		MyMerc=me.getMerc()
 		switch(me.classid){			
 			case 0: //Amazon
 				break;
@@ -297,11 +299,63 @@ function LevelFollower(){
 			case 6: //Assassin
 				break;
 		}
-		//If we have a Merc and it's the wrong difficulty stop function
-		if((me.getMerc() || me.mercrevivecost > 0) && me.diff != MyMercDiff){
-			this.logProgress(me.getMerc(),i+" Tries. Didn't hire Merc - "+me.name);
-			return true;
+		
+		//If we have a Merc and it's the wrong difficulty or within level stop function
+		if(MyMerc || me.mercrevivecost > 0){
+			Town.reviveMerc(); //Revive Merc
+			if(me.gold < me.mercrevivecost){
+				this.logProgress(true,"Not enough gold for Merc - "+me.name);
+				return false;
+			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>15)){
+				ReplaceMerc=true;
+			}else if(me.diff != MyMercDiff){
+				this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
+				return false;
+			}
+		}else{
+			while(!this.hireA2Merc(Count) && Count<8){
+				Count++;
+			}
+			this.logProgress(me.getMerc(),"Hired "+HiredMercAura+" Merc - "+me.name);
 		}
+		if(ReplaceMerc && this.unEquipMerc()){
+			while(!this.hireA2Merc(Count) && Count<8){
+				Count++;
+			}
+			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
+		}
+		
+		return (Math.abs(me.charlvl-MyMerc.charlvl)<=15);
+	};
+	
+	this.unEquipMerc=function(){
+		var cursorItem,i;		
+		for(i=1; i < 5; i++){
+			if(i==2){i=3;}//2 Handed Weapons fix
+			clickItem(4, i);
+			delay(1000);
+
+			if (me.itemoncursor) {
+				delay(1000);
+				cursorItem = getUnit(100);
+
+				if (cursorItem) {
+					if (!Storage.Inventory.MoveTo(cursorItem)) {
+						return false;
+					}
+					delay(1500);
+					
+					if (me.itemoncursor) {
+						Misc.click(0, 0, me);
+						delay(1000);
+					}
+				}
+			}
+		}
+		return true;
+	};
+	
+	this.hireA2Merc=function(Count){
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
@@ -315,13 +369,13 @@ function LevelFollower(){
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
 				//If it's the wrong difficulty just hire a random merc
 				if(me.diff != MyMercDiff){
-					this.logProgress(me.getMerc(),i+" Tries. Hired Random Merc - "+me.name);
+					HiredMercAura="Random";
 					return me.getMerc();
 				}
-				delay(rand(100,15000));
+				delay(rand(100,10000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
-					this.logProgress(me.getMerc(),i+" Tries. Hired "+MyMercAura+" Merc - "+me.name);
+					HiredMercAura=MyMercAura;
 					return me.getMerc();
 				}
 			}
@@ -348,9 +402,9 @@ function LevelFollower(){
 			var MalahPotion=me.getItem(644);
 			MalahPotion.drop();										//Only leader should carry Potion
 		}	
-		delay(500);
+		delay(250);
 		Pather.getWP(me.area);
-		delay(500);
+		delay(250);
 		Town.move("portalspot");
 		if(CharacterLevel > 7){
 			Town.doChores();
@@ -359,7 +413,7 @@ function LevelFollower(){
 		}
 		WhoIsLeader=getParty(Config.Leader);
 		while(!this.getLeaderUnit(Config.Leader)){					//Loop to ensure leader is assigned
-			delay(1000);
+			delay(500);
 			partyTimeout++;
 			this.goFindLeader(WhoIsLeader.area);
 			if(partyTimeout>5){
@@ -369,6 +423,7 @@ function LevelFollower(){
 		LeaderUnit=this.getLeaderUnit(Config.Leader);
 		this.logGame("Level:"+me.charlvl+" Gold:"+me.gold+" Char:"+me.name);
 	};
+	
 	this.configCharacter(me.charlvl);
 	
 	while(LeaderUnit){
@@ -382,11 +437,11 @@ function LevelFollower(){
 					Attack.clear(20);
 				}
 			}
-			delay(500);
+			delay(250);
 		}else{
 			this.goFindLeader(WhoIsLeader.area);
 		}
-		delay(1000);
+		delay(500);
 	}
 	return true;
 }

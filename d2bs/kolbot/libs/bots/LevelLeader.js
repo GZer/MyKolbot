@@ -24,7 +24,9 @@ function LevelLeader(){
 
 	this.CheckQuests=function(CurrentArea){
 		var Stones,Gibbet,Altar,BaalPortal,i=0;
-		Pather.journeyTo(CurrentArea);
+		if(me.area != CurrentArea){
+			try{Pather.useWaypoint(CurrentArea);}catch(err){Pather.journeyTo(CurrentArea);}
+		}
 		switch(CurrentArea){
 			case 8: //Clear Den of Evil
 				Attack.clearLevel(0);
@@ -218,6 +220,7 @@ function LevelLeader(){
 				Attack.clearLevel(0x7);
 				Pather.moveTo(17590,8068,2,true,true);
 				Pather.moveTo(17601,8070,2,true,true);
+				Pather.usePortal(null);
 			break;
 			case 105: //Izual
 				this.clearToQuestLocation(105,1,256);
@@ -507,10 +510,6 @@ function LevelLeader(){
 				if(NPC && NPC.openMenu()){
 					Misc.useMenu(0x0D36);
 				}
-				delay(2000);
-				if(Config.UseMerc){
-					if(!this.getA2Merc()){this.getA2Merc();}
-				}
 				break;
 			case 3:
 				Pather.journeyTo(40);
@@ -554,6 +553,11 @@ function LevelLeader(){
 			me.cancel();
 			return false;
 		}
+		if(Config.UseMerc){
+			Town.doChores();
+			this.checkMerc();
+		}
+		
 		this.logProgress(me.act == DestinationAct,"Change to Act "+DestinationAct);
 		return me.act == DestinationAct;
 	};
@@ -734,6 +738,7 @@ function LevelLeader(){
 	
 	this.getKhalimBrain=function(){
 		if(me.getItem(555)){return true;}
+		Pather.useWaypoint(78);
 		this.clearToNextArea(88);
 		if(!this.waitForTeleporter(91)){
 			Pather.moveToExit([89,91],true,true);
@@ -806,14 +811,15 @@ function LevelLeader(){
 		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
 	};
-
-	this.getA2Merc=function(){
-		var MyMercType,MyMercDiff,MyMercAura,MyMerc=me.getMerc();
+	
+	this.checkMerc=function(){
+		var ReplaceMerc=false,Count=1;
+		MyMerc=me.getMerc()
 		switch(me.classid){			
 			case 0: //Amazon
 				break;
 			case 1: //Sorcerer
-				MyMercType=104,MyMercDiff=2,MyMercAura="Defiance";
+				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
 				break;
 			case 2: //Necromancer
 				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
@@ -825,20 +831,72 @@ function LevelLeader(){
 				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
 				break;
 			case 5: //Druid
-				MyMercType=108,MyMercDiff=2,MyMercAura="Blessed Aim";
+				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
 				break;
 			case 6: //Assassin
 				break;
 		}
-		//If we have a Merc and it's the wrong difficulty stop function
-		if((MyMerc || me.mercrevivecost > 0) && me.diff != MyMercDiff){
-			this.logProgress(me.getMerc(),"Didn't hire Merc "+me.name);
-			return true;
+		
+		//If we have a Merc and it's the wrong difficulty or within level stop function
+		if(MyMerc || me.mercrevivecost > 0){
+			Town.reviveMerc(); //Revive Merc
+			if(me.gold < me.mercrevivecost){
+				this.logProgress(true,"Not enough gold for Merc - "+me.name);
+				return false;
+			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>15)){
+				ReplaceMerc=true;
+			}else if(me.diff != MyMercDiff){
+				this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
+				return false;
+			}
+		}else{
+			while(!this.hireA2Merc(Count) && Count<8){
+				Count++;
+			}
+			this.logProgress(me.getMerc(),"Hired "+HiredMercAura+" Merc - "+me.name);
 		}
+		if(ReplaceMerc && this.unEquipMerc()){
+			while(!this.hireA2Merc(Count) && Count<8){
+				Count++;
+			}
+			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
+		}
+		
+		return (Math.abs(me.charlvl-MyMerc.charlvl)<=15);
+	};
+	
+	this.unEquipMerc=function(){
+		var cursorItem,i;		
+		for(i=1; i < 5; i++){
+			if(i==2){i=3;}//2 Handed Weapons fix
+			clickItem(4, i);
+			delay(1000);
+
+			if (me.itemoncursor) {
+				delay(1000);
+				cursorItem = getUnit(100);
+
+				if (cursorItem) {
+					if (!Storage.Inventory.MoveTo(cursorItem)) {
+						return false;
+					}
+					delay(1500);
+					
+					if (me.itemoncursor) {
+						Misc.click(0, 0, me);
+						delay(1000);
+					}
+				}
+			}
+		}
+		return true;
+	};
+	
+	this.hireA2Merc=function(Count){
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
-		addEventListener("gamepacket",gamePacket);
+		addEventListener("gamepacket", gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
 			while(MercId.length>0){
@@ -848,26 +906,26 @@ function LevelLeader(){
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
 				//If it's the wrong difficulty just hire a random merc
 				if(me.diff != MyMercDiff){
-					this.logProgress(me.getMerc(),"Hired Random Merc "+me.name);
-					return true;
+					HiredMercAura="Random";
+					return me.getMerc();
 				}
-				delay(500);
+				delay(rand(100,10000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
-					this.logProgress(me.getMerc(),"Hired "+MyMercAura+" Merc "+me.name);
-					return true;
+					HiredMercAura=MyMercAura;
+					return me.getMerc();
 				}
 			}
 		}
-		return false;
+		return me.getMerc();
 	};
 	
 	this.gamePacket=function (bytes) {
 		 switch(bytes[0]) {
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) != -1) {
-						MercId.length=0;
+				if(MercId.indexOf(id) !== -1) {
+					MercId.length=0;
 				}
 				MercId.push(id);
 				break;
@@ -950,7 +1008,8 @@ function LevelLeader(){
 			if(LevelArea<LevelingAreas[ActNumber].length-1){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
-			if(Pather.journeyTo(UpToArea)){
+			try{Pather.useWaypoint(UpToArea);}catch(err){Pather.journeyTo(UpToArea);}
+			if(me.area == UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
 				while(!this.playerClose() && WaitingLimit > 0){
@@ -959,7 +1018,6 @@ function LevelLeader(){
 					delay(250*WaitingLimit--);
 				}
 				Precast.doPrecast(true);
-				Pather.getWP(UpToArea,true);
 				this.tryMakePortal();
 				this.CheckQuests(UpToArea);
 				if(FullClearAreas.indexOf(UpToArea)>-1){

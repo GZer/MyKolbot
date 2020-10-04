@@ -12,7 +12,7 @@
 [Name] == Flail && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
 
 //Lore
-[Type] == Pelt && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillTornado]+[SkillOakSage] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Pelt && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillTornado]+[SkillOakSage] >= 2 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Splendor
 [Name] == GrimShield && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
