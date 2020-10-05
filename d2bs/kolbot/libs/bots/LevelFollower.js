@@ -318,6 +318,7 @@ function LevelFollower(){
 			}
 		}else{
 			this.talkToNPC("Kashya");
+			this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 		}
 		
 		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(9)){
