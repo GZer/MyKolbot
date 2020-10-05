@@ -390,7 +390,7 @@ function LevelLeader(){
 		while(count < 20){
 			try{
 				while(!this.playerClose() && count < 3){
-					say("Waiting for Party Quest");
+					say("Important Quest");
 					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
 					delay(5000);
 					count++;
@@ -1064,8 +1064,8 @@ function LevelLeader(){
 			if(me.area==UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
+				say("Waiting for Party");
 				while(!this.playerClose() && WaitingLimit > 0){
-					say("Waiting for Party");
 					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
 					delay(250*WaitingLimit--);
 				}

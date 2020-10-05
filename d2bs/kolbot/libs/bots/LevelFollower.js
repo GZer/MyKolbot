@@ -417,10 +417,11 @@ function LevelFollower(){
 	};
 	
 	this.configCharacter=function(CharacterLevel){
-		var i,Party=getParty(),partyTimeout=0;
+		var i,Party=getParty(),partyTimeout=0,MyMercLevel=0;
 		Town.move("portalspot");
 		this.checkMerc();
-		//Only leader should carry Potion
+		if(MyMerc){MyMercLevel=MyMerc.charlvl;}
+		//Only leader should carry Malahs Potion
 		if(me.getItem(644)){
 			var MalahPotion=me.getItem(644);
 			MalahPotion.drop();
@@ -445,7 +446,7 @@ function LevelFollower(){
 			}
 		}
 		LeaderUnit=this.getLeaderUnit(Config.Leader);
-		this.logGame("Level:"+me.charlvl+" Gold:"+me.gold+" Char:"+me.name);
+		this.logGame("Level:"+CharacterLevel+" Merclevel:"+MyMercLevel+" Gold:"+me.gold+" Char:"+me.name);
 	};
 	
 	this.configCharacter(me.charlvl);
