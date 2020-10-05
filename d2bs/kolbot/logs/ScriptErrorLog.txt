@@ -46,3 +46,7 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:188, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/06 09:37:50] <FireSorc> Error in LevelFollower (pather.js line 570): getPresetUnits failed, couldn't access the level!
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:129, @levelfollower.js:231, Pather.moveToPreset@pather.js:570
+[2020/10/06 10:09:37] <Singer> Error in LevelLeader (pather.js line 596): Get Area: Game not ready
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1065, @levelleader.js:421, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:596
+[2020/10/06 10:15:40] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1065, @levelleader.js:421, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
