@@ -195,7 +195,11 @@ function LevelFollower(){
 				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);						//Find leader if not in Town
 			}else{
 				Town.doChores();
-				delay(500);
+				delay(250);
+				Town.initNPC("Heal", "heal");
+				Town.heal();
+				Pickit.pickItems();
+				delay(250);
 				Town.move("portalspot");
 			}
 		}else{
@@ -299,20 +303,24 @@ function LevelFollower(){
 				break;
 		}
 		
-		//If we have a Merc check its the right one, otherwise get free one
-		if(MyMerc || me.mercrevivecost > 0){
-			Town.reviveMerc(); //Revive Merc
+		//If we have a Merc check its within level, otherwise get free one
+		if(me.mercrevivecost > 0){
 			if(me.gold < me.mercrevivecost){
 				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
 				return false;
-			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>10)){
+			}else{
+				Town.reviveMerc(); //Revive Merc
+				MyMerc=me.getMerc(); //Assign Merc
+			}
+		}else if(MyMerc){
+			if(Math.abs(me.charlvl-MyMerc.charlvl)>10){
 				ReplaceMerc=true;
 			}
 		}else{
 			this.talkToNPC("Kashya");
 		}
 		
-		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(10)){
+		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(9)){
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
 			}
