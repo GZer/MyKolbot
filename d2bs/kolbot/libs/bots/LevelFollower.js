@@ -276,8 +276,7 @@ function LevelFollower(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,Count=1;
-		MyMerc=me.getMerc();
+		var ReplaceMerc=false,Count=1,MyMerc=me.getMerc();
 		switch(me.classid){			
 			case 0: //Amazon
 				break;
