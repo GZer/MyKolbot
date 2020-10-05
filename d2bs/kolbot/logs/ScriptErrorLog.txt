@@ -54,3 +54,13 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1063, @levelleader.js:125, @levelleader.js:490, Town.goToTown@town.js:2221
 [2020/10/06 11:16:29] <Singer> Error in LevelLeader (levelleader.js line 461): Boss is undefined
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1064, @levelleader.js:163, @levelleader.js:461
+[2020/10/06 11:42:32] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 47
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1063, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/06 11:47:06] <Auradin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:468, @levelfollower.js:193, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/06 11:48:49] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:453, @levelfollower.js:444, @levelfollower.js:193, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/06 12:08:45] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 100
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1074, @levelleader.js:176, Pather.useUnit@pather.js:820
+[2020/10/06 12:14:07] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 100
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1074, @levelleader.js:176, Pather.useUnit@pather.js:820
