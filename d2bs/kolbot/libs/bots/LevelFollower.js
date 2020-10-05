@@ -201,10 +201,6 @@ function LevelFollower(){
 				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);
 			}else{
 				Town.doChores();
-				delay(250);
-				Town.initNPC("Shop", "BuyPotions");
-				Pickit.pickItems();
-				delay(250);
 				Town.move("portalspot");
 			}
 		}else{
@@ -432,6 +428,10 @@ function LevelFollower(){
 		}else{
 			Town.heal();
 		}
+		Town.initNPC("Shop", "BuyPotions");
+		me.cancel();
+		delay(250);
+		Pickit.pickItems();
 		WhoIsLeader=getParty(Config.Leader);
 		//Loop to ensure leader is assigned
 		while(!this.getLeaderUnit(Config.Leader)){
