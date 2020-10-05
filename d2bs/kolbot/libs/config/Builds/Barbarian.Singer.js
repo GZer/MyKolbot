@@ -70,7 +70,7 @@ var AutoBuildTemplate={
 			SkillPoints: [130],//Howl
 			StatPoints: [0,3,3,3,3],//Str+1,Vitality+4
 			Update: function(){
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.AttackSkill=[138,132,0,0,0,0,0];
 			}
 		},
 		
@@ -79,7 +79,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.FindItem=true;
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.AttackSkill=[138,132,0,0,0,0,0];
 			}
 		},
 		
@@ -87,7 +87,7 @@ var AutoBuildTemplate={
 			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.AttackSkill=[138,132,0,0,0,0,0];
 			}
 		},
 
@@ -95,7 +95,7 @@ var AutoBuildTemplate={
 			SkillPoints: [-1],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.AttackSkill=[138,132,0,0,0,0,0];
 			}
 		},
 
@@ -103,7 +103,7 @@ var AutoBuildTemplate={
 			SkillPoints: [138],//Shout
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[0,0,0,0,0,0,0];
+				Config.AttackSkill=[138,132,0,0,0,0,0];
 			}
 		},
 
