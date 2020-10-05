@@ -52,3 +52,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1065, @levelleader.js:421, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/06 10:30:28] <Singer> Error in LevelLeader (town.js line 2221): Town.goToTown: Failed to take TP
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1063, @levelleader.js:125, @levelleader.js:490, Town.goToTown@town.js:2221
+[2020/10/06 11:16:29] <Singer> Error in LevelLeader (levelleader.js line 461): Boss is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1064, @levelleader.js:163, @levelleader.js:461
