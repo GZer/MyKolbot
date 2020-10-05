@@ -121,12 +121,13 @@ function LevelFollower(){
 			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct=3;}
 			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct=4;}
 			else{LeaderAct=5;}
-			
+			//Make sure we are in the same act
 			if(LeaderAct != me.act){
-				this.ChangeAct(LeaderAct);													//Make sure we are in the same act
-			}	
+				this.ChangeAct(LeaderAct);
+			}
+			//Act3 Jungle fix			
 			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1) && WhoIsLeader.inTown){
-				this.teleportFromLocation(me.area);											//Act3 Jungle fix
+				this.teleportFromLocation(me.area);
 			}
 			
 			if(LeaderArea != me.area){
@@ -179,20 +180,25 @@ function LevelFollower(){
 						}
 					break;
 				}
-				
+				//Check leader portals to area
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
-					Pather.usePortal(LeaderArea,Config.Leader);								//Check leader portals to area
-				}else if(Pather.getPortal(LeaderArea,null)){
-					Pather.usePortal(LeaderArea,null);										//Else if any portals to area
-				}else{
-					Pather.journeyTo(LeaderArea);											//Otherwise walk to leader
+					Pather.usePortal(LeaderArea,Config.Leader);
+				}
+				//Else if any portals to area
+				else if(Pather.getPortal(LeaderArea,null)){
+					Pather.usePortal(LeaderArea,null);
+				}
+				//Otherwise walk to leader
+				else{
+					Pather.journeyTo(LeaderArea);
 				}
 				delay(200);
 				Pather.teleport=false;
 				Pather.getWP(me.area,true);
 			}
+			//Find leader if not in Town
 			if(!me.inTown){
-				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);						//Find leader if not in Town
+				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);
 			}else{
 				Town.doChores();
 				delay(250);
@@ -223,7 +229,8 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.teleportFromLocation=function(CurrentArea){													//Teleport to hard destinations
+	this.teleportFromLocation=function(CurrentArea){
+		//Teleport to hard destinations
 		var DestinationReached=false;
 		Pather.teleport=true;
 		while(!DestinationReached){
@@ -266,7 +273,8 @@ function LevelFollower(){
 		return DestinationReached;
 	};
 	
-	this.getLeaderUnit=function(name){																	//Get Leader's unit
+	//Get Leader's unit identifier
+	this.getLeaderUnit=function(name){
 		var Player=getUnit(0,name);
 		if(Player){
 			do{
@@ -282,24 +290,31 @@ function LevelFollower(){
 	this.checkMerc=function(){
 		var ReplaceMerc=false,Count=1,MyMerc=me.getMerc();
 		switch(me.classid){			
-			case 0: //Amazon
+			//Amazon
+			case 0:
 				break;
-			case 1: //Sorcerer
+			//Sorcerer
+			case 1:
 				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
 				break;
-			case 2: //Necromancer
+			//Necromancer
+			case 2:
 				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
 				break;
-			case 3: //Paladin
+			//Paladin
+			case 3:
 				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
 				break;
-			case 4: //Barbarian
+			//Barbarian
+			case 4:
 				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
 				break;
-			case 5: //Druid
+			//Druid
+			case 5:
 				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
 				break;
-			case 6: //Assassin
+			//Assassin
+			case 6:
 				break;
 		}
 		
@@ -309,8 +324,10 @@ function LevelFollower(){
 				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
 				return false;
 			}else{
-				Town.reviveMerc(); //Revive Merc
-				MyMerc=me.getMerc(); //Assign Merc
+				//Revive Merc
+				Town.reviveMerc();
+				//Assign Merc
+				MyMerc=me.getMerc();
 			}
 		}else if(MyMerc){
 			if(Math.abs(me.charlvl-MyMerc.charlvl)>10){
@@ -334,13 +351,14 @@ function LevelFollower(){
 	this.unEquipMerc=function(){
 		var cursorItem,i;		
 		for(i=1; i < 5; i++){
-			if(i==2){i=3;}//2 Handed Weapons fix
+			//2 Handed Weapons fix
+			if(i==2){i=3;}
 			clickItem(4, i);
 			delay(1000);
 
 			if (me.itemoncursor) {
 				delay(1000);
-				cursorItem = getUnit(100);
+				cursorItem=getUnit(100);
 
 				if (cursorItem) {
 					if (!Storage.Inventory.MoveTo(cursorItem)) {
@@ -402,9 +420,10 @@ function LevelFollower(){
 		var i,Party=getParty(),partyTimeout=0;
 		Town.move("portalspot");
 		this.checkMerc();
+		//Only leader should carry Potion
 		if(me.getItem(644)){
 			var MalahPotion=me.getItem(644);
-			MalahPotion.drop();										//Only leader should carry Potion
+			MalahPotion.drop();
 		}	
 		delay(250);
 		Pather.getWP(me.area);
@@ -416,7 +435,8 @@ function LevelFollower(){
 			Town.heal();
 		}
 		WhoIsLeader=getParty(Config.Leader);
-		while(!this.getLeaderUnit(Config.Leader)){					//Loop to ensure leader is assigned
+		//Loop to ensure leader is assigned
+		while(!this.getLeaderUnit(Config.Leader)){
 			delay(500);
 			partyTimeout++;
 			this.goFindLeader(WhoIsLeader.area);

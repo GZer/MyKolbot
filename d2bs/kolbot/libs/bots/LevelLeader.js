@@ -330,7 +330,7 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 2){
+					if((me.diff==0 && me.charlvl > 45) || (me.diff==1 && me.charlvl > 75) || me.diff==2){
 						Pather.moveTo(15134,5923,true,true);
 						this.killImportantQuestBoss(544);
 						// this.killQuestBoss(544);
@@ -343,7 +343,7 @@ function LevelLeader(){
 		return true;
 	};
 		
-// ==  ==  ==  ==  ==  ==  == =COMMON FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
+//===============COMMON FUNCTIONS===============//
 
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
@@ -376,7 +376,7 @@ function LevelLeader(){
 		var Party=getParty();
 		if(Party){
 			do{
-				if(Party.name != me.name && Party.area == me.area){
+				if(Party.name != me.name && Party.area==me.area){
 					return true;
 				}
 			}while(Party.getNext());
@@ -415,12 +415,12 @@ function LevelLeader(){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					this.tryMakePortal();
-					DestinationReached=(me.area == DestinationArea);
+					DestinationReached=(me.area==DestinationArea);
 				}
 			}catch(err){
 				Pather.journeyTo(DestinationArea);
 				this.tryMakePortal();
-				DestinationReached=(me.area == DestinationArea);
+				DestinationReached=(me.area==DestinationArea);
 			}
 			count++;
 		}
@@ -435,7 +435,7 @@ function LevelLeader(){
 			Pather.useWaypoint(FromArea);
 			delay(5000);
 			this.waitForTeleporter(ToArea);
-			if(me.area == ToArea && Pather.getWP(ToArea,true)){
+			if(me.area==ToArea && Pather.getWP(ToArea,true)){
 				DestinationReached=true;
 			}
 		}else{
@@ -588,7 +588,7 @@ function LevelLeader(){
 			while(!me.area){
 				delay(500);
 			}
-			if(preArea == me.area){
+			if(preArea==me.area){
 				say("Act change failed");
 			}
 		}catch(err){
@@ -600,8 +600,8 @@ function LevelLeader(){
 			this.checkMerc();
 		}
 		
-		this.logProgress(me.act == DestinationAct,"Change to Act "+DestinationAct);
-		return me.act == DestinationAct;
+		this.logProgress(me.act==DestinationAct,"Change to Act "+DestinationAct);
+		return me.act==DestinationAct;
 	};
 	
 	this.waitForTeleporter=function(DestinationArea){
@@ -619,7 +619,7 @@ function LevelLeader(){
 		}
 		delay(5000);
 		Precast.doPrecast(true);
-		if(DestinationArea == 74){
+		if(DestinationArea==74){
 			Pather.useWaypoint(40);
 		}else{
 			Town.doChores();
@@ -639,15 +639,15 @@ function LevelLeader(){
 			delay(1000);
 			WaitingLimit++;
 		}
-		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
-		return DestinationArea == me.area;
+		this.logProgress(DestinationArea==me.area,"Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
+		return DestinationArea==me.area;
 	};
 	
 	this.teleporterClose=function(){
 		var Party=getParty();
 		if(Party){
 			do{
-				if(Party.classid == 1 && Party.area == me.area){
+				if(Party.classid==1 && Party.area==me.area){
 					return true;
 				}
 				delay(150);
@@ -656,7 +656,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// ==  ==  ==  ==  ==  ==  == =ACT V FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
+//===============ACT V FUNCTIONS===============//
 	
 	this.FreeAnya=function(){
 		var Anya=getUnit(2,558);
@@ -675,14 +675,14 @@ function LevelLeader(){
 		return true;
 	};
 	
-// ==  ==  ==  ==  ==  ==  == =ACT IV FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
+//===============ACT IV FUNCTIONS===============//
 	
 	this.openSeal=function(SealId){
 		this.clearToQuestLocation(108,2,SealId);
 		var i,tick,Seal=getUnit(2,SealId);
 		if(Seal){
 			for(i=0; i < 5; i++){
-				if(SealId == 394){
+				if(SealId==394){
 					Misc.click(0,0,Seal);
 				}
 				else{
@@ -701,7 +701,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// ==  ==  ==  ==  ==  ==  == =ACT III FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
+//===============ACT III FUNCTIONS===============//
 
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0,Will=me.getItem(174);
@@ -737,7 +737,7 @@ function LevelLeader(){
 		if(Will){
 			if(Will.toCursor() && clickItem(0,4)){
 				delay(500);
-				if(Will.bodylocation == 4 && getCursorType() == 3){
+				if(Will.bodylocation==4 && getCursorType()==3){
 					PrevWeapon=getUnit(100);
 					if(PrevWeapon && Storage.Inventory.CanFit(PrevWeapon)){
 						Storage.Inventory.MoveTo(PrevWeapon);
@@ -793,7 +793,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-// ==  ==  ==  ==  ==  ==  == =ACT II FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
+//===============ACT II FUNCTIONS===============//
 		
 	this.talkToTyrael=function(){
 		var i,NPC=getUnit(1,"Tyrael");
@@ -857,24 +857,31 @@ function LevelLeader(){
 	this.checkMerc=function(){
 		var ReplaceMerc=false,Count=1,MyMerc=me.getMerc();
 		switch(me.classid){			
-			case 0: //Amazon
+			//Amazon
+			case 0:
 				break;
-			case 1: //Sorcerer
+			//Sorcerer
+			case 1:
 				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
 				break;
-			case 2: //Necromancer
+			//Necromancer
+			case 2:
 				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
 				break;
-			case 3: //Paladin
+			//Paladin
+			case 3:
 				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
 				break;
-			case 4: //Barbarian
+			//Barbarian
+			case 4:
 				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
 				break;
-			case 5: //Druid
+			//Druid
+			case 5:
 				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
 				break;
-			case 6: //Assassin
+			//Assassin
+			case 6:
 				break;
 		}
 		
@@ -884,8 +891,10 @@ function LevelLeader(){
 				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
 				return false;
 			}else{
-				Town.reviveMerc(); //Revive Merc
-				MyMerc=me.getMerc(); //Assign Merc
+				//Revive Merc
+				Town.reviveMerc();
+				//Assign Merc
+				MyMerc=me.getMerc();
 			}
 		}else if(MyMerc){
 			if(Math.abs(me.charlvl-MyMerc.charlvl)>10){
@@ -909,7 +918,8 @@ function LevelLeader(){
 	this.unEquipMerc=function(){
 		var cursorItem,i;		
 		for(i=1; i < 5; i++){
-			if(i==2){i=3;}//2 Handed Weapons fix
+			//2 Handed Weapons fix
+			if(i==2){i=3;}
 			clickItem(4, i);
 			delay(1000);
 
@@ -965,7 +975,7 @@ function LevelLeader(){
 		 switch(bytes[0]) {
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) !== -1) {
+				if(MercId.indexOf(id) != -1) {
 					MercId.length=0;
 				}
 				MercId.push(id);
@@ -973,7 +983,7 @@ function LevelLeader(){
 		}
 	};
 
-// ==  ==  ==  ==  ==  ==  == =START & END FUNCTIONS ==  ==  ==  ==  ==  ==  == =//
+//===============START & END FUNCTIONS===============//
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
@@ -1028,7 +1038,7 @@ function LevelLeader(){
 		}
 		if(Party){
 			do{
-				if(Party.classid == 1){
+				if(Party.classid==1){
 					TeleSorcs.push(Party.name);
 				}
 			}while(Party.getNext());
@@ -1051,7 +1061,7 @@ function LevelLeader(){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
 			try{Pather.useWaypoint(UpToArea);}catch(err){Pather.journeyTo(UpToArea);}
-			if(me.area == UpToArea){
+			if(me.area==UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
 				while(!this.playerClose() && WaitingLimit > 0){
