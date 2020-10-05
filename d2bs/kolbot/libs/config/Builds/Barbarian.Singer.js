@@ -75,7 +75,7 @@ var AutoBuildTemplate={
 		},
 		
 	3: 	{
-			SkillPoints: [-1],
+			SkillPoints: [131],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[0,0,0,0,0,0,0];
@@ -147,7 +147,7 @@ var AutoBuildTemplate={
 		},
 
 	12: 	{
-			SkillPoints: [138],
+			SkillPoints: [138,142],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[0,132,0,0,0,0,0];
@@ -583,7 +583,7 @@ var AutoBuildTemplate={
 		},
 
 	60: 	{
-			SkillPoints: [130],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -591,7 +591,7 @@ var AutoBuildTemplate={
 		},
 
 	61: 	{
-			SkillPoints: [130],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -599,7 +599,7 @@ var AutoBuildTemplate={
 		},
 
 	62: 	{
-			SkillPoints: [130],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -607,7 +607,7 @@ var AutoBuildTemplate={
 		},
 
 	63: 	{
-			SkillPoints: [130],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -615,7 +615,7 @@ var AutoBuildTemplate={
 		},
 
 	64: 	{
-			SkillPoints: [130],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -623,7 +623,7 @@ var AutoBuildTemplate={
 		},
 
 	65: 	{
-			SkillPoints: [130],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -631,7 +631,7 @@ var AutoBuildTemplate={
 		},
 
 	66: 	{
-			SkillPoints: [154],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -639,7 +639,7 @@ var AutoBuildTemplate={
 		},
 
 	67: 	{
-			SkillPoints: [154],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -647,7 +647,7 @@ var AutoBuildTemplate={
 		},
 
 	68: 	{
-			SkillPoints: [154],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -655,7 +655,7 @@ var AutoBuildTemplate={
 		},
 
 	69: 	{
-			SkillPoints: [154],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.UseRejuvHP=40;
@@ -664,7 +664,7 @@ var AutoBuildTemplate={
 		},
 
 	70: 	{
-			SkillPoints: [154],
+			SkillPoints: [130,138,149,153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);

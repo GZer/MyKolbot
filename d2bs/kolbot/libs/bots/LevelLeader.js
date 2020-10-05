@@ -16,7 +16,7 @@ function LevelLeader(){
 	75,76,77,78,79,80,81,83,101,
 	103,106,107,
 	109,111,112,113,115,123,117,118,129];
-	var LevelingAreas=[[2,8,3,4,5,6,27,28,29,32,34,35,36,37],
+	var LevelingAreas=[[2,8,3,17,4,5,6,27,28,29,32,34,35,36,37],
 	[47,48,49,42,56,57,60,43,62,44,45,52,54,74,46,TalRashaTomb],
 	[76,77,78,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
@@ -35,6 +35,14 @@ function LevelLeader(){
 			case 3: //Waypoint to Town before Cold Plains
 				Pather.useWaypoint(1);
 				Town.doChores();
+			break;
+			case 17: //Blood Raven
+				Attack.clearLevel(0);
+				Pather.journeyTo(3);
+				Pather.useWaypoint(1);
+				this.talkToNPC("Kashya");
+				Town.doChores();
+				this.logProgress(me.getQuest(2,0),"Blood Raven");
 			break;
 			case 4: //Waypoint to Town before Stony Field
 				Pather.useWaypoint(1);
@@ -842,12 +850,12 @@ function LevelLeader(){
 	
 	this.checkMerc=function(){
 		var ReplaceMerc=false,Count=1;
-		MyMerc=me.getMerc()
+		MyMerc=me.getMerc();
 		switch(me.classid){			
 			case 0: //Amazon
 				break;
 			case 1: //Sorcerer
-				MyMercType=104,MyMercDiff=2,MyMercAura="Defiance";
+				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
 				break;
 			case 2: //Necromancer
 				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
@@ -865,11 +873,11 @@ function LevelLeader(){
 				break;
 		}
 		
-		//If we have a Merc and it's the wrong difficulty or within level stop function
+		//If we have a Merc check its the right one, otherwise get free one
 		if(MyMerc || me.mercrevivecost > 0){
 			Town.reviveMerc(); //Revive Merc
 			if(me.gold < me.mercrevivecost){
-				this.logProgress(true,"Not enough gold for Merc - "+me.name);
+				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
 				return false;
 			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>10)){
 				ReplaceMerc=true;
@@ -878,11 +886,9 @@ function LevelLeader(){
 				return false;
 			}
 		}else{
-			while(!this.hireA2Merc(Count) && Count<8){
-				Count++;
-			}
-			this.logProgress(me.getMerc(),"Hired "+HiredMercAura+" Merc - "+me.name);
+			this.talkToNPC("Kashya");
 		}
+		
 		if(ReplaceMerc && this.unEquipMerc()){
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
@@ -1005,6 +1011,7 @@ function LevelLeader(){
 	this.configCharacter=function(CharacterLevel){
 		var i,Party=getParty();
 		Town.move("portalspot");
+		this.checkMerc();
 		delay(500);
 		Pather.getWP(me.area);
 		if(CharacterLevel > 7){

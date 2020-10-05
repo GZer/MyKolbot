@@ -277,7 +277,7 @@ function LevelFollower(){
 	
 	this.checkMerc=function(){
 		var ReplaceMerc=false,Count=1;
-		MyMerc=me.getMerc()
+		MyMerc=me.getMerc();
 		switch(me.classid){			
 			case 0: //Amazon
 				break;
@@ -300,11 +300,11 @@ function LevelFollower(){
 				break;
 		}
 		
-		//If we have a Merc and it's the wrong difficulty or within level stop function
+		//If we have a Merc check its the right one, otherwise get free one
 		if(MyMerc || me.mercrevivecost > 0){
 			Town.reviveMerc(); //Revive Merc
 			if(me.gold < me.mercrevivecost){
-				this.logProgress(true,"Not enough gold for Merc - "+me.name);
+				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
 				return false;
 			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>10)){
 				ReplaceMerc=true;
@@ -313,11 +313,9 @@ function LevelFollower(){
 				return false;
 			}
 		}else{
-			while(!this.hireA2Merc(Count) && Count<8){
-				Count++;
-			}
-			this.logProgress(me.getMerc(),"Hired "+HiredMercAura+" Merc - "+me.name);
+			this.talkToNPC("Kashya");
 		}
+		
 		if(ReplaceMerc && this.unEquipMerc()){
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
@@ -398,6 +396,7 @@ function LevelFollower(){
 	this.configCharacter=function(CharacterLevel){
 		var i,Party=getParty(),partyTimeout=0;
 		Town.move("portalspot");
+		this.checkMerc();
 		if(me.getItem(644)){
 			var MalahPotion=me.getItem(644);
 			MalahPotion.drop();										//Only leader should carry Potion
