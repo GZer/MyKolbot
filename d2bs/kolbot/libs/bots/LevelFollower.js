@@ -202,8 +202,7 @@ function LevelFollower(){
 			}else{
 				Town.doChores();
 				delay(250);
-				Town.initNPC("Heal", "heal");
-				Town.heal();
+				Town.initNPC("Shop", "BuyPotions");
 				Pickit.pickItems();
 				delay(250);
 				Town.move("portalspot");
@@ -339,7 +338,6 @@ function LevelFollower(){
 		}
 		
 		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(9)){
-			say("Merc Underleveled");
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
 			}
@@ -350,8 +348,7 @@ function LevelFollower(){
 	};
 	
 	this.unEquipMerc=function(){
-		var cursorItem,i;
-		say("Trying to UnEquipMerc1");
+		var cursorItem,i;		
 		for(i=1; i < 5; i++){
 			//2 Handed Weapons fix
 			if(i==2){i=3;}
@@ -359,15 +356,11 @@ function LevelFollower(){
 			delay(1000);
 
 			if (me.itemoncursor) {
-				say("Trying to UnEquipMerc2");
 				delay(1000);
 				cursorItem=getUnit(100);
 
 				if (cursorItem) {
-					say("Trying to UnEquipMerc3");
-					if (!Storage.Inventory.MoveTo(cursorItem)) {
-						return false;
-					}
+					Storage.Inventory.MoveTo(cursorItem);
 					delay(1500);
 					
 					if (me.itemoncursor) {

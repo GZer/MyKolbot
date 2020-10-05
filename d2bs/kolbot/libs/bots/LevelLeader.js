@@ -448,7 +448,7 @@ function LevelLeader(){
 	this.getPlayerCount=function () {
 		var Count=0, Party=getParty();
 		if (Party) {
-			do{Count++;}while(Party.getNext());
+			do{Count++;}while(Party.getNext() && me.act == Party.act);
 		}
 		return Count;
 	};
@@ -462,6 +462,7 @@ function LevelLeader(){
 			Skill.cast(132,0,me.x,me.y);
 			delay(100);
 			if(this.getPlayerCount()<8 && (Boss.hp*100/Boss.hpmax)<20){
+				this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 				quit();
 			}
 		}
@@ -928,9 +929,7 @@ function LevelLeader(){
 				cursorItem=getUnit(100);
 
 				if (cursorItem) {
-					if (!Storage.Inventory.MoveTo(cursorItem)) {
-						return false;
-					}
+					Storage.Inventory.MoveTo(cursorItem);
 					delay(1500);
 					
 					if (me.itemoncursor) {
