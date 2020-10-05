@@ -307,15 +307,12 @@ function LevelFollower(){
 				return false;
 			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>10)){
 				ReplaceMerc=true;
-			}else if(me.diff != MyMercDiff){
-				this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
-				return false;
 			}
 		}else{
 			this.talkToNPC("Kashya");
 		}
 		
-		if(ReplaceMerc && this.unEquipMerc()){
+		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(10)){
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
 			}

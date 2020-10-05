@@ -30,7 +30,7 @@ function LevelLeader(){
 		switch(CurrentArea){
 			case 8: //Clear Den of Evil
 				Attack.clearLevel(0);
-				this.logProgress(me.getQuest(1,0),"Den");
+				this.logProgress(me.getQuest(1,3),"Den");
 			break;
 			case 3: //Waypoint to Town before Cold Plains
 				Pather.useWaypoint(1);
@@ -39,6 +39,7 @@ function LevelLeader(){
 			case 17: //Blood Raven
 				Attack.clearLevel(0);
 				Pather.journeyTo(3);
+				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
 				this.talkToNPC("Kashya");
 				Town.doChores();
@@ -111,8 +112,8 @@ function LevelLeader(){
 				Pather.moveTo(22480,9570,2,true,true);
 				Pather.moveTo(22549,9520,2,true,true);
 				this.tryMakePortal();
-				// this.killImportantQuestBoss(156);
-				this.killQuestBoss(156);
+				this.killImportantQuestBoss(156,22549,9577);
+				// this.killQuestBoss(156);
 				Town.doChores();
 				this.logProgress(me.getQuest(6,3),"Andariel");
 			break;
@@ -157,9 +158,10 @@ function LevelLeader(){
 			case 74: //Summoner
 				if(!this.waitForTeleporter(74)){
 					Pather.journeyTo(74);
+					this.clearToQuestLocation(74,2,357);
 				}
-				// this.killImportantQuestBoss(250);
-				this.killQuestBoss(250);
+				this.killImportantQuestBoss(250);
+				// this.killQuestBoss(250);
 				Pather.journeyTo(46);
 				Pather.getWP(46,true);
 				this.talkToNPC("Atma");
@@ -207,8 +209,8 @@ function LevelLeader(){
 				Town.doChores();
 				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
-				// this.killImportantQuestBoss(211);
-				this.killQuestBoss(256);
+				this.killImportantQuestBoss(256);
+				// this.killQuestBoss(256);
 				this.getQuestItem(173);
 				Town.doChores();
 				Pather.journeyTo(75);
@@ -225,9 +227,9 @@ function LevelLeader(){
 				Pather.moveTo(17653,8075,1,true,true);
 				Pather.moveTo(17641,8037,1,true,true);
 				Pather.moveTo(17606,8013,1,true,true);
-				Pather.moveTo(17549,8067,1,true,true);
-				// this.killImportantQuestBoss(211);
-				this.killQuestBoss(242);
+				// Pather.moveTo(17549,8067,1,true,true);
+				this.killImportantQuestBoss(242,17549,8067);
+				// this.killQuestBoss(242);
 				this.logProgress(me.getQuest(22,0),"Mephisto");
 				Attack.clearLevel(0x7);
 				Pather.moveTo(17590,8068,2,true,true);
@@ -255,10 +257,10 @@ function LevelLeader(){
 				this.killQuestBoss(740);
 				Pather.moveTo(7769,5263,5,true,true);
 				this.tryMakePortal();
-				Pather.moveTo(7788,5293,5,true,true);
+				// Pather.moveTo(7788,5293,5,true,true);
 				this.waitForUnit(1,243);
-				// this.killImportantQuestBoss(211);
-				this.killQuestBoss(243);
+				this.killImportantQuestBoss(243,7788,5293);
+				// this.killQuestBoss(243);
 				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
@@ -307,8 +309,10 @@ function LevelLeader(){
 					}
 				}
 				this.waitForUnit(1,542);
-				// this.killImportantQuestBoss(211);			
-				Attack.clear(50);
+				this.killImportantQuestBoss(747);
+				this.killImportantQuestBoss(748);
+				this.killImportantQuestBoss(749);
+				// Attack.clear(50);
 				try{
 					Pather.moveToExit(128,true,true);
 				}catch(err){
@@ -328,8 +332,8 @@ function LevelLeader(){
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
 					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 2){
 						Pather.moveTo(15134,5923,true,true);
-						// this.killImportantQuestBoss(211);
-						this.killQuestBoss(544);
+						this.killImportantQuestBoss(544);
+						// this.killQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
 					}
 					Town.doChores();
@@ -449,11 +453,14 @@ function LevelLeader(){
 		return Count;
 	};
 	
-	this.killImportantQuestBoss=function(BossId){
-		var Boss=getUnit(1,BossId);
-		var Party=getParty();
+	this.killImportantQuestBoss=function(BossId,XCoord,YCoord){
+		var Boss=getUnit(1,BossId),Party=getParty();
+		if(XCoord > 0 && YCoord > 0){
+			Pather.moveTo(XCoord,YCoord,2,true,true);
+		}
 		while(Party && !Boss.dead){
-			delay(250);
+			Skill.cast(132,0,me.x,me.y);
+			delay(100);
 			if(this.getPlayerCount()<8 && (Boss.hp*100/Boss.hpmax)<20){
 				quit();
 			}
@@ -485,8 +492,7 @@ function LevelLeader(){
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){
 			me.cancel();
-		}
-		else{
+		}else{
 			this.logProgress(null,"Talk to NPC "+NPCName);
 			return false;
 		}
@@ -880,15 +886,12 @@ function LevelLeader(){
 				return false;
 			}else if(MyMerc && (Math.abs(me.charlvl-MyMerc.charlvl)>10)){
 				ReplaceMerc=true;
-			}else if(me.diff != MyMercDiff){
-				this.logProgress(me.getMerc(),"Didn't hire Merc - "+me.name);
-				return false;
 			}
 		}else{
 			this.talkToNPC("Kashya");
 		}
 		
-		if(ReplaceMerc && this.unEquipMerc()){
+		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(10)){
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
 			}
@@ -1028,7 +1031,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-	// while(true){say(me.x+","+me.y);delay(2000);}
+	//while(true){say(me.x+","+me.y);delay(2000);}
 	this.configCharacter(me.charlvl);
 	this.checkProgress();
 	
