@@ -331,7 +331,6 @@ function LevelFollower(){
 			}
 		}else if(MyMerc){
 			if(Math.abs(me.charlvl-MyMerc.charlvl)>10){
-				say("Merc Underleveled");
 				ReplaceMerc=true;
 			}
 		}else{
@@ -340,6 +339,7 @@ function LevelFollower(){
 		}
 		
 		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(9)){
+			say("Merc Underleveled");
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
 			}
