@@ -331,6 +331,7 @@ function LevelFollower(){
 			}
 		}else if(MyMerc){
 			if(Math.abs(me.charlvl-MyMerc.charlvl)>10){
+				say("Merc Underleveled");
 				ReplaceMerc=true;
 			}
 		}else{
