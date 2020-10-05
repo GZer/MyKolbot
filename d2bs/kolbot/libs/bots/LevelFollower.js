@@ -333,7 +333,7 @@ function LevelFollower(){
 			this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 		}
 		
-		if(ReplaceMerc && this.unEquipMerc() && getWaypoint(9)){
+		if(ReplaceMerc && this.unEquipMerc() && me.act >= 2){
 			while(!this.hireA2Merc(Count) && Count<8){
 				Count++;
 			}
