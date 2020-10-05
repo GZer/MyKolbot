@@ -16,6 +16,10 @@
 //Stealth
 ([Name] == QuiltedArmor || [Name] == LeatherArmor || [Name] == HardLeatherArmor || [Name] == StuddedLeather || [Name] == RingMail || [Name] == BreastPlate || [Name] == LightPlate) && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
 
+// ===============MISC ===============//
+[Name] == ScrollOfTownPortal # # [MaxQuantity] == 20
+[Name] == ScrollOfIdentify # # [MaxQuantity] == 20
+
 // ====================== CHARMS ====================== //
 [Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] > 4 || [Mana] > 2) && ([MaxHP] > 6 || [Strength]+[Dexterity] > 2)
 [Name] == SmallCharm #([FireResist]+[ColdResist]+[LightResist] > 3 || [Mana] > 0) && ([MaxHP] > 5 || [Strength]+[Dexterity] > 0)

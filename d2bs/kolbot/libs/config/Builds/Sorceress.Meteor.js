@@ -441,7 +441,7 @@ var AutoBuildTemplate={
 			SkillPoints: [56],
 			StatPoints: [0,0,1,1,3],
 			Update: function(){
-				Config.AttackSkill=[62,56,47,56,47,53,49];
+				Config.UseMerc=false;
 			}
 		},
 
@@ -602,7 +602,7 @@ var AutoBuildTemplate={
 			SkillPoints: [61],
 			StatPoints: [0,0,1,1,3],
 			Update: function(){
-				Config.UseMerc=true;
+				Config.AttackSkill=[62,56,47,56,47,53,49];
 			}
 		},
 
@@ -826,7 +826,7 @@ var AutoBuildTemplate={
 			SkillPoints: [36],
 			StatPoints: [0,0,1,1,3],
 			Update: function(){
-				Config.AttackSkill=[62,56,47,56,47,53,49];
+				Config.UseMerc=true;
 			}
 		},
 

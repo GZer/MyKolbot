@@ -103,6 +103,7 @@ function LevelLeader(){
 				Pather.moveTo(22480,9570,2,true,true);
 				Pather.moveTo(22549,9520,2,true,true);
 				this.tryMakePortal();
+				// this.killImportantQuestBoss(156);
 				this.killQuestBoss(156);
 				Town.doChores();
 				this.logProgress(me.getQuest(6,3),"Andariel");
@@ -149,6 +150,7 @@ function LevelLeader(){
 				if(!this.waitForTeleporter(74)){
 					Pather.journeyTo(74);
 				}
+				// this.killImportantQuestBoss(250);
 				this.killQuestBoss(250);
 				Pather.journeyTo(46);
 				Pather.getWP(46,true);
@@ -163,7 +165,8 @@ function LevelLeader(){
 				this.waitForUnit(2,100);
 				Pather.useUnit(2,100,73);
 				this.tryMakePortal();
-				this.killQuestBoss(211);
+				this.killImportantQuestBoss(211);
+				// this.killQuestBoss(211);
 				Pather.teleport=false;
 				Pather.moveTo(22579,15706);
 				Pather.moveTo(22577,15649,10);
@@ -196,6 +199,7 @@ function LevelLeader(){
 				Town.doChores();
 				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
+				// this.killImportantQuestBoss(211);
 				this.killQuestBoss(256);
 				this.getQuestItem(173);
 				Town.doChores();
@@ -214,6 +218,7 @@ function LevelLeader(){
 				Pather.moveTo(17641,8037,1,true,true);
 				Pather.moveTo(17606,8013,1,true,true);
 				Pather.moveTo(17549,8067,1,true,true);
+				// this.killImportantQuestBoss(211);
 				this.killQuestBoss(242);
 				this.logProgress(me.getQuest(22,0),"Mephisto");
 				Attack.clearLevel(0x7);
@@ -244,6 +249,7 @@ function LevelLeader(){
 				this.tryMakePortal();
 				Pather.moveTo(7788,5293,5,true,true);
 				this.waitForUnit(1,243);
+				// this.killImportantQuestBoss(211);
 				this.killQuestBoss(243);
 				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(26,0),"Diablo");
@@ -292,7 +298,8 @@ function LevelLeader(){
 						me.cancel();
 					}
 				}
-				this.waitForUnit(1,542);			
+				this.waitForUnit(1,542);
+				// this.killImportantQuestBoss(211);			
 				Attack.clear(50);
 				try{
 					Pather.moveToExit(128,true,true);
@@ -313,6 +320,7 @@ function LevelLeader(){
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
 					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 2){
 						Pather.moveTo(15134,5923,true,true);
+						// this.killImportantQuestBoss(211);
 						this.killQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
 					}
@@ -433,16 +441,17 @@ function LevelLeader(){
 		return Count;
 	};
 	
-	this.killImportantQuestBoss=function(){
+	this.killImportantQuestBoss=function(BossId){
+		var Boss=getUnit(1,BossId);
 		var Party=getParty();
-		while(Party){
-			delay(500);
-			if(this.getPlayerCount()<8){
-				say("Woops");
+		while(Party && !Boss.dead){
+			delay(250);
+			if(this.getPlayerCount()<8 && (Boss.hp*100/Boss.hpmax)<20){
+				quit();
 			}
-			Pickit.pickItems();
 		}
-		return false;
+		Pickit.pickItems();
+		return this.getPlayerCount()==8;
 	};
 	
 	this.killQuestBoss=function(BossId){
