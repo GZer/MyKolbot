@@ -1060,6 +1060,7 @@ function LevelLeader(){
 					delay(250*WaitingLimit--);
 				}
 				Precast.doPrecast(true);
+				Pather.getWP(UpToArea,true);
 				this.tryMakePortal();
 				this.CheckQuests(UpToArea);
 				if(FullClearAreas.indexOf(UpToArea)>-1){
