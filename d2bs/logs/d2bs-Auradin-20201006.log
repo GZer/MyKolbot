@@ -1012,3 +1012,382 @@
 [10/06/20 10:20:38] D2BS 6400: Auradin
 [10/06/20 10:20:38] D2BS 6400: ÿc2D2BSÿc0 :: Started Console Script
 [10/06/20 10:20:40] D2BS 6400: Heartbeat loaded
+[10/06/20 10:20:59] D2BS 6400: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 10:20:59] D2BS 6400: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 10:20:59] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 10:20:59] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:20:59] D2BS 6400: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 10:20:59] D2BS 6400: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 10:20:59] D2BS 6400: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 10:20:59] D2BS 6400: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 10:20:59] D2BS 6400: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/06/20 10:20:59] D2BS 6400: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 10:20:59] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 10:20:59] D2BS 6400: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 10:20:59] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:20:59] D2BS 6400: AutoBuild: Loaded helper thread
+[10/06/20 10:20:59] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 10:20:59] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:20:59] D2BS 6400: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 10:20:59] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 10:20:59] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:20:59] D2BS 6400: ÿc3Start ToolsThread script
+[10/06/20 10:20:59] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 10:20:59] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:21:13] D2BS 6400: Successfully placed Skull Cap at X: 2 Y: 0
+[10/06/20 10:21:24] D2BS 6400: move retry 1
+[10/06/20 10:21:35] D2BS 6400: initNPC: heal
+[10/06/20 10:21:47] D2BS 6400: 40,47
+[10/06/20 10:22:12] D2BS 6400: ÿc7Picked up ÿc438 Gold
+[10/06/20 10:22:24] D2BS 6400: ÿc1Skipping Dried Corpse 52 16
+[10/06/20 10:22:27] D2BS 6400: ÿc7Picked up ÿc459 Gold
+[10/06/20 10:22:38] D2BS 6400: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[10/06/20 10:22:52] D2BS 6400: move retry 1
+[10/06/20 10:22:55] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:22:57] D2BS 6400: move retry 1
+[10/06/20 10:23:07] D2BS 6400: move retry 1
+[10/06/20 10:23:10] D2BS 6400: move retry 1
+[10/06/20 10:23:12] D2BS 6400: move retry 2
+[10/06/20 10:23:14] D2BS 6400: move retry 3
+[10/06/20 10:23:16] D2BS 6400: move retry 1
+[10/06/20 10:23:19] D2BS 6400: move retry 1
+[10/06/20 10:23:20] D2BS 6400: move retry 1
+[10/06/20 10:23:28] D2BS 6400: move retry 1
+[10/06/20 10:23:34] D2BS 6400: move retry 1
+[10/06/20 10:23:38] D2BS 6400: move retry 1
+[10/06/20 10:24:18] D2BS 6400: 47,48
+[10/06/20 10:24:27] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:24:27] D2BS 6400: ÿc7Picked up ÿc3Short Sword ÿc0(ilvl 16) (Auradin.xpac.nip #2)
+[10/06/20 10:24:45] D2BS 6400: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[10/06/20 10:24:45] D2BS 6400: move retry 1
+[10/06/20 10:24:49] D2BS 6400: move retry 1
+[10/06/20 10:24:52] D2BS 6400: move retry 1
+[10/06/20 10:24:53] D2BS 6400: move retry 1
+[10/06/20 10:24:54] D2BS 6400: ÿc7Picked up ÿc457 Gold
+[10/06/20 10:24:56] D2BS 6400: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 13) (LateGame.nip #29)
+[10/06/20 10:24:59] D2BS 6400: ÿc7Picked up ÿc463 Gold
+[10/06/20 10:25:00] D2BS 6400: move retry 1
+[10/06/20 10:25:01] D2BS 6400: ÿc7Picked up ÿc463 Gold
+[10/06/20 10:25:07] D2BS 6400: ÿc7Picked up ÿc465 Gold
+[10/06/20 10:25:07] D2BS 6400: move retry 1
+[10/06/20 10:25:15] D2BS 6400: ÿc7Picked up ÿc477 Gold
+[10/06/20 10:25:17] D2BS 6400: move retry 1
+[10/06/20 10:25:20] D2BS 6400: ÿc7Picked up ÿc477 Gold
+[10/06/20 10:25:52] D2BS 6400: move retry 2
+[10/06/20 10:25:54] D2BS 6400: move retry 3
+[10/06/20 10:26:26] D2BS 6400: 48,49
+[10/06/20 10:27:30] D2BS 6400: ÿc7Picked up ÿc419 Gold
+[10/06/20 10:27:32] D2BS 6400: move retry 1
+[10/06/20 10:27:42] D2BS 6400: move retry 1
+[10/06/20 10:27:47] D2BS 6400: move retry 1
+[10/06/20 10:28:00] D2BS 6400: move retry 1
+[10/06/20 10:28:04] D2BS 6400: ÿc7Picked up ÿc3Sabre ÿc0(ilvl 14) (Auradin.xpac.nip #2)
+[10/06/20 10:28:09] D2BS 6400: ÿc7Picked up ÿc445 Gold
+[10/06/20 10:28:14] D2BS 6400: move retry 1
+[10/06/20 10:28:27] D2BS 6400: ÿc7Picked up ÿc416 Gold
+[10/06/20 10:28:27] D2BS 6400: ÿc7Picked up ÿc454 Gold
+[10/06/20 10:28:27] D2BS 6400: ÿc7Picked up ÿc443 Gold
+[10/06/20 10:28:27] D2BS 6400: ÿc7Picked up ÿc456 Gold
+[10/06/20 10:28:54] D2BS 6400: ÿc7Picked up ÿc429 Gold
+[10/06/20 10:28:58] D2BS 6400: move retry 1
+[10/06/20 10:29:04] D2BS 6400: move retry 1
+[10/06/20 10:30:31] D2BS 6400: Script default.dbj ended
+[10/06/20 10:30:31] D2BS 6400: Script tools\autobuildthread.js ended
+[10/06/20 10:30:31] D2BS 6400: Script tools\party.js ended
+[10/06/20 10:30:31] D2BS 6400: Script tools\toolsthread.js ended
+[10/06/20 10:30:31] D2BS 6400: Script tools\townchicken.js ended
+[10/06/20 10:30:38] D2BS 6400: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 10:30:38] D2BS 6400: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 10:30:38] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 10:30:38] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:30:38] D2BS 6400: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 10:30:38] D2BS 6400: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 10:30:38] D2BS 6400: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 10:30:38] D2BS 6400: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 10:30:38] D2BS 6400: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/06/20 10:30:38] D2BS 6400: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 10:30:38] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 10:30:38] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:30:38] D2BS 6400: AutoBuild: Loaded helper thread
+[10/06/20 10:30:38] D2BS 6400: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 10:30:38] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 10:30:38] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:30:38] D2BS 6400: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 10:30:38] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 10:30:38] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:30:38] D2BS 6400: ÿc3Start ToolsThread script
+[10/06/20 10:30:38] D2BS 6400: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 10:30:38] D2BS 6400: Updating Config from level 0 to 20
+[10/06/20 10:30:56] D2BS 6400: Successfully placed Skull Cap at X: 2 Y: 0
+[10/06/20 10:31:17] D2BS 6400: initNPC: heal
+[10/06/20 10:31:22] D2BS 6400: initNPC: identify
+[10/06/20 10:31:34] D2BS 6400: ÿc4MiniShopBotÿc0: Scanning 66 items.
+[10/06/20 10:31:35] D2BS 6400: initNPC: buyPotions
+[10/06/20 10:31:53] D2BS 6400: ÿc7Picked up ÿc419 Gold
+[10/06/20 10:31:56] D2BS 6400: move retry 1
+[10/06/20 10:32:00] D2BS 6400: ÿc7Picked up ÿc414 Gold
+[10/06/20 10:32:01] D2BS 6400: move retry 1
+[10/06/20 10:32:22] D2BS 6400: move retry 1
+[10/06/20 10:32:27] D2BS 6400: move retry 1
+[10/06/20 10:32:30] D2BS 6400: ÿc7Picked up ÿc463 Gold
+[10/06/20 10:32:34] D2BS 6400: move retry 1
+[10/06/20 10:33:10] D2BS 6400: ÿc7Picked up ÿc445 Gold
+[10/06/20 10:33:15] D2BS 6400: move retry 1
+[10/06/20 10:33:17] D2BS 6400: ÿc7Picked up ÿc427 Gold
+[10/06/20 10:33:23] D2BS 6400: move retry 1
+[10/06/20 10:33:27] D2BS 6400: move retry 1
+[10/06/20 10:33:28] D2BS 6400: move retry 2
+[10/06/20 10:33:29] D2BS 6400: move retry 3
+[10/06/20 10:33:32] D2BS 6400: move retry 1
+[10/06/20 10:33:34] D2BS 6400: move retry 1
+[10/06/20 10:33:37] D2BS 6400: move retry 1
+[10/06/20 10:33:39] D2BS 6400: move retry 1
+[10/06/20 10:33:41] D2BS 6400: move retry 1
+[10/06/20 10:33:46] D2BS 6400: move retry 1
+[10/06/20 10:33:52] D2BS 6400: move retry 1
+[10/06/20 10:33:55] D2BS 6400: move retry 1
+[10/06/20 10:34:00] D2BS 6400: move retry 1
+[10/06/20 10:34:05] D2BS 6400: move retry 1
+[10/06/20 10:34:07] D2BS 6400: ÿc7Picked up ÿc431 Gold
+[10/06/20 10:34:07] D2BS 6400: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #23)
+[10/06/20 10:34:07] D2BS 6400: ÿc7Picked up ÿc432 Gold
+[10/06/20 10:34:19] D2BS 6400: initNPC: heal
+[10/06/20 10:34:25] D2BS 6400: initNPC: buyPotions
+[10/06/20 10:34:38] D2BS 6400: 40
+[10/06/20 10:34:39] D2BS 6400: initNPC: heal
+[10/06/20 10:34:49] D2BS 6400: initNPC: heal
+[10/06/20 10:34:50] D2BS 6400: initNPC: heal
+[10/06/20 10:35:10] D2BS 6400: 47,48
+[10/06/20 10:35:46] D2BS 6400: ÿc7Picked up ÿc472 Gold
+[10/06/20 10:35:47] D2BS 6400: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #33)
+[10/06/20 10:35:47] D2BS 6400: ÿc7Picked up ÿc3Two-Handed Sword ÿc0(ilvl 16) (Auradin.xpac.nip #2)
+[10/06/20 10:35:52] D2BS 6400: ÿc7Picked up ÿc430 Gold
+[10/06/20 10:35:52] D2BS 6400: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #33)
+[10/06/20 10:35:58] D2BS 6400: ÿc7Picked up ÿc438 Gold
+[10/06/20 10:36:00] D2BS 6400: move retry 1
+[10/06/20 10:36:07] D2BS 6400: move retry 1
+[10/06/20 10:36:12] D2BS 6400: ÿc7Picked up ÿc423 Gold
+[10/06/20 10:36:13] D2BS 6400: move retry 1
+[10/06/20 10:36:20] D2BS 6400: ÿc7Picked up ÿc462 Gold
+[10/06/20 10:36:20] D2BS 6400: ÿc7Picked up ÿc444 Gold
+[10/06/20 10:36:20] D2BS 6400: ÿc7Picked up ÿc447 Gold
+[10/06/20 10:36:30] D2BS 6400: ÿc7Picked up ÿc430 Gold
+[10/06/20 10:36:30] D2BS 6400: ÿc7Picked up ÿc457 Gold
+[10/06/20 10:36:30] D2BS 6400: ÿc7Picked up ÿc430 Gold
+[10/06/20 10:36:50] D2BS 6400: ÿc7Picked up ÿc463 Gold
+[10/06/20 10:37:00] D2BS 6400: move retry 1
+[10/06/20 10:37:07] D2BS 6400: 48,49
+[10/06/20 10:37:39] D2BS 6400: move retry 1
+[10/06/20 10:37:41] D2BS 6400: move retry 1
+[10/06/20 10:37:49] D2BS 6400: ÿc7Picked up ÿc449 Gold
+[10/06/20 10:38:10] D2BS 6400: ÿc7Picked up ÿc477 Gold
+[10/06/20 10:38:37] D2BS 6400: ÿc7Picked up ÿc3Ring ÿc0(ilvl 14) (Auradin.xpac.nip #107)
+[10/06/20 10:38:49] D2BS 6400: move retry 1
+[10/06/20 10:39:03] D2BS 6400: 42
+[10/06/20 10:39:11] D2BS 6400: move retry 1
+[10/06/20 10:39:29] D2BS 6400: move retry 1
+[10/06/20 10:39:31] D2BS 6400: move retry 1
+[10/06/20 10:39:33] D2BS 6400: move retry 1
+[10/06/20 10:39:47] D2BS 6400: AutoBuild: Stat points: 5      Skill points: 2
+[10/06/20 10:39:47] D2BS 6400: AutoBuild: Level up detected ( 20 --> 21 )
+[10/06/20 10:39:47] D2BS 6400: AutoBuild: useSkillPoint(): Prayer (99)
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  17)
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: useStatPoint(0): Strength
+[10/06/20 10:39:48] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Stat (1/5) Increased Strength from 44 to 45
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Attempt to spend point 2 in Dexterity may have failed!
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Stat (3/5) Increased Vitality from 82 to 83
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 10:39:48] D2BS 6400: ÿc7Picked up ÿc3Heavy Boots ÿc0(ilvl 18) (Auradin.xpac.nip #67)
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Stat (4/5) Increased Vitality from 83 to 84
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Stat (5/5) Increased Vitality from 84 to 85
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Updating Config from level 20 to 21
+[10/06/20 10:39:48] D2BS 6400: Updating Config from level 20 to 21
+[10/06/20 10:39:48] D2BS 6400: Updating Config from level 20 to 21
+[10/06/20 10:39:48] D2BS 6400: Updating Config from level 20 to 21
+[10/06/20 10:39:48] D2BS 6400: Updating Config from level 20 to 21
+[10/06/20 10:39:48] D2BS 6400: AutoBuild: Incrementing cached character level to 21
+[10/06/20 10:39:49] D2BS 6400: move retry 1
+[10/06/20 10:39:55] D2BS 6400: move retry 1
+[10/06/20 10:40:01] D2BS 6400: move retry 1
+[10/06/20 10:40:07] D2BS 6400: ÿc7Picked up ÿc474 Gold
+[10/06/20 10:40:11] D2BS 6400: ÿc7Picked up ÿc457 Gold
+[10/06/20 10:40:21] D2BS 6400: 42,56
+[10/06/20 10:40:33] D2BS 6400: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[10/06/20 10:40:35] D2BS 6400: move retry 1
+[10/06/20 10:40:36] D2BS 6400: move retry 2
+[10/06/20 10:41:23] D2BS 6400: ÿc7Picked up ÿc481 Gold
+[10/06/20 10:41:24] D2BS 6400: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
+[10/06/20 10:41:27] D2BS 6400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 10:41:48] D2BS 6400: move retry 1
+[10/06/20 10:41:51] D2BS 6400: move retry 1
+[10/06/20 10:42:04] D2BS 6400: ÿc7Picked up ÿc488 Gold
+[10/06/20 10:42:05] D2BS 6400: ÿc7Picked up ÿc487 Gold
+[10/06/20 10:42:07] D2BS 6400: 56,57
+[10/06/20 10:42:39] D2BS 6400: ÿc7Picked up ÿc482 Gold
+[10/06/20 10:42:49] D2BS 6400: ÿc7Picked up ÿc484 Gold
+[10/06/20 10:43:18] D2BS 6400: ÿc7Picked up ÿc426 Gold
+[10/06/20 10:43:22] D2BS 6400: move retry 1
+[10/06/20 10:43:25] D2BS 6400: move retry 1
+[10/06/20 10:43:32] D2BS 6400: move retry 1
+[10/06/20 10:43:42] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:44:07] D2BS 6400: ÿc7Picked up ÿc421 Gold
+[10/06/20 10:44:07] D2BS 6400: ÿc7Picked up ÿc410 Gold
+[10/06/20 10:44:10] D2BS 6400: move retry 1
+[10/06/20 10:44:11] D2BS 6400: ÿc7Picked up ÿc3Axe ÿc0(ilvl 15) (Auradin.xpac.nip #6)
+[10/06/20 10:44:17] D2BS 6400: move retry 1
+[10/06/20 10:44:21] D2BS 6400: move retry 1
+[10/06/20 10:44:31] D2BS 6400: 57,60
+[10/06/20 10:44:36] D2BS 6400: ÿc7Picked up ÿc413 Gold
+[10/06/20 10:44:37] D2BS 6400: ÿc7Picked up ÿc414 Gold
+[10/06/20 10:44:52] D2BS 6400: ÿc1Skipping Hollow One 575 16
+[10/06/20 10:45:20] D2BS 6400: ÿc7Picked up ÿc425 Gold
+[10/06/20 10:45:20] D2BS 6400: ÿc7Picked up ÿc471 Gold
+[10/06/20 10:45:20] D2BS 6400: ÿc7Picked up ÿc425 Gold
+[10/06/20 10:45:21] D2BS 6400: ÿc7Picked up ÿc487 Gold
+[10/06/20 10:45:23] D2BS 6400: ÿc7Picked up ÿc413 Gold
+[10/06/20 10:45:23] D2BS 6400: move retry 1
+[10/06/20 10:45:39] D2BS 6400: ÿc7Picked up ÿc430 Gold
+[10/06/20 10:45:41] D2BS 6400: 43
+[10/06/20 10:45:54] D2BS 6400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 10:45:59] D2BS 6400: move retry 1
+[10/06/20 10:46:03] D2BS 6400: ÿc7Picked up ÿc495 Gold
+[10/06/20 10:46:08] D2BS 6400: ÿc7Picked up ÿc480 Gold
+[10/06/20 10:46:21] D2BS 6400: move retry 1
+[10/06/20 10:46:26] D2BS 6400: move retry 1
+[10/06/20 10:46:39] D2BS 6400: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
+[10/06/20 10:46:40] D2BS 6400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 10:46:51] D2BS 6400: ÿc7Picked up ÿc4510 Gold
+[10/06/20 10:46:52] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:46:55] D2BS 6400: move retry 1
+[10/06/20 10:47:01] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:47:01] D2BS 6400: ÿc7Picked up ÿc3Heavy Boots ÿc0(ilvl 18) (Auradin.xpac.nip #68)
+[10/06/20 10:48:00] D2BS 6400: ÿc7Picked up ÿc475 Gold
+[10/06/20 10:48:21] D2BS 6400: move retry 1
+[10/06/20 10:48:39] D2BS 6400: move retry 1
+[10/06/20 10:48:41] D2BS 6400: move retry 2
+[10/06/20 10:48:42] D2BS 6400: move retry 1
+[10/06/20 10:48:49] D2BS 6400: move retry 1
+[10/06/20 10:48:56] D2BS 6400: move retry 1
+[10/06/20 10:49:01] D2BS 6400: ÿc7Picked up ÿc3Chain Boots ÿc0(ilvl 19) (Auradin.xpac.nip #68)
+[10/06/20 10:49:05] D2BS 6400: move retry 1
+[10/06/20 10:49:20] D2BS 6400: ÿc7Picked up ÿc429 Gold
+[10/06/20 10:49:24] D2BS 6400: ÿc7Picked up ÿc429 Gold
+[10/06/20 10:49:29] D2BS 6400: ÿc7Picked up ÿc427 Gold
+[10/06/20 10:49:29] D2BS 6400: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[10/06/20 10:49:30] D2BS 6400: move retry 1
+[10/06/20 10:49:39] D2BS 6400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 10:49:43] D2BS 6400: move retry 1
+[10/06/20 10:50:11] D2BS 6400: ÿc7Picked up ÿc476 Gold
+[10/06/20 10:50:13] D2BS 6400: ÿc7Picked up ÿc478 Gold
+[10/06/20 10:50:23] D2BS 6400: move retry 1
+[10/06/20 10:50:27] D2BS 6400: initNPC: heal
+[10/06/20 10:50:32] D2BS 6400: initNPC: identify
+[10/06/20 10:50:38] D2BS 6400: move retry 1
+[10/06/20 10:50:39] D2BS 6400: move retry 1
+[10/06/20 10:50:51] D2BS 6400: initNPC: fillTome
+[10/06/20 10:50:53] D2BS 6400: ÿc4MiniShopBotÿc0: Scanning 71 items.
+[10/06/20 10:50:54] D2BS 6400: initNPC: buyPotions
+[10/06/20 10:50:54] D2BS 6400:  Chain Boots of Balance
+[10/06/20 10:51:02] D2BS 6400: 40
+[10/06/20 10:51:08] D2BS 6400: initNPC: heal
+[10/06/20 10:52:00] D2BS 6400: ÿc7Picked up ÿc453 Gold
+[10/06/20 10:52:16] D2BS 6400: move retry 1
+[10/06/20 10:53:11] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:53:56] D2BS 6400: move retry 1
+[10/06/20 10:54:00] D2BS 6400: move retry 1
+[10/06/20 10:54:06] D2BS 6400: move retry 1
+[10/06/20 10:54:15] D2BS 6400: move retry 1
+[10/06/20 10:54:35] D2BS 6400: move retry 1
+[10/06/20 10:54:36] D2BS 6400: move retry 1
+[10/06/20 10:55:08] D2BS 6400: move retry 1
+[10/06/20 10:55:39] D2BS 6400: move retry 1
+[10/06/20 10:55:44] D2BS 6400: move retry 1
+[10/06/20 10:55:49] D2BS 6400: move retry 1
+[10/06/20 10:55:59] D2BS 6400: move retry 1
+[10/06/20 10:56:42] D2BS 6400: 40
+[10/06/20 10:56:50] D2BS 6400: initNPC: heal
+[10/06/20 10:56:54] D2BS 6400: move retry 1
+[10/06/20 10:57:28] D2BS 6400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 10:57:28] D2BS 6400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 10:57:37] D2BS 6400: initNPC: heal
+[10/06/20 10:57:38] D2BS 6400: move retry 1
+[10/06/20 10:57:44] D2BS 6400: move retry 1
+[10/06/20 10:57:46] D2BS 6400: initNPC: buyPotions
+[10/06/20 10:57:59] D2BS 6400: initNPC: reviveMerc
+[10/06/20 10:58:06] D2BS 6400: 40
+[10/06/20 10:58:11] D2BS 6400: initNPC: heal
+[10/06/20 10:58:16] D2BS 6400: move retry 1
+[10/06/20 10:58:17] D2BS 6400: initNPC: heal
+[10/06/20 10:58:31] D2BS 6400: ÿc7Picked up ÿc478 Gold
+[10/06/20 10:58:43] D2BS 6400: ÿc7Picked up ÿc436 Gold
+[10/06/20 10:58:46] D2BS 6400: ÿc7Picked up ÿc459 Gold
+[10/06/20 10:59:13] D2BS 6400: move retry 1
+[10/06/20 10:59:35] D2BS 6400: ÿc7Picked up ÿc476 Gold
+[10/06/20 10:59:36] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:59:36] D2BS 6400: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 10:59:45] D2BS 6400: ÿc7Picked up ÿc423 Gold
+[10/06/20 10:59:45] D2BS 6400: ÿc7Picked up ÿc9Scythe ÿc0(ilvl 17) (Merc.xpac.nip #10)
+[10/06/20 10:59:53] D2BS 6400: move retry 1
+[10/06/20 11:00:28] D2BS 6400: move retry 1
+[10/06/20 11:00:42] D2BS 6400: ÿc7Picked up ÿc441 Gold
+[10/06/20 11:00:54] D2BS 6400: ÿc7Picked up ÿc490 Gold
+[10/06/20 11:01:38] D2BS 6400: move retry 1
+[10/06/20 11:02:04] D2BS 6400: move retry 1
+[10/06/20 11:02:20] D2BS 6400: ÿc7Picked up ÿc492 Gold
+[10/06/20 11:02:27] D2BS 6400: ÿc7Picked up ÿc490 Gold
+[10/06/20 11:02:27] D2BS 6400: ÿc7Picked up ÿc459 Gold
+[10/06/20 11:02:28] D2BS 6400: ÿc7Picked up ÿc482 Gold
+[10/06/20 11:02:31] D2BS 6400: move retry 1
+[10/06/20 11:02:32] D2BS 6400: move retry 2
+[10/06/20 11:02:35] D2BS 6400: move retry 1
+[10/06/20 11:02:44] D2BS 6400: ÿc7Picked up ÿc430 Gold
+[10/06/20 11:02:58] D2BS 6400: move retry 1
+[10/06/20 11:03:07] D2BS 6400: ÿc7Picked up ÿc446 Gold
+[10/06/20 11:03:27] D2BS 6400: move retry 1
+[10/06/20 11:03:49] D2BS 6400: move retry 1
+[10/06/20 11:04:38] D2BS 6400: move retry 1
+[10/06/20 11:04:51] D2BS 6400: move retry 1
+[10/06/20 11:05:25] D2BS 6400: ÿc7Picked up ÿc459 Gold
+[10/06/20 11:05:46] D2BS 6400: AutoBuild: Stat points: 5      Skill points: 2
+[10/06/20 11:05:46] D2BS 6400: AutoBuild: Level up detected ( 21 --> 22 )
+[10/06/20 11:05:46] D2BS 6400: AutoBuild: useSkillPoint(): Holy Bolt (101)
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Skill (1/1) Increased Holy Bolt (101) by one (level:  1)
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: useStatPoint(0): Strength
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Stat (1/5) Increased Strength from 45 to 46
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Stat (2/5) Increased Dexterity from 40 to 41
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Stat (3/5) Increased Vitality from 85 to 86
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Stat (4/5) Increased Vitality from 86 to 87
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Stat (5/5) Increased Vitality from 87 to 88
+[10/06/20 11:05:47] D2BS 6400: Updating Config from level 21 to 22
+[10/06/20 11:05:47] D2BS 6400: Updating Config from level 21 to 22
+[10/06/20 11:05:47] D2BS 6400: Updating Config from level 21 to 22
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Updating Config from level 21 to 22
+[10/06/20 11:05:47] D2BS 6400: Updating Config from level 21 to 22
+[10/06/20 11:05:47] D2BS 6400: AutoBuild: Incrementing cached character level to 22
+[10/06/20 11:06:09] D2BS 6400: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
+[10/06/20 11:06:29] D2BS 6400: ÿc7Picked up ÿc426 Gold
+[10/06/20 11:06:52] D2BS 6400: ÿc7Picked up ÿc428 Gold
+[10/06/20 11:06:53] D2BS 6400: move retry 1
+[10/06/20 11:07:00] D2BS 6400: ÿc7Picked up ÿc455 Gold
+[10/06/20 11:07:10] D2BS 6400: ÿc7Picked up ÿc418 Gold
+[10/06/20 11:07:11] D2BS 6400: move retry 1
+[10/06/20 11:07:13] D2BS 6400: move retry 1
+[10/06/20 11:07:14] D2BS 6400: move retry 1
+[10/06/20 11:07:15] D2BS 6400: move retry 1
+[10/06/20 11:07:20] D2BS 6400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 11:07:37] D2BS 6400: move retry 1
+[10/06/20 11:08:18] D2BS 6400: move retry 1
+[10/06/20 11:09:13] D2BS 6400: move retry 1
+[10/06/20 11:09:22] D2BS 6400: move retry 1
+[10/06/20 11:09:45] D2BS 6400: move retry 1
+[10/06/20 11:11:52] D2BS 6400: initNPC: heal
+[10/06/20 11:11:58] D2BS 6400: initNPC: identify
+[10/06/20 11:12:06] D2BS 6400: ÿc4MiniShopBotÿc0: Scanning 60 items.
