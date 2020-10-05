@@ -350,7 +350,8 @@ function LevelFollower(){
 	};
 	
 	this.unEquipMerc=function(){
-		var cursorItem,i;		
+		var cursorItem,i;
+		say("Trying to UnEquipMerc1");
 		for(i=1; i < 5; i++){
 			//2 Handed Weapons fix
 			if(i==2){i=3;}
@@ -358,10 +359,12 @@ function LevelFollower(){
 			delay(1000);
 
 			if (me.itemoncursor) {
+				say("Trying to UnEquipMerc2");
 				delay(1000);
 				cursorItem=getUnit(100);
 
 				if (cursorItem) {
+					say("Trying to UnEquipMerc3");
 					if (!Storage.Inventory.MoveTo(cursorItem)) {
 						return false;
 					}
