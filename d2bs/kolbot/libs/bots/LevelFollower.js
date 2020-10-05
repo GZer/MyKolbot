@@ -276,7 +276,7 @@ function LevelFollower(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,Count=1;
+		var ReplaceMerc=false,Count=1,UnderLeveled=false;
 		MyMerc=me.getMerc();
 		switch(me.classid){			
 			case 0: //Amazon
@@ -323,7 +323,13 @@ function LevelFollower(){
 			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
-		return (Math.abs(me.charlvl-MyMerc.charlvl)<=10);
+		try{
+			UnderLeveled=Math.abs(me.charlvl-MyMerc.charlvl)<=10;
+		}catch(err){
+			print("Can't find Merc lvl");
+		}
+		
+		return UnderLeveled;
 	};
 	
 	this.unEquipMerc=function(){

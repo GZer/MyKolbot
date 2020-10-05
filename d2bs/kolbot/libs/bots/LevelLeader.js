@@ -5,7 +5,7 @@
 */
 
 function LevelLeader(){
-	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb;
+	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb,MyMercType,MyMercDiff,MyMercAura,HiredMercAura,MyMerc;
 	var MercId=[],TeleSorcs=[];
 	var FullClearAreas=[3,4,5,6,35,36,
 	43,44,
@@ -849,7 +849,7 @@ function LevelLeader(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,Count=1;
+		var ReplaceMerc=false,Count=1,UnderLeveled=false;
 		MyMerc=me.getMerc();
 		switch(me.classid){			
 			case 0: //Amazon
@@ -896,7 +896,13 @@ function LevelLeader(){
 			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
-		return (Math.abs(me.charlvl-MyMerc.charlvl)<=10);
+		try{
+			UnderLeveled=Math.abs(me.charlvl-MyMerc.charlvl)<=10;
+		}catch(err){
+			print("Can't find Merc lvl");
+		}
+		
+		return UnderLeveled;
 	};
 	
 	this.unEquipMerc=function(){
