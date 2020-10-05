@@ -126,7 +126,7 @@ function LevelFollower(){
 				this.ChangeAct(LeaderAct);
 			}
 			//Act3 Jungle fix			
-			if(me.classid == 1 && (TeleportAreas.indexOf(me.area)>-1) && WhoIsLeader.inTown){
+			if(me.classid == 1 && (TeleportAreas.indexOf(me.area) > -1) && WhoIsLeader.inTown){
 				this.teleportFromLocation(me.area);
 			}
 			
@@ -283,7 +283,7 @@ function LevelFollower(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,Count=1,MyMerc=me.getMerc();
+		var ReplaceMerc=false,MyMerc=me.getMerc();
 		switch(me.classid){			
 			//Amazon
 			case 0:
@@ -325,7 +325,7 @@ function LevelFollower(){
 				MyMerc=me.getMerc();
 			}
 		}else if(MyMerc){
-			if(Math.abs(me.charlvl-MyMerc.charlvl)>10){
+			if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){
 				ReplaceMerc=true;
 			}
 		}else{
@@ -334,9 +334,7 @@ function LevelFollower(){
 		}
 		
 		if(ReplaceMerc && this.unEquipMerc() && me.act >= 2){
-			while(!this.hireA2Merc(Count) && Count<8){
-				Count++;
-			}
+			this.hireA2Merc();
 			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
@@ -369,14 +367,15 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.hireA2Merc=function(Count){
+	this.hireA2Merc=function(){
+		var Count=0;
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
 		addEventListener("gamepacket", gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length>0){
+			while(MercId.length > 0 && Count < 9){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
@@ -386,12 +385,13 @@ function LevelFollower(){
 					HiredMercAura="Random";
 					return me.getMerc();
 				}
-				delay(rand(100,10000));
+				delay(rand(100,1000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
 					HiredMercAura=MyMercAura;
 					return me.getMerc();
 				}
+				Count++;
 			}
 		}
 		return me.getMerc();
@@ -438,7 +438,7 @@ function LevelFollower(){
 			delay(500);
 			partyTimeout++;
 			this.goFindLeader(WhoIsLeader.area);
-			if(partyTimeout>5){
+			if(partyTimeout > 5){
 				quit();
 			}
 		}
@@ -450,7 +450,7 @@ function LevelFollower(){
 	
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
-			if(getDistance(me,LeaderUnit)>5){
+			if(getDistance(me,LeaderUnit) > 5){
 				Pather.teleport=false;
 				if(me.inTown){
 					Town.move("portalspot");

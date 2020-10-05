@@ -74,7 +74,7 @@ function LevelLeader(){
 						}
 					});
 				}
-				while(!Pather.getPortal(38) && i<10){
+				while(!Pather.getPortal(38) && i < 10){
 					delay(1000);i++;
 				}
 				Pather.usePortal(38);
@@ -459,9 +459,9 @@ function LevelLeader(){
 			Pather.moveTo(XCoord,YCoord,2,true,true);
 		}
 		while(Party && !Boss.dead){
-			Skill.cast(132,0,me.x,me.y);
+			Skill.cast(132,0,Boss.x,Boss.y);
 			delay(100);
-			if(this.getPlayerCount()<8 && (Boss.hp*100/Boss.hpmax)<20){
+			if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 20){
 				this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 				quit();
 			}
@@ -800,7 +800,7 @@ function LevelLeader(){
 		var i,NPC=getUnit(1,"Tyrael");
 		if(!NPC){this.logProgress(null,"Free Tyrael");return false;}
 		for(i=0; i < 3; i +=1){
-			if(getDistance(me,NPC)> 3){
+			if(getDistance(me,NPC) > 3){
 				Pather.moveToUnit(NPC);
 			}
 			NPC.interact();
@@ -856,7 +856,7 @@ function LevelLeader(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,Count=1,MyMerc=me.getMerc();
+		var ReplaceMerc=false,MyMerc=me.getMerc();
 		switch(me.classid){			
 			//Amazon
 			case 0:
@@ -898,7 +898,7 @@ function LevelLeader(){
 				MyMerc=me.getMerc();
 			}
 		}else if(MyMerc){
-			if(Math.abs(me.charlvl-MyMerc.charlvl)>10){
+			if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){
 				ReplaceMerc=true;
 			}
 		}else{
@@ -907,9 +907,7 @@ function LevelLeader(){
 		}
 		
 		if(ReplaceMerc && this.unEquipMerc() && me.act >= 2){
-			while(!this.hireA2Merc(Count) && Count<8){
-				Count++;
-			}
+			this.hireA2Merc();
 			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
@@ -942,14 +940,15 @@ function LevelLeader(){
 		return true;
 	};
 	
-	this.hireA2Merc=function(Count){
+	this.hireA2Merc=function(){
+		var Count=0;
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
 		addEventListener("gamepacket", gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length>0){
+			while(MercId.length > 0 && Count < 9){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
@@ -959,12 +958,13 @@ function LevelLeader(){
 					HiredMercAura="Random";
 					return me.getMerc();
 				}
-				delay(rand(100,10000));
+				delay(rand(100,1000));
 				MyMerc=me.getMerc();
 				if(MyMerc.getSkill(MyMercType,1)){
 					HiredMercAura=MyMercAura;
 					return me.getMerc();
 				}
+				Count++;
 			}
 		}
 		return me.getMerc();
@@ -1056,7 +1056,7 @@ function LevelLeader(){
 		}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			UpToArea=LevelingAreas[ActNumber][LevelArea];
-			if(LevelArea<LevelingAreas[ActNumber].length-1){
+			if(LevelArea < LevelingAreas[ActNumber].length-1){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
 			try{Pather.useWaypoint(UpToArea);}catch(err){Pather.journeyTo(UpToArea);}
@@ -1072,11 +1072,11 @@ function LevelLeader(){
 				Pather.getWP(UpToArea,true);
 				this.tryMakePortal();
 				this.CheckQuests(UpToArea);
-				if(FullClearAreas.indexOf(UpToArea)>-1){
+				if(FullClearAreas.indexOf(UpToArea) > -1){
 					Pather.journeyTo(UpToArea);
 					say("Full Clear");
 					Attack.clearLevel(0);
-				}else if(NextArea>0){
+				}else if(NextArea > 0){
 					this.clearToNextArea(NextArea);
 				}
 			}
