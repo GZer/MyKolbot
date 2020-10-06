@@ -107,7 +107,7 @@ var AutoBuildTemplate={
 		},
 
 	7: 	{
-			SkillPoints: [132,138],//Leap
+			SkillPoints: [132],//Leap
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[131,132,0,0,0,0,0];
@@ -115,7 +115,7 @@ var AutoBuildTemplate={
 		},
 
 	8: 	{
-			SkillPoints: [137,138],//Taunt
+			SkillPoints: [137],//Taunt
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[131,132,0,0,0,0,0];
@@ -147,7 +147,7 @@ var AutoBuildTemplate={
 		},
 
 	12: 	{
-			SkillPoints: [142,138],//Find Item
+			SkillPoints: [142],//Find Item
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[131,132,0,0,0,0,0];
@@ -340,15 +340,15 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [155,153,154,149],//Battle Command,Natural Resistance,War Cry
+			SkillPoints: [155],//Battle Command,Natural Resistance,War Cry
 			StatPoints: [0,3,3,3,3],	
 			Update: function(){
-				Config.AttackSkill=[154,132,132,130,132,130,132];
+				Config.AttackSkill=[131,132,0,0,0,0,0];
 			}
 		},
 
 	31: 	{
-			SkillPoints: [149],
+			SkillPoints: [154],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.LowManaSkill=[132,132];
@@ -357,7 +357,7 @@ var AutoBuildTemplate={
 		},
 
 	32: 	{
-			SkillPoints: [149],
+			SkillPoints: [153],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -461,7 +461,7 @@ var AutoBuildTemplate={
 		},
 
 	45: 	{
-			SkillPoints: [138],
+			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyGame.nip"),1);
@@ -469,7 +469,7 @@ var AutoBuildTemplate={
 		},
 
 	46: 	{
-			SkillPoints: [138],
+			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -477,7 +477,7 @@ var AutoBuildTemplate={
 		},
 
 	47: 	{
-			SkillPoints: [130],
+			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -485,7 +485,7 @@ var AutoBuildTemplate={
 		},
 
 	48: 	{
-			SkillPoints: [130],
+			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -493,7 +493,7 @@ var AutoBuildTemplate={
 		},
 
 	49: 	{
-			SkillPoints: [130],
+			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
@@ -501,7 +501,7 @@ var AutoBuildTemplate={
 		},
 
 	50: 	{
-			SkillPoints: [130],
+			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.UseHP=80;
@@ -510,7 +510,7 @@ var AutoBuildTemplate={
 		},
 
 	51: 	{
-			SkillPoints: [130],
+			SkillPoints: [138],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];
