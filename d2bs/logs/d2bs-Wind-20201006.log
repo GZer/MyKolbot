@@ -1,0 +1,442 @@
+[10/06/20 15:37:56] D2BS 12540: D2BS Engine startup complete. 1.6.4U
+[10/06/20 15:37:56] D2BS 12540: ÿc2D2BSÿc0 :: Switched to profile Wind
+[10/06/20 15:37:56] D2BS 12540: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 15:37:56] D2BS 12540: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 15:37:56] D2BS 12540: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 15:37:56] D2BS 12540: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 15:37:58] D2BS 12540: Heartbeat loaded
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 14156
+[10/06/20 15:38:15] D2BS 12540: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 1220
+[10/06/20 15:38:15] D2BS 12540: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 12472
+[10/06/20 15:38:15] D2BS 12540: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 980
+[10/06/20 15:38:15] D2BS 12540: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 15:38:15] D2BS 12540: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 15:38:15] D2BS 12540: 03093C94 (D2BS): (filename not available): QueryInterface
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 14680
+[10/06/20 15:38:15] D2BS 12540: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 15:38:15] D2BS 12540: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/06/20 15:38:15] D2BS 12540: 004027E5 (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 4436
+[10/06/20 15:38:15] D2BS 12540: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 15:38:15] D2BS 12540: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 15:38:15] D2BS 12540: 004102FC (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 7392
+[10/06/20 15:38:15] D2BS 12540: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 15:38:15] D2BS 12540: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/06/20 15:38:15] D2BS 12540: 0041A845 (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 14476
+[10/06/20 15:38:15] D2BS 12540: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 4556
+[10/06/20 15:38:15] D2BS 12540: 77801A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[10/06/20 15:38:15] D2BS 12540: 76486676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 13468
+[10/06/20 15:38:15] D2BS 12540: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 4808
+[10/06/20 15:38:15] D2BS 12540: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 8604
+[10/06/20 15:38:15] D2BS 12540: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 15:38:15] D2BS 12540: 03117236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 15:38:15] D2BS 12540: 03202B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 15:38:15] D2BS 12540: 03201A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 15:38:15] D2BS 12540: 0312E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 10532
+[10/06/20 15:38:15] D2BS 12540: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 15:38:15] D2BS 12540: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 15:38:15] D2BS 12540: 0309E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 15:38:15] D2BS 12540: 031201B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 15:38:15] D2BS 12540: 03202B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 15:38:15] D2BS 12540: 03201A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 15:38:15] D2BS 12540: 0312E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 13764
+[10/06/20 15:38:15] D2BS 12540: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 15:38:15] D2BS 12540: 03117236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 15:38:15] D2BS 12540: 03202B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 15:38:15] D2BS 12540: 03201A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 15:38:15] D2BS 12540: 0312E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Stack Walk Thread: 14272
+[10/06/20 15:38:15] D2BS 12540: 0309B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/06/20 15:38:15] D2BS 12540: 030937F8 (D2BS): (filename not available): QueryInterface
+[10/06/20 15:38:15] D2BS 12540: 00408A05 (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 00408A81 (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 15:38:15] D2BS 12540: 006178E6 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 15:38:15] D2BS 12540: 00619352 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 15:38:15] D2BS 12540: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/06/20 15:38:15] D2BS 12540: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/06/20 15:38:15] D2BS 12540: 00405E6B (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 004065C7 (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 0040671F (Game): (filename not available): (function-name not available)
+[10/06/20 15:38:15] D2BS 12540: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 15:38:15] D2BS 12540: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 15:38:15] D2BS 12540: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 15:38:15] D2BS 12540: Crash File: BlizzardError/2020-10-06 15.38.15/Crash.txt
+[10/06/20 15:38:15] D2BS 12540: D2BS Shutdown complete.
+[10/06/20 15:38:17] D2BS 14504: D2BS Engine startup complete. 1.6.4U
+[10/06/20 15:38:17] D2BS 14504: Wind
+[10/06/20 15:38:17] D2BS 14504: ÿc2D2BSÿc0 :: Switched to profile Wind
+[10/06/20 15:38:17] D2BS 14504: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 15:38:17] D2BS 14504: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 15:38:17] D2BS 14504: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 15:38:17] D2BS 14504: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 15:38:19] D2BS 14504: Heartbeat loaded
+[10/06/20 15:38:37] D2BS 14504: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:38:37] D2BS 14504: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:38:37] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/06/20 15:38:37] D2BS 14504: Updating Config from level 0 to 1
+[10/06/20 15:38:37] D2BS 14504: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:37] D2BS 14504: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:37] D2BS 14504: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:37] D2BS 14504: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:37] D2BS 14504: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/06/20 15:38:37] D2BS 14504: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:37] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/06/20 15:38:37] D2BS 14504: Updating Config from level 0 to 1
+[10/06/20 15:38:37] D2BS 14504: AutoBuild: Loaded helper thread
+[10/06/20 15:38:37] D2BS 14504: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:38:37] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/06/20 15:38:37] D2BS 14504: Updating Config from level 0 to 1
+[10/06/20 15:38:37] D2BS 14504: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:38:37] D2BS 14504: ÿc3Start ToolsThread script
+[10/06/20 15:38:37] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/06/20 15:38:37] D2BS 14504: Updating Config from level 0 to 1
+[10/06/20 15:38:37] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/06/20 15:38:37] D2BS 14504: Updating Config from level 0 to 1
+[10/06/20 15:39:21] D2BS 14504: Failed talking to Kashya
+[10/06/20 15:39:31] D2BS 14504: initNPC: BuyPotions
+[10/06/20 15:39:49] D2BS 14504: 1,2
+[10/06/20 15:40:20] D2BS 14504: 2,8
+[10/06/20 15:40:26] D2BS 14504: move retry 1
+[10/06/20 15:40:37] D2BS 14504: ÿc7Picked up ÿc44 Gold
+[10/06/20 15:40:42] D2BS 14504: AutoBuild: Stat points: 5      Skill points: 1
+[10/06/20 15:40:42] D2BS 14504: AutoBuild: Level up detected ( 1 --> 2 )
+[10/06/20 15:40:42] D2BS 14504: AutoBuild: useSkillPoint(): Raven (221)
+[10/06/20 15:40:42] D2BS 14504: AutoBuild: Skill (1/1) Increased Raven (221) by one (level:  1)
+[10/06/20 15:40:42] D2BS 14504: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:40:42] D2BS 14504: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[10/06/20 15:40:42] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: Stat (2/5) Increased Vitality from 25 to 26
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: Stat (3/5) Increased Vitality from 26 to 27
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: Stat (4/5) Increased Vitality from 27 to 28
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: Stat (5/5) Increased Vitality from 28 to 29
+[10/06/20 15:40:43] D2BS 14504: Updating Config from level 1 to 2
+[10/06/20 15:40:43] D2BS 14504: Updating Config from level 1 to 2
+[10/06/20 15:40:43] D2BS 14504: Updating Config from level 1 to 2
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: Updating Config from level 1 to 2
+[10/06/20 15:40:43] D2BS 14504: Updating Config from level 1 to 2
+[10/06/20 15:40:43] D2BS 14504: AutoBuild: Incrementing cached character level to 2
+[10/06/20 15:41:01] D2BS 14504: move retry 1
+[10/06/20 15:41:07] D2BS 14504: move retry 1
+[10/06/20 15:41:26] D2BS 14504: ÿc7Picked up ÿc0Boots ÿc0(ilvl 1) (Tornado.xpac.nip #61)
+[10/06/20 15:41:35] D2BS 14504: ÿc7Picked up ÿc42 Gold
+[10/06/20 15:41:37] D2BS 14504: ÿc7Picked up ÿc0Crude Leather Armor ÿc0(ilvl 2) (Tornado.xpac.nip #46)
+[10/06/20 15:41:58] D2BS 14504: ÿc7Picked up ÿc43 Gold
+[10/06/20 15:41:58] D2BS 14504: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:42:00] D2BS 14504: move retry 1
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: Stat points: 5      Skill points: 1
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: Level up detected ( 2 --> 3 )
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: useSkillPoint(): Poison Creeper (222)
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: Skill (1/1) Increased Poison Creeper (222) by one (level:  1)
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: Stat (2/5) Increased Vitality from 29 to 30
+[10/06/20 15:42:13] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:42:14] D2BS 14504: AutoBuild: Stat (3/5) Increased Vitality from 30 to 31
+[10/06/20 15:42:14] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:42:14] D2BS 14504: AutoBuild: Stat (4/5) Increased Vitality from 31 to 32
+[10/06/20 15:42:14] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:42:14] D2BS 14504: AutoBuild: Stat (5/5) Increased Vitality from 32 to 33
+[10/06/20 15:42:14] D2BS 14504: AutoBuild: Updating Config from level 2 to 3
+[10/06/20 15:42:14] D2BS 14504: Updating Config from level 2 to 3
+[10/06/20 15:42:14] D2BS 14504: Updating Config from level 2 to 3
+[10/06/20 15:42:14] D2BS 14504: Updating Config from level 2 to 3
+[10/06/20 15:42:14] D2BS 14504: AutoBuild: Incrementing cached character level to 3
+[10/06/20 15:42:14] D2BS 14504: Updating Config from level 2 to 3
+[10/06/20 15:42:18] D2BS 14504: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 15:42:18] D2BS 14504: ÿc7Picked up ÿc0Low Quality Throwing Knife ÿc0(ilvl 1)
+[10/06/20 15:42:19] D2BS 14504: move retry 1
+[10/06/20 15:42:24] D2BS 14504: move retry 1
+[10/06/20 15:42:31] D2BS 14504: move retry 1
+[10/06/20 15:42:35] D2BS 14504: move retry 1
+[10/06/20 15:42:47] D2BS 14504: move retry 1
+[10/06/20 15:42:50] D2BS 14504: move retry 1
+[10/06/20 15:43:00] D2BS 14504: move retry 1
+[10/06/20 15:43:15] D2BS 14504: ÿc7Picked up ÿc47 Gold
+[10/06/20 15:43:21] D2BS 14504: AutoBuild: Stat points: 5      Skill points: 1
+[10/06/20 15:43:21] D2BS 14504: AutoBuild: Level up detected ( 3 --> 4 )
+[10/06/20 15:43:21] D2BS 14504: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:43:21] D2BS 14504: AutoBuild: Stat (1/5) Increased Strength from 17 to 18
+[10/06/20 15:43:21] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: Stat (2/5) Increased Vitality from 33 to 34
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: Stat (3/5) Increased Vitality from 34 to 35
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: Stat (4/5) Increased Vitality from 35 to 36
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: Stat (5/5) Increased Vitality from 36 to 37
+[10/06/20 15:43:22] D2BS 14504: Updating Config from level 3 to 4
+[10/06/20 15:43:22] D2BS 14504: Updating Config from level 3 to 4
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: Updating Config from level 3 to 4
+[10/06/20 15:43:22] D2BS 14504: Updating Config from level 3 to 4
+[10/06/20 15:43:22] D2BS 14504: Updating Config from level 3 to 4
+[10/06/20 15:43:22] D2BS 14504: AutoBuild: Incrementing cached character level to 4
+[10/06/20 15:43:24] D2BS 14504: ÿc7Picked up ÿc3Hand Axe ÿc0(ilvl 4)
+[10/06/20 15:43:24] D2BS 14504: ÿc7Picked up ÿc3Ring ÿc0(ilvl 4) (Tornado.xpac.nip #95)
+[10/06/20 15:43:25] D2BS 14504: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 15:43:30] D2BS 14504: move retry 1
+[10/06/20 15:43:34] D2BS 14504: move retry 1
+[10/06/20 15:43:35] D2BS 14504: move retry 2
+[10/06/20 15:43:40] D2BS 14504: move retry 1
+[10/06/20 15:44:07] D2BS 14504: move retry 1
+[10/06/20 15:44:09] D2BS 14504: move retry 1
+[10/06/20 15:44:21] D2BS 14504: move retry 1
+[10/06/20 15:44:25] D2BS 14504: move retry 2
+[10/06/20 15:48:01] D2BS 14504: Script default.dbj ended
+[10/06/20 15:48:01] D2BS 14504: Script tools\autobuildthread.js ended
+[10/06/20 15:48:01] D2BS 14504: Script tools\party.js ended
+[10/06/20 15:48:01] D2BS 14504: Script tools\toolsthread.js ended
+[10/06/20 15:48:01] D2BS 14504: Script tools\townchicken.js ended
+[10/06/20 15:48:08] D2BS 14504: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:48:08] D2BS 14504: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:48:08] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/06/20 15:48:08] D2BS 14504: Updating Config from level 0 to 4
+[10/06/20 15:48:08] D2BS 14504: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:08] D2BS 14504: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:08] D2BS 14504: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:08] D2BS 14504: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:08] D2BS 14504: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/06/20 15:48:08] D2BS 14504: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:08] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/06/20 15:48:08] D2BS 14504: Updating Config from level 0 to 4
+[10/06/20 15:48:08] D2BS 14504: AutoBuild: Loaded helper thread
+[10/06/20 15:48:08] D2BS 14504: LowGold sell Low Quality Throwing Knife
+[10/06/20 15:48:08] D2BS 14504: initNPC: clearInventory
+[10/06/20 15:48:08] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/06/20 15:48:08] D2BS 14504: Updating Config from level 0 to 4
+[10/06/20 15:48:08] D2BS 14504: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:48:08] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/06/20 15:48:08] D2BS 14504: ÿc3Start ToolsThread script
+[10/06/20 15:48:08] D2BS 14504: Updating Config from level 0 to 4
+[10/06/20 15:48:08] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/06/20 15:48:08] D2BS 14504: Updating Config from level 0 to 4
+[10/06/20 15:48:21] D2BS 14504: LowGold sell Hand Axe
+[10/06/20 15:48:21] D2BS 14504: initNPC: clearInventory
+[10/06/20 15:48:23] D2BS 14504: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:48:43] D2BS 14504: move retry 1
+[10/06/20 15:48:51] D2BS 14504: initNPC: BuyPotions
+[10/06/20 15:49:08] D2BS 14504: 1,2
+[10/06/20 15:49:32] D2BS 14504: 2,8
+[10/06/20 15:49:52] D2BS 14504: ÿc7Picked up ÿc42 Gold
+[10/06/20 15:49:55] D2BS 14504: move retry 1
+[10/06/20 15:49:58] D2BS 14504: move retry 1
+[10/06/20 15:50:13] D2BS 14504: ÿc7Picked up ÿc0Damaged Javelin ÿc0(ilvl 1)
+[10/06/20 15:50:25] D2BS 14504: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:50:38] D2BS 14504: move retry 1
+[10/06/20 15:50:45] D2BS 14504: move retry 1
+[10/06/20 15:50:47] D2BS 14504: move retry 1
+[10/06/20 15:50:50] D2BS 14504: move retry 1
+[10/06/20 15:50:55] D2BS 14504: move retry 1
+[10/06/20 15:51:02] D2BS 14504: move retry 1
+[10/06/20 15:51:09] D2BS 14504: move retry 1
+[10/06/20 15:51:49] D2BS 14504: move retry 1
+[10/06/20 15:51:58] D2BS 14504: move retry 1
+[10/06/20 15:52:01] D2BS 14504: move retry 2
+[10/06/20 15:52:08] D2BS 14504: move retry 1
+[10/06/20 15:52:09] D2BS 14504: move retry 1
+[10/06/20 15:52:17] D2BS 14504: move retry 1
+[10/06/20 15:52:37] D2BS 14504: move retry 1
+[10/06/20 15:52:44] D2BS 14504: ÿc7Picked up ÿc412 Gold
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Stat points: 5      Skill points: 3
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Level up detected ( 4 --> 5 )
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Stat (1/5) Increased Strength from 18 to 19
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Stat (2/5) Increased Vitality from 37 to 38
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Stat (3/5) Increased Vitality from 38 to 39
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Stat (4/5) Increased Vitality from 39 to 40
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Stat (5/5) Increased Vitality from 40 to 41
+[10/06/20 15:52:51] D2BS 14504: Updating Config from level 4 to 5
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Updating Config from level 4 to 5
+[10/06/20 15:52:51] D2BS 14504: Updating Config from level 4 to 5
+[10/06/20 15:52:51] D2BS 14504: Updating Config from level 4 to 5
+[10/06/20 15:52:51] D2BS 14504: Updating Config from level 4 to 5
+[10/06/20 15:52:51] D2BS 14504: AutoBuild: Incrementing cached character level to 5
+[10/06/20 15:52:54] D2BS 14504: move retry 1
+[10/06/20 15:52:59] D2BS 14504: move retry 1
+[10/06/20 15:53:10] D2BS 14504: ÿc7Picked up ÿc41 Gold
+[10/06/20 15:53:11] D2BS 14504: move retry 1
+[10/06/20 15:53:15] D2BS 14504: move retry 1
+[10/06/20 15:53:52] D2BS 14504: 8,2
+[10/06/20 15:54:20] D2BS 14504: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 15:54:23] D2BS 14504: 2,3
+[10/06/20 15:55:19] D2BS 14504: ÿc7Picked up ÿc43 Gold
+[10/06/20 15:55:20] D2BS 14504: ÿc7Picked up ÿc42 Gold
+[10/06/20 15:55:23] D2BS 14504: move retry 1
+[10/06/20 15:55:38] D2BS 14504: 3
+[10/06/20 15:56:07] D2BS 14504: move retry 1
+[10/06/20 15:56:32] D2BS 14504: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:56:32] D2BS 14504: ÿc7Picked up ÿc41 Gold
+[10/06/20 15:56:33] D2BS 14504: move retry 1
+[10/06/20 15:56:43] D2BS 14504: ÿc7Picked up ÿc3Ring ÿc0(ilvl 1) (Tornado.xpac.nip #95)
+[10/06/20 15:57:05] D2BS 14504: ÿc7Picked up ÿc42 Gold
+[10/06/20 15:57:19] D2BS 14504: move retry 1
+[10/06/20 15:57:44] D2BS 14504: ÿc7Picked up ÿc9Dagger ÿc0(ilvl 2)
+[10/06/20 15:57:51] D2BS 14504: ÿc7Picked up ÿc411 Gold
+[10/06/20 15:58:15] D2BS 14504: ÿc7Picked up ÿc44 Gold
+[10/06/20 15:58:18] D2BS 14504: ÿc7Picked up ÿc44 Gold
+[10/06/20 15:58:19] D2BS 14504: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:58:31] D2BS 14504: move retry 1
+[10/06/20 15:58:42] D2BS 14504: move retry 1
+[10/06/20 15:59:02] D2BS 14504: move retry 1
+[10/06/20 15:59:03] D2BS 14504: move retry 2
+[10/06/20 15:59:10] D2BS 14504: ÿc7Picked up ÿc0Low Quality Throwing Knife ÿc0(ilvl 1)
+[10/06/20 15:59:14] D2BS 14504: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:59:22] D2BS 14504: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:59:47] D2BS 14504: ÿc1Error in ÿc0LevelFollower ÿc1(pather.js line ÿc11045): ÿc1makePortal: No TP tomes.
+[10/06/20 15:59:47] D2BS 14504: ÿc8Run duration ÿc2699.937
+[10/06/20 15:59:47] D2BS 14504: Script tools\autobuildthread.js ended
+[10/06/20 15:59:47] D2BS 14504: Script tools\party.js ended
+[10/06/20 15:59:47] D2BS 14504: Script tools\townchicken.js ended
+[10/06/20 15:59:54] D2BS 14504: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:59:54] D2BS 14504: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:59:54] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/06/20 15:59:54] D2BS 14504: Updating Config from level 0 to 5
+[10/06/20 15:59:54] D2BS 14504: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 15:59:54] D2BS 14504: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:59:54] D2BS 14504: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:59:54] D2BS 14504: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/06/20 15:59:54] D2BS 14504: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[10/06/20 15:59:54] D2BS 14504: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc215 ms
+[10/06/20 15:59:54] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/06/20 15:59:54] D2BS 14504: Updating Config from level 0 to 5
+[10/06/20 15:59:54] D2BS 14504: AutoBuild: Loaded helper thread
+[10/06/20 15:59:55] D2BS 14504: LowGold sell Dagger
+[10/06/20 15:59:55] D2BS 14504: initNPC: clearInventory
+[10/06/20 15:59:55] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/06/20 15:59:55] D2BS 14504: Updating Config from level 0 to 5
+[10/06/20 15:59:55] D2BS 14504: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:59:55] D2BS 14504: ÿc3Start ToolsThread script
+[10/06/20 15:59:55] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/06/20 15:59:55] D2BS 14504: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/06/20 15:59:55] D2BS 14504: Updating Config from level 0 to 5
+[10/06/20 15:59:55] D2BS 14504: Updating Config from level 0 to 5
+[10/06/20 16:00:01] D2BS 14504: LowGold sell Damaged Javelin
+[10/06/20 16:00:01] D2BS 14504: initNPC: clearInventory
+[10/06/20 16:00:04] D2BS 14504: LowGold sell Low Quality Throwing Knife
+[10/06/20 16:00:04] D2BS 14504: initNPC: clearInventory
+[10/06/20 16:00:06] D2BS 14504: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 16:00:25] D2BS 14504: initNPC: BuyPotions
+[10/06/20 16:00:30] D2BS 14504: move retry 1
+[10/06/20 16:01:02] D2BS 14504: move retry 1
+[10/06/20 16:01:09] D2BS 14504: move retry 1
+[10/06/20 16:01:12] D2BS 14504: move retry 2
+[10/06/20 16:01:50] D2BS 14504: ÿc7Picked up ÿc411 Gold
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: Stat points: 5      Skill points: 4
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: Level up detected ( 5 --> 6 )
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: useSkillPoint(): Oak Sage (226)
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: Skill (1/1) Increased Oak Sage (226) by one (level:  1)
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: useStatPoint(0): Strength
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: Stat (1/5) Increased Strength from 19 to 20
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: Stat (2/5) Increased Vitality from 41 to 42
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: Stat (4/5) Increased Vitality from 43 to 44
+[10/06/20 16:01:53] D2BS 14504: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 16:01:54] D2BS 14504: AutoBuild: Stat (5/5) Increased Vitality from 44 to 45
+[10/06/20 16:01:54] D2BS 14504: Updating Config from level 5 to 6
+[10/06/20 16:01:54] D2BS 14504: AutoBuild: Updating Config from level 5 to 6
+[10/06/20 16:01:54] D2BS 14504: Updating Config from level 5 to 6
+[10/06/20 16:01:54] D2BS 14504: Updating Config from level 5 to 6
+[10/06/20 16:01:54] D2BS 14504: Updating Config from level 5 to 6
+[10/06/20 16:01:54] D2BS 14504: AutoBuild: Incrementing cached character level to 6
+[10/06/20 16:01:59] D2BS 14504: ÿc7Picked up ÿc44 Gold
+[10/06/20 16:01:59] D2BS 14504: ÿc7Picked up ÿc0Short Sword ÿc0(ilvl 1)
+[10/06/20 16:02:27] D2BS 14504: ÿc7Picked up ÿc0Low Quality Eagle Orb ÿc0(ilvl 2)
+[10/06/20 16:03:47] D2BS 14504: ÿc7Picked up ÿc49 Gold
+[10/06/20 16:03:50] D2BS 14504: ÿc7Picked up ÿc49 Gold
+[10/06/20 16:03:50] D2BS 14504: ÿc7Picked up ÿc43 Gold
+[10/06/20 16:03:50] D2BS 14504: move retry 1
+[10/06/20 16:03:54] D2BS 14504: ÿc7Picked up ÿc44 Gold
+[10/06/20 16:03:57] D2BS 14504: move retry 1
+[10/06/20 16:04:00] D2BS 14504: move retry 1
+[10/06/20 16:04:07] D2BS 14504: ÿc7Picked up ÿc419 Gold
+[10/06/20 16:04:07] D2BS 14504: ÿc7Picked up ÿc429 Gold
+[10/06/20 16:04:11] D2BS 14504: ÿc7Picked up ÿc3Club ÿc0(ilvl 2) (Tornado.xpac.nip #2)
+[10/06/20 16:04:34] D2BS 14504: move retry 1
+[10/06/20 16:04:34] D2BS 14504: ÿc7Picked up ÿc44 Gold
+[10/06/20 16:04:46] D2BS 14504: ÿc7Picked up ÿc42 Gold
+[10/06/20 16:04:47] D2BS 14504: ÿc7Picked up ÿc49 Gold
+[10/06/20 16:04:52] D2BS 14504: ÿc7Picked up ÿc41 Gold
+[10/06/20 16:05:23] D2BS 14504: move retry 1
+[10/06/20 16:05:52] D2BS 14504: ÿc7Picked up ÿc0Sash ÿc0(ilvl 1) (Tornado.xpac.nip #81)
+[10/06/20 16:06:04] D2BS 14504: move retry 1
+[10/06/20 16:06:16] D2BS 14504: move retry 1
+[10/06/20 16:06:18] D2BS 14504: ÿc7Picked up ÿc0Cracked Scepter ÿc0(ilvl 2)
+[10/06/20 16:06:19] D2BS 14504: ÿc7Picked up ÿc0Damaged Throwing Knife ÿc0(ilvl 2)
+[10/06/20 16:06:20] D2BS 14504: move retry 1
+[10/06/20 16:06:29] D2BS 14504: ÿc7Picked up ÿc42 Gold
+[10/06/20 16:07:05] D2BS 14504: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 16:07:07] D2BS 14504: ÿc7Picked up ÿc410 Gold
+[10/06/20 16:07:08] D2BS 14504: ÿc7Picked up ÿc46 Gold
+[10/06/20 16:07:10] D2BS 14504: ÿc7Picked up ÿc0Damaged Leather Gloves ÿc0(ilvl 2) (Tornado.xpac.nip #72)
+[10/06/20 16:07:18] D2BS 14504: ÿc7Picked up ÿc0Crude Javelin ÿc0(ilvl 1)
+[10/06/20 16:07:51] D2BS 14504: move retry 1
+[10/06/20 16:08:03] D2BS 14504: move retry 1
+[10/06/20 16:09:16] D2BS 14504: move retry 1
+[10/06/20 16:09:18] D2BS 14504: move retry 1
+[10/06/20 16:09:31] D2BS 14504: move retry 1
+[10/06/20 16:11:03] D2BS 14504: move retry 1

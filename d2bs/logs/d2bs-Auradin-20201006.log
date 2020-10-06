@@ -1,0 +1,308 @@
+[10/06/20 15:37:56] D2BS 9072: D2BS Engine startup complete. 1.6.4U
+[10/06/20 15:37:56] D2BS 9072: Auradin
+[10/06/20 15:37:56] D2BS 9072: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/06/20 15:37:56] D2BS 9072: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 15:37:56] D2BS 9072: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 15:37:56] D2BS 9072: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 15:37:56] D2BS 9072: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 15:37:58] D2BS 9072: Heartbeat loaded
+[10/06/20 15:38:16] D2BS 9072: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:38:16] D2BS 9072: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:38:16] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 15:38:16] D2BS 9072: Updating Config from level 0 to 1
+[10/06/20 15:38:16] D2BS 9072: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:16] D2BS 9072: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc215 ms
+[10/06/20 15:38:16] D2BS 9072: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:16] D2BS 9072: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:16] D2BS 9072: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/06/20 15:38:16] D2BS 9072: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 15:38:16] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 15:38:16] D2BS 9072: Updating Config from level 0 to 1
+[10/06/20 15:38:16] D2BS 9072: AutoBuild: Loaded helper thread
+[10/06/20 15:38:17] D2BS 9072: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:38:17] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 15:38:17] D2BS 9072: Updating Config from level 0 to 1
+[10/06/20 15:38:17] D2BS 9072: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:38:17] D2BS 9072: ÿc3Start ToolsThread script
+[10/06/20 15:38:17] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 15:38:17] D2BS 9072: Updating Config from level 0 to 1
+[10/06/20 15:38:17] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 15:38:17] D2BS 9072: Updating Config from level 0 to 1
+[10/06/20 15:39:08] D2BS 9072: Failed talking to Kashya
+[10/06/20 15:39:18] D2BS 9072: initNPC: BuyPotions
+[10/06/20 15:39:24] D2BS 9072: move retry 1
+[10/06/20 15:39:38] D2BS 9072: 1,2
+[10/06/20 15:39:51] D2BS 9072: move retry 1
+[10/06/20 15:39:59] D2BS 9072: ÿc7Picked up ÿc41 Gold
+[10/06/20 15:40:09] D2BS 9072: move retry 1
+[10/06/20 15:40:20] D2BS 9072: 2,8
+[10/06/20 15:40:31] D2BS 9072: move retry 1
+[10/06/20 15:40:36] D2BS 9072: move retry 1
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: Stat points: 5      Skill points: 1
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: Level up detected ( 1 --> 2 )
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: useSkillPoint(): Prayer (99)
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  1)
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: Stat (1/5) Increased Strength from 25 to 26
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: Stat (2/5) Increased Dexterity from 20 to 21
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: Stat (3/5) Increased Vitality from 25 to 26
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: Stat (4/5) Increased Vitality from 26 to 27
+[10/06/20 15:40:37] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:40:38] D2BS 9072: AutoBuild: Stat (5/5) Increased Vitality from 27 to 28
+[10/06/20 15:40:38] D2BS 9072: AutoBuild: Updating Config from level 1 to 2
+[10/06/20 15:40:38] D2BS 9072: Updating Config from level 1 to 2
+[10/06/20 15:40:38] D2BS 9072: Updating Config from level 1 to 2
+[10/06/20 15:40:38] D2BS 9072: Updating Config from level 1 to 2
+[10/06/20 15:40:38] D2BS 9072: Updating Config from level 1 to 2
+[10/06/20 15:40:38] D2BS 9072: AutoBuild: Incrementing cached character level to 2
+[10/06/20 15:40:42] D2BS 9072: ÿc7Picked up ÿc41 Gold
+[10/06/20 15:41:12] D2BS 9072: move retry 1
+[10/06/20 15:41:25] D2BS 9072: ÿc7Picked up ÿc43 Gold
+[10/06/20 15:41:27] D2BS 9072: move retry 1
+[10/06/20 15:41:36] D2BS 9072: ÿc7Picked up ÿc0Damaged Scepter ÿc0(ilvl 1)
+[10/06/20 15:41:38] D2BS 9072: ÿc7Picked up ÿc43 Gold
+[10/06/20 15:41:58] D2BS 9072: AutoBuild: Stat points: 5      Skill points: 1
+[10/06/20 15:41:58] D2BS 9072: AutoBuild: Level up detected ( 2 --> 3 )
+[10/06/20 15:41:58] D2BS 9072: AutoBuild: useSkillPoint(): Smite (97)
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Skill (1/1) Increased Smite (97) by one (level:  1)
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Stat (1/5) Increased Strength from 26 to 27
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Stat (2/5) Increased Dexterity from 21 to 22
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[10/06/20 15:41:59] D2BS 9072: Updating Config from level 2 to 3
+[10/06/20 15:41:59] D2BS 9072: Updating Config from level 2 to 3
+[10/06/20 15:41:59] D2BS 9072: Updating Config from level 2 to 3
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Updating Config from level 2 to 3
+[10/06/20 15:41:59] D2BS 9072: Updating Config from level 2 to 3
+[10/06/20 15:41:59] D2BS 9072: AutoBuild: Incrementing cached character level to 3
+[10/06/20 15:42:07] D2BS 9072: move retry 1
+[10/06/20 15:42:15] D2BS 9072: ÿc7Picked up ÿc44 Gold
+[10/06/20 15:42:36] D2BS 9072: move retry 1
+[10/06/20 15:42:38] D2BS 9072: move retry 1
+[10/06/20 15:42:43] D2BS 9072: move retry 1
+[10/06/20 15:42:44] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 15:43:15] D2BS 9072: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
+[10/06/20 15:43:19] D2BS 9072: AutoBuild: Stat points: 5      Skill points: 1
+[10/06/20 15:43:19] D2BS 9072: AutoBuild: Level up detected ( 3 --> 4 )
+[10/06/20 15:43:19] D2BS 9072: AutoBuild: useSkillPoint(): Prayer (99)
+[10/06/20 15:43:19] D2BS 9072: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  2)
+[10/06/20 15:43:19] D2BS 9072: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: Stat (1/5) Increased Strength from 27 to 28
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: Stat (2/5) Increased Dexterity from 22 to 23
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: Stat (3/5) Increased Vitality from 31 to 32
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: Stat (5/5) Increased Vitality from 33 to 34
+[10/06/20 15:43:20] D2BS 9072: Updating Config from level 3 to 4
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: Updating Config from level 3 to 4
+[10/06/20 15:43:20] D2BS 9072: Updating Config from level 3 to 4
+[10/06/20 15:43:20] D2BS 9072: Updating Config from level 3 to 4
+[10/06/20 15:43:20] D2BS 9072: Updating Config from level 3 to 4
+[10/06/20 15:43:20] D2BS 9072: AutoBuild: Incrementing cached character level to 4
+[10/06/20 15:43:25] D2BS 9072: move retry 1
+[10/06/20 15:43:25] D2BS 9072: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #33)
+[10/06/20 15:43:28] D2BS 9072: move retry 1
+[10/06/20 15:43:33] D2BS 9072: ÿc7Picked up ÿc43 Gold
+[10/06/20 15:48:01] D2BS 9072: Script default.dbj ended
+[10/06/20 15:48:01] D2BS 9072: Script tools\autobuildthread.js ended
+[10/06/20 15:48:01] D2BS 9072: Script tools\party.js ended
+[10/06/20 15:48:01] D2BS 9072: Script tools\toolsthread.js ended
+[10/06/20 15:48:01] D2BS 9072: Script tools\townchicken.js ended
+[10/06/20 15:48:07] D2BS 9072: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:48:07] D2BS 9072: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:48:07] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 15:48:07] D2BS 9072: Updating Config from level 0 to 4
+[10/06/20 15:48:07] D2BS 9072: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:07] D2BS 9072: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc215 ms
+[10/06/20 15:48:07] D2BS 9072: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:07] D2BS 9072: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:07] D2BS 9072: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/06/20 15:48:07] D2BS 9072: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 15:48:07] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 15:48:07] D2BS 9072: Updating Config from level 0 to 4
+[10/06/20 15:48:08] D2BS 9072: AutoBuild: Loaded helper thread
+[10/06/20 15:48:08] D2BS 9072: LowGold sell Damaged Scepter
+[10/06/20 15:48:08] D2BS 9072: initNPC: clearInventory
+[10/06/20 15:48:08] D2BS 9072: ÿc3Start ToolsThread script
+[10/06/20 15:48:08] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 15:48:08] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 15:48:08] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 15:48:08] D2BS 9072: Updating Config from level 0 to 4
+[10/06/20 15:48:08] D2BS 9072: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:48:08] D2BS 9072: Updating Config from level 0 to 4
+[10/06/20 15:48:08] D2BS 9072: Updating Config from level 0 to 4
+[10/06/20 15:48:21] D2BS 9072: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:48:47] D2BS 9072: initNPC: heal
+[10/06/20 15:48:54] D2BS 9072: initNPC: BuyPotions
+[10/06/20 15:49:04] D2BS 9072: 1,2
+[10/06/20 15:49:22] D2BS 9072: ÿc7Picked up ÿc44 Gold
+[10/06/20 15:49:22] D2BS 9072: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:49:36] D2BS 9072: 2,8
+[10/06/20 15:50:02] D2BS 9072: ÿc7Picked up ÿc45 Gold
+[10/06/20 15:50:04] D2BS 9072: move retry 1
+[10/06/20 15:50:07] D2BS 9072: ÿc7Picked up ÿc410 Gold
+[10/06/20 15:50:38] D2BS 9072: move retry 1
+[10/06/20 15:50:44] D2BS 9072: move retry 1
+[10/06/20 15:51:03] D2BS 9072: ÿc7Picked up ÿc0Low Quality Boots ÿc0(ilvl 1) (Auradin.xpac.nip #66)
+[10/06/20 15:51:24] D2BS 9072: move retry 1
+[10/06/20 15:51:29] D2BS 9072: move retry 1
+[10/06/20 15:51:36] D2BS 9072: ÿc7Picked up ÿc41 Gold
+[10/06/20 15:51:49] D2BS 9072: move retry 1
+[10/06/20 15:51:56] D2BS 9072: ÿc7Picked up ÿc3Hand Axe ÿc0(ilvl 1) (Auradin.xpac.nip #6)
+[10/06/20 15:51:56] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 15:51:58] D2BS 9072: move retry 1
+[10/06/20 15:52:04] D2BS 9072: move retry 1
+[10/06/20 15:52:12] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 15:52:36] D2BS 9072: ÿc7Picked up ÿc46 Gold
+[10/06/20 15:52:37] D2BS 9072: move retry 1
+[10/06/20 15:52:43] D2BS 9072: AutoBuild: Stat points: 5      Skill points: 2
+[10/06/20 15:52:43] D2BS 9072: AutoBuild: Level up detected ( 4 --> 5 )
+[10/06/20 15:52:43] D2BS 9072: AutoBuild: useSkillPoint(): Prayer (99)
+[10/06/20 15:52:43] D2BS 9072: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  3)
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: Stat (1/5) Increased Strength from 28 to 29
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: Stat (2/5) Increased Dexterity from 23 to 24
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: Stat (3/5) Increased Vitality from 34 to 35
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: Stat (5/5) Increased Vitality from 36 to 37
+[10/06/20 15:52:44] D2BS 9072: Updating Config from level 4 to 5
+[10/06/20 15:52:44] D2BS 9072: Updating Config from level 4 to 5
+[10/06/20 15:52:44] D2BS 9072: Updating Config from level 4 to 5
+[10/06/20 15:52:44] D2BS 9072: Updating Config from level 4 to 5
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: Updating Config from level 4 to 5
+[10/06/20 15:52:44] D2BS 9072: AutoBuild: Incrementing cached character level to 5
+[10/06/20 15:52:46] D2BS 9072: ÿc7Picked up ÿc0Cracked Quilted Armor ÿc0(ilvl 1) (Auradin.xpac.nip #50)
+[10/06/20 15:52:48] D2BS 9072: move retry 1
+[10/06/20 15:53:10] D2BS 9072: move retry 1
+[10/06/20 15:53:15] D2BS 9072: move retry 1
+[10/06/20 15:53:55] D2BS 9072: 8,2
+[10/06/20 15:54:16] D2BS 9072: 2,3
+[10/06/20 15:54:21] D2BS 9072: move retry 1
+[10/06/20 15:54:37] D2BS 9072: ÿc1Error in ÿc0LevelFollower ÿc1(pather.js line ÿc11045): ÿc1makePortal: No TP tomes.
+[10/06/20 15:54:37] D2BS 9072: ÿc8Run duration ÿc2389.718
+[10/06/20 15:54:37] D2BS 9072: Script tools\autobuildthread.js ended
+[10/06/20 15:54:37] D2BS 9072: Script tools\party.js ended
+[10/06/20 15:54:37] D2BS 9072: Script tools\townchicken.js ended
+[10/06/20 15:54:44] D2BS 9072: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:54:44] D2BS 9072: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:54:44] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 15:54:44] D2BS 9072: Updating Config from level 0 to 5
+[10/06/20 15:54:44] D2BS 9072: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:54:44] D2BS 9072: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:54:44] D2BS 9072: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc215 ms
+[10/06/20 15:54:44] D2BS 9072: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 15:54:44] D2BS 9072: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/06/20 15:54:44] D2BS 9072: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 15:54:44] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 15:54:44] D2BS 9072: Updating Config from level 0 to 5
+[10/06/20 15:54:44] D2BS 9072: AutoBuild: Loaded helper thread
+[10/06/20 15:54:44] D2BS 9072: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:54:44] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 15:54:44] D2BS 9072: Updating Config from level 0 to 5
+[10/06/20 15:54:44] D2BS 9072: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:54:44] D2BS 9072: ÿc3Start ToolsThread script
+[10/06/20 15:54:44] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 15:54:44] D2BS 9072: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 15:54:44] D2BS 9072: Updating Config from level 0 to 5
+[10/06/20 15:54:44] D2BS 9072: Updating Config from level 0 to 5
+[10/06/20 15:55:02] D2BS 9072: initNPC: heal
+[10/06/20 15:55:08] D2BS 9072: initNPC: BuyPotions
+[10/06/20 15:55:10] D2BS 9072: initNPC: identify
+[10/06/20 15:55:13] D2BS 9072: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[10/06/20 15:55:14] D2BS 9072: initNPC: fillTome
+[10/06/20 15:55:16] D2BS 9072: initNPC: repair
+[10/06/20 15:55:42] D2BS 9072: 3
+[10/06/20 15:55:49] D2BS 9072: ÿc7Picked up ÿc0Cracked Leather Gloves ÿc0(ilvl 1) (Auradin.xpac.nip #78)
+[10/06/20 15:55:53] D2BS 9072: move retry 1
+[10/06/20 15:56:16] D2BS 9072: move retry 1
+[10/06/20 15:56:21] D2BS 9072: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 15:56:36] D2BS 9072: initNPC: heal
+[10/06/20 15:56:41] D2BS 9072: initNPC: repair
+[10/06/20 15:56:52] D2BS 9072: 1
+[10/06/20 15:58:14] D2BS 9072: ÿc7Picked up ÿc48 Gold
+[10/06/20 15:58:22] D2BS 9072: ÿc7Picked up ÿc0Short Sword ÿc0(ilvl 1)
+[10/06/20 15:58:51] D2BS 9072: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(4/20)
+[10/06/20 15:58:52] D2BS 9072: ÿc7Picked up ÿc43 Gold
+[10/06/20 15:58:54] D2BS 9072: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(4/20)
+[10/06/20 15:59:01] D2BS 9072: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(5/20)
+[10/06/20 15:59:07] D2BS 9072: ÿc7Picked up ÿc0Hand Axe ÿc0(ilvl 2)
+[10/06/20 15:59:25] D2BS 9072: ÿc7Picked up ÿc0Chipped Ruby ÿc0(ilvl 1)
+[10/06/20 15:59:26] D2BS 9072: ÿc7Picked up ÿc0Javelin ÿc0(ilvl 2)
+[10/06/20 15:59:28] D2BS 9072: ÿc7Picked up ÿc0Cracked Hand Axe ÿc0(ilvl 2)
+[10/06/20 15:59:50] D2BS 9072: initNPC: heal
+[10/06/20 15:59:55] D2BS 9072: initNPC: identify
+[10/06/20 15:59:56] D2BS 9072: ÿc4MiniShopBotÿc0: Scanning 45 items.
+[10/06/20 15:59:57] D2BS 9072: LowGold sell Cracked Hand Axe
+[10/06/20 15:59:57] D2BS 9072: initNPC: clearInventory
+[10/06/20 15:59:57] D2BS 9072: LowGold sell Javelin
+[10/06/20 15:59:57] D2BS 9072: initNPC: clearInventory
+[10/06/20 15:59:59] D2BS 9072: LowGold sell Hand Axe
+[10/06/20 15:59:59] D2BS 9072: initNPC: clearInventory
+[10/06/20 16:00:01] D2BS 9072: LowGold sell Short Sword
+[10/06/20 16:00:01] D2BS 9072: initNPC: clearInventory
+[10/06/20 16:00:03] D2BS 9072: LowGold sell Chipped Ruby
+[10/06/20 16:00:03] D2BS 9072: initNPC: clearInventory
+[10/06/20 16:00:13] D2BS 9072: 1
+[10/06/20 16:00:17] D2BS 9072: initNPC: fillTome
+[10/06/20 16:01:39] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 16:01:42] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 16:01:45] D2BS 9072: ÿc7Picked up ÿc41 Gold
+[10/06/20 16:01:45] D2BS 9072: AutoBuild: Stat points: 5      Skill points: 2
+[10/06/20 16:01:45] D2BS 9072: AutoBuild: Level up detected ( 5 --> 6 )
+[10/06/20 16:01:45] D2BS 9072: AutoBuild: useSkillPoint(): Prayer (99)
+[10/06/20 16:01:45] D2BS 9072: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  4)
+[10/06/20 16:01:45] D2BS 9072: AutoBuild: useStatPoint(0): Strength
+[10/06/20 16:01:45] D2BS 9072: move retry 1
+[10/06/20 16:01:45] D2BS 9072: AutoBuild: Stat (1/5) Increased Strength from 29 to 30
+[10/06/20 16:01:45] D2BS 9072: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: Stat (2/5) Increased Dexterity from 24 to 25
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: Stat (3/5) Increased Vitality from 37 to 38
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: Stat (4/5) Increased Vitality from 38 to 39
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[10/06/20 16:01:46] D2BS 9072: Updating Config from level 5 to 6
+[10/06/20 16:01:46] D2BS 9072: Updating Config from level 5 to 6
+[10/06/20 16:01:46] D2BS 9072: Updating Config from level 5 to 6
+[10/06/20 16:01:46] D2BS 9072: Updating Config from level 5 to 6
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: Updating Config from level 5 to 6
+[10/06/20 16:01:46] D2BS 9072: AutoBuild: Incrementing cached character level to 6
+[10/06/20 16:01:54] D2BS 9072: ÿc7Picked up ÿc49 Gold
+[10/06/20 16:01:54] D2BS 9072: ÿc7Picked up ÿc0Cap ÿc0(ilvl 2) (Auradin.xpac.nip #33)
+[10/06/20 16:01:56] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 16:02:23] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 16:03:03] D2BS 9072: ÿc7Picked up ÿc410 Gold
+[10/06/20 16:03:04] D2BS 9072: ÿc7Picked up ÿc44 Gold
+[10/06/20 16:03:09] D2BS 9072: move retry 1
+[10/06/20 16:03:47] D2BS 9072: ÿc7Picked up ÿc49 Gold
+[10/06/20 16:04:07] D2BS 9072: ÿc7Picked up ÿc419 Gold
+[10/06/20 16:04:07] D2BS 9072: ÿc7Picked up ÿc429 Gold
+[10/06/20 16:04:35] D2BS 9072: ÿc7Picked up ÿc44 Gold
+[10/06/20 16:04:42] D2BS 9072: move retry 1
+[10/06/20 16:04:43] D2BS 9072: move retry 1
+[10/06/20 16:04:48] D2BS 9072: ÿc7Picked up ÿc49 Gold
+[10/06/20 16:05:04] D2BS 9072: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
+[10/06/20 16:06:29] D2BS 9072: ÿc7Picked up ÿc42 Gold
+[10/06/20 16:07:21] D2BS 9072: move retry 1
+[10/06/20 16:07:46] D2BS 9072: ÿc7Picked up ÿc0Cracked Throwing Knife ÿc0(ilvl 2)
+[10/06/20 16:07:46] D2BS 9072: ÿc7Picked up ÿc0Cracked Javelin ÿc0(ilvl 2)
+[10/06/20 16:08:17] D2BS 9072: move retry 1
+[10/06/20 16:09:04] D2BS 9072: move retry 1
+[10/06/20 16:09:35] D2BS 9072: move retry 1
