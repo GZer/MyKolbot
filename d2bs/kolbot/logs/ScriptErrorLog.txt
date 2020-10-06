@@ -1,2 +1,5 @@
 [2020/10/06 16:47:43] <Singer> Error in LevelLeader (pather.js line 1045): makePortal: No TP tomes.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1063, @levelleader.js:607, Town.doChores@town.js:71, Town.goToTown@town.js:2216, Pather.makePortal@pather.js:1045
+[2020/10/06 19:32:20] <Singer> Error in LevelLeader (levelleader.js line 454): push is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1078, @levelleader.js:115, @levelleader.js:454
+[2020/10/06 20:55:38] <ColdSorc> Failed to include script: LevelFollower

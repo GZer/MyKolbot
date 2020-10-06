@@ -5,9 +5,12 @@
 */
 
 function LevelLeader(){
-	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb,MyMercType,MyMercDiff,MyMercAura,HiredMercAura,MyMerc;
-	var MercId=[],TeleSorcs=["Zer_Fire","Zer_Light","Zer_Cold"];
-	var FullClearAreas=[3,4,5,6,35,36,
+	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb;
+	var TeleSorcs=["Zer_Fire","Zer_Light","Zer_Cold"];
+	var MercId=[],MyMercDiff=0,MercAuraName,HiredMercAura;
+	var MercAuraSkills=[0,104,98,114,99,108,0];
+	var MercAuraNames=["$","Defiance","Might","Holy Freeze","Prayer","Blessed Aim","$"];
+	var FullClearAreas=[3,4,5,6,
 	43,44,
 	105,106,
 	111,113,115,118,129,130];
@@ -109,8 +112,8 @@ function LevelLeader(){
 			case 37: //Andariel
 				Pather.moveTo(22535,9653,2,true,true);
 				delay(5000);
-				Pather.moveTo(22480,9570,2,true,true);
-				Pather.moveTo(22549,9520,2,true,true);
+				// Pather.moveTo(22480,9570,2,true,true);
+				// Pather.moveTo(22549,9520,2,true,true);
 				this.tryMakePortal();
 				this.killImportantQuestBoss(156,22549,9577);
 				Town.doChores();
@@ -204,7 +207,6 @@ function LevelLeader(){
 			case 83: //Khalim Flail
 				Pather.useWaypoint(75);
 				Town.doChores();
-				Pather.journeyTo(83);
 				this.clearToQuestLocation(83,2,404);
 				this.killImportantQuestBoss([345,346,347]);
 				this.getQuestItem(173);
@@ -447,12 +449,12 @@ function LevelLeader(){
 	this.killImportantQuestBoss=function(TargetBoss,XCoord,YCoord){
 		var Bosses=[],Boss,Party=getParty(),i;
 		if(XCoord > 0 && YCoord > 0){
-			Pather.moveTo(XCoord,YCoord,2,true,true);
+			Pather.moveTo(XCoord,YCoord,2);
 		}
 		if(TargetBoss instanceof Array){
 			Bosses=TargetBoss;
 		}else{
-			Bosses=push(TargetBoss);
+			Bosses.push(TargetBoss);
 		}
 		for(i=0; i < Bosses.length; i++){
 			Boss=getUnit(1,Bosses[i]);
@@ -460,7 +462,7 @@ function LevelLeader(){
 				while(Party && !Boss.dead){
 					Skill.cast(132,0,Boss.x,Boss.y);
 					delay(100);
-					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 15){
+					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 25){
 						this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 						quit();
 					}
@@ -726,10 +728,14 @@ function LevelLeader(){
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
 		if(!me.getQuest(18,0) && !me.getItem(174)){
-			if(Eye){Storage.Cube.MoveTo(Eye);}else{this.getKhalimEye();Storage.Cube.MoveTo(Eye);}
-			if(Brain){Storage.Cube.MoveTo(Brain);}else{this.getKhalimBrain();Storage.Cube.MoveTo(Brain);}
-			if(Heart){Storage.Cube.MoveTo(Heart);}else{this.getKhalimHeart();Storage.Cube.MoveTo(Heart);}
-			if(Flail){Storage.Cube.MoveTo(Flail);}else{this.logProgress(null,"Quit CubingFlail");quit();}
+			if(Eye){Storage.Cube.MoveTo(Eye);}
+			else{this.getKhalimEye();Storage.Cube.MoveTo(Eye);}
+			if(Brain){Storage.Cube.MoveTo(Brain);}
+			else{this.getKhalimBrain();Storage.Cube.MoveTo(Brain);}
+			if(Heart){Storage.Cube.MoveTo(Heart);}
+			else{this.getKhalimHeart();Storage.Cube.MoveTo(Heart);}
+			if(Flail){Storage.Cube.MoveTo(Flail);}
+			else{this.logProgress(null,"Quit CubingFlail");quit();}
 			Cubing.openCube();
 			transmute();
 			delay(1000);
@@ -838,8 +844,10 @@ function LevelLeader(){
 	this.cubeStaff=function(){
 		var HoradricStaff=me.getItem(91),Staff=me.getItem(92),Amulet=me.getItem(521);
 		if(!HoradricStaff){
-			if(Staff){Storage.Cube.MoveTo(Staff);}else{this.CheckQuests(62);Storage.Cube.MoveTo(Staff);}
-			if(Amulet){Storage.Cube.MoveTo(Amulet);}else {this.CheckQuests(45);Storage.Cube.MoveTo(Amulet);}
+			if(Staff){Storage.Cube.MoveTo(Staff);}
+			else{this.CheckQuests(62);Storage.Cube.MoveTo(Staff);}
+			if(Amulet){Storage.Cube.MoveTo(Amulet);}
+			else{this.CheckQuests(45);Storage.Cube.MoveTo(Amulet);}
 		}
 		Cubing.openCube();
 		transmute();
@@ -856,35 +864,9 @@ function LevelLeader(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,MyMerc=me.getMerc();
-		switch(me.classid){			
-			//Amazon
-			case 0:
-				break;
-			//Sorcerer
-			case 1:
-				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
-				break;
-			//Necromancer
-			case 2:
-				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
-				break;
-			//Paladin
-			case 3:
-				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
-				break;
-			//Barbarian
-			case 4:
-				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
-				break;
-			//Druid
-			case 5:
-				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
-				break;
-			//Assassin
-			case 6:
-				break;
-		}
+		var ReplaceMerc=false,MyMerc=me.getMerc(),MercAuraName=MercAuraNames[me.classid];
+		//Nightmare Auras instead of Norm Auras
+		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		
 		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
@@ -892,12 +874,12 @@ function LevelLeader(){
 				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
 				return false;
 			}else{
-				//Revive Merc
+				//Revive and Assign Merc
 				Town.reviveMerc();
-				//Assign Merc
 				MyMerc=me.getMerc();
 			}
-		}else if(MyMerc){
+		}
+		if(MyMerc){
 			if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){
 				ReplaceMerc=true;
 			}
@@ -912,7 +894,7 @@ function LevelLeader(){
 			this.unEquipMerc();
 			this.hireA2Merc();
 			Item.autoEquipMerc();
-			this.logProgress(me.getMerc(),"Merc level too low,Replaced with "+HiredMercAura+" Merc - "+me.name);
+			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
 		return true;
@@ -945,30 +927,29 @@ function LevelLeader(){
 	};
 	
 	this.hireA2Merc=function(){
-		var Count=0;
+		var i,MyMerc;
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
 		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length > 0 && Count < 9){
+			while(MercId.length > 0){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
-				//If it's the wrong difficulty just hire a random merc
-				if(me.diff != MyMercDiff){
-					HiredMercAura="Random";
-					return me.getMerc();
-				}
 				delay(rand(100,1000));
 				MyMerc=me.getMerc();
-				if(MyMerc.getSkill(MyMercType,1)){
-					HiredMercAura=MyMercAura;
+				for(i=0; i < MercAuraSkills.length; i++){
+					if(MyMerc.getSkill(MercAuraSkills[i],1)){
+						HiredMercAura=MercAuraNames[i];
+					}
+				}
+				//If it's the wrong difficulty or we have the right aura stop
+				if(me.diff != MyMercDiff || HiredMercAura == MercAuraName){
 					return me.getMerc();
 				}
-				Count++;
 			}
 		}
 		return me.getMerc();
@@ -1050,6 +1031,7 @@ function LevelLeader(){
 		return true;
 	};
 	
+	//Start Script
 	//while(true){say(me.x+","+me.y);delay(2000);}
 	this.configCharacter(me.charlvl);
 	this.checkProgress();

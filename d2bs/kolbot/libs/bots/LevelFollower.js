@@ -5,7 +5,10 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhoIsLeader,MercId=[],TalRashaTomb=getRoom().correcttomb,MyMercType,MyMercDiff,MyMercAura,HiredMercAura,MyMerc;
+	var LeaderUnit,WhoIsLeader,TalRashaTomb=getRoom().correcttomb;
+	var MercId=[],MyMercDiff=0,MercAuraName,HiredMercAura;
+	var MercAuraSkills=[0,104,98,114,99,108,0];
+	var MercAuraNames=["$","Defiance","Might","Holy Freeze","Prayer","Blessed Aim","$"];
 	var TownWaypoints=[0,40,75,103,109];
 	var TeleportAreas=[62,74,76,77,78,88];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
@@ -238,7 +241,10 @@ function LevelFollower(){
 				break;
 				//Arcane Sanctuary
 				case 74:
-					if(Pather.moveToPreset(74,2,357)){DestinationReached=true;}else{Town.doChores}
+					Pather.useWaypoint(40);
+					Town.doChores();
+					Pather.journeyTo(74);
+					if(Pather.moveToPreset(74,2,357)){DestinationReached=true;}else{Pather.useWaypoint(40);}
 				break;
 				//Spider Forest
 				case 76:
@@ -283,35 +289,9 @@ function LevelFollower(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,MyMerc=me.getMerc();
-		switch(me.classid){			
-			//Amazon
-			case 0:
-				break;
-			//Sorcerer
-			case 1:
-				MyMercType=104,MyMercDiff=0,MyMercAura="Defiance";
-				break;
-			//Necromancer
-			case 2:
-				MyMercType=98,MyMercDiff=1,MyMercAura="Might";
-				break;
-			//Paladin
-			case 3:
-				MyMercType=114,MyMercDiff=1,MyMercAura="Holy Freeze";
-				break;
-			//Barbarian
-			case 4:
-				MyMercType=99,MyMercDiff=0,MyMercAura="Prayer";
-				break;
-			//Druid
-			case 5:
-				MyMercType=108,MyMercDiff=0,MyMercAura="Blessed Aim";
-				break;
-			//Assassin
-			case 6:
-				break;
-		}
+		var ReplaceMerc=false,MyMerc=me.getMerc(),MercAuraName=MercAuraNames[me.classid];
+		//Nightmare Auras instead of Norm Auras
+		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		
 		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
@@ -319,12 +299,12 @@ function LevelFollower(){
 				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
 				return false;
 			}else{
-				//Revive Merc
+				//Revive and Assign Merc
 				Town.reviveMerc();
-				//Assign Merc
 				MyMerc=me.getMerc();
 			}
-		}else if(MyMerc){
+		}
+		if(MyMerc){
 			if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){
 				ReplaceMerc=true;
 			}
@@ -339,7 +319,7 @@ function LevelFollower(){
 			this.unEquipMerc();
 			this.hireA2Merc();
 			Item.autoEquipMerc();
-			this.logProgress(me.getMerc(),"Merc level too low,Replaced with "+HiredMercAura+" Merc - "+me.name);
+			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
 		return true;
@@ -372,30 +352,29 @@ function LevelFollower(){
 	};
 	
 	this.hireA2Merc=function(){
-		var Count=0;
+		var i,MyMerc;
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
 		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length > 0 && Count < 9){
+			while(MercId.length > 0){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
 				sendPacket(1,0x36,4,Greiz.gid,4,MercId[0]);
-				//If it's the wrong difficulty just hire a random merc
-				if(me.diff != MyMercDiff){
-					HiredMercAura="Random";
-					return me.getMerc();
-				}
 				delay(rand(100,1000));
 				MyMerc=me.getMerc();
-				if(MyMerc.getSkill(MyMercType,1)){
-					HiredMercAura=MyMercAura;
+				for(i=0; i < MercAuraSkills.length; i++){
+					if(MyMerc.getSkill(MercAuraSkills[i],1)){
+						HiredMercAura=MercAuraNames[i];
+					}
+				}
+				//If it's the wrong difficulty or we have the right aura stop
+				if(me.diff != MyMercDiff || HiredMercAura == MercAuraName){
 					return me.getMerc();
 				}
-				Count++;
 			}
 		}
 		return me.getMerc();
@@ -414,7 +393,7 @@ function LevelFollower(){
 	};
 	
 	this.configCharacter=function(CharacterLevel){
-		var i,Party=getParty(),partyTimeout=0,MyMercLevel=0;
+		var i,Party=getParty(),partyTimeout=0,MyMerc=me.getMerc(),MyMercLevel=0;
 		Town.move("portalspot");
 		this.checkMerc();
 		if(MyMerc){MyMercLevel=MyMerc.charlvl;}
@@ -447,9 +426,10 @@ function LevelFollower(){
 			}
 		}
 		LeaderUnit=this.getLeaderUnit(Config.Leader);
-		this.logGame("Level:"+CharacterLevel+" Merclevel:"+MyMercLevel+" Gold:"+me.gold+" Char:"+me.name);
+		this.logGame("Level:"+CharacterLevel+" Merclevel:"+(MyMercLevel-CharacterLevel)+" Gold:"+me.gold+" Char:"+me.name);
 	};
 	
+	//Start Script
 	this.configCharacter(me.charlvl);
 	
 	while(LeaderUnit){
