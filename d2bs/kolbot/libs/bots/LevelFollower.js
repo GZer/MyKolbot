@@ -329,15 +329,15 @@ function LevelFollower(){
 			clickItem(4,i);
 			delay(1000);
 
-			if (me.itemoncursor) {
+			if(me.itemoncursor){
 				delay(1000);
 				cursorItem=getUnit(100);
 
-				if (cursorItem) {
+				if(cursorItem){
 					Storage.Inventory.MoveTo(cursorItem);
 					delay(1500);
 					
-					if (me.itemoncursor) {
+					if(me.itemoncursor){
 						Misc.click(0,0,me);
 						delay(1000);
 					}
@@ -377,11 +377,11 @@ function LevelFollower(){
 		return me.getMerc();
 	};
 	
-	this.gamePacket=function (bytes) {
-		 switch(bytes[0]) {
+	this.gamePacket=function(bytes){
+		 switch(bytes[0]){
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) != -1) {
+				if(MercId.indexOf(id) != -1){
 					MercId.length=0;
 				}
 				MercId.push(id);

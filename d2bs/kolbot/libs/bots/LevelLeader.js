@@ -418,12 +418,12 @@ function LevelLeader(){
 			if(this.waitForTeleporter(ToArea)){Pather.getWP(ToArea);}
 		}
 		this.logProgress((me.area == ToArea),"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
-		return (me.area == ToArea);
+		return(me.area == ToArea);
 	};
 	
-	this.getPlayerCount=function () {
+	this.getPlayerCount=function(){
 		var Count=0,Party=getParty(),PlayerAct;
-		if (Party) {
+		if(Party){
 			do{
 				if(Party.area == 0){PlayerAct=me.act;}
 				else if(Party.area > 108){PlayerAct=5;}
@@ -890,15 +890,15 @@ function LevelLeader(){
 			clickItem(4,i);
 			delay(1000);
 
-			if (me.itemoncursor) {
+			if(me.itemoncursor){
 				delay(1000);
 				cursorItem=getUnit(100);
 
-				if (cursorItem) {
+				if(cursorItem){
 					Storage.Inventory.MoveTo(cursorItem);
 					delay(1500);
 					
-					if (me.itemoncursor) {
+					if(me.itemoncursor){
 						Misc.click(0,0,me);
 						delay(1000);
 					}
@@ -938,11 +938,11 @@ function LevelLeader(){
 		return me.getMerc();
 	};
 	
-	this.gamePacket=function (bytes) {
-		 switch(bytes[0]) {
+	this.gamePacket=function(bytes){
+		 switch(bytes[0]){
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) != -1) {
+				if(MercId.indexOf(id) != -1){
 					MercId.length=0;
 				}
 				MercId.push(id);
