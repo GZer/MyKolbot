@@ -135,7 +135,7 @@ function LevelFollower(){
 			
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
-				delay(1000);
+				delay(500);
 				switch(LeaderArea){
 					//Go To Town
 					case 1:
@@ -144,7 +144,7 @@ function LevelFollower(){
 					case 103:
 					case 109:
 						try{Town.doChores();}catch(err){print("Failed going to town")}
-						delay(1000);
+						delay(500);
 					break;
 					//Talk to Atma for Tals Tomb
 					case 46:
@@ -195,7 +195,7 @@ function LevelFollower(){
 				else{
 					Pather.journeyTo(LeaderArea);
 				}
-				delay(200);
+				delay(150);
 				Pather.teleport=false;
 				Pather.getWP(me.area,true);
 			}
@@ -402,9 +402,9 @@ function LevelFollower(){
 			var MalahPotion=me.getItem(644);
 			MalahPotion.drop();
 		}	
-		delay(250);
+		delay(150);
 		Pather.getWP(me.area);
-		delay(250);
+		delay(150);
 		Town.move("portalspot");
 		if(CharacterLevel > 7){
 			Town.doChores();
@@ -413,7 +413,7 @@ function LevelFollower(){
 		}
 		Town.initNPC("Shop","BuyPotions");
 		me.cancel();
-		delay(250);
+		delay(150);
 		Pickit.pickItems();
 		WhoIsLeader=getParty(Config.Leader);
 		//Loop to ensure leader is assigned

@@ -28,7 +28,8 @@ function LevelLeader(){
 	this.CheckQuests=function(CurrentArea){
 		var Stones,Gibbet,Altar,BaalPortal,i=0;
 		if(me.area != CurrentArea){
-			try{Pather.useWaypoint(CurrentArea);}catch(err){Pather.journeyTo(CurrentArea);}
+			try{Pather.useWaypoint(CurrentArea);}
+			catch(err){Pather.journeyTo(CurrentArea);}
 		}
 		switch(CurrentArea){
 			case 8: //Clear Den of Evil
@@ -304,11 +305,8 @@ function LevelLeader(){
 				this.waitForUnit(1,542);
 				this.killImportantQuestBoss([540,541,542]);
 				// Attack.clear(50);
-				try{
-					Pather.moveToExit(128,true,true);
-				}catch(err){
-					Pather.journeyTo(128);
-				}
+				try{Pather.moveToExit(128,true,true);}
+				catch(err){Pather.journeyTo(128);}
 				this.logProgress(me.getQuest(39,0),"Ancients");
 			break;
 			case 131: //Baal
@@ -333,18 +331,15 @@ function LevelLeader(){
 		return true;
 	};
 		
-// == == == == == == == =COMMON FUNCTIONS == == == == == == == =//
+//==============COMMON FUNCTIONS==============//
 
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
 		dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
 		
-		if(Completed){
-			Progress="Completed";
-		}		
-		try{
-			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" "+Progress+"\n");
-		}catch(err){
+		if(Completed){Progress="Completed";}		
+		try{FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" "+Progress+"\n");}
+		catch(err){
 			D2Bot.printToConsole("Failed to Log Progress",10);
 			return false;
 		}
@@ -353,11 +348,8 @@ function LevelLeader(){
 	
 	this.tryMakePortal=function(){
 		if(!Pather.getPortal(null,me.name)){
-			try{
-				Pather.makePortal();
-			}catch(err){
-				print("Failed to make portal");
-			}
+			try{Pather.makePortal();}
+			catch(err){print("Failed to make portal");}
 		}
 		return Pather.getPortal(null,me.name);
 	};
@@ -494,9 +486,8 @@ function LevelLeader(){
 		Town.goToTown();
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
-		if(NPC && NPC.openMenu()){
-			me.cancel();
-		}else{
+		if(NPC && NPC.openMenu()){me.cancel();}
+		else{
 			this.logProgress(null,"Talk to NPC "+NPCName);
 			return false;
 		}
@@ -540,11 +531,8 @@ function LevelLeader(){
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
 		if(Pather.accessToAct(DestinationAct) && getWaypoint(WaypointAreas.indexOf(TownWaypoints[DestinationAct-1]))){
-			try{
-				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
-			}catch(err){
-				print("Failed using Waypoint to change acts")
-			}
+			try{Pather.journeyTo(TownWaypoints[DestinationAct-1]);}
+			catch(err){print("Failed using Waypoint to change acts")}
 			return true;
 		}
 		try{
@@ -602,7 +590,6 @@ function LevelLeader(){
 		if(Config.UseMerc){
 			this.checkMerc();
 		}
-		
 		this.logProgress(me.act == DestinationAct,"Change to Act "+DestinationAct);
 		return me.act == DestinationAct;
 	};
@@ -622,9 +609,8 @@ function LevelLeader(){
 		}
 		delay(5000);
 		Precast.doPrecast(true);
-		if(DestinationArea == 74){
-			Pather.useWaypoint(40);
-		}else{
+		if(DestinationArea == 74){Pather.useWaypoint(40);}
+		else{
 			Town.doChores();
 			Town.goToTown(PortalTown);
 		}
@@ -634,8 +620,7 @@ function LevelLeader(){
 				if(Pather.getPortal(DestinationArea,TeleSorcs[i])){
 					Pather.usePortal(DestinationArea,TeleSorcs[i]);
 					this.tryMakePortal();
-					Attack.clear(10);
-					delay(500);
+					Attack.clear(5);
 					WaitingLimit=120;
 				}
 			}
@@ -659,7 +644,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// == == == == == == == =ACT V FUNCTIONS == == == == == == == =//
+//==============ACT V FUNCTIONS==============//
 	
 	this.FreeAnya=function(){
 		var Anya=getUnit(2,558);
@@ -678,19 +663,15 @@ function LevelLeader(){
 		return true;
 	};
 	
-// == == == == == == == =ACT IV FUNCTIONS == == == == == == == =//
+//==============ACT IV FUNCTIONS==============//
 	
 	this.openSeal=function(SealId){
 		this.clearToQuestLocation(108,2,SealId);
 		var i,tick,Seal=getUnit(2,SealId);
 		if(Seal){
 			for(i=0; i < 5; i++){
-				if(SealId == 394){
-					Misc.click(0,0,Seal);
-				}
-				else{
-					Seal.interact();
-				}
+				if(SealId == 394){Misc.click(0,0,Seal);}
+				else{Seal.interact();}
 				tick=getTickCount();
 				while(getTickCount()-tick < 500){
 					if(Seal.mode){
@@ -704,7 +685,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-// == == == == == == == =ACT III FUNCTIONS == == == == == == == =//
+//==============ACT III FUNCTIONS==============//
 
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0,Will=me.getItem(174);
@@ -800,7 +781,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-// == == == == == == == =ACT II FUNCTIONS == == == == == == == =//
+//==============ACT II FUNCTIONS==============//
 		
 	this.talkToTyrael=function(){
 		var i,NPC=getUnit(1,"Tyrael");
@@ -967,7 +948,7 @@ function LevelLeader(){
 		}
 	};
 
-// == == == == == == == =START & END FUNCTIONS == == == == == == == =//
+//==============START & END FUNCTIONS==============//
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
@@ -982,7 +963,7 @@ function LevelLeader(){
 		if(!me.getQuest(37,0)){say("Anya");this.CheckQuests(114);}
 		if(!me.getQuest(38,3)){say("Nihlathak");this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
-	}
+	};
 	
 	this.checkProgress=function(){
 		var i,UpToArea;
@@ -990,12 +971,11 @@ function LevelLeader(){
 			if(getWaypoint(38)){UpToArea=129;}
 			else if(!getWaypoint(i)){
 				i--;
-				// if(WaypointAreas[i] > 76 && WaypointAreas[i] < 79){
-					// UpToArea=76;
-				// }else{
-					// UpToArea=WaypointAreas[i];
-				// }
 				UpToArea=WaypointAreas[i];
+				//Horadric Staff
+				if(me.getItem(91)){UpToArea=46;}
+				//Khalims Will
+				if(me.getItem(174)){UpToArea=83;}
 				break;
 			}
 			if(WaypointAreas[i] < 40){ActNumber=0;}
