@@ -313,7 +313,7 @@ function LevelFollower(){
 				break;
 		}
 		
-		//If we have a Merc check its within level, otherwise get free one
+		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
 			if(me.gold < me.mercrevivecost){
 				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
@@ -335,7 +335,7 @@ function LevelFollower(){
 		
 		if(ReplaceMerc && this.unEquipMerc() && me.act >= 2){
 			this.hireA2Merc();
-			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
+			this.logProgress(me.getMerc(),"Merc level too low,Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
 		return true;
@@ -346,7 +346,7 @@ function LevelFollower(){
 		for(i=1; i < 5; i++){
 			//2 Handed Weapons fix
 			if(i==2){i=3;}
-			clickItem(4, i);
+			clickItem(4,i);
 			delay(1000);
 
 			if (me.itemoncursor) {
@@ -358,7 +358,7 @@ function LevelFollower(){
 					delay(1500);
 					
 					if (me.itemoncursor) {
-						Misc.click(0, 0, me);
+						Misc.click(0,0,me);
 						delay(1000);
 					}
 				}
@@ -372,7 +372,7 @@ function LevelFollower(){
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
-		addEventListener("gamepacket", gamePacket);
+		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
 			while(MercId.length > 0 && Count < 9){
@@ -428,7 +428,7 @@ function LevelFollower(){
 		}else{
 			Town.heal();
 		}
-		Town.initNPC("Shop", "BuyPotions");
+		Town.initNPC("Shop","BuyPotions");
 		me.cancel();
 		delay(250);
 		Pickit.pickItems();

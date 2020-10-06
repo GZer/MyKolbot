@@ -446,9 +446,16 @@ function LevelLeader(){
 	};
 	
 	this.getPlayerCount=function () {
-		var Count=0, Party=getParty();
+		var Count=0,Party=getParty();
 		if (Party) {
-			do{Count++;}while(Party.getNext() && me.act == Party.act);
+			do{
+				if(Party.area > 108 && me.act != 5){return 0;}
+				else if(Party.area > 102 && me.act != 4){return 0;}
+				else if(Party.area > 74 && me.act != 3){return 0;}
+				else if(Party.area > 39 && me.act != 2){return 0;}
+				else if(Party.area > 0 && me.act != 1){return 0;}
+				Count++;
+			}while(Party.getNext());
 		}
 		return Count;
 	};
@@ -886,7 +893,7 @@ function LevelLeader(){
 				break;
 		}
 		
-		//If we have a Merc check its within level, otherwise get free one
+		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
 			if(me.gold < me.mercrevivecost){
 				this.logProgress(me.getMerc(),"Not enough gold for Merc - "+me.name);
@@ -908,7 +915,7 @@ function LevelLeader(){
 		
 		if(ReplaceMerc && this.unEquipMerc() && me.act >= 2){
 			this.hireA2Merc();
-			this.logProgress(me.getMerc(),"Merc level too low, Replaced with "+HiredMercAura+" Merc - "+me.name);
+			this.logProgress(me.getMerc(),"Merc level too low,Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
 		return true;
@@ -919,7 +926,7 @@ function LevelLeader(){
 		for(i=1; i < 5; i++){
 			//2 Handed Weapons fix
 			if(i==2){i=3;}
-			clickItem(4, i);
+			clickItem(4,i);
 			delay(1000);
 
 			if (me.itemoncursor) {
@@ -931,7 +938,7 @@ function LevelLeader(){
 					delay(1500);
 					
 					if (me.itemoncursor) {
-						Misc.click(0, 0, me);
+						Misc.click(0,0,me);
 						delay(1000);
 					}
 				}
@@ -945,7 +952,7 @@ function LevelLeader(){
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
-		addEventListener("gamepacket", gamePacket);
+		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
 			while(MercId.length > 0 && Count < 9){
