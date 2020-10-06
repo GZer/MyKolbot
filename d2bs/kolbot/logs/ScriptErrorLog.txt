@@ -19,3 +19,9 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1039, @levelleader.js:216, @levelleader.js:711, @levelleader.js:746, @levelleader.js:371, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/06 23:03:04] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 51
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1038, @levelleader.js:216, @levelleader.js:711, @levelleader.js:746, @levelleader.js:371, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/06 23:26:37] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:430, @levelfollower.js:420, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/07 04:57:47] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/07 04:59:00] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
