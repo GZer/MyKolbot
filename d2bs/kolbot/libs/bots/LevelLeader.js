@@ -414,8 +414,7 @@ function LevelLeader(){
 		if(!getWaypoint(WaypointAreas.indexOf(ToArea))){
 			Pather.useWaypoint(FromArea);
 			delay(5000);
-			this.waitForTeleporter(ToArea);
-			Pather.getWP(ToArea,true);
+			if(this.waitForTeleporter(ToArea)){Pather.getWP(ToArea);}
 		}
 		this.logProgress((me.area == ToArea),"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
 		return (me.area == ToArea);
@@ -453,8 +452,8 @@ function LevelLeader(){
 			if(Boss){
 				while(Party && !Boss.dead){
 					Skill.cast(132,0,Boss.x,Boss.y);
-					delay(100);
-					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 25){
+					delay(150);
+					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 60){
 						this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 						quit();
 					}
@@ -596,7 +595,6 @@ function LevelLeader(){
 	
 	this.waitForTeleporter=function(DestinationArea){
 		var i,WaitingLimit=0,PortalTown=2;
-		say("Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
 		this.tryMakePortal();
 		if(DestinationArea > 75){
 			PortalTown=3;
@@ -973,7 +971,7 @@ function LevelLeader(){
 				i--;
 				UpToArea=WaypointAreas[i];
 				//Horadric Staff
-				if(me.getItem(91)){UpToArea=46;}
+				if(me.getItem(91)){UpToArea=74;}
 				//Khalims Will
 				if(me.getItem(174)){UpToArea=83;}
 				break;
@@ -1012,7 +1010,7 @@ function LevelLeader(){
 	};
 	
 	//Start Script
-	//while(true){say(me.x+","+me.y);delay(2000);}
+	// while(true){say(me.x+","+me.y);say(this.getPlayerCount());delay(2000);}
 	this.configCharacter(me.charlvl);
 	this.checkProgress();
 	

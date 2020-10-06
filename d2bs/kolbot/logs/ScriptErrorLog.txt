@@ -3,3 +3,15 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 [2020/10/06 19:32:20] <Singer> Error in LevelLeader (levelleader.js line 454): push is not defined
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1078, @levelleader.js:115, @levelleader.js:454
 [2020/10/06 20:55:38] <ColdSorc> Failed to include script: LevelFollower
+[2020/10/06 21:43:21] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1025, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/06 21:44:16] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1029, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/06 21:45:43] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1029, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/06 22:13:11] <Wind> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:435, @levelfollower.js:425, @levelfollower.js:196, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/06 22:14:45] <Auradin> Error in TownChicken.js (prototypes.js line 251): Unit.sell: Must be used on items.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2261, Town.doChores@town.js:89, Town.clearInventory@town.js:1992, Unit.prototype.sell@prototypes.js:251
+[2020/10/06 22:17:03] <Wind> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:435, @levelfollower.js:425, @levelfollower.js:196, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999

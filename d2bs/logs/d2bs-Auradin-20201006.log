@@ -2885,3 +2885,483 @@
 [10/06/20 21:40:04] D2BS 10056: move retry 1
 [10/06/20 21:40:06] D2BS 10056: initNPC: BuyPotions
 [10/06/20 21:40:19] D2BS 10056: 40,50,51,52,53,54,74
+[10/06/20 21:41:26] D2BS 10056: move retry 1
+[10/06/20 21:41:39] D2BS 10056: ÿc1Pausing.
+[10/06/20 21:41:39] D2BS 10056: initNPC: heal
+[10/06/20 21:41:44] D2BS 10056: initNPC: identify
+[10/06/20 21:41:57] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[10/06/20 21:41:58] D2BS 10056: initNPC: buyPotions
+[10/06/20 21:42:07] D2BS 10056: ÿc2Resuming.
+[10/06/20 21:42:18] D2BS 10056: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 21:42:18] D2BS 10056: move retry 2
+[10/06/20 21:42:51] D2BS 10056: move retry 1
+[10/06/20 21:42:53] D2BS 10056: move retry 2
+[10/06/20 21:42:58] D2BS 10056: move retry 1
+[10/06/20 21:43:00] D2BS 10056: move retry 1
+[10/06/20 21:43:02] D2BS 10056: move retry 1
+[10/06/20 21:43:04] D2BS 10056: move retry 1
+[10/06/20 21:43:10] D2BS 10056: move retry 1
+[10/06/20 21:43:11] D2BS 10056: move retry 1
+[10/06/20 21:43:13] D2BS 10056: move retry 1
+[10/06/20 21:43:14] D2BS 10056: move retry 1
+[10/06/20 21:43:15] D2BS 10056: ÿc7Picked up ÿc461 Gold
+[10/06/20 21:43:16] D2BS 10056: move retry 1
+[10/06/20 21:43:21] D2BS 10056: move retry 1
+[10/06/20 21:43:24] D2BS 10056: Script default.dbj ended
+[10/06/20 21:43:24] D2BS 10056: Script tools\autobuildthread.js ended
+[10/06/20 21:43:24] D2BS 10056: Script tools\party.js ended
+[10/06/20 21:43:24] D2BS 10056: Script tools\toolsthread.js ended
+[10/06/20 21:43:24] D2BS 10056: Script tools\townchicken.js ended
+[10/06/20 21:43:31] D2BS 10056: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 21:43:31] D2BS 10056: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 21:43:31] D2BS 10056: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 21:43:31] D2BS 10056: Updating Config from level 0 to 21
+[10/06/20 21:43:31] D2BS 10056: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[10/06/20 21:43:31] D2BS 10056: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 21:43:31] D2BS 10056: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 21:43:31] D2BS 10056: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 21:43:31] D2BS 10056: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/06/20 21:43:31] D2BS 10056: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 21:43:31] D2BS 10056: Updating Config from level 0 to 21
+[10/06/20 21:43:31] D2BS 10056: AutoBuild: Loaded helper thread
+[10/06/20 21:43:31] D2BS 10056: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc247 ms
+[10/06/20 21:43:31] D2BS 10056: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 21:43:31] D2BS 10056: Updating Config from level 0 to 21
+[10/06/20 21:43:31] D2BS 10056: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 21:43:31] D2BS 10056: ÿc3Start ToolsThread script
+[10/06/20 21:43:31] D2BS 10056: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 21:43:31] D2BS 10056: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 21:43:31] D2BS 10056: Updating Config from level 0 to 21
+[10/06/20 21:43:31] D2BS 10056: Updating Config from level 0 to 21
+[10/06/20 21:43:43] D2BS 10056: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 21:44:04] D2BS 10056: initNPC: heal
+[10/06/20 21:44:09] D2BS 10056: initNPC: identify
+[10/06/20 21:44:16] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[10/06/20 21:44:17] D2BS 10056: initNPC: buyPotions
+[10/06/20 21:44:24] D2BS 10056: initNPC: BuyPotions
+[10/06/20 21:44:27] D2BS 10056: move retry 1
+[10/06/20 21:44:30] D2BS 10056: initNPC: heal
+[10/06/20 21:44:36] D2BS 10056: initNPC: identify
+[10/06/20 21:44:42] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:44:50] D2BS 10056: move retry 1
+[10/06/20 21:44:51] D2BS 10056: move retry 2
+[10/06/20 21:44:52] D2BS 10056: move retry 3
+[10/06/20 21:45:04] D2BS 10056: 74
+[10/06/20 21:45:09] D2BS 10056: initNPC: heal
+[10/06/20 21:45:15] D2BS 10056: initNPC: identify
+[10/06/20 21:45:22] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:45:28] D2BS 10056: 40
+[10/06/20 21:45:35] D2BS 10056: initNPC: heal
+[10/06/20 21:45:41] D2BS 10056: initNPC: identify
+[10/06/20 21:45:47] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:46:47] D2BS 10056: initNPC: heal
+[10/06/20 21:46:49] D2BS 10056: move retry 1
+[10/06/20 21:46:55] D2BS 10056: initNPC: identify
+[10/06/20 21:47:02] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:47:11] D2BS 10056: move retry 1
+[10/06/20 21:47:13] D2BS 10056: initNPC: heal
+[10/06/20 21:47:18] D2BS 10056: initNPC: identify
+[10/06/20 21:47:25] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:47:36] D2BS 10056: initNPC: heal
+[10/06/20 21:47:41] D2BS 10056: initNPC: identify
+[10/06/20 21:47:47] D2BS 10056: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:47:52] D2BS 7856: D2BS Engine startup complete. 1.6.4U
+[10/06/20 21:47:52] D2BS 7856: Auradin
+[10/06/20 21:47:52] D2BS 7856: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/06/20 21:47:52] D2BS 7856: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 21:47:52] D2BS 7856: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 21:47:52] D2BS 7856: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 21:47:52] D2BS 7856: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 21:47:54] D2BS 7856: Heartbeat loaded
+[10/06/20 21:48:11] D2BS 7856: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 21:48:11] D2BS 7856: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 21:48:11] D2BS 7856: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 21:48:11] D2BS 7856: Updating Config from level 0 to 21
+[10/06/20 21:48:11] D2BS 7856: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 21:48:11] D2BS 7856: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 21:48:11] D2BS 7856: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 21:48:11] D2BS 7856: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 21:48:11] D2BS 7856: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/06/20 21:48:11] D2BS 7856: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc216 ms
+[10/06/20 21:48:11] D2BS 7856: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 21:48:11] D2BS 7856: Updating Config from level 0 to 21
+[10/06/20 21:48:11] D2BS 7856: AutoBuild: Loaded helper thread
+[10/06/20 21:48:11] D2BS 7856: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 21:48:11] D2BS 7856: Updating Config from level 0 to 21
+[10/06/20 21:48:11] D2BS 7856: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 21:48:11] D2BS 7856: ÿc3Start ToolsThread script
+[10/06/20 21:48:11] D2BS 7856: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 21:48:11] D2BS 7856: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 21:48:11] D2BS 7856: Updating Config from level 0 to 21
+[10/06/20 21:48:11] D2BS 7856: Updating Config from level 0 to 21
+[10/06/20 21:49:03] D2BS 7856: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 21:49:18] D2BS 7856: move retry 1
+[10/06/20 21:49:24] D2BS 7856: initNPC: heal
+[10/06/20 21:49:29] D2BS 7856: initNPC: identify
+[10/06/20 21:49:31] D2BS 7856: ÿc1Pausing.
+[10/06/20 21:49:42] D2BS 7856: Script default.dbj ended
+[10/06/20 21:49:42] D2BS 7856: Script tools\autobuildthread.js ended
+[10/06/20 21:49:42] D2BS 7856: Script tools\party.js ended
+[10/06/20 21:49:42] D2BS 7856: Script tools\toolsthread.js ended
+[10/06/20 21:49:42] D2BS 7856: Script tools\townchicken.js ended
+[10/06/20 21:49:49] D2BS 7856: D2BS Shutdown complete.
+[10/06/20 21:49:49] D2BS 16568: D2BS Engine startup complete. 1.6.4U
+[10/06/20 21:49:49] D2BS 16568: Auradin
+[10/06/20 21:49:49] D2BS 16568: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/06/20 21:49:49] D2BS 16568: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 21:49:49] D2BS 16568: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 21:49:49] D2BS 16568: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 21:49:49] D2BS 16568: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 21:49:51] D2BS 16568: Heartbeat loaded
+[10/06/20 21:50:09] D2BS 16568: D2BS Shutdown complete.
+[10/06/20 21:50:10] D2BS 6060: D2BS Engine startup complete. 1.6.4U
+[10/06/20 21:50:10] D2BS 6060: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/06/20 21:50:10] D2BS 6060: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 21:50:10] D2BS 6060: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 21:50:10] D2BS 6060: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 21:50:10] D2BS 6060: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 21:50:12] D2BS 6060: Heartbeat loaded
+[10/06/20 21:50:29] D2BS 6060: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 21:50:29] D2BS 6060: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 21:50:29] D2BS 6060: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 21:50:29] D2BS 6060: Updating Config from level 0 to 21
+[10/06/20 21:50:29] D2BS 6060: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 21:50:29] D2BS 6060: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 21:50:29] D2BS 6060: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 21:50:29] D2BS 6060: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 21:50:29] D2BS 6060: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc215 ms
+[10/06/20 21:50:29] D2BS 6060: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 21:50:29] D2BS 6060: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 21:50:29] D2BS 6060: Updating Config from level 0 to 21
+[10/06/20 21:50:29] D2BS 6060: AutoBuild: Loaded helper thread
+[10/06/20 21:50:29] D2BS 6060: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 21:50:29] D2BS 6060: Updating Config from level 0 to 21
+[10/06/20 21:50:29] D2BS 6060: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 21:50:30] D2BS 6060: ÿc3Start ToolsThread script
+[10/06/20 21:50:30] D2BS 6060: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 21:50:30] D2BS 6060: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 21:50:30] D2BS 6060: Updating Config from level 0 to 21
+[10/06/20 21:50:30] D2BS 6060: Updating Config from level 0 to 21
+[10/06/20 21:50:30] D2BS 6060: move retry 1
+[10/06/20 21:51:17] D2BS 6060: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 21:51:35] D2BS 6060: initNPC: heal
+[10/06/20 21:52:19] D2BS 6060: initNPC: identify
+[10/06/20 21:52:29] D2BS 6060: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[10/06/20 21:52:30] D2BS 6060: initNPC: buyPotions
+[10/06/20 21:53:08] D2BS 6060: initNPC: BuyPotions
+[10/06/20 21:53:09] D2BS 6060: move retry 1
+[10/06/20 21:53:23] D2BS 6060: initNPC: heal
+[10/06/20 21:54:03] D2BS 6060: initNPC: identify
+[10/06/20 21:54:15] D2BS 6060: ÿc4MiniShopBotÿc0: Scanning 66 items.
+[10/06/20 21:58:02] D2BS 6060: initNPC: heal
+[10/06/20 21:58:06] D2BS 6060: initNPC: identify
+[10/06/20 21:58:13] D2BS 6060: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:58:26] D2BS 6060: 40
+[10/06/20 21:58:27] D2BS 6060: initNPC: heal
+[10/06/20 21:58:32] D2BS 6060: initNPC: identify
+[10/06/20 21:58:39] D2BS 6060: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/06/20 21:59:01] D2BS 6060: Script default.dbj ended
+[10/06/20 21:59:01] D2BS 6060: Script tools\autobuildthread.js ended
+[10/06/20 21:59:01] D2BS 6060: Script tools\party.js ended
+[10/06/20 21:59:01] D2BS 6060: Script tools\toolsthread.js ended
+[10/06/20 21:59:01] D2BS 6060: Script tools\townchicken.js ended
+[10/06/20 21:59:08] D2BS 6060: D2BS Shutdown complete.
+[10/06/20 21:59:08] D2BS 15496: D2BS Engine startup complete. 1.6.4U
+[10/06/20 21:59:08] D2BS 15496: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/06/20 21:59:08] D2BS 15496: Auradin
+�c0 :: Engine startup complete!
+[10/06/20 21:59:08] D2BS 15496: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 21:59:08] D2BS 15496: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 21:59:08] D2BS 15496: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 21:59:11] D2BS 15496: Heartbeat loaded
+[10/06/20 21:59:28] D2BS 15496: D2BS Shutdown complete.
+[10/06/20 21:59:28] D2BS 14904: D2BS Engine startup complete. 1.6.4U
+[10/06/20 21:59:28] D2BS 14904: Auradin
+[10/06/20 21:59:28] D2BS 14904: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/06/20 21:59:28] D2BS 14904: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 21:59:28] D2BS 14904: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 21:59:28] D2BS 14904: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 21:59:28] D2BS 14904: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 21:59:30] D2BS 14904: Heartbeat loaded
+[10/06/20 21:59:48] D2BS 14904: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 21:59:48] D2BS 14904: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 21:59:49] D2BS 14904: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 21:59:49] D2BS 14904: Updating Config from level 0 to 21
+[10/06/20 21:59:49] D2BS 14904: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 21:59:49] D2BS 14904: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc215 ms
+[10/06/20 21:59:49] D2BS 14904: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 21:59:49] D2BS 14904: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 21:59:49] D2BS 14904: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/06/20 21:59:49] D2BS 14904: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 21:59:49] D2BS 14904: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 21:59:49] D2BS 14904: Updating Config from level 0 to 21
+[10/06/20 21:59:49] D2BS 14904: AutoBuild: Loaded helper thread
+[10/06/20 21:59:49] D2BS 14904: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 21:59:49] D2BS 14904: Updating Config from level 0 to 21
+[10/06/20 21:59:49] D2BS 14904: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 21:59:49] D2BS 14904: ÿc3Start ToolsThread script
+[10/06/20 21:59:49] D2BS 14904: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 21:59:49] D2BS 14904: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 21:59:49] D2BS 14904: Updating Config from level 0 to 21
+[10/06/20 21:59:49] D2BS 14904: Updating Config from level 0 to 21
+[10/06/20 22:00:30] D2BS 14904: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 22:00:50] D2BS 14904: initNPC: heal
+[10/06/20 22:01:32] D2BS 14904: initNPC: identify
+[10/06/20 22:01:43] D2BS 14904: ÿc4MiniShopBotÿc0: Scanning 66 items.
+[10/06/20 22:01:49] D2BS 14904: initNPC: BuyPotions
+[10/06/20 22:02:03] D2BS 14904: initNPC: heal
+[10/06/20 22:02:22] D2BS 14904: Script default.dbj ended
+[10/06/20 22:02:22] D2BS 14904: Script tools\autobuildthread.js ended
+[10/06/20 22:02:22] D2BS 14904: Script tools\party.js ended
+[10/06/20 22:02:22] D2BS 14904: Script tools\toolsthread.js ended
+[10/06/20 22:02:22] D2BS 14904: Script tools\townchicken.js ended
+[10/06/20 22:02:28] D2BS 14904: D2BS Shutdown complete.
+[10/06/20 22:02:29] D2BS 14812: D2BS Engine startup complete. 1.6.4U
+[10/06/20 22:02:29] D2BS 14812: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/06/20 22:02:29] D2BS 14812: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 22:02:29] D2BS 14812: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 22:02:29] D2BS 14812: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 22:02:29] D2BS 14812: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 22:02:29] D2BS 14812: Auradin
+[10/06/20 22:02:32] D2BS 14812: Heartbeat loaded
+[10/06/20 22:02:48] D2BS 14812: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 22:02:48] D2BS 14812: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 22:02:49] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 22:02:49] D2BS 14812: Updating Config from level 0 to 21
+[10/06/20 22:02:49] D2BS 14812: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 22:02:49] D2BS 14812: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 22:02:49] D2BS 14812: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 22:02:49] D2BS 14812: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 22:02:49] D2BS 14812: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/06/20 22:02:49] D2BS 14812: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 22:02:49] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 22:02:49] D2BS 14812: Updating Config from level 0 to 21
+[10/06/20 22:02:49] D2BS 14812: AutoBuild: Loaded helper thread
+[10/06/20 22:02:49] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 22:02:49] D2BS 14812: Updating Config from level 0 to 21
+[10/06/20 22:02:49] D2BS 14812: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 22:02:49] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 22:02:49] D2BS 14812: ÿc3Start ToolsThread script
+[10/06/20 22:02:49] D2BS 14812: Updating Config from level 0 to 21
+[10/06/20 22:02:49] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 22:02:49] D2BS 14812: Updating Config from level 0 to 21
+[10/06/20 22:03:06] D2BS 14812: move retry 1
+[10/06/20 22:03:38] D2BS 14812: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 22:03:54] D2BS 14812: move retry 1
+[10/06/20 22:03:59] D2BS 14812: initNPC: heal
+[10/06/20 22:04:41] D2BS 14812: initNPC: identify
+[10/06/20 22:04:51] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 61 items.
+[10/06/20 22:05:31] D2BS 14812: initNPC: BuyPotions
+[10/06/20 22:06:09] D2BS 14812: initNPC: heal
+[10/06/20 22:06:52] D2BS 14812: initNPC: identify
+[10/06/20 22:07:02] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 61 items.
+[10/06/20 22:07:53] D2BS 14812: ÿc1Pausing.
+[10/06/20 22:07:54] D2BS 14812: initNPC: heal
+[10/06/20 22:08:06] D2BS 14812: initNPC: identify
+[10/06/20 22:08:12] D2BS 14812: initNPC: fillTome
+[10/06/20 22:08:13] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 61 items.
+[10/06/20 22:08:14] D2BS 14812: initNPC: buyPotions
+[10/06/20 22:08:24] D2BS 14812: ÿc2Resuming.
+[10/06/20 22:08:33] D2BS 14812: ÿc1Pausing.
+[10/06/20 22:08:33] D2BS 14812: initNPC: heal
+[10/06/20 22:08:46] D2BS 14812: initNPC: identify
+[10/06/20 22:08:53] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 61 items.
+[10/06/20 22:08:54] D2BS 14812: initNPC: buyPotions
+[10/06/20 22:09:00] D2BS 14812: move retry 1
+[10/06/20 22:09:06] D2BS 14812: ÿc2Resuming.
+[10/06/20 22:09:22] D2BS 14812: ÿc7Picked up ÿc4130 Gold
+[10/06/20 22:09:22] D2BS 14812: ÿc7Picked up ÿc3Claymore ÿc0(ilvl 18) (Auradin.xpac.nip #2)
+[10/06/20 22:09:22] D2BS 14812: ÿc7Picked up ÿc4440 Gold
+[10/06/20 22:09:23] D2BS 14812: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/06/20 22:10:05] D2BS 14812: ÿc7Picked up ÿc0Mace ÿc0(ilvl 19)
+[10/06/20 22:10:10] D2BS 14812: ÿc7Picked up ÿc0Sabre ÿc0(ilvl 19)
+[10/06/20 22:10:10] D2BS 14812: ÿc7Picked up ÿc471 Gold
+[10/06/20 22:10:40] D2BS 14812: ÿc1Skipping Hell Clan 88 16
+[10/06/20 22:10:52] D2BS 14812: ÿc1Skipping Hell Clan 93 16
+[10/06/20 22:10:52] D2BS 14812: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 19)
+[10/06/20 22:10:52] D2BS 14812: ÿc7Picked up ÿc454 Gold
+[10/06/20 22:10:53] D2BS 14812: ÿc7Picked up ÿc471 Gold
+[10/06/20 22:10:59] D2BS 14812: move retry 1
+[10/06/20 22:11:27] D2BS 14812: ÿc1Skipping Specter 76 16
+[10/06/20 22:11:27] D2BS 14812: ÿc7Picked up ÿc8El Rune ÿc0(ilvl 1)
+[10/06/20 22:12:18] D2BS 14812: ÿc7Picked up ÿc438 Gold
+[10/06/20 22:12:34] D2BS 14812: ÿc1Skipping Specter 51 16
+[10/06/20 22:12:59] D2BS 14812: ÿc7Picked up ÿc483 Gold
+[10/06/20 22:12:59] D2BS 14812: ÿc7Picked up ÿc4104 Gold
+[10/06/20 22:13:02] D2BS 14812: move retry 2
+[10/06/20 22:13:26] D2BS 14812: AutoBuild: Stat points: 5      Skill points: 2
+[10/06/20 22:13:26] D2BS 14812: AutoBuild: Level up detected ( 21 --> 22 )
+[10/06/20 22:13:26] D2BS 14812: AutoBuild: useSkillPoint(): Holy Bolt (101)
+[10/06/20 22:13:26] D2BS 14812: AutoBuild: Skill (1/1) Increased Holy Bolt (101) by one (level:  1)
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: useStatPoint(0): Strength
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: Stat (1/5) Increased Strength from 46 to 47
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: useStatPoint(2): Dexterity
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: Stat (2/5) Increased Dexterity from 40 to 41
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: Stat (3/5) Increased Vitality from 85 to 86
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: Stat (4/5) Increased Vitality from 86 to 87
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: Stat (5/5) Increased Vitality from 87 to 88
+[10/06/20 22:13:27] D2BS 14812: Updating Config from level 21 to 22
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: Updating Config from level 21 to 22
+[10/06/20 22:13:27] D2BS 14812: Updating Config from level 21 to 22
+[10/06/20 22:13:27] D2BS 14812: Updating Config from level 21 to 22
+[10/06/20 22:13:27] D2BS 14812: Updating Config from level 21 to 22
+[10/06/20 22:13:27] D2BS 14812: AutoBuild: Incrementing cached character level to 22
+[10/06/20 22:13:31] D2BS 14812: move retry 1
+[10/06/20 22:13:41] D2BS 14812: ÿc1Skipping Hell Clan 62 16
+[10/06/20 22:13:52] D2BS 14812: ÿc1Skipping Hell Clan 63 16
+[10/06/20 22:14:02] D2BS 14812: ÿc1Pausing.
+[10/06/20 22:14:02] D2BS 14812: initNPC: heal
+[10/06/20 22:14:15] D2BS 14812: initNPC: identify
+[10/06/20 22:14:23] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 71 items.
+[10/06/20 22:14:24] D2BS 14812: initNPC: buyPotions
+[10/06/20 22:14:34] D2BS 14812: LowGold sell Morning Star
+[10/06/20 22:14:34] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:14:41] D2BS 14812: LowGold sell Sabre
+[10/06/20 22:14:41] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:14:43] D2BS 14812: LowGold sell Mace
+[10/06/20 22:14:43] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:14:45] D2BS 14812: clearInventory sell undefined
+[10/06/20 22:14:45] D2BS 14812: ÿc1Error in ÿc0TownChicken.js ÿc1(prototypes.js line ÿc1251): ÿc1Unit.sell: Must be used on items.
+[10/06/20 22:14:45] D2BS 14812: ÿc2Resuming.
+[10/06/20 22:14:45] D2BS 14812: ÿc8Run duration ÿc2716.657
+[10/06/20 22:14:45] D2BS 14812: Script default.dbj ended
+[10/06/20 22:14:45] D2BS 14812: Script tools\autobuildthread.js ended
+[10/06/20 22:14:45] D2BS 14812: Script tools\party.js ended
+[10/06/20 22:14:52] D2BS 14812: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 22:14:52] D2BS 14812: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 22:14:52] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 22:14:52] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:14:52] D2BS 14812: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 22:14:52] D2BS 14812: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 22:14:52] D2BS 14812: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 22:14:52] D2BS 14812: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 22:14:52] D2BS 14812: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/06/20 22:14:52] D2BS 14812: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc216 ms
+[10/06/20 22:14:52] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 22:14:52] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:14:52] D2BS 14812: AutoBuild: Loaded helper thread
+[10/06/20 22:14:52] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 22:14:52] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:14:52] D2BS 14812: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 22:14:52] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 22:14:52] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:14:52] D2BS 14812: ÿc3Start ToolsThread script
+[10/06/20 22:14:52] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 22:14:52] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:15:05] D2BS 14812: LowGold sell Mace
+[10/06/20 22:15:05] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:15:11] D2BS 14812: LowGold sell El Rune
+[10/06/20 22:15:11] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:15:13] D2BS 14812: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 22:15:43] D2BS 14812: initNPC: BuyPotions
+[10/06/20 22:16:46] D2BS 14812: move retry 1
+[10/06/20 22:16:48] D2BS 14812: move retry 1
+[10/06/20 22:17:06] D2BS 14812: 40
+[10/06/20 22:18:27] D2BS 14812: 75
+[10/06/20 22:18:46] D2BS 14812: 75
+[10/06/20 22:20:05] D2BS 14812: 75
+[10/06/20 22:20:58] D2BS 14812: ÿc7Picked up ÿc441 Gold
+[10/06/20 22:20:58] D2BS 14812: ÿc7Picked up ÿc472 Gold
+[10/06/20 22:20:59] D2BS 14812: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/06/20 22:21:07] D2BS 14812: move retry 1
+[10/06/20 22:21:22] D2BS 14812: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 22:21:23] D2BS 14812: ÿc7Picked up ÿc0Superior Pilum ÿc0(ilvl 22)
+[10/06/20 22:21:35] D2BS 14812: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 22:21:35] D2BS 14812: ÿc7Picked up ÿc3Trident ÿc0(ilvl 23) (Merc.xpac.nip #9)
+[10/06/20 22:22:10] D2BS 14812: ÿc7Picked up ÿc0Belt ÿc0(ilvl 22) (Auradin.xpac.nip #93)
+[10/06/20 22:22:26] D2BS 14812: move retry 1
+[10/06/20 22:22:32] D2BS 14812: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 22:22:33] D2BS 14812: ÿc7Picked up ÿc4117 Gold
+[10/06/20 22:23:40] D2BS 14812: initNPC: heal
+[10/06/20 22:23:50] D2BS 14812: initNPC: identify
+[10/06/20 22:23:53] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 42 items.
+[10/06/20 22:24:07] D2BS 14812: LowGold sell Superior Pilum
+[10/06/20 22:24:07] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:24:13] D2BS 14812: Belt
+[10/06/20 22:24:14] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:24:31] D2BS 14812: 75
+[10/06/20 22:24:40] D2BS 14812: 76,78
+[10/06/20 22:25:08] D2BS 14812: move retry 1
+[10/06/20 22:25:40] D2BS 14812: ÿc1Pausing.
+[10/06/20 22:25:41] D2BS 14812: initNPC: heal
+[10/06/20 22:25:45] D2BS 14812: initNPC: buyPotions
+[10/06/20 22:26:14] D2BS 14812: ÿc2Resuming.
+[10/06/20 22:26:14] D2BS 14812: move retry 2
+[10/06/20 22:26:41] D2BS 14812: ÿc1Skipping Flayer 859 16
+[10/06/20 22:26:45] D2BS 14812: ÿc7Picked up ÿc0Trident ÿc0(ilvl 22) (Merc.xpac.nip #9)
+[10/06/20 22:26:45] D2BS 14812: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 22:26:45] D2BS 14812: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 22) (LateGame.nip #11)
+[10/06/20 22:26:45] D2BS 14812: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[10/06/20 22:26:53] D2BS 14812: ÿc7Picked up ÿc4102 Gold
+[10/06/20 22:27:08] D2BS 14812: ÿc1Skipping Winged Nightmare 855 16
+[10/06/20 22:27:30] D2BS 14812: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/06/20 22:27:36] D2BS 14812: ÿc7Picked up ÿc496 Gold
+[10/06/20 22:27:43] D2BS 14812: ÿc1Pausing.
+[10/06/20 22:27:43] D2BS 14812: initNPC: heal
+[10/06/20 22:27:47] D2BS 14812: initNPC: identify
+[10/06/20 22:27:50] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 44 items.
+[10/06/20 22:27:53] D2BS 14812: initNPC: buyPotions
+[10/06/20 22:28:10] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:28:32] D2BS 14812: ÿc2Resuming.
+[10/06/20 22:28:53] D2BS 14812: ÿc1Skipping Flayer Shaman 890 16
+[10/06/20 22:28:56] D2BS 14812: ÿc7Picked up ÿc0Pilum ÿc0(ilvl 22)
+[10/06/20 22:29:08] D2BS 14812: ÿc7Picked up ÿc0Long Bow ÿc0(ilvl 22)
+[10/06/20 22:29:23] D2BS 14812: ÿc7Picked up ÿc497 Gold
+[10/06/20 22:29:50] D2BS 14812: ÿc7Picked up ÿc0Flawed Sapphire ÿc0(ilvl 1)
+[10/06/20 22:29:51] D2BS 14812: ÿc7Picked up ÿc422 Gold
+[10/06/20 22:29:51] D2BS 14812: ÿc1Pausing.
+[10/06/20 22:29:51] D2BS 14812: initNPC: heal
+[10/06/20 22:29:55] D2BS 14812: initNPC: identify
+[10/06/20 22:29:56] D2BS 14812: ÿc4MiniShopBotÿc0: Scanning 43 items.
+[10/06/20 22:29:56] D2BS 14812: initNPC: buyPotions
+[10/06/20 22:30:12] D2BS 14812: LowGold sell Flawed Sapphire
+[10/06/20 22:30:12] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:30:19] D2BS 14812: LowGold sell Long Bow
+[10/06/20 22:30:19] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:30:21] D2BS 14812: LowGold sell Pilum
+[10/06/20 22:30:21] D2BS 14812: initNPC: clearInventory
+[10/06/20 22:30:23] D2BS 14812: initNPC: repair
+[10/06/20 22:30:46] D2BS 14812: Script default.dbj ended
+[10/06/20 22:30:46] D2BS 14812: Script tools\autobuildthread.js ended
+[10/06/20 22:30:46] D2BS 14812: Script tools\party.js ended
+[10/06/20 22:30:46] D2BS 14812: Script tools\toolsthread.js ended
+[10/06/20 22:30:46] D2BS 14812: Script tools\townchicken.js ended
+[10/06/20 22:31:25] D2BS 14812: Error: login time out null
+[10/06/20 22:31:31] D2BS 14812: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 22:31:31] D2BS 14812: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 22:31:31] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/06/20 22:31:31] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:31:31] D2BS 14812: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 22:31:31] D2BS 14812: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 22:31:31] D2BS 14812: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 22:31:31] D2BS 14812: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/06/20 22:31:31] D2BS 14812: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc215 ms
+[10/06/20 22:31:31] D2BS 14812: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/06/20 22:31:31] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/06/20 22:31:31] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:31:31] D2BS 14812: AutoBuild: Loaded helper thread
+[10/06/20 22:31:31] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/06/20 22:31:31] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:31:31] D2BS 14812: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 22:31:31] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/06/20 22:31:31] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:31:31] D2BS 14812: ÿc3Start ToolsThread script
+[10/06/20 22:31:31] D2BS 14812: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/06/20 22:31:31] D2BS 14812: Updating Config from level 0 to 22
+[10/06/20 22:31:48] D2BS 14812: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 22:31:52] D2BS 14812: move retry 1
+[10/06/20 22:32:10] D2BS 14812: initNPC: buyPotions
+[10/06/20 22:32:22] D2BS 14812: move retry 1
+[10/06/20 22:32:26] D2BS 14812: initNPC: BuyPotions
+[10/06/20 22:32:50] D2BS 14812: 75
+[10/06/20 22:33:14] D2BS 14812: initNPC: fillTome
+[10/06/20 22:33:22] D2BS 14812: move retry 1
+[10/06/20 22:33:34] D2BS 14812: 75
+[10/06/20 22:33:53] D2BS 14812: 75
+[10/06/20 22:34:13] D2BS 14812: 75
+[10/06/20 22:34:32] D2BS 14812: 75
+[10/06/20 22:35:28] D2BS 14812: ÿc7Picked up ÿc481 Gold
+[10/06/20 22:35:28] D2BS 14812: ÿc7Picked up ÿc434 Gold
