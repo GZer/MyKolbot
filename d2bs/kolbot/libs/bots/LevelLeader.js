@@ -6,7 +6,7 @@
 
 function LevelLeader(){
 	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb,MyMercType,MyMercDiff,MyMercAura,HiredMercAura,MyMerc;
-	var MercId=[],TeleSorcs=[];
+	var MercId=[],TeleSorcs=["Zer_Fire","Zer_Light","Zer_Cold"];
 	var FullClearAreas=[3,4,5,6,35,36,
 	43,44,
 	105,106,
@@ -618,6 +618,7 @@ function LevelLeader(){
 		var i,WaitingLimit=0,PortalTown=2;
 		say("Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
 		this.tryMakePortal();
+		// this.assignTeleSorcs();
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
@@ -1034,10 +1035,18 @@ function LevelLeader(){
 		return true;
 	};
 	
+	// this.assignTeleSorcs=function(){
+		// var Party=getParty(),TeleSorcs=[];
+		// if(Party){
+			// do{TeleSorcs.push(Party.name);
+			// }while(Party.getNext() && Party.classid == 1)
+		// }
+		// return true;
+	// };
+	
 	this.configCharacter=function(CharacterLevel){
-		var i,Party=getParty();
+		var i;
 		Town.move("portalspot");
-		this.checkMerc();
 		delay(500);
 		Pather.getWP(me.area);
 		if(CharacterLevel > 7){
@@ -1045,13 +1054,8 @@ function LevelLeader(){
 		}else{
 			Town.heal();
 		}
-		if(Party){
-			do{
-				if(Party.classid == 1){
-					TeleSorcs.push(Party.name);
-				}
-			}while(Party.getNext());
-		}
+		this.checkMerc();
+		// this.assignTeleSorcs();
 		return true;
 	};
 	
