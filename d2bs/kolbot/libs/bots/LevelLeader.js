@@ -973,6 +973,8 @@ function LevelLeader(){
 			else if(!getWaypoint(i)){
 				i--;
 				UpToArea=WaypointAreas[i];
+				//Cains Scroll
+				if(me.getItem(525)){UpToArea=5;}
 				//Horadric Staff
 				if(me.getItem(91)){UpToArea=74;}
 				//Khalims Will
