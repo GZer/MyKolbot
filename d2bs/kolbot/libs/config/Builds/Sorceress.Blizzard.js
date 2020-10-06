@@ -36,7 +36,8 @@ var AutoBuildTemplate={
 				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
 				Config.AutoEquip=true;
-				Config.MiniShopBot=false;
+				Config.MiniShopBot=true;
+				Config.LowGold=15000;
 				Config.UseMerc=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
@@ -180,7 +181,6 @@ var AutoBuildTemplate={
 			Update: function(){
 				Config.MakeRunewords=true;
 				Config.MercWatch=false;
-				Config.MiniShopBot=true;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);

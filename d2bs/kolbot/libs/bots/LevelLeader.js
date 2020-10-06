@@ -638,7 +638,6 @@ function LevelLeader(){
 		}
 		Town.move("portalspot");
 		while(WaitingLimit < 120){
-			say("Waiting");
 			for(i=0; i < TeleSorcs.length; i++){
 				if(Pather.getPortal(DestinationArea,TeleSorcs[i])){
 					Pather.usePortal(DestinationArea,TeleSorcs[i]);
