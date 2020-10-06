@@ -25,3 +25,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/07 04:59:00] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 71
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/07 09:37:40] <Auradin> Error in LevelFollower (town.js line 2221): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:430, @levelfollower.js:407, Town.doChores@town.js:89, Town.clearInventory@town.js:1872, Town.checkQuestItems@town.js:196, Town.goToTown@town.js:2221
