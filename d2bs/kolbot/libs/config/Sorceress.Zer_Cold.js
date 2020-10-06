@@ -534,7 +534,7 @@ function LoadConfig() {
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )
 	Config.AutoBuild.Enabled = true;			//	This will enable or disable the AutoBuild system
 
-	Config.AutoBuild.Template = "Blizzard";	//	The name of the build associated with an existing
+	Config.AutoBuild.Template = "Cold";	//	The name of the build associated with an existing
 												//	template filename located in libs/config/Builds/
 
 	Config.AutoBuild.Verbose = true;			//	Allows script to print messages in console

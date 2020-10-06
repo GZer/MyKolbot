@@ -27,8 +27,8 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("LateGame.nip");
 				Config.PickitFiles.push("MidGame.nip");
 				Config.PickitFiles.push("EarlyGame.nip");
-				Config.PickitFiles.push("BlizzardRunes.nip");
-				Config.PickitFiles.push("AutoEquip/Blizzard.xpac.nip");
+				Config.PickitFiles.push("ColdRunes.nip");
+				Config.PickitFiles.push("AutoEquip/Cold.xpac.nip");
 				//Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
