@@ -460,7 +460,7 @@ function LevelLeader(){
 		}else{
 			Bosses=push(TargetBoss);
 		}
-		for(i=0, i < Bosses.length; i++){
+		for(i=0; i < Bosses.length; i++){
 			Boss=getUnit(1,Bosses[i]);
 			if(Boss){
 				while(Party && !Boss.dead){
@@ -616,7 +616,6 @@ function LevelLeader(){
 		var i,WaitingLimit=0,PortalTown=2;
 		say("Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
 		this.tryMakePortal();
-		// this.assignTeleSorcs();
 		if(DestinationArea > 75){
 			PortalTown=3;
 		}
@@ -1032,14 +1031,12 @@ function LevelLeader(){
 		return true;
 	};
 	
-	// this.assignTeleSorcs=function(){
-		// var Party=getParty(),TeleSorcs=[];
-		// if(Party){
-			// do{TeleSorcs.push(Party.name);
-			// }while(Party.getNext() && Party.classid == 1)
-		// }
-		// return true;
-	// };
+	this.assignTeleSorcs=function(){
+		var Party=getParty(),TeleSorcs=[],PartyCount=0,RunCount=0;
+		while(PartyCount<8 && RunCount<10){do{PartyCount++;}while(Party.getNext());delay(3000);RunCount++;}
+		do{TeleSorcs.push(Party.name);}while(Party.getNext() && Party.classid == 1);
+		return PartyCount == 8;
+	};
 	
 	this.configCharacter=function(CharacterLevel){
 		var i;
@@ -1052,7 +1049,7 @@ function LevelLeader(){
 			Town.heal();
 		}
 		this.checkMerc();
-		// this.assignTeleSorcs();
+		this.assignTeleSorcs();
 		return true;
 	};
 	

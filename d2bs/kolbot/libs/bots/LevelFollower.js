@@ -140,7 +140,7 @@ function LevelFollower(){
 					case 75:
 					case 103:
 					case 109:
-						Town.doChores();
+						try{Town.doChores();}catch(err){print("Failed going to town")}
 						delay(1000);
 					break;
 					//Talk to Atma for Tals Tomb
