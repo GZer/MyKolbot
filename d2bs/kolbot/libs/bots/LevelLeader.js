@@ -387,7 +387,7 @@ function LevelLeader(){
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
 		var count=0;
 		Pather.journeyTo(QuestArea);
-		while(count < 20){
+		while(count < 25){
 			try{
 				while(!this.playerClose() && count < 3){
 					say("Important Quest");
@@ -411,7 +411,7 @@ function LevelLeader(){
 	this.clearToNextArea=function(DestinationArea){
 		var count=0,DestinationReached=false,CurrentArea=me.area;
 		say("Clearing to "+Pather.getAreaName(DestinationArea));
-		while(count < 20 && !DestinationReached){
+		while(count < 25 && !DestinationReached){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					this.tryMakePortal();
@@ -461,7 +461,7 @@ function LevelLeader(){
 		while(Party && !Boss.dead){
 			Skill.cast(132,0,Boss.x,Boss.y);
 			delay(100);
-			if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 20){
+			if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 15){
 				this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 				quit();
 			}
