@@ -416,7 +416,7 @@ var AutoBuildTemplate={
 			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.UseMerc=false;
+				Config.LowGold=30000;
 			}
 		},
 
@@ -799,7 +799,7 @@ var AutoBuildTemplate={
 			SkillPoints: [97],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.UseMerc=true;
+				Config.LowGold=50000;
 			}
 		},
 
