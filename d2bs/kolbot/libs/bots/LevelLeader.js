@@ -175,8 +175,8 @@ function LevelLeader(){
 				this.waitForUnit(2,100);
 				Pather.useUnit(2,100,73);
 				this.tryMakePortal();
-				this.killImportantQuestBoss(211);
-				// this.killQuestBoss(211);
+				// this.killImportantQuestBoss(211);
+				this.killQuestBoss(211);
 				Pather.teleport=false;
 				Pather.moveTo(22579,15706);
 				Pather.moveTo(22577,15649,10);
