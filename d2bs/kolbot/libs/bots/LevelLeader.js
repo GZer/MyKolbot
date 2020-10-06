@@ -948,16 +948,16 @@ function LevelLeader(){
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
-		if(!me.getQuest(1,0)){say("Den");Pather.journeyTo(8);Attack.clearLevel(0);}
-		if(!me.getQuest(3,3)){say("Malus");this.CheckQuests(28);}
-		if(!me.getQuest(4,0)){say("Cain");this.CheckQuests(5);}
-		if(!me.getQuest(5,0)){say("Countess");this.CheckQuests(6);}
-		if(!me.getQuest(9,0)){say("Radament");this.CheckQuests(49);}
-		if(!me.getQuest(17,0)){say("Black Book");this.CheckQuests(94);}
-		if(!me.getQuest(25,0)){say("Izual");this.CheckQuests(105);}
-		if(!me.getQuest(35,5)){say("Shenk");this.CheckQuests(111);}
-		if(!me.getQuest(37,0)){say("Anya");this.CheckQuests(114);}
-		if(!me.getQuest(38,3)){say("Nihlathak");this.CheckQuests(124);}
+		if(!me.getQuest(1,0)){say("Den");Pather.journeyTo(8);this.CheckQuests(8);}
+		if(!me.getQuest(3,3)){say("Malus");Pather.journeyTo(28);this.CheckQuests(28);}
+		if(!me.getQuest(4,0)){say("Cain");Pather.journeyTo(5);this.CheckQuests(5);}
+		if(!me.getQuest(5,0)){say("Countess");Pather.journeyTo(6);this.CheckQuests(6);}
+		if(!me.getQuest(9,0)){say("Radament");Pather.journeyTo(49);this.CheckQuests(49);}
+		if(!me.getQuest(17,0)){say("Black Book");Pather.journeyTo(94);this.CheckQuests(94);}
+		if(!me.getQuest(25,0)){say("Izual");Pather.journeyTo(105);this.CheckQuests(105);}
+		if(!me.getQuest(35,5)){say("Shenk");Pather.journeyTo(111);this.CheckQuests(111);}
+		if(!me.getQuest(37,0)){say("Anya");Pather.journeyTo(114);this.CheckQuests(114);}
+		if(!me.getQuest(38,3)){say("Nihlathak");Pather.journeyTo(124);this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
 	};
 	
