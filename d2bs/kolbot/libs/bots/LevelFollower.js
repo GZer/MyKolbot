@@ -22,7 +22,7 @@ function LevelFollower(){
 			Progress="Completed";
 		}		
 		try{
-			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" - "+Progress+"\n");
+			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" "+Progress+"\n");
 		}catch(err){
 			D2Bot.printToConsole("Failed to Log Progress",10);
 			return false;
@@ -330,11 +330,15 @@ function LevelFollower(){
 			}
 		}else{
 			this.talkToNPC("Kashya");
-			this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
+			if(me.getMerc()){
+				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
+			}
 		}
 		
-		if(ReplaceMerc && this.unEquipMerc() && me.act >= 2){
+		if(ReplaceMerc && me.act >= 2){
+			this.unEquipMerc();
 			this.hireA2Merc();
+			Item.autoEquipMerc();
 			this.logProgress(me.getMerc(),"Merc level too low,Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
@@ -401,7 +405,7 @@ function LevelFollower(){
 		 switch(bytes[0]) {
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) !== -1) {
+				if(MercId.indexOf(id) != -1) {
 					MercId.length=0;
 				}
 				MercId.push(id);

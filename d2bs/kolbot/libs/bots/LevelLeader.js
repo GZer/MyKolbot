@@ -66,7 +66,7 @@ function LevelLeader(){
 				if(!me.getQuest(4,4)){
 					Stones=[getUnit(2,17),getUnit(2,18),getUnit(2,19),getUnit(2,20),getUnit(2,21)];
 				}
-				while(!me.getQuest(4,4) && me.getItem(525)){
+				while(!me.getQuest(4,4)){
 					Stones.forEach(function(stone){
 						if(!stone.mode){
 							Attack.securePosition(stone.x,stone.y,10,250);
@@ -403,34 +403,28 @@ function LevelLeader(){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					this.tryMakePortal();
-					DestinationReached=(me.area == DestinationArea);
 				}
 			}catch(err){
 				Pather.journeyTo(DestinationArea);
 				this.tryMakePortal();
-				DestinationReached=(me.area == DestinationArea);
 			}
 			count++;
+			DestinationReached=(me.area == DestinationArea);
 		}
 		this.logProgress(DestinationReached,"Clear from "+Pather.getAreaName(CurrentArea)+" to "+Pather.getAreaName(DestinationArea));
 		return DestinationReached;
 	};
 	
 	this.skipAreas=function(FromArea,ToArea){
-		var DestinationReached=false;
 		say("Skipping to "+Pather.getAreaName(ToArea));
 		if(!getWaypoint(WaypointAreas.indexOf(ToArea))){
 			Pather.useWaypoint(FromArea);
 			delay(5000);
 			this.waitForTeleporter(ToArea);
-			if(me.area == ToArea && Pather.getWP(ToArea,true)){
-				DestinationReached=true;
-			}
-		}else{
-			DestinationReached=true;
+			Pather.getWP(ToArea,true);
 		}
-		this.logProgress(DestinationReached,"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
-		return DestinationReached;
+		this.logProgress((me.area == ToArea),"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
+		return (me.area == ToArea);
 	};
 	
 	this.getPlayerCount=function () {
@@ -909,11 +903,15 @@ function LevelLeader(){
 			}
 		}else{
 			this.talkToNPC("Kashya");
-			this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
+			if(me.getMerc()){
+				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
+			}
 		}
 		
-		if(ReplaceMerc && this.unEquipMerc() && me.act >= 2){
+		if(ReplaceMerc && me.act >= 2){
+			this.unEquipMerc();
 			this.hireA2Merc();
+			Item.autoEquipMerc();
 			this.logProgress(me.getMerc(),"Merc level too low,Replaced with "+HiredMercAura+" Merc - "+me.name);
 		}
 		
