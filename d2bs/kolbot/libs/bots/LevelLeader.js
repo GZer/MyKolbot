@@ -330,7 +330,7 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff==0 && me.charlvl > 45) || (me.diff==1 && me.charlvl > 75) || me.diff==2){
+					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 2){
 						Pather.moveTo(15134,5923,true,true);
 						this.killImportantQuestBoss(544);
 						// this.killQuestBoss(544);
@@ -343,7 +343,7 @@ function LevelLeader(){
 		return true;
 	};
 		
-//===============COMMON FUNCTIONS===============//
+// == == == == == == == =COMMON FUNCTIONS == == == == == == == =//
 
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
@@ -376,7 +376,7 @@ function LevelLeader(){
 		var Party=getParty();
 		if(Party){
 			do{
-				if(Party.name != me.name && Party.area==me.area){
+				if(Party.name != me.name && Party.area == me.area){
 					return true;
 				}
 			}while(Party.getNext());
@@ -415,12 +415,12 @@ function LevelLeader(){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
 					this.tryMakePortal();
-					DestinationReached=(me.area==DestinationArea);
+					DestinationReached=(me.area == DestinationArea);
 				}
 			}catch(err){
 				Pather.journeyTo(DestinationArea);
 				this.tryMakePortal();
-				DestinationReached=(me.area==DestinationArea);
+				DestinationReached=(me.area == DestinationArea);
 			}
 			count++;
 		}
@@ -435,7 +435,7 @@ function LevelLeader(){
 			Pather.useWaypoint(FromArea);
 			delay(5000);
 			this.waitForTeleporter(ToArea);
-			if(me.area==ToArea && Pather.getWP(ToArea,true)){
+			if(me.area == ToArea && Pather.getWP(ToArea,true)){
 				DestinationReached=true;
 			}
 		}else{
@@ -476,7 +476,7 @@ function LevelLeader(){
 			}
 		}
 		Pickit.pickItems();
-		return this.getPlayerCount()==8;
+		return this.getPlayerCount() == 8;
 	};
 	
 	this.killQuestBoss=function(BossId){
@@ -598,7 +598,7 @@ function LevelLeader(){
 			while(!me.area){
 				delay(500);
 			}
-			if(preArea==me.area){
+			if(preArea == me.area){
 				say("Act change failed");
 			}
 		}catch(err){
@@ -610,8 +610,8 @@ function LevelLeader(){
 			this.checkMerc();
 		}
 		
-		this.logProgress(me.act==DestinationAct,"Change to Act "+DestinationAct);
-		return me.act==DestinationAct;
+		this.logProgress(me.act == DestinationAct,"Change to Act "+DestinationAct);
+		return me.act == DestinationAct;
 	};
 	
 	this.waitForTeleporter=function(DestinationArea){
@@ -629,7 +629,7 @@ function LevelLeader(){
 		}
 		delay(5000);
 		Precast.doPrecast(true);
-		if(DestinationArea==74){
+		if(DestinationArea == 74){
 			Pather.useWaypoint(40);
 		}else{
 			Town.doChores();
@@ -637,6 +637,7 @@ function LevelLeader(){
 		}
 		Town.move("portalspot");
 		while(WaitingLimit < 120){
+			say("Waiting");
 			for(i=0; i < TeleSorcs.length; i++){
 				if(Pather.getPortal(DestinationArea,TeleSorcs[i])){
 					Pather.usePortal(DestinationArea,TeleSorcs[i]);
@@ -649,15 +650,15 @@ function LevelLeader(){
 			delay(1000);
 			WaitingLimit++;
 		}
-		this.logProgress(DestinationArea==me.area,"Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
-		return DestinationArea==me.area;
+		this.logProgress(DestinationArea == me.area,"Waiting for Teleporter to "+Pather.getAreaName(DestinationArea));
+		return DestinationArea == me.area;
 	};
 	
 	this.teleporterClose=function(){
 		var Party=getParty();
 		if(Party){
 			do{
-				if(Party.classid==1 && Party.area==me.area){
+				if(Party.classid == 1 && Party.area == me.area){
 					return true;
 				}
 				delay(150);
@@ -666,7 +667,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-//===============ACT V FUNCTIONS===============//
+// == == == == == == == =ACT V FUNCTIONS == == == == == == == =//
 	
 	this.FreeAnya=function(){
 		var Anya=getUnit(2,558);
@@ -685,14 +686,14 @@ function LevelLeader(){
 		return true;
 	};
 	
-//===============ACT IV FUNCTIONS===============//
+// == == == == == == == =ACT IV FUNCTIONS == == == == == == == =//
 	
 	this.openSeal=function(SealId){
 		this.clearToQuestLocation(108,2,SealId);
 		var i,tick,Seal=getUnit(2,SealId);
 		if(Seal){
 			for(i=0; i < 5; i++){
-				if(SealId==394){
+				if(SealId == 394){
 					Misc.click(0,0,Seal);
 				}
 				else{
@@ -711,7 +712,7 @@ function LevelLeader(){
 		return false;
 	};
 	
-//===============ACT III FUNCTIONS===============//
+// == == == == == == == =ACT III FUNCTIONS == == == == == == == =//
 
 	this.smashOrb=function(){
 		var Orb=getUnit(2,404),orbTimeout=0,Will=me.getItem(174);
@@ -747,7 +748,7 @@ function LevelLeader(){
 		if(Will){
 			if(Will.toCursor() && clickItem(0,4)){
 				delay(500);
-				if(Will.bodylocation==4 && getCursorType()==3){
+				if(Will.bodylocation == 4 && getCursorType() == 3){
 					PrevWeapon=getUnit(100);
 					if(PrevWeapon && Storage.Inventory.CanFit(PrevWeapon)){
 						Storage.Inventory.MoveTo(PrevWeapon);
@@ -803,7 +804,7 @@ function LevelLeader(){
 		return true;
 	};
 	
-//===============ACT II FUNCTIONS===============//
+// == == == == == == == =ACT II FUNCTIONS == == == == == == == =//
 		
 	this.talkToTyrael=function(){
 		var i,NPC=getUnit(1,"Tyrael");
@@ -927,7 +928,7 @@ function LevelLeader(){
 		var cursorItem,i;		
 		for(i=1; i < 5; i++){
 			//2 Handed Weapons fix
-			if(i==2){i=3;}
+			if(i == 2){i=3;}
 			clickItem(4,i);
 			delay(1000);
 
@@ -991,7 +992,7 @@ function LevelLeader(){
 		}
 	};
 
-//===============START & END FUNCTIONS===============//
+// == == == == == == == =START & END FUNCTIONS == == == == == == == =//
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
@@ -1046,7 +1047,7 @@ function LevelLeader(){
 		}
 		if(Party){
 			do{
-				if(Party.classid==1){
+				if(Party.classid == 1){
 					TeleSorcs.push(Party.name);
 				}
 			}while(Party.getNext());
@@ -1069,7 +1070,7 @@ function LevelLeader(){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
 			try{Pather.useWaypoint(UpToArea);}catch(err){Pather.journeyTo(UpToArea);}
-			if(me.area==UpToArea){
+			if(me.area == UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
 				say("Waiting for Party");

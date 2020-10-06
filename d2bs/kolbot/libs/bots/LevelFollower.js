@@ -345,7 +345,7 @@ function LevelFollower(){
 		var cursorItem,i;		
 		for(i=1; i < 5; i++){
 			//2 Handed Weapons fix
-			if(i==2){i=3;}
+			if(i == 2){i=3;}
 			clickItem(4,i);
 			delay(1000);
 
