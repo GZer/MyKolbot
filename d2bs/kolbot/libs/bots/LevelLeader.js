@@ -446,14 +446,16 @@ function LevelLeader(){
 	};
 	
 	this.getPlayerCount=function () {
-		var Count=0,Party=getParty();
+		var Count=0,Party=getParty(),PlayerAct;
 		if (Party) {
 			do{
-				if(Party.area > 108 && me.act != 5){return 0;}
-				else if(Party.area > 102 && me.act != 4){return 0;}
-				else if(Party.area > 74 && me.act != 3){return 0;}
-				else if(Party.area > 39 && me.act != 2){return 0;}
-				else if(Party.area > 0 && me.act != 1){return 0;}
+				if(Party.area == 0){PlayerAct=me.act;}
+				else if(Party.area > 108){PlayerAct=5;}
+				else if(Party.area > 102){PlayerAct=4;}
+				else if(Party.area > 74){PlayerAct=3;}
+				else if(Party.area > 39){PlayerAct=2;}
+				else{PlayerAct=1;}
+				if(me.act != PlayerAct){return 0;}
 				Count++;
 			}while(Party.getNext());
 		}
