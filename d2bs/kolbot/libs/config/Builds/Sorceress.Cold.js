@@ -299,14 +299,14 @@ var AutoBuildTemplate={
 			SkillPoints: [59],//Blizzard
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[64,59,45,59,55,53,49];
+				Config.AttackSkill=[42,59,45,59,55,53,49];
 				Config.DodgeRange=20;
 				Config.DodgeHP=95;
 			}
 		},
 
 	25: 	{
-			SkillPoints: [59,58],//Energy Shield
+			SkillPoints: [58],//Energy Shield
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
@@ -317,7 +317,7 @@ var AutoBuildTemplate={
 			SkillPoints: [59],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[64,59,45,59,55,53,49];
+				Config.AttackSkill=[42,59,45,59,55,53,49];
 			}	
 		},
 
@@ -333,7 +333,7 @@ var AutoBuildTemplate={
 			SkillPoints: [59],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[64,59,45,59,55,53,49];
+				Config.AttackSkill=[42,59,45,59,55,53,49];
 			}	
 		},
 
@@ -346,15 +346,15 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [59,65,64],//Cold Mastery
+			SkillPoints: [65],//Cold Mastery
 			StatPoints: [0,1,1,3,3],	
 			Update: function(){
-				Config.AttackSkill=[64,59,45,59,55,53,49];
+				Config.AttackSkill=[42,59,45,59,55,53,49];
 			}
 		},
 
 	31: 	{
-			SkillPoints: [59],
+			SkillPoints: [64],//Frozen Orb
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.AttackSkill=[64,59,45,59,55,53,49];
