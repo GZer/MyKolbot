@@ -178,16 +178,12 @@ function LevelFollower(){
 						}
 					break;
 				}
-				//Check leader portals to area
+				//Check leader or any portals to area otherwise walk to leader
 				if(Pather.getPortal(LeaderArea,Config.Leader)){
 					Pather.usePortal(LeaderArea,Config.Leader);
-				}
-				//Else if any portals to area
-				else if(Pather.getPortal(LeaderArea,null)){
+				}else if(Pather.getPortal(LeaderArea,null)){
 					Pather.usePortal(LeaderArea,null);
-				}
-				//Otherwise walk to leader
-				else{
+				}else{
 					Pather.journeyTo(LeaderArea);
 				}
 				delay(150);
@@ -287,8 +283,6 @@ function LevelFollower(){
 	
 	this.checkMerc=function(){
 		var ReplaceMerc=false,MyMerc=me.getMerc();
-		//Nightmare Auras instead of Norm Auras
-		
 		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
 			if(me.gold < me.mercrevivecost){
@@ -309,15 +303,13 @@ function LevelFollower(){
 			if(me.getMerc()){
 				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 			}
-		}
-		
+		}		
 		if(ReplaceMerc && me.act >= 2){
 			this.unEquipMerc();
 			this.hireA2Merc();
 			Item.autoEquipMerc();
 			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
-		}
-		
+		}		
 		return true;
 	};
 	
@@ -328,15 +320,12 @@ function LevelFollower(){
 			if(i == 2){i=3;}
 			clickItem(4,i);
 			delay(1000);
-
 			if(me.itemoncursor){
 				delay(1000);
 				cursorItem=getUnit(100);
-
 				if(cursorItem){
 					Storage.Inventory.MoveTo(cursorItem);
-					delay(1500);
-					
+					delay(1500);					
 					if(me.itemoncursor){
 						Misc.click(0,0,me);
 						delay(1000);
@@ -349,6 +338,7 @@ function LevelFollower(){
 	
 	this.hireA2Merc=function(){
 		var i,MyMerc,MercAuraName=MercAuraNames[me.classid];
+		//Nightmare Auras instead of Norm Auras
 		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		Town.goToTown(2);
 		Pather.getWP(me.area);

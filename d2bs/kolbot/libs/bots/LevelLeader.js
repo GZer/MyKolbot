@@ -154,7 +154,7 @@ function LevelLeader(){
 					this.talkToNPC("Drognan");
 					this.talkToNPC("Jerhyn");
 				}else{
-					this.logProgress(null,"Quit CubingStaff");quit();
+					this.logProgress(false,"Quit CubingStaff");quit();
 				}
 				this.logProgress(me.getQuest(11,0),"Amulet of Viper");
 			break;
@@ -383,7 +383,7 @@ function LevelLeader(){
 					return true;
 				}
 			}catch(err){
-				this.logProgress(null,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));
+				this.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));
 				return false;
 			}
 			count++;
@@ -440,14 +440,9 @@ function LevelLeader(){
 	
 	this.killImportantQuestBoss=function(TargetBoss,XCoord,YCoord){
 		var Bosses=[],Boss,Party=getParty(),i;
-		if(XCoord > 0 && YCoord > 0){
-			Pather.moveTo(XCoord,YCoord,2);
-		}
-		if(TargetBoss instanceof Array){
-			Bosses=TargetBoss;
-		}else{
-			Bosses.push(TargetBoss);
-		}
+		if(XCoord > 0 && YCoord > 0){Pather.moveTo(XCoord,YCoord,2);}
+		if(TargetBoss instanceof Array){Bosses=TargetBoss;}
+		else{Bosses.push(TargetBoss);}
 		for(i=0; i < Bosses.length; i++){
 			Boss=getUnit(1,Bosses[i]);
 			if(Boss){
@@ -488,7 +483,7 @@ function LevelLeader(){
 		NPC=getUnit(1,NPCName);
 		if(NPC && NPC.openMenu()){me.cancel();}
 		else{
-			this.logProgress(null,"Talk to NPC "+NPCName);
+			this.logProgress(false,"Talk to NPC "+NPCName);
 			return false;
 		}
 		return true;
@@ -503,7 +498,7 @@ function LevelLeader(){
 			try{
 				Misc.openChest(Chest);
 			}catch(err){
-				this.logProgress(null,"GetQuestChest:"+ChestId);
+				this.logProgress(false,"GetQuestChest:"+ChestId);
 				return false;
 			}
 		}
@@ -512,7 +507,7 @@ function LevelLeader(){
 		try{
 			Pickit.pickItem(Item);
 		}catch(err){
-			this.logProgress(null,"GetQuestItem:"+ItemId);
+			this.logProgress(false,"GetQuestItem:"+ItemId);
 			return false;
 		}
 		delay(1000);
@@ -651,7 +646,7 @@ function LevelLeader(){
 	this.FreeAnya=function(){
 		var Anya=getUnit(2,558);
 		if(!Anya){
-			this.logProgress(null,"Freeing Anya");
+			this.logProgress(false,"Freeing Anya");
 			return false;
 		}
 		Pather.moveToUnit(Anya);
@@ -718,7 +713,7 @@ function LevelLeader(){
 			if(Heart){Storage.Cube.MoveTo(Heart);}
 			else{this.getKhalimHeart();Storage.Cube.MoveTo(Heart);}
 			if(Flail){Storage.Cube.MoveTo(Flail);}
-			else{this.logProgress(null,"Quit CubingFlail");quit();}
+			else{this.logProgress(false,"Quit CubingFlail");quit();}
 			Cubing.openCube();
 			transmute();
 			delay(1000);
@@ -787,7 +782,7 @@ function LevelLeader(){
 		
 	this.talkToTyrael=function(){
 		var i,NPC=getUnit(1,"Tyrael");
-		if(!NPC){this.logProgress(null,"Free Tyrael");return false;}
+		if(!NPC){this.logProgress(false,"Free Tyrael");return false;}
 		for(i=0; i < 3; i ++){
 			if(getDistance(me,NPC) > 3){
 				Pather.moveToUnit(NPC);
@@ -802,7 +797,7 @@ function LevelLeader(){
 	this.placeStaff=function(){
 		var HoradricStaff=me.getItem(91),Item,Orifice=getUnit(2,152);
 		if(!me.getQuest(10,0)){
-			if(!Orifice){this.logProgress(null,"Quit Orifice");quit();}
+			if(!Orifice){this.logProgress(false,"Quit Orifice");quit();}
 			if(!HoradricStaff){
 				Town.doChores();
 				this.cubeStaff();
@@ -848,8 +843,6 @@ function LevelLeader(){
 	
 	this.checkMerc=function(){
 		var ReplaceMerc=false,MyMerc=me.getMerc();
-		//Nightmare Auras instead of Norm Auras
-		
 		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
 			if(me.gold < me.mercrevivecost){
@@ -870,15 +863,13 @@ function LevelLeader(){
 			if(me.getMerc()){
 				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 			}
-		}
-		
+		}		
 		if(ReplaceMerc && me.act >= 2){
 			this.unEquipMerc();
 			this.hireA2Merc();
 			Item.autoEquipMerc();
 			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
-		}
-		
+		}		
 		return true;
 	};
 	
@@ -889,15 +880,12 @@ function LevelLeader(){
 			if(i == 2){i=3;}
 			clickItem(4,i);
 			delay(1000);
-
 			if(me.itemoncursor){
 				delay(1000);
 				cursorItem=getUnit(100);
-
 				if(cursorItem){
 					Storage.Inventory.MoveTo(cursorItem);
-					delay(1500);
-					
+					delay(1500);					
 					if(me.itemoncursor){
 						Misc.click(0,0,me);
 						delay(1000);
@@ -910,6 +898,7 @@ function LevelLeader(){
 	
 	this.hireA2Merc=function(){
 		var i,MyMerc,MercAuraName=MercAuraNames[me.classid];
+		//Nightmare Auras instead of Norm Auras
 		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
