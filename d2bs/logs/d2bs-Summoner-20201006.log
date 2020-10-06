@@ -3756,3 +3756,1421 @@ Line: (null)
 [10/06/20 12:44:46] D2BS 3048: initNPC: heal
 [10/06/20 12:44:54] D2BS 3048: 40
 [10/06/20 12:45:00] D2BS 3048: initNPC: heal
+[10/06/20 12:45:30] D2BS 3048: Script default.dbj ended
+[10/06/20 12:45:30] D2BS 3048: Script tools\autobuildthread.js ended
+[10/06/20 12:45:30] D2BS 3048: Script tools\party.js ended
+[10/06/20 12:45:30] D2BS 3048: Script tools\toolsthread.js ended
+[10/06/20 12:45:30] D2BS 3048: Script tools\townchicken.js ended
+[10/06/20 12:45:37] D2BS 3048: D2BS Shutdown complete.
+[10/06/20 12:45:37] D2BS 4900: D2BS Engine startup complete. 1.6.4U
+[10/06/20 12:45:37] D2BS 4900: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/06/20 12:45:37] D2BS 4900: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 12:45:37] D2BS 4900: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 12:45:37] D2BS 4900: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 12:45:37] D2BS 4900: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 12:45:37] D2BS 4900: Summoner
+[10/06/20 12:45:39] D2BS 4900: Heartbeat loaded
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 1036
+[10/06/20 12:45:55] D2BS 4900: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 9288
+[10/06/20 12:45:55] D2BS 4900: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 7880
+[10/06/20 12:45:55] D2BS 4900: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 1808
+[10/06/20 12:45:55] D2BS 4900: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 12:45:55] D2BS 4900: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 12:45:55] D2BS 4900: 02FE3C94 (D2BS): (filename not available): QueryInterface
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 5784
+[10/06/20 12:45:55] D2BS 4900: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 12:45:55] D2BS 4900: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/06/20 12:45:55] D2BS 4900: 004027E5 (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 2108
+[10/06/20 12:45:55] D2BS 4900: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 12:45:55] D2BS 4900: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 12:45:55] D2BS 4900: 004102FC (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 9356
+[10/06/20 12:45:55] D2BS 4900: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 12:45:55] D2BS 4900: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/06/20 12:45:55] D2BS 4900: 0041A845 (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 7296
+[10/06/20 12:45:55] D2BS 4900: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 6772
+[10/06/20 12:45:55] D2BS 4900: 77801A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[10/06/20 12:45:55] D2BS 4900: 76486676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 9000
+[10/06/20 12:45:55] D2BS 4900: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 8744
+[10/06/20 12:45:55] D2BS 4900: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 4532
+[10/06/20 12:45:55] D2BS 4900: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 12:45:55] D2BS 4900: 03067236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 12:45:55] D2BS 4900: 03152B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 12:45:55] D2BS 4900: 03151A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 12:45:55] D2BS 4900: 0307E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 10392
+[10/06/20 12:45:55] D2BS 4900: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 12:45:55] D2BS 4900: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 12:45:55] D2BS 4900: 02FEE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 12:45:55] D2BS 4900: 030701B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 12:45:55] D2BS 4900: 03152B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 12:45:55] D2BS 4900: 03151A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 12:45:55] D2BS 4900: 0307E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 8732
+[10/06/20 12:45:55] D2BS 4900: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 12:45:55] D2BS 4900: 03067236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 12:45:55] D2BS 4900: 03152B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 12:45:55] D2BS 4900: 03151A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 12:45:55] D2BS 4900: 0307E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Stack Walk Thread: 4932
+[10/06/20 12:45:55] D2BS 4900: 02FEB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/06/20 12:45:55] D2BS 4900: 02FE37F8 (D2BS): (filename not available): QueryInterface
+[10/06/20 12:45:55] D2BS 4900: 00408A05 (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 00408A81 (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 12:45:55] D2BS 4900: 00617847 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 12:45:55] D2BS 4900: 00619352 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 12:45:55] D2BS 4900: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/06/20 12:45:55] D2BS 4900: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/06/20 12:45:55] D2BS 4900: 00405E6B (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 004065C7 (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 0040671F (Game): (filename not available): (function-name not available)
+[10/06/20 12:45:55] D2BS 4900: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 12:45:55] D2BS 4900: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 12:45:55] D2BS 4900: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 12:45:55] D2BS 4900: Crash File: BlizzardError/2020-10-06 12.45.55/Crash.txt
+[10/06/20 12:45:55] D2BS 4900: D2BS Shutdown complete.
+[10/06/20 12:45:56] D2BS 13188: D2BS Engine startup complete. 1.6.4U
+[10/06/20 12:45:56] D2BS 13188: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/06/20 12:45:56] D2BS 13188: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 12:45:56] D2BS 13188: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 12:45:56] D2BS 13188: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 12:45:56] D2BS 13188: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 12:45:56] D2BS 13188: Summoner
+[10/06/20 12:45:59] D2BS 13188: Heartbeat loaded
+[10/06/20 12:46:16] D2BS 13188: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 12:46:16] D2BS 13188: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 12:46:16] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 12:46:16] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:46:16] D2BS 13188: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 12:46:16] D2BS 13188: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 12:46:16] D2BS 13188: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 12:46:16] D2BS 13188: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 12:46:16] D2BS 13188: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 12:46:16] D2BS 13188: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc215 ms
+[10/06/20 12:46:16] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 12:46:16] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:46:16] D2BS 13188: AutoBuild: Loaded helper thread
+[10/06/20 12:46:16] D2BS 13188: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 12:46:16] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 12:46:16] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:46:16] D2BS 13188: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 12:46:16] D2BS 13188: ÿc3Start ToolsThread script
+[10/06/20 12:46:16] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 12:46:16] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 12:46:16] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:46:16] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:46:47] D2BS 13188: initNPC: BuyPotions
+[10/06/20 12:47:01] D2BS 13188: 46
+[10/06/20 12:47:45] D2BS 13188: ÿc7Picked up ÿc4113 Gold
+[10/06/20 12:47:50] D2BS 13188: initNPC: heal
+[10/06/20 12:47:57] D2BS 13188: 40
+[10/06/20 12:48:23] D2BS 13188: ÿc7Picked up ÿc491 Gold
+[10/06/20 12:48:36] D2BS 13188: 46,72
+[10/06/20 12:48:59] D2BS 13188: move retry 1
+[10/06/20 12:49:02] D2BS 13188: move retry 1
+[10/06/20 12:49:16] D2BS 13188: move retry 1
+[10/06/20 12:49:21] D2BS 13188: move retry 1
+[10/06/20 12:49:28] D2BS 13188: ÿc7Picked up ÿc494 Gold
+[10/06/20 12:49:33] D2BS 13188: move retry 1
+[10/06/20 12:49:41] D2BS 13188: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/06/20 12:49:43] D2BS 13188: move retry 1
+[10/06/20 12:50:11] D2BS 13188: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
+[10/06/20 12:50:13] D2BS 13188: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 12:50:32] D2BS 13188: move retry 1
+[10/06/20 12:50:36] D2BS 13188: move retry 2
+[10/06/20 12:50:38] D2BS 13188: move retry 3
+[10/06/20 12:50:40] D2BS 13188: move retry 1
+[10/06/20 12:50:44] D2BS 13188: move retry 1
+[10/06/20 12:51:18] D2BS 13188: Script default.dbj ended
+[10/06/20 12:51:18] D2BS 13188: Script tools\autobuildthread.js ended
+[10/06/20 12:51:18] D2BS 13188: Script tools\party.js ended
+[10/06/20 12:51:18] D2BS 13188: Script tools\toolsthread.js ended
+[10/06/20 12:51:18] D2BS 13188: Script tools\townchicken.js ended
+[10/06/20 12:51:25] D2BS 13188: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 12:51:25] D2BS 13188: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 12:51:25] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 12:51:25] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:51:25] D2BS 13188: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 12:51:25] D2BS 13188: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 12:51:25] D2BS 13188: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 12:51:25] D2BS 13188: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 12:51:25] D2BS 13188: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 12:51:25] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 12:51:25] D2BS 13188: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 12:51:25] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:51:25] D2BS 13188: AutoBuild: Loaded helper thread
+[10/06/20 12:51:25] D2BS 13188: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 12:51:25] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 12:51:25] D2BS 13188: ÿc3Start ToolsThread script
+[10/06/20 12:51:25] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:51:25] D2BS 13188: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 12:51:25] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 12:51:25] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:51:25] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 12:51:25] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:51:58] D2BS 13188: initNPC: BuyPotions
+[10/06/20 12:52:11] D2BS 13188: 46
+[10/06/20 12:52:44] D2BS 13188: ÿc7Picked up ÿc487 Gold
+[10/06/20 12:52:45] D2BS 13188: ÿc7Picked up ÿc475 Gold
+[10/06/20 12:52:45] D2BS 13188: ÿc7Picked up ÿc432 Gold
+[10/06/20 12:52:47] D2BS 13188: ÿc7Picked up ÿc432 Gold
+[10/06/20 12:52:48] D2BS 13188: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 12:53:11] D2BS 13188: 46,68
+[10/06/20 12:53:36] D2BS 13188: ÿc7Picked up ÿc475 Gold
+[10/06/20 12:53:42] D2BS 13188: move retry 1
+[10/06/20 12:54:41] D2BS 13188: Script default.dbj ended
+[10/06/20 12:54:41] D2BS 13188: Script tools\autobuildthread.js ended
+[10/06/20 12:54:41] D2BS 13188: Script tools\party.js ended
+[10/06/20 12:54:41] D2BS 13188: Script tools\toolsthread.js ended
+[10/06/20 12:54:41] D2BS 13188: Script tools\townchicken.js ended
+[10/06/20 12:54:47] D2BS 13188: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 12:54:47] D2BS 13188: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 12:54:47] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 12:54:47] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:54:47] D2BS 13188: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 12:54:47] D2BS 13188: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 12:54:47] D2BS 13188: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 12:54:47] D2BS 13188: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 12:54:47] D2BS 13188: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/06/20 12:54:47] D2BS 13188: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc215 ms
+[10/06/20 12:54:47] D2BS 13188: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 12:54:47] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 12:54:47] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:54:47] D2BS 13188: AutoBuild: Loaded helper thread
+[10/06/20 12:54:47] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 12:54:47] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:54:47] D2BS 13188: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 12:54:47] D2BS 13188: ÿc3Start ToolsThread script
+[10/06/20 12:54:47] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 12:54:47] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 12:54:47] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:54:47] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:54:48] D2BS 13188: move retry 1
+[10/06/20 12:55:21] D2BS 13188: initNPC: BuyPotions
+[10/06/20 12:55:27] D2BS 13188: move retry 1
+[10/06/20 12:55:36] D2BS 13188: 46
+[10/06/20 12:56:03] D2BS 13188: ÿc1Skipping Crusher 43 16
+[10/06/20 12:56:04] D2BS 13188: ÿc1Skipping Crusher 45 16
+[10/06/20 12:56:06] D2BS 13188: ÿc7Picked up ÿc431 Gold
+[10/06/20 12:56:13] D2BS 13188: move retry 1
+[10/06/20 12:56:36] D2BS 13188: 46,71
+[10/06/20 12:56:47] D2BS 13188: move retry 1
+[10/06/20 12:57:08] D2BS 13188: move retry 1
+[10/06/20 12:57:11] D2BS 13188: ÿc7Picked up ÿc414 Gold
+[10/06/20 12:57:12] D2BS 13188: ÿc7Picked up ÿc416 Gold
+[10/06/20 12:57:13] D2BS 13188: ÿc7Picked up ÿc461 Gold
+[10/06/20 12:57:16] D2BS 13188: move retry 1
+[10/06/20 12:57:22] D2BS 13188: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 12:57:22] D2BS 13188: move retry 1
+[10/06/20 12:57:32] D2BS 13188: ÿc1Skipping Preserved Dead 142 16
+[10/06/20 12:57:38] D2BS 13188: move retry 1
+[10/06/20 12:57:41] D2BS 13188: move retry 1
+[10/06/20 12:57:42] D2BS 13188: move retry 1
+[10/06/20 12:57:45] D2BS 13188: move retry 1
+[10/06/20 12:57:49] D2BS 13188: move retry 1
+[10/06/20 12:57:50] D2BS 13188: move retry 1
+[10/06/20 12:58:19] D2BS 13188: move retry 1
+[10/06/20 12:58:25] D2BS 13188: move retry 1
+[10/06/20 12:58:30] D2BS 13188: move retry 1
+[10/06/20 12:58:40] D2BS 13188: ÿc7Picked up ÿc480 Gold
+[10/06/20 12:58:46] D2BS 13188: Script default.dbj ended
+[10/06/20 12:58:46] D2BS 13188: Script tools\autobuildthread.js ended
+[10/06/20 12:58:46] D2BS 13188: Script tools\party.js ended
+[10/06/20 12:58:46] D2BS 13188: Script tools\toolsthread.js ended
+[10/06/20 12:58:46] D2BS 13188: Script tools\townchicken.js ended
+[10/06/20 12:58:52] D2BS 13188: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 12:58:52] D2BS 13188: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 12:58:52] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 12:58:52] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:58:52] D2BS 13188: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 12:58:52] D2BS 13188: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 12:58:52] D2BS 13188: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 12:58:52] D2BS 13188: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 12:58:52] D2BS 13188: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 12:58:52] D2BS 13188: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc267ÿc4. Valid entries: ÿc249. ÿc4Time: ÿc20 ms
+[10/06/20 12:58:52] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 12:58:52] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:58:52] D2BS 13188: AutoBuild: Loaded helper thread
+[10/06/20 12:58:52] D2BS 13188: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 12:58:52] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 12:58:52] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:58:52] D2BS 13188: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 12:58:52] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 12:58:52] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:58:52] D2BS 13188: ÿc3Start ToolsThread script
+[10/06/20 12:58:52] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 12:58:52] D2BS 13188: Updating Config from level 0 to 24
+[10/06/20 12:58:54] D2BS 13188: move retry 1
+[10/06/20 12:59:25] D2BS 13188: initNPC: heal
+[10/06/20 12:59:31] D2BS 13188: initNPC: buyPotions
+[10/06/20 12:59:43] D2BS 13188: initNPC: BuyPotions
+[10/06/20 12:59:55] D2BS 13188: 46
+[10/06/20 13:00:07] D2BS 13188: AutoBuild: Stat points: 5      Skill points: 2
+[10/06/20 13:00:07] D2BS 13188: AutoBuild: Level up detected ( 24 --> 25 )
+[10/06/20 13:00:07] D2BS 13188: AutoBuild: useSkillPoint(): Iron Golem (90)
+[10/06/20 13:00:07] D2BS 13188: AutoBuild: Skill (1/1) Increased Iron Golem (90) by one (level:  1)
+[10/06/20 13:00:07] D2BS 13188: AutoBuild: useStatPoint(0): Strength
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: Stat (1/5) Increased Strength from 38 to 39
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: Stat (2/5) Increased Vitality from 107 to 108
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: Stat (3/5) Increased Vitality from 108 to 109
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: Stat (4/5) Increased Vitality from 109 to 110
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: Stat (5/5) Increased Vitality from 110 to 111
+[10/06/20 13:00:08] D2BS 13188: Updating Config from level 24 to 25
+[10/06/20 13:00:08] D2BS 13188: Updating Config from level 24 to 25
+[10/06/20 13:00:08] D2BS 13188: Updating Config from level 24 to 25
+[10/06/20 13:00:08] D2BS 13188: Updating Config from level 24 to 25
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: Updating Config from level 24 to 25
+[10/06/20 13:00:08] D2BS 13188: AutoBuild: Incrementing cached character level to 25
+[10/06/20 13:00:17] D2BS 13188: move retry 1
+[10/06/20 13:00:18] D2BS 13188: ÿc7Picked up ÿc465 Gold
+[10/06/20 13:00:40] D2BS 13188: 46,66
+[10/06/20 13:00:56] D2BS 13188: move retry 1
+[10/06/20 13:01:00] D2BS 13188: ÿc7Picked up ÿc432 Gold
+[10/06/20 13:01:03] D2BS 13188: move retry 1
+[10/06/20 13:01:07] D2BS 13188: ÿc7Picked up ÿc456 Gold
+[10/06/20 13:01:14] D2BS 13188: move retry 1
+[10/06/20 13:01:22] D2BS 13188: ÿc7Picked up ÿc426 Gold
+[10/06/20 13:01:27] D2BS 13188: move retry 1
+[10/06/20 13:01:31] D2BS 13188: move retry 1
+[10/06/20 13:01:32] D2BS 13188: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 13:01:32] D2BS 13188: ÿc7Picked up ÿc4134 Gold
+[10/06/20 13:01:33] D2BS 13188: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/06/20 13:01:58] D2BS 13188: ÿc7Picked up ÿc4106 Gold
+[10/06/20 13:02:08] D2BS 13188: ÿc1Skipping Preserved Dead 182 16
+[10/06/20 13:02:21] D2BS 13188: move retry 1
+[10/06/20 13:02:28] D2BS 13188: move retry 1
+[10/06/20 13:02:34] D2BS 13188: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 13:02:37] D2BS 13188: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/06/20 13:02:46] D2BS 13188: ÿc7Picked up ÿc427 Gold
+[10/06/20 13:03:03] D2BS 13188: move retry 1
+[10/06/20 13:03:08] D2BS 13188: ÿc7Picked up ÿc467 Gold
+[10/06/20 13:03:08] D2BS 13188: ÿc7Picked up ÿc440 Gold
+[10/06/20 13:03:11] D2BS 13188: ÿc7Picked up ÿc478 Gold
+[10/06/20 13:03:19] D2BS 13188: ÿc7Picked up ÿc442 Gold
+[10/06/20 13:03:34] D2BS 13188: move retry 1
+[10/06/20 13:03:38] D2BS 13188: move retry 1
+[10/06/20 13:03:43] D2BS 13188: move retry 1
+[10/06/20 13:03:44] D2BS 13188: move retry 1
+[10/06/20 13:03:45] D2BS 13188: ÿc7Picked up ÿc424 Gold
+[10/06/20 13:04:09] D2BS 13188: ÿc7Picked up ÿc413 Gold
+[10/06/20 13:04:30] D2BS 13188: ÿc7Picked up ÿc440 Gold
+[10/06/20 13:04:30] D2BS 13188: ÿc7Picked up ÿc484 Gold
+[10/06/20 13:04:36] D2BS 13188: move retry 1
+[10/06/20 13:04:47] D2BS 13188: ÿc7Picked up ÿc471 Gold
+[10/06/20 13:05:05] D2BS 13188: 73
+[10/06/20 13:05:13] D2BS 13188: Script default.dbj ended
+[10/06/20 13:05:13] D2BS 13188: Script tools\autobuildthread.js ended
+[10/06/20 13:05:13] D2BS 13188: Script tools\party.js ended
+[10/06/20 13:05:13] D2BS 13188: Script tools\toolsthread.js ended
+[10/06/20 13:05:13] D2BS 13188: Script tools\townchicken.js ended
+[10/06/20 13:05:20] D2BS 13188: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 13:05:20] D2BS 13188: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 13:05:20] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 13:05:20] D2BS 13188: Updating Config from level 0 to 25
+[10/06/20 13:05:20] D2BS 13188: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 13:05:20] D2BS 13188: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 13:05:20] D2BS 13188: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc216 ms
+[10/06/20 13:05:20] D2BS 13188: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 13:05:20] D2BS 13188: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 13:05:20] D2BS 13188: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 13:05:20] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 13:05:20] D2BS 13188: Updating Config from level 0 to 25
+[10/06/20 13:05:20] D2BS 13188: AutoBuild: Loaded helper thread
+[10/06/20 13:05:20] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 13:05:20] D2BS 13188: Updating Config from level 0 to 25
+[10/06/20 13:05:20] D2BS 13188: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 13:05:20] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 13:05:20] D2BS 13188: ÿc3Start ToolsThread script
+[10/06/20 13:05:20] D2BS 13188: Updating Config from level 0 to 25
+[10/06/20 13:05:20] D2BS 13188: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 13:05:20] D2BS 13188: Updating Config from level 0 to 25
+[10/06/20 13:05:43] D2BS 13188: move retry 1
+[10/06/20 13:06:00] D2BS 13188: initNPC: BuyPotions
+[10/06/20 13:06:03] D2BS 13188: move retry 1
+[10/06/20 13:07:05] D2BS 13188: move retry 1
+[10/06/20 13:07:28] D2BS 13188: ÿc7Picked up ÿc455 Gold
+[10/06/20 13:07:57] D2BS 13188: 46,72
+[10/06/20 13:08:04] D2BS 13188: 72,46
+[10/06/20 13:09:28] D2BS 13188: initNPC: buyPotions
+[10/06/20 13:09:42] D2BS 13188: 40
+[10/06/20 13:11:16] D2BS 13188: Script default.dbj ended
+[10/06/20 13:11:16] D2BS 13188: Script tools\autobuildthread.js ended
+[10/06/20 13:11:16] D2BS 13188: Script tools\party.js ended
+[10/06/20 13:11:16] D2BS 13188: Script tools\toolsthread.js ended
+[10/06/20 13:11:16] D2BS 13188: Script tools\townchicken.js ended
+[10/06/20 13:11:22] D2BS 13188: D2BS Shutdown complete.
+[10/06/20 13:11:22] D2BS 12500: D2BS Engine startup complete. 1.6.4U
+[10/06/20 13:11:22] D2BS 12500: Summoner
+[10/06/20 13:11:22] D2BS 12500: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/06/20 13:11:22] D2BS 12500: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 13:11:22] D2BS 12500: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 13:11:22] D2BS 12500: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 13:11:22] D2BS 12500: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 13:11:24] D2BS 12500: Heartbeat loaded
+[10/06/20 13:11:42] D2BS 12500: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 13:11:42] D2BS 12500: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 13:11:42] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 13:11:42] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:11:42] D2BS 12500: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 13:11:42] D2BS 12500: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 13:11:42] D2BS 12500: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc216 ms
+[10/06/20 13:11:42] D2BS 12500: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 13:11:42] D2BS 12500: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 13:11:42] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 13:11:42] D2BS 12500: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 13:11:42] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:11:42] D2BS 12500: AutoBuild: Loaded helper thread
+[10/06/20 13:11:42] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 13:11:42] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:11:42] D2BS 12500: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 13:11:42] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 13:11:42] D2BS 12500: ÿc3Start ToolsThread script
+[10/06/20 13:11:42] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:11:42] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 13:11:42] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:12:10] D2BS 12500: initNPC: BuyPotions
+[10/06/20 13:12:58] D2BS 12500: initNPC: heal
+[10/06/20 13:13:10] D2BS 12500: 40
+[10/06/20 13:13:12] D2BS 12500: initNPC: heal
+[10/06/20 13:13:25] D2BS 12500: Script default.dbj ended
+[10/06/20 13:13:25] D2BS 12500: Script tools\autobuildthread.js ended
+[10/06/20 13:13:25] D2BS 12500: Script tools\party.js ended
+[10/06/20 13:13:25] D2BS 12500: Script tools\toolsthread.js ended
+[10/06/20 13:13:25] D2BS 12500: Script tools\townchicken.js ended
+[10/06/20 13:13:32] D2BS 12500: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 13:13:32] D2BS 12500: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 13:13:32] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 13:13:32] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:13:32] D2BS 12500: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[10/06/20 13:13:32] D2BS 12500: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 13:13:32] D2BS 12500: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 13:13:32] D2BS 12500: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 13:13:32] D2BS 12500: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 13:13:32] D2BS 12500: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 13:13:32] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 13:13:32] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:13:32] D2BS 12500: AutoBuild: Loaded helper thread
+[10/06/20 13:13:32] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 13:13:32] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:13:32] D2BS 12500: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 13:13:32] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 13:13:32] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:13:32] D2BS 12500: ÿc3Start ToolsThread script
+[10/06/20 13:13:32] D2BS 12500: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 13:13:32] D2BS 12500: Updating Config from level 0 to 25
+[10/06/20 13:14:01] D2BS 12500: initNPC: BuyPotions
+[10/06/20 13:14:09] D2BS 12500: move retry 1
+[10/06/20 13:45:26] D2BS 12500: Script default.dbj ended
+[10/06/20 13:45:26] D2BS 12500: Script tools\autobuildthread.js ended
+[10/06/20 13:45:26] D2BS 12500: Script tools\party.js ended
+[10/06/20 13:45:26] D2BS 12500: Script tools\toolsthread.js ended
+[10/06/20 13:45:26] D2BS 12500: Script tools\townchicken.js ended
+[10/06/20 13:45:33] D2BS 12500: D2BS Shutdown complete.
+[10/06/20 13:45:33] D2BS 8700: D2BS Engine startup complete. 1.6.4U
+[10/06/20 13:45:33] D2BS 8700: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/06/20 13:45:33] D2BS 8700: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 13:45:33] D2BS 8700: Summoner
+[10/06/20 13:45:33] D2BS 8700: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 13:45:33] D2BS 8700: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 13:45:33] D2BS 8700: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 13:45:36] D2BS 8700: Heartbeat loaded
+[10/06/20 13:45:53] D2BS 8700: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 13:45:53] D2BS 8700: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 13:45:54] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 13:45:54] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:45:54] D2BS 8700: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 13:45:54] D2BS 8700: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 13:45:54] D2BS 8700: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 13:45:54] D2BS 8700: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc215 ms
+[10/06/20 13:45:54] D2BS 8700: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 13:45:54] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 13:45:54] D2BS 8700: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 13:45:54] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:45:54] D2BS 8700: AutoBuild: Loaded helper thread
+[10/06/20 13:45:54] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 13:45:54] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:45:54] D2BS 8700: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 13:45:54] D2BS 8700: ÿc3Start ToolsThread script
+[10/06/20 13:45:54] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 13:45:54] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:45:54] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 13:45:54] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:46:14] D2BS 8700: move retry 1
+[10/06/20 13:46:16] D2BS 8700: move retry 2
+[10/06/20 13:46:23] D2BS 8700: initNPC: BuyPotions
+[10/06/20 13:46:25] D2BS 8700: move retry 1
+[10/06/20 13:46:39] D2BS 8700: move retry 1
+[10/06/20 13:46:45] D2BS 8700: Script default.dbj ended
+[10/06/20 13:46:45] D2BS 8700: Script tools\autobuildthread.js ended
+[10/06/20 13:46:45] D2BS 8700: Script tools\party.js ended
+[10/06/20 13:46:45] D2BS 8700: Script tools\toolsthread.js ended
+[10/06/20 13:46:45] D2BS 8700: Script tools\townchicken.js ended
+[10/06/20 13:46:52] D2BS 8700: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 13:46:52] D2BS 8700: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 13:46:52] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 13:46:52] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:46:52] D2BS 8700: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 13:46:52] D2BS 8700: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 13:46:52] D2BS 8700: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 13:46:52] D2BS 8700: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 13:46:52] D2BS 8700: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 13:46:52] D2BS 8700: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 13:46:52] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 13:46:52] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:46:52] D2BS 8700: AutoBuild: Loaded helper thread
+[10/06/20 13:46:52] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 13:46:52] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:46:52] D2BS 8700: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 13:46:52] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 13:46:52] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:46:52] D2BS 8700: ÿc3Start ToolsThread script
+[10/06/20 13:46:52] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 13:46:52] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:47:20] D2BS 8700: initNPC: BuyPotions
+[10/06/20 13:47:35] D2BS 8700: 46
+[10/06/20 13:47:57] D2BS 8700: 46,72
+[10/06/20 13:48:13] D2BS 8700: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/06/20 13:48:40] D2BS 8700: move retry 1
+[10/06/20 13:48:49] D2BS 8700: move retry 1
+[10/06/20 13:48:51] D2BS 8700: move retry 1
+[10/06/20 13:48:53] D2BS 8700: move retry 1
+[10/06/20 13:48:55] D2BS 8700: move retry 1
+[10/06/20 13:49:12] D2BS 8700: move retry 1
+[10/06/20 13:49:26] D2BS 8700: move retry 1
+[10/06/20 13:49:44] D2BS 8700: move retry 1
+[10/06/20 13:49:44] D2BS 8700: ÿc7Picked up ÿc451 Gold
+[10/06/20 13:49:52] D2BS 8700: move retry 1
+[10/06/20 13:50:01] D2BS 8700: 73
+[10/06/20 13:50:15] D2BS 8700: ÿc7Picked up ÿc4135 Gold
+[10/06/20 13:50:36] D2BS 8700: 40
+[10/06/20 13:51:20] D2BS 8700: 40
+[10/06/20 13:52:19] D2BS 8700: 75,76
+[10/06/20 13:53:09] D2BS 8700: move retry 1
+[10/06/20 13:53:11] D2BS 8700: move retry 1
+[10/06/20 13:53:19] D2BS 8700: move retry 2
+[10/06/20 13:53:21] D2BS 8700: move retry 3
+[10/06/20 13:53:31] D2BS 8700: ÿc7Picked up ÿc441 Gold
+[10/06/20 13:53:54] D2BS 8700: move retry 1
+[10/06/20 13:54:29] D2BS 8700: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[10/06/20 13:54:44] D2BS 8700: ÿc7Picked up ÿc4109 Gold
+[10/06/20 13:54:47] D2BS 8700: ÿc7Picked up ÿc4115 Gold
+[10/06/20 13:54:52] D2BS 8700: ÿc7Picked up ÿc430 Gold
+[10/06/20 13:54:59] D2BS 8700: move retry 1
+[10/06/20 13:55:10] D2BS 8700: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/06/20 13:55:18] D2BS 8700: move retry 2
+[10/06/20 13:55:20] D2BS 8700: initNPC: heal
+[10/06/20 13:55:36] D2BS 8700: 75
+[10/06/20 13:57:31] D2BS 8700: Script default.dbj ended
+[10/06/20 13:57:31] D2BS 8700: Script tools\autobuildthread.js ended
+[10/06/20 13:57:31] D2BS 8700: Script tools\party.js ended
+[10/06/20 13:57:31] D2BS 8700: Script tools\toolsthread.js ended
+[10/06/20 13:57:31] D2BS 8700: Script tools\townchicken.js ended
+[10/06/20 13:58:10] D2BS 8700: Error: login time out null
+[10/06/20 13:58:16] D2BS 8700: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 13:58:16] D2BS 8700: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 13:58:16] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 13:58:16] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:58:16] D2BS 8700: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 13:58:16] D2BS 8700: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 13:58:16] D2BS 8700: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 13:58:16] D2BS 8700: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 13:58:16] D2BS 8700: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 13:58:16] D2BS 8700: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 13:58:16] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 13:58:16] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:58:16] D2BS 8700: AutoBuild: Loaded helper thread
+[10/06/20 13:58:16] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 13:58:16] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:58:16] D2BS 8700: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 13:58:16] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 13:58:16] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:58:16] D2BS 8700: ÿc3Start ToolsThread script
+[10/06/20 13:58:16] D2BS 8700: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 13:58:16] D2BS 8700: Updating Config from level 0 to 25
+[10/06/20 13:58:29] D2BS 8700: initNPC: BuyPotions
+[10/06/20 13:58:29] D2BS 8700: move retry 1
+[10/06/20 13:58:39] D2BS 8700: move retry 1
+[10/06/20 13:59:00] D2BS 8700: initNPC: heal
+[10/06/20 13:59:06] D2BS 8700: move retry 1
+[10/06/20 13:59:13] D2BS 8700: 75
+[10/06/20 14:10:01] D2BS 8700: 40
+[10/06/20 14:10:17] D2BS 8700: 57
+[10/06/20 14:10:31] D2BS 8700: 75
+[10/06/20 14:17:28] D2BS 8700: Script default.dbj ended
+[10/06/20 14:17:28] D2BS 8700: Script tools\autobuildthread.js ended
+[10/06/20 14:17:28] D2BS 8700: Script tools\party.js ended
+[10/06/20 14:17:28] D2BS 8700: Script tools\toolsthread.js ended
+[10/06/20 14:17:28] D2BS 8700: Script tools\townchicken.js ended
+[10/06/20 14:17:35] D2BS 8700: D2BS Shutdown complete.
+[10/06/20 14:17:35] D2BS 2964: D2BS Engine startup complete. 1.6.4U
+[10/06/20 14:17:35] D2BS 2964: Summoner
+[10/06/20 14:17:35] D2BS 2964: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/06/20 14:17:35] D2BS 2964: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 14:17:35] D2BS 2964: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 14:17:35] D2BS 2964: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 14:17:35] D2BS 2964: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 14:17:37] D2BS 2964: Heartbeat loaded
+[10/06/20 14:17:57] D2BS 2964: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 14:17:57] D2BS 2964: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 14:17:57] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 14:17:57] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:17:57] D2BS 2964: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 14:17:57] D2BS 2964: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 14:17:57] D2BS 2964: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 14:17:57] D2BS 2964: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 14:17:57] D2BS 2964: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 14:17:57] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 14:17:57] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:17:57] D2BS 2964: AutoBuild: Loaded helper thread
+[10/06/20 14:17:57] D2BS 2964: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 14:17:57] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 14:17:57] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:17:57] D2BS 2964: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 14:17:57] D2BS 2964: ÿc3Start ToolsThread script
+[10/06/20 14:17:57] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 14:17:57] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:17:57] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 14:17:57] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:18:10] D2BS 2964: move retry 1
+[10/06/20 14:18:12] D2BS 2964: initNPC: BuyPotions
+[10/06/20 14:18:30] D2BS 2964: initNPC: heal
+[10/06/20 14:18:36] D2BS 2964: initNPC: fillTome
+[10/06/20 14:18:45] D2BS 2964: 75
+[10/06/20 14:18:57] D2BS 2964: 75
+[10/06/20 14:21:06] D2BS 2964: Script default.dbj ended
+[10/06/20 14:21:06] D2BS 2964: Script tools\autobuildthread.js ended
+[10/06/20 14:21:06] D2BS 2964: Script tools\party.js ended
+[10/06/20 14:21:06] D2BS 2964: Script tools\toolsthread.js ended
+[10/06/20 14:21:06] D2BS 2964: Script tools\townchicken.js ended
+[10/06/20 14:21:45] D2BS 2964: Error: login time out null
+[10/06/20 14:21:52] D2BS 2964: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 14:21:52] D2BS 2964: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 14:21:52] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 14:21:52] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:21:52] D2BS 2964: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 14:21:52] D2BS 2964: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 14:21:52] D2BS 2964: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 14:21:52] D2BS 2964: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc215 ms
+[10/06/20 14:21:52] D2BS 2964: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 14:21:52] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 14:21:52] D2BS 2964: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 14:21:52] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:21:52] D2BS 2964: AutoBuild: Loaded helper thread
+[10/06/20 14:21:52] D2BS 2964: ÿc3Start ToolsThread script
+[10/06/20 14:21:52] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 14:21:52] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:21:52] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 14:21:52] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:21:52] D2BS 2964: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 14:21:52] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 14:21:52] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:22:05] D2BS 2964: initNPC: BuyPotions
+[10/06/20 14:22:36] D2BS 2964: initNPC: heal
+[10/06/20 14:22:46] D2BS 2964: 75
+[10/06/20 14:33:56] D2BS 2964: Script default.dbj ended
+[10/06/20 14:33:56] D2BS 2964: Script tools\autobuildthread.js ended
+[10/06/20 14:33:56] D2BS 2964: Script tools\party.js ended
+[10/06/20 14:33:56] D2BS 2964: Script tools\toolsthread.js ended
+[10/06/20 14:33:56] D2BS 2964: Script tools\townchicken.js ended
+[10/06/20 14:34:03] D2BS 2964: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 14:34:03] D2BS 2964: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 14:34:03] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 14:34:03] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:34:03] D2BS 2964: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 14:34:03] D2BS 2964: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc216 ms
+[10/06/20 14:34:03] D2BS 2964: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 14:34:03] D2BS 2964: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 14:34:03] D2BS 2964: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 14:34:03] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 14:34:03] D2BS 2964: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 14:34:03] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:34:03] D2BS 2964: AutoBuild: Loaded helper thread
+[10/06/20 14:34:03] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 14:34:03] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:34:03] D2BS 2964: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 14:34:03] D2BS 2964: ÿc3Start ToolsThread script
+[10/06/20 14:34:03] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 14:34:03] D2BS 2964: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 14:34:03] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:34:03] D2BS 2964: Updating Config from level 0 to 25
+[10/06/20 14:34:16] D2BS 2964: initNPC: BuyPotions
+[10/06/20 14:34:22] D2BS 2964: move retry 1
+[10/06/20 14:34:56] D2BS 2964: initNPC: heal
+[10/06/20 14:34:57] D2BS 2964: move retry 1
+[10/06/20 14:35:00] D2BS 2964: move retry 1
+[10/06/20 14:35:07] D2BS 2964: 75
+[10/06/20 14:35:24] D2BS 2964: 75
+[10/06/20 14:36:46] D2BS 2964: move retry 1
+[10/06/20 14:36:58] D2BS 2964: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 14:37:25] D2BS 2964: move retry 1
+[10/06/20 14:37:38] D2BS 2964: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/06/20 14:37:51] D2BS 2964: move retry 1
+[10/06/20 14:38:30] D2BS 2964: move retry 1
+[10/06/20 14:38:42] D2BS 2964: move retry 1
+[10/06/20 14:38:42] D2BS 2964: ÿc7Picked up ÿc4104 Gold
+[10/06/20 14:39:03] D2BS 2964: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 14:39:08] D2BS 2964: move retry 1
+[10/06/20 14:39:14] D2BS 2964: move retry 1
+[10/06/20 14:39:15] D2BS 2964: move retry 1
+[10/06/20 14:39:23] D2BS 2964: 80,92
+[10/06/20 14:40:18] D2BS 2964: move retry 1
+[10/06/20 14:40:19] D2BS 2964: move retry 1
+[10/06/20 14:40:24] D2BS 2964: move retry 1
+[10/06/20 14:40:37] D2BS 2964: move retry 1
+[10/06/20 14:40:40] D2BS 2964: move retry 1
+[10/06/20 14:41:42] D2BS 2964: ÿc7Picked up ÿc4123 Gold
+[10/06/20 14:41:43] D2BS 2964: ÿc7Picked up ÿc497 Gold
+[10/06/20 14:41:45] D2BS 2964: 92,93
+[10/06/20 14:42:13] D2BS 2964: initNPC: heal
+[10/06/20 14:42:27] D2BS 2964: 75
+[10/06/20 14:42:31] D2BS 2964: 40
+[10/06/20 14:42:47] D2BS 2964: 75
+[10/06/20 14:42:59] D2BS 2964: 80
+[10/06/20 14:43:14] D2BS 2964: 80,94
+[10/06/20 14:43:40] D2BS 2964: ÿc7Picked up ÿc4122 Gold
+[10/06/20 14:43:48] D2BS 2964: ÿc7Picked up ÿc4131 Gold
+[10/06/20 14:43:53] D2BS 2964: move retry 1
+[10/06/20 14:44:02] D2BS 2964: ÿc7Picked up ÿc494 Gold
+[10/06/20 14:44:16] D2BS 2964: 75
+[10/06/20 14:44:21] D2BS 2964: 80
+[10/06/20 14:45:06] D2BS 2964: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 14:45:17] D2BS 2964: move retry 1
+[10/06/20 14:45:21] D2BS 2964: move retry 1
+[10/06/20 14:45:25] D2BS 2964: move retry 1
+[10/06/20 14:45:37] D2BS 2964: ÿc7Picked up ÿc453 Gold
+[10/06/20 14:46:19] D2BS 2964: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/06/20 14:46:29] D2BS 2964: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 14:47:20] D2BS 2964: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #24)
+[10/06/20 14:47:22] D2BS 2964: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[10/06/20 14:47:39] D2BS 2964: ÿc7Picked up ÿc4106 Gold
+[10/06/20 14:47:56] D2BS 2964: 81,82,83
+[10/06/20 14:49:00] D2BS 2964: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/06/20 14:49:15] D2BS 2964: move retry 1
+[10/06/20 14:49:32] D2BS 2964: move retry 1
+[10/06/20 14:49:57] D2BS 2964: move retry 2
+[10/06/20 14:49:59] D2BS 2964: 82,83
+[10/06/20 14:51:05] D2BS 2964: move retry 1
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: Stat points: 10      Skill points: 2
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: Level up detected ( 25 --> 26 )
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: useSkillPoint(): Iron Maiden (76)
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: Skill (1/1) Increased Iron Maiden (76) by one (level:  1)
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: useStatPoint(0): Strength
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: Stat (1/5) Increased Strength from 39 to 40
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: Stat (2/5) Increased Vitality from 111 to 112
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: Stat (3/5) Increased Vitality from 112 to 113
+[10/06/20 14:52:01] D2BS 2964: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 14:52:02] D2BS 2964: AutoBuild: Stat (4/5) Increased Vitality from 113 to 114
+[10/06/20 14:52:02] D2BS 2964: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 14:52:02] D2BS 2964: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[10/06/20 14:52:02] D2BS 2964: Updating Config from level 25 to 26
+[10/06/20 14:52:02] D2BS 2964: Updating Config from level 25 to 26
+[10/06/20 14:52:02] D2BS 2964: AutoBuild: Updating Config from level 25 to 26
+[10/06/20 14:52:02] D2BS 2964: Updating Config from level 25 to 26
+[10/06/20 14:52:02] D2BS 2964: Updating Config from level 25 to 26
+[10/06/20 14:52:02] D2BS 2964: AutoBuild: Incrementing cached character level to 26
+[10/06/20 14:52:02] D2BS 2964: ÿc7Picked up ÿc3Unraveller Head ÿc0(ilvl 28) (Summoner.xpac.nip #16)
+[10/06/20 14:52:07] D2BS 2964: move retry 1
+[10/06/20 14:52:10] D2BS 2964: ÿc7Picked up ÿc4ÿc4Khalim's Flail ÿc0(ilvl 28) (LateGame.nip #22)
+[10/06/20 14:52:15] D2BS 2964: move retry 1
+[10/06/20 14:52:27] D2BS 2964: ÿc7Picked up ÿc4116 Gold
+[10/06/20 14:52:28] D2BS 2964: move retry 1
+[10/06/20 14:52:31] D2BS 2964: move retry 2
+[10/06/20 14:52:34] D2BS 2964: move retry 2
+[10/06/20 14:52:43] D2BS 2964: move retry 1
+[10/06/20 14:53:06] D2BS 2964: Script default.dbj ended
+[10/06/20 14:53:06] D2BS 2964: Script tools\autobuildthread.js ended
+[10/06/20 14:53:06] D2BS 2964: Script tools\party.js ended
+[10/06/20 14:53:06] D2BS 2964: Script tools\toolsthread.js ended
+[10/06/20 14:53:06] D2BS 2964: Script tools\townchicken.js ended
+[10/06/20 14:53:13] D2BS 2964: D2BS Shutdown complete.
+[10/06/20 14:53:13] D2BS 3428: D2BS Engine startup complete. 1.6.4U
+[10/06/20 14:53:13] D2BS 3428: Summoner
+[10/06/20 14:53:13] D2BS 3428: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/06/20 14:53:13] D2BS 3428: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 14:53:13] D2BS 3428: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 14:53:13] D2BS 3428: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 14:53:13] D2BS 3428: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 14:53:15] D2BS 3428: Heartbeat loaded
+[10/06/20 14:53:34] D2BS 3428: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 14:53:34] D2BS 3428: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 14:53:34] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 14:53:34] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:53:34] D2BS 3428: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 14:53:34] D2BS 3428: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 14:53:34] D2BS 3428: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 14:53:34] D2BS 3428: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 14:53:34] D2BS 3428: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 14:53:34] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 14:53:34] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:53:34] D2BS 3428: AutoBuild: Loaded helper thread
+[10/06/20 14:53:34] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 14:53:34] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:53:34] D2BS 3428: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 14:53:34] D2BS 3428: ÿc3Start ToolsThread script
+[10/06/20 14:53:34] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 14:53:35] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 14:53:35] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:53:35] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:54:07] D2BS 3428: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 14:54:11] D2BS 3428: Successfully placed Hard Leather Armor at X: 0 Y: 2
+[10/06/20 14:54:37] D2BS 3428: initNPC: identify
+[10/06/20 14:55:22] D2BS 3428: initNPC: buyPotions
+[10/06/20 14:56:16] D2BS 3428: Successfully placed ÿc4Khalim's Flail at X: 4 Y: 0
+[10/06/20 14:56:16] D2BS 3428: initNPC: BuyPotions
+[10/06/20 14:56:37] D2BS 3428: Script default.dbj ended
+[10/06/20 14:56:37] D2BS 3428: Script tools\autobuildthread.js ended
+[10/06/20 14:56:37] D2BS 3428: Script tools\party.js ended
+[10/06/20 14:56:37] D2BS 3428: Script tools\toolsthread.js ended
+[10/06/20 14:56:37] D2BS 3428: Script tools\townchicken.js ended
+[10/06/20 14:56:44] D2BS 3428: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 14:56:44] D2BS 3428: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 14:56:44] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 14:56:44] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:56:44] D2BS 3428: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 14:56:44] D2BS 3428: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 14:56:44] D2BS 3428: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 14:56:44] D2BS 3428: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 14:56:44] D2BS 3428: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/06/20 14:56:44] D2BS 3428: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 14:56:44] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 14:56:44] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:56:44] D2BS 3428: AutoBuild: Loaded helper thread
+[10/06/20 14:56:44] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 14:56:44] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:56:44] D2BS 3428: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 14:56:44] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 14:56:44] D2BS 3428: ÿc3Start ToolsThread script
+[10/06/20 14:56:44] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:56:44] D2BS 3428: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 14:56:44] D2BS 3428: Updating Config from level 0 to 26
+[10/06/20 14:57:11] D2BS 3428: initNPC: identify
+[10/06/20 14:57:20] D2BS 3428: ÿc4MiniShopBotÿc0: Scanning 62 items.
+[10/06/20 14:57:21] D2BS 3428: initNPC: buyPotions
+[10/06/20 14:57:27] D2BS 3428: initNPC: BuyPotions
+[10/06/20 14:57:39] D2BS 3428: 75
+[10/06/20 14:57:42] D2BS 3428: initNPC: heal
+[10/06/20 14:59:42] D2BS 3428: Script default.dbj ended
+[10/06/20 14:59:42] D2BS 3428: Script tools\autobuildthread.js ended
+[10/06/20 14:59:42] D2BS 3428: Script tools\party.js ended
+[10/06/20 14:59:42] D2BS 3428: Script tools\toolsthread.js ended
+[10/06/20 14:59:42] D2BS 3428: Script tools\townchicken.js ended
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 6560
+[10/06/20 14:59:47] D2BS 3428: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 14:59:47] D2BS 3428: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 14:59:47] D2BS 3428: 02FF3C94 (D2BS): (filename not available): QueryInterface
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 11724
+[10/06/20 14:59:47] D2BS 3428: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 14:59:47] D2BS 3428: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/06/20 14:59:47] D2BS 3428: 004027E5 (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 6316
+[10/06/20 14:59:47] D2BS 3428: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 14:59:47] D2BS 3428: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 14:59:47] D2BS 3428: 004102FC (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 6524
+[10/06/20 14:59:47] D2BS 3428: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 14:59:47] D2BS 3428: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/06/20 14:59:47] D2BS 3428: 0041A845 (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 11928
+[10/06/20 14:59:47] D2BS 3428: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 14080
+[10/06/20 14:59:47] D2BS 3428: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 14:59:47] D2BS 3428: 03077236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 14:59:47] D2BS 3428: 03162B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 14:59:47] D2BS 3428: 03161A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 14:59:47] D2BS 3428: 0308E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 256
+[10/06/20 14:59:47] D2BS 3428: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/06/20 14:59:47] D2BS 3428: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/06/20 14:59:47] D2BS 3428: 02FFE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 14:59:47] D2BS 3428: 030801B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 14:59:47] D2BS 3428: 03162B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 14:59:47] D2BS 3428: 03161A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 14:59:47] D2BS 3428: 0308E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 14132
+[10/06/20 14:59:47] D2BS 3428: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/06/20 14:59:47] D2BS 3428: 03077236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 14:59:47] D2BS 3428: 03162B1F (D2BS): (filename not available): JS_freeop
+[10/06/20 14:59:47] D2BS 3428: 03161A5E (D2BS): (filename not available): JS_freeop
+[10/06/20 14:59:47] D2BS 3428: 0308E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 2872
+[10/06/20 14:59:47] D2BS 3428: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Stack Walk Thread: 13760
+[10/06/20 14:59:47] D2BS 3428: 02FFB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/06/20 14:59:47] D2BS 3428: 02FF37F8 (D2BS): (filename not available): QueryInterface
+[10/06/20 14:59:47] D2BS 3428: 00408A05 (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 00408A81 (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 14:59:47] D2BS 3428: 006127D4 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 14:59:47] D2BS 3428: 0061930D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 14:59:47] D2BS 3428: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/06/20 14:59:47] D2BS 3428: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/06/20 14:59:47] D2BS 3428: 00405E6B (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 004065C7 (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 0040671F (Game): (filename not available): (function-name not available)
+[10/06/20 14:59:47] D2BS 3428: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/06/20 14:59:47] D2BS 3428: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/06/20 14:59:47] D2BS 3428: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/06/20 14:59:47] D2BS 3428: Crash File: BlizzardError/2020-10-06 14.59.47/Crash.txt
+[10/06/20 14:59:47] D2BS 3428: D2BS Shutdown complete.
+[10/06/20 14:59:49] D2BS 9268: D2BS Engine startup complete. 1.6.4U
+[10/06/20 14:59:49] D2BS 9268: Summoner
+[10/06/20 14:59:49] D2BS 9268: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/06/20 14:59:49] D2BS 9268: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/06/20 14:59:49] D2BS 9268: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/06/20 14:59:49] D2BS 9268: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/06/20 14:59:49] D2BS 9268: ÿc2D2BSÿc0 :: Started Console Script
+[10/06/20 14:59:51] D2BS 9268: Heartbeat loaded
+[10/06/20 15:00:09] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:00:09] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:00:09] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:00:09] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:00:09] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 15:00:09] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:00:09] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:00:09] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:00:09] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/06/20 15:00:09] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:00:09] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:00:09] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:00:09] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:00:09] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:00:09] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:00:09] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:00:09] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:00:09] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:00:09] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:00:09] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:00:09] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:00:23] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:00:50] D2BS 9268: move retry 1
+[10/06/20 15:01:24] D2BS 9268: move retry 1
+[10/06/20 15:02:07] D2BS 9268: Script default.dbj ended
+[10/06/20 15:02:07] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:02:07] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:02:07] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:02:07] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:02:15] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:02:15] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:02:15] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:02:15] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:02:15] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:02:15] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:02:15] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:02:15] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:02:15] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/06/20 15:02:15] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:02:15] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:02:15] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:02:15] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:02:15] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:02:15] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:02:15] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:02:15] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:02:15] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:02:15] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:02:15] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:02:15] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:02:15] D2BS 9268: move retry 1
+[10/06/20 15:02:32] D2BS 9268: initNPC: heal
+[10/06/20 15:02:34] D2BS 9268: move retry 1
+[10/06/20 15:02:48] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:03:12] D2BS 9268: move retry 1
+[10/06/20 15:03:26] D2BS 9268: move retry 1
+[10/06/20 15:03:27] D2BS 9268: move retry 1
+[10/06/20 15:03:31] D2BS 9268: move retry 1
+[10/06/20 15:03:34] D2BS 9268: move retry 1
+[10/06/20 15:03:37] D2BS 9268: ÿc7Picked up ÿc4735 Gold
+[10/06/20 15:03:37] D2BS 9268: ÿc7Picked up ÿc4390 Gold
+[10/06/20 15:03:39] D2BS 9268: move retry 1
+[10/06/20 15:04:04] D2BS 9268: ÿc7Picked up ÿc4315 Gold
+[10/06/20 15:04:05] D2BS 9268: ÿc7Picked up ÿc4780 Gold
+[10/06/20 15:04:05] D2BS 9268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/06/20 15:04:20] D2BS 9268: Script default.dbj ended
+[10/06/20 15:04:20] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:04:20] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:04:20] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:04:20] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:04:28] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:04:28] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:04:28] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:04:28] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:04:28] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:04:28] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:04:28] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:04:28] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:04:28] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/06/20 15:04:28] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:04:28] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:04:28] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:04:28] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:04:28] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:04:28] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:04:28] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:04:28] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:04:28] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:04:28] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:04:28] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:04:28] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:04:40] D2BS 9268: move retry 1
+[10/06/20 15:04:43] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:04:50] D2BS 9268: move retry 1
+[10/06/20 15:05:03] D2BS 9268: initNPC: heal
+[10/06/20 15:05:13] D2BS 9268: 75
+[10/06/20 15:06:09] D2BS 9268: move retry 1
+[10/06/20 15:06:10] D2BS 9268: move retry 2
+[10/06/20 15:06:26] D2BS 9268: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[10/06/20 15:06:39] D2BS 9268: Script default.dbj ended
+[10/06/20 15:06:39] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:06:39] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:06:39] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:06:39] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:06:46] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:06:46] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:06:46] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:06:46] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:06:46] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:06:46] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:06:46] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:06:46] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:06:46] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 15:06:46] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:06:46] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:06:46] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:06:46] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:06:46] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:06:46] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:06:46] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:06:46] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:06:46] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:06:46] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:06:46] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:06:46] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:06:59] D2BS 9268: move retry 1
+[10/06/20 15:07:03] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:07:23] D2BS 9268: initNPC: heal
+[10/06/20 15:07:33] D2BS 9268: 75
+[10/06/20 15:07:51] D2BS 9268: move retry 1
+[10/06/20 15:09:09] D2BS 9268: Script default.dbj ended
+[10/06/20 15:09:09] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:09:09] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:09:09] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:09:09] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:09:16] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:09:16] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:09:16] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:09:16] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:09:16] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:09:16] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc216 ms
+[10/06/20 15:09:16] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:09:16] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:09:16] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 15:09:16] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:09:16] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:09:16] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:09:16] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:09:16] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:09:16] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:09:16] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:09:16] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:09:16] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:09:16] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:09:16] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:09:16] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:09:29] D2BS 9268: move retry 1
+[10/06/20 15:09:30] D2BS 9268: move retry 2
+[10/06/20 15:09:31] D2BS 9268: initNPC: buyPotions
+[10/06/20 15:09:36] D2BS 9268: move retry 1
+[10/06/20 15:09:39] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:09:46] D2BS 9268: 40
+[10/06/20 15:09:49] D2BS 9268: initNPC: heal
+[10/06/20 15:10:01] D2BS 9268: Script default.dbj ended
+[10/06/20 15:10:01] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:10:01] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:10:01] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:10:01] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:10:08] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:10:08] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:10:08] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:10:08] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:10:08] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:10:08] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:10:08] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:10:08] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:10:08] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/06/20 15:10:08] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:10:08] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:10:08] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:10:08] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:10:08] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:10:08] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:10:08] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:10:08] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:10:08] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:10:08] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:10:08] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:10:08] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:10:36] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:10:49] D2BS 9268: 75
+[10/06/20 15:15:12] D2BS 9268: Script default.dbj ended
+[10/06/20 15:15:12] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:15:12] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:15:12] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:15:12] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:15:19] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:15:19] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:15:19] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:15:19] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:15:19] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:15:19] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:15:19] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:15:19] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc216 ms
+[10/06/20 15:15:19] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 15:15:19] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:15:19] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:15:19] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:15:19] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:15:19] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:15:19] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:15:19] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:15:19] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:15:19] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:15:19] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:15:19] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:15:19] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:15:33] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:15:55] D2BS 9268: initNPC: heal
+[10/06/20 15:16:04] D2BS 9268: move retry 1
+[10/06/20 15:16:07] D2BS 9268: 75
+[10/06/20 15:16:42] D2BS 9268: ÿc7Picked up ÿc4815 Gold
+[10/06/20 15:17:02] D2BS 9268: move retry 1
+[10/06/20 15:17:04] D2BS 9268: move retry 2
+[10/06/20 15:17:11] D2BS 9268: move retry 1
+[10/06/20 15:17:30] D2BS 9268: Script default.dbj ended
+[10/06/20 15:17:30] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:17:30] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:17:30] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:17:30] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:17:37] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:17:37] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:17:37] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:17:37] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:17:37] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:17:37] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:17:37] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:17:37] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:17:37] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 15:17:37] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:17:37] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:17:37] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:17:37] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:17:37] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:17:37] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:17:37] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:17:37] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:17:37] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:17:37] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:17:37] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:17:37] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:17:39] D2BS 9268: move retry 1
+[10/06/20 15:17:44] D2BS 9268: move retry 2
+[10/06/20 15:17:50] D2BS 9268: move retry 1
+[10/06/20 15:17:54] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:17:57] D2BS 9268: move retry 1
+[10/06/20 15:18:12] D2BS 9268: initNPC: heal
+[10/06/20 15:18:23] D2BS 9268: 75
+[10/06/20 15:19:10] D2BS 9268: ÿc7Picked up ÿc4250 Gold
+[10/06/20 15:19:44] D2BS 9268: Script default.dbj ended
+[10/06/20 15:19:44] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:19:44] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:19:44] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:19:44] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:19:51] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:19:51] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:19:51] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:19:51] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:19:51] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 15:19:51] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:19:51] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:19:51] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:19:51] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 15:19:51] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:19:51] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:19:51] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:19:51] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:19:51] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:19:51] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:19:51] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:19:51] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:19:51] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:19:51] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:19:51] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:19:51] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:20:06] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:20:22] D2BS 9268: initNPC: heal
+[10/06/20 15:20:26] D2BS 9268: initNPC: fillTome
+[10/06/20 15:20:35] D2BS 9268: 75
+[10/06/20 15:20:43] D2BS 9268: move retry 1
+[10/06/20 15:21:57] D2BS 9268: Script default.dbj ended
+[10/06/20 15:21:57] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:21:57] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:21:57] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:21:57] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:22:04] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:22:04] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:22:04] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:22:04] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:22:04] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc215 ms
+[10/06/20 15:22:04] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:22:04] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:22:04] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:22:04] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 15:22:04] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:22:04] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:22:04] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:22:04] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:22:04] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:22:04] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:22:04] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:22:04] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:22:04] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:22:04] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:22:04] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:22:04] D2BS 9268: Updating Config from level 0 to 26
+[10/06/20 15:22:18] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:22:37] D2BS 9268: initNPC: heal
+[10/06/20 15:22:49] D2BS 9268: 75
+[10/06/20 15:23:11] D2BS 9268: move retry 1
+[10/06/20 15:23:19] D2BS 9268: move retry 1
+[10/06/20 15:24:17] D2BS 9268: AutoBuild: Stat points: 10      Skill points: 2
+[10/06/20 15:24:17] D2BS 9268: AutoBuild: Level up detected ( 26 --> 27 )
+[10/06/20 15:24:17] D2BS 9268: AutoBuild: useSkillPoint(): Terror (77)
+[10/06/20 15:24:17] D2BS 9268: AutoBuild: Skill (1/1) Increased Terror (77) by one (level:  1)
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: useStatPoint(0): Strength
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: Stat (1/5) Increased Strength from 40 to 41
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: Stat (2/5) Increased Vitality from 115 to 116
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: Stat (3/5) Increased Vitality from 116 to 117
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: Stat (4/5) Increased Vitality from 117 to 118
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: useStatPoint(3): Vitality
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: Stat (5/5) Increased Vitality from 118 to 119
+[10/06/20 15:24:18] D2BS 9268: Updating Config from level 26 to 27
+[10/06/20 15:24:18] D2BS 9268: Updating Config from level 26 to 27
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: Updating Config from level 26 to 27
+[10/06/20 15:24:18] D2BS 9268: Updating Config from level 26 to 27
+[10/06/20 15:24:18] D2BS 9268: Updating Config from level 26 to 27
+[10/06/20 15:24:18] D2BS 9268: AutoBuild: Incrementing cached character level to 27
+[10/06/20 15:24:24] D2BS 9268: Script default.dbj ended
+[10/06/20 15:24:24] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:24:24] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:24:24] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:24:24] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:24:31] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:24:31] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:24:31] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:24:31] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:24:31] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:24:31] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:24:31] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:24:31] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:24:31] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 15:24:31] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:24:31] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:24:31] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:24:31] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:24:31] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:24:31] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:24:31] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:24:31] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:24:31] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:24:31] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:24:31] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:24:31] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:24:33] D2BS 9268: move retry 1
+[10/06/20 15:24:47] D2BS 9268: move retry 1
+[10/06/20 15:24:48] D2BS 9268: initNPC: buyPotions
+[10/06/20 15:24:55] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:25:50] D2BS 9268: ÿc1Skipping Heirophant 31 16
+[10/06/20 15:26:35] D2BS 9268: move retry 1
+[10/06/20 15:26:43] D2BS 9268: Script default.dbj ended
+[10/06/20 15:26:43] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:26:43] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:26:43] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:26:43] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:26:50] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:26:50] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:26:50] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:26:50] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:26:50] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/06/20 15:26:50] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:26:50] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:26:50] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:26:50] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
+[10/06/20 15:26:50] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:26:50] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:26:50] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:26:50] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:26:50] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:26:50] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:26:50] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:26:50] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:26:50] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:26:50] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:26:50] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:26:50] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:27:02] D2BS 9268: move retry 1
+[10/06/20 15:27:04] D2BS 9268: initNPC: heal
+[10/06/20 15:27:08] D2BS 9268: move retry 1
+[10/06/20 15:27:14] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:27:30] D2BS 9268: initNPC: heal
+[10/06/20 15:27:47] D2BS 9268: 75
+[10/06/20 15:28:33] D2BS 9268: Script default.dbj ended
+[10/06/20 15:28:33] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:28:33] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:28:33] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:28:33] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:28:40] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:28:40] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:28:40] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:28:40] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:28:40] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:28:40] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:28:40] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:28:40] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc215 ms
+[10/06/20 15:28:40] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/06/20 15:28:40] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:28:40] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:28:40] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:28:40] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:28:40] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:28:40] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:28:40] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:28:40] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:28:40] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:28:40] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:28:40] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:28:40] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:28:41] D2BS 9268: move retry 1
+[10/06/20 15:28:56] D2BS 9268: initNPC: buyPotions
+[10/06/20 15:29:04] D2BS 9268: move retry 1
+[10/06/20 15:29:08] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:29:21] D2BS 9268: move retry 1
+[10/06/20 15:31:18] D2BS 9268: Script default.dbj ended
+[10/06/20 15:31:18] D2BS 9268: Script tools\autobuildthread.js ended
+[10/06/20 15:31:18] D2BS 9268: Script tools\party.js ended
+[10/06/20 15:31:18] D2BS 9268: Script tools\toolsthread.js ended
+[10/06/20 15:31:18] D2BS 9268: Script tools\townchicken.js ended
+[10/06/20 15:31:25] D2BS 9268: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/06/20 15:31:25] D2BS 9268: ÿc2D2BSÿc0 :: default.dbj running.
+[10/06/20 15:31:25] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/06/20 15:31:25] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:31:25] D2BS 9268: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/06/20 15:31:25] D2BS 9268: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/06/20 15:31:25] D2BS 9268: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/06/20 15:31:25] D2BS 9268: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/06/20 15:31:25] D2BS 9268: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/06/20 15:31:26] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/06/20 15:31:26] D2BS 9268: ÿc2Starting script: ÿc9LevelFollower
+[10/06/20 15:31:26] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:31:26] D2BS 9268: AutoBuild: Loaded helper thread
+[10/06/20 15:31:26] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/06/20 15:31:26] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:31:26] D2BS 9268: ÿc2Party thread loaded. Mode: Accept
+[10/06/20 15:31:26] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/06/20 15:31:26] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:31:26] D2BS 9268: ÿc3Start ToolsThread script
+[10/06/20 15:31:26] D2BS 9268: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/06/20 15:31:26] D2BS 9268: Updating Config from level 0 to 27
+[10/06/20 15:31:27] D2BS 9268: move retry 1
+[10/06/20 15:31:30] D2BS 9268: move retry 2
+[10/06/20 15:31:45] D2BS 9268: initNPC: BuyPotions
+[10/06/20 15:31:49] D2BS 9268: move retry 1
+[10/06/20 15:31:56] D2BS 9268: move retry 1
