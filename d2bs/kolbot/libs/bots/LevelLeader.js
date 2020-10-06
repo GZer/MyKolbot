@@ -604,7 +604,6 @@ function LevelLeader(){
 			return false;
 		}
 		if(Config.UseMerc){
-			Town.doChores();
 			this.checkMerc();
 		}
 		
