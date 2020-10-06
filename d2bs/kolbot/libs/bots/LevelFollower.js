@@ -107,12 +107,7 @@ function LevelFollower(){
 		}catch(err){
 			me.cancel();
 			return false;
-		}
-		if(Config.UseMerc){
-			Town.doChores();
-			this.checkMerc();
-		}
-		
+		}		
 		return me.act == DestinationAct;
 	};
 	
@@ -238,7 +233,7 @@ function LevelFollower(){
 					Town.doChores();
 					Pather.journeyTo(63);
 					Pather.journeyTo(64);
-					if(Pather.moveToPreset(64,2,356)){DestinationReached=true;}else{Town.doChores}
+					if(Pather.moveToPreset(64,2,356)){DestinationReached=true;}
 				break;
 				//Arcane Sanctuary
 				case 74:
@@ -267,7 +262,7 @@ function LevelFollower(){
 					Town.doChores();
 					Pather.journeyTo(89);
 					Pather.journeyTo(91);
-					if(Pather.moveToPreset(91,2,406)){DestinationReached=true;}else{Town.doChores}
+					if(Pather.moveToPreset(91,2,406)){DestinationReached=true;}
 				break;
 			}
 		}
@@ -291,9 +286,8 @@ function LevelFollower(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,MyMerc=me.getMerc(),MercAuraName=MercAuraNames[me.classid];
+		var ReplaceMerc=false,MyMerc=me.getMerc();
 		//Nightmare Auras instead of Norm Auras
-		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		
 		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
@@ -354,7 +348,8 @@ function LevelFollower(){
 	};
 	
 	this.hireA2Merc=function(){
-		var i,MyMerc;
+		var i,MyMerc,MercAuraName=MercAuraNames[me.classid];
+		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);

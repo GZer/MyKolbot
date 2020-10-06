@@ -369,6 +369,7 @@ function LevelLeader(){
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
 		var count=0;
 		Pather.journeyTo(QuestArea);
+		this.tryMakePortal();
 		while(count < 25){
 			try{
 				while(!this.playerClose() && count < 3){
@@ -585,9 +586,6 @@ function LevelLeader(){
 		}catch(err){
 			me.cancel();
 			return false;
-		}
-		if(Config.UseMerc){
-			this.checkMerc();
 		}
 		this.logProgress(me.act == DestinationAct,"Change to Act "+DestinationAct);
 		return me.act == DestinationAct;
@@ -843,9 +841,8 @@ function LevelLeader(){
 	};
 	
 	this.checkMerc=function(){
-		var ReplaceMerc=false,MyMerc=me.getMerc(),MercAuraName=MercAuraNames[me.classid];
+		var ReplaceMerc=false,MyMerc=me.getMerc();
 		//Nightmare Auras instead of Norm Auras
-		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		
 		//If we have a Merc check its within level,otherwise get free one
 		if(me.mercrevivecost > 0){
@@ -906,7 +903,8 @@ function LevelLeader(){
 	};
 	
 	this.hireA2Merc=function(){
-		var i,MyMerc;
+		var i,MyMerc,MercAuraName=MercAuraNames[me.classid];
+		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		Town.goToTown(2);
 		Pather.getWP(me.area);
 		Pather.moveTo(5041,5055);
