@@ -114,17 +114,17 @@ function LevelFollower(){
 	this.goFindLeader=function(LeaderArea){
 		var LeaderAct,BaalPortal;
 		if(LeaderArea){
-			if(LeaderArea <= 39){LeaderAct=1;}
-			else if(LeaderArea >= 40 && LeaderArea <= 74){LeaderAct=2;}
-			else if(LeaderArea >= 75 && LeaderArea <= 102){LeaderAct=3;}
-			else if(LeaderArea >= 103 && LeaderArea <= 108){LeaderAct=4;}
+			if(LeaderArea < 40){LeaderAct=1;}
+			else if(LeaderArea < 75){LeaderAct=2;}
+			else if(LeaderArea < 103){LeaderAct=3;}
+			else if(LeaderArea < 109){LeaderAct=4;}
 			else{LeaderAct=5;}
 			//Make sure we are in the same act
 			if(LeaderAct != me.act){
 				this.ChangeAct(LeaderAct);
 			}
 			//Act3 Jungle fix			
-			if(me.classid == 1 && (TeleportAreas.indexOf(me.area) > -1) && WhoIsLeader.inTown){
+			if(me.classid == 1 && (TeleportAreas.indexOf(me.area) > -1) && (TownWaypoints.indexOf(LeaderArea) > -1)){
 				this.teleportFromLocation(me.area);
 			}
 			
@@ -133,14 +133,14 @@ function LevelFollower(){
 				delay(500);
 				switch(LeaderArea){
 					//Go To Town
-					case 1:
-					case 40:
-					case 75:
-					case 103:
-					case 109:
-						try{Town.doChores();}catch(err){print("Failed going to town")}
-						delay(500);
-					break;
+					// case 1:
+					// case 40:
+					// case 75:
+					// case 103:
+					// case 109:
+						// try{Town.doChores();}catch(err){print("Failed going to town")}
+						// delay(500);
+					// break;
 					//Talk to Atma for Tals Tomb
 					case 46:
 					case TalRashaTomb:
