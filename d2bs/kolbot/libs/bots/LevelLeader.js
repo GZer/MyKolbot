@@ -538,6 +538,12 @@ function LevelLeader(){
 		try{
 			switch(DestinationAct){
 			case 2:
+				//Make sure we have cain before moving out of Act1
+				if(!me.getQuest(4,0)){
+					say("Cain");
+					Pather.journeyTo(5);
+					this.CheckQuests(5);
+				}
 				Pather.journeyTo(0);
 				Pather.moveTo(4862,5662,5);
 				NPC=getUnit(1,"Warriv");
@@ -950,7 +956,6 @@ function LevelLeader(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
 		if(!me.getQuest(1,0)){say("Den");Pather.journeyTo(8);this.CheckQuests(8);}
 		if(!me.getQuest(3,3)){say("Malus");Pather.journeyTo(28);this.CheckQuests(28);}
-		if(!me.getQuest(4,0)){say("Cain");Pather.journeyTo(5);this.CheckQuests(5);}
 		if(!me.getQuest(5,0)){say("Countess");Pather.journeyTo(6);this.CheckQuests(6);}
 		if(!me.getQuest(9,0)){say("Radament");Pather.journeyTo(49);this.CheckQuests(49);}
 		if(!me.getQuest(17,0)){say("Black Book");Pather.journeyTo(94);this.CheckQuests(94);}
