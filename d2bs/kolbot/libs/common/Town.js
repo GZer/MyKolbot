@@ -172,7 +172,7 @@ var Town = {
 		}
 		
 		/*Cain for Access to Durance*/
-		if(me.getQuest(21, 3) && !me.getQuest(21, 0)) {
+		if(me.getQuest(21, 2) && !me.getQuest(21, 0)) {
 			this.goToTown(3);
 			this.move(NPC.Cain);
 			npc=getUnit(1,NPC.Cain);
@@ -187,16 +187,6 @@ var Town = {
 			this.move(NPC.Alkor);
 			npc = getUnit(1, NPC.Alkor);
 			if (npc && npc.openMenu()) {
-				me.cancel();
-			}
-		}
-		
-		/*Anya for Item*/
-		if(me.getQuest(37, 3) && !me.getQuest(37, 0)) {
-			this.goToTown(5);
-			this.move(NPC.Anya);
-			npc=getUnit(1,NPC.Anya);
-			if(npc && npc.openMenu()) {
 				me.cancel();
 			}
 		}
