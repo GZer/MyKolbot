@@ -10,3 +10,35 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1027, @levelleader.js:129, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/07 21:55:22] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 46
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1027, @levelleader.js:129, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/07 22:40:29] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 29
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:188, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/07 22:41:19] <Auradin> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:416, @levelfollower.js:386, @levelfollower.js:311, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/07 22:44:42] <Auradin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:188, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/07 22:57:21] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:188, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/07 23:13:05] <Summoner> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:416, @levelfollower.js:386, @levelfollower.js:311, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/07 23:15:17] <ColdSorc> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:416, @levelfollower.js:406, @levelfollower.js:198, Town.doChores@town.js:91, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/07 23:20:49] <Hammerdin> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:416, @levelfollower.js:386, @levelfollower.js:311, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/08 03:09:54] <Summoner> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:198, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 03:36:03] <LightSorc> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:416, @levelfollower.js:406, @levelfollower.js:192, Pather.getWP@pather.js:1336, Pather.moveToUnit@pather.js:528, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:557, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2251, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 03:50:00] <ColdSorc> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:416, @levelfollower.js:406, @levelfollower.js:192, Pather.getWP@pather.js:1336, Pather.moveToUnit@pather.js:528, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:557, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2251, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 04:38:01] <Hammerdin> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:416, @levelfollower.js:406, @levelfollower.js:192, Pather.getWP@pather.js:1336, Pather.moveToUnit@pather.js:528, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:557, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2251, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 05:45:46] <LightSorc> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:198, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 07:01:30] <Auradin> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:198, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 08:30:57] <Wind> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:198, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 09:38:50] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 54
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1031, @levelleader.js:213, @levelleader.js:714, @levelleader.js:771, @levelleader.js:400, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/08 09:50:14] <Summoner> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 56
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, @levelfollower.js:188, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820

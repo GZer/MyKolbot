@@ -412,10 +412,14 @@ function LevelLeader(){
 		if(!getWaypoint(WaypointAreas.indexOf(ToArea))){
 			Pather.useWaypoint(FromArea);
 			delay(5000);
-			if(this.waitForTeleporter(ToArea)){Pather.getWP(ToArea);}
+			if(this.waitForTeleporter(ToArea)){
+				Pather.getWP(ToArea);
+			}
+		}else{
+			Pather.useWaypoint(ToArea);
 		}
 		this.logProgress((me.area == ToArea),"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
-		return(me.area == ToArea);
+		return (me.area == ToArea);
 	};
 	
 	this.getPlayerCount=function(){
