@@ -1,9 +1,9 @@
 // ====================== MERC ====================== //
 //Bows for Act1 Merc
-[Type] == Bow && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Magic # [LifeLeech] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Magic && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Magic && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 4 && [MaxQuantity] == 1
+[Type] == Bow # # [MercTier] == 1 && [MaxQuantity] == 1
+[Type] == Bow && [Flag] == Ethereal # # [MercTier] == 2 && [MaxQuantity] == 1
+[Type] == Bow && [Quality] >= Magic # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
+[Type] == Bow && [Quality] >= Magic && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 4 && [MaxQuantity] == 1
 
 //Low tier
 ([Type] == Spear || [Type] == Polearm) && [Class] == 0 && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1

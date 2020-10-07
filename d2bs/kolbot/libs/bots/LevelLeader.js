@@ -10,7 +10,7 @@ function LevelLeader(){
 	var MercId=[],MyMercDiff=0,MercAuraName,HiredMercAura;
 	var MercAuraSkills=[0,104,98,114,99,108,0];
 	var MercAuraNames=["$","Defiance","Might","Holy Freeze","Prayer","Blessed Aim","$"];
-	var FullClearAreas=[3,4,5,6,
+	var FullClearAreas=[3,4,5,
 	43,44,
 	105,106,
 	111,113,115,118,129,130];
@@ -20,7 +20,7 @@ function LevelLeader(){
 	103,106,107,
 	109,111,112,113,115,123,117,118,129];
 	var LevelingAreas=[[2,3,17,8,4,5,6,27,28,29,32,34,35,36,37],
-	[47,48,49,42,56,57,60,43,62,44,45,52,54,74,46,TalRashaTomb],
+	[47,48,49,42,56,57,43,62,44,45,52,54,74,46,TalRashaTomb],
 	[76,77,78,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
 	[110,111,112,113,114,115,121,122,123,124,117,118,120,128,129,130,131]];	
@@ -124,8 +124,9 @@ function LevelLeader(){
 				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(9,0),"Radament");
 			break;
-			case 60: //Cube
+			case 57: //Cube
 				if(me.getItem(549)){break;}
+				// Pather.moveToExit(60,true,true);
 				this.clearToQuestLocation(60,2,354);
 				this.getQuestItem(549,354);
 				Town.doChores();
@@ -1002,12 +1003,12 @@ function LevelLeader(){
 	this.checkProgress();
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
-		var UpToArea=0,NextArea=0,UptoAct=ActNumber+1;
+		var UptoAct=ActNumber+1;
 		if(me.act != UptoAct){
 			this.ChangeAct(UptoAct);
 		}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
-			UpToArea=LevelingAreas[ActNumber][LevelArea];
+			var UpToArea=LevelingAreas[ActNumber][LevelArea],NextArea=0;
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
