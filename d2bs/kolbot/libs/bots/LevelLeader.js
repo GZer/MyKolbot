@@ -1011,7 +1011,7 @@ function LevelLeader(){
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
-			try{Pather.useWaypoint(UpToArea);}catch(err){Pather.journeyTo(UpToArea);}
+			Pather.journeyTo(UpToArea);
 			if(me.area == UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
