@@ -1,207 +1,37 @@
-[10/07/20 18:38:14] D2BS 33796: D2BS Shutdown complete.
-[10/07/20 18:38:15] D2BS 18624: D2BS Engine startup complete. 1.6.4U
-[10/07/20 18:38:15] D2BS 18624: ÿc2D2BSÿc0 :: Switched to profile Auradin
-[10/07/20 18:38:15] D2BS 18624: ÿc2D2BSÿc0 :: Engine startup complete!
-[10/07/20 18:38:15] D2BS 18624: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
-[10/07/20 18:38:15] D2BS 18624: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
-[10/07/20 18:38:15] D2BS 18624: ÿc2D2BSÿc0 :: Started Console Script
-[10/07/20 18:38:15] D2BS 18624: Auradin
-[10/07/20 18:38:17] D2BS 18624: Heartbeat loaded
-[10/07/20 18:38:35] D2BS 18624: ÿc2D2BSÿc0 :: Starting default.dbj
-[10/07/20 18:38:35] D2BS 18624: ÿc2D2BSÿc0 :: default.dbj running.
-[10/07/20 18:38:35] D2BS 18624: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
-[10/07/20 18:38:35] D2BS 18624: Updating Config from level 0 to 1
-[10/07/20 18:38:35] D2BS 18624: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
-[10/07/20 18:38:35] D2BS 18624: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
-[10/07/20 18:38:35] D2BS 18624: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
-[10/07/20 18:38:35] D2BS 18624: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
-[10/07/20 18:38:35] D2BS 18624: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc215 ms
-[10/07/20 18:38:35] D2BS 18624: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
-[10/07/20 18:38:35] D2BS 18624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
-[10/07/20 18:38:35] D2BS 18624: Updating Config from level 0 to 1
-[10/07/20 18:38:35] D2BS 18624: AutoBuild: Loaded helper thread
-[10/07/20 18:38:35] D2BS 18624: ÿc2Starting script: ÿc9LevelFollower
-[10/07/20 18:38:35] D2BS 18624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
-[10/07/20 18:38:35] D2BS 18624: Updating Config from level 0 to 1
-[10/07/20 18:38:35] D2BS 18624: ÿc2Party thread loaded. Mode: Accept
-[10/07/20 18:38:35] D2BS 18624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
-[10/07/20 18:38:35] D2BS 18624: Updating Config from level 0 to 1
-[10/07/20 18:38:35] D2BS 18624: ÿc3Start ToolsThread script
-[10/07/20 18:38:35] D2BS 18624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
-[10/07/20 18:38:35] D2BS 18624: Updating Config from level 0 to 1
-[10/07/20 18:38:54] D2BS 18624: initNPC: BuyPotions
-[10/07/20 18:38:55] D2BS 18624: move retry 1
-[10/07/20 18:39:22] D2BS 18624: 1,2
-[10/07/20 18:39:51] D2BS 18624: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #33)
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: Stat points: 5      Skill points: 1
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: Level up detected ( 1 --> 2 )
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: useSkillPoint(): Prayer (99)
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  1)
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: useStatPoint(0): Strength
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: Stat (1/5) Increased Strength from 25 to 26
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: useStatPoint(2): Dexterity
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: Stat (2/5) Increased Dexterity from 20 to 21
-[10/07/20 18:40:05] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:40:06] D2BS 18624: AutoBuild: Attempt to spend point 3 in Vitality may have failed!
-[10/07/20 18:40:06] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:40:06] D2BS 18624: AutoBuild: Stat (4/5) Increased Vitality from 26 to 27
-[10/07/20 18:40:06] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:40:06] D2BS 18624: AutoBuild: Stat (5/5) Increased Vitality from 27 to 28
-[10/07/20 18:40:06] D2BS 18624: AutoBuild: Updating Config from level 1 to 2
-[10/07/20 18:40:06] D2BS 18624: Updating Config from level 1 to 2
-[10/07/20 18:40:06] D2BS 18624: Updating Config from level 1 to 2
-[10/07/20 18:40:06] D2BS 18624: Updating Config from level 1 to 2
-[10/07/20 18:40:06] D2BS 18624: AutoBuild: Incrementing cached character level to 2
-[10/07/20 18:40:06] D2BS 18624: Updating Config from level 1 to 2
-[10/07/20 18:40:13] D2BS 18624: move retry 1
-[10/07/20 18:40:20] D2BS 18624: ÿc7Picked up ÿc0Crude Leather Gloves ÿc0(ilvl 1) (Auradin.xpac.nip #78)
-[10/07/20 18:40:28] D2BS 18624: move retry 1
-[10/07/20 18:40:29] D2BS 18624: move retry 1
-[10/07/20 18:41:07] D2BS 18624: AutoBuild: Stat points: 5      Skill points: 1
-[10/07/20 18:41:07] D2BS 18624: AutoBuild: Level up detected ( 2 --> 3 )
-[10/07/20 18:41:07] D2BS 18624: AutoBuild: useSkillPoint(): Smite (97)
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Skill (1/1) Increased Smite (97) by one (level:  1)
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: useStatPoint(0): Strength
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Stat (1/5) Increased Strength from 26 to 27
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: useStatPoint(2): Dexterity
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Stat (2/5) Increased Dexterity from 21 to 22
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Stat (4/5) Increased Vitality from 29 to 30
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
-[10/07/20 18:41:08] D2BS 18624: Updating Config from level 2 to 3
-[10/07/20 18:41:08] D2BS 18624: Updating Config from level 2 to 3
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Updating Config from level 2 to 3
-[10/07/20 18:41:08] D2BS 18624: Updating Config from level 2 to 3
-[10/07/20 18:41:08] D2BS 18624: Updating Config from level 2 to 3
-[10/07/20 18:41:08] D2BS 18624: AutoBuild: Incrementing cached character level to 3
-[10/07/20 18:41:13] D2BS 18624: move retry 1
-[10/07/20 18:41:17] D2BS 18624: move retry 1
-[10/07/20 18:41:22] D2BS 18624: move retry 1
-[10/07/20 18:41:33] D2BS 18624: ÿc1Skipping Gargantuan Beast 115 16
-[10/07/20 18:41:34] D2BS 18624: AutoBuild: Stat points: 5      Skill points: 1
-[10/07/20 18:41:34] D2BS 18624: AutoBuild: Level up detected ( 3 --> 4 )
-[10/07/20 18:41:34] D2BS 18624: AutoBuild: useSkillPoint(): Prayer (99)
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  2)
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: useStatPoint(0): Strength
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Stat (1/5) Increased Strength from 27 to 28
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: useStatPoint(2): Dexterity
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Stat (2/5) Increased Dexterity from 22 to 23
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Stat (3/5) Increased Vitality from 31 to 32
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Stat (4/5) Increased Vitality from 32 to 33
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Stat (5/5) Increased Vitality from 33 to 34
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Updating Config from level 3 to 4
-[10/07/20 18:41:35] D2BS 18624: Updating Config from level 3 to 4
-[10/07/20 18:41:35] D2BS 18624: Updating Config from level 3 to 4
-[10/07/20 18:41:35] D2BS 18624: Updating Config from level 3 to 4
-[10/07/20 18:41:35] D2BS 18624: Updating Config from level 3 to 4
-[10/07/20 18:41:35] D2BS 18624: AutoBuild: Incrementing cached character level to 4
-[10/07/20 18:41:55] D2BS 18624: ÿc7Picked up ÿc0Chipped Ruby ÿc0(ilvl 1)
-[10/07/20 18:42:03] D2BS 18624: ÿc7Picked up ÿc0Low Quality Wand ÿc0(ilvl 2)
-[10/07/20 18:42:15] D2BS 18624: move retry 1
-[10/07/20 18:42:21] D2BS 18624: move retry 1
-[10/07/20 18:42:38] D2BS 18624: ÿc7Picked up ÿc0Superior Short Bow ÿc0(ilvl 2)
-[10/07/20 18:43:26] D2BS 18624: move retry 1
-[10/07/20 18:43:47] D2BS 18624: ÿc7Picked up ÿc46 Gold
-[10/07/20 18:44:38] D2BS 18624: ÿc7Picked up ÿc48 Gold
-[10/07/20 18:44:43] D2BS 18624: ÿc7Picked up ÿc3Leather Gloves ÿc0(ilvl 1) (Auradin.xpac.nip #83)
-[10/07/20 18:44:55] D2BS 18624: ÿc7Picked up ÿc9Short Bow ÿc0(ilvl 1) (Merc.xpac.nip #4)
-[10/07/20 18:44:57] D2BS 18624: ÿc7Picked up ÿc0Boots ÿc0(ilvl 2) (Auradin.xpac.nip #66)
-[10/07/20 18:45:04] D2BS 18624: ÿc7Picked up ÿc0Crude Short Staff ÿc0(ilvl 1)
-[10/07/20 18:45:12] D2BS 18624: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
-[10/07/20 18:45:19] D2BS 18624: AutoBuild: Stat points: 5      Skill points: 1
-[10/07/20 18:45:19] D2BS 18624: AutoBuild: Level up detected ( 4 --> 5 )
-[10/07/20 18:45:19] D2BS 18624: AutoBuild: useSkillPoint(): Prayer (99)
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  3)
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: useStatPoint(0): Strength
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Stat (1/5) Increased Strength from 28 to 29
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: useStatPoint(2): Dexterity
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Stat (2/5) Increased Dexterity from 23 to 24
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Stat (3/5) Increased Vitality from 34 to 35
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Stat (4/5) Increased Vitality from 35 to 36
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Stat (5/5) Increased Vitality from 36 to 37
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Updating Config from level 4 to 5
-[10/07/20 18:45:20] D2BS 18624: Updating Config from level 4 to 5
-[10/07/20 18:45:20] D2BS 18624: Updating Config from level 4 to 5
-[10/07/20 18:45:20] D2BS 18624: Updating Config from level 4 to 5
-[10/07/20 18:45:20] D2BS 18624: Updating Config from level 4 to 5
-[10/07/20 18:45:20] D2BS 18624: AutoBuild: Incrementing cached character level to 5
-[10/07/20 18:45:23] D2BS 18624: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #32)
-[10/07/20 18:45:23] D2BS 18624: ÿc7Picked up ÿc45 Gold
-[10/07/20 18:45:28] D2BS 18624: ÿc7Picked up ÿc42 Gold
-[10/07/20 18:46:02] D2BS 18624: move retry 1
-[10/07/20 18:46:09] D2BS 18624: ÿc7Picked up ÿc44 Gold
-[10/07/20 18:46:24] D2BS 18624: ÿc7Picked up ÿc0Crude Leather Armor ÿc0(ilvl 1) (Auradin.xpac.nip #50)
-[10/07/20 18:46:38] D2BS 18624: move retry 1
-[10/07/20 18:47:10] D2BS 18624: ÿc7Picked up ÿc43 Gold
-[10/07/20 18:47:47] D2BS 18624: move retry 1
-[10/07/20 18:47:56] D2BS 18624: move retry 1
-[10/07/20 18:48:15] D2BS 18624: ÿc7Picked up ÿc0Sash ÿc0(ilvl 2) (Auradin.xpac.nip #92)
-[10/07/20 18:48:18] D2BS 18624: ÿc7Picked up ÿc44 Gold
-[10/07/20 18:48:39] D2BS 18624: ÿc7Picked up ÿc47 Gold
-[10/07/20 18:49:03] D2BS 18624: ÿc7Picked up ÿc44 Gold
-[10/07/20 18:49:22] D2BS 18624: move retry 1
-[10/07/20 18:49:29] D2BS 18624: move retry 1
-[10/07/20 18:49:31] D2BS 18624: move retry 1
-[10/07/20 18:49:54] D2BS 18624: ÿc7Picked up ÿc0Cracked Cap ÿc0(ilvl 1) (Auradin.xpac.nip #33)
-[10/07/20 18:49:54] D2BS 18624: move retry 1
-[10/07/20 18:49:59] D2BS 18624: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
-[10/07/20 18:50:00] D2BS 18624: AutoBuild: Stat points: 5      Skill points: 1
-[10/07/20 18:50:00] D2BS 18624: AutoBuild: Level up detected ( 5 --> 6 )
-[10/07/20 18:50:00] D2BS 18624: AutoBuild: useSkillPoint(): Prayer (99)
-[10/07/20 18:50:00] D2BS 18624: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  4)
-[10/07/20 18:50:00] D2BS 18624: AutoBuild: useStatPoint(0): Strength
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: Stat (1/5) Increased Strength from 29 to 30
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: useStatPoint(2): Dexterity
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: Stat (2/5) Increased Dexterity from 24 to 25
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: Stat (3/5) Increased Vitality from 37 to 38
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: Stat (4/5) Increased Vitality from 38 to 39
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: Stat (5/5) Increased Vitality from 39 to 40
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: Updating Config from level 5 to 6
-[10/07/20 18:50:01] D2BS 18624: Updating Config from level 5 to 6
-[10/07/20 18:50:01] D2BS 18624: Updating Config from level 5 to 6
-[10/07/20 18:50:01] D2BS 18624: Updating Config from level 5 to 6
-[10/07/20 18:50:01] D2BS 18624: Updating Config from level 5 to 6
-[10/07/20 18:50:01] D2BS 18624: AutoBuild: Incrementing cached character level to 6
-[10/07/20 18:51:26] D2BS 18624: move retry 1
-[10/07/20 18:51:55] D2BS 18624: move retry 1
-[10/07/20 18:51:57] D2BS 18624: move retry 1
-[10/07/20 18:52:12] D2BS 18624: move retry 1
-[10/07/20 18:54:34] D2BS 18624: move retry 1
-[10/07/20 18:54:36] D2BS 18624: move retry 1
-[10/07/20 18:59:30] D2BS 18624: move retry 1
-[10/07/20 18:59:45] D2BS 18624: ÿc7Picked up ÿc44 Gold
-[10/07/20 18:59:55] D2BS 18624: ÿc7Picked up ÿc4165 Gold
-[10/07/20 18:59:55] D2BS 18624: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
-[10/07/20 19:00:16] D2BS 18624: ÿc7Picked up ÿc420 Gold
-[10/07/20 19:00:19] D2BS 18624: move retry 1
-[10/07/20 19:00:40] D2BS 18624: 4,10,5
-[10/07/20 19:01:54] D2BS 18624: ÿc1Skipping Carver 594 16
-[10/07/20 19:02:04] D2BS 18624: ÿc1Skipping Carver 592 16
-[10/07/20 19:02:09] D2BS 18624: ÿc1Pausing.
-[10/07/20 19:02:09] D2BS 18624: ÿc2Resuming.
-[10/07/20 19:02:09] D2BS 18624: ÿc1Pausing.
-[10/07/20 19:02:09] D2BS 18624: ÿc2Resuming.
-[10/07/20 19:02:09] D2BS 18624: ÿc1Pausing.
-[10/07/20 19:02:09] D2BS 18624: ÿc2Resuming.
-[10/07/20 19:02:09] D2BS 18624: ÿc1Pausing.
-[10/07/20 19:02:09] D2BS 18624: ÿc2Resuming.
-[10/07/20 19:02:09] D2BS 18624: ÿc1Pausing.
-[10/07/20 19:02:09] D2BS 18624: ÿc2Resuming.
-[10/07/20 19:02:09] D2BS 18624: ÿc1Pausing.
-[10/07/20 19:02:09] D2BS 18624: ÿc2Resuming.
-[10/07/20 19:02:09] D2BS 18624: Script default.dbj ended
-[10/07/20 19:02:09] D2BS 18624: Script tools\autobuildthread.js ended
-[10/07/20 19:02:09] D2BS 18624: Script tools\party.js ended
-[10/07/20 19:02:09] D2BS 18624: Script tools\townchicken.js ended
+[10/07/20 19:07:46] D2BS 31772: D2BS Engine startup complete. 1.6.4U
+[10/07/20 19:07:46] D2BS 31772: Auradin
+[10/07/20 19:07:46] D2BS 31772: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/07/20 19:07:46] D2BS 31772: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/07/20 19:07:46] D2BS 31772: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/07/20 19:07:46] D2BS 31772: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/07/20 19:07:46] D2BS 31772: ÿc2D2BSÿc0 :: Started Console Script
+[10/07/20 19:07:48] D2BS 31772: Heartbeat loaded
+[10/07/20 19:08:06] D2BS 31772: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/07/20 19:08:06] D2BS 31772: ÿc2D2BSÿc0 :: default.dbj running.
+[10/07/20 19:08:06] D2BS 31772: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/07/20 19:08:06] D2BS 31772: Updating Config from level 0 to 1
+[10/07/20 19:08:06] D2BS 31772: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/07/20 19:08:06] D2BS 31772: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/07/20 19:08:06] D2BS 31772: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/07/20 19:08:06] D2BS 31772: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/07/20 19:08:06] D2BS 31772: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/07/20 19:08:06] D2BS 31772: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc215 ms
+[10/07/20 19:08:06] D2BS 31772: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/07/20 19:08:06] D2BS 31772: Updating Config from level 0 to 1
+[10/07/20 19:08:06] D2BS 31772: AutoBuild: Loaded helper thread
+[10/07/20 19:08:07] D2BS 31772: ÿc2Starting script: ÿc9LevelFollower
+[10/07/20 19:08:07] D2BS 31772: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/07/20 19:08:07] D2BS 31772: Updating Config from level 0 to 1
+[10/07/20 19:08:07] D2BS 31772: ÿc2Party thread loaded. Mode: Accept
+[10/07/20 19:08:07] D2BS 31772: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/07/20 19:08:07] D2BS 31772: ÿc3Start ToolsThread script
+[10/07/20 19:08:07] D2BS 31772: Updating Config from level 0 to 1
+[10/07/20 19:08:07] D2BS 31772: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/07/20 19:08:07] D2BS 31772: Updating Config from level 0 to 1
+[10/07/20 19:08:08] D2BS 31772: move retry 1
+[10/07/20 19:08:15] D2BS 31772: move retry 1
+[10/07/20 19:08:30] D2BS 31772: initNPC: BuyPotions
+[10/07/20 19:08:46] D2BS 31772: move retry 1
+[10/07/20 19:08:49] D2BS 31772: move retry 2
+[10/07/20 19:09:01] D2BS 31772: 1,2
+[10/07/20 19:09:04] D2BS 31772: move retry 1

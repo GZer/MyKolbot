@@ -134,14 +134,14 @@ function LevelFollower(){
 				delay(500);
 				switch(LeaderArea){
 					//Go To Town
-					// case 1:
-					// case 40:
-					// case 75:
-					// case 103:
-					// case 109:
-						// try{Town.doChores();}catch(err){print("Failed going to town")}
-						// delay(500);
-					// break;
+					case 1:
+					case 40:
+					case 75:
+					case 103:
+					case 109:
+						try{Town.doChores();}catch(err){print("Failed going to town")}
+						delay(500);
+					break;
 					//Talk to Atma for Tals Tomb
 					case 46:
 					case TalRashaTomb:

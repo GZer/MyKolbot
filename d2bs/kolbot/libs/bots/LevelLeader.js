@@ -19,7 +19,7 @@ function LevelLeader(){
 	75,76,77,78,79,80,81,83,101,
 	103,106,107,
 	109,111,112,113,115,123,117,118,129];
-	var LevelingAreas=[[2,3,4,8,17,5,6,27,28,29,32,34,35,36,37],
+	var LevelingAreas=[[2,3,17,8,4,5,6,27,28,29,32,34,35,36,37],
 	[47,48,49,42,56,57,60,43,62,44,45,52,54,74,46,TalRashaTomb],
 	[76,77,78,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
@@ -32,14 +32,6 @@ function LevelLeader(){
 			catch(err){Pather.journeyTo(CurrentArea);}
 		}
 		switch(CurrentArea){
-			case 4: //Waypoint to Town before Stony Field
-				Pather.useWaypoint(1);
-				Town.doChores();
-			break;
-			case 8: //Clear Den of Evil
-				Attack.clearLevel(0);
-				this.logProgress(me.getQuest(1,3),"Den");
-			break;
 			case 17: //Blood Raven
 				Attack.clearLevel(0);
 				Pather.journeyTo(3);
@@ -48,6 +40,14 @@ function LevelLeader(){
 				this.talkToNPC("Kashya");
 				Town.doChores();
 				this.logProgress(me.getQuest(2,0),"Blood Raven");
+			break;
+			case 8: //Clear Den of Evil
+				Attack.clearLevel(0);
+				this.logProgress(me.getQuest(1,3),"Den");
+			break;
+			case 4: //Waypoint to Town before Stony Field
+				Pather.useWaypoint(1);
+				Town.doChores();
 			break;
 			case 5: //Tristram
 				Pather.useWaypoint(1);
