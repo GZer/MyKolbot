@@ -151,7 +151,7 @@ function LevelLeader(){
 					this.talkToNPC("Drognan");
 					this.talkToNPC("Jerhyn");
 				}else{
-					this.logProgress(false,"Quit CubingStaff");quit();
+					this.logProgress(false,"Quit CubingStaff");delay(5000);quit();
 				}
 				this.logProgress(me.getQuest(11,0),"Amulet of Viper");
 			break;
@@ -184,13 +184,13 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 76: //Skip Act3 Jungles
-				if(!this.skipAreas(76,77)){quit();}
+				if(!this.skipAreas(76,77)){say("Quitting");delay(5000);quit();}
 			break;
 			case 77: //Skip Act3 Jungles
-				if(!this.skipAreas(77,78)){quit();}
+				if(!this.skipAreas(77,78)){say("Quitting");delay(5000);quit();}
 			break;
 			case 78: //Skip Act3 Jungles
-				if(!this.skipAreas(78,79)){quit();}
+				if(!this.skipAreas(78,79)){say("Quitting");delay(5000);quit();}
 			break;
 			case 80: //Khalim Heart
 				this.getKhalimHeart();
@@ -715,7 +715,7 @@ function LevelLeader(){
 			if(Heart){Storage.Cube.MoveTo(Heart);}
 			else{this.getKhalimHeart();Storage.Cube.MoveTo(Heart);}
 			if(Flail){Storage.Cube.MoveTo(Flail);}
-			else{this.logProgress(false,"Quit CubingFlail");quit();}
+			else{this.logProgress(false,"Quit No Khalims Flail");delay(5000);quit();}
 			Cubing.openCube();
 			transmute();
 			delay(1000);
@@ -734,6 +734,8 @@ function LevelLeader(){
 				Storage.Inventory.MoveTo(Will);
 			}
 		}else{
+			this.logProgress(false,"Quit No Khalims Will");
+			delay(5000);
 			quit();
 		}
 		me.cancel();
@@ -799,7 +801,7 @@ function LevelLeader(){
 	this.placeStaff=function(){
 		var HoradricStaff=me.getItem(91),Item,Orifice=getUnit(2,152);
 		if(!me.getQuest(10,0)){
-			if(!Orifice){this.logProgress(false,"Quit Orifice");quit();}
+			if(!Orifice){this.logProgress(false,"Quit Orifice");delay(5000);quit();}
 			if(!HoradricStaff){
 				Town.doChores();
 				this.cubeStaff();
@@ -833,11 +835,8 @@ function LevelLeader(){
 		transmute();
 		delay(1000);
 		HoradricStaff=me.getItem(91);
-		if(HoradricStaff){
-			Storage.Inventory.MoveTo(HoradricStaff);
-		}else{
-			quit();
-		}
+		if(HoradricStaff){Storage.Inventory.MoveTo(HoradricStaff);}
+		else{say("Quitting");delay(5000);quit();}
 		me.cancel();
 		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
