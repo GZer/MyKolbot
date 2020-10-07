@@ -321,7 +321,7 @@ var AutoBuildTemplate={
 			SkillPoints: [47],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
+				//Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}	
 		},
 

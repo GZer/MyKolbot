@@ -27,3 +27,47 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/07 09:37:40] <Auradin> Error in LevelFollower (town.js line 2221): Town.goToTown: Failed to take TP
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:430, @levelfollower.js:407, Town.doChores@town.js:89, Town.clearInventory@town.js:1872, Town.checkQuestItems@town.js:196, Town.goToTown@town.js:2221
+[2020/10/07 12:48:08] <Wind> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 75
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/07 12:51:26] <Hammerdin> Error in LevelFollower (prototypes.js line 251): Unit.sell: Must be used on items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:195, Pather.getWP@pather.js:1336, Pather.moveToUnit@pather.js:528, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:557, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2261, Town.doChores@town.js:89, Town.clearInventory@town.js:1992, Unit.prototype.sell@prototypes.js:251
+[2020/10/07 14:52:02] <Auradin> Error in TownChicken.js (town.js line 2270): Town.visitTown: Failed to go back from town
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2270
+[2020/10/07 15:00:56] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/07 16:22:40] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:445, @levelfollower.js:191, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/07 16:51:04] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:435, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 16:53:43] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 16:55:20] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 16:57:52] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 16:59:31] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:01:07] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:02:40] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:04:14] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:07:22] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:435, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:08:57] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:10:34] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:12:16] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:13:47] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:15:18] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:17:59] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:420, @levelfollower.js:410, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:19:52] <Wind> Error in LevelFollower (town.js line 2237): Town.goToTown: Failed use WP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:435, @levelfollower.js:187, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2237
+[2020/10/07 17:34:40] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 51
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:435, @levelfollower.js:187, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820

@@ -388,20 +388,15 @@ function LevelFollower(){
 		if(me.getItem(644)){
 			var MalahPotion=me.getItem(644);
 			MalahPotion.drop();
-		}	
-		delay(150);
+		}
 		Pather.getWP(me.area);
 		delay(150);
-		Town.move("portalspot");
-		if(CharacterLevel > 7){
-			Town.doChores();
-		}else{
-			Town.heal();
-		}
+		Town.heal();
 		Town.initNPC("Shop","BuyPotions");
 		me.cancel();
 		delay(150);
 		Pickit.pickItems();
+		Town.move("portalspot");
 		WhoIsLeader=getParty(Config.Leader);
 		//Loop to ensure leader is assigned
 		while(!this.getLeaderUnit(Config.Leader)){

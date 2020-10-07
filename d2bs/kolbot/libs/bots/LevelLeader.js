@@ -963,9 +963,9 @@ function LevelLeader(){
 				i--;
 				UpToArea=WaypointAreas[i];
 				//Cains Scroll
-				if(me.getItem(525)){UpToArea=5;}
+				if(me.getItem(525) && UpToArea < 40){UpToArea=5;}
 				//Horadric Staff
-				if(me.getItem(91)){UpToArea=74;}
+				if(me.getItem(91) && UpToArea < 74){UpToArea=74;}
 				//Khalims Will
 				if(me.getItem(174)){UpToArea=83;}
 				break;
@@ -993,18 +993,14 @@ function LevelLeader(){
 		Town.move("portalspot");
 		delay(500);
 		Pather.getWP(me.area);
-		if(CharacterLevel > 7){
-			Town.doChores();
-		}else{
-			Town.heal();
-		}
+		Town.heal();
 		this.checkMerc();
 		this.assignTeleSorcs();
 		return true;
 	};
 	
 	//Start Script
-	// while(true){say(me.x+","+me.y);say(this.getPlayerCount());delay(2000);}
+	// while(true){say(me.x+","+me.y);delay(2000);}
 	this.configCharacter(me.charlvl);
 	this.checkProgress();
 	
