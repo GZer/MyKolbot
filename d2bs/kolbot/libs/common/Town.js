@@ -162,7 +162,7 @@ var Town = {
 		}
 
 		/*Atma for Discount*/
-		if(me.getQuest(9, 3) && !me.getQuest(9, 0)) {
+		if(me.getQuest(9, 1)) {
 			this.goToTown(2);
 			this.move(NPC.Atma);
 			npc=getUnit(1,NPC.Atma);
