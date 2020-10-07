@@ -38,10 +38,8 @@
 [Name] == ScrollOfTownPortal # # [MaxQuantity] == 20
 [Type] == Gold
 
-// ===============RUNEWORDS ===============//
+// ===============+SKILL UNIQUES/RUNEWORDS ===============//
 [Flag] == Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1
-
-// ===============+SKILL UNIQUES ===============//
 ([Type] == Axe || [Type] == Hammer || [Type] == Polearm || [Type] == Spear || [Type] == Staff || [Type] == Sword || [Type] == ThrowingAxe || [Type] == Club || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Orb || [Type] == Scepter || [Type] == ThrowingKnife || [Type] == Wand) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
 ([Type] == AuricShields || [Type] == Armor || [Type] == Belt || [Type] == Boots || [Type] == Circlet || [Type] == Gloves || [Type] == Helm || [Type] == Pelt || [Type] == PrimalHelm || [Type] == Shield || [Type] == VoodooHeads) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
 ([Type] == Amulet || [Type] == Ring) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1

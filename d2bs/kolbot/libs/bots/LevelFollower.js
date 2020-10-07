@@ -107,7 +107,8 @@ function LevelFollower(){
 		}catch(err){
 			me.cancel();
 			return false;
-		}		
+		}
+		if(Config.useMerc){this.checkMerc();}
 		return me.act == DestinationAct;
 	};
 	

@@ -53,7 +53,7 @@
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # # [Tier] == 2 && [MaxQuantity] == 1
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10 # [Tier] == 3
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 20 || [MaxMana]+[MaxHP] > 20 # [Tier] == 4
-[Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxMana]+[MaxHP] > 30 # [Tier] == 5
+[Type] == Armor && [Flag] != Ethereal && [Quality] == Runeword # [PoisonResist] == 30 && [FCR] == 25 # [Tier] == 5
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxMana]+[MaxHP] > 60 # [Tier] == 6
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 || [MaxMana]+[MaxHP] > 90 # [Tier] == 7
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxMana]+[MaxHP] > 30 # [Tier] == 8

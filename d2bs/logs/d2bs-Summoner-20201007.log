@@ -1,82 +1,586 @@
-[10/07/20 18:22:50] D2BS 28992: D2BS Engine startup complete. 1.6.4U
-[10/07/20 18:22:50] D2BS 28992: Summoner
-[10/07/20 18:22:50] D2BS 28992: ÿc2D2BSÿc0 :: Switched to profile Summoner
-[10/07/20 18:22:50] D2BS 28992: ÿc2D2BSÿc0 :: Engine startup complete!
-[10/07/20 18:22:50] D2BS 28992: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
-[10/07/20 18:22:50] D2BS 28992: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
-[10/07/20 18:22:50] D2BS 28992: ÿc2D2BSÿc0 :: Started Console Script
-[10/07/20 18:22:52] D2BS 28992: Heartbeat loaded
-[10/07/20 18:23:09] D2BS 28992: ÿc2D2BSÿc0 :: Starting default.dbj
-[10/07/20 18:23:09] D2BS 28992: ÿc2D2BSÿc0 :: default.dbj running.
-[10/07/20 18:23:09] D2BS 28992: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
-[10/07/20 18:23:09] D2BS 28992: Updating Config from level 0 to 1
-[10/07/20 18:23:09] D2BS 28992: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
-[10/07/20 18:23:09] D2BS 28992: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
-[10/07/20 18:23:09] D2BS 28992: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
-[10/07/20 18:23:09] D2BS 28992: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
-[10/07/20 18:23:09] D2BS 28992: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc215 ms
-[10/07/20 18:23:09] D2BS 28992: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
-[10/07/20 18:23:09] D2BS 28992: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
-[10/07/20 18:23:09] D2BS 28992: Updating Config from level 0 to 1
-[10/07/20 18:23:09] D2BS 28992: AutoBuild: Loaded helper thread
-[10/07/20 18:23:09] D2BS 28992: ÿc2Starting script: ÿc9LevelFollower
-[10/07/20 18:23:09] D2BS 28992: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
-[10/07/20 18:23:09] D2BS 28992: Updating Config from level 0 to 1
-[10/07/20 18:23:09] D2BS 28992: ÿc2Party thread loaded. Mode: Accept
-[10/07/20 18:23:09] D2BS 28992: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
-[10/07/20 18:23:09] D2BS 28992: ÿc3Start ToolsThread script
-[10/07/20 18:23:09] D2BS 28992: Updating Config from level 0 to 1
-[10/07/20 18:23:09] D2BS 28992: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
-[10/07/20 18:23:09] D2BS 28992: Updating Config from level 0 to 1
-[10/07/20 18:23:16] D2BS 28992: move retry 1
-[10/07/20 18:23:17] D2BS 28992: move retry 1
-[10/07/20 18:23:29] D2BS 28992: initNPC: BuyPotions
-[10/07/20 18:23:36] D2BS 28992: move retry 1
-[10/07/20 18:23:56] D2BS 28992: 1,2
-[10/07/20 18:24:16] D2BS 28992: ÿc7Picked up ÿc0Dagger ÿc0(ilvl 1)
-[10/07/20 18:24:16] D2BS 28992: ÿc7Picked up ÿc44 Gold
-[10/07/20 18:24:28] D2BS 28992: ÿc7Picked up ÿc44 Gold
-[10/07/20 18:24:36] D2BS 28992: 2,8
-[10/07/20 18:24:50] D2BS 28992: AutoBuild: Stat points: 5      Skill points: 1
-[10/07/20 18:24:50] D2BS 28992: AutoBuild: Level up detected ( 1 --> 2 )
-[10/07/20 18:24:50] D2BS 28992: AutoBuild: useSkillPoint(): Raise Skeleton (70)
-[10/07/20 18:24:50] D2BS 28992: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  2)
-[10/07/20 18:24:50] D2BS 28992: AutoBuild: useStatPoint(0): Strength
-[10/07/20 18:24:50] D2BS 28992: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
-[10/07/20 18:24:50] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: Stat (2/5) Increased Vitality from 15 to 16
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: Stat (3/5) Increased Vitality from 16 to 17
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: Stat (4/5) Increased Vitality from 17 to 18
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: Stat (5/5) Increased Vitality from 18 to 19
-[10/07/20 18:24:51] D2BS 28992: Updating Config from level 1 to 2
-[10/07/20 18:24:51] D2BS 28992: Updating Config from level 1 to 2
-[10/07/20 18:24:51] D2BS 28992: Updating Config from level 1 to 2
-[10/07/20 18:24:51] D2BS 28992: Updating Config from level 1 to 2
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: Updating Config from level 1 to 2
-[10/07/20 18:24:51] D2BS 28992: AutoBuild: Incrementing cached character level to 2
-[10/07/20 18:25:13] D2BS 28992: ÿc7Picked up ÿc0Damaged Boots ÿc0(ilvl 1) (Summoner.xpac.nip #59)
-[10/07/20 18:25:54] D2BS 28992: AutoBuild: Stat points: 5      Skill points: 1
-[10/07/20 18:25:54] D2BS 28992: AutoBuild: Level up detected ( 2 --> 3 )
-[10/07/20 18:25:54] D2BS 28992: AutoBuild: useSkillPoint(): Amplify Damage (66)
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Skill (1/1) Increased Amplify Damage (66) by one (level:  1)
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: useStatPoint(0): Strength
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Stat (2/5) Increased Vitality from 19 to 20
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Stat (3/5) Increased Vitality from 20 to 21
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Stat (4/5) Increased Vitality from 21 to 22
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: useStatPoint(3): Vitality
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Stat (5/5) Increased Vitality from 22 to 23
-[10/07/20 18:25:55] D2BS 28992: Updating Config from level 2 to 3
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Updating Config from level 2 to 3
-[10/07/20 18:25:55] D2BS 28992: Updating Config from level 2 to 3
-[10/07/20 18:25:55] D2BS 28992: Updating Config from level 2 to 3
-[10/07/20 18:25:55] D2BS 28992: Updating Config from level 2 to 3
-[10/07/20 18:25:55] D2BS 28992: AutoBuild: Incrementing cached character level to 3
-[10/07/20 18:26:09] D2BS 28992: move retry 1
-[10/07/20 18:26:10] D2BS 28992: move retry 1
+[10/07/20 18:38:14] D2BS 25672: D2BS Shutdown complete.
+[10/07/20 18:38:15] D2BS 36336: D2BS Engine startup complete. 1.6.4U
+[10/07/20 18:38:15] D2BS 36336: Summoner
+[10/07/20 18:38:15] D2BS 36336: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/07/20 18:38:15] D2BS 36336: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/07/20 18:38:15] D2BS 36336: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/07/20 18:38:15] D2BS 36336: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/07/20 18:38:15] D2BS 36336: ÿc2D2BSÿc0 :: Started Console Script
+[10/07/20 18:38:17] D2BS 36336: Heartbeat loaded
+[10/07/20 18:38:36] D2BS 36336: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/07/20 18:38:36] D2BS 36336: ÿc2D2BSÿc0 :: default.dbj running.
+[10/07/20 18:38:36] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/07/20 18:38:36] D2BS 36336: Updating Config from level 0 to 1
+[10/07/20 18:38:36] D2BS 36336: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc277ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/07/20 18:38:36] D2BS 36336: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc257ÿc4. Valid entries: ÿc234. ÿc4Time: ÿc20 ms
+[10/07/20 18:38:36] D2BS 36336: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc234ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/07/20 18:38:36] D2BS 36336: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/07/20 18:38:36] D2BS 36336: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/07/20 18:38:36] D2BS 36336: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/07/20 18:38:36] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/07/20 18:38:36] D2BS 36336: Updating Config from level 0 to 1
+[10/07/20 18:38:36] D2BS 36336: AutoBuild: Loaded helper thread
+[10/07/20 18:38:36] D2BS 36336: ÿc2Starting script: ÿc9LevelFollower
+[10/07/20 18:38:36] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/07/20 18:38:36] D2BS 36336: Updating Config from level 0 to 1
+[10/07/20 18:38:36] D2BS 36336: ÿc2Party thread loaded. Mode: Accept
+[10/07/20 18:38:36] D2BS 36336: ÿc3Start ToolsThread script
+[10/07/20 18:38:36] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/07/20 18:38:36] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/07/20 18:38:36] D2BS 36336: Updating Config from level 0 to 1
+[10/07/20 18:38:36] D2BS 36336: Updating Config from level 0 to 1
+[10/07/20 18:38:53] D2BS 36336: move retry 1
+[10/07/20 18:38:55] D2BS 36336: move retry 2
+[10/07/20 18:38:57] D2BS 36336: initNPC: BuyPotions
+[10/07/20 18:39:24] D2BS 36336: 1,2
+[10/07/20 18:39:53] D2BS 36336: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: Stat points: 5      Skill points: 1
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: Level up detected ( 1 --> 2 )
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  2)
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: useStatPoint(0): Strength
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: Stat (1/5) Increased Strength from 15 to 16
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: Stat (2/5) Increased Vitality from 15 to 16
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: Stat (3/5) Increased Vitality from 16 to 17
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: Stat (4/5) Increased Vitality from 17 to 18
+[10/07/20 18:40:05] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:40:06] D2BS 36336: AutoBuild: Stat (5/5) Increased Vitality from 18 to 19
+[10/07/20 18:40:06] D2BS 36336: Updating Config from level 1 to 2
+[10/07/20 18:40:06] D2BS 36336: Updating Config from level 1 to 2
+[10/07/20 18:40:06] D2BS 36336: Updating Config from level 1 to 2
+[10/07/20 18:40:06] D2BS 36336: Updating Config from level 1 to 2
+[10/07/20 18:40:06] D2BS 36336: AutoBuild: Updating Config from level 1 to 2
+[10/07/20 18:40:06] D2BS 36336: AutoBuild: Incrementing cached character level to 2
+[10/07/20 18:40:11] D2BS 36336: move retry 1
+[10/07/20 18:40:21] D2BS 36336: ÿc7Picked up ÿc45 Gold
+[10/07/20 18:40:49] D2BS 36336: move retry 1
+[10/07/20 18:41:07] D2BS 36336: AutoBuild: Stat points: 5      Skill points: 1
+[10/07/20 18:41:07] D2BS 36336: AutoBuild: Level up detected ( 2 --> 3 )
+[10/07/20 18:41:07] D2BS 36336: AutoBuild: useSkillPoint(): Amplify Damage (66)
+[10/07/20 18:41:07] D2BS 36336: AutoBuild: Skill (1/1) Increased Amplify Damage (66) by one (level:  1)
+[10/07/20 18:41:07] D2BS 36336: AutoBuild: useStatPoint(0): Strength
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: Stat (1/5) Increased Strength from 16 to 17
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: Stat (2/5) Increased Vitality from 19 to 20
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: Stat (3/5) Increased Vitality from 20 to 21
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: Stat (4/5) Increased Vitality from 21 to 22
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: Stat (5/5) Increased Vitality from 22 to 23
+[10/07/20 18:41:08] D2BS 36336: Updating Config from level 2 to 3
+[10/07/20 18:41:08] D2BS 36336: Updating Config from level 2 to 3
+[10/07/20 18:41:08] D2BS 36336: Updating Config from level 2 to 3
+[10/07/20 18:41:08] D2BS 36336: Updating Config from level 2 to 3
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: Updating Config from level 2 to 3
+[10/07/20 18:41:08] D2BS 36336: AutoBuild: Incrementing cached character level to 3
+[10/07/20 18:41:21] D2BS 36336: ÿc1Skipping Fallen 110 16
+[10/07/20 18:41:24] D2BS 36336: ÿc1Skipping Gargantuan Beast 114 16
+[10/07/20 18:41:25] D2BS 36336: ÿc1Skipping Gargantuan Beast 114 16
+[10/07/20 18:41:27] D2BS 36336: ÿc1Skipping Gargantuan Beast 115 16
+[10/07/20 18:41:28] D2BS 36336: ÿc1Skipping Gargantuan Beast 114 16
+[10/07/20 18:41:29] D2BS 36336: ÿc1Skipping Gargantuan Beast 115 16
+[10/07/20 18:41:33] D2BS 36336: ÿc1Skipping Fallen 110 16
+[10/07/20 18:41:33] D2BS 36336: ÿc1Skipping Gargantuan Beast 115 16
+[10/07/20 18:41:34] D2BS 36336: AutoBuild: Stat points: 5      Skill points: 1
+[10/07/20 18:41:34] D2BS 36336: AutoBuild: Level up detected ( 3 --> 4 )
+[10/07/20 18:41:34] D2BS 36336: AutoBuild: useSkillPoint(): Bone Armor (68)
+[10/07/20 18:41:34] D2BS 36336: AutoBuild: Skill (1/1) Increased Bone Armor (68) by one (level:  1)
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: useStatPoint(0): Strength
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: Stat (1/5) Increased Strength from 17 to 18
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: Stat (2/5) Increased Vitality from 23 to 24
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: Stat (3/5) Increased Vitality from 24 to 25
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:35] D2BS 36336: ÿc1Skipping Fallen 111 16
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: Stat (4/5) Increased Vitality from 25 to 26
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: Stat (5/5) Increased Vitality from 26 to 27
+[10/07/20 18:41:35] D2BS 36336: Updating Config from level 3 to 4
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: Updating Config from level 3 to 4
+[10/07/20 18:41:35] D2BS 36336: Updating Config from level 3 to 4
+[10/07/20 18:41:35] D2BS 36336: Updating Config from level 3 to 4
+[10/07/20 18:41:35] D2BS 36336: Updating Config from level 3 to 4
+[10/07/20 18:41:35] D2BS 36336: AutoBuild: Incrementing cached character level to 4
+[10/07/20 18:41:40] D2BS 36336: ÿc1Skipping Fallen 111 16
+[10/07/20 18:41:44] D2BS 36336: ÿc1Skipping Fallen 98 16
+[10/07/20 18:41:44] D2BS 36336: ÿc1Skipping Fallen 95 16
+[10/07/20 18:41:45] D2BS 36336: ÿc1Skipping Fallen 95 16
+[10/07/20 18:41:45] D2BS 36336: ÿc1Skipping Fallen 101 16
+[10/07/20 18:41:46] D2BS 36336: ÿc1Skipping Fallen 101 16
+[10/07/20 18:41:47] D2BS 36336: ÿc1Skipping Fallen 101 16
+[10/07/20 18:41:48] D2BS 36336: ÿc1Skipping Fallen 101 16
+[10/07/20 18:41:48] D2BS 36336: ÿc1Skipping Fallen 111 16
+[10/07/20 18:41:52] D2BS 36336: ÿc1Skipping Fallen 107 16
+[10/07/20 18:41:52] D2BS 36336: ÿc1Skipping Fallen 103 16
+[10/07/20 18:41:53] D2BS 36336: ÿc1Skipping Fallen 105 16
+[10/07/20 18:41:53] D2BS 36336: ÿc1Skipping Fallen 106 16
+[10/07/20 18:41:54] D2BS 36336: ÿc1Skipping Fallen 105 16
+[10/07/20 18:41:55] D2BS 36336: ÿc1Skipping Fallen 107 16
+[10/07/20 18:41:55] D2BS 36336: ÿc1Skipping Fallen 103 16
+[10/07/20 18:41:56] D2BS 36336: ÿc1Skipping Fallen 103 16
+[10/07/20 18:41:57] D2BS 36336: ÿc1Skipping Fallen 103 16
+[10/07/20 18:41:58] D2BS 36336: ÿc7Picked up ÿc43 Gold
+[10/07/20 18:42:06] D2BS 36336: ÿc1Skipping Dark Hunter 126 16
+[10/07/20 18:42:07] D2BS 36336: ÿc1Skipping Dark Hunter 122 16
+[10/07/20 18:42:07] D2BS 36336: ÿc1Skipping Dark Hunter 123 16
+[10/07/20 18:42:07] D2BS 36336: ÿc1Skipping Dark Hunter 121 16
+[10/07/20 18:42:10] D2BS 36336: ÿc7Picked up ÿc49 Gold
+[10/07/20 18:42:12] D2BS 36336: ÿc1Skipping Fallen Shaman 93 16
+[10/07/20 18:42:12] D2BS 36336: ÿc1Skipping Fallen Shaman 93 16
+[10/07/20 18:42:13] D2BS 36336: ÿc1Skipping Fallen 111 16
+[10/07/20 18:42:15] D2BS 36336: ÿc1Skipping Fallen 111 16
+[10/07/20 18:42:15] D2BS 36336: ÿc1Skipping Dark Hunter 125 16
+[10/07/20 18:42:17] D2BS 36336: ÿc1Skipping Dark Hunter 125 16
+[10/07/20 18:42:24] D2BS 36336: ÿc1Skipping Fallen Shaman 109 16
+[10/07/20 18:42:24] D2BS 36336: ÿc1Skipping Fallen Shaman 109 16
+[10/07/20 18:42:25] D2BS 36336: ÿc1Skipping Dark Spearwoman 130 16
+[10/07/20 18:42:25] D2BS 36336: ÿc1Skipping Dark Spearwoman 130 16
+[10/07/20 18:42:26] D2BS 36336: ÿc1Skipping Dark Spearwoman 130 16
+[10/07/20 18:42:28] D2BS 36336: ÿc1Skipping Dark Hunter 128 16
+[10/07/20 18:42:29] D2BS 36336: ÿc1Skipping Dark Hunter 128 16
+[10/07/20 18:42:29] D2BS 36336: ÿc1Skipping Dark Hunter 128 16
+[10/07/20 18:42:30] D2BS 36336: ÿc1Skipping Dark Hunter 127 16
+[10/07/20 18:42:30] D2BS 36336: ÿc1Skipping Dark Hunter 129 16
+[10/07/20 18:42:31] D2BS 36336: ÿc1Skipping Dark Hunter 128 16
+[10/07/20 18:42:33] D2BS 36336: ÿc1Skipping Dark Hunter 129 16
+[10/07/20 18:42:33] D2BS 36336: ÿc1Skipping Dark Hunter 127 16
+[10/07/20 18:42:34] D2BS 36336: ÿc1Skipping Dark Hunter 128 16
+[10/07/20 18:42:35] D2BS 36336: ÿc7Picked up ÿc410 Gold
+[10/07/20 18:42:48] D2BS 36336: 2,3
+[10/07/20 18:43:14] D2BS 36336: ÿc1Skipping Dark Spearwoman 135 16
+[10/07/20 18:43:14] D2BS 36336: ÿc1Skipping Dark Spearwoman 135 16
+[10/07/20 18:43:16] D2BS 36336: ÿc7Picked up ÿc0Low Quality Quilted Armor ÿc0(ilvl 2) (Summoner.xpac.nip #43)
+[10/07/20 18:43:26] D2BS 36336: ÿc1Skipping Dark Spearwoman 134 16
+[10/07/20 18:43:27] D2BS 36336: ÿc1Skipping Dark Spearwoman 134 16
+[10/07/20 18:43:29] D2BS 36336: move retry 1
+[10/07/20 18:43:44] D2BS 36336: ÿc1Skipping Dark Hunter 152 16
+[10/07/20 18:43:44] D2BS 36336: ÿc1Skipping Dark Hunter 151 16
+[10/07/20 18:43:45] D2BS 36336: ÿc1Skipping Dark Hunter 150 16
+[10/07/20 18:43:46] D2BS 36336: ÿc7Picked up ÿc44 Gold
+[10/07/20 18:43:51] D2BS 36336: ÿc1Skipping Fallen Shaman 144 16
+[10/07/20 18:43:52] D2BS 36336: ÿc1Skipping Fallen Shaman 144 16
+[10/07/20 18:43:52] D2BS 36336: ÿc1Skipping Fallen 145 16
+[10/07/20 18:43:53] D2BS 36336: ÿc1Skipping Fallen 145 16
+[10/07/20 18:43:54] D2BS 36336: move retry 1
+[10/07/20 18:43:56] D2BS 36336: move retry 1
+[10/07/20 18:44:00] D2BS 36336: ÿc1Skipping Dark Hunter 138 16
+[10/07/20 18:44:03] D2BS 36336: ÿc1Skipping Dark Hunter 136 16
+[10/07/20 18:44:03] D2BS 36336: ÿc1Skipping Dark Hunter 161 16
+[10/07/20 18:44:04] D2BS 36336: ÿc1Skipping Dark Hunter 137 16
+[10/07/20 18:44:06] D2BS 36336: ÿc1Skipping Dark Hunter 161 16
+[10/07/20 18:44:06] D2BS 36336: ÿc1Skipping Dark Hunter 136 16
+[10/07/20 18:44:09] D2BS 36336: ÿc1Skipping Fallen 141 16
+[10/07/20 18:44:10] D2BS 36336: ÿc1Skipping Fallen 141 16
+[10/07/20 18:44:10] D2BS 36336: ÿc1Skipping Fallen 141 16
+[10/07/20 18:44:11] D2BS 36336: ÿc1Skipping Dark Hunter 162 16
+[10/07/20 18:44:11] D2BS 36336: ÿc1Skipping Dark Hunter 160 16
+[10/07/20 18:44:12] D2BS 36336: ÿc1Skipping Dark Hunter 162 16
+[10/07/20 18:44:12] D2BS 36336: ÿc1Skipping Dark Hunter 160 16
+[10/07/20 18:44:12] D2BS 36336: ÿc1Skipping Dark Hunter 158 16
+[10/07/20 18:44:13] D2BS 36336: ÿc7Picked up ÿc48 Gold
+[10/07/20 18:44:14] D2BS 36336: ÿc1Skipping Dark Hunter 158 16
+[10/07/20 18:44:15] D2BS 36336: ÿc1Skipping Dark Hunter 157 16
+[10/07/20 18:44:16] D2BS 36336: ÿc1Skipping Dark Hunter 158 16
+[10/07/20 18:44:17] D2BS 36336: ÿc1Skipping Dark Hunter 158 16
+[10/07/20 18:44:17] D2BS 36336: ÿc1Skipping Dark Hunter 157 16
+[10/07/20 18:44:18] D2BS 36336: ÿc1Skipping Dark Hunter 159 16
+[10/07/20 18:44:34] D2BS 36336: ÿc1Skipping Fallen 170 16
+[10/07/20 18:44:35] D2BS 36336: ÿc1Skipping Fallen 174 16
+[10/07/20 18:44:35] D2BS 36336: ÿc1Skipping Dark Hunter 168 16
+[10/07/20 18:44:36] D2BS 36336: ÿc7Picked up ÿc41 Gold
+[10/07/20 18:44:36] D2BS 36336: ÿc1Skipping Dark Hunter 168 16
+[10/07/20 18:44:37] D2BS 36336: ÿc1Skipping Dark Hunter 166 16
+[10/07/20 18:44:37] D2BS 36336: ÿc1Skipping Fallen 175 16
+[10/07/20 18:44:38] D2BS 36336: ÿc1Skipping Dark Spearwoman 165 16
+[10/07/20 18:44:38] D2BS 36336: ÿc1Skipping Dark Hunter 167 16
+[10/07/20 18:44:41] D2BS 36336: ÿc1Skipping Fallen Shaman 169 16
+[10/07/20 18:44:41] D2BS 36336: ÿc1Skipping Dark Spearwoman 165 16
+[10/07/20 18:44:42] D2BS 36336: ÿc1Skipping Fallen 180 16
+[10/07/20 18:44:42] D2BS 36336: ÿc7Picked up ÿc0Cracked Boots ÿc0(ilvl 2) (Summoner.xpac.nip #59)
+[10/07/20 18:44:43] D2BS 36336: ÿc1Skipping Fallen Shaman 169 16
+[10/07/20 18:44:44] D2BS 36336: ÿc7Picked up ÿc46 Gold
+[10/07/20 18:44:45] D2BS 36336: ÿc1Skipping Fallen 180 16
+[10/07/20 18:44:46] D2BS 36336: ÿc1Skipping Fallen 173 16
+[10/07/20 18:44:46] D2BS 36336: ÿc1Skipping Fallen 171 16
+[10/07/20 18:44:46] D2BS 36336: ÿc1Skipping Fallen 177 16
+[10/07/20 18:44:47] D2BS 36336: ÿc1Skipping Fallen 182 16
+[10/07/20 18:44:49] D2BS 36336: ÿc1Skipping Fallen 186 16
+[10/07/20 18:44:50] D2BS 36336: ÿc7Picked up ÿc45 Gold
+[10/07/20 18:44:50] D2BS 36336: ÿc7Picked up ÿc0Sash ÿc0(ilvl 1) (Summoner.xpac.nip #79)
+[10/07/20 18:44:51] D2BS 36336: ÿc1Skipping Fallen 178 16
+[10/07/20 18:44:52] D2BS 36336: ÿc1Skipping Fallen 178 16
+[10/07/20 18:44:52] D2BS 36336: ÿc1Skipping Fallen 178 16
+[10/07/20 18:44:53] D2BS 36336: ÿc1Skipping Fallen 210 16
+[10/07/20 18:44:53] D2BS 36336: ÿc1Skipping Fallen Shaman 181 16
+[10/07/20 18:44:54] D2BS 36336: ÿc1Skipping Fallen 210 16
+[10/07/20 18:44:54] D2BS 36336: ÿc1Skipping Fallen 178 16
+[10/07/20 18:44:56] D2BS 36336: ÿc7Picked up ÿc0Damaged Eagle Orb ÿc0(ilvl 1)
+[10/07/20 18:44:57] D2BS 36336: ÿc7Picked up ÿc47 Gold
+[10/07/20 18:45:01] D2BS 36336: ÿc7Picked up ÿc46 Gold
+[10/07/20 18:45:04] D2BS 36336: ÿc1Skipping Dark Hunter 222 16
+[10/07/20 18:45:04] D2BS 36336: ÿc1Skipping Fallen 211 16
+[10/07/20 18:45:06] D2BS 36336: ÿc1Skipping Dark Hunter 222 16
+[10/07/20 18:45:06] D2BS 36336: ÿc1Skipping Fallen 211 16
+[10/07/20 18:45:07] D2BS 36336: ÿc1Skipping Fallen 211 16
+[10/07/20 18:45:07] D2BS 36336: ÿc1Skipping Dark Hunter 221 16
+[10/07/20 18:45:08] D2BS 36336: ÿc1Skipping Dark Hunter 223 16
+[10/07/20 18:45:08] D2BS 36336: ÿc1Skipping Fallen 226 16
+[10/07/20 18:45:09] D2BS 36336: ÿc1Skipping Fallen Shaman 212 16
+[10/07/20 18:45:09] D2BS 36336: ÿc1Skipping Dark Hunter 221 16
+[10/07/20 18:45:09] D2BS 36336: ÿc1Skipping Fallen 226 16
+[10/07/20 18:45:10] D2BS 36336: ÿc1Skipping Fallen 232 16
+[10/07/20 18:45:10] D2BS 36336: ÿc1Skipping Fallen 233 16
+[10/07/20 18:45:10] D2BS 36336: ÿc1Skipping Fallen 177 16
+[10/07/20 18:45:12] D2BS 36336: ÿc1Skipping Fallen Shaman 209 16
+[10/07/20 18:45:12] D2BS 36336: ÿc1Skipping Fallen 231 16
+[10/07/20 18:45:13] D2BS 36336: ÿc1Skipping Fallen 233 16
+[10/07/20 18:45:13] D2BS 36336: ÿc1Skipping Fallen Shaman 209 16
+[10/07/20 18:45:14] D2BS 36336: ÿc1Skipping Fallen Shaman 209 16
+[10/07/20 18:45:15] D2BS 36336: ÿc1Skipping Fallen 226 16
+[10/07/20 18:45:16] D2BS 36336: ÿc1Skipping Fallen 232 16
+[10/07/20 18:45:16] D2BS 36336: ÿc1Skipping Fallen 225 16
+[10/07/20 18:45:17] D2BS 36336: ÿc1Skipping Fallen 232 16
+[10/07/20 18:45:18] D2BS 36336: ÿc1Skipping Fallen Shaman 212 16
+[10/07/20 18:45:19] D2BS 36336: ÿc7Picked up ÿc43 Gold
+[10/07/20 18:45:19] D2BS 36336: AutoBuild: Stat points: 5      Skill points: 1
+[10/07/20 18:45:19] D2BS 36336: AutoBuild: Level up detected ( 4 --> 5 )
+[10/07/20 18:45:19] D2BS 36336: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[10/07/20 18:45:19] D2BS 36336: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  1)
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: useStatPoint(0): Strength
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: Stat (1/5) Increased Strength from 18 to 19
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: Stat (2/5) Increased Vitality from 27 to 28
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: Stat (3/5) Increased Vitality from 28 to 29
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: Stat (5/5) Increased Vitality from 30 to 31
+[10/07/20 18:45:20] D2BS 36336: Updating Config from level 4 to 5
+[10/07/20 18:45:20] D2BS 36336: Updating Config from level 4 to 5
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: Updating Config from level 4 to 5
+[10/07/20 18:45:20] D2BS 36336: Updating Config from level 4 to 5
+[10/07/20 18:45:20] D2BS 36336: Updating Config from level 4 to 5
+[10/07/20 18:45:20] D2BS 36336: AutoBuild: Incrementing cached character level to 5
+[10/07/20 18:45:25] D2BS 36336: ÿc7Picked up ÿc48 Gold
+[10/07/20 18:45:27] D2BS 36336: ÿc1Skipping Fallen 227 16
+[10/07/20 18:45:27] D2BS 36336: ÿc1Skipping Fallen 202 16
+[10/07/20 18:45:28] D2BS 36336: ÿc1Skipping Fallen 202 16
+[10/07/20 18:45:28] D2BS 36336: ÿc1Skipping Fallen 207 16
+[10/07/20 18:45:29] D2BS 36336: move retry 1
+[10/07/20 18:45:35] D2BS 36336: ÿc1Skipping Fallen Shaman 228 16
+[10/07/20 18:45:35] D2BS 36336: ÿc1Skipping Fallen 245 16
+[10/07/20 18:45:35] D2BS 36336: ÿc1Skipping Fallen 205 16
+[10/07/20 18:45:36] D2BS 36336: ÿc1Skipping Fallen 241 16
+[10/07/20 18:45:37] D2BS 36336: ÿc1Skipping Fallen Shaman 228 16
+[10/07/20 18:45:38] D2BS 36336: ÿc1Skipping Fallen 245 16
+[10/07/20 18:45:38] D2BS 36336: ÿc1Skipping Fallen 205 16
+[10/07/20 18:45:38] D2BS 36336: ÿc1Skipping Fallen 243 16
+[10/07/20 18:45:38] D2BS 36336: ÿc1Skipping Fallen 241 16
+[10/07/20 18:45:39] D2BS 36336: ÿc1Skipping Fallen 242 16
+[10/07/20 18:45:40] D2BS 36336: ÿc1Skipping Fallen 227 16
+[10/07/20 18:45:40] D2BS 36336: ÿc1Skipping Fallen 204 16
+[10/07/20 18:45:40] D2BS 36336: ÿc1Skipping Fallen 208 16
+[10/07/20 18:45:41] D2BS 36336: ÿc1Skipping Fallen 245 16
+[10/07/20 18:45:42] D2BS 36336: ÿc1Skipping Fallen 208 16
+[10/07/20 18:45:42] D2BS 36336: ÿc1Skipping Fallen 227 16
+[10/07/20 18:45:43] D2BS 36336: ÿc1Skipping Fallen 211 16
+[10/07/20 18:45:43] D2BS 36336: ÿc1Skipping Fallen 216 16
+[10/07/20 18:45:44] D2BS 36336: ÿc1Skipping Fallen 208 16
+[10/07/20 18:45:44] D2BS 36336: ÿc1Skipping Fallen 216 16
+[10/07/20 18:45:44] D2BS 36336: ÿc1Skipping Fallen 211 16
+[10/07/20 18:45:45] D2BS 36336: ÿc1Skipping Fallen 225 16
+[10/07/20 18:45:45] D2BS 36336: ÿc1Skipping Fallen 208 16
+[10/07/20 18:45:46] D2BS 36336: ÿc1Skipping Fallen 216 16
+[10/07/20 18:45:47] D2BS 36336: ÿc1Skipping Fallen 216 16
+[10/07/20 18:45:48] D2BS 36336: ÿc1Skipping Fallen 208 16
+[10/07/20 18:45:51] D2BS 36336: ÿc7Picked up ÿc0Short Sword ÿc0(ilvl 2)
+[10/07/20 18:45:57] D2BS 36336: ÿc7Picked up ÿc42 Gold
+[10/07/20 18:46:01] D2BS 36336: ÿc7Picked up ÿc47 Gold
+[10/07/20 18:46:04] D2BS 36336: ÿc1Skipping Fallen 191 16
+[10/07/20 18:46:07] D2BS 36336: ÿc7Picked up ÿc43 Gold
+[10/07/20 18:46:15] D2BS 36336: ÿc7Picked up ÿc41 Gold
+[10/07/20 18:46:20] D2BS 36336: ÿc1Skipping Fallen 192 16
+[10/07/20 18:46:20] D2BS 36336: ÿc1Skipping Fallen 192 16
+[10/07/20 18:46:21] D2BS 36336: ÿc1Skipping Fallen 192 16
+[10/07/20 18:46:22] D2BS 36336: ÿc1Skipping Fallen 192 16
+[10/07/20 18:46:23] D2BS 36336: ÿc1Skipping Fallen 190 16
+[10/07/20 18:46:23] D2BS 36336: ÿc1Skipping Fallen 190 16
+[10/07/20 18:46:30] D2BS 36336: ÿc1Skipping Fallen Shaman 189 16
+[10/07/20 18:46:30] D2BS 36336: ÿc1Skipping Fallen Shaman 189 16
+[10/07/20 18:46:31] D2BS 36336: ÿc1Skipping Dark Hunter 195 16
+[10/07/20 18:46:31] D2BS 36336: ÿc1Skipping Dark Hunter 195 16
+[10/07/20 18:46:32] D2BS 36336: ÿc1Skipping Dark Hunter 195 16
+[10/07/20 18:46:33] D2BS 36336: ÿc1Skipping Dark Hunter 195 16
+[10/07/20 18:46:34] D2BS 36336: ÿc1Skipping Dark Hunter 196 16
+[10/07/20 18:46:34] D2BS 36336: ÿc1Skipping Dark Hunter 196 16
+[10/07/20 18:46:45] D2BS 36336: ÿc1Skipping Fallen Shaman 240 16
+[10/07/20 18:46:45] D2BS 36336: ÿc1Skipping Fallen Shaman 246 16
+[10/07/20 18:46:46] D2BS 36336: ÿc1Skipping Fallen Shaman 240 16
+[10/07/20 18:46:46] D2BS 36336: ÿc1Skipping Fallen Shaman 246 16
+[10/07/20 18:46:48] D2BS 36336: ÿc1Skipping Fallen Shaman 240 16
+[10/07/20 18:46:49] D2BS 36336: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/07/20 18:46:53] D2BS 36336: ÿc1Skipping Fallen 207 16
+[10/07/20 18:46:54] D2BS 36336: ÿc1Skipping Fallen 207 16
+[10/07/20 18:46:55] D2BS 36336: ÿc1Skipping Fallen 207 16
+[10/07/20 18:47:00] D2BS 36336: move retry 1
+[10/07/20 18:47:04] D2BS 36336: move retry 1
+[10/07/20 18:47:06] D2BS 36336: ÿc1Skipping Dark Hunter 253 16
+[10/07/20 18:47:06] D2BS 36336: ÿc1Skipping Dark Hunter 237 16
+[10/07/20 18:47:07] D2BS 36336: ÿc1Skipping Fallen 236 16
+[10/07/20 18:47:08] D2BS 36336: ÿc1Skipping Dark Hunter 271 16
+[10/07/20 18:47:08] D2BS 36336: ÿc1Skipping Dark Hunter 238 16
+[10/07/20 18:47:08] D2BS 36336: ÿc7Picked up ÿc43 Gold
+[10/07/20 18:47:08] D2BS 36336: ÿc7Picked up ÿc0Chipped Diamond ÿc0(ilvl 1)
+[10/07/20 18:47:09] D2BS 36336: ÿc7Picked up ÿc44 Gold
+[10/07/20 18:47:11] D2BS 36336: ÿc1Skipping Fallen Shaman 234 16
+[10/07/20 18:47:11] D2BS 36336: ÿc1Skipping Dark Hunter 238 16
+[10/07/20 18:47:11] D2BS 36336: ÿc1Skipping Dark Hunter 269 16
+[10/07/20 18:47:12] D2BS 36336: ÿc1Skipping Dark Hunter 264 16
+[10/07/20 18:47:12] D2BS 36336: ÿc1Skipping Dark Hunter 266 16
+[10/07/20 18:47:12] D2BS 36336: ÿc1Skipping Dark Hunter 267 16
+[10/07/20 18:47:13] D2BS 36336: ÿc1Skipping Dark Hunter 263 16
+[10/07/20 18:47:13] D2BS 36336: ÿc1Skipping Dark Hunter 265 16
+[10/07/20 18:47:13] D2BS 36336: ÿc7Picked up ÿc45 Gold
+[10/07/20 18:47:13] D2BS 36336: ÿc7Picked up ÿc0Damaged Leather Gloves ÿc0(ilvl 2) (Summoner.xpac.nip #70)
+[10/07/20 18:47:13] D2BS 36336: ÿc7Picked up ÿc48 Gold
+[10/07/20 18:47:14] D2BS 36336: ÿc1Skipping Fallen Shaman 234 16
+[10/07/20 18:47:14] D2BS 36336: ÿc1Skipping Dark Hunter 267 16
+[10/07/20 18:47:15] D2BS 36336: ÿc1Skipping Dark Hunter 266 16
+[10/07/20 18:47:15] D2BS 36336: ÿc1Skipping Fallen 236 16
+[10/07/20 18:47:16] D2BS 36336: ÿc1Skipping Dark Hunter 265 16
+[10/07/20 18:47:16] D2BS 36336: ÿc1Skipping Dark Hunter 270 16
+[10/07/20 18:47:16] D2BS 36336: ÿc7Picked up ÿc49 Gold
+[10/07/20 18:47:17] D2BS 36336: ÿc1Skipping Fallen Shaman 234 16
+[10/07/20 18:47:18] D2BS 36336: ÿc1Skipping Dark Hunter 265 16
+[10/07/20 18:47:18] D2BS 36336: ÿc1Skipping Fallen 235 16
+[10/07/20 18:47:19] D2BS 36336: ÿc1Skipping Fallen Shaman 234 16
+[10/07/20 18:47:19] D2BS 36336: ÿc1Skipping Dark Hunter 265 16
+[10/07/20 18:47:19] D2BS 36336: ÿc1Skipping Fallen 236 16
+[10/07/20 18:47:20] D2BS 36336: ÿc1Skipping Fallen 235 16
+[10/07/20 18:47:23] D2BS 36336: move retry 1
+[10/07/20 18:47:55] D2BS 36336: move retry 1
+[10/07/20 18:48:01] D2BS 36336: ÿc1Skipping Fallen 275 16
+[10/07/20 18:48:01] D2BS 36336: ÿc1Skipping Fallen 278 16
+[10/07/20 18:48:02] D2BS 36336: ÿc1Skipping Fallen 277 16
+[10/07/20 18:48:02] D2BS 36336: ÿc1Skipping Fallen 274 16
+[10/07/20 18:48:02] D2BS 36336: ÿc1Skipping Dark Hunter 285 16
+[10/07/20 18:48:03] D2BS 36336: ÿc1Skipping Fallen Shaman 272 16
+[10/07/20 18:48:03] D2BS 36336: ÿc1Skipping Dark Hunter 285 16
+[10/07/20 18:48:03] D2BS 36336: ÿc1Skipping Fallen 277 16
+[10/07/20 18:48:03] D2BS 36336: ÿc1Skipping Dark Hunter 287 16
+[10/07/20 18:48:05] D2BS 36336: ÿc1Skipping Fallen 276 16
+[10/07/20 18:48:06] D2BS 36336: ÿc1Skipping Dark Hunter 286 16
+[10/07/20 18:48:06] D2BS 36336: ÿc1Skipping Dark Hunter 288 16
+[10/07/20 18:48:07] D2BS 36336: ÿc1Skipping Dark Hunter 289 16
+[10/07/20 18:48:07] D2BS 36336: ÿc1Skipping Dark Hunter 291 16
+[10/07/20 18:48:07] D2BS 36336: ÿc1Skipping Dark Hunter 292 16
+[10/07/20 18:48:07] D2BS 36336: ÿc1Skipping Fallen 278 16
+[10/07/20 18:48:10] D2BS 36336: ÿc7Picked up ÿc41 Gold
+[10/07/20 18:48:13] D2BS 36336: ÿc1Skipping Dark Hunter 292 16
+[10/07/20 18:48:13] D2BS 36336: ÿc1Skipping Dark Hunter 293 16
+[10/07/20 18:48:14] D2BS 36336: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/07/20 18:48:14] D2BS 36336: ÿc7Picked up ÿc44 Gold
+[10/07/20 18:48:14] D2BS 36336: ÿc7Picked up ÿc9Scepter ÿc0(ilvl 1)
+[10/07/20 18:48:15] D2BS 36336: move retry 1
+[10/07/20 18:48:16] D2BS 36336: ÿc7Picked up ÿc45 Gold
+[10/07/20 18:48:21] D2BS 36336: move retry 1
+[10/07/20 18:48:27] D2BS 36336: ÿc1Skipping Dark Hunter 279 16
+[10/07/20 18:48:27] D2BS 36336: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #34)
+[10/07/20 18:48:29] D2BS 36336: ÿc1Skipping Dark Hunter 297 16
+[10/07/20 18:48:29] D2BS 36336: ÿc1Skipping Dark Hunter 296 16
+[10/07/20 18:48:30] D2BS 36336: ÿc1Skipping Fallen 282 16
+[10/07/20 18:48:31] D2BS 36336: ÿc1Skipping Fallen Shaman 281 16
+[10/07/20 18:48:32] D2BS 36336: ÿc1Skipping Fallen 283 16
+[10/07/20 18:48:33] D2BS 36336: ÿc1Skipping Fallen Shaman 281 16
+[10/07/20 18:48:34] D2BS 36336: ÿc1Skipping Dark Hunter 295 16
+[10/07/20 18:48:34] D2BS 36336: ÿc1Skipping Dark Spearwoman 284 16
+[10/07/20 18:48:34] D2BS 36336: ÿc1Skipping Dark Hunter 294 16
+[10/07/20 18:48:36] D2BS 36336: ÿc1Skipping Dark Hunter 295 16
+[10/07/20 18:48:36] D2BS 36336: ÿc1Skipping Dark Spearwoman 284 16
+[10/07/20 18:48:36] D2BS 36336: ÿc1Skipping Dark Hunter 294 16
+[10/07/20 18:48:37] D2BS 36336: ÿc1Skipping Dark Hunter 295 16
+[10/07/20 18:48:38] D2BS 36336: ÿc1Skipping Dark Hunter 294 16
+[10/07/20 18:48:38] D2BS 36336: ÿc1Skipping Dark Hunter 294 16
+[10/07/20 18:48:39] D2BS 36336: ÿc1Skipping Dark Hunter 294 16
+[10/07/20 18:48:40] D2BS 36336: ÿc7Picked up ÿc47 Gold
+[10/07/20 18:48:46] D2BS 36336: move retry 1
+[10/07/20 18:48:53] D2BS 36336: ÿc1Skipping Dark Hunter 311 16
+[10/07/20 18:48:54] D2BS 36336: ÿc1Skipping Dark Hunter 311 16
+[10/07/20 18:48:54] D2BS 36336: ÿc1Skipping Dark Hunter 310 16
+[10/07/20 18:48:55] D2BS 36336: ÿc1Skipping Dark Hunter 310 16
+[10/07/20 18:48:57] D2BS 36336: ÿc7Picked up ÿc411 Gold
+[10/07/20 18:48:58] D2BS 36336: ÿc1Skipping Fallen 303 16
+[10/07/20 18:49:00] D2BS 36336: ÿc1Skipping Fallen 301 16
+[10/07/20 18:49:00] D2BS 36336: ÿc1Skipping Fallen 299 16
+[10/07/20 18:49:01] D2BS 36336: ÿc1Skipping Fallen 302 16
+[10/07/20 18:49:02] D2BS 36336: ÿc1Skipping Fallen 302 16
+[10/07/20 18:49:02] D2BS 36336: ÿc7Picked up ÿc44 Gold
+[10/07/20 18:49:17] D2BS 36336: ÿc1Skipping Dark Hunter 313 16
+[10/07/20 18:49:17] D2BS 36336: ÿc1Skipping Dark Hunter 312 16
+[10/07/20 18:49:18] D2BS 36336: ÿc1Skipping Dark Hunter 313 16
+[10/07/20 18:49:18] D2BS 36336: ÿc1Skipping Dark Hunter 312 16
+[10/07/20 18:49:18] D2BS 36336: ÿc1Skipping Dark Spearwoman 314 16
+[10/07/20 18:49:19] D2BS 36336: ÿc1Skipping Dark Spearwoman 314 16
+[10/07/20 18:49:20] D2BS 36336: ÿc1Skipping Dark Spearwoman 314 16
+[10/07/20 18:49:45] D2BS 36336: move retry 1
+[10/07/20 18:49:54] D2BS 36336: move retry 1
+[10/07/20 18:49:56] D2BS 36336: ÿc1Skipping Dark Hunter 326 16
+[10/07/20 18:49:57] D2BS 36336: ÿc1Skipping Dark Hunter 326 16
+[10/07/20 18:49:58] D2BS 36336: ÿc1Skipping Dark Hunter 326 16
+[10/07/20 18:49:58] D2BS 36336: ÿc1Skipping Dark Hunter 327 16
+[10/07/20 18:49:59] D2BS 36336: ÿc1Skipping Dark Hunter 327 16
+[10/07/20 18:50:00] D2BS 36336: ÿc1Skipping Dark Hunter 327 16
+[10/07/20 18:50:00] D2BS 36336: ÿc1Skipping Dark Hunter 328 16
+[10/07/20 18:50:01] D2BS 36336: ÿc1Skipping Dark Hunter 328 16
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: Stat points: 5      Skill points: 1
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: Level up detected ( 5 --> 6 )
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: useSkillPoint(): Raise Skeleton (70)
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: Skill (1/1) Increased Raise Skeleton (70) by one (level:  3)
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: useStatPoint(0): Strength
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: Stat (1/5) Increased Strength from 19 to 20
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: Stat (2/5) Increased Vitality from 31 to 32
+[10/07/20 18:50:01] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:50:02] D2BS 36336: AutoBuild: Stat (3/5) Increased Vitality from 32 to 33
+[10/07/20 18:50:02] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:50:02] D2BS 36336: AutoBuild: Stat (4/5) Increased Vitality from 33 to 34
+[10/07/20 18:50:02] D2BS 36336: AutoBuild: useStatPoint(3): Vitality
+[10/07/20 18:50:02] D2BS 36336: AutoBuild: Stat (5/5) Increased Vitality from 34 to 35
+[10/07/20 18:50:02] D2BS 36336: AutoBuild: Updating Config from level 5 to 6
+[10/07/20 18:50:02] D2BS 36336: Updating Config from level 5 to 6
+[10/07/20 18:50:02] D2BS 36336: Updating Config from level 5 to 6
+[10/07/20 18:50:02] D2BS 36336: Updating Config from level 5 to 6
+[10/07/20 18:50:02] D2BS 36336: Updating Config from level 5 to 6
+[10/07/20 18:50:02] D2BS 36336: AutoBuild: Incrementing cached character level to 6
+[10/07/20 18:50:09] D2BS 36336: ÿc7Picked up ÿc49 Gold
+[10/07/20 18:50:11] D2BS 36336: ÿc1Skipping Dark Spearwoman 336 16
+[10/07/20 18:50:11] D2BS 36336: ÿc1Skipping Dark Spearwoman 336 16
+[10/07/20 18:50:12] D2BS 36336: ÿc1Skipping Fallen 334 16
+[10/07/20 18:50:12] D2BS 36336: ÿc1Skipping Fallen 335 16
+[10/07/20 18:50:13] D2BS 36336: ÿc1Skipping Fallen 335 16
+[10/07/20 18:50:53] D2BS 36336: move retry 1
+[10/07/20 18:52:15] D2BS 36336: move retry 1
+[10/07/20 18:52:46] D2BS 36336: move retry 1
+[10/07/20 18:53:38] D2BS 36336: move retry 1
+[10/07/20 18:53:43] D2BS 36336: move retry 1
+[10/07/20 18:54:18] D2BS 36336: move retry 1
+[10/07/20 18:59:14] D2BS 36336: move retry 1
+[10/07/20 18:59:30] D2BS 36336: move retry 1
+[10/07/20 18:59:45] D2BS 36336: ÿc7Picked up ÿc44 Gold
+[10/07/20 18:59:51] D2BS 36336: ÿc1Skipping Foul Crow 363 16
+[10/07/20 18:59:52] D2BS 36336: ÿc1Skipping Foul Crow 363 16
+[10/07/20 18:59:52] D2BS 36336: ÿc1Skipping Foul Crow 363 16
+[10/07/20 19:00:00] D2BS 36336: move retry 1
+[10/07/20 19:00:01] D2BS 36336: ÿc1Skipping Moon Clan 353 16
+[10/07/20 19:00:02] D2BS 36336: ÿc1Skipping Moon Clan 353 16
+[10/07/20 19:00:03] D2BS 36336: ÿc1Skipping Moon Clan 353 16
+[10/07/20 19:00:04] D2BS 36336: ÿc1Skipping Moon Clan 353 16
+[10/07/20 19:00:15] D2BS 36336: ÿc1Skipping Dark Ranger 365 16
+[10/07/20 19:00:16] D2BS 36336: ÿc1Skipping Dark Ranger 362 16
+[10/07/20 19:00:17] D2BS 36336: ÿc1Skipping Dark Ranger 395 16
+[10/07/20 19:00:22] D2BS 36336: ÿc1Skipping Carver 387 16
+[10/07/20 19:00:23] D2BS 36336: ÿc1Skipping Dark Ranger 395 16
+[10/07/20 19:00:23] D2BS 36336: ÿc7Picked up ÿc3Leather Armor ÿc0(ilvl 6) (Merc.xpac.nip #14)
+[10/07/20 19:00:24] D2BS 36336: ÿc1Skipping Carver 382 16
+[10/07/20 19:00:25] D2BS 36336: ÿc1Skipping Fallen 390 16
+[10/07/20 19:00:25] D2BS 36336: ÿc1Skipping Carver 385 16
+[10/07/20 19:00:26] D2BS 36336: 4,10
+[10/07/20 19:00:35] D2BS 36336: move retry 1
+[10/07/20 19:00:46] D2BS 36336: 10,5
+[10/07/20 19:00:52] D2BS 36336: move retry 1
+[10/07/20 19:01:00] D2BS 36336: ÿc1Skipping Vile Hunter 475 16
+[10/07/20 19:01:00] D2BS 36336: ÿc1Skipping Vile Hunter 462 16
+[10/07/20 19:01:01] D2BS 36336: ÿc1Skipping Vile Hunter 477 16
+[10/07/20 19:01:01] D2BS 36336: ÿc1Skipping Vile Hunter 481 16
+[10/07/20 19:01:02] D2BS 36336: ÿc1Skipping Vile Hunter 480 16
+[10/07/20 19:01:02] D2BS 36336: ÿc1Skipping Vile Hunter 466 16
+[10/07/20 19:01:02] D2BS 36336: ÿc1Skipping Vile Hunter 479 16
+[10/07/20 19:01:02] D2BS 36336: ÿc1Skipping Vile Hunter 465 16
+[10/07/20 19:01:02] D2BS 36336: move retry 2
+[10/07/20 19:01:03] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:03] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:03] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:03] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:03] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:03] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:03] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:03] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:03] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:03] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:04] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:04] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:05] D2BS 36336: ÿc1Pausing.
+[10/07/20 19:01:05] D2BS 36336: ÿc2Resuming.
+[10/07/20 19:01:05] D2BS 36336: Script default.dbj ended
+[10/07/20 19:01:05] D2BS 36336: Script tools\autobuildthread.js ended
+[10/07/20 19:01:05] D2BS 36336: Script tools\party.js ended
+[10/07/20 19:01:05] D2BS 36336: Script tools\townchicken.js ended
+[10/07/20 19:01:11] D2BS 36336: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/07/20 19:01:11] D2BS 36336: ÿc2D2BSÿc0 :: default.dbj running.
+[10/07/20 19:01:11] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/07/20 19:01:11] D2BS 36336: Updating Config from level 0 to 6
+[10/07/20 19:01:11] D2BS 36336: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/07/20 19:01:11] D2BS 36336: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/07/20 19:01:11] D2BS 36336: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/07/20 19:01:11] D2BS 36336: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/07/20 19:01:11] D2BS 36336: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/07/20 19:01:11] D2BS 36336: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc215 ms
+[10/07/20 19:01:11] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/07/20 19:01:11] D2BS 36336: Updating Config from level 0 to 6
+[10/07/20 19:01:11] D2BS 36336: AutoBuild: Loaded helper thread
+[10/07/20 19:01:11] D2BS 36336: LowGold sell Damaged Eagle Orb
+[10/07/20 19:01:11] D2BS 36336: initNPC: clearInventory
+[10/07/20 19:01:11] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/07/20 19:01:11] D2BS 36336: Updating Config from level 0 to 6
+[10/07/20 19:01:11] D2BS 36336: ÿc2Party thread loaded. Mode: Accept
+[10/07/20 19:01:11] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/07/20 19:01:11] D2BS 36336: ÿc3Start ToolsThread script
+[10/07/20 19:01:11] D2BS 36336: Updating Config from level 0 to 6
+[10/07/20 19:01:11] D2BS 36336: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/07/20 19:01:11] D2BS 36336: Updating Config from level 0 to 6
+[10/07/20 19:01:18] D2BS 36336: LowGold sell Scepter
+[10/07/20 19:01:18] D2BS 36336: initNPC: clearInventory
+[10/07/20 19:01:20] D2BS 36336: LowGold sell Short Sword
+[10/07/20 19:01:20] D2BS 36336: initNPC: clearInventory
+[10/07/20 19:01:23] D2BS 36336: LowGold sell Chipped Diamond
+[10/07/20 19:01:23] D2BS 36336: initNPC: clearInventory
+[10/07/20 19:01:25] D2BS 36336: ÿc2Starting script: ÿc9LevelFollower
+[10/07/20 19:01:39] D2BS 36336: initNPC: BuyPotions
+[10/07/20 19:01:59] D2BS 36336: 4,10,5,6,7
+[10/07/20 19:02:10] D2BS 36336: move retry 1

@@ -1,16 +1,24 @@
-// ===============RUNEWORDS ===============//
+// ===============RUNES ===============//
+[Name] == TirRune # # [MaxQuantity] == 1
+[Name] == RalRune # # [MaxQuantity] == 1
+[Name] == EthRune # # [MaxQuantity] == 1
 [Name] == TalRune # # [MaxQuantity] == 1
-[Name] == OrtRune # # [MaxQuantity] == 1
 [Name] == ThulRune # # [MaxQuantity] == 1
+[Name] == OrtRune # # [MaxQuantity] == 1
 [Name] == AmnRune # # [MaxQuantity] == 1
 [Name] == SolRune # # [MaxQuantity] == 1
+[Name] == IoRune # # [MaxQuantity] == 1
+[Name] == LumRune # # [MaxQuantity] == 1
 
 // ===============RUNEWORDS ===============//
+//Insight
+[Type] == Polearm && [Flag] == Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+
 //Lore
-[Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [EnhancedDefense] >= 5 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Helm && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [EnhancedDefense] >= 5 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Memory
-[Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillHydra] >= 3 && [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == Staff && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillHydra] >= 3 && [Sockets] == 4 # [MaxQuantity] == 1
 
 // ===============CHARMS ===============//
 [Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] > 11 || [Mana] > 19) && ([MaxHP] > 16 || [Strength]+[Dexterity] > 4)
