@@ -13,7 +13,7 @@ function LevelLeader(){
 	var FullClearAreas=[3,4,5,
 	43,44,
 	105,106,
-	111,113,115,118,129,130];
+	111,118,129,130];
 	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
 	40,48,42,57,43,44,52,74,46,
 	75,76,77,78,79,80,81,83,101,
@@ -289,6 +289,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(38,0),"Nihlathak");
 			break;
 			case 120: //Ancients
+				if(me.getQuest(39,0)){break;}
 				this.clearToQuestLocation(120,2,546);
 				Altar=getUnit(2,546);
 				if(Altar){
@@ -1009,7 +1010,9 @@ function LevelLeader(){
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
-			Pather.journeyTo(UpToArea);
+			//Act3 Jungle/Marsh stupidity
+			if(UpToArea == 78 && getWaypoint(21)){Pather.useWaypoint(78);}
+			else{Pather.journeyTo(UpToArea);}
 			if(me.area == UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
