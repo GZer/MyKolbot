@@ -1,9 +1,14 @@
 // ====================== MERC ====================== //
-//Bows for Act1 Merc
-[Type] == Bow # # [MercTier] == 1 && [MaxQuantity] == 1
-[Type] == Bow && [Flag] == Ethereal # # [MercTier] == 2 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Magic # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Magic && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 4 && [MaxQuantity] == 1
+//Bows
+[Type] == Bow && [Quality] >= Normal # # [MercTier] == 1 && [MaxQuantity] == 1
+[Type] == Bow && [Quality] >= Magic && [Class] == 0 # [LifeLeech] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
+[Type] == Bow && [Quality] >= Magic && [Class] == 1 # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
+[Type] == Bow && [Quality] >= Magic && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 4 && [MaxQuantity] == 1
+//Unique Bows
+[Type] == Bow && [Quality] >= Magic && [Class] == 2 # [LifeLeech] > 0 # [MercTier] == 5 && [MaxQuantity] == 1
+[Type] == Bow && [Quality] >= Magic && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 6 && [MaxQuantity] == 1
+[Type] == Bow && [Quality] >= Magic # [ItemMagicArrow] > 0 || [ItemExplosiveArrow] > 0 # [MercTier] == 7
+([Name] == ShortSeigeBow || [Name] == HydraBow) && [Quality] == Unique # # [MercTier] == 8
 
 //Low tier
 ([Type] == Spear || [Type] == Polearm) && [Class] == 0 && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
