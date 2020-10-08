@@ -1011,7 +1011,7 @@ function LevelLeader(){
 				NextArea=LevelingAreas[ActNumber][LevelArea+1];
 			}
 			//Act3 Jungle/Marsh stupidity
-			if(UpToArea == 78 && getWaypoint(21)){Pather.useWaypoint(78);}
+			if(UpToArea == 78){Pather.useWaypoint(78);}
 			else{Pather.journeyTo(UpToArea);}
 			if(me.area == UpToArea){
 				this.tryMakePortal();
