@@ -128,8 +128,8 @@ function LevelFollower(){
 			if(me.classid == 1 && (TeleportAreas.indexOf(me.area) > -1) && (TownWaypoints.indexOf(LeaderArea) > -1)){
 				this.teleportFromLocation(me.area);
 			}
-			//If we have Malahs Potion go free her
-			if(me.getItem(644) && Pather.getPortal(114) && !me.getQuest(37,0)){
+			//If we have Malahs Potion go free Anya
+			if(me.getItem(644)){
 				say("Freeing Anya");
 				var Anya,i;
 				Pather.usePortal(114,null);

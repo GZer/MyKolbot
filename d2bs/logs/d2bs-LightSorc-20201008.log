@@ -13606,3 +13606,61 @@
 [10/08/20 15:51:06] D2BS 41056: ÿc7Picked up ÿc4165 Gold
 [10/08/20 15:51:06] D2BS 41056: ÿc7Picked up ÿc4168 Gold
 [10/08/20 15:51:13] D2BS 41056: 113,114
+[10/08/20 16:05:48] D2BS 16524: move retry 1
+[10/08/20 16:05:55] D2BS 16524: initNPC: buyPotions
+[10/08/20 16:05:55] D2BS 16524: initNPC: clearInventory
+[10/08/20 16:05:55] D2BS 16524: ÿc1Error in ÿc0LevelFollower ÿc1(prototypes.js line ÿc1255): ÿc1Unit.sell: Must be used in shops.
+[10/08/20 16:05:56] D2BS 16524: ÿc8Run duration ÿc287.391
+[10/08/20 16:05:56] D2BS 16524: Script tools\autobuildthread.js ended
+[10/08/20 16:05:56] D2BS 16524: Script tools\party.js ended
+[10/08/20 16:05:56] D2BS 16524: Script tools\townchicken.js ended
+[10/08/20 16:06:02] D2BS 16524: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 16:06:02] D2BS 16524: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 16:06:02] D2BS 16524: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/08/20 16:06:02] D2BS 16524: Updating Config from level 0 to 42
+[10/08/20 16:06:02] D2BS 16524: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 16:06:02] D2BS 16524: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 16:06:02] D2BS 16524: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc215 ms
+[10/08/20 16:06:02] D2BS 16524: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/08/20 16:06:02] D2BS 16524: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/08/20 16:06:02] D2BS 16524: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 16:06:02] D2BS 16524: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/08/20 16:06:02] D2BS 16524: Updating Config from level 0 to 42
+[10/08/20 16:06:02] D2BS 16524: AutoBuild: Loaded helper thread
+[10/08/20 16:06:02] D2BS 16524: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 16:06:02] D2BS 16524: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/08/20 16:06:02] D2BS 16524: Updating Config from level 0 to 42
+[10/08/20 16:06:02] D2BS 16524: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 16:06:02] D2BS 16524: ÿc3Start ToolsThread script
+[10/08/20 16:06:02] D2BS 16524: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/08/20 16:06:02] D2BS 16524: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/08/20 16:06:02] D2BS 16524: Updating Config from level 0 to 42
+[10/08/20 16:06:02] D2BS 16524: Updating Config from level 0 to 42
+[10/08/20 16:06:05] D2BS 16524: initNPC: BuyPotions
+[10/08/20 16:06:18] D2BS 16524: 109
+[10/08/20 16:06:37] D2BS 16524: Found Leader
+[10/08/20 16:06:37] D2BS 16524: Found Leader
+[10/08/20 16:06:42] D2BS 16524: ÿc7Picked up ÿc4149 Gold
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: Stat points: 10      Skill points: 5
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: Level up detected ( 42 --> 43 )
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: useSkillPoint(): Lightning Mastery (63)
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: Skill (1/1) Increased Lightning Mastery (63) by one (level:  7)
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: useStatPoint(0): Strength
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: Stat (1/5) Increased Strength from 51 to 52
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: useStatPoint(1): Energy
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: Stat (2/5) Increased Energy from 117 to 118
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: useStatPoint(1): Energy
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: Stat (3/5) Increased Energy from 118 to 119
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: Stat (4/5) Increased Vitality from 92 to 93
+[10/08/20 16:06:43] D2BS 16524: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 16:06:44] D2BS 16524: AutoBuild: Stat (5/5) Increased Vitality from 93 to 94
+[10/08/20 16:06:44] D2BS 16524: Updating Config from level 42 to 43
+[10/08/20 16:06:44] D2BS 16524: Updating Config from level 42 to 43
+[10/08/20 16:06:44] D2BS 16524: Updating Config from level 42 to 43
+[10/08/20 16:06:44] D2BS 16524: AutoBuild: Updating Config from level 42 to 43
+[10/08/20 16:06:44] D2BS 16524: Updating Config from level 42 to 43
+[10/08/20 16:06:44] D2BS 16524: AutoBuild: Incrementing cached character level to 43
+[10/08/20 16:06:52] D2BS 16524: move retry 1
+[10/08/20 16:07:18] D2BS 16524: move retry 1
+[10/08/20 16:07:22] D2BS 16524: move retry 1
