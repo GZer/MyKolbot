@@ -133,7 +133,8 @@ function LevelFollower(){
 				// this.logProgress(me.getItem(644),"I have Malahs Potion - "+me.name);
 				var Anya,i;
 				Pather.usePortal(114,null);
-				Pather.moveToPreset(114,2,460,0,0,true,true);
+				Pather.teleport=true;
+				Pather.moveToPreset(114,2,460,0,0);
 				Anya=getUnit(2,558);
 				for(i=0; i<3; i++){
 					Pather.moveToUnit(Anya);
