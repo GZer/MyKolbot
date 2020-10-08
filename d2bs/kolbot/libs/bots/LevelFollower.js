@@ -141,8 +141,7 @@ function LevelFollower(){
 					delay(250);
 					me.cancel();
 				}
-			}
-			
+			}			
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
 				delay(500);

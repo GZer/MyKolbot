@@ -29,6 +29,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("EarlyGame.nip");
 				Config.PickitFiles.push("TornadoRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Tornado.xpac.nip");
+				Config.GambleItems.push("Pelt");
 				//Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
@@ -425,6 +426,9 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.LowGold=300000;
+				Config.Gamble=true;
+				Config.GambleGoldStart=400000;
+				Config.GambleGoldStop=200000;
 			}
 		},
 
@@ -808,7 +812,10 @@ var AutoBuildTemplate={
 			SkillPoints: [240],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
+				Config.GambleItems.splice(Config.PickitFiles.indexOf("Pelt"),1);
 				Config.LowGold=500000;
+				Config.GambleGoldStart=600000;
+				Config.GambleGoldStop=400000;
 			}
 		},
 
