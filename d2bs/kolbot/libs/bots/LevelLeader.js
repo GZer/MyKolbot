@@ -642,19 +642,17 @@ function LevelLeader(){
 //==============ACT V FUNCTIONS==============//
 	
 	this.FreeAnya=function(){
-		var Anya=getUnit(2,558);
+		var Anya=getUnit(2,558),i;
 		if(!Anya){
 			this.logProgress(false,"Freeing Anya");
 			return false;
 		}
-		Pather.moveToUnit(Anya);
-		Anya.interact();
-		delay(250);
-		me.cancel();
-		Pather.moveToUnit(Anya);
-		Anya.interact();
-		delay(250);
-		me.cancel();
+		for(i=0; i<3; i++){
+			Pather.moveToUnit(Anya);
+			Anya.interact();
+			delay(250);
+			me.cancel();
+		}
 		return true;
 	};
 	

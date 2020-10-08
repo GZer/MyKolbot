@@ -128,6 +128,20 @@ function LevelFollower(){
 			if(me.classid == 1 && (TeleportAreas.indexOf(me.area) > -1) && (TownWaypoints.indexOf(LeaderArea) > -1)){
 				this.teleportFromLocation(me.area);
 			}
+			//If we have Malahs Potion go free her
+			if(me.getItem(644) && Pather.getPortal(114) && !me.getQuest(37,0)){
+				// this.logProgress(me.getItem(644),"I have Malahs Potion - "+me.name);
+				var Anya,i;
+				Pather.usePortal(114,null);
+				Pather.moveToPreset(114,2,460,0,0,true,true);
+				Anya=getUnit(2,558);
+				for(i=0; i<3; i++){
+					Pather.moveToUnit(Anya);
+					Anya.interact();
+					delay(250);
+					me.cancel();
+				}
+			}
 			
 			if(LeaderArea != me.area){
 				Pather.teleport=true;
@@ -385,11 +399,6 @@ function LevelFollower(){
 		Town.move("portalspot");
 		this.checkMerc();
 		if(MyMerc){MyMercLevel=MyMerc.charlvl;}
-		//Only leader should carry Malahs Potion
-		if(me.getItem(644)){
-			var MalahPotion=me.getItem(644);
-			MalahPotion.drop();
-		}
 		Pather.getWP(me.area);
 		delay(150);
 		Town.heal();
