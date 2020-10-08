@@ -29,7 +29,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("EarlyGame.nip");
 				Config.PickitFiles.push("HammerdinRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Hammerdin.xpac.nip");
-				Config.GambleItems.push("AuricShields");
+				//Config.GambleItems.push("AuricShields");
 				//Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];

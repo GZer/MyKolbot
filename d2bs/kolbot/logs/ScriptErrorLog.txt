@@ -52,3 +52,16 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:426, @levelfollower.js:416, @levelfollower.js:213, Town.doChores@town.js:98, Town.stash@town.js:1605, Misc.itemLogger@misc.js:1543
 [2020/10/08 16:05:55] <LightSorc> Error in LevelFollower (prototypes.js line 255): Unit.sell: Must be used in shops.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:426, @levelfollower.js:416, @levelfollower.js:213, Town.doChores@town.js:98, Town.stash@town.js:1599, Unit.prototype.sell@prototypes.js:255
+[2020/10/08 19:56:30] <Hammerdin> Invalid gamble entry: AuricShields
+[2020/10/08 19:56:32] <Wind> Invalid gamble entry: Pelt
+[2020/10/08 20:30:11] <Auradin> Invalid gamble entry: AuricShields
+[2020/10/08 20:33:10] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1025, @levelleader.js:96, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/08 20:39:32] <FireSorc> Invalid gamble entry: Staff
+[2020/10/08 20:39:37] <Wind> Invalid gamble entry: Pelt
+[2020/10/08 20:40:07] <Singer> Invalid gamble entry: PrimalHelm
+[2020/10/08 20:58:39] <Summoner> Invalid gamble entry: VoodooHeads
+[2020/10/08 22:03:06] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1025, @levelleader.js:147, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/08 22:29:00] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:439, @levelfollower.js:201, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999

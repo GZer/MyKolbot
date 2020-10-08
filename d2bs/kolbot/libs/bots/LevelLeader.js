@@ -60,13 +60,15 @@ function LevelLeader(){
 						this.getQuestItem(524,30);
 					}
 				}
-				this.talkToNPC("Akara");
+				while(me.getItem(524)){
+					this.talkToNPC("Akara");
+				}
 				Pather.useWaypoint(4);
 				this.clearToQuestLocation(4,1,737);
 				if(!me.getQuest(4,4)){
 					Stones=[getUnit(2,17),getUnit(2,18),getUnit(2,19),getUnit(2,20),getUnit(2,21)];
 				}
-				while(!me.getQuest(4,4)){
+				while(!me.getQuest(4,4) && me.getItem(525)){
 					Stones.forEach(function(stone){
 						if(!stone.mode){
 							Attack.securePosition(stone.x,stone.y,10,250);
@@ -317,7 +319,7 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 45) || (me.diff == 1 && me.charlvl > 75) || me.diff == 2){
+					if((me.diff == 0 && me.charlvl > 40) || (me.diff == 1 && me.charlvl > 75) || me.diff == 2){
 						Pather.moveTo(15134,5923,true,true);
 						this.killImportantQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
@@ -391,17 +393,12 @@ function LevelLeader(){
 	this.clearToNextArea=function(DestinationArea){
 		var count=0,DestinationReached=false,CurrentArea=me.area;
 		while(count < 25 && !DestinationReached){
-			try{
-				if(Pather.moveToExit(DestinationArea,true,true)){
-					this.tryMakePortal();
-				}
-			}catch(err){
-				Pather.journeyTo(DestinationArea);
-				this.tryMakePortal();
-			}
+			try{Pather.moveToExit(DestinationArea,true,true);}
+			catch(err){Pather.journeyTo(DestinationArea);}
 			count++;
 			DestinationReached=(me.area == DestinationArea);
 		}
+		this.tryMakePortal();
 		this.logProgress(DestinationReached,"Clear from "+Pather.getAreaName(CurrentArea)+" to "+Pather.getAreaName(DestinationArea));
 		return DestinationReached;
 	};
@@ -447,7 +444,7 @@ function LevelLeader(){
 			if(Boss){
 				while(Party && !Boss.dead){
 					Skill.cast(132,0,Boss.x,Boss.y);
-					delay(150);
+					delay(50);
 					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 60){
 						this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 						quit();

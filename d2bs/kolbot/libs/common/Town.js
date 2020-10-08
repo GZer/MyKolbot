@@ -172,7 +172,7 @@ var Town = {
 		}
 		
 		/*Cain for Access to Durance*/
-		if(me.getQuest(21, 2) && !me.getQuest(21, 0)) {
+		if(me.getQuest(21, 2) && !me.getQuest(22, 0)) {
 			this.goToTown(3);
 			this.move(NPC.Cain);
 			npc=getUnit(1,NPC.Cain);

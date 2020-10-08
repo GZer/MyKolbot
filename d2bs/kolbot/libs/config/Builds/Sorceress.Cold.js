@@ -29,7 +29,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("EarlyGame.nip");
 				Config.PickitFiles.push("ColdRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Cold.xpac.nip");
-				Config.GambleItems.push("Orb");
+				//Config.GambleItems.push("Orb");
 				//Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];

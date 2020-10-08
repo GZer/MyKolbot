@@ -240,7 +240,6 @@ function LevelFollower(){
 			switch(CurrentArea){
 				//Maggot Lair
 				case 62:
-					Town.doChores();
 					Pather.journeyTo(63);
 					Pather.journeyTo(64);
 					if(Pather.moveToPreset(64,2,356)){DestinationReached=true;}
@@ -269,7 +268,6 @@ function LevelFollower(){
 				break;
 				//Flayer Dungeon
 				case 88:
-					Town.doChores();
 					Pather.journeyTo(89);
 					Pather.journeyTo(91);
 					if(Pather.moveToPreset(91,2,406)){DestinationReached=true;}
