@@ -525,11 +525,12 @@ function LevelLeader(){
 	};
 	
 	this.ChangeAct=function(DestinationAct){
+		if(me.act == DestinationAct){return true;}
 		var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
 		if(Pather.accessToAct(DestinationAct) && getWaypoint(WaypointAreas.indexOf(TownWaypoints[DestinationAct-1]))){
 			try{Pather.journeyTo(TownWaypoints[DestinationAct-1]);}
 			catch(err){print("Failed using Waypoint to change acts")}
-			return true;
+			return (me.act == DestinationAct);
 		}
 		try{
 			switch(DestinationAct){
@@ -587,11 +588,10 @@ function LevelLeader(){
 			}
 		}catch(err){
 			me.cancel();
-			return false;
 		}
 		if(Config.useMerc){this.checkMerc();}
-		this.logProgress(me.act == DestinationAct,"Change to Act "+DestinationAct);
-		return me.act == DestinationAct;
+		this.logProgress((me.act == DestinationAct),"Change to Act "+DestinationAct);
+		return (me.act == DestinationAct);
 	};
 	
 	this.waitForTeleporter=function(DestinationArea){
@@ -1007,9 +1007,7 @@ function LevelLeader(){
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		var UptoAct=ActNumber+1;
-		if(me.act != UptoAct){
-			this.ChangeAct(UptoAct);
-		}
+		if(!this.ChangeAct(UptoAct)){delay(5000);quit();}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			var UpToArea=LevelingAreas[ActNumber][LevelArea],NextArea=0;
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
