@@ -535,7 +535,6 @@ function LevelLeader(){
 			case 2:
 				//Make sure we have cain before moving out of Act1
 				if(!me.getQuest(4,0)){
-					Pather.journeyTo(5);
 					this.CheckQuests(5);
 				}
 				Pather.journeyTo(0);
@@ -941,15 +940,15 @@ function LevelLeader(){
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
-		if(!me.getQuest(1,0)){print("Den");Pather.journeyTo(8);this.CheckQuests(8);}
-		if(!me.getQuest(3,3)){print("Malus");Pather.journeyTo(28);this.CheckQuests(28);}
-		if(!me.getQuest(5,0)){print("Countess");Pather.journeyTo(6);this.CheckQuests(6);}
-		if(!me.getQuest(9,0)){print("Radament");Pather.journeyTo(49);this.CheckQuests(49);}
-		if(!me.getQuest(17,0)){print("Black Book");Pather.journeyTo(94);this.CheckQuests(94);}
-		if(!me.getQuest(25,0)){print("Izual");Pather.journeyTo(105);this.CheckQuests(105);}
-		if(!me.getQuest(35,5)){print("Shenk");Pather.journeyTo(111);this.CheckQuests(111);}
-		if(!me.getQuest(37,0)){print("Anya");Pather.journeyTo(114);this.CheckQuests(114);}
-		if(!me.getQuest(38,3)){print("Nihlathak");Pather.journeyTo(124);this.CheckQuests(124);}
+		if(!me.getQuest(1,0)){print("Den");this.CheckQuests(8);}
+		if(!me.getQuest(3,3)){print("Malus");this.CheckQuests(28);}
+		if(!me.getQuest(5,0)){print("Countess");this.CheckQuests(6);}
+		if(!me.getQuest(9,0)){print("Radament");this.CheckQuests(49);}
+		if(!me.getQuest(17,0)){print("Black Book");this.CheckQuests(94);}
+		if(!me.getQuest(25,0)){print("Izual");this.CheckQuests(105);}
+		if(!me.getQuest(35,5)){print("Shenk");this.CheckQuests(111);}
+		if(!me.getQuest(37,0)){print("Anya");this.CheckQuests(114);}
+		if(!me.getQuest(38,3)){print("Nihlathak");this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
 	};
 	
