@@ -130,7 +130,6 @@ function LevelFollower(){
 			}
 			//If we have Malahs Potion go free Anya
 			if(me.getItem(644)){
-				say("Freeing Anya");
 				var Anya,i;
 				Pather.usePortal(114,null);
 				Pather.teleport=true;
