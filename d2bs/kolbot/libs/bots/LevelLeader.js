@@ -302,7 +302,6 @@ function LevelLeader(){
 				}
 				this.waitForUnit(1,542);
 				this.killImportantQuestBoss([540,541,542]);
-				// Attack.clear(50);
 				try{Pather.moveToExit(128,true,true);}
 				catch(err){Pather.journeyTo(128);}
 				this.logProgress(me.getQuest(39,0),"Ancients");
@@ -310,10 +309,11 @@ function LevelLeader(){
 			case 131: //Baal
 				Attack.clearLevel(0);
 				Pather.moveTo(15095,5029,true,true);
+				this.tryMakePortal();
 				while(getUnit(1,543)){
 					Pather.moveTo(15095,5029,true,true);
-					Attack.clear(25);
-					delay(1000);
+					Attack.clear(50);
+					delay(500);
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
