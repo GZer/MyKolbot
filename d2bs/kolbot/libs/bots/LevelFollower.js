@@ -102,7 +102,7 @@ function LevelFollower(){
 				delay(500);
 			}
 			if(preArea == me.area){
-				say("Act change failed");
+				print("Act change failed");
 			}
 		}catch(err){
 			me.cancel();
@@ -274,7 +274,7 @@ function LevelFollower(){
 		if(Player){
 			do{
 				if(Player.mode != 0 && Player.mode != 17){
-					say("Found Leader");
+					print("Found Leader");
 					return Player;
 				}
 			}while(Player.getNext(WhoIsLeader.area));

@@ -184,13 +184,13 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 76: //Skip Act3 Jungles
-				if(!this.skipAreas(76,77)){//say("Quitting");delay(5000);quit();}
+				if(!this.skipAreas(76,77)){delay(5000);quit();}
 			break;
 			case 77: //Skip Act3 Jungles
-				if(!this.skipAreas(77,78)){//say("Quitting");delay(5000);quit();}
+				if(!this.skipAreas(77,78)){delay(5000);quit();}
 			break;
 			case 78: //Skip Act3 Jungles
-				if(!this.skipAreas(78,79)){//say("Quitting");delay(5000);quit();}
+				if(!this.skipAreas(78,79)){delay(5000);quit();}
 			break;
 			case 80: //Khalim Heart
 				this.getKhalimHeart();
@@ -370,7 +370,6 @@ function LevelLeader(){
 		while(count < 25){
 			try{
 				while(!this.playerClose() && count < 3){
-					//say("Important Quest");
 					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
 					delay(5000);
 					count++;
@@ -390,7 +389,6 @@ function LevelLeader(){
 	
 	this.clearToNextArea=function(DestinationArea){
 		var count=0,DestinationReached=false,CurrentArea=me.area;
-		//say("Clearing to "+Pather.getAreaName(DestinationArea));
 		while(count < 25 && !DestinationReached){
 			try{
 				if(Pather.moveToExit(DestinationArea,true,true)){
@@ -408,7 +406,6 @@ function LevelLeader(){
 	};
 	
 	this.skipAreas=function(FromArea,ToArea){
-		//say("Skipping to "+Pather.getAreaName(ToArea));
 		if(!getWaypoint(WaypointAreas.indexOf(ToArea))){
 			Pather.useWaypoint(FromArea);
 			delay(5000);
@@ -537,7 +534,6 @@ function LevelLeader(){
 			case 2:
 				//Make sure we have cain before moving out of Act1
 				if(!me.getQuest(4,0)){
-					//say("Cain");
 					Pather.journeyTo(5);
 					this.CheckQuests(5);
 				}
@@ -584,7 +580,7 @@ function LevelLeader(){
 				delay(500);
 			}
 			if(preArea == me.area){
-				//say("Act change failed");
+				print("Act change failed");
 			}
 		}catch(err){
 			me.cancel();
@@ -836,7 +832,7 @@ function LevelLeader(){
 		delay(1000);
 		HoradricStaff=me.getItem(91);
 		if(HoradricStaff){Storage.Inventory.MoveTo(HoradricStaff);}
-		else{//say("Quitting");delay(5000);quit();}
+		else{delay(5000);quit();}
 		me.cancel();
 		this.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
@@ -944,15 +940,15 @@ function LevelLeader(){
 	
 	this.finalCheck=function(){
 		FileTools.appendText("logs/ProgressLog.txt","Starting FinalCheck \n");
-		if(!me.getQuest(1,0)){//say("Den");Pather.journeyTo(8);this.CheckQuests(8);}
-		if(!me.getQuest(3,3)){//say("Malus");Pather.journeyTo(28);this.CheckQuests(28);}
-		if(!me.getQuest(5,0)){//say("Countess");Pather.journeyTo(6);this.CheckQuests(6);}
-		if(!me.getQuest(9,0)){//say("Radament");Pather.journeyTo(49);this.CheckQuests(49);}
-		if(!me.getQuest(17,0)){//say("Black Book");Pather.journeyTo(94);this.CheckQuests(94);}
-		if(!me.getQuest(25,0)){//say("Izual");Pather.journeyTo(105);this.CheckQuests(105);}
-		if(!me.getQuest(35,5)){//say("Shenk");Pather.journeyTo(111);this.CheckQuests(111);}
-		if(!me.getQuest(37,0)){//say("Anya");Pather.journeyTo(114);this.CheckQuests(114);}
-		if(!me.getQuest(38,3)){//say("Nihlathak");Pather.journeyTo(124);this.CheckQuests(124);}
+		if(!me.getQuest(1,0)){print("Den");Pather.journeyTo(8);this.CheckQuests(8);}
+		if(!me.getQuest(3,3)){print("Malus");Pather.journeyTo(28);this.CheckQuests(28);}
+		if(!me.getQuest(5,0)){print("Countess");Pather.journeyTo(6);this.CheckQuests(6);}
+		if(!me.getQuest(9,0)){print("Radament");Pather.journeyTo(49);this.CheckQuests(49);}
+		if(!me.getQuest(17,0)){print("Black Book");Pather.journeyTo(94);this.CheckQuests(94);}
+		if(!me.getQuest(25,0)){print("Izual");Pather.journeyTo(105);this.CheckQuests(105);}
+		if(!me.getQuest(35,5)){print("Shenk");Pather.journeyTo(111);this.CheckQuests(111);}
+		if(!me.getQuest(37,0)){print("Anya");Pather.journeyTo(114);this.CheckQuests(114);}
+		if(!me.getQuest(38,3)){print("Nihlathak");Pather.journeyTo(124);this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
 	};
 	
@@ -978,7 +974,7 @@ function LevelLeader(){
 			else{ActNumber=4;}
 		}
 		LevelingAreas[ActNumber].splice(0,LevelingAreas[ActNumber].indexOf(UpToArea));
-		//say("Up to Act:"+(ActNumber+1)+" "+Pather.getAreaName(LevelingAreas[ActNumber][0]));
+		print("Up to Act:"+(ActNumber+1)+" "+Pather.getAreaName(LevelingAreas[ActNumber][0]));
 		return true;
 	};
 	
@@ -1001,7 +997,7 @@ function LevelLeader(){
 	};
 	
 	//Start Script
-	// while(true){//say(me.x+","+me.y);delay(2000);}
+	// while(true){say(me.x+","+me.y);delay(2000);}
 	this.configCharacter(me.charlvl);
 	this.checkProgress();
 	
@@ -1017,7 +1013,6 @@ function LevelLeader(){
 			if(me.area == UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
-				//say("Waiting for Party");
 				while(!this.playerClose() && WaitingLimit > 0){
 					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
 					delay(250*WaitingLimit--);
@@ -1028,7 +1023,7 @@ function LevelLeader(){
 				this.CheckQuests(UpToArea);
 				if(FullClearAreas.indexOf(UpToArea) > -1){
 					Pather.journeyTo(UpToArea);
-					//say("Full Clear");
+					print("Full Clear");
 					Attack.clearLevel(0);
 				}else if(NextArea > 0){
 					this.clearToNextArea(NextArea);
