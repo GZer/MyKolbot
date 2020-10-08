@@ -12670,3 +12670,551 @@
 [10/08/20 14:37:31] D2BS 22060: move retry 1
 [10/08/20 14:37:42] D2BS 22060: move retry 1
 [10/08/20 14:38:05] D2BS 22060: ÿc7Picked up ÿc4113 Gold
+[10/08/20 14:38:35] D2BS 22060: ÿc7Picked up ÿc4157 Gold
+[10/08/20 14:39:05] D2BS 22060: ÿc7Picked up ÿc4114 Gold
+[10/08/20 14:39:11] D2BS 22060: ÿc7Picked up ÿc4201 Gold
+[10/08/20 14:39:14] D2BS 22060: move retry 1
+[10/08/20 14:39:25] D2BS 22060: move retry 1
+[10/08/20 14:39:42] D2BS 22060: move retry 1
+[10/08/20 14:39:46] D2BS 22060: move retry 1
+[10/08/20 14:40:02] D2BS 22060: move retry 1
+[10/08/20 14:40:15] D2BS 22060: move retry 1
+[10/08/20 14:40:17] D2BS 22060: initNPC: heal
+[10/08/20 14:40:20] D2BS 22060: initNPC: identify
+[10/08/20 14:40:22] D2BS 22060: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[10/08/20 14:40:30] D2BS 22060: Successfully placed Ort Rune at X: 4 Y: 0
+[10/08/20 14:40:33] D2BS 22060: move retry 1
+[10/08/20 14:40:35] D2BS 22060: move retry 1
+[10/08/20 14:40:36] D2BS 22060: 109
+[10/08/20 14:40:38] D2BS 22060: initNPC: heal
+[10/08/20 14:40:39] D2BS 22060: move retry 1
+[10/08/20 14:41:43] D2BS 22060: move retry 1
+[10/08/20 14:41:53] D2BS 22060: Script default.dbj ended
+[10/08/20 14:41:53] D2BS 22060: Script tools\autobuildthread.js ended
+[10/08/20 14:41:53] D2BS 22060: Script tools\party.js ended
+[10/08/20 14:41:53] D2BS 22060: Script tools\toolsthread.js ended
+[10/08/20 14:41:53] D2BS 22060: Script tools\townchicken.js ended
+[10/08/20 14:41:59] D2BS 22060: D2BS Shutdown complete.
+[10/08/20 14:42:00] D2BS 10804: D2BS Engine startup complete. 1.6.4U
+[10/08/20 14:42:00] D2BS 10804: Wind
+[10/08/20 14:42:00] D2BS 10804: ÿc2D2BSÿc0 :: Switched to profile Wind
+[10/08/20 14:42:00] D2BS 10804: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/08/20 14:42:00] D2BS 10804: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/08/20 14:42:00] D2BS 10804: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/08/20 14:42:00] D2BS 10804: ÿc2D2BSÿc0 :: Started Console Script
+[10/08/20 14:42:01] D2BS 10804: Heartbeat loaded
+[10/08/20 14:42:20] D2BS 10804: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 14:42:20] D2BS 10804: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 14:42:20] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/08/20 14:42:20] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:42:20] D2BS 10804: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 14:42:20] D2BS 10804: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 14:42:20] D2BS 10804: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 14:42:20] D2BS 10804: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/08/20 14:42:20] D2BS 10804: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/08/20 14:42:20] D2BS 10804: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 14:42:20] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/08/20 14:42:20] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:42:20] D2BS 10804: AutoBuild: Loaded helper thread
+[10/08/20 14:42:20] D2BS 10804: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 14:42:20] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/08/20 14:42:20] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:42:20] D2BS 10804: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 14:42:20] D2BS 10804: ÿc3Start ToolsThread script
+[10/08/20 14:42:20] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/08/20 14:42:20] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:42:20] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/08/20 14:42:20] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:42:21] D2BS 10804: move retry 1
+[10/08/20 14:42:28] D2BS 10804: initNPC: heal
+[10/08/20 14:42:37] D2BS 10804: move retry 1
+[10/08/20 14:42:38] D2BS 10804: initNPC: BuyPotions
+[10/08/20 14:42:51] D2BS 10804: initNPC: heal
+[10/08/20 14:43:01] D2BS 10804: 109
+[10/08/20 14:43:02] D2BS 10804: initNPC: heal
+[10/08/20 14:43:12] D2BS 10804: Script default.dbj ended
+[10/08/20 14:43:12] D2BS 10804: Script tools\autobuildthread.js ended
+[10/08/20 14:43:12] D2BS 10804: Script tools\party.js ended
+[10/08/20 14:43:12] D2BS 10804: Script tools\toolsthread.js ended
+[10/08/20 14:43:12] D2BS 10804: Script tools\townchicken.js ended
+[10/08/20 14:43:19] D2BS 10804: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 14:43:19] D2BS 10804: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 14:43:19] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/08/20 14:43:19] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:43:19] D2BS 10804: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 14:43:19] D2BS 10804: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 14:43:19] D2BS 10804: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 14:43:19] D2BS 10804: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/08/20 14:43:19] D2BS 10804: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[10/08/20 14:43:19] D2BS 10804: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc216 ms
+[10/08/20 14:43:19] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/08/20 14:43:19] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:43:19] D2BS 10804: AutoBuild: Loaded helper thread
+[10/08/20 14:43:19] D2BS 10804: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 14:43:19] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/08/20 14:43:19] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:43:19] D2BS 10804: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 14:43:19] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/08/20 14:43:19] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:43:19] D2BS 10804: ÿc3Start ToolsThread script
+[10/08/20 14:43:19] D2BS 10804: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/08/20 14:43:19] D2BS 10804: Updating Config from level 0 to 38
+[10/08/20 14:43:24] D2BS 10804: initNPC: BuyPotions
+[10/08/20 14:43:51] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[10/08/20 14:43:51] D2BS 10804: ÿc7Picked up ÿc491 Gold
+[10/08/20 14:43:51] D2BS 10804: ÿc7Picked up ÿc4104 Gold
+[10/08/20 14:43:52] D2BS 10804: ÿc7Picked up ÿc4150 Gold
+[10/08/20 14:43:53] D2BS 10804: ÿc7Picked up ÿc4182 Gold
+[10/08/20 14:43:56] D2BS 10804: Found Leader
+[10/08/20 14:43:56] D2BS 10804: Found Leader
+[10/08/20 14:44:31] D2BS 10804: move retry 1
+[10/08/20 14:44:38] D2BS 10804: ÿc7Picked up ÿc4169 Gold
+[10/08/20 14:44:43] D2BS 10804: ÿc7Picked up ÿc435 Gold
+[10/08/20 14:44:46] D2BS 10804: AutoBuild: Stat points: 10      Skill points: 3
+[10/08/20 14:44:46] D2BS 10804: AutoBuild: Level up detected ( 38 --> 39 )
+[10/08/20 14:44:46] D2BS 10804: AutoBuild: useSkillPoint(): Tornado (245)
+[10/08/20 14:44:46] D2BS 10804: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  16)
+[10/08/20 14:44:46] D2BS 10804: AutoBuild: useStatPoint(0): Strength
+[10/08/20 14:44:46] D2BS 10804: AutoBuild: Stat (1/5) Increased Strength from 52 to 53
+[10/08/20 14:44:46] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: Stat (2/5) Increased Vitality from 173 to 174
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: Stat (3/5) Increased Vitality from 174 to 175
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: Stat (4/5) Increased Vitality from 175 to 176
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: Stat (5/5) Increased Vitality from 176 to 177
+[10/08/20 14:44:47] D2BS 10804: Updating Config from level 38 to 39
+[10/08/20 14:44:47] D2BS 10804: Updating Config from level 38 to 39
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: Updating Config from level 38 to 39
+[10/08/20 14:44:47] D2BS 10804: Updating Config from level 38 to 39
+[10/08/20 14:44:47] D2BS 10804: Updating Config from level 38 to 39
+[10/08/20 14:44:47] D2BS 10804: AutoBuild: Incrementing cached character level to 39
+[10/08/20 14:44:49] D2BS 10804: ÿc7Picked up ÿc4174 Gold
+[10/08/20 14:44:53] D2BS 10804: ÿc7Picked up ÿc477 Gold
+[10/08/20 14:45:03] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[10/08/20 14:45:04] D2BS 10804: ÿc7Picked up ÿc490 Gold
+[10/08/20 14:45:29] D2BS 10804: move retry 1
+[10/08/20 14:45:52] D2BS 10804: move retry 1
+[10/08/20 14:46:04] D2BS 10804: 117,118
+[10/08/20 14:46:09] D2BS 10804: move retry 1
+[10/08/20 14:46:24] D2BS 10804: ÿc7Picked up ÿc4172 Gold
+[10/08/20 14:46:29] D2BS 10804: ÿc7Picked up ÿc4121 Gold
+[10/08/20 14:46:29] D2BS 10804: move retry 1
+[10/08/20 14:46:35] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/08/20 14:46:37] D2BS 10804: move retry 1
+[10/08/20 14:46:40] D2BS 10804: ÿc7Picked up ÿc4129 Gold
+[10/08/20 14:47:58] D2BS 10804: ÿc7Picked up ÿc4117 Gold
+[10/08/20 14:48:03] D2BS 10804: ÿc7Picked up ÿc4215 Gold
+[10/08/20 14:48:11] D2BS 10804: ÿc7Picked up ÿc455 Gold
+[10/08/20 14:49:02] D2BS 10804: move retry 1
+[10/08/20 14:49:26] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/08/20 14:50:17] D2BS 10804: move retry 1
+[10/08/20 14:50:19] D2BS 10804: move retry 1
+[10/08/20 14:50:28] D2BS 10804: ÿc7Picked up ÿc4184 Gold
+[10/08/20 14:50:41] D2BS 10804: ÿc7Picked up ÿc445 Gold
+[10/08/20 14:50:47] D2BS 10804: ÿc7Picked up ÿc3Flamberge ÿc0(ilvl 35) (Tornado.xpac.nip #2)
+[10/08/20 14:50:47] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/08/20 14:51:08] D2BS 10804: ÿc7Picked up ÿc4315 Gold
+[10/08/20 14:51:08] D2BS 10804: ÿc7Picked up ÿc4975 Gold
+[10/08/20 14:51:12] D2BS 10804: move retry 1
+[10/08/20 14:51:19] D2BS 10804: move retry 1
+[10/08/20 14:51:44] D2BS 10804: move retry 1
+[10/08/20 14:52:22] D2BS 10804: move retry 1
+[10/08/20 14:52:23] D2BS 10804: move retry 2
+[10/08/20 14:52:32] D2BS 10804: ÿc7Picked up ÿc498 Gold
+[10/08/20 14:52:33] D2BS 10804: move retry 1
+[10/08/20 14:53:19] D2BS 10804: move retry 1
+[10/08/20 14:54:20] D2BS 10804: move retry 1
+[10/08/20 14:54:46] D2BS 10804: ÿc7Picked up ÿc454 Gold
+[10/08/20 14:55:14] D2BS 10804: move retry 1
+[10/08/20 14:55:19] D2BS 10804: move retry 1
+[10/08/20 14:55:51] D2BS 10804: move retry 1
+[10/08/20 14:56:06] D2BS 10804: move retry 1
+[10/08/20 14:56:23] D2BS 10804: move retry 1
+[10/08/20 14:56:52] D2BS 10804: move retry 1
+[10/08/20 14:57:21] D2BS 10804: ÿc7Picked up ÿc4188 Gold
+[10/08/20 14:57:30] D2BS 10804: move retry 1
+[10/08/20 14:57:40] D2BS 10804: move retry 1
+[10/08/20 14:57:45] D2BS 10804: move retry 1
+[10/08/20 14:58:04] D2BS 10804: 118,120
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: Stat points: 10      Skill points: 3
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: Level up detected ( 39 --> 40 )
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: useSkillPoint(): Tornado (245)
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  18)
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: useStatPoint(0): Strength
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: Stat (1/5) Increased Strength from 53 to 54
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: Stat (2/5) Increased Vitality from 177 to 178
+[10/08/20 14:58:44] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:58:45] D2BS 10804: AutoBuild: Attempt to spend point 3 in Vitality may have failed!
+[10/08/20 14:58:45] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:58:45] D2BS 10804: AutoBuild: Stat (4/5) Increased Vitality from 179 to 180
+[10/08/20 14:58:45] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:58:45] D2BS 10804: AutoBuild: Stat (5/5) Increased Vitality from 180 to 181
+[10/08/20 14:58:45] D2BS 10804: Updating Config from level 39 to 40
+[10/08/20 14:58:45] D2BS 10804: Updating Config from level 39 to 40
+[10/08/20 14:58:45] D2BS 10804: Updating Config from level 39 to 40
+[10/08/20 14:58:45] D2BS 10804: Updating Config from level 39 to 40
+[10/08/20 14:58:45] D2BS 10804: AutoBuild: Updating Config from level 39 to 40
+[10/08/20 14:58:45] D2BS 10804: AutoBuild: Incrementing cached character level to 40
+[10/08/20 14:59:25] D2BS 10804: 120,128
+[10/08/20 14:59:51] D2BS 10804: ÿc7Picked up ÿc4124 Gold
+[10/08/20 15:00:17] D2BS 10804: 128,129
+[10/08/20 15:00:25] D2BS 10804: ÿc7Picked up ÿc483 Gold
+[10/08/20 15:00:26] D2BS 10804: ÿc7Picked up ÿc4132 Gold
+[10/08/20 15:00:30] D2BS 10804: ÿc7Picked up ÿc451 Gold
+[10/08/20 15:00:30] D2BS 10804: ÿc7Picked up ÿc3Great Axe ÿc0(ilvl 41)
+[10/08/20 15:00:31] D2BS 10804: ÿc7Picked up ÿc479 Gold
+[10/08/20 15:00:40] D2BS 10804: ÿc7Picked up ÿc493 Gold
+[10/08/20 15:00:45] D2BS 10804: ÿc7Picked up ÿc0Crossbow ÿc0(ilvl 41)
+[10/08/20 15:00:55] D2BS 10804: ÿc7Picked up ÿc0Battle Axe ÿc0(ilvl 41)
+[10/08/20 15:00:55] D2BS 10804: ÿc7Trying to make room for ÿc3Long Battle Bow
+[10/08/20 15:00:56] D2BS 10804: initNPC: heal
+[10/08/20 15:01:04] D2BS 10804: initNPC: identify
+[10/08/20 15:01:06] D2BS 10804: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[10/08/20 15:01:07] D2BS 10804: LowGold sell Battle Axe
+[10/08/20 15:01:07] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:01:07] D2BS 10804: LowGold sell Gnarled Staff
+[10/08/20 15:01:07] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:01:09] D2BS 10804: LowGold sell Crossbow
+[10/08/20 15:01:09] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:01:41] D2BS 10804: initNPC: heal
+[10/08/20 15:01:51] D2BS 10804: 109
+[10/08/20 15:01:53] D2BS 10804: initNPC: heal
+[10/08/20 15:02:27] D2BS 10804: ÿc7Picked up ÿc0Crown ÿc0(ilvl 41)
+[10/08/20 15:02:28] D2BS 10804: ÿc7Picked up ÿc4242 Gold
+[10/08/20 15:02:32] D2BS 10804: ÿc7Picked up ÿc4146 Gold
+[10/08/20 15:03:26] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/08/20 15:03:26] D2BS 10804: ÿc7Picked up ÿc484 Gold
+[10/08/20 15:03:32] D2BS 10804: ÿc7Picked up ÿc4101 Gold
+[10/08/20 15:03:47] D2BS 10804: ÿc7Picked up ÿc0Great Helm ÿc0(ilvl 41)
+[10/08/20 15:04:04] D2BS 10804: ÿc7Picked up ÿc4241 Gold
+[10/08/20 15:04:17] D2BS 10804: ÿc7Picked up ÿc4208 Gold
+[10/08/20 15:04:18] D2BS 10804: ÿc7Picked up ÿc4163 Gold
+[10/08/20 15:04:21] D2BS 10804: ÿc7Picked up ÿc471 Gold
+[10/08/20 15:04:21] D2BS 10804: ÿc7Picked up ÿc4231 Gold
+[10/08/20 15:04:49] D2BS 10804: ÿc7Picked up ÿc0Flail ÿc0(ilvl 41)
+[10/08/20 15:04:49] D2BS 10804: ÿc7Picked up ÿc4147 Gold
+[10/08/20 15:06:39] D2BS 10804: 129,130
+[10/08/20 15:07:00] D2BS 10804: ÿc7Picked up ÿc4143 Gold
+[10/08/20 15:07:26] D2BS 10804: ÿc7Picked up ÿc4236 Gold
+[10/08/20 15:07:33] D2BS 10804: ÿc7Picked up ÿc0Horned Helm ÿc0(ilvl 38)
+[10/08/20 15:07:36] D2BS 10804: ÿc7Picked up ÿc4221 Gold
+[10/08/20 15:07:45] D2BS 10804: ÿc7Picked up ÿc456 Gold
+[10/08/20 15:08:41] D2BS 10804: ÿc7Picked up ÿc452 Gold
+[10/08/20 15:08:43] D2BS 10804: ÿc7Picked up ÿc4218 Gold
+[10/08/20 15:09:16] D2BS 10804: ÿc7Picked up ÿc4215 Gold
+[10/08/20 15:09:52] D2BS 10804: ÿc7Picked up ÿc4101 Gold
+[10/08/20 15:10:10] D2BS 10804: ÿc7Picked up ÿc0Mace ÿc0(ilvl 38)
+[10/08/20 15:11:18] D2BS 10804: move retry 1
+[10/08/20 15:11:38] D2BS 10804: move retry 1
+[10/08/20 15:11:41] D2BS 10804: move retry 1
+[10/08/20 15:11:53] D2BS 10804: 130,131
+[10/08/20 15:12:31] D2BS 10804: ÿc7Picked up ÿc4180 Gold
+[10/08/20 15:13:01] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/08/20 15:13:12] D2BS 10804: ÿc7Picked up ÿc4142 Gold
+[10/08/20 15:13:14] D2BS 10804: move retry 1
+[10/08/20 15:13:18] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/08/20 15:13:40] D2BS 10804: ÿc7Picked up ÿc458 Gold
+[10/08/20 15:14:12] D2BS 10804: ÿc7Picked up ÿc4233 Gold
+[10/08/20 15:14:46] D2BS 10804: ÿc7Picked up ÿc4255 Gold
+[10/08/20 15:14:57] D2BS 10804: ÿc7Picked up ÿc4171 Gold
+[10/08/20 15:15:36] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/08/20 15:16:21] D2BS 10804: ÿc7Picked up ÿc440 Gold
+[10/08/20 15:16:21] D2BS 10804: ÿc7Picked up ÿc4118 Gold
+[10/08/20 15:17:28] D2BS 10804: move retry 1
+[10/08/20 15:18:03] D2BS 10804: ÿc7Picked up ÿc0Double Axe ÿc0(ilvl 43)
+[10/08/20 15:18:03] D2BS 10804: ÿc7Picked up ÿc0Pilum ÿc0(ilvl 43)
+[10/08/20 15:18:31] D2BS 10804: AutoBuild: Stat points: 10      Skill points: 3
+[10/08/20 15:18:31] D2BS 10804: AutoBuild: Level up detected ( 40 --> 41 )
+[10/08/20 15:18:31] D2BS 10804: AutoBuild: useSkillPoint(): Tornado (245)
+[10/08/20 15:18:31] D2BS 10804: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  19)
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: useStatPoint(0): Strength
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: Stat (1/5) Increased Strength from 54 to 55
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: Stat (2/5) Increased Vitality from 181 to 182
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: Stat (3/5) Increased Vitality from 182 to 183
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: Stat (4/5) Increased Vitality from 183 to 184
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: Stat (5/5) Increased Vitality from 184 to 185
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: Updating Config from level 40 to 41
+[10/08/20 15:18:32] D2BS 10804: Updating Config from level 40 to 41
+[10/08/20 15:18:32] D2BS 10804: Updating Config from level 40 to 41
+[10/08/20 15:18:32] D2BS 10804: Updating Config from level 40 to 41
+[10/08/20 15:18:32] D2BS 10804: Updating Config from level 40 to 41
+[10/08/20 15:18:32] D2BS 10804: AutoBuild: Incrementing cached character level to 41
+[10/08/20 15:18:34] D2BS 10804: ÿc7Picked up ÿc4134 Gold
+[10/08/20 15:18:34] D2BS 10804: ÿc7Trying to make room for ÿc0Mask
+[10/08/20 15:18:34] D2BS 10804: initNPC: heal
+[10/08/20 15:18:36] D2BS 10804: initNPC: identify
+[10/08/20 15:18:37] D2BS 10804: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[10/08/20 15:18:38] D2BS 10804: LowGold sell Great Helm
+[10/08/20 15:18:38] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:18:38] D2BS 10804: LowGold sell Pilum
+[10/08/20 15:18:38] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:18:40] D2BS 10804: LowGold sell Double Axe
+[10/08/20 15:18:40] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:18:42] D2BS 10804: LowGold sell Mace
+[10/08/20 15:18:42] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:18:44] D2BS 10804: LowGold sell Flail
+[10/08/20 15:18:44] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:18:46] D2BS 10804: LowGold sell Crown
+[10/08/20 15:18:46] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:18:48] D2BS 10804: LowGold sell Horned Helm
+[10/08/20 15:18:48] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:19:03] D2BS 10804: ÿc7Picked up ÿc0Defender ÿc0(ilvl 58)
+[10/08/20 15:19:04] D2BS 10804: ÿc7Picked up ÿc0Mask ÿc0(ilvl 43)
+[10/08/20 15:19:21] D2BS 10804: initNPC: identify
+[10/08/20 15:19:24] D2BS 10804: ÿc4MiniShopBotÿc0: Scanning 56 items.
+[10/08/20 15:19:25] D2BS 10804: LowGold sell Mask
+[10/08/20 15:19:25] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:19:25] D2BS 10804: LowGold sell Defender
+[10/08/20 15:19:25] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:19:35] D2BS 10804: 109
+[10/08/20 15:19:38] D2BS 10804: initNPC: heal
+[10/08/20 15:19:53] D2BS 10804: 113
+[10/08/20 15:20:11] D2BS 10804: ÿc7Picked up ÿc0Spiked Shield ÿc0(ilvl 37)
+[10/08/20 15:20:13] D2BS 10804: ÿc7Picked up ÿc4110 Gold
+[10/08/20 15:20:21] D2BS 10804: ÿc7Picked up ÿc4138 Gold
+[10/08/20 15:20:27] D2BS 10804: ÿc7Picked up ÿc0Assault Helmet ÿc0(ilvl 35)
+[10/08/20 15:20:39] D2BS 10804: ÿc7Picked up ÿc4192 Gold
+[10/08/20 15:20:42] D2BS 10804: ÿc7Picked up ÿc469 Gold
+[10/08/20 15:20:44] D2BS 10804: ÿc7Picked up ÿc444 Gold
+[10/08/20 15:20:51] D2BS 10804: ÿc7Picked up ÿc0War Hammer ÿc0(ilvl 37)
+[10/08/20 15:20:59] D2BS 10804: ÿc7Picked up ÿc0Cleaver ÿc0(ilvl 37)
+[10/08/20 15:21:00] D2BS 10804: ÿc7Picked up ÿc0Short Battle Bow ÿc0(ilvl 35) (Merc.xpac.nip #3)
+[10/08/20 15:21:03] D2BS 10804: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[10/08/20 15:21:03] D2BS 10804: ÿc7Trying to make room for ÿc0Trident
+[10/08/20 15:21:04] D2BS 10804: initNPC: heal
+[10/08/20 15:21:06] D2BS 10804: initNPC: identify
+[10/08/20 15:21:07] D2BS 10804: ÿc4MiniShopBotÿc0: Scanning 61 items.
+[10/08/20 15:21:08] D2BS 10804: initNPC: buyPotions
+[10/08/20 15:21:08] D2BS 10804: LowGold sell Cleaver
+[10/08/20 15:21:08] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:21:08] D2BS 10804: LowGold sell War Hammer
+[10/08/20 15:21:08] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:21:10] D2BS 10804: LowGold sell Spiked Shield
+[10/08/20 15:21:10] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:21:13] D2BS 10804: LowGold sell Assault Helmet
+[10/08/20 15:21:13] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:21:15] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:21:40] D2BS 10804: ÿc7Picked up ÿc4245 Gold
+[10/08/20 15:21:41] D2BS 10804: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 15:21:42] D2BS 10804: 113,114
+[10/08/20 15:22:22] D2BS 10804: ÿc7Picked up ÿc492 Gold
+[10/08/20 15:22:35] D2BS 10804: ÿc7Picked up ÿc467 Gold
+[10/08/20 15:22:35] D2BS 10804: ÿc7Picked up ÿc0Full Helm ÿc0(ilvl 41)
+[10/08/20 15:22:49] D2BS 10804: ÿc7Picked up ÿc0Mask ÿc0(ilvl 31)
+[10/08/20 15:23:06] D2BS 10804: ÿc7Picked up ÿc4164 Gold
+[10/08/20 15:23:16] D2BS 10804: ÿc7Picked up ÿc0Gothic Shield ÿc0(ilvl 31)
+[10/08/20 15:23:16] D2BS 10804: ÿc7Picked up ÿc0Long Staff ÿc0(ilvl 31)
+[10/08/20 15:23:23] D2BS 10804: ÿc7Picked up ÿc4203 Gold
+[10/08/20 15:23:28] D2BS 10804: ÿc7Picked up ÿc0Superior Studded Leather ÿc0(ilvl 31) (Merc.xpac.nip #14)
+[10/08/20 15:23:31] D2BS 10804: ÿc7Picked up ÿc0Lochaber Axe ÿc0(ilvl 41)
+[10/08/20 15:23:35] D2BS 10804: ÿc7Trying to make room for ÿc0Crown
+[10/08/20 15:23:36] D2BS 10804: initNPC: heal
+[10/08/20 15:23:38] D2BS 10804: initNPC: identify
+[10/08/20 15:23:39] D2BS 10804: initNPC: fillTome
+[10/08/20 15:23:40] D2BS 10804: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[10/08/20 15:23:40] D2BS 10804: LowGold sell Mask
+[10/08/20 15:23:40] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:23:41] D2BS 10804: LowGold sell Lochaber Axe
+[10/08/20 15:23:41] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:23:43] D2BS 10804: LowGold sell Long Staff
+[10/08/20 15:23:43] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:23:45] D2BS 10804: LowGold sell Gothic Shield
+[10/08/20 15:23:45] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:23:47] D2BS 10804: LowGold sell Full Helm
+[10/08/20 15:23:47] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:23:49] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:24:03] D2BS 10804: ÿc7Picked up ÿc0Crown ÿc0(ilvl 41)
+[10/08/20 15:24:42] D2BS 10804: initNPC: heal
+[10/08/20 15:24:50] D2BS 10804: initNPC: identify
+[10/08/20 15:24:51] D2BS 10804: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[10/08/20 15:24:52] D2BS 10804: LowGold sell Crown
+[10/08/20 15:24:52] D2BS 10804: initNPC: clearInventory
+[10/08/20 15:24:52] D2BS 10804: 109
+[10/08/20 15:25:00] D2BS 10804: initNPC: heal
+[10/08/20 15:26:07] D2BS 10804: ÿc1Pausing.
+[10/08/20 15:26:40] D2BS 10804: Script default.dbj ended
+[10/08/20 15:26:40] D2BS 10804: Script tools\autobuildthread.js ended
+[10/08/20 15:26:40] D2BS 10804: Script tools\party.js ended
+[10/08/20 15:26:40] D2BS 10804: Script tools\toolsthread.js ended
+[10/08/20 15:26:40] D2BS 10804: Script tools\townchicken.js ended
+[10/08/20 15:26:46] D2BS 10804: D2BS Shutdown complete.
+[10/08/20 15:26:47] D2BS 29056: D2BS Engine startup complete. 1.6.4U
+[10/08/20 15:26:47] D2BS 29056: Wind
+[10/08/20 15:26:47] D2BS 29056: ÿc2D2BSÿc0 :: Switched to profile Wind
+[10/08/20 15:26:47] D2BS 29056: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/08/20 15:26:47] D2BS 29056: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/08/20 15:26:47] D2BS 29056: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/08/20 15:26:47] D2BS 29056: ÿc2D2BSÿc0 :: Started Console Script
+[10/08/20 15:26:49] D2BS 29056: Heartbeat loaded
+[10/08/20 15:27:06] D2BS 29056: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 15:27:06] D2BS 29056: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 15:27:06] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/08/20 15:27:06] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:27:06] D2BS 29056: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 15:27:06] D2BS 29056: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 15:27:06] D2BS 29056: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 15:27:06] D2BS 29056: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[10/08/20 15:27:07] D2BS 29056: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[10/08/20 15:27:07] D2BS 29056: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 15:27:07] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/08/20 15:27:07] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:27:07] D2BS 29056: AutoBuild: Loaded helper thread
+[10/08/20 15:27:07] D2BS 29056: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 15:27:07] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/08/20 15:27:07] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:27:07] D2BS 29056: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 15:27:07] D2BS 29056: ÿc3Start ToolsThread script
+[10/08/20 15:27:07] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/08/20 15:27:07] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:27:07] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/08/20 15:27:07] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:27:11] D2BS 29056: initNPC: BuyPotions
+[10/08/20 15:27:20] D2BS 29056: move retry 1
+[10/08/20 15:27:29] D2BS 29056: Found Leader
+[10/08/20 15:27:29] D2BS 29056: Found Leader
+[10/08/20 15:32:10] D2BS 29056: ÿc7Picked up ÿc4176 Gold
+[10/08/20 15:32:40] D2BS 29056: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/08/20 15:32:46] D2BS 29056: move retry 1
+[10/08/20 15:33:07] D2BS 29056: move retry 1
+[10/08/20 15:33:13] D2BS 29056: ÿc7Picked up ÿc0Flamberge ÿc0(ilvl 41)
+[10/08/20 15:33:50] D2BS 29056: move retry 1
+[10/08/20 15:33:51] D2BS 29056: move retry 2
+[10/08/20 15:33:52] D2BS 29056: move retry 3
+[10/08/20 15:33:56] D2BS 29056: ÿc7Picked up ÿc0Halberd ÿc0(ilvl 41)
+[10/08/20 15:34:35] D2BS 29056: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[10/08/20 15:34:36] D2BS 29056: ÿc7Picked up ÿc460 Gold
+[10/08/20 15:34:38] D2BS 29056: ÿc7Picked up ÿc4153 Gold
+[10/08/20 15:34:55] D2BS 29056: ÿc7Picked up ÿc0Small Shield ÿc0(ilvl 41)
+[10/08/20 15:35:35] D2BS 29056: move retry 1
+[10/08/20 15:36:34] D2BS 29056: 129,130
+[10/08/20 15:36:59] D2BS 29056: ÿc7Picked up ÿc4159 Gold
+[10/08/20 15:37:13] D2BS 29056: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 38)
+[10/08/20 15:37:44] D2BS 29056: ÿc7Picked up ÿc0Crossbow ÿc0(ilvl 43)
+[10/08/20 15:37:44] D2BS 29056: ÿc7Picked up ÿc464 Gold
+[10/08/20 15:38:13] D2BS 29056: ÿc7Trying to make room for ÿc0Military Pick
+[10/08/20 15:38:13] D2BS 29056: initNPC: heal
+[10/08/20 15:38:17] D2BS 29056: initNPC: identify
+[10/08/20 15:38:18] D2BS 29056: ÿc4MiniShopBotÿc0: Scanning 62 items.
+[10/08/20 15:38:18] D2BS 29056: LowGold sell Crossbow
+[10/08/20 15:38:18] D2BS 29056: initNPC: clearInventory
+[10/08/20 15:38:18] D2BS 29056: LowGold sell Morning Star
+[10/08/20 15:38:18] D2BS 29056: initNPC: clearInventory
+[10/08/20 15:38:21] D2BS 29056: LowGold sell Halberd
+[10/08/20 15:38:21] D2BS 29056: initNPC: clearInventory
+[10/08/20 15:38:23] D2BS 29056: LowGold sell Flamberge
+[10/08/20 15:38:23] D2BS 29056: initNPC: clearInventory
+[10/08/20 15:38:25] D2BS 29056: LowGold sell Small Shield
+[10/08/20 15:38:25] D2BS 29056: initNPC: clearInventory
+[10/08/20 15:39:51] D2BS 29056: ÿc7Picked up ÿc455 Gold
+[10/08/20 15:40:06] D2BS 29056: ÿc7Picked up ÿc488 Gold
+[10/08/20 15:42:06] D2BS 29056: 130,131
+[10/08/20 15:42:45] D2BS 29056: ÿc7Picked up ÿc4177 Gold
+[10/08/20 15:42:52] D2BS 29056: ÿc7Picked up ÿc489 Gold
+[10/08/20 15:43:09] D2BS 29056: ÿc7Picked up ÿc484 Gold
+[10/08/20 15:43:39] D2BS 29056: move retry 1
+[10/08/20 15:44:05] D2BS 29056: ÿc7Picked up ÿc4143 Gold
+[10/08/20 15:44:45] D2BS 29056: ÿc7Picked up ÿc480 Gold
+[10/08/20 15:44:45] D2BS 29056: ÿc7Picked up ÿc3Ring ÿc0(ilvl 43) (Tornado.xpac.nip #95)
+[10/08/20 15:44:46] D2BS 29056: ÿc7Picked up ÿc4148 Gold
+[10/08/20 15:44:54] D2BS 29056: ÿc7Picked up ÿc499 Gold
+[10/08/20 15:45:00] D2BS 29056: ÿc7Picked up ÿc462 Gold
+[10/08/20 15:45:17] D2BS 29056: ÿc7Picked up ÿc455 Gold
+[10/08/20 15:45:17] D2BS 29056: ÿc7Picked up ÿc4100 Gold
+[10/08/20 15:46:49] D2BS 29056: Script default.dbj ended
+[10/08/20 15:46:49] D2BS 29056: Script tools\autobuildthread.js ended
+[10/08/20 15:46:49] D2BS 29056: Script tools\party.js ended
+[10/08/20 15:46:49] D2BS 29056: Script tools\toolsthread.js ended
+[10/08/20 15:46:49] D2BS 29056: Script tools\townchicken.js ended
+[10/08/20 15:46:56] D2BS 29056: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 15:46:56] D2BS 29056: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 15:46:56] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/08/20 15:46:56] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:46:56] D2BS 29056: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 15:46:56] D2BS 29056: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 15:46:56] D2BS 29056: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 15:46:56] D2BS 29056: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/08/20 15:46:56] D2BS 29056: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/08/20 15:46:57] D2BS 29056: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 15:46:57] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/08/20 15:46:57] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:46:57] D2BS 29056: AutoBuild: Loaded helper thread
+[10/08/20 15:46:57] D2BS 29056: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 15:46:57] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/08/20 15:46:57] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:46:57] D2BS 29056: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 15:46:57] D2BS 29056: ÿc3Start ToolsThread script
+[10/08/20 15:46:57] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/08/20 15:46:57] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/08/20 15:46:57] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:46:57] D2BS 29056: Updating Config from level 0 to 41
+[10/08/20 15:47:02] D2BS 29056: initNPC: BuyPotions
+[10/08/20 15:47:08] D2BS 29056: move retry 1
+[10/08/20 15:47:40] D2BS 29056: ÿc7Picked up ÿc446 Gold
+[10/08/20 15:47:41] D2BS 29056: Found Leader
+[10/08/20 15:47:41] D2BS 29056: Found Leader
+[10/08/20 15:48:35] D2BS 29056: AutoBuild: Stat points: 10      Skill points: 3
+[10/08/20 15:48:35] D2BS 29056: AutoBuild: Level up detected ( 41 --> 42 )
+[10/08/20 15:48:35] D2BS 29056: AutoBuild: useSkillPoint(): Tornado (245)
+[10/08/20 15:48:35] D2BS 29056: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  20)
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: useStatPoint(0): Strength
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: Attempt to spend point 1 in Strength may have failed!
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: Stat (2/5) Increased Vitality from 185 to 186
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: Stat (3/5) Increased Vitality from 186 to 187
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: Stat (4/5) Increased Vitality from 187 to 188
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: Stat (5/5) Increased Vitality from 188 to 189
+[10/08/20 15:48:36] D2BS 29056: Updating Config from level 41 to 42
+[10/08/20 15:48:36] D2BS 29056: Updating Config from level 41 to 42
+[10/08/20 15:48:36] D2BS 29056: Updating Config from level 41 to 42
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: Updating Config from level 41 to 42
+[10/08/20 15:48:36] D2BS 29056: Updating Config from level 41 to 42
+[10/08/20 15:48:36] D2BS 29056: AutoBuild: Incrementing cached character level to 42
+[10/08/20 15:48:39] D2BS 29056: ÿc7Picked up ÿc4280 Gold
+[10/08/20 15:48:39] D2BS 29056: move retry 1
+[10/08/20 15:49:41] D2BS 29056: move retry 1
+[10/08/20 15:49:49] D2BS 29056: 132
+[10/08/20 15:49:52] D2BS 29056: Script default.dbj ended
+[10/08/20 15:49:52] D2BS 29056: Script tools\autobuildthread.js ended
+[10/08/20 15:49:52] D2BS 29056: Script tools\party.js ended
+[10/08/20 15:49:52] D2BS 29056: Script tools\toolsthread.js ended
+[10/08/20 15:49:52] D2BS 29056: Script tools\townchicken.js ended
+[10/08/20 15:49:59] D2BS 29056: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 15:49:59] D2BS 29056: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 15:49:59] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/08/20 15:49:59] D2BS 29056: Updating Config from level 0 to 42
+[10/08/20 15:49:59] D2BS 29056: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 15:49:59] D2BS 29056: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 15:49:59] D2BS 29056: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 15:49:59] D2BS 29056: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/08/20 15:49:59] D2BS 29056: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/08/20 15:49:59] D2BS 29056: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 15:49:59] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/08/20 15:49:59] D2BS 29056: Updating Config from level 0 to 42
+[10/08/20 15:49:59] D2BS 29056: AutoBuild: Loaded helper thread
+[10/08/20 15:49:59] D2BS 29056: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 15:49:59] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/08/20 15:49:59] D2BS 29056: Updating Config from level 0 to 42
+[10/08/20 15:49:59] D2BS 29056: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 15:49:59] D2BS 29056: ÿc3Start ToolsThread script
+[10/08/20 15:49:59] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/08/20 15:49:59] D2BS 29056: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/08/20 15:49:59] D2BS 29056: Updating Config from level 0 to 42
+[10/08/20 15:49:59] D2BS 29056: Updating Config from level 0 to 42
+[10/08/20 15:50:05] D2BS 29056: initNPC: BuyPotions
+[10/08/20 15:50:14] D2BS 29056: Found Leader
+[10/08/20 15:50:14] D2BS 29056: Found Leader
+[10/08/20 15:50:31] D2BS 29056: initNPC: identify
+[10/08/20 15:50:37] D2BS 29056: ÿc4MiniShopBotÿc0: Scanning 62 items.
+[10/08/20 15:51:12] D2BS 29056: ÿc7Picked up ÿc4233 Gold
+[10/08/20 15:51:13] D2BS 29056: ÿc7Picked up ÿc440 Gold
+[10/08/20 15:51:18] D2BS 29056: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 41) (LateGame.nip #11)
