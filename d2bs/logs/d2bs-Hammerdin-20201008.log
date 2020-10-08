@@ -11704,3 +11704,304 @@
 [10/08/20 12:55:13] D2BS 26816: move retry 2
 [10/08/20 12:55:17] D2BS 26816: move retry 1
 [10/08/20 12:55:24] D2BS 26816: move retry 1
+[10/08/20 12:57:01] D2BS 26816: move retry 1
+[10/08/20 12:57:48] D2BS 26816: move retry 1
+[10/08/20 12:58:18] D2BS 26816: move retry 1
+[10/08/20 12:59:02] D2BS 26816: move retry 1
+[10/08/20 12:59:33] D2BS 26816: move retry 1
+[10/08/20 12:59:35] D2BS 26816: 111,112
+[10/08/20 12:59:53] D2BS 26816: move retry 1
+[10/08/20 13:00:07] D2BS 26816: ÿc7Picked up ÿc462 Gold
+[10/08/20 13:00:28] D2BS 26816: move retry 1
+[10/08/20 13:00:31] D2BS 26816: move retry 2
+[10/08/20 13:00:45] D2BS 26816: move retry 1
+[10/08/20 13:01:05] D2BS 26816: move retry 1
+[10/08/20 13:01:12] D2BS 26816: ÿc7Picked up ÿc467 Gold
+[10/08/20 13:01:15] D2BS 26816: ÿc7Picked up ÿc4164 Gold
+[10/08/20 13:01:21] D2BS 26816: ÿc7Picked up ÿc4146 Gold
+[10/08/20 13:01:45] D2BS 26816: move retry 1
+[10/08/20 13:02:06] D2BS 26816: move retry 1
+[10/08/20 13:02:08] D2BS 26816: move retry 1
+[10/08/20 13:02:13] D2BS 26816: move retry 1
+[10/08/20 13:02:17] D2BS 26816: move retry 1
+[10/08/20 13:02:19] D2BS 26816: move retry 1
+[10/08/20 13:02:23] D2BS 26816: move retry 1
+[10/08/20 13:02:28] D2BS 26816: move retry 1
+[10/08/20 13:02:30] D2BS 26816: move retry 1
+[10/08/20 13:02:34] D2BS 26816: Script default.dbj ended
+[10/08/20 13:02:34] D2BS 26816: Script tools\autobuildthread.js ended
+[10/08/20 13:02:34] D2BS 26816: Script tools\party.js ended
+[10/08/20 13:02:34] D2BS 26816: Script tools\toolsthread.js ended
+[10/08/20 13:02:34] D2BS 26816: Script tools\townchicken.js ended
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 20276
+[10/08/20 13:02:40] D2BS 26816: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 13:02:40] D2BS 26816: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 13:02:40] D2BS 26816: 02ED3C94 (D2BS): (filename not available): QueryInterface
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 32912
+[10/08/20 13:02:40] D2BS 26816: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 26816: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/08/20 13:02:40] D2BS 26816: 004027E5 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 22436
+[10/08/20 13:02:40] D2BS 26816: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 13:02:40] D2BS 26816: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 13:02:40] D2BS 26816: 004102FC (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 25872
+[10/08/20 13:02:40] D2BS 26816: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 26816: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/08/20 13:02:40] D2BS 26816: 0041A845 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 37492
+[10/08/20 13:02:40] D2BS 26816: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 5364
+[10/08/20 13:02:40] D2BS 26816: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 26816: 02F57236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 26816: 03042B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 26816: 03041A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 26816: 02F6E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 37176
+[10/08/20 13:02:40] D2BS 26816: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 13:02:40] D2BS 26816: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 13:02:40] D2BS 26816: 02EDE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 26816: 02F601B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 26816: 03042B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 26816: 03041A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 26816: 02F6E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 35788
+[10/08/20 13:02:40] D2BS 26816: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 26816: 02F57236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 26816: 03042B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 26816: 03041A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 26816: 02F6E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Stack Walk Thread: 21080
+[10/08/20 13:02:40] D2BS 26816: 02EDB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/08/20 13:02:40] D2BS 26816: 02ED37F8 (D2BS): (filename not available): QueryInterface
+[10/08/20 13:02:40] D2BS 26816: 00408A05 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 00408A81 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 26816: 0065A4DC (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 26816: 006193F6 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 26816: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 13:02:40] D2BS 26816: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 13:02:40] D2BS 26816: 00405E6B (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 004065C7 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 0040671F (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 26816: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 26816: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 26816: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 26816: Crash File: BlizzardError/2020-10-08 13.02.40/Crash.txt
+[10/08/20 13:02:40] D2BS 26816: D2BS Shutdown complete.
+[10/08/20 13:02:42] D2BS 27144: D2BS Engine startup complete. 1.6.4U
+[10/08/20 13:02:42] D2BS 27144: Hammerdin
+[10/08/20 13:02:42] D2BS 27144: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/08/20 13:02:42] D2BS 27144: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/08/20 13:02:42] D2BS 27144: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/08/20 13:02:42] D2BS 27144: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/08/20 13:02:42] D2BS 27144: ÿc2D2BSÿc0 :: Started Console Script
+[10/08/20 13:02:44] D2BS 27144: Heartbeat loaded
+[10/08/20 13:03:01] D2BS 27144: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 13:03:01] D2BS 27144: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 13:03:01] D2BS 27144: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/08/20 13:03:01] D2BS 27144: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 27144: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/08/20 13:03:01] D2BS 27144: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 27144: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 27144: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 27144: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 27144: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc216 ms
+[10/08/20 13:03:01] D2BS 27144: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/08/20 13:03:01] D2BS 27144: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 27144: AutoBuild: Loaded helper thread
+[10/08/20 13:03:01] D2BS 27144: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 13:03:01] D2BS 27144: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/08/20 13:03:01] D2BS 27144: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 27144: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 13:03:01] D2BS 27144: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/08/20 13:03:01] D2BS 27144: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 27144: ÿc3Start ToolsThread script
+[10/08/20 13:03:01] D2BS 27144: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/08/20 13:03:01] D2BS 27144: Updating Config from level 0 to 35
+[10/08/20 13:03:07] D2BS 27144: initNPC: BuyPotions
+[10/08/20 13:03:08] D2BS 27144: move retry 1
+[10/08/20 13:03:13] D2BS 27144: move retry 1
+[10/08/20 13:03:23] D2BS 27144: move retry 1
+[10/08/20 13:03:45] D2BS 27144: move retry 1
+[10/08/20 13:03:55] D2BS 27144: move retry 1
+[10/08/20 13:04:01] D2BS 27144: move retry 1
+[10/08/20 13:04:02] D2BS 27144: move retry 2
+[10/08/20 13:04:05] D2BS 27144: move retry 3
+[10/08/20 13:04:28] D2BS 27144: ÿc7Picked up ÿc493 Gold
+[10/08/20 13:04:51] D2BS 27144: 112,113
+[10/08/20 13:04:59] D2BS 27144: move retry 1
+[10/08/20 13:05:06] D2BS 27144: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/08/20 13:05:17] D2BS 27144: move retry 1
+[10/08/20 13:05:26] D2BS 27144: ÿc7Picked up ÿc467 Gold
+[10/08/20 13:05:27] D2BS 27144: move retry 1
+[10/08/20 13:06:03] D2BS 27144: ÿc7Picked up ÿc4124 Gold
+[10/08/20 13:06:11] D2BS 27144: move retry 1
+[10/08/20 13:06:51] D2BS 27144: move retry 1
+[10/08/20 13:06:55] D2BS 27144: move retry 1
+[10/08/20 13:07:05] D2BS 27144: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:07:26] D2BS 27144: move retry 1
+[10/08/20 13:07:28] D2BS 27144: move retry 1
+[10/08/20 13:07:37] D2BS 27144: initNPC: heal
+[10/08/20 13:07:39] D2BS 27144: initNPC: identify
+[10/08/20 13:07:46] D2BS 27144: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[10/08/20 13:07:46] D2BS 27144: initNPC: clearInventory
+[10/08/20 13:07:53] D2BS 27144: move retry 1
+[10/08/20 13:07:58] D2BS 27144: 109
+[10/08/20 13:08:00] D2BS 27144: initNPC: heal
+[10/08/20 13:08:03] D2BS 27144: move retry 1
+[10/08/20 13:08:28] D2BS 27144: move retry 1
+[10/08/20 13:08:58] D2BS 27144: move retry 1
+[10/08/20 13:09:01] D2BS 27144: ÿc7Picked up ÿc9War Spear ÿc0(ilvl 37) (Merc.xpac.nip #21)
+[10/08/20 13:09:23] D2BS 27144: ÿc7Picked up ÿc4207 Gold
+[10/08/20 13:09:28] D2BS 27144: ÿc7Picked up ÿc462 Gold
+[10/08/20 13:09:39] D2BS 27144: move retry 1
+[10/08/20 13:09:41] D2BS 27144: ÿc7Picked up ÿc4144 Gold
+[10/08/20 13:09:58] D2BS 27144: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:10:02] D2BS 27144: ÿc7Picked up ÿc493 Gold
+[10/08/20 13:10:04] D2BS 27144: move retry 1
+[10/08/20 13:10:05] D2BS 27144: move retry 1
+[10/08/20 13:10:27] D2BS 27144: move retry 1
+[10/08/20 13:10:29] D2BS 27144: move retry 1
+[10/08/20 13:10:50] D2BS 27144: move retry 1
+[10/08/20 13:11:11] D2BS 27144: move retry 1
+[10/08/20 13:11:37] D2BS 27144: move retry 1
+[10/08/20 13:12:31] D2BS 27144: move retry 1
+[10/08/20 13:12:37] D2BS 27144: move retry 1
+[10/08/20 13:12:47] D2BS 27144: move retry 1
+[10/08/20 13:13:03] D2BS 27144: move retry 1
+[10/08/20 13:13:34] D2BS 27144: move retry 1
+[10/08/20 13:13:40] D2BS 27144: move retry 1
+[10/08/20 13:13:55] D2BS 27144: ÿc7Picked up ÿc4170 Gold
+[10/08/20 13:13:56] D2BS 27144: move retry 1
+[10/08/20 13:15:08] D2BS 27144: move retry 1
+[10/08/20 13:15:22] D2BS 27144: move retry 1
+[10/08/20 13:15:27] D2BS 27144: ÿc7Picked up ÿc3Morning Star ÿc0(ilvl 35) (Hammerdin.xpac.nip #2)
+[10/08/20 13:15:34] D2BS 27144: move retry 1
+[10/08/20 13:15:41] D2BS 27144: move retry 1
+[10/08/20 13:15:56] D2BS 27144: move retry 1
+[10/08/20 13:16:03] D2BS 27144: move retry 1
+[10/08/20 13:16:06] D2BS 27144: move retry 1
+[10/08/20 13:17:11] D2BS 27144: move retry 1
+[10/08/20 13:17:16] D2BS 27144: 113,114
+[10/08/20 13:17:56] D2BS 27144: move retry 1
+[10/08/20 13:18:12] D2BS 27144: ÿc7Picked up ÿc441 Gold
+[10/08/20 13:18:15] D2BS 27144: ÿc7Picked up ÿc4133 Gold
+[10/08/20 13:18:16] D2BS 27144: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #32)
+[10/08/20 13:18:25] D2BS 27144: ÿc7Picked up ÿc437 Gold
+[10/08/20 13:18:40] D2BS 27144: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/08/20 13:18:46] D2BS 27144: ÿc7Picked up ÿc4155 Gold
+[10/08/20 13:18:54] D2BS 27144: move retry 1
+[10/08/20 13:18:59] D2BS 27144: move retry 1
+[10/08/20 13:19:09] D2BS 27144: AutoBuild: Stat points: 10      Skill points: 2
+[10/08/20 13:19:09] D2BS 27144: AutoBuild: Level up detected ( 35 --> 36 )
+[10/08/20 13:19:09] D2BS 27144: AutoBuild: useSkillPoint(): Blessed Hammer (112)
+[10/08/20 13:19:09] D2BS 27144: AutoBuild: Skill (1/1) Increased Blessed Hammer (112) by one (level:  20)
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: useStatPoint(0): Strength
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: Stat (1/5) Increased Strength from 60 to 61
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: useStatPoint(2): Dexterity
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: Stat (2/5) Increased Dexterity from 54 to 55
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: Stat (3/5) Increased Vitality from 127 to 128
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: Stat (4/5) Increased Vitality from 128 to 129
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: Stat (5/5) Increased Vitality from 129 to 130
+[10/08/20 13:19:10] D2BS 27144: Updating Config from level 35 to 36
+[10/08/20 13:19:10] D2BS 27144: Updating Config from level 35 to 36
+[10/08/20 13:19:10] D2BS 27144: Updating Config from level 35 to 36
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: Updating Config from level 35 to 36
+[10/08/20 13:19:10] D2BS 27144: Updating Config from level 35 to 36
+[10/08/20 13:19:10] D2BS 27144: AutoBuild: Incrementing cached character level to 36
+[10/08/20 13:19:10] D2BS 27144: ÿc7Picked up ÿc4163 Gold
+[10/08/20 13:19:11] D2BS 27144: ÿc7Picked up ÿc454 Gold
+[10/08/20 13:19:11] D2BS 27144: move retry 2
+[10/08/20 13:19:18] D2BS 27144: ÿc7Picked up ÿc443 Gold
+[10/08/20 13:19:19] D2BS 27144: ÿc7Picked up ÿc4147 Gold
+[10/08/20 13:19:35] D2BS 27144: ÿc7Picked up ÿc4148 Gold
+[10/08/20 13:19:37] D2BS 27144: move retry 1
+[10/08/20 13:19:42] D2BS 27144: ÿc7Picked up ÿc0Edge Bow ÿc0(ilvl 31) (Merc.xpac.nip #3)
+[10/08/20 13:19:47] D2BS 27144: move retry 1
+[10/08/20 13:19:52] D2BS 27144: ÿc7Picked up ÿc4170 Gold
+[10/08/20 13:19:53] D2BS 27144: ÿc7Picked up ÿc490 Gold
+[10/08/20 13:19:54] D2BS 27144: move retry 1
+[10/08/20 13:19:58] D2BS 27144: move retry 1
+[10/08/20 13:20:32] D2BS 27144: initNPC: identify
+[10/08/20 13:20:40] D2BS 27144: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[10/08/20 13:20:40] D2BS 27144: initNPC: clearInventory
+[10/08/20 13:20:50] D2BS 27144: 109
+[10/08/20 13:20:53] D2BS 27144: initNPC: heal
+[10/08/20 13:21:55] D2BS 27144: 113,115
+[10/08/20 13:22:00] D2BS 27144: move retry 1
+[10/08/20 13:22:14] D2BS 27144: ÿc7Picked up ÿc4173 Gold
+[10/08/20 13:22:14] D2BS 27144: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/08/20 13:22:16] D2BS 27144: move retry 1
+[10/08/20 13:22:30] D2BS 27144: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:22:35] D2BS 27144: ÿc7Picked up ÿc455 Gold
+[10/08/20 13:22:40] D2BS 27144: ÿc7Picked up ÿc4126 Gold
+[10/08/20 13:22:46] D2BS 27144: move retry 2
+[10/08/20 13:22:47] D2BS 27144: move retry 1
+[10/08/20 13:22:50] D2BS 27144: move retry 3
+[10/08/20 13:23:09] D2BS 27144: ÿc7Picked up ÿc4131 Gold
+[10/08/20 13:23:09] D2BS 27144: ÿc7Picked up ÿc4184 Gold
+[10/08/20 13:25:09] D2BS 27144: ÿc7Picked up ÿc4168 Gold
+[10/08/20 13:25:11] D2BS 27144: ÿc7Picked up ÿc446 Gold
+[10/08/20 13:26:20] D2BS 27144: ÿc7Picked up ÿc4161 Gold
+[10/08/20 13:27:39] D2BS 27144: ÿc7Picked up ÿc4172 Gold
+[10/08/20 13:27:43] D2BS 27144: ÿc7Picked up ÿc438 Gold
+[10/08/20 13:29:18] D2BS 27144: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:29:18] D2BS 27144: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:29:23] D2BS 27144: ÿc7Picked up ÿc470 Gold
+[10/08/20 13:31:32] D2BS 27144: ÿc7Picked up ÿc4187 Gold
+[10/08/20 13:31:33] D2BS 27144: ÿc7Picked up ÿc4152 Gold
+[10/08/20 13:31:36] D2BS 27144: ÿc7Picked up ÿc449 Gold
+[10/08/20 13:31:51] D2BS 27144: initNPC: heal
+[10/08/20 13:31:54] D2BS 27144: initNPC: identify
+[10/08/20 13:31:56] D2BS 27144: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[10/08/20 13:32:06] D2BS 27144: 109
+[10/08/20 13:33:06] D2BS 27144: 115,117
+[10/08/20 13:33:28] D2BS 27144: ÿc7Picked up ÿc4154 Gold
+[10/08/20 13:33:34] D2BS 27144: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/08/20 13:33:41] D2BS 27144: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/08/20 13:33:48] D2BS 27144: ÿc7Picked up ÿc4163 Gold
+[10/08/20 13:34:04] D2BS 27144: ÿc7Picked up ÿc494 Gold
+[10/08/20 13:34:05] D2BS 27144: ÿc7Picked up ÿc493 Gold
+[10/08/20 13:34:10] D2BS 27144: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #32)
+[10/08/20 13:34:15] D2BS 27144: ÿc7Picked up ÿc4137 Gold
+[10/08/20 13:34:26] D2BS 27144: ÿc7Picked up ÿc4138 Gold
+[10/08/20 13:34:29] D2BS 27144: ÿc7Picked up ÿc4166 Gold
+[10/08/20 13:34:37] D2BS 27144: ÿc7Picked up ÿc4189 Gold
+[10/08/20 13:34:53] D2BS 27144: ÿc7Picked up ÿc470 Gold
+[10/08/20 13:34:53] D2BS 27144: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:34:53] D2BS 27144: ÿc7Picked up ÿc4133 Gold
+[10/08/20 13:34:59] D2BS 27144: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #32)
+[10/08/20 13:35:11] D2BS 27144: move retry 1
+[10/08/20 13:35:14] D2BS 27144: move retry 1
+[10/08/20 13:35:36] D2BS 27144: ÿc7Picked up ÿc435 Gold
+[10/08/20 13:36:13] D2BS 27144: move retry 1
+[10/08/20 13:36:18] D2BS 27144: ÿc7Picked up ÿc440 Gold

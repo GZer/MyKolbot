@@ -13499,3 +13499,424 @@ c0 :: Starting D2BotLanFollow.dbj
 [10/08/20 12:54:53] D2BS 23416: Reviving Demon Rascal
 [10/08/20 12:55:08] D2BS 23416: ÿc7Picked up ÿc460 Gold
 [10/08/20 12:55:09] D2BS 23416: move retry 1
+[10/08/20 12:57:09] D2BS 23416: move retry 1
+[10/08/20 12:57:22] D2BS 23416: Reviving Demon Imp
+[10/08/20 12:57:34] D2BS 23416: move retry 1
+[10/08/20 12:58:24] D2BS 23416: move retry 1
+[10/08/20 12:58:29] D2BS 23416: move retry 1
+[10/08/20 12:58:35] D2BS 23416: Reviving Demon Imp
+[10/08/20 12:58:39] D2BS 23416: move retry 1
+[10/08/20 12:59:04] D2BS 23416: move retry 1
+[10/08/20 12:59:31] D2BS 23416: 111,112
+[10/08/20 12:59:48] D2BS 23416: Reviving Demon Imp
+[10/08/20 12:59:52] D2BS 23416: move retry 1
+[10/08/20 13:00:05] D2BS 23416: move retry 1
+[10/08/20 13:00:16] D2BS 23416: move retry 2
+[10/08/20 13:00:57] D2BS 23416: Reviving Demon Imp
+[10/08/20 13:01:00] D2BS 23416: move retry 1
+[10/08/20 13:01:31] D2BS 23416: move retry 1
+[10/08/20 13:01:32] D2BS 23416: move retry 2
+[10/08/20 13:01:35] D2BS 23416: Reviving Demon Imp
+[10/08/20 13:02:03] D2BS 23416: move retry 1
+[10/08/20 13:02:07] D2BS 23416: move retry 1
+[10/08/20 13:02:19] D2BS 23416: move retry 1
+[10/08/20 13:02:34] D2BS 23416: Script default.dbj ended
+[10/08/20 13:02:34] D2BS 23416: Script tools\autobuildthread.js ended
+[10/08/20 13:02:34] D2BS 23416: Script tools\party.js ended
+[10/08/20 13:02:34] D2BS 23416: Script tools\toolsthread.js ended
+[10/08/20 13:02:34] D2BS 23416: Script tools\townchicken.js ended
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 5148
+[10/08/20 13:02:40] D2BS 23416: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 13:02:40] D2BS 23416: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 13:02:40] D2BS 23416: 03043C94 (D2BS): (filename not available): QueryInterface
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 29672
+[10/08/20 13:02:40] D2BS 23416: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 23416: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/08/20 13:02:40] D2BS 23416: 004027E5 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 35752
+[10/08/20 13:02:40] D2BS 23416: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 13:02:40] D2BS 23416: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 13:02:40] D2BS 23416: 004102FC (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 21272
+[10/08/20 13:02:40] D2BS 23416: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 23416: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/08/20 13:02:40] D2BS 23416: 0041A845 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 30336
+[10/08/20 13:02:40] D2BS 23416: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 7012
+[10/08/20 13:02:40] D2BS 23416: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 23416: 030C7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 23416: 031B2B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 23416: 031B1A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 23416: 030DE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 38064
+[10/08/20 13:02:40] D2BS 23416: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 13:02:40] D2BS 23416: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 13:02:40] D2BS 23416: 0304E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 23416: 030D01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 23416: 031B2B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 23416: 031B1A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 23416: 030DE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 17516
+[10/08/20 13:02:40] D2BS 23416: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 13:02:40] D2BS 23416: 030C7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 23416: 031B2B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 23416: 031B1A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 13:02:40] D2BS 23416: 030DE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Stack Walk Thread: 14892
+[10/08/20 13:02:40] D2BS 23416: 0304B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/08/20 13:02:40] D2BS 23416: 030437F8 (D2BS): (filename not available): QueryInterface
+[10/08/20 13:02:40] D2BS 23416: 00408A05 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 00408A81 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 23416: 0061292A (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 23416: 0061930D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 23416: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 13:02:40] D2BS 23416: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 13:02:40] D2BS 23416: 00405E6B (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 004065C7 (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 0040671F (Game): (filename not available): (function-name not available)
+[10/08/20 13:02:40] D2BS 23416: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 13:02:40] D2BS 23416: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 13:02:40] D2BS 23416: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 13:02:40] D2BS 23416: Crash File: BlizzardError/2020-10-08 13.02.40/Crash.txt
+[10/08/20 13:02:40] D2BS 23416: D2BS Shutdown complete.
+[10/08/20 13:02:42] D2BS 17496: D2BS Engine startup complete. 1.6.4U
+[10/08/20 13:02:42] D2BS 17496: Summoner
+[10/08/20 13:02:42] D2BS 17496: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/08/20 13:02:42] D2BS 17496: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/08/20 13:02:42] D2BS 17496: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/08/20 13:02:42] D2BS 17496: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/08/20 13:02:42] D2BS 17496: ÿc2D2BSÿc0 :: Started Console Script
+[10/08/20 13:02:44] D2BS 17496: Heartbeat loaded
+[10/08/20 13:03:01] D2BS 17496: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 13:03:01] D2BS 17496: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 13:03:01] D2BS 17496: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/08/20 13:03:01] D2BS 17496: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 17496: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 17496: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc216 ms
+[10/08/20 13:03:01] D2BS 17496: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 17496: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 17496: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2118ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 17496: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 13:03:01] D2BS 17496: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/08/20 13:03:01] D2BS 17496: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 17496: AutoBuild: Loaded helper thread
+[10/08/20 13:03:01] D2BS 17496: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 13:03:01] D2BS 17496: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/08/20 13:03:01] D2BS 17496: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 17496: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 13:03:01] D2BS 17496: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/08/20 13:03:01] D2BS 17496: ÿc3Start ToolsThread script
+[10/08/20 13:03:01] D2BS 17496: Updating Config from level 0 to 35
+[10/08/20 13:03:01] D2BS 17496: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/08/20 13:03:01] D2BS 17496: Updating Config from level 0 to 35
+[10/08/20 13:03:07] D2BS 17496: initNPC: BuyPotions
+[10/08/20 13:03:11] D2BS 17496: move retry 1
+[10/08/20 13:03:14] D2BS 17496: move retry 1
+[10/08/20 13:03:37] D2BS 17496: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/08/20 13:03:43] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:44] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:46] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:47] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:48] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:49] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:50] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:51] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:53] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:54] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:55] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:56] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:57] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:58] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:03:59] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:00] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:01] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:02] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:03] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:03] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:04] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:05] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:06] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:11] D2BS 17496: move retry 1
+[10/08/20 13:04:24] D2BS 17496: Reviving Demon Imp
+[10/08/20 13:04:38] D2BS 17496: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[10/08/20 13:04:38] D2BS 17496: ÿc7Picked up ÿc3Light Gauntlets ÿc0(ilvl 41) (Summoner.xpac.nip #71)
+[10/08/20 13:04:51] D2BS 17496: 112,113
+[10/08/20 13:04:54] D2BS 17496: move retry 1
+[10/08/20 13:05:03] D2BS 17496: ÿc7Picked up ÿc463 Gold
+[10/08/20 13:05:09] D2BS 17496: move retry 1
+[10/08/20 13:05:26] D2BS 17496: ÿc7Picked up ÿc467 Gold
+[10/08/20 13:05:57] D2BS 17496: ÿc7Picked up ÿc4120 Gold
+[10/08/20 13:06:01] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:06:15] D2BS 17496: ÿc1Skipping Moon Lord 223 16
+[10/08/20 13:06:30] D2BS 17496: move retry 1
+[10/08/20 13:07:01] D2BS 17496: ÿc7Picked up ÿc4194 Gold
+[10/08/20 13:07:05] D2BS 17496: move retry 1
+[10/08/20 13:07:28] D2BS 17496: ÿc7Picked up ÿc4144 Gold
+[10/08/20 13:07:30] D2BS 17496: move retry 1
+[10/08/20 13:07:32] D2BS 17496: ÿc1Skipping Frozen Creeper 183 16
+[10/08/20 13:07:37] D2BS 17496: ÿc1Skipping Frozen Creeper 187 16
+[10/08/20 13:07:38] D2BS 17496: ÿc1Skipping Frozen Creeper 189 16
+[10/08/20 13:07:43] D2BS 17496: ÿc1Skipping Frozen Creeper 189 16
+[10/08/20 13:07:44] D2BS 17496: ÿc1Skipping Frozen Creeper 188 16
+[10/08/20 13:07:51] D2BS 17496: initNPC: heal
+[10/08/20 13:07:55] D2BS 17496: initNPC: identify
+[10/08/20 13:07:59] D2BS 17496: ÿc4MiniShopBotÿc0: Scanning 68 items.
+[10/08/20 13:08:00] D2BS 17496: initNPC: buyPotions
+[10/08/20 13:08:01] D2BS 17496:  Light Gauntlets of Skill
+[10/08/20 13:08:02] D2BS 17496: initNPC: clearInventory
+[10/08/20 13:08:10] D2BS 17496: initNPC: clearInventory
+[10/08/20 13:08:21] D2BS 17496: 109
+[10/08/20 13:09:02] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:09:03] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:09:03] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:09:05] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:09:19] D2BS 17496: move retry 1
+[10/08/20 13:09:27] D2BS 17496: ÿc7Picked up ÿc456 Gold
+[10/08/20 13:10:03] D2BS 17496: ÿc7Picked up ÿc493 Gold
+[10/08/20 13:10:46] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:10:47] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:10:48] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:11:02] D2BS 17496: move retry 1
+[10/08/20 13:12:26] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:12:29] D2BS 17496: ÿc7Picked up ÿc477 Gold
+[10/08/20 13:12:41] D2BS 17496: move retry 1
+[10/08/20 13:13:00] D2BS 17496: move retry 1
+[10/08/20 13:13:01] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:13:45] D2BS 17496: move retry 1
+[10/08/20 13:14:07] D2BS 17496: move retry 1
+[10/08/20 13:14:09] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:14:17] D2BS 17496: move retry 1
+[10/08/20 13:14:22] D2BS 17496: move retry 1
+[10/08/20 13:14:23] D2BS 17496: ÿc7Picked up ÿc4136 Gold
+[10/08/20 13:15:05] D2BS 17496: move retry 1
+[10/08/20 13:15:21] D2BS 17496: move retry 1
+[10/08/20 13:15:23] D2BS 17496: ÿc7Picked up ÿc4475 Gold
+[10/08/20 13:15:23] D2BS 17496: move retry 1
+[10/08/20 13:15:23] D2BS 17496: ÿc7Picked up ÿc4730 Gold
+[10/08/20 13:15:23] D2BS 17496: undefined item (!?)
+[10/08/20 13:15:24] D2BS 17496: move retry 1
+[10/08/20 13:15:30] D2BS 17496: move retry 1
+[10/08/20 13:15:32] D2BS 17496: move retry 2
+[10/08/20 13:15:45] D2BS 17496: move retry 1
+[10/08/20 13:15:58] D2BS 17496: move retry 1
+[10/08/20 13:16:19] D2BS 17496: Reviving Stygian Harlot
+[10/08/20 13:17:15] D2BS 17496: 113,114
+[10/08/20 13:17:34] D2BS 17496: move retry 1
+[10/08/20 13:17:35] D2BS 17496: Reviving Rot Walker
+[10/08/20 13:17:36] D2BS 17496: Reviving Rot Walker
+[10/08/20 13:18:13] D2BS 17496: move retry 1
+[10/08/20 13:18:14] D2BS 17496: ÿc7Picked up ÿc441 Gold
+[10/08/20 13:18:28] D2BS 17496: move retry 1
+[10/08/20 13:18:31] D2BS 17496: Reviving Rot Walker
+[10/08/20 13:18:40] D2BS 17496: Reviving Rot Walker
+[10/08/20 13:18:41] D2BS 17496: Reviving Rot Walker
+[10/08/20 13:18:47] D2BS 17496: move retry 1
+[10/08/20 13:18:52] D2BS 17496: move retry 1
+[10/08/20 13:19:00] D2BS 17496: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:19:05] D2BS 17496: Reviving Rot Walker
+[10/08/20 13:19:22] D2BS 17496: move retry 1
+[10/08/20 13:19:25] D2BS 17496: move retry 1
+[10/08/20 13:19:34] D2BS 17496: Reviving Blood Temptress
+[10/08/20 13:19:37] D2BS 17496: AutoBuild: Stat points: 10      Skill points: 4
+[10/08/20 13:19:37] D2BS 17496: AutoBuild: Level up detected ( 35 --> 36 )
+[10/08/20 13:19:37] D2BS 17496: AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Skill (1/1) Increased Skeleton Mastery (69) by one (level:  17)
+[10/08/20 13:19:38] D2BS 17496: move retry 1
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: useStatPoint(0): Strength
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Stat (1/5) Increased Strength from 49 to 50
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Stat (2/5) Increased Vitality from 151 to 152
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Stat (3/5) Increased Vitality from 152 to 153
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Stat (4/5) Increased Vitality from 153 to 154
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Stat (5/5) Increased Vitality from 154 to 155
+[10/08/20 13:19:38] D2BS 17496: Updating Config from level 35 to 36
+[10/08/20 13:19:38] D2BS 17496: Updating Config from level 35 to 36
+[10/08/20 13:19:38] D2BS 17496: Updating Config from level 35 to 36
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Updating Config from level 35 to 36
+[10/08/20 13:19:38] D2BS 17496: Updating Config from level 35 to 36
+[10/08/20 13:19:38] D2BS 17496: AutoBuild: Incrementing cached character level to 36
+[10/08/20 13:19:40] D2BS 17496: Reviving Blood Temptress
+[10/08/20 13:19:43] D2BS 17496: ÿc7Picked up ÿc481 Gold
+[10/08/20 13:19:45] D2BS 17496: move retry 1
+[10/08/20 13:19:54] D2BS 17496: ÿc7Picked up ÿc4192 Gold
+[10/08/20 13:19:55] D2BS 17496: ÿc7Picked up ÿc4121 Gold
+[10/08/20 13:19:58] D2BS 17496: move retry 1
+[10/08/20 13:20:01] D2BS 17496: move retry 1
+[10/08/20 13:20:08] D2BS 17496: move retry 1
+[10/08/20 13:20:13] D2BS 17496: move retry 1
+[10/08/20 13:20:17] D2BS 17496: move retry 1
+[10/08/20 13:20:22] D2BS 17496: move retry 1
+[10/08/20 13:20:24] D2BS 17496: move retry 1
+[10/08/20 13:20:27] D2BS 17496: move retry 1
+[10/08/20 13:20:28] D2BS 17496: move retry 2
+[10/08/20 13:20:29] D2BS 17496: move retry 3
+[10/08/20 13:20:30] D2BS 17496: Reviving Rot Walker
+[10/08/20 13:20:33] D2BS 17496: initNPC: heal
+[10/08/20 13:20:47] D2BS 17496: 109
+[10/08/20 13:21:23] D2BS 17496: move retry 1
+[10/08/20 13:21:55] D2BS 17496: 113,115
+[10/08/20 13:22:16] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:37] D2BS 17496: move retry 1
+[10/08/20 13:22:39] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:42] D2BS 17496: move retry 1
+[10/08/20 13:22:46] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:48] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:48] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:48] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:49] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:49] D2BS 17496: move retry 1
+[10/08/20 13:22:50] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:50] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:50] D2BS 17496: move retry 2
+[10/08/20 13:22:51] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:51] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:51] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:52] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:52] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:52] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:53] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:53] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:53] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:55] D2BS 17496: ÿc1Skipping Reanimated Horde 779 16
+[10/08/20 13:22:56] D2BS 17496: ÿc1Skipping Reanimated Horde 775 16
+[10/08/20 13:22:56] D2BS 17496: ÿc1Skipping Reanimated Horde 780 16
+[10/08/20 13:22:56] D2BS 17496: ÿc1Skipping Reanimated Horde 782 16
+[10/08/20 13:22:56] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:22:59] D2BS 17496: ÿc7Picked up ÿc4193 Gold
+[10/08/20 13:23:01] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:02] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:02] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:02] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:02] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:02] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:03] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:09] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:28] D2BS 17496: ÿc1Skipping Abominable 818 16
+[10/08/20 13:23:31] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:31] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:32] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:32] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:32] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:32] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:32] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:32] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:32] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:35] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:37] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:37] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:37] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:37] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:37] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:38] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:38] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:38] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:38] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:38] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:38] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:39] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:39] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:39] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:39] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:40] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:41] D2BS 17496: move retry 1
+[10/08/20 13:23:42] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:42] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:42] D2BS 17496: move retry 2
+[10/08/20 13:23:43] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:23:44] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:24:07] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:24:23] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:24:38] D2BS 17496: ÿc7Picked up ÿc4170 Gold
+[10/08/20 13:25:56] D2BS 17496: ÿc7Picked up ÿc4111 Gold
+[10/08/20 13:26:35] D2BS 17496: ÿc1Skipping Reanimated Horde 873 16
+[10/08/20 13:26:37] D2BS 17496: ÿc7Picked up ÿc495 Gold
+[10/08/20 13:26:37] D2BS 17496: ÿc7Picked up ÿc468 Gold
+[10/08/20 13:26:43] D2BS 17496: move retry 1
+[10/08/20 13:26:59] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:27:30] D2BS 17496: move retry 1
+[10/08/20 13:27:35] D2BS 17496: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/08/20 13:27:42] D2BS 17496: move retry 1
+[10/08/20 13:28:05] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:28:23] D2BS 17496: move retry 1
+[10/08/20 13:29:22] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:30:14] D2BS 17496: move retry 1
+[10/08/20 13:30:36] D2BS 17496: move retry 1
+[10/08/20 13:31:23] D2BS 17496: move retry 1
+[10/08/20 13:31:33] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:31:37] D2BS 17496: ÿc7Picked up ÿc449 Gold
+[10/08/20 13:31:38] D2BS 17496: move retry 1
+[10/08/20 13:31:40] D2BS 17496: move retry 1
+[10/08/20 13:31:45] D2BS 17496: move retry 1
+[10/08/20 13:31:49] D2BS 17496: Reviving Reanimated Horde
+[10/08/20 13:31:53] D2BS 17496: initNPC: heal
+[10/08/20 13:32:05] D2BS 17496: 109
+[10/08/20 13:32:59] D2BS 17496: move retry 1
+[10/08/20 13:33:05] D2BS 17496: 115,117
+[10/08/20 13:33:18] D2BS 17496: Reviving Demon Trickster
+[10/08/20 13:33:27] D2BS 17496: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 13:33:30] D2BS 17496: move retry 1
+[10/08/20 13:33:51] D2BS 17496: move retry 1
+[10/08/20 13:33:53] D2BS 17496: ÿc7Picked up ÿc466 Gold
+[10/08/20 13:33:55] D2BS 17496: ÿc7Picked up ÿc4123 Gold
+[10/08/20 13:33:55] D2BS 17496: move retry 2
+[10/08/20 13:33:59] D2BS 17496: ÿc7Picked up ÿc4167 Gold
+[10/08/20 13:34:16] D2BS 17496: ÿc7Picked up ÿc4171 Gold
+[10/08/20 13:34:27] D2BS 17496: ÿc7Picked up ÿc4138 Gold
+[10/08/20 13:34:31] D2BS 17496: move retry 1
+[10/08/20 13:34:31] D2BS 17496: ÿc7Picked up ÿc4166 Gold
+[10/08/20 13:34:39] D2BS 17496: move retry 1
+[10/08/20 13:34:43] D2BS 17496: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #32)
+[10/08/20 13:34:54] D2BS 17496: ÿc7Picked up ÿc4133 Gold
+[10/08/20 13:34:55] D2BS 17496: move retry 1
+[10/08/20 13:35:00] D2BS 17496: ÿc7Picked up ÿc4126 Gold
+[10/08/20 13:35:00] D2BS 17496: move retry 1
+[10/08/20 13:35:18] D2BS 17496: move retry 1
+[10/08/20 13:35:22] D2BS 17496: move retry 3
+[10/08/20 13:35:50] D2BS 17496: Reviving Demon Rascal
+[10/08/20 13:36:18] D2BS 17496: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #32)
+[10/08/20 13:36:32] D2BS 17496: ÿc7Picked up ÿc474 Gold
+[10/08/20 13:36:32] D2BS 17496: ÿc7Picked up ÿc466 Gold
+[10/08/20 13:36:32] D2BS 17496: ÿc7Picked up ÿc468 Gold
+[10/08/20 13:36:33] D2BS 17496: ÿc7Picked up ÿc4109 Gold
+[10/08/20 13:36:34] D2BS 17496: ÿc7Picked up ÿc4262 Gold
+[10/08/20 13:36:40] D2BS 17496: ÿc7Picked up ÿc468 Gold
+[10/08/20 13:36:42] D2BS 17496: ÿc7Picked up ÿc4132 Gold
