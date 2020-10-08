@@ -14121,3 +14121,327 @@ c0 :: Starting D2BotLanFollow.dbj
 [10/08/20 14:15:03] D2BS 41312: ÿc7Picked up ÿc443 Gold
 [10/08/20 14:15:45] D2BS 41312: ÿc7Picked up ÿc4128 Gold
 [10/08/20 14:15:52] D2BS 41312: ÿc7Picked up ÿc4161 Gold
+[10/08/20 14:15:55] D2BS 41312: ÿc7Picked up ÿc4209 Gold
+[10/08/20 14:16:15] D2BS 41312: ÿc7Picked up ÿc0Composite Bow ÿc0(ilvl 33) (Merc.xpac.nip #3)
+[10/08/20 14:16:19] D2BS 41312: ÿc7Picked up ÿc4110 Gold
+[10/08/20 14:16:21] D2BS 41312: ÿc7Picked up ÿc447 Gold
+[10/08/20 14:19:25] D2BS 41312: ÿc7Picked up ÿc497 Gold
+[10/08/20 14:19:26] D2BS 41312: ÿc7Picked up ÿc4191 Gold
+[10/08/20 14:19:30] D2BS 41312: ÿc7Picked up ÿc440 Gold
+[10/08/20 14:19:53] D2BS 41312: ÿc7Picked up ÿc491 Gold
+[10/08/20 14:19:53] D2BS 41312: ÿc7Picked up ÿc454 Gold
+[10/08/20 14:21:02] D2BS 41312: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #33)
+[10/08/20 14:21:03] D2BS 41312: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:21:15] D2BS 41312: initNPC: heal
+[10/08/20 14:21:18] D2BS 41312: initNPC: buyPotions
+[10/08/20 14:21:20] D2BS 41312: initNPC: clearInventory
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 30172
+[10/08/20 14:21:21] D2BS 41312: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 14:21:21] D2BS 41312: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 14:21:21] D2BS 41312: 02FC3C94 (D2BS): (filename not available): QueryInterface
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 39044
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 004027E5 (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 26228
+[10/08/20 14:21:21] D2BS 41312: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/08/20 14:21:21] D2BS 41312: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/08/20 14:21:21] D2BS 41312: 004102FC (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 28068
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 0041A845 (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 18940
+[10/08/20 14:21:21] D2BS 41312: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 25604
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 19784
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 20840
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 7088
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 754F7545 (mswsock): (filename not available): sethostname
+[10/08/20 14:21:21] D2BS 41312: 77645F1E (WS2_32): (filename not available): select
+[10/08/20 14:21:21] D2BS 41312: 0052AB6C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 25772
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 21668
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 14496
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 16308
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 40076
+[10/08/20 14:21:21] D2BS 41312: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/08/20 14:21:21] D2BS 41312: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 03132B1F (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 03131A5E (D2BS): (filename not available): JS_freeop
+[10/08/20 14:21:21] D2BS 41312: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 5376
+[10/08/20 14:21:21] D2BS 41312: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Stack Walk Thread: 30832
+[10/08/20 14:21:21] D2BS 41312: 02FCB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/08/20 14:21:21] D2BS 41312: 02FC37F8 (D2BS): (filename not available): QueryInterface
+[10/08/20 14:21:21] D2BS 41312: 00408A05 (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 00408A81 (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 00466E44 (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 14:21:21] D2BS 41312: 00467DBD (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 14:21:21] D2BS 41312: 0044F256 (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 14:21:21] D2BS 41312: 00451C23 (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 14:21:21] D2BS 41312: 0044F570 (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 14:21:21] D2BS 41312: 0044B959 (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 14:21:21] D2BS 41312: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/08/20 14:21:21] D2BS 41312: 00405E6B (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 004065C7 (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 0040671F (Game): (filename not available): (function-name not available)
+[10/08/20 14:21:21] D2BS 41312: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/08/20 14:21:21] D2BS 41312: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/08/20 14:21:21] D2BS 41312: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/08/20 14:21:21] D2BS 41312: Crash File: BlizzardError/2020-10-08 14.21.21/Crash.txt
+[10/08/20 14:21:21] D2BS 41312: D2BS Shutdown complete.
+[10/08/20 14:21:21] D2BS 4180: D2BS Engine startup complete. 1.6.4U
+[10/08/20 14:21:21] D2BS 4180: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[10/08/20 14:21:21] D2BS 4180: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/08/20 14:21:21] D2BS 4180: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/08/20 14:21:21] D2BS 4180: FireSorc
+[10/08/20 14:21:21] D2BS 4180: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/08/20 14:21:21] D2BS 4180: ÿc2D2BSÿc0 :: Started Console Script
+[10/08/20 14:21:23] D2BS 4180: Heartbeat loaded
+[10/08/20 14:21:42] D2BS 4180: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 14:21:42] D2BS 4180: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 14:21:42] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/08/20 14:21:42] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:21:42] D2BS 4180: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 14:21:42] D2BS 4180: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 14:21:42] D2BS 4180: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 14:21:42] D2BS 4180: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc216 ms
+[10/08/20 14:21:42] D2BS 4180: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/08/20 14:21:42] D2BS 4180: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 14:21:42] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/08/20 14:21:42] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:21:42] D2BS 4180: AutoBuild: Loaded helper thread
+[10/08/20 14:21:42] D2BS 4180: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 14:21:42] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/08/20 14:21:42] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:21:42] D2BS 4180: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 14:21:42] D2BS 4180: ÿc3Start ToolsThread script
+[10/08/20 14:21:42] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/08/20 14:21:42] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:21:42] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/08/20 14:21:42] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:21:47] D2BS 4180: initNPC: heal
+[10/08/20 14:21:53] D2BS 4180: initNPC: BuyPotions
+[10/08/20 14:21:56] D2BS 4180: initNPC: buyPotions
+[10/08/20 14:22:00] D2BS 4180: initNPC: clearInventory
+[10/08/20 14:22:02] D2BS 4180: initNPC: clearInventory
+[10/08/20 14:22:31] D2BS 4180: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #32)
+[10/08/20 14:22:44] D2BS 4180: ÿc7Picked up ÿc4167 Gold
+[10/08/20 14:22:44] D2BS 4180: ÿc7Picked up ÿc441 Gold
+[10/08/20 14:22:50] D2BS 4180: ÿc7Picked up ÿc4143 Gold
+[10/08/20 14:22:50] D2BS 4180: ÿc7Picked up ÿc4179 Gold
+[10/08/20 14:22:51] D2BS 4180: ÿc7Picked up ÿc4127 Gold
+[10/08/20 14:23:02] D2BS 4180: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/08/20 14:23:04] D2BS 4180: Found Leader
+[10/08/20 14:23:04] D2BS 4180: Found Leader
+[10/08/20 14:23:07] D2BS 4180: ÿc7Picked up ÿc439 Gold
+[10/08/20 14:23:22] D2BS 4180: ÿc7Picked up ÿc474 Gold
+[10/08/20 14:23:23] D2BS 4180: move retry 1
+[10/08/20 14:23:24] D2BS 4180: move retry 2
+[10/08/20 14:23:43] D2BS 4180: move retry 1
+[10/08/20 14:23:45] D2BS 4180: move retry 1
+[10/08/20 14:23:49] D2BS 4180: move retry 1
+[10/08/20 14:23:58] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:23:58] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:24:00] D2BS 4180: initNPC: buyPotions
+[10/08/20 14:24:10] D2BS 4180: move retry 1
+[10/08/20 14:24:14] D2BS 4180: 109
+[10/08/20 14:25:49] D2BS 4180: Script default.dbj ended
+[10/08/20 14:25:49] D2BS 4180: Script tools\autobuildthread.js ended
+[10/08/20 14:25:49] D2BS 4180: Script tools\party.js ended
+[10/08/20 14:25:49] D2BS 4180: Script tools\toolsthread.js ended
+[10/08/20 14:25:49] D2BS 4180: Script tools\townchicken.js ended
+[10/08/20 14:25:56] D2BS 4180: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 14:25:56] D2BS 4180: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 14:25:56] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/08/20 14:25:56] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:25:56] D2BS 4180: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc20 ms
+[10/08/20 14:25:56] D2BS 4180: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 14:25:56] D2BS 4180: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 14:25:56] D2BS 4180: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/08/20 14:25:56] D2BS 4180: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc216 ms
+[10/08/20 14:25:56] D2BS 4180: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 14:25:56] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/08/20 14:25:56] D2BS 4180: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 14:25:56] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:25:56] D2BS 4180: AutoBuild: Loaded helper thread
+[10/08/20 14:25:56] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/08/20 14:25:56] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:25:56] D2BS 4180: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 14:25:56] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/08/20 14:25:56] D2BS 4180: ÿc3Start ToolsThread script
+[10/08/20 14:25:56] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/08/20 14:25:56] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:25:56] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:26:03] D2BS 4180: initNPC: heal
+[10/08/20 14:26:08] D2BS 4180: move retry 1
+[10/08/20 14:26:10] D2BS 4180: initNPC: BuyPotions
+[10/08/20 14:26:26] D2BS 4180: initNPC: heal
+[10/08/20 14:26:31] D2BS 4180: initNPC: buyPotions
+[10/08/20 14:26:39] D2BS 4180: 109
+[10/08/20 14:26:46] D2BS 4180: Script default.dbj ended
+[10/08/20 14:26:46] D2BS 4180: Script tools\autobuildthread.js ended
+[10/08/20 14:26:46] D2BS 4180: Script tools\party.js ended
+[10/08/20 14:26:46] D2BS 4180: Script tools\toolsthread.js ended
+[10/08/20 14:26:46] D2BS 4180: Script tools\townchicken.js ended
+[10/08/20 14:26:53] D2BS 4180: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/08/20 14:26:53] D2BS 4180: ÿc2D2BSÿc0 :: default.dbj running.
+[10/08/20 14:26:53] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/08/20 14:26:53] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:26:53] D2BS 4180: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc275ÿc4. Valid entries: ÿc250. ÿc4Time: ÿc216 ms
+[10/08/20 14:26:53] D2BS 4180: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc265ÿc4. Valid entries: ÿc240. ÿc4Time: ÿc20 ms
+[10/08/20 14:26:53] D2BS 4180: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc229ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/08/20 14:26:53] D2BS 4180: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/08/20 14:26:53] D2BS 4180: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2101. ÿc4Time: ÿc20 ms
+[10/08/20 14:26:53] D2BS 4180: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc260ÿc4. Valid entries: ÿc243. ÿc4Time: ÿc20 ms
+[10/08/20 14:26:53] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/08/20 14:26:53] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:26:53] D2BS 4180: AutoBuild: Loaded helper thread
+[10/08/20 14:26:53] D2BS 4180: ÿc2Starting script: ÿc9LevelFollower
+[10/08/20 14:26:53] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/08/20 14:26:53] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:26:53] D2BS 4180: ÿc2Party thread loaded. Mode: Accept
+[10/08/20 14:26:53] D2BS 4180: ÿc3Start ToolsThread script
+[10/08/20 14:26:53] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/08/20 14:26:53] D2BS 4180: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/08/20 14:26:53] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:26:53] D2BS 4180: Updating Config from level 0 to 38
+[10/08/20 14:26:58] D2BS 4180: initNPC: BuyPotions
+[10/08/20 14:27:21] D2BS 4180: Found Leader
+[10/08/20 14:27:21] D2BS 4180: Found Leader
+[10/08/20 14:27:24] D2BS 4180: ÿc7Picked up ÿc449 Gold
+[10/08/20 14:27:25] D2BS 4180: move retry 1
+[10/08/20 14:27:32] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:27:59] D2BS 4180: move retry 1
+[10/08/20 14:28:01] D2BS 4180: move retry 2
+[10/08/20 14:28:25] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:28:26] D2BS 4180: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/08/20 14:28:29] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:28:30] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:28:39] D2BS 4180: ÿc7Picked up ÿc470 Gold
+[10/08/20 14:28:46] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:28:47] D2BS 4180: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/08/20 14:29:05] D2BS 4180: move retry 1
+[10/08/20 14:29:09] D2BS 4180: ÿc7Picked up ÿc4117 Gold
+[10/08/20 14:29:14] D2BS 4180: ÿc7Picked up ÿc4562 Gold
+[10/08/20 14:29:14] D2BS 4180: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 14:29:16] D2BS 4180: ÿc7Picked up ÿc0Long War Bow ÿc0(ilvl 36) (Merc.xpac.nip #3)
+[10/08/20 14:29:36] D2BS 4180: AutoBuild: Stat points: 10      Skill points: 5
+[10/08/20 14:29:36] D2BS 4180: AutoBuild: Level up detected ( 38 --> 39 )
+[10/08/20 14:29:36] D2BS 4180: AutoBuild: useSkillPoint(): Fire Mastery (61)
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Skill (1/1) Increased Fire Mastery (61) by one (level:  4)
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: useStatPoint(0): Strength
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Attempt to spend point 1 in Strength may have failed!
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: useStatPoint(1): Energy
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Attempt to spend point 2 in Energy may have failed!
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: useStatPoint(1): Energy
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Attempt to spend point 3 in Energy may have failed!
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Attempt to spend point 4 in Vitality may have failed!
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: useStatPoint(3): Vitality
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Updating Config from level 38 to 39
+[10/08/20 14:29:37] D2BS 4180: Updating Config from level 38 to 39
+[10/08/20 14:29:37] D2BS 4180: Updating Config from level 38 to 39
+[10/08/20 14:29:37] D2BS 4180: Updating Config from level 38 to 39
+[10/08/20 14:29:37] D2BS 4180: AutoBuild: Incrementing cached character level to 39
+[10/08/20 14:29:37] D2BS 4180: Updating Config from level 38 to 39
+[10/08/20 14:30:02] D2BS 4180: 117,118
+[10/08/20 14:30:07] D2BS 4180: move retry 1
+[10/08/20 14:30:13] D2BS 4180: ÿc7Picked up ÿc4108 Gold
+[10/08/20 14:30:24] D2BS 4180: ÿc7Picked up ÿc477 Gold
+[10/08/20 14:30:51] D2BS 4180: ÿc7Picked up ÿc4141 Gold
+[10/08/20 14:30:52] D2BS 4180: move retry 1
+[10/08/20 14:31:12] D2BS 4180: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #33)
+[10/08/20 14:31:19] D2BS 4180: ÿc7Picked up ÿc4158 Gold
+[10/08/20 14:31:45] D2BS 4180: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/08/20 14:31:57] D2BS 4180: ÿc7Picked up ÿc4184 Gold
+[10/08/20 14:32:00] D2BS 4180: ÿc7Picked up ÿc4114 Gold
+[10/08/20 14:32:47] D2BS 4180: move retry 1
+[10/08/20 14:33:12] D2BS 4180: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[10/08/20 14:33:38] D2BS 4180: ÿc7Picked up ÿc465 Gold
+[10/08/20 14:33:40] D2BS 4180: move retry 1
