@@ -8,7 +8,7 @@
 [Type] == Bow && [Quality] >= Magic && [Class] == 2 # [LifeLeech] > 0 # [MercTier] == 5 && [MaxQuantity] == 1
 [Type] == Bow && [Quality] >= Magic && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 6 && [MaxQuantity] == 1
 [Type] == Bow && [Quality] >= Magic # [ItemMagicArrow] > 0 || [ItemExplosiveArrow] > 0 # [MercTier] == 7
-([Name] == ShortSeigeBow || [Name] == HydraBow) && [Quality] == Unique # # [MercTier] == 8
+([Name] == ShortSiegeBow || [Name] == HydraBow) && [Quality] == Unique # # [MercTier] == 8
 
 //Low tier
 ([Type] == Spear || [Type] == Polearm) && [Class] == 0 && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
