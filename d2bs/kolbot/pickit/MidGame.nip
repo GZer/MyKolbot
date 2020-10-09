@@ -20,6 +20,9 @@
 //Memory
 [Type] == Staff && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillHydra] >= 3 && [Sockets] == 4 # [MaxQuantity] == 1
 
+//Spirit
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [FireResist] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+
 // ===============CHARMS ===============//
 [Name] == LargeCharm #([FireResist]+[ColdResist]+[LightResist] > 11 || [Mana] > 19) && ([MaxHP] > 16 || [Strength]+[Dexterity] > 4)
 [Name] == SmallCharm #([FireResist]+[ColdResist]+[LightResist] > 8 || [Mana] > 8) && ([MaxHP] > 11 || [Strength]+[Dexterity] > 1)

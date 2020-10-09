@@ -5525,3 +5525,84 @@
 [10/09/20 13:36:51] D2BS 33152: ÿc7Picked up ÿc3Mace ÿc0(ilvl 70) (Auradin.xpac.nip #2)
 [10/09/20 13:36:56] D2BS 33152: ÿc7Picked up ÿc4980 Gold
 [10/09/20 13:37:22] D2BS 33152: ÿc7Picked up ÿc4406 Gold
+[10/09/20 13:37:51] D2BS 33152: move retry 1
+[10/09/20 13:38:16] D2BS 33152: initNPC: identify
+[10/09/20 13:38:26] D2BS 33152: initNPC: fillTome
+[10/09/20 13:38:27] D2BS 33152: ÿc4MiniShopBotÿc0: Scanning 33 items.
+[10/09/20 13:38:27] D2BS 33152: initNPC: buyPotions
+[10/09/20 13:38:35] D2BS 33152: 1
+[10/09/20 13:41:40] D2BS 33152: ÿc1Pausing.
+[10/09/20 13:44:03] D2BS 33152: ÿc2Resuming.
+[10/09/20 13:44:37] D2BS 33152: move retry 1
+[10/09/20 13:44:40] D2BS 33152: ÿc1Pausing.
+[10/09/20 13:44:52] D2BS 33152: ÿc2Resuming.
+[10/09/20 13:44:55] D2BS 33152: move retry 2
+[10/09/20 13:45:24] D2BS 33152: ÿc1Pausing.
+[10/09/20 13:45:24] D2BS 33152: initNPC: buyPotions
+[10/09/20 13:45:38] D2BS 33152: ÿc2Resuming.
+[10/09/20 13:45:49] D2BS 33152: Script default.dbj ended
+[10/09/20 13:45:49] D2BS 33152: Script tools\autobuildthread.js ended
+[10/09/20 13:45:49] D2BS 33152: Script tools\heartbeat.js ended
+[10/09/20 13:45:49] D2BS 33152: Script tools\party.js ended
+[10/09/20 13:45:49] D2BS 33152: Script tools\townchicken.js ended
+[10/09/20 13:46:00] D2BS 33152: D2BS Shutdown complete.
+[10/09/20 13:46:00] D2BS 34952: D2BS Engine startup complete. 1.6.4U
+[10/09/20 13:46:00] D2BS 34952: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/09/20 13:46:00] D2BS 34952: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/09/20 13:46:00] D2BS 34952: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/09/20 13:46:00] D2BS 34952: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/09/20 13:46:00] D2BS 34952: Auradin
+[10/09/20 13:46:01] D2BS 34952: ÿc2D2BSÿc0 :: Started Console Script
+[10/09/20 13:46:02] D2BS 34952: Heartbeat loaded
+[10/09/20 13:46:21] D2BS 34952: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/09/20 13:46:21] D2BS 34952: ÿc2D2BSÿc0 :: default.dbj running.
+[10/09/20 13:46:21] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/09/20 13:46:21] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:46:21] D2BS 34952: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/09/20 13:46:21] D2BS 34952: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/09/20 13:46:21] D2BS 34952: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/09/20 13:46:21] D2BS 34952: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc252ÿc4. Valid entries: ÿc238. ÿc4Time: ÿc20 ms
+[10/09/20 13:46:21] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/09/20 13:46:21] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:46:21] D2BS 34952: AutoBuild: Loaded helper thread
+[10/09/20 13:46:21] D2BS 34952: ÿc2Starting script: ÿc9LevelFollower
+[10/09/20 13:46:21] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/09/20 13:46:21] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:46:21] D2BS 34952: ÿc2Party thread loaded. Mode: Accept
+[10/09/20 13:46:21] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/09/20 13:46:21] D2BS 34952: ÿc3Start ToolsThread script
+[10/09/20 13:46:21] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:46:21] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/09/20 13:46:21] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:46:24] D2BS 34952: initNPC: reviveMerc
+[10/09/20 13:46:44] D2BS 34952: initNPC: heal
+[10/09/20 13:46:51] D2BS 34952: initNPC: BuyPotions
+[10/09/20 13:47:03] D2BS 34952: move retry 1
+[10/09/20 13:47:33] D2BS 34952: Script default.dbj ended
+[10/09/20 13:47:33] D2BS 34952: Script tools\autobuildthread.js ended
+[10/09/20 13:47:33] D2BS 34952: Script tools\party.js ended
+[10/09/20 13:47:33] D2BS 34952: Script tools\townchicken.js ended
+[10/09/20 13:47:39] D2BS 34952: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/09/20 13:47:39] D2BS 34952: ÿc2D2BSÿc0 :: default.dbj running.
+[10/09/20 13:47:39] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/09/20 13:47:39] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:47:39] D2BS 34952: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/09/20 13:47:39] D2BS 34952: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/09/20 13:47:39] D2BS 34952: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/09/20 13:47:39] D2BS 34952: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc252ÿc4. Valid entries: ÿc238. ÿc4Time: ÿc216 ms
+[10/09/20 13:47:39] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/09/20 13:47:39] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:47:39] D2BS 34952: AutoBuild: Loaded helper thread
+[10/09/20 13:47:39] D2BS 34952: ÿc2Starting script: ÿc9LevelFollower
+[10/09/20 13:47:39] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/09/20 13:47:39] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:47:39] D2BS 34952: ÿc2Party thread loaded. Mode: Accept
+[10/09/20 13:47:39] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/09/20 13:47:39] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:47:39] D2BS 34952: ÿc3Start ToolsThread script
+[10/09/20 13:47:39] D2BS 34952: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/09/20 13:47:39] D2BS 34952: Updating Config from level 0 to 76
+[10/09/20 13:47:48] D2BS 34952: initNPC: heal
+[10/09/20 13:47:58] D2BS 34952: initNPC: BuyPotions
+[10/09/20 13:48:05] D2BS 34952: Found Leader
+[10/09/20 13:48:05] D2BS 34952: Found Leader

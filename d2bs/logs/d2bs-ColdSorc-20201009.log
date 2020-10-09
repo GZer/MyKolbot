@@ -5496,3 +5496,90 @@ c0 :: Engine startup complete!
 [10/09/20 13:36:57] D2BS 39976: ÿc7Picked up ÿc4980 Gold
 [10/09/20 13:37:23] D2BS 39976: move retry 1
 [10/09/20 13:37:24] D2BS 39976: ÿc7Picked up ÿc4406 Gold
+[10/09/20 13:38:06] D2BS 39976: initNPC: fillTome
+[10/09/20 13:38:14] D2BS 39976: 1
+[10/09/20 13:39:10] D2BS 39976: ÿc1Pausing.
+[10/09/20 13:40:10] D2BS 39976: ÿc2Resuming.
+[10/09/20 13:40:11] D2BS 39976: ÿc4MF: ÿc00 ÿc4GF: ÿc027 ÿc1FR: ÿc066 ÿc3CR: ÿc075 ÿc9LR: ÿc052 ÿc2PR: ÿc042
+[10/09/20 13:40:11] D2BS 39976: FCR: 27 IAS: 0 FBR: 0 FHR: 55 FRW: 10
+[10/09/20 13:40:11] D2BS 39976: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc010 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/09/20 13:40:12] D2BS 39976: move retry 1
+[10/09/20 13:40:13] D2BS 39976: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/09/20 13:40:13] D2BS 39976: Script d2botlanfollow.dbj ended
+[10/09/20 13:40:13] D2BS 39976: Script default.dbj ended
+[10/09/20 13:40:13] D2BS 39976: Script tools\autobuildthread.js ended
+[10/09/20 13:40:13] D2BS 39976: Script tools\heartbeat.js ended
+[10/09/20 13:40:13] D2BS 39976: Script tools\party.js ended
+[10/09/20 13:40:13] D2BS 39976: Script tools\toolsthread.js ended
+[10/09/20 13:40:13] D2BS 39976: Script tools\townchicken.js ended
+[10/09/20 13:40:14] D2BS 39976: ÿc2D2BSÿc0 :: Started default.dbj
+[10/09/20 13:40:14] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/09/20 13:40:14] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:14] D2BS 39976: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/09/20 13:40:14] D2BS 39976: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/09/20 13:40:14] D2BS 39976: Heartbeat loaded
+[10/09/20 13:40:14] D2BS 39976: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc215 ms
+[10/09/20 13:40:14] D2BS 39976: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc252ÿc4. Valid entries: ÿc238. ÿc4Time: ÿc20 ms
+[10/09/20 13:40:14] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/09/20 13:40:14] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:14] D2BS 39976: AutoBuild: Loaded helper thread
+[10/09/20 13:40:14] D2BS 39976: ÿc2Starting script: ÿc9LevelFollower
+[10/09/20 13:40:14] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/09/20 13:40:14] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:14] D2BS 39976: ÿc2Party thread loaded. Mode: Accept
+[10/09/20 13:40:14] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/09/20 13:40:14] D2BS 39976: ÿc3Start ToolsThread script
+[10/09/20 13:40:14] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:14] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/09/20 13:40:14] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:22] D2BS 39976: initNPC: BuyPotions
+[10/09/20 13:40:34] D2BS 39976: ÿc4MF: ÿc00 ÿc4GF: ÿc027 ÿc1FR: ÿc066 ÿc3CR: ÿc075 ÿc9LR: ÿc052 ÿc2PR: ÿc042
+[10/09/20 13:40:34] D2BS 39976: FCR: 27 IAS: 0 FBR: 0 FHR: 55 FRW: 10
+[10/09/20 13:40:34] D2BS 39976: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc010 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/09/20 13:40:35] D2BS 39976: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/09/20 13:40:35] D2BS 39976: Script default.dbj ended
+[10/09/20 13:40:35] D2BS 39976: Script tools\autobuildthread.js ended
+[10/09/20 13:40:35] D2BS 39976: Script tools\heartbeat.js ended
+[10/09/20 13:40:35] D2BS 39976: Script tools\party.js ended
+[10/09/20 13:40:35] D2BS 39976: Script tools\toolsthread.js ended
+[10/09/20 13:40:35] D2BS 39976: Script tools\townchicken.js ended
+[10/09/20 13:40:36] D2BS 39976: ÿc2D2BSÿc0 :: Started default.dbj
+[10/09/20 13:40:36] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/09/20 13:40:36] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:36] D2BS 39976: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/09/20 13:40:36] D2BS 39976: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/09/20 13:40:36] D2BS 39976: Heartbeat loaded
+[10/09/20 13:40:36] D2BS 39976: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/09/20 13:40:36] D2BS 39976: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc252ÿc4. Valid entries: ÿc238. ÿc4Time: ÿc20 ms
+[10/09/20 13:40:36] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/09/20 13:40:36] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:36] D2BS 39976: AutoBuild: Loaded helper thread
+[10/09/20 13:40:36] D2BS 39976: ÿc2Starting script: ÿc9LevelFollower
+[10/09/20 13:40:36] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/09/20 13:40:36] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:36] D2BS 39976: ÿc2Party thread loaded. Mode: Accept
+[10/09/20 13:40:36] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/09/20 13:40:36] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:36] D2BS 39976: ÿc3Start ToolsThread script
+[10/09/20 13:40:36] D2BS 39976: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/09/20 13:40:36] D2BS 39976: Updating Config from level 0 to 77
+[10/09/20 13:40:42] D2BS 39976: initNPC: BuyPotions
+[10/09/20 13:40:56] D2BS 39976: Found Leader
+[10/09/20 13:40:56] D2BS 39976: Found Leader
+[10/09/20 13:44:17] D2BS 39976: move retry 1
+[10/09/20 13:44:20] D2BS 39976: ÿc4Runewords: ÿc0Made runeword: Splendor Grim Shield
+[10/09/20 13:44:23] D2BS 39976: ÿc4Runewords: ÿc0Made runeword: Insight Bill
+[10/09/20 13:44:37] D2BS 39976: ÿc7Picked up ÿc4175 Gold
+[10/09/20 13:45:23] D2BS 39976: ÿc1Skipping Hungry Dead 916 16
+[10/09/20 13:45:24] D2BS 39976: ÿc7Picked up ÿc4401 Gold
+[10/09/20 13:45:26] D2BS 39976: initNPC: heal
+[10/09/20 13:45:30] D2BS 39976: move retry 1
+[10/09/20 13:45:31] D2BS 39976: Grim Shield
+[10/09/20 13:45:45] D2BS 39976: 1
+[10/09/20 13:45:55] D2BS 39976: move retry 1
+[10/09/20 13:46:36] D2BS 39976: ÿc7Picked up ÿc4374 Gold
+[10/09/20 13:46:53] D2BS 39976: move retry 1
+[10/09/20 13:46:57] D2BS 39976: move retry 1
+[10/09/20 13:47:29] D2BS 39976: ÿc7Picked up ÿc4136 Gold
+[10/09/20 13:47:49] D2BS 39976: initNPC: heal
+[10/09/20 13:47:55] D2BS 39976: 1
