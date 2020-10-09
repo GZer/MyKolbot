@@ -418,8 +418,9 @@ function LevelLeader(){
 	};
 	
 	this.getPlayerCount=function(){
-		var Count=0,Party=getParty(),PlayerAct;
+		var Count=0,Party=getParty(),PlayerAct,MyPartyId;
 		if(Party){
+			MyPartyId=Party.partyid;
 			do{
 				if(Party.area == 0){PlayerAct=me.act;}
 				else if(Party.area > 108){PlayerAct=5;}
@@ -428,6 +429,7 @@ function LevelLeader(){
 				else if(Party.area > 39){PlayerAct=2;}
 				else{PlayerAct=1;}
 				if(me.act != PlayerAct){return 0;}
+				if(Party.partyflag == 2){return 0;}
 				Count++;
 			}while(Party.getNext());
 		}
