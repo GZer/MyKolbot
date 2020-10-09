@@ -65,3 +65,9 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1025, @levelleader.js:147, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/08 22:29:00] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:439, @levelfollower.js:201, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/09 15:02:52] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1020, @levelleader.js:96, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/09 15:09:23] <FireSorc> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:412, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/09 15:45:30] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1026, @levelleader.js:397, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820

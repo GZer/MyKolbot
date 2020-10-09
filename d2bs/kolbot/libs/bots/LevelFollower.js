@@ -48,7 +48,7 @@ function LevelFollower(){
 	
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
-		if(Pather.accessToAct(DestinationAct) && getWaypoint(WaypointAreas.indexOf(TownWaypoints[DestinationAct-1]))){
+		if(Pather.accessToAct(DestinationAct)){
 			try{
 				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
 			}catch(err){

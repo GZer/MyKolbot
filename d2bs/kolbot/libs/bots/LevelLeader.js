@@ -429,7 +429,7 @@ function LevelLeader(){
 				else if(Party.area > 39){PlayerAct=2;}
 				else{PlayerAct=1;}
 				if(me.act != PlayerAct){return 0;}
-				if(Party.partyflag == 2){return 0;}
+				if(Party.partyflag == 4){return 0;}
 				Count++;
 			}while(Party.getNext());
 		}
@@ -447,7 +447,7 @@ function LevelLeader(){
 				while(Party && !Boss.dead){
 					Skill.cast(132,0,Boss.x,Boss.y);
 					delay(50);
-					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 60){
+					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 15){
 						this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 						quit();
 					}
