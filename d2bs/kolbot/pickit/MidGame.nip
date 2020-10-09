@@ -12,10 +12,10 @@
 
 // ===============RUNEWORDS ===============//
 //Insight
-[Type] == Polearm && [Flag] == Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == Polearm && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
 
 //Lore
-[Type] == Helm && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [EnhancedDefense] >= 5 && [Sockets] == 2 # [MaxQuantity] == 1
+[Type] == Helm && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
 
 //Memory
 [Type] == Staff && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillFireMastery]+[SkillMeteor]+[SkillFireball]+[SkillWarmth]+[SkillHydra] >= 3 && [Sockets] == 4 # [MaxQuantity] == 1

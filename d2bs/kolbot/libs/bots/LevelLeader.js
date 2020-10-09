@@ -208,7 +208,10 @@ function LevelLeader(){
 				Pather.useWaypoint(75);
 				Town.doChores();
 				this.clearToQuestLocation(83,2,404);
-				this.killImportantQuestBoss([345,346,347]);
+				// this.killImportantQuestBoss([345,346,347]);
+				this.killQuestBoss(345);
+				this.killQuestBoss(346);
+				this.killQuestBoss(347);
 				this.getQuestItem(173);
 				Town.doChores();
 				Pather.journeyTo(75);

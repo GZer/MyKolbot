@@ -38,7 +38,7 @@ var AutoBuildTemplate={
 				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
 				Config.AutoEquip=true;
 				Config.MiniShopBot=true;
-				Config.LowGold=150000;
+				Config.LowGold=200000;
 				Config.UseMerc=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
@@ -428,7 +428,7 @@ var AutoBuildTemplate={
 			SkillPoints: [63],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.LowGold=300000;
+				Config.LowGold=400000;
 				Config.Gamble=true;
 				Config.GambleGoldStart=400000;
 				Config.GambleGoldStop=200000;
@@ -675,6 +675,7 @@ var AutoBuildTemplate={
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
 				Config.Cubing=true;
+				Config.Gamble=false;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);
@@ -816,7 +817,7 @@ var AutoBuildTemplate={
 			SkillPoints: [43],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.LowGold=500000;
+				Config.LowGold=800000;
 				Config.GambleGoldStart=600000;
 				Config.GambleGoldStop=400000;
 			}

@@ -44,9 +44,14 @@
 ([Type] == Armor || [Type] == Helm) && [Class] == 2 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP] > 80 # [MercTier] == 4 && [MaxQuantity] == 1
 
 //Uniques
-([Type] == Armor || [Type] == Helm) # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 90
-([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 91
+([Type] == Armor || [Type] == Helm) && [Class] == 0 # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 90
 ([Type] == Armor || [Type] == Helm) && [Class] == 1 # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 92
-([Type] == Armor || [Type] == Helm) && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 93
 ([Type] == Armor || [Type] == Helm) && [Class] == 2 # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 94
+([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 91
+([Type] == Armor || [Type] == Helm) && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 93
 ([Type] == Armor || [Type] == Helm) && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 95
+
+//Insight
+[Type] == Polearm && [Flag] == Runeword && [Class] == 0 # [MeditationAura] >= 0 # [MercTier] == 96
+[Type] == Polearm && [Flag] == Runeword && [Class] == 1 # [MeditationAura] >= 0 # [MercTier] == 97
+[Type] == Polearm && [Flag] == Runeword && [Class] == 2 # [MeditationAura] >= 0 # [MercTier] == 98
