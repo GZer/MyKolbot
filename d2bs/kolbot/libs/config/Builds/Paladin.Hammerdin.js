@@ -29,8 +29,28 @@ var AutoBuildTemplate={
 				Config.PickitFiles.push("EarlyGame.nip");
 				Config.PickitFiles.push("HammerdinRunes.nip");
 				Config.PickitFiles.push("AutoEquip/Hammerdin.xpac.nip");
-				//Config.GambleItems.push("AuricShields");
-				//Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
+				//Don't Gamble low level Rings/Amulets
+				Config.GambleItems.splice(Config.GambleItems.indexOf("Amulet"),1);
+				Config.GambleItems.splice(Config.GambleItems.indexOf("Ring"),1);
+				//High Resistance or Skill Uniques
+				Config.GambleItems.push("SkullCap");
+				Config.GambleItems.push("AncientArmor");
+				Config.GambleItems.push("GothicShield");
+				Config.GambleItems.push("LightPlate");
+				Config.GambleItems.push("Sash");
+				Config.GambleItems.push("Belt");
+				//Life Steal Merc Uniques				
+				Config.GambleItems.push("Brandistock");
+				Config.GambleItems.push("Poleaxe");
+				Config.GambleItems.push("Crown");
+				Config.GambleItems.push("BoneHelm");
+				Config.GambleItems.push("QuiltedArmor");
+				Config.GambleItems.push("PlateMail");
+				//Build Specific
+				Config.GambleItems.push("LightGauntlets");
+				Config.GambleItems.push("KiteShield");
+				Config.GambleItems.push("Greaves");
+				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
@@ -40,10 +60,11 @@ var AutoBuildTemplate={
 				Config.MiniShopBot=true;
 				Config.LowGold=200000;
 				Config.UseMerc=true;
+				Config.Cubing=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
-				Config.ItemInfo=true;//Log stashed, skipped (due to no space) or sold items.
+				Config.ItemInfo=true;//Log stashed,skipped (due to no space) or sold items.
 				Config.StashGold=200;//Minimum amount of gold to stash.
 				Config.AttackSkill=[0,0,0,0,0,0,0];
 				Config.LowManaSkill=[0,0];
@@ -275,7 +296,11 @@ var AutoBuildTemplate={
 			SkillPoints: [112,113],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[112,112,113,112,113,97,113];
+				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Sol Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Lum Rune"]);
 			}
 		},
 
@@ -315,7 +340,7 @@ var AutoBuildTemplate={
 			SkillPoints: [112],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				//Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
+				Config.AttackSkill=[112,112,113,112,113,97,113];
 			}
 		},
 
@@ -480,6 +505,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyGame.nip"),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
 			}
 		},
 
@@ -681,8 +707,6 @@ var AutoBuildTemplate={
 			SkillPoints: [108,112,113,115],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
-				Config.Gamble=false;
 				Config.Gamble=false;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
@@ -822,7 +846,7 @@ var AutoBuildTemplate={
 			SkillPoints: [108],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.GambleItems.splice(Config.PickitFiles.indexOf("AuricShields"),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
 				Config.LowGold=800000;
 				Config.GambleGoldStart=600000;
 				Config.GambleGoldStop=400000;

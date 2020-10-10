@@ -1,18 +1,18 @@
 // ===============RUNES ===============//
-[Name] == TirRune # # [MaxQuantity] == 1
-[Name] == RalRune # # [MaxQuantity] == 1
+[Name] == TirRune # # [MaxQuantity] == 2
+[Name] == RalRune # # [MaxQuantity] == 3
 [Name] == EthRune # # [MaxQuantity] == 1
-[Name] == TalRune # # [MaxQuantity] == 1
-[Name] == ThulRune # # [MaxQuantity] == 1
-[Name] == OrtRune # # [MaxQuantity] == 1
-[Name] == AmnRune # # [MaxQuantity] == 1
-[Name] == SolRune # # [MaxQuantity] == 1
-[Name] == IoRune # # [MaxQuantity] == 1
-[Name] == LumRune # # [MaxQuantity] == 1
+[Name] == TalRune # # [MaxQuantity] == 2
+[Name] == ThulRune # # [MaxQuantity] == 3
+[Name] == OrtRune # # [MaxQuantity] == 3
+[Name] == AmnRune # # [MaxQuantity] == 3
+[Name] == SolRune # # [MaxQuantity] == 2
+[Name] == IoRune # # [MaxQuantity] == 3
+[Name] == LumRune # # [MaxQuantity] == 2
 
 // ===============RUNEWORDS ===============//
 //Insight
-[Type] == Polearm && [Quality] <= Superior && [Class] >= 1 # [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == Polearm && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
 
 //Lore
 [Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1

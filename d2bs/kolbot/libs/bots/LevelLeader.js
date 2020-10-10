@@ -60,8 +60,9 @@ function LevelLeader(){
 						this.getQuestItem(524,30);
 					}
 				}
-				while(me.getItem(524)){
+				while(me.getItem(524) && !me.getItem(525) && i < 10){
 					this.talkToNPC("Akara");
+					i++;
 				}
 				Pather.useWaypoint(4);
 				this.clearToQuestLocation(4,1,737);
@@ -76,7 +77,7 @@ function LevelLeader(){
 						}
 					});
 				}
-				while(!Pather.getPortal(38) && i < 10){
+				while(!Pather.getPortal(38) && i < 20){
 					delay(1000);i++;
 				}
 				Pather.usePortal(38);
@@ -208,10 +209,8 @@ function LevelLeader(){
 				Pather.useWaypoint(75);
 				Town.doChores();
 				this.clearToQuestLocation(83,2,404);
-				// this.killImportantQuestBoss([345,346,347]);
-				this.killQuestBoss(345);
-				this.killQuestBoss(346);
-				this.killQuestBoss(347);
+				if(me.diff != 2){this.killImportantQuestBoss([345,346,347]);}
+				else{this.killQuestBoss(345);this.killQuestBoss(346);this.killQuestBoss(347);}
 				this.getQuestItem(173);
 				Town.doChores();
 				Pather.journeyTo(75);
@@ -280,7 +279,7 @@ function LevelLeader(){
 				this.talkToNPC("Malah");
 				Pather.moveTo(17590,8068);
 				delay(15000);
-				this.talkToNPC("Anya");
+				this.talkToNPC(NPC.Anya);
 				Town.doChores();
 				this.logProgress(me.getQuest(37,0),"Anya");
 			break;
@@ -449,8 +448,7 @@ function LevelLeader(){
 			if(Boss){
 				while(Party && !Boss.dead){
 					Skill.cast(132,0,Boss.x,Boss.y);
-					delay(50);
-					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 15){
+					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 45){
 						this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 						quit();
 					}
@@ -533,6 +531,7 @@ function LevelLeader(){
 			return (me.act == DestinationAct);
 		}
 		try{
+			say("Changing Act "+DestinationAct);
 			switch(DestinationAct){
 			case 2:
 				//Make sure we have cain before moving out of Act1
@@ -997,13 +996,13 @@ function LevelLeader(){
 	};
 	
 	//Start Script
-	// while(true){say(me.x+","+me.y);delay(2000);}
+	// while(true){if(me.getQuest(4,0)){say("Got");}say(me.x+","+me.y);delay(2000);}
 	this.configCharacter(me.charlvl);
 	this.checkProgress();
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		var UptoAct=ActNumber+1;
-		if(!this.ChangeAct(UptoAct)){delay(5000);quit();}
+		if(!this.ChangeAct(UptoAct)){this.ChangeAct(UptoAct);delay(5000);say("Quitting");}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			var UpToArea=LevelingAreas[ActNumber][LevelArea],NextArea=0;
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
@@ -1035,5 +1034,7 @@ function LevelLeader(){
 		this.logProgress("Completed","Act "+(ActNumber+1));
 	}
 	this.finalCheck();
+	say("New Game Son");
+	delay(10000);
 	return true;
 }

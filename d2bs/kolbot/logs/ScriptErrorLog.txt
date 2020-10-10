@@ -1,0 +1,72 @@
+[2020/10/09 22:40:22] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/09 23:29:16] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1045
+[2020/10/09 23:29:24] <ColdSorc> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1049
+[2020/10/09 23:55:41] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1025, @levelleader.js:96, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 00:18:11] <ColdSorc> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 14
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 01:48:40] <Auradin> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:397, @levelfollower.js:322, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/10 02:40:40] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 46
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1024, @levelleader.js:148, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 02:41:39] <LightSorc> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:397, @levelfollower.js:322, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/10 02:41:44] <Wind> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:397, @levelfollower.js:322, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/10 03:11:29] <Summoner> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 32
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 03:13:58] <Hammerdin> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:397, @levelfollower.js:322, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/10 03:18:47] <Singer> Error in LevelLeader (prototypes.js line 304): Object is not an item!
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1024, @levelleader.js:176, @levelleader.js:809, Unit.prototype.toCursor@prototypes.js:304
+[2020/10/10 03:26:38] <Singer> Error in LevelLeader (prototypes.js line 304): Object is not an item!
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1024, @levelleader.js:176, @levelleader.js:809, Unit.prototype.toCursor@prototypes.js:304
+[2020/10/10 03:29:21] <FireSorc> Error in LevelFollower (pather.js line 1023): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:129, @levelfollower.js:249, useWaypoint@pather.js:1023
+[2020/10/10 03:42:33] <Wind> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2264, Pather.makePortal@pather.js:1049
+[2020/10/10 04:58:12] <Auradin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2264, Pather.makePortal@pather.js:1049
+[2020/10/10 05:05:45] <Auradin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2264, Pather.makePortal@pather.js:1049
+[2020/10/10 05:20:27] <Auradin> Error in TownChicken.js (pather.js line 1049): makePortal: No scrolls.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2264, Pather.makePortal@pather.js:1049
+[2020/10/10 05:29:38] <Auradin> Error in LevelFollower (pather.js line 1049): makePortal: No scrolls.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:412, @levelfollower.js:201, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1049
+[2020/10/10 05:42:16] <ColdSorc> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:397, @levelfollower.js:322, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/10 07:12:31] <Singer> Error in LevelLeader (town.js line 2211): Town.goToTown: Failed to take TP
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1024, @levelleader.js:260, @levelleader.js:481, Town.goToTown@town.js:2211
+[2020/10/10 07:13:39] <Summoner> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:397, @levelfollower.js:322, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/10 08:54:21] <Singer> Error in LevelLeader (attack.js line 998): Level Not loaded
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1013, Pather.journeyTo@pather.js:1405, useWaypoint@pather.js:927, Pather.moveToUnit@pather.js:533, Pather.moveTo@pather.js:232, Pather.walkTo@pather.js:422, Attack.validSpot@attack.js:998
+[2020/10/10 10:37:37] <ColdSorc> Error in LevelFollower (misc.js line 1595): unit.fname is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:431, Pather.moveToUnit@pather.js:533, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:557, Pickit.pickItems@pickit.js:160, Pickit.pickItem@pickit.js:333, Misc.logItem@misc.js:1595
+[2020/10/10 14:02:27] <Singer> Error in LevelLeader (levelleader.js line 1003): restart is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1003
+[2020/10/10 14:17:07] <Singer> Failed to include script: LevelLeader
+[2020/10/10 14:35:22] <Singer> Error in TownChicken.js (prototypes.js line 251): Unit.sell: Must be used on items.
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2251, Town.doChores@town.js:89, Town.clearInventory@town.js:1982, Unit.prototype.sell@prototypes.js:251
+[2020/10/10 14:40:10] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 14:45:06] <Singer> Error in LevelLeader (prototypes.js line 251): Unit.sell: Must be used on items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1022, Pather.getWP@pather.js:1336, Pather.moveToUnit@pather.js:528, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:553, ClassAttack.afterAttack@barbarian.js:68, ClassAttack.findItem@barbarian.js:238, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2251, Town.doChores@town.js:89, Town.clearInventory@town.js:1982, Unit.prototype.sell@prototypes.js:251
+[2020/10/10 15:41:32] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 29
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1013, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 15:43:19] <Summoner> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 29
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:412, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 15:45:34] <FireSorc> Error in LevelFollower (pather.js line 1023): useWaypoint: Failed to use waypoint
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:129, @levelfollower.js:249, useWaypoint@pather.js:1023
+[2020/10/10 15:45:47] <Hammerdin> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:422, @levelfollower.js:412, @levelfollower.js:201, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/10 16:51:03] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 56
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 16:51:06] <Wind> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 56
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 18:31:12] <ColdSorc> Unknown type: dagger File: Cold.xpac.nip Line: 6
+[2020/10/10 18:31:12] <ColdSorc> Unknown type: dagger File: Cold.xpac.nip Line: 6
+[2020/10/10 18:31:12] <ColdSorc> Unknown type: dagger File: Cold.xpac.nip Line: 6

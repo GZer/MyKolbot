@@ -40,8 +40,8 @@
 
 // ==============MERC UNIQUES/RUNEWORDS ===============//
 [Type] == Polearm && [Flag] == Runeword && [Flag] == Ethereal # [MeditationAura] >= 0 || [ConvictionAura] >= 0
+([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && ([Quality] == Unique || [Quality] == Set) # [LifeLeech] > 0 && ([IAS] >= 10 || [MaxHP] >= 50 || [NormalDamageReduction] >= 10)
 ([Name] == Cuirass || [Name] == MeshArmor) && [Quality] == Unique
-[Type] == Helm && ([Quality] == Unique || [Quality] == Set) # [LifeLeech] > 0 && ([IAS] >= 10 || [MaxHP] >= 50 || [NormalDamageReduction] >= 10)
 
 // ===============+SKILL UNIQUES/RUNEWORDS ===============//
 [Flag] == Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1

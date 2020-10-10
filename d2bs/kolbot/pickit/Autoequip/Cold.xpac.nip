@@ -3,7 +3,7 @@
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 2 && ([FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 20) # [Tier] == 2
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 2 && [FCR] >= 10 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 20 # [Tier] == 3
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 3 && ([FCR] >= 10 || [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 30) # [Tier] == 4
-[Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 3 && [FCR] >= 10 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 30 # [Tier] == 5
+[Name] == Blade && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 5
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 4 && [FCR] >= 10 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxMana]+[MaxHP] > 40 # [Tier] == 6
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 10
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 11
