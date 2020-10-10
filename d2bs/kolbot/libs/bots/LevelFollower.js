@@ -320,6 +320,8 @@ function LevelFollower(){
 			this.unEquipMerc();
 			this.hireA2Merc();
 			Item.autoEquipMerc();
+			delay(3000);
+			Item.autoEquipMerc();
 			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
 		}		
 		return true;
@@ -358,7 +360,7 @@ function LevelFollower(){
 		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length > 0){
+			while(MercId.length > 0 && me.gold > 50000){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);

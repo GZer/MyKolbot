@@ -1046,3 +1046,187 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 246 to 247
 AutoBuild: Updating Config from level 58 to 59
 AutoBuild: Incrementing cached character level to 59
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Stat points: 15      Skill points: 7
+AutoBuild: Level up detected ( 59 --> 60 )
+AutoBuild: useSkillPoint(): Raise Skeletal Mage (80)
+AutoBuild: Skill (1/4) Increased Raise Skeletal Mage (80) by one (level:  10)
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Skill (2/4) Increased Skeleton Mastery (69) by one (level:  22)
+AutoBuild: useSkillPoint(): Raise Skeleton (70)
+AutoBuild: Attempt to spend skill point 3 in Raise Skeleton (70) may have failed!
+AutoBuild: useSkillPoint(): Revive (95)
+AutoBuild: Skill (4/4) Increased Revive (95) by one (level:  4)
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 75 to 76
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (2/5) Increased Vitality from 247 to 248
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 248 to 249
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 249 to 250
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 250 to 251
+AutoBuild: Updating Config from level 59 to 60
+AutoBuild: Incrementing cached character level to 60
+AutoBuild: Stat points: 15      Skill points: 5
+AutoBuild: Level up detected ( 60 --> 61 )
+AutoBuild: useSkillPoint(): Raise Skeletal Mage (80)
+AutoBuild: Skill (1/4) Increased Raise Skeletal Mage (80) by one (level:  12)
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Attempt to spend skill point 2 in Skeleton Mastery (69) may have failed!
+AutoBuild: useSkillPoint(): Raise Skeleton (70)
+AutoBuild: Attempt to spend skill point 3 in Raise Skeleton (70) may have failed!
+AutoBuild: useSkillPoint(): Revive (95)
+AutoBuild: Skill (4/4) Increased Revive (95) by one (level:  6)
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 76 to 77
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (2/5) Increased Vitality from 251 to 252
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 252 to 253
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 253 to 254
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 254 to 255
+AutoBuild: Updating Config from level 60 to 61
+AutoBuild: Incrementing cached character level to 61
+AutoBuild: Stat points: 15      Skill points: 4
+AutoBuild: Level up detected ( 61 --> 62 )
+AutoBuild: useSkillPoint(): Raise Skeletal Mage (80)
+AutoBuild: Skill (1/4) Increased Raise Skeletal Mage (80) by one (level:  13)
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Attempt to spend skill point 2 in Skeleton Mastery (69) may have failed!
+AutoBuild: useSkillPoint(): Raise Skeleton (70)
+AutoBuild: Attempt to spend skill point 3 in Raise Skeleton (70) may have failed!
+AutoBuild: useSkillPoint(): Revive (95)
+AutoBuild: Skill (4/4) Increased Revive (95) by one (level:  7)
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 77 to 78
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (2/5) Increased Vitality from 255 to 256
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 256 to 257
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 257 to 258
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 258 to 259
+AutoBuild: Updating Config from level 61 to 62
+AutoBuild: Incrementing cached character level to 62
+AutoBuild: Stat points: 15      Skill points: 3
+AutoBuild: Level up detected ( 62 --> 63 )
+AutoBuild: Warning: Number of skills specified in your build template at level 63 exceeds the available unused skill points
+Only the first 3 skills 80, 69, 70 will be added
+AutoBuild: useSkillPoint(): Raise Skeletal Mage (80)
+AutoBuild: Skill (1/3) Increased Raise Skeletal Mage (80) by one (level:  14)
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Attempt to spend skill point 2 in Skeleton Mastery (69) may have failed!
+AutoBuild: useSkillPoint(): Raise Skeleton (70)
+AutoBuild: Attempt to spend skill point 3 in Raise Skeleton (70) may have failed!
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 78 to 79
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (2/5) Increased Vitality from 259 to 260
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 260 to 261
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 261 to 262
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 262 to 263
+AutoBuild: Updating Config from level 62 to 63
+AutoBuild: Incrementing cached character level to 63
+AutoBuild: Stat points: 15      Skill points: 3
+AutoBuild: Level up detected ( 63 --> 64 )
+AutoBuild: Warning: Number of skills specified in your build template at level 64 exceeds the available unused skill points
+Only the first 3 skills 80, 69, 70 will be added
+AutoBuild: useSkillPoint(): Raise Skeletal Mage (80)
+AutoBuild: Skill (1/3) Increased Raise Skeletal Mage (80) by one (level:  15)
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Attempt to spend skill point 2 in Skeleton Mastery (69) may have failed!
+AutoBuild: useSkillPoint(): Raise Skeleton (70)
+AutoBuild: Attempt to spend skill point 3 in Raise Skeleton (70) may have failed!
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 79 to 80
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (2/5) Increased Vitality from 263 to 264
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 264 to 265
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 265 to 266
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 266 to 267
+AutoBuild: Updating Config from level 63 to 64
+AutoBuild: Incrementing cached character level to 64
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Stat points: 15      Skill points: 3
+AutoBuild: Level up detected ( 64 --> 65 )
+AutoBuild: Warning: Number of skills specified in your build template at level 65 exceeds the available unused skill points
+Only the first 3 skills 80, 69, 70 will be added
+AutoBuild: useSkillPoint(): Raise Skeletal Mage (80)
+AutoBuild: Skill (1/3) Increased Raise Skeletal Mage (80) by one (level:  16)
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Attempt to spend skill point 2 in Skeleton Mastery (69) may have failed!
+AutoBuild: useSkillPoint(): Raise Skeleton (70)
+AutoBuild: Attempt to spend skill point 3 in Raise Skeleton (70) may have failed!
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 80 to 81
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (2/5) Increased Vitality from 267 to 268
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 268 to 269
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 269 to 270
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 270 to 271
+AutoBuild: Updating Config from level 64 to 65
+AutoBuild: Incrementing cached character level to 65
+AutoBuild: Stat points: 15      Skill points: 3
+AutoBuild: Level up detected ( 65 --> 66 )
+AutoBuild: Warning: Number of skills specified in your build template at level 66 exceeds the available unused skill points
+Only the first 3 skills 80, 69, 70 will be added
+AutoBuild: useSkillPoint(): Raise Skeletal Mage (80)
+AutoBuild: Skill (1/3) Increased Raise Skeletal Mage (80) by one (level:  16)
+AutoBuild: useSkillPoint(): Skeleton Mastery (69)
+AutoBuild: Attempt to spend skill point 2 in Skeleton Mastery (69) may have failed!
+AutoBuild: useSkillPoint(): Raise Skeleton (70)
+AutoBuild: Attempt to spend skill point 3 in Raise Skeleton (70) may have failed!
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 81 to 82
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (2/5) Increased Vitality from 271 to 272
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 272 to 273
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 273 to 274
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 274 to 275
+AutoBuild: Updating Config from level 65 to 66
+AutoBuild: Incrementing cached character level to 66
+AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js

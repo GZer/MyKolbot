@@ -300,6 +300,7 @@ var AutoBuildTemplate={
 			SkillPoints: [53],//Chain Lightning
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
+				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);

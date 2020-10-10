@@ -296,6 +296,7 @@ var AutoBuildTemplate={
 			SkillPoints: [112,113],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
+				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);

@@ -70,3 +70,51 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 [2020/10/10 18:31:12] <ColdSorc> Unknown type: dagger File: Cold.xpac.nip Line: 6
 [2020/10/10 18:31:12] <ColdSorc> Unknown type: dagger File: Cold.xpac.nip Line: 6
 [2020/10/10 18:31:12] <ColdSorc> Unknown type: dagger File: Cold.xpac.nip Line: 6
+[2020/10/10 19:06:08] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1030, @levelleader.js:399, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 19:34:54] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:437, @levelfollower.js:201, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/10 19:59:59] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:01:46] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:03:07] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:04:17] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:05:28] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:06:36] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:07:44] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:08:54] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:10:04] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:11:13] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:12:56] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:14:18] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:15:23] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:16:35] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:17:44] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:18:52] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:20:04] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:21:12] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:22:21] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:23:31] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:24:44] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
+[2020/10/10 20:25:54] <Hammerdin> Error in LevelFollower (pather.js line 830): useUnit: Incomplete quest.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:424, @levelfollower.js:414, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:740, Pather.useUnit@pather.js:830
