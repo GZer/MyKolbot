@@ -793,3 +793,249 @@
 [10/12/20 09:57:47] D2BS 50400: Updating Config from level 13 to 14
 [10/12/20 09:57:47] D2BS 50400: AutoBuild: Incrementing cached character level to 14
 [10/12/20 09:58:12] D2BS 50400: ÿc1Skipping Wraith 1695 16
+[10/12/20 09:58:21] D2BS 50400: ÿc1Skipping Wraith 1696 16
+[10/12/20 09:58:28] D2BS 50400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 09:58:39] D2BS 50400: ÿc1Skipping Dark One 1705 16
+[10/12/20 09:58:43] D2BS 50400: 33,34
+[10/12/20 09:59:08] D2BS 50400: ÿc1Pausing.
+[10/12/20 09:59:08] D2BS 50400: initNPC: heal
+[10/12/20 09:59:13] D2BS 50400: initNPC: buyPotions
+[10/12/20 09:59:24] D2BS 50400: ÿc2Resuming.
+[10/12/20 09:59:34] D2BS 50400: ÿc1Skipping Tainted 1726 16
+[10/12/20 09:59:38] D2BS 50400: ÿc1Pausing.
+[10/12/20 09:59:38] D2BS 50400: initNPC: heal
+[10/12/20 09:59:43] D2BS 50400: initNPC: buyPotions
+[10/12/20 09:59:52] D2BS 50400: ÿc2Resuming.
+[10/12/20 09:59:52] D2BS 50400: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[10/12/20 09:59:53] D2BS 50400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 10:00:06] D2BS 50400: initNPC: fillTome
+[10/12/20 10:00:14] D2BS 50400: 1
+[10/12/20 10:00:56] D2BS 50400: ÿc7Picked up ÿc425 Gold
+[10/12/20 10:00:57] D2BS 50400: move retry 1
+[10/12/20 10:01:02] D2BS 50400: move retry 1
+[10/12/20 10:01:08] D2BS 50400: ÿc7Picked up ÿc0Cracked Dirk ÿc0(ilvl 10)
+[10/12/20 10:01:08] D2BS 50400: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 10) (LateGame.nip #29)
+[10/12/20 10:01:20] D2BS 50400: ÿc7Picked up ÿc437 Gold
+[10/12/20 10:01:23] D2BS 50400: move retry 1
+[10/12/20 10:01:26] D2BS 50400: move retry 2
+[10/12/20 10:01:36] D2BS 50400: ÿc7Picked up ÿc3Ring ÿc0(ilvl 11) (Hammerdin.xpac.nip #94)
+[10/12/20 10:02:07] D2BS 50400: move retry 2
+[10/12/20 10:02:22] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:02:23] D2BS 50400: initNPC: heal
+[10/12/20 10:02:28] D2BS 50400: initNPC: identify
+[10/12/20 10:02:33] D2BS 50400: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/12/20 10:02:34] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:02:36] D2BS 50400: LowGold sell Cracked Dirk
+[10/12/20 10:02:36] D2BS 50400: initNPC: clearInventory
+[10/12/20 10:02:36] D2BS 50400: initNPC: repair
+[10/12/20 10:02:53] D2BS 50400: move retry 1
+[10/12/20 10:02:54] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:03:00] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:03:04] D2BS 50400: Script default.dbj ended
+[10/12/20 10:03:04] D2BS 50400: Script tools\autobuildthread.js ended
+[10/12/20 10:03:04] D2BS 50400: Script tools\party.js ended
+[10/12/20 10:03:04] D2BS 50400: Script tools\toolsthread.js ended
+[10/12/20 10:03:04] D2BS 50400: Script tools\townchicken.js ended
+[10/12/20 10:03:12] D2BS 50400: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 10:03:12] D2BS 50400: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 10:03:12] D2BS 50400: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/12/20 10:03:12] D2BS 50400: Updating Config from level 0 to 14
+[10/12/20 10:03:12] D2BS 50400: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:12] D2BS 50400: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:12] D2BS 50400: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:12] D2BS 50400: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:12] D2BS 50400: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[10/12/20 10:03:12] D2BS 50400: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:12] D2BS 50400: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:12] D2BS 50400: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/12/20 10:03:12] D2BS 50400: Updating Config from level 0 to 14
+[10/12/20 10:03:12] D2BS 50400: AutoBuild: Loaded helper thread
+[10/12/20 10:03:12] D2BS 50400: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 10:03:12] D2BS 50400: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/12/20 10:03:12] D2BS 50400: Updating Config from level 0 to 14
+[10/12/20 10:03:12] D2BS 50400: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 10:03:12] D2BS 50400: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/12/20 10:03:12] D2BS 50400: Updating Config from level 0 to 14
+[10/12/20 10:03:12] D2BS 50400: ÿc3Start ToolsThread script
+[10/12/20 10:03:12] D2BS 50400: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/12/20 10:03:12] D2BS 50400: Updating Config from level 0 to 14
+[10/12/20 10:03:13] D2BS 50400: move retry 1
+[10/12/20 10:03:36] D2BS 50400: initNPC: heal
+[10/12/20 10:03:38] D2BS 50400: move retry 1
+[10/12/20 10:03:40] D2BS 50400: initNPC: BuyPotions
+[10/12/20 10:03:54] D2BS 50400: move retry 1
+[10/12/20 10:03:57] D2BS 50400: move retry 1
+[10/12/20 10:04:00] D2BS 50400: move retry 1
+[10/12/20 10:04:03] D2BS 50400: move retry 1
+[10/12/20 10:04:06] D2BS 50400: move retry 1
+[10/12/20 10:04:12] D2BS 50400: move retry 1
+[10/12/20 10:04:35] D2BS 50400: ÿc7Picked up ÿc4165 Gold
+[10/12/20 10:04:35] D2BS 50400: ÿc7Picked up ÿc3Spear ÿc0(ilvl 13) (PreMerc.xpac.nip #15)
+[10/12/20 10:04:35] D2BS 50400: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 10:04:36] D2BS 50400: ÿc7Picked up ÿc0Superior Spiked Club ÿc0(ilvl 13)
+[10/12/20 10:04:37] D2BS 50400: ÿc7Picked up ÿc445 Gold
+[10/12/20 10:04:46] D2BS 50400: ÿc7Picked up ÿc446 Gold
+[10/12/20 10:04:47] D2BS 50400: ÿc7Picked up ÿc422 Gold
+[10/12/20 10:05:04] D2BS 50400: move retry 1
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Stat points: 5      Skill points: 7
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Level up detected ( 14 --> 15 )
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: useStatPoint(0): Strength
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Stat (1/5) Increased Strength from 38 to 39
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: useStatPoint(2): Dexterity
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Stat (2/5) Increased Dexterity from 33 to 34
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Stat (3/5) Increased Vitality from 64 to 65
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Stat (4/5) Increased Vitality from 65 to 66
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Stat (5/5) Increased Vitality from 66 to 67
+[10/12/20 10:05:22] D2BS 50400: Updating Config from level 14 to 15
+[10/12/20 10:05:22] D2BS 50400: Updating Config from level 14 to 15
+[10/12/20 10:05:22] D2BS 50400: Updating Config from level 14 to 15
+[10/12/20 10:05:22] D2BS 50400: Updating Config from level 14 to 15
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Updating Config from level 14 to 15
+[10/12/20 10:05:22] D2BS 50400: AutoBuild: Incrementing cached character level to 15
+[10/12/20 10:05:59] D2BS 50400: ÿc7Picked up ÿc3Hawk Helm ÿc0(ilvl 14)
+[10/12/20 10:05:59] D2BS 50400: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 10:06:00] D2BS 50400: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 10:06:01] D2BS 50400: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 10:06:04] D2BS 50400: 35,36
+[10/12/20 10:06:36] D2BS 50400: move retry 1
+[10/12/20 10:06:39] D2BS 50400: move retry 1
+[10/12/20 10:06:57] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:07:07] D2BS 50400: ÿc1Skipping Ghoul 151 16
+[10/12/20 10:07:34] D2BS 50400: ÿc1Skipping Ghoul 177 16
+[10/12/20 10:07:37] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:07:37] D2BS 50400: initNPC: heal
+[10/12/20 10:07:43] D2BS 50400: initNPC: identify
+[10/12/20 10:07:46] D2BS 50400: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[10/12/20 10:07:47] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:07:51] D2BS 50400: LowGold sell Superior Spiked Club
+[10/12/20 10:07:51] D2BS 50400: initNPC: clearInventory
+[10/12/20 10:08:00] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:08:17] D2BS 50400: ÿc1Skipping Ghoul 153 16
+[10/12/20 10:08:37] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:08:37] D2BS 50400: initNPC: heal
+[10/12/20 10:08:42] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:08:50] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:08:52] D2BS 50400: ÿc1Skipping Ghoul 153 16
+[10/12/20 10:08:59] D2BS 50400: ÿc1Skipping Ghoul 177 16
+[10/12/20 10:09:09] D2BS 50400: ÿc1Skipping Ghoul 176 16
+[10/12/20 10:09:13] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:09:14] D2BS 50400: initNPC: heal
+[10/12/20 10:09:19] D2BS 50400: initNPC: fillTome
+[10/12/20 10:09:21] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:09:28] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:09:32] D2BS 50400: ÿc1Skipping Ghoul 152 16
+[10/12/20 10:09:36] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:09:49] D2BS 50400: ÿc1Skipping Ghoul 151 16
+[10/12/20 10:10:05] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:10:06] D2BS 50400: initNPC: heal
+[10/12/20 10:10:16] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:10:19] D2BS 50400: initNPC: repair
+[10/12/20 10:10:33] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:10:43] D2BS 50400: ÿc1Skipping Ghoul 151 16
+[10/12/20 10:10:43] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:10:44] D2BS 50400: initNPC: heal
+[10/12/20 10:10:48] D2BS 50400: move retry 1
+[10/12/20 10:10:50] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:10:56] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:11:07] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:11:07] D2BS 50400: initNPC: heal
+[10/12/20 10:11:13] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:11:15] D2BS 50400: initNPC: reviveMerc
+[10/12/20 10:11:29] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:11:32] D2BS 50400: ÿc1Skipping Ghoul 152 16
+[10/12/20 10:11:37] D2BS 50400: move retry 1
+[10/12/20 10:11:43] D2BS 50400: ÿc1Skipping Ghoul 176 16
+[10/12/20 10:11:45] D2BS 50400: ÿc1Skipping Ghoul 177 16
+[10/12/20 10:11:45] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:11:46] D2BS 50400: initNPC: heal
+[10/12/20 10:11:51] D2BS 50400: initNPC: fillTome
+[10/12/20 10:11:53] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:11:59] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:12:20] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:12:20] D2BS 50400: initNPC: heal
+[10/12/20 10:12:27] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:12:34] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:12:44] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:12:44] D2BS 50400: initNPC: heal
+[10/12/20 10:12:51] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:12:52] D2BS 50400: initNPC: repair
+[10/12/20 10:13:07] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:13:20] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:13:21] D2BS 50400: initNPC: heal
+[10/12/20 10:13:27] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:13:35] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:13:38] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:13:39] D2BS 50400: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 10:13:41] D2BS 50400: ÿc7Picked up ÿc461 Gold
+[10/12/20 10:13:52] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:13:53] D2BS 50400: initNPC: heal
+[10/12/20 10:13:59] D2BS 50400: initNPC: fillTome
+[10/12/20 10:14:01] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:14:07] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:14:21] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:14:29] D2BS 50400: ÿc1Skipping Ghoul 152 16
+[10/12/20 10:14:43] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:14:43] D2BS 50400: initNPC: heal
+[10/12/20 10:14:50] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:14:52] D2BS 50400: initNPC: reviveMerc
+[10/12/20 10:15:00] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:15:01] D2BS 50400: ÿc1Skipping Ghoul 176 16
+[10/12/20 10:15:12] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:15:17] D2BS 50400: move retry 1
+[10/12/20 10:15:20] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:15:20] D2BS 50400: initNPC: heal
+[10/12/20 10:15:27] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:15:33] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:15:39] D2BS 50400: ÿc1Skipping Ghoul 177 16
+[10/12/20 10:15:52] D2BS 50400: ÿc1Skipping Ghoul 176 16
+[10/12/20 10:16:03] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:16:03] D2BS 50400: initNPC: heal
+[10/12/20 10:16:09] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:16:19] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:16:25] D2BS 50400: ÿc1Skipping Ghoul 177 16
+[10/12/20 10:16:25] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:16:25] D2BS 50400: initNPC: heal
+[10/12/20 10:16:32] D2BS 50400: initNPC: fillTome
+[10/12/20 10:16:34] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:16:40] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:16:47] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:16:49] D2BS 50400: ÿc1Skipping Ghoul 152 16
+[10/12/20 10:16:51] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:16:51] D2BS 50400: initNPC: heal
+[10/12/20 10:16:56] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:16:58] D2BS 50400: initNPC: repair
+[10/12/20 10:17:15] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:17:28] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:17:29] D2BS 50400: initNPC: heal
+[10/12/20 10:17:34] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:17:40] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:17:54] D2BS 50400: ÿc1Skipping Ghoul 176 16
+[10/12/20 10:17:58] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:17:59] D2BS 50400: initNPC: heal
+[10/12/20 10:18:04] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:18:10] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:18:18] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:18:48] D2BS 50400: ÿc1Skipping Ghoul 176 16
+[10/12/20 10:18:55] D2BS 50400: ÿc1Skipping Ghoul 177 16
+[10/12/20 10:18:55] D2BS 50400: move retry 1
+[10/12/20 10:18:58] D2BS 50400: ÿc1Skipping Ghoul 178 16
+[10/12/20 10:18:58] D2BS 50400: ÿc1Skipping Ghoul 152 16
+[10/12/20 10:19:04] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:19:04] D2BS 50400: initNPC: heal
+[10/12/20 10:19:15] D2BS 50400: initNPC: fillTome
+[10/12/20 10:19:18] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:19:23] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:19:44] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:19:45] D2BS 50400: initNPC: heal
+[10/12/20 10:19:50] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:19:57] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:20:07] D2BS 50400: ÿc1Skipping Ghoul 177 16
+[10/12/20 10:20:07] D2BS 50400: ÿc1Pausing.
+[10/12/20 10:20:07] D2BS 50400: initNPC: heal
+[10/12/20 10:20:12] D2BS 50400: initNPC: buyPotions
+[10/12/20 10:20:19] D2BS 50400: ÿc2Resuming.
+[10/12/20 10:20:29] D2BS 50400: move retry 1
+[10/12/20 10:20:31] D2BS 50400: ÿc1Skipping Ghoul 178 16

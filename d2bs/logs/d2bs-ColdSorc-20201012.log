@@ -909,3 +909,256 @@
 [10/12/20 09:57:25] D2BS 12884: initNPC: BuyPotions
 [10/12/20 09:57:41] D2BS 12884: 29,30,31,32,33
 [10/12/20 09:57:55] D2BS 12884: move retry 1
+[10/12/20 09:58:52] D2BS 12884: 33,34
+[10/12/20 09:59:16] D2BS 12884: ÿc7Picked up ÿc422 Gold
+[10/12/20 09:59:17] D2BS 12884: ÿc7Picked up ÿc0Fanged Helm ÿc0(ilvl 11)
+[10/12/20 09:59:18] D2BS 12884: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 09:59:19] D2BS 12884: ÿc7Picked up ÿc3Jewel ÿc0(ilvl 10)
+[10/12/20 09:59:23] D2BS 12884: ÿc1Pausing.
+[10/12/20 09:59:23] D2BS 12884: initNPC: heal
+[10/12/20 09:59:30] D2BS 12884: initNPC: identify
+[10/12/20 09:59:31] D2BS 12884: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[10/12/20 09:59:32] D2BS 12884: initNPC: buyPotions
+[10/12/20 09:59:33] D2BS 12884: LowGold sell Fanged Helm
+[10/12/20 09:59:33] D2BS 12884: initNPC: clearInventory
+[10/12/20 09:59:44] D2BS 12884: ÿc2Resuming.
+[10/12/20 10:00:12] D2BS 12884: initNPC: heal
+[10/12/20 10:00:18] D2BS 12884: move retry 1
+[10/12/20 10:00:20] D2BS 12884: initNPC: buyPotions
+[10/12/20 10:00:22] D2BS 12884: initNPC: reviveMerc
+[10/12/20 10:00:28] D2BS 12884: 1
+[10/12/20 10:00:51] D2BS 12884: move retry 1
+[10/12/20 10:00:52] D2BS 12884: move retry 1
+[10/12/20 10:00:53] D2BS 12884: move retry 1
+[10/12/20 10:00:55] D2BS 12884: move retry 1
+[10/12/20 10:01:01] D2BS 12884: move retry 1
+[10/12/20 10:01:24] D2BS 12884: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 10:01:27] D2BS 12884: ÿc7Picked up ÿc445 Gold
+[10/12/20 10:01:35] D2BS 12884: ÿc7Picked up ÿc412 Gold
+[10/12/20 10:01:45] D2BS 12884: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 10:01:45] D2BS 12884: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 10:01:57] D2BS 12884: move retry 1
+[10/12/20 10:02:07] D2BS 12884: move retry 2
+[10/12/20 10:02:20] D2BS 12884: ÿc7Picked up ÿc0Axe ÿc0(ilvl 10)
+[10/12/20 10:02:50] D2BS 12884: move retry 3
+[10/12/20 10:03:04] D2BS 12884: Script default.dbj ended
+[10/12/20 10:03:04] D2BS 12884: Script tools\autobuildthread.js ended
+[10/12/20 10:03:04] D2BS 12884: Script tools\party.js ended
+[10/12/20 10:03:04] D2BS 12884: Script tools\toolsthread.js ended
+[10/12/20 10:03:04] D2BS 12884: Script tools\townchicken.js ended
+[10/12/20 10:03:11] D2BS 12884: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 10:03:11] D2BS 12884: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 10:03:11] D2BS 12884: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/12/20 10:03:11] D2BS 12884: Updating Config from level 0 to 14
+[10/12/20 10:03:11] D2BS 12884: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:11] D2BS 12884: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:11] D2BS 12884: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:11] D2BS 12884: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:11] D2BS 12884: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc215 ms
+[10/12/20 10:03:11] D2BS 12884: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:11] D2BS 12884: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 10:03:11] D2BS 12884: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/12/20 10:03:11] D2BS 12884: Updating Config from level 0 to 14
+[10/12/20 10:03:11] D2BS 12884: AutoBuild: Loaded helper thread
+[10/12/20 10:03:11] D2BS 12884: LowGold sell Axe
+[10/12/20 10:03:11] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:03:11] D2BS 12884: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/12/20 10:03:11] D2BS 12884: Updating Config from level 0 to 14
+[10/12/20 10:03:11] D2BS 12884: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 10:03:11] D2BS 12884: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/12/20 10:03:11] D2BS 12884: Updating Config from level 0 to 14
+[10/12/20 10:03:11] D2BS 12884: ÿc3Start ToolsThread script
+[10/12/20 10:03:11] D2BS 12884: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/12/20 10:03:11] D2BS 12884: Updating Config from level 0 to 14
+[10/12/20 10:03:18] D2BS 12884: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 10:03:25] D2BS 12884: move retry 1
+[10/12/20 10:03:28] D2BS 12884: initNPC: BuyPotions
+[10/12/20 10:03:47] D2BS 12884: move retry 1
+[10/12/20 10:03:51] D2BS 12884: move retry 1
+[10/12/20 10:04:01] D2BS 12884: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 10:04:01] D2BS 12884: ÿc7Picked up ÿc460 Gold
+[10/12/20 10:04:15] D2BS 12884: ÿc7Picked up ÿc0Sabre ÿc0(ilvl 14)
+[10/12/20 10:04:15] D2BS 12884: AutoBuild: Stat points: 5      Skill points: 2
+[10/12/20 10:04:15] D2BS 12884: AutoBuild: Level up detected ( 14 --> 15 )
+[10/12/20 10:04:15] D2BS 12884: AutoBuild: useSkillPoint(): Ice Blast (45)
+[10/12/20 10:04:15] D2BS 12884: AutoBuild: Skill (1/1) Increased Ice Blast (45) by one (level:  7)
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: useStatPoint(0): Strength
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: Stat (1/5) Increased Strength from 23 to 24
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: useStatPoint(1): Energy
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: Stat (2/5) Increased Energy from 61 to 62
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: useStatPoint(1): Energy
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: Stat (3/5) Increased Energy from 62 to 63
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: Stat (4/5) Increased Vitality from 36 to 37
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: Stat (5/5) Increased Vitality from 37 to 38
+[10/12/20 10:04:16] D2BS 12884: Updating Config from level 14 to 15
+[10/12/20 10:04:16] D2BS 12884: Updating Config from level 14 to 15
+[10/12/20 10:04:16] D2BS 12884: Updating Config from level 14 to 15
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: Updating Config from level 14 to 15
+[10/12/20 10:04:16] D2BS 12884: Updating Config from level 14 to 15
+[10/12/20 10:04:16] D2BS 12884: AutoBuild: Incrementing cached character level to 15
+[10/12/20 10:04:22] D2BS 12884: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 10:04:35] D2BS 12884: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 10:04:35] D2BS 12884: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 10:04:35] D2BS 12884: ÿc7Picked up ÿc4165 Gold
+[10/12/20 10:04:37] D2BS 12884: ÿc7Picked up ÿc445 Gold
+[10/12/20 10:04:42] D2BS 12884: ÿc7Picked up ÿc0Chipped Topaz ÿc0(ilvl 1)
+[10/12/20 10:04:42] D2BS 12884: ÿc7Picked up ÿc0Sacred Globe ÿc0(ilvl 10)
+[10/12/20 10:04:44] D2BS 12884: ÿc7Picked up ÿc425 Gold
+[10/12/20 10:04:44] D2BS 12884: ÿc7Picked up ÿc448 Gold
+[10/12/20 10:04:44] D2BS 12884: ÿc7Picked up ÿc437 Gold
+[10/12/20 10:04:44] D2BS 12884: ÿc7Picked up ÿc431 Gold
+[10/12/20 10:04:44] D2BS 12884: ÿc7Picked up ÿc426 Gold
+[10/12/20 10:04:46] D2BS 12884: ÿc7Picked up ÿc422 Gold
+[10/12/20 10:05:00] D2BS 12884: ÿc7Picked up ÿc438 Gold
+[10/12/20 10:05:02] D2BS 12884: move retry 1
+[10/12/20 10:05:32] D2BS 12884: ÿc7Picked up ÿc426 Gold
+[10/12/20 10:05:33] D2BS 12884: move retry 1
+[10/12/20 10:05:36] D2BS 12884: move retry 2
+[10/12/20 10:05:38] D2BS 12884: move retry 3
+[10/12/20 10:05:45] D2BS 12884: move retry 1
+[10/12/20 10:05:50] D2BS 12884: move retry 1
+[10/12/20 10:06:22] D2BS 12884: 35,36
+[10/12/20 10:06:30] D2BS 12884: ÿc7Picked up ÿc414 Gold
+[10/12/20 10:06:32] D2BS 12884: ÿc7Picked up ÿc449 Gold
+[10/12/20 10:06:48] D2BS 12884: ÿc1Skipping The Banished 157 16
+[10/12/20 10:06:54] D2BS 12884: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/12/20 10:07:01] D2BS 12884: move retry 1
+[10/12/20 10:07:28] D2BS 12884: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 10:07:31] D2BS 12884: 36,37
+[10/12/20 10:07:52] D2BS 12884: move retry 1
+[10/12/20 10:07:58] D2BS 12884: ÿc7Picked up ÿc0Superior Spiked Club ÿc0(ilvl 10)
+[10/12/20 10:07:58] D2BS 12884: ÿc7Picked up ÿc453 Gold
+[10/12/20 10:08:02] D2BS 12884: move retry 1
+[10/12/20 10:08:21] D2BS 12884: ÿc7Picked up ÿc439 Gold
+[10/12/20 10:08:29] D2BS 12884: ÿc7Picked up ÿc416 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc417 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc436 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc455 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc442 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc427 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc454 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc441 Gold
+[10/12/20 10:08:31] D2BS 12884: ÿc7Picked up ÿc449 Gold
+[10/12/20 10:08:36] D2BS 12884: move retry 1
+[10/12/20 10:08:37] D2BS 12884: ÿc7Picked up ÿc455 Gold
+[10/12/20 10:08:46] D2BS 12884: ÿc7Picked up ÿc0Sabre ÿc0(ilvl 10)
+[10/12/20 10:08:51] D2BS 12884: ÿc7Picked up ÿc428 Gold
+[10/12/20 10:09:11] D2BS 12884: ÿc7Picked up ÿc422 Gold
+[10/12/20 10:09:11] D2BS 12884: ÿc7Picked up ÿc436 Gold
+[10/12/20 10:09:11] D2BS 12884: ÿc7Picked up ÿc457 Gold
+[10/12/20 10:09:17] D2BS 12884: ÿc1Pausing.
+[10/12/20 10:09:18] D2BS 12884: initNPC: heal
+[10/12/20 10:09:23] D2BS 12884: initNPC: identify
+[10/12/20 10:09:24] D2BS 12884: ÿc4MiniShopBotÿc0: Scanning 65 items.
+[10/12/20 10:09:25] D2BS 12884: initNPC: buyPotions
+[10/12/20 10:09:27] D2BS 12884: LowGold sell Sabre
+[10/12/20 10:09:27] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:09:27] D2BS 12884: LowGold sell Superior Spiked Club
+[10/12/20 10:09:27] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:09:30] D2BS 12884: LowGold sell Sabre
+[10/12/20 10:09:30] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:09:32] D2BS 12884: LowGold sell Sacred Globe
+[10/12/20 10:09:32] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:09:34] D2BS 12884: LowGold sell Chipped Topaz
+[10/12/20 10:09:34] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:09:36] D2BS 12884: initNPC: repair
+[10/12/20 10:09:45] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:10:05] D2BS 12884: ÿc2Resuming.
+[10/12/20 10:10:05] D2BS 12884: move retry 1
+[10/12/20 10:10:10] D2BS 12884: ÿc7Picked up ÿc457 Gold
+[10/12/20 10:10:13] D2BS 12884: initNPC: heal
+[10/12/20 10:10:20] D2BS 12884: move retry 1
+[10/12/20 10:10:30] D2BS 12884: 1
+[10/12/20 10:10:46] D2BS 12884: 1,0
+[10/12/20 10:11:33] D2BS 12884: ÿc7Picked up ÿc0Flawed Amethyst ÿc0(ilvl 1)
+[10/12/20 10:11:37] D2BS 12884: ÿc7Picked up ÿc0Chipped Amethyst ÿc0(ilvl 1)
+[10/12/20 10:11:53] D2BS 12884: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 10:12:21] D2BS 12884: AutoBuild: Stat points: 5      Skill points: 2
+[10/12/20 10:12:21] D2BS 12884: AutoBuild: Level up detected ( 15 --> 16 )
+[10/12/20 10:12:21] D2BS 12884: AutoBuild: useSkillPoint(): Ice Blast (45)
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Skill (1/1) Increased Ice Blast (45) by one (level:  8)
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: useStatPoint(0): Strength
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Stat (1/5) Increased Strength from 24 to 25
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: useStatPoint(1): Energy
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Stat (2/5) Increased Energy from 63 to 64
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: useStatPoint(1): Energy
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Stat (3/5) Increased Energy from 64 to 65
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Stat (4/5) Increased Vitality from 38 to 39
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Stat (5/5) Increased Vitality from 39 to 40
+[10/12/20 10:12:22] D2BS 12884: Updating Config from level 15 to 16
+[10/12/20 10:12:22] D2BS 12884: Updating Config from level 15 to 16
+[10/12/20 10:12:22] D2BS 12884: Updating Config from level 15 to 16
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Updating Config from level 15 to 16
+[10/12/20 10:12:22] D2BS 12884: Updating Config from level 15 to 16
+[10/12/20 10:12:22] D2BS 12884: AutoBuild: Incrementing cached character level to 16
+[10/12/20 10:12:28] D2BS 12884: ÿc7Picked up ÿc0Voulge ÿc0(ilvl 13)
+[10/12/20 10:12:28] D2BS 12884: ÿc7Picked up ÿc0Light Crossbow ÿc0(ilvl 13)
+[10/12/20 10:12:32] D2BS 12884: ÿc7Picked up ÿc452 Gold
+[10/12/20 10:12:35] D2BS 12884: ÿc7Picked up ÿc460 Gold
+[10/12/20 10:12:38] D2BS 12884: initNPC: heal
+[10/12/20 10:12:50] D2BS 12884: initNPC: identify
+[10/12/20 10:12:53] D2BS 12884: move retry 1
+[10/12/20 10:12:57] D2BS 12884: move retry 1
+[10/12/20 10:12:58] D2BS 12884: move retry 1
+[10/12/20 10:13:06] D2BS 12884: ÿc4MiniShopBotÿc0: Scanning 67 items.
+[10/12/20 10:13:07] D2BS 12884: initNPC: buyPotions
+[10/12/20 10:13:08] D2BS 12884: LowGold sell Flawed Amethyst
+[10/12/20 10:13:08] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:13:09] D2BS 12884: LowGold sell Light Crossbow
+[10/12/20 10:13:09] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:13:11] D2BS 12884: LowGold sell Voulge
+[10/12/20 10:13:11] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:13:13] D2BS 12884: LowGold sell Chipped Amethyst
+[10/12/20 10:13:13] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:13:15] D2BS 12884: initNPC: clearInventory
+[10/12/20 10:13:23] D2BS 12884: 40
+[10/12/20 10:13:48] D2BS 12884: move retry 1
+[10/12/20 10:14:03] D2BS 12884: ÿc7Picked up ÿc424 Gold
+[10/12/20 10:14:07] D2BS 12884: ÿc7Picked up ÿc426 Gold
+[10/12/20 10:14:10] D2BS 12884: move retry 1
+[10/12/20 10:14:12] D2BS 12884: move retry 1
+[10/12/20 10:14:17] D2BS 12884: ÿc7Picked up ÿc465 Gold
+[10/12/20 10:14:29] D2BS 12884: ÿc7Picked up ÿc467 Gold
+[10/12/20 10:14:47] D2BS 12884: 47,48
+[10/12/20 10:14:52] D2BS 12884: move retry 1
+[10/12/20 10:14:59] D2BS 12884: move retry 2
+[10/12/20 10:15:16] D2BS 12884: ÿc7Picked up ÿc460 Gold
+[10/12/20 10:15:23] D2BS 12884: ÿc7Picked up ÿc431 Gold
+[10/12/20 10:15:23] D2BS 12884: ÿc7Picked up ÿc443 Gold
+[10/12/20 10:15:24] D2BS 12884: ÿc7Picked up ÿc420 Gold
+[10/12/20 10:15:24] D2BS 12884: ÿc7Picked up ÿc438 Gold
+[10/12/20 10:15:24] D2BS 12884: ÿc7Picked up ÿc462 Gold
+[10/12/20 10:15:44] D2BS 12884: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #35)
+[10/12/20 10:16:15] D2BS 12884: ÿc7Picked up ÿc470 Gold
+[10/12/20 10:16:31] D2BS 12884: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 10:16:31] D2BS 12884: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 10:16:44] D2BS 12884: ÿc7Picked up ÿc448 Gold
+[10/12/20 10:17:04] D2BS 12884: ÿc7Picked up ÿc472 Gold
+[10/12/20 10:17:04] D2BS 12884: ÿc7Picked up ÿc0Spear ÿc0(ilvl 13)
+[10/12/20 10:17:13] D2BS 12884: ÿc7Picked up ÿc0Voulge ÿc0(ilvl 13)
+[10/12/20 10:17:13] D2BS 12884: move retry 1
+[10/12/20 10:17:20] D2BS 12884: move retry 1
+[10/12/20 10:17:21] D2BS 12884: move retry 2
+[10/12/20 10:17:32] D2BS 12884: move retry 1
+[10/12/20 10:17:34] D2BS 12884: move retry 1
+[10/12/20 10:17:37] D2BS 12884: move retry 1
+[10/12/20 10:17:40] D2BS 12884: move retry 1
+[10/12/20 10:17:43] D2BS 12884: move retry 1
+[10/12/20 10:17:45] D2BS 12884: move retry 1
+[10/12/20 10:17:50] D2BS 12884: move retry 1
+[10/12/20 10:17:52] D2BS 12884: move retry 1
+[10/12/20 10:17:57] D2BS 12884: move retry 1
+[10/12/20 10:17:59] D2BS 12884: move retry 1
+[10/12/20 10:18:06] D2BS 12884: move retry 1
+[10/12/20 10:18:08] D2BS 12884: move retry 1
+[10/12/20 10:18:11] D2BS 12884: move retry 1
+[10/12/20 10:18:13] D2BS 12884: move retry 1
+[10/12/20 10:19:47] D2BS 12884: 48,49
+[10/12/20 10:19:51] D2BS 12884: move retry 1
+[10/12/20 10:20:06] D2BS 12884: ÿc7Picked up ÿc440 Gold
+[10/12/20 10:20:13] D2BS 12884: move retry 1
+[10/12/20 10:20:32] D2BS 12884: ÿc7Picked up ÿc449 Gold
