@@ -404,7 +404,7 @@ function LevelLeader(){
 			DestinationReached=(me.area == DestinationArea);
 		}
 		this.tryMakePortal();
-		this.logProgress(DestinationReached,"Clear from "+Pather.getAreaName(CurrentArea)+" to "+Pather.getAreaName(DestinationArea));
+		// this.logProgress(DestinationReached,"Clear from "+Pather.getAreaName(CurrentArea)+" to "+Pather.getAreaName(DestinationArea));
 		return DestinationReached;
 	};
 	
@@ -418,7 +418,7 @@ function LevelLeader(){
 		}else{
 			Pather.useWaypoint(ToArea);
 		}
-		this.logProgress((me.area == ToArea),"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
+		// this.logProgress((me.area == ToArea),"Skipped Area:"+Pather.getAreaName(FromArea)+" --> Area:"+Pather.getAreaName(ToArea));
 		return (me.area == ToArea);
 	};
 	
@@ -493,28 +493,19 @@ function LevelLeader(){
 	
 	this.getQuestItem=function(ItemId,ChestId){
 		var Chest=getUnit(2,ChestId),Item,Tick=getTickCount();
-		if(me.getItem(ItemId)){
-			return true;
-		}
+		if(me.getItem(ItemId)){return true;}
 		if(Chest){
-			try{
-				Misc.openChest(Chest);
-			}catch(err){
-				this.logProgress(false,"GetQuestChest:"+ChestId);
-				return false;
-			}
+			try{Misc.openChest(Chest);}
+			catch(err){return false;}
 		}
 		delay(1000);
 		Item=getUnit(4,ItemId);
-		try{
-			Pickit.pickItem(Item);
-		}catch(err){
-			this.logProgress(false,"GetQuestItem:"+ItemId);
-			return false;
-		}
+		try{Pickit.pickItem(Item);}
+		catch(err){return false;}
 		delay(1000);
 		Pickit.pickItems();
-		return true;
+		this.logProgress(me.getItem(ItemId),"GetQuestItem: "+ItemId);
+		return me.getItem(ItemId);
 	};
 	
 	this.waitForUnit=function(ClassId,UnitId){
