@@ -198,8 +198,6 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
-				Config.Cubing=false;
-				Config.MercWatch=false;
 				//Armor
 				Config.Runewords.push([Runeword.Bone,"Mage Plate"]);
 				//Helm
@@ -284,13 +282,7 @@ var AutoBuildTemplate={
 			SkillPoints: [69],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.Cubing=true;
-				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Sol Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Lum Rune"]);
+				Config.AttackSkill=[70,66,-1,66,-1,66,-1];
 			}
 		},
 
@@ -332,7 +324,13 @@ var AutoBuildTemplate={
 			SkillPoints: [90],//Iron Golem
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[70,66,-1,66,-1,66,-1];
+				Config.Cubing=true;
+				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Sol Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Lum Rune"]);
 			}
 		},
 

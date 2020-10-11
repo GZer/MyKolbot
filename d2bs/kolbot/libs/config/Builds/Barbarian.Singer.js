@@ -197,7 +197,6 @@ var AutoBuildTemplate={
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
-				Config.Cubing=false;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
 				Config.Runewords.push([Runeword.Spirit,"Broad Sword"]);
@@ -285,13 +284,7 @@ var AutoBuildTemplate={
 			SkillPoints: [146],//Battle Cry
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.Cubing=true;
-				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Sol Rune"]);
-				Config.Recipes.push([Recipe.Rune,"Lum Rune"]);
+				Config.AttackSkill=[131,132,0,0,0,0,0];
 			}
 		},
 
@@ -333,7 +326,13 @@ var AutoBuildTemplate={
 			SkillPoints: [149],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.AttackSkill=[131,132,0,0,0,0,0];
+				Config.Cubing=true;
+				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Amn Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Sol Rune"]);
+				Config.Recipes.push([Recipe.Rune,"Lum Rune"]);
 			}	
 		},
 
