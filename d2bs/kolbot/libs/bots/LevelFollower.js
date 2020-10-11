@@ -20,40 +20,25 @@ function LevelFollower(){
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
 		dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
-		
-		if(Completed){
-			Progress="Completed";
-		}		
-		try{
-			FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" "+Progress+"\n");
-		}catch(err){
-			D2Bot.printToConsole("Failed to Log Progress",10);
-			return false;
-		}
+		if(Completed){Progress="Completed";}		
+		try{FileTools.appendText("logs/ProgressLog.txt",dateString+" "+Quest+" "+Progress+"\n");}
+		catch(err){D2Bot.printToConsole("Failed to Log Progress",10);return false;}
 		return true;
 	};
 	
 	this.logGame=function(Details){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
 		dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
-		
-		try{
-			FileTools.appendText("logs/JoinLog.txt",dateString+" "+Details+"\n");
-		}catch(err){
-			D2Bot.printToConsole("Failed to Log Join",10);
-			return false;
-		}
+		try{FileTools.appendText("logs/JoinLog.txt",dateString+" "+Details+"\n");}
+		catch(err){D2Bot.printToConsole("Failed to Log Join",10);return false;}
 		return true;
 	};
 	
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
 		if(Pather.accessToAct(DestinationAct)){
-			try{
-				Pather.journeyTo(TownWaypoints[DestinationAct-1]);
-			}catch(err){
-				print("Failed using Waypoint to change acts")
-			}
+			try{Pather.journeyTo(TownWaypoints[DestinationAct-1]);}
+			catch(err){print("Failed using Waypoint to change acts");}
 			return true;
 		}
 		try{
@@ -152,7 +137,7 @@ function LevelFollower(){
 					case 75:
 					case 103:
 					case 109:
-						try{Town.doChores();}catch(err){print("Failed going to town")}
+						try{Town.doChores();}catch(err){print("Failed going to town");}
 						delay(500);
 					break;
 					//Talk to Atma for Tals Tomb
@@ -193,24 +178,16 @@ function LevelFollower(){
 					break;
 				}
 				//Check leader or any portals to area otherwise walk to leader
-				if(Pather.getPortal(LeaderArea,Config.Leader)){
-					Pather.usePortal(LeaderArea,Config.Leader);
-				}else if(Pather.getPortal(LeaderArea,null)){
-					Pather.usePortal(LeaderArea,null);
-				}else{
-					Pather.journeyTo(LeaderArea);
-				}
+				if(Pather.getPortal(LeaderArea,Config.Leader)){Pather.usePortal(LeaderArea,Config.Leader);}
+				else if(Pather.getPortal(LeaderArea,null)){Pather.usePortal(LeaderArea,null);}
+				else{Pather.journeyTo(LeaderArea);}
 				delay(150);
 				Pather.teleport=false;
 				Pather.getWP(me.area,true);
 			}
 			//Find leader if not in Town
-			if(!me.inTown){
-				Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);
-			}else{
-				Town.doChores();
-				Town.move("portalspot");
-			}
+			if(!me.inTown){Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);}
+			else{Town.doChores();Town.move("portalspot");}
 		}else{
 			print("Leader not partied");
 			delay(1500);
@@ -223,12 +200,8 @@ function LevelFollower(){
 		Town.goToTown();
 		Town.move(NPCName);
 		NPC=getUnit(1,NPCName);
-		if(NPC && NPC.openMenu()){
-			me.cancel();
-		}else{
-			print("Failed talking to "+NPCName);
-			return false;
-		}
+		if(NPC && NPC.openMenu()){me.cancel();}
+		else{print("Failed talking to "+NPCName);return false;}
 		return true;
 	};
 	
@@ -253,6 +226,8 @@ function LevelFollower(){
 				break;
 				//Spider Forest
 				case 76:
+					Pather.journeyTo(85);
+					Town.doChores();
 					try{if(getWaypoint(77) && Pather.useWaypoint(77)){DestinationReached=true;}}
 					catch(err){if(Pather.journeyTo(77) && Pather.getWP(77)){DestinationReached=true;}}
 				break;
@@ -283,12 +258,8 @@ function LevelFollower(){
 	this.getLeaderUnit=function(name){
 		var Player=getUnit(0,name);
 		if(Player){
-			do{
-				if(Player.mode != 0 && Player.mode != 17){
-					print("Found Leader");
-					return Player;
-				}
-			}while(Player.getNext(WhoIsLeader.area));
+			do{if(Player.mode != 0 && Player.mode != 17){return Player;}}
+			while(Player.getNext(WhoIsLeader.area));
 		}
 		return false;
 	};
@@ -312,9 +283,7 @@ function LevelFollower(){
 			}
 		}else{
 			this.talkToNPC("Kashya");
-			if(me.getMerc()){
-				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
-			}
+			if(me.getMerc()){this.logProgress(me.getMerc(),"Got free Merc - "+me.name);}
 		}		
 		if(ReplaceMerc && me.act >= 2){
 			this.unEquipMerc();
@@ -385,9 +354,7 @@ function LevelFollower(){
 		 switch(bytes[0]){
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) != -1){
-					MercId.length=0;
-				}
+				if(MercId.indexOf(id) != -1){MercId.length=0;}
 				MercId.push(id);
 				break;
 		}
@@ -412,9 +379,7 @@ function LevelFollower(){
 			delay(500);
 			partyTimeout++;
 			this.goFindLeader(WhoIsLeader.area);
-			if(partyTimeout > 5){
-				quit();
-			}
+			if(partyTimeout > 5){quit();}
 		}
 		LeaderUnit=this.getLeaderUnit(Config.Leader);
 		this.logGame("Level:"+CharacterLevel+" Merclevel:"+(MyMercLevel-CharacterLevel)+" Gold:"+me.gold+" Char:"+me.name);
@@ -427,9 +392,8 @@ function LevelFollower(){
 		if(copyUnit(LeaderUnit).x){
 			if(getDistance(me,LeaderUnit) > 5){
 				Pather.teleport=(me.diff == 2);
-				if(me.inTown){
-					Town.move("portalspot");
-				}else{
+				if(me.inTown){Town.move("portalspot");}
+				else{
 					Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);
 					Attack.clear(20);
 				}

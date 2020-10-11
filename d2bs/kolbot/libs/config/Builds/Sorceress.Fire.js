@@ -58,7 +58,6 @@ var AutoBuildTemplate={
 				Config.MiniShopBot=true;
 				Config.LowGold=200000;
 				Config.UseMerc=true;
-				Config.Cubing=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
@@ -200,7 +199,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
-				Config.MercWatch=false;
+				Config.Cubing=false;
 				//Weapon
 				Config.Runewords.push([Runeword.Leaf,"Short Staff"]);
 				Config.Runewords.push([Runeword.Leaf,"Long Staff"]);
@@ -300,6 +299,7 @@ var AutoBuildTemplate={
 			SkillPoints: [53],//Chain Lightning
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
+				Config.Cubing=true;
 				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);

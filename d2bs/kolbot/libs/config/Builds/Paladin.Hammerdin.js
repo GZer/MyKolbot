@@ -60,7 +60,6 @@ var AutoBuildTemplate={
 				Config.MiniShopBot=true;
 				Config.LowGold=200000;
 				Config.UseMerc=true;
-				Config.Cubing=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
 				Config.LogExperience=true;//Print experience statistics in the manager.
@@ -198,6 +197,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.MakeRunewords=true;
+				Config.Cubing=false;
 				Config.MercWatch=false;
 				//Weapon
 				Config.Runewords.push([Runeword.Spirit,"Crystal Sword"]);
@@ -296,6 +296,7 @@ var AutoBuildTemplate={
 			SkillPoints: [112,113],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
+				Config.Cubing=true;
 				Config.Recipes.push([Recipe.Rune,"Ral Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Ort Rune"]);
 				Config.Recipes.push([Recipe.Rune,"Thul Rune"]);

@@ -10,7 +10,7 @@ function LevelLeader(){
 	var MercId=[],MyMercDiff=0,MercAuraName,HiredMercAura;
 	var MercAuraSkills=[0,104,98,114,99,108,0];
 	var MercAuraNames=["$","Defiance","Might","Holy Freeze","Prayer","Blessed Aim","$"];
-	var FullClearAreas=[3,4,5,
+	var FullClearAreas=[4,5,
 	43,44,
 	105,106,
 	111,118,129,130];
@@ -37,7 +37,7 @@ function LevelLeader(){
 				Pather.journeyTo(3);
 				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
-				this.talkToNPC("Kashya");
+				this.talkToNPC(NPC.Kashya);
 				Town.doChores();
 				this.logProgress(me.getQuest(2,0),"Blood Raven");
 			break;
@@ -61,7 +61,7 @@ function LevelLeader(){
 					}
 				}
 				while(me.getItem(524) && !me.getItem(525) && i < 10){
-					this.talkToNPC("Akara");
+					this.talkToNPC(NPC.Akara);
 					i++;
 				}
 				Pather.useWaypoint(4);
@@ -89,7 +89,7 @@ function LevelLeader(){
 				}
 				Attack.clearLevel(0);
 				Town.doChores();
-				this.talkToNPC("Deckard Cain");
+				this.talkToNPC(NPC.Cain);
 				this.logProgress(me.getQuest(4,0),"Tristram");
 			break;
 			case 6: //Countess
@@ -106,7 +106,7 @@ function LevelLeader(){
 				this.killQuestBoss(402);
 				this.getQuestItem(89,108);
 				Town.doChores();
-				this.talkToNPC("Charsi");
+				this.talkToNPC(NPC.Charsi);
 				this.logProgress(me.getQuest(3,3),"Smith");
 			break;
 			case 37: //Andariel
@@ -124,7 +124,7 @@ function LevelLeader(){
 				this.killQuestBoss(229);
 				this.getQuestItem(552,20);
 				delay(5000);
-				this.talkToNPC("Atma");
+				this.talkToNPC(NPC.Atma);
 				this.logProgress(me.getQuest(9,0),"Radament");
 			break;
 			case 57: //Cube
@@ -151,8 +151,8 @@ function LevelLeader(){
 				this.getQuestItem(521,149);
 				Town.doChores();
 				if(this.cubeStaff()){
-					this.talkToNPC("Drognan");
-					this.talkToNPC("Jerhyn");
+					this.talkToNPC(NPC.Drognan);
+					this.talkToNPC(NPC.Jerhyn);
 				}else{
 					this.logProgress(false,"Quit CubingStaff");delay(5000);quit();
 				}
@@ -166,7 +166,7 @@ function LevelLeader(){
 				this.killImportantQuestBoss(250);
 				Pather.journeyTo(46);
 				Pather.getWP(46,true);
-				this.talkToNPC("Atma");
+				this.talkToNPC(NPC.Atma);
 				this.logProgress(me.getQuest(13,0),"Summoner");
 			break;
 			case TalRashaTomb: //Duriel
@@ -187,6 +187,11 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 76: //Skip Act3 Jungles
+				if(me.diff == 2){
+					Attack.clearLevel(0);
+					if(!this.getKhalimEye()){quit();}
+					Pather.useWaypoint(76);
+				}
 				if(!this.skipAreas(76,77)){delay(5000);quit();}
 			break;
 			case 77: //Skip Act3 Jungles
@@ -202,12 +207,13 @@ function LevelLeader(){
 				if(me.getQuest(17,0)){break;}
 				this.clearToQuestLocation(94,2,193);
 				this.getQuestItem(548,193);
-				this.talkToNPC("Alkor");
+				this.talkToNPC(NPC.Alkor);
 				this.logProgress(me.getQuest(17,0),"Black Book");
 			break;
 			case 83: //Khalim Flail
 				Pather.useWaypoint(75);
 				Town.doChores();
+				if(me.diff == 2){this.getKhalimBrain();this.getKhalimEye();this.getKhalimHeart();}
 				this.clearToQuestLocation(83,2,404);
 				if(me.diff != 2){this.killImportantQuestBoss([345,346,347]);}
 				else{this.killQuestBoss(345);this.killQuestBoss(346);this.killQuestBoss(347);}
@@ -237,7 +243,7 @@ function LevelLeader(){
 			case 105: //Izual
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
-				this.talkToNPC("Tyrael");
+				this.talkToNPC(NPC.Tyrael);
 				this.logProgress(me.getQuest(25,0),"Izual");
 				Pather.usePortal(105,null);
 			break;
@@ -257,13 +263,13 @@ function LevelLeader(){
 				this.tryMakePortal();
 				this.waitForUnit(1,243);
 				this.killImportantQuestBoss(243,7788,5293);
-				this.talkToNPC("Tyrael");
+				this.talkToNPC(NPC.Tyrael);
 				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
 			case 111: //Shenk & Prisoners
 				Pather.moveTo(3883,5113,15,true,true);
 				this.killQuestBoss(760);
-				this.talkToNPC("Larzuk");
+				this.talkToNPC(NPC.Larzuk);
 				this.logProgress(me.getQuest(35,5),"Shenk");
 				this.talkToNPC("Qual-Kehk");
 				this.logProgress(me.getQuest(36,0),"Prisoners");
@@ -272,11 +278,11 @@ function LevelLeader(){
 				this.clearToQuestLocation(114,2,460);
 				delay(1000);
 				this.FreeAnya();
-				this.talkToNPC("Malah");
+				this.talkToNPC(NPC.Malah);
 				Town.move("portalspot");
 				Pather.usePortal(114,me.name);
 				this.FreeAnya();
-				this.talkToNPC("Malah");
+				this.talkToNPC(NPC.Malah);
 				Pather.moveTo(17590,8068);
 				delay(15000);
 				this.talkToNPC(NPC.Anya);
@@ -289,7 +295,7 @@ function LevelLeader(){
 				}
 				this.clearToQuestLocation(124,2,462);
 				this.killQuestBoss(526);
-				this.talkToNPC("Anya");
+				this.talkToNPC(NPC.Anya);
 				this.logProgress(me.getQuest(38,0),"Nihlathak");
 			break;
 			case 120: //Ancients
@@ -548,7 +554,7 @@ function LevelLeader(){
 			case 3:
 				Pather.journeyTo(40);
 				Pather.moveTo(5091,5155,5);
-				this.talkToNPC("Jerhyn");
+				this.talkToNPC(NPC.Jerhyn);
 				Pather.moveTo(5202,5056,5);
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
@@ -567,7 +573,7 @@ function LevelLeader(){
 				break;
 			case 5:
 				Pather.journeyTo(103);
-				this.talkToNPC("Tyrael");			
+				this.talkToNPC(NPC.Tyrael);			
 				delay(1000);
 				if(getUnit(2,566)){
 					me.cancel();
@@ -746,7 +752,7 @@ function LevelLeader(){
 		this.getQuestItem(553,405);
 		Town.doChores();
 		this.logProgress(me.getItem(553),"Khalim Eye");
-		return true;
+		return me.getItem(553);
 	};
 	
 	this.getKhalimHeart=function(){
@@ -759,7 +765,7 @@ function LevelLeader(){
 		this.getQuestItem(554);
 		Town.doChores();
 		this.logProgress(me.getItem(554),"Khalim Heart");
-		return true;
+		return me.getItem(554);
 	};
 	
 	this.getKhalimBrain=function(){
@@ -774,7 +780,7 @@ function LevelLeader(){
 		this.getQuestItem(555,406);
 		Town.doChores();
 		this.logProgress(me.getItem(555),"Khalim Brain");
-		return true;
+		return me.getItem(555);
 	};
 	
 //==============ACT II FUNCTIONS==============//
@@ -855,7 +861,7 @@ function LevelLeader(){
 				ReplaceMerc=true;
 			}
 		}else{
-			this.talkToNPC("Kashya");
+			this.talkToNPC(NPC.Kashya);
 			if(me.getMerc()){
 				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 			}
