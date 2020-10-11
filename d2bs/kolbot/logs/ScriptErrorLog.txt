@@ -6,3 +6,9 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:403, @levelfollower.js:183, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1045
 [2020/10/12 08:49:33] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:403, @levelfollower.js:183, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1045
+[2020/10/12 09:06:46] <ColdSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:403, @levelfollower.js:183, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1045
+[2020/10/12 09:06:48] <LightSorc> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:403, @levelfollower.js:183, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1045
+[2020/10/12 09:11:40] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:403, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
