@@ -112,8 +112,6 @@ function LevelLeader(){
 			case 37: //Andariel
 				Pather.moveTo(22535,9653,2,true,true);
 				delay(5000);
-				// Pather.moveTo(22480,9570,2,true,true);
-				// Pather.moveTo(22549,9520,2,true,true);
 				this.tryMakePortal();
 				this.killImportantQuestBoss(156,22549,9577);
 				Town.doChores();
@@ -129,7 +127,6 @@ function LevelLeader(){
 			break;
 			case 57: //Cube
 				if(me.getItem(549)){break;}
-				// Pather.moveToExit(60,true,true);
 				this.clearToQuestLocation(60,2,354);
 				this.getQuestItem(549,354);
 				Town.doChores();
@@ -215,8 +212,8 @@ function LevelLeader(){
 				Town.doChores();
 				if(me.diff == 2){this.getKhalimBrain();this.getKhalimEye();this.getKhalimHeart();}
 				this.clearToQuestLocation(83,2,404);
-				if(me.diff != 2){this.killImportantQuestBoss([345,346,347]);}
-				else{this.killQuestBoss(345);this.killQuestBoss(346);this.killQuestBoss(347);}
+				if(me.diff == 2){this.killQuestBoss(345);this.killQuestBoss(346);this.killQuestBoss(347);}
+				else{this.killImportantQuestBoss([345,346,347]);}
 				this.getQuestItem(173);
 				Town.doChores();
 				Pather.journeyTo(75);

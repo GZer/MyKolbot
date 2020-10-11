@@ -282,6 +282,7 @@ function LevelFollower(){
 				ReplaceMerc=true;
 			}
 		}else{
+			if(!me.getQuest(2,0)){ReplaceMerc=true;}
 			this.talkToNPC("Kashya");
 			if(me.getMerc()){this.logProgress(me.getMerc(),"Got free Merc - "+me.name);}
 		}		
