@@ -711,7 +711,7 @@ function LevelLeader(){
 			delay(1000);
 		}
 		Will=me.getItem(174);
-		if(Will && !me.getQuest(21,0)){
+		if(Will){
 			if(Will.toCursor() && clickItem(0,4)){
 				delay(500);
 				if(Will.bodylocation == 4 && getCursorType() == 3){
