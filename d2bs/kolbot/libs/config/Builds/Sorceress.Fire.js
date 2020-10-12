@@ -298,6 +298,7 @@ var AutoBuildTemplate={
 			SkillPoints: [53],//Chain Lightning
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
+				Config.Cubing=true;
 				Config.AttackSkill=[42,47,47,47,47,53,49];
 			}
 		},
