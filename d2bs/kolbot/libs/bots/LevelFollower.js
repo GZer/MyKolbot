@@ -282,15 +282,18 @@ function LevelFollower(){
 				ReplaceMerc=true;
 			}
 		}else{
-			// if(!me.getQuest(2,0)){NewMerc=true;}
 			this.talkToNPC("Kashya");
-			if(me.getMerc()){this.logProgress(me.getMerc(),"Got free Merc - "+me.name);}
+			if(me.getMerc()){
+				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
+			}
 		}		
 		if(ReplaceMerc && me.act >= 2){
 			this.unEquipMerc();
+			delay(1000);
+			this.unEquipMerc();
 			this.hireA2Merc();
 			Item.autoEquipMerc();
-			delay(3000);
+			delay(1000);
 			Item.autoEquipMerc();
 			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
 		}		
@@ -330,7 +333,7 @@ function LevelFollower(){
 		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length > 0 && me.gold > 50000){
+			while(MercId.length > 0 && me.gold > 49999){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
@@ -355,7 +358,9 @@ function LevelFollower(){
 		 switch(bytes[0]){
 			case 0x4e:
 				var id=(bytes[2] << 8) + bytes[1];
-				if(MercId.indexOf(id) != -1){MercId.length=0;}
+				if(MercId.indexOf(id) != -1){
+					MercId.length=0;
+				}
 				MercId.push(id);
 				break;
 		}
