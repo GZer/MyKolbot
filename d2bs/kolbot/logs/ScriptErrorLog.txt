@@ -12,3 +12,7 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:403, @levelfollower.js:183, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1045
 [2020/10/12 09:11:40] <Auradin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 4
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:403, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/12 10:46:57] <FireSorc> Error in LevelFollower (pather.js line 570): getPresetUnits failed, couldn't access the level!
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:404, @levelfollower.js:114, @levelfollower.js:218, Pather.moveToPreset@pather.js:570
+[2020/10/12 13:06:43] <FireSorc> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:390, @levelfollower.js:367, @levelfollower.js:292, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
