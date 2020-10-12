@@ -11,7 +11,7 @@
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 5 && [FCR] >= 20 # [Tier] == 13
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[ColdSkillTab]+[SkillBlizzard]+[SkillGlacialSpike] >= 5 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 14
 [Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 90
-[Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillColdMastery] == 2 # [Tier] == 95
+//[Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillColdMastery] == 2 # [Tier] == 95
 [Name] == DimensionalShard && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 98
 [Name] == DimensionalShard && [Flag] != Ethereal && [Quality] == Unique # [PassiveColdMastery] >= 30 && [FireResist]+[LightResist] >= 80 # [Tier] == 99
 

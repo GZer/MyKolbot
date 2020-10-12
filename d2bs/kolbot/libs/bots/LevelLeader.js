@@ -271,6 +271,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(36,0),"Prisoners");
 			break;
 			case 114: //Anya
+				if(me.getQuest(37,0)){break;}
 				this.clearToQuestLocation(114,2,460);
 				delay(1000);
 				this.FreeAnya();

@@ -39,7 +39,7 @@
 [Type] == Gold
 
 // ==============MERC UNIQUES/RUNEWORDS ===============//
-[Type] == Polearm && [Flag] == Runeword && [Flag] == Ethereal # [MeditationAura] >= 0 || [ConvictionAura] >= 0
+[Type] == Polearm && [Flag] == Ethereal # [MeditationAura] >= 0 || [ConvictionAura] >= 0
 ([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && ([Quality] == Unique || [Quality] == Set) # [LifeLeech] > 0 && ([IAS] >= 10 || [MaxHP] >= 50 || [NormalDamageReduction] >= 10)
 ([Name] == Cuirass || [Name] == MeshArmor) && [Quality] == Unique
 
@@ -55,6 +55,7 @@
 [Type] == Boots && [Flag] != Ethereal && [Quality] == Unique # [SkillSkeletonMastery] >= 1 && [Strength] >= 10
 
 // ===============MAGIC FIND UNIQUES ===============//
+[Name] == Ring && [Quality] == Unique # [ItemMagicBonus] == 30
 [Name] == HeavyBelt && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 30
 [Name] == BattleBoots && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 50
 [Name] == ChainGloves && [Flag] != Ethereal && [Quality] == Unique # [ItemMagicBonus] == 40

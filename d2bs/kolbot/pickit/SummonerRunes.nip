@@ -5,10 +5,10 @@
 
 // ===============RUNEWORDS ===============//
 //Bone
-[Name] == MagePlate && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [Sockets] == 3 || [Sockets] == 0 # [MaxQuantity] == 1
+[Name] == MagePlate && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 3 || [Sockets] == 0 # [MaxQuantity] == 1
 
 //Splendor
-[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal && [Quality] <= Superior # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 && ([Sockets] == 2 || [Sockets] == 0) # [MaxQuantity] == 1
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] <= Superior # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 && ([Sockets] == 2 || [Sockets] == 0) # [MaxQuantity] == 1
 
 //Merc
-[Type] == Polearm && [Flag] == Ethereal && [Quality] == Superior && [Class] >= Exceptional # [EnhancedDamage] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == Polearm && [Flag] == Ethereal && [Quality] == Superior && [Class] >= 1 # [EnhancedDamage] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1

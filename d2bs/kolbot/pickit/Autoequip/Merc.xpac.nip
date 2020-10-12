@@ -1,25 +1,25 @@
 // ====================== MERC ====================== //
 //Mid tier
-([Type] == Spear || [Type] == Polearm) && [Class] == 1 && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm) && [Class] == 1 && ([Quality] == Magic || [Quality] == Rare) # [LifeLeech] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm) && [Class] == 1 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm) && [Class] == 1 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 4 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 && [Flag] == Ethereal # # [MercTier] == 5 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 # [LifeLeech] > 0 # [MercTier] == 6 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 7 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 8 && [MaxQuantity] == 1
 
-([Type] == Armor || [Type] == Helm) && [Class] == 1 && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
-([Type] == Armor || [Type] == Helm) && [Class] == 1 && ([Quality] == Magic || [Quality] == Rare) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP] > 40 # [MercTier] == 2 && [MaxQuantity] == 1
-([Type] == Armor || [Type] == Helm) && [Class] == 1 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP] > 60 # [MercTier] == 3 && [MaxQuantity] == 1
-([Type] == Armor || [Type] == Helm) && [Class] == 1 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP] > 80 # [MercTier] == 4 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 1 && [Flag] == Ethereal # # [MercTier] == 5 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 1 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 00 # [MercTier] == 6 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 1 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 20 # [MercTier] == 7 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 1 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 40 # [MercTier] == 8 && [MaxQuantity] == 1
 
 //High tier
-([Type] == Spear || [Type] == Polearm) && [Class] == 2 && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm) && [Class] == 2 && ([Quality] == Magic || [Quality] == Rare) # [LifeLeech] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm) && [Class] == 2 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm) && [Class] == 2 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 4 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 && [Flag] == Ethereal # # [MercTier] == 9 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 # [LifeLeech] > 0 # [MercTier] == 10 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 11 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 12 && [MaxQuantity] == 1
 
-([Type] == Armor || [Type] == Helm) && [Class] == 2 && [Flag] == Ethereal # # [MercTier] == 1 && [MaxQuantity] == 1
-([Type] == Armor || [Type] == Helm) && [Class] == 2 && ([Quality] == Magic || [Quality] == Rare) # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP] > 40 # [MercTier] == 2 && [MaxQuantity] == 1
-([Type] == Armor || [Type] == Helm) && [Class] == 2 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP] > 60 # [MercTier] == 3 && [MaxQuantity] == 1
-([Type] == Armor || [Type] == Helm) && [Class] == 2 && ([Quality] == Magic || [Quality] == Rare) && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP] > 80 # [MercTier] == 4 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 2 && [Flag] == Ethereal # # [MercTier] == 9 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 2 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 00 # [MercTier] == 10 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 2 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 20 # [MercTier] == 11 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 2 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 40 # [MercTier] == 12 && [MaxQuantity] == 1
 
 //Uniques
 ([Type] == Armor || [Type] == Helm) && [Class] == 0 # [LifeLeech] > 0 || [IAS] >= 10 # [MercTier] == 90

@@ -209,6 +209,16 @@ var AutoBuildTemplate={
 				Config.Runewords.push([Runeword.Enigma,"Mage Plate"]);
 				Config.Runewords.push([Runeword.Enigma,"Archon Plate"]);
 				//Helm
+				Config.Runewords.push([Runeword.Lore,"Cap"]);
+				Config.Runewords.push([Runeword.Lore,"Skull Cap"]);
+				Config.Runewords.push([Runeword.Lore,"Helm"]);
+				Config.Runewords.push([Runeword.Lore,"Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Bone Helm"]);
+				Config.Runewords.push([Runeword.Lore,"War Hat"]);
+				Config.Runewords.push([Runeword.Lore,"Sallet"]);
+				Config.Runewords.push([Runeword.Lore,"Casque"]);
+				Config.Runewords.push([Runeword.Lore,"Death Mask"]);
+				Config.Runewords.push([Runeword.Lore,"Grim Helm"]);
 				Config.Runewords.push([Runeword.Lore,"Wolf Head"]);
 				Config.Runewords.push([Runeword.Lore,"Hawk Helm"]);
 				Config.Runewords.push([Runeword.Lore,"Antlers"]);
