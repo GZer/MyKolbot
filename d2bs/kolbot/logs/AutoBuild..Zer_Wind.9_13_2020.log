@@ -794,3 +794,25 @@ AutoBuild: useStatPoint(3): Vitality
 AutoBuild: Stat (5/5) Increased Vitality from 264 to 265
 AutoBuild: Updating Config from level 60 to 61
 AutoBuild: Incrementing cached character level to 61
+AutoBuild: Stat points: 15      Skill points: 3
+AutoBuild: Level up detected ( 61 --> 62 )
+AutoBuild: Warning: Number of skills specified in your build template at level 62 exceeds the available unused skill points
+Only the first 3 skills 250, 240, 245 will be added
+AutoBuild: useSkillPoint(): Hurricane (250)
+AutoBuild: Skill (1/3) Increased Hurricane (250) by one (level:  17)
+AutoBuild: useSkillPoint(): Twister (240)
+AutoBuild: Skill (2/3) Increased Twister (240) by one (level:  4)
+AutoBuild: useSkillPoint(): Tornado (245)
+AutoBuild: Attempt to spend skill point 3 in Tornado (245) may have failed!
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Attempt to spend point 1 in Strength may have failed!
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Attempt to spend point 2 in Vitality may have failed!
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (3/5) Increased Vitality from 266 to 267
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 267 to 268
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 268 to 269
+AutoBuild: Updating Config from level 61 to 62
+AutoBuild: Incrementing cached character level to 62
