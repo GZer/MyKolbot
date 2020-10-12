@@ -37,7 +37,7 @@ function LevelLeader(){
 				Pather.journeyTo(3);
 				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
-				this.talkToNPC(NPC.Kashya);
+				this.talkToNPC("Kashya");
 				Town.doChores();
 				this.logProgress(me.getQuest(2,0),"Blood Raven");
 			break;
@@ -61,7 +61,7 @@ function LevelLeader(){
 					}
 				}
 				while(me.getItem(524) && !me.getItem(525) && i < 10){
-					this.talkToNPC(NPC.Akara);
+					this.talkToNPC("Akara");
 					i++;
 				}
 				Pather.useWaypoint(4);
@@ -89,7 +89,7 @@ function LevelLeader(){
 				}
 				Attack.clearLevel(0);
 				Town.doChores();
-				this.talkToNPC(NPC.Cain);
+				this.talkToNPC("Cain");
 				this.logProgress(me.getQuest(4,0),"Tristram");
 			break;
 			case 6: //Countess
@@ -106,7 +106,7 @@ function LevelLeader(){
 				this.killQuestBoss(402);
 				this.getQuestItem(89,108);
 				Town.doChores();
-				this.talkToNPC(NPC.Charsi);
+				this.talkToNPC("Charsi");
 				this.logProgress(me.getQuest(3,3),"Smith");
 			break;
 			case 37: //Andariel
@@ -122,7 +122,7 @@ function LevelLeader(){
 				this.killQuestBoss(229);
 				this.getQuestItem(552,20);
 				delay(5000);
-				this.talkToNPC(NPC.Atma);
+				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(9,0),"Radament");
 			break;
 			case 57: //Cube
@@ -148,8 +148,8 @@ function LevelLeader(){
 				this.getQuestItem(521,149);
 				Town.doChores();
 				if(this.cubeStaff()){
-					this.talkToNPC(NPC.Drognan);
-					this.talkToNPC(NPC.Jerhyn);
+					this.talkToNPC("Drognan");
+					this.talkToNPC("Jerhyn");
 				}else{
 					this.logProgress(false,"Quit CubingStaff");delay(5000);quit();
 				}
@@ -163,7 +163,7 @@ function LevelLeader(){
 				this.killImportantQuestBoss(250);
 				Pather.journeyTo(46);
 				Pather.getWP(46,true);
-				this.talkToNPC(NPC.Atma);
+				this.talkToNPC("Atma");
 				this.logProgress(me.getQuest(13,0),"Summoner");
 			break;
 			case TalRashaTomb: //Duriel
@@ -204,7 +204,7 @@ function LevelLeader(){
 				if(me.getQuest(17,0)){break;}
 				this.clearToQuestLocation(94,2,193);
 				this.getQuestItem(548,193);
-				this.talkToNPC(NPC.Alkor);
+				this.talkToNPC("Alkor");
 				this.logProgress(me.getQuest(17,0),"Black Book");
 			break;
 			case 83: //Khalim Flail
@@ -240,7 +240,7 @@ function LevelLeader(){
 			case 105: //Izual
 				this.clearToQuestLocation(105,1,256);
 				this.killQuestBoss(256);
-				this.talkToNPC(NPC.Tyrael);
+				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(25,0),"Izual");
 				Pather.usePortal(105,null);
 			break;
@@ -260,13 +260,13 @@ function LevelLeader(){
 				this.tryMakePortal();
 				this.waitForUnit(1,243);
 				this.killImportantQuestBoss(243,7788,5293);
-				this.talkToNPC(NPC.Tyrael);
+				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
 			case 111: //Shenk & Prisoners
 				Pather.moveTo(3883,5113,15,true,true);
 				this.killQuestBoss(760);
-				this.talkToNPC(NPC.Larzuk);
+				this.talkToNPC("Larzuk");
 				this.logProgress(me.getQuest(35,5),"Shenk");
 				this.talkToNPC("Qual-Kehk");
 				this.logProgress(me.getQuest(36,0),"Prisoners");
@@ -275,11 +275,11 @@ function LevelLeader(){
 				this.clearToQuestLocation(114,2,460);
 				delay(1000);
 				this.FreeAnya();
-				this.talkToNPC(NPC.Malah);
+				this.talkToNPC("Malah");
 				Town.move("portalspot");
 				Pather.usePortal(114,me.name);
 				this.FreeAnya();
-				this.talkToNPC(NPC.Malah);
+				this.talkToNPC("Malah");
 				Pather.moveTo(17590,8068);
 				delay(15000);
 				this.talkToNPC(NPC.Anya);
@@ -292,7 +292,7 @@ function LevelLeader(){
 				}
 				this.clearToQuestLocation(124,2,462);
 				this.killQuestBoss(526);
-				this.talkToNPC(NPC.Anya);
+				this.talkToNPC("Anya");
 				this.logProgress(me.getQuest(38,0),"Nihlathak");
 			break;
 			case 120: //Ancients
@@ -542,7 +542,7 @@ function LevelLeader(){
 			case 3:
 				Pather.journeyTo(40);
 				Pather.moveTo(5091,5155,5);
-				this.talkToNPC(NPC.Jerhyn);
+				this.talkToNPC("Jerhyn");
 				Pather.moveTo(5202,5056,5);
 				Town.move("Meshif");
 				NPC=getUnit(1,"Meshif");
@@ -561,7 +561,7 @@ function LevelLeader(){
 				break;
 			case 5:
 				Pather.journeyTo(103);
-				this.talkToNPC(NPC.Tyrael);			
+				this.talkToNPC("Tyrael");			
 				delay(1000);
 				if(getUnit(2,566)){
 					me.cancel();
@@ -850,7 +850,7 @@ function LevelLeader(){
 				ReplaceMerc=true;
 			}
 		}else{
-			this.talkToNPC(NPC.Kashya);
+			this.talkToNPC("Kashya");
 			if(me.getMerc()){
 				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 			}
@@ -997,7 +997,7 @@ function LevelLeader(){
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		var UptoAct=ActNumber+1;
-		if(!this.ChangeAct(UptoAct)){this.ChangeAct(UptoAct);delay(5000);say("Quitting");}
+		if(!this.ChangeAct(UptoAct)){this.ChangeAct(UptoAct);say("Quitting");delay(5000);}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			var UpToArea=LevelingAreas[ActNumber][LevelArea],NextArea=0;
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
