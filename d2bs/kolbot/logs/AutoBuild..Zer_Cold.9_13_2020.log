@@ -752,3 +752,73 @@ AutoBuild: Loaded helper thread
 AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
 AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
 AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+AutoBuild: Stat points: 15      Skill points: 5
+AutoBuild: Level up detected ( 60 --> 61 )
+AutoBuild: useSkillPoint(): Cold Mastery (65)
+AutoBuild: Skill (1/4) Increased Cold Mastery (65) by one (level:  17)
+AutoBuild: useSkillPoint(): Blizzard (59)
+AutoBuild: Attempt to spend skill point 2 in Blizzard (59) may have failed!
+AutoBuild: useSkillPoint(): Ice Blast (45)
+AutoBuild: Skill (3/4) Increased Ice Blast (45) by one (level:  11)
+AutoBuild: useSkillPoint(): Glacial Spike (55)
+AutoBuild: Skill (4/4) Increased Glacial Spike (55) by one (level:  5)
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 69 to 70
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (2/5) Increased Energy from 170 to 171
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (3/5) Increased Energy from 171 to 172
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 128 to 129
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 129 to 130
+AutoBuild: Updating Config from level 60 to 61
+AutoBuild: Incrementing cached character level to 61
+AutoBuild: Stat points: 15      Skill points: 3
+AutoBuild: Level up detected ( 61 --> 62 )
+AutoBuild: Warning: Number of skills specified in your build template at level 62 exceeds the available unused skill points
+Only the first 3 skills 65, 59, 45 will be added
+AutoBuild: useSkillPoint(): Cold Mastery (65)
+AutoBuild: Skill (1/3) Increased Cold Mastery (65) by one (level:  18)
+AutoBuild: useSkillPoint(): Blizzard (59)
+AutoBuild: Attempt to spend skill point 2 in Blizzard (59) may have failed!
+AutoBuild: useSkillPoint(): Ice Blast (45)
+AutoBuild: Skill (3/3) Increased Ice Blast (45) by one (level:  12)
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 70 to 71
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (2/5) Increased Energy from 172 to 173
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (3/5) Increased Energy from 173 to 174
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 130 to 131
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+AutoBuild: Updating Config from level 61 to 62
+AutoBuild: Incrementing cached character level to 62
+AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+AutoBuild: Loaded helper thread
+AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+AutoBuild: Stat points: 15      Skill points: 2
+AutoBuild: Level up detected ( 62 --> 63 )
+AutoBuild: Warning: Number of skills specified in your build template at level 63 exceeds the available unused skill points
+Only the first 2 skills 65, 59 will be added
+AutoBuild: useSkillPoint(): Cold Mastery (65)
+AutoBuild: Skill (1/2) Increased Cold Mastery (65) by one (level:  19)
+AutoBuild: useSkillPoint(): Blizzard (59)
+AutoBuild: Attempt to spend skill point 2 in Blizzard (59) may have failed!
+AutoBuild: useStatPoint(0): Strength
+AutoBuild: Stat (1/5) Increased Strength from 71 to 72
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (2/5) Increased Energy from 174 to 175
+AutoBuild: useStatPoint(1): Energy
+AutoBuild: Stat (3/5) Increased Energy from 175 to 176
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (4/5) Increased Vitality from 132 to 133
+AutoBuild: useStatPoint(3): Vitality
+AutoBuild: Stat (5/5) Increased Vitality from 133 to 134
+AutoBuild: Updating Config from level 62 to 63
+AutoBuild: Incrementing cached character level to 63
