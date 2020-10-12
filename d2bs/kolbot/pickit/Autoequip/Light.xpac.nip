@@ -11,7 +11,7 @@
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 5 && [FCR] >= 20 # [Tier] == 13
 [Type] == Orb && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[SorceressSkills]+[LightningSkillTab]+[SkillLightningMastery]+[SkillLightning] >= 5 && [FCR] >= 20 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxMana]+[MaxHP] > 10) # [Tier] == 14
 [Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 90
-[Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillLightningMastery] == 2 # [Tier] == 95
+//[Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillLightningMastery] == 2 # [Tier] == 95
 [Name] == EldritchOrb && [Flag] != Ethereal && [Quality] == Unique # [SorceressSkills] >= 2 # [Tier] == 98
 [Name] == EldritchOrb && [Flag] != Ethereal && [Quality] == Unique # [SorceressSkills] >= 3 && [PassiveLtngMastery] >= 20 && [Energy] >= 30 # [Tier] == 99
 

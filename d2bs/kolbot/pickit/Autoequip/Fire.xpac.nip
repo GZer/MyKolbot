@@ -10,7 +10,7 @@
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 15
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 16
 [Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 90
-[Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillFireMastery] == 2 # [Tier] == 95
+//[Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillFireMastery] == 2 # [Tier] == 95
 [Name] == EldritchOrb && [Flag] != Ethereal && [Quality] == Unique # [SorceressSkills] >= 2 # [Tier] == 98
 [Name] == EldritchOrb && [Flag] != Ethereal && [Quality] == Unique # [SorceressSkills] >= 3 && [PassiveFireMastery] >= 20 && [Energy] >= 30 # [Tier] == 99
 
