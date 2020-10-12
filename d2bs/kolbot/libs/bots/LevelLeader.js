@@ -324,7 +324,7 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 39) || me.charlvl > 75){
+					if((me.diff == 0 && me.charlvl > 35) || me.charlvl > 75){
 						Pather.moveTo(15134,5923,true,true);
 						this.killImportantQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
@@ -696,7 +696,8 @@ function LevelLeader(){
 
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
-		if(!me.getQuest(18,0) && !me.getItem(174)){
+		if(me.getQuest(18,0){return true;}
+		else if(!me.getItem(174)){
 			if(Eye){Storage.Cube.MoveTo(Eye);}
 			else{this.getKhalimEye();Storage.Cube.MoveTo(Eye);}
 			if(Brain){Storage.Cube.MoveTo(Brain);}
@@ -710,7 +711,7 @@ function LevelLeader(){
 			delay(1000);
 		}
 		Will=me.getItem(174);
-		if(Will){
+		if(Will && !me.getQuest(21,0)){
 			if(Will.toCursor() && clickItem(0,4)){
 				delay(500);
 				if(Will.bodylocation == 4 && getCursorType() == 3){
