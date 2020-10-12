@@ -696,7 +696,7 @@ function LevelLeader(){
 
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
-		if(me.getQuest(18,0){return true;}
+		if(me.getQuest(18,0)){return true;}
 		else if(!me.getItem(174)){
 			if(Eye){Storage.Cube.MoveTo(Eye);}
 			else{this.getKhalimEye();Storage.Cube.MoveTo(Eye);}
