@@ -208,7 +208,6 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(17,0),"Black Book");
 			break;
 			case 83: //Khalim Flail
-				Pather.useWaypoint(75);
 				Town.doChores();
 				if(me.diff == 2){this.getKhalimBrain();this.getKhalimEye();this.getKhalimHeart();}
 				this.clearToQuestLocation(83,2,404);
