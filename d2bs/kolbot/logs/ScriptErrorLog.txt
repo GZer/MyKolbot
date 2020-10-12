@@ -30,3 +30,7 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:390, @levelfollower.js:367, @levelfollower.js:292, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
 [2020/10/12 14:28:26] <Singer> Error in LevelLeader (town.js line 2227): Town.goToTown: Failed use WP
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1007, useWaypoint@pather.js:962, Pather.getWP@pather.js:1329, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2227
+[2020/10/12 16:16:36] <ColdSorc> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:390, @levelfollower.js:367, @levelfollower.js:292, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/12 16:24:24] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 56
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:404, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
