@@ -37,8 +37,8 @@ function LevelLeader(){
 				Pather.journeyTo(3);
 				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
-				this.talkToNPC("Kashya");
 				Town.doChores();
+				this.talkToNPC("Kashya");
 				this.logProgress(me.getQuest(2,0),"Blood Raven");
 			break;
 			case 8: //Clear Den of Evil
