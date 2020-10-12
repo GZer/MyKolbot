@@ -292,9 +292,8 @@ function LevelFollower(){
 			delay(1000);
 			this.unEquipMerc();
 			this.hireA2Merc();
-			Item.autoEquipMerc();
-			delay(1000);
-			Item.autoEquipMerc();
+			try{Item.autoEquipMerc();delay(1000);Item.autoEquipMerc();}
+			catch(err){print("Failed to AutoEquip Merc");}
 			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
 		}		
 		return true;

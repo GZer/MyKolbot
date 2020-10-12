@@ -451,7 +451,7 @@ function LevelLeader(){
 			if(Boss){
 				while(Party && !Boss.dead){
 					Skill.cast(132,0,Boss.x,Boss.y);
-					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 45){
+					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 50){
 						this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 						quit();
 					}
@@ -861,9 +861,8 @@ function LevelLeader(){
 			delay(1000);
 			this.unEquipMerc();
 			this.hireA2Merc();
-			Item.autoEquipMerc();
-			delay(1000);
-			Item.autoEquipMerc();
+			try{Item.autoEquipMerc();delay(1000);Item.autoEquipMerc();}
+			catch(err){print("Failed to AutoEquip Merc");}
 			this.logProgress(me.getMerc(),"Replace Merc with "+HiredMercAura+" Merc - "+me.name);
 		}		
 		return true;

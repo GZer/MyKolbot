@@ -2,3 +2,21 @@
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1013, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2206, Pather.makePortal@pather.js:1045
 [2020/10/12 18:25:41] <Auradin> Error in TownChicken.js (town.js line 2260): Town.visitTown: Failed to go back from town
 Stack: main@townchicken.js:94, Town.visitTown@town.js:2260
+[2020/10/12 18:38:52] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1030, @levelleader.js:402, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/12 18:42:25] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1030, @levelleader.js:402, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/12 18:48:13] <Singer> Error in LevelLeader (prototypes.js line 251): Unit.sell: Must be used on items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1013, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:624, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.popChests@pather.js:55, Misc.openChests@misc.js:1227, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2251, Town.doChores@town.js:89, Town.clearInventory@town.js:1982, Unit.prototype.sell@prototypes.js:251
+[2020/10/12 19:47:49] <Auradin> Error in TownChicken.js (town.js line 2260): Town.visitTown: Failed to go back from town
+Stack: main@townchicken.js:94, Town.visitTown@town.js:2260
+[2020/10/12 19:57:38] <LightSorc> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 49
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:409, @levelfollower.js:114, @levelfollower.js:217, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/12 20:20:16] <Singer> Error in LevelLeader (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1000, @levelleader.js:993, @levelleader.js:864, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/12 20:21:33] <Singer> Error in LevelLeader (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1000, @levelleader.js:993, @levelleader.js:864, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/12 20:22:33] <Singer> Error in LevelLeader (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1000, @levelleader.js:993, @levelleader.js:864, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559
+[2020/10/12 20:23:29] <Singer> Error in LevelLeader (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1000, @levelleader.js:993, @levelleader.js:864, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559

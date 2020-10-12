@@ -985,3 +985,1185 @@
 [10/12/20 18:28:44] D2BS 24624: move retry 1
 [10/12/20 18:28:48] D2BS 24624: 34,35
 [10/12/20 18:28:50] D2BS 24624: move retry 1
+[10/12/20 18:29:02] D2BS 24624: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 18:29:09] D2BS 24624: move retry 1
+[10/12/20 18:29:15] D2BS 24624: move retry 1
+[10/12/20 18:29:17] D2BS 24624: move retry 1
+[10/12/20 18:29:23] D2BS 24624: move retry 2
+[10/12/20 18:29:40] D2BS 24624: move retry 1
+[10/12/20 18:29:41] D2BS 24624: move retry 2
+[10/12/20 18:29:44] D2BS 24624: move retry 1
+[10/12/20 18:29:53] D2BS 24624: 35,36
+[10/12/20 18:30:36] D2BS 24624: initNPC: heal
+[10/12/20 18:30:44] D2BS 24624: 1
+[10/12/20 18:31:10] D2BS 24624: 36,37
+[10/12/20 18:31:23] D2BS 24624: move retry 1
+[10/12/20 18:31:30] D2BS 24624: move retry 1
+[10/12/20 18:31:58] D2BS 24624: ÿc7Picked up ÿc438 Gold
+[10/12/20 18:32:03] D2BS 24624: Script default.dbj ended
+[10/12/20 18:32:03] D2BS 24624: Script tools\autobuildthread.js ended
+[10/12/20 18:32:03] D2BS 24624: Script tools\party.js ended
+[10/12/20 18:32:03] D2BS 24624: Script tools\toolsthread.js ended
+[10/12/20 18:32:03] D2BS 24624: Script tools\townchicken.js ended
+[10/12/20 18:32:10] D2BS 24624: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 18:32:10] D2BS 24624: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 18:32:10] D2BS 24624: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 18:32:10] D2BS 24624: Updating Config from level 0 to 13
+[10/12/20 18:32:10] D2BS 24624: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/12/20 18:32:10] D2BS 24624: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 18:32:10] D2BS 24624: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:32:10] D2BS 24624: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:32:10] D2BS 24624: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc215 ms
+[10/12/20 18:32:10] D2BS 24624: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 18:32:10] D2BS 24624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 18:32:10] D2BS 24624: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 18:32:10] D2BS 24624: Updating Config from level 0 to 13
+[10/12/20 18:32:10] D2BS 24624: AutoBuild: Loaded helper thread
+[10/12/20 18:32:10] D2BS 24624: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 18:32:10] D2BS 24624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 18:32:10] D2BS 24624: Updating Config from level 0 to 13
+[10/12/20 18:32:10] D2BS 24624: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 18:32:10] D2BS 24624: ÿc3Start ToolsThread script
+[10/12/20 18:32:10] D2BS 24624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 18:32:10] D2BS 24624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 18:32:10] D2BS 24624: Updating Config from level 0 to 13
+[10/12/20 18:32:10] D2BS 24624: Updating Config from level 0 to 13
+[10/12/20 18:32:19] D2BS 24624: initNPC: heal
+[10/12/20 18:32:32] D2BS 24624: initNPC: BuyPotions
+[10/12/20 18:33:03] D2BS 24624: AutoBuild: Stat points: 5      Skill points: 2
+[10/12/20 18:33:03] D2BS 24624: AutoBuild: Level up detected ( 13 --> 14 )
+[10/12/20 18:33:03] D2BS 24624: AutoBuild: useSkillPoint(): Prayer (99)
+[10/12/20 18:33:03] D2BS 24624: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  12)
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: useStatPoint(0): Strength
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: Stat (1/5) Increased Strength from 37 to 38
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: useStatPoint(2): Dexterity
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: Stat (2/5) Increased Dexterity from 32 to 33
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: Stat (3/5) Increased Vitality from 61 to 62
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: Stat (4/5) Increased Vitality from 62 to 63
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: Stat (5/5) Increased Vitality from 63 to 64
+[10/12/20 18:33:04] D2BS 24624: Updating Config from level 13 to 14
+[10/12/20 18:33:04] D2BS 24624: Updating Config from level 13 to 14
+[10/12/20 18:33:04] D2BS 24624: Updating Config from level 13 to 14
+[10/12/20 18:33:04] D2BS 24624: Updating Config from level 13 to 14
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: Updating Config from level 13 to 14
+[10/12/20 18:33:04] D2BS 24624: AutoBuild: Incrementing cached character level to 14
+[10/12/20 18:33:06] D2BS 24624: ÿc7Picked up ÿc449 Gold
+[10/12/20 18:33:41] D2BS 24624: move retry 1
+[10/12/20 18:33:49] D2BS 24624: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 18:33:49] D2BS 24624: ÿc7Picked up ÿc4125 Gold
+[10/12/20 18:34:03] D2BS 24624: 35,36
+[10/12/20 18:34:26] D2BS 24624: move retry 1
+[10/12/20 18:34:31] D2BS 24624: move retry 1
+[10/12/20 18:34:36] D2BS 24624: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 18:34:39] D2BS 24624: initNPC: heal
+[10/12/20 18:34:45] D2BS 24624: initNPC: buyPotions
+[10/12/20 18:34:56] D2BS 24624: 1
+[10/12/20 18:34:57] D2BS 24624: initNPC: heal
+[10/12/20 18:35:06] D2BS 24624: move retry 1
+[10/12/20 18:35:29] D2BS 24624: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[10/12/20 18:35:41] D2BS 24624: ÿc7Picked up ÿc413 Gold
+[10/12/20 18:35:42] D2BS 24624: ÿc7Picked up ÿc438 Gold
+[10/12/20 18:35:42] D2BS 24624: move retry 1
+[10/12/20 18:35:47] D2BS 24624: move retry 1
+[10/12/20 18:35:51] D2BS 24624: ÿc7Picked up ÿc419 Gold
+[10/12/20 18:35:51] D2BS 24624: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 18:36:04] D2BS 24624: ÿc7Picked up ÿc451 Gold
+[10/12/20 18:36:16] D2BS 24624: ÿc1Skipping Dark Shaman 167 16
+[10/12/20 18:36:42] D2BS 24624: ÿc7Picked up ÿc3Axe ÿc0(ilvl 12) (Auradin.xpac.nip #6)
+[10/12/20 18:36:46] D2BS 24624: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 18:36:47] D2BS 24624: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 18:36:55] D2BS 24624: initNPC: heal
+[10/12/20 18:37:00] D2BS 24624: move retry 1
+[10/12/20 18:37:00] D2BS 24624: move retry 1
+[10/12/20 18:37:07] D2BS 24624: move retry 1
+[10/12/20 18:37:08] D2BS 24624: initNPC: identify
+[10/12/20 18:37:11] D2BS 24624: initNPC: fillTome
+[10/12/20 18:37:12] D2BS 24624: ÿc4MiniShopBotÿc0: Scanning 61 items.
+[10/12/20 18:37:13] D2BS 24624: initNPC: buyPotions
+[10/12/20 18:37:27] D2BS 24624: 1
+[10/12/20 18:37:35] D2BS 24624: 1,0
+[10/12/20 18:38:12] D2BS 24624: move retry 1
+[10/12/20 18:38:15] D2BS 24624: move retry 1
+[10/12/20 18:38:18] D2BS 24624: move retry 1
+[10/12/20 18:38:55] D2BS 24624: Script default.dbj ended
+[10/12/20 18:38:55] D2BS 24624: Script tools\autobuildthread.js ended
+[10/12/20 18:38:55] D2BS 24624: Script tools\party.js ended
+[10/12/20 18:38:55] D2BS 24624: Script tools\toolsthread.js ended
+[10/12/20 18:38:55] D2BS 24624: Script tools\townchicken.js ended
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 46416
+[10/12/20 18:39:00] D2BS 24624: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/12/20 18:39:00] D2BS 24624: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/12/20 18:39:00] D2BS 24624: 02FB3C94 (D2BS): (filename not available): QueryInterface
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 37352
+[10/12/20 18:39:00] D2BS 24624: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:39:00] D2BS 24624: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/12/20 18:39:00] D2BS 24624: 004027E5 (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 13736
+[10/12/20 18:39:00] D2BS 24624: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/12/20 18:39:00] D2BS 24624: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/12/20 18:39:00] D2BS 24624: 004102FC (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 50660
+[10/12/20 18:39:00] D2BS 24624: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:39:00] D2BS 24624: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/12/20 18:39:00] D2BS 24624: 0041A845 (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 39960
+[10/12/20 18:39:00] D2BS 24624: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 49020
+[10/12/20 18:39:00] D2BS 24624: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:39:00] D2BS 24624: 03037236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:39:00] D2BS 24624: 03122B1F (D2BS): (filename not available): JS_freeop
+[10/12/20 18:39:00] D2BS 24624: 03121A5E (D2BS): (filename not available): JS_freeop
+[10/12/20 18:39:00] D2BS 24624: 0304E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 49952
+[10/12/20 18:39:00] D2BS 24624: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/12/20 18:39:00] D2BS 24624: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/12/20 18:39:00] D2BS 24624: 02FBE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:39:00] D2BS 24624: 030401B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:39:00] D2BS 24624: 03122B1F (D2BS): (filename not available): JS_freeop
+[10/12/20 18:39:00] D2BS 24624: 03121A5E (D2BS): (filename not available): JS_freeop
+[10/12/20 18:39:00] D2BS 24624: 0304E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 50268
+[10/12/20 18:39:00] D2BS 24624: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:39:00] D2BS 24624: 03037236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:39:00] D2BS 24624: 03122B1F (D2BS): (filename not available): JS_freeop
+[10/12/20 18:39:00] D2BS 24624: 03121A5E (D2BS): (filename not available): JS_freeop
+[10/12/20 18:39:00] D2BS 24624: 0304E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Stack Walk Thread: 5940
+[10/12/20 18:39:00] D2BS 24624: 02FBB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/12/20 18:39:00] D2BS 24624: 02FB37F8 (D2BS): (filename not available): QueryInterface
+[10/12/20 18:39:00] D2BS 24624: 00408A05 (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 00408A81 (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:39:00] D2BS 24624: 006178E6 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:39:00] D2BS 24624: 00619352 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:39:00] D2BS 24624: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/12/20 18:39:00] D2BS 24624: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/12/20 18:39:00] D2BS 24624: 00405E6B (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 004065C7 (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 0040671F (Game): (filename not available): (function-name not available)
+[10/12/20 18:39:00] D2BS 24624: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:39:00] D2BS 24624: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:39:00] D2BS 24624: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:39:00] D2BS 24624: Crash File: BlizzardError/2020-10-12 18.39.00/Crash.txt
+[10/12/20 18:39:00] D2BS 24624: D2BS Shutdown complete.
+[10/12/20 18:39:02] D2BS 51048: D2BS Engine startup complete. 1.6.4U
+[10/12/20 18:39:02] D2BS 51048: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/12/20 18:39:02] D2BS 51048: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/12/20 18:39:02] D2BS 51048: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/12/20 18:39:02] D2BS 51048: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/12/20 18:39:02] D2BS 51048: ÿc2D2BSÿc0 :: Started Console Script
+[10/12/20 18:39:02] D2BS 51048: Auradin
+[10/12/20 18:39:04] D2BS 51048: Heartbeat loaded
+[10/12/20 18:39:21] D2BS 51048: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 18:39:21] D2BS 51048: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 18:39:22] D2BS 51048: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 18:39:22] D2BS 51048: Updating Config from level 0 to 14
+[10/12/20 18:39:22] D2BS 51048: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/12/20 18:39:22] D2BS 51048: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 18:39:22] D2BS 51048: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:39:22] D2BS 51048: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:39:22] D2BS 51048: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/12/20 18:39:22] D2BS 51048: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 18:39:22] D2BS 51048: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 18:39:22] D2BS 51048: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 18:39:22] D2BS 51048: Updating Config from level 0 to 14
+[10/12/20 18:39:22] D2BS 51048: AutoBuild: Loaded helper thread
+[10/12/20 18:39:22] D2BS 51048: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 18:39:22] D2BS 51048: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 18:39:22] D2BS 51048: Updating Config from level 0 to 14
+[10/12/20 18:39:22] D2BS 51048: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 18:39:22] D2BS 51048: ÿc3Start ToolsThread script
+[10/12/20 18:39:22] D2BS 51048: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 18:39:22] D2BS 51048: Updating Config from level 0 to 14
+[10/12/20 18:39:22] D2BS 51048: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 18:39:22] D2BS 51048: Updating Config from level 0 to 14
+[10/12/20 18:39:42] D2BS 51048: initNPC: BuyPotions
+[10/12/20 18:40:41] D2BS 51048: move retry 1
+[10/12/20 18:40:44] D2BS 51048: move retry 1
+[10/12/20 18:40:46] D2BS 51048: move retry 1
+[10/12/20 18:40:49] D2BS 51048: move retry 1
+[10/12/20 18:40:51] D2BS 51048: move retry 1
+[10/12/20 18:40:54] D2BS 51048: move retry 1
+[10/12/20 18:40:57] D2BS 51048: move retry 1
+[10/12/20 18:41:04] D2BS 51048: move retry 1
+[10/12/20 18:41:06] D2BS 51048: 47,48
+[10/12/20 18:41:15] D2BS 51048: move retry 1
+[10/12/20 18:41:33] D2BS 51048: move retry 1
+[10/12/20 18:41:35] D2BS 51048: move retry 2
+[10/12/20 18:41:40] D2BS 51048: move retry 1
+[10/12/20 18:41:41] D2BS 51048: move retry 1
+[10/12/20 18:41:50] D2BS 51048: move retry 1
+[10/12/20 18:41:52] D2BS 51048: move retry 1
+[10/12/20 18:41:55] D2BS 51048: move retry 1
+[10/12/20 18:41:58] D2BS 51048: move retry 1
+[10/12/20 18:42:00] D2BS 51048: move retry 1
+[10/12/20 18:42:02] D2BS 51048: move retry 1
+[10/12/20 18:42:04] D2BS 51048: move retry 2
+[10/12/20 18:42:06] D2BS 51048: move retry 3
+[10/12/20 18:42:08] D2BS 51048: move retry 1
+[10/12/20 18:42:10] D2BS 51048: move retry 1
+[10/12/20 18:42:28] D2BS 51048: Script default.dbj ended
+[10/12/20 18:42:28] D2BS 51048: Script tools\autobuildthread.js ended
+[10/12/20 18:42:28] D2BS 51048: Script tools\party.js ended
+[10/12/20 18:42:28] D2BS 51048: Script tools\toolsthread.js ended
+[10/12/20 18:42:28] D2BS 51048: Script tools\townchicken.js ended
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 33168
+[10/12/20 18:42:33] D2BS 51048: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/12/20 18:42:33] D2BS 51048: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/12/20 18:42:33] D2BS 51048: 02E63C94 (D2BS): (filename not available): QueryInterface
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 47976
+[10/12/20 18:42:33] D2BS 51048: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:42:33] D2BS 51048: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/12/20 18:42:33] D2BS 51048: 004027E5 (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 47600
+[10/12/20 18:42:33] D2BS 51048: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/12/20 18:42:33] D2BS 51048: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/12/20 18:42:33] D2BS 51048: 004102FC (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 49472
+[10/12/20 18:42:33] D2BS 51048: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:42:33] D2BS 51048: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/12/20 18:42:33] D2BS 51048: 0041A845 (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 50400
+[10/12/20 18:42:33] D2BS 51048: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 21300
+[10/12/20 18:42:33] D2BS 51048: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:42:33] D2BS 51048: 02EE7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:42:33] D2BS 51048: 02FD2B1F (D2BS): (filename not available): JS_freeop
+[10/12/20 18:42:33] D2BS 51048: 02FD1A5E (D2BS): (filename not available): JS_freeop
+[10/12/20 18:42:33] D2BS 51048: 02EFE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 8832
+[10/12/20 18:42:33] D2BS 51048: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/12/20 18:42:33] D2BS 51048: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/12/20 18:42:33] D2BS 51048: 02E6E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:42:33] D2BS 51048: 02EF01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:42:33] D2BS 51048: 02FD2B1F (D2BS): (filename not available): JS_freeop
+[10/12/20 18:42:33] D2BS 51048: 02FD1A5E (D2BS): (filename not available): JS_freeop
+[10/12/20 18:42:33] D2BS 51048: 02EFE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 16944
+[10/12/20 18:42:33] D2BS 51048: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/12/20 18:42:33] D2BS 51048: 02EE7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:42:33] D2BS 51048: 02FD2B1F (D2BS): (filename not available): JS_freeop
+[10/12/20 18:42:33] D2BS 51048: 02FD1A5E (D2BS): (filename not available): JS_freeop
+[10/12/20 18:42:33] D2BS 51048: 02EFE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 42448
+[10/12/20 18:42:33] D2BS 51048: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 0041014C (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: Stack Walk Thread: 50320
+[10/12/20 18:42:33] D2BS 51048: 02E6B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/12/20 18:42:33] D2BS 51048: 02E637F8 (D2BS): (filename not available): QueryInterface
+[10/12/20 18:42:33] D2BS 51048: 00408A05 (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 00408A81 (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:42:33] D2BS 51048: 00612AED (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:42:33] D2BS 51048: 0061930D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:42:33] D2BS 51048: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/12/20 18:42:33] D2BS 51048: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/12/20 18:42:33] D2BS 51048: 00405E6B (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 004065C7 (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 0040671F (Game): (filename not available): (function-name not available)
+[10/12/20 18:42:33] D2BS 51048: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/12/20 18:42:33] D2BS 51048: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/12/20 18:42:33] D2BS 51048: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/12/20 18:42:33] D2BS 51048: Crash File: BlizzardError/2020-10-12 18.42.33/Crash.txt
+[10/12/20 18:42:33] D2BS 51048: D2BS Shutdown complete.
+[10/12/20 18:42:35] D2BS 51196: D2BS Engine startup complete. 1.6.4U
+[10/12/20 18:42:35] D2BS 51196: Auradin
+[10/12/20 18:42:35] D2BS 51196: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/12/20 18:42:35] D2BS 51196: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/12/20 18:42:35] D2BS 51196: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/12/20 18:42:35] D2BS 51196: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/12/20 18:42:35] D2BS 51196: ÿc2D2BSÿc0 :: Started Console Script
+[10/12/20 18:42:37] D2BS 51196: Heartbeat loaded
+[10/12/20 18:42:55] D2BS 51196: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 18:42:55] D2BS 51196: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 18:42:55] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 18:42:55] D2BS 51196: Updating Config from level 0 to 14
+[10/12/20 18:42:55] D2BS 51196: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc216 ms
+[10/12/20 18:42:55] D2BS 51196: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 18:42:55] D2BS 51196: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:42:55] D2BS 51196: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:42:55] D2BS 51196: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/12/20 18:42:55] D2BS 51196: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 18:42:55] D2BS 51196: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 18:42:55] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 18:42:55] D2BS 51196: Updating Config from level 0 to 14
+[10/12/20 18:42:55] D2BS 51196: AutoBuild: Loaded helper thread
+[10/12/20 18:42:55] D2BS 51196: LowGold sell Crude Broad Axe
+[10/12/20 18:42:55] D2BS 51196: initNPC: clearInventory
+[10/12/20 18:42:55] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 18:42:55] D2BS 51196: Updating Config from level 0 to 14
+[10/12/20 18:42:55] D2BS 51196: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 18:42:55] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 18:42:55] D2BS 51196: Updating Config from level 0 to 14
+[10/12/20 18:42:55] D2BS 51196: ÿc3Start ToolsThread script
+[10/12/20 18:42:55] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 18:42:55] D2BS 51196: Updating Config from level 0 to 14
+[10/12/20 18:43:40] D2BS 51196: Error: Unit.sell: Must be used in shops.
+[10/12/20 18:43:40] D2BS 51196: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 18:43:56] D2BS 51196: initNPC: heal
+[10/12/20 18:44:30] D2BS 51196: initNPC: BuyPotions
+[10/12/20 18:45:21] D2BS 51196: move retry 1
+[10/12/20 18:45:22] D2BS 51196: move retry 2
+[10/12/20 18:45:36] D2BS 51196: move retry 1
+[10/12/20 18:45:39] D2BS 51196: move retry 1
+[10/12/20 18:45:41] D2BS 51196: move retry 1
+[10/12/20 18:45:43] D2BS 51196: move retry 1
+[10/12/20 18:45:58] D2BS 51196: move retry 1
+[10/12/20 18:46:01] D2BS 51196: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 18:46:13] D2BS 51196: ÿc7Picked up ÿc0Small Shield ÿc0(ilvl 13)
+[10/12/20 18:46:22] D2BS 51196: move retry 1
+[10/12/20 18:46:30] D2BS 51196: move retry 1
+[10/12/20 18:46:36] D2BS 51196: ÿc7Picked up ÿc479 Gold
+[10/12/20 18:46:40] D2BS 51196: ÿc7Picked up ÿc437 Gold
+[10/12/20 18:46:40] D2BS 51196: ÿc7Picked up ÿc450 Gold
+[10/12/20 18:46:43] D2BS 51196: move retry 1
+[10/12/20 18:46:45] D2BS 51196: move retry 2
+[10/12/20 18:46:47] D2BS 51196: move retry 3
+[10/12/20 18:46:50] D2BS 51196: move retry 1
+[10/12/20 18:47:01] D2BS 51196: AutoBuild: Stat points: 5      Skill points: 2
+[10/12/20 18:47:01] D2BS 51196: AutoBuild: Level up detected ( 14 --> 15 )
+[10/12/20 18:47:01] D2BS 51196: AutoBuild: useSkillPoint(): Prayer (99)
+[10/12/20 18:47:01] D2BS 51196: ÿc7Picked up ÿc4165 Gold
+[10/12/20 18:47:01] D2BS 51196: ÿc7Picked up ÿc0ÿc4Right Click to learn skill of your choice ÿc0(ilvl 1) (LateGame.nip #17)
+[10/12/20 18:47:01] D2BS 51196: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  13)
+[10/12/20 18:47:01] D2BS 51196: AutoBuild: useStatPoint(0): Strength
+[10/12/20 18:47:01] D2BS 51196: AutoBuild: Stat (1/5) Increased Strength from 38 to 39
+[10/12/20 18:47:01] D2BS 51196: AutoBuild: useStatPoint(2): Dexterity
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: Stat (2/5) Increased Dexterity from 33 to 34
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: Stat (3/5) Increased Vitality from 64 to 65
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: Stat (4/5) Increased Vitality from 65 to 66
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: Stat (5/5) Increased Vitality from 66 to 67
+[10/12/20 18:47:02] D2BS 51196: Updating Config from level 14 to 15
+[10/12/20 18:47:02] D2BS 51196: Updating Config from level 14 to 15
+[10/12/20 18:47:02] D2BS 51196: Updating Config from level 14 to 15
+[10/12/20 18:47:02] D2BS 51196: Updating Config from level 14 to 15
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: Updating Config from level 14 to 15
+[10/12/20 18:47:02] D2BS 51196: AutoBuild: Incrementing cached character level to 15
+[10/12/20 18:47:17] D2BS 51196: initNPC: identify
+[10/12/20 18:47:34] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 57 items.
+[10/12/20 18:47:34] D2BS 51196: initNPC: buyPotions
+[10/12/20 18:47:44] D2BS 51196: move retry 1
+[10/12/20 18:47:52] D2BS 51196: LowGold sell Crude Broad Axe
+[10/12/20 18:47:52] D2BS 51196: initNPC: clearInventory
+[10/12/20 18:47:59] D2BS 51196: LowGold sell Small Shield
+[10/12/20 18:47:59] D2BS 51196: initNPC: clearInventory
+[10/12/20 18:48:12] D2BS 51196: 40
+[10/12/20 18:48:16] D2BS 51196: Script default.dbj ended
+[10/12/20 18:48:16] D2BS 51196: Script tools\autobuildthread.js ended
+[10/12/20 18:48:16] D2BS 51196: Script tools\party.js ended
+[10/12/20 18:48:16] D2BS 51196: Script tools\toolsthread.js ended
+[10/12/20 18:48:16] D2BS 51196: Script tools\townchicken.js ended
+[10/12/20 18:48:23] D2BS 51196: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 18:48:23] D2BS 51196: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 18:48:23] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 18:48:23] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:48:23] D2BS 51196: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc215 ms
+[10/12/20 18:48:23] D2BS 51196: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 18:48:23] D2BS 51196: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:48:23] D2BS 51196: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:48:23] D2BS 51196: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/12/20 18:48:23] D2BS 51196: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 18:48:23] D2BS 51196: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 18:48:23] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 18:48:23] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:48:23] D2BS 51196: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 18:48:23] D2BS 51196: AutoBuild: Loaded helper thread
+[10/12/20 18:48:23] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 18:48:23] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:48:23] D2BS 51196: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 18:48:23] D2BS 51196: ÿc3Start ToolsThread script
+[10/12/20 18:48:23] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 18:48:23] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:48:23] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 18:48:23] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:48:47] D2BS 51196: initNPC: BuyPotions
+[10/12/20 18:49:02] D2BS 51196: move retry 1
+[10/12/20 18:49:06] D2BS 51196: Script default.dbj ended
+[10/12/20 18:49:06] D2BS 51196: Script tools\autobuildthread.js ended
+[10/12/20 18:49:06] D2BS 51196: Script tools\party.js ended
+[10/12/20 18:49:06] D2BS 51196: Script tools\toolsthread.js ended
+[10/12/20 18:49:06] D2BS 51196: Script tools\townchicken.js ended
+[10/12/20 18:49:13] D2BS 51196: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 18:49:13] D2BS 51196: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 18:49:13] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 18:49:13] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:49:13] D2BS 51196: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc216 ms
+[10/12/20 18:49:13] D2BS 51196: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 18:49:13] D2BS 51196: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:49:13] D2BS 51196: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 18:49:13] D2BS 51196: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/12/20 18:49:13] D2BS 51196: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc215 ms
+[10/12/20 18:49:13] D2BS 51196: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 18:49:13] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 18:49:13] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:49:13] D2BS 51196: AutoBuild: Loaded helper thread
+[10/12/20 18:49:13] D2BS 51196: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 18:49:13] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 18:49:13] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:49:13] D2BS 51196: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 18:49:13] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 18:49:13] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:49:13] D2BS 51196: ÿc3Start ToolsThread script
+[10/12/20 18:49:13] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 18:49:13] D2BS 51196: Updating Config from level 0 to 15
+[10/12/20 18:49:33] D2BS 51196: initNPC: BuyPotions
+[10/12/20 19:25:42] D2BS 51196: move retry 1
+[10/12/20 19:25:46] D2BS 51196: move retry 1
+[10/12/20 19:25:52] D2BS 51196: ÿc7Picked up ÿc0Superior Two-Handed Sword ÿc0(ilvl 16)
+[10/12/20 19:25:56] D2BS 51196: move retry 1
+[10/12/20 19:25:59] D2BS 51196: move retry 1
+[10/12/20 19:26:01] D2BS 51196: ÿc7Picked up ÿc469 Gold
+[10/12/20 19:26:01] D2BS 51196: move retry 1
+[10/12/20 19:26:04] D2BS 51196: move retry 1
+[10/12/20 19:26:11] D2BS 51196: move retry 1
+[10/12/20 19:26:37] D2BS 51196: move retry 1
+[10/12/20 19:27:05] D2BS 51196: ÿc7Picked up ÿc459 Gold
+[10/12/20 19:27:08] D2BS 51196: move retry 1
+[10/12/20 19:27:14] D2BS 51196: move retry 1
+[10/12/20 19:27:20] D2BS 51196: ÿc7Picked up ÿc434 Gold
+[10/12/20 19:27:21] D2BS 51196: move retry 1
+[10/12/20 19:27:27] D2BS 51196: ÿc7Picked up ÿc3Ring ÿc0(ilvl 13) (Auradin.xpac.nip #107)
+[10/12/20 19:27:36] D2BS 51196: move retry 1
+[10/12/20 19:28:00] D2BS 51196: 48,49
+[10/12/20 19:28:10] D2BS 51196: ÿc7Picked up ÿc479 Gold
+[10/12/20 19:28:27] D2BS 51196: move retry 1
+[10/12/20 19:28:28] D2BS 51196: move retry 2
+[10/12/20 19:28:29] D2BS 51196: move retry 3
+[10/12/20 19:28:36] D2BS 51196: move retry 1
+[10/12/20 19:28:38] D2BS 51196: move retry 1
+[10/12/20 19:28:56] D2BS 51196: ÿc7Picked up ÿc419 Gold
+[10/12/20 19:28:59] D2BS 51196: move retry 1
+[10/12/20 19:29:01] D2BS 51196: ÿc7Picked up ÿc483 Gold
+[10/12/20 19:29:05] D2BS 51196: move retry 1
+[10/12/20 19:29:07] D2BS 51196: ÿc7Picked up ÿc423 Gold
+[10/12/20 19:29:07] D2BS 51196: ÿc7Picked up ÿc427 Gold
+[10/12/20 19:29:07] D2BS 51196: ÿc7Picked up ÿc442 Gold
+[10/12/20 19:29:07] D2BS 51196: ÿc7Picked up ÿc446 Gold
+[10/12/20 19:29:12] D2BS 51196: move retry 1
+[10/12/20 19:29:19] D2BS 51196: ÿc7Picked up ÿc453 Gold
+[10/12/20 19:29:19] D2BS 51196: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 16)
+[10/12/20 19:29:19] D2BS 51196: ÿc7Picked up ÿc0Crystal Sword ÿc0(ilvl 14)
+[10/12/20 19:29:20] D2BS 51196: ÿc7Picked up ÿc467 Gold
+[10/12/20 19:29:38] D2BS 51196: move retry 1
+[10/12/20 19:29:47] D2BS 51196: ÿc1Pausing.
+[10/12/20 19:29:48] D2BS 51196: initNPC: heal
+[10/12/20 19:30:06] D2BS 51196: initNPC: identify
+[10/12/20 19:30:14] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 70 items.
+[10/12/20 19:30:15] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:30:19] D2BS 51196: LowGold sell Superior Two-Handed Sword
+[10/12/20 19:30:19] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:30:19] D2BS 51196: LowGold sell Morning Star
+[10/12/20 19:30:19] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:30:21] D2BS 51196: LowGold sell Crystal Sword
+[10/12/20 19:30:21] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:30:33] D2BS 51196: ÿc2Resuming.
+[10/12/20 19:30:35] D2BS 51196: move retry 1
+[10/12/20 19:30:49] D2BS 51196: 40,41,42
+[10/12/20 19:31:49] D2BS 51196: move retry 1
+[10/12/20 19:31:54] D2BS 51196: ÿc1Pausing.
+[10/12/20 19:31:55] D2BS 51196: initNPC: heal
+[10/12/20 19:32:00] D2BS 51196: move retry 1
+[10/12/20 19:32:02] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:32:07] D2BS 51196: move retry 1
+[10/12/20 19:32:20] D2BS 51196: ÿc2Resuming.
+[10/12/20 19:32:26] D2BS 51196: ÿc1Pausing.
+[10/12/20 19:32:27] D2BS 51196: initNPC: heal
+[10/12/20 19:32:32] D2BS 51196: initNPC: fillTome
+[10/12/20 19:32:40] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:32:42] D2BS 51196: initNPC: reviveMerc
+[10/12/20 19:33:05] D2BS 51196: ÿc2Resuming.
+[10/12/20 19:33:20] D2BS 51196: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 19:33:26] D2BS 51196: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 19:33:33] D2BS 51196: move retry 1
+[10/12/20 19:33:42] D2BS 51196: move retry 1
+[10/12/20 19:33:45] D2BS 51196: move retry 1
+[10/12/20 19:33:58] D2BS 51196: 42,56
+[10/12/20 19:34:09] D2BS 51196: ÿc7Picked up ÿc465 Gold
+[10/12/20 19:34:09] D2BS 51196: ÿc7Picked up ÿc442 Gold
+[10/12/20 19:34:20] D2BS 51196: move retry 1
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: Stat points: 5      Skill points: 3
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: Level up detected ( 15 --> 16 )
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: useSkillPoint(): Prayer (99)
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  14)
+[10/12/20 19:34:25] D2BS 51196: ÿc7Picked up ÿc467 Gold
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: useStatPoint(0): Strength
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: Stat (1/5) Increased Strength from 39 to 40
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: useStatPoint(2): Dexterity
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: Stat (2/5) Increased Dexterity from 34 to 35
+[10/12/20 19:34:25] D2BS 51196: ÿc7Picked up ÿc416 Gold
+[10/12/20 19:34:25] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:34:26] D2BS 51196: AutoBuild: Stat (3/5) Increased Vitality from 67 to 68
+[10/12/20 19:34:26] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:34:26] D2BS 51196: AutoBuild: Stat (4/5) Increased Vitality from 68 to 69
+[10/12/20 19:34:26] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:34:26] D2BS 51196: AutoBuild: Stat (5/5) Increased Vitality from 69 to 70
+[10/12/20 19:34:26] D2BS 51196: Updating Config from level 15 to 16
+[10/12/20 19:34:26] D2BS 51196: Updating Config from level 15 to 16
+[10/12/20 19:34:26] D2BS 51196: Updating Config from level 15 to 16
+[10/12/20 19:34:26] D2BS 51196: Updating Config from level 15 to 16
+[10/12/20 19:34:26] D2BS 51196: AutoBuild: Updating Config from level 15 to 16
+[10/12/20 19:34:26] D2BS 51196: AutoBuild: Incrementing cached character level to 16
+[10/12/20 19:34:29] D2BS 51196: move retry 1
+[10/12/20 19:34:32] D2BS 51196: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 19:34:34] D2BS 51196: move retry 1
+[10/12/20 19:34:37] D2BS 51196: move retry 1
+[10/12/20 19:34:38] D2BS 51196: move retry 1
+[10/12/20 19:34:44] D2BS 51196: ÿc7Picked up ÿc454 Gold
+[10/12/20 19:35:15] D2BS 51196: ÿc7Picked up ÿc416 Gold
+[10/12/20 19:35:29] D2BS 51196: 56,57
+[10/12/20 19:35:36] D2BS 51196: ÿc7Picked up ÿc482 Gold
+[10/12/20 19:36:04] D2BS 51196: ÿc7Picked up ÿc0Broad Axe ÿc0(ilvl 15)
+[10/12/20 19:36:08] D2BS 51196: ÿc7Picked up ÿc437 Gold
+[10/12/20 19:36:21] D2BS 51196: ÿc7Picked up ÿc410 Gold
+[10/12/20 19:36:22] D2BS 51196: move retry 1
+[10/12/20 19:36:23] D2BS 51196: move retry 2
+[10/12/20 19:36:43] D2BS 51196: move retry 1
+[10/12/20 19:36:49] D2BS 51196: ÿc7Picked up ÿc485 Gold
+[10/12/20 19:36:49] D2BS 51196: ÿc7Picked up ÿc433 Gold
+[10/12/20 19:36:49] D2BS 51196: ÿc7Picked up ÿc0Mace ÿc0(ilvl 15)
+[10/12/20 19:36:56] D2BS 51196: ÿc7Picked up ÿc0Large Axe ÿc0(ilvl 15)
+[10/12/20 19:37:28] D2BS 51196: ÿc7Picked up ÿc449 Gold
+[10/12/20 19:37:31] D2BS 51196: 57,60
+[10/12/20 19:37:57] D2BS 51196: ÿc7Picked up ÿc0Balanced Knife ÿc0(ilvl 15)
+[10/12/20 19:38:17] D2BS 51196: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 19:38:21] D2BS 51196: ÿc7Picked up ÿc0ÿc4Horadric Cube ÿc0(ilvl 13) (LateGame.nip #16)
+[10/12/20 19:38:30] D2BS 51196: initNPC: heal
+[10/12/20 19:38:35] D2BS 51196: initNPC: identify
+[10/12/20 19:38:42] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 72 items.
+[10/12/20 19:38:43] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:38:44] D2BS 51196: LowGold sell Broad Axe
+[10/12/20 19:38:44] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:38:44] D2BS 51196: LowGold sell Balanced Knife
+[10/12/20 19:38:44] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:38:46] D2BS 51196: LowGold sell Large Axe
+[10/12/20 19:38:46] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:38:49] D2BS 51196: LowGold sell Mace
+[10/12/20 19:38:49] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:38:55] D2BS 51196: move retry 1
+[10/12/20 19:38:57] D2BS 51196: Successfully placed ÿc4Horadric Cube at X: 0 Y: 0
+[10/12/20 19:39:04] D2BS 51196: 40
+[10/12/20 19:39:12] D2BS 51196: 42
+[10/12/20 19:39:55] D2BS 51196: 42,43
+[10/12/20 19:40:09] D2BS 51196: move retry 1
+[10/12/20 19:40:22] D2BS 51196: ÿc1Skipping Cave Leaper 701 16
+[10/12/20 19:40:50] D2BS 51196: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 19:41:48] D2BS 51196: ÿc7Picked up ÿc469 Gold
+[10/12/20 19:42:26] D2BS 51196: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 19:42:33] D2BS 51196: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: Stat points: 5      Skill points: 3
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: Level up detected ( 16 --> 17 )
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: useSkillPoint(): Prayer (99)
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  15)
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: useStatPoint(0): Strength
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: Stat (1/5) Increased Strength from 40 to 41
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: useStatPoint(2): Dexterity
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: Stat (2/5) Increased Dexterity from 35 to 36
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: Stat (3/5) Increased Vitality from 70 to 71
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: Stat (4/5) Increased Vitality from 71 to 72
+[10/12/20 19:42:36] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:42:37] D2BS 51196: AutoBuild: Stat (5/5) Increased Vitality from 72 to 73
+[10/12/20 19:42:37] D2BS 51196: AutoBuild: Updating Config from level 16 to 17
+[10/12/20 19:42:37] D2BS 51196: Updating Config from level 16 to 17
+[10/12/20 19:42:37] D2BS 51196: Updating Config from level 16 to 17
+[10/12/20 19:42:37] D2BS 51196: Updating Config from level 16 to 17
+[10/12/20 19:42:37] D2BS 51196: Updating Config from level 16 to 17
+[10/12/20 19:42:37] D2BS 51196: AutoBuild: Incrementing cached character level to 17
+[10/12/20 19:42:52] D2BS 51196: ÿc7Picked up ÿc439 Gold
+[10/12/20 19:42:56] D2BS 51196: move retry 1
+[10/12/20 19:43:28] D2BS 51196: move retry 1
+[10/12/20 19:43:30] D2BS 51196: move retry 1
+[10/12/20 19:43:41] D2BS 51196: ÿc7Picked up ÿc494 Gold
+[10/12/20 19:43:41] D2BS 51196: move retry 1
+[10/12/20 19:43:46] D2BS 51196: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #23)
+[10/12/20 19:43:46] D2BS 51196: move retry 1
+[10/12/20 19:43:49] D2BS 51196: ÿc7Picked up ÿc442 Gold
+[10/12/20 19:44:33] D2BS 51196: move retry 1
+[10/12/20 19:44:35] D2BS 51196: move retry 1
+[10/12/20 19:44:51] D2BS 51196: move retry 1
+[10/12/20 19:45:12] D2BS 51196: move retry 1
+[10/12/20 19:45:34] D2BS 51196: ÿc1Skipping Death Beetle 840 16
+[10/12/20 19:45:44] D2BS 51196: ÿc1Pausing.
+[10/12/20 19:45:44] D2BS 51196: initNPC: heal
+[10/12/20 19:45:50] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:46:10] D2BS 51196: move retry 1
+[10/12/20 19:47:49] D2BS 51196: ÿc1Error in ÿc0TownChicken.js ÿc1(town.js line ÿc12260): ÿc1Town.visitTown: Failed to go back from town
+[10/12/20 19:47:49] D2BS 51196: ÿc2Resuming.
+[10/12/20 19:47:49] D2BS 51196: ÿc8Run duration ÿc23518.656
+[10/12/20 19:47:49] D2BS 51196: Script default.dbj ended
+[10/12/20 19:47:49] D2BS 51196: Script tools\autobuildthread.js ended
+[10/12/20 19:47:49] D2BS 51196: Script tools\party.js ended
+[10/12/20 19:47:56] D2BS 51196: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 19:47:56] D2BS 51196: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 19:47:56] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 19:47:56] D2BS 51196: Updating Config from level 0 to 17
+[10/12/20 19:47:56] D2BS 51196: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc216 ms
+[10/12/20 19:47:56] D2BS 51196: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 19:47:56] D2BS 51196: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 19:47:56] D2BS 51196: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 19:47:56] D2BS 51196: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/12/20 19:47:56] D2BS 51196: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 19:47:56] D2BS 51196: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 19:47:56] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 19:47:56] D2BS 51196: Updating Config from level 0 to 17
+[10/12/20 19:47:56] D2BS 51196: AutoBuild: Loaded helper thread
+[10/12/20 19:47:56] D2BS 51196: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 19:47:56] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 19:47:56] D2BS 51196: Updating Config from level 0 to 17
+[10/12/20 19:47:56] D2BS 51196: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 19:47:56] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 19:47:56] D2BS 51196: ÿc3Start ToolsThread script
+[10/12/20 19:47:56] D2BS 51196: Updating Config from level 0 to 17
+[10/12/20 19:47:56] D2BS 51196: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 19:47:56] D2BS 51196: Updating Config from level 0 to 17
+[10/12/20 19:48:16] D2BS 51196: initNPC: heal
+[10/12/20 19:48:21] D2BS 51196: initNPC: BuyPotions
+[10/12/20 19:48:52] D2BS 51196: move retry 1
+[10/12/20 19:50:23] D2BS 51196: move retry 1
+[10/12/20 19:50:33] D2BS 51196: ÿc7Picked up ÿc437 Gold
+[10/12/20 19:50:44] D2BS 51196: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 19:50:44] D2BS 51196: move retry 1
+[10/12/20 19:50:48] D2BS 51196: move retry 1
+[10/12/20 19:50:59] D2BS 51196: move retry 1
+[10/12/20 19:51:01] D2BS 51196: move retry 1
+[10/12/20 19:51:08] D2BS 51196: move retry 1
+[10/12/20 19:51:13] D2BS 51196: move retry 1
+[10/12/20 19:51:14] D2BS 51196: move retry 1
+[10/12/20 19:51:17] D2BS 51196: ÿc7Picked up ÿc462 Gold
+[10/12/20 19:51:19] D2BS 51196: move retry 1
+[10/12/20 19:51:43] D2BS 51196: move retry 1
+[10/12/20 19:51:56] D2BS 51196: move retry 1
+[10/12/20 19:51:56] D2BS 51196: ÿc7Picked up ÿc465 Gold
+[10/12/20 19:51:59] D2BS 51196: move retry 1
+[10/12/20 19:52:13] D2BS 51196: ÿc7Picked up ÿc480 Gold
+[10/12/20 19:52:14] D2BS 51196: move retry 1
+[10/12/20 19:52:46] D2BS 51196: ÿc7Picked up ÿc441 Gold
+[10/12/20 19:53:01] D2BS 51196: ÿc7Picked up ÿc427 Gold
+[10/12/20 19:53:27] D2BS 51196: ÿc7Picked up ÿc471 Gold
+[10/12/20 19:53:31] D2BS 51196: move retry 1
+[10/12/20 19:53:34] D2BS 51196: ÿc7Picked up ÿc488 Gold
+[10/12/20 19:53:36] D2BS 51196: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/12/20 19:54:04] D2BS 51196: initNPC: heal
+[10/12/20 19:54:11] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:54:23] D2BS 51196: 40
+[10/12/20 19:54:24] D2BS 51196: initNPC: heal
+[10/12/20 19:55:08] D2BS 51196: move retry 1
+[10/12/20 19:55:18] D2BS 51196: move retry 2
+[10/12/20 19:55:47] D2BS 51196: ÿc7Picked up ÿc0Cracked Kite Shield ÿc0(ilvl 16)
+[10/12/20 19:55:49] D2BS 51196: ÿc7Picked up ÿc486 Gold
+[10/12/20 19:56:02] D2BS 51196: move retry 1
+[10/12/20 19:56:23] D2BS 51196: 43,62
+[10/12/20 19:56:37] D2BS 51196: initNPC: heal
+[10/12/20 19:56:43] D2BS 51196: initNPC: identify
+[10/12/20 19:56:50] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/12/20 19:56:50] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:56:51] D2BS 51196: LowGold sell Cracked Kite Shield
+[10/12/20 19:56:51] D2BS 51196: initNPC: clearInventory
+[10/12/20 19:56:52] D2BS 51196: 40
+[10/12/20 19:57:37] D2BS 51196: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 19:57:37] D2BS 51196: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 19:57:38] D2BS 51196: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 19:57:38] D2BS 51196: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 19:57:41] D2BS 51196: ÿc7Picked up ÿc498 Gold
+[10/12/20 19:57:41] D2BS 51196: ÿc7Picked up ÿc4ÿc4Staff of Kings ÿc0(ilvl 17)
+[10/12/20 19:57:49] D2BS 51196: initNPC: heal
+[10/12/20 19:58:01] D2BS 51196: initNPC: identify
+[10/12/20 19:58:06] D2BS 51196: move retry 1
+[10/12/20 19:58:09] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 72 items.
+[10/12/20 19:58:10] D2BS 51196: initNPC: buyPotions
+[10/12/20 19:58:11] D2BS 51196: 40
+[10/12/20 19:58:16] D2BS 51196: initNPC: heal
+[10/12/20 19:58:27] D2BS 51196: initNPC: identify
+[10/12/20 19:58:34] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 72 items.
+[10/12/20 19:58:57] D2BS 51196: ÿc1Skipping Marauder 1208 16
+[10/12/20 19:59:13] D2BS 51196: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 19:59:13] D2BS 51196: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 19:59:14] D2BS 51196: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: Stat points: 5      Skill points: 3
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: Level up detected ( 17 --> 18 )
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: useSkillPoint(): Prayer (99)
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  16)
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: useStatPoint(0): Strength
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: Stat (1/5) Increased Strength from 41 to 42
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: useStatPoint(2): Dexterity
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: Stat (2/5) Increased Dexterity from 36 to 37
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: Stat (3/5) Increased Vitality from 73 to 74
+[10/12/20 19:59:28] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:59:29] D2BS 51196: AutoBuild: Stat (4/5) Increased Vitality from 74 to 75
+[10/12/20 19:59:29] D2BS 51196: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 19:59:29] D2BS 51196: AutoBuild: Stat (5/5) Increased Vitality from 75 to 76
+[10/12/20 19:59:29] D2BS 51196: Updating Config from level 17 to 18
+[10/12/20 19:59:29] D2BS 51196: Updating Config from level 17 to 18
+[10/12/20 19:59:29] D2BS 51196: AutoBuild: Updating Config from level 17 to 18
+[10/12/20 19:59:29] D2BS 51196: Updating Config from level 17 to 18
+[10/12/20 19:59:29] D2BS 51196: Updating Config from level 17 to 18
+[10/12/20 19:59:29] D2BS 51196: AutoBuild: Incrementing cached character level to 18
+[10/12/20 19:59:56] D2BS 51196: ÿc7Picked up ÿc476 Gold
+[10/12/20 20:00:06] D2BS 51196: ÿc7Picked up ÿc0Superior Battle Axe ÿc0(ilvl 17)
+[10/12/20 20:00:06] D2BS 51196: ÿc7Picked up ÿc456 Gold
+[10/12/20 20:00:07] D2BS 51196: move retry 1
+[10/12/20 20:00:24] D2BS 51196: ÿc1Skipping Fire Tower 1246 16
+[10/12/20 20:00:36] D2BS 51196: ÿc1Skipping Fire Tower 1246 16
+[10/12/20 20:00:43] D2BS 51196: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 20:00:50] D2BS 51196: ÿc7Picked up ÿc0Long Bow ÿc0(ilvl 17) (PreMerc.xpac.nip #3)
+[10/12/20 20:01:04] D2BS 51196: ÿc7Picked up ÿc487 Gold
+[10/12/20 20:01:05] D2BS 51196: ÿc7Picked up ÿc492 Gold
+[10/12/20 20:01:13] D2BS 51196: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/12/20 20:01:13] D2BS 51196: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 20:01:14] D2BS 51196: ÿc7Picked up ÿc3Large Axe ÿc0(ilvl 20) (Auradin.xpac.nip #6)
+[10/12/20 20:01:14] D2BS 51196: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #35)
+[10/12/20 20:01:45] D2BS 51196: move retry 1
+[10/12/20 20:02:07] D2BS 51196: move retry 1
+[10/12/20 20:02:50] D2BS 51196: ÿc1Skipping Plague Bearer 1296 16
+[10/12/20 20:03:00] D2BS 51196: ÿc1Pausing.
+[10/12/20 20:03:00] D2BS 51196: initNPC: heal
+[10/12/20 20:03:07] D2BS 51196: initNPC: identify
+[10/12/20 20:03:16] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 59 items.
+[10/12/20 20:03:17] D2BS 51196: initNPC: buyPotions
+[10/12/20 20:03:21] D2BS 51196: LowGold sell Superior Battle Axe
+[10/12/20 20:03:21] D2BS 51196: initNPC: clearInventory
+[10/12/20 20:03:22] D2BS 51196: initNPC: repair
+[10/12/20 20:03:33] D2BS 51196: move retry 1
+[10/12/20 20:03:38] D2BS 51196: ÿc2Resuming.
+[10/12/20 20:03:39] D2BS 51196: ÿc1Skipping Plague Bearer 1295 16
+[10/12/20 20:03:42] D2BS 51196: ÿc1Skipping Plague Bearer 1297 16
+[10/12/20 20:04:04] D2BS 51196: ÿc1Skipping Plague Bearer 1297 16
+[10/12/20 20:04:12] D2BS 51196: ÿc1Skipping Plague Bearer 1296 16
+[10/12/20 20:04:12] D2BS 51196: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 17)
+[10/12/20 20:04:37] D2BS 51196: ÿc1Skipping Plague Bearer 1297 16
+[10/12/20 20:04:49] D2BS 51196: ÿc1Skipping Plague Bearer 1297 16
+[10/12/20 20:04:50] D2BS 51196: ÿc7Picked up ÿc444 Gold
+[10/12/20 20:04:55] D2BS 51196: initNPC: heal
+[10/12/20 20:05:01] D2BS 51196: initNPC: identify
+[10/12/20 20:05:06] D2BS 51196: move retry 1
+[10/12/20 20:05:09] D2BS 51196: initNPC: fillTome
+[10/12/20 20:05:10] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 62 items.
+[10/12/20 20:05:11] D2BS 51196: initNPC: buyPotions
+[10/12/20 20:05:15] D2BS 51196: LowGold sell Morning Star
+[10/12/20 20:05:15] D2BS 51196: initNPC: clearInventory
+[10/12/20 20:05:16] D2BS 51196: 40
+[10/12/20 20:05:22] D2BS 51196: initNPC: identify
+[10/12/20 20:05:25] D2BS 51196: move retry 1
+[10/12/20 20:05:29] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 65 items.
+[10/12/20 20:07:03] D2BS 51196: ÿc7Picked up ÿc0Chipped Skull ÿc0(ilvl 1)
+[10/12/20 20:07:26] D2BS 51196: ÿc7Picked up ÿc468 Gold
+[10/12/20 20:07:35] D2BS 51196: move retry 1
+[10/12/20 20:07:49] D2BS 51196: ÿc7Picked up ÿc474 Gold
+[10/12/20 20:07:49] D2BS 51196: ÿc7Picked up ÿc444 Gold
+[10/12/20 20:07:56] D2BS 51196: ÿc7Picked up ÿc490 Gold
+[10/12/20 20:08:13] D2BS 51196: move retry 1
+[10/12/20 20:08:27] D2BS 51196: move retry 1
+[10/12/20 20:08:37] D2BS 51196: ÿc7Picked up ÿc477 Gold
+[10/12/20 20:08:42] D2BS 51196: initNPC: heal
+[10/12/20 20:08:49] D2BS 51196: initNPC: identify
+[10/12/20 20:08:53] D2BS 51196: move retry 1
+[10/12/20 20:08:54] D2BS 51196: move retry 1
+[10/12/20 20:08:57] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 66 items.
+[10/12/20 20:08:58] D2BS 51196: initNPC: buyPotions
+[10/12/20 20:08:58] D2BS 51196: LowGold sell Chipped Skull
+[10/12/20 20:08:58] D2BS 51196: initNPC: clearInventory
+[10/12/20 20:08:59] D2BS 51196: 40
+[10/12/20 20:09:04] D2BS 51196: initNPC: identify
+[10/12/20 20:09:11] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 71 items.
+[10/12/20 20:09:12] D2BS 51196: initNPC: clearInventory
+[10/12/20 20:09:44] D2BS 51196: ÿc7Picked up ÿc438 Gold
+[10/12/20 20:09:45] D2BS 51196: move retry 1
+[10/12/20 20:10:36] D2BS 51196: ÿc7Picked up ÿc455 Gold
+[10/12/20 20:10:38] D2BS 51196: move retry 1
+[10/12/20 20:10:42] D2BS 51196: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #35)
+[10/12/20 20:10:42] D2BS 51196: ÿc7Picked up ÿc455 Gold
+[10/12/20 20:10:42] D2BS 51196: move retry 2
+[10/12/20 20:10:43] D2BS 51196: move retry 3
+[10/12/20 20:10:45] D2BS 51196: move retry 1
+[10/12/20 20:10:50] D2BS 51196: move retry 1
+[10/12/20 20:11:46] D2BS 51196: move retry 1
+[10/12/20 20:12:01] D2BS 51196: initNPC: heal
+[10/12/20 20:12:07] D2BS 51196: initNPC: identify
+[10/12/20 20:12:14] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/12/20 20:12:15] D2BS 51196: initNPC: buyPotions
+[10/12/20 20:12:16] D2BS 51196: 40
+[10/12/20 20:12:22] D2BS 51196: initNPC: identify
+[10/12/20 20:12:28] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/12/20 20:12:35] D2BS 51196: move retry 1
+[10/12/20 20:12:37] D2BS 51196: move retry 2
+[10/12/20 20:13:24] D2BS 51196: move retry 1
+[10/12/20 20:13:47] D2BS 51196: move retry 1
+[10/12/20 20:14:26] D2BS 51196: move retry 1
+[10/12/20 20:14:41] D2BS 51196: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 20:15:14] D2BS 51196: move retry 1
+[10/12/20 20:15:27] D2BS 51196: move retry 1
+[10/12/20 20:15:31] D2BS 51196: 44,45
+[10/12/20 20:15:43] D2BS 51196: 45,58
+[10/12/20 20:15:49] D2BS 51196: move retry 1
+[10/12/20 20:15:55] D2BS 51196: ÿc7Picked up ÿc457 Gold
+[10/12/20 20:16:06] D2BS 51196: move retry 1
+[10/12/20 20:16:08] D2BS 51196: move retry 1
+[10/12/20 20:16:11] D2BS 51196: move retry 1
+[10/12/20 20:16:13] D2BS 51196: move retry 1
+[10/12/20 20:16:14] D2BS 51196: move retry 1
+[10/12/20 20:16:18] D2BS 51196: move retry 1
+[10/12/20 20:16:28] D2BS 51196: ÿc7Picked up ÿc4104 Gold
+[10/12/20 20:16:29] D2BS 51196: move retry 1
+[10/12/20 20:16:37] D2BS 51196: move retry 1
+[10/12/20 20:16:40] D2BS 51196: move retry 1
+[10/12/20 20:16:42] D2BS 51196: move retry 1
+[10/12/20 20:16:46] D2BS 51196: move retry 1
+[10/12/20 20:17:12] D2BS 51196: move retry 1
+[10/12/20 20:17:14] D2BS 51196: move retry 1
+[10/12/20 20:17:16] D2BS 51196: move retry 2
+[10/12/20 20:17:18] D2BS 51196: move retry 3
+[10/12/20 20:17:19] D2BS 51196: move retry 1
+[10/12/20 20:17:23] D2BS 51196: move retry 1
+[10/12/20 20:17:29] D2BS 51196: move retry 1
+[10/12/20 20:17:43] D2BS 51196: move retry 1
+[10/12/20 20:17:48] D2BS 51196: move retry 1
+[10/12/20 20:17:49] D2BS 51196: ÿc7Picked up ÿc0Spiked Shield ÿc0(ilvl 18)
+[10/12/20 20:17:51] D2BS 51196: initNPC: heal
+[10/12/20 20:17:57] D2BS 51196: initNPC: identify
+[10/12/20 20:18:04] D2BS 51196: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[10/12/20 20:18:06] D2BS 51196: initNPC: buyPotions
+[10/12/20 20:18:07] D2BS 51196: LowGold sell Spiked Shield
+[10/12/20 20:18:07] D2BS 51196: initNPC: clearInventory
+[10/12/20 20:18:07] D2BS 51196: initNPC: clearInventory
+[10/12/20 20:18:15] D2BS 51196: 40
+[10/12/20 20:18:18] D2BS 51196: Script default.dbj ended
+[10/12/20 20:18:18] D2BS 51196: Script tools\autobuildthread.js ended
+[10/12/20 20:18:18] D2BS 51196: Script tools\party.js ended
+[10/12/20 20:18:18] D2BS 51196: Script tools\toolsthread.js ended
+[10/12/20 20:18:18] D2BS 51196: Script tools\townchicken.js ended
+[10/12/20 20:18:24] D2BS 51196: D2BS Shutdown complete.
+[10/12/20 20:18:24] D2BS 50660: D2BS Engine startup complete. 1.6.4U
+[10/12/20 20:18:24] D2BS 50660: Auradin
+[10/12/20 20:18:24] D2BS 50660: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/12/20 20:18:24] D2BS 50660: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/12/20 20:18:24] D2BS 50660: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/12/20 20:18:24] D2BS 50660: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/12/20 20:18:24] D2BS 50660: ÿc2D2BSÿc0 :: Started Console Script
+[10/12/20 20:18:27] D2BS 50660: Heartbeat loaded
+[10/12/20 20:18:44] D2BS 50660: D2BS Shutdown complete.
+[10/12/20 20:18:44] D2BS 52984: D2BS Engine startup complete. 1.6.4U
+[10/12/20 20:18:44] D2BS 52984: Auradin
+[10/12/20 20:18:44] D2BS 52984: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[10/12/20 20:18:44] D2BS 52984: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/12/20 20:18:44] D2BS 52984: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/12/20 20:18:44] D2BS 52984: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/12/20 20:18:44] D2BS 52984: ÿc2D2BSÿc0 :: Started Console Script
+[10/12/20 20:18:47] D2BS 52984: Heartbeat loaded
+[10/12/20 20:19:05] D2BS 52984: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 20:19:05] D2BS 52984: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 20:19:05] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 20:19:05] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:19:05] D2BS 52984: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/12/20 20:19:05] D2BS 52984: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 20:19:05] D2BS 52984: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc215 ms
+[10/12/20 20:19:05] D2BS 52984: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:19:05] D2BS 52984: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/12/20 20:19:05] D2BS 52984: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 20:19:05] D2BS 52984: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 20:19:05] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 20:19:05] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:19:05] D2BS 52984: AutoBuild: Loaded helper thread
+[10/12/20 20:19:05] D2BS 52984: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 20:19:05] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 20:19:05] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:19:05] D2BS 52984: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 20:19:05] D2BS 52984: ÿc3Start ToolsThread script
+[10/12/20 20:19:05] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 20:19:05] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 20:19:05] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:19:05] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:19:26] D2BS 52984: initNPC: heal
+[10/12/20 20:19:31] D2BS 52984: initNPC: BuyPotions
+[10/12/20 20:19:43] D2BS 52984: move retry 1
+[10/12/20 20:19:45] D2BS 52984: initNPC: heal
+[10/12/20 20:19:50] D2BS 52984: initNPC: identify
+[10/12/20 20:19:56] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[10/12/20 20:20:04] D2BS 52984: initNPC: heal
+[10/12/20 20:20:09] D2BS 52984: initNPC: identify
+[10/12/20 20:20:19] D2BS 52984: Script default.dbj ended
+[10/12/20 20:20:19] D2BS 52984: Script tools\autobuildthread.js ended
+[10/12/20 20:20:19] D2BS 52984: Script tools\party.js ended
+[10/12/20 20:20:19] D2BS 52984: Script tools\toolsthread.js ended
+[10/12/20 20:20:19] D2BS 52984: Script tools\townchicken.js ended
+[10/12/20 20:20:25] D2BS 52984: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 20:20:25] D2BS 52984: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 20:20:25] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 20:20:25] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:20:25] D2BS 52984: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc215 ms
+[10/12/20 20:20:25] D2BS 52984: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 20:20:25] D2BS 52984: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:20:25] D2BS 52984: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:20:25] D2BS 52984: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/12/20 20:20:25] D2BS 52984: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 20:20:25] D2BS 52984: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 20:20:25] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 20:20:25] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:20:25] D2BS 52984: AutoBuild: Loaded helper thread
+[10/12/20 20:20:25] D2BS 52984: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 20:20:25] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 20:20:25] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:20:25] D2BS 52984: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 20:20:25] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 20:20:25] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:20:25] D2BS 52984: ÿc3Start ToolsThread script
+[10/12/20 20:20:25] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 20:20:25] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:20:47] D2BS 52984: initNPC: heal
+[10/12/20 20:20:53] D2BS 52984: initNPC: BuyPotions
+[10/12/20 20:21:05] D2BS 52984: move retry 1
+[10/12/20 20:21:07] D2BS 52984: initNPC: heal
+[10/12/20 20:21:12] D2BS 52984: initNPC: identify
+[10/12/20 20:21:24] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 65 items.
+[10/12/20 20:21:26] D2BS 52984: initNPC: clearInventory
+[10/12/20 20:21:30] D2BS 52984: move retry 1
+[10/12/20 20:21:33] D2BS 52984: move retry 2
+[10/12/20 20:21:36] D2BS 52984: Script default.dbj ended
+[10/12/20 20:21:36] D2BS 52984: Script tools\autobuildthread.js ended
+[10/12/20 20:21:36] D2BS 52984: Script tools\party.js ended
+[10/12/20 20:21:36] D2BS 52984: Script tools\toolsthread.js ended
+[10/12/20 20:21:36] D2BS 52984: Script tools\townchicken.js ended
+[10/12/20 20:21:42] D2BS 52984: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 20:21:42] D2BS 52984: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 20:21:43] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 20:21:43] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:21:43] D2BS 52984: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/12/20 20:21:43] D2BS 52984: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 20:21:43] D2BS 52984: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:21:43] D2BS 52984: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:21:43] D2BS 52984: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/12/20 20:21:43] D2BS 52984: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 20:21:43] D2BS 52984: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc216 ms
+[10/12/20 20:21:43] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 20:21:43] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:21:43] D2BS 52984: AutoBuild: Loaded helper thread
+[10/12/20 20:21:43] D2BS 52984: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 20:21:43] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 20:21:43] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:21:43] D2BS 52984: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 20:21:43] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 20:21:43] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:21:43] D2BS 52984: ÿc3Start ToolsThread script
+[10/12/20 20:21:43] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 20:21:43] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:21:44] D2BS 52984: move retry 1
+[10/12/20 20:21:46] D2BS 52984: move retry 2
+[10/12/20 20:21:51] D2BS 52984: move retry 3
+[10/12/20 20:22:09] D2BS 52984: initNPC: heal
+[10/12/20 20:22:14] D2BS 52984: initNPC: BuyPotions
+[10/12/20 20:22:28] D2BS 52984: initNPC: heal
+[10/12/20 20:22:33] D2BS 52984: initNPC: identify
+[10/12/20 20:22:40] D2BS 52984: Script default.dbj ended
+[10/12/20 20:22:40] D2BS 52984: Script tools\autobuildthread.js ended
+[10/12/20 20:22:40] D2BS 52984: Script tools\party.js ended
+[10/12/20 20:22:40] D2BS 52984: Script tools\toolsthread.js ended
+[10/12/20 20:22:40] D2BS 52984: Script tools\townchicken.js ended
+[10/12/20 20:22:47] D2BS 52984: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 20:22:47] D2BS 52984: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 20:22:47] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 20:22:47] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:22:47] D2BS 52984: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc215 ms
+[10/12/20 20:22:47] D2BS 52984: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 20:22:47] D2BS 52984: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:22:47] D2BS 52984: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:22:47] D2BS 52984: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc216 ms
+[10/12/20 20:22:47] D2BS 52984: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc20 ms
+[10/12/20 20:22:47] D2BS 52984: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 20:22:47] D2BS 52984: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 20:22:47] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 20:22:47] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:22:47] D2BS 52984: AutoBuild: Loaded helper thread
+[10/12/20 20:22:47] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 20:22:47] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:22:47] D2BS 52984: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 20:22:47] D2BS 52984: ÿc3Start ToolsThread script
+[10/12/20 20:22:47] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 20:22:47] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 20:22:47] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:22:47] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:22:49] D2BS 52984: move retry 1
+[10/12/20 20:23:14] D2BS 52984: initNPC: heal
+[10/12/20 20:23:19] D2BS 52984: initNPC: BuyPotions
+[10/12/20 20:23:39] D2BS 52984: initNPC: heal
+[10/12/20 20:23:46] D2BS 52984: Script default.dbj ended
+[10/12/20 20:23:46] D2BS 52984: Script tools\autobuildthread.js ended
+[10/12/20 20:23:46] D2BS 52984: Script tools\party.js ended
+[10/12/20 20:23:46] D2BS 52984: Script tools\toolsthread.js ended
+[10/12/20 20:23:46] D2BS 52984: Script tools\townchicken.js ended
+[10/12/20 20:23:52] D2BS 52984: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/12/20 20:23:52] D2BS 52984: ÿc2D2BSÿc0 :: default.dbj running.
+[10/12/20 20:23:52] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[10/12/20 20:23:52] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:23:52] D2BS 52984: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc280ÿc4. Valid entries: ÿc253. ÿc4Time: ÿc20 ms
+[10/12/20 20:23:52] D2BS 52984: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc268ÿc4. Valid entries: ÿc241. ÿc4Time: ÿc20 ms
+[10/12/20 20:23:52] D2BS 52984: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc226ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc215 ms
+[10/12/20 20:23:52] D2BS 52984: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/12/20 20:23:52] D2BS 52984: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2112. ÿc4Time: ÿc20 ms
+[10/12/20 20:23:52] D2BS 52984: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc216. ÿc4Time: ÿc216 ms
+[10/12/20 20:23:52] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[10/12/20 20:23:52] D2BS 52984: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/12/20 20:23:52] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:23:52] D2BS 52984: AutoBuild: Loaded helper thread
+[10/12/20 20:23:52] D2BS 52984: ÿc2Starting script: ÿc9LevelFollower
+[10/12/20 20:23:52] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[10/12/20 20:23:52] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:23:52] D2BS 52984: ÿc2Party thread loaded. Mode: Accept
+[10/12/20 20:23:52] D2BS 52984: ÿc3Start ToolsThread script
+[10/12/20 20:23:52] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[10/12/20 20:23:52] D2BS 52984: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[10/12/20 20:23:52] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:23:52] D2BS 52984: Updating Config from level 0 to 18
+[10/12/20 20:24:12] D2BS 52984: initNPC: heal
+[10/12/20 20:24:17] D2BS 52984: initNPC: BuyPotions
+[10/12/20 20:24:49] D2BS 52984: move retry 1
+[10/12/20 20:24:52] D2BS 52984: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/12/20 20:25:04] D2BS 52984: move retry 1
+[10/12/20 20:25:08] D2BS 52984: move retry 1
+[10/12/20 20:25:12] D2BS 52984: ÿc7Picked up ÿc462 Gold
+[10/12/20 20:25:12] D2BS 52984: ÿc7Picked up ÿc472 Gold
+[10/12/20 20:25:12] D2BS 52984: ÿc7Picked up ÿc469 Gold
+[10/12/20 20:25:12] D2BS 52984: ÿc7Picked up ÿc447 Gold
+[10/12/20 20:25:13] D2BS 52984: ÿc7Picked up ÿc443 Gold
+[10/12/20 20:25:29] D2BS 52984: move retry 1
+[10/12/20 20:25:31] D2BS 52984: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #34)
+[10/12/20 20:25:31] D2BS 52984: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 20:25:34] D2BS 52984: move retry 1
+[10/12/20 20:25:41] D2BS 52984: ÿc7Picked up ÿc451 Gold
+[10/12/20 20:25:55] D2BS 52984: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/12/20 20:25:56] D2BS 52984: AutoBuild: Stat points: 5      Skill points: 3
+[10/12/20 20:25:56] D2BS 52984: AutoBuild: Level up detected ( 18 --> 19 )
+[10/12/20 20:25:56] D2BS 52984: AutoBuild: useSkillPoint(): Prayer (99)
+[10/12/20 20:25:56] D2BS 52984: AutoBuild: Skill (1/1) Increased Prayer (99) by one (level:  17)
+[10/12/20 20:25:56] D2BS 52984: AutoBuild: useStatPoint(0): Strength
+[10/12/20 20:25:56] D2BS 52984: AutoBuild: Stat (1/5) Increased Strength from 42 to 43
+[10/12/20 20:25:56] D2BS 52984: AutoBuild: useStatPoint(2): Dexterity
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: Attempt to spend point 2 in Dexterity may have failed!
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: Stat (3/5) Increased Vitality from 76 to 77
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: Stat (4/5) Increased Vitality from 77 to 78
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: useStatPoint(3): Vitality
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: Stat (5/5) Increased Vitality from 78 to 79
+[10/12/20 20:25:57] D2BS 52984: Updating Config from level 18 to 19
+[10/12/20 20:25:57] D2BS 52984: Updating Config from level 18 to 19
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: Updating Config from level 18 to 19
+[10/12/20 20:25:57] D2BS 52984: Updating Config from level 18 to 19
+[10/12/20 20:25:57] D2BS 52984: Updating Config from level 18 to 19
+[10/12/20 20:25:57] D2BS 52984: AutoBuild: Incrementing cached character level to 19
+[10/12/20 20:26:09] D2BS 52984: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/12/20 20:26:18] D2BS 52984: ÿc7Picked up ÿc467 Gold
+[10/12/20 20:26:47] D2BS 52984: move retry 1
+[10/12/20 20:26:53] D2BS 52984: ÿc7Picked up ÿc449 Gold
+[10/12/20 20:27:14] D2BS 52984: move retry 1
+[10/12/20 20:27:19] D2BS 52984: move retry 1
+[10/12/20 20:27:24] D2BS 52984: move retry 1
+[10/12/20 20:27:27] D2BS 52984: ÿc7Picked up ÿc481 Gold
+[10/12/20 20:27:31] D2BS 52984: ÿc7Picked up ÿc3Ring ÿc0(ilvl 17) (Auradin.xpac.nip #107)
+[10/12/20 20:27:46] D2BS 52984: move retry 1
+[10/12/20 20:27:52] D2BS 52984: move retry 1
+[10/12/20 20:28:03] D2BS 52984: move retry 1
+[10/12/20 20:28:09] D2BS 52984: move retry 1
+[10/12/20 20:28:20] D2BS 52984: ÿc7Picked up ÿc0Broad Axe ÿc0(ilvl 17)
+[10/12/20 20:28:23] D2BS 52984: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #35)
+[10/12/20 20:28:26] D2BS 52984: move retry 1
+[10/12/20 20:28:38] D2BS 52984: ÿc7Picked up ÿc422 Gold
+[10/12/20 20:28:41] D2BS 52984: initNPC: heal
+[10/12/20 20:28:46] D2BS 52984: initNPC: identify
+[10/12/20 20:28:55] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[10/12/20 20:28:56] D2BS 52984: initNPC: buyPotions
+[10/12/20 20:28:56] D2BS 52984: LowGold sell Broad Axe
+[10/12/20 20:28:56] D2BS 52984: initNPC: clearInventory
+[10/12/20 20:29:09] D2BS 52984: 40
+[10/12/20 20:29:10] D2BS 52984: initNPC: identify
+[10/12/20 20:29:16] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 77 items.
+[10/12/20 20:30:13] D2BS 52984: move retry 1
+[10/12/20 20:31:11] D2BS 52984: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 17) (LateGame.nip #29)
+[10/12/20 20:31:43] D2BS 52984: move retry 1
+[10/12/20 20:32:08] D2BS 52984: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/12/20 20:32:11] D2BS 52984: move retry 1
+[10/12/20 20:32:12] D2BS 52984: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #24)
+[10/12/20 20:32:14] D2BS 52984: move retry 1
+[10/12/20 20:32:17] D2BS 52984: initNPC: heal
+[10/12/20 20:32:23] D2BS 52984: initNPC: identify
+[10/12/20 20:32:29] D2BS 52984: move retry 1
+[10/12/20 20:32:30] D2BS 52984: move retry 1
+[10/12/20 20:32:34] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 67 items.
+[10/12/20 20:32:35] D2BS 52984: initNPC: buyPotions
+[10/12/20 20:32:42] D2BS 52984: 40
+[10/12/20 20:32:47] D2BS 52984: initNPC: heal
+[10/12/20 20:32:53] D2BS 52984: initNPC: identify
+[10/12/20 20:33:00] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 71 items.
+[10/12/20 20:33:02] D2BS 52984: initNPC: clearInventory
+[10/12/20 20:33:54] D2BS 52984: initNPC: heal
+[10/12/20 20:33:59] D2BS 52984: initNPC: identify
+[10/12/20 20:34:02] D2BS 52984: move retry 1
+[10/12/20 20:34:06] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 71 items.
+[10/12/20 20:34:07] D2BS 52984: initNPC: buyPotions
+[10/12/20 20:34:08] D2BS 52984: 40
+[10/12/20 20:34:13] D2BS 52984: initNPC: heal
+[10/12/20 20:34:18] D2BS 52984: initNPC: identify
+[10/12/20 20:34:22] D2BS 52984: move retry 1
+[10/12/20 20:34:26] D2BS 52984: ÿc4MiniShopBotÿc0: Scanning 71 items.
+[10/12/20 20:34:58] D2BS 52984: ÿc7Picked up ÿc435 Gold
+[10/12/20 20:35:19] D2BS 52984: move retry 1
+[10/12/20 20:35:20] D2BS 52984: move retry 1
