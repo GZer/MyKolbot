@@ -210,6 +210,7 @@ function LevelLeader(){
 			case 83: //Khalim Flail
 				Pather.getWP(83,true);
 				Town.doChores();
+				Pather.useWaypoint(83);
 				if(me.diff == 2){
 					this.tauntCouncil([345,346,347]);
 				}else{
