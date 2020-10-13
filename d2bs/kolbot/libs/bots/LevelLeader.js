@@ -209,7 +209,12 @@ function LevelLeader(){
 			break;
 			case 83: //Khalim Flail
 				Town.doChores();
-				if(me.diff == 2){this.getKhalimBrain();this.getKhalimEye();this.getKhalimHeart();}
+				if(me.diff == 2){
+					if(!this.getKhalimBrain() || !this.getKhalimEye() || !this.getKhalimHeart()){
+						delay(10000);
+						quit();
+					}
+				}
 				this.clearToQuestLocation(83,2,404);
 				if(me.diff == 2){this.killQuestBoss(345);this.killQuestBoss(346);this.killQuestBoss(347);}
 				else{this.killImportantQuestBoss([345,346,347]);}
@@ -319,7 +324,7 @@ function LevelLeader(){
 				this.tryMakePortal();
 				while(getUnit(1,543)){
 					Pather.moveTo(15095,5029,true,true);
-					Attack.clear(50);
+					Attack.clear(150);
 					delay(500);
 				}
 				BaalPortal=getUnit(2,563);
@@ -734,7 +739,7 @@ function LevelLeader(){
 	};
 	
 	this.getKhalimEye=function(){
-		if(me.getItem(553)){return true;}
+		if(me.getItem(553) || me.getItem(174)){return true;}
 		this.clearToNextArea(85);
 		this.clearToQuestLocation(85,2,405);
 		Attack.clearLevel(0);
@@ -745,7 +750,7 @@ function LevelLeader(){
 	};
 	
 	this.getKhalimHeart=function(){
-		if(me.getItem(554)){return true;}
+		if(me.getItem(554) || me.getItem(174)){return true;}
 		this.clearToNextArea(80);
 		if(Pather.moveToExit([92,93],true,true)){
 			this.tryMakePortal();
@@ -758,7 +763,7 @@ function LevelLeader(){
 	};
 	
 	this.getKhalimBrain=function(){
-		if(me.getItem(555)){return true;}
+		if(me.getItem(555) || me.getItem(174)){return true;}
 		Pather.useWaypoint(78);
 		this.clearToNextArea(88);
 		if(!this.waitForTeleporter(91)){
