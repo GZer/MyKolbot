@@ -26,13 +26,13 @@ function LevelFollower(){
 		return true;
 	};
 	
-	this.logGame=function(Details){
-		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
-		dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
-		try{FileTools.appendText("logs/JoinLog.txt",dateString+" "+Details+"\n");}
-		catch(err){D2Bot.printToConsole("Failed to Log Join",10);return false;}
-		return true;
-	};
+	// this.logGame=function(Details){
+		// var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
+		// dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
+		// try{FileTools.appendText("logs/JoinLog.txt",dateString+" "+Details+"\n");}
+		// catch(err){D2Bot.printToConsole("Failed to Log Join",10);return false;}
+		// return true;
+	// };
 	
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
@@ -382,7 +382,7 @@ function LevelFollower(){
 			if(partyTimeout > 5){quit();}
 		}
 		LeaderUnit=this.getLeaderUnit(Config.Leader);
-		this.logGame("Level:"+CharacterLevel+" Merclevel:"+(MyMercLevel-CharacterLevel)+" Gold:"+me.gold+" Char:"+me.name);
+		// this.logGame("Level:"+CharacterLevel+" Merclevel:"+(MyMercLevel-CharacterLevel)+" Gold:"+me.gold+" Char:"+me.name);
 	};
 	
 	//Start Script

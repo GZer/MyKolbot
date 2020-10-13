@@ -208,16 +208,14 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(17,0),"Black Book");
 			break;
 			case 83: //Khalim Flail
+				Pather.getWaypoint(83,true);
 				Town.doChores();
 				if(me.diff == 2){
-					if(!this.getKhalimBrain() || !this.getKhalimEye() || !this.getKhalimHeart()){
-						delay(10000);
-						quit();
-					}
+					this.tauntCouncil([345,346,347]);
+				}else{
+					this.clearToQuestLocation(83,2,404);
+					this.killImportantQuestBoss([345,346,347]);
 				}
-				this.clearToQuestLocation(83,2,404);
-				if(me.diff == 2){this.killQuestBoss(345);this.killQuestBoss(346);this.killQuestBoss(347);}
-				else{this.killImportantQuestBoss([345,346,347]);}
 				this.getQuestItem(173);
 				Town.doChores();
 				Pather.journeyTo(75);
@@ -702,13 +700,10 @@ function LevelLeader(){
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
 		if(me.getQuest(18,0)){return true;}
-		else if(!me.getItem(174)){
-			if(Eye){Storage.Cube.MoveTo(Eye);}
-			else{this.getKhalimEye();Storage.Cube.MoveTo(Eye);}
-			if(Brain){Storage.Cube.MoveTo(Brain);}
-			else{this.getKhalimBrain();Storage.Cube.MoveTo(Brain);}
-			if(Heart){Storage.Cube.MoveTo(Heart);}
-			else{this.getKhalimHeart();Storage.Cube.MoveTo(Heart);}
+		else if(this.checkOrgans() && !me.getItem(174)){
+			Storage.Cube.MoveTo(Eye);
+			Storage.Cube.MoveTo(Brain);
+			Storage.Cube.MoveTo(Heart);
 			if(Flail){Storage.Cube.MoveTo(Flail);}
 			else{this.logProgress(false,"Quit No Khalims Flail");delay(5000);quit();}
 			Cubing.openCube();
@@ -736,6 +731,41 @@ function LevelLeader(){
 		me.cancel();
 		this.logProgress(me.getItem(174),"Making Khalim Will");
 		return me.getItem(174);
+	};
+
+	this.checkOrgans=function(CouncilMembers){
+		var GotOrgans=(me.getItem(553) && me.getItem(554) && me.getItem(555));
+		if(!GotOrgans){
+			this.getKhalimBrain();
+			this.getKhalimHeart();
+			this.getKhalimEye();
+			GotOrgans=(me.getItem(553) && me.getItem(554) && me.getItem(555));
+		}
+		this.logProgress(GotOrgans,"Khalims Organs");
+		if(!GotOrgans){
+			Town.doChores();
+			quit();
+		}
+		return GotOrgans;
+	};
+
+	this.tauntCouncil=function(CouncilMembers){
+		var CouncilMember,i,CouncilAlive=true;
+		this.checkOrgans();
+		// Pather.moveTo(4416,2174,2,true,true);
+		Pather.moveTo(4443,1918,2,true,true);
+		Pather.moveTo(4497,1921,2,true,true);
+		Pather.moveTo(4511,1903,2,true,true);
+		for(i=0; i < CouncilMembers.length; i++){
+			CouncilMember=getUnit(1,CouncilMembers[i]);
+			while(!CouncilMember.dead){
+				Pather.moveTo(4517,1823,2);
+				Skill.cast(137,0,me.x+rand(-20,20),me.y+rand(-20,20));
+				Attack.securePosition(4511,1903,20,3000);
+			}
+			this.logProgress(CouncilMember.dead,"CouncilMember Dead:"+CouncilMember);
+		}
+		return true;
 	};
 	
 	this.getKhalimEye=function(){
@@ -782,7 +812,7 @@ function LevelLeader(){
 	this.talkToTyrael=function(){
 		var i,NPC=getUnit(1,"Tyrael");
 		if(!NPC){this.logProgress(false,"Free Tyrael");return false;}
-		for(i=0; i < 3; i ++){
+		for(i=0; i < 3; i++){
 			if(getDistance(me,NPC) > 3){
 				Pather.moveToUnit(NPC);
 			}
