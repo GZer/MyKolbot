@@ -208,7 +208,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(17,0),"Black Book");
 			break;
 			case 83: //Khalim Flail
-				Pather.getWaypoint(83,true);
+				Pather.getWP(83,true);
 				Town.doChores();
 				if(me.diff == 2){
 					this.tauntCouncil([345,346,347]);
