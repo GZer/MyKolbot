@@ -735,15 +735,17 @@ function LevelLeader(){
 	};
 
 	this.checkOrgans=function(CouncilMembers){
-		var GotOrgans=(me.getItem(553) && me.getItem(554) && me.getItem(555));
+		var GotOrgans=((me.getItem(553) && me.getItem(554) && me.getItem(555)) || me.getItem(174));
 		if(!GotOrgans){
 			this.getKhalimBrain();
 			this.getKhalimHeart();
 			this.getKhalimEye();
-			GotOrgans=(me.getItem(553) && me.getItem(554) && me.getItem(555));
+			GotOrgans=((me.getItem(553) && me.getItem(554) && me.getItem(555)) || me.getItem(174));
 		}
-		this.logProgress(GotOrgans,"Khalims Organs");
+		this.logProgress(GotOrgans,"Khalims Organs or Will");
 		if(!GotOrgans){
+			print("Quitting");
+			delay(5000);
 			Town.doChores();
 			quit();
 		}
