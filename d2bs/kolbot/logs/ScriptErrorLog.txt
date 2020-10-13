@@ -68,3 +68,5 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:408, @levelfollower.js:183, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
 [2020/10/13 11:51:48] <Singer> Error in LevelLeader (prototypes.js line 251): Unit.sell: Must be used on items.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1023, @levelleader.js:286, Town.doChores@town.js:89, Town.clearInventory@town.js:1982, Unit.prototype.sell@prototypes.js:251
+[2020/10/13 12:17:45] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 71
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1028, @levelleader.js:401, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820

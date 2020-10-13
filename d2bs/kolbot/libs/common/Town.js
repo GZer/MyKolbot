@@ -1596,7 +1596,7 @@ MainLoop:
 						if (mercTier > 0 && mercTier < 100) {
 							this.initNPC("Shop", "clearInventory");
 							Misc.itemLogger("Sold", items[i]);
-							items[i].sell();
+							try{items[i].sell();}catch(err){print("Failed to sell");}
 							result = false;
 						}
 					}

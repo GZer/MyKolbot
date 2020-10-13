@@ -943,6 +943,10 @@ function LevelLeader(){
 		if(!me.getQuest(37,0)){print("Anya");this.CheckQuests(114);}
 		if(!me.getQuest(38,3)){print("Nihlathak");this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
+		Town.doChores();
+		say("New Game Son");
+		delay(10000);
+		quit();
 	};
 	
 	this.checkProgress=function(){
@@ -1028,7 +1032,5 @@ function LevelLeader(){
 		this.logProgress("Completed","Act "+(ActNumber+1));
 	}
 	this.finalCheck();
-	say("New Game Son");
-	delay(10000);
 	return true;
 }
