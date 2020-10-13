@@ -42,8 +42,18 @@
 [Name] == GothicPlate && [Quality] == Set # [LightResist] >= 30								//Sigon's Shelter
 [Name] == Greaves && [Quality] == Set # [ColdResist] >= 40									//Sigon's Sabot
 [Name] == TowerShield && [Quality] == Set # [ItemAllSkills] >= 1							//Sigon's Guard
-[Name] == PlatedBelt && [Quality] == Set # [MaxHP] >= 10									//Sigon's Warp
+[Name] == PlatedBelt && [Quality] == Set # [MaxHP] >= 20									//Sigon's Warp
 [Name] == Gauntlets && [Quality] == Set # [Strength] >= 5									//Sigon's Gage
+
+//Hsarus' Defense
+[Name] == Buckler && [Quality] == Set # [Strength] >= 10									//Hsarus' Iron Fist
+[Name] == Belt && [Quality] == Set # [MaxHP] >= 20											//Hsarus' Iron Stay
+[Name] == ChainBoots && [Quality] == Set # [FireResist] >= 25								//Hsarus' Iron Heel
+
+//Death's Disguise
+[Name] == WarSword && [Quality] == Set # [LifeLeech] >= 0									//Death's Touch
+[Name] == LeatherGloves && [Quality] == Set # [FireResist] >= 50							//Death's Hand
+[Name] == Sash && [Quality] == Set # [ItemCannotBeFrozen] >= 25								//Death's Guard
 
 //Angelic Raiment
 [Name] == RingMail && [Quality] == Set # [EnhancedDefense] >= 40							//Angelic Mantle

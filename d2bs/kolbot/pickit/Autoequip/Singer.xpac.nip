@@ -57,7 +57,7 @@
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 30 # [Tier] == 8
 [Type] == Armor && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 60 # [Tier] == 9
 [Type] == Armor && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 1 # [Tier] == 10
-[Name] == SerpentskinArmor && [Flag] != Ethereal && [Quality] == Unique # # [Tier] == 90
+[Name] == SerpentskinArmor && [Flag] != Ethereal && [Quality] == Unique # [FCR] >= 30 # [Tier] == 90
 [Type] == Armor && [Flag] != Ethereal && [Flag] == Runeword # [BarbarianSkills] >= 2 # [Tier] == 95
 [Type] == Armor && [Flag] != Ethereal && [Flag] == Runeword # [ItemAllSkills] >= 2 && [PlusSkillTeleport] >= 1 # [Tier] == 99
 
@@ -93,7 +93,7 @@
 ([Name] == PlatedBelt || ([Type] == Belt && [Class] > 0)) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 60 # [Tier] == 9
 ([Name] == PlatedBelt || ([Type] == Belt && [Class] > 0)) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 70 # [Tier] == 10
 ([Name] == PlatedBelt || ([Type] == Belt && [Class] > 0)) && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 30 && [MaxHP] > 80 # [Tier] == 11
-([Name] == PlatedBelt || ([Type] == Belt && [Class] > 0)) && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills] >= 1 # [Tier] == 99
+[Type] == Belt && [Flag] != Ethereal && [Quality] == Unique # [ItemAllSkills] >= 1 # [Tier] == 99
 
 //Rings
 [Type] == Ring && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 1

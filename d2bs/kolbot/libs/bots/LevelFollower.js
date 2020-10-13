@@ -277,15 +277,10 @@ function LevelFollower(){
 				MyMerc=me.getMerc();
 			}
 		}
-		if(MyMerc){
-			if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){
-				ReplaceMerc=true;
-			}
-		}else{
+		if(MyMerc){if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){ReplaceMerc=true;}}
+		else{
 			this.talkToNPC("Kashya");
-			if(me.getMerc()){
-				this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
-			}
+			this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 		}		
 		if(ReplaceMerc && me.act >= 2){
 			this.unEquipMerc();
