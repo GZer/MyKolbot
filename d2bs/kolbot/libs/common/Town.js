@@ -151,64 +151,6 @@ var Town = {
 
 			item.interact();
 		}
-
-		/*Kashya for Free Merc*/
-		if(me.getQuest(2, 1)) {
-			this.goToTown(1);
-			this.move(NPC.Kashya);
-			npc=getUnit(1,NPC.Kashya);
-			if(npc && npc.openMenu()){
-				me.cancel();
-			}
-		}
-
-		/*Book Of Skill*/
-		if (me.getItem(552)) {
-			item = me.getItem(552);
-			if (item.location > 3) {
-				this.openStash();
-			}
-			item.interact();
-		}
-
-		/*Atma for Discount*/
-		if(me.getQuest(9, 1)) {
-			this.goToTown(2);
-			this.move(NPC.Atma);
-			npc=getUnit(1,NPC.Atma);
-			if(npc && npc.openMenu()){
-				me.cancel();
-			}
-		}
-		
-		/*Cain for Access to Durance*/
-		if(me.getQuest(21, 2) && !me.getQuest(22, 0)) {
-			this.goToTown(3);
-			this.move(NPC.Cain);
-			npc=getUnit(1,NPC.Cain);
-			if(npc && npc.openMenu()){
-				me.cancel();
-			}
-		}
-
-		/*Black Book*/
-		if (me.getItem(548)) {
-			this.goToTown(3);
-			this.move(NPC.Alkor);
-			npc = getUnit(1, NPC.Alkor);
-			if (npc && npc.openMenu()) {
-				me.cancel();
-			}
-		}
-		
-		/*Scroll Of Resistance*/
-		if (me.getItem(646)) {
-			item = me.getItem(646);
-			if (item.location > 3) {
-				this.openStash();
-			}
-			item.interact();
-		}
 	},
 
 	// Start a task and return the NPC Unit

@@ -4,20 +4,20 @@
 [Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab]+[SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 3
 [Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab]+[SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 4
 [Name] == GrimWand && [Flag] != Ethereal && [Quality] == Set # [NecromancerSkills] == 1 # [Tier] == 5
-[Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 6
-[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 # [Tier] == 7
+[Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 # [Tier] == 6
 [Type] == Wand && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 85
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier] == 90
 [Name] == PetrifiedWand && [Flag] != Ethereal && [Quality] == Unique # [FCR] >= 10 # [Tier] == 95
 [Name] == TombWand && [Flag] != Ethereal && [Quality] == Unique # [FCR] >= 10 # [Tier] == 99
 
 //Shield
-([Type] == VoodooHeads || [Type] == Shield) && [Flag] != Ethereal && [Quality] <= Superior # [Defense] > 1 # [Tier] == 1 && [MaxQuantity] == 1
-[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 2
-[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 3
-[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 4
-[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Magic # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 # [Tier] == 5
-[Type] == VoodooHeads && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab] >= 1 # [Tier] == 6
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal # [Defense] > 1 # [Tier] == 1 && [MaxQuantity] == 1
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 # [Tier] == 2
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 2 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 3
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 4
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 && ([FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10) # [Tier] == 5
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal # [SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 6 # [Tier] == 6
+[Type] == VoodooHeads && [Flag] != Ethereal && [Quality] >= Normal # [ItemAllSkills]+[NecromancerSkills]+[NecromancerSummoningSkillTab]+[SkillRaiseSkeleton]+[SkillSkeletalMage]+[SkillSkeletonMastery] >= 4 # [Tier] == 7
 [Type] == Shield && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 80
 [Name] == HierophantTrophy && [Flag] != Ethereal && [Quality] == Unique # [NecromancerSkills] >= 2 # [Tier] == 90
 [Name] == BloodlordSkull && [Flag] != Ethereal && [Quality] == Unique # [NecromancerSummoningSkillTab] >= 3 # [Tier] == 95

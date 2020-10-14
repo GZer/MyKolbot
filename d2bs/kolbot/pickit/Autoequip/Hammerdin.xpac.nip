@@ -8,7 +8,7 @@
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 90
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 95
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier] == 98
-[Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 && [FireResist]+[ColdResist]+[LightResist] >= 120 # [Tier] == 99
+[Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 && [FireResist] >= 40 # [Tier] == 99
 
 //Shield
 [Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 15 # [Tier] == 1 && [MaxQuantity] == 1
@@ -20,7 +20,7 @@
 [Type] == AuricShields && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 100 && [MaxHP] > 30 # [Tier] == 7
 [Type] == AuricShields && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 100 && [MaxHP] > 40 # [Tier] == 8
 [Type] == AuricShields && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 100 && [MaxHP] > 50 # [Tier] == 9
-([Type] == AuricShields || [Type] == Shield) && [Flag] != Ethereal && ([Quality] >= Magic || [Flag] == Runeword) # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier] == 10
+[Type] == AuricShields && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[PaladinSkills]+[PaliCombatSkillTab] >= 1 # [Tier] == 10
 [Type] == AuricShields && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 90
 [Type] == AuricShields && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 95
 [Name] == GildedShield && [Flag] != Ethereal && [Quality] == Unique # [EnhancedDefense] >= 100 # [Tier] == 98

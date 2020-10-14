@@ -7,7 +7,7 @@
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 90
 [Type] == Sword && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 95
 [Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 # [Tier] == 98
-[Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 && [FireResist]+[ColdResist]+[LightResist] >= 120 # [Tier] == 99
+[Type] == Mace && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 40 && [ItemAllSkills] >= 3 && [FireResist] >= 40 # [Tier] == 99
 
 //Shield
 [Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 10 || [MaxHP] > 10 # [Tier] == 1
