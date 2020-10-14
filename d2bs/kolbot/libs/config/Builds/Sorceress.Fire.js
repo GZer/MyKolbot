@@ -331,7 +331,7 @@ var AutoBuildTemplate={
 			SkillPoints: [58],//Energy Shield
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[42,56,47,56,47,53,49];
+				Config.AttackSkill=[42,47,47,47,47,53,49];
 				Config.DodgeRange=20;
 				Config.DodgeHP=90;
 			}
@@ -355,7 +355,7 @@ var AutoBuildTemplate={
 			SkillPoints: [47],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[42,56,47,56,47,53,49];
+				Config.AttackSkill=[42,47,47,47,47,53,49];
 			}	
 		},
 
@@ -371,7 +371,7 @@ var AutoBuildTemplate={
 			SkillPoints: [47],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.AttackSkill=[42,56,47,56,47,53,49];
+				Config.AttackSkill=[42,47,47,47,47,53,49];
 			}	
 		},
 
@@ -856,7 +856,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
-				Config.LowGold=800000;
+				Config.LowGold=1000000;
 				Config.GambleGoldStart=600000;
 				Config.GambleGoldStop=400000;
 			}

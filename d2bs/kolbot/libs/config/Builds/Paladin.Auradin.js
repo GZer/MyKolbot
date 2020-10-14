@@ -308,7 +308,7 @@ var AutoBuildTemplate={
 		},
 
 	24: 	{
-			SkillPoints: [120,117],//Meditation,Holy Shield
+			SkillPoints: [120],//Meditation
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[97,97,120,97,120,110,120];
@@ -317,7 +317,7 @@ var AutoBuildTemplate={
 		},
 
 	25: 	{
-			SkillPoints: [120],
+			SkillPoints: [117],//Holy Shield
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.Cubing=true;
@@ -363,7 +363,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [125,120,123],//Salvation
+			SkillPoints: [125],//Salvation
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.Redemption=[50,0];
@@ -487,7 +487,7 @@ var AutoBuildTemplate={
 		},
 
 	45: 	{
-			SkillPoints: [117],
+			SkillPoints: [120],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyGame.nip"),1);
@@ -577,7 +577,7 @@ var AutoBuildTemplate={
 		},
 
 	56: 	{
-			SkillPoints: [98],
+			SkillPoints: [117],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[97,97,125,97,120,97,120];
@@ -585,7 +585,7 @@ var AutoBuildTemplate={
 		},
 
 	57: 	{
-			SkillPoints: [108],
+			SkillPoints: [117],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[97,97,125,97,120,97,120];
@@ -593,7 +593,7 @@ var AutoBuildTemplate={
 		},
 
 	58: 	{
-			SkillPoints: [113],
+			SkillPoints: [117],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[97,97,125,97,120,97,120];
@@ -834,7 +834,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
-				Config.LowGold=800000;
+				Config.LowGold=1000000;
 				Config.GambleGoldStart=600000;
 				Config.GambleGoldStop=400000;
 			}

@@ -7,15 +7,10 @@
 function LevelFollower(){
 	var LeaderUnit,WhoIsLeader,TalRashaTomb=getRoom().correcttomb;
 	var MercId=[],MyMercDiff=0,MercAuraName,HiredMercAura;
-	var MercAuraSkills=[0,104,98,114,99,108,0];
+	var MercAuraSkills=[103,104,98,114,99,108,103];
 	var MercAuraNames=["$","Defiance","Might","Holy Freeze","Prayer","Blessed Aim","$"];
 	var TownWaypoints=[0,40,75,103,109];
 	var TeleportAreas=[62,74,76,77,78,88];
-	var WaypointAreas=[1,3,4,5,6,27,29,32,35,
-	40,48,42,57,43,44,52,74,46,
-	75,76,77,78,79,80,81,83,101,
-	103,106,107,
-	109,111,112,113,115,123,117,118,129];
 	
 	this.logProgress=function(Completed,Quest){
 		var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),Progress="Failed",
@@ -25,14 +20,6 @@ function LevelFollower(){
 		catch(err){D2Bot.printToConsole("Failed to Log Progress",10);return false;}
 		return true;
 	};
-	
-	// this.logGame=function(Details){
-		// var date=new Date(),day=date.getDate(),month=date.getMonth(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),
-		// dateString="["+(day < 10?"0"+day:day)+"/"+(month < 10?"0"+month:month)+" "+(h < 10?"0"+h:h)+":"+(m < 10?"0"+m:m)+":"+(s < 10?"0"+s:s)+"]";
-		// try{FileTools.appendText("logs/JoinLog.txt",dateString+" "+Details+"\n");}
-		// catch(err){D2Bot.printToConsole("Failed to Log Join",10);return false;}
-		// return true;
-	// };
 	
 	this.ChangeAct=function(DestinationAct){
 		var NPC,preArea=me.area;
@@ -279,6 +266,7 @@ function LevelFollower(){
 		}
 		if(MyMerc){if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){ReplaceMerc=true;}}
 		else{
+			Town.goToTown(1);
 			this.talkToNPC("Kashya");
 			this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
 		}		
@@ -382,7 +370,6 @@ function LevelFollower(){
 			if(partyTimeout > 5){quit();}
 		}
 		LeaderUnit=this.getLeaderUnit(Config.Leader);
-		// this.logGame("Level:"+CharacterLevel+" Merclevel:"+(MyMercLevel-CharacterLevel)+" Gold:"+me.gold+" Char:"+me.name);
 	};
 	
 	//Start Script
