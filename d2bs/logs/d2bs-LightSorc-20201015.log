@@ -1,0 +1,162 @@
+[10/15/20 08:27:16] D2BS 5012: D2BS Engine startup complete. 1.6.4U
+[10/15/20 08:27:16] D2BS 5012: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/15/20 08:27:16] D2BS 5012: LightSorc
+[10/15/20 08:27:16] D2BS 5012: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/15/20 08:27:16] D2BS 5012: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/15/20 08:27:16] D2BS 5012: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/15/20 08:27:16] D2BS 5012: ÿc2D2BSÿc0 :: Started Console Script
+[10/15/20 08:27:18] D2BS 5012: Heartbeat loaded
+[10/15/20 08:27:36] D2BS 5012: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/15/20 08:27:36] D2BS 5012: ÿc2D2BSÿc0 :: default.dbj running.
+[10/15/20 08:27:36] D2BS 5012: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/15/20 08:27:36] D2BS 5012: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 5012: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 5012: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/15/20 08:27:36] D2BS 5012: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 5012: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 5012: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/15/20 08:27:36] D2BS 5012: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 5012: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 5012: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/15/20 08:27:36] D2BS 5012: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 5012: AutoBuild: Loaded helper thread
+[10/15/20 08:27:36] D2BS 5012: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/15/20 08:27:36] D2BS 5012: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 5012: ÿc2Party thread loaded. Mode: Accept
+[10/15/20 08:27:36] D2BS 5012: ÿc3Start ToolsThread script
+[10/15/20 08:27:36] D2BS 5012: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/15/20 08:27:36] D2BS 5012: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 5012: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/15/20 08:27:36] D2BS 5012: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 5012: ÿc2Starting script: ÿc9LevelFollower
+[10/15/20 08:27:37] D2BS 5012: move retry 1
+[10/15/20 08:27:55] D2BS 5012: initNPC: BuyPotions
+[10/15/20 08:28:20] D2BS 5012: 1,2
+[10/15/20 08:28:33] D2BS 5012: move retry 1
+[10/15/20 08:28:40] D2BS 5012: ÿc7Picked up ÿc43 Gold
+[10/15/20 08:28:53] D2BS 5012: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: Level up detected ( 1 --> 2 )
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: useSkillPoint(): Warmth (37)
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: Skill (1/1) Increased Warmth (37) by one (level:  1)
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: Stat (1/5) Increased Strength from 10 to 11
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: Stat (2/5) Increased Energy from 35 to 36
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: Stat (3/5) Increased Energy from 36 to 37
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: Stat (4/5) Increased Vitality from 10 to 11
+[10/15/20 08:28:59] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:29:00] D2BS 5012: AutoBuild: Stat (5/5) Increased Vitality from 11 to 12
+[10/15/20 08:29:00] D2BS 5012: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 5012: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 5012: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 5012: AutoBuild: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 5012: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 5012: AutoBuild: Incrementing cached character level to 2
+[10/15/20 08:29:22] D2BS 5012: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/15/20 08:29:41] D2BS 5012: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/15/20 08:29:45] D2BS 5012: ÿc7Picked up ÿc45 Gold
+[10/15/20 08:30:07] D2BS 5012: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:30:07] D2BS 5012: AutoBuild: Level up detected ( 2 --> 3 )
+[10/15/20 08:30:07] D2BS 5012: AutoBuild: useSkillPoint(): Frozen Armor (40)
+[10/15/20 08:30:07] D2BS 5012: AutoBuild: Skill (1/1) Increased Frozen Armor (40) by one (level:  1)
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: Stat (1/5) Increased Strength from 11 to 12
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: Stat (2/5) Increased Energy from 37 to 38
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: Stat (3/5) Increased Energy from 38 to 39
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: Stat (4/5) Increased Vitality from 12 to 13
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: Stat (5/5) Increased Vitality from 13 to 14
+[10/15/20 08:30:08] D2BS 5012: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 5012: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 5012: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 5012: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 5012: AutoBuild: Incrementing cached character level to 3
+[10/15/20 08:30:37] D2BS 5012: move retry 1
+[10/15/20 08:30:53] D2BS 5012: move retry 1
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: Level up detected ( 3 --> 4 )
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  1)
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: Stat (1/5) Increased Strength from 12 to 13
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: Stat (2/5) Increased Energy from 39 to 40
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: Stat (3/5) Increased Energy from 40 to 41
+[10/15/20 08:30:58] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:59] D2BS 5012: AutoBuild: Stat (4/5) Increased Vitality from 14 to 15
+[10/15/20 08:30:59] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:59] D2BS 5012: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[10/15/20 08:30:59] D2BS 5012: AutoBuild: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 5012: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 5012: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 5012: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 5012: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 5012: AutoBuild: Incrementing cached character level to 4
+[10/15/20 08:31:02] D2BS 5012: 2,3
+[10/15/20 08:31:44] D2BS 5012: ÿc7Picked up ÿc0Cap ÿc0(ilvl 2) (Light.xpac.nip #35)
+[10/15/20 08:31:47] D2BS 5012: move retry 1
+[10/15/20 08:31:50] D2BS 5012: move retry 1
+[10/15/20 08:32:15] D2BS 5012: ÿc7Picked up ÿc48 Gold
+[10/15/20 08:32:17] D2BS 5012: move retry 1
+[10/15/20 08:32:18] D2BS 5012: move retry 1
+[10/15/20 08:32:23] D2BS 5012: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[10/15/20 08:32:23] D2BS 5012: ÿc7Picked up ÿc47 Gold
+[10/15/20 08:32:32] D2BS 5012: move retry 1
+[10/15/20 08:33:13] D2BS 5012: move retry 1
+[10/15/20 08:33:38] D2BS 5012: move retry 1
+[10/15/20 08:34:10] D2BS 5012: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/15/20 08:34:29] D2BS 5012: move retry 1
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: Level up detected ( 4 --> 5 )
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  2)
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: Stat (1/5) Increased Strength from 13 to 14
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: Stat (2/5) Increased Energy from 41 to 42
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: Stat (3/5) Increased Energy from 42 to 43
+[10/15/20 08:34:37] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:34:38] D2BS 5012: AutoBuild: Stat (4/5) Increased Vitality from 16 to 17
+[10/15/20 08:34:38] D2BS 5012: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:34:38] D2BS 5012: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[10/15/20 08:34:38] D2BS 5012: Updating Config from level 4 to 5
+[10/15/20 08:34:38] D2BS 5012: Updating Config from level 4 to 5
+[10/15/20 08:34:38] D2BS 5012: AutoBuild: Updating Config from level 4 to 5
+[10/15/20 08:34:38] D2BS 5012: Updating Config from level 4 to 5
+[10/15/20 08:34:38] D2BS 5012: Updating Config from level 4 to 5
+[10/15/20 08:34:38] D2BS 5012: AutoBuild: Incrementing cached character level to 5
+[10/15/20 08:35:01] D2BS 5012: move retry 1
+[10/15/20 08:35:17] D2BS 5012: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[10/15/20 08:35:40] D2BS 5012: move retry 1
+[10/15/20 08:36:46] D2BS 5012: ÿc7Picked up ÿc3Light Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #27)
+[10/15/20 08:36:47] D2BS 5012: ÿc7Picked up ÿc42 Gold
+[10/15/20 08:36:50] D2BS 5012: move retry 1
+[10/15/20 08:36:53] D2BS 5012: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/15/20 08:36:56] D2BS 5012: ÿc7Picked up ÿc42 Gold
+[10/15/20 08:36:59] D2BS 5012: move retry 1
+[10/15/20 08:37:04] D2BS 5012: ÿc7Picked up ÿc47 Gold
+[10/15/20 08:37:04] D2BS 5012: ÿc7Picked up ÿc3Ring ÿc0(ilvl 1) (Light.xpac.nip #104)
+[10/15/20 08:37:04] D2BS 5012: ÿc7Picked up ÿc0Chipped Skull ÿc0(ilvl 1)
+[10/15/20 08:37:24] D2BS 5012: ÿc7Picked up ÿc43 Gold
+[10/15/20 08:37:34] D2BS 5012: move retry 1
+[10/15/20 08:37:51] D2BS 5012: move retry 1
+[10/15/20 08:38:12] D2BS 5012: move retry 1
+[10/15/20 08:38:32] D2BS 5012: move retry 1
+[10/15/20 08:38:35] D2BS 5012: ÿc7Picked up ÿc48 Gold
+[10/15/20 08:38:38] D2BS 5012: move retry 1
+[10/15/20 08:39:08] D2BS 5012: move retry 1
+[10/15/20 08:39:17] D2BS 5012: ÿc7Picked up ÿc411 Gold
+[10/15/20 08:39:56] D2BS 5012: move retry 1
+[10/15/20 08:40:05] D2BS 5012: move retry 1
+[10/15/20 08:40:19] D2BS 5012: ÿc7Picked up ÿc49 Gold
+[10/15/20 08:40:35] D2BS 5012: ÿc7Picked up ÿc43 Gold
+[10/15/20 08:40:37] D2BS 5012: move retry 1

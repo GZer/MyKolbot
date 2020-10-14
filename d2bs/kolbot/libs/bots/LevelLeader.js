@@ -29,14 +29,14 @@ function LevelLeader(){
 		}
 		switch(CurrentArea){
 			case 3: //Cold Plains
-				Attack.clearLevel(0xF);
+				Attack.clearLevel(0);
 				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
 				Town.doChores();
 			break;
 			case 17: //Blood Raven
 				if(me.getQuest(2,0)){break;}
-				Attack.clearLevel(0xF);
+				Attack.clearLevel(0);
 				Pather.journeyTo(3);
 				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
@@ -99,7 +99,7 @@ function LevelLeader(){
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){
 					this.tryMakePortal();
 				}
-				Attack.clearLevel(0xF);
+				Attack.clearLevel(0);
 				Town.doChores();
 				this.logProgress(me.getQuest(5,0),"Countess");
 			break;
@@ -250,6 +250,12 @@ function LevelLeader(){
 				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(25,0),"Izual");
 				Pather.usePortal(105,null);
+				Attack.clearLevel(0);
+			break;
+			case 106: //City of the Damned
+				Attack.clearLevel(0);
+				Town.doChores();
+				Pather.usePortal(106,null);
 			break;
 			case 108: //Diablo
 				if(Pather.moveTo(7791,5293,5,true)){
@@ -263,10 +269,10 @@ function LevelLeader(){
 				this.openSeal(392);this.openSeal(393);
 				this.openSeal(392);this.openSeal(393);
 				this.killQuestBoss(740);
-				Pather.moveTo(7769,5263,5,true);
+				Pather.moveTo(7793,5293,5,true);
 				this.tryMakePortal();
 				this.waitForUnit(1,243);
-				this.killImportantQuestBoss(243,7788,5293);
+				this.killImportantQuestBoss(243);
 				this.talkToNPC("Tyrael");
 				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
@@ -308,6 +314,7 @@ function LevelLeader(){
 			case 118: //Ancients Way
 				Attack.clearLevel(0);
 				Town.doChores();
+				Pather.usePortal(118,null);
 			break;
 			case 120: //Ancients
 				if(me.getQuest(39,0)){break;}
@@ -331,10 +338,12 @@ function LevelLeader(){
 				Pather.getWP(129,true);
 				Attack.clearLevel(0);
 				Town.doChores();
+				Pather.usePortal(129,null);
 			break;
 			case 130: //Worldstone Keep 3
 				Attack.clearLevel(0);
 				Town.doChores();
+				Pather.usePortal(130,null);
 			break;
 			case 131: //Baal
 				Attack.clearLevel(0);
@@ -472,7 +481,7 @@ function LevelLeader(){
 			if(Boss){
 				while(Party && !Boss.dead){
 					Skill.cast(132,0,Boss.x,Boss.y);
-					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 50){
+					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 66){
 						this.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
 						quit();
 					}
@@ -679,11 +688,11 @@ function LevelLeader(){
 				if(SealId == 394){Misc.click(0,0,Seal);}
 				else{Seal.interact();}
 				tick=getTickCount();
-				while(getTickCount()-tick < 500){
+				while(getTickCount()-tick < 250){
 					if(Seal.mode){
 						return true;
 					}
-					delay(500);
+					delay(100);
 				}
 			}
 			this.logProgress(Seal.mode,"Opening Seal ID:"+SealId);
@@ -1009,12 +1018,6 @@ function LevelLeader(){
 			else if(!getWaypoint(i)){
 				i--;
 				UpToArea=WaypointAreas[i];
-				// //Cains Scroll
-				// if(me.getItem(525) && UpToArea < 40){UpToArea=5;}
-				// //Horadric Staff
-				// if(me.getItem(91) && UpToArea < 74){UpToArea=74;}
-				// //Khalims Will
-				// if(me.getItem(174)){UpToArea=83;}
 				break;
 			}
 			if(WaypointAreas[i] < 40){ActNumber=0;}

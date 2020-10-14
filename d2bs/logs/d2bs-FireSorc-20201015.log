@@ -1,0 +1,155 @@
+[10/15/20 08:27:16] D2BS 10856: D2BS Engine startup complete. 1.6.4U
+[10/15/20 08:27:16] D2BS 10856: FireSorc
+[10/15/20 08:27:16] D2BS 10856: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[10/15/20 08:27:16] D2BS 10856: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/15/20 08:27:16] D2BS 10856: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/15/20 08:27:16] D2BS 10856: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/15/20 08:27:16] D2BS 10856: ÿc2D2BSÿc0 :: Started Console Script
+[10/15/20 08:27:18] D2BS 10856: Heartbeat loaded
+[10/15/20 08:27:36] D2BS 10856: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/15/20 08:27:36] D2BS 10856: ÿc2D2BSÿc0 :: default.dbj running.
+[10/15/20 08:27:36] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/15/20 08:27:36] D2BS 10856: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 10856: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 10856: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 10856: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 10856: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 10856: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 10856: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc216 ms
+[10/15/20 08:27:36] D2BS 10856: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/15/20 08:27:36] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/15/20 08:27:36] D2BS 10856: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 10856: AutoBuild: Loaded helper thread
+[10/15/20 08:27:36] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/15/20 08:27:36] D2BS 10856: ÿc3Start ToolsThread script
+[10/15/20 08:27:36] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/15/20 08:27:36] D2BS 10856: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/15/20 08:27:36] D2BS 10856: Updating Config from level 0 to 1
+[10/15/20 08:27:36] D2BS 10856: ÿc2Party thread loaded. Mode: Accept
+[10/15/20 08:27:36] D2BS 10856: Updating Config from level 0 to 1
+[10/15/20 08:27:37] D2BS 10856: ÿc2Starting script: ÿc9LevelFollower
+[10/15/20 08:27:41] D2BS 10856: move retry 1
+[10/15/20 08:27:55] D2BS 10856: initNPC: BuyPotions
+[10/15/20 08:27:58] D2BS 10856: move retry 1
+[10/15/20 08:28:18] D2BS 10856: 1,2
+[10/15/20 08:28:31] D2BS 10856: move retry 1
+[10/15/20 08:28:41] D2BS 10856: ÿc7Picked up ÿc43 Gold
+[10/15/20 08:28:42] D2BS 10856: move retry 1
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: Level up detected ( 1 --> 2 )
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: useSkillPoint(): Warmth (37)
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: Skill (1/1) Increased Warmth (37) by one (level:  1)
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: Stat (1/5) Increased Strength from 10 to 11
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: Stat (2/5) Increased Energy from 35 to 36
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: Stat (3/5) Increased Energy from 36 to 37
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: Stat (4/5) Increased Vitality from 10 to 11
+[10/15/20 08:28:59] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:29:00] D2BS 10856: AutoBuild: Stat (5/5) Increased Vitality from 11 to 12
+[10/15/20 08:29:00] D2BS 10856: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 10856: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 10856: AutoBuild: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 10856: Updating Config from level 1 to 2
+[10/15/20 08:29:00] D2BS 10856: AutoBuild: Incrementing cached character level to 2
+[10/15/20 08:29:00] D2BS 10856: Updating Config from level 1 to 2
+[10/15/20 08:29:36] D2BS 10856: move retry 1
+[10/15/20 08:29:37] D2BS 10856: move retry 1
+[10/15/20 08:30:05] D2BS 10856: move retry 1
+[10/15/20 08:30:07] D2BS 10856: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:30:07] D2BS 10856: AutoBuild: Level up detected ( 2 --> 3 )
+[10/15/20 08:30:07] D2BS 10856: AutoBuild: useSkillPoint(): Frozen Armor (40)
+[10/15/20 08:30:07] D2BS 10856: AutoBuild: Skill (1/1) Increased Frozen Armor (40) by one (level:  1)
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: Stat (1/5) Increased Strength from 11 to 12
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: Stat (2/5) Increased Energy from 37 to 38
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: Stat (3/5) Increased Energy from 38 to 39
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: Stat (4/5) Increased Vitality from 12 to 13
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: Stat (5/5) Increased Vitality from 13 to 14
+[10/15/20 08:30:08] D2BS 10856: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 10856: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 10856: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 10856: Updating Config from level 2 to 3
+[10/15/20 08:30:08] D2BS 10856: AutoBuild: Incrementing cached character level to 3
+[10/15/20 08:30:30] D2BS 10856: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/15/20 08:30:30] D2BS 10856: ÿc7Picked up ÿc3Leather Armor ÿc0(ilvl 5) (Fire.xpac.nip #52)
+[10/15/20 08:30:30] D2BS 10856: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/15/20 08:30:31] D2BS 10856: ÿc7Picked up ÿc49 Gold
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: Level up detected ( 3 --> 4 )
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: useSkillPoint(): Fire Bolt (36)
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: Skill (1/1) Increased Fire Bolt (36) by one (level:  2)
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: Stat (1/5) Increased Strength from 12 to 13
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: Stat (2/5) Increased Energy from 39 to 40
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: Stat (3/5) Increased Energy from 40 to 41
+[10/15/20 08:30:58] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:59] D2BS 10856: AutoBuild: Stat (4/5) Increased Vitality from 14 to 15
+[10/15/20 08:30:59] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:30:59] D2BS 10856: AutoBuild: Stat (5/5) Increased Vitality from 15 to 16
+[10/15/20 08:30:59] D2BS 10856: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 10856: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 10856: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 10856: AutoBuild: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 10856: Updating Config from level 3 to 4
+[10/15/20 08:30:59] D2BS 10856: AutoBuild: Incrementing cached character level to 4
+[10/15/20 08:31:02] D2BS 10856: ÿc7Picked up ÿc42 Gold
+[10/15/20 08:31:33] D2BS 10856: ÿc7Picked up ÿc411 Gold
+[10/15/20 08:31:43] D2BS 10856: ÿc7Picked up ÿc45 Gold
+[10/15/20 08:32:17] D2BS 10856: ÿc7Picked up ÿc48 Gold
+[10/15/20 08:32:23] D2BS 10856: ÿc7Picked up ÿc47 Gold
+[10/15/20 08:32:56] D2BS 10856: ÿc7Picked up ÿc46 Gold
+[10/15/20 08:33:13] D2BS 10856: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/15/20 08:33:45] D2BS 10856: ÿc7Picked up ÿc42 Gold
+[10/15/20 08:33:58] D2BS 10856: ÿc1Skipping Fallen 213 16
+[10/15/20 08:34:08] D2BS 10856: AutoBuild: Stat points: 5      Skill points: 1
+[10/15/20 08:34:08] D2BS 10856: AutoBuild: Level up detected ( 4 --> 5 )
+[10/15/20 08:34:08] D2BS 10856: AutoBuild: useSkillPoint(): Charged Bolt (38)
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Skill (1/1) Increased Charged Bolt (38) by one (level:  1)
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: useStatPoint(0): Strength
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Stat (1/5) Increased Strength from 13 to 14
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Stat (2/5) Increased Energy from 41 to 42
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: useStatPoint(1): Energy
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Stat (3/5) Increased Energy from 42 to 43
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Stat (4/5) Increased Vitality from 16 to 17
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: useStatPoint(3): Vitality
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Attempt to spend point 5 in Vitality may have failed!
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Updating Config from level 4 to 5
+[10/15/20 08:34:09] D2BS 10856: Updating Config from level 4 to 5
+[10/15/20 08:34:09] D2BS 10856: Updating Config from level 4 to 5
+[10/15/20 08:34:09] D2BS 10856: Updating Config from level 4 to 5
+[10/15/20 08:34:09] D2BS 10856: Updating Config from level 4 to 5
+[10/15/20 08:34:09] D2BS 10856: AutoBuild: Incrementing cached character level to 5
+[10/15/20 08:34:40] D2BS 10856: ÿc7Picked up ÿc42 Gold
+[10/15/20 08:34:41] D2BS 10856: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
+[10/15/20 08:35:12] D2BS 10856: ÿc7Picked up ÿc0Damaged Cap ÿc0(ilvl 2) (Fire.xpac.nip #34)
+[10/15/20 08:35:18] D2BS 10856: move retry 1
+[10/15/20 08:35:18] D2BS 10856: ÿc7Picked up ÿc47 Gold
+[10/15/20 08:35:25] D2BS 10856: move retry 1
+[10/15/20 08:35:25] D2BS 10856: ÿc7Picked up ÿc44 Gold
+[10/15/20 08:35:33] D2BS 10856: move retry 1
+[10/15/20 08:35:48] D2BS 10856: move retry 1
+[10/15/20 08:35:52] D2BS 10856: move retry 1
+[10/15/20 08:37:16] D2BS 10856: ÿc7Picked up ÿc45 Gold
+[10/15/20 08:37:39] D2BS 10856: move retry 1
+[10/15/20 08:37:44] D2BS 10856: move retry 1
+[10/15/20 08:38:22] D2BS 10856: move retry 1
+[10/15/20 08:38:58] D2BS 10856: ÿc7Picked up ÿc0Superior Wand ÿc0(ilvl 2)
+[10/15/20 08:39:17] D2BS 10856: ÿc7Picked up ÿc411 Gold
+[10/15/20 08:39:32] D2BS 10856: move retry 1
+[10/15/20 08:40:06] D2BS 10856: move retry 1
+[10/15/20 08:40:20] D2BS 10856: ÿc7Picked up ÿc49 Gold
+[10/15/20 08:40:35] D2BS 10856: move retry 1
+[10/15/20 08:40:38] D2BS 10856: ÿc7Picked up ÿc0Superior Hand Axe ÿc0(ilvl 2)
