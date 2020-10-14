@@ -57,7 +57,7 @@ var AutoBuildTemplate={
 				Config.Inventory[3]=[1,1,1,1,1,1,1,1,1,1];
 				Config.AutoEquip=true;
 				Config.MiniShopBot=true;
-				Config.LowGold=200000;
+				Config.LowGold=250000;
 				Config.UseMerc=true;
 				Config.OpenChests=false;
 				Config.ClearType=0;//Monster spectype to kill in level clear scripts(0=all)
@@ -459,9 +459,9 @@ var AutoBuildTemplate={
 			SkillPoints: [245],
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
-				Config.LowGold=400000;
+				Config.LowGold=500000;
 				Config.Gamble=true;
-				Config.GambleGoldStart=400000;
+				Config.GambleGoldStart=500000;
 				Config.GambleGoldStop=200000;
 			}
 		},
@@ -849,7 +849,7 @@ var AutoBuildTemplate={
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("MidGame.nip"),1);
 				Config.LowGold=1000000;
 				Config.GambleGoldStart=600000;
-				Config.GambleGoldStop=400000;
+				Config.GambleGoldStop=200000;
 			}
 		},
 
