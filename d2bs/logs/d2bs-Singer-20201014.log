@@ -2600,3 +2600,891 @@ Line: x(45)+item.getStatEx(7)+item.getStatEx(0)+item.getStatEx(2)>00
 [10/14/20 18:56:55] D2BS 13112: Updating Config from level 20 to 21
 [10/14/20 18:56:55] D2BS 13112: AutoBuild: Incrementing cached character level to 21
 [10/14/20 18:57:03] D2BS 13112: 94
+[10/14/20 18:57:24] D2BS 13112: ÿc1Skipping Flesh Hunter 2491 16
+[10/14/20 18:57:25] D2BS 13112: ÿc7Picked up ÿc426 Gold
+[10/14/20 18:57:26] D2BS 13112: ÿc7Picked up ÿc436 Gold
+[10/14/20 18:57:26] D2BS 13112: ÿc7Picked up ÿc3Dirk ÿc0(ilvl 26) (Singer.xpac.nip #2)
+[10/14/20 18:57:26] D2BS 13112: ÿc7Picked up ÿc0Short Spear ÿc0(ilvl 26)
+[10/14/20 18:57:34] D2BS 13112: ÿc7Picked up ÿc9Full Helm ÿc0(ilvl 26) (Singer.xpac.nip #34)
+[10/14/20 18:57:34] D2BS 13112: ÿc7Picked up ÿc0Full Helm ÿc0(ilvl 23)
+[10/14/20 18:57:38] D2BS 13112: ÿc7Picked up ÿc0ÿc4Lam Esen's Tome ÿc0(ilvl 1)
+[10/14/20 18:57:41] D2BS 13112: 80,81
+[10/14/20 18:57:59] D2BS 13112: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 18:57:59] D2BS 13112: ÿc7Picked up ÿc422 Gold
+[10/14/20 18:57:59] D2BS 13112: ÿc7Picked up ÿc481 Gold
+[10/14/20 18:57:59] D2BS 13112: ÿc7Picked up ÿc3Heavy Crossbow ÿc0(ilvl 22)
+[10/14/20 18:58:20] D2BS 13112: ÿc1Skipping Zakarumite 2478 16
+[10/14/20 18:58:44] D2BS 13112: ÿc7Trying to make room for ÿc0Brandistock
+[10/14/20 18:58:44] D2BS 13112: initNPC: heal
+[10/14/20 18:58:47] D2BS 13112: initNPC: identify
+[10/14/20 18:58:52] D2BS 13112: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[10/14/20 18:58:52] D2BS 13112: initNPC: buyPotions
+[10/14/20 18:59:20] D2BS 13112: LowGold sell Short Spear
+[10/14/20 18:59:20] D2BS 13112: initNPC: clearInventory
+[10/14/20 18:59:24] D2BS 13112: ÿc1Pausing.
+[10/14/20 18:59:31] D2BS 13112: D2BS Shutdown complete.
+[10/14/20 18:59:33] D2BS 1696: D2BS Engine startup complete. 1.6.4U
+[10/14/20 18:59:33] D2BS 1696: ÿc2D2BSÿc0 :: Switched to profile Singer
+[10/14/20 18:59:33] D2BS 1696: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 18:59:33] D2BS 1696: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[10/14/20 18:59:33] D2BS 1696: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[10/14/20 18:59:33] D2BS 1696: Singer
+[10/14/20 18:59:33] D2BS 1696: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 18:59:36] D2BS 1696: Heartbeat loaded
+[10/14/20 18:59:37] D2BS 1696: 0
+[10/14/20 18:59:38] D2BS 1696: 0
+[10/14/20 18:59:39] D2BS 1696: 0
+[10/14/20 18:59:40] D2BS 1696: 0
+[10/14/20 18:59:41] D2BS 1696: 0
+[10/14/20 18:59:42] D2BS 1696: 0
+[10/14/20 18:59:43] D2BS 1696: 0
+[10/14/20 18:59:44] D2BS 1696: 39
+[10/14/20 18:59:45] D2BS 1696: 40
+[10/14/20 18:59:47] D2BS 1696: 12
+[10/14/20 18:59:50] D2BS 1696: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 18:59:50] D2BS 1696: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 18:59:50] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 18:59:50] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 18:59:50] D2BS 1696: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[10/14/20 18:59:50] D2BS 1696: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 18:59:50] D2BS 1696: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 18:59:50] D2BS 1696: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 18:59:50] D2BS 1696: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc20 ms
+[10/14/20 18:59:50] D2BS 1696: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc217. ÿc4Time: ÿc216 ms
+[10/14/20 18:59:50] D2BS 1696: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 18:59:50] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 18:59:50] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 18:59:50] D2BS 1696: AutoBuild: Loaded helper thread
+[10/14/20 18:59:50] D2BS 1696: LowGold sell Short Spear
+[10/14/20 18:59:50] D2BS 1696: initNPC: clearInventory
+[10/14/20 18:59:50] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 18:59:50] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 18:59:50] D2BS 1696: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 18:59:50] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 18:59:50] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 18:59:50] D2BS 1696: ÿc3Start ToolsThread script
+[10/14/20 18:59:50] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 18:59:50] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 18:59:51] D2BS 1696: Updating Status
+[10/14/20 18:59:55] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:01:05] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:01:06] D2BS 1696: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc031 ÿc3CR: ÿc06 ÿc9LR: ÿc06 ÿc2PR: ÿc034
+[10/14/20 19:01:06] D2BS 1696: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:01:06] D2BS 1696: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 19:01:07] D2BS 1696: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:01:07] D2BS 1696: Script d2botlanlead.dbj ended
+[10/14/20 19:01:07] D2BS 1696: Script default.dbj ended
+[10/14/20 19:01:07] D2BS 1696: Script tools\autobuildthread.js ended
+[10/14/20 19:01:07] D2BS 1696: Script tools\heartbeat.js ended
+[10/14/20 19:01:07] D2BS 1696: Script tools\party.js ended
+[10/14/20 19:01:07] D2BS 1696: Script tools\toolsthread.js ended
+[10/14/20 19:01:07] D2BS 1696: Script tools\townchicken.js ended
+[10/14/20 19:01:07] D2BS 1696: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:01:07] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 19:01:07] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 1696: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 1696: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 1696: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 1696: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 1696: Heartbeat loaded
+[10/14/20 19:01:07] D2BS 1696: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc216 ms
+[10/14/20 19:01:07] D2BS 1696: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 1696: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 19:01:07] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 1696: AutoBuild: Loaded helper thread
+[10/14/20 19:01:07] D2BS 1696: LowGold sell Short Spear
+[10/14/20 19:01:07] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:01:07] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 19:01:07] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 1696: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 19:01:07] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 19:01:07] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 1696: ÿc3Start ToolsThread script
+[10/14/20 19:01:07] D2BS 1696: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 19:01:07] D2BS 1696: Updating Config from level 0 to 21
+[10/14/20 19:01:09] D2BS 1696: LowGold sell Damaged Mask
+[10/14/20 19:01:09] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:01:11] D2BS 1696: LowGold sell Full Helm
+[10/14/20 19:01:11] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:01:13] D2BS 1696: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 19:01:22] D2BS 1696: Up to Act:3 Kurast Bazaar
+[10/14/20 19:01:23] D2BS 1696: 80
+[10/14/20 19:01:29] D2BS 1696: ÿc7Picked up ÿc0Damaged Broad Sword ÿc0(ilvl 22)
+[10/14/20 19:01:29] D2BS 1696: ÿc7Picked up ÿc4116 Gold
+[10/14/20 19:01:29] D2BS 1696: ÿc7Picked up ÿc0Damaged Double Axe ÿc0(ilvl 22)
+[10/14/20 19:02:01] D2BS 1696: ÿc1Skipping Faithful 60 16
+[10/14/20 19:02:02] D2BS 1696: ÿc7Picked up ÿc468 Gold
+[10/14/20 19:02:02] D2BS 1696: ÿc7Picked up ÿc0Crude Crystal Sword ÿc0(ilvl 22)
+[10/14/20 19:02:02] D2BS 1696: ÿc7Trying to make room for ÿc0Cracked Broad Sword
+[10/14/20 19:02:02] D2BS 1696: initNPC: heal
+[10/14/20 19:02:06] D2BS 1696: initNPC: identify
+[10/14/20 19:02:07] D2BS 1696: initNPC: fillTome
+[10/14/20 19:02:08] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 46 items.
+[10/14/20 19:02:09] D2BS 1696: LowGold sell Crude Crystal Sword
+[10/14/20 19:02:09] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:02:09] D2BS 1696: LowGold sell Damaged Double Axe
+[10/14/20 19:02:09] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:02:11] D2BS 1696: LowGold sell Damaged Broad Sword
+[10/14/20 19:02:11] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:02:13] D2BS 1696: Full Helm
+[10/14/20 19:02:16] D2BS 1696: move retry 1
+[10/14/20 19:02:37] D2BS 1696: ÿc1Skipping Faithful 60 16
+[10/14/20 19:03:05] D2BS 1696: ÿc1Skipping Thrasher 88 16
+[10/14/20 19:03:14] D2BS 1696: ÿc7Picked up ÿc4118 Gold
+[10/14/20 19:03:23] D2BS 1696: 94
+[10/14/20 19:03:49] D2BS 1696: 94,80,81
+[10/14/20 19:04:32] D2BS 1696: ÿc1Skipping Zakarumite 137 16
+[10/14/20 19:05:23] D2BS 1696: ÿc7Picked up ÿc4108 Gold
+[10/14/20 19:05:50] D2BS 1696: ÿc7Picked up ÿc465 Gold
+[10/14/20 19:06:03] D2BS 1696: 81,82,83
+[10/14/20 19:06:25] D2BS 1696: ÿc7Picked up ÿc460 Gold
+[10/14/20 19:06:25] D2BS 1696: ÿc7Picked up ÿc4143 Gold
+[10/14/20 19:06:45] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:06:45] D2BS 1696: initNPC: heal
+[10/14/20 19:06:54] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:07:21] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:07:30] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:07:31] D2BS 1696: initNPC: heal
+[10/14/20 19:07:34] D2BS 1696: initNPC: fillTome
+[10/14/20 19:07:36] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:07:42] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:07:56] D2BS 1696: ÿc1Skipping Zealot 251 16
+[10/14/20 19:08:21] D2BS 1696: ÿc1Skipping Zealot 262 16
+[10/14/20 19:08:32] D2BS 1696: ÿc1Skipping Zealot 252 16
+[10/14/20 19:08:42] D2BS 1696: ÿc1Skipping Zealot 264 16
+[10/14/20 19:08:49] D2BS 1696: ÿc7Picked up ÿc4118 Gold
+[10/14/20 19:08:50] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:08:50] D2BS 1696: initNPC: heal
+[10/14/20 19:08:55] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:09:11] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:09:28] D2BS 1696: initNPC: heal
+[10/14/20 19:09:35] D2BS 1696: initNPC: repair
+[10/14/20 19:10:08] D2BS 1696: ÿc1Skipping Zealot 259 16
+[10/14/20 19:10:15] D2BS 1696: ÿc1Skipping Zealot 247 16
+[10/14/20 19:10:26] D2BS 1696: ÿc1Skipping Zealot 284 16
+[10/14/20 19:10:35] D2BS 1696: ÿc7Picked up ÿc457 Gold
+[10/14/20 19:10:35] D2BS 1696: ÿc7Picked up ÿc469 Gold
+[10/14/20 19:10:35] D2BS 1696: ÿc7Picked up ÿc479 Gold
+[10/14/20 19:10:59] D2BS 1696: ÿc7Picked up ÿc0Superior Claymore ÿc0(ilvl 24)
+[10/14/20 19:11:04] D2BS 1696: initNPC: heal
+[10/14/20 19:11:08] D2BS 1696: initNPC: identify
+[10/14/20 19:11:09] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 46 items.
+[10/14/20 19:11:14] D2BS 1696: LowGold sell Superior Claymore
+[10/14/20 19:11:14] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:11:36] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:11:36] D2BS 1696: initNPC: heal
+[10/14/20 19:11:40] D2BS 1696: initNPC: fillTome
+[10/14/20 19:11:42] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:11:48] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:11:55] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:11:55] D2BS 1696: initNPC: heal
+[10/14/20 19:12:00] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:12:09] D2BS 1696: initNPC: reviveMerc
+[10/14/20 19:12:19] D2BS 1696: move retry 1
+[10/14/20 19:12:21] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:12:26] D2BS 1696: ÿc1Skipping Flayer Shaman 360 16
+[10/14/20 19:12:26] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:12:26] D2BS 1696: initNPC: heal
+[10/14/20 19:12:31] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:12:39] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:12:50] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:12:50] D2BS 1696: initNPC: heal
+[10/14/20 19:12:54] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:13:04] D2BS 1696: initNPC: reviveMerc
+[10/14/20 19:13:16] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:13:20] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:13:20] D2BS 1696: initNPC: heal
+[10/14/20 19:13:24] D2BS 1696: initNPC: fillTome
+[10/14/20 19:13:26] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:13:34] D2BS 1696: initNPC: reviveMerc
+[10/14/20 19:13:46] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:13:49] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:13:49] D2BS 1696: initNPC: heal
+[10/14/20 19:13:53] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:14:03] D2BS 1696: initNPC: reviveMerc
+[10/14/20 19:14:15] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:14:24] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:14:24] D2BS 1696: initNPC: heal
+[10/14/20 19:14:28] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:14:35] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:14:48] D2BS 1696: ÿc1Skipping Flayer 373 16
+[10/14/20 19:15:39] D2BS 1696: AutoBuild: Stat points: 12      Skill points: 4
+[10/14/20 19:15:39] D2BS 1696: AutoBuild: Level up detected ( 21 --> 22 )
+[10/14/20 19:15:39] D2BS 1696: AutoBuild: useSkillPoint(): Shout (138)
+[10/14/20 19:15:39] D2BS 1696: AutoBuild: Skill (1/1) Increased Shout (138) by one (level:  12)
+[10/14/20 19:15:39] D2BS 1696: AutoBuild: useStatPoint(0): Strength
+[10/14/20 19:15:39] D2BS 1696: AutoBuild: Stat (1/5) Increased Strength from 50 to 51
+[10/14/20 19:15:39] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: Stat (2/5) Increased Vitality from 103 to 104
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: Stat (3/5) Increased Vitality from 104 to 105
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: Stat (4/5) Increased Vitality from 105 to 106
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: Stat (5/5) Increased Vitality from 106 to 107
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: Updating Config from level 21 to 22
+[10/14/20 19:15:40] D2BS 1696: Updating Config from level 21 to 22
+[10/14/20 19:15:40] D2BS 1696: Updating Config from level 21 to 22
+[10/14/20 19:15:40] D2BS 1696: Updating Config from level 21 to 22
+[10/14/20 19:15:40] D2BS 1696: Updating Config from level 21 to 22
+[10/14/20 19:15:40] D2BS 1696: AutoBuild: Incrementing cached character level to 22
+[10/14/20 19:16:12] D2BS 1696: ÿc7Picked up ÿc445 Gold
+[10/14/20 19:16:14] D2BS 1696: ÿc7Picked up ÿc429 Gold
+[10/14/20 19:16:14] D2BS 1696: ÿc7Picked up ÿc432 Gold
+[10/14/20 19:16:24] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:16:24] D2BS 1696: initNPC: heal
+[10/14/20 19:16:28] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:16:38] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:16:38] D2BS 1696: ÿc7Picked up ÿc3Claymore ÿc0(ilvl 24) (Singer.xpac.nip #2)
+[10/14/20 19:16:42] D2BS 1696: ÿc7Picked up ÿc469 Gold
+[10/14/20 19:16:44] D2BS 1696: ÿc7Picked up ÿc4124 Gold
+[10/14/20 19:16:47] D2BS 1696: ÿc7Picked up ÿc0Chipped Sapphire ÿc0(ilvl 1)
+[10/14/20 19:16:48] D2BS 1696: ÿc7Picked up ÿc0Cracked Spiked Shield ÿc0(ilvl 22)
+[10/14/20 19:17:18] D2BS 1696: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 23) (LateGame.nip #11)
+[10/14/20 19:17:34] D2BS 1696: ÿc7Picked up ÿc4111 Gold
+[10/14/20 19:17:36] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:17:40] D2BS 1696: ÿc7Picked up ÿc447 Gold
+[10/14/20 19:17:46] D2BS 1696: move retry 1
+[10/14/20 19:17:46] D2BS 1696: ÿc7Picked up ÿc452 Gold
+[10/14/20 19:18:11] D2BS 1696: ÿc7Picked up ÿc4101 Gold
+[10/14/20 19:18:11] D2BS 1696: ÿc7Picked up ÿc458 Gold
+[10/14/20 19:18:12] D2BS 1696: ÿc7Picked up ÿc0Cracked Gargoyle Head ÿc0(ilvl 22)
+[10/14/20 19:18:58] D2BS 1696: ÿc7Picked up ÿc461 Gold
+[10/14/20 19:19:15] D2BS 1696: ÿc7Picked up ÿc8Ral Rune ÿc0(ilvl 1) (MidGame.nip #2)
+[10/14/20 19:19:16] D2BS 1696: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[10/14/20 19:19:17] D2BS 1696: ÿc7Picked up ÿc3Ring ÿc0(ilvl 22) (Singer.xpac.nip #100)
+[10/14/20 19:19:18] D2BS 1696: ÿc7Picked up ÿc0Superior Long Staff ÿc0(ilvl 22)
+[10/14/20 19:19:18] D2BS 1696: ÿc7Picked up ÿc4103 Gold
+[10/14/20 19:19:32] D2BS 1696: ÿc1Skipping Flayer 785 16
+[10/14/20 19:19:33] D2BS 1696: ÿc7Picked up ÿc492 Gold
+[10/14/20 19:19:42] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:19:42] D2BS 1696: ÿc7Picked up ÿc451 Gold
+[10/14/20 19:19:50] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:19:51] D2BS 1696: ÿc7Picked up ÿc473 Gold
+[10/14/20 19:19:53] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:21:00] D2BS 1696: ÿc7Picked up ÿc467 Gold
+[10/14/20 19:21:00] D2BS 1696: ÿc7Picked up ÿc0Kris ÿc0(ilvl 23)
+[10/14/20 19:21:15] D2BS 1696: ÿc7Picked up ÿc4106 Gold
+[10/14/20 19:21:51] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:21:51] D2BS 1696: initNPC: heal
+[10/14/20 19:21:56] D2BS 1696: initNPC: identify
+[10/14/20 19:22:02] D2BS 1696: initNPC: fillTome
+[10/14/20 19:22:03] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[10/14/20 19:22:04] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:22:12] D2BS 1696: LowGold sell Cracked Gargoyle Head
+[10/14/20 19:22:12] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:22:17] D2BS 1696: LowGold sell Superior Long Staff
+[10/14/20 19:22:17] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:22:19] D2BS 1696: LowGold sell Kris
+[10/14/20 19:22:19] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:22:21] D2BS 1696: LowGold sell Cracked Spiked Shield
+[10/14/20 19:22:21] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:22:23] D2BS 1696: LowGold sell Chipped Sapphire
+[10/14/20 19:22:23] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:22:32] D2BS 1696: initNPC: reviveMerc
+[10/14/20 19:22:44] D2BS 1696: Successfully placed Ral Rune at X: 7 Y: 0
+[10/14/20 19:22:53] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:23:04] D2BS 1696: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:23:04] D2BS 1696: ÿc7Picked up ÿc471 Gold
+[10/14/20 19:23:05] D2BS 1696: ÿc7Picked up ÿc0Giant Sword ÿc0(ilvl 23)
+[10/14/20 19:23:07] D2BS 1696: ÿc7Picked up ÿc9Light Plated Boots ÿc0(ilvl 23) (Singer.xpac.nip #66)
+[10/14/20 19:23:10] D2BS 1696: ÿc7Picked up ÿc0Helm ÿc0(ilvl 22)
+[10/14/20 19:23:10] D2BS 1696: ÿc7Picked up ÿc0Full Helm ÿc0(ilvl 22)
+[10/14/20 19:23:14] D2BS 1696: ÿc7Picked up ÿc477 Gold
+[10/14/20 19:23:38] D2BS 1696: ÿc7Picked up ÿc0Wolf Head ÿc0(ilvl 23)
+[10/14/20 19:23:55] D2BS 1696: ÿc7Picked up ÿc0Superior Short Spear ÿc0(ilvl 24)
+[10/14/20 19:23:55] D2BS 1696: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:23:56] D2BS 1696: ÿc7Picked up ÿc0Bone Shield ÿc0(ilvl 23)
+[10/14/20 19:24:13] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:24:31] D2BS 1696: ÿc1Skipping Flayer 714 16
+[10/14/20 19:24:51] D2BS 1696: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 22)
+[10/14/20 19:25:00] D2BS 1696: ÿc7Picked up ÿc437 Gold
+[10/14/20 19:25:12] D2BS 1696: ÿc7Picked up ÿc4108 Gold
+[10/14/20 19:25:25] D2BS 1696: ÿc7Trying to make room for ÿc0Poleaxe
+[10/14/20 19:25:25] D2BS 1696: initNPC: heal
+[10/14/20 19:25:29] D2BS 1696: initNPC: identify
+[10/14/20 19:25:32] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 51 items.
+[10/14/20 19:25:33] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:25:38] D2BS 1696: LowGold sell Giant Sword
+[10/14/20 19:25:38] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:25:44] D2BS 1696: LowGold sell Full Helm
+[10/14/20 19:25:44] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:25:46] D2BS 1696: LowGold sell Bone Shield
+[10/14/20 19:25:46] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:25:49] D2BS 1696: LowGold sell Morning Star
+[10/14/20 19:25:49] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:25:51] D2BS 1696: LowGold sell Superior Short Spear
+[10/14/20 19:25:51] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:25:53] D2BS 1696: LowGold sell Helm
+[10/14/20 19:25:53] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:25:55] D2BS 1696: LowGold sell Wolf Head
+[10/14/20 19:25:55] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:25:57] D2BS 1696: Light Plated Boots
+[10/14/20 19:26:11] D2BS 1696: ÿc7Picked up ÿc0Flawed Emerald ÿc0(ilvl 1)
+[10/14/20 19:27:00] D2BS 1696: initNPC: heal
+[10/14/20 19:27:03] D2BS 1696: initNPC: identify
+[10/14/20 19:27:04] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 47 items.
+[10/14/20 19:27:09] D2BS 1696: LowGold sell Flawed Emerald
+[10/14/20 19:27:09] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:27:17] D2BS 1696: ÿc7Picked up ÿc444 Gold
+[10/14/20 19:27:17] D2BS 1696: ÿc7Picked up ÿc444 Gold
+[10/14/20 19:27:17] D2BS 1696: ÿc7Picked up ÿc0ÿc4Khalim's Brain ÿc0(ilvl 1) (LateGame.nip #25)
+[10/14/20 19:27:17] D2BS 1696: ÿc7Picked up ÿc4111 Gold
+[10/14/20 19:27:18] D2BS 1696: ÿc7Picked up ÿc482 Gold
+[10/14/20 19:27:18] D2BS 1696: ÿc7Picked up ÿc459 Gold
+[10/14/20 19:27:18] D2BS 1696: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[10/14/20 19:27:18] D2BS 1696: ÿc7Picked up ÿc491 Gold
+[10/14/20 19:27:18] D2BS 1696: ÿc7Picked up ÿc3Flail ÿc0(ilvl 22) (Singer.xpac.nip #2)
+[10/14/20 19:27:19] D2BS 1696: 91
+[10/14/20 19:27:41] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:27:41] D2BS 1696: ÿc7Picked up ÿc0Flawed Skull ÿc0(ilvl 1)
+[10/14/20 19:27:41] D2BS 1696: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[10/14/20 19:27:41] D2BS 1696: ÿc7Picked up ÿc0Superior Full Helm ÿc0(ilvl 26)
+[10/14/20 19:27:47] D2BS 1696: ÿc7Picked up ÿc3Glaive ÿc0(ilvl 23) (Singer.xpac.nip #2)
+[10/14/20 19:27:47] D2BS 1696: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:27:48] D2BS 1696: ÿc7Picked up ÿc0Chipped Skull ÿc0(ilvl 1)
+[10/14/20 19:27:48] D2BS 1696: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:27:49] D2BS 1696: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:27:50] D2BS 1696: Boss not found
+[10/14/20 19:27:50] D2BS 1696: initNPC: heal
+[10/14/20 19:27:55] D2BS 1696: initNPC: identify
+[10/14/20 19:27:59] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[10/14/20 19:28:00] D2BS 1696: move retry 1
+[10/14/20 19:28:04] D2BS 1696: move retry 1
+[10/14/20 19:28:12] D2BS 1696: LowGold sell Superior Full Helm
+[10/14/20 19:28:12] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:28:16] D2BS 1696: LowGold sell Flawed Skull
+[10/14/20 19:28:16] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:28:18] D2BS 1696: LowGold sell Chipped Skull
+[10/14/20 19:28:18] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:28:25] D2BS 1696: Successfully placed ÿc4Khalim's Brain at X: 2 Y: 1
+[10/14/20 19:28:27] D2BS 1696: 76,85
+[10/14/20 19:28:44] D2BS 1696: ÿc7Picked up ÿc4105 Gold
+[10/14/20 19:28:51] D2BS 1696: move retry 1
+[10/14/20 19:29:07] D2BS 1696: ÿc1Skipping Jungle Hunter 1398 16
+[10/14/20 19:29:32] D2BS 1696: ÿc1Skipping Jungle Hunter 1395 16
+[10/14/20 19:29:34] D2BS 1696: ÿc7Picked up ÿc0Throwing Axe ÿc0(ilvl 22)
+[10/14/20 19:29:34] D2BS 1696: move retry 2
+[10/14/20 19:29:39] D2BS 1696: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:29:39] D2BS 1696: ÿc7Picked up ÿc499 Gold
+[10/14/20 19:29:39] D2BS 1696: ÿc7Picked up ÿc4123 Gold
+[10/14/20 19:29:39] D2BS 1696: ÿc7Picked up ÿc454 Gold
+[10/14/20 19:30:00] D2BS 1696: ÿc7Picked up ÿc486 Gold
+[10/14/20 19:30:00] D2BS 1696: ÿc7Picked up ÿc8Tir Rune ÿc0(ilvl 1)
+[10/14/20 19:30:00] D2BS 1696: ÿc7Picked up ÿc0Low Quality Bone Shield ÿc0(ilvl 21)
+[10/14/20 19:31:06] D2BS 1696: move retry 1
+[10/14/20 19:31:16] D2BS 1696: ÿc7Picked up ÿc0Claymore ÿc0(ilvl 19)
+[10/14/20 19:31:16] D2BS 1696: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[10/14/20 19:31:18] D2BS 1696: ÿc7Picked up ÿc491 Gold
+[10/14/20 19:31:45] D2BS 1696: move retry 1
+[10/14/20 19:31:59] D2BS 1696: move retry 1
+[10/14/20 19:32:12] D2BS 1696: ÿc1Skipping Flame Spider 1496 16
+[10/14/20 19:32:38] D2BS 1696: initNPC: heal
+[10/14/20 19:32:42] D2BS 1696: initNPC: identify
+[10/14/20 19:32:43] D2BS 1696: initNPC: fillTome
+[10/14/20 19:32:44] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 41 items.
+[10/14/20 19:32:44] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:32:49] D2BS 1696: LowGold sell Low Quality Bone Shield
+[10/14/20 19:32:49] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:32:52] D2BS 1696: move retry 1
+[10/14/20 19:32:55] D2BS 1696: LowGold sell Claymore
+[10/14/20 19:32:55] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:32:57] D2BS 1696: LowGold sell Throwing Axe
+[10/14/20 19:32:57] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:32:59] D2BS 1696: LowGold sell Tir Rune
+[10/14/20 19:32:59] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:33:01] D2BS 1696: initNPC: repair
+[10/14/20 19:33:01] D2BS 1696: move retry 1
+[10/14/20 19:33:40] D2BS 1696: ÿc7Picked up ÿc476 Gold
+[10/14/20 19:33:41] D2BS 1696: ÿc7Picked up ÿc439 Gold
+[10/14/20 19:33:41] D2BS 1696: ÿc7Picked up ÿc429 Gold
+[10/14/20 19:33:44] D2BS 1696: ÿc7Picked up ÿc464 Gold
+[10/14/20 19:33:44] D2BS 1696: ÿc7Picked up ÿc0Cracked Short Spear ÿc0(ilvl 21)
+[10/14/20 19:33:44] D2BS 1696: ÿc7Picked up ÿc3Morning Star ÿc0(ilvl 21) (Singer.xpac.nip #2)
+[10/14/20 19:33:44] D2BS 1696: ÿc7Picked up ÿc4120 Gold
+[10/14/20 19:33:46] D2BS 1696: move retry 1
+[10/14/20 19:33:51] D2BS 1696: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[10/14/20 19:34:15] D2BS 1696: ÿc7Picked up ÿc442 Gold
+[10/14/20 19:34:16] D2BS 1696: move retry 1
+[10/14/20 19:34:18] D2BS 1696: move retry 2
+[10/14/20 19:34:56] D2BS 1696: move retry 1
+[10/14/20 19:34:59] D2BS 1696: move retry 2
+[10/14/20 19:35:19] D2BS 1696: move retry 1
+[10/14/20 19:35:35] D2BS 1696: ÿc7Picked up ÿc3Spiked Shield ÿc0(ilvl 25) (Singer.xpac.nip #16)
+[10/14/20 19:35:44] D2BS 1696: ÿc7Picked up ÿc0Short Spear ÿc0(ilvl 25)
+[10/14/20 19:35:44] D2BS 1696: ÿc7Picked up ÿc0ÿc4Khalim's Eye ÿc0(ilvl 1) (LateGame.nip #23)
+[10/14/20 19:35:45] D2BS 1696: ÿc7Picked up ÿc4103 Gold
+[10/14/20 19:35:45] D2BS 1696: ÿc7Picked up ÿc4107 Gold
+[10/14/20 19:35:45] D2BS 1696: ÿc7Picked up ÿc3Maul ÿc0(ilvl 21) (Singer.xpac.nip #2)
+[10/14/20 19:35:45] D2BS 1696: ÿc7Picked up ÿc426 Gold
+[10/14/20 19:35:45] D2BS 1696: ÿc7Picked up ÿc463 Gold
+[10/14/20 19:35:46] D2BS 1696: ÿc7Picked up ÿc445 Gold
+[10/14/20 19:35:46] D2BS 1696: ÿc7Picked up ÿc422 Gold
+[10/14/20 19:35:46] D2BS 1696: ÿc7Picked up ÿc473 Gold
+[10/14/20 19:35:46] D2BS 1696: ÿc7Picked up ÿc4120 Gold
+[10/14/20 19:35:46] D2BS 1696: ÿc7Picked up ÿc3Brandistock ÿc0(ilvl 21) (PreMerc.xpac.nip #17)
+[10/14/20 19:35:46] D2BS 1696: ÿc7Picked up ÿc8Tal Rune ÿc0(ilvl 1) (MidGame.nip #2)
+[10/14/20 19:35:46] D2BS 1696: ÿc7Picked up ÿc423 Gold
+[10/14/20 19:35:50] D2BS 1696: ÿc7Picked up ÿc444 Gold
+[10/14/20 19:36:34] D2BS 1696: initNPC: heal
+[10/14/20 19:36:39] D2BS 1696: initNPC: identify
+[10/14/20 19:36:46] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[10/14/20 19:36:47] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:36:50] D2BS 1696: move retry 1
+[10/14/20 19:36:51] D2BS 1696: move retry 2
+[10/14/20 19:36:53] D2BS 1696: move retry 1
+[10/14/20 19:37:00] D2BS 1696: LowGold sell Short Spear
+[10/14/20 19:37:00] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:37:05] D2BS 1696: LowGold sell Cracked Short Spear
+[10/14/20 19:37:05] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:37:12] D2BS 1696: Successfully placed Tal Rune at X: 5 Y: 1
+[10/14/20 19:37:13] D2BS 1696: Successfully placed ÿc4Khalim's Eye at X: 6 Y: 1
+[10/14/20 19:37:14] D2BS 1696: 83
+[10/14/20 19:37:52] D2BS 1696: AutoBuild: Stat points: 12      Skill points: 4
+[10/14/20 19:37:52] D2BS 1696: AutoBuild: Level up detected ( 22 --> 23 )
+[10/14/20 19:37:52] D2BS 1696: AutoBuild: useSkillPoint(): Shout (138)
+[10/14/20 19:37:52] D2BS 1696: AutoBuild: Skill (1/1) Increased Shout (138) by one (level:  13)
+[10/14/20 19:37:52] D2BS 1696: AutoBuild: useStatPoint(0): Strength
+[10/14/20 19:37:52] D2BS 1696: AutoBuild: Stat (1/5) Increased Strength from 51 to 52
+[10/14/20 19:37:52] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: Stat (2/5) Increased Vitality from 107 to 108
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: Stat (3/5) Increased Vitality from 108 to 109
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: Stat (4/5) Increased Vitality from 109 to 110
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: Stat (5/5) Increased Vitality from 110 to 111
+[10/14/20 19:37:53] D2BS 1696: Updating Config from level 22 to 23
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: Updating Config from level 22 to 23
+[10/14/20 19:37:53] D2BS 1696: Updating Config from level 22 to 23
+[10/14/20 19:37:53] D2BS 1696: Updating Config from level 22 to 23
+[10/14/20 19:37:53] D2BS 1696: Updating Config from level 22 to 23
+[10/14/20 19:37:53] D2BS 1696: AutoBuild: Incrementing cached character level to 23
+[10/14/20 19:37:57] D2BS 1696: move retry 1
+[10/14/20 19:37:58] D2BS 1696: move retry 1
+[10/14/20 19:38:01] D2BS 1696: move retry 1
+[10/14/20 19:38:39] D2BS 1696: ÿc7Picked up ÿc4122 Gold
+[10/14/20 19:38:39] D2BS 1696: ÿc7Picked up ÿc4205 Gold
+[10/14/20 19:38:39] D2BS 1696: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 28) (LateGame.nip #11)
+[10/14/20 19:38:39] D2BS 1696: ÿc7Picked up ÿc446 Gold
+[10/14/20 19:38:41] D2BS 1696: ÿc7Picked up ÿc4136 Gold
+[10/14/20 19:38:42] D2BS 1696: move retry 1
+[10/14/20 19:39:06] D2BS 1696: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:39:06] D2BS 1696: ÿc7Picked up ÿc3Quhab ÿc0(ilvl 28)
+[10/14/20 19:39:12] D2BS 1696: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/14/20 19:39:14] D2BS 1696: ÿc7Picked up ÿc4ÿc4Khalim's Flail ÿc0(ilvl 28) (LateGame.nip #22)
+[10/14/20 19:39:35] D2BS 1696: initNPC: heal
+[10/14/20 19:39:40] D2BS 1696: initNPC: identify
+[10/14/20 19:39:43] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[10/14/20 19:39:44] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:40:03] D2BS 1696: Successfully placed ÿc4Khalim's Flail at X: 0 Y: 2
+[10/14/20 19:40:04] D2BS 1696: 75
+[10/14/20 19:40:05] D2BS 1696: Successfully placed ÿc4Khalim's Eye at X: 0 Y: 0
+[10/14/20 19:40:05] D2BS 1696: Successfully placed ÿc4Khalim's Brain at X: 0 Y: 0
+[10/14/20 19:40:06] D2BS 1696: Successfully placed ÿc4Khalim's Heart at X: 0 Y: 0
+[10/14/20 19:40:07] D2BS 1696: Successfully placed ÿc4Khalim's Flail at X: 0 Y: 0
+[10/14/20 19:40:10] D2BS 1696: Successfully placed ÿc4Khalim's Will at X: 0 Y: 1
+[10/14/20 19:40:10] D2BS 1696: 83
+[10/14/20 19:40:13] D2BS 1696: 83
+[10/14/20 19:40:56] D2BS 1696: Beryl Crystal Sword 
+[10/14/20 19:40:57] D2BS 1696: 83
+[10/14/20 19:41:12] D2BS 1696: move retry 1
+[10/14/20 19:41:14] D2BS 1696: 100
+[10/14/20 19:41:27] D2BS 1696: ÿc7Picked up ÿc0Long Bow ÿc0(ilvl 25)
+[10/14/20 19:41:37] D2BS 1696: ÿc7Picked up ÿc4131 Gold
+[10/14/20 19:41:37] D2BS 1696: ÿc7Picked up ÿc4111 Gold
+[10/14/20 19:41:37] D2BS 1696: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:41:37] D2BS 1696: ÿc7Picked up ÿc3Chain Gloves ÿc0(ilvl 25)
+[10/14/20 19:41:46] D2BS 1696: ÿc7Picked up ÿc437 Gold
+[10/14/20 19:41:48] D2BS 1696: move retry 1
+[10/14/20 19:42:09] D2BS 1696: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[10/14/20 19:42:10] D2BS 1696: ÿc7Picked up ÿc472 Gold
+[10/14/20 19:42:10] D2BS 1696: ÿc7Picked up ÿc490 Gold
+[10/14/20 19:42:10] D2BS 1696: ÿc7Picked up ÿc0Crude Composite Bow ÿc0(ilvl 25)
+[10/14/20 19:42:49] D2BS 1696: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/14/20 19:42:49] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:42:49] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:42:49] D2BS 1696: ÿc7Picked up ÿc3Throwing Axe ÿc0(ilvl 28)
+[10/14/20 19:42:49] D2BS 1696: ÿc7Picked up ÿc464 Gold
+[10/14/20 19:42:57] D2BS 1696: move retry 1
+[10/14/20 19:43:02] D2BS 1696: move retry 1
+[10/14/20 19:43:06] D2BS 1696: move retry 1
+[10/14/20 19:43:10] D2BS 1696: move retry 1
+[10/14/20 19:43:14] D2BS 1696: move retry 2
+[10/14/20 19:43:26] D2BS 1696: move retry 3
+[10/14/20 19:43:34] D2BS 1696: ÿc7Picked up ÿc0Crude Full Helm ÿc0(ilvl 25)
+[10/14/20 19:43:35] D2BS 1696: ÿc7Picked up ÿc0Low Quality Brandistock ÿc0(ilvl 25)
+[10/14/20 19:43:39] D2BS 1696: 101
+[10/14/20 19:43:40] D2BS 1696: ÿc7Picked up ÿc4142 Gold
+[10/14/20 19:43:40] D2BS 1696: ÿc7Picked up ÿc444 Gold
+[10/14/20 19:43:41] D2BS 1696: ÿc7Picked up ÿc4109 Gold
+[10/14/20 19:43:41] D2BS 1696: ÿc7Trying to make room for ÿc0Superior Great Axe
+[10/14/20 19:43:41] D2BS 1696: initNPC: heal
+[10/14/20 19:43:51] D2BS 1696: initNPC: identify
+[10/14/20 19:43:54] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 46 items.
+[10/14/20 19:43:58] D2BS 1696: LowGold sell Long Bow
+[10/14/20 19:43:58] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:44:02] D2BS 1696: LowGold sell Low Quality Brandistock
+[10/14/20 19:44:02] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:44:04] D2BS 1696: LowGold sell Crude Composite Bow
+[10/14/20 19:44:04] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:44:06] D2BS 1696: LowGold sell Crude Full Helm
+[10/14/20 19:44:06] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:44:15] D2BS 1696: ÿc7Picked up ÿc0Superior Great Axe ÿc0(ilvl 25)
+[10/14/20 19:44:16] D2BS 1696: ÿc7Picked up ÿc495 Gold
+[10/14/20 19:44:16] D2BS 1696: ÿc7Picked up ÿc0Cracked Flamberge ÿc0(ilvl 25)
+[10/14/20 19:44:16] D2BS 1696: ÿc7Picked up ÿc0Damaged Two-Handed Sword ÿc0(ilvl 25)
+[10/14/20 19:44:23] D2BS 1696: ÿc7Picked up ÿc4119 Gold
+[10/14/20 19:44:23] D2BS 1696: ÿc7Picked up ÿc4145 Gold
+[10/14/20 19:44:23] D2BS 1696: ÿc7Picked up ÿc471 Gold
+[10/14/20 19:44:23] D2BS 1696: ÿc7Picked up ÿc4108 Gold
+[10/14/20 19:44:23] D2BS 1696: ÿc7Picked up ÿc490 Gold
+[10/14/20 19:44:38] D2BS 1696: ÿc7Picked up ÿc0Short Sword ÿc0(ilvl 24)
+[10/14/20 19:44:40] D2BS 1696: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[10/14/20 19:44:40] D2BS 1696: ÿc7Picked up ÿc0Crystal Sword ÿc0(ilvl 25)
+[10/14/20 19:44:40] D2BS 1696: ÿc7Picked up ÿc476 Gold
+[10/14/20 19:44:43] D2BS 1696: ÿc7Picked up ÿc0Superior Mace ÿc0(ilvl 25)
+[10/14/20 19:44:43] D2BS 1696: ÿc7Picked up ÿc4134 Gold
+[10/14/20 19:44:43] D2BS 1696: ÿc7Picked up ÿc4120 Gold
+[10/14/20 19:44:58] D2BS 1696: ÿc7Trying to make room for ÿc0Cracked Pike
+[10/14/20 19:44:58] D2BS 1696: initNPC: heal
+[10/14/20 19:45:02] D2BS 1696: initNPC: identify
+[10/14/20 19:45:03] D2BS 1696: initNPC: fillTome
+[10/14/20 19:45:04] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 44 items.
+[10/14/20 19:45:08] D2BS 1696: LowGold sell Superior Great Axe
+[10/14/20 19:45:08] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:45:13] D2BS 1696: LowGold sell Cracked Flamberge
+[10/14/20 19:45:13] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:45:15] D2BS 1696: LowGold sell Damaged Two-Handed Sword
+[10/14/20 19:45:15] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:45:17] D2BS 1696: LowGold sell Crystal Sword
+[10/14/20 19:45:17] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:45:20] D2BS 1696: LowGold sell Superior Mace
+[10/14/20 19:45:20] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:45:22] D2BS 1696: LowGold sell Short Sword
+[10/14/20 19:45:22] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:45:32] D2BS 1696: ÿc7Picked up ÿc0Cracked Pike ÿc0(ilvl 25)
+[10/14/20 19:45:33] D2BS 1696: ÿc7Picked up ÿc474 Gold
+[10/14/20 19:45:36] D2BS 1696: ÿc7Picked up ÿc0Superior Trident ÿc0(ilvl 25)
+[10/14/20 19:45:36] D2BS 1696: ÿc7Picked up ÿc486 Gold
+[10/14/20 19:45:37] D2BS 1696: ÿc7Picked up ÿc4105 Gold
+[10/14/20 19:45:56] D2BS 1696: ÿc1Skipping Undead Stygian Doll 1697 16
+[10/14/20 19:46:09] D2BS 1696: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:46:14] D2BS 1696: ÿc7Picked up ÿc432 Gold
+[10/14/20 19:46:25] D2BS 1696: ÿc7Picked up ÿc450 Gold
+[10/14/20 19:46:25] D2BS 1696: ÿc7Picked up ÿc0Crude Heraldic Shield ÿc0(ilvl 25)
+[10/14/20 19:46:28] D2BS 1696: 102
+[10/14/20 19:47:09] D2BS 1696: ÿc7Picked up ÿc0Cracked Pike ÿc0(ilvl 25)
+[10/14/20 19:47:11] D2BS 1696: ÿc7Picked up ÿc0Cracked Sabre ÿc0(ilvl 25)
+[10/14/20 19:47:11] D2BS 1696: ÿc7Trying to make room for ÿc0Large Axe
+[10/14/20 19:47:12] D2BS 1696: initNPC: heal
+[10/14/20 19:47:16] D2BS 1696: initNPC: identify
+[10/14/20 19:47:17] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[10/14/20 19:47:22] D2BS 1696: LowGold sell Cracked Pike
+[10/14/20 19:47:22] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:47:27] D2BS 1696: LowGold sell Superior Trident
+[10/14/20 19:47:27] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:47:29] D2BS 1696: LowGold sell Crude Heraldic Shield
+[10/14/20 19:47:29] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:47:31] D2BS 1696: LowGold sell Cracked Pike
+[10/14/20 19:47:31] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:47:33] D2BS 1696: LowGold sell Cracked Sabre
+[10/14/20 19:47:33] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:47:43] D2BS 1696: ÿc7Picked up ÿc0Large Axe ÿc0(ilvl 25)
+[10/14/20 19:47:45] D2BS 1696: ÿc7Picked up ÿc4124 Gold
+[10/14/20 19:47:45] D2BS 1696: ÿc7Picked up ÿc4111 Gold
+[10/14/20 19:47:45] D2BS 1696: ÿc7Picked up ÿc448 Gold
+[10/14/20 19:47:52] D2BS 1696: ÿc7Picked up ÿc4143 Gold
+[10/14/20 19:47:56] D2BS 1696: ÿc7Picked up ÿc436 Gold
+[10/14/20 19:47:59] D2BS 1696: ÿc7Picked up ÿc0Cracked Full Helm ÿc0(ilvl 25)
+[10/14/20 19:47:59] D2BS 1696: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:48:03] D2BS 1696: ÿc7Picked up ÿc3Large Charm ÿc0(ilvl 25) (LateGame.nip #10)
+[10/14/20 19:48:04] D2BS 1696: ÿc7Picked up ÿc4124 Gold
+[10/14/20 19:48:04] D2BS 1696: ÿc7Picked up ÿc495 Gold
+[10/14/20 19:48:22] D2BS 1696: ÿc7Picked up ÿc444 Gold
+[10/14/20 19:48:22] D2BS 1696: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/14/20 19:48:31] D2BS 1696: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/14/20 19:48:32] D2BS 1696: ÿc7Picked up ÿc9Kite Shield ÿc0(ilvl 28) (Singer.xpac.nip #16)
+[10/14/20 19:48:32] D2BS 1696: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:48:41] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:48:42] D2BS 1696: initNPC: heal
+[10/14/20 19:48:46] D2BS 1696: initNPC: identify
+[10/14/20 19:48:51] D2BS 1696: ÿc4MiniShopBotÿc0: Scanning 58 items.
+[10/14/20 19:48:51] D2BS 1696: initNPC: buyPotions
+[10/14/20 19:48:56] D2BS 1696: LowGold sell Large Axe
+[10/14/20 19:48:56] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:49:00] D2BS 1696: LowGold sell Cracked Full Helm
+[10/14/20 19:49:00] D2BS 1696: initNPC: clearInventory
+[10/14/20 19:49:04] D2BS 1696: ÿc2Resuming.
+[10/14/20 19:49:05] D2BS 1696: ÿc7Picked up ÿc3Ocher Bone Helm  ÿc0(ilvl 27)
+[10/14/20 19:49:07] D2BS 1696: ÿc7Picked up ÿc3Strong Skull Cap of the Mind ÿc0(ilvl 13)
+[10/14/20 19:49:07] D2BS 1696: ÿc7Picked up ÿc3 Skull Cap of Balance ÿc0(ilvl 8)
+[10/14/20 19:49:07] D2BS 1696: ÿc7Picked up ÿc9Cap ÿc0(ilvl 1)
+[10/14/20 19:49:09] D2BS 1696: ÿc7Picked up ÿc3 Mask of Self-Repair ÿc0(ilvl 25)
+[10/14/20 19:49:11] D2BS 1696: move retry 1
+[10/14/20 19:49:16] D2BS 1696: ÿc1Pausing.
+[10/14/20 19:49:18] D2BS 1696: move retry 1
+[10/14/20 19:49:25] D2BS 1696: D2BS Shutdown complete.
+[10/14/20 19:49:26] D2BS 14716: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:49:26] D2BS 14716: Singer
+[10/14/20 19:49:26] D2BS 14716: ÿc2D2BSÿc0 :: Switched to profile Singer
+[10/14/20 19:49:26] D2BS 14716: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:49:26] D2BS 14716: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[10/14/20 19:49:26] D2BS 14716: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[10/14/20 19:49:26] D2BS 14716: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:49:28] D2BS 14716: Heartbeat loaded
+[10/14/20 19:49:29] D2BS 14716: 0
+[10/14/20 19:49:30] D2BS 14716: 0
+[10/14/20 19:49:31] D2BS 14716: 0
+[10/14/20 19:49:32] D2BS 14716: 0
+[10/14/20 19:49:33] D2BS 14716: 0
+[10/14/20 19:49:34] D2BS 14716: 0
+[10/14/20 19:49:35] D2BS 14716: 0
+[10/14/20 19:49:37] D2BS 14716: 39
+[10/14/20 19:49:38] D2BS 14716: 40
+[10/14/20 19:49:39] D2BS 14716: 12
+[10/14/20 19:49:43] D2BS 14716: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:49:43] D2BS 14716: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:49:43] D2BS 14716: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 19:49:43] D2BS 14716: Updating Config from level 0 to 23
+[10/14/20 19:49:43] D2BS 14716: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:43] D2BS 14716: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:43] D2BS 14716: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:43] D2BS 14716: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:43] D2BS 14716: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc216 ms
+[10/14/20 19:49:43] D2BS 14716: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:43] D2BS 14716: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:43] D2BS 14716: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 19:49:43] D2BS 14716: Updating Config from level 0 to 23
+[10/14/20 19:49:43] D2BS 14716: AutoBuild: Loaded helper thread
+[10/14/20 19:49:43] D2BS 14716: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 19:49:43] D2BS 14716: Updating Config from level 0 to 23
+[10/14/20 19:49:43] D2BS 14716: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 19:49:43] D2BS 14716: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 19:49:43] D2BS 14716: ÿc3Start ToolsThread script
+[10/14/20 19:49:43] D2BS 14716: Updating Config from level 0 to 23
+[10/14/20 19:49:43] D2BS 14716: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 19:49:43] D2BS 14716: Updating Config from level 0 to 23
+[10/14/20 19:49:44] D2BS 14716: Updating Status
+[10/14/20 19:49:52] D2BS 14716: LowGold sell Strong Skull Cap of the Mind
+[10/14/20 19:49:52] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:49:57] D2BS 14716: LowGold sell Cap
+[10/14/20 19:49:57] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:49:59] D2BS 14716: LowGold sell Ocher Bone Helm 
+[10/14/20 19:49:59] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:50:01] D2BS 14716: LowGold sell  Skull Cap of Balance
+[10/14/20 19:50:01] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:50:04] D2BS 14716: LowGold sell  Mask of Self-Repair
+[10/14/20 19:50:04] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:50:06] D2BS 14716: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 19:50:17] D2BS 14716: Up to Act:3 Durance Of Hate Level 2
+[10/14/20 19:50:17] D2BS 14716: 101
+[10/14/20 19:50:18] D2BS 14716: waypoint retry 1
+[10/14/20 19:50:19] D2BS 14716: ÿc1Pausing.
+[10/14/20 19:50:22] D2BS 14716: ÿc2Resuming.
+[10/14/20 19:50:22] D2BS 14716: waypoint retry 2
+[10/14/20 19:50:34] D2BS 14716: ÿc7Picked up ÿc447 Gold
+[10/14/20 19:50:34] D2BS 14716: ÿc7Picked up ÿc473 Gold
+[10/14/20 19:50:35] D2BS 14716: ÿc7Picked up ÿc0Damaged War Staff ÿc0(ilvl 25)
+[10/14/20 19:50:35] D2BS 14716: ÿc7Picked up ÿc4125 Gold
+[10/14/20 19:50:35] D2BS 14716: ÿc7Picked up ÿc432 Gold
+[10/14/20 19:50:35] D2BS 14716: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/14/20 19:50:35] D2BS 14716: ÿc7Picked up ÿc4143 Gold
+[10/14/20 19:50:39] D2BS 14716: ÿc7Picked up ÿc0Cracked Scissors Katar ÿc0(ilvl 25)
+[10/14/20 19:50:39] D2BS 14716: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:50:40] D2BS 14716: ÿc7Picked up ÿc479 Gold
+[10/14/20 19:50:40] D2BS 14716: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:50:40] D2BS 14716: ÿc7Picked up ÿc477 Gold
+[10/14/20 19:50:40] D2BS 14716: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:50:44] D2BS 14716: move retry 1
+[10/14/20 19:50:46] D2BS 14716: ÿc7Picked up ÿc0Low Quality Claymore ÿc0(ilvl 25)
+[10/14/20 19:50:46] D2BS 14716: ÿc7Picked up ÿc4121 Gold
+[10/14/20 19:50:51] D2BS 14716: ÿc7Picked up ÿc0Flawed Diamond ÿc0(ilvl 1)
+[10/14/20 19:50:51] D2BS 14716: ÿc7Picked up ÿc0Cracked Short War Bow ÿc0(ilvl 25)
+[10/14/20 19:50:56] D2BS 14716: ÿc7Picked up ÿc0Bardiche ÿc0(ilvl 24)
+[10/14/20 19:50:56] D2BS 14716: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:51:01] D2BS 14716: ÿc7Picked up ÿc4124 Gold
+[10/14/20 19:51:02] D2BS 14716: ÿc7Picked up ÿc452 Gold
+[10/14/20 19:51:03] D2BS 14716: ÿc7Picked up ÿc0Damaged Two-Handed Sword ÿc0(ilvl 25)
+[10/14/20 19:51:03] D2BS 14716: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/14/20 19:51:03] D2BS 14716: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/14/20 19:51:12] D2BS 14716: move retry 1
+[10/14/20 19:51:43] D2BS 14716: ÿc7Picked up ÿc468 Gold
+[10/14/20 19:51:54] D2BS 14716: ÿc7Trying to make room for ÿc0Sabre
+[10/14/20 19:51:54] D2BS 14716: initNPC: heal
+[10/14/20 19:51:59] D2BS 14716: initNPC: identify
+[10/14/20 19:52:00] D2BS 14716: ÿc4MiniShopBotÿc0: Scanning 51 items.
+[10/14/20 19:52:00] D2BS 14716: initNPC: buyPotions
+[10/14/20 19:52:05] D2BS 14716: LowGold sell Damaged War Staff
+[10/14/20 19:52:05] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:52:17] D2BS 14716: LowGold sell Low Quality Claymore
+[10/14/20 19:52:17] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:52:19] D2BS 14716: LowGold sell Cracked Short War Bow
+[10/14/20 19:52:19] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:52:21] D2BS 14716: LowGold sell Damaged Two-Handed Sword
+[10/14/20 19:52:21] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:52:23] D2BS 14716: LowGold sell Bardiche
+[10/14/20 19:52:23] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:52:25] D2BS 14716: LowGold sell Cracked Scissors Katar
+[10/14/20 19:52:25] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:52:27] D2BS 14716: LowGold sell Flawed Diamond
+[10/14/20 19:52:27] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:52:30] D2BS 14716: ÿc1Pausing.
+[10/14/20 19:53:24] D2BS 14716: ÿc2Resuming.
+[10/14/20 19:53:30] D2BS 14716: initNPC: buyKeys
+[10/14/20 19:53:47] D2BS 14716: ÿc7Picked up ÿc479 Gold
+[10/14/20 19:53:48] D2BS 14716: ÿc7Picked up ÿc0Two-Handed Sword ÿc0(ilvl 25)
+[10/14/20 19:53:51] D2BS 14716: ÿc7Picked up ÿc4142 Gold
+[10/14/20 19:53:58] D2BS 14716: 102
+[10/14/20 19:54:18] D2BS 14716: ÿc1Pausing.
+[10/14/20 19:54:18] D2BS 14716: initNPC: heal
+[10/14/20 19:54:22] D2BS 14716: initNPC: identify
+[10/14/20 19:54:23] D2BS 14716: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[10/14/20 19:54:23] D2BS 14716: initNPC: buyPotions
+[10/14/20 19:54:28] D2BS 14716: LowGold sell Two-Handed Sword
+[10/14/20 19:54:28] D2BS 14716: initNPC: clearInventory
+[10/14/20 19:54:38] D2BS 14716: initNPC: reviveMerc
+[10/14/20 19:55:08] D2BS 1988: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:55:08] D2BS 1988: Singer
+[10/14/20 19:55:08] D2BS 1988: ÿc2D2BSÿc0 :: Switched to profile Singer
+[10/14/20 19:55:08] D2BS 1988: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:55:08] D2BS 1988: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[10/14/20 19:55:08] D2BS 1988: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[10/14/20 19:55:08] D2BS 1988: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:55:10] D2BS 1988: Heartbeat loaded
+[10/14/20 19:55:11] D2BS 1988: 0
+[10/14/20 19:55:12] D2BS 1988: 0
+[10/14/20 19:55:13] D2BS 1988: 0
+[10/14/20 19:55:14] D2BS 1988: 0
+[10/14/20 19:55:15] D2BS 1988: 0
+[10/14/20 19:55:16] D2BS 1988: 0
+[10/14/20 19:55:17] D2BS 1988: 39
+[10/14/20 19:55:19] D2BS 1988: 40
+[10/14/20 19:55:20] D2BS 1988: 12
+[10/14/20 19:55:23] D2BS 1988: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:55:23] D2BS 1988: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:55:23] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 19:55:23] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:23] D2BS 1988: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[10/14/20 19:55:23] D2BS 1988: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:23] D2BS 1988: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:23] D2BS 1988: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:24] D2BS 1988: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:24] D2BS 1988: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:24] D2BS 1988: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc216 ms
+[10/14/20 19:55:24] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 19:55:24] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:24] D2BS 1988: AutoBuild: Loaded helper thread
+[10/14/20 19:55:24] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 19:55:24] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:24] D2BS 1988: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 19:55:24] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 19:55:24] D2BS 1988: ÿc3Start ToolsThread script
+[10/14/20 19:55:24] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:24] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 19:55:24] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:24] D2BS 1988: Updating Status
+[10/14/20 19:55:30] D2BS 1988: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc045 ÿc3CR: ÿc06 ÿc9LR: ÿc015 ÿc2PR: ÿc061
+[10/14/20 19:55:30] D2BS 1988: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:55:30] D2BS 1988: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 19:55:30] D2BS 1988: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:55:30] D2BS 1988: Script d2botlanlead.dbj ended
+[10/14/20 19:55:30] D2BS 1988: Script default.dbj ended
+[10/14/20 19:55:30] D2BS 1988: Script tools\autobuildthread.js ended
+[10/14/20 19:55:30] D2BS 1988: Script tools\heartbeat.js ended
+[10/14/20 19:55:30] D2BS 1988: Script tools\party.js ended
+[10/14/20 19:55:30] D2BS 1988: Script tools\toolsthread.js ended
+[10/14/20 19:55:30] D2BS 1988: Script tools\townchicken.js ended
+[10/14/20 19:55:31] D2BS 1988: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:55:31] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 19:55:31] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:31] D2BS 1988: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:31] D2BS 1988: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:31] D2BS 1988: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:31] D2BS 1988: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:31] D2BS 1988: Heartbeat loaded
+[10/14/20 19:55:31] D2BS 1988: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc216 ms
+[10/14/20 19:55:31] D2BS 1988: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:31] D2BS 1988: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:31] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 19:55:31] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:31] D2BS 1988: AutoBuild: Loaded helper thread
+[10/14/20 19:55:31] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 19:55:31] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:31] D2BS 1988: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 19:55:31] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 19:55:31] D2BS 1988: ÿc3Start ToolsThread script
+[10/14/20 19:55:31] D2BS 1988: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 19:55:31] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:31] D2BS 1988: Updating Config from level 0 to 23
+[10/14/20 19:55:53] D2BS 1988: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 19:56:00] D2BS 1988: Up to Act:3 Durance Of Hate Level 2
+[10/14/20 19:56:00] D2BS 1988: 101
+[10/14/20 19:56:24] D2BS 1988: ÿc7Picked up ÿc3Balanced Knife ÿc0(ilvl 25)
+[10/14/20 19:56:24] D2BS 1988: ÿc7Picked up ÿc465 Gold
+[10/14/20 19:56:25] D2BS 1988: ÿc7Picked up ÿc0Chipped Diamond ÿc0(ilvl 1)
+[10/14/20 19:56:25] D2BS 1988: ÿc7Picked up ÿc0Cracked Broad Axe ÿc0(ilvl 25)
+[10/14/20 19:56:25] D2BS 1988: ÿc7Picked up ÿc4147 Gold
+[10/14/20 19:56:28] D2BS 1988: ÿc7Picked up ÿc8Tal Rune ÿc0(ilvl 1) (MidGame.nip #2)
+[10/14/20 19:56:29] D2BS 1988: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:56:29] D2BS 1988: ÿc7Picked up ÿc464 Gold
+[10/14/20 19:56:29] D2BS 1988: ÿc7Picked up ÿc0Damaged Long Sword ÿc0(ilvl 25)
+[10/14/20 19:56:35] D2BS 1988: 102
+[10/14/20 19:56:36] D2BS 1988: ÿc7Picked up ÿc4143 Gold
+[10/14/20 19:56:40] D2BS 1988: ÿc1Pausing.
+[10/14/20 19:56:44] D2BS 1988: ÿc2Resuming.
+[10/14/20 19:56:53] D2BS 1988: ÿc7Picked up ÿc0Crude Hunter's Bow ÿc0(ilvl 25)
+[10/14/20 19:56:53] D2BS 1988: ÿc7Picked up ÿc0Light Crossbow ÿc0(ilvl 25)
+[10/14/20 19:56:53] D2BS 1988: ÿc7Trying to make room for ÿc0Damaged Kite Shield
+[10/14/20 19:56:53] D2BS 1988: initNPC: heal
+[10/14/20 19:56:57] D2BS 1988: initNPC: identify
+[10/14/20 19:56:58] D2BS 1988: initNPC: fillTome
+[10/14/20 19:57:00] D2BS 1988: ÿc4MiniShopBotÿc0: Scanning 45 items.
+[10/14/20 19:57:05] D2BS 1988: LowGold sell Cracked Broad Axe
+[10/14/20 19:57:05] D2BS 1988: initNPC: clearInventory
+[10/14/20 19:57:11] D2BS 1988: LowGold sell Damaged Long Sword
+[10/14/20 19:57:11] D2BS 1988: initNPC: clearInventory
+[10/14/20 19:57:13] D2BS 1988: LowGold sell Crude Hunter's Bow
+[10/14/20 19:57:13] D2BS 1988: initNPC: clearInventory
+[10/14/20 19:57:16] D2BS 1988: LowGold sell Light Crossbow
+[10/14/20 19:57:16] D2BS 1988: initNPC: clearInventory
+[10/14/20 19:57:18] D2BS 1988: LowGold sell Chipped Diamond
+[10/14/20 19:57:18] D2BS 1988: initNPC: clearInventory
+[10/14/20 19:57:23] D2BS 1988: Successfully placed Tal Rune at X: 6 Y: 0
+[10/14/20 19:57:27] D2BS 1988: ÿc7Picked up ÿc466 Gold
+[10/14/20 19:57:27] D2BS 1988: ÿc7Picked up ÿc0Damaged Kite Shield ÿc0(ilvl 25)
+[10/14/20 19:57:40] D2BS 1988: ÿc1Skipping Council Member 94 16
+[10/14/20 19:57:51] D2BS 1988: ÿc1Skipping Blood Lord 106 16
+[10/14/20 19:57:52] D2BS 1988: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/14/20 19:57:53] D2BS 1988: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:58:09] D2BS 1988: ÿc1Skipping Blood Lord 107 16
+[10/14/20 19:58:12] D2BS 1988: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:58:19] D2BS 1988: ÿc7Picked up ÿc0Flawed Skull ÿc0(ilvl 1)
+[10/14/20 19:58:37] D2BS 1988: ÿc7Picked up ÿc4149 Gold
+[10/14/20 19:58:37] D2BS 1988: ÿc7Picked up ÿc0Low Quality Broad Sword ÿc0(ilvl 25)
+[10/14/20 19:58:38] D2BS 1988: ÿc7Picked up ÿc484 Gold
+[10/14/20 19:58:55] D2BS 1988: move retry 1
+[10/14/20 19:58:57] D2BS 1988: ÿc7Picked up ÿc440 Gold
+[10/14/20 19:58:57] D2BS 1988: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:58:57] D2BS 1988: ÿc7Picked up ÿc443 Gold
+[10/14/20 19:58:57] D2BS 1988: ÿc7Picked up ÿc2Large Shield ÿc0(ilvl 25) (Singer.xpac.nip #16)
+[10/14/20 19:59:09] D2BS 1988: ÿc7Picked up ÿc490 Gold
+[10/14/20 19:59:09] D2BS 1988: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:59:11] D2BS 1988: ÿc7Picked up ÿc4455 Gold
+[10/14/20 19:59:23] D2BS 1988: ÿc7Picked up ÿc0Damaged Full Helm ÿc0(ilvl 25)
+[10/14/20 19:59:24] D2BS 1988: ÿc7Picked up ÿc465 Gold
+[10/14/20 19:59:24] D2BS 1988: ÿc7Picked up ÿc427 Gold
+[10/14/20 19:59:28] D2BS 1988: ÿc7Picked up ÿc479 Gold
+[10/14/20 19:59:28] D2BS 1988: ÿc7Picked up ÿc8Ith Rune ÿc0(ilvl 1)
+[10/14/20 19:59:28] D2BS 1988: ÿc7Picked up ÿc4104 Gold
+[10/14/20 19:59:28] D2BS 1988: ÿc7Picked up ÿc0Crude Broad Axe ÿc0(ilvl 25)
+[10/14/20 19:59:31] D2BS 1988: ÿc7Picked up ÿc478 Gold
+[10/14/20 19:59:31] D2BS 1988: ÿc7Trying to make room for ÿc0Damaged Rondache
+[10/14/20 19:59:32] D2BS 1988: initNPC: heal
+[10/14/20 19:59:35] D2BS 1988: initNPC: identify
+[10/14/20 19:59:38] D2BS 1988: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[10/14/20 19:59:39] D2BS 1988: move retry 1
+[10/14/20 19:59:43] D2BS 1988: LowGold sell Crude Broad Axe
+[10/14/20 19:59:43] D2BS 1988: initNPC: clearInventory
+[10/14/20 19:59:46] D2BS 1988: move retry 1

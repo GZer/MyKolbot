@@ -209,7 +209,7 @@ function LevelLeader(){
 				this.clearToQuestLocation(94,2,193);
 				this.getQuestItem(548,193);
 				this.talkToNPC("Alkor");
-				this.logProgress(me.getQuest(17,0),"Black Book");
+				this.logProgress(me.getQuest(17,3),"Black Book");
 			break;
 			case 83: //Khalim Flail
 				Pather.getWP(83,true);
@@ -939,7 +939,7 @@ function LevelLeader(){
 	};
 	
 	this.hireA2Merc=function(){
-		var i,MyMerc,MercAuraName=MercAuraNames[me.classid];
+		var i,Count=0,MyMerc,MercAuraName=MercAuraNames[me.classid];
 		//Nightmare Auras instead of Norm Auras
 		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		Town.goToTown(2);
@@ -948,7 +948,7 @@ function LevelLeader(){
 		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length > 0 && me.gold > 49999){
+			while(MercId.length > 0 && Count < 8){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
@@ -964,6 +964,7 @@ function LevelLeader(){
 				if(me.diff != MyMercDiff || HiredMercAura == MercAuraName){
 					return me.getMerc();
 				}
+				Count++;
 			}
 		}
 		return me.getMerc();
@@ -1046,7 +1047,7 @@ function LevelLeader(){
 	};
 	
 	//Start Script
-	// while(true){if(me.getQuest(4,0)){say("Got");}say(me.x+","+me.y);delay(2000);}
+	// while(true){if(me.getQuest(17,3)){say("Got");}say(me.x+","+me.y);delay(2000);}
 	this.configCharacter(me.charlvl);
 	this.checkProgress();
 	

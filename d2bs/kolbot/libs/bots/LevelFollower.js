@@ -306,7 +306,7 @@ function LevelFollower(){
 	};
 	
 	this.hireA2Merc=function(){
-		var i,MyMerc,MercAuraName=MercAuraNames[me.classid];
+		var i,Count=0,MyMerc,MercAuraName=MercAuraNames[me.classid];
 		//Nightmare Auras instead of Norm Auras
 		if(me.classid == 2 || me.classid == 3){MyMercDiff=1;}
 		Town.goToTown(2);
@@ -315,7 +315,7 @@ function LevelFollower(){
 		addEventListener("gamepacket",gamePacket);
 		var Greiz=getUnit(1,Town.tasks[1].Merc);
 		if(Greiz && Greiz.openMenu()){
-			while(MercId.length > 0 && me.gold > 49999){
+			while(MercId.length > 0 && Count < 8){
 				Pather.moveTo(5031+rand(-3,3),5048+rand(-3,3));
 				Greiz.openMenu();
 				Misc.useMenu(0x0D45);
@@ -331,6 +331,7 @@ function LevelFollower(){
 				if(me.diff != MyMercDiff || HiredMercAura == MercAuraName){
 					return me.getMerc();
 				}
+				Count++;
 			}
 		}
 		return me.getMerc();

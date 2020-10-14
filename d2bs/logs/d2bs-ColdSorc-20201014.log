@@ -2130,3 +2130,732 @@ Line: (null)
 [10/14/20 18:56:04] D2BS 2692: 75
 [10/14/20 18:56:11] D2BS 2692: initNPC: buyPotions
 [10/14/20 18:56:44] D2BS 2692: 80,94
+[10/14/20 18:57:25] D2BS 2692: ÿc7Picked up ÿc4101 Gold
+[10/14/20 18:57:25] D2BS 2692: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 18:57:25] D2BS 2692: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 18:57:25] D2BS 2692: ÿc7Picked up ÿc4122 Gold
+[10/14/20 18:57:25] D2BS 2692: ÿc7Picked up ÿc428 Gold
+[10/14/20 18:57:26] D2BS 2692: ÿc7Picked up ÿc0Crossbow ÿc0(ilvl 26)
+[10/14/20 18:57:28] D2BS 2692: ÿc7Picked up ÿc0Brandistock ÿc0(ilvl 26)
+[10/14/20 18:57:42] D2BS 2692: initNPC: heal
+[10/14/20 18:57:47] D2BS 2692: initNPC: identify
+[10/14/20 18:57:48] D2BS 2692: ÿc4MiniShopBotÿc0: Scanning 37 items.
+[10/14/20 18:57:48] D2BS 2692: initNPC: buyPotions
+[10/14/20 18:57:49] D2BS 2692: LowGold sell Crossbow
+[10/14/20 18:57:49] D2BS 2692: initNPC: clearInventory
+[10/14/20 18:57:59] D2BS 2692: LowGold sell Brandistock
+[10/14/20 18:57:59] D2BS 2692: initNPC: clearInventory
+[10/14/20 18:58:15] D2BS 2692: initNPC: reviveMerc
+[10/14/20 18:58:21] D2BS 2692: 75
+[10/14/20 18:58:27] D2BS 2692: initNPC: identify
+[10/14/20 18:58:34] D2BS 2692: ÿc4MiniShopBotÿc0: Scanning 46 items.
+[10/14/20 18:58:35] D2BS 2692: LowGold sell Crossbow
+[10/14/20 18:58:35] D2BS 2692: initNPC: clearInventory
+[10/14/20 18:58:35] D2BS 2692: LowGold sell Brandistock
+[10/14/20 18:58:35] D2BS 2692: initNPC: clearInventory
+[10/14/20 18:59:33] D2BS 2692: Script default.dbj ended
+[10/14/20 18:59:33] D2BS 2692: Script tools\autobuildthread.js ended
+[10/14/20 18:59:33] D2BS 2692: Script tools\party.js ended
+[10/14/20 18:59:33] D2BS 2692: Script tools\toolsthread.js ended
+[10/14/20 18:59:33] D2BS 2692: Script tools\townchicken.js ended
+[10/14/20 18:59:40] D2BS 2692: D2BS Shutdown complete.
+[10/14/20 18:59:40] D2BS 10660: D2BS Engine startup complete. 1.6.4U
+[10/14/20 18:59:40] D2BS 10660: ColdSorc
+[10/14/20 18:59:41] D2BS 10660: ÿc2D2BSÿc0 :: Switched to profile ColdSorc
+[10/14/20 18:59:41] D2BS 10660: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 18:59:41] D2BS 10660: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 18:59:41] D2BS 10660: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 18:59:41] D2BS 10660: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 18:59:43] D2BS 10660: Heartbeat loaded
+[10/14/20 19:00:00] D2BS 10660: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:00:00] D2BS 10660: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:00:00] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:00:00] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10660: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10660: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc215 ms
+[10/14/20 19:00:00] D2BS 10660: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10660: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10660: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10660: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc217. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10660: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:00:00] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10660: AutoBuild: Loaded helper thread
+[10/14/20 19:00:00] D2BS 10660: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:00:00] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:00:00] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10660: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:00:00] D2BS 10660: ÿc3Start ToolsThread script
+[10/14/20 19:00:00] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:00:00] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:00:00] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:00:13] D2BS 10660: Successfully placed Hunter's Bow at X: 0 Y: 0
+[10/14/20 19:00:29] D2BS 10660: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>03
+[10/14/20 19:00:29] D2BS 10660: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>07
+[10/14/20 19:00:29] D2BS 10660: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+[10/14/20 19:00:29] D2BS 10660: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+[10/14/20 19:00:34] D2BS 10660: initNPC: BuyPotions
+[10/14/20 19:00:48] D2BS 10660: Leader not partied
+[10/14/20 19:00:50] D2BS 10660: Leader not partied
+[10/14/20 19:00:52] D2BS 10660: Leader not partied
+[10/14/20 19:00:54] D2BS 10660: Leader not partied
+[10/14/20 19:00:56] D2BS 10660: Leader not partied
+[10/14/20 19:00:58] D2BS 10660: Leader not partied
+[10/14/20 19:01:00] D2BS 10660: Script default.dbj ended
+[10/14/20 19:01:00] D2BS 10660: Leader not partied
+[10/14/20 19:01:00] D2BS 10660: Script tools\autobuildthread.js ended
+[10/14/20 19:01:00] D2BS 10660: Script tools\party.js ended
+[10/14/20 19:01:00] D2BS 10660: Script tools\toolsthread.js ended
+[10/14/20 19:01:00] D2BS 10660: Script tools\townchicken.js ended
+[10/14/20 19:01:07] D2BS 10660: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:01:07] D2BS 10660: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:01:07] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:01:07] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 10660: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 10660: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 10660: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 10660: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 10660: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 19:01:07] D2BS 10660: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 10660: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:07] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:01:07] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 10660: AutoBuild: Loaded helper thread
+[10/14/20 19:01:07] D2BS 10660: LowGold sell Hunter's Bow
+[10/14/20 19:01:07] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:01:07] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:01:07] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 10660: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:01:07] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:01:07] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:01:07] D2BS 10660: ÿc3Start ToolsThread script
+[10/14/20 19:01:07] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:01:07] D2BS 10660: Updating Config from level 0 to 21
+[10/14/20 19:01:22] D2BS 10660: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:01:54] D2BS 10660: initNPC: BuyPotions
+[10/14/20 19:02:15] D2BS 10660: 75
+[10/14/20 19:02:17] D2BS 10660: initNPC: heal
+[10/14/20 19:02:43] D2BS 10660: ÿc7Picked up ÿc464 Gold
+[10/14/20 19:02:44] D2BS 10660: ÿc7Picked up ÿc425 Gold
+[10/14/20 19:02:44] D2BS 10660: ÿc7Picked up ÿc0Flail ÿc0(ilvl 23)
+[10/14/20 19:03:16] D2BS 10660: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:03:49] D2BS 10660: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:04:19] D2BS 10660: 80,81
+[10/14/20 19:04:30] D2BS 10660: ÿc1Skipping Faithful 154 16
+[10/14/20 19:04:45] D2BS 10660: ÿc7Picked up ÿc0Superior Short Battle Bow ÿc0(ilvl 24)
+[10/14/20 19:04:45] D2BS 10660: ÿc7Picked up ÿc4128 Gold
+[10/14/20 19:04:46] D2BS 10660: ÿc7Picked up ÿc3Ring ÿc0(ilvl 20) (Cold.xpac.nip #104)
+[10/14/20 19:04:46] D2BS 10660: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/14/20 19:04:47] D2BS 10660: ÿc7Picked up ÿc426 Gold
+[10/14/20 19:04:58] D2BS 10660: ÿc1Skipping Cantor 152 16
+[10/14/20 19:05:20] D2BS 10660: ÿc1Skipping Faithful 167 16
+[10/14/20 19:05:23] D2BS 10660: ÿc7Picked up ÿc4108 Gold
+[10/14/20 19:05:59] D2BS 10660: move retry 1
+[10/14/20 19:06:20] D2BS 10660: ÿc7Picked up ÿc4121 Gold
+[10/14/20 19:06:30] D2BS 10660: 81,82,83
+[10/14/20 19:06:36] D2BS 10660: move retry 1
+[10/14/20 19:06:39] D2BS 10660: move retry 2
+[10/14/20 19:06:42] D2BS 10660: move retry 3
+[10/14/20 19:06:51] D2BS 10660: initNPC: heal
+[10/14/20 19:06:54] D2BS 10660: move retry 1
+[10/14/20 19:06:55] D2BS 10660: move retry 1
+[10/14/20 19:06:56] D2BS 10660: initNPC: identify
+[10/14/20 19:06:59] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 51 items.
+[10/14/20 19:07:00] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:07:02] D2BS 10660: move retry 1
+[10/14/20 19:07:17] D2BS 10660: LowGold sell Flail
+[10/14/20 19:07:17] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:07:22] D2BS 10660: LowGold sell Superior Short Battle Bow
+[10/14/20 19:07:22] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:07:29] D2BS 10660: initNPC: reviveMerc
+[10/14/20 19:07:43] D2BS 10660: 75
+[10/14/20 19:08:04] D2BS 10660: ÿc1Skipping Zealot 249 16
+[10/14/20 19:08:13] D2BS 10660: ÿc1Skipping Zealot 247 16
+[10/14/20 19:08:34] D2BS 10660: ÿc1Skipping Zealot 266 16
+[10/14/20 19:09:31] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:09:32] D2BS 10660: initNPC: heal
+[10/14/20 19:09:35] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:09:42] D2BS 10660: ÿc4Town: ÿc1Can't afford repairs.
+[10/14/20 19:09:43] D2BS 10660: ÿc2Resuming.
+[10/14/20 19:09:53] D2BS 10660: move retry 1
+[10/14/20 19:10:18] D2BS 10660: ÿc1Skipping Zealot 252 16
+[10/14/20 19:10:34] D2BS 10660: ÿc1Skipping Zealot 284 16
+[10/14/20 19:10:34] D2BS 10660: ÿc7Picked up ÿc0Voulge ÿc0(ilvl 24)
+[10/14/20 19:10:34] D2BS 10660: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #25)
+[10/14/20 19:10:35] D2BS 10660: ÿc7Picked up ÿc457 Gold
+[10/14/20 19:10:35] D2BS 10660: ÿc7Picked up ÿc469 Gold
+[10/14/20 19:10:35] D2BS 10660: ÿc7Picked up ÿc479 Gold
+[10/14/20 19:11:26] D2BS 10660: ÿc1Skipping Zealot 263 16
+[10/14/20 19:12:19] D2BS 10660: move retry 1
+[10/14/20 19:12:34] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:12:35] D2BS 10660: initNPC: heal
+[10/14/20 19:12:40] D2BS 10660: initNPC: identify
+[10/14/20 19:12:40] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[10/14/20 19:12:42] D2BS 10660: move retry 1
+[10/14/20 19:12:46] D2BS 10660: LowGold sell Voulge
+[10/14/20 19:12:46] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:12:58] D2BS 10660: initNPC: reviveMerc
+[10/14/20 19:13:25] D2BS 10660: ÿc2Resuming.
+[10/14/20 19:13:42] D2BS 10660: ÿc1Skipping Zealot 236 16
+[10/14/20 19:13:43] D2BS 10660: ÿc7Picked up ÿc4137 Gold
+[10/14/20 19:13:43] D2BS 10660: ÿc7Picked up ÿc3Ring ÿc0(ilvl 24) (Cold.xpac.nip #104)
+[10/14/20 19:13:58] D2BS 10660: ÿc7Picked up ÿc0Kris ÿc0(ilvl 24)
+[10/14/20 19:13:58] D2BS 10660: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #25)
+[10/14/20 19:14:15] D2BS 10660: AutoBuild: Stat points: 10      Skill points: 2
+[10/14/20 19:14:15] D2BS 10660: AutoBuild: Level up detected ( 21 --> 22 )
+[10/14/20 19:14:15] D2BS 10660: AutoBuild: useSkillPoint(): Glacial Spike (55)
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Skill (1/1) Increased Glacial Spike (55) by one (level:  3)
+[10/14/20 19:14:16] D2BS 10660: ÿc7Picked up ÿc8Eth Rune ÿc0(ilvl 1) (EarlyGame.nip #2)
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: useStatPoint(0): Strength
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Stat (1/5) Increased Strength from 30 to 31
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Stat (2/5) Increased Energy from 75 to 76
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Stat (3/5) Increased Energy from 76 to 77
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Stat (4/5) Increased Vitality from 50 to 51
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Stat (5/5) Increased Vitality from 51 to 52
+[10/14/20 19:14:16] D2BS 10660: Updating Config from level 21 to 22
+[10/14/20 19:14:16] D2BS 10660: Updating Config from level 21 to 22
+[10/14/20 19:14:16] D2BS 10660: Updating Config from level 21 to 22
+[10/14/20 19:14:16] D2BS 10660: Updating Config from level 21 to 22
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Updating Config from level 21 to 22
+[10/14/20 19:14:16] D2BS 10660: AutoBuild: Incrementing cached character level to 22
+[10/14/20 19:14:39] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:14:39] D2BS 10660: initNPC: heal
+[10/14/20 19:14:43] D2BS 10660: initNPC: identify
+[10/14/20 19:14:45] D2BS 10660: initNPC: fillTome
+[10/14/20 19:14:47] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 51 items.
+[10/14/20 19:14:48] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:14:54] D2BS 10660: LowGold sell Kris
+[10/14/20 19:14:54] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:15:03] D2BS 10660: Successfully placed Eth Rune at X: 3 Y: 0
+[10/14/20 19:15:05] D2BS 10660: ÿc2Resuming.
+[10/14/20 19:15:41] D2BS 10660: ÿc7Picked up ÿc456 Gold
+[10/14/20 19:16:05] D2BS 10660: ÿc1Skipping Zakarumite 625 16
+[10/14/20 19:16:13] D2BS 10660: ÿc7Picked up ÿc489 Gold
+[10/14/20 19:16:25] D2BS 10660: ÿc7Picked up ÿc450 Gold
+[10/14/20 19:16:25] D2BS 10660: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:16:45] D2BS 10660: ÿc1Skipping Hell Swarm 98 16
+[10/14/20 19:17:02] D2BS 10660: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:17:03] D2BS 10660: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:17:03] D2BS 10660: ÿc7Picked up ÿc3Scythe ÿc0(ilvl 25) (LateGame.nip #42)
+[10/14/20 19:17:03] D2BS 10660: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:17:03] D2BS 10660: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:17:22] D2BS 10660: ÿc7Picked up ÿc472 Gold
+[10/14/20 19:17:23] D2BS 10660: ÿc7Picked up ÿc445 Gold
+[10/14/20 19:17:47] D2BS 10660: ÿc1Skipping Thrasher 660 16
+[10/14/20 19:17:51] D2BS 10660: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[10/14/20 19:18:50] D2BS 10660: ÿc1Skipping Tree Lurker 1001 16
+[10/14/20 19:19:19] D2BS 10660: ÿc7Picked up ÿc494 Gold
+[10/14/20 19:19:26] D2BS 10660: ÿc7Picked up ÿc0Superior Gargoyle Head ÿc0(ilvl 22)
+[10/14/20 19:19:31] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:19:33] D2BS 10660: move retry 1
+[10/14/20 19:19:34] D2BS 10660: initNPC: heal
+[10/14/20 19:19:38] D2BS 10660: initNPC: identify
+[10/14/20 19:19:39] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[10/14/20 19:19:43] D2BS 10660: LowGold sell Superior Gargoyle Head
+[10/14/20 19:19:43] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:19:49] D2BS 10660: move retry 1
+[10/14/20 19:19:54] D2BS 10660: initNPC: reviveMerc
+[10/14/20 19:20:08] D2BS 10660: Successfully placed Scythe at X: 4 Y: 0
+[10/14/20 19:20:16] D2BS 10660: ÿc2Resuming.
+[10/14/20 19:20:30] D2BS 10660: ÿc7Picked up ÿc4118 Gold
+[10/14/20 19:20:31] D2BS 10660: ÿc7Picked up ÿc4122 Gold
+[10/14/20 19:20:52] D2BS 10660: ÿc1Skipping Tree Lurker 1007 16
+[10/14/20 19:20:52] D2BS 10660: ÿc7Picked up ÿc4122 Gold
+[10/14/20 19:20:52] D2BS 10660: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:21:04] D2BS 10660: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[10/14/20 19:21:21] D2BS 10660: ÿc1Skipping Hell Buzzard 1059 16
+[10/14/20 19:21:24] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:21:25] D2BS 10660: Script default.dbj ended
+[10/14/20 19:21:25] D2BS 10660: Script tools\autobuildthread.js ended
+[10/14/20 19:21:25] D2BS 10660: Script tools\party.js ended
+[10/14/20 19:21:25] D2BS 10660: Script tools\townchicken.js ended
+[10/14/20 19:21:31] D2BS 10660: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:21:31] D2BS 10660: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:21:31] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:21:31] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:21:31] D2BS 10660: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[10/14/20 19:21:31] D2BS 10660: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:31] D2BS 10660: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:31] D2BS 10660: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:31] D2BS 10660: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:21:31] D2BS 10660: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:31] D2BS 10660: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:31] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:21:31] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:21:31] D2BS 10660: AutoBuild: Loaded helper thread
+[10/14/20 19:21:31] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:21:31] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:21:31] D2BS 10660: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:21:31] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:21:31] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:21:31] D2BS 10660: ÿc3Start ToolsThread script
+[10/14/20 19:21:31] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:21:31] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:21:41] D2BS 10660: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:22:02] D2BS 10660: initNPC: heal
+[10/14/20 19:22:07] D2BS 10660: initNPC: BuyPotions
+[10/14/20 19:22:29] D2BS 10660: 75
+[10/14/20 19:22:31] D2BS 10660: initNPC: heal
+[10/14/20 19:22:37] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:22:46] D2BS 10660: 40
+[10/14/20 19:23:00] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:23:01] D2BS 10660: initNPC: heal
+[10/14/20 19:23:05] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:23:12] D2BS 10660: ÿc2Resuming.
+[10/14/20 19:24:46] D2BS 10660: ÿc7Picked up ÿc4100 Gold
+[10/14/20 19:24:46] D2BS 10660: ÿc7Picked up ÿc473 Gold
+[10/14/20 19:24:46] D2BS 10660: ÿc7Picked up ÿc456 Gold
+[10/14/20 19:24:46] D2BS 10660: ÿc7Picked up ÿc497 Gold
+[10/14/20 19:24:56] D2BS 10660: ÿc7Picked up ÿc485 Gold
+[10/14/20 19:24:56] D2BS 10660: ÿc7Picked up ÿc481 Gold
+[10/14/20 19:25:05] D2BS 10660: ÿc7Picked up ÿc4112 Gold
+[10/14/20 19:25:11] D2BS 10660: ÿc7Picked up ÿc474 Gold
+[10/14/20 19:25:28] D2BS 10660: ÿc7Picked up ÿc0Poleaxe ÿc0(ilvl 24)
+[10/14/20 19:25:36] D2BS 10660: 78,79
+[10/14/20 19:26:02] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:26:05] D2BS 10660: Script default.dbj ended
+[10/14/20 19:26:05] D2BS 10660: Script tools\autobuildthread.js ended
+[10/14/20 19:26:05] D2BS 10660: Script tools\party.js ended
+[10/14/20 19:26:05] D2BS 10660: Script tools\townchicken.js ended
+[10/14/20 19:26:12] D2BS 10660: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:26:12] D2BS 10660: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:26:12] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:26:12] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:26:12] D2BS 10660: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:26:12] D2BS 10660: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:26:12] D2BS 10660: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:26:12] D2BS 10660: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:26:12] D2BS 10660: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 19:26:12] D2BS 10660: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:26:12] D2BS 10660: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:26:12] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:26:12] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:26:12] D2BS 10660: AutoBuild: Loaded helper thread
+[10/14/20 19:26:12] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:26:12] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:26:12] D2BS 10660: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:26:12] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:26:12] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:26:12] D2BS 10660: ÿc3Start ToolsThread script
+[10/14/20 19:26:12] D2BS 10660: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:26:12] D2BS 10660: Updating Config from level 0 to 22
+[10/14/20 19:26:26] D2BS 10660: LowGold sell Poleaxe
+[10/14/20 19:26:26] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:26:30] D2BS 10660: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:27:01] D2BS 10660: initNPC: BuyPotions
+[10/14/20 19:27:22] D2BS 10660: 75
+[10/14/20 19:27:24] D2BS 10660: initNPC: heal
+[10/14/20 19:27:29] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:27:42] D2BS 10660: ÿc7Picked up ÿc0ÿc4Khalim's Brain ÿc0(ilvl 1) (LateGame.nip #25)
+[10/14/20 19:27:53] D2BS 10660: initNPC: heal
+[10/14/20 19:27:55] D2BS 10660: move retry 1
+[10/14/20 19:27:57] D2BS 10660: move retry 1
+[10/14/20 19:28:00] D2BS 10660: move retry 1
+[10/14/20 19:28:11] D2BS 10660: Successfully placed ÿc4Khalim's Brain at X: 0 Y: 1
+[10/14/20 19:28:12] D2BS 10660: 75
+[10/14/20 19:28:32] D2BS 10660: 76
+[10/14/20 19:28:50] D2BS 10660: ÿc7Picked up ÿc0Short Battle Bow ÿc0(ilvl 22)
+[10/14/20 19:28:53] D2BS 10660: move retry 1
+[10/14/20 19:29:02] D2BS 10660: ÿc7Picked up ÿc4103 Gold
+[10/14/20 19:29:06] D2BS 10660: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #25)
+[10/14/20 19:29:14] D2BS 10660: move retry 1
+[10/14/20 19:29:35] D2BS 10660: move retry 1
+[10/14/20 19:29:39] D2BS 10660: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:29:39] D2BS 10660: ÿc7Picked up ÿc456 Gold
+[10/14/20 19:29:43] D2BS 10660: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 19:29:49] D2BS 10660: ÿc7Picked up ÿc0Sabre ÿc0(ilvl 22)
+[10/14/20 19:29:55] D2BS 10660: ÿc7Picked up ÿc425 Gold
+[10/14/20 19:30:07] D2BS 10660: ÿc7Picked up ÿc428 Gold
+[10/14/20 19:30:13] D2BS 10660: ÿc7Picked up ÿc0Crystal Sword ÿc0(ilvl 21)
+[10/14/20 19:30:44] D2BS 10660: ÿc7Picked up ÿc4109 Gold
+[10/14/20 19:30:44] D2BS 10660: ÿc7Picked up ÿc0Two-Handed Sword ÿc0(ilvl 22)
+[10/14/20 19:30:44] D2BS 10660: ÿc7Picked up ÿc0Damaged Poleaxe ÿc0(ilvl 22)
+[10/14/20 19:30:44] D2BS 10660: ÿc7Trying to make room for ÿc3Long Battle Bow
+[10/14/20 19:30:44] D2BS 10660: initNPC: heal
+[10/14/20 19:30:48] D2BS 10660: initNPC: identify
+[10/14/20 19:30:49] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 46 items.
+[10/14/20 19:30:50] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:30:55] D2BS 10660: LowGold sell Short Battle Bow
+[10/14/20 19:30:55] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:31:00] D2BS 10660: LowGold sell Sabre
+[10/14/20 19:31:00] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:31:02] D2BS 10660: LowGold sell Damaged Poleaxe
+[10/14/20 19:31:02] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:31:05] D2BS 10660: LowGold sell Two-Handed Sword
+[10/14/20 19:31:05] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:31:07] D2BS 10660: LowGold sell Crystal Sword
+[10/14/20 19:31:07] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:31:39] D2BS 10660: ÿc1Skipping Thorned Hulk 1389 16
+[10/14/20 19:31:39] D2BS 10660: ÿc7Picked up ÿc0Short Spear ÿc0(ilvl 21)
+[10/14/20 19:32:10] D2BS 10660: ÿc7Picked up ÿc0Superior Cestus ÿc0(ilvl 22)
+[10/14/20 19:32:10] D2BS 10660: ÿc7Picked up ÿc4113 Gold
+[10/14/20 19:32:11] D2BS 10660: ÿc7Picked up ÿc0Flail ÿc0(ilvl 22)
+[10/14/20 19:32:32] D2BS 10660: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[10/14/20 19:32:35] D2BS 10660: 76,85
+[10/14/20 19:32:44] D2BS 10660: initNPC: heal
+[10/14/20 19:32:48] D2BS 10660: initNPC: identify
+[10/14/20 19:32:49] D2BS 10660: initNPC: fillTome
+[10/14/20 19:32:50] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 41 items.
+[10/14/20 19:32:52] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:32:58] D2BS 10660: LowGold sell Short Spear
+[10/14/20 19:32:58] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:33:00] D2BS 10660: move retry 1
+[10/14/20 19:33:01] D2BS 10660: move retry 1
+[10/14/20 19:33:03] D2BS 10660: LowGold sell Superior Cestus
+[10/14/20 19:33:03] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:33:06] D2BS 10660: LowGold sell Flail
+[10/14/20 19:33:06] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:33:08] D2BS 10660: Coral Mask 
+[10/14/20 19:33:14] D2BS 10660: 75
+[10/14/20 19:33:37] D2BS 10660: ÿc7Picked up ÿc3Voulge ÿc0(ilvl 19) (PreMerc.xpac.nip #20)
+[10/14/20 19:33:50] D2BS 10660: move retry 1
+[10/14/20 19:34:05] D2BS 10660: ÿc7Picked up ÿc0Broad Axe ÿc0(ilvl 19)
+[10/14/20 19:34:16] D2BS 10660: ÿc7Picked up ÿc0Superior Scimitar ÿc0(ilvl 19)
+[10/14/20 19:34:49] D2BS 10660: ÿc7Picked up ÿc470 Gold
+[10/14/20 19:35:12] D2BS 10660: move retry 1
+[10/14/20 19:35:23] D2BS 10660: move retry 1
+[10/14/20 19:35:30] D2BS 10660: ÿc7Picked up ÿc4105 Gold
+[10/14/20 19:35:34] D2BS 10660: move retry 1
+[10/14/20 19:35:35] D2BS 10660: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:35:35] D2BS 10660: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #25)
+[10/14/20 19:35:35] D2BS 10660: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #25)
+[10/14/20 19:35:40] D2BS 10660: ÿc7Picked up ÿc0Balanced Axe ÿc0(ilvl 25)
+[10/14/20 19:35:52] D2BS 10660: ÿc7Picked up ÿc0ÿc4Khalim's Eye ÿc0(ilvl 1) (LateGame.nip #23)
+[10/14/20 19:36:37] D2BS 10660: initNPC: heal
+[10/14/20 19:36:41] D2BS 10660: initNPC: identify
+[10/14/20 19:36:44] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 57 items.
+[10/14/20 19:36:45] D2BS 10660: move retry 1
+[10/14/20 19:36:55] D2BS 10660: LowGold sell Superior Scimitar
+[10/14/20 19:36:55] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:36:59] D2BS 10660: LowGold sell Balanced Axe
+[10/14/20 19:36:59] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:37:01] D2BS 10660: LowGold sell Broad Axe
+[10/14/20 19:37:01] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:37:08] D2BS 10660: Successfully placed ÿc4Khalim's Eye at X: 3 Y: 1
+[10/14/20 19:37:10] D2BS 10660: 75
+[10/14/20 19:37:18] D2BS 10660: move retry 1
+[10/14/20 19:37:29] D2BS 10660: move retry 1
+[10/14/20 19:37:56] D2BS 10660: move retry 1
+[10/14/20 19:38:05] D2BS 10660: ÿc1Skipping Water Watcher 298 16
+[10/14/20 19:38:14] D2BS 10660: ÿc1Skipping Water Watcher 296 16
+[10/14/20 19:38:15] D2BS 10660: ÿc7Picked up ÿc4108 Gold
+[10/14/20 19:38:39] D2BS 10660: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:38:40] D2BS 10660: ÿc7Picked up ÿc4136 Gold
+[10/14/20 19:38:58] D2BS 10660: AutoBuild: Stat points: 10      Skill points: 2
+[10/14/20 19:38:58] D2BS 10660: AutoBuild: Level up detected ( 22 --> 23 )
+[10/14/20 19:38:58] D2BS 10660: AutoBuild: useSkillPoint(): Frost Nova (44)
+[10/14/20 19:38:58] D2BS 10660: AutoBuild: Skill (1/1) Increased Frost Nova (44) by one (level:  1)
+[10/14/20 19:38:58] D2BS 10660: ÿc7Picked up ÿc3Long Battle Bow ÿc0(ilvl 28) (PreMerc.xpac.nip #7)
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: useStatPoint(0): Strength
+[10/14/20 19:38:59] D2BS 10660: ÿc7Picked up ÿc0Sapphire ÿc0(ilvl 1)
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: Stat (1/5) Increased Strength from 31 to 32
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: Stat (2/5) Increased Energy from 77 to 78
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: Stat (3/5) Increased Energy from 78 to 79
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: Stat (4/5) Increased Vitality from 52 to 53
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: Stat (5/5) Increased Vitality from 53 to 54
+[10/14/20 19:38:59] D2BS 10660: Updating Config from level 22 to 23
+[10/14/20 19:38:59] D2BS 10660: Updating Config from level 22 to 23
+[10/14/20 19:38:59] D2BS 10660: Updating Config from level 22 to 23
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: Updating Config from level 22 to 23
+[10/14/20 19:38:59] D2BS 10660: Updating Config from level 22 to 23
+[10/14/20 19:38:59] D2BS 10660: AutoBuild: Incrementing cached character level to 23
+[10/14/20 19:39:15] D2BS 10660: ÿc7Picked up ÿc4ÿc4Khalim's Flail ÿc0(ilvl 28) (LateGame.nip #22)
+[10/14/20 19:39:36] D2BS 10660: initNPC: heal
+[10/14/20 19:39:42] D2BS 10660: initNPC: identify
+[10/14/20 19:39:44] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[10/14/20 19:39:45] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:40:05] D2BS 10660: LowGold sell Sapphire
+[10/14/20 19:40:05] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:40:16] D2BS 10660: initNPC: clearInventory
+[10/14/20 19:40:23] D2BS 10660: Successfully placed ÿc4Khalim's Flail at X: 0 Y: 2
+[10/14/20 19:40:25] D2BS 10660: 75
+[10/14/20 19:40:28] D2BS 10660: initNPC: heal
+[10/14/20 19:41:00] D2BS 10660: 75
+[10/14/20 19:41:23] D2BS 10660: 83,100
+[10/14/20 19:41:45] D2BS 10660: ÿc7Picked up ÿc437 Gold
+[10/14/20 19:41:59] D2BS 10660: ÿc7Picked up ÿc467 Gold
+[10/14/20 19:42:26] D2BS 10660: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[10/14/20 19:42:42] D2BS 10660: ÿc1Skipping Dark Lord 1650 16
+[10/14/20 19:43:09] D2BS 10660: ÿc1Skipping Mauler 1664 16
+[10/14/20 19:43:11] D2BS 10660: move retry 1
+[10/14/20 19:43:42] D2BS 10660: 100,101
+[10/14/20 19:43:52] D2BS 10660: move retry 1
+[10/14/20 19:43:55] D2BS 10660: ÿc1Pausing.
+[10/14/20 19:43:55] D2BS 10660: initNPC: heal
+[10/14/20 19:43:59] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:44:07] D2BS 10660: ÿc2Resuming.
+[10/14/20 19:44:11] D2BS 10660: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:44:24] D2BS 10660: ÿc1Skipping Mauler 1682 16
+[10/14/20 19:44:42] D2BS 10660: move retry 1
+[10/14/20 19:44:43] D2BS 10660: ÿc1Skipping Dark Lord 1687 16
+[10/14/20 19:44:46] D2BS 10660: ÿc7Picked up ÿc4120 Gold
+[10/14/20 19:44:50] D2BS 10660: ÿc7Picked up ÿc428 Gold
+[10/14/20 19:45:04] D2BS 10660: initNPC: heal
+[10/14/20 19:45:06] D2BS 10660: move retry 1
+[10/14/20 19:45:08] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:45:12] D2BS 10660: move retry 1
+[10/14/20 19:45:16] D2BS 10660: 75
+[10/14/20 19:45:16] D2BS 10660: move retry 1
+[10/14/20 19:45:18] D2BS 10660: move retry 2
+[10/14/20 19:45:33] D2BS 10660: move retry 1
+[10/14/20 19:45:35] D2BS 10660: move retry 1
+[10/14/20 19:45:55] D2BS 10660: ÿc7Picked up ÿc498 Gold
+[10/14/20 19:46:14] D2BS 10660: ÿc7Picked up ÿc432 Gold
+[10/14/20 19:46:15] D2BS 10660: move retry 1
+[10/14/20 19:47:06] D2BS 10660: 101,102
+[10/14/20 19:47:14] D2BS 10660: initNPC: heal
+[10/14/20 19:47:24] D2BS 10660: initNPC: identify
+[10/14/20 19:47:25] D2BS 10660: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[10/14/20 19:47:26] D2BS 10660: initNPC: buyPotions
+[10/14/20 19:47:28] D2BS 14260: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:47:28] D2BS 14260: ColdSorc
+[10/14/20 19:47:28] D2BS 14260: ÿc2D2BSÿc0 :: Switched to profile ColdSorc
+[10/14/20 19:47:28] D2BS 14260: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:47:28] D2BS 14260: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 19:47:28] D2BS 14260: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 19:47:28] D2BS 14260: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:47:30] D2BS 14260: Heartbeat loaded
+[10/14/20 19:47:47] D2BS 14260: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:47:47] D2BS 14260: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:47:47] D2BS 14260: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:47:47] D2BS 14260: Updating Config from level 0 to 23
+[10/14/20 19:47:47] D2BS 14260: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:47:47] D2BS 14260: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:47:47] D2BS 14260: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:47:47] D2BS 14260: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:47:47] D2BS 14260: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 19:47:47] D2BS 14260: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:47:47] D2BS 14260: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:47:47] D2BS 14260: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:47:47] D2BS 14260: Updating Config from level 0 to 23
+[10/14/20 19:47:47] D2BS 14260: AutoBuild: Loaded helper thread
+[10/14/20 19:47:47] D2BS 14260: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:47:47] D2BS 14260: Updating Config from level 0 to 23
+[10/14/20 19:47:47] D2BS 14260: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:47:47] D2BS 14260: ÿc3Start ToolsThread script
+[10/14/20 19:47:48] D2BS 14260: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:47:48] D2BS 14260: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:47:48] D2BS 14260: Updating Config from level 0 to 23
+[10/14/20 19:47:48] D2BS 14260: Updating Config from level 0 to 23
+[10/14/20 19:47:57] D2BS 14260: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:49:02] D2BS 14260: initNPC: BuyPotions
+[10/14/20 19:49:24] D2BS 14260: 75
+[10/14/20 19:49:28] D2BS 14260: Script default.dbj ended
+[10/14/20 19:49:28] D2BS 14260: Script tools\autobuildthread.js ended
+[10/14/20 19:49:28] D2BS 14260: Script tools\party.js ended
+[10/14/20 19:49:28] D2BS 14260: Script tools\toolsthread.js ended
+[10/14/20 19:49:28] D2BS 14260: Script tools\townchicken.js ended
+[10/14/20 19:49:34] D2BS 14260: D2BS Shutdown complete.
+[10/14/20 19:49:34] D2BS 14168: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:49:34] D2BS 14168: ColdSorc
+[10/14/20 19:49:34] D2BS 14168: ÿc2D2BSÿc0 :: Switched to profile ColdSorc
+[10/14/20 19:49:34] D2BS 14168: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:49:34] D2BS 14168: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 19:49:34] D2BS 14168: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 19:49:34] D2BS 14168: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:49:37] D2BS 14168: Heartbeat loaded
+[10/14/20 19:49:54] D2BS 14168: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:49:54] D2BS 14168: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:49:54] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:49:54] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:49:54] D2BS 14168: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:54] D2BS 14168: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:54] D2BS 14168: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:54] D2BS 14168: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:54] D2BS 14168: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:49:54] D2BS 14168: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:54] D2BS 14168: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:49:54] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:49:54] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:49:54] D2BS 14168: AutoBuild: Loaded helper thread
+[10/14/20 19:49:54] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:49:54] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:49:54] D2BS 14168: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:49:54] D2BS 14168: ÿc3Start ToolsThread script
+[10/14/20 19:49:54] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:49:54] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:49:54] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:49:54] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:49:57] D2BS 14168: ÿc1Pausing.
+[10/14/20 19:50:39] D2BS 14168: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc04 ÿc3CR: ÿc013 ÿc9LR: ÿc025 ÿc2PR: ÿc04
+[10/14/20 19:50:39] D2BS 14168: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:50:39] D2BS 14168: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 19:50:40] D2BS 14168: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:50:40] D2BS 14168: Script d2botlanfollow.dbj ended
+[10/14/20 19:50:40] D2BS 14168: Script default.dbj ended
+[10/14/20 19:50:40] D2BS 14168: Script tools\autobuildthread.js ended
+[10/14/20 19:50:40] D2BS 14168: Script tools\heartbeat.js ended
+[10/14/20 19:50:40] D2BS 14168: Script tools\party.js ended
+[10/14/20 19:50:40] D2BS 14168: Script tools\toolsthread.js ended
+[10/14/20 19:50:40] D2BS 14168: Script tools\townchicken.js ended
+[10/14/20 19:50:41] D2BS 14168: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:50:41] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:50:41] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:50:41] D2BS 14168: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:41] D2BS 14168: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:41] D2BS 14168: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:41] D2BS 14168: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:41] D2BS 14168: Heartbeat loaded
+[10/14/20 19:50:41] D2BS 14168: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:41] D2BS 14168: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:41] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:50:41] D2BS 14168: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:41] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:50:41] D2BS 14168: AutoBuild: Loaded helper thread
+[10/14/20 19:50:41] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:50:41] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:50:41] D2BS 14168: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:50:41] D2BS 14168: ÿc3Start ToolsThread script
+[10/14/20 19:50:41] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:50:41] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:50:41] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:50:41] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:50:49] D2BS 14168: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:51:17] D2BS 14168: initNPC: BuyPotions
+[10/14/20 19:51:30] D2BS 14168: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc04 ÿc3CR: ÿc013 ÿc9LR: ÿc025 ÿc2PR: ÿc04
+[10/14/20 19:51:30] D2BS 14168: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:51:30] D2BS 14168: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 19:51:31] D2BS 14168: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:51:31] D2BS 14168: Script default.dbj ended
+[10/14/20 19:51:31] D2BS 14168: Script tools\autobuildthread.js ended
+[10/14/20 19:51:31] D2BS 14168: Script tools\heartbeat.js ended
+[10/14/20 19:51:31] D2BS 14168: Script tools\party.js ended
+[10/14/20 19:51:31] D2BS 14168: Script tools\toolsthread.js ended
+[10/14/20 19:51:31] D2BS 14168: Script tools\townchicken.js ended
+[10/14/20 19:51:31] D2BS 14168: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:51:32] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:51:32] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:51:32] D2BS 14168: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:51:32] D2BS 14168: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/14/20 19:51:32] D2BS 14168: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:51:32] D2BS 14168: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:51:32] D2BS 14168: Heartbeat loaded
+[10/14/20 19:51:32] D2BS 14168: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:51:32] D2BS 14168: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:51:32] D2BS 14168: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:51:32] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:51:32] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:51:32] D2BS 14168: AutoBuild: Loaded helper thread
+[10/14/20 19:51:32] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:51:32] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:51:32] D2BS 14168: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:51:32] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:51:32] D2BS 14168: ÿc3Start ToolsThread script
+[10/14/20 19:51:32] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:51:32] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:51:32] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:51:40] D2BS 14168: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:51:47] D2BS 14168: Hiring Merc
+[10/14/20 19:52:01] D2BS 14168: initNPC: BuyPotions
+[10/14/20 19:52:02] D2BS 14168: ÿc1Pausing.
+[10/14/20 19:53:12] D2BS 14168: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc04 ÿc3CR: ÿc013 ÿc9LR: ÿc025 ÿc2PR: ÿc04
+[10/14/20 19:53:12] D2BS 14168: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:53:12] D2BS 14168: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 19:53:13] D2BS 14168: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:53:13] D2BS 14168: Script default.dbj ended
+[10/14/20 19:53:13] D2BS 14168: Script tools\autobuildthread.js ended
+[10/14/20 19:53:13] D2BS 14168: Script tools\heartbeat.js ended
+[10/14/20 19:53:13] D2BS 14168: Script tools\party.js ended
+[10/14/20 19:53:13] D2BS 14168: Script tools\toolsthread.js ended
+[10/14/20 19:53:13] D2BS 14168: Script tools\townchicken.js ended
+[10/14/20 19:53:14] D2BS 14168: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:53:14] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:53:14] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:53:14] D2BS 14168: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:14] D2BS 14168: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:14] D2BS 14168: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:14] D2BS 14168: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:14] D2BS 14168: Heartbeat loaded
+[10/14/20 19:53:14] D2BS 14168: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:53:14] D2BS 14168: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:14] D2BS 14168: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:14] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:53:14] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:53:14] D2BS 14168: AutoBuild: Loaded helper thread
+[10/14/20 19:53:14] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:53:14] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:53:14] D2BS 14168: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:53:14] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:53:14] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:53:14] D2BS 14168: ÿc3Start ToolsThread script
+[10/14/20 19:53:14] D2BS 14168: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:53:14] D2BS 14168: Updating Config from level 0 to 23
+[10/14/20 19:53:21] D2BS 14168: move retry 1
+[10/14/20 19:53:23] D2BS 14168: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:53:45] D2BS 14168: initNPC: BuyPotions
+[10/14/20 19:54:06] D2BS 14168: 75
+[10/14/20 19:54:08] D2BS 14168: 83,100,101
+[10/14/20 19:54:29] D2BS 14168: ÿc1Pausing.
+[10/14/20 19:54:31] D2BS 14168: Script default.dbj ended
+[10/14/20 19:54:31] D2BS 14168: Script tools\autobuildthread.js ended
+[10/14/20 19:54:31] D2BS 14168: Script tools\heartbeat.js ended
+[10/14/20 19:54:31] D2BS 14168: Script tools\party.js ended
+[10/14/20 19:54:31] D2BS 14168: Script tools\townchicken.js ended
+[10/14/20 19:54:44] D2BS 14168: D2BS Shutdown complete.
+[10/14/20 19:54:45] D2BS 14776: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:54:45] D2BS 14776: ÿc2D2BSÿc0 :: Switched to profile ColdSorc
+[10/14/20 19:54:45] D2BS 14776: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:54:45] D2BS 14776: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 19:54:45] D2BS 14776: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 19:54:45] D2BS 14776: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:54:46] D2BS 14776: Heartbeat loaded
+[10/14/20 19:55:36] D2BS 14776: Error: login time out null
+[10/14/20 19:55:42] D2BS 14776: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:55:42] D2BS 14776: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:55:42] D2BS 14776: AutoBuild: Including build template config/builds/sorceress.cold.js into default.dbj
+[10/14/20 19:55:42] D2BS 14776: Updating Config from level 0 to 23
+[10/14/20 19:55:42] D2BS 14776: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:42] D2BS 14776: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:42] D2BS 14776: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:42] D2BS 14776: ÿc4Loaded NIP: ÿc2ColdRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:42] D2BS 14776: ÿc4Loaded NIP: ÿc2Cold.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:55:42] D2BS 14776: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:42] D2BS 14776: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:42] D2BS 14776: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\autobuildthread.js
+[10/14/20 19:55:42] D2BS 14776: Updating Config from level 0 to 23
+[10/14/20 19:55:42] D2BS 14776: AutoBuild: Loaded helper thread
+[10/14/20 19:55:42] D2BS 14776: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\party.js
+[10/14/20 19:55:42] D2BS 14776: Updating Config from level 0 to 23
+[10/14/20 19:55:42] D2BS 14776: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:55:42] D2BS 14776: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\townchicken.js
+[10/14/20 19:55:42] D2BS 14776: ÿc3Start ToolsThread script
+[10/14/20 19:55:42] D2BS 14776: Updating Config from level 0 to 23
+[10/14/20 19:55:42] D2BS 14776: AutoBuild: Including build template config/builds/sorceress.cold.js into tools\toolsthread.js
+[10/14/20 19:55:42] D2BS 14776: Updating Config from level 0 to 23
+[10/14/20 19:55:52] D2BS 14776: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:55:52] D2BS 14776: move retry 1
+[10/14/20 19:55:56] D2BS 14776: initNPC: reviveMerc
+[10/14/20 19:56:26] D2BS 14776: initNPC: heal
+[10/14/20 19:56:31] D2BS 14776: initNPC: BuyPotions
+[10/14/20 19:56:52] D2BS 14776: 75
+[10/14/20 19:57:01] D2BS 14776: initNPC: heal
+[10/14/20 19:57:05] D2BS 14776: initNPC: buyPotions
+[10/14/20 19:57:13] D2BS 14776: 75
+[10/14/20 19:57:19] D2BS 14776: move retry 1
+[10/14/20 19:57:31] D2BS 14776: ÿc1Pausing.
+[10/14/20 19:57:31] D2BS 14776: initNPC: heal
+[10/14/20 19:57:35] D2BS 14776: initNPC: buyPotions
+[10/14/20 19:57:43] D2BS 14776: ÿc2Resuming.
+[10/14/20 19:58:06] D2BS 14776: ÿc1Skipping Blood Lord 106 16
+[10/14/20 19:58:06] D2BS 14776: ÿc7Picked up ÿc3Heavy Gloves ÿc0(ilvl 28) (Cold.xpac.nip #81)
+[10/14/20 19:58:16] D2BS 14776: ÿc1Skipping Blood Lord 107 16
+[10/14/20 19:58:32] D2BS 14776: ÿc7Picked up ÿc473 Gold
+[10/14/20 19:58:44] D2BS 14776: move retry 1
+[10/14/20 19:58:55] D2BS 14776: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #25)
+[10/14/20 19:59:10] D2BS 14776: ÿc7Picked up ÿc4455 Gold
+[10/14/20 19:59:35] D2BS 14776: initNPC: identify
+[10/14/20 19:59:38] D2BS 14776: move retry 1
+[10/14/20 19:59:42] D2BS 14776: initNPC: fillTome
+[10/14/20 19:59:43] D2BS 14776: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[10/14/20 19:59:44] D2BS 14776: initNPC: buyPotions

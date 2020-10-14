@@ -1958,3 +1958,817 @@
 [10/14/20 18:56:04] D2BS 10940: 75
 [10/14/20 18:56:46] D2BS 10940: move retry 1
 [10/14/20 18:56:49] D2BS 10940: 80,94
+[10/14/20 18:57:32] D2BS 10940: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 18:57:32] D2BS 10940: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 18:57:33] D2BS 10940: ÿc7Picked up ÿc4105 Gold
+[10/14/20 18:57:42] D2BS 10940: initNPC: heal
+[10/14/20 18:57:46] D2BS 10940: initNPC: fillTome
+[10/14/20 18:57:48] D2BS 10940: initNPC: buyPotions
+[10/14/20 18:57:49] D2BS 10940: 75
+[10/14/20 18:57:57] D2BS 10940: 80
+[10/14/20 18:58:32] D2BS 10940: ÿc7Picked up ÿc423 Gold
+[10/14/20 18:58:44] D2BS 10940: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 18:58:45] D2BS 10940: ÿc7Picked up ÿc0Spear ÿc0(ilvl 23)
+[10/14/20 18:58:45] D2BS 10940: ÿc7Picked up ÿc0Superior Horned Helm ÿc0(ilvl 20)
+[10/14/20 18:58:47] D2BS 10940: initNPC: identify
+[10/14/20 18:58:52] D2BS 10940: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[10/14/20 18:58:53] D2BS 10940: initNPC: buyPotions
+[10/14/20 18:58:54] D2BS 10940: LowGold sell Spear
+[10/14/20 18:58:54] D2BS 10940: initNPC: clearInventory
+[10/14/20 18:58:54] D2BS 10940: LowGold sell Superior Horned Helm
+[10/14/20 18:58:54] D2BS 10940: initNPC: clearInventory
+[10/14/20 18:58:57] D2BS 10940: Ocher Bone Shield 
+[10/14/20 18:59:04] D2BS 10940: 75
+[10/14/20 18:59:33] D2BS 10940: Script default.dbj ended
+[10/14/20 18:59:33] D2BS 10940: Script tools\autobuildthread.js ended
+[10/14/20 18:59:33] D2BS 10940: Script tools\party.js ended
+[10/14/20 18:59:33] D2BS 10940: Script tools\toolsthread.js ended
+[10/14/20 18:59:33] D2BS 10940: Script tools\townchicken.js ended
+[10/14/20 18:59:40] D2BS 10940: D2BS Shutdown complete.
+[10/14/20 18:59:41] D2BS 10688: D2BS Engine startup complete. 1.6.4U
+[10/14/20 18:59:41] D2BS 10688: LightSorc
+[10/14/20 18:59:41] D2BS 10688: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 18:59:41] D2BS 10688: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 18:59:41] D2BS 10688: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 18:59:41] D2BS 10688: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 18:59:41] D2BS 10688: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 18:59:43] D2BS 10688: Heartbeat loaded
+[10/14/20 19:00:00] D2BS 10688: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:00:00] D2BS 10688: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:00:00] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:00:00] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10688: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10688: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10688: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10688: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc216 ms
+[10/14/20 19:00:00] D2BS 10688: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10688: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc217. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:00:00] D2BS 10688: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:00] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10688: AutoBuild: Loaded helper thread
+[10/14/20 19:00:00] D2BS 10688: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:00:00] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:00:00] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10688: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:00:00] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:00:00] D2BS 10688: ÿc3Start ToolsThread script
+[10/14/20 19:00:00] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:00] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:00:00] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:12] D2BS 10688: Successfully placed Short Bow at X: 0 Y: 1
+[10/14/20 19:00:27] D2BS 10688: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>03
+[10/14/20 19:00:27] D2BS 10688: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>07
+[10/14/20 19:00:27] D2BS 10688: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+[10/14/20 19:00:27] D2BS 10688: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+[10/14/20 19:00:29] D2BS 10688: move retry 1
+[10/14/20 19:00:33] D2BS 10688: initNPC: BuyPotions
+[10/14/20 19:00:46] D2BS 10688: Leader not partied
+[10/14/20 19:00:48] D2BS 10688: Leader not partied
+[10/14/20 19:00:48] D2BS 10688: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc05 ÿc3CR: ÿc040 ÿc9LR: ÿc017 ÿc2PR: ÿc010
+[10/14/20 19:00:48] D2BS 10688: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:00:48] D2BS 10688: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 1 MDR: 0% + 0
+[10/14/20 19:00:49] D2BS 10688: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:00:49] D2BS 10688: Script d2botlanfollow.dbj ended
+[10/14/20 19:00:49] D2BS 10688: Script default.dbj ended
+[10/14/20 19:00:49] D2BS 10688: Script tools\autobuildthread.js ended
+[10/14/20 19:00:49] D2BS 10688: Script tools\heartbeat.js ended
+[10/14/20 19:00:49] D2BS 10688: Script tools\party.js ended
+[10/14/20 19:00:49] D2BS 10688: Script tools\toolsthread.js ended
+[10/14/20 19:00:49] D2BS 10688: Script tools\townchicken.js ended
+[10/14/20 19:00:50] D2BS 10688: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:00:50] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:00:50] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:50] D2BS 10688: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/14/20 19:00:50] D2BS 10688: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:50] D2BS 10688: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:50] D2BS 10688: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:50] D2BS 10688: Heartbeat loaded
+[10/14/20 19:00:50] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:00:50] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:50] D2BS 10688: AutoBuild: Loaded helper thread
+[10/14/20 19:00:50] D2BS 10688: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:00:50] D2BS 10688: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:50] D2BS 10688: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:00:50] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:00:50] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:50] D2BS 10688: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:00:50] D2BS 10688: ÿc3Start ToolsThread script
+[10/14/20 19:00:50] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:00:50] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:00:50] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:50] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:00:51] D2BS 10688: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:01:02] D2BS 10688: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc05 ÿc3CR: ÿc040 ÿc9LR: ÿc017 ÿc2PR: ÿc010
+[10/14/20 19:01:02] D2BS 10688: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:01:02] D2BS 10688: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 1 MDR: 0% + 0
+[10/14/20 19:01:02] D2BS 10688: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:01:02] D2BS 10688: Script default.dbj ended
+[10/14/20 19:01:02] D2BS 10688: Script tools\autobuildthread.js ended
+[10/14/20 19:01:02] D2BS 10688: Script tools\heartbeat.js ended
+[10/14/20 19:01:02] D2BS 10688: Script tools\party.js ended
+[10/14/20 19:01:02] D2BS 10688: Script tools\toolsthread.js ended
+[10/14/20 19:01:02] D2BS 10688: Script tools\townchicken.js ended
+[10/14/20 19:01:03] D2BS 10688: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:01:03] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:01:03] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:03] D2BS 10688: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:03] D2BS 10688: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:03] D2BS 10688: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:03] D2BS 10688: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:03] D2BS 10688: Heartbeat loaded
+[10/14/20 19:01:03] D2BS 10688: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:01:03] D2BS 10688: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:03] D2BS 10688: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:03] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:01:03] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:03] D2BS 10688: AutoBuild: Loaded helper thread
+[10/14/20 19:01:03] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:01:03] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:03] D2BS 10688: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:01:03] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:01:03] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:03] D2BS 10688: ÿc3Start ToolsThread script
+[10/14/20 19:01:03] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:01:03] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:04] D2BS 10688: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:01:20] D2BS 10688: move retry 1
+[10/14/20 19:01:34] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:01:40] D2BS 10688: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc05 ÿc3CR: ÿc040 ÿc9LR: ÿc017 ÿc2PR: ÿc010
+[10/14/20 19:01:40] D2BS 10688: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:01:40] D2BS 10688: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 1 MDR: 0% + 0
+[10/14/20 19:01:41] D2BS 10688: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:01:41] D2BS 10688: Script default.dbj ended
+[10/14/20 19:01:41] D2BS 10688: Script tools\autobuildthread.js ended
+[10/14/20 19:01:41] D2BS 10688: Script tools\heartbeat.js ended
+[10/14/20 19:01:41] D2BS 10688: Script tools\party.js ended
+[10/14/20 19:01:41] D2BS 10688: Script tools\toolsthread.js ended
+[10/14/20 19:01:41] D2BS 10688: Script tools\townchicken.js ended
+[10/14/20 19:01:43] D2BS 10688: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:01:43] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:01:43] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:43] D2BS 10688: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:43] D2BS 10688: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/14/20 19:01:43] D2BS 10688: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:43] D2BS 10688: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:43] D2BS 10688: Heartbeat loaded
+[10/14/20 19:01:43] D2BS 10688: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:254) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>03
+[10/14/20 19:01:43] D2BS 10688: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:254) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>07
+[10/14/20 19:01:43] D2BS 10688: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:43] D2BS 10688: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc224ÿc4. Valid entries: ÿc217. ÿc4Time: ÿc20 ms
+[10/14/20 19:01:43] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:01:43] D2BS 10688: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc215 ms
+[10/14/20 19:01:43] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:43] D2BS 10688: AutoBuild: Loaded helper thread
+[10/14/20 19:01:43] D2BS 10688: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:254) octal literals and octal escape sequences are deprecated
+[10/14/20 19:01:43] D2BS 10688: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:254) octal literals and octal escape sequences are deprecated
+[10/14/20 19:01:43] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:01:43] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:43] D2BS 10688: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:01:43] D2BS 10688: ÿc3Start ToolsThread script
+[10/14/20 19:01:43] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:01:43] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:43] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:01:43] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:01:43] D2BS 10688: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:01:45] D2BS 10688: move retry 1
+[10/14/20 19:01:48] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:01:50] D2BS 10688: ÿc2Resuming.
+[10/14/20 19:02:14] D2BS 10688: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>03
+[10/14/20 19:02:14] D2BS 10688: [Strict Warning] Code(232) File(c:\users\gmcdo\documents\mykolbot\d2bs\kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+Line: item.getStatEx(22)>07
+[10/14/20 19:02:14] D2BS 10688: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+[10/14/20 19:02:14] D2BS 10688: [ÿc9Strict Warningÿc0 (232)] File(kolbot\libs\ntitemparser.dbl:209) octal literals and octal escape sequences are deprecated
+[10/14/20 19:02:18] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:09:24] D2BS 10688: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc05 ÿc3CR: ÿc040 ÿc9LR: ÿc017 ÿc2PR: ÿc010
+[10/14/20 19:09:24] D2BS 10688: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/14/20 19:09:24] D2BS 10688: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 1 MDR: 0% + 0
+[10/14/20 19:09:24] D2BS 10688: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 19:09:24] D2BS 10688: Script default.dbj ended
+[10/14/20 19:09:24] D2BS 10688: Script tools\autobuildthread.js ended
+[10/14/20 19:09:24] D2BS 10688: Script tools\heartbeat.js ended
+[10/14/20 19:09:24] D2BS 10688: Script tools\party.js ended
+[10/14/20 19:09:24] D2BS 10688: Script tools\toolsthread.js ended
+[10/14/20 19:09:24] D2BS 10688: Script tools\townchicken.js ended
+[10/14/20 19:09:25] D2BS 10688: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 19:09:25] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:09:25] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:09:25] D2BS 10688: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:09:25] D2BS 10688: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:09:25] D2BS 10688: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:09:25] D2BS 10688: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:09:25] D2BS 10688: Heartbeat loaded
+[10/14/20 19:09:25] D2BS 10688: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:09:25] D2BS 10688: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:09:25] D2BS 10688: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:09:25] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:09:25] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:09:25] D2BS 10688: AutoBuild: Loaded helper thread
+[10/14/20 19:09:25] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:09:25] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:09:25] D2BS 10688: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:09:25] D2BS 10688: ÿc3Start ToolsThread script
+[10/14/20 19:09:25] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:09:25] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:09:25] D2BS 10688: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:09:25] D2BS 10688: Updating Config from level 0 to 21
+[10/14/20 19:09:26] D2BS 10688: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:09:28] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:09:33] D2BS 10688: ÿc2Resuming.
+[10/14/20 19:10:07] D2BS 10688: initNPC: BuyPotions
+[10/14/20 19:10:26] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:10:44] D2BS 10688: ÿc2Resuming.
+[10/14/20 19:10:50] D2BS 10688: move retry 1
+[10/14/20 19:10:53] D2BS 10688: 75
+[10/14/20 19:11:19] D2BS 10688: move retry 1
+[10/14/20 19:11:53] D2BS 10688: ÿc7Picked up ÿc4123 Gold
+[10/14/20 19:11:54] D2BS 10688: ÿc7Picked up ÿc4133 Gold
+[10/14/20 19:11:54] D2BS 10688: ÿc7Picked up ÿc477 Gold
+[10/14/20 19:11:54] D2BS 10688: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:11:54] D2BS 10688: ÿc7Picked up ÿc440 Gold
+[10/14/20 19:12:55] D2BS 10688: ÿc1Skipping Zealot 229 16
+[10/14/20 19:12:58] D2BS 10688: ÿc1Skipping Cantor 231 16
+[10/14/20 19:13:16] D2BS 10688: move retry 1
+[10/14/20 19:13:21] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:13:22] D2BS 10688: initNPC: heal
+[10/14/20 19:13:32] D2BS 10688: initNPC: buyPotions
+[10/14/20 19:13:51] D2BS 10688: ÿc2Resuming.
+[10/14/20 19:13:57] D2BS 10688: ÿc7Picked up ÿc489 Gold
+[10/14/20 19:14:15] D2BS 10688: ÿc7Picked up ÿc8Eld Rune ÿc0(ilvl 1) (EarlyGame.nip #2)
+[10/14/20 19:14:15] D2BS 10688: ÿc7Picked up ÿc4106 Gold
+[10/14/20 19:14:15] D2BS 10688: ÿc7Picked up ÿc0Flawed Topaz ÿc0(ilvl 1)
+[10/14/20 19:14:49] D2BS 10688: ÿc7Picked up ÿc430 Gold
+[10/14/20 19:15:35] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:15:38] D2BS 10688: initNPC: heal
+[10/14/20 19:15:42] D2BS 10688: initNPC: identify
+[10/14/20 19:15:43] D2BS 10688: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[10/14/20 19:15:44] D2BS 10688: initNPC: buyPotions
+[10/14/20 19:15:49] D2BS 10688: LowGold sell Flawed Topaz
+[10/14/20 19:15:49] D2BS 10688: initNPC: clearInventory
+[10/14/20 19:15:57] D2BS 10688: Successfully placed Eld Rune at X: 3 Y: 0
+[10/14/20 19:15:59] D2BS 10688: ÿc2Resuming.
+[10/14/20 19:16:03] D2BS 10688: ÿc7Picked up ÿc0Axe ÿc0(ilvl 20)
+[10/14/20 19:16:04] D2BS 10688: ÿc7Picked up ÿc8Eld Rune ÿc0(ilvl 1) (EarlyGame.nip #2)
+[10/14/20 19:16:15] D2BS 10688: ÿc7Picked up ÿc4106 Gold
+[10/14/20 19:16:25] D2BS 10688: ÿc7Picked up ÿc450 Gold
+[10/14/20 19:16:30] D2BS 10688: move retry 1
+[10/14/20 19:16:53] D2BS 10688: move retry 1
+[10/14/20 19:17:05] D2BS 10688: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:17:16] D2BS 10688: move retry 1
+[10/14/20 19:17:23] D2BS 10688: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/14/20 19:17:23] D2BS 10688: ÿc7Picked up ÿc445 Gold
+[10/14/20 19:18:10] D2BS 10688: ÿc1Skipping Thrasher 660 16
+[10/14/20 19:18:48] D2BS 10688: move retry 1
+[10/14/20 19:19:18] D2BS 10688: ÿc7Picked up ÿc494 Gold
+[10/14/20 19:19:45] D2BS 10688: ÿc1Pausing.
+[10/14/20 19:19:46] D2BS 10688: initNPC: heal
+[10/14/20 19:19:51] D2BS 10688: initNPC: identify
+[10/14/20 19:19:52] D2BS 10688: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[10/14/20 19:19:52] D2BS 10688: initNPC: buyPotions
+[10/14/20 19:19:59] D2BS 10688: LowGold sell Axe
+[10/14/20 19:19:59] D2BS 10688: initNPC: clearInventory
+[10/14/20 19:20:08] D2BS 10688: Successfully placed Eld Rune at X: 4 Y: 0
+[10/14/20 19:20:10] D2BS 10688: ÿc2Resuming.
+[10/14/20 19:20:12] D2BS 10688: move retry 1
+[10/14/20 19:20:31] D2BS 10688: ÿc7Picked up ÿc4118 Gold
+[10/14/20 19:20:31] D2BS 10688: ÿc7Picked up ÿc4122 Gold
+[10/14/20 19:21:05] D2BS 10688: move retry 1
+[10/14/20 19:21:18] D2BS 10688: Script default.dbj ended
+[10/14/20 19:21:18] D2BS 10688: Script tools\autobuildthread.js ended
+[10/14/20 19:21:18] D2BS 10688: Script tools\heartbeat.js ended
+[10/14/20 19:21:18] D2BS 10688: Script tools\party.js ended
+[10/14/20 19:21:18] D2BS 10688: Script tools\townchicken.js ended
+[10/14/20 19:21:30] D2BS 10688: D2BS Shutdown complete.
+[10/14/20 19:21:31] D2BS 2824: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:21:31] D2BS 2824: LightSorc
+[10/14/20 19:21:31] D2BS 2824: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 19:21:31] D2BS 2824: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:21:31] D2BS 2824: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 19:21:31] D2BS 2824: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 19:21:31] D2BS 2824: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:21:32] D2BS 2824: Heartbeat loaded
+[10/14/20 19:21:50] D2BS 2824: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:21:50] D2BS 2824: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:21:50] D2BS 2824: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:21:50] D2BS 2824: Updating Config from level 0 to 21
+[10/14/20 19:21:50] D2BS 2824: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:50] D2BS 2824: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:50] D2BS 2824: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:50] D2BS 2824: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:50] D2BS 2824: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:50] D2BS 2824: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:21:50] D2BS 2824: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:21:50] D2BS 2824: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc216 ms
+[10/14/20 19:21:50] D2BS 2824: Updating Config from level 0 to 21
+[10/14/20 19:21:50] D2BS 2824: AutoBuild: Loaded helper thread
+[10/14/20 19:21:50] D2BS 2824: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:21:50] D2BS 2824: Updating Config from level 0 to 21
+[10/14/20 19:21:50] D2BS 2824: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:21:50] D2BS 2824: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:21:50] D2BS 2824: Updating Config from level 0 to 21
+[10/14/20 19:21:50] D2BS 2824: ÿc3Start ToolsThread script
+[10/14/20 19:21:50] D2BS 2824: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:21:50] D2BS 2824: Updating Config from level 0 to 21
+[10/14/20 19:22:00] D2BS 2824: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:22:03] D2BS 2824: initNPC: heal
+[10/14/20 19:22:10] D2BS 2824: initNPC: BuyPotions
+[10/14/20 19:22:32] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:22:45] D2BS 2824: 40
+[10/14/20 19:22:47] D2BS 2824: initNPC: heal
+[10/14/20 19:25:10] D2BS 2824: ÿc7Picked up ÿc474 Gold
+[10/14/20 19:25:15] D2BS 2824: move retry 1
+[10/14/20 19:25:38] D2BS 2824: 78,79
+[10/14/20 19:26:26] D2BS 2824: move retry 1
+[10/14/20 19:26:29] D2BS 2824: move retry 2
+[10/14/20 19:26:33] D2BS 2824: move retry 3
+[10/14/20 19:26:33] D2BS 2824: initNPC: heal
+[10/14/20 19:26:39] D2BS 2824: initNPC: fillTome
+[10/14/20 19:26:41] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:27:01] D2BS 2824: 88,89
+[10/14/20 19:27:04] D2BS 2824: 89,91
+[10/14/20 19:27:14] D2BS 2824: initNPC: heal
+[10/14/20 19:27:19] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:27:41] D2BS 2824: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:27:42] D2BS 2824: ÿc7Picked up ÿc0ÿc4Khalim's Brain ÿc0(ilvl 1) (LateGame.nip #25)
+[10/14/20 19:27:52] D2BS 2824: initNPC: heal
+[10/14/20 19:27:57] D2BS 2824: initNPC: identify
+[10/14/20 19:27:58] D2BS 2824: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[10/14/20 19:27:58] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:28:11] D2BS 2824: Successfully placed ÿc4Khalim's Brain at X: 5 Y: 0
+[10/14/20 19:28:12] D2BS 2824: 75
+[10/14/20 19:28:33] D2BS 2824: 76
+[10/14/20 19:28:47] D2BS 2824: AutoBuild: Stat points: 10      Skill points: 2
+[10/14/20 19:28:47] D2BS 2824: AutoBuild: Level up detected ( 21 --> 22 )
+[10/14/20 19:28:47] D2BS 2824: AutoBuild: useSkillPoint(): Lightning (49)
+[10/14/20 19:28:47] D2BS 2824: AutoBuild: Skill (1/1) Increased Lightning (49) by one (level:  8)
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: useStatPoint(0): Strength
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: Stat (1/5) Increased Strength from 30 to 31
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: Stat (2/5) Increased Energy from 75 to 76
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: Attempt to spend point 3 in Energy may have failed!
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: Stat (4/5) Increased Vitality from 50 to 51
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: Stat (5/5) Increased Vitality from 51 to 52
+[10/14/20 19:28:48] D2BS 2824: Updating Config from level 21 to 22
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: Updating Config from level 21 to 22
+[10/14/20 19:28:48] D2BS 2824: Updating Config from level 21 to 22
+[10/14/20 19:28:48] D2BS 2824: Updating Config from level 21 to 22
+[10/14/20 19:28:48] D2BS 2824: Updating Config from level 21 to 22
+[10/14/20 19:28:48] D2BS 2824: AutoBuild: Incrementing cached character level to 22
+[10/14/20 19:28:59] D2BS 2824: ÿc7Picked up ÿc0Brandistock ÿc0(ilvl 21)
+[10/14/20 19:29:01] D2BS 2824: ÿc7Picked up ÿc4103 Gold
+[10/14/20 19:29:22] D2BS 2824: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 21) (LateGame.nip #29)
+[10/14/20 19:29:22] D2BS 2824: ÿc7Picked up ÿc458 Gold
+[10/14/20 19:29:22] D2BS 2824: ÿc7Picked up ÿc436 Gold
+[10/14/20 19:29:23] D2BS 2824: ÿc7Picked up ÿc0Flail ÿc0(ilvl 21)
+[10/14/20 19:29:28] D2BS 2824: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 22) (LateGame.nip #11)
+[10/14/20 19:30:14] D2BS 2824: move retry 1
+[10/14/20 19:30:27] D2BS 2824: ÿc7Picked up ÿc3Mana Potion ÿc0(ilvl 1) (MidGame.nip #25)
+[10/14/20 19:30:30] D2BS 2824: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:30:47] D2BS 2824: ÿc7Picked up ÿc496 Gold
+[10/14/20 19:30:50] D2BS 2824: 76,85
+[10/14/20 19:31:16] D2BS 2824: ÿc7Picked up ÿc466 Gold
+[10/14/20 19:31:16] D2BS 2824: ÿc7Picked up ÿc470 Gold
+[10/14/20 19:31:17] D2BS 2824: ÿc7Picked up ÿc472 Gold
+[10/14/20 19:31:17] D2BS 2824: ÿc7Picked up ÿc444 Gold
+[10/14/20 19:31:17] D2BS 2824: ÿc7Picked up ÿc491 Gold
+[10/14/20 19:32:26] D2BS 2824: ÿc7Picked up ÿc482 Gold
+[10/14/20 19:32:26] D2BS 2824: ÿc7Picked up ÿc4107 Gold
+[10/14/20 19:32:26] D2BS 2824: ÿc7Picked up ÿc4109 Gold
+[10/14/20 19:32:36] D2BS 2824: ÿc7Picked up ÿc447 Gold
+[10/14/20 19:32:38] D2BS 2824: move retry 1
+[10/14/20 19:32:40] D2BS 2824: ÿc7Picked up ÿc4124 Gold
+[10/14/20 19:32:54] D2BS 2824: initNPC: heal
+[10/14/20 19:32:58] D2BS 2824: move retry 1
+[10/14/20 19:33:00] D2BS 2824: initNPC: identify
+[10/14/20 19:33:04] D2BS 2824: ÿc4MiniShopBotÿc0: Scanning 47 items.
+[10/14/20 19:33:05] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:33:10] D2BS 2824: LowGold sell Flail
+[10/14/20 19:33:10] D2BS 2824: initNPC: clearInventory
+[10/14/20 19:33:10] D2BS 2824: move retry 1
+[10/14/20 19:33:15] D2BS 2824: LowGold sell Brandistock
+[10/14/20 19:33:15] D2BS 2824: initNPC: clearInventory
+[10/14/20 19:33:22] D2BS 2824: Successfully placed Fanatic Amulet  at X: 6 Y: 0
+[10/14/20 19:33:24] D2BS 2824: 75
+[10/14/20 19:33:27] D2BS 2824: initNPC: heal
+[10/14/20 19:33:56] D2BS 2824: ÿc7Picked up ÿc456 Gold
+[10/14/20 19:34:15] D2BS 2824: ÿc7Picked up ÿc442 Gold
+[10/14/20 19:34:36] D2BS 2824: move retry 1
+[10/14/20 19:34:37] D2BS 2824: move retry 1
+[10/14/20 19:34:49] D2BS 2824: move retry 1
+[10/14/20 19:34:52] D2BS 2824: ÿc7Picked up ÿc477 Gold
+[10/14/20 19:35:19] D2BS 2824: move retry 1
+[10/14/20 19:35:25] D2BS 2824: move retry 1
+[10/14/20 19:35:53] D2BS 2824: ÿc7Picked up ÿc0ÿc4Khalim's Eye ÿc0(ilvl 1) (LateGame.nip #23)
+[10/14/20 19:36:03] D2BS 2824: move retry 1
+[10/14/20 19:36:40] D2BS 2824: initNPC: heal
+[10/14/20 19:36:44] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:36:47] D2BS 2824: move retry 1
+[10/14/20 19:36:50] D2BS 2824: move retry 2
+[10/14/20 19:37:02] D2BS 2824: Successfully placed ÿc4Khalim's Eye at X: 7 Y: 0
+[10/14/20 19:37:03] D2BS 2824: 75
+[10/14/20 19:37:38] D2BS 2824: ÿc1Pausing.
+[10/14/20 19:37:38] D2BS 2824: initNPC: heal
+[10/14/20 19:37:42] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:37:56] D2BS 2824: ÿc2Resuming.
+[10/14/20 19:37:57] D2BS 2824: move retry 1
+[10/14/20 19:38:04] D2BS 2824: move retry 1
+[10/14/20 19:38:29] D2BS 2824: ÿc7Picked up ÿc477 Gold
+[10/14/20 19:38:30] D2BS 2824: ÿc7Picked up ÿc3Long Sword ÿc0(ilvl 28)
+[10/14/20 19:38:40] D2BS 2824: ÿc7Picked up ÿc4440 Gold
+[10/14/20 19:38:40] D2BS 2824: ÿc7Picked up ÿc3Broad Axe ÿc0(ilvl 28)
+[10/14/20 19:38:40] D2BS 2824: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:38:44] D2BS 2824: move retry 1
+[10/14/20 19:39:06] D2BS 2824: ÿc7Picked up ÿc3Belt ÿc0(ilvl 28) (Light.xpac.nip #91)
+[10/14/20 19:39:06] D2BS 2824: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:39:07] D2BS 2824: move retry 1
+[10/14/20 19:39:08] D2BS 2824: move retry 2
+[10/14/20 19:39:12] D2BS 2824: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(15/20)
+[10/14/20 19:39:14] D2BS 2824: ÿc7Picked up ÿc4ÿc4Khalim's Flail ÿc0(ilvl 28) (LateGame.nip #22)
+[10/14/20 19:40:16] D2BS 2824: ÿc1Skipping Heirophant 304 16
+[10/14/20 19:40:33] D2BS 2824: ÿc1Skipping Heirophant 304 16
+[10/14/20 19:40:48] D2BS 2824: ÿc7Picked up ÿc0Spetum ÿc0(ilvl 23)
+[10/14/20 19:40:52] D2BS 2824: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 19:40:55] D2BS 2824: move retry 1
+[10/14/20 19:40:58] D2BS 2824: move retry 1
+[10/14/20 19:41:00] D2BS 2824: initNPC: heal
+[10/14/20 19:41:04] D2BS 2824: initNPC: identify
+[10/14/20 19:41:09] D2BS 2824: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[10/14/20 19:41:10] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:41:14] D2BS 2824: LowGold sell Spetum
+[10/14/20 19:41:14] D2BS 2824: initNPC: clearInventory
+[10/14/20 19:41:19] D2BS 2824: Rugged Belt 
+[10/14/20 19:41:25] D2BS 2824: 75
+[10/14/20 19:41:28] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:41:39] D2BS 2824: 83,100
+[10/14/20 19:41:53] D2BS 2824: move retry 1
+[10/14/20 19:41:59] D2BS 2824: ÿc7Picked up ÿc467 Gold
+[10/14/20 19:42:01] D2BS 2824: move retry 1
+[10/14/20 19:42:15] D2BS 2824: move retry 1
+[10/14/20 19:42:43] D2BS 2824: ÿc7Picked up ÿc4106 Gold
+[10/14/20 19:43:01] D2BS 2824: ÿc7Picked up ÿc3Ring ÿc0(ilvl 25) (Light.xpac.nip #104)
+[10/14/20 19:43:04] D2BS 2824: move retry 1
+[10/14/20 19:43:06] D2BS 2824: move retry 1
+[10/14/20 19:43:08] D2BS 2824: move retry 1
+[10/14/20 19:43:12] D2BS 2824: move retry 1
+[10/14/20 19:43:20] D2BS 2824: move retry 1
+[10/14/20 19:43:42] D2BS 2824: 100,101
+[10/14/20 19:44:09] D2BS 2824: ÿc7Picked up ÿc472 Gold
+[10/14/20 19:44:44] D2BS 2824: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:44:54] D2BS 2824: move retry 1
+[10/14/20 19:45:03] D2BS 2824: initNPC: heal
+[10/14/20 19:45:08] D2BS 2824: initNPC: identify
+[10/14/20 19:45:10] D2BS 2824: ÿc4MiniShopBotÿc0: Scanning 45 items.
+[10/14/20 19:45:11] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:45:20] D2BS 2824: 75
+[10/14/20 19:45:53] D2BS 2824: move retry 1
+[10/14/20 19:45:55] D2BS 2824: AutoBuild: Stat points: 10      Skill points: 2
+[10/14/20 19:45:55] D2BS 2824: AutoBuild: Level up detected ( 22 --> 23 )
+[10/14/20 19:45:55] D2BS 2824: AutoBuild: useSkillPoint(): Lightning (49)
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Skill (1/1) Increased Lightning (49) by one (level:  9)
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: useStatPoint(0): Strength
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Stat (1/5) Increased Strength from 31 to 32
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Stat (2/5) Increased Energy from 77 to 78
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: useStatPoint(1): Energy
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Stat (3/5) Increased Energy from 78 to 79
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Stat (4/5) Increased Vitality from 52 to 53
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: useStatPoint(3): Vitality
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Stat (5/5) Increased Vitality from 53 to 54
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Updating Config from level 22 to 23
+[10/14/20 19:45:56] D2BS 2824: Updating Config from level 22 to 23
+[10/14/20 19:45:56] D2BS 2824: Updating Config from level 22 to 23
+[10/14/20 19:45:56] D2BS 2824: Updating Config from level 22 to 23
+[10/14/20 19:45:56] D2BS 2824: Updating Config from level 22 to 23
+[10/14/20 19:45:56] D2BS 2824: AutoBuild: Incrementing cached character level to 23
+[10/14/20 19:45:57] D2BS 2824: move retry 1
+[10/14/20 19:45:59] D2BS 2824: move retry 2
+[10/14/20 19:46:14] D2BS 2824: ÿc7Picked up ÿc432 Gold
+[10/14/20 19:46:19] D2BS 2824: move retry 1
+[10/14/20 19:47:05] D2BS 2824: 101,102
+[10/14/20 19:47:14] D2BS 2824: initNPC: heal
+[10/14/20 19:47:19] D2BS 2824: initNPC: fillTome
+[10/14/20 19:47:21] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:47:27] D2BS 2824: 75
+[10/14/20 19:47:43] D2BS 2824: move retry 1
+[10/14/20 19:47:52] D2BS 2824: ÿc7Picked up ÿc4143 Gold
+[10/14/20 19:47:58] D2BS 2824: move retry 1
+[10/14/20 19:48:06] D2BS 2824: move retry 1
+[10/14/20 19:48:16] D2BS 2824: move retry 1
+[10/14/20 19:49:02] D2BS 2824: ÿc7Picked up ÿc4765 Gold
+[10/14/20 19:49:06] D2BS 2824: initNPC: heal
+[10/14/20 19:49:10] D2BS 2824: initNPC: buyPotions
+[10/14/20 19:49:17] D2BS 2824: 75
+[10/14/20 19:49:28] D2BS 2824: Script default.dbj ended
+[10/14/20 19:49:28] D2BS 2824: Script tools\autobuildthread.js ended
+[10/14/20 19:49:28] D2BS 2824: Script tools\party.js ended
+[10/14/20 19:49:28] D2BS 2824: Script tools\toolsthread.js ended
+[10/14/20 19:49:28] D2BS 2824: Script tools\townchicken.js ended
+[10/14/20 19:49:34] D2BS 2824: D2BS Shutdown complete.
+[10/14/20 19:49:35] D2BS 11084: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:49:35] D2BS 11084: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 19:49:35] D2BS 11084: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:49:35] D2BS 11084: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 19:49:35] D2BS 11084: LightSorc
+[10/14/20 19:49:35] D2BS 11084: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 19:49:35] D2BS 11084: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:49:37] D2BS 11084: Heartbeat loaded
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 5820
+[10/14/20 19:49:52] D2BS 11084: 77BC321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 10492
+[10/14/20 19:49:52] D2BS 11084: 77BC321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 4992
+[10/14/20 19:49:52] D2BS 11084: 77BC321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 12736
+[10/14/20 19:49:52] D2BS 11084: 77BC182C (ntdll): (filename not available): NtDelayExecution
+[10/14/20 19:49:52] D2BS 11084: 76782DDF (KERNELBASE): (filename not available): Sleep
+[10/14/20 19:49:52] D2BS 11084: 03023C94 (D2BS): (filename not available): QueryInterface
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 12964
+[10/14/20 19:49:52] D2BS 11084: 77BC150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 19:49:52] D2BS 11084: 7676F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/14/20 19:49:52] D2BS 11084: 004027E5 (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 6184
+[10/14/20 19:49:52] D2BS 11084: 77BC182C (ntdll): (filename not available): NtDelayExecution
+[10/14/20 19:49:52] D2BS 11084: 76782DDF (KERNELBASE): (filename not available): Sleep
+[10/14/20 19:49:52] D2BS 11084: 004102FC (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 7684
+[10/14/20 19:49:52] D2BS 11084: 77BC150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 19:49:52] D2BS 11084: 7676F5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/14/20 19:49:52] D2BS 11084: 0041A845 (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 1440
+[10/14/20 19:49:52] D2BS 11084: 77BC321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:52] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:52] D2BS 11084: Stack Walk Thread: 11284
+[10/14/20 19:49:52] D2BS 11084: 77BC1A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[10/14/20 19:49:52] D2BS 11084: 77A66676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[10/14/20 19:49:52] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:53] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: Stack Walk Thread: 14432
+[10/14/20 19:49:53] D2BS 11084: 77BC321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 19:49:53] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:53] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: Stack Walk Thread: 9824
+[10/14/20 19:49:53] D2BS 11084: 77BC321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 19:49:53] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:53] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: Stack Walk Thread: 5724
+[10/14/20 19:49:53] D2BS 11084: 77BC150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 19:49:53] D2BS 11084: 030A7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 19:49:53] D2BS 11084: 03192B1F (D2BS): (filename not available): JS_freeop
+[10/14/20 19:49:53] D2BS 11084: 03191A5E (D2BS): (filename not available): JS_freeop
+[10/14/20 19:49:53] D2BS 11084: 030BE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 19:49:53] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:53] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: Stack Walk Thread: 14352
+[10/14/20 19:49:53] D2BS 11084: 77BC182C (ntdll): (filename not available): NtDelayExecution
+[10/14/20 19:49:53] D2BS 11084: 76782DDF (KERNELBASE): (filename not available): Sleep
+[10/14/20 19:49:53] D2BS 11084: 0302E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 19:49:53] D2BS 11084: 030B01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 19:49:53] D2BS 11084: 03192B1F (D2BS): (filename not available): JS_freeop
+[10/14/20 19:49:53] D2BS 11084: 03191A5E (D2BS): (filename not available): JS_freeop
+[10/14/20 19:49:53] D2BS 11084: 030BE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 19:49:53] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:53] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: Stack Walk Thread: 3748
+[10/14/20 19:49:53] D2BS 11084: 77BC150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 19:49:53] D2BS 11084: 030A7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 19:49:53] D2BS 11084: 03192B1F (D2BS): (filename not available): JS_freeop
+[10/14/20 19:49:53] D2BS 11084: 03191A5E (D2BS): (filename not available): JS_freeop
+[10/14/20 19:49:53] D2BS 11084: 030BE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 19:49:53] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:53] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: Stack Walk Thread: 2876
+[10/14/20 19:49:53] D2BS 11084: 0302B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/14/20 19:49:53] D2BS 11084: 030237F8 (D2BS): (filename not available): QueryInterface
+[10/14/20 19:49:53] D2BS 11084: 00408A05 (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:53] D2BS 11084: 00408A81 (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:53] D2BS 11084: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 19:49:53] D2BS 11084: 006127D4 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 19:49:53] D2BS 11084: 0061930D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 19:49:53] D2BS 11084: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/14/20 19:49:53] D2BS 11084: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/14/20 19:49:53] D2BS 11084: 00405E6B (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:53] D2BS 11084: 004065C7 (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:53] D2BS 11084: 0040671F (Game): (filename not available): (function-name not available)
+[10/14/20 19:49:53] D2BS 11084: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 19:49:53] D2BS 11084: 76CDF989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 19:49:53] D2BS 11084: 77BB74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: 77BB7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 19:49:53] D2BS 11084: Crash File: BlizzardError/2020-10-14 19.49.52/Crash.txt
+[10/14/20 19:49:53] D2BS 11084: D2BS Shutdown complete.
+[10/14/20 19:49:54] D2BS 13956: D2BS Engine startup complete. 1.6.4U
+[10/14/20 19:49:54] D2BS 13956: LightSorc
+[10/14/20 19:49:54] D2BS 13956: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 19:49:54] D2BS 13956: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 19:49:54] D2BS 13956: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 19:49:54] D2BS 13956: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 19:49:54] D2BS 13956: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 19:49:57] D2BS 13956: Heartbeat loaded
+[10/14/20 19:50:15] D2BS 13956: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:50:15] D2BS 13956: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:50:15] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:50:15] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:50:15] D2BS 13956: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:15] D2BS 13956: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/14/20 19:50:15] D2BS 13956: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:15] D2BS 13956: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:15] D2BS 13956: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:15] D2BS 13956: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:15] D2BS 13956: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:50:15] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:50:15] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:50:15] D2BS 13956: AutoBuild: Loaded helper thread
+[10/14/20 19:50:15] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:50:15] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:50:15] D2BS 13956: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:50:15] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:50:15] D2BS 13956: ÿc3Start ToolsThread script
+[10/14/20 19:50:15] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:50:15] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:50:15] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:50:25] D2BS 13956: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:50:29] D2BS 13956: initNPC: BuyPotions
+[10/14/20 19:51:01] D2BS 13956: ÿc7Picked up ÿc4124 Gold
+[10/14/20 19:51:01] D2BS 13956: move retry 1
+[10/14/20 19:51:14] D2BS 13956: ÿc7Picked up ÿc3Greater Mana Potion ÿc0(ilvl 1) (MidGame.nip #27)
+[10/14/20 19:51:15] D2BS 13956: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 25) (LateGame.nip #11)
+[10/14/20 19:51:27] D2BS 13956: move retry 1
+[10/14/20 19:51:58] D2BS 13956: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[10/14/20 19:52:00] D2BS 13956: initNPC: heal
+[10/14/20 19:52:04] D2BS 13956: initNPC: identify
+[10/14/20 19:52:07] D2BS 13956: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[10/14/20 19:52:08] D2BS 13956: initNPC: buyPotions
+[10/14/20 19:52:18] D2BS 13956: 75
+[10/14/20 19:53:30] D2BS 13956: 40
+[10/14/20 19:53:33] D2BS 13956: waypoint retry 1
+[10/14/20 19:53:38] D2BS 13956: Script default.dbj ended
+[10/14/20 19:53:38] D2BS 13956: Script tools\autobuildthread.js ended
+[10/14/20 19:53:38] D2BS 13956: Script tools\party.js ended
+[10/14/20 19:53:38] D2BS 13956: Script tools\toolsthread.js ended
+[10/14/20 19:53:38] D2BS 13956: Script tools\townchicken.js ended
+[10/14/20 19:53:45] D2BS 13956: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:53:45] D2BS 13956: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:53:45] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:53:45] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:53:45] D2BS 13956: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:45] D2BS 13956: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:45] D2BS 13956: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:45] D2BS 13956: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:45] D2BS 13956: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:53:45] D2BS 13956: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:45] D2BS 13956: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:53:45] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:53:45] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:53:45] D2BS 13956: AutoBuild: Loaded helper thread
+[10/14/20 19:53:45] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:53:45] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:53:45] D2BS 13956: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:53:45] D2BS 13956: ÿc3Start ToolsThread script
+[10/14/20 19:53:45] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:53:45] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:53:45] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:53:45] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:53:54] D2BS 13956: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:53:57] D2BS 13956: initNPC: BuyPotions
+[10/14/20 19:54:30] D2BS 13956: Script default.dbj ended
+[10/14/20 19:54:31] D2BS 13956: Script tools\autobuildthread.js ended
+[10/14/20 19:54:31] D2BS 13956: Script tools\party.js ended
+[10/14/20 19:54:31] D2BS 13956: Script tools\townchicken.js ended
+[10/14/20 19:54:38] D2BS 13956: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:54:38] D2BS 13956: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:54:38] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:54:38] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:54:38] D2BS 13956: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:54:38] D2BS 13956: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:54:38] D2BS 13956: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:54:38] D2BS 13956: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:54:38] D2BS 13956: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 19:54:38] D2BS 13956: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:54:38] D2BS 13956: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:54:38] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:54:38] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:54:38] D2BS 13956: AutoBuild: Loaded helper thread
+[10/14/20 19:54:38] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:54:38] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:54:38] D2BS 13956: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:54:38] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:54:38] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:54:38] D2BS 13956: ÿc3Start ToolsThread script
+[10/14/20 19:54:38] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:54:38] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:54:45] D2BS 13956: move retry 1
+[10/14/20 19:54:54] D2BS 13956: Script default.dbj ended
+[10/14/20 19:54:54] D2BS 13956: Script tools\autobuildthread.js ended
+[10/14/20 19:54:54] D2BS 13956: Script tools\party.js ended
+[10/14/20 19:54:54] D2BS 13956: Script tools\toolsthread.js ended
+[10/14/20 19:54:54] D2BS 13956: Script tools\townchicken.js ended
+[10/14/20 19:55:33] D2BS 13956: Error: login time out null
+[10/14/20 19:55:40] D2BS 13956: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:55:40] D2BS 13956: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:55:40] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:55:40] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:55:40] D2BS 13956: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:40] D2BS 13956: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:40] D2BS 13956: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:40] D2BS 13956: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:40] D2BS 13956: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 19:55:40] D2BS 13956: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:40] D2BS 13956: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:55:40] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:55:40] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:55:40] D2BS 13956: AutoBuild: Loaded helper thread
+[10/14/20 19:55:40] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:55:40] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:55:40] D2BS 13956: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:55:40] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:55:40] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:55:40] D2BS 13956: ÿc3Start ToolsThread script
+[10/14/20 19:55:40] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:55:40] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:55:50] D2BS 13956: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:55:53] D2BS 13956: initNPC: reviveMerc
+[10/14/20 19:56:06] D2BS 13956: initNPC: heal
+[10/14/20 19:56:12] D2BS 13956: initNPC: BuyPotions
+[10/14/20 19:56:35] D2BS 13956: 75
+[10/14/20 19:56:37] D2BS 13956: 101
+[10/14/20 19:56:40] D2BS 13956: 101,102
+[10/14/20 19:57:11] D2BS 13956: Script default.dbj ended
+[10/14/20 19:57:12] D2BS 13956: Script tools\autobuildthread.js ended
+[10/14/20 19:57:12] D2BS 13956: Script tools\party.js ended
+[10/14/20 19:57:12] D2BS 13956: Script tools\townchicken.js ended
+[10/14/20 19:57:19] D2BS 13956: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 19:57:19] D2BS 13956: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 19:57:19] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 19:57:19] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:57:19] D2BS 13956: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/14/20 19:57:19] D2BS 13956: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 19:57:19] D2BS 13956: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/14/20 19:57:19] D2BS 13956: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 19:57:19] D2BS 13956: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 19:57:19] D2BS 13956: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc216 ms
+[10/14/20 19:57:19] D2BS 13956: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 19:57:19] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 19:57:19] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:57:19] D2BS 13956: AutoBuild: Loaded helper thread
+[10/14/20 19:57:19] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 19:57:19] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:57:19] D2BS 13956: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 19:57:19] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 19:57:19] D2BS 13956: ÿc3Start ToolsThread script
+[10/14/20 19:57:19] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:57:19] D2BS 13956: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 19:57:19] D2BS 13956: Updating Config from level 0 to 23
+[10/14/20 19:57:26] D2BS 13956: move retry 1
+[10/14/20 19:57:30] D2BS 13956: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 19:57:33] D2BS 13956: initNPC: reviveMerc
+[10/14/20 19:57:48] D2BS 13956: initNPC: heal
+[10/14/20 19:58:00] D2BS 13956: initNPC: BuyPotions
+[10/14/20 19:58:22] D2BS 13956: 75
+[10/14/20 19:58:32] D2BS 13956: ÿc7Picked up ÿc473 Gold
+[10/14/20 19:58:42] D2BS 13956: move retry 1
+[10/14/20 19:58:55] D2BS 13956: ÿc7Picked up ÿc425 Gold
+[10/14/20 19:58:56] D2BS 13956: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[10/14/20 19:58:57] D2BS 13956: move retry 1
+[10/14/20 19:59:00] D2BS 13956: move retry 2
+[10/14/20 19:59:02] D2BS 13956: move retry 3
+[10/14/20 19:59:05] D2BS 13956: move retry 1
+[10/14/20 19:59:10] D2BS 13956: ÿc7Picked up ÿc4455 Gold
+[10/14/20 19:59:10] D2BS 13956: ÿc7Picked up ÿc4615 Gold
+[10/14/20 19:59:40] D2BS 13956: 75
