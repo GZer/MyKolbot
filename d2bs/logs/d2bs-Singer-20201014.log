@@ -5858,3 +5858,284 @@ Line: limBrain() || !this.getKhalimEye() || !this.getKhalimHeart(){
 [10/14/20 14:17:23] D2BS 60776: Updating Config from level 0 to 80
 [10/14/20 14:17:23] D2BS 60776: Updating Config from level 0 to 80
 [10/14/20 14:17:33] D2BS 60776: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 14:17:45] D2BS 60776: Up to Act:3 Travincal
+[10/14/20 14:17:45] D2BS 60776: 83
+[10/14/20 14:18:15] D2BS 60776: move retry 1
+[10/14/20 14:18:19] D2BS 60776: initNPC: identify
+[10/14/20 14:18:26] D2BS 60776: ÿc4MiniShopBotÿc0: Scanning 45 items.
+[10/14/20 14:18:26] D2BS 60776: initNPC: buyPotions
+[10/14/20 14:18:32] D2BS 60776: 83
+[10/14/20 14:18:44] D2BS 60776: 83
+[10/14/20 14:19:03] D2BS 60776: ÿc1Pausing.
+[10/14/20 14:19:03] D2BS 60776: initNPC: heal
+[10/14/20 14:19:09] D2BS 60776: initNPC: fillTome
+[10/14/20 14:19:11] D2BS 60776: initNPC: buyPotions
+[10/14/20 14:19:14] D2BS 60776: move retry 1
+[10/14/20 14:19:18] D2BS 60776: ÿc2Resuming.
+[10/14/20 14:19:19] D2BS 60776: ÿc4MF: ÿc042 ÿc4GF: ÿc075 ÿc1FR: ÿc092 ÿc3CR: ÿc0140 ÿc9LR: ÿc0119 ÿc2PR: ÿc092
+[10/14/20 14:19:19] D2BS 60776: FCR: 0 IAS: 0 FBR: 30 FHR: 0 FRW: 0
+[10/14/20 14:19:19] D2BS 60776: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc05 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 14:19:22] D2BS 60776: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 14:19:22] D2BS 60776: Script d2botlanlead.dbj ended
+[10/14/20 14:19:22] D2BS 60776: Script default.dbj ended
+[10/14/20 14:19:22] D2BS 60776: Script tools\autobuildthread.js ended
+[10/14/20 14:19:22] D2BS 60776: Script tools\heartbeat.js ended
+[10/14/20 14:19:22] D2BS 60776: Script tools\party.js ended
+[10/14/20 14:19:22] D2BS 60776: Script tools\toolsthread.js ended
+[10/14/20 14:19:22] D2BS 60776: Script tools\townchicken.js ended
+[10/14/20 14:19:35] D2BS 60776: D2BS Shutdown complete.
+[10/14/20 14:19:35] D2BS 65940: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:19:35] D2BS 65940: Singer
+[10/14/20 14:19:36] D2BS 65940: ÿc2D2BSÿc0 :: Switched to profile Singer
+[10/14/20 14:19:36] D2BS 65940: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:19:36] D2BS 65940: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[10/14/20 14:19:36] D2BS 65940: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[10/14/20 14:19:36] D2BS 65940: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:19:38] D2BS 65940: Heartbeat loaded
+[10/14/20 14:19:39] D2BS 65940: 0
+[10/14/20 14:19:40] D2BS 65940: 0
+[10/14/20 14:19:41] D2BS 65940: 0
+[10/14/20 14:19:42] D2BS 65940: 0
+[10/14/20 14:19:43] D2BS 65940: 0
+[10/14/20 14:19:44] D2BS 65940: 0
+[10/14/20 14:19:45] D2BS 65940: 39
+[10/14/20 14:19:47] D2BS 65940: 40
+[10/14/20 14:19:48] D2BS 65940: 12
+[10/14/20 14:19:52] D2BS 65940: Error: Failed to click the 'TCP/IP Game' button? null
+[10/14/20 14:19:52] D2BS 65940: Updating Status
+[10/14/20 14:19:52] D2BS 65940: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:19:52] D2BS 65940: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:19:52] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 14:19:52] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:19:52] D2BS 65940: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:19:52] D2BS 65940: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:19:52] D2BS 65940: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 14:19:52] D2BS 65940: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc215 ms
+[10/14/20 14:19:52] D2BS 65940: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:19:52] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 14:19:52] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:19:52] D2BS 65940: AutoBuild: Loaded helper thread
+[10/14/20 14:19:53] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 14:19:53] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:19:53] D2BS 65940: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 14:19:53] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 14:19:53] D2BS 65940: ÿc3Start ToolsThread script
+[10/14/20 14:19:53] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:19:53] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 14:19:53] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:20:00] D2BS 65940: ÿc4MF: ÿc042 ÿc4GF: ÿc075 ÿc1FR: ÿc090 ÿc3CR: ÿc0138 ÿc9LR: ÿc0117 ÿc2PR: ÿc090
+[10/14/20 14:20:00] D2BS 65940: FCR: 0 IAS: 0 FBR: 30 FHR: 0 FRW: 0
+[10/14/20 14:20:00] D2BS 65940: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc05 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 14:20:01] D2BS 65940: ReferenceError: stops is not defined
+[10/14/20 14:20:02] D2BS 65940: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 14:20:03] D2BS 65940: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 14:20:03] D2BS 65940: Script d2botlanlead.dbj ended
+[10/14/20 14:20:03] D2BS 65940: Script default.dbj ended
+[10/14/20 14:20:03] D2BS 65940: Script tools\autobuildthread.js ended
+[10/14/20 14:20:03] D2BS 65940: Script tools\heartbeat.js ended
+[10/14/20 14:20:03] D2BS 65940: Script tools\party.js ended
+[10/14/20 14:20:03] D2BS 65940: Script tools\toolsthread.js ended
+[10/14/20 14:20:03] D2BS 65940: Script tools\townchicken.js ended
+[10/14/20 14:20:05] D2BS 65940: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 14:20:05] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 14:20:05] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:20:05] D2BS 65940: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[10/14/20 14:20:05] D2BS 65940: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:20:05] D2BS 65940: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 14:20:05] D2BS 65940: Heartbeat loaded
+[10/14/20 14:20:05] D2BS 65940: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc216 ms
+[10/14/20 14:20:05] D2BS 65940: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:20:05] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 14:20:05] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:20:05] D2BS 65940: AutoBuild: Loaded helper thread
+[10/14/20 14:20:05] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 14:20:05] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:20:05] D2BS 65940: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 14:20:05] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 14:20:05] D2BS 65940: ÿc3Start ToolsThread script
+[10/14/20 14:20:05] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:20:05] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 14:20:05] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:20:06] D2BS 65940: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 14:20:11] D2BS 65940: initNPC: reviveMerc
+[10/14/20 14:20:48] D2BS 65940: Up to Act:3 Travincal
+[10/14/20 14:20:53] D2BS 65940: ÿc1Pausing.
+[10/14/20 14:20:58] D2BS 65940: ÿc2Resuming.
+[10/14/20 14:20:58] D2BS 65940: waypoint retry 1
+[10/14/20 14:20:59] D2BS 65940: ÿc4MF: ÿc042 ÿc4GF: ÿc075 ÿc1FR: ÿc090 ÿc3CR: ÿc0138 ÿc9LR: ÿc0117 ÿc2PR: ÿc090
+[10/14/20 14:20:59] D2BS 65940: FCR: 0 IAS: 0 FBR: 30 FHR: 0 FRW: 0
+[10/14/20 14:20:59] D2BS 65940: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc05 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 14:21:00] D2BS 65940: ReferenceError: atop is not defined
+[10/14/20 14:21:02] D2BS 65940: 75
+[10/14/20 14:21:03] D2BS 65940: 83
+[10/14/20 14:21:04] D2BS 65940: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 14:21:04] D2BS 65940: Script default.dbj ended
+[10/14/20 14:21:04] D2BS 65940: Script tools\autobuildthread.js ended
+[10/14/20 14:21:04] D2BS 65940: Script tools\heartbeat.js ended
+[10/14/20 14:21:04] D2BS 65940: Script tools\party.js ended
+[10/14/20 14:21:04] D2BS 65940: Script tools\toolsthread.js ended
+[10/14/20 14:21:04] D2BS 65940: Script tools\townchicken.js ended
+[10/14/20 14:21:07] D2BS 65940: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 14:21:08] D2BS 65940: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 14:21:08] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 14:21:08] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:21:08] D2BS 65940: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[10/14/20 14:21:08] D2BS 65940: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:21:08] D2BS 65940: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 14:21:08] D2BS 65940: Heartbeat loaded
+[10/14/20 14:21:08] D2BS 65940: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc20 ms
+[10/14/20 14:21:08] D2BS 65940: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc216 ms
+[10/14/20 14:21:08] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 14:21:08] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:21:08] D2BS 65940: AutoBuild: Loaded helper thread
+[10/14/20 14:21:08] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 14:21:08] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:21:08] D2BS 65940: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 14:21:08] D2BS 65940: ÿc3Start ToolsThread script
+[10/14/20 14:21:08] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 14:21:08] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 14:21:08] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:21:08] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:21:11] D2BS 65940: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 14:21:17] D2BS 65940: Up to Act:3 Travincal
+[10/14/20 14:21:18] D2BS 65940: 83
+[10/14/20 14:21:32] D2BS 65940: 83
+[10/14/20 14:21:43] D2BS 65940: 83
+[10/14/20 14:21:55] D2BS 65940: ÿc1Pausing.
+[10/14/20 14:23:53] D2BS 65940: ÿc4MF: ÿc042 ÿc4GF: ÿc075 ÿc1FR: ÿc092 ÿc3CR: ÿc0140 ÿc9LR: ÿc0119 ÿc2PR: ÿc092
+[10/14/20 14:23:53] D2BS 65940: FCR: 0 IAS: 0 FBR: 30 FHR: 0 FRW: 0
+[10/14/20 14:23:53] D2BS 65940: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc05 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 14:23:54] D2BS 65940: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 14:23:54] D2BS 65940: Script default.dbj ended
+[10/14/20 14:23:54] D2BS 65940: Script tools\autobuildthread.js ended
+[10/14/20 14:23:54] D2BS 65940: Script tools\heartbeat.js ended
+[10/14/20 14:23:54] D2BS 65940: Script tools\party.js ended
+[10/14/20 14:23:54] D2BS 65940: Script tools\toolsthread.js ended
+[10/14/20 14:23:54] D2BS 65940: Script tools\townchicken.js ended
+[10/14/20 14:23:55] D2BS 65940: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 14:23:55] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 14:23:55] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:23:55] D2BS 65940: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:23:55] D2BS 65940: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:23:55] D2BS 65940: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 14:23:55] D2BS 65940: Heartbeat loaded
+[10/14/20 14:23:55] D2BS 65940: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc216 ms
+[10/14/20 14:23:55] D2BS 65940: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:23:55] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 14:23:55] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:23:55] D2BS 65940: AutoBuild: Loaded helper thread
+[10/14/20 14:23:55] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 14:23:55] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:23:55] D2BS 65940: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 14:23:55] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 14:23:55] D2BS 65940: ÿc3Start ToolsThread script
+[10/14/20 14:23:55] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:23:55] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 14:23:55] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:23:58] D2BS 65940: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 14:24:05] D2BS 65940: Up to Act:3 Travincal
+[10/14/20 14:24:05] D2BS 65940: 83
+[10/14/20 14:24:15] D2BS 65940: initNPC: buyPotions
+[10/14/20 14:24:24] D2BS 65940: 83
+[10/14/20 14:24:35] D2BS 65940: 83
+[10/14/20 14:24:50] D2BS 65940: ÿc1Pausing.
+[10/14/20 14:25:51] D2BS 65940: ÿc4MF: ÿc042 ÿc4GF: ÿc075 ÿc1FR: ÿc0202 ÿc3CR: ÿc0250 ÿc9LR: ÿc0229 ÿc2PR: ÿc092
+[10/14/20 14:25:51] D2BS 65940: FCR: 0 IAS: 0 FBR: 30 FHR: 0 FRW: 0
+[10/14/20 14:25:51] D2BS 65940: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc05 DR: 0% + 0 MDR: 0% + 0
+[10/14/20 14:25:52] D2BS 65940: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/14/20 14:25:52] D2BS 65940: Script default.dbj ended
+[10/14/20 14:25:52] D2BS 65940: Script tools\autobuildthread.js ended
+[10/14/20 14:25:52] D2BS 65940: Script tools\heartbeat.js ended
+[10/14/20 14:25:52] D2BS 65940: Script tools\party.js ended
+[10/14/20 14:25:52] D2BS 65940: Script tools\toolsthread.js ended
+[10/14/20 14:25:52] D2BS 65940: Script tools\townchicken.js ended
+[10/14/20 14:25:53] D2BS 65940: ÿc2D2BSÿc0 :: Started default.dbj
+[10/14/20 14:25:54] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 14:25:54] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:25:54] D2BS 65940: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:25:54] D2BS 65940: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:25:54] D2BS 65940: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 14:25:54] D2BS 65940: Heartbeat loaded
+[10/14/20 14:25:54] D2BS 65940: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc215 ms
+[10/14/20 14:25:54] D2BS 65940: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:25:54] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 14:25:54] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:25:54] D2BS 65940: AutoBuild: Loaded helper thread
+[10/14/20 14:25:54] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 14:25:54] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:25:54] D2BS 65940: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 14:25:54] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 14:25:54] D2BS 65940: ÿc3Start ToolsThread script
+[10/14/20 14:25:54] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:25:54] D2BS 65940: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 14:25:54] D2BS 65940: Updating Config from level 0 to 80
+[10/14/20 14:25:56] D2BS 65940: ÿc2Starting script: ÿc9LevelLeader
+[10/14/20 14:26:02] D2BS 65940: Up to Act:3 Travincal
+[10/14/20 14:26:03] D2BS 65940: 83
+[10/14/20 14:26:08] D2BS 65940: initNPC: fillTome
+[10/14/20 14:26:14] D2BS 65940: initNPC: buyPotions
+[10/14/20 14:26:21] D2BS 65940: 83
+[10/14/20 14:26:33] D2BS 65940: ÿc7Picked up ÿc3Demonhead ÿc0(ilvl 85) (Singer.xpac.nip #34)
+[10/14/20 14:26:45] D2BS 65940: ÿc1Skipping Council Member 122 16
+[10/14/20 14:26:50] D2BS 65940: ÿc7Picked up ÿc41968 Gold
+[10/14/20 14:27:06] D2BS 65940: ÿc7Picked up ÿc42288 Gold
+[10/14/20 14:27:07] D2BS 65940: move retry 1
+[10/14/20 14:27:09] D2BS 65940: move retry 2
+[10/14/20 14:27:11] D2BS 65940: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/14/20 14:27:12] D2BS 65940: 83
+[10/14/20 14:27:33] D2BS 65940: ÿc1Skipping Council Member 117 16
+[10/14/20 14:27:34] D2BS 65940: ÿc7Picked up ÿc4376 Gold
+[10/14/20 14:27:44] D2BS 65940: initNPC: identify
+[10/14/20 14:27:51] D2BS 65940: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[10/14/20 14:27:56] D2BS 65940: 75
+[10/14/20 14:27:57] D2BS 65940: Successfully placed ÿc4Khalim's Will at X: 0 Y: 1
+[10/14/20 14:27:57] D2BS 65940: 83
+[10/14/20 14:28:00] D2BS 65940: 83
+[10/14/20 14:28:01] D2BS 65940: ÿc1Pausing.
+[10/14/20 14:29:00] D2BS 65940: Script default.dbj ended
+[10/14/20 14:29:00] D2BS 65940: Script tools\autobuildthread.js ended
+[10/14/20 14:29:00] D2BS 65940: Script tools\heartbeat.js ended
+[10/14/20 14:29:00] D2BS 65940: Script tools\party.js ended
+[10/14/20 14:29:00] D2BS 65940: Script tools\toolsthread.js ended
+[10/14/20 14:29:00] D2BS 65940: Script tools\townchicken.js ended
+[10/14/20 14:29:12] D2BS 65940: D2BS Shutdown complete.
+[10/14/20 14:29:13] D2BS 65072: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:29:13] D2BS 65072: Singer
+[10/14/20 14:29:13] D2BS 65072: ÿc2D2BSÿc0 :: Switched to profile Singer
+[10/14/20 14:29:13] D2BS 65072: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:29:13] D2BS 65072: ÿc2D2BSÿc0 :: Starting D2BotLanLead.dbj
+[10/14/20 14:29:13] D2BS 65072: ÿc2D2BSÿc0 :: D2BotLanLead.dbj running.
+[10/14/20 14:29:13] D2BS 65072: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:29:16] D2BS 65072: Heartbeat loaded
+[10/14/20 14:29:17] D2BS 65072: 0
+[10/14/20 14:29:18] D2BS 65072: 0
+[10/14/20 14:29:19] D2BS 65072: 0
+[10/14/20 14:29:20] D2BS 65072: 0
+[10/14/20 14:29:21] D2BS 65072: 0
+[10/14/20 14:29:22] D2BS 65072: 0
+[10/14/20 14:29:23] D2BS 65072: 0
+[10/14/20 14:29:24] D2BS 65072: 39
+[10/14/20 14:29:25] D2BS 65072: 40
+[10/14/20 14:29:27] D2BS 65072: 12
+[10/14/20 14:29:31] D2BS 65072: Error: Failed to click the 'TCP/IP Game' button? null
+[10/14/20 14:29:31] D2BS 65072: Updating Status
+[10/14/20 14:29:31] D2BS 65072: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:29:31] D2BS 65072: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:29:31] D2BS 65072: AutoBuild: Including build template config/builds/barbarian.singer.js into default.dbj
+[10/14/20 14:29:31] D2BS 65072: Updating Config from level 0 to 80
+[10/14/20 14:29:31] D2BS 65072: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:29:31] D2BS 65072: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:29:31] D2BS 65072: ÿc4Loaded NIP: ÿc2SingerRunes.nipÿc4. Lines: ÿc221ÿc4. Valid entries: ÿc210. ÿc4Time: ÿc20 ms
+[10/14/20 14:29:31] D2BS 65072: ÿc4Loaded NIP: ÿc2Singer.xpac.nipÿc4. Lines: ÿc2125ÿc4. Valid entries: ÿc2108. ÿc4Time: ÿc20 ms
+[10/14/20 14:29:31] D2BS 65072: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:29:31] D2BS 65072: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\autobuildthread.js
+[10/14/20 14:29:31] D2BS 65072: Updating Config from level 0 to 80
+[10/14/20 14:29:31] D2BS 65072: AutoBuild: Loaded helper thread
+[10/14/20 14:29:31] D2BS 65072: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\party.js
+[10/14/20 14:29:31] D2BS 65072: Updating Config from level 0 to 80
+[10/14/20 14:29:31] D2BS 65072: ÿc2Party thread loaded. Mode: Invite
+[10/14/20 14:29:31] D2BS 65072: ÿc3Start ToolsThread script
+[10/14/20 14:29:31] D2BS 65072: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\townchicken.js
+[10/14/20 14:29:31] D2BS 65072: AutoBuild: Including build template config/builds/barbarian.singer.js into tools\toolsthread.js
+[10/14/20 14:29:31] D2BS 65072: Updating Config from level 0 to 80
+[10/14/20 14:29:31] D2BS 65072: Updating Config from level 0 to 80

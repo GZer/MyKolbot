@@ -753,10 +753,10 @@ function LevelLeader(){
 	};
 
 	this.tauntCouncil=function(){
-		var SafeX,SafeY,i;
+		var SafeX,SafeY,i=0;
 		Pather.journeyTo(83);
 		Pather.moveToPreset(83,2,404,16,80,true);
-		SafeX=me.x, SafeY=me.y;
+		SafeX=me.x,SafeY=me.y;
 		while(i < 35){
 			Precast.doPrecast(true);
 			Pather.moveToPreset(83,2,404,16,13);
