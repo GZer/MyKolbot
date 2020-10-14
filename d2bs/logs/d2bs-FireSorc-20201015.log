@@ -223,3 +223,45 @@
 [10/15/20 08:53:13] D2BS 10856: ÿc1Skipping Skeleton 421 16
 [10/15/20 08:53:14] D2BS 10856: ÿc7Picked up ÿc3Minor Mana Potion ÿc0(ilvl 1) (EarlyGame.nip #25)
 [10/15/20 08:53:32] D2BS 10856: ÿc7Picked up ÿc1Minor Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #26)
+[10/15/20 08:53:50] D2BS 10856: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #28)
+[10/15/20 08:53:51] D2BS 10856: ÿc7Picked up ÿc42 Gold
+[10/15/20 08:53:52] D2BS 10856: move retry 1
+[10/15/20 08:53:59] D2BS 10856: ÿc4MF: ÿc00 ÿc4GF: ÿc00 ÿc1FR: ÿc00 ÿc3CR: ÿc00 ÿc9LR: ÿc00 ÿc2PR: ÿc00
+[10/15/20 08:53:59] D2BS 10856: FCR: 0 IAS: 0 FBR: 0 FHR: 0 FRW: 0
+[10/15/20 08:53:59] D2BS 10856: CB: 0 DS: 0 OW: 0 ÿc1LL: ÿc00 ÿc3ML: ÿc00 DR: 0% + 0 MDR: 0% + 0
+[10/15/20 08:54:00] D2BS 10856: ReferenceError: stops is not defined
+[10/15/20 08:54:01] D2BS 10856: ReferenceError: tart is not defined
+[10/15/20 08:54:06] D2BS 10856: ÿc2D2BSÿc0 :: Stopping all scripts
+[10/15/20 08:54:06] D2BS 10856: Script d2botlanfollow.dbj ended
+[10/15/20 08:54:06] D2BS 10856: Script default.dbj ended
+[10/15/20 08:54:06] D2BS 10856: Script tools\autobuildthread.js ended
+[10/15/20 08:54:06] D2BS 10856: Script tools\heartbeat.js ended
+[10/15/20 08:54:06] D2BS 10856: Script tools\party.js ended
+[10/15/20 08:54:06] D2BS 10856: Script tools\toolsthread.js ended
+[10/15/20 08:54:06] D2BS 10856: Script tools\townchicken.js ended
+[10/15/20 08:54:08] D2BS 10856: ÿc2D2BSÿc0 :: Started default.dbj
+[10/15/20 08:54:08] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/15/20 08:54:08] D2BS 10856: Updating Config from level 0 to 6
+[10/15/20 08:54:08] D2BS 10856: Heartbeat loaded
+[10/15/20 08:54:08] D2BS 10856: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/15/20 08:54:08] D2BS 10856: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/15/20 08:54:08] D2BS 10856: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/15/20 08:54:08] D2BS 10856: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/15/20 08:54:08] D2BS 10856: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc215 ms
+[10/15/20 08:54:08] D2BS 10856: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/15/20 08:54:08] D2BS 10856: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/15/20 08:54:08] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/15/20 08:54:08] D2BS 10856: Updating Config from level 0 to 6
+[10/15/20 08:54:08] D2BS 10856: AutoBuild: Loaded helper thread
+[10/15/20 08:54:09] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/15/20 08:54:09] D2BS 10856: Updating Config from level 0 to 6
+[10/15/20 08:54:09] D2BS 10856: ÿc2Party thread loaded. Mode: Accept
+[10/15/20 08:54:09] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/15/20 08:54:09] D2BS 10856: Updating Config from level 0 to 6
+[10/15/20 08:54:09] D2BS 10856: ÿc3Start ToolsThread script
+[10/15/20 08:54:09] D2BS 10856: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/15/20 08:54:09] D2BS 10856: Updating Config from level 0 to 6
+[10/15/20 08:54:18] D2BS 10856: ÿc2Starting script: ÿc9LevelFollower
+[10/15/20 08:54:25] D2BS 10856: initNPC: heal
+[10/15/20 08:54:29] D2BS 10856: initNPC: BuyPotions
+[10/15/20 08:54:48] D2BS 10856: 4,10
