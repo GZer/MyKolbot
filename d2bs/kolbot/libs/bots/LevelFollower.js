@@ -391,7 +391,7 @@ function LevelFollower(){
 	while(LeaderUnit){
 		if(copyUnit(LeaderUnit).x){
 			if(getDistance(me,LeaderUnit) > 5){
-				Pather.teleport=(me.diff == 2);
+				Pather.teleport=false;
 				if(me.inTown){Town.move("portalspot");}
 				else{
 					Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);

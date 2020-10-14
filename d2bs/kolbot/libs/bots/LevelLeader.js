@@ -110,7 +110,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(3,3),"Smith");
 			break;
 			case 37: //Andariel
-				Pather.moveTo(22535,9653,2,true,true);
+				Pather.moveTo(22535,9653,2,true);
 				delay(5000);
 				this.tryMakePortal();
 				this.killImportantQuestBoss(156,22549,9577);
@@ -144,7 +144,7 @@ function LevelLeader(){
 				if(me.getItem(521)){break;}
 				Pather.moveToExit([58,61],true,true);
 				this.clearToQuestLocation(61,2,149);
-				Pather.moveTo(15044,14045,2,true,true);
+				Pather.moveTo(15044,14045,2,true);
 				this.getQuestItem(521,149);
 				Town.doChores();
 				if(this.cubeStaff()){
@@ -212,7 +212,7 @@ function LevelLeader(){
 				Town.doChores();
 				this.checkOrgans();
 				if(me.diff == 2){
-					this.tauntCouncil([345,346,347]);
+					this.tauntCouncil();
 				}else{
 					this.clearToQuestLocation(83,2,404);
 					this.killImportantQuestBoss([345,346,347]);
@@ -229,15 +229,15 @@ function LevelLeader(){
 				Pather.journeyTo(83);
 			break;
 			case 102: //Mephisto
-				Pather.moveTo(17606,8127,1,true,true);
-				Pather.moveTo(17653,8075,1,true,true);
-				Pather.moveTo(17641,8037,1,true,true);
-				Pather.moveTo(17606,8013,1,true,true);
+				Pather.moveTo(17606,8127,1,true);
+				Pather.moveTo(17653,8075,1,true);
+				Pather.moveTo(17641,8037,1,true);
+				Pather.moveTo(17606,8013,1,true);
 				this.killImportantQuestBoss(242,17549,8067);
 				this.logProgress(me.getQuest(22,0),"Mephisto");
 				Attack.clearLevel(0x7);
-				Pather.moveTo(17590,8068,2,true,true);
-				Pather.moveTo(17601,8070,2,true,true);
+				Pather.moveTo(17590,8068,2,true);
+				Pather.moveTo(17601,8070,2,true);
 				Pather.usePortal(null);
 			break;
 			case 105: //Izual
@@ -248,7 +248,7 @@ function LevelLeader(){
 				Pather.usePortal(105,null);
 			break;
 			case 108: //Diablo
-				if(Pather.moveTo(7791,5293,5,true,true)){
+				if(Pather.moveTo(7791,5293,5,true)){
 					this.tryMakePortal();
 				}
 				this.openSeal(395);this.openSeal(396);
@@ -259,7 +259,7 @@ function LevelLeader(){
 				this.openSeal(392);this.openSeal(393);
 				this.openSeal(392);this.openSeal(393);
 				this.killQuestBoss(740);
-				Pather.moveTo(7769,5263,5,true,true);
+				Pather.moveTo(7769,5263,5,true);
 				this.tryMakePortal();
 				this.waitForUnit(1,243);
 				this.killImportantQuestBoss(243,7788,5293);
@@ -267,7 +267,7 @@ function LevelLeader(){
 				this.logProgress(me.getQuest(26,0),"Diablo");
 			break;
 			case 111: //Shenk & Prisoners
-				Pather.moveTo(3883,5113,15,true,true);
+				Pather.moveTo(3883,5113,15,true);
 				this.killQuestBoss(760);
 				this.talkToNPC("Larzuk");
 				this.logProgress(me.getQuest(35,5),"Shenk");
@@ -319,17 +319,17 @@ function LevelLeader(){
 			break;
 			case 131: //Baal
 				Attack.clearLevel(0);
-				Pather.moveTo(15095,5029,true,true);
+				Pather.moveTo(15095,5029,true);
 				this.tryMakePortal();
 				while(getUnit(1,543)){
-					Pather.moveTo(15095,5029,true,true);
+					Pather.moveTo(15095,5029,true);
 					Attack.clear(150);
 					delay(500);
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
 					if((me.diff == 0 && me.charlvl > 35) || me.charlvl > 75){
-						Pather.moveTo(15134,5923,true,true);
+						Pather.moveTo(15134,5923,true);
 						this.killImportantQuestBoss(544);
 						this.logProgress(me.getQuest(40,0),"Baal");
 					}
@@ -382,12 +382,12 @@ function LevelLeader(){
 		while(count < 25){
 			try{
 				while(!this.playerClose() && count < 3){
-					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
+					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true);
 					delay(5000);
 					count++;
 				}
 				Precast.doPrecast(true);
-				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true,true)){
+				if(Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true)){
 					return true;
 				}
 			}catch(err){
@@ -558,9 +558,9 @@ function LevelLeader(){
 				if(me.area != 102){
 					Pather.journeyTo(102);
 				}
-				Pather.moveTo(17590,8068,2,true,true);
+				Pather.moveTo(17590,8068,2,true);
 				delay(2000);
-				Pather.moveTo(17601,8070,2,true,true);
+				Pather.moveTo(17601,8070,2,true);
 				Pather.usePortal(null);
 				break;
 			case 5:
@@ -597,7 +597,7 @@ function LevelLeader(){
 		}
 		while(!this.teleporterClose() && WaitingLimit < 120){
 			delay(1000);
-			Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
+			Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true);
 			Attack.clear(5);
 			WaitingLimit++;
 		}
@@ -734,7 +734,7 @@ function LevelLeader(){
 		return me.getItem(174);
 	};
 
-	this.checkOrgans=function(CouncilMembers){
+	this.checkOrgans=function(){
 		var GotOrgans=((me.getItem(553) && me.getItem(554) && me.getItem(555)) || me.getItem(174));
 		if(!GotOrgans){
 			this.getKhalimBrain();
@@ -752,22 +752,20 @@ function LevelLeader(){
 		return GotOrgans;
 	};
 
-	this.tauntCouncil=function(CouncilMembers){
-		var CouncilMember,i,CouncilAlive=true;
+	this.tauntCouncil=function(){
+		var SafeX,SafeY,i;
 		Pather.journeyTo(83);
-		// Pather.moveTo(4416,2174,2,true,true);
-		Pather.moveTo(4443,1918,2,true,true);
-		Pather.moveTo(4497,1921,2,true,true);
-		Pather.moveTo(4511,1903,2,true,true);
-		for(i=0; i < CouncilMembers.length; i++){
-			CouncilMember=getUnit(1,CouncilMembers[i]);
-			while(!CouncilMember.dead){
-				Pather.moveTo(4517,1823,2);
-				Skill.cast(137,0,me.x+rand(-20,20),me.y+rand(-20,20));
-				Attack.securePosition(4511,1903,20,3000);
-			}
-			this.logProgress(CouncilMember.dead,"CouncilMember Dead:"+CouncilMember);
+		Pather.moveToPreset(83,2,404,16,80,true);
+		SafeX=me.x, SafeY=me.y;
+		while(i < 35){
+			Precast.doPrecast(true);
+			Pather.moveToPreset(83,2,404,16,13);
+			Skill.cast(137,0,me.x+rand(-25,25),me.y+rand(-25,25));
+			Attack.securePosition(SafeX,SafeY,20,3000);
+			Precast.doPrecast(true);
+			i++;
 		}
+		this.clearToQuestLocation(83,2,404);
 		return true;
 	};
 	
@@ -1051,7 +1049,7 @@ function LevelLeader(){
 				this.tryMakePortal();
 				WaitingLimit=15;
 				while(!this.playerClose() && WaitingLimit > 0){
-					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true,true);
+					Pather.moveTo(me.x+rand(-10,10),me.y+rand(-10,10),5,true);
 					delay(250*WaitingLimit--);
 				}
 				Precast.doPrecast(true);

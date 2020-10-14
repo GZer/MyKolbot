@@ -5210,3 +5210,595 @@ Line: x(45)+item.getStatEx(7)+item.getStatEx(0)+item.getStatEx(2)>00
 [10/14/20 11:37:47] D2BS 59708: initNPC: BuyPotions
 [10/14/20 11:37:51] D2BS 59708: move retry 1
 [10/14/20 11:37:51] D2BS 59708: move retry 2
+[10/14/20 11:40:59] D2BS 59708: move retry 1
+[10/14/20 11:41:01] D2BS 59708: move retry 1
+[10/14/20 11:41:16] D2BS 59708: D2BS Shutdown complete.
+[10/14/20 13:35:26] D2BS 50964: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:35:26] D2BS 50964: Hammerdin
+[10/14/20 13:35:26] D2BS 50964: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 13:35:26] D2BS 50964: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:35:26] D2BS 50964: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:35:26] D2BS 50964: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:35:26] D2BS 50964: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:35:28] D2BS 50964: Heartbeat loaded
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 60252
+[10/14/20 13:35:44] D2BS 50964: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 49660
+[10/14/20 13:35:44] D2BS 50964: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 63484
+[10/14/20 13:35:44] D2BS 50964: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 00B5B7C8 ((module-name not available)): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 60524
+[10/14/20 13:35:44] D2BS 50964: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/14/20 13:35:44] D2BS 50964: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/14/20 13:35:44] D2BS 50964: 02FD3C94 (D2BS): (filename not available): QueryInterface
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 59356
+[10/14/20 13:35:44] D2BS 50964: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 13:35:44] D2BS 50964: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/14/20 13:35:44] D2BS 50964: 004027E5 (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 64544
+[10/14/20 13:35:44] D2BS 50964: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/14/20 13:35:44] D2BS 50964: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/14/20 13:35:44] D2BS 50964: 004102FC (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 58768
+[10/14/20 13:35:44] D2BS 50964: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 13:35:44] D2BS 50964: 76FFF5F2 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/14/20 13:35:44] D2BS 50964: 0041A845 (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 32560
+[10/14/20 13:35:44] D2BS 50964: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 64316
+[10/14/20 13:35:44] D2BS 50964: 77801A9C (ntdll): (filename not available): ZwWaitForMultipleObjects
+[10/14/20 13:35:44] D2BS 50964: 76486676 (CRYPT32): (filename not available): CertDuplicateCRLContext
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 63400
+[10/14/20 13:35:44] D2BS 50964: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 57536
+[10/14/20 13:35:44] D2BS 50964: 7780321C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 00B75448 ((module-name not available)): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 62376
+[10/14/20 13:35:44] D2BS 50964: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 13:35:44] D2BS 50964: 03057236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 13:35:44] D2BS 50964: 03142B1F (D2BS): (filename not available): JS_freeop
+[10/14/20 13:35:44] D2BS 50964: 03141A5E (D2BS): (filename not available): JS_freeop
+[10/14/20 13:35:44] D2BS 50964: 0306E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 54412
+[10/14/20 13:35:44] D2BS 50964: 7780182C (ntdll): (filename not available): NtDelayExecution
+[10/14/20 13:35:44] D2BS 50964: 77012DDF (KERNELBASE): (filename not available): Sleep
+[10/14/20 13:35:44] D2BS 50964: 02FDE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 13:35:44] D2BS 50964: 030601B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 13:35:44] D2BS 50964: 03142B1F (D2BS): (filename not available): JS_freeop
+[10/14/20 13:35:44] D2BS 50964: 03141A5E (D2BS): (filename not available): JS_freeop
+[10/14/20 13:35:44] D2BS 50964: 0306E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 65228
+[10/14/20 13:35:44] D2BS 50964: 7780150C (ntdll): (filename not available): NtWaitForSingleObject
+[10/14/20 13:35:44] D2BS 50964: 03057236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 13:35:44] D2BS 50964: 03142B1F (D2BS): (filename not available): JS_freeop
+[10/14/20 13:35:44] D2BS 50964: 03141A5E (D2BS): (filename not available): JS_freeop
+[10/14/20 13:35:44] D2BS 50964: 0306E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Stack Walk Thread: 29600
+[10/14/20 13:35:44] D2BS 50964: 02FDB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/14/20 13:35:44] D2BS 50964: 02FD37F8 (D2BS): (filename not available): QueryInterface
+[10/14/20 13:35:44] D2BS 50964: 00408A05 (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 00408A81 (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 13:35:44] D2BS 50964: 00633D82 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 13:35:44] D2BS 50964: 00619374 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 13:35:44] D2BS 50964: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/14/20 13:35:44] D2BS 50964: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/14/20 13:35:44] D2BS 50964: 00405E6B (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 004065C7 (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 0040671F (Game): (filename not available): (function-name not available)
+[10/14/20 13:35:44] D2BS 50964: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/14/20 13:35:44] D2BS 50964: 7721F989 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/14/20 13:35:44] D2BS 50964: 777F74B4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: 777F7484 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/14/20 13:35:44] D2BS 50964: Crash File: BlizzardError/2020-10-14 13.35.44/Crash.txt
+[10/14/20 13:35:44] D2BS 50964: D2BS Shutdown complete.
+[10/14/20 13:35:47] D2BS 53168: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:35:47] D2BS 53168: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 13:35:47] D2BS 53168: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:35:47] D2BS 53168: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:35:47] D2BS 53168: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:35:47] D2BS 53168: Hammerdin
+[10/14/20 13:35:47] D2BS 53168: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:35:49] D2BS 53168: Heartbeat loaded
+[10/14/20 13:36:07] D2BS 53168: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:36:07] D2BS 53168: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:36:07] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:36:07] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:36:07] D2BS 53168: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:36:07] D2BS 53168: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:36:07] D2BS 53168: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:36:07] D2BS 53168: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[10/14/20 13:36:07] D2BS 53168: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:36:07] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:36:07] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:36:07] D2BS 53168: AutoBuild: Loaded helper thread
+[10/14/20 13:36:07] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:36:07] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:36:07] D2BS 53168: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:36:07] D2BS 53168: ÿc3Start ToolsThread script
+[10/14/20 13:36:07] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:36:07] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:36:07] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:36:07] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:36:15] D2BS 53168: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:36:18] D2BS 53168: initNPC: heal
+[10/14/20 13:36:22] D2BS 53168: initNPC: BuyPotions
+[10/14/20 13:36:38] D2BS 53168: initNPC: identify
+[10/14/20 13:36:44] D2BS 53168: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[10/14/20 13:36:46] D2BS 53168: initNPC: buyPotions
+[10/14/20 13:36:50] D2BS 53168: Jeweler's Gothic Plate of the Whale
+[10/14/20 13:36:51] D2BS 53168: initNPC: repair
+[10/14/20 13:37:12] D2BS 53168: 75
+[10/14/20 13:37:42] D2BS 53168: Script default.dbj ended
+[10/14/20 13:37:42] D2BS 53168: Script tools\autobuildthread.js ended
+[10/14/20 13:37:42] D2BS 53168: Script tools\party.js ended
+[10/14/20 13:37:42] D2BS 53168: Script tools\townchicken.js ended
+[10/14/20 13:37:49] D2BS 53168: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:37:49] D2BS 53168: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:37:49] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:37:50] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:37:50] D2BS 53168: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:37:50] D2BS 53168: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:37:50] D2BS 53168: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:37:50] D2BS 53168: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[10/14/20 13:37:50] D2BS 53168: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc215 ms
+[10/14/20 13:37:50] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:37:50] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:37:50] D2BS 53168: AutoBuild: Loaded helper thread
+[10/14/20 13:37:50] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:37:50] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:37:50] D2BS 53168: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:37:50] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:37:50] D2BS 53168: ÿc3Start ToolsThread script
+[10/14/20 13:37:50] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:37:50] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:37:50] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:37:58] D2BS 53168: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:38:02] D2BS 53168: Script default.dbj ended
+[10/14/20 13:38:02] D2BS 53168: Script tools\autobuildthread.js ended
+[10/14/20 13:38:02] D2BS 53168: Script tools\party.js ended
+[10/14/20 13:38:02] D2BS 53168: Script tools\toolsthread.js ended
+[10/14/20 13:38:02] D2BS 53168: Script tools\townchicken.js ended
+[10/14/20 13:38:09] D2BS 53168: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:38:09] D2BS 53168: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:38:09] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:38:09] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:38:09] D2BS 53168: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 53168: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 53168: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 53168: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/14/20 13:38:09] D2BS 53168: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:38:09] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:38:09] D2BS 53168: AutoBuild: Loaded helper thread
+[10/14/20 13:38:09] D2BS 53168: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:38:09] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:38:09] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:38:09] D2BS 53168: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:38:09] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:38:09] D2BS 53168: ÿc3Start ToolsThread script
+[10/14/20 13:38:09] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:38:09] D2BS 53168: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:38:09] D2BS 53168: Updating Config from level 0 to 80
+[10/14/20 13:44:50] D2BS 59228: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:44:50] D2BS 59228: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 13:44:50] D2BS 59228: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:44:50] D2BS 59228: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:44:50] D2BS 59228: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:44:50] D2BS 59228: Hammerdin
+[10/14/20 13:44:50] D2BS 59228: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:44:51] D2BS 59228: Heartbeat loaded
+[10/14/20 13:45:10] D2BS 59228: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:45:10] D2BS 59228: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:45:10] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:45:10] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:45:10] D2BS 59228: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:10] D2BS 59228: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:10] D2BS 59228: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:10] D2BS 59228: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/14/20 13:45:10] D2BS 59228: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:10] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:45:10] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:45:10] D2BS 59228: AutoBuild: Loaded helper thread
+[10/14/20 13:45:10] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:45:10] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:45:10] D2BS 59228: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:45:10] D2BS 59228: ÿc3Start ToolsThread script
+[10/14/20 13:45:10] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:45:10] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:45:10] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:45:10] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:45:17] D2BS 59228: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:45:20] D2BS 59228: initNPC: heal
+[10/14/20 13:45:25] D2BS 59228: initNPC: BuyPotions
+[10/14/20 13:45:30] D2BS 59228: move retry 1
+[10/14/20 13:45:44] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:45:56] D2BS 59228: 75
+[10/14/20 13:45:59] D2BS 59228: move retry 1
+[10/14/20 13:46:02] D2BS 59228: 40
+[10/14/20 13:46:08] D2BS 59228: 40
+[10/14/20 13:46:11] D2BS 59228: waypoint retry 1
+[10/14/20 13:46:32] D2BS 59228: move retry 1
+[10/14/20 13:46:37] D2BS 59228: ÿc7Picked up ÿc9Stygian Pilum ÿc0(ilvl 85) (Merc.xpac.nip #15)
+[10/14/20 13:47:15] D2BS 59228: move retry 1
+[10/14/20 13:47:21] D2BS 59228: move retry 2
+[10/14/20 13:47:43] D2BS 59228: ÿc7Picked up ÿc42272 Gold
+[10/14/20 13:47:49] D2BS 59228: Script default.dbj ended
+[10/14/20 13:47:49] D2BS 59228: Script tools\autobuildthread.js ended
+[10/14/20 13:47:49] D2BS 59228: Script tools\party.js ended
+[10/14/20 13:47:49] D2BS 59228: Script tools\toolsthread.js ended
+[10/14/20 13:47:49] D2BS 59228: Script tools\townchicken.js ended
+[10/14/20 13:47:55] D2BS 59228: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:47:55] D2BS 59228: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:47:55] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:47:55] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:47:55] D2BS 59228: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/14/20 13:47:56] D2BS 59228: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:47:56] D2BS 59228: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:47:56] D2BS 59228: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[10/14/20 13:47:56] D2BS 59228: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:47:56] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:47:56] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:47:56] D2BS 59228: AutoBuild: Loaded helper thread
+[10/14/20 13:47:56] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:47:56] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:47:56] D2BS 59228: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:47:56] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:47:56] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:47:56] D2BS 59228: ÿc3Start ToolsThread script
+[10/14/20 13:47:56] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:47:56] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:48:03] D2BS 59228: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:48:06] D2BS 59228: initNPC: BuyPotions
+[10/14/20 13:48:24] D2BS 59228: initNPC: identify
+[10/14/20 13:48:31] D2BS 59228: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[10/14/20 13:48:32] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:48:39] D2BS 59228: 75
+[10/14/20 13:49:13] D2BS 59228: move retry 1
+[10/14/20 13:49:22] D2BS 59228: ÿc1Skipping Zealot 26 16
+[10/14/20 13:49:26] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:49:26] D2BS 59228: initNPC: heal
+[10/14/20 13:49:31] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:49:48] D2BS 59228: initNPC: reviveMerc
+[10/14/20 13:49:59] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:50:05] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:50:05] D2BS 59228: initNPC: heal
+[10/14/20 13:50:09] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:50:18] D2BS 59228: initNPC: reviveMerc
+[10/14/20 13:50:28] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:50:31] D2BS 59228: Script default.dbj ended
+[10/14/20 13:50:31] D2BS 59228: Script tools\autobuildthread.js ended
+[10/14/20 13:50:31] D2BS 59228: Script tools\party.js ended
+[10/14/20 13:50:31] D2BS 59228: Script tools\townchicken.js ended
+[10/14/20 13:50:39] D2BS 59228: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:50:39] D2BS 59228: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:50:39] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:50:39] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:50:39] D2BS 59228: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:39] D2BS 59228: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:39] D2BS 59228: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:39] D2BS 59228: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:39] D2BS 59228: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc216 ms
+[10/14/20 13:50:39] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:50:39] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:50:39] D2BS 59228: AutoBuild: Loaded helper thread
+[10/14/20 13:50:39] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:50:39] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:50:39] D2BS 59228: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:50:39] D2BS 59228: ÿc3Start ToolsThread script
+[10/14/20 13:50:39] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:50:39] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:50:39] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:50:39] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:50:47] D2BS 59228: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:50:50] D2BS 59228: initNPC: reviveMerc
+[10/14/20 13:51:06] D2BS 59228: initNPC: heal
+[10/14/20 13:51:11] D2BS 59228: initNPC: BuyPotions
+[10/14/20 13:51:29] D2BS 59228: 75
+[10/14/20 13:52:02] D2BS 59228: move retry 1
+[10/14/20 13:52:07] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:52:07] D2BS 59228: initNPC: heal
+[10/14/20 13:52:11] D2BS 59228: initNPC: fillTome
+[10/14/20 13:52:13] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:52:22] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:52:30] D2BS 59228: ÿc7Picked up ÿc8Sol Rune ÿc0(ilvl 1) (Cubing)
+[10/14/20 13:52:34] D2BS 59228: move retry 1
+[10/14/20 13:52:41] D2BS 59228: initNPC: heal
+[10/14/20 13:52:45] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:52:53] D2BS 59228: Successfully placed Sol Rune at X: 2 Y: 2
+[10/14/20 13:52:54] D2BS 59228: 75
+[10/14/20 13:53:33] D2BS 59228: move retry 1
+[10/14/20 13:53:45] D2BS 59228: ÿc7Picked up ÿc4720 Gold
+[10/14/20 13:53:55] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:53:55] D2BS 59228: initNPC: heal
+[10/14/20 13:54:00] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:54:09] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:54:12] D2BS 59228: move retry 1
+[10/14/20 13:54:19] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:54:19] D2BS 59228: initNPC: heal
+[10/14/20 13:54:21] D2BS 59228: move retry 1
+[10/14/20 13:54:25] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:54:30] D2BS 59228: move retry 1
+[10/14/20 13:54:34] D2BS 59228: initNPC: reviveMerc
+[10/14/20 13:54:45] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:54:46] D2BS 59228: move retry 1
+[10/14/20 13:54:47] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:54:47] D2BS 59228: initNPC: heal
+[10/14/20 13:54:52] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:54:59] D2BS 59228: move retry 1
+[10/14/20 13:55:01] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:55:06] D2BS 59228: move retry 1
+[10/14/20 13:55:07] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:55:07] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:55:07] D2BS 59228: Script default.dbj ended
+[10/14/20 13:55:08] D2BS 59228: Script tools\autobuildthread.js ended
+[10/14/20 13:55:08] D2BS 59228: Script tools\party.js ended
+[10/14/20 13:55:08] D2BS 59228: Script tools\townchicken.js ended
+[10/14/20 13:55:15] D2BS 59228: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:55:15] D2BS 59228: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:55:15] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:55:15] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:55:15] D2BS 59228: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:55:15] D2BS 59228: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:55:15] D2BS 59228: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:55:15] D2BS 59228: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/14/20 13:55:15] D2BS 59228: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:55:15] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:55:15] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:55:15] D2BS 59228: AutoBuild: Loaded helper thread
+[10/14/20 13:55:15] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:55:15] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:55:15] D2BS 59228: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:55:15] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:55:15] D2BS 59228: ÿc3Start ToolsThread script
+[10/14/20 13:55:15] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:55:15] D2BS 59228: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:55:15] D2BS 59228: Updating Config from level 0 to 80
+[10/14/20 13:55:23] D2BS 59228: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:55:26] D2BS 59228: initNPC: reviveMerc
+[10/14/20 13:55:34] D2BS 59228: initNPC: heal
+[10/14/20 13:55:38] D2BS 59228: initNPC: BuyPotions
+[10/14/20 13:55:57] D2BS 59228: 75
+[10/14/20 13:55:59] D2BS 59228: initNPC: heal
+[10/14/20 13:56:05] D2BS 59228: initNPC: fillTome
+[10/14/20 13:56:07] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:56:12] D2BS 59228: move retry 1
+[10/14/20 13:56:33] D2BS 59228: ÿc1Pausing.
+[10/14/20 13:56:33] D2BS 59228: initNPC: heal
+[10/14/20 13:56:36] D2BS 59228: initNPC: buyPotions
+[10/14/20 13:56:43] D2BS 59228: ÿc2Resuming.
+[10/14/20 13:57:03] D2BS 59228: move retry 1
+[10/14/20 13:57:10] D2BS 59228: move retry 1
+[10/14/20 13:57:11] D2BS 59228: move retry 2
+[10/14/20 13:57:42] D2BS 59228: Script default.dbj ended
+[10/14/20 13:57:42] D2BS 59228: Script tools\autobuildthread.js ended
+[10/14/20 13:57:42] D2BS 59228: Script tools\party.js ended
+[10/14/20 13:57:42] D2BS 59228: Script tools\toolsthread.js ended
+[10/14/20 13:57:42] D2BS 59228: Script tools\townchicken.js ended
+[10/14/20 13:57:48] D2BS 59228: D2BS Shutdown complete.
+[10/14/20 13:57:49] D2BS 22336: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:57:49] D2BS 22336: Hammerdin
+[10/14/20 13:57:49] D2BS 22336: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 13:57:49] D2BS 22336: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:57:49] D2BS 22336: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:57:49] D2BS 22336: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:57:49] D2BS 22336: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:57:51] D2BS 22336: Heartbeat loaded
+[10/14/20 13:58:08] D2BS 22336: D2BS Shutdown complete.
+[10/14/20 13:58:09] D2BS 63756: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:58:09] D2BS 63756: Hammerdin
+[10/14/20 13:58:09] D2BS 63756: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 13:58:09] D2BS 63756: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:58:09] D2BS 63756: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:58:09] D2BS 63756: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:58:09] D2BS 63756: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:58:12] D2BS 63756: Heartbeat loaded
+[10/14/20 13:58:29] D2BS 63756: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:58:29] D2BS 63756: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:58:29] D2BS 63756: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 13:58:29] D2BS 63756: Updating Config from level 0 to 80
+[10/14/20 13:58:29] D2BS 63756: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:29] D2BS 63756: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:29] D2BS 63756: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:29] D2BS 63756: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[10/14/20 13:58:29] D2BS 63756: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:29] D2BS 63756: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 13:58:29] D2BS 63756: Updating Config from level 0 to 80
+[10/14/20 13:58:29] D2BS 63756: AutoBuild: Loaded helper thread
+[10/14/20 13:58:29] D2BS 63756: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 13:58:29] D2BS 63756: Updating Config from level 0 to 80
+[10/14/20 13:58:29] D2BS 63756: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:58:29] D2BS 63756: ÿc3Start ToolsThread script
+[10/14/20 13:58:29] D2BS 63756: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 13:58:30] D2BS 63756: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 13:58:30] D2BS 63756: Updating Config from level 0 to 80
+[10/14/20 13:58:30] D2BS 63756: Updating Config from level 0 to 80
+[10/14/20 13:58:31] D2BS 63756: move retry 1
+[10/14/20 13:58:41] D2BS 63756: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:58:44] D2BS 63756: initNPC: heal
+[10/14/20 13:58:46] D2BS 63756: move retry 1
+[10/14/20 13:58:49] D2BS 63756: move retry 1
+[10/14/20 13:58:50] D2BS 63756: initNPC: BuyPotions
+[10/14/20 13:58:57] D2BS 63756: 40
+[10/14/20 13:58:59] D2BS 63756: 40,41
+[10/14/20 13:59:16] D2BS 63756: ÿc7Picked up ÿc485 Gold
+[10/14/20 13:59:44] D2BS 63756: 75
+[10/14/20 13:59:47] D2BS 63756: initNPC: heal
+[10/14/20 13:59:51] D2BS 63756: move retry 1
+[10/14/20 13:59:53] D2BS 63756: initNPC: buyPotions
+[10/14/20 14:00:01] D2BS 63756: 83
+[10/14/20 14:00:14] D2BS 63756: move retry 1
+[10/14/20 14:00:16] D2BS 63756: 75
+[10/14/20 14:00:46] D2BS 63756: move retry 1
+[10/14/20 14:00:54] D2BS 63756: ÿc7Picked up ÿc4477 Gold
+[10/14/20 14:00:54] D2BS 63756: move retry 2
+[10/14/20 14:01:03] D2BS 63756: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 14:01:05] D2BS 63756: move retry 1
+[10/14/20 14:01:15] D2BS 63756: move retry 1
+[10/14/20 14:01:16] D2BS 63756: move retry 2
+[10/14/20 14:01:37] D2BS 63756: move retry 1
+[10/14/20 14:01:48] D2BS 63756: move retry 2
+[10/14/20 14:02:21] D2BS 63756: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[10/14/20 14:02:39] D2BS 63756: move retry 1
+[10/14/20 14:02:48] D2BS 63756: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/14/20 14:03:21] D2BS 63756: ÿc7Picked up ÿc465820 Gold
+[10/14/20 14:03:46] D2BS 63756: ÿc1Pausing.
+[10/14/20 14:03:47] D2BS 63756: initNPC: heal
+[10/14/20 14:03:51] D2BS 63756: initNPC: buyPotions
+[10/14/20 14:04:12] D2BS 63756: ÿc2Resuming.
+[10/14/20 14:04:13] D2BS 63756: move retry 1
+[10/14/20 14:04:48] D2BS 63756: ÿc1Pausing.
+[10/14/20 14:04:48] D2BS 63756: initNPC: heal
+[10/14/20 14:04:52] D2BS 63756: initNPC: buyPotions
+[10/14/20 14:04:57] D2BS 63756: Script default.dbj ended
+[10/14/20 14:04:57] D2BS 63756: Script tools\autobuildthread.js ended
+[10/14/20 14:04:57] D2BS 63756: Script tools\party.js ended
+[10/14/20 14:04:57] D2BS 63756: Script tools\toolsthread.js ended
+[10/14/20 14:04:57] D2BS 63756: Script tools\townchicken.js ended
+[10/14/20 14:05:04] D2BS 63756: D2BS Shutdown complete.
+[10/14/20 14:05:04] D2BS 49168: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:05:04] D2BS 49168: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 14:05:04] D2BS 49168: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:05:04] D2BS 49168: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:05:04] D2BS 49168: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:05:04] D2BS 49168: Hammerdin
+[10/14/20 14:05:04] D2BS 49168: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:05:06] D2BS 49168: Heartbeat loaded
+[10/14/20 14:05:24] D2BS 49168: D2BS Shutdown complete.
+[10/14/20 14:05:24] D2BS 59192: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:05:24] D2BS 59192: Hammerdin
+[10/14/20 14:05:24] D2BS 59192: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 14:05:24] D2BS 59192: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:05:24] D2BS 59192: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:05:24] D2BS 59192: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:05:24] D2BS 59192: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:05:27] D2BS 59192: Heartbeat loaded
+[10/14/20 14:05:44] D2BS 59192: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:05:44] D2BS 59192: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:05:44] D2BS 59192: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 14:05:44] D2BS 59192: Updating Config from level 0 to 80
+[10/14/20 14:05:44] D2BS 59192: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/14/20 14:05:44] D2BS 59192: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:05:44] D2BS 59192: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 14:05:44] D2BS 59192: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc216 ms
+[10/14/20 14:05:44] D2BS 59192: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:05:44] D2BS 59192: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 14:05:44] D2BS 59192: Updating Config from level 0 to 80
+[10/14/20 14:05:44] D2BS 59192: AutoBuild: Loaded helper thread
+[10/14/20 14:05:44] D2BS 59192: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 14:05:44] D2BS 59192: Updating Config from level 0 to 80
+[10/14/20 14:05:44] D2BS 59192: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 14:05:44] D2BS 59192: ÿc3Start ToolsThread script
+[10/14/20 14:05:44] D2BS 59192: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 14:05:44] D2BS 59192: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 14:05:44] D2BS 59192: Updating Config from level 0 to 80
+[10/14/20 14:05:44] D2BS 59192: Updating Config from level 0 to 80
+[10/14/20 14:05:52] D2BS 59192: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 14:05:54] D2BS 59192: initNPC: BuyPotions
+[10/14/20 14:06:20] D2BS 59192: move retry 1
+[10/14/20 14:06:39] D2BS 59192: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/14/20 14:06:39] D2BS 59192: ÿc7Picked up ÿc3Broad Sword ÿc0(ilvl 85) (Hammerdin.xpac.nip #2)
+[10/14/20 14:06:41] D2BS 59192: move retry 1
+[10/14/20 14:06:41] D2BS 59192: ÿc1Pausing.
+[10/14/20 14:06:41] D2BS 59192: initNPC: heal
+[10/14/20 14:06:45] D2BS 59192: initNPC: identify
+[10/14/20 14:06:48] D2BS 59192: ÿc4MiniShopBotÿc0: Scanning 47 items.
+[10/14/20 14:06:57] D2BS 59192: ÿc2Resuming.
+[10/14/20 14:08:20] D2BS 59192: ÿc7Picked up ÿc41848 Gold
+[10/14/20 14:08:21] D2BS 59192: ÿc7Picked up ÿc3Flail ÿc0(ilvl 85) (Hammerdin.xpac.nip #2)
+[10/14/20 14:09:15] D2BS 59192: ÿc7Picked up ÿc42200 Gold
+[10/14/20 14:09:15] D2BS 59192: ÿc7Picked up ÿc41024 Gold
+[10/14/20 14:09:15] D2BS 59192: ÿc7Picked up ÿc42416 Gold
+[10/14/20 14:09:15] D2BS 59192: ÿc7Picked up ÿc41680 Gold
+[10/14/20 14:09:26] D2BS 59192: ÿc7Picked up ÿc3Conquest Sword ÿc0(ilvl 85) (Hammerdin.xpac.nip #2)
+[10/14/20 14:09:59] D2BS 59192: move retry 1
+[10/14/20 14:10:40] D2BS 59192: move retry 1
+[10/14/20 14:10:56] D2BS 59192: move retry 1
+[10/14/20 14:11:51] D2BS 59192: move retry 1
+[10/14/20 14:11:59] D2BS 59192: move retry 1
+[10/14/20 14:16:54] D2BS 59192: Script default.dbj ended
+[10/14/20 14:16:54] D2BS 59192: Script tools\autobuildthread.js ended
+[10/14/20 14:16:54] D2BS 59192: Script tools\party.js ended
+[10/14/20 14:16:54] D2BS 59192: Script tools\toolsthread.js ended
+[10/14/20 14:16:54] D2BS 59192: Script tools\townchicken.js ended
+[10/14/20 14:17:00] D2BS 59192: D2BS Shutdown complete.
+[10/14/20 14:17:01] D2BS 57944: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:17:01] D2BS 57944: Hammerdin
+[10/14/20 14:17:01] D2BS 57944: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 14:17:01] D2BS 57944: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:17:01] D2BS 57944: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:17:01] D2BS 57944: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:17:01] D2BS 57944: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:17:04] D2BS 57944: Heartbeat loaded
+[10/14/20 14:17:21] D2BS 57944: D2BS Shutdown complete.
+[10/14/20 14:17:21] D2BS 60240: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:17:21] D2BS 60240: Hammerdin
+[10/14/20 14:17:21] D2BS 60240: ÿc2D2BSÿc0 :: Switched to profile Hammerdin
+[10/14/20 14:17:21] D2BS 60240: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:17:21] D2BS 60240: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:17:21] D2BS 60240: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:17:21] D2BS 60240: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:17:24] D2BS 60240: Heartbeat loaded
+[10/14/20 14:17:42] D2BS 60240: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:17:42] D2BS 60240: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:17:42] D2BS 60240: AutoBuild: Including build template config/builds/paladin.hammerdin.js into default.dbj
+[10/14/20 14:17:42] D2BS 60240: Updating Config from level 0 to 80
+[10/14/20 14:17:42] D2BS 60240: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/14/20 14:17:42] D2BS 60240: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:17:42] D2BS 60240: ÿc4Loaded NIP: ÿc2HammerdinRunes.nipÿc4. Lines: ÿc218ÿc4. Valid entries: ÿc29. ÿc4Time: ÿc20 ms
+[10/14/20 14:17:42] D2BS 60240: ÿc4Loaded NIP: ÿc2Hammerdin.xpac.nipÿc4. Lines: ÿc2120ÿc4. Valid entries: ÿc2103. ÿc4Time: ÿc215 ms
+[10/14/20 14:17:42] D2BS 60240: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:17:42] D2BS 60240: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\autobuildthread.js
+[10/14/20 14:17:42] D2BS 60240: Updating Config from level 0 to 80
+[10/14/20 14:17:42] D2BS 60240: AutoBuild: Loaded helper thread
+[10/14/20 14:17:42] D2BS 60240: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\party.js
+[10/14/20 14:17:42] D2BS 60240: Updating Config from level 0 to 80
+[10/14/20 14:17:42] D2BS 60240: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 14:17:42] D2BS 60240: ÿc3Start ToolsThread script
+[10/14/20 14:17:42] D2BS 60240: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\toolsthread.js
+[10/14/20 14:17:42] D2BS 60240: Updating Config from level 0 to 80
+[10/14/20 14:17:42] D2BS 60240: AutoBuild: Including build template config/builds/paladin.hammerdin.js into tools\townchicken.js
+[10/14/20 14:17:42] D2BS 60240: Updating Config from level 0 to 80

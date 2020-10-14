@@ -124,3 +124,23 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:389, @levelfollower.js:381, @levelfollower.js:183, Pather.journeyTo@pather.js:1378, Town.goToTown@town.js:2227
 [2020/10/14 08:48:58] <Singer> Failed to include script: LevelLeader
 [2020/10/14 08:49:18] <Singer> Failed to include script: LevelLeader
+[2020/10/14 11:40:17] <Singer> Error in LevelLeader (levelleader.js line 764): CouncilMember is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1060, @levelleader.js:215, @levelleader.js:764
+[2020/10/14 13:16:02] <Singer> Error in LevelLeader (levelleader.js line 762): CouncilMembers is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1036, @levelleader.js:762
+[2020/10/14 13:18:40] <Singer> Error in LevelLeader (levelleader.js line 762): CouncilMembers is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1036, @levelleader.js:762
+[2020/10/14 13:20:20] <Singer> Error in LevelLeader (levelleader.js line 764): getQuest is not defined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1036, @levelleader.js:764
+[2020/10/14 13:21:06] <Singer> Error in LevelLeader (levelleader.js line 764): CouncilMember is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1036, @levelleader.js:764
+[2020/10/14 13:24:07] <Singer> Error in LevelLeader (levelleader.js line 764): CouncilMember is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1036, @levelleader.js:764
+[2020/10/14 13:24:37] <Singer> Error in LevelLeader (levelleader.js line 765): CouncilMember is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1037, @levelleader.js:765
+[2020/10/14 13:41:58] <Singer> Error in LevelLeader (levelleader.js line 765): CouncilMember is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1037, @levelleader.js:765
+[2020/10/14 13:42:38] <Singer> Error in LevelLeader (levelleader.js line 765): CouncilMember is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1037, @levelleader.js:765
+[2020/10/14 13:54:33] <Singer> Error in LevelLeader (levelleader.js line 763): CouncilMember is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:1035, @levelleader.js:763

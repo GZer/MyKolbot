@@ -5270,3 +5270,434 @@
 [10/14/20 11:35:08] D2BS 59088: initNPC: heal
 [10/14/20 11:35:13] D2BS 59088: initNPC: BuyPotions
 [10/14/20 11:35:15] D2BS 59088: move retry 1
+[10/14/20 11:40:44] D2BS 59088: Script default.dbj ended
+[10/14/20 11:40:44] D2BS 59088: Script tools\autobuildthread.js ended
+[10/14/20 11:40:44] D2BS 59088: Script tools\party.js ended
+[10/14/20 11:40:44] D2BS 59088: Script tools\townchicken.js ended
+[10/14/20 11:40:50] D2BS 59088: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 11:40:50] D2BS 59088: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 11:40:50] D2BS 59088: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 11:40:50] D2BS 59088: Updating Config from level 0 to 78
+[10/14/20 11:40:50] D2BS 59088: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/14/20 11:40:50] D2BS 59088: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 11:40:50] D2BS 59088: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 11:40:50] D2BS 59088: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 11:40:50] D2BS 59088: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 11:40:50] D2BS 59088: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 11:40:50] D2BS 59088: Updating Config from level 0 to 78
+[10/14/20 11:40:50] D2BS 59088: AutoBuild: Loaded helper thread
+[10/14/20 11:40:50] D2BS 59088: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 11:40:50] D2BS 59088: Updating Config from level 0 to 78
+[10/14/20 11:40:50] D2BS 59088: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 11:40:50] D2BS 59088: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 11:40:50] D2BS 59088: ÿc3Start ToolsThread script
+[10/14/20 11:40:50] D2BS 59088: Updating Config from level 0 to 78
+[10/14/20 11:40:50] D2BS 59088: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 11:40:50] D2BS 59088: Updating Config from level 0 to 78
+[10/14/20 11:41:00] D2BS 59088: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 11:41:03] D2BS 59088: initNPC: heal
+[10/14/20 11:41:08] D2BS 59088: initNPC: BuyPotions
+[10/14/20 13:35:26] D2BS 65776: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:35:26] D2BS 65776: LightSorc
+[10/14/20 13:35:26] D2BS 65776: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 13:35:26] D2BS 65776: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:35:26] D2BS 65776: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:35:26] D2BS 65776: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:35:26] D2BS 65776: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:35:28] D2BS 65776: Heartbeat loaded
+[10/14/20 13:35:47] D2BS 65776: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:35:47] D2BS 65776: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:35:47] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 13:35:47] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:35:47] D2BS 65776: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:35:47] D2BS 65776: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/14/20 13:35:47] D2BS 65776: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 13:35:47] D2BS 65776: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 13:35:47] D2BS 65776: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:35:47] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 13:35:47] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:35:47] D2BS 65776: AutoBuild: Loaded helper thread
+[10/14/20 13:35:47] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 13:35:47] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:35:47] D2BS 65776: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:35:47] D2BS 65776: ÿc3Start ToolsThread script
+[10/14/20 13:35:47] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 13:35:47] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:35:47] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 13:35:47] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:35:58] D2BS 65776: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:36:01] D2BS 65776: initNPC: BuyPotions
+[10/14/20 13:36:11] D2BS 65776: move retry 1
+[10/14/20 13:36:17] D2BS 65776: 40
+[10/14/20 13:36:20] D2BS 65776: initNPC: buyPotions
+[10/14/20 13:36:58] D2BS 65776: move retry 1
+[10/14/20 13:37:40] D2BS 65776: initNPC: buyPotions
+[10/14/20 13:37:53] D2BS 65776: 75
+[10/14/20 13:38:02] D2BS 65776: Script default.dbj ended
+[10/14/20 13:38:02] D2BS 65776: Script tools\autobuildthread.js ended
+[10/14/20 13:38:02] D2BS 65776: Script tools\party.js ended
+[10/14/20 13:38:02] D2BS 65776: Script tools\toolsthread.js ended
+[10/14/20 13:38:02] D2BS 65776: Script tools\townchicken.js ended
+[10/14/20 13:38:09] D2BS 65776: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:38:09] D2BS 65776: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:38:09] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 13:38:09] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:38:09] D2BS 65776: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 65776: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 65776: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 65776: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 13:38:09] D2BS 65776: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:38:09] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 13:38:09] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:38:09] D2BS 65776: AutoBuild: Loaded helper thread
+[10/14/20 13:38:09] D2BS 65776: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:38:09] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 13:38:09] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:38:09] D2BS 65776: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:38:09] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 13:38:09] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:38:09] D2BS 65776: ÿc3Start ToolsThread script
+[10/14/20 13:38:09] D2BS 65776: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 13:38:09] D2BS 65776: Updating Config from level 0 to 78
+[10/14/20 13:44:50] D2BS 61124: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:44:50] D2BS 61124: LightSorc
+[10/14/20 13:44:50] D2BS 61124: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 13:44:50] D2BS 61124: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:44:50] D2BS 61124: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:44:50] D2BS 61124: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:44:50] D2BS 61124: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:44:51] D2BS 61124: Heartbeat loaded
+[10/14/20 13:45:09] D2BS 61124: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:45:09] D2BS 61124: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:45:09] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 13:45:09] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:45:09] D2BS 61124: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:09] D2BS 61124: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:09] D2BS 61124: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:09] D2BS 61124: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 13:45:09] D2BS 61124: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:45:09] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 13:45:09] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:45:09] D2BS 61124: AutoBuild: Loaded helper thread
+[10/14/20 13:45:09] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 13:45:09] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:45:09] D2BS 61124: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:45:09] D2BS 61124: ÿc3Start ToolsThread script
+[10/14/20 13:45:09] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 13:45:09] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 13:45:09] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:45:09] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:45:16] D2BS 61124: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:45:19] D2BS 61124: initNPC: BuyPotions
+[10/14/20 13:45:51] D2BS 61124: 75
+[10/14/20 13:45:55] D2BS 61124: move retry 1
+[10/14/20 13:45:58] D2BS 61124: 40
+[10/14/20 13:46:00] D2BS 61124: waypoint retry 1
+[10/14/20 13:46:08] D2BS 61124: 40
+[10/14/20 13:46:57] D2BS 61124: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/14/20 13:46:58] D2BS 61124: ÿc7Picked up ÿc3Grand Charm ÿc0(ilvl 85) (LateGame.nip #9)
+[10/14/20 13:46:58] D2BS 61124: ÿc7Picked up ÿc9Tower Shield ÿc0(ilvl 85) (Light.xpac.nip #19)
+[10/14/20 13:47:49] D2BS 61124: Script default.dbj ended
+[10/14/20 13:47:49] D2BS 61124: Script tools\autobuildthread.js ended
+[10/14/20 13:47:49] D2BS 61124: Script tools\party.js ended
+[10/14/20 13:47:49] D2BS 61124: Script tools\toolsthread.js ended
+[10/14/20 13:47:49] D2BS 61124: Script tools\townchicken.js ended
+[10/14/20 13:47:55] D2BS 61124: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:47:55] D2BS 61124: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:47:55] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 13:47:55] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:47:55] D2BS 61124: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:47:55] D2BS 61124: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:47:55] D2BS 61124: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 13:47:55] D2BS 61124: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 13:47:55] D2BS 61124: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:47:55] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 13:47:56] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:47:56] D2BS 61124: AutoBuild: Loaded helper thread
+[10/14/20 13:47:56] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 13:47:56] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:47:56] D2BS 61124: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:47:56] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 13:47:56] D2BS 61124: ÿc3Start ToolsThread script
+[10/14/20 13:47:56] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:47:56] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 13:47:56] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:47:57] D2BS 61124: move retry 1
+[10/14/20 13:48:08] D2BS 61124: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:48:11] D2BS 61124: initNPC: BuyPotions
+[10/14/20 13:48:16] D2BS 61124: move retry 1
+[10/14/20 13:49:12] D2BS 61124: ÿc1Skipping Heirophant 51 16
+[10/14/20 13:49:36] D2BS 61124: ÿc1Skipping Heirophant 51 16
+[10/14/20 13:49:53] D2BS 61124: ÿc1Pausing.
+[10/14/20 13:49:54] D2BS 61124: initNPC: heal
+[10/14/20 13:49:58] D2BS 61124: initNPC: identify
+[10/14/20 13:50:03] D2BS 61124: initNPC: fillTome
+[10/14/20 13:50:04] D2BS 61124: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[10/14/20 13:50:05] D2BS 61124: initNPC: buyPotions
+[10/14/20 13:50:13] D2BS 61124: ÿc2Resuming.
+[10/14/20 13:50:37] D2BS 61124: Script default.dbj ended
+[10/14/20 13:50:37] D2BS 61124: Script tools\autobuildthread.js ended
+[10/14/20 13:50:37] D2BS 61124: Script tools\party.js ended
+[10/14/20 13:50:37] D2BS 61124: Script tools\townchicken.js ended
+[10/14/20 13:50:44] D2BS 61124: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:50:44] D2BS 61124: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:50:44] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 13:50:44] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:50:44] D2BS 61124: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:44] D2BS 61124: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:44] D2BS 61124: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:44] D2BS 61124: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc20 ms
+[10/14/20 13:50:44] D2BS 61124: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc216 ms
+[10/14/20 13:50:44] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 13:50:44] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:50:44] D2BS 61124: AutoBuild: Loaded helper thread
+[10/14/20 13:50:44] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 13:50:44] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:50:44] D2BS 61124: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:50:44] D2BS 61124: ÿc3Start ToolsThread script
+[10/14/20 13:50:44] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 13:50:44] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:50:44] D2BS 61124: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 13:50:44] D2BS 61124: Updating Config from level 0 to 78
+[10/14/20 13:50:53] D2BS 61124: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:50:56] D2BS 61124: initNPC: reviveMerc
+[10/14/20 13:51:07] D2BS 61124: initNPC: heal
+[10/14/20 13:51:13] D2BS 61124: initNPC: BuyPotions
+[10/14/20 13:51:35] D2BS 61124: 75
+[10/14/20 13:51:45] D2BS 61124: move retry 1
+[10/14/20 13:52:16] D2BS 61124: ÿc1Skipping Night Lord 85 16
+[10/14/20 13:52:41] D2BS 61124: initNPC: heal
+[10/14/20 13:52:42] D2BS 61124: move retry 1
+[10/14/20 13:52:46] D2BS 61124: move retry 1
+[10/14/20 13:52:47] D2BS 61124: initNPC: buyPotions
+[10/14/20 13:52:53] D2BS 61124: move retry 1
+[10/14/20 13:52:57] D2BS 61124: 75
+[10/14/20 13:53:21] D2BS 61124: ÿc7Picked up ÿc3Partizan ÿc0(ilvl 85) (Merc.xpac.nip #4)
+[10/14/20 13:54:20] D2BS 61124: initNPC: heal
+[10/14/20 13:54:25] D2BS 61124: initNPC: identify
+[10/14/20 13:54:28] D2BS 61124: ÿc4MiniShopBotÿc0: Scanning 49 items.
+[10/14/20 13:54:32] D2BS 61124: move retry 1
+[10/14/20 13:54:34] D2BS 61124: 75
+[10/14/20 13:54:37] D2BS 61124: move retry 1
+[10/14/20 13:56:46] D2BS 61124: move retry 1
+[10/14/20 13:56:49] D2BS 61124: move retry 1
+[10/14/20 13:56:55] D2BS 61124: ÿc1Skipping Night Lord 86 16
+[10/14/20 13:57:10] D2BS 61124: move retry 1
+[10/14/20 13:57:11] D2BS 61124: move retry 2
+[10/14/20 13:57:14] D2BS 61124: move retry 1
+[10/14/20 13:57:21] D2BS 61124: ÿc4Attackÿc0: No valid positions for: Water Watcher
+[10/14/20 13:57:21] D2BS 61124: ÿc4Attackÿc0: No valid positions for: Water Watcher
+[10/14/20 13:57:22] D2BS 61124: ÿc4Attackÿc0: No valid positions for: Water Watcher
+[10/14/20 13:57:22] D2BS 61124: ÿc4Attackÿc0: No valid positions for: Water Watcher
+[10/14/20 13:57:22] D2BS 61124: ÿc4Attackÿc0: No valid positions for: Water Watcher
+[10/14/20 13:57:42] D2BS 61124: Script default.dbj ended
+[10/14/20 13:57:42] D2BS 61124: Script tools\autobuildthread.js ended
+[10/14/20 13:57:42] D2BS 61124: Script tools\party.js ended
+[10/14/20 13:57:42] D2BS 61124: Script tools\toolsthread.js ended
+[10/14/20 13:57:42] D2BS 61124: Script tools\townchicken.js ended
+[10/14/20 13:57:48] D2BS 61124: D2BS Shutdown complete.
+[10/14/20 13:57:49] D2BS 11332: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:57:49] D2BS 11332: LightSorc
+[10/14/20 13:57:49] D2BS 11332: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 13:57:49] D2BS 11332: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:57:49] D2BS 11332: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:57:49] D2BS 11332: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:57:49] D2BS 11332: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:57:51] D2BS 11332: Heartbeat loaded
+[10/14/20 13:58:08] D2BS 11332: D2BS Shutdown complete.
+[10/14/20 13:58:09] D2BS 66436: D2BS Engine startup complete. 1.6.4U
+[10/14/20 13:58:09] D2BS 66436: LightSorc
+[10/14/20 13:58:09] D2BS 66436: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 13:58:09] D2BS 66436: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 13:58:09] D2BS 66436: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 13:58:09] D2BS 66436: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 13:58:09] D2BS 66436: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 13:58:11] D2BS 66436: Heartbeat loaded
+[10/14/20 13:58:22] D2BS 66436: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 13:58:22] D2BS 66436: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 13:58:22] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 13:58:22] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 13:58:22] D2BS 66436: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:22] D2BS 66436: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:22] D2BS 66436: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:22] D2BS 66436: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc216 ms
+[10/14/20 13:58:22] D2BS 66436: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 13:58:22] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 13:58:22] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 13:58:22] D2BS 66436: AutoBuild: Loaded helper thread
+[10/14/20 13:58:22] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 13:58:22] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 13:58:22] D2BS 66436: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 13:58:22] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 13:58:22] D2BS 66436: ÿc3Start ToolsThread script
+[10/14/20 13:58:22] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 13:58:22] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 13:58:22] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 13:58:32] D2BS 66436: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 13:58:35] D2BS 66436: initNPC: BuyPotions
+[10/14/20 13:58:48] D2BS 66436: 40
+[10/14/20 13:58:51] D2BS 66436: 40,41
+[10/14/20 13:59:07] D2BS 66436: initNPC: heal
+[10/14/20 13:59:52] D2BS 66436: initNPC: buyPotions
+[10/14/20 14:00:13] D2BS 66436: initNPC: heal
+[10/14/20 14:00:17] D2BS 66436: move retry 1
+[10/14/20 14:00:19] D2BS 66436: move retry 1
+[10/14/20 14:00:22] D2BS 66436: move retry 1
+[10/14/20 14:00:26] D2BS 66436: 75
+[10/14/20 14:01:35] D2BS 66436: Script default.dbj ended
+[10/14/20 14:01:35] D2BS 66436: Script tools\autobuildthread.js ended
+[10/14/20 14:01:35] D2BS 66436: Script tools\party.js ended
+[10/14/20 14:01:35] D2BS 66436: Script tools\toolsthread.js ended
+[10/14/20 14:01:35] D2BS 66436: Script tools\townchicken.js ended
+[10/14/20 14:01:42] D2BS 66436: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:01:42] D2BS 66436: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:01:42] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 14:01:42] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:01:42] D2BS 66436: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:01:42] D2BS 66436: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:01:42] D2BS 66436: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 14:01:42] D2BS 66436: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 14:01:42] D2BS 66436: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:01:42] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 14:01:42] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:01:42] D2BS 66436: AutoBuild: Loaded helper thread
+[10/14/20 14:01:42] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 14:01:42] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:01:42] D2BS 66436: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 14:01:42] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 14:01:42] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:01:42] D2BS 66436: ÿc3Start ToolsThread script
+[10/14/20 14:01:42] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 14:01:42] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:01:52] D2BS 66436: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 14:01:54] D2BS 66436: initNPC: BuyPotions
+[10/14/20 14:02:36] D2BS 66436: move retry 1
+[10/14/20 14:03:04] D2BS 66436: move retry 1
+[10/14/20 14:03:18] D2BS 66436: Script default.dbj ended
+[10/14/20 14:03:18] D2BS 66436: Script tools\autobuildthread.js ended
+[10/14/20 14:03:18] D2BS 66436: Script tools\party.js ended
+[10/14/20 14:03:18] D2BS 66436: Script tools\townchicken.js ended
+[10/14/20 14:03:25] D2BS 66436: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:03:25] D2BS 66436: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:03:25] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 14:03:25] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:03:25] D2BS 66436: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:03:25] D2BS 66436: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:03:25] D2BS 66436: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 14:03:25] D2BS 66436: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 14:03:25] D2BS 66436: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:03:25] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 14:03:25] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:03:25] D2BS 66436: AutoBuild: Loaded helper thread
+[10/14/20 14:03:25] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 14:03:25] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:03:25] D2BS 66436: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 14:03:25] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 14:03:25] D2BS 66436: ÿc3Start ToolsThread script
+[10/14/20 14:03:25] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:03:25] D2BS 66436: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 14:03:25] D2BS 66436: Updating Config from level 0 to 78
+[10/14/20 14:03:32] D2BS 66436: move retry 1
+[10/14/20 14:03:36] D2BS 66436: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 14:03:39] D2BS 66436: initNPC: heal
+[10/14/20 14:03:44] D2BS 66436: initNPC: BuyPotions
+[10/14/20 14:03:59] D2BS 66436: ÿc1Pausing.
+[10/14/20 14:03:59] D2BS 66436: initNPC: heal
+[10/14/20 14:04:05] D2BS 66436: initNPC: buyPotions
+[10/14/20 14:04:15] D2BS 66436: ÿc2Resuming.
+[10/14/20 14:04:44] D2BS 66436: ÿc1Skipping Water Watcher 97 16
+[10/14/20 14:04:57] D2BS 66436: Script default.dbj ended
+[10/14/20 14:04:57] D2BS 66436: Script tools\autobuildthread.js ended
+[10/14/20 14:04:57] D2BS 66436: Script tools\party.js ended
+[10/14/20 14:04:57] D2BS 66436: Script tools\toolsthread.js ended
+[10/14/20 14:04:57] D2BS 66436: Script tools\townchicken.js ended
+[10/14/20 14:05:03] D2BS 66436: D2BS Shutdown complete.
+[10/14/20 14:05:04] D2BS 62648: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:05:04] D2BS 62648: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 14:05:04] D2BS 62648: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:05:04] D2BS 62648: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:05:04] D2BS 62648: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:05:04] D2BS 62648: LightSorc
+0 :: Started Console Script
+[10/14/20 14:05:06] D2BS 62648: Heartbeat loaded
+[10/14/20 14:05:23] D2BS 62648: D2BS Shutdown complete.
+[10/14/20 14:05:24] D2BS 41804: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:05:24] D2BS 41804: LightSorc
+[10/14/20 14:05:24] D2BS 41804: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 14:05:24] D2BS 41804: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:05:24] D2BS 41804: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:05:24] D2BS 41804: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:05:24] D2BS 41804: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:05:25] D2BS 41804: Heartbeat loaded
+[10/14/20 14:05:44] D2BS 41804: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:05:44] D2BS 41804: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:05:44] D2BS 41804: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 14:05:44] D2BS 41804: Updating Config from level 0 to 78
+[10/14/20 14:05:44] D2BS 41804: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:05:44] D2BS 41804: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/14/20 14:05:44] D2BS 41804: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 14:05:44] D2BS 41804: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 14:05:44] D2BS 41804: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:05:44] D2BS 41804: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 14:05:44] D2BS 41804: Updating Config from level 0 to 78
+[10/14/20 14:05:44] D2BS 41804: AutoBuild: Loaded helper thread
+[10/14/20 14:05:45] D2BS 41804: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 14:05:45] D2BS 41804: Updating Config from level 0 to 78
+[10/14/20 14:05:45] D2BS 41804: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 14:05:45] D2BS 41804: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 14:05:45] D2BS 41804: ÿc3Start ToolsThread script
+[10/14/20 14:05:45] D2BS 41804: Updating Config from level 0 to 78
+[10/14/20 14:05:45] D2BS 41804: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 14:05:45] D2BS 41804: Updating Config from level 0 to 78
+[10/14/20 14:05:56] D2BS 41804: ÿc2Starting script: ÿc9LevelFollower
+[10/14/20 14:06:01] D2BS 41804: initNPC: reviveMerc
+[10/14/20 14:06:39] D2BS 41804: initNPC: BuyPotions
+[10/14/20 14:06:53] D2BS 41804: move retry 1
+[10/14/20 14:07:01] D2BS 41804: 75
+[10/14/20 14:07:44] D2BS 41804: ÿc1Skipping Water Watcher 112 16
+[10/14/20 14:07:56] D2BS 41804: ÿc1Skipping Water Watcher 110 16
+[10/14/20 14:08:05] D2BS 41804: ÿc7Picked up ÿc3Grand Charm ÿc0(ilvl 85) (LateGame.nip #9)
+[10/14/20 14:08:05] D2BS 41804: ÿc7Picked up ÿc43160 Gold
+[10/14/20 14:16:54] D2BS 41804: Script default.dbj ended
+[10/14/20 14:16:54] D2BS 41804: Script tools\autobuildthread.js ended
+[10/14/20 14:16:54] D2BS 41804: Script tools\party.js ended
+[10/14/20 14:16:54] D2BS 41804: Script tools\toolsthread.js ended
+[10/14/20 14:16:54] D2BS 41804: Script tools\townchicken.js ended
+[10/14/20 14:17:01] D2BS 41804: D2BS Shutdown complete.
+[10/14/20 14:17:01] D2BS 60928: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:17:01] D2BS 60928: LightSorc
+[10/14/20 14:17:01] D2BS 60928: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 14:17:01] D2BS 60928: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:17:01] D2BS 60928: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:17:01] D2BS 60928: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:17:01] D2BS 60928: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:17:03] D2BS 60928: Heartbeat loaded
+[10/14/20 14:17:21] D2BS 60928: D2BS Shutdown complete.
+[10/14/20 14:17:21] D2BS 61848: D2BS Engine startup complete. 1.6.4U
+[10/14/20 14:17:21] D2BS 61848: LightSorc
+[10/14/20 14:17:21] D2BS 61848: ÿc2D2BSÿc0 :: Switched to profile LightSorc
+[10/14/20 14:17:21] D2BS 61848: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/14/20 14:17:21] D2BS 61848: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/14/20 14:17:21] D2BS 61848: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/14/20 14:17:21] D2BS 61848: ÿc2D2BSÿc0 :: Started Console Script
+[10/14/20 14:17:24] D2BS 61848: Heartbeat loaded
+[10/14/20 14:17:41] D2BS 61848: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/14/20 14:17:41] D2BS 61848: ÿc2D2BSÿc0 :: default.dbj running.
+[10/14/20 14:17:41] D2BS 61848: AutoBuild: Including build template config/builds/sorceress.light.js into default.dbj
+[10/14/20 14:17:41] D2BS 61848: Updating Config from level 0 to 78
+[10/14/20 14:17:41] D2BS 61848: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/14/20 14:17:41] D2BS 61848: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/14/20 14:17:41] D2BS 61848: ÿc4Loaded NIP: ÿc2LightRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/14/20 14:17:41] D2BS 61848: ÿc4Loaded NIP: ÿc2Light.xpac.nipÿc4. Lines: ÿc2130ÿc4. Valid entries: ÿc2113. ÿc4Time: ÿc215 ms
+[10/14/20 14:17:41] D2BS 61848: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/14/20 14:17:41] D2BS 61848: AutoBuild: Including build template config/builds/sorceress.light.js into tools\autobuildthread.js
+[10/14/20 14:17:41] D2BS 61848: Updating Config from level 0 to 78
+[10/14/20 14:17:41] D2BS 61848: AutoBuild: Loaded helper thread
+[10/14/20 14:17:42] D2BS 61848: AutoBuild: Including build template config/builds/sorceress.light.js into tools\party.js
+[10/14/20 14:17:42] D2BS 61848: Updating Config from level 0 to 78
+[10/14/20 14:17:42] D2BS 61848: ÿc2Party thread loaded. Mode: Accept
+[10/14/20 14:17:42] D2BS 61848: ÿc3Start ToolsThread script
+[10/14/20 14:17:42] D2BS 61848: AutoBuild: Including build template config/builds/sorceress.light.js into tools\townchicken.js
+[10/14/20 14:17:42] D2BS 61848: AutoBuild: Including build template config/builds/sorceress.light.js into tools\toolsthread.js
+[10/14/20 14:17:42] D2BS 61848: Updating Config from level 0 to 78
+[10/14/20 14:17:42] D2BS 61848: Updating Config from level 0 to 78
