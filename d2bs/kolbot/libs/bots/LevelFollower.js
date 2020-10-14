@@ -264,12 +264,16 @@ function LevelFollower(){
 				MyMerc=me.getMerc();
 			}
 		}
-		if(MyMerc){if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){ReplaceMerc=true;}}
-		else{
-			Town.goToTown(1);
-			this.talkToNPC("Kashya");
-			this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
-		}		
+		if(MyMerc){
+			if(Math.abs(me.charlvl-MyMerc.charlvl) > 10){
+				ReplaceMerc=true;
+			}
+		}
+		// else{
+			// Town.goToTown(1);
+			// this.talkToNPC("Kashya");
+			// this.logProgress(me.getMerc(),"Got free Merc - "+me.name);
+		// }		
 		if(ReplaceMerc && me.act >= 2){
 			this.unEquipMerc();
 			delay(1000);

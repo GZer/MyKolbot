@@ -152,6 +152,16 @@ var Town = {
 			item.interact();
 		}
 
+		/*Kashya for Free Merc*/
+		if(me.getQuest(2, 1)) {
+			this.goToTown(1);
+			this.move(NPC.Kashya);
+			npc=getUnit(1,NPC.Kashya);
+			if(npc && npc.openMenu()){
+				me.cancel();
+			}
+		}
+
 		/*Book Of Skill*/
 		if (me.getItem(552)) {
 			item = me.getItem(552);
