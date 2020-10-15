@@ -401,10 +401,7 @@ function LevelLeader(){
 		Precast.doPrecast(true);
 		while(Count < 30){
 			try{Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true);}
-			catch(err){
-				LevelTown.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));
-				return false;
-			}
+			catch(err){LevelTown.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));0}
 			Attack.clear(5);
 			Count++;
 		}
@@ -415,10 +412,7 @@ function LevelLeader(){
 		var Count=0;
 		while(Count < 30 && !(me.area == DestinationArea)){
 			try{Pather.moveToExit(DestinationArea,true,true);}
-			catch(err){
-				Pather.journeyTo(DestinationArea);
-				return false;
-			}
+			catch(err){Pather.journeyTo(DestinationArea);}
 			Attack.clear(5);
 			Count++;
 		}
@@ -476,7 +470,7 @@ function LevelLeader(){
 			}
 		}
 		Pickit.pickItems();
-		return this.getPlayerCount() == 8;
+		return true;
 	};
 	
 	this.killQuestBoss=function(BossId){
