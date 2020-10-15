@@ -79,7 +79,8 @@ function LevelLeader(){
 					});
 				}
 				while(!Pather.getPortal(38) && i < 20){
-					delay(1000);i++;
+					delay(1000);
+					i++;
 				}
 				Pather.usePortal(38);
 				this.tryMakePortal();
