@@ -117,7 +117,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.Dodge=true;
-				Config.DodgeRange=10;
+				Config.DodgeRange=5;
 				Config.DodgeHP=35;
 			}
 		},
@@ -158,7 +158,7 @@ var AutoBuildTemplate={
 			SkillPoints: [38],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.DodgeRange=15;
+				Config.DodgeRange=10;
 				Config.DodgeHP=50;
 			}
 		},
@@ -269,7 +269,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.LowManaSkill=[38,38];
-				Config.DodgeRange=20;
+				Config.DodgeRange=15;
 				Config.DodgeHP=70;
 			}	
 		},
@@ -319,7 +319,6 @@ var AutoBuildTemplate={
 			SkillPoints: [57],//Thunder Storm
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.DodgeRange=20;
 				Config.DodgeHP=90;
 			}
 		},
@@ -701,6 +700,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.Gamble=false;
+				Config.DodgeRange=20;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);

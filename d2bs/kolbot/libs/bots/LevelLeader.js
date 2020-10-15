@@ -15,7 +15,7 @@ function LevelLeader(){
 	75,76,77,78,79,80,81,83,101,
 	103,106,107,
 	109,111,112,113,115,123,117,118,129];
-	var LevelingAreas=[[2,17,3,8,4,5,6,27,28,29,32,34,35,36,37],
+	var LevelingAreas=[[2,3,17,8,4,5,6,27,28,29,32,34,35,36,37],
 	[47,48,49,42,56,57,43,62,44,45,52,54,74,46,TalRashaTomb],
 	[76,77,78,79,80,94,81,83,100,101,102],
 	[104,105,106,107,108],
@@ -38,7 +38,7 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(2,0),"Blood Raven");
 			break;
 			case 3: //Cold Plains
-				Attack.clearLevel(0);
+				if(me.charlvl < 6){Attack.clearLevel(0);}
 				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
 				LevelTown.doChores();

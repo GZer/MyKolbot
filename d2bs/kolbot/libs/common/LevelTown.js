@@ -131,7 +131,9 @@ var LevelTown={
 			if(Math.abs(me.charlvl-MyMerc.charlvl)> 10){
 				ReplaceMerc=true;
 			}
-		}		
+		}else if(me.act >= 2 && !(me.mercrevivecost > 0)){
+			this.hireA2Merc();
+		}
 		if(ReplaceMerc && me.act >= 2){
 			this.unEquipMerc();delay(1000);this.unEquipMerc();
 			this.hireA2Merc();
