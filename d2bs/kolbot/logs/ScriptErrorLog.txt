@@ -1,0 +1,4 @@
+[2020/10/15 15:16:22] <Hammerdin> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:381, @levelfollower.js:269, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2158, Pather.makePortal@pather.js:1045
+[2020/10/15 15:26:03] <Summoner> Error in LevelFollower (pather.js line 1045): makePortal: No TP tomes.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:367, @levelfollower.js:356, @levelfollower.js:269, Pather.journeyTo@pather.js:1373, Town.goToTown@town.js:2158, Pather.makePortal@pather.js:1045
