@@ -30,3 +30,7 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:367, @levelfollower.js:356, @levelfollower.js:278
 [2020/10/15 14:06:46] <LightSorc> Error in LevelFollower (levelfollower.js line 278): LeaderUnit is undefined
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:367, @levelfollower.js:356, @levelfollower.js:278
+[2020/10/15 14:28:01] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:869, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/15 14:30:59] <FireSorc> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:381, @levelfollower.js:269, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
