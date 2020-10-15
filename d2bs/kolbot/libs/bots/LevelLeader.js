@@ -401,7 +401,7 @@ function LevelLeader(){
 		Precast.doPrecast(true);
 		while(Count < 30){
 			try{Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true);}
-			catch(err){LevelTown.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));0}
+			catch(err){LevelTown.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));}
 			Attack.clear(5);
 			Count++;
 		}
