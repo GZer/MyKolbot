@@ -192,7 +192,7 @@
 // };
 
 function LevelFollower(){
-	var LeaderUnit,LeaderUnit,TalRashaTomb=getRoom().correcttomb;
+	var LeaderUnit,WhoIsLeader,TalRashaTomb=getRoom().correcttomb;
 	var TownWaypoints=[0,40,75,103,109],TeleportAreas=[62,74,76,77,78,88];
 	
 	this.goFindLeader=function(LeaderArea){
@@ -275,7 +275,7 @@ function LevelFollower(){
 				Pather.getWP(me.area,true);
 			}
 			//Go to leader if not in Town
-			if(!me.inTown){Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);}
+			if(!me.inTown){Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);}
 			else{
 				LevelTown.doChores();
 				Town.move("portalspot");
@@ -341,19 +341,19 @@ function LevelFollower(){
 		var Player=getUnit(0,name);
 		if(Player){
 			do{if(Player.mode != 0 && Player.mode != 17){return Player;}}
-			while(Player.getNext(LeaderUnit.area));
+			while(Player.getNext(WhoIsLeader.area));
 		}
 		return false;
 	};
 	
 	this.assignLeaderUnit=function(){
 		var partyTimeout=0;
-		LeaderUnit=getParty(Config.Leader);
+		WhoIsLeader=getParty(Config.Leader);
 		//Loop to ensure leader is assigned
 		while(!this.getLeaderUnit(Config.Leader)){
 			delay(500);
 			partyTimeout++;
-			this.goFindLeader(LeaderUnit.area);
+			this.goFindLeader(WhoIsLeader.area);
 			if(partyTimeout > 5){
 				quit();
 			}
@@ -378,7 +378,7 @@ function LevelFollower(){
 			}
 			delay(250);
 		}else{
-			this.goFindLeader(LeaderUnit.area);
+			this.goFindLeader(WhoIsLeader.area);
 		}
 		delay(500);
 	}

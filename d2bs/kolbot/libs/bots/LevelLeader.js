@@ -5,7 +5,7 @@
 */
 
 function LevelLeader(){
-	var ActNumber,QuestNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb;
+	var ActNumber,LevelArea,WaitingLimit,TalRashaTomb=getRoom().correcttomb;
 	var TeleSorcs=["Zer_Fire","Zer_Light","Zer_Cold"];
 	var MercId=[],MyMercDiff=0,MercAuraName,HiredMercAura;
 	var MercAuraSkills=[103,104,98,114,99,108,103];
@@ -856,7 +856,9 @@ function LevelLeader(){
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		var UptoAct=ActNumber+1;
-		if(!LevelTown.changeAct(UptoAct)){LevelTown.changeAct(UptoAct);say("Quitting");quit();}
+		if(me.act != UptoAct){
+			if(!LevelTown.changeAct(UptoAct)){quit();}
+		}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			var UpToArea=LevelingAreas[ActNumber][LevelArea],NextArea=0;
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
@@ -864,7 +866,7 @@ function LevelLeader(){
 			}
 			//Act3 Jungle/Marsh stupidity
 			if(UpToArea == 78){Pather.useWaypoint(78);}
-			else{this.clearToNextArea(UpToArea);}
+			else{Pather.journeyTo(UpToArea);}
 			if(me.area == UpToArea){
 				this.tryMakePortal();
 				WaitingLimit=15;
