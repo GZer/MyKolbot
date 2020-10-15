@@ -164,7 +164,7 @@ function LevelLeader(){
 					LevelTown.talkToNPC(NPC.Drognan,2);
 					LevelTown.talkToNPC(NPC.Jerhyn,2);
 				}else{
-					LevelTown.logProgress(false,"Quit CubingStaff");delay(5000);quit();
+					this.saveAndQuit("CubingStaff");
 				}
 				LevelTown.logProgress(me.getQuest(11,0),"Amulet of Viper");
 			break;
@@ -178,6 +178,18 @@ function LevelLeader(){
 				Pather.getWP(46,true);
 				LevelTown.talkToNPC(NPC.Atma,2);
 				LevelTown.logProgress(me.getQuest(13,0),"Summoner");
+			break;
+			case 46: //Canyon of the Magi
+				Attack.clearLevel(0);
+				if(me.charlvl < 25){
+					for(i=66; i < 73; i++){
+						Pather.journeyTo(i);
+						Attack.clearLevel(0);
+						LevelTown.doChores();
+						if(me.lvl >= 25){i=73;}
+					}
+				}
+				LevelTown.doChores();
 			break;
 			case TalRashaTomb: //Duriel
 				if(!me.getQuest(13,0)){this.CheckQuests(74);}
@@ -197,18 +209,17 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(14,0),"Duriel");
 			break;
 			case 76: //Skip Act3 Jungles
-				if(me.diff == 2){
-					Attack.clearLevel(0);
-					if(!this.getKhalimEye()){quit();}
-					Pather.useWaypoint(76);
-				}
-				if(!this.skipAreas(76,77)){delay(5000);quit();}
+				Attack.clearLevel(0);
+				if(!this.getKhalimEye()){this.saveAndQuit("Get Khalim Eye");}
+				LevelTown.doChores();
+				Pather.useWaypoint(76);
+				if(!this.skipAreas(76,77)){this.saveAndQuit("Skip to "+Pather.getAreaName(77));}
 			break;
 			case 77: //Skip Act3 Jungles
-				if(!this.skipAreas(77,78)){delay(5000);quit();}
+				if(!this.skipAreas(77,78)){this.saveAndQuit("Skip to "+Pather.getAreaName(78));}
 			break;
 			case 78: //Skip Act3 Jungles
-				if(!this.skipAreas(78,79)){delay(5000);quit();}
+				if(!this.skipAreas(78,79)){this.saveAndQuit("Skip to "+Pather.getAreaName(79));}
 			break;
 			case 80: //Khalim Heart
 				this.getKhalimHeart();
@@ -411,10 +422,11 @@ function LevelLeader(){
 		Precast.doPrecast(true);
 		while(Count < 30){
 			try{Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true);}
-			catch(err){LevelTown.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));}
+			catch(err){print("Failed moving to Preset UnitId in "+Pather.getAreaName(QuestArea))}
 			Attack.clear(5);
 			Count++;
 		}
+		LevelTown.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));
 		return true;
 	};
 	
@@ -487,7 +499,7 @@ function LevelLeader(){
 		var Boss=getUnit(1,BossId);
 		try{
 			Attack.clear(20,0,BossId);
-			delay(500);
+			delay(250);
 			Pickit.pickItems();
 		}catch(err){
 			print("Boss not found");
@@ -506,11 +518,11 @@ function LevelLeader(){
 			try{Misc.openChest(Chest);}
 			catch(err){return false;}
 		}
-		delay(1000);
+		delay(500);
 		Item=getUnit(4,ItemId);
 		try{Pickit.pickItem(Item);}
 		catch(err){return false;}
-		delay(1000);
+		delay(500);
 		Pickit.pickItems();
 		LevelTown.logProgress(me.getItem(ItemId),"GetQuestItem: "+ItemId);
 		return me.getItem(ItemId);
@@ -536,7 +548,7 @@ function LevelLeader(){
 			Attack.clear(5);
 			WaitingLimit++;
 		}
-		delay(5000);
+		delay(2500);
 		Precast.doPrecast(true);
 		if(DestinationArea == 74){Pather.useWaypoint(40);}
 		else{
@@ -573,6 +585,14 @@ function LevelLeader(){
 		return false;
 	};
 	
+	this.saveAndQuit=function(Reason){
+		Town.goToTown();
+		Town.initNPC("Heal", "heal");
+		LevelTown.logProgress(false,Reason);
+		delay(10000);
+		quit();
+	};
+	
 //==============ACT V FUNCTIONS==============//
 	
 	this.FreeAnya=function(){
@@ -604,7 +624,7 @@ function LevelLeader(){
 					if(Seal.mode){
 						return true;
 					}
-					delay(100);
+					delay(150);
 				}
 			}
 			LevelTown.logProgress(Seal.mode,"Opening Seal ID:"+SealId);
@@ -620,7 +640,7 @@ function LevelLeader(){
 			try{
 				while(Orb && orbTimeout < 12){
 					Orb.interact();
-					delay(200);
+					delay(250);
 					orbTimeout++;
 				}
 			}catch(err){
@@ -641,10 +661,10 @@ function LevelLeader(){
 			Storage.Cube.MoveTo(Brain);
 			Storage.Cube.MoveTo(Heart);
 			if(Flail){Storage.Cube.MoveTo(Flail);}
-			else{LevelTown.logProgress(false,"Quit No Khalims Flail");delay(5000);quit();}
+			else{this.saveAndQuit("Khalims Flail");}
 			Cubing.openCube();
 			transmute();
-			delay(1000);
+			delay(500);
 		}
 		Will=me.getItem(174);
 		if(Will){
@@ -660,9 +680,7 @@ function LevelLeader(){
 				Storage.Inventory.MoveTo(Will);
 			}
 		}else{
-			LevelTown.logProgress(false,"Quit No Khalims Will");
-			delay(5000);
-			quit();
+			this.saveAndQuit("Khalims Flail");
 		}
 		me.cancel();
 		LevelTown.logProgress(me.getItem(174),"Making Khalim Will");
@@ -678,12 +696,7 @@ function LevelLeader(){
 			GotOrgans=((me.getItem(553) && me.getItem(554) && me.getItem(555)) || me.getItem(174));
 		}
 		LevelTown.logProgress(GotOrgans,"Khalims Organs or Will");
-		if(!GotOrgans){
-			print("Quitting");
-			delay(5000);
-			LevelTown.doChores();
-			quit();
-		}
+		if(!GotOrgans){this.saveAndQuit("Khalims Organs");}
 		return GotOrgans;
 	};
 
@@ -754,7 +767,7 @@ function LevelLeader(){
 				Pather.moveToUnit(NPC);
 			}
 			NPC.interact();
-			delay(2000);
+			delay(1000);
 			me.cancel();
 		}
 		return true;
@@ -763,7 +776,7 @@ function LevelLeader(){
 	this.placeStaff=function(){
 		var HoradricStaff=me.getItem(91),Item,Orifice=getUnit(2,152);
 		if(!me.getQuest(10,0)){
-			if(!Orifice){LevelTown.logProgress(false,"Quit Orifice");delay(5000);quit();}
+			if(!Orifice){this.saveAndQuit("Duriel Orifice");}
 			if(!HoradricStaff){
 				LevelTown.doChores();
 				this.cubeStaff();
@@ -775,7 +788,7 @@ function LevelLeader(){
 			Misc.openChest(Orifice);
 			HoradricStaff.toCursor();
 			submitItem();
-			delay(1000);
+			delay(500);
 			Item=me.findItem(-1,0,3);
 			if(Item && Item.toCursor()){
 				Storage.Inventory.MoveTo(Item);
@@ -796,10 +809,10 @@ function LevelLeader(){
 		}else{this.CheckQuests(57);}
 		Cubing.openCube();
 		transmute();
-		delay(1000);
+		delay(500);
 		HoradricStaff=me.getItem(91);
 		if(HoradricStaff){Storage.Inventory.MoveTo(HoradricStaff);}
-		else{delay(5000);quit();}
+		else{this.saveAndQuit("Making HoradricStaff");}
 		me.cancel();
 		LevelTown.logProgress(me.getItem(91),"Make Horadric Staff");
 		return me.getItem(91);
@@ -820,9 +833,7 @@ function LevelLeader(){
 		if(!me.getQuest(38,3)){print("Nihlathak");this.CheckQuests(124);}
 		FileTools.appendText("logs/ProgressLog.txt","Finished FinalCheck \n");
 		LevelTown.doChores();
-		say("New Game Son");
-		delay(10000);
-		quit();
+		this.saveAndQuit("New Game");
 	};
 	
 	this.checkProgress=function(){
@@ -847,7 +858,7 @@ function LevelLeader(){
 	
 	this.assignTeleSorcs=function(){
 		var Party=getParty(),TeleSorcs=[],PartyCount=0,RunCount=0;
-		while(PartyCount<8 && RunCount<10){do{PartyCount++;}while(Party.getNext());delay(3000);RunCount++;}
+		while(PartyCount<8 && RunCount<10){do{PartyCount++;}while(Party.getNext());delay(5000);RunCount++;}
 		do{TeleSorcs.push(Party.name);}while(Party.getNext() && Party.classid == 1);
 		return PartyCount == 8;
 	};
@@ -855,14 +866,13 @@ function LevelLeader(){
 	//Start Script
 	// while(true){if(me.getQuest(17,3)){say("Got");}say(me.x+","+me.y);delay(2000);}
 	LevelTown.configCharacter();
-	Pather.getWP(me.area);
 	this.assignTeleSorcs();
 	this.checkProgress();
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		var UptoAct=ActNumber+1;
 		if(me.act != UptoAct){
-			if(!LevelTown.changeAct(UptoAct)){quit();}
+			if(!LevelTown.changeAct(UptoAct)){this.saveAndQuit("Act Change");}
 		}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			var UpToArea=LevelingAreas[ActNumber][LevelArea],NextArea=0;

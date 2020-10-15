@@ -133,33 +133,29 @@ var LevelTown={
 			}
 		}		
 		if(ReplaceMerc && me.act >= 2){
-			this.unEquipMerc();
-			if(this.hireA2Merc()){
-				try{Item.autoEquipMerc();}
-				catch(err){print("Failed to AutoEquip Merc");}
-			}
+			this.unEquipMerc();delay(1000);this.unEquipMerc();
+			this.hireA2Merc();
+			try{Item.autoEquipMerc();delay(1000);Item.autoEquipMerc();}
+			catch(err){print("Failed to AutoEquip Merc");}
 		}
 	},
 	
 	unEquipMerc: function(){
-		var CursorItem,i,Count;
-		/*Unequip Merc twice*/		
-		for(Count=0; i < 2; Count++){
-			for(i=1; i < 5; i++){
-				//2 Handed Weapons fix
-				if(i == 2){i=3;}
-				clickItem(4,i);
+		var CursorItem,i;
+		for(i=1; i < 5; i++){
+			//2 Handed Weapons fix
+			if(i == 2){i=3;}
+			clickItem(4,i);
+			delay(1000);
+			if(me.Itemoncursor){
 				delay(1000);
-				if(me.Itemoncursor){
-					delay(1000);
-					CursorItem=getUnit(100);
-					if(CursorItem){
-						Storage.Inventory.MoveTo(CursorItem);
-						delay(1500);					
-						if(me.Itemoncursor){
-							Misc.click(0,0,me);
-							delay(1000);
-						}
+				CursorItem=getUnit(100);
+				if(CursorItem){
+					Storage.Inventory.MoveTo(CursorItem);
+					delay(1500);					
+					if(me.Itemoncursor){
+						Misc.click(0,0,me);
+						delay(1000);
 					}
 				}
 			}
@@ -264,10 +260,9 @@ var LevelTown={
 		me.cancel();
 		delay(150);
 		Pickit.pickItems();
+		Pather.getWP(me.area);
 		/*Check Merc Status*/
-		if(Config.useMerc){
-			this.checkMerc();
-		}
+		this.checkMerc();
 	}
 };
 	

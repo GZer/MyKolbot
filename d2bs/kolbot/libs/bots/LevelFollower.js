@@ -5,7 +5,7 @@
 */
 
 function LevelFollower(){
-	var LeaderUnit,WhoIsLeader,TalRashaTomb=getRoom().correcttomb;
+	var TheLeader,LeaderUnit,TalRashaTomb=getRoom().correcttomb;
 	var TownWaypoints=[0,40,75,103,109],TeleportAreas=[62,74,76,77,78,88];
 	
 	this.goFindLeader=function(LeaderArea){
@@ -76,26 +76,25 @@ function LevelFollower(){
 								}
 							}
 						break;
-						default:
-							Pather.teleport=true;
-							delay(500);
-							Pather.journeyTo(LeaderArea);
-						break;
 					}
 				}
-				delay(150);
-				Pather.teleport=false;
-				Pather.getWP(me.area,true);
+				Pather.teleport=true;
+				delay(250);
+				Pather.journeyTo(LeaderArea);
 			}
+			Pather.teleport=false;
+			delay(250);
+			Pather.getWP(me.area,true);
 			//Go to leader if not in Town
-			if(!me.inTown){Pather.moveTo(WhoIsLeader.x-2,WhoIsLeader.y-2,2,true);}
-			else{
+			if(!me.inTown){
+				Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);
+			}else{
 				LevelTown.doChores();
 				Town.move("portalspot");
 			}
 		}else{
 			print("Leader not partied");
-			delay(1000);
+			delay(500);
 		}
 		return true;
 	};
@@ -150,50 +149,50 @@ function LevelFollower(){
 	};
 	
 	//Get Leader's unit identifier
-	this.getLeaderUnit=function(name){
+	this.getTheLeader=function(name){
 		var Player=getUnit(0,name);
 		if(Player){
 			do{if(Player.mode != 0 && Player.mode != 17){return Player;}}
-			while(Player.getNext(WhoIsLeader.area));
+			while(Player.getNext(LeaderUnit.area));
 		}
 		return false;
 	};
 	
-	this.assignLeaderUnit=function(){
+	this.assignTheLeader=function(){
 		var partyTimeout=0;
-		WhoIsLeader=getParty(Config.Leader);
+		LeaderUnit=getParty(Config.Leader);
 		//Loop to ensure leader is assigned
-		while(!this.getLeaderUnit(Config.Leader)){
+		while(!this.getTheLeader(Config.Leader)){
 			delay(500);
 			partyTimeout++;
-			this.goFindLeader(WhoIsLeader.area);
+			this.goFindLeader(LeaderUnit.area);
 			if(partyTimeout > 5){
 				quit();
 			}
 		}
-		LeaderUnit=this.getLeaderUnit(Config.Leader);
+		TheLeader=this.getTheLeader(Config.Leader);
 	};
 	
 	//Start Script
 	LevelTown.configCharacter();
 	Town.move("portalspot");
-	this.assignLeaderUnit();
+	this.assignTheLeader();
 	
-	while(LeaderUnit){
-		if(copyUnit(LeaderUnit).x){
-			if(getDistance(me,LeaderUnit) > 5){
+	while(TheLeader){
+		if(copyUnit(TheLeader).x){
+			if(getDistance(me,TheLeader) > 5){
 				Pather.teleport=false;
 				if(me.inTown){Town.move("portalspot");}
 				else{
-					Pather.moveToUnit(LeaderUnit,rand(-4,4),rand(-4,4),true,true);
+					Pather.moveToUnit(TheLeader,rand(-4,4),rand(-4,4),true,true);
 					Attack.clear(20);
 				}
 			}
-			delay(250);
+			delay(150);
 		}else{
-			this.goFindLeader(WhoIsLeader.area);
+			this.goFindLeader(LeaderUnit.area);
 		}
-		delay(500);
+		delay(250);
 	}
 	return true;
 }
