@@ -254,7 +254,7 @@ var LevelTown={
 			}
 			Count++;
 		}
-		this.logProgress(ActChanged,"Change to Act"+DestinationAct+" failed - "+me.name);
+		this.logProgress(ActChanged,"Change to Act"+DestinationAct+" - "+me.name);
 		return ActChanged;
 	},
 	
