@@ -181,12 +181,12 @@ function LevelLeader(){
 			break;
 			case 46: //Canyon of the Magi
 				Attack.clearLevel(0);
-				if(me.charlvl < 25){
+				if(me.charlvl < 24){
 					for(i=66; i < 73; i++){
 						Pather.journeyTo(i);
 						Attack.clearLevel(0);
 						LevelTown.doChores();
-						if(me.lvl >= 25){i=73;}
+						if(me.charlvl >= 24){i=73;}
 					}
 				}
 				LevelTown.doChores();

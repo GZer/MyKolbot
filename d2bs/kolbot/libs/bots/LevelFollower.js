@@ -28,6 +28,7 @@ function LevelFollower(){
 				//Check leader or any portals to area otherwise walk to leader
 				if(Pather.getPortal(LeaderArea,Config.Leader)){Pather.usePortal(LeaderArea,Config.Leader);}
 				else if(Pather.getPortal(LeaderArea,null)){Pather.usePortal(LeaderArea,null);}
+				else if(Pather.getPortal(LeaderArea,me.name)){Pather.usePortal(LeaderArea,me.name);}
 				else{
 					switch(LeaderArea){
 						//Go To Town
