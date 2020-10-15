@@ -636,3 +636,198 @@
 [10/15/20 15:25:14] D2BS 15116: LowGold sell Chipped Emerald
 [10/15/20 15:25:14] D2BS 15116: initNPC: clearInventory
 [10/15/20 15:25:39] D2BS 15116: move retry 1
+[10/15/20 15:26:14] D2BS 15116: ÿc7Picked up ÿc48 Gold
+[10/15/20 15:26:18] D2BS 15116: Script default.dbj ended
+[10/15/20 15:26:18] D2BS 15116: Script tools\autobuildthread.js ended
+[10/15/20 15:26:18] D2BS 15116: Script tools\party.js ended
+[10/15/20 15:26:18] D2BS 15116: Script tools\toolsthread.js ended
+[10/15/20 15:26:18] D2BS 15116: Script tools\townchicken.js ended
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 11080
+[10/15/20 15:26:23] D2BS 15116: 77AF196C (ntdll): (filename not available): NtDelayExecution
+[10/15/20 15:26:23] D2BS 15116: 76A12EDF (KERNELBASE): (filename not available): Sleep
+[10/15/20 15:26:23] D2BS 15116: 03083C94 (D2BS): (filename not available): QueryInterface
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 12492
+[10/15/20 15:26:23] D2BS 15116: 77AF164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/15/20 15:26:23] D2BS 15116: 769FF702 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/15/20 15:26:23] D2BS 15116: 004027E5 (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 5036
+[10/15/20 15:26:23] D2BS 15116: 77AF196C (ntdll): (filename not available): NtDelayExecution
+[10/15/20 15:26:23] D2BS 15116: 76A12EDF (KERNELBASE): (filename not available): Sleep
+[10/15/20 15:26:23] D2BS 15116: 004102FC (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 5724
+[10/15/20 15:26:23] D2BS 15116: 77AF164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/15/20 15:26:23] D2BS 15116: 769FF702 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/15/20 15:26:23] D2BS 15116: 0041A845 (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 12424
+[10/15/20 15:26:23] D2BS 15116: 77AF335C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 8768
+[10/15/20 15:26:23] D2BS 15116: 77AF164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/15/20 15:26:23] D2BS 15116: 03107236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/15/20 15:26:23] D2BS 15116: 031F2B1F (D2BS): (filename not available): JS_freeop
+[10/15/20 15:26:23] D2BS 15116: 031F1A5E (D2BS): (filename not available): JS_freeop
+[10/15/20 15:26:23] D2BS 15116: 0311E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 2948
+[10/15/20 15:26:23] D2BS 15116: 77AF196C (ntdll): (filename not available): NtDelayExecution
+[10/15/20 15:26:23] D2BS 15116: 76A12EDF (KERNELBASE): (filename not available): Sleep
+[10/15/20 15:26:23] D2BS 15116: 0308E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/15/20 15:26:23] D2BS 15116: 031101B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/15/20 15:26:23] D2BS 15116: 031F2B1F (D2BS): (filename not available): JS_freeop
+[10/15/20 15:26:23] D2BS 15116: 031F1A5E (D2BS): (filename not available): JS_freeop
+[10/15/20 15:26:23] D2BS 15116: 0311E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: Stack Walk Thread: 6220
+[10/15/20 15:26:23] D2BS 15116: 77AF164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/15/20 15:26:23] D2BS 15116: 03107236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/15/20 15:26:23] D2BS 15116: 031F2B1F (D2BS): (filename not available): JS_freeop
+[10/15/20 15:26:23] D2BS 15116: 031F1A5E (D2BS): (filename not available): JS_freeop
+[10/15/20 15:26:23] D2BS 15116: 0311E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/15/20 15:26:23] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:23] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:23] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:24] D2BS 15116: Stack Walk Thread: 14124
+[10/15/20 15:26:24] D2BS 15116: 0308B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/15/20 15:26:24] D2BS 15116: 030837F8 (D2BS): (filename not available): QueryInterface
+[10/15/20 15:26:24] D2BS 15116: 00408A05 (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:24] D2BS 15116: 00408A81 (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:24] D2BS 15116: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/15/20 15:26:24] D2BS 15116: 00617880 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/15/20 15:26:24] D2BS 15116: 00619352 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/15/20 15:26:24] D2BS 15116: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/15/20 15:26:24] D2BS 15116: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/15/20 15:26:24] D2BS 15116: 00405E6B (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:24] D2BS 15116: 004065C7 (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:24] D2BS 15116: 0040671F (Game): (filename not available): (function-name not available)
+[10/15/20 15:26:24] D2BS 15116: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/15/20 15:26:24] D2BS 15116: 7673FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/15/20 15:26:24] D2BS 15116: 77AE75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:24] D2BS 15116: 77AE75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/15/20 15:26:24] D2BS 15116: Crash File: BlizzardError/2020-10-15 15.26.23/Crash.txt
+[10/15/20 15:26:24] D2BS 15116: D2BS Shutdown complete.
+[10/15/20 15:26:26] D2BS 15312: D2BS Engine startup complete. 1.6.4U
+[10/15/20 15:26:26] D2BS 15312: Wind
+[10/15/20 15:26:26] D2BS 15312: ÿc2D2BSÿc0 :: Switched to profile Wind
+[10/15/20 15:26:26] D2BS 15312: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/15/20 15:26:26] D2BS 15312: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/15/20 15:26:26] D2BS 15312: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/15/20 15:26:26] D2BS 15312: ÿc2D2BSÿc0 :: Started Console Script
+[10/15/20 15:26:28] D2BS 15312: Heartbeat loaded
+[10/15/20 15:26:46] D2BS 15312: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/15/20 15:26:46] D2BS 15312: ÿc2D2BSÿc0 :: default.dbj running.
+[10/15/20 15:26:46] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/15/20 15:26:46] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:26:46] D2BS 15312: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/15/20 15:26:46] D2BS 15312: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/15/20 15:26:46] D2BS 15312: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/15/20 15:26:46] D2BS 15312: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/15/20 15:26:46] D2BS 15312: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc216 ms
+[10/15/20 15:26:46] D2BS 15312: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/15/20 15:26:46] D2BS 15312: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/15/20 15:26:46] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/15/20 15:26:46] D2BS 15312: ÿc2Starting script: ÿc9LevelFollower
+[10/15/20 15:26:46] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:26:46] D2BS 15312: AutoBuild: Loaded helper thread
+[10/15/20 15:26:46] D2BS 15312: initNPC: heal
+[10/15/20 15:26:46] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/15/20 15:26:46] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:26:46] D2BS 15312: ÿc2Party thread loaded. Mode: Accept
+[10/15/20 15:26:46] D2BS 15312: ÿc3Start ToolsThread script
+[10/15/20 15:26:46] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/15/20 15:26:46] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/15/20 15:26:46] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:26:46] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:26:52] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:27:03] D2BS 15312: 1,2
+[10/15/20 15:27:33] D2BS 15312: Script default.dbj ended
+[10/15/20 15:27:33] D2BS 15312: Script tools\autobuildthread.js ended
+[10/15/20 15:27:33] D2BS 15312: Script tools\party.js ended
+[10/15/20 15:27:33] D2BS 15312: Script tools\toolsthread.js ended
+[10/15/20 15:27:33] D2BS 15312: Script tools\townchicken.js ended
+[10/15/20 15:27:40] D2BS 15312: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/15/20 15:27:40] D2BS 15312: ÿc2D2BSÿc0 :: default.dbj running.
+[10/15/20 15:27:40] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/15/20 15:27:40] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:27:40] D2BS 15312: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/15/20 15:27:40] D2BS 15312: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc215 ms
+[10/15/20 15:27:40] D2BS 15312: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/15/20 15:27:40] D2BS 15312: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/15/20 15:27:40] D2BS 15312: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc20 ms
+[10/15/20 15:27:40] D2BS 15312: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/15/20 15:27:40] D2BS 15312: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc216 ms
+[10/15/20 15:27:40] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/15/20 15:27:40] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:27:40] D2BS 15312: AutoBuild: Loaded helper thread
+[10/15/20 15:27:40] D2BS 15312: ÿc2Starting script: ÿc9LevelFollower
+[10/15/20 15:27:40] D2BS 15312: initNPC: heal
+[10/15/20 15:27:40] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/15/20 15:27:40] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:27:40] D2BS 15312: ÿc2Party thread loaded. Mode: Accept
+[10/15/20 15:27:40] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/15/20 15:27:40] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:27:40] D2BS 15312: ÿc3Start ToolsThread script
+[10/15/20 15:27:40] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/15/20 15:27:40] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:27:47] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:27:51] D2BS 15312: move retry 1
+[10/15/20 15:28:01] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:28:12] D2BS 15312: move retry 1
+[10/15/20 15:28:16] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:28:30] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:28:44] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:28:46] D2BS 15312: move retry 1
+[10/15/20 15:28:59] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:29:04] D2BS 15312: move retry 1
+[10/15/20 15:29:06] D2BS 15312: move retry 1
+[10/15/20 15:29:14] D2BS 15312: move retry 1
+[10/15/20 15:29:15] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:29:20] D2BS 15312: move retry 1
+[10/15/20 15:29:30] D2BS 15312: Script default.dbj ended
+[10/15/20 15:29:30] D2BS 15312: Script tools\autobuildthread.js ended
+[10/15/20 15:29:30] D2BS 15312: Script tools\party.js ended
+[10/15/20 15:29:30] D2BS 15312: Script tools\toolsthread.js ended
+[10/15/20 15:29:30] D2BS 15312: Script tools\townchicken.js ended
+[10/15/20 15:29:37] D2BS 15312: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/15/20 15:29:37] D2BS 15312: ÿc2D2BSÿc0 :: default.dbj running.
+[10/15/20 15:29:37] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[10/15/20 15:29:37] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:29:37] D2BS 15312: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/15/20 15:29:37] D2BS 15312: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc215 ms
+[10/15/20 15:29:37] D2BS 15312: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc228ÿc4. Valid entries: ÿc213. ÿc4Time: ÿc20 ms
+[10/15/20 15:29:37] D2BS 15312: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/15/20 15:29:37] D2BS 15312: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc20 ms
+[10/15/20 15:29:37] D2BS 15312: ÿc4Loaded NIP: ÿc2PreMerc.xpac.nipÿc4. Lines: ÿc227ÿc4. Valid entries: ÿc220. ÿc4Time: ÿc20 ms
+[10/15/20 15:29:37] D2BS 15312: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc232ÿc4. Valid entries: ÿc222. ÿc4Time: ÿc20 ms
+[10/15/20 15:29:37] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[10/15/20 15:29:37] D2BS 15312: ÿc2Starting script: ÿc9LevelFollower
+[10/15/20 15:29:37] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:29:37] D2BS 15312: AutoBuild: Loaded helper thread
+[10/15/20 15:29:37] D2BS 15312: initNPC: BuyPotions
+[10/15/20 15:29:37] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[10/15/20 15:29:37] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:29:37] D2BS 15312: ÿc2Party thread loaded. Mode: Accept
+[10/15/20 15:29:37] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[10/15/20 15:29:37] D2BS 15312: ÿc3Start ToolsThread script
+[10/15/20 15:29:37] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:29:37] D2BS 15312: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[10/15/20 15:29:37] D2BS 15312: Updating Config from level 0 to 7
+[10/15/20 15:29:52] D2BS 15312: move retry 1
+[10/15/20 15:31:35] D2BS 15312: initNPC: BuyPotions
