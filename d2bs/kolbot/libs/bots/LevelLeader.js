@@ -50,8 +50,6 @@ function LevelLeader(){
 			break;
 			case 5: //Tristram
 				if(me.getQuest(4,0)){break;}
-				Attack.clearLevel(0);
-				Pather.getWP(5,true);
 				Pather.useWaypoint(1);
 				LevelTown.doChores();
 				Pather.journeyTo(5);
@@ -98,7 +96,6 @@ function LevelLeader(){
 			break;
 			case 6: //Countess
 				if(me.getQuest(5,0)){break;}
-				Attack.clearLevel(0);
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){
 					this.tryMakePortal();
 				}
@@ -114,6 +111,15 @@ function LevelLeader(){
 				LevelTown.doChores();
 				LevelTown.talkToNPC(NPC.Charsi,1);
 				LevelTown.logProgress(me.getQuest(3,3),"Smith");
+			break;
+			case 35: //Catacombs Lvl 2
+				Attack.clearLevel(0);
+				Pather.getWP(35,true);
+				LevelTown.doChores();
+			break;
+			case 36: //Catacombs Lvl 3
+				Attack.clearLevel(0);
+				LevelTown.doChores();
 			break;
 			case 37: //Andariel
 				Pather.moveTo(22535,9653,2,true);
