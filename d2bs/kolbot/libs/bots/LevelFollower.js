@@ -17,7 +17,7 @@
 	// return true;
 // };
 
-// this.ChangeAct=function(DestinationAct){
+// this.changeAct=function(DestinationAct){
 	// if(me.act == DestinationAct){return true;}
 	// var NPC,preArea=me.area,TownWaypoints=[0,40,75,103,109];
 	// if(Pather.accessToAct(DestinationAct) && getWaypoint(WaypointAreas.indexOf(TownWaypoints[DestinationAct-1]))){
@@ -205,7 +205,7 @@ function LevelFollower(){
 			else{LeaderAct=5;}
 			//Make sure we are in the same act
 			if(LeaderAct != me.act){
-				LevelTown.ChangeAct(LeaderAct);
+				LevelTown.changeAct(LeaderAct);
 			}
 			//Act3 Jungle fix			
 			if(me.classid == 1 && (TeleportAreas.indexOf(me.area) > -1) && (TownWaypoints.indexOf(LeaderArea) > -1)){

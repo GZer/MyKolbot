@@ -856,7 +856,7 @@ function LevelLeader(){
 	
 	for(ActNumber; ActNumber < LevelingAreas.length; ActNumber++){
 		var UptoAct=ActNumber+1;
-		if(!TownLevel.ChangeAct(UptoAct)){TownLevel.ChangeAct(UptoAct);say("Quitting");quit();}
+		if(!LevelTown.changeAct(UptoAct)){LevelTown.changeAct(UptoAct);say("Quitting");quit();}
 		for(LevelArea=0; LevelArea < LevelingAreas[ActNumber].length; LevelArea++){
 			var UpToArea=LevelingAreas[ActNumber][LevelArea],NextArea=0;
 			if(LevelArea < LevelingAreas[ActNumber].length-1){
