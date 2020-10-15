@@ -845,6 +845,7 @@ function LevelLeader(){
 	//Start Script
 	// while(true){if(me.getQuest(17,3)){say("Got");}say(me.x+","+me.y);delay(2000);}
 	LevelTown.configCharacter();
+	Pather.getWP(me.area);
 	this.assignTeleSorcs();
 	this.checkProgress();
 	
