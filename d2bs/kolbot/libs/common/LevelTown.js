@@ -1,7 +1,7 @@
 /**
 *	@filename	Town.js
 *	@author		Zer
-*	@desc		Regular Town.js but added Leveling Quest things
+*	@desc		Regular Town.doChores but added Leveling Quest tasks
 */
 
 var NPC={
@@ -43,6 +43,7 @@ var LevelTown={
 	// Do Chores and Specific Quest Tasks
 	doChores: function(){
 		Town.doChores();
+		this.configCharacter();
 		/*Malahs Potion*/
 		if(me.getItem(644)){
 			var Anya,i;
@@ -56,10 +57,6 @@ var LevelTown={
 				delay(250);
 				me.cancel();
 			}
-		}
-		/*Check Merc Status*/
-		if(Config.useMerc){
-			this.checkMerc();
 		}
 		/*Kashya for Free Merc*/
 		if(me.getQuest(2,1)){
@@ -267,8 +264,10 @@ var LevelTown={
 		me.cancel();
 		delay(150);
 		Pickit.pickItems();
-		Pather.getWP(me.area);
-		this.checkMerc();
+		/*Check Merc Status*/
+		if(Config.useMerc){
+			this.checkMerc();
+		}
 	}
 };
 	
