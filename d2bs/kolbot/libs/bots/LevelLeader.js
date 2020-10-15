@@ -38,7 +38,7 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(2,0),"Blood Raven");
 			break;
 			case 3: //Cold Plains
-				if(me.charlvl < 6){Attack.clearLevel(0);}
+				Attack.clearLevel(0);
 				Pather.getWP(3,true);
 				Pather.useWaypoint(1);
 				LevelTown.doChores();
@@ -50,6 +50,8 @@ function LevelLeader(){
 			break;
 			case 5: //Tristram
 				if(me.getQuest(4,0)){break;}
+				Attack.clearLevel(0);
+				Pather.getWP(5,true);
 				Pather.useWaypoint(1);
 				LevelTown.doChores();
 				Pather.journeyTo(5);
@@ -96,6 +98,7 @@ function LevelLeader(){
 			break;
 			case 6: //Countess
 				if(me.getQuest(5,0)){break;}
+				Attack.clearLevel(0);
 				if(Pather.moveToExit([20,21,22,23,24,25],true,true)){
 					this.tryMakePortal();
 				}
