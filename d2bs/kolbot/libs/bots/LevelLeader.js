@@ -411,7 +411,7 @@ function LevelLeader(){
 	};
 	
 	this.clearToQuestLocation=function(QuestArea,UnitType,UnitId){
-		var Count=0;
+		var Count=0,Location=false;;
 		Pather.journeyTo(QuestArea);
 		this.tryMakePortal();
 		while(!this.playerClose() && Count < 3){
@@ -421,12 +421,12 @@ function LevelLeader(){
 		}
 		Precast.doPrecast(true);
 		while(Count < 30){
-			try{Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true);}
+			try{Pather.moveToPreset(QuestArea,UnitType,UnitId,0,0,true);Location=true;}
 			catch(err){print("Failed moving to Preset UnitId in "+Pather.getAreaName(QuestArea))}
 			Attack.clear(5);
 			Count++;
 		}
-		LevelTown.logProgress(false,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));
+		LevelTown.logProgress(Location,"Clear to Unit:"+UnitId+" in "+Pather.getAreaName(QuestArea));
 		return true;
 	};
 	
@@ -587,8 +587,8 @@ function LevelLeader(){
 	
 	this.saveAndQuit=function(Reason){
 		Town.goToTown();
-		Town.initNPC("Heal", "heal");
-		LevelTown.logProgress(false,Reason);
+		Town.initNPC("Heal","heal");
+		LevelTown.logProgress(false,"Quit "+Reason);
 		delay(10000);
 		quit();
 	};
