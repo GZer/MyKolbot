@@ -20,3 +20,26 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:194, @levelfollower.js:88, Pather.getWP@pather.js:1336, Pather.moveToUnit@pather.js:528, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:557, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2203, Town.doChores@town.js:89, Town.clearInventory@town.js:1934, Unit.prototype.sell@prototypes.js:251
 [2020/10/16 03:57:20] <Singer> Error in LevelLeader (prototypes.js line 251): Unit.sell: Must be used on items.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:884, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:624, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.popChests@pather.js:55, Misc.openChests@misc.js:1227, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2203, Town.doChores@town.js:89, Town.clearInventory@town.js:1934, Unit.prototype.sell@prototypes.js:251
+[2020/10/16 11:54:48] <Hammerdin> Error in LevelFollower (pather.js line 820): useUnit: Unit not found. ID: 4
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:194, @levelfollower.js:84, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/16 12:20:20] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:895, @levelleader.js:99, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/16 12:25:42] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:895, @levelleader.js:99, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/16 12:33:20] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 9
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:895, @levelleader.js:99, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/16 14:05:27] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:897, @levelleader.js:437, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/16 14:13:28] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 23
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:897, @levelleader.js:437, Pather.journeyTo@pather.js:1479, Pather.moveToExit@pather.js:645, Pather.useUnit@pather.js:820
+[2020/10/16 15:21:52] <Singer> Error in ToolsThread (toolsthread.js line 252): Object is not an item!
+Stack: main@toolsthread.js:623, @toolsthread.js:252
+[2020/10/16 15:24:24] <Singer> Error in LevelLeader (misc.js line 999): Misc.click: Third arg must be a Unit.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:895, @levelleader.js:177, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/16 15:44:28] <Singer> Error in LevelLeader (levelleader.js line 769): NPC is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:895, @levelleader.js:207, @levelleader.js:769
+[2020/10/16 16:35:22] <Summoner> Error in LevelFollower (prototypes.js line 251): Unit.sell: Must be used on items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:188, Pather.moveToUnit@pather.js:533, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:557, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2203, Town.doChores@town.js:89, Town.clearInventory@town.js:1934, Unit.prototype.sell@prototypes.js:251
+[2020/10/16 18:26:24] <FireSorc> Failed to include script: LevelFollower
+[2020/10/16 18:26:28] <LightSorc> Failed to include script: LevelFollower
+[2020/10/16 18:26:46] <FireSorc> Failed to include script: LevelFollower

@@ -1,26 +1,5 @@
 // ====================== MERC ====================== //
-//Bows
-[Name] == HBW && [Quality] >= Normal # [ItemLevelReq] > 0 # [MercTier] == 1 && [MaxQuantity] == 1
-[Name] == LongBow && [Quality] >= Normal # [ItemLevelReq] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
-[Name] == CompositeBow && [Quality] >= Normal # [ItemLevelReq] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
-[Name] == ShortbattleBow && [Quality] >= Normal # [ItemLevelReq] > 0 # [MercTier] == 4 && [MaxQuantity] == 1
-[Name] == LongbattleBow && [Quality] >= Normal # [ItemLevelReq] > 0 # [MercTier] == 5 && [MaxQuantity] == 1
-[Name] == ShortwarBow && [Quality] >= Normal # [ItemLevelReq] > 0 # [MercTier] == 6 && [MaxQuantity] == 1
-[Name] == LongwarBow && [Quality] >= Normal # [ItemLevelReq] > 0 # [MercTier] == 7 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Normal && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 8 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Normal && [Class] == 1 # [LifeLeech] > 0 # [MercTier] == 9 && [MaxQuantity] == 1
-[Type] == Bow && [Quality] >= Normal && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 10 && [MaxQuantity] == 1
-
-//Unique Bows
-[Type] == Bow && [Quality] == Unique # [ItemMagicArrow] > 0 || [ItemExplosiveArrow] > 0 # [MercTier] == 98
-[Name] == ShortSiegeBow && [Quality] == Unique # [FireResist] >= 40 # [MercTier] == 99
-
 //Low tier
-([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 && [Flag] == Ethereal # [ItemLevelReq] > 0 # [MercTier] == 1 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 # [LifeLeech] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
-([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 4 && [MaxQuantity] == 1
-
 ([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [Defense] > 0 # [MercTier] == 1 && [MaxQuantity] == 1
 ([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 00 # [MercTier] == 2 && [MaxQuantity] == 1
 ([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 20 # [MercTier] == 3 && [MaxQuantity] == 1

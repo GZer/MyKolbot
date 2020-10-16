@@ -1,0 +1,17 @@
+// ====================== MERC ====================== //
+//Mid tier
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 && [Flag] == Ethereal # [Sockets] == 0 # [MercTier] == 5 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 # [LifeLeech] > 0 # [MercTier] == 6 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 7 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 8 && [MaxQuantity] == 1
+
+//High tier
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 && [Flag] == Ethereal # [Sockets] == 0 # [MercTier] == 9 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 # [LifeLeech] > 0 # [MercTier] == 10 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 11 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 12 && [MaxQuantity] == 1
+
+//Insight
+[Type] == Polearm && [Flag] == Runeword && [Class] == 0 # [MeditationAura] >= 0 # [MercTier] == 96
+[Type] == Polearm && [Flag] == Runeword && [Class] == 1 # [MeditationAura] >= 0 # [MercTier] == 97
+[Type] == Polearm && [Flag] == Runeword && [Class] == 2 # [MeditationAura] >= 0 # [MercTier] == 98

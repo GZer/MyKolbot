@@ -44,9 +44,9 @@
 ([Name] == Cuirass || [Name] == MeshArmor) && [Quality] == Unique
 
 // ===============+SKILL UNIQUES/RUNEWORDS ===============//
-[Flag] == Runeword # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1
-([Type] == Axe || [Type] == Hammer || [Type] == Polearm || [Type] == Spear || [Type] == Staff || [Type] == Sword || [Type] == ThrowingAxe || [Type] == Club || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Orb || [Type] == Scepter || [Type] == ThrowingKnife || [Type] == Wand) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
-([Type] == AuricShields || [Type] == Armor || [Type] == Belt || [Type] == Boots || [Type] == Circlet || [Type] == Gloves || [Type] == Helm || [Type] == Pelt || [Type] == PrimalHelm || [Type] == Shield || [Type] == VoodooHeads) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+[Flag] == Runeword && [Flag] != Ethereal # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1
+([Type] == Axe || [Type] == Hammer || [Type] == Polearm || [Type] == Spear || [Type] == Staff || [Type] == Sword || [Type] == ThrowingAxe || [Type] == Club || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Orb || [Type] == Scepter || [Type] == ThrowingKnife || [Type] == Wand) && [Quality] == Unique && [Flag] != Ethereal # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Type] == AuricShields || [Type] == Armor || [Type] == Belt || [Type] == Boots || [Type] == Circlet || [Type] == Gloves || [Type] == Helm || [Type] == Pelt || [Type] == PrimalHelm || [Type] == Shield || [Type] == VoodooHeads) && [Quality] == Unique && [Flag] != Ethereal # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
 ([Type] == Amulet || [Type] == Ring) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
 ([Name] == GrandCharm || [Name] == LargeCharm || [Name] == SmallCharm) && [Quality] == Unique
 
@@ -65,17 +65,17 @@
 [Name] == Rondel && [Flag] != Ethereal && [Quality] == Unique # # [MaxQuantity] == 2
 
 // ===============PHYSICAL UNIQUES ===============//
-[Type] == Armor && ([Quality] == Unique || [Quality] == Set) # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 || [ItemCrushingBlow] >= 25
-[Type] == Boots && ([Quality] == Unique || [Quality] == Set) # [ItemCrushingBlow] >= 15
-[Type] == Gloves && ([Quality] == Unique || [Quality] == Set) # [ItemOpenWounds] >= 25 || [IAS] >= 10
-[Type] == Helm && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 10 || [ItemCrushingBlow] >= 15
-[Name] == WarBelt && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbLight] >= 20
-[Type] == Amulet && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 20
-[Type] == Ring && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
+[Type] == Armor && [Flag] != Ethereal && ([Quality] == Unique || [Quality] == Set) # [MaxFireResist]+[MaxColdResist]+[MaxLightResist]+[MaxPoisonResist] >= 20 || [IAS] >= 20 || [ItemCrushingBlow] >= 25
+[Type] == Boots && [Flag] != Ethereal && ([Quality] == Unique || [Quality] == Set) # [ItemCrushingBlow] >= 15
+[Type] == Gloves && [Flag] != Ethereal && ([Quality] == Unique || [Quality] == Set) # [ItemOpenWounds] >= 25 || [IAS] >= 10
+[Type] == Helm && [Flag] != Ethereal && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 10 || [ItemCrushingBlow] >= 15
+[Name] == WarBelt && [Flag] != Ethereal && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbLight] >= 20
+[Type] == Amulet && [Flag] != Ethereal && ([Quality] == Unique || [Quality] == Set) # [IAS] >= 20
+[Type] == Ring && [Flag] != Ethereal && ([Quality] == Unique || [Quality] == Set) # [ItemAbsorbFirePercent] >= 15 || [ItemAbsorbColdPercent] >= 20
 
 // ===============SETS ===============//
-[Name] == SwirlingCrystal && [Quality] == Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
-[Name] == DeathMask && [Quality] == Set # [FireResist] >= 15														//Tal Rashas Horadric Crest
-[Name] == LacqueredPlate && [Quality] == Set # [ColdResist] >= 40													//Tal Rashas Guardianship
-[Name] == MeshBelt && [Quality] == Set # [ItemMagicBonus] >= 10														//Tal Rashas FineSpun Cloth
-[Type] == Amulet && [Quality] == Set # [SorceressSkills] == 2														//Tal Rashas Adjucation
+[Name] == SwirlingCrystal && [Flag] != Ethereal && [Quality] == Set # [SkillLightningMastery]+[SkillFireMastery]+[SkillColdMastery] >= 4	//Tal Rashas Lidless Eye
+[Name] == DeathMask && [Flag] != Ethereal && [Quality] == Set # [FireResist] >= 15														//Tal Rashas Horadric Crest
+[Name] == LacqueredPlate && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 40													//Tal Rashas Guardianship
+[Name] == MeshBelt && [Flag] != Ethereal && [Quality] == Set # [ItemMagicBonus] >= 10														//Tal Rashas FineSpun Cloth
+[Type] == Amulet && [Flag] != Ethereal && [Quality] == Set # [SorceressSkills] == 2														//Tal Rashas Adjucation

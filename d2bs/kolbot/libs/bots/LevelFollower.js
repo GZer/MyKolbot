@@ -78,20 +78,21 @@ function LevelFollower(){
 							}
 						break;
 					}
+					Pather.teleport=true;
+					delay(250);
+					if(LeaderArea == 78){Pather.useWaypoint(78);}
+					else{Pather.journeyTo(LeaderArea);}
 				}
-				Pather.teleport=true;
+				Pather.teleport=false;
 				delay(250);
-				Pather.journeyTo(LeaderArea);
-			}
-			Pather.teleport=false;
-			delay(250);
-			Pather.getWP(me.area,true);
-			//Go to leader if not in Town
-			if(!me.inTown){
-				Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);
-			}else{
-				LevelTown.doChores();
-				Town.move("portalspot");
+				Pather.getWP(me.area,true);
+				//Go to leader if not in Town
+				if(!me.inTown && me.area == LeaderArea){
+					Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);
+				}else{
+					LevelTown.doChores();
+					Town.move("portalspot");
+				}
 			}
 		}else{
 			print("Leader not partied");

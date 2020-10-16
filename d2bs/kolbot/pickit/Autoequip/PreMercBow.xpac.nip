@@ -1,0 +1,22 @@
+// ====================== MERC ====================== //
+//Low tier
+/*for later*/
+// [Name] == HBW && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 1 && [MaxQuantity] == 1
+// [Name] == HBW && [Flag] == Ethereal && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 1 && [MaxQuantity] == 1
+// [Name] == LongBow && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 2 && [MaxQuantity] == 1
+// [Name] == LongBow && [Flag] == Ethereal && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 2 && [MaxQuantity] == 1
+// [Name] == CompositeBow && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 3 && [MaxQuantity] == 1
+// [Name] == CompositeBow && [Flag] == Ethereal && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 3 && [MaxQuantity] == 1
+// [Name] == ShortbattleBow && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 4 && [MaxQuantity] == 1
+// [Name] == ShortbattleBow && [Flag] == Ethereal && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 4 && [MaxQuantity] == 1
+// [Name] == LongbattleBow && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 5 && [MaxQuantity] == 1
+// [Name] == LongbattleBow && [Flag] == Ethereal && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 5 && [MaxQuantity] == 1
+// [Name] == ShortwarBow && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 6 && [MaxQuantity] == 1
+// [Name] == ShortwarBow && [Flag] == Ethereal && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 6 && [MaxQuantity] == 1
+// [Name] == LongwarBow && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 7 && [MaxQuantity] == 1
+// [Name] == LongwarBow && [Flag] == Ethereal && [Quality] >= Normal # [Sockets] >= 0 # [MercTier] == 7 && [MaxQuantity] == 1
+
+[Type] == Bow && [Class] == 0 && [Flag] == Ethereal # [Sockets] == 0 # [MercTier] == 1 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 0 # [LifeLeech] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 0 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 0 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 4 && [MaxQuantity] == 1

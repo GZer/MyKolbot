@@ -1,0 +1,6 @@
+// ====================== MERC ====================== //
+//Low tier
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 && [Flag] == Ethereal # [Sockets] == 0 # [MercTier] == 1 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 # [LifeLeech] > 0 # [MercTier] == 2 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 3 && [MaxQuantity] == 1
+([Type] == Spear || [Type] == Polearm || [Type] == Javelin) && [Class] == 0 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 4 && [MaxQuantity] == 1

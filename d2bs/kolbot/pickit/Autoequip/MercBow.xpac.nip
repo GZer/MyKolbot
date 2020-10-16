@@ -1,0 +1,22 @@
+// ====================== MERC ====================== //
+//Mid tier
+[Type] == Bow && [Class] == 1 && [Flag] == Ethereal # [Sockets] == 0 # [MercTier] == 5 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 1 # [LifeLeech] > 0 # [MercTier] == 6 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 7 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 1 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 8 && [MaxQuantity] == 1
+
+//High tier
+[Type] == Bow && [Class] == 2 && [Flag] == Ethereal # [Sockets] == 0 # [MercTier] == 9 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 2 # [LifeLeech] > 0 # [MercTier] == 10 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 # [MercTier] == 11 && [MaxQuantity] == 1
+[Type] == Bow && [Class] == 2 && [Flag] == Ethereal # [LifeLeech] > 0 && ([EnhancedDamage] > 50 || [IAS] >= 10) # [MercTier] == 12 && [MaxQuantity] == 1
+
+//Unique Bows
+[Type] == Bow && [Quality] == Unique # [ItemMagicArrow] > 0 || [ItemExplosiveArrow] > 0 # [MercTier] == 94
+[Name] == ShortSiegeBow && [Quality] == Unique # [FireResist] >= 40 # [MercTier] == 95
+[Name] == HydraBow && [Quality] == Unique # [IAS] >= 20 # [MercTier] == 96
+
+//Faith
+[Type] == Bow && [Flag] == Runeword && [Class] == 0 # [FanaticismAura] >= 0 # [MercTier] == 97
+[Type] == Bow && [Flag] == Runeword && [Class] == 1 # [FanaticismAura] >= 0 # [MercTier] == 98
+[Type] == Bow && [Flag] == Runeword && [Class] == 2 # [FanaticismAura] >= 0 # [MercTier] == 99

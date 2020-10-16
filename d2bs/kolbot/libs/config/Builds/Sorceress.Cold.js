@@ -50,8 +50,9 @@ var AutoBuildTemplate={
 				//Build Specific
 				Config.GambleItems.push("LightGauntlets");
 				Config.GambleItems.push("Blade");
-				Config.PickitFiles.push("AutoEquip/PreMerc.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/PreMercLance.xpac.nip");
 				Config.PickitFiles.push("AutoEquip/Merc.xpac.nip");
+				Config.PickitFiles.push("AutoEquip/MercLance.xpac.nip");
 				Config.Inventory[0]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[1]=[1,1,1,1,1,1,1,1,1,1];
 				Config.Inventory[2]=[1,1,1,1,1,1,1,1,1,1];
@@ -499,7 +500,7 @@ var AutoBuildTemplate={
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
 				Config.PickitFiles.splice(Config.PickitFiles.indexOf("EarlyGame.nip"),1);
-				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMerc.xpac.nip"),1);
+				Config.PickitFiles.splice(Config.PickitFiles.indexOf("AutoEquip/PreMercLance.xpac.nip"),1);
 			}
 		},
 
