@@ -115,6 +115,37 @@ var LevelTown={
 		}
 	},
 	
+	levelAutoEquip: function(){
+		/*Try Cain ID*/
+		try{this.talkToNPC(NPC.Cain,null,0x0FB4);}
+		catch(err){print("Failed Cain ID");}
+		Town.initNPC("Shop","Sell");
+		this.checkPickitItems();
+		Item.autoEquip();
+		Pickit.pickItems();
+		Item.autoEquipMerc();
+	},
+	
+	checkPickitItems: function(){
+		var UnidentifiedItems = Town.getUnids(),Result;
+		for (i = 0; i < UnidentifiedItems.length; i += 1) {
+			Result = Pickit.checkItem(UnidentifiedItems[i]);
+			if (!Item.autoEquipCheck(UnidentifiedItems[i])) {Result = 0;}
+			switch (Result.result) {
+				case 0:
+					Misc.itemLogger("Dropped", UnidentifiedItems[i], "cainID");
+					UnidentifiedItems[i].drop();
+				break;
+				case 1:
+					Misc.itemLogger("Kept", UnidentifiedItems[i]);
+					Misc.logItem("Kept", UnidentifiedItems[i], Result.line);
+				break;
+				default:
+				break;
+			}
+		}
+	},
+	
 	checkMerc: function(){
 		var ReplaceMerc=false,MyMerc=me.getMerc();
 		//If we have a Merc check its within level,otherwise get free one
@@ -248,10 +279,10 @@ var LevelTown={
 				}
 			}catch(err){
 				me.cancel();
-				return false;
 			}
 			Count++;
 		}
+		Town.doChores();
 		this.logProgress(ActChanged,"Change to Act"+DestinationAct+" - "+me.name);
 		return ActChanged;
 	},
