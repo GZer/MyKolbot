@@ -256,10 +256,11 @@ function LevelLeader(){
 				Pather.journeyTo(83);
 			break;
 			case 102: //Mephisto
-				Pather.moveTo(17606,8127,1,true);
-				Pather.moveTo(17653,8075,1,true);
-				Pather.moveTo(17641,8037,1,true);
-				Pather.moveTo(17606,8013,1,true);
+				Pather.moveTo(17684,8109,1,true);
+				Pather.moveTo(17621,8069,1,true);
+				Pather.moveTo(17603,8138,1,true);
+				Pather.moveTo(17602,8014,1,true);
+				Pather.moveTo(17625,8043,1,true);
 				this.killImportantQuestBoss(242,17549,8067);
 				LevelTown.logProgress(me.getQuest(22,0),"Mephisto");
 				Attack.clearLevel(0xF);
@@ -867,7 +868,7 @@ function LevelLeader(){
 	};
 	
 	//Start Script
-	// while(true){LevelTown.unEquipMerc();say(me.x+","+me.y);delay(2000);}
+	// while(true){say(me.x+","+me.y);delay(2000);}
 	LevelTown.configCharacter();
 	this.assignTeleSorcs();
 	this.checkProgress();

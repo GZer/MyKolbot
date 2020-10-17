@@ -14486,3 +14486,400 @@ Line: x(45)+item.getStatEx(7)+item.getStatEx(0)+item.getStatEx(2)>00
 [10/17/20 19:52:33] D2BS 7600: Updating Config from level 0 to 80
 [10/17/20 19:52:33] D2BS 7600: initNPC: BuyPotions
 [10/17/20 19:52:37] D2BS 7600: move retry 1
+[10/17/20 20:45:57] D2BS 7600: Script default.dbj ended
+[10/17/20 20:45:57] D2BS 7600: Script tools\autobuildthread.js ended
+[10/17/20 20:45:57] D2BS 7600: Script tools\party.js ended
+[10/17/20 20:45:57] D2BS 7600: Script tools\toolsthread.js ended
+[10/17/20 20:45:57] D2BS 7600: Script tools\townchicken.js ended
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 1776
+[10/17/20 20:46:03] D2BS 7600: 7790196C (ntdll): (filename not available): NtDelayExecution
+[10/17/20 20:46:03] D2BS 7600: 77452EDF (KERNELBASE): (filename not available): Sleep
+[10/17/20 20:46:03] D2BS 7600: 03033C94 (D2BS): (filename not available): QueryInterface
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 11908
+[10/17/20 20:46:03] D2BS 7600: 7790164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/17/20 20:46:03] D2BS 7600: 7743F702 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/17/20 20:46:03] D2BS 7600: 004027E5 (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 5916
+[10/17/20 20:46:03] D2BS 7600: 7790196C (ntdll): (filename not available): NtDelayExecution
+[10/17/20 20:46:03] D2BS 7600: 77452EDF (KERNELBASE): (filename not available): Sleep
+[10/17/20 20:46:03] D2BS 7600: 004102FC (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 9640
+[10/17/20 20:46:03] D2BS 7600: 7790164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/17/20 20:46:03] D2BS 7600: 7743F702 (KERNELBASE): (filename not available): WaitForSingleObject
+[10/17/20 20:46:03] D2BS 7600: 0041A845 (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 10600
+[10/17/20 20:46:03] D2BS 7600: 7790335C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 9796
+[10/17/20 20:46:03] D2BS 7600: 7790164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/17/20 20:46:03] D2BS 7600: 030B7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/17/20 20:46:03] D2BS 7600: 031A2B1F (D2BS): (filename not available): JS_freeop
+[10/17/20 20:46:03] D2BS 7600: 031A1A5E (D2BS): (filename not available): JS_freeop
+[10/17/20 20:46:03] D2BS 7600: 030CE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 13204
+[10/17/20 20:46:03] D2BS 7600: 7790196C (ntdll): (filename not available): NtDelayExecution
+[10/17/20 20:46:03] D2BS 7600: 77452EDF (KERNELBASE): (filename not available): Sleep
+[10/17/20 20:46:03] D2BS 7600: 0303E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/17/20 20:46:03] D2BS 7600: 030C01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/17/20 20:46:03] D2BS 7600: 031A2B1F (D2BS): (filename not available): JS_freeop
+[10/17/20 20:46:03] D2BS 7600: 031A1A5E (D2BS): (filename not available): JS_freeop
+[10/17/20 20:46:03] D2BS 7600: 030CE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 8412
+[10/17/20 20:46:03] D2BS 7600: 7790164C (ntdll): (filename not available): NtWaitForSingleObject
+[10/17/20 20:46:03] D2BS 7600: 030B7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/17/20 20:46:03] D2BS 7600: 031A2B1F (D2BS): (filename not available): JS_freeop
+[10/17/20 20:46:03] D2BS 7600: 031A1A5E (D2BS): (filename not available): JS_freeop
+[10/17/20 20:46:03] D2BS 7600: 030CE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 14004
+[10/17/20 20:46:03] D2BS 7600: 7790335C (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Stack Walk Thread: 2384
+[10/17/20 20:46:03] D2BS 7600: 0303B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[10/17/20 20:46:03] D2BS 7600: 030337F8 (D2BS): (filename not available): QueryInterface
+[10/17/20 20:46:03] D2BS 7600: 00408A05 (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 00408A81 (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/17/20 20:46:03] D2BS 7600: 00640DE3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/17/20 20:46:03] D2BS 7600: 0061944B (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/17/20 20:46:03] D2BS 7600: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/17/20 20:46:03] D2BS 7600: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[10/17/20 20:46:03] D2BS 7600: 00405E6B (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 004065C7 (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 0040671F (Game): (filename not available): (function-name not available)
+[10/17/20 20:46:03] D2BS 7600: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[10/17/20 20:46:03] D2BS 7600: 7703FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[10/17/20 20:46:03] D2BS 7600: 778F75F4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: 778F75C4 (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[10/17/20 20:46:03] D2BS 7600: Crash File: BlizzardError/2020-10-17 20.46.02/Crash.txt
+[10/17/20 20:46:03] D2BS 7600: D2BS Shutdown complete.
+[10/17/20 20:46:04] D2BS 9404: D2BS Engine startup complete. 1.6.4U
+[10/17/20 20:46:04] D2BS 9404: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/17/20 20:46:04] D2BS 9404: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 20:46:04] D2BS 9404: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 20:46:04] D2BS 9404: Summoner
+[10/17/20 20:46:04] D2BS 9404: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 20:46:04] D2BS 9404: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 20:46:06] D2BS 9404: Heartbeat loaded
+[10/17/20 20:46:24] D2BS 9404: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 20:46:24] D2BS 9404: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 20:46:24] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/17/20 20:46:24] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:46:24] D2BS 9404: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:24] D2BS 9404: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:24] D2BS 9404: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:24] D2BS 9404: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[10/17/20 20:46:24] D2BS 9404: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:24] D2BS 9404: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:24] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/17/20 20:46:24] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:46:24] D2BS 9404: AutoBuild: Loaded helper thread
+[10/17/20 20:46:24] D2BS 9404: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 20:46:24] D2BS 9404: initNPC: BuyPotions
+[10/17/20 20:46:24] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/17/20 20:46:24] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:46:24] D2BS 9404: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 20:46:24] D2BS 9404: ÿc3Start ToolsThread script
+[10/17/20 20:46:24] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/17/20 20:46:24] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/17/20 20:46:24] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:46:24] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:46:58] D2BS 9404: move retry 1
+[10/17/20 20:47:11] D2BS 9404: move retry 1
+[10/17/20 20:47:12] D2BS 9404: move retry 1
+[10/17/20 20:47:26] D2BS 9404: ÿc7Picked up ÿc494 Gold
+[10/17/20 20:47:43] D2BS 9404: move retry 1
+[10/17/20 20:48:05] D2BS 9404: move retry 1
+[10/17/20 20:48:06] D2BS 9404: move retry 2
+[10/17/20 20:48:10] D2BS 9404: initNPC: BuyPotions
+[10/17/20 20:48:25] D2BS 9404: move retry 1
+[10/17/20 20:48:39] D2BS 9404: ÿc7Picked up ÿc0Crude War Sword ÿc0(ilvl 83)
+[10/17/20 20:48:47] D2BS 9404: move retry 1
+[10/17/20 20:49:08] D2BS 9404: move retry 2
+[10/17/20 20:49:10] D2BS 9404: 101,102
+[10/17/20 20:50:06] D2BS 9404: ÿc7Picked up ÿc41128 Gold
+[10/17/20 20:50:06] D2BS 9404: ÿc7Picked up ÿc42456 Gold
+[10/17/20 20:50:50] D2BS 9404: move retry 1
+[10/17/20 20:51:15] D2BS 9404: move retry 1
+[10/17/20 20:51:30] D2BS 9404: Script default.dbj ended
+[10/17/20 20:51:31] D2BS 9404: Script tools\autobuildthread.js ended
+[10/17/20 20:51:31] D2BS 9404: Script tools\party.js ended
+[10/17/20 20:51:31] D2BS 9404: Script tools\townchicken.js ended
+[10/17/20 20:51:37] D2BS 9404: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 20:51:37] D2BS 9404: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 20:51:37] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/17/20 20:51:37] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:51:37] D2BS 9404: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 20:51:37] D2BS 9404: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 20:51:37] D2BS 9404: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/17/20 20:51:37] D2BS 9404: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc215 ms
+[10/17/20 20:51:37] D2BS 9404: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:51:37] D2BS 9404: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:51:37] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/17/20 20:51:37] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:51:37] D2BS 9404: AutoBuild: Loaded helper thread
+[10/17/20 20:51:37] D2BS 9404: LowGold sell Crude War Sword
+[10/17/20 20:51:37] D2BS 9404: initNPC: clearInventory
+[10/17/20 20:51:37] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/17/20 20:51:37] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:51:37] D2BS 9404: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 20:51:37] D2BS 9404: ÿc3Start ToolsThread script
+[10/17/20 20:51:37] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/17/20 20:51:37] D2BS 9404: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/17/20 20:51:37] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:51:37] D2BS 9404: Updating Config from level 0 to 80
+[10/17/20 20:51:46] D2BS 9404: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 20:51:46] D2BS 9404: initNPC: BuyPotions
+[10/17/20 20:53:08] D2BS 9404: move retry 1
+[10/17/20 20:53:10] D2BS 9404: move retry 1
+[10/17/20 20:53:12] D2BS 9404: move retry 2
+[10/17/20 20:55:58] D2BS 9404: ÿc7Picked up ÿc9Knout ÿc0(ilvl 87)
+[10/17/20 20:55:59] D2BS 9404: ÿc7Picked up ÿc4Battle Axe ÿc0(ilvl 87) (LateGame.nip #48)
+[10/17/20 20:55:59] D2BS 9404: ÿc7Picked up ÿc3Short Spear ÿc0(ilvl 87)
+[10/17/20 20:55:59] D2BS 9404: ÿc7Picked up ÿc3Long War Bow ÿc0(ilvl 87)
+[10/17/20 20:57:51] D2BS 9404: move retry 1
+[10/17/20 20:58:00] D2BS 9404: move retry 1
+[10/17/20 20:58:01] D2BS 9404: move retry 1
+[10/17/20 20:58:31] D2BS 9404: move retry 1
+[10/17/20 21:00:04] D2BS 9404: Script default.dbj ended
+[10/17/20 21:00:04] D2BS 9404: Script tools\autobuildthread.js ended
+[10/17/20 21:00:04] D2BS 9404: Script tools\party.js ended
+[10/17/20 21:00:04] D2BS 9404: Script tools\toolsthread.js ended
+[10/17/20 21:00:04] D2BS 9404: Script tools\townchicken.js ended
+[10/17/20 21:00:11] D2BS 9404: D2BS Shutdown complete.
+[10/17/20 21:00:12] D2BS 6024: D2BS Engine startup complete. 1.6.4U
+[10/17/20 21:00:12] D2BS 6024: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/17/20 21:00:12] D2BS 6024: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 21:00:12] D2BS 6024: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 21:00:12] D2BS 6024: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 21:00:12] D2BS 6024: Summoner
+[10/17/20 21:00:12] D2BS 6024: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 21:00:13] D2BS 6024: Heartbeat loaded
+[10/17/20 21:00:31] D2BS 6024: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:00:31] D2BS 6024: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:00:32] D2BS 6024: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[10/17/20 21:00:32] D2BS 6024: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 6024: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 6024: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/17/20 21:00:32] D2BS 6024: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 6024: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[10/17/20 21:00:32] D2BS 6024: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 6024: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 6024: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[10/17/20 21:00:32] D2BS 6024: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 6024: AutoBuild: Loaded helper thread
+[10/17/20 21:00:32] D2BS 6024: LowGold sell Long War Bow
+[10/17/20 21:00:32] D2BS 6024: initNPC: clearInventory
+[10/17/20 21:00:32] D2BS 6024: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[10/17/20 21:00:32] D2BS 6024: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 6024: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:00:32] D2BS 6024: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[10/17/20 21:00:32] D2BS 6024: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 6024: ÿc3Start ToolsThread script
+[10/17/20 21:00:32] D2BS 6024: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[10/17/20 21:00:32] D2BS 6024: Updating Config from level 0 to 80
+[10/17/20 21:00:47] D2BS 6024: LowGold sell Short Spear
+[10/17/20 21:00:47] D2BS 6024: initNPC: clearInventory
+[10/17/20 21:00:49] D2BS 6024: LowGold sell Knout
+[10/17/20 21:00:49] D2BS 6024: initNPC: clearInventory
+[10/17/20 21:00:51] D2BS 6024: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:00:51] D2BS 6024: initNPC: BuyPotions
+[10/17/20 21:01:17] D2BS 6024: move retry 1
+[10/17/20 21:01:18] D2BS 6024: move retry 1
+[10/17/20 21:01:21] D2BS 6024: move retry 1
+[10/17/20 21:01:24] D2BS 6024: move retry 1
+[10/17/20 21:01:29] D2BS 6024: move retry 1
+[10/17/20 21:04:02] D2BS 6024: move retry 1
+[10/17/20 21:04:27] D2BS 6024: ÿc7Picked up ÿc4687 Gold
+[10/17/20 21:05:04] D2BS 6024: ÿc7Picked up ÿc3Poignard ÿc0(ilvl 83)
+[10/17/20 21:05:06] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:05:07] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:05:09] D2BS 6024: Reviving Dark Lord
+[10/17/20 21:05:10] D2BS 6024: Reviving Cadaver
+[10/17/20 21:05:11] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:05:11] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:05:11] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:05:15] D2BS 6024: ÿc7Picked up ÿc4408 Gold
+[10/17/20 21:05:16] D2BS 6024: move retry 1
+[10/17/20 21:05:35] D2BS 6024: move retry 1
+[10/17/20 21:05:45] D2BS 6024: move retry 1
+[10/17/20 21:05:49] D2BS 6024: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[10/17/20 21:05:49] D2BS 6024: ÿc7Picked up ÿc42535 Gold
+[10/17/20 21:05:49] D2BS 6024: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[10/17/20 21:05:57] D2BS 6024: ÿc7Picked up ÿc4646 Gold
+[10/17/20 21:05:59] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:01] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:01] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:02] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:03] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:04] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:05] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:06] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:07] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:07] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:08] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:09] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:10] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:11] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:12] D2BS 6024: Reviving Dark Lord
+[10/17/20 21:06:12] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:13] D2BS 6024: Reviving Dark Lord
+[10/17/20 21:06:14] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:15] D2BS 6024: Reviving Dark Lord
+[10/17/20 21:06:26] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:30] D2BS 6024: ÿc7Picked up ÿc4397 Gold
+[10/17/20 21:06:35] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:35] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:36] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:37] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:38] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:39] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:40] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:40] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:41] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:42] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:43] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:44] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:46] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:47] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:48] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:48] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:49] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:50] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:51] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:52] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:53] D2BS 6024: Reviving Cadaver
+[10/17/20 21:06:54] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:55] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:56] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:57] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:58] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:06:59] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:07:00] D2BS 6024: Reviving Cadaver
+[10/17/20 21:07:05] D2BS 6024: move retry 1
+[10/17/20 21:07:25] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:07:31] D2BS 6024: move retry 1
+[10/17/20 21:07:34] D2BS 6024: ÿc1Pausing.
+[10/17/20 21:07:35] D2BS 6024: initNPC: heal
+[10/17/20 21:07:37] D2BS 6024: move retry 1
+[10/17/20 21:07:39] D2BS 6024: initNPC: identify
+[10/17/20 21:07:43] D2BS 6024: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[10/17/20 21:07:44] D2BS 6024: initNPC: buyPotions
+[10/17/20 21:07:54] D2BS 6024: ÿc2Resuming.
+[10/17/20 21:08:13] D2BS 6024: move retry 1
+[10/17/20 21:08:15] D2BS 6024: move retry 1
+[10/17/20 21:08:19] D2BS 6024: move retry 1
+[10/17/20 21:08:23] D2BS 6024: move retry 1
+[10/17/20 21:08:26] D2BS 6024: move retry 1
+[10/17/20 21:08:29] D2BS 6024: move retry 1
+[10/17/20 21:08:32] D2BS 6024: move retry 1
+[10/17/20 21:08:35] D2BS 6024: move retry 1
+[10/17/20 21:08:39] D2BS 6024: move retry 1
+[10/17/20 21:08:43] D2BS 6024: move retry 1
+[10/17/20 21:08:50] D2BS 6024: move retry 1
+[10/17/20 21:08:51] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:08:52] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:08:53] D2BS 6024: Reviving Cadaver
+[10/17/20 21:09:08] D2BS 6024: move retry 1
+[10/17/20 21:09:15] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:09:31] D2BS 6024: move retry 1
+[10/17/20 21:09:33] D2BS 6024: ÿc7Picked up ÿc4722 Gold
+[10/17/20 21:09:41] D2BS 6024: Reviving Cadaver
+[10/17/20 21:09:51] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:09:58] D2BS 6024: Reviving Cadaver
+[10/17/20 21:10:01] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:10:03] D2BS 6024: Reviving Cadaver
+[10/17/20 21:10:11] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:10:12] D2BS 6024: Reviving Cadaver
+[10/17/20 21:10:17] D2BS 6024: ÿc7Picked up ÿc4400 Gold
+[10/17/20 21:10:17] D2BS 6024: ÿc7Picked up ÿc4128 Gold
+[10/17/20 21:10:20] D2BS 6024: move retry 1
+[10/17/20 21:10:49] D2BS 6024: move retry 1
+[10/17/20 21:10:55] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:10:56] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:10:57] D2BS 6024: Reviving Undead Stygian Doll
+[10/17/20 21:10:58] D2BS 6024: ÿc7Picked up ÿc0Silver-edged Axe ÿc0(ilvl 83)
+[10/17/20 21:10:58] D2BS 6024: ÿc7Picked up ÿc0Cracked Maul ÿc0(ilvl 83)
+[10/17/20 21:10:59] D2BS 6024: ÿc7Picked up ÿc0Flawed Amethyst ÿc0(ilvl 1)
+[10/17/20 21:11:19] D2BS 6024: move retry 1
+[10/17/20 21:11:46] D2BS 6024: 101,102
+[10/17/20 21:11:54] D2BS 6024: initNPC: identify
+[10/17/20 21:12:01] D2BS 6024: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[10/17/20 21:12:01] D2BS 6024: initNPC: buyPotions
+[10/17/20 21:12:04] D2BS 6024: LowGold sell Cracked Maul
+[10/17/20 21:12:04] D2BS 6024: initNPC: clearInventory
+[10/17/20 21:12:04] D2BS 6024: LowGold sell Silver-edged Axe
+[10/17/20 21:12:04] D2BS 6024: initNPC: clearInventory
+[10/17/20 21:12:06] D2BS 6024: LowGold sell Flawed Amethyst
+[10/17/20 21:12:06] D2BS 6024: initNPC: clearInventory
+[10/17/20 21:12:14] D2BS 6024: initNPC: BuyPotions
+[10/17/20 21:12:16] D2BS 6024: move retry 1
+[10/17/20 21:12:54] D2BS 6024: ÿc7Picked up ÿc41440 Gold
+[10/17/20 21:12:57] D2BS 6024: ÿc7Picked up ÿc42056 Gold
+[10/17/20 21:12:57] D2BS 6024: ÿc7Picked up ÿc3Pavise ÿc0(ilvl 86)
+[10/17/20 21:12:57] D2BS 6024: ÿc7Picked up ÿc3Amulet ÿc0(ilvl 86) (LateGame.nip #29)
+[10/17/20 21:12:58] D2BS 6024: Reviving Council Member
+[10/17/20 21:12:59] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:13:01] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:13:32] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:13:44] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:13:54] D2BS 6024: move retry 1
+[10/17/20 21:13:54] D2BS 6024: ÿc7Picked up ÿc4180 Gold
+[10/17/20 21:13:55] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:13:56] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:13:57] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:14:12] D2BS 6024: Reviving Blood Lord
+[10/17/20 21:14:41] D2BS 6024: ÿc1Skipping Blood Lord 607 16
+[10/17/20 21:15:32] D2BS 6024: move retry 1
+[10/17/20 21:16:06] D2BS 6024: initNPC: identify
+[10/17/20 21:16:14] D2BS 6024: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[10/17/20 21:16:15] D2BS 6024: initNPC: buyPotions
+[10/17/20 21:16:23] D2BS 6024: initNPC: BuyPotions
+[10/17/20 21:16:45] D2BS 6024: initNPC: BuyPotions
+[10/17/20 21:17:14] D2BS 6024: Script default.dbj ended
+[10/17/20 21:17:14] D2BS 6024: Script tools\autobuildthread.js ended
+[10/17/20 21:17:14] D2BS 6024: Script tools\party.js ended
+[10/17/20 21:17:14] D2BS 6024: Script tools\toolsthread.js ended
+[10/17/20 21:17:14] D2BS 6024: Script tools\townchicken.js ended
+[10/17/20 21:17:20] D2BS 6024: D2BS Shutdown complete.
+[10/17/20 21:17:21] D2BS 11088: D2BS Engine startup complete. 1.6.4U
+[10/17/20 21:17:21] D2BS 11088: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/17/20 21:17:21] D2BS 11088: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 21:17:21] D2BS 11088: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 21:17:21] D2BS 11088: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 21:17:21] D2BS 11088: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 21:17:21] D2BS 11088: Summoner
+[10/17/20 21:17:23] D2BS 11088: Heartbeat loaded
+[10/17/20 21:17:41] D2BS 11088: D2BS Shutdown complete.
+[10/17/20 21:17:42] D2BS 2688: D2BS Engine startup complete. 1.6.4U
+[10/17/20 21:17:42] D2BS 2688: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[10/17/20 21:17:42] D2BS 2688: Summoner
+[10/17/20 21:17:42] D2BS 2688: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 21:17:42] D2BS 2688: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 21:17:42] D2BS 2688: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 21:17:42] D2BS 2688: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 21:17:44] D2BS 2688: Heartbeat loaded

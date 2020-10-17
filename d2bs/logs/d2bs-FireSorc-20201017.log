@@ -10010,3 +10010,471 @@ Line: x(45)+item.getStatEx(7)+item.getStatEx(0)+item.getStatEx(2)>00
 [10/17/20 20:31:39] D2BS 5516: Successfully placed Serpentskin Armor at X: 0 Y: 1
 [10/17/20 20:31:43] D2BS 5516: Successfully placed  Grim Scythe of the Locust at X: 0 Y: 3
 [10/17/20 20:31:45] D2BS 5516: ÿc1Pausing.
+[10/17/20 20:39:39] D2BS 5516: Script default.dbj ended
+[10/17/20 20:39:39] D2BS 5516: Script tools\autobuildthread.js ended
+[10/17/20 20:39:39] D2BS 5516: Script tools\heartbeat.js ended
+[10/17/20 20:39:39] D2BS 5516: Script tools\party.js ended
+[10/17/20 20:39:39] D2BS 5516: Script tools\toolsthread.js ended
+[10/17/20 20:39:39] D2BS 5516: Script tools\townchicken.js ended
+[10/17/20 20:39:51] D2BS 5516: D2BS Shutdown complete.
+[10/17/20 20:39:52] D2BS 10244: D2BS Engine startup complete. 1.6.4U
+[10/17/20 20:39:52] D2BS 10244: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[10/17/20 20:39:52] D2BS 10244: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 20:39:52] D2BS 10244: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 20:39:52] D2BS 10244: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 20:39:52] D2BS 10244: FireSorc
+[10/17/20 20:39:52] D2BS 10244: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 20:39:54] D2BS 10244: Heartbeat loaded
+[10/17/20 20:40:00] D2BS 10244: ÿc1Pausing ÿc0d2botlanfollow.dbj
+[10/17/20 20:41:31] D2BS 10244: ÿc2Resuming ÿc0d2botlanfollow.dbj
+[10/17/20 20:41:40] D2BS 10244: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 20:41:40] D2BS 10244: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 20:41:40] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 20:41:40] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:41:40] D2BS 10244: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 20:41:40] D2BS 10244: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 20:41:40] D2BS 10244: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc215 ms
+[10/17/20 20:41:40] D2BS 10244: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/17/20 20:41:40] D2BS 10244: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:41:40] D2BS 10244: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:41:40] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 20:41:40] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:41:40] D2BS 10244: AutoBuild: Loaded helper thread
+[10/17/20 20:41:40] D2BS 10244: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 20:41:40] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 20:41:40] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:41:40] D2BS 10244: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 20:41:40] D2BS 10244: initNPC: BuyPotions
+[10/17/20 20:41:40] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 20:41:40] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:41:40] D2BS 10244: ÿc3Start ToolsThread script
+[10/17/20 20:41:40] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 20:41:40] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:42:00] D2BS 10244: move retry 1
+[10/17/20 20:42:05] D2BS 10244: move retry 1
+[10/17/20 20:42:06] D2BS 10244: move retry 2
+[10/17/20 20:42:07] D2BS 10244: move retry 3
+[10/17/20 20:43:53] D2BS 10244: move retry 1
+[10/17/20 20:43:55] D2BS 10244: move retry 2
+[10/17/20 20:45:57] D2BS 10244: Script default.dbj ended
+[10/17/20 20:45:57] D2BS 10244: Script tools\autobuildthread.js ended
+[10/17/20 20:45:57] D2BS 10244: Script tools\party.js ended
+[10/17/20 20:45:57] D2BS 10244: Script tools\toolsthread.js ended
+[10/17/20 20:45:57] D2BS 10244: Script tools\townchicken.js ended
+[10/17/20 20:46:04] D2BS 10244: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 20:46:04] D2BS 10244: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 20:46:04] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 20:46:04] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:46:04] D2BS 10244: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:04] D2BS 10244: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/17/20 20:46:04] D2BS 10244: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:04] D2BS 10244: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:04] D2BS 10244: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:04] D2BS 10244: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 20:46:04] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 20:46:04] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:46:04] D2BS 10244: AutoBuild: Loaded helper thread
+[10/17/20 20:46:04] D2BS 10244: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 20:46:04] D2BS 10244: initNPC: BuyPotions
+[10/17/20 20:46:04] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 20:46:04] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:46:04] D2BS 10244: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 20:46:04] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 20:46:04] D2BS 10244: ÿc3Start ToolsThread script
+[10/17/20 20:46:04] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:46:04] D2BS 10244: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 20:46:04] D2BS 10244: Updating Config from level 0 to 80
+[10/17/20 20:46:26] D2BS 10244: move retry 1
+[10/17/20 20:46:28] D2BS 10244: move retry 1
+[10/17/20 20:46:29] D2BS 10244: 101
+[10/17/20 20:46:50] D2BS 10244: ÿc7Picked up ÿc4440 Gold
+[10/17/20 20:47:29] D2BS 10244: ÿc7Picked up ÿc494 Gold
+[10/17/20 20:47:50] D2BS 10244: move retry 1
+[10/17/20 20:48:00] D2BS 10244: move retry 1
+[10/17/20 20:48:08] D2BS 10244: initNPC: BuyPotions
+[10/17/20 20:48:30] D2BS 10244: move retry 1
+[10/17/20 20:48:35] D2BS 10244: ÿc7Picked up ÿc0Damaged Hyperion Spear ÿc0(ilvl 83)
+[10/17/20 20:48:53] D2BS 10244: move retry 1
+[10/17/20 20:48:54] D2BS 10244: move retry 2
+[10/17/20 20:49:10] D2BS 10244: move retry 3
+[10/17/20 20:49:14] D2BS 10244: 101,102
+[10/17/20 20:50:40] D2BS 10244: ÿc7Picked up ÿc0Superior Suwayyah ÿc0(ilvl 83)
+[10/17/20 20:50:42] D2BS 10244: ÿc7Picked up ÿc9Pike ÿc0(ilvl 86)
+[10/17/20 20:50:42] D2BS 10244: ÿc7Picked up ÿc3Hand Axe ÿc0(ilvl 86)
+[10/17/20 20:51:17] D2BS 10244: ÿc1Skipping Blood Lord 171 16
+[10/17/20 20:51:30] D2BS 10244: ÿc7Picked up ÿc0Crude Ogre Axe ÿc0(ilvl 83)
+[10/17/20 20:51:39] D2BS 10244: ÿc1Skipping Blood Lord 164 16
+[10/17/20 20:51:49] D2BS 10244: initNPC: identify
+[10/17/20 20:51:58] D2BS 10244: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[10/17/20 20:51:59] D2BS 10244: initNPC: buyPotions
+[10/17/20 20:52:01] D2BS 10244: LowGold sell Crude Ogre Axe
+[10/17/20 20:52:01] D2BS 10244: initNPC: clearInventory
+[10/17/20 20:52:01] D2BS 10244: LowGold sell Superior Suwayyah
+[10/17/20 20:52:01] D2BS 10244: initNPC: clearInventory
+[10/17/20 20:52:03] D2BS 10244: LowGold sell Damaged Hyperion Spear
+[10/17/20 20:52:03] D2BS 10244: initNPC: clearInventory
+[10/17/20 20:52:10] D2BS 10244: initNPC: BuyPotions
+[10/17/20 20:53:05] D2BS 10244: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[10/17/20 20:53:07] D2BS 10244: move retry 1
+[10/17/20 20:53:11] D2BS 10244: move retry 1
+[10/17/20 20:53:13] D2BS 10244: move retry 2
+[10/17/20 20:54:34] D2BS 10244: move retry 1
+[10/17/20 20:56:26] D2BS 10244: move retry 1
+[10/17/20 20:56:29] D2BS 10244: move retry 1
+[10/17/20 20:56:31] D2BS 10244: move retry 1
+[10/17/20 20:56:53] D2BS 10244: move retry 1
+[10/17/20 20:56:56] D2BS 10244: move retry 1
+[10/17/20 20:57:48] D2BS 10244: move retry 1
+[10/17/20 20:57:58] D2BS 10244: move retry 1
+[10/17/20 20:58:31] D2BS 10244: ÿc7Picked up ÿc4115 Gold
+[10/17/20 21:00:04] D2BS 10244: Script default.dbj ended
+[10/17/20 21:00:04] D2BS 10244: Script tools\autobuildthread.js ended
+[10/17/20 21:00:04] D2BS 10244: Script tools\party.js ended
+[10/17/20 21:00:04] D2BS 10244: Script tools\toolsthread.js ended
+[10/17/20 21:00:04] D2BS 10244: Script tools\townchicken.js ended
+[10/17/20 21:00:11] D2BS 10244: D2BS Shutdown complete.
+[10/17/20 21:00:12] D2BS 7148: D2BS Engine startup complete. 1.6.4U
+[10/17/20 21:00:12] D2BS 7148: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[10/17/20 21:00:12] D2BS 7148: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 21:00:12] D2BS 7148: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 21:00:12] D2BS 7148: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 21:00:12] D2BS 7148: FireSorc
+[10/17/20 21:00:12] D2BS 7148: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 21:00:14] D2BS 7148: Heartbeat loaded
+[10/17/20 21:00:32] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:00:32] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:00:32] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:00:32] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc215 ms
+[10/17/20 21:00:32] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:00:32] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:00:32] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:00:32] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:00:32] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:00:32] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:00:32] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:00:32] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:00:32] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:00:32] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:00:32] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:00:32] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:00:34] D2BS 7148: move retry 1
+[10/17/20 21:00:42] D2BS 7148: move retry 1
+[10/17/20 21:01:10] D2BS 7148: move retry 1
+[10/17/20 21:01:15] D2BS 7148: move retry 1
+[10/17/20 21:01:17] D2BS 7148: move retry 1
+[10/17/20 21:01:27] D2BS 7148: ÿc1Skipping Undead Stygian Doll 35 16
+[10/17/20 21:01:28] D2BS 7148: move retry 1
+[10/17/20 21:01:33] D2BS 7148: move retry 1
+[10/17/20 21:01:35] D2BS 7148: move retry 1
+[10/17/20 21:01:36] D2BS 7148: move retry 1
+[10/17/20 21:01:51] D2BS 7148: move retry 1
+[10/17/20 21:01:53] D2BS 7148: move retry 1
+[10/17/20 21:03:59] D2BS 7148: ÿc7Picked up ÿc0Damaged Hyperion ÿc0(ilvl 83)
+[10/17/20 21:03:59] D2BS 7148: ÿc7Picked up ÿc4438 Gold
+[10/17/20 21:04:15] D2BS 7148: ÿc7Picked up ÿc4233 Gold
+[10/17/20 21:04:16] D2BS 7148: move retry 1
+[10/17/20 21:04:27] D2BS 7148: ÿc7Picked up ÿc4687 Gold
+[10/17/20 21:04:35] D2BS 7148: ÿc7Picked up ÿc4400 Gold
+[10/17/20 21:04:38] D2BS 7148: move retry 1
+[10/17/20 21:04:47] D2BS 7148: ÿc1Skipping Cadaver 52 16
+[10/17/20 21:04:48] D2BS 7148: ÿc7Picked up ÿc0Hyperion Spear ÿc0(ilvl 83)
+[10/17/20 21:05:01] D2BS 7148: ÿc7Picked up ÿc4112 Gold
+[10/17/20 21:05:01] D2BS 7148: ÿc7Picked up ÿc0Composite Bow ÿc0(ilvl 83)
+[10/17/20 21:05:16] D2BS 7148: ÿc7Picked up ÿc4408 Gold
+[10/17/20 21:05:41] D2BS 7148: move retry 1
+[10/17/20 21:05:44] D2BS 7148: move retry 1
+[10/17/20 21:05:45] D2BS 7148: ÿc7Picked up ÿc3Super Mana Potion ÿc0(ilvl 1) (LateGame.nip #32)
+[10/17/20 21:05:58] D2BS 7148: ÿc7Picked up ÿc0Rune Bow ÿc0(ilvl 83)
+[10/17/20 21:06:11] D2BS 7148: ÿc7Picked up ÿc4302 Gold
+[10/17/20 21:06:47] D2BS 7148: ÿc7Trying to make room for ÿc0Superior Protector Shield
+[10/17/20 21:06:47] D2BS 7148: initNPC: identify
+[10/17/20 21:06:51] D2BS 7148: ÿc4MiniShopBotÿc0: Scanning 49 items.
+[10/17/20 21:06:52] D2BS 7148: initNPC: buyPotions
+[10/17/20 21:06:54] D2BS 7148: LowGold sell Rune Bow
+[10/17/20 21:06:54] D2BS 7148: initNPC: clearInventory
+[10/17/20 21:06:54] D2BS 7148: LowGold sell Composite Bow
+[10/17/20 21:06:54] D2BS 7148: initNPC: clearInventory
+[10/17/20 21:06:57] D2BS 7148: LowGold sell Hyperion Spear
+[10/17/20 21:06:57] D2BS 7148: initNPC: clearInventory
+[10/17/20 21:06:59] D2BS 7148: LowGold sell Damaged Hyperion
+[10/17/20 21:06:59] D2BS 7148: initNPC: clearInventory
+[10/17/20 21:07:05] D2BS 7148: move retry 1
+[10/17/20 21:07:18] D2BS 7148: ÿc1Pausing.
+[10/17/20 21:07:19] D2BS 7148: initNPC: heal
+[10/17/20 21:07:23] D2BS 7148: initNPC: buyPotions
+[10/17/20 21:07:36] D2BS 7148: ÿc2Resuming.
+[10/17/20 21:07:42] D2BS 7148: ÿc1Pausing.
+[10/17/20 21:07:42] D2BS 7148: Script default.dbj ended
+[10/17/20 21:07:42] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:07:42] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:07:42] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:07:49] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:07:49] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:07:49] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:07:49] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:07:49] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:07:49] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[10/17/20 21:07:49] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 21:07:49] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/17/20 21:07:49] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:07:49] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:07:49] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:07:49] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:07:49] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:07:49] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:07:49] D2BS 7148: initNPC: heal
+[10/17/20 21:07:49] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:07:49] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:07:49] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:07:49] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:07:49] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:07:49] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:07:49] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:07:49] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:07:56] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:08:04] D2BS 7148: initNPC: reviveMerc
+[10/17/20 21:08:50] D2BS 7148: ÿc1Pausing.
+[10/17/20 21:08:51] D2BS 7148: initNPC: heal
+[10/17/20 21:08:57] D2BS 7148: initNPC: buyPotions
+[10/17/20 21:09:06] D2BS 7148: ÿc2Resuming.
+[10/17/20 21:09:08] D2BS 7148: Script default.dbj ended
+[10/17/20 21:09:09] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:09:09] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:09:09] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:09:16] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:09:16] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:09:16] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:09:16] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:16] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:16] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:16] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:16] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc215 ms
+[10/17/20 21:09:16] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:16] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:16] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:09:16] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:16] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:09:16] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:09:16] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:09:16] D2BS 7148: initNPC: heal
+[10/17/20 21:09:16] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:16] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:09:16] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:09:16] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:16] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:09:16] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:09:16] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:24] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:09:32] D2BS 7148: Leader not partied
+[10/17/20 21:09:33] D2BS 7148: Leader not partied
+[10/17/20 21:09:34] D2BS 7148: Leader not partied
+[10/17/20 21:09:35] D2BS 7148: Leader not partied
+[10/17/20 21:09:36] D2BS 7148: Leader not partied
+[10/17/20 21:09:37] D2BS 7148: Leader not partied
+[10/17/20 21:09:39] D2BS 7148: Script default.dbj ended
+[10/17/20 21:09:39] D2BS 7148: Leader not partied
+[10/17/20 21:09:39] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:09:39] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:09:39] D2BS 7148: Script tools\toolsthread.js ended
+[10/17/20 21:09:39] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:09:45] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:09:45] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:09:45] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:09:45] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:45] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:45] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:45] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:45] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc215 ms
+[10/17/20 21:09:45] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:45] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:09:45] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:09:45] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:09:45] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:45] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:09:45] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:09:45] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:09:45] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:45] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:09:45] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:09:45] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:09:45] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:09:45] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:09:45] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:10:02] D2BS 7148: Leader not partied
+[10/17/20 21:10:03] D2BS 7148: Leader not partied
+[10/17/20 21:10:04] D2BS 7148: Leader not partied
+[10/17/20 21:10:05] D2BS 7148: Leader not partied
+[10/17/20 21:10:06] D2BS 7148: Leader not partied
+[10/17/20 21:10:07] D2BS 7148: Leader not partied
+[10/17/20 21:10:08] D2BS 7148: Script default.dbj ended
+[10/17/20 21:10:08] D2BS 7148: Leader not partied
+[10/17/20 21:10:08] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:10:08] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:10:08] D2BS 7148: Script tools\toolsthread.js ended
+[10/17/20 21:10:08] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:10:14] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:10:14] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:10:14] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:10:14] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:10:14] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:10:14] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 21:10:14] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc216 ms
+[10/17/20 21:10:14] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/17/20 21:10:14] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:10:14] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:10:14] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:10:14] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:10:14] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:10:14] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:10:14] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:10:14] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:10:14] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:10:14] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:10:14] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:10:14] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:10:14] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:10:14] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:10:14] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:10:58] D2BS 7148: ÿc1Skipping Dark Lord 102 16
+[10/17/20 21:11:14] D2BS 7148: ÿc1Pausing.
+[10/17/20 21:11:15] D2BS 7148: Script default.dbj ended
+[10/17/20 21:11:15] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:11:15] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:11:15] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:11:21] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:11:21] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:11:22] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:11:22] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:11:22] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:11:22] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 21:11:22] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 21:11:22] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[10/17/20 21:11:22] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:11:22] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:11:22] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:11:22] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:11:22] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:11:22] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:11:22] D2BS 7148: initNPC: heal
+[10/17/20 21:11:22] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:11:22] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:11:22] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:11:22] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:11:22] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:11:22] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:11:22] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:11:22] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:11:29] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:11:50] D2BS 7148: initNPC: fillTome
+[10/17/20 21:11:55] D2BS 7148: move retry 1
+[10/17/20 21:11:59] D2BS 7148: initNPC: buyPotions
+[10/17/20 21:12:02] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:12:05] D2BS 7148: move retry 1
+[10/17/20 21:12:05] D2BS 7148: move retry 2
+[10/17/20 21:13:00] D2BS 7148: move retry 1
+[10/17/20 21:13:05] D2BS 7148: move retry 1
+[10/17/20 21:13:31] D2BS 7148: ÿc7Picked up ÿc3Blade Talons ÿc0(ilvl 86)
+[10/17/20 21:13:41] D2BS 7148: ÿc1Skipping Blood Lord 516 16
+[10/17/20 21:13:54] D2BS 7148: move retry 1
+[10/17/20 21:13:54] D2BS 7148: ÿc7Picked up ÿc4180 Gold
+[10/17/20 21:14:08] D2BS 7148: Script default.dbj ended
+[10/17/20 21:14:08] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:14:08] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:14:08] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:14:15] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:14:15] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:14:15] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:14:15] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:15] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:15] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:15] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:15] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:15] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:15] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:15] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:14:15] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:15] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:14:15] D2BS 7148: LowGold sell Blade Talons
+[10/17/20 21:14:15] D2BS 7148: initNPC: clearInventory
+[10/17/20 21:14:15] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:14:15] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:15] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:14:15] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:14:15] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:14:15] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:15] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:14:15] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:29] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:14:29] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:14:36] D2BS 7148: Leader not partied
+[10/17/20 21:14:37] D2BS 7148: Leader not partied
+[10/17/20 21:14:38] D2BS 7148: Leader not partied
+[10/17/20 21:14:39] D2BS 7148: Leader not partied
+[10/17/20 21:14:40] D2BS 7148: Leader not partied
+[10/17/20 21:14:41] D2BS 7148: Leader not partied
+[10/17/20 21:14:43] D2BS 7148: Script default.dbj ended
+[10/17/20 21:14:43] D2BS 7148: Leader not partied
+[10/17/20 21:14:43] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:14:43] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:14:43] D2BS 7148: Script tools\toolsthread.js ended
+[10/17/20 21:14:43] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:14:50] D2BS 7148: ÿc2D2BSÿc0 :: Starting default.dbj
+[10/17/20 21:14:50] D2BS 7148: ÿc2D2BSÿc0 :: default.dbj running.
+[10/17/20 21:14:50] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into default.dbj
+[10/17/20 21:14:50] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:50] D2BS 7148: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[10/17/20 21:14:50] D2BS 7148: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:50] D2BS 7148: ÿc4Loaded NIP: ÿc2FireRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:50] D2BS 7148: ÿc4Loaded NIP: ÿc2Fire.xpac.nipÿc4. Lines: ÿc2129ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:50] D2BS 7148: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:50] D2BS 7148: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[10/17/20 21:14:50] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\autobuildthread.js
+[10/17/20 21:14:50] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:50] D2BS 7148: AutoBuild: Loaded helper thread
+[10/17/20 21:14:50] D2BS 7148: ÿc2Starting script: ÿc9LevelFollower
+[10/17/20 21:14:50] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\party.js
+[10/17/20 21:14:50] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:14:50] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:50] D2BS 7148: ÿc2Party thread loaded. Mode: Accept
+[10/17/20 21:14:50] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\townchicken.js
+[10/17/20 21:14:50] D2BS 7148: ÿc3Start ToolsThread script
+[10/17/20 21:14:50] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:14:50] D2BS 7148: AutoBuild: Including build template config/builds/sorceress.fire.js into tools\toolsthread.js
+[10/17/20 21:14:50] D2BS 7148: Updating Config from level 0 to 80
+[10/17/20 21:16:06] D2BS 7148: initNPC: heal
+[10/17/20 21:16:16] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:16:19] D2BS 7148: move retry 1
+[10/17/20 21:16:23] D2BS 7148: move retry 1
+[10/17/20 21:16:57] D2BS 7148: move retry 1
+[10/17/20 21:16:59] D2BS 7148: initNPC: BuyPotions
+[10/17/20 21:17:04] D2BS 7148: move retry 1
+[10/17/20 21:17:14] D2BS 7148: Script default.dbj ended
+[10/17/20 21:17:14] D2BS 7148: Script tools\autobuildthread.js ended
+[10/17/20 21:17:14] D2BS 7148: Script tools\party.js ended
+[10/17/20 21:17:14] D2BS 7148: Script tools\toolsthread.js ended
+[10/17/20 21:17:14] D2BS 7148: Script tools\townchicken.js ended
+[10/17/20 21:17:21] D2BS 7148: D2BS Shutdown complete.
+[10/17/20 21:17:22] D2BS 11492: D2BS Engine startup complete. 1.6.4U
+[10/17/20 21:17:22] D2BS 11492: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[10/17/20 21:17:22] D2BS 11492: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 21:17:22] D2BS 11492: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 21:17:22] D2BS 11492: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 21:17:22] D2BS 11492: FireSorc
+[10/17/20 21:17:22] D2BS 11492: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 21:17:23] D2BS 11492: Heartbeat loaded
+[10/17/20 21:17:41] D2BS 11492: D2BS Shutdown complete.
+[10/17/20 21:17:42] D2BS 9576: D2BS Engine startup complete. 1.6.4U
+[10/17/20 21:17:42] D2BS 9576: FireSorc
+[10/17/20 21:17:42] D2BS 9576: ÿc2D2BSÿc0 :: Switched to profile FireSorc
+[10/17/20 21:17:42] D2BS 9576: ÿc2D2BSÿc0 :: Engine startup complete!
+[10/17/20 21:17:42] D2BS 9576: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[10/17/20 21:17:42] D2BS 9576: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[10/17/20 21:17:42] D2BS 9576: ÿc2D2BSÿc0 :: Started Console Script
+[10/17/20 21:17:44] D2BS 9576: Heartbeat loaded
