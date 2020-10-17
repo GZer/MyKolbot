@@ -1,6 +1,6 @@
 // ====================== MERC ====================== //
 //Low tier
-([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [Defense] > 0 # [MercTier] == 1 && [MaxQuantity] == 1
+([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [Sockets] == 0 # [MercTier] == 1 && [MaxQuantity] == 1
 ([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 00 # [MercTier] == 2 && [MaxQuantity] == 1
 ([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 20 # [MercTier] == 3 && [MaxQuantity] == 1
 ([Type] == Armor || [Type] == Helm) && [Class] == 0 && [Flag] == Ethereal # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist]+[MaxHP]+[Strength]+[Dexterity] > 40 # [MercTier] == 4 && [MaxQuantity] == 1

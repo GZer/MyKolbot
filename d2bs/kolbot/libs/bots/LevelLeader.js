@@ -232,15 +232,18 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(17,3),"Black Book");
 			break;
 			case 83: //Khalim Flail
+				if(me.getQuest(18,0)){
+					this.tauntCouncil();
+					LevelTown.doChores();
+					Pather.journeyTo(83);
+					break;
+				}
 				Pather.getWP(83,true);
 				LevelTown.doChores();
 				this.checkOrgans();
-				if(me.diff == 2){
-					this.tauntCouncil();
-				}else{
-					this.clearToQuestLocation(83,2,404);
-					this.killImportantQuestBoss([345,346,347]);
-				}
+				this.tauntCouncil();
+				this.clearToQuestLocation(83,2,404);
+				this.killImportantQuestBoss([345,346,347]);
 				this.getQuestItem(173);
 				LevelTown.doChores();
 				Pather.journeyTo(75);
@@ -486,7 +489,8 @@ function LevelLeader(){
 					Skill.cast(132,0,Boss.x,Boss.y);
 					if(this.getPlayerCount() < 8 && (Boss.hp*100/Boss.hpmax) < 66){
 						LevelTown.logProgress(false,"Important Boss in "+Pather.getAreaName(me.area));
-						quit();
+						clickParty(Party,3);
+						this.saveAndQuit();
 					}
 				}
 			}
@@ -655,8 +659,7 @@ function LevelLeader(){
 
 	this.cubeFlail=function(){
 		var Will,PrevWeapon,Flail=me.getItem(173),Eye=me.getItem(553),Heart=me.getItem(554),Brain=me.getItem(555);
-		if(me.getQuest(18,0)){return true;}
-		else if(this.checkOrgans() && !me.getItem(174)){
+		if(this.checkOrgans() && !me.getItem(174)){
 			Storage.Cube.MoveTo(Eye);
 			Storage.Cube.MoveTo(Brain);
 			Storage.Cube.MoveTo(Heart);
@@ -706,7 +709,7 @@ function LevelLeader(){
 		Pather.moveToPreset(83,2,404,16,99,true);
 		this.tryMakePortal();
 		SafeX=me.x,SafeY=me.y;
-		while(i < 10){
+		while(i < 5){
 			Pather.moveToPreset(83,2,404,16,13);
 			Skill.cast(155,0);Skill.cast(149,0);Skill.cast(138,0);
 			Skill.cast(137,0,me.x+rand(-25,25),me.y+rand(-25,25));
@@ -864,7 +867,7 @@ function LevelLeader(){
 	};
 	
 	//Start Script
-	// while(true){if(me.getQuest(17,3)){say("Got");}say(me.x+","+me.y);delay(2000);}
+	// while(true){LevelTown.unEquipMerc();say(me.x+","+me.y);delay(2000);}
 	LevelTown.configCharacter();
 	this.assignTeleSorcs();
 	this.checkProgress();

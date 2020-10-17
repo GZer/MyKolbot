@@ -180,17 +180,12 @@ var LevelTown={
 			if(i == 2){i=3;}
 			clickItem(4,i);
 			delay(1000);
-			if(me.Itemoncursor){
+			CursorItem=getUnit(100);
+			if(CursorItem){
+				Storage.Inventory.MoveTo(CursorItem);
 				delay(1000);
-				CursorItem=getUnit(100);
-				if(CursorItem){
-					Storage.Inventory.MoveTo(CursorItem);
-					delay(1500);					
-					if(me.Itemoncursor){
-						Misc.click(0,0,me);
-						delay(1000);
-					}
-				}
+				Misc.click(0,0,me);
+				delay(1000);
 			}
 		}
 	},

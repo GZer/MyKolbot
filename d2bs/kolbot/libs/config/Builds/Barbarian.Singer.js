@@ -380,7 +380,7 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [155],//Battle Command
+			SkillPoints: [155,153],//Battle Command
 			StatPoints: [0,3,3,3,3],	
 			Update: function(){
 				Config.AttackSkill=[130,132,132,132,132,0,0];
@@ -388,7 +388,7 @@ var AutoBuildTemplate={
 		},
 
 	31: 	{
-			SkillPoints: [132],//War Cry
+			SkillPoints: [132,155],//War Cry
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.LowManaSkill=[132,132];
@@ -397,7 +397,7 @@ var AutoBuildTemplate={
 		},
 
 	32: 	{
-			SkillPoints: [153],//Natural Resistance
+			SkillPoints: [153,132],//Natural Resistance
 			StatPoints: [0,3,3,3,3],
 			Update: function(){
 				Config.AttackSkill=[154,132,132,130,132,130,132];

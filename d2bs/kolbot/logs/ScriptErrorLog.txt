@@ -83,3 +83,13 @@ Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:190, @levelfollower.js:83, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
 [2020/10/17 13:23:11] <Summoner> Error in LevelFollower (misc.js line 999): Misc.click: Third arg must be a Unit.
 Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:190, @levelfollower.js:83, Pather.journeyTo@pather.js:1455, Misc.click@misc.js:999
+[2020/10/17 16:43:37] <Singer> Error in LevelLeader (levelleader.js line 769): NPC is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:895, @levelleader.js:207, @levelleader.js:769
+[2020/10/17 16:51:57] <LightSorc> Error in LevelFollower (levelfollower.js line 165): LeaderUnit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:176, @levelfollower.js:165
+[2020/10/17 17:17:38] <Singer> Error in LevelLeader (prototypes.js line 328): Unit.drop: Must be used with items.
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:894, Pather.getWP@pather.js:1336, Pather.moveToUnit@pather.js:528, Pather.moveTo@pather.js:237, NodeAction.go@pather.js:15, NodeAction.killMonsters@pather.js:48, Attack.clear@attack.js:553, ClassAttack.afterAttack@barbarian.js:68, ClassAttack.findItem@barbarian.js:238, Pickit.pickItems@pickit.js:138, Town.visitTown@town.js:2203, Town.doChores@town.js:89, Town.clearInventory@town.js:1937, Unit.prototype.drop@prototypes.js:328
+[2020/10/17 18:10:37] <Singer> Error in LevelLeader (pather.js line 820): useUnit: Unit not found. ID: 366
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelLeader@levelleader.js:896, @levelleader.js:225, @levelleader.js:736, Pather.moveToExit@pather.js:645, Pather.openExit@pather.js:721, Pather.useUnit@pather.js:820
+[2020/10/17 20:28:41] <FireSorc> Error in LevelFollower (misc.js line 1559): unit is undefined
+Stack: main@default.dbj:201, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, LevelFollower@levelfollower.js:172, Item.autoEquipMerc@misc.js:962, Misc.logItem@misc.js:1559

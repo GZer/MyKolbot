@@ -117,8 +117,6 @@ function LevelFollower(){
 				break;
 				//Spider Forest
 				case 76:
-					Pather.journeyTo(85);
-					LevelTown.doChores();
 					try{if(getWaypoint(77) && Pather.useWaypoint(77)){DestinationReached=true;}}
 					catch(err){if(Pather.getWP(77)){DestinationReached=true;}}
 				break;
@@ -171,6 +169,7 @@ function LevelFollower(){
 	};
 	
 	//Start Script
+	// while(true){LevelTown.unEquipMerc();delay(2000);Item.autoEquipMerc();say(me.x+","+me.y);delay(2000);}
 	LevelTown.configCharacter();
 	Town.move("portalspot");
 	this.assignTheLeader();
