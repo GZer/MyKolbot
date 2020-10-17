@@ -25,6 +25,7 @@ function LevelFollower(){
 				this.teleportFromLocation(me.area);
 			}
 			if(LeaderArea != me.area){
+				Pather.teleport=true;
 				//Check leader or any portals to area otherwise walk to leader
 				if(Pather.getPortal(LeaderArea,Config.Leader)){Pather.usePortal(LeaderArea,Config.Leader);}
 				else if(Pather.getPortal(LeaderArea,null)){Pather.usePortal(LeaderArea,null);}
@@ -78,8 +79,6 @@ function LevelFollower(){
 							}
 						break;
 					}
-					Pather.teleport=true;
-					delay(250);
 					if(LeaderArea == 78){Pather.useWaypoint(78);}
 					else{Pather.journeyTo(LeaderArea);}
 				}
@@ -87,12 +86,8 @@ function LevelFollower(){
 				delay(250);
 				Pather.getWP(me.area,true);
 				//Go to leader if not in Town
-				if(!me.inTown && me.area == LeaderArea){
-					Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);
-				}else{
-					LevelTown.doChores();
-					Town.move("portalspot");
-				}
+				if(!me.inTown && me.area == LeaderArea){Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);}
+				else{LevelTown.doChores();}
 			}
 		}else{
 			print("Leader not partied");
@@ -125,17 +120,17 @@ function LevelFollower(){
 					Pather.journeyTo(85);
 					LevelTown.doChores();
 					try{if(getWaypoint(77) && Pather.useWaypoint(77)){DestinationReached=true;}}
-					catch(err){if(Pather.journeyTo(77) && Pather.getWP(77)){DestinationReached=true;}}
+					catch(err){if(Pather.getWP(77)){DestinationReached=true;}}
 				break;
 				//Great Marsh
 				case 77:
 					try{if(getWaypoint(78) && Pather.useWaypoint(78)){DestinationReached=true;}}
-					catch(err){if(Pather.journeyTo(78) && Pather.getWP(78)){DestinationReached=true;}}
+					catch(err){if(Pather.getWP(78)){DestinationReached=true;}}
 				break;
 				//Flayer Jungle
 				case 78:
 					try{if(getWaypoint(79) && Pather.useWaypoint(79)){DestinationReached=true;}}
-					catch(err){if(Pather.journeyTo(79) && Pather.getWP(79)){DestinationReached=true;}}
+					catch(err){if(Pather.getWP(79)){DestinationReached=true;}}
 				break;
 				//Flayer Dungeon
 				case 88:

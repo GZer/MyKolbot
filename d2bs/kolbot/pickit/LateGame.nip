@@ -39,13 +39,13 @@
 [Type] == Gold
 
 // ==============MERC UNIQUES/RUNEWORDS ===============//
-[Type] == Polearm && [Flag] == Ethereal # [MeditationAura] >= 0 || [ConvictionAura] >= 0
+[Type] == Polearm && [Flag] == Ethereal # [MeditationAura] > 0 || [ConvictionAura] > 0
 ([Type] == Armor || [Type] == Helm) && [Flag] == Ethereal && ([Quality] == Unique || [Quality] == Set) # [LifeLeech] > 0 && ([IAS] >= 10 || [MaxHP] >= 50 || [NormalDamageReduction] >= 10)
 ([Name] == Cuirass || [Name] == MeshArmor) && [Quality] == Unique
 
 // ===============+SKILL UNIQUES/RUNEWORDS ===============//
 [Flag] == Runeword && [Flag] != Ethereal # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab]+[ItemAura] >= 1
-([Type] == Axe || [Type] == Hammer || [Type] == Polearm || [Type] == Spear || [Type] == Staff || [Type] == Sword || [Type] == ThrowingAxe || [Type] == Club || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Orb || [Type] == Scepter || [Type] == ThrowingKnife || [Type] == Wand) && [Quality] == Unique && [Flag] != Ethereal # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
+([Type] == Axe || [Type] == Hammer || [Type] == Staff || [Type] == Sword || [Type] == Club || [Type] == Javelin || [Type] == Knife || [Type] == Mace || [Type] == Orb || [Type] == Scepter || [Type] == ThrowingKnife || [Type] == Wand) && [Quality] == Unique && [Flag] != Ethereal # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
 ([Type] == AuricShields || [Type] == Armor || [Type] == Belt || [Type] == Boots || [Type] == Circlet || [Type] == Gloves || [Type] == Helm || [Type] == Pelt || [Type] == PrimalHelm || [Type] == Shield || [Type] == VoodooHeads) && [Quality] == Unique && [Flag] != Ethereal # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
 ([Type] == Amulet || [Type] == Ring) && [Quality] == Unique # [ItemAllSkills]+[ItemAddClassSkills]+[ItemAddSkillTab] >= 1
 ([Name] == GrandCharm || [Name] == LargeCharm || [Name] == SmallCharm) && [Quality] == Unique

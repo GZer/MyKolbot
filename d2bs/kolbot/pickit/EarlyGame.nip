@@ -1,6 +1,9 @@
 // ===============RUNEWORDS ===============//
 [Name] >= ElRune && [Name] <= IthRune # # [MaxQuantity] == 2
 
+//Insight
+[Type] == Polearm && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+
 //Leaf
 [Type] == Staff && [Flag] != Ethereal && [Quality] <= Superior # [SkillFireMastery]+[SkillFireball]+[SkillWarmth]+[SkillHydra] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
 

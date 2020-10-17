@@ -13,10 +13,10 @@
 //Grief
 [Name] == PhaseBlade && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 5 # [MaxQuantity] == 1
 //Strength
-[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillFanaticism]+[SkillSmite] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
+[Name] == WarScepter && [Flag] != Ethereal && [Quality] <= Superior # [SkillHolyShield]+[SkillMeditation]+[SkillSalvation] >= 3 && [Sockets] == 2 # [MaxQuantity] == 1
 
 //Spirit
 [Type] == AuricShields && [Flag] != Ethereal && [Quality] <= Superior # [FireResist] >= 35 && ([Sockets] == 4 || [Sockets] == 0) # [MaxQuantity] == 1
 
 //Merc
-[Type] == Polearm && [Flag] == Ethereal && [Quality] == Superior && [Class] >= 1 # [EnhancedDamage] >= 15 && [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == Polearm && [Flag] == Ethereal && [Quality] == Superior && [Class] >= 2 # [EnhancedDamage] >= 15 && ([Sockets] == 4 || [Sockets] == 0)  # [MaxQuantity] == 1

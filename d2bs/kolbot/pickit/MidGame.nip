@@ -3,7 +3,7 @@
 
 // ===============RUNEWORDS ===============//
 //Insight
-[Type] == Polearm && [Quality] <= Superior # [Sockets] == 4 # [MaxQuantity] == 1
+[Type] == Polearm && [Quality] <= Superior && [Class] >= 1 # [Sockets] == 4 # [MaxQuantity] == 1
 
 //Lore
 [Type] == Helm && [Flag] != Ethereal && [Quality] <= Superior # [Sockets] == 2 # [MaxQuantity] == 1
@@ -29,53 +29,53 @@
 
 // ===============SETS ===============//
 //Sigons Steel
-[Name] == GreatHelm && [Flag] != Ethereal && [Quality] == Set # [MaxMana] >= 30									//Sigons Visor
-[Name] == GothicPlate && [Flag] != Ethereal && [Quality] == Set # [LightResist] >= 30								//Sigons Shelter
-[Name] == Greaves && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 40									//Sigons Sabot
-[Name] == TowerShield && [Flag] != Ethereal && [Quality] == Set # [ItemAllSkills] >= 1							//Sigons Guard
-[Name] == PlatedBelt && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20									//Sigons Warp
-[Name] == Gauntlets && [Flag] != Ethereal && [Quality] == Set # [Strength] >= 5									//Sigons Gage
+[Name] == GreatHelm && [Flag] != Ethereal && [Quality] == Set # [MaxMana] >= 30 # [MaxQuantity] == 1									//Sigons Visor
+[Name] == GothicPlate && [Flag] != Ethereal && [Quality] == Set # [LightResist] >= 30 # [MaxQuantity] == 1								//Sigons Shelter
+[Name] == Greaves && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 40 # [MaxQuantity] == 1									//Sigons Sabot
+[Name] == TowerShield && [Flag] != Ethereal && [Quality] == Set # [ItemAllSkills] >= 1 # [MaxQuantity] == 1								//Sigons Guard
+[Name] == PlatedBelt && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20 # [MaxQuantity] == 1										//Sigons Warp
+[Name] == Gauntlets && [Flag] != Ethereal && [Quality] == Set # [Strength] >= 5 # [MaxQuantity] == 1									//Sigons Gage
 
 //Hsarus' Defense
-[Name] == Buckler && [Flag] != Ethereal && [Quality] == Set # [Strength] >= 10									//Hsarus Iron Fist
-[Name] == Belt && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20											//Hsarus Iron Stay
-[Name] == ChainBoots && [Flag] != Ethereal && [Quality] == Set # [FireResist] >= 25								//Hsarus Iron Heel
+[Name] == Buckler && [Flag] != Ethereal && [Quality] == Set # [Strength] >= 10 # [MaxQuantity] == 1										//Hsarus Iron Fist
+[Name] == Belt && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20 # [MaxQuantity] == 1											//Hsarus Iron Stay
+[Name] == ChainBoots && [Flag] != Ethereal && [Quality] == Set # [FireResist] >= 25 # [MaxQuantity] == 1								//Hsarus Iron Heel
 
 //Deaths Disguise
-[Name] == WarSword && [Flag] != Ethereal && [Quality] == Set # [LifeLeech] >= 0									//Deaths Touch
-[Name] == LeatherGloves && [Flag] != Ethereal && [Quality] == Set # [FireResist] >= 50							//Deaths Hand
-[Name] == Sash && [Flag] != Ethereal && [Quality] == Set # [ItemCannotBeFrozen] >= 25								//Deaths Guard
+[Name] == WarSword && [Flag] != Ethereal && [Quality] == Set # [LifeLeech] > 0 # [MaxQuantity] == 1										//Deaths Touch
+[Name] == LeatherGloves && [Flag] != Ethereal && [Quality] == Set # [FireResist] >= 50 # [MaxQuantity] == 1								//Deaths Hand
+[Name] == Sash && [Flag] != Ethereal && [Quality] == Set # [ItemCannotBeFrozen] >= 25 # [MaxQuantity] == 1								//Deaths Guard
 
 //Angelic Raiment
-[Name] == RingMail && [Flag] != Ethereal && [Quality] == Set # [EnhancedDefense] >= 40							//Angelic Mantle
-[Name] == Sabre && [Flag] != Ethereal && [Quality] == Set # [ItemUndeadDamagePercent] >= 75						//Angelic Sickle
-[Type] == Ring && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20											//Angelic Halo
-[Type] == Amulet && [Flag] != Ethereal && [Quality] == Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20	//Angelic Wings
+[Name] == RingMail && [Flag] != Ethereal && [Quality] == Set # [EnhancedDefense] >= 40 # [MaxQuantity] == 1								//Angelic Mantle
+[Name] == Sabre && [Flag] != Ethereal && [Quality] == Set # [ItemUndeadDamagePercent] >= 75 # [MaxQuantity] == 1						//Angelic Sickle
+[Type] == Ring && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20 # [MaxQuantity] == 2											//Angelic Halo
+[Type] == Amulet && [Flag] != Ethereal && [Quality] == Set # [ItemLightRadius] >= 3 && [ItemDamageToMana] >= 20 # [MaxQuantity] == 1	//Angelic Wings
 
 //Arctic Gear
-[Name] == QuiltedArmor && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 10								//Arctic Furs
-[Name] == LightBelt && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 40								//Arctic Binding
-[Name] == LightGauntlets && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20								//Arctic Mitts
-[Name] == ShortWarBow && [Flag] != Ethereal && [Quality] == Set # [EnhancedDamage] >= 50							//Arctic Horn
+[Name] == QuiltedArmor && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 10 # [MaxQuantity] == 1								//Arctic Furs
+[Name] == LightBelt && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 40 # [MaxQuantity] == 1									//Arctic Binding
+[Name] == LightGauntlets && [Flag] != Ethereal && [Quality] == Set # [MaxHP] >= 20 # [MaxQuantity] == 1									//Arctic Mitts
+[Name] == ShortWarBow && [Flag] != Ethereal && [Quality] == Set # [EnhancedDamage] >= 50 # [MaxQuantity] == 1							//Arctic Horn
 
 //Berserkers Arsenal
-[Name] == Helm && [Flag] != Ethereal && [Quality] == Set # [FireResist] == 25										//Berserkers Headgear
-[Name] == SplintMail && [Flag] != Ethereal && [Quality] == Set # [BarbarianSkills] == 1							//Berserkers Hauberk
-[Name] == DoubleAxe && [Flag] != Ethereal && [Quality] == Set # [ManaLeech] == 5									//Berserkers Hatchet
+[Name] == Helm && [Flag] != Ethereal && [Quality] == Set # [FireResist] == 25 # [MaxQuantity] == 1										//Berserkers Headgear
+[Name] == SplintMail && [Flag] != Ethereal && [Quality] == Set # [BarbarianSkills] == 1 # [MaxQuantity] == 1							//Berserkers Hauberk
+[Name] == DoubleAxe && [Flag] != Ethereal && [Quality] == Set # [ManaLeech] == 5 # [MaxQuantity] == 1									//Berserkers Hatchet
 
 //Infernal Tools
-[Name] == Cap && [Flag] != Ethereal && [Quality] == Set # [ItemDamageToMana] == 20 && [FireResist] == 10			//Infernal Cranium
-[Name] == HeavyBelt && [Flag] != Ethereal && [Quality] == Set # [MaxHP] == 20										//Infernal Sign
-[Name] == GrimWand && [Flag] != Ethereal && [Quality] == Set # [NecromancerSkills] == 1							//Infernal Torch
+[Name] == Cap && [Flag] != Ethereal && [Quality] == Set # [ItemDamageToMana] == 20 && [FireResist] == 10 # [MaxQuantity] == 1			//Infernal Cranium
+[Name] == HeavyBelt && [Flag] != Ethereal && [Quality] == Set # [MaxHP] == 20 # [MaxQuantity] == 1										//Infernal Sign
+[Name] == GrimWand && [Flag] != Ethereal && [Quality] == Set # [NecromancerSkills] == 1 # [MaxQuantity] == 1							//Infernal Torch
 
 //Milabregas Regalia
-[Name] == Crown && [Flag] != Ethereal && [Quality] == Set # [MaxHP] == 15											//Milabregas Diadem
-[Name] == AncientArmor && [Flag] != Ethereal && [Quality] == Set # [ItemAttackerTakesDamage] == 3					//Milabregas Robe
-[Name] == KiteShield && [Flag] != Ethereal && [Quality] == Set # [ItemMagicBonus] == 20							//Milabregas Orb
-[Name] == WarScepter && [Flag] != Ethereal && [Quality] == Set # [PaladinSkills] == 1								//Milabregas Rod
+[Name] == Crown && [Flag] != Ethereal && [Quality] == Set # [MaxHP] == 15 # [MaxQuantity] == 1											//Milabregas Diadem
+[Name] == AncientArmor && [Flag] != Ethereal && [Quality] == Set # [ItemAttackerTakesDamage] == 3 # [MaxQuantity] == 1					//Milabregas Robe
+[Name] == KiteShield && [Flag] != Ethereal && [Quality] == Set # [ItemMagicBonus] == 20 # [MaxQuantity] == 1							//Milabregas Orb
+[Name] == WarScepter && [Flag] != Ethereal && [Quality] == Set # [PaladinSkills] == 1 # [MaxQuantity] == 1								//Milabregas Rod
 
 //Irathas Finery
-[Name] == Crown && [Flag] != Ethereal && [Quality] == Set # [FireResist] >= 30									//Irathas Coil
-[Type] == Amulet && [Flag] != Ethereal && [Quality] == Set # [PoisonResist] >= 30									//Irathas Collar
-[Name] == HeavyBelt && [Flag] != Ethereal && [Quality] == Set # [PlusDefense] == 25								//Irathas Cord
-[Name] == LightGauntlets && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 30							//Irathas Cuff
+[Name] == Crown && [Flag] != Ethereal && [Quality] == Set # [FireResist] >= 30 # [MaxQuantity] == 1										//Irathas Coil
+[Type] == Amulet && [Flag] != Ethereal && [Quality] == Set # [PoisonResist] >= 30 # [MaxQuantity] == 1									//Irathas Collar
+[Name] == HeavyBelt && [Flag] != Ethereal && [Quality] == Set # [PlusDefense] == 25 # [MaxQuantity] == 1								//Irathas Cord
+[Name] == LightGauntlets && [Flag] != Ethereal && [Quality] == Set # [ColdResist] >= 30 # [MaxQuantity] == 1							//Irathas Cuff

@@ -702,11 +702,6 @@ var AutoBuildTemplate={
 				//Greif base
 				Config.Recipes.push([Recipe.Socket.Weapon,"Phase Blade",Roll.All]);
 				//Eth Merc Weapon
-				Config.Recipes.push([Recipe.Socket.Weapon,"Bill",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"Partizan",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"Battle Scythe",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"Bec De Corbin",Roll.Eth]);
-				Config.Recipes.push([Recipe.Socket.Weapon,"Grim Scythe",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Colossus Voulge",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Thresher",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Cryptic Axe",Roll.Eth]);

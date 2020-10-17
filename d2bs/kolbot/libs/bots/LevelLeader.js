@@ -113,12 +113,12 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(3,3),"Smith");
 			break;
 			case 35: //Catacombs Lvl 2
-				Attack.clearLevel(0);
+				if(me.diff != 2){Attack.clearLevel(0);}
 				Pather.getWP(35,true);
 				LevelTown.doChores();
 			break;
 			case 36: //Catacombs Lvl 3
-				Attack.clearLevel(0);
+				if(me.diff != 2){Attack.clearLevel(0);}
 				LevelTown.doChores();
 			break;
 			case 37: //Andariel
@@ -180,8 +180,8 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(13,0),"Summoner");
 			break;
 			case 46: //Canyon of the Magi
-				Attack.clearLevel(0);
 				if(me.charlvl < 24){
+					Attack.clearLevel(0);
 					for(i=66; i < 73; i++){
 						Pather.journeyTo(i);
 						Attack.clearLevel(0);
