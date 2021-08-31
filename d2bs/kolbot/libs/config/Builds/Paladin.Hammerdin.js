@@ -80,7 +80,7 @@ var AutoBuildTemplate={
 				Config.MercChicken=0;
 				Config.TownHP=30;
 				Config.UseHP=60;
-				Config.UseMP=3;
+				Config.UseMP=5;
 				Config.UseRejuvHP=35;
 				Config.PickRange=60;
 				Config.BossPriority=true;
@@ -379,10 +379,10 @@ var AutoBuildTemplate={
 		},
 
 	30: 	{
-			SkillPoints: [112],
+			SkillPoints: [124],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.Redemption=[50,0];
+				Config.Redemption=[90,0];
 				Config.AttackSkill=[112,112,113,112,113,97,113];
 			}
 		},
@@ -547,8 +547,8 @@ var AutoBuildTemplate={
 			SkillPoints: [113],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.UseHP=80;
-				Config.UseMP=50;
+				Config.UseHP=85;
+				Config.UseMP=35;
 			}
 		},
 
@@ -700,8 +700,9 @@ var AutoBuildTemplate={
 			SkillPoints: [108,112,113,115],
 			StatPoints: [0,2,3,3,3],
 			Update: function(){
-				Config.UseRejuvHP=40;
-				Config.LifeChicken=20;
+				Config.UseRejuvHP=45;
+				Config.TownHP=35;
+				Config.LifeChicken=25;
 			}
 		},
 

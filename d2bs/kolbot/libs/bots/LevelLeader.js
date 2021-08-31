@@ -44,7 +44,7 @@ function LevelLeader(){
 				LevelTown.doChores();
 			break;
 			case 8: //Clear Den of Evil
-				if(me.getQuest(1,3)){break;}
+				if(me.getQuest(1,0)){break;}
 				Attack.clearLevel(0);
 				LevelTown.logProgress(me.getQuest(1,3),"Den");
 			break;
@@ -113,12 +113,12 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(3,3),"Smith");
 			break;
 			case 35: //Catacombs Lvl 2
-				if(me.diff != 2){Attack.clearLevel(0);}
+				if(me.charlvl < 15){Attack.clearLevel(0);}
 				Pather.getWP(35,true);
 				LevelTown.doChores();
 			break;
 			case 36: //Catacombs Lvl 3
-				if(me.diff != 2){Attack.clearLevel(0);}
+				if(me.charlvl < 15){Attack.clearLevel(0);}
 				LevelTown.doChores();
 			break;
 			case 37: //Andariel
@@ -258,7 +258,8 @@ function LevelLeader(){
 			case 102: //Mephisto
 				Pather.moveTo(17684,8109,1,true);
 				Pather.moveTo(17621,8069,1,true);
-				Pather.moveTo(17603,8138,1,true);
+				Pather.moveTo(17618,8133,1,true);
+				Pather.moveTo(17621,8069,1,true);
 				Pather.moveTo(17602,8014,1,true);
 				Pather.moveTo(17625,8043,1,true);
 				this.killImportantQuestBoss(242,17549,8067);
@@ -274,10 +275,10 @@ function LevelLeader(){
 				LevelTown.talkToNPC(NPC.Tyrael,4);
 				LevelTown.logProgress(me.getQuest(25,0),"Izual");
 				Pather.usePortal(105,null);
-				Attack.clearLevel(0);
+				if(me.charlvl < 28){Attack.clearLevel(0);}
 			break;
 			case 106: //City of the Damned
-				Attack.clearLevel(0);
+				if(me.charlvl >= 30){break;}
 				LevelTown.doChores();
 				Pather.usePortal(106,null);
 			break;
@@ -307,9 +308,17 @@ function LevelLeader(){
 				LevelTown.logProgress(me.getQuest(35,5),"Shenk");
 				if(me.getQuest(36,0)){break;}
 				Pather.journeyTo(111);
+				if(me.diff != 2 && me.charlvl < 95){
+					Attack.clearLevel(0);
+					LevelTown.talkToNPC(NPC.Qual_Kehk,5);
+					LevelTown.logProgress(me.getQuest(36,0),"Prisoners");
+				}
+			break;
+			case 113: //Crystalline Passage
+				if(me.getQuest(37,0)){break;}
 				Attack.clearLevel(0);
-				LevelTown.talkToNPC(NPC.Qual_Kehk,5);
-				LevelTown.logProgress(me.getQuest(36,0),"Prisoners");
+				LevelTown.doChores();
+				Pather.usePortal(113,null);
 			break;
 			case 114: //Anya
 				if(me.getQuest(37,0)){break;}
@@ -327,8 +336,13 @@ function LevelLeader(){
 				LevelTown.doChores();
 				LevelTown.logProgress(me.getQuest(37,0),"Anya");
 			break;
+			case 115: //Glacial Trail
+				Attack.clearLevel(0);
+				LevelTown.doChores();
+				Pather.usePortal(115,null);
+			break;
 			case 124: //Nihlathak
-				if(me.getQuest(38,0)){break;}
+				if(me.getQuest(38,0) || (me.diff == 2 && me.charlvl < 95)){break;}
 				if(!me.getQuest(37,0)){this.CheckQuests(114);}
 				this.clearToQuestLocation(124,2,462);
 				this.killQuestBoss(526);
@@ -380,9 +394,11 @@ function LevelLeader(){
 				}
 				BaalPortal=getUnit(2,563);
 				if(BaalPortal && Pather.usePortal(null,null,BaalPortal)){
-					if((me.diff == 0 && me.charlvl > 35) || me.charlvl > 75){
+					if((me.diff == 0 && me.charlvl > 39) || me.charlvl > 75){
 						Pather.moveTo(15134,5923,true);
-						this.killImportantQuestBoss(544);
+						if(me.diff != 2){this.killImportantQuestBoss(544);}
+						else{this.killQuestBoss(544);}
+						LevelTown.talkToNPC(NPC.Malah,5);
 						LevelTown.logProgress(me.getQuest(40,0),"Baal");
 					}
 					LevelTown.doChores();
@@ -869,7 +885,7 @@ function LevelLeader(){
 	
 	//Start Script
 	// while(true){say(me.x+","+me.y);delay(2000);}
-	LevelTown.configCharacter();
+	LevelTown.doChores();
 	this.assignTeleSorcs();
 	this.checkProgress();
 	

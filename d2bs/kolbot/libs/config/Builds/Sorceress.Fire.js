@@ -78,7 +78,7 @@ var AutoBuildTemplate={
 				Config.MercChicken=0;
 				Config.TownHP=30;
 				Config.UseHP=60;
-				Config.UseMP=3;
+				Config.UseMP=5;
 				Config.UseRejuvHP=35;
 				Config.PickRange=60;
 				Config.BossPriority=true;
@@ -552,8 +552,8 @@ var AutoBuildTemplate={
 			SkillPoints: [61],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.UseHP=80;
-				Config.UseMP=50;
+				Config.UseHP=85;
+				Config.UseMP=35;
 			}
 		},
 
@@ -705,17 +705,17 @@ var AutoBuildTemplate={
 			SkillPoints: [61,43,47,36],
 			StatPoints: [0,1,1,3,3],
 			Update: function(){
-				Config.UseRejuvHP=40;
-				Config.LifeChicken=20;
+				Config.UseRejuvHP=45;
+				Config.TownHP=35;
+				Config.LifeChicken=25;
 			}
 		},
 
 	70: 	{
 			SkillPoints: [61,43,47,36],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.Gamble=false;
-				Config.DodgeRange=20;
 				//Eth Merc Weapon
 				Config.Recipes.push([Recipe.Socket.Weapon,"Colossus Voulge",Roll.Eth]);
 				Config.Recipes.push([Recipe.Socket.Weapon,"Thresher",Roll.Eth]);
@@ -737,7 +737,7 @@ var AutoBuildTemplate={
 
 	71: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -745,7 +745,7 @@ var AutoBuildTemplate={
 
 	72: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -753,7 +753,7 @@ var AutoBuildTemplate={
 
 	73: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -761,7 +761,7 @@ var AutoBuildTemplate={
 
 	74: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -769,7 +769,7 @@ var AutoBuildTemplate={
 
 	75: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -777,7 +777,7 @@ var AutoBuildTemplate={
 
 	76: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -785,7 +785,7 @@ var AutoBuildTemplate={
 
 	77: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -793,7 +793,7 @@ var AutoBuildTemplate={
 
 	78: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -801,7 +801,7 @@ var AutoBuildTemplate={
 
 	79: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.AttackSkill=[62,47,47,47,47,53,49];
 			}
@@ -809,7 +809,7 @@ var AutoBuildTemplate={
 
 	80: 	{
 			SkillPoints: [43],
-			StatPoints: [0,1,1,3,3],
+			StatPoints: [0,0,0,0,0],
 			Update: function(){
 				Config.KeepRunewords.push("[Type] == Shield || [Type] == AuricShields # [FCR] == 35");
 				Config.KeepRunewords.push("[Type] == Sword # [FCR] == 35");

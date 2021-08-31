@@ -130,7 +130,7 @@ var LevelTown={
 		var UnidentifiedItems = Town.getUnids(),Result;
 		for (i = 0; i < UnidentifiedItems.length; i += 1) {
 			Result = Pickit.checkItem(UnidentifiedItems[i]);
-			if (!Item.autoEquipCheck(UnidentifiedItems[i])) {Result = 0;}
+			if (!Item.autoEquipCheck(UnidentifiedItems[i]) && !Item.autoEquipCheckMerc(UnidentifiedItems[i])) {Result = 0;}
 			switch (Result.result) {
 				case 0:
 					Misc.itemLogger("Dropped", UnidentifiedItems[i], "cainID");
@@ -283,7 +283,6 @@ var LevelTown={
 	},
 	
 	configCharacter: function(){
-		Town.heal();
 		Town.initNPC("Shop","BuyPotions");
 		me.cancel();
 		delay(150);

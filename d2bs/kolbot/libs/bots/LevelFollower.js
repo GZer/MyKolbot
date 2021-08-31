@@ -10,6 +10,7 @@ function LevelFollower(){
 	
 	this.goFindLeader=function(LeaderArea){
 		var LeaderAct,BaalPortal;
+		Pather.teleport=true;
 		if(LeaderArea){
 			if(LeaderArea < 40){LeaderAct=1;}
 			else if(LeaderArea < 75){LeaderAct=2;}
@@ -25,7 +26,6 @@ function LevelFollower(){
 				this.teleportFromLocation(me.area);
 			}
 			if(LeaderArea != me.area){
-				Pather.teleport=true;
 				//Check leader or any portals to area otherwise walk to leader
 				if(Pather.getPortal(LeaderArea,Config.Leader)){Pather.usePortal(LeaderArea,Config.Leader);}
 				else if(Pather.getPortal(LeaderArea,null)){Pather.usePortal(LeaderArea,null);}
@@ -56,6 +56,13 @@ function LevelFollower(){
 								catch(err){LevelTown.doChores();}
 							}
 						break;
+						//Flayer Jungle BS
+						case 78:
+							if(me.inTown){
+								try{Pather.useWaypoint(78);}
+								catch(err){print("Find Leader Failed");}
+							}
+						break;
 						case 102:
 							if(me.inTown){
 								try{Pather.useWaypoint(101);}
@@ -79,16 +86,15 @@ function LevelFollower(){
 							}
 						break;
 					}
-					if(LeaderArea == 78){Pather.useWaypoint(78);}
-					else{Pather.journeyTo(LeaderArea);}
 				}
-				Pather.teleport=false;
-				delay(250);
-				Pather.getWP(me.area,true);
-				//Go to leader if not in Town
-				if(!me.inTown && me.area == LeaderArea){Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);}
-				else{LevelTown.doChores();}
+				Pather.journeyTo(LeaderArea);
 			}
+			Pather.teleport=(me.diff == 2);
+			delay(250);
+			Pather.getWP(me.area,true);
+			//Go to leader if not in Town
+			if(!me.inTown && me.area == LeaderArea){Pather.moveTo(LeaderUnit.x-2,LeaderUnit.y-2,2,true);}
+			else{LevelTown.doChores();Town.move("portalspot");}
 		}else{
 			print("Leader not partied");
 			delay(500);
@@ -158,7 +164,7 @@ function LevelFollower(){
 		LeaderUnit=getParty(Config.Leader);
 		//Loop to ensure leader is assigned
 		while(!this.getTheLeader(Config.Leader)){
-			delay(500);
+			delay(1000);
 			partyTimeout++;
 			this.goFindLeader(LeaderUnit.area);
 			if(partyTimeout > 5){
@@ -170,21 +176,19 @@ function LevelFollower(){
 	
 	//Start Script
 	// while(true){LevelTown.unEquipMerc();delay(2000);Item.autoEquipMerc();say(me.x+","+me.y);delay(2000);}
-	LevelTown.configCharacter();
+	LevelTown.doChores();
 	Town.move("portalspot");
 	this.assignTheLeader();
 	
 	while(TheLeader){
 		if(copyUnit(TheLeader).x){
-			if(getDistance(me,TheLeader) > 5){
+			if(getDistance(me,TheLeader) > 4){
 				Pather.teleport=false;
 				if(me.inTown){Town.move("portalspot");}
-				else{
-					Pather.moveToUnit(TheLeader,rand(-4,4),rand(-4,4),true,true);
-					Attack.clear(20);
-				}
+				else{Pather.moveToUnit(TheLeader,rand(-4,4),rand(-4,4),true,true);}
 			}
-			delay(150);
+			Attack.clear(30);
+			delay(250);
 		}else{
 			this.goFindLeader(LeaderUnit.area);
 		}

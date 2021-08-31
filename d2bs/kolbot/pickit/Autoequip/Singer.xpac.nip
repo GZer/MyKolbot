@@ -23,10 +23,6 @@
 [Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 && [MaxHP] > 40 # [Tier] == 8
 [Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] > 50 && [MaxHP] > 50 # [Tier] == 9
 [Type] == Shield && [Flag] != Ethereal && [Quality] >= Magic # [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 1 # [Tier] == 10
-[Type] == Shield && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 10 && [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 1 # [Tier] == 90
-[Name] == GrimShield && [Flag] != Ethereal && [Quality] == Unique # [FCR] >= 20 && [ItemAllSkills]+[BarbarianSkills]+[WarcriesSkillTab] >= 1 # [Tier] == 95
-[Type] == Shield && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 25 && [ItemAllSkills] >= 2 # [Tier] == 98
-[Type] == Shield && [Flag] != Ethereal && [Flag] == Runeword # [FCR] >= 35 && [ItemAllSkills] >= 2 # [Tier] == 99
 
 //Helm
 [Type] == PrimalHelm && [Flag] != Ethereal # [Defense] > 1 # [Tier] == 1 && [MaxQuantity] == 1
