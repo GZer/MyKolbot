@@ -175,7 +175,7 @@ function LevelFollower(){
 	};
 	
 	//Start Script
-	// while(true){LevelTown.unEquipMerc();delay(2000);Item.autoEquipMerc();say(me.x+","+me.y);delay(2000);}
+	/*var q;while(true){for(q=0;q<13;q++){print(q+" - "+me.getQuest(20,q));delay(1000);}}*/
 	LevelTown.doChores();
 	Town.move("portalspot");
 	this.assignTheLeader();

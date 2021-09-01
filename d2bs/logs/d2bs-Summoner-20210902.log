@@ -1,0 +1,914 @@
+[09/02/21 10:09:06] D2BS 12616: D2BS Engine startup complete. 1.6.4U
+[09/02/21 10:09:06] D2BS 12616: Summoner
+[09/02/21 10:09:06] D2BS 12616: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[09/02/21 10:09:06] D2BS 12616: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/02/21 10:09:06] D2BS 12616: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/02/21 10:09:06] D2BS 12616: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/02/21 10:09:06] D2BS 12616: ÿc2D2BSÿc0 :: Started Console Script
+[09/02/21 10:09:08] D2BS 12616: Heartbeat loaded
+[09/02/21 10:09:26] D2BS 12616: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:09:26] D2BS 12616: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:09:26] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/02/21 10:09:26] D2BS 12616: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[09/02/21 10:09:26] D2BS 12616: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/02/21 10:09:26] D2BS 12616: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12616: AutoBuild: Loaded helper thread
+[09/02/21 10:09:26] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/02/21 10:09:26] D2BS 12616: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12616: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:09:26] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/02/21 10:09:26] D2BS 12616: ÿc3Start ToolsThread script
+[09/02/21 10:09:26] D2BS 12616: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/02/21 10:09:26] D2BS 12616: Updating Config from level 0 to 24
+[09/02/21 10:09:29] D2BS 12616: LowGold sell Broad Sword
+[09/02/21 10:09:29] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:09:41] D2BS 12616: LowGold sell Morning Star
+[09/02/21 10:09:41] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:09:43] D2BS 12616: LowGold sell Nef Rune
+[09/02/21 10:09:43] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:09:45] D2BS 12616: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:09:45] D2BS 12616: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[09/02/21 10:09:54] D2BS 12616: move retry 1
+[09/02/21 10:09:57] D2BS 12616: move retry 2
+[09/02/21 10:10:05] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:10:18] D2BS 12616: 79
+[09/02/21 10:10:58] D2BS 12616: move retry 1
+[09/02/21 10:11:15] D2BS 12616: move retry 1
+[09/02/21 10:11:24] D2BS 12616: 75
+[09/02/21 10:11:25] D2BS 12616: initNPC: heal
+[09/02/21 10:11:38] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:11:54] D2BS 12616: 79
+[09/02/21 10:12:04] D2BS 12616: move retry 1
+[09/02/21 10:12:13] D2BS 12616: move retry 1
+[09/02/21 10:12:27] D2BS 12616: move retry 2
+[09/02/21 10:12:27] D2BS 12616: 79,80
+[09/02/21 10:12:41] D2BS 12616: move retry 1
+[09/02/21 10:12:58] D2BS 12616: ÿc7Picked up ÿc496 Gold
+[09/02/21 10:13:01] D2BS 12616: move retry 1
+[09/02/21 10:13:16] D2BS 12616: move retry 2
+[09/02/21 10:13:23] D2BS 12616: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:13:24] D2BS 12616: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/02/21 10:13:28] D2BS 12616: move retry 3
+[09/02/21 10:13:33] D2BS 12616: move retry 1
+[09/02/21 10:13:44] D2BS 12616: move retry 1
+[09/02/21 10:13:53] D2BS 12616: 80,92
+[09/02/21 10:13:55] D2BS 12616: move retry 1
+[09/02/21 10:13:56] D2BS 12616: move retry 2
+[09/02/21 10:13:58] D2BS 12616: move retry 3
+[09/02/21 10:14:43] D2BS 12616: move retry 1
+[09/02/21 10:14:54] D2BS 12616: move retry 1
+[09/02/21 10:15:40] D2BS 12616: 92,93
+[09/02/21 10:15:48] D2BS 12616: 75
+[09/02/21 10:15:50] D2BS 12616: initNPC: heal
+[09/02/21 10:15:51] D2BS 12616: move retry 1
+[09/02/21 10:15:54] D2BS 12616: move retry 1
+[09/02/21 10:16:17] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:16:30] D2BS 12616: move retry 1
+[09/02/21 10:16:34] D2BS 12616: move retry 1
+[09/02/21 10:16:36] D2BS 12616: 93
+[09/02/21 10:16:51] D2BS 12616: ÿc1Skipping Stygian Watcher 246 16
+[09/02/21 10:16:56] D2BS 12616: ÿc1Skipping Undead Soul Killer 236 16
+[09/02/21 10:16:58] D2BS 12616: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/02/21 10:17:01] D2BS 12616: move retry 1
+[09/02/21 10:17:02] D2BS 12616: 75
+[09/02/21 10:17:05] D2BS 12616: initNPC: heal
+[09/02/21 10:17:18] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:17:38] D2BS 12616: 93
+[09/02/21 10:18:07] D2BS 12616: 75
+[09/02/21 10:18:08] D2BS 12616: move retry 1
+[09/02/21 10:18:38] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:18:55] D2BS 12616: 94
+[09/02/21 10:19:26] D2BS 12616: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:19:47] D2BS 12616: 75
+[09/02/21 10:19:49] D2BS 12616: initNPC: heal
+[09/02/21 10:20:00] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:20:01] D2BS 12616: move retry 1
+[09/02/21 10:20:31] D2BS 12616: move retry 1
+[09/02/21 10:20:40] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:20:52] D2BS 12616: 80
+[09/02/21 10:20:56] D2BS 12616: move retry 1
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: Stat points: 10      Skill points: 3
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: Level up detected ( 24 --> 25 )
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: useSkillPoint(): Iron Golem (90)
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: Skill (1/1) Increased Iron Golem (90) by one (level:  1)
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: useStatPoint(0): Strength
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: Stat (1/5) Increased Strength from 38 to 39
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: Stat (2/5) Increased Vitality from 107 to 108
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: Stat (3/5) Increased Vitality from 108 to 109
+[09/02/21 10:21:21] D2BS 12616: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:21:22] D2BS 12616: AutoBuild: Stat (4/5) Increased Vitality from 109 to 110
+[09/02/21 10:21:22] D2BS 12616: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:21:22] D2BS 12616: AutoBuild: Stat (5/5) Increased Vitality from 110 to 111
+[09/02/21 10:21:22] D2BS 12616: Updating Config from level 24 to 25
+[09/02/21 10:21:22] D2BS 12616: Updating Config from level 24 to 25
+[09/02/21 10:21:22] D2BS 12616: Updating Config from level 24 to 25
+[09/02/21 10:21:22] D2BS 12616: AutoBuild: Updating Config from level 24 to 25
+[09/02/21 10:21:22] D2BS 12616: Updating Config from level 24 to 25
+[09/02/21 10:21:22] D2BS 12616: AutoBuild: Incrementing cached character level to 25
+[09/02/21 10:21:23] D2BS 12616: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:21:35] D2BS 12616: ÿc7Picked up ÿc456 Gold
+[09/02/21 10:21:45] D2BS 12616: ÿc7Picked up ÿc4116 Gold
+[09/02/21 10:21:52] D2BS 12616: ÿc7Picked up ÿc427 Gold
+[09/02/21 10:22:04] D2BS 12616: move retry 1
+[09/02/21 10:22:48] D2BS 12616: move retry 1
+[09/02/21 10:23:12] D2BS 12616: move retry 1
+[09/02/21 10:23:44] D2BS 12616: 82,83
+[09/02/21 10:23:51] D2BS 12616: move retry 1
+[09/02/21 10:24:38] D2BS 12616: move retry 1
+[09/02/21 10:25:16] D2BS 12616: ÿc1Skipping Faithful 436 16
+[09/02/21 10:25:17] D2BS 12616: ÿc7Picked up ÿc4101 Gold
+[09/02/21 10:25:21] D2BS 12616: move retry 1
+[09/02/21 10:25:33] D2BS 12616: ÿc1Skipping Faithful 438 16
+[09/02/21 10:25:44] D2BS 12616: ÿc7Picked up ÿc0Long Battle Bow ÿc0(ilvl 25)
+[09/02/21 10:25:44] D2BS 12616: move retry 1
+[09/02/21 10:27:11] D2BS 12616: move retry 2
+[09/02/21 10:27:12] D2BS 12616: 76,78
+[09/02/21 10:27:54] D2BS 12616: move retry 1
+[09/02/21 10:28:17] D2BS 12616: move retry 1
+[09/02/21 10:28:44] D2BS 12616: ÿc1Skipping Thorned Hulk 860 16
+[09/02/21 10:28:44] D2BS 12616: ÿc7Picked up ÿc467 Gold
+[09/02/21 10:28:45] D2BS 12616: ÿc7Picked up ÿc0Claymore ÿc0(ilvl 21)
+[09/02/21 10:28:46] D2BS 12616: ÿc7Picked up ÿc0Blade Talons ÿc0(ilvl 21)
+[09/02/21 10:28:46] D2BS 12616: move retry 2
+[09/02/21 10:29:38] D2BS 12616: move retry 1
+[09/02/21 10:30:12] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:30:12] D2BS 12616: initNPC: heal
+[09/02/21 10:30:13] D2BS 12616: move retry 1
+[09/02/21 10:30:15] D2BS 12616: initNPC: identify
+[09/02/21 10:30:16] D2BS 12616: ÿc4MiniShopBotÿc0: Scanning 62 items.
+[09/02/21 10:30:17] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:30:25] D2BS 12616: move retry 1
+[09/02/21 10:30:35] D2BS 12616: LowGold sell Blade Talons
+[09/02/21 10:30:35] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:30:42] D2BS 12616: LowGold sell Claymore
+[09/02/21 10:30:42] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:30:44] D2BS 12616: LowGold sell Long Battle Bow
+[09/02/21 10:30:44] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:30:52] D2BS 12616: ÿc2Resuming.
+[09/02/21 10:30:55] D2BS 12616: move retry 2
+[09/02/21 10:30:58] D2BS 12616: move retry 3
+[09/02/21 10:31:12] D2BS 12616: ÿc1Skipping Fetish 569 16
+[09/02/21 10:31:16] D2BS 12616: ÿc7Picked up ÿc429 Gold
+[09/02/21 10:31:23] D2BS 12616: ÿc1Skipping Fetish 568 16
+[09/02/21 10:31:34] D2BS 12616: ÿc1Skipping Drowned Carcass 604 16
+[09/02/21 10:31:50] D2BS 12616: ÿc1Skipping Drowned Carcass 605 16
+[09/02/21 10:32:00] D2BS 12616: ÿc1Skipping Drowned Carcass 603 16
+[09/02/21 10:32:01] D2BS 12616: ÿc7Picked up ÿc482 Gold
+[09/02/21 10:32:33] D2BS 12616: ÿc1Skipping Drowned Carcass 594 16
+[09/02/21 10:32:35] D2BS 12616: ÿc7Picked up ÿc4121 Gold
+[09/02/21 10:33:10] D2BS 12616: ÿc1Skipping Fetish 569 16
+[09/02/21 10:33:32] D2BS 12616: ÿc1Skipping Drowned Carcass 595 16
+[09/02/21 10:33:46] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:33:47] D2BS 12616: initNPC: heal
+[09/02/21 10:33:56] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:34:11] D2BS 12616: ÿc2Resuming.
+[09/02/21 10:35:33] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:35:33] D2BS 12616: initNPC: heal
+[09/02/21 10:35:41] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:36:10] D2BS 12616: initNPC: reviveMerc
+[09/02/21 10:36:27] D2BS 12616: ÿc2Resuming.
+[09/02/21 10:37:07] D2BS 12616: ÿc7Picked up ÿc4104 Gold
+[09/02/21 10:37:13] D2BS 12616: ÿc1Skipping Drowned Carcass 575 16
+[09/02/21 10:37:39] D2BS 12616: ÿc1Skipping Drowned Carcass 572 16
+[09/02/21 10:37:45] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:37:45] D2BS 12616: initNPC: heal
+[09/02/21 10:37:48] D2BS 12616: initNPC: fillTome
+[09/02/21 10:37:50] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:38:06] D2BS 12616: ÿc2Resuming.
+[09/02/21 10:38:14] D2BS 12616: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 22)
+[09/02/21 10:38:30] D2BS 12616: ÿc7Picked up ÿc0Claws ÿc0(ilvl 21)
+[09/02/21 10:38:52] D2BS 12616: ÿc1Skipping Fetish Shaman 560 16
+[09/02/21 10:39:13] D2BS 12616: ÿc7Picked up ÿc472 Gold
+[09/02/21 10:39:44] D2BS 12616: move retry 1
+[09/02/21 10:39:55] D2BS 12616: ÿc1Skipping Fetish 552 16
+[09/02/21 10:40:14] D2BS 12616: ÿc7Picked up ÿc0Chipped Ruby ÿc0(ilvl 1)
+[09/02/21 10:40:48] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:40:48] D2BS 12616: initNPC: heal
+[09/02/21 10:40:57] D2BS 12616: initNPC: identify
+[09/02/21 10:40:58] D2BS 12616: ÿc4MiniShopBotÿc0: Scanning 62 items.
+[09/02/21 10:40:59] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:41:09] D2BS 12616: LowGold sell Claws
+[09/02/21 10:41:09] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:41:21] D2BS 12616: LowGold sell Morning Star
+[09/02/21 10:41:21] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:41:24] D2BS 12616: LowGold sell Chipped Ruby
+[09/02/21 10:41:24] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:41:26] D2BS 12616: Garnet Mask of the Jackal
+[09/02/21 10:41:33] D2BS 12616: ÿc2Resuming.
+[09/02/21 10:41:52] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:41:54] D2BS 12616: initNPC: heal
+[09/02/21 10:41:57] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:42:18] D2BS 12616: ÿc2Resuming.
+[09/02/21 10:42:32] D2BS 12616: ÿc1Skipping Drowned Carcass 540 16
+[09/02/21 10:42:37] D2BS 12616: move retry 1
+[09/02/21 10:42:37] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:42:38] D2BS 12616: initNPC: heal
+[09/02/21 10:42:46] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:43:02] D2BS 12616: Script default.dbj ended
+[09/02/21 10:43:02] D2BS 12616: Script tools\autobuildthread.js ended
+[09/02/21 10:43:02] D2BS 12616: Script tools\party.js ended
+[09/02/21 10:43:02] D2BS 12616: Script tools\toolsthread.js ended
+[09/02/21 10:43:02] D2BS 12616: Script tools\townchicken.js ended
+[09/02/21 10:43:09] D2BS 12616: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:43:09] D2BS 12616: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:43:09] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/02/21 10:43:09] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12616: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12616: AutoBuild: Loaded helper thread
+[09/02/21 10:43:09] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/02/21 10:43:09] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12616: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:43:09] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/02/21 10:43:09] D2BS 12616: ÿc3Start ToolsThread script
+[09/02/21 10:43:09] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/02/21 10:43:09] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:43:11] D2BS 12616: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:43:18] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:43:28] D2BS 12616: ÿc7Picked up ÿc0Wolf Head ÿc0(ilvl 8)
+[09/02/21 10:43:58] D2BS 12616: initNPC: heal
+[09/02/21 10:44:04] D2BS 12616: initNPC: identify
+[09/02/21 10:44:05] D2BS 12616: ÿc4MiniShopBotÿc0: Scanning 58 items.
+[09/02/21 10:44:13] D2BS 12616: LowGold sell Wolf Head
+[09/02/21 10:44:13] D2BS 12616: initNPC: clearInventory
+[09/02/21 10:44:23] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:44:35] D2BS 12616: 101
+[09/02/21 10:45:07] D2BS 12616: move retry 1
+[09/02/21 10:45:14] D2BS 12616: 101,102
+[09/02/21 10:45:21] D2BS 12616: 75
+[09/02/21 10:45:22] D2BS 12616: initNPC: heal
+[09/02/21 10:45:45] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:46:00] D2BS 12616: 102
+[09/02/21 10:46:16] D2BS 12616: ÿc7Picked up ÿc4815 Gold
+[09/02/21 10:46:55] D2BS 12616: move retry 1
+[09/02/21 10:47:08] D2BS 12616: move retry 1
+[09/02/21 10:47:30] D2BS 12616: move retry 1
+[09/02/21 10:47:32] D2BS 12616: 75
+[09/02/21 10:47:35] D2BS 12616: initNPC: heal
+[09/02/21 10:47:46] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:48:07] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:48:22] D2BS 12616: 102
+[09/02/21 10:49:01] D2BS 12616: 75
+[09/02/21 10:49:04] D2BS 12616: initNPC: heal
+[09/02/21 10:49:17] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:49:22] D2BS 12616: move retry 1
+[09/02/21 10:49:41] D2BS 12616: 102
+[09/02/21 10:49:59] D2BS 12616: move retry 1
+[09/02/21 10:50:13] D2BS 12616: move retry 1
+[09/02/21 10:50:29] D2BS 12616: move retry 1
+[09/02/21 10:51:08] D2BS 12616: move retry 1
+[09/02/21 10:51:11] D2BS 12616: move retry 1
+[09/02/21 10:51:13] D2BS 12616: move retry 1
+[09/02/21 10:51:16] D2BS 12616: move retry 1
+[09/02/21 10:51:18] D2BS 12616: move retry 1
+[09/02/21 10:51:21] D2BS 12616: move retry 1
+[09/02/21 10:51:24] D2BS 12616: move retry 1
+[09/02/21 10:51:27] D2BS 12616: move retry 1
+[09/02/21 10:51:29] D2BS 12616: move retry 1
+[09/02/21 10:51:33] D2BS 12616: move retry 1
+[09/02/21 10:51:35] D2BS 12616: move retry 1
+[09/02/21 10:51:38] D2BS 12616: move retry 1
+[09/02/21 10:51:40] D2BS 12616: move retry 1
+[09/02/21 10:51:47] D2BS 12616: move retry 1
+[09/02/21 10:51:49] D2BS 12616: move retry 1
+[09/02/21 10:51:53] D2BS 12616: move retry 1
+[09/02/21 10:51:55] D2BS 12616: move retry 1
+[09/02/21 10:51:59] D2BS 12616: move retry 1
+[09/02/21 10:52:01] D2BS 12616: move retry 1
+[09/02/21 10:52:05] D2BS 12616: move retry 1
+[09/02/21 10:52:07] D2BS 12616: move retry 1
+[09/02/21 10:52:10] D2BS 12616: move retry 1
+[09/02/21 10:52:12] D2BS 12616: move retry 1
+[09/02/21 10:52:15] D2BS 12616: move retry 1
+[09/02/21 10:52:17] D2BS 12616: move retry 1
+[09/02/21 10:52:27] D2BS 12616: move retry 1
+[09/02/21 10:52:29] D2BS 12616: move retry 1
+[09/02/21 10:52:31] D2BS 12616: move retry 1
+[09/02/21 10:52:33] D2BS 12616: move retry 1
+[09/02/21 10:52:36] D2BS 12616: move retry 1
+[09/02/21 10:52:38] D2BS 12616: move retry 1
+[09/02/21 10:52:41] D2BS 12616: move retry 1
+[09/02/21 10:52:43] D2BS 12616: move retry 1
+[09/02/21 10:52:45] D2BS 12616: move retry 1
+[09/02/21 10:52:48] D2BS 12616: move retry 1
+[09/02/21 10:52:50] D2BS 12616: move retry 1
+[09/02/21 10:52:52] D2BS 12616: move retry 1
+[09/02/21 10:52:55] D2BS 12616: move retry 1
+[09/02/21 10:52:57] D2BS 12616: move retry 1
+[09/02/21 10:53:00] D2BS 12616: move retry 1
+[09/02/21 10:53:02] D2BS 12616: move retry 1
+[09/02/21 10:53:05] D2BS 12616: move retry 1
+[09/02/21 10:53:07] D2BS 12616: move retry 1
+[09/02/21 10:53:12] D2BS 12616: move retry 1
+[09/02/21 10:53:14] D2BS 12616: move retry 1
+[09/02/21 10:53:16] D2BS 12616: move retry 1
+[09/02/21 10:53:19] D2BS 12616: move retry 1
+[09/02/21 10:53:22] D2BS 12616: move retry 1
+[09/02/21 10:53:25] D2BS 12616: move retry 1
+[09/02/21 10:53:27] D2BS 12616: move retry 1
+[09/02/21 10:53:29] D2BS 12616: move retry 1
+[09/02/21 10:53:34] D2BS 12616: move retry 1
+[09/02/21 10:53:36] D2BS 12616: move retry 1
+[09/02/21 10:53:38] D2BS 12616: move retry 1
+[09/02/21 10:53:40] D2BS 12616: move retry 1
+[09/02/21 10:53:43] D2BS 12616: 75
+[09/02/21 10:53:57] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:54:11] D2BS 12616: Script default.dbj ended
+[09/02/21 10:54:11] D2BS 12616: Script tools\autobuildthread.js ended
+[09/02/21 10:54:11] D2BS 12616: Script tools\party.js ended
+[09/02/21 10:54:11] D2BS 12616: Script tools\toolsthread.js ended
+[09/02/21 10:54:11] D2BS 12616: Script tools\townchicken.js ended
+[09/02/21 10:54:50] D2BS 12616: Error: login time out null
+[09/02/21 10:54:57] D2BS 12616: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:54:57] D2BS 12616: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:54:57] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/02/21 10:54:57] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12616: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/02/21 10:54:57] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12616: AutoBuild: Loaded helper thread
+[09/02/21 10:54:57] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/02/21 10:54:57] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12616: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:54:57] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/02/21 10:54:57] D2BS 12616: ÿc3Start ToolsThread script
+[09/02/21 10:54:57] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12616: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/02/21 10:54:57] D2BS 12616: Updating Config from level 0 to 25
+[09/02/21 10:55:00] D2BS 12616: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:55:03] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:55:16] D2BS 12616: move retry 1
+[09/02/21 10:55:21] D2BS 12616: 101
+[09/02/21 10:55:46] D2BS 12616: 101,102
+[09/02/21 10:56:18] D2BS 12616: ÿc1Pausing.
+[09/02/21 10:56:18] D2BS 12616: initNPC: heal
+[09/02/21 10:56:23] D2BS 12616: initNPC: buyPotions
+[09/02/21 10:56:44] D2BS 12616: initNPC: reviveMerc
+[09/02/21 10:57:02] D2BS 12616: ÿc2Resuming.
+[09/02/21 10:57:25] D2BS 12616: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(13/20)
+[09/02/21 10:57:46] D2BS 12616: 75
+[09/02/21 10:57:48] D2BS 12616: initNPC: heal
+[09/02/21 10:57:56] D2BS 12616: move retry 1
+[09/02/21 10:58:00] D2BS 12616: move retry 2
+[09/02/21 10:58:02] D2BS 12616: initNPC: BuyPotions
+[09/02/21 10:58:16] D2BS 12616: move retry 1
+[09/02/21 10:58:32] D2BS 12616: move retry 1
+[09/02/21 10:58:46] D2BS 12616: Script default.dbj ended
+[09/02/21 10:58:46] D2BS 12616: Script tools\autobuildthread.js ended
+[09/02/21 10:58:46] D2BS 12616: Script tools\party.js ended
+[09/02/21 10:58:46] D2BS 12616: Script tools\toolsthread.js ended
+[09/02/21 10:58:46] D2BS 12616: Script tools\townchicken.js ended
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 1472
+[09/02/21 10:58:51] D2BS 12616: 771C2CFC (ntdll): (filename not available): NtDelayExecution
+[09/02/21 10:58:51] D2BS 12616: 7571492F (KERNELBASE): (filename not available): Sleep
+[09/02/21 10:58:51] D2BS 12616: 03063C94 (D2BS): (filename not available): QueryInterface
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 2540
+[09/02/21 10:58:51] D2BS 12616: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:58:51] D2BS 12616: 75701072 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/02/21 10:58:51] D2BS 12616: 004027E5 (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 2544
+[09/02/21 10:58:51] D2BS 12616: 771C2CFC (ntdll): (filename not available): NtDelayExecution
+[09/02/21 10:58:51] D2BS 12616: 7571492F (KERNELBASE): (filename not available): Sleep
+[09/02/21 10:58:51] D2BS 12616: 004102FC (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 11568
+[09/02/21 10:58:51] D2BS 12616: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:58:51] D2BS 12616: 75701072 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/02/21 10:58:51] D2BS 12616: 0041A845 (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 10852
+[09/02/21 10:58:51] D2BS 12616: 771C46EC (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 4260
+[09/02/21 10:58:51] D2BS 12616: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:58:51] D2BS 12616: 030E7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:58:51] D2BS 12616: 031D2B1F (D2BS): (filename not available): JS_freeop
+[09/02/21 10:58:51] D2BS 12616: 031D1A5E (D2BS): (filename not available): JS_freeop
+[09/02/21 10:58:51] D2BS 12616: 030FE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 4676
+[09/02/21 10:58:51] D2BS 12616: 771C2CFC (ntdll): (filename not available): NtDelayExecution
+[09/02/21 10:58:51] D2BS 12616: 7571492F (KERNELBASE): (filename not available): Sleep
+[09/02/21 10:58:51] D2BS 12616: 0306E2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:58:51] D2BS 12616: 030F01B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:58:51] D2BS 12616: 031D2B1F (D2BS): (filename not available): JS_freeop
+[09/02/21 10:58:51] D2BS 12616: 031D1A5E (D2BS): (filename not available): JS_freeop
+[09/02/21 10:58:51] D2BS 12616: 030FE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 14284
+[09/02/21 10:58:51] D2BS 12616: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:58:51] D2BS 12616: 030E7236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:58:51] D2BS 12616: 031D2B1F (D2BS): (filename not available): JS_freeop
+[09/02/21 10:58:51] D2BS 12616: 031D1A5E (D2BS): (filename not available): JS_freeop
+[09/02/21 10:58:51] D2BS 12616: 030FE4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Stack Walk Thread: 12608
+[09/02/21 10:58:51] D2BS 12616: 0306B024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/02/21 10:58:51] D2BS 12616: 030637F8 (D2BS): (filename not available): QueryInterface
+[09/02/21 10:58:51] D2BS 12616: 00408A05 (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 00408A81 (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:58:51] D2BS 12616: 00663131 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:58:51] D2BS 12616: 00619345 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:58:51] D2BS 12616: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/02/21 10:58:51] D2BS 12616: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/02/21 10:58:51] D2BS 12616: 00405E6B (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 004065C7 (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 0040671F (Game): (filename not available): (function-name not available)
+[09/02/21 10:58:51] D2BS 12616: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:58:51] D2BS 12616: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:58:51] D2BS 12616: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:58:51] D2BS 12616: Crash File: BlizzardError/2021-09-02 10.58.51/Crash.txt
+[09/02/21 10:58:51] D2BS 12616: D2BS Shutdown complete.
+[09/02/21 10:58:53] D2BS 2020: D2BS Engine startup complete. 1.6.4U
+[09/02/21 10:58:53] D2BS 2020: Summoner
+[09/02/21 10:58:53] D2BS 2020: ÿc2D2BSÿc0 :: Switched to profile Summoner
+[09/02/21 10:58:53] D2BS 2020: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/02/21 10:58:53] D2BS 2020: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/02/21 10:58:53] D2BS 2020: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/02/21 10:58:53] D2BS 2020: ÿc2D2BSÿc0 :: Started Console Script
+[09/02/21 10:58:56] D2BS 2020: Heartbeat loaded
+[09/02/21 10:59:13] D2BS 2020: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:59:13] D2BS 2020: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:59:14] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/02/21 10:59:14] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc215 ms
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:59:14] D2BS 2020: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:59:14] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/02/21 10:59:14] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 10:59:14] D2BS 2020: AutoBuild: Loaded helper thread
+[09/02/21 10:59:14] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/02/21 10:59:14] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 10:59:14] D2BS 2020: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:59:14] D2BS 2020: ÿc3Start ToolsThread script
+[09/02/21 10:59:14] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/02/21 10:59:14] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/02/21 10:59:14] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 10:59:14] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 10:59:21] D2BS 2020: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:59:22] D2BS 2020: initNPC: BuyPotions
+[09/02/21 10:59:39] D2BS 2020: 101
+[09/02/21 10:59:54] D2BS 2020: move retry 1
+[09/02/21 11:00:20] D2BS 2020: move retry 1
+[09/02/21 11:01:27] D2BS 2020: 75
+[09/02/21 11:01:29] D2BS 2020: initNPC: heal
+[09/02/21 11:01:34] D2BS 2020: initNPC: fillTome
+[09/02/21 11:01:44] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:02:00] D2BS 2020: 102
+[09/02/21 11:02:14] D2BS 2020: ÿc7Picked up ÿc4765 Gold
+[09/02/21 11:02:18] D2BS 2020: ÿc7Picked up ÿc4525 Gold
+[09/02/21 11:02:30] D2BS 2020: 75
+[09/02/21 11:02:31] D2BS 2020: initNPC: heal
+[09/02/21 11:02:46] D2BS 2020: move retry 1
+[09/02/21 11:02:56] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:03:10] D2BS 2020: 102
+[09/02/21 11:03:26] D2BS 2020: move retry 1
+[09/02/21 11:03:38] D2BS 2020: move retry 1
+[09/02/21 11:04:01] D2BS 2020: ÿc7Picked up ÿc4155 Gold
+[09/02/21 11:04:10] D2BS 2020: move retry 1
+[09/02/21 11:04:20] D2BS 2020: ÿc7Picked up ÿc4106 Gold
+[09/02/21 11:04:20] D2BS 2020: ÿc7Picked up ÿc4122 Gold
+[09/02/21 11:04:20] D2BS 2020: ÿc7Picked up ÿc4142 Gold
+[09/02/21 11:04:20] D2BS 2020: ÿc7Picked up ÿc489 Gold
+[09/02/21 11:04:20] D2BS 2020: ÿc7Picked up ÿc427 Gold
+[09/02/21 11:04:21] D2BS 2020: ÿc7Picked up ÿc4139 Gold
+[09/02/21 11:04:21] D2BS 2020: ÿc7Picked up ÿc4106 Gold
+[09/02/21 11:04:21] D2BS 2020: ÿc7Picked up ÿc476 Gold
+[09/02/21 11:04:22] D2BS 2020: ÿc7Picked up ÿc480 Gold
+[09/02/21 11:04:22] D2BS 2020: ÿc7Picked up ÿc4141 Gold
+[09/02/21 11:04:22] D2BS 2020: ÿc7Picked up ÿc448 Gold
+[09/02/21 11:04:22] D2BS 2020: ÿc7Picked up ÿc4101 Gold
+[09/02/21 11:04:22] D2BS 2020: ÿc7Picked up ÿc445 Gold
+[09/02/21 11:04:22] D2BS 2020: ÿc7Picked up ÿc470 Gold
+[09/02/21 11:04:23] D2BS 2020: ÿc7Picked up ÿc451 Gold
+[09/02/21 11:04:23] D2BS 2020: ÿc7Picked up ÿc486 Gold
+[09/02/21 11:04:23] D2BS 2020: ÿc7Picked up ÿc469 Gold
+[09/02/21 11:04:23] D2BS 2020: ÿc7Picked up ÿc4139 Gold
+[09/02/21 11:04:24] D2BS 2020: ÿc7Picked up ÿc465 Gold
+[09/02/21 11:04:24] D2BS 2020: ÿc7Picked up ÿc457 Gold
+[09/02/21 11:04:36] D2BS 2020: move retry 1
+[09/02/21 11:04:38] D2BS 2020: move retry 1
+[09/02/21 11:04:45] D2BS 2020: 75
+[09/02/21 11:04:48] D2BS 2020: initNPC: heal
+[09/02/21 11:04:49] D2BS 2020: move retry 1
+[09/02/21 11:05:06] D2BS 2020: move retry 1
+[09/02/21 11:05:15] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:05:18] D2BS 2020: move retry 1
+[09/02/21 11:05:23] D2BS 2020: move retry 1
+[09/02/21 11:05:24] D2BS 2020: move retry 2
+[09/02/21 11:05:30] D2BS 2020: 102
+[09/02/21 11:05:55] D2BS 2020: move retry 1
+[09/02/21 11:07:28] D2BS 2020: Script default.dbj ended
+[09/02/21 11:07:28] D2BS 2020: Script tools\autobuildthread.js ended
+[09/02/21 11:07:28] D2BS 2020: Script tools\party.js ended
+[09/02/21 11:07:28] D2BS 2020: Script tools\toolsthread.js ended
+[09/02/21 11:07:28] D2BS 2020: Script tools\townchicken.js ended
+[09/02/21 11:07:35] D2BS 2020: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:07:35] D2BS 2020: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:07:35] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/02/21 11:07:35] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc20 ms
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:07:35] D2BS 2020: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:07:35] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/02/21 11:07:35] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 11:07:35] D2BS 2020: AutoBuild: Loaded helper thread
+[09/02/21 11:07:35] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/02/21 11:07:35] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 11:07:35] D2BS 2020: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:07:35] D2BS 2020: ÿc3Start ToolsThread script
+[09/02/21 11:07:35] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/02/21 11:07:35] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/02/21 11:07:35] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 11:07:35] D2BS 2020: Updating Config from level 0 to 25
+[09/02/21 11:07:38] D2BS 2020: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:07:40] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:08:00] D2BS 2020: 104
+[09/02/21 11:08:03] D2BS 2020: move retry 1
+[09/02/21 11:08:20] D2BS 2020: move retry 2
+[09/02/21 11:08:21] D2BS 2020: 104,105
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: Stat points: 10      Skill points: 3
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: Level up detected ( 25 --> 26 )
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: useSkillPoint(): Iron Maiden (76)
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: Skill (1/1) Increased Iron Maiden (76) by one (level:  1)
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: useStatPoint(0): Strength
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: Stat (1/5) Increased Strength from 39 to 40
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: Stat (2/5) Increased Vitality from 111 to 112
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: Stat (3/5) Increased Vitality from 112 to 113
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: Stat (4/5) Increased Vitality from 113 to 114
+[09/02/21 11:09:06] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:09:07] D2BS 2020: AutoBuild: Stat (5/5) Increased Vitality from 114 to 115
+[09/02/21 11:09:07] D2BS 2020: Updating Config from level 25 to 26
+[09/02/21 11:09:07] D2BS 2020: AutoBuild: Updating Config from level 25 to 26
+[09/02/21 11:09:07] D2BS 2020: Updating Config from level 25 to 26
+[09/02/21 11:09:07] D2BS 2020: Updating Config from level 25 to 26
+[09/02/21 11:09:07] D2BS 2020: Updating Config from level 25 to 26
+[09/02/21 11:09:07] D2BS 2020: AutoBuild: Incrementing cached character level to 26
+[09/02/21 11:09:30] D2BS 2020: ÿc7Picked up ÿc0Flamberge ÿc0(ilvl 30)
+[09/02/21 11:09:46] D2BS 2020: move retry 1
+[09/02/21 11:09:46] D2BS 2020: ÿc7Picked up ÿc460 Gold
+[09/02/21 11:10:05] D2BS 2020: ÿc7Picked up ÿc4805 Gold
+[09/02/21 11:10:14] D2BS 2020: 103
+[09/02/21 11:10:15] D2BS 2020: initNPC: heal
+[09/02/21 11:10:21] D2BS 2020: initNPC: identify
+[09/02/21 11:10:22] D2BS 2020: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[09/02/21 11:10:25] D2BS 2020: move retry 1
+[09/02/21 11:10:40] D2BS 2020: LowGold sell Flamberge
+[09/02/21 11:10:40] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:10:53] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:11:21] D2BS 2020: move retry 1
+[09/02/21 11:11:27] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:11:30] D2BS 2020: move retry 1
+[09/02/21 11:11:47] D2BS 2020: 105
+[09/02/21 11:12:22] D2BS 2020: ÿc1Skipping Doom Caster 411 16
+[09/02/21 11:12:37] D2BS 2020: ÿc7Picked up ÿc0Flail ÿc0(ilvl 30)
+[09/02/21 11:12:54] D2BS 2020: ÿc7Picked up ÿc433 Gold
+[09/02/21 11:14:42] D2BS 2020: move retry 1
+[09/02/21 11:14:46] D2BS 2020: move retry 1
+[09/02/21 11:15:05] D2BS 2020: move retry 1
+[09/02/21 11:15:18] D2BS 2020: move retry 1
+[09/02/21 11:15:32] D2BS 2020: move retry 1
+[09/02/21 11:15:33] D2BS 2020: move retry 1
+[09/02/21 11:15:46] D2BS 2020: ÿc7Picked up ÿc444 Gold
+[09/02/21 11:15:48] D2BS 2020: move retry 1
+[09/02/21 11:16:17] D2BS 2020: move retry 1
+[09/02/21 11:16:30] D2BS 2020: move retry 1
+[09/02/21 11:16:37] D2BS 2020: move retry 1
+[09/02/21 11:16:51] D2BS 2020: move retry 1
+[09/02/21 11:17:30] D2BS 2020: ÿc7Picked up ÿc4113 Gold
+[09/02/21 11:18:11] D2BS 2020: move retry 1
+[09/02/21 11:18:13] D2BS 2020: move retry 1
+[09/02/21 11:19:16] D2BS 2020: move retry 1
+[09/02/21 11:21:13] D2BS 2020: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/02/21 11:21:13] D2BS 2020: move retry 1
+[09/02/21 11:21:14] D2BS 2020: move retry 2
+[09/02/21 11:21:21] D2BS 2020: ÿc7Picked up ÿc4124 Gold
+[09/02/21 11:21:38] D2BS 2020: move retry 1
+[09/02/21 11:21:43] D2BS 2020: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:21:43] D2BS 2020: ÿc7Picked up ÿc470 Gold
+[09/02/21 11:21:50] D2BS 2020: 106,107
+[09/02/21 11:21:55] D2BS 2020: move retry 1
+[09/02/21 11:21:57] D2BS 2020: move retry 2
+[09/02/21 11:21:59] D2BS 2020: move retry 3
+[09/02/21 11:22:15] D2BS 2020: move retry 1
+[09/02/21 11:22:29] D2BS 2020: move retry 1
+[09/02/21 11:22:31] D2BS 2020: move retry 2
+[09/02/21 11:22:34] D2BS 2020: move retry 1
+[09/02/21 11:22:36] D2BS 2020: move retry 2
+[09/02/21 11:22:37] D2BS 2020: move retry 3
+[09/02/21 11:23:05] D2BS 2020: ÿc7Picked up ÿc484 Gold
+[09/02/21 11:23:05] D2BS 2020: ÿc7Picked up ÿc0War Axe ÿc0(ilvl 27)
+[09/02/21 11:23:09] D2BS 2020: move retry 1
+[09/02/21 11:23:16] D2BS 2020: Script default.dbj ended
+[09/02/21 11:23:16] D2BS 2020: Script tools\autobuildthread.js ended
+[09/02/21 11:23:16] D2BS 2020: Script tools\party.js ended
+[09/02/21 11:23:16] D2BS 2020: Script tools\toolsthread.js ended
+[09/02/21 11:23:16] D2BS 2020: Script tools\townchicken.js ended
+[09/02/21 11:23:24] D2BS 2020: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:23:24] D2BS 2020: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:23:24] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/02/21 11:23:24] D2BS 2020: Updating Config from level 0 to 26
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:24] D2BS 2020: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:24] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/02/21 11:23:24] D2BS 2020: Updating Config from level 0 to 26
+[09/02/21 11:23:24] D2BS 2020: AutoBuild: Loaded helper thread
+[09/02/21 11:23:24] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/02/21 11:23:24] D2BS 2020: Updating Config from level 0 to 26
+[09/02/21 11:23:24] D2BS 2020: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:23:24] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/02/21 11:23:24] D2BS 2020: Updating Config from level 0 to 26
+[09/02/21 11:23:24] D2BS 2020: ÿc3Start ToolsThread script
+[09/02/21 11:23:24] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/02/21 11:23:24] D2BS 2020: Updating Config from level 0 to 26
+[09/02/21 11:23:38] D2BS 2020: LowGold sell War Axe
+[09/02/21 11:23:38] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:23:39] D2BS 2020: move retry 1
+[09/02/21 11:23:48] D2BS 2020: LowGold sell Flail
+[09/02/21 11:23:48] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:23:51] D2BS 2020: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:23:51] D2BS 2020: ÿc4MiniShopBotÿc0: Scanning 47 items.
+[09/02/21 11:23:57] D2BS 2020: initNPC: buyPotions
+[09/02/21 11:24:13] D2BS 2020: move retry 1
+[09/02/21 11:24:39] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:25:14] D2BS 2020: 105
+[09/02/21 11:26:03] D2BS 2020: ÿc7Picked up ÿc0Trident ÿc0(ilvl 24)
+[09/02/21 11:26:03] D2BS 2020: ÿc7Picked up ÿc463 Gold
+[09/02/21 11:26:09] D2BS 2020: ÿc7Picked up ÿc4142 Gold
+[09/02/21 11:26:28] D2BS 2020: ÿc7Picked up ÿc4141 Gold
+[09/02/21 11:26:34] D2BS 2020: ÿc7Picked up ÿc499 Gold
+[09/02/21 11:26:42] D2BS 2020: move retry 1
+[09/02/21 11:27:03] D2BS 2020: ÿc1Skipping Corpulent 143 16
+[09/02/21 11:27:04] D2BS 2020: ÿc7Picked up ÿc470 Gold
+[09/02/21 11:27:16] D2BS 2020: ÿc7Picked up ÿc4138 Gold
+[09/02/21 11:27:29] D2BS 2020: move retry 1
+[09/02/21 11:27:30] D2BS 2020: 103
+[09/02/21 11:27:32] D2BS 2020: initNPC: heal
+[09/02/21 11:27:37] D2BS 2020: initNPC: identify
+[09/02/21 11:27:38] D2BS 2020: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[09/02/21 11:27:54] D2BS 2020: move retry 1
+[09/02/21 11:28:01] D2BS 2020: LowGold sell Trident
+[09/02/21 11:28:01] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:28:14] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:28:50] D2BS 2020: 105
+[09/02/21 11:29:08] D2BS 2020: ÿc7Picked up ÿc435 Gold
+[09/02/21 11:29:08] D2BS 2020: ÿc7Picked up ÿc477 Gold
+[09/02/21 11:29:10] D2BS 2020: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/02/21 11:29:14] D2BS 2020: move retry 1
+[09/02/21 11:29:18] D2BS 2020: move retry 1
+[09/02/21 11:29:22] D2BS 2020: ÿc7Picked up ÿc4102 Gold
+[09/02/21 11:30:08] D2BS 2020: ÿc7Picked up ÿc451 Gold
+[09/02/21 11:30:45] D2BS 2020: ÿc7Picked up ÿc429 Gold
+[09/02/21 11:30:48] D2BS 2020: ÿc7Picked up ÿc4108 Gold
+[09/02/21 11:31:15] D2BS 2020: move retry 1
+[09/02/21 11:31:17] D2BS 2020: ÿc7Picked up ÿc0Axe ÿc0(ilvl 30)
+[09/02/21 11:31:17] D2BS 2020: ÿc7Picked up ÿc0Flamberge ÿc0(ilvl 30)
+[09/02/21 11:31:18] D2BS 2020: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/02/21 11:31:18] D2BS 2020: ÿc7Picked up ÿc0Flawed Ruby ÿc0(ilvl 1)
+[09/02/21 11:31:20] D2BS 2020: move retry 1
+[09/02/21 11:31:23] D2BS 2020: move retry 2
+[09/02/21 11:31:48] D2BS 2020: ÿc1Skipping Venom Lord 212 16
+[09/02/21 11:31:49] D2BS 2020: ÿc7Picked up ÿc4167 Gold
+[09/02/21 11:31:54] D2BS 2020: move retry 1
+[09/02/21 11:31:57] D2BS 2020: move retry 1
+[09/02/21 11:32:00] D2BS 2020: move retry 1
+[09/02/21 11:32:11] D2BS 2020: ÿc7Picked up ÿc434 Gold
+[09/02/21 11:32:11] D2BS 2020: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:32:12] D2BS 2020: ÿc7Picked up ÿc0Claws ÿc0(ilvl 24)
+[09/02/21 11:32:12] D2BS 2020: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:32:16] D2BS 2020: move retry 1
+[09/02/21 11:32:30] D2BS 2020: ÿc7Picked up ÿc4142 Gold
+[09/02/21 11:32:31] D2BS 2020: ÿc7Picked up ÿc0Maul ÿc0(ilvl 24)
+[09/02/21 11:32:31] D2BS 2020: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:32:31] D2BS 2020: ÿc7Picked up ÿc4116 Gold
+[09/02/21 11:32:33] D2BS 2020: move retry 1
+[09/02/21 11:32:36] D2BS 2020: ÿc7Picked up ÿc464 Gold
+[09/02/21 11:33:34] D2BS 2020: ÿc7Picked up ÿc486 Gold
+[09/02/21 11:34:09] D2BS 2020: move retry 1
+[09/02/21 11:34:48] D2BS 2020: move retry 1
+[09/02/21 11:35:28] D2BS 2020: move retry 1
+[09/02/21 11:36:21] D2BS 2020: move retry 1
+[09/02/21 11:36:36] D2BS 2020: move retry 1
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: Stat points: 10      Skill points: 3
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: Level up detected ( 26 --> 27 )
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: useSkillPoint(): Terror (77)
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: Skill (1/1) Increased Terror (77) by one (level:  1)
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: useStatPoint(0): Strength
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: Stat (1/5) Increased Strength from 40 to 41
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: Stat (2/5) Increased Vitality from 115 to 116
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: Stat (3/5) Increased Vitality from 116 to 117
+[09/02/21 11:37:14] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:37:15] D2BS 2020: AutoBuild: Stat (4/5) Increased Vitality from 117 to 118
+[09/02/21 11:37:15] D2BS 2020: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:37:15] D2BS 2020: AutoBuild: Stat (5/5) Increased Vitality from 118 to 119
+[09/02/21 11:37:15] D2BS 2020: Updating Config from level 26 to 27
+[09/02/21 11:37:15] D2BS 2020: Updating Config from level 26 to 27
+[09/02/21 11:37:15] D2BS 2020: Updating Config from level 26 to 27
+[09/02/21 11:37:15] D2BS 2020: AutoBuild: Updating Config from level 26 to 27
+[09/02/21 11:37:15] D2BS 2020: Updating Config from level 26 to 27
+[09/02/21 11:37:15] D2BS 2020: AutoBuild: Incrementing cached character level to 27
+[09/02/21 11:37:23] D2BS 2020: move retry 1
+[09/02/21 11:37:26] D2BS 2020: move retry 1
+[09/02/21 11:37:28] D2BS 2020: move retry 1
+[09/02/21 11:37:41] D2BS 2020: 103
+[09/02/21 11:37:44] D2BS 2020: move retry 1
+[09/02/21 11:37:45] D2BS 2020: initNPC: heal
+[09/02/21 11:37:52] D2BS 2020: initNPC: identify
+[09/02/21 11:37:53] D2BS 2020: ÿc4MiniShopBotÿc0: Scanning 57 items.
+[09/02/21 11:37:54] D2BS 2020: initNPC: buyPotions
+[09/02/21 11:38:11] D2BS 2020: LowGold sell Maul
+[09/02/21 11:38:11] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:38:19] D2BS 2020: LowGold sell Claws
+[09/02/21 11:38:19] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:38:21] D2BS 2020: LowGold sell Flamberge
+[09/02/21 11:38:21] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:38:24] D2BS 2020: LowGold sell Axe
+[09/02/21 11:38:24] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:38:26] D2BS 2020: LowGold sell Flawed Ruby
+[09/02/21 11:38:26] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:38:32] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:39:30] D2BS 2020: 107
+[09/02/21 11:39:40] D2BS 2020: move retry 1
+[09/02/21 11:39:42] D2BS 2020: ÿc1Pausing.
+[09/02/21 11:39:42] D2BS 2020: initNPC: heal
+[09/02/21 11:39:53] D2BS 2020: initNPC: buyPotions
+[09/02/21 11:40:24] D2BS 2020: ÿc2Resuming.
+[09/02/21 11:40:56] D2BS 2020: ÿc1Skipping Pit Lord 431 16
+[09/02/21 11:41:10] D2BS 2020: move retry 1
+[09/02/21 11:41:13] D2BS 2020: move retry 1
+[09/02/21 11:41:16] D2BS 2020: move retry 1
+[09/02/21 11:41:17] D2BS 2020: ÿc1Pausing.
+[09/02/21 11:41:17] D2BS 2020: initNPC: heal
+[09/02/21 11:41:22] D2BS 2020: initNPC: buyPotions
+[09/02/21 11:41:53] D2BS 2020: initNPC: reviveMerc
+[09/02/21 11:42:06] D2BS 2020: ÿc2Resuming.
+[09/02/21 11:42:11] D2BS 2020: move retry 2
+[09/02/21 11:42:49] D2BS 2020: ÿc7Picked up ÿc489 Gold
+[09/02/21 11:42:58] D2BS 2020: ÿc7Picked up ÿc4103 Gold
+[09/02/21 11:43:02] D2BS 2020: ÿc7Picked up ÿc0Damaged Halberd ÿc0(ilvl 27)
+[09/02/21 11:43:54] D2BS 2020: move retry 1
+[09/02/21 11:44:11] D2BS 2020: move retry 1
+[09/02/21 11:44:42] D2BS 2020: ÿc7Picked up ÿc4168 Gold
+[09/02/21 11:44:42] D2BS 2020: ÿc7Picked up ÿc462 Gold
+[09/02/21 11:45:14] D2BS 2020: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/02/21 11:45:18] D2BS 2020: move retry 1
+[09/02/21 11:45:45] D2BS 2020: move retry 1
+[09/02/21 11:45:50] D2BS 2020: move retry 1
+[09/02/21 11:46:03] D2BS 2020: move retry 1
+[09/02/21 11:46:04] D2BS 2020: move retry 1
+[09/02/21 11:46:07] D2BS 2020: move retry 1
+[09/02/21 11:46:11] D2BS 2020: move retry 1
+[09/02/21 11:46:24] D2BS 2020: move retry 1
+[09/02/21 11:46:32] D2BS 2020: move retry 1
+[09/02/21 11:46:51] D2BS 2020: move retry 1
+[09/02/21 11:47:00] D2BS 2020: move retry 1
+[09/02/21 11:47:13] D2BS 2020: move retry 1
+[09/02/21 11:47:18] D2BS 2020: move retry 1
+[09/02/21 11:47:21] D2BS 2020: move retry 1
+[09/02/21 11:47:23] D2BS 2020: move retry 1
+[09/02/21 11:47:27] D2BS 2020: move retry 1
+[09/02/21 11:47:28] D2BS 2020: move retry 1
+[09/02/21 11:47:30] D2BS 2020: move retry 1
+[09/02/21 11:47:32] D2BS 2020: move retry 1
+[09/02/21 11:47:35] D2BS 2020: move retry 1
+[09/02/21 11:47:38] D2BS 2020: move retry 1
+[09/02/21 11:47:40] D2BS 2020: move retry 1
+[09/02/21 11:47:41] D2BS 2020: ÿc1Skipping Pit Lord 876 16
+[09/02/21 11:47:42] D2BS 2020: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 27)
+[09/02/21 11:47:43] D2BS 2020: ÿc7Picked up ÿc4157 Gold
+[09/02/21 11:47:57] D2BS 2020: ÿc1Skipping Maw Fiend 974 16
+[09/02/21 11:48:07] D2BS 2020: ÿc7Picked up ÿc0Topaz ÿc0(ilvl 1)
+[09/02/21 11:48:08] D2BS 2020: 107,108
+[09/02/21 11:48:22] D2BS 2020: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:48:23] D2BS 2020: ÿc7Picked up ÿc4143 Gold
+[09/02/21 11:48:41] D2BS 2020: move retry 1
+[09/02/21 11:48:43] D2BS 2020: ÿc7Picked up ÿc4125 Gold
+[09/02/21 11:48:43] D2BS 2020: ÿc7Picked up ÿc481 Gold
+[09/02/21 11:48:43] D2BS 2020: ÿc7Picked up ÿc469 Gold
+[09/02/21 11:48:57] D2BS 2020: move retry 1
+[09/02/21 11:49:30] D2BS 2020: ÿc7Picked up ÿc4132 Gold
+[09/02/21 11:49:30] D2BS 2020: move retry 1
+[09/02/21 11:49:34] D2BS 2020: ÿc7Picked up ÿc478 Gold
+[09/02/21 11:49:58] D2BS 2020: ÿc7Picked up ÿc4117 Gold
+[09/02/21 11:50:03] D2BS 2020: ÿc7Picked up ÿc456 Gold
+[09/02/21 11:50:09] D2BS 2020: move retry 1
+[09/02/21 11:50:14] D2BS 2020: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(16/20)
+[09/02/21 11:50:19] D2BS 2020: ÿc7Picked up ÿc0Pilum ÿc0(ilvl 24)
+[09/02/21 11:50:27] D2BS 2020: ÿc1Skipping Oblivion Knight 1060 16
+[09/02/21 11:50:28] D2BS 2020: ÿc7Picked up ÿc495 Gold
+[09/02/21 11:50:28] D2BS 2020: ÿc7Picked up ÿc0Superior Military Pick ÿc0(ilvl 24)
+[09/02/21 11:50:39] D2BS 2020: ÿc7Picked up ÿc452 Gold
+[09/02/21 11:50:57] D2BS 2020: Script default.dbj ended
+[09/02/21 11:50:57] D2BS 2020: Script tools\autobuildthread.js ended
+[09/02/21 11:50:57] D2BS 2020: Script tools\party.js ended
+[09/02/21 11:50:57] D2BS 2020: Script tools\toolsthread.js ended
+[09/02/21 11:50:57] D2BS 2020: Script tools\townchicken.js ended
+[09/02/21 11:51:04] D2BS 2020: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:51:04] D2BS 2020: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:51:04] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into default.dbj
+[09/02/21 11:51:04] D2BS 2020: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2SummonerRunes.nipÿc4. Lines: ÿc214ÿc4. Valid entries: ÿc26. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2Summoner.xpac.nipÿc4. Lines: ÿc2119ÿc4. Valid entries: ÿc2102. ÿc4Time: ÿc216 ms
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 2020: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\autobuildthread.js
+[09/02/21 11:51:04] D2BS 2020: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 2020: AutoBuild: Loaded helper thread
+[09/02/21 11:51:04] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\party.js
+[09/02/21 11:51:04] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\townchicken.js
+[09/02/21 11:51:04] D2BS 2020: ÿc3Start ToolsThread script
+[09/02/21 11:51:04] D2BS 2020: AutoBuild: Including build template config/builds/necromancer.summoner.js into tools\toolsthread.js
+[09/02/21 11:51:04] D2BS 2020: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 2020: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:51:04] D2BS 2020: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 2020: Updating Config from level 0 to 27
+[09/02/21 11:51:13] D2BS 2020: move retry 1
+[09/02/21 11:51:19] D2BS 2020: LowGold sell Superior Military Pick
+[09/02/21 11:51:19] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:51:27] D2BS 2020: LowGold sell Pilum
+[09/02/21 11:51:27] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:51:29] D2BS 2020: LowGold sell Morning Star
+[09/02/21 11:51:29] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:51:32] D2BS 2020: LowGold sell Damaged Halberd
+[09/02/21 11:51:32] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:51:34] D2BS 2020: LowGold sell Topaz
+[09/02/21 11:51:34] D2BS 2020: initNPC: clearInventory
+[09/02/21 11:51:36] D2BS 2020: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:51:36] D2BS 2020: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[09/02/21 11:51:41] D2BS 2020: initNPC: buyPotions
+[09/02/21 11:52:02] D2BS 2020: move retry 1
+[09/02/21 11:52:04] D2BS 2020: move retry 2
+[09/02/21 11:52:17] D2BS 2020: initNPC: BuyPotions
+[09/02/21 11:52:18] D2BS 2020: D2BS Shutdown complete.

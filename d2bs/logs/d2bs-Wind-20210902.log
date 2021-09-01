@@ -1,0 +1,829 @@
+[09/02/21 10:09:06] D2BS 12600: D2BS Engine startup complete. 1.6.4U
+[09/02/21 10:09:06] D2BS 12600: ÿc2D2BSÿc0 :: Switched to profile Wind
+[09/02/21 10:09:06] D2BS 12600: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/02/21 10:09:06] D2BS 12600: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/02/21 10:09:06] D2BS 12600: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/02/21 10:09:06] D2BS 12600: ÿc2D2BSÿc0 :: Started Console Script
+[09/02/21 10:09:06] D2BS 12600: Wind
+[09/02/21 10:09:08] D2BS 12600: Heartbeat loaded
+[09/02/21 10:09:26] D2BS 12600: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:09:26] D2BS 12600: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:09:26] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/02/21 10:09:26] D2BS 12600: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc216 ms
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12600: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12600: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12600: AutoBuild: Loaded helper thread
+[09/02/21 10:09:26] D2BS 12600: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:09:26] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/02/21 10:09:26] D2BS 12600: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12600: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:09:26] D2BS 12600: ÿc3Start ToolsThread script
+[09/02/21 10:09:26] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/02/21 10:09:26] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/02/21 10:09:26] D2BS 12600: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12600: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12600: initNPC: heal
+[09/02/21 10:09:32] D2BS 12600: move retry 1
+[09/02/21 10:09:34] D2BS 12600: move retry 1
+[09/02/21 10:09:35] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:09:54] D2BS 12600: initNPC: heal
+[09/02/21 10:10:00] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:10:09] D2BS 12600: 79
+[09/02/21 10:10:26] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:10:26] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:10:27] D2BS 12600: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/02/21 10:10:27] D2BS 12600: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/02/21 10:10:28] D2BS 12600: ÿc7Picked up ÿc;Rejuvenation Potion ÿc0(ilvl 1) (LateGame.nip #34)
+[09/02/21 10:10:34] D2BS 12600: ÿc7Picked up ÿc0Skull Cap ÿc0(ilvl 20) (MidGame.nip #9)
+[09/02/21 10:10:56] D2BS 12600: ÿc7Picked up ÿc485 Gold
+[09/02/21 10:10:57] D2BS 12600: ÿc7Picked up ÿc4112 Gold
+[09/02/21 10:11:22] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:11:22] D2BS 12600: ÿc7Picked up ÿc3Hatchet Hands ÿc0(ilvl 25)
+[09/02/21 10:11:22] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:11:23] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:12:37] D2BS 12600: ÿc1Skipping Thrasher 119 16
+[09/02/21 10:12:50] D2BS 12600: ÿc7Picked up ÿc0Stag Bow ÿc0(ilvl 20)
+[09/02/21 10:12:57] D2BS 12600: ÿc7Picked up ÿc444 Gold
+[09/02/21 10:12:57] D2BS 12600: ÿc7Picked up ÿc496 Gold
+[09/02/21 10:13:15] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:13:41] D2BS 12600: move retry 1
+[09/02/21 10:13:46] D2BS 12600: move retry 1
+[09/02/21 10:13:58] D2BS 12600: 80,92
+[09/02/21 10:14:09] D2BS 12600: move retry 1
+[09/02/21 10:14:13] D2BS 12600: move retry 2
+[09/02/21 10:14:15] D2BS 12600: ÿc7Picked up ÿc432 Gold
+[09/02/21 10:14:47] D2BS 12600: move retry 1
+[09/02/21 10:14:50] D2BS 12600: move retry 1
+[09/02/21 10:14:51] D2BS 12600: move retry 1
+[09/02/21 10:14:53] D2BS 12600: move retry 2
+[09/02/21 10:14:55] D2BS 12600: move retry 3
+[09/02/21 10:14:56] D2BS 12600: move retry 1
+[09/02/21 10:14:59] D2BS 12600: move retry 1
+[09/02/21 10:15:17] D2BS 12600: move retry 1
+[09/02/21 10:15:46] D2BS 12600: move retry 1
+[09/02/21 10:15:49] D2BS 12600: move retry 2
+[09/02/21 10:15:51] D2BS 12600: move retry 3
+[09/02/21 10:15:57] D2BS 12600: 75
+[09/02/21 10:15:59] D2BS 12600: initNPC: heal
+[09/02/21 10:16:05] D2BS 12600: initNPC: identify
+[09/02/21 10:16:06] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[09/02/21 10:16:07] D2BS 12600: initNPC: buyPotions
+[09/02/21 10:16:07] D2BS 12600: LowGold sell Stag Bow
+[09/02/21 10:16:07] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:16:12] D2BS 12600: Successfully placed Skull Cap at X: 6 Y: 0
+[09/02/21 10:16:13] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:16:16] D2BS 12600: move retry 1
+[09/02/21 10:16:23] D2BS 12600: move retry 1
+[09/02/21 10:16:28] D2BS 12600: 93
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: Stat points: 5      Skill points: 2
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: Level up detected ( 24 --> 25 )
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: useSkillPoint(): Tornado (245)
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  2)
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: useStatPoint(0): Strength
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: Stat (1/5) Increased Strength from 39 to 40
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: Stat (2/5) Increased Vitality from 117 to 118
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: Stat (3/5) Increased Vitality from 118 to 119
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: Stat (4/5) Increased Vitality from 119 to 120
+[09/02/21 10:16:39] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:16:40] D2BS 12600: AutoBuild: Stat (5/5) Increased Vitality from 120 to 121
+[09/02/21 10:16:40] D2BS 12600: Updating Config from level 24 to 25
+[09/02/21 10:16:40] D2BS 12600: Updating Config from level 24 to 25
+[09/02/21 10:16:40] D2BS 12600: Updating Config from level 24 to 25
+[09/02/21 10:16:40] D2BS 12600: AutoBuild: Updating Config from level 24 to 25
+[09/02/21 10:16:40] D2BS 12600: Updating Config from level 24 to 25
+[09/02/21 10:16:40] D2BS 12600: AutoBuild: Incrementing cached character level to 25
+[09/02/21 10:16:55] D2BS 12600: ÿc7Picked up ÿc4129 Gold
+[09/02/21 10:17:10] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:17:15] D2BS 12600: initNPC: heal
+[09/02/21 10:17:22] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:17:59] D2BS 12600: 93
+[09/02/21 10:18:06] D2BS 12600: 75
+[09/02/21 10:18:10] D2BS 12600: initNPC: heal
+[09/02/21 10:18:14] D2BS 12600: move retry 1
+[09/02/21 10:18:16] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:18:32] D2BS 12600: 80
+[09/02/21 10:18:34] D2BS 12600: waypoint retry 1
+[09/02/21 10:18:52] D2BS 12600: 80,94
+[09/02/21 10:19:25] D2BS 12600: move retry 1
+[09/02/21 10:19:31] D2BS 12600: ÿc7Picked up ÿc489 Gold
+[09/02/21 10:19:52] D2BS 12600: 75
+[09/02/21 10:19:55] D2BS 12600: initNPC: heal
+[09/02/21 10:20:00] D2BS 12600: initNPC: buyPotions
+[09/02/21 10:20:02] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:20:32] D2BS 12600: initNPC: heal
+[09/02/21 10:20:34] D2BS 12600: move retry 1
+[09/02/21 10:20:40] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:20:48] D2BS 12600: 80
+[09/02/21 10:21:01] D2BS 12600: ÿc7Picked up ÿc482 Gold
+[09/02/21 10:21:20] D2BS 12600: ÿc1Skipping Hell Swarm 350 16
+[09/02/21 10:21:25] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:21:26] D2BS 12600: move retry 1
+[09/02/21 10:21:27] D2BS 12600: 80,81
+[09/02/21 10:21:29] D2BS 12600: move retry 1
+[09/02/21 10:21:43] D2BS 12600: ÿc7Picked up ÿc4112 Gold
+[09/02/21 10:21:43] D2BS 12600: ÿc7Picked up ÿc454 Gold
+[09/02/21 10:21:44] D2BS 12600: ÿc7Picked up ÿc443 Gold
+[09/02/21 10:22:03] D2BS 12600: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[09/02/21 10:22:04] D2BS 12600: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/02/21 10:22:58] D2BS 12600: 81,82
+[09/02/21 10:23:07] D2BS 12600: move retry 1
+[09/02/21 10:23:19] D2BS 12600: ÿc1Skipping Faithful 429 16
+[09/02/21 10:23:36] D2BS 12600: ÿc7Picked up ÿc488 Gold
+[09/02/21 10:23:37] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:23:39] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:23:39] D2BS 12600: move retry 2
+[09/02/21 10:24:11] D2BS 12600: ÿc7Picked up ÿc463 Gold
+[09/02/21 10:24:11] D2BS 12600: ÿc7Picked up ÿc489 Gold
+[09/02/21 10:24:25] D2BS 12600: 75
+[09/02/21 10:24:28] D2BS 12600: initNPC: heal
+[09/02/21 10:24:38] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:25:13] D2BS 12600: 78
+[09/02/21 10:26:59] D2BS 12600: ÿc7Picked up ÿc4130 Gold
+[09/02/21 10:26:59] D2BS 12600: ÿc7Picked up ÿc0Light Crossbow ÿc0(ilvl 21)
+[09/02/21 10:26:59] D2BS 12600: ÿc7Picked up ÿc0Spetum ÿc0(ilvl 21)
+[09/02/21 10:27:00] D2BS 12600: ÿc7Picked up ÿc442 Gold
+[09/02/21 10:27:00] D2BS 12600: ÿc7Picked up ÿc4119 Gold
+[09/02/21 10:27:44] D2BS 12600: ÿc7Picked up ÿc490 Gold
+[09/02/21 10:27:44] D2BS 12600: ÿc7Picked up ÿc433 Gold
+[09/02/21 10:27:50] D2BS 12600: ÿc7Picked up ÿc0Fanged Helm ÿc0(ilvl 23)
+[09/02/21 10:27:50] D2BS 12600: ÿc7Picked up ÿc0Claws ÿc0(ilvl 23)
+[09/02/21 10:28:40] D2BS 12600: ÿc1Skipping Slime Prince 888 16
+[09/02/21 10:28:45] D2BS 12600: ÿc7Picked up ÿc463 Gold
+[09/02/21 10:28:50] D2BS 12600: ÿc7Picked up ÿc0Broad Sword ÿc0(ilvl 24)
+[09/02/21 10:29:07] D2BS 12600: ÿc7Picked up ÿc0Superior Assault Helmet ÿc0(ilvl 24)
+[09/02/21 10:29:08] D2BS 12600: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/02/21 10:29:08] D2BS 12600: ÿc7Trying to make room for ÿc0Bone Shield
+[09/02/21 10:29:08] D2BS 12600: initNPC: heal
+[09/02/21 10:29:12] D2BS 12600: initNPC: identify
+[09/02/21 10:29:12] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 47 items.
+[09/02/21 10:29:13] D2BS 12600: initNPC: buyPotions
+[09/02/21 10:29:14] D2BS 12600: LowGold sell Superior Assault Helmet
+[09/02/21 10:29:14] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:29:14] D2BS 12600: LowGold sell Broad Sword
+[09/02/21 10:29:14] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:29:16] D2BS 12600: LowGold sell Claws
+[09/02/21 10:29:16] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:29:18] D2BS 12600: LowGold sell Spetum
+[09/02/21 10:29:18] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:29:20] D2BS 12600: LowGold sell Light Crossbow
+[09/02/21 10:29:20] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:29:22] D2BS 12600: LowGold sell Fanged Helm
+[09/02/21 10:29:22] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:29:33] D2BS 12600: 75
+[09/02/21 10:29:37] D2BS 12600: initNPC: heal
+[09/02/21 10:29:42] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:29:53] D2BS 12600: 78
+[09/02/21 10:31:22] D2BS 12600: ÿc7Picked up ÿc423 Gold
+[09/02/21 10:31:22] D2BS 12600: ÿc7Picked up ÿc443 Gold
+[09/02/21 10:31:31] D2BS 12600: ÿc7Picked up ÿc496 Gold
+[09/02/21 10:32:49] D2BS 12600: ÿc7Picked up ÿc0Claymore ÿc0(ilvl 21)
+[09/02/21 10:32:51] D2BS 12600: ÿc7Picked up ÿc484 Gold
+[09/02/21 10:33:13] D2BS 12600: ÿc1Skipping Fetish 680 16
+[09/02/21 10:33:34] D2BS 12600: ÿc1Skipping Drowned Carcass 634 16
+[09/02/21 10:33:59] D2BS 12600: ÿc7Picked up ÿc0Assault Helmet ÿc0(ilvl 22)
+[09/02/21 10:33:59] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:34:00] D2BS 12600: ÿc7Picked up ÿc0Battle Axe ÿc0(ilvl 21)
+[09/02/21 10:34:00] D2BS 12600: ÿc7Picked up ÿc499 Gold
+[09/02/21 10:34:02] D2BS 12600: ÿc7Picked up ÿc465 Gold
+[09/02/21 10:34:25] D2BS 12600: ÿc7Picked up ÿc0Kite Shield ÿc0(ilvl 22)
+[09/02/21 10:34:25] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:34:49] D2BS 12600: ÿc1Skipping Swamp Dweller 637 16
+[09/02/21 10:34:50] D2BS 12600: ÿc7Picked up ÿc4116 Gold
+[09/02/21 10:34:50] D2BS 12600: ÿc7Picked up ÿc0Low Quality Scissors Katar ÿc0(ilvl 21)
+[09/02/21 10:35:15] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:35:15] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:35:16] D2BS 12600: ÿc7Picked up ÿc491 Gold
+[09/02/21 10:35:16] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:35:17] D2BS 12600: ÿc7Picked up ÿc461 Gold
+[09/02/21 10:35:18] D2BS 12600: ÿc7Picked up ÿc0Hunter's Bow ÿc0(ilvl 21)
+[09/02/21 10:35:38] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:35:39] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:35:41] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:36:10] D2BS 12600: ÿc7Trying to make room for ÿc0Composite Bow
+[09/02/21 10:36:10] D2BS 12600: initNPC: heal
+[09/02/21 10:36:14] D2BS 12600: initNPC: identify
+[09/02/21 10:36:15] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 69 items.
+[09/02/21 10:36:16] D2BS 12600: initNPC: buyPotions
+[09/02/21 10:36:16] D2BS 12600: LowGold sell Hunter's Bow
+[09/02/21 10:36:16] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:36:16] D2BS 12600: LowGold sell Low Quality Scissors Katar
+[09/02/21 10:36:16] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:36:18] D2BS 12600: LowGold sell Kite Shield
+[09/02/21 10:36:18] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:36:20] D2BS 12600: LowGold sell Battle Axe
+[09/02/21 10:36:20] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:36:23] D2BS 12600: LowGold sell Claymore
+[09/02/21 10:36:23] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:36:25] D2BS 12600: LowGold sell Assault Helmet
+[09/02/21 10:36:25] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:36:27] D2BS 12600: initNPC: repair
+[09/02/21 10:36:57] D2BS 12600: ÿc7Picked up ÿc0Composite Bow ÿc0(ilvl 22)
+[09/02/21 10:37:08] D2BS 12600: ÿc7Picked up ÿc0Tower Shield ÿc0(ilvl 21)
+[09/02/21 10:37:08] D2BS 12600: ÿc7Picked up ÿc0Two-Handed Sword ÿc0(ilvl 21)
+[09/02/21 10:37:37] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:37:37] D2BS 12600: ÿc7Picked up ÿc0Falchion ÿc0(ilvl 22)
+[09/02/21 10:37:37] D2BS 12600: ÿc7Picked up ÿc8Eld Rune ÿc0(ilvl 1)
+[09/02/21 10:37:37] D2BS 12600: ÿc7Picked up ÿc4115 Gold
+[09/02/21 10:37:48] D2BS 12600: ÿc7Picked up ÿc0Voulge ÿc0(ilvl 21)
+[09/02/21 10:37:48] D2BS 12600: ÿc7Picked up ÿc0Claws ÿc0(ilvl 21)
+[09/02/21 10:37:52] D2BS 12600: ÿc7Picked up ÿc0Flawed Diamond ÿc0(ilvl 1)
+[09/02/21 10:38:07] D2BS 12600: ÿc1Skipping Fetish 580 16
+[09/02/21 10:38:14] D2BS 12600: ÿc7Picked up ÿc4101 Gold
+[09/02/21 10:38:16] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:38:29] D2BS 12600: ÿc7Picked up ÿc456 Gold
+[09/02/21 10:38:29] D2BS 12600: ÿc7Trying to make room for ÿc0Claws
+[09/02/21 10:38:29] D2BS 12600: initNPC: heal
+[09/02/21 10:38:33] D2BS 12600: initNPC: identify
+[09/02/21 10:38:34] D2BS 12600: initNPC: fillTome
+[09/02/21 10:38:35] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 43 items.
+[09/02/21 10:38:35] D2BS 12600: LowGold sell Claws
+[09/02/21 10:38:35] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:38:35] D2BS 12600: LowGold sell Voulge
+[09/02/21 10:38:35] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:38:37] D2BS 12600: LowGold sell Falchion
+[09/02/21 10:38:37] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:38:40] D2BS 12600: LowGold sell Two-Handed Sword
+[09/02/21 10:38:40] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:38:42] D2BS 12600: LowGold sell Tower Shield
+[09/02/21 10:38:42] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:38:44] D2BS 12600: LowGold sell Composite Bow
+[09/02/21 10:38:44] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:38:46] D2BS 12600: LowGold sell Flawed Diamond
+[09/02/21 10:38:46] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:38:48] D2BS 12600: LowGold sell Eld Rune
+[09/02/21 10:38:48] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:39:45] D2BS 12600: ÿc1Skipping Drowned Carcass 1030 16
+[09/02/21 10:40:20] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:40:20] D2BS 12600: ÿc7Picked up ÿc482 Gold
+[09/02/21 10:40:20] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:40:20] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:40:21] D2BS 12600: ÿc7Picked up ÿc0Cestus ÿc0(ilvl 22)
+[09/02/21 10:40:34] D2BS 12600: ÿc1Skipping Drowned Carcass 1031 16
+[09/02/21 10:40:44] D2BS 12600: ÿc7Picked up ÿc4126 Gold
+[09/02/21 10:40:44] D2BS 12600: ÿc7Picked up ÿc497 Gold
+[09/02/21 10:41:15] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:41:15] D2BS 12600: ÿc7Picked up ÿc486 Gold
+[09/02/21 10:41:28] D2BS 12600: ÿc1Skipping Drowned Carcass 998 16
+[09/02/21 10:41:31] D2BS 12600: ÿc7Picked up ÿc499 Gold
+[09/02/21 10:41:40] D2BS 12600: ÿc7Picked up ÿc458 Gold
+[09/02/21 10:41:52] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:42:22] D2BS 12600: ÿc1Skipping Drowned Carcass 1008 16
+[09/02/21 10:42:50] D2BS 12600: ÿc1Skipping Drowned Carcass 996 16
+[09/02/21 10:42:57] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:42:57] D2BS 12600: ÿc7Picked up ÿc451 Gold
+[09/02/21 10:42:57] D2BS 12600: ÿc7Picked up ÿc498 Gold
+[09/02/21 10:42:57] D2BS 12600: ÿc7Picked up ÿc4125 Gold
+[09/02/21 10:43:02] D2BS 12600: Script default.dbj ended
+[09/02/21 10:43:02] D2BS 12600: Script tools\autobuildthread.js ended
+[09/02/21 10:43:02] D2BS 12600: Script tools\party.js ended
+[09/02/21 10:43:02] D2BS 12600: Script tools\toolsthread.js ended
+[09/02/21 10:43:02] D2BS 12600: Script tools\townchicken.js ended
+[09/02/21 10:43:08] D2BS 12600: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:43:08] D2BS 12600: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:43:09] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/02/21 10:43:09] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc215 ms
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12600: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:09] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/02/21 10:43:09] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12600: AutoBuild: Loaded helper thread
+[09/02/21 10:43:09] D2BS 12600: LowGold sell Cestus
+[09/02/21 10:43:09] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:43:09] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/02/21 10:43:09] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12600: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:43:09] D2BS 12600: ÿc3Start ToolsThread script
+[09/02/21 10:43:09] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/02/21 10:43:09] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/02/21 10:43:09] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:43:09] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:43:17] D2BS 12600: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:43:17] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 48 items.
+[09/02/21 10:43:19] D2BS 12600: initNPC: buyPotions
+[09/02/21 10:43:25] D2BS 12600: Garnet Mask 
+[09/02/21 10:43:25] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:43:35] D2BS 12600: move retry 1
+[09/02/21 10:43:58] D2BS 12600: initNPC: heal
+[09/02/21 10:44:06] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:44:18] D2BS 12600: 101
+[09/02/21 10:44:38] D2BS 12600: ÿc7Picked up ÿc452 Gold
+[09/02/21 10:44:47] D2BS 12600: move retry 1
+[09/02/21 10:45:02] D2BS 12600: ÿc7Picked up ÿc484 Gold
+[09/02/21 10:45:03] D2BS 12600: ÿc7Picked up ÿc496 Gold
+[09/02/21 10:45:13] D2BS 12600: ÿc7Picked up ÿc477 Gold
+[09/02/21 10:45:14] D2BS 12600: 101,102
+[09/02/21 10:45:25] D2BS 12600: 75
+[09/02/21 10:45:27] D2BS 12600: initNPC: heal
+[09/02/21 10:45:31] D2BS 12600: move retry 1
+[09/02/21 10:45:35] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:45:47] D2BS 12600: 102
+[09/02/21 10:46:02] D2BS 12600: ÿc7Picked up ÿc0Mask ÿc0(ilvl 25)
+[09/02/21 10:46:04] D2BS 12600: ÿc7Picked up ÿc4136 Gold
+[09/02/21 10:46:31] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:46:34] D2BS 12600: ÿc7Picked up ÿc4650 Gold
+[09/02/21 10:47:29] D2BS 12600: ÿc7Picked up ÿc4205 Gold
+[09/02/21 10:47:33] D2BS 12600: 75
+[09/02/21 10:47:36] D2BS 12600: initNPC: heal
+[09/02/21 10:47:41] D2BS 12600: initNPC: identify
+[09/02/21 10:47:42] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 50 items.
+[09/02/21 10:47:43] D2BS 12600: clearInventory sell Garnet Mask 
+[09/02/21 10:47:43] D2BS 12600: LowGold sell Mask
+[09/02/21 10:47:43] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:47:56] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:47:56] D2BS 12600: move retry 1
+[09/02/21 10:48:03] D2BS 12600: ÿc7Picked up ÿc3Viridian Bone Helm of Self-Repair ÿc0(ilvl 28)
+[09/02/21 10:48:12] D2BS 12600: 102
+[09/02/21 10:48:23] D2BS 12600: move retry 1
+[09/02/21 10:49:07] D2BS 12600: 75
+[09/02/21 10:49:10] D2BS 12600: initNPC: heal
+[09/02/21 10:49:16] D2BS 12600: initNPC: identify
+[09/02/21 10:49:17] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 63 items.
+[09/02/21 10:49:18] D2BS 12600: initNPC: buyPotions
+[09/02/21 10:49:18] D2BS 12600: LowGold sell Viridian Bone Helm of Self-Repair
+[09/02/21 10:49:18] D2BS 12600: initNPC: clearInventory
+[09/02/21 10:49:18] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:49:37] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:49:56] D2BS 12600: move retry 1
+[09/02/21 10:50:08] D2BS 12600: 102
+[09/02/21 10:50:33] D2BS 12600: move retry 1
+[09/02/21 10:50:56] D2BS 12600: move retry 1
+[09/02/21 10:53:41] D2BS 12600: 75
+[09/02/21 10:53:45] D2BS 12600: initNPC: heal
+[09/02/21 10:53:56] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:54:11] D2BS 12600: Script default.dbj ended
+[09/02/21 10:54:11] D2BS 12600: Script tools\autobuildthread.js ended
+[09/02/21 10:54:11] D2BS 12600: Script tools\party.js ended
+[09/02/21 10:54:11] D2BS 12600: Script tools\toolsthread.js ended
+[09/02/21 10:54:11] D2BS 12600: Script tools\townchicken.js ended
+[09/02/21 10:54:50] D2BS 12600: Error: login time out null
+[09/02/21 10:54:57] D2BS 12600: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:54:57] D2BS 12600: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:54:57] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/02/21 10:54:57] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:57] D2BS 12600: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[09/02/21 10:54:57] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/02/21 10:54:57] D2BS 12600: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:54:57] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12600: AutoBuild: Loaded helper thread
+[09/02/21 10:54:57] D2BS 12600: initNPC: heal
+[09/02/21 10:54:57] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/02/21 10:54:57] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12600: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:54:57] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/02/21 10:54:57] D2BS 12600: ÿc3Start ToolsThread script
+[09/02/21 10:54:57] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:54:57] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/02/21 10:54:57] D2BS 12600: Updating Config from level 0 to 25
+[09/02/21 10:54:58] D2BS 12600: move retry 1
+[09/02/21 10:55:01] D2BS 12600: move retry 2
+[09/02/21 10:55:08] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:55:19] D2BS 12600: 101
+[09/02/21 10:55:33] D2BS 12600: ÿc7Picked up ÿc466 Gold
+[09/02/21 10:55:45] D2BS 12600: 101,102
+[09/02/21 10:56:20] D2BS 12600: ÿc1Skipping Council Member 80 16
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: Stat points: 10      Skill points: 2
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: Level up detected ( 25 --> 26 )
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: useSkillPoint(): Tornado (245)
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  3)
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: useStatPoint(0): Strength
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: Stat (1/5) Increased Strength from 40 to 41
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: Stat (2/5) Increased Vitality from 121 to 122
+[09/02/21 10:56:23] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:56:24] D2BS 12600: AutoBuild: Stat (3/5) Increased Vitality from 122 to 123
+[09/02/21 10:56:24] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:56:24] D2BS 12600: AutoBuild: Stat (4/5) Increased Vitality from 123 to 124
+[09/02/21 10:56:24] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:56:24] D2BS 12600: AutoBuild: Stat (5/5) Increased Vitality from 124 to 125
+[09/02/21 10:56:24] D2BS 12600: Updating Config from level 25 to 26
+[09/02/21 10:56:24] D2BS 12600: Updating Config from level 25 to 26
+[09/02/21 10:56:24] D2BS 12600: Updating Config from level 25 to 26
+[09/02/21 10:56:24] D2BS 12600: Updating Config from level 25 to 26
+[09/02/21 10:56:24] D2BS 12600: AutoBuild: Updating Config from level 25 to 26
+[09/02/21 10:56:24] D2BS 12600: AutoBuild: Incrementing cached character level to 26
+[09/02/21 10:56:28] D2BS 12600: 75
+[09/02/21 10:56:30] D2BS 12600: initNPC: heal
+[09/02/21 10:56:34] D2BS 12600: move retry 1
+[09/02/21 10:56:42] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:56:56] D2BS 12600: 102
+[09/02/21 10:57:43] D2BS 12600: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:57:43] D2BS 12600: 75
+[09/02/21 10:57:46] D2BS 12600: move retry 1
+[09/02/21 10:57:48] D2BS 12600: initNPC: heal
+[09/02/21 10:57:54] D2BS 12600: initNPC: buyPotions
+[09/02/21 10:57:56] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:57:59] D2BS 12600: move retry 1
+[09/02/21 10:58:14] D2BS 12600: initNPC: heal
+[09/02/21 10:58:20] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:58:33] D2BS 12600: move retry 1
+[09/02/21 10:58:34] D2BS 12600: initNPC: heal
+[09/02/21 10:58:40] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:58:46] D2BS 12600: Script default.dbj ended
+[09/02/21 10:58:46] D2BS 12600: Script tools\autobuildthread.js ended
+[09/02/21 10:58:46] D2BS 12600: Script tools\party.js ended
+[09/02/21 10:58:46] D2BS 12600: Script tools\toolsthread.js ended
+[09/02/21 10:58:46] D2BS 12600: Script tools\townchicken.js ended
+[09/02/21 10:58:54] D2BS 12600: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:58:54] D2BS 12600: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:58:54] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/02/21 10:58:54] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc216 ms
+[09/02/21 10:58:54] D2BS 12600: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:58:54] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/02/21 10:58:54] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 10:58:54] D2BS 12600: AutoBuild: Loaded helper thread
+[09/02/21 10:58:54] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/02/21 10:58:54] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 10:58:54] D2BS 12600: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:58:54] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:58:54] D2BS 12600: ÿc3Start ToolsThread script
+[09/02/21 10:58:54] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/02/21 10:58:54] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/02/21 10:58:54] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 10:58:54] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 10:59:08] D2BS 12600: move retry 1
+[09/02/21 10:59:23] D2BS 12600: initNPC: heal
+[09/02/21 10:59:29] D2BS 12600: initNPC: BuyPotions
+[09/02/21 10:59:41] D2BS 12600: 101
+[09/02/21 11:00:07] D2BS 12600: ÿc7Picked up ÿc472 Gold
+[09/02/21 11:00:24] D2BS 12600: ÿc1Skipping Mauler 30 16
+[09/02/21 11:00:54] D2BS 12600: 101,102
+[09/02/21 11:01:01] D2BS 12600: 75
+[09/02/21 11:01:03] D2BS 12600: initNPC: heal
+[09/02/21 11:01:08] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:01:20] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:01:51] D2BS 12600: 102
+[09/02/21 11:02:00] D2BS 12600: ÿc7Picked up ÿc0Mask ÿc0(ilvl 25)
+[09/02/21 11:02:13] D2BS 12600: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/02/21 11:02:27] D2BS 12600: ÿc7Picked up ÿc0Crossbow ÿc0(ilvl 25)
+[09/02/21 11:02:29] D2BS 12600: 75
+[09/02/21 11:02:32] D2BS 12600: initNPC: heal
+[09/02/21 11:02:37] D2BS 12600: move retry 1
+[09/02/21 11:02:38] D2BS 12600: initNPC: identify
+[09/02/21 11:02:39] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 59 items.
+[09/02/21 11:02:40] D2BS 12600: LowGold sell Crossbow
+[09/02/21 11:02:40] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:02:40] D2BS 12600: LowGold sell Mask
+[09/02/21 11:02:40] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:02:48] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:03:08] D2BS 12600: 102
+[09/02/21 11:04:25] D2BS 12600: ÿc7Picked up ÿc4Double Axe ÿc0(ilvl 26) (LateGame.nip #48)
+[09/02/21 11:04:25] D2BS 12600: ÿc7Picked up ÿc3Blade Talons ÿc0(ilvl 26)
+[09/02/21 11:04:45] D2BS 12600: move retry 1
+[09/02/21 11:04:48] D2BS 12600: 75
+[09/02/21 11:04:51] D2BS 12600: initNPC: heal
+[09/02/21 11:04:55] D2BS 12600: move retry 1
+[09/02/21 11:04:57] D2BS 12600: initNPC: identify
+[09/02/21 11:05:00] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[09/02/21 11:05:11] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:05:24] D2BS 12600: 102
+[09/02/21 11:06:39] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:06:53] D2BS 12600: 104
+[09/02/21 11:07:19] D2BS 12600: ÿc1Skipping Flesh Spawner 174 16
+[09/02/21 11:07:46] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:08:01] D2BS 12600: move retry 1
+[09/02/21 11:08:34] D2BS 12600: ÿc7Picked up ÿc8Ith Rune ÿc0(ilvl 1)
+[09/02/21 11:09:32] D2BS 12600: ÿc7Picked up ÿc0Ruby ÿc0(ilvl 1)
+[09/02/21 11:09:46] D2BS 12600: ÿc7Picked up ÿc4151 Gold
+[09/02/21 11:10:04] D2BS 12600: ÿc7Picked up ÿc3Great Sword ÿc0(ilvl 29) (Tornado.xpac.nip #2)
+[09/02/21 11:10:04] D2BS 12600: ÿc7Picked up ÿc4760 Gold
+[09/02/21 11:10:04] D2BS 12600: ÿc7Picked up ÿc8Tir Rune ÿc0(ilvl 1)
+[09/02/21 11:10:05] D2BS 12600: ÿc7Picked up ÿc4805 Gold
+[09/02/21 11:10:08] D2BS 12600: ÿc7Picked up ÿc3Grand Charm ÿc0(ilvl 26) (LateGame.nip #9)
+[09/02/21 11:10:12] D2BS 12600: 103
+[09/02/21 11:10:15] D2BS 12600: initNPC: heal
+[09/02/21 11:10:20] D2BS 12600: initNPC: identify
+[09/02/21 11:10:25] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[09/02/21 11:10:25] D2BS 12600: LowGold sell Ruby
+[09/02/21 11:10:25] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:10:25] D2BS 12600: LowGold sell Tir Rune
+[09/02/21 11:10:25] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:10:28] D2BS 12600: LowGold sell Ith Rune
+[09/02/21 11:10:28] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:10:36] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:10:51] D2BS 12600: 103,104,105
+[09/02/21 11:11:21] D2BS 12600: move retry 1
+[09/02/21 11:12:00] D2BS 12600: 105
+[09/02/21 11:12:48] D2BS 12600: ÿc7Picked up ÿc4114 Gold
+[09/02/21 11:12:54] D2BS 12600: ÿc7Picked up ÿc433 Gold
+[09/02/21 11:13:09] D2BS 12600: ÿc7Picked up ÿc484 Gold
+[09/02/21 11:13:09] D2BS 12600: ÿc7Picked up ÿc438 Gold
+[09/02/21 11:14:52] D2BS 12600: ÿc7Picked up ÿc3Small Charm ÿc0(ilvl 24) (LateGame.nip #11)
+[09/02/21 11:15:07] D2BS 12600: ÿc4Attackÿc0: No valid positions for: Burning Soul
+[09/02/21 11:15:07] D2BS 12600: ÿc4Attackÿc0: No valid positions for: Burning Soul
+[09/02/21 11:15:08] D2BS 12600: ÿc4Attackÿc0: No valid positions for: Burning Soul
+[09/02/21 11:15:08] D2BS 12600: ÿc4Attackÿc0: No valid positions for: Burning Soul
+[09/02/21 11:15:09] D2BS 12600: ÿc4Attackÿc0: No valid positions for: Burning Soul
+[09/02/21 11:15:20] D2BS 12600: ÿc7Picked up ÿc434 Gold
+[09/02/21 11:15:45] D2BS 12600: ÿc7Picked up ÿc444 Gold
+[09/02/21 11:18:38] D2BS 12600: ÿc7Picked up ÿc0Flawed Skull ÿc0(ilvl 1)
+[09/02/21 11:18:46] D2BS 12600: ÿc4Attackÿc0: No valid positions for: Doom Caster
+[09/02/21 11:18:47] D2BS 12600: ÿc4Attackÿc0: No valid positions for: Doom Caster
+[09/02/21 11:18:56] D2BS 12600: ÿc7Picked up ÿc0Chipped Sapphire ÿc0(ilvl 1)
+[09/02/21 11:20:57] D2BS 12600: ÿc7Picked up ÿc4104 Gold
+[09/02/21 11:21:13] D2BS 12600: ÿc7Picked up ÿc4152 Gold
+[09/02/21 11:21:13] D2BS 12600: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/02/21 11:21:36] D2BS 12600: ÿc7Picked up ÿc0Large Shield ÿc0(ilvl 27)
+[09/02/21 11:21:42] D2BS 12600: 106,107
+[09/02/21 11:21:46] D2BS 12600: move retry 1
+[09/02/21 11:21:48] D2BS 12600: move retry 2
+[09/02/21 11:21:50] D2BS 12600: move retry 3
+[09/02/21 11:22:13] D2BS 12600: ÿc7Picked up ÿc3Great Helm ÿc0(ilvl 30) (Tornado.xpac.nip #31)
+[09/02/21 11:22:25] D2BS 12600: move retry 1
+[09/02/21 11:22:33] D2BS 12600: move retry 1
+[09/02/21 11:22:35] D2BS 12600: move retry 2
+[09/02/21 11:23:01] D2BS 12600: ÿc7Picked up ÿc0Chipped Topaz ÿc0(ilvl 1)
+[09/02/21 11:23:03] D2BS 12600: ÿc7Picked up ÿc458 Gold
+[09/02/21 11:23:16] D2BS 12600: Script default.dbj ended
+[09/02/21 11:23:16] D2BS 12600: Script tools\autobuildthread.js ended
+[09/02/21 11:23:16] D2BS 12600: Script tools\party.js ended
+[09/02/21 11:23:16] D2BS 12600: Script tools\toolsthread.js ended
+[09/02/21 11:23:16] D2BS 12600: Script tools\townchicken.js ended
+[09/02/21 11:23:23] D2BS 12600: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:23:23] D2BS 12600: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:23:23] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/02/21 11:23:23] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc216 ms
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 12600: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/02/21 11:23:23] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 12600: AutoBuild: Loaded helper thread
+[09/02/21 11:23:23] D2BS 12600: LowGold sell Chipped Topaz
+[09/02/21 11:23:23] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:23:23] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/02/21 11:23:23] D2BS 12600: ÿc3Start ToolsThread script
+[09/02/21 11:23:23] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 12600: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:23:23] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/02/21 11:23:23] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/02/21 11:23:23] D2BS 12600: Updating Config from level 0 to 26
+[09/02/21 11:23:30] D2BS 12600: LowGold sell Large Shield
+[09/02/21 11:23:30] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:23:32] D2BS 12600: LowGold sell Chipped Sapphire
+[09/02/21 11:23:32] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:23:34] D2BS 12600: LowGold sell Flawed Skull
+[09/02/21 11:23:34] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:23:36] D2BS 12600: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:23:36] D2BS 12600: initNPC: identify
+[09/02/21 11:23:40] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 70 items.
+[09/02/21 11:23:41] D2BS 12600: initNPC: buyPotions
+[09/02/21 11:23:41] D2BS 12600: initNPC: repair
+[09/02/21 11:23:52] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:24:09] D2BS 12600: 104
+[09/02/21 11:24:24] D2BS 12600: move retry 1
+[09/02/21 11:24:42] D2BS 12600: move retry 1
+[09/02/21 11:24:51] D2BS 12600: 104,105
+[09/02/21 11:24:53] D2BS 12600: move retry 1
+[09/02/21 11:24:56] D2BS 12600: move retry 2
+[09/02/21 11:25:00] D2BS 12600: move retry 1
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: Stat points: 10      Skill points: 2
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: Level up detected ( 26 --> 27 )
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: useSkillPoint(): Tornado (245)
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: Skill (1/1) Increased Tornado (245) by one (level:  4)
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: useStatPoint(0): Strength
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: Stat (1/5) Increased Strength from 41 to 42
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: Stat (2/5) Increased Vitality from 125 to 126
+[09/02/21 11:25:08] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:25:09] D2BS 12600: AutoBuild: Stat (3/5) Increased Vitality from 126 to 127
+[09/02/21 11:25:09] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:25:09] D2BS 12600: AutoBuild: Stat (4/5) Increased Vitality from 127 to 128
+[09/02/21 11:25:09] D2BS 12600: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:25:09] D2BS 12600: AutoBuild: Stat (5/5) Increased Vitality from 128 to 129
+[09/02/21 11:25:09] D2BS 12600: Updating Config from level 26 to 27
+[09/02/21 11:25:09] D2BS 12600: Updating Config from level 26 to 27
+[09/02/21 11:25:09] D2BS 12600: Updating Config from level 26 to 27
+[09/02/21 11:25:09] D2BS 12600: AutoBuild: Updating Config from level 26 to 27
+[09/02/21 11:25:09] D2BS 12600: Updating Config from level 26 to 27
+[09/02/21 11:25:09] D2BS 12600: AutoBuild: Incrementing cached character level to 27
+[09/02/21 11:25:38] D2BS 12600: move retry 1
+[09/02/21 11:25:59] D2BS 12600: ÿc1Skipping Corpulent 98 16
+[09/02/21 11:26:09] D2BS 12600: ÿc7Picked up ÿc4142 Gold
+[09/02/21 11:26:30] D2BS 12600: ÿc1Skipping Venom Lord 109 16
+[09/02/21 11:26:42] D2BS 12600: ÿc1Skipping Venom Lord 91 16
+[09/02/21 11:26:46] D2BS 12600: ÿc7Picked up ÿc437 Gold
+[09/02/21 11:26:58] D2BS 12600: ÿc1Skipping Venom Lord 91 16
+[09/02/21 11:27:00] D2BS 12600: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:27:09] D2BS 12600: ÿc7Picked up ÿc0Grand Scepter ÿc0(ilvl 30)
+[09/02/21 11:27:29] D2BS 12600: 103
+[09/02/21 11:27:31] D2BS 12600: initNPC: heal
+[09/02/21 11:27:36] D2BS 12600: initNPC: identify
+[09/02/21 11:27:37] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[09/02/21 11:27:39] D2BS 12600: initNPC: buyPotions
+[09/02/21 11:27:40] D2BS 12600: LowGold sell Grand Scepter
+[09/02/21 11:27:40] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:27:40] D2BS 12600: Viridian Splint Mail of Ease
+[09/02/21 11:27:49] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:28:33] D2BS 12600: initNPC: heal
+[09/02/21 11:28:38] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:28:47] D2BS 12600: 105
+[09/02/21 11:29:06] D2BS 12600: ÿc7Picked up ÿc4116 Gold
+[09/02/21 11:29:38] D2BS 12600: ÿc7Picked up ÿc3Throwing Axe ÿc0(ilvl 24)
+[09/02/21 11:29:44] D2BS 12600: move retry 1
+[09/02/21 11:29:48] D2BS 12600: move retry 1
+[09/02/21 11:29:50] D2BS 12600: move retry 1
+[09/02/21 11:30:06] D2BS 12600: ÿc7Picked up ÿc0Helm ÿc0(ilvl 30)
+[09/02/21 11:30:07] D2BS 12600: ÿc7Picked up ÿc451 Gold
+[09/02/21 11:30:09] D2BS 12600: move retry 1
+[09/02/21 11:30:26] D2BS 12600: ÿc7Picked up ÿc4106 Gold
+[09/02/21 11:30:35] D2BS 12600: ÿc7Picked up ÿc4119 Gold
+[09/02/21 11:30:36] D2BS 12600: move retry 1
+[09/02/21 11:30:48] D2BS 12600: ÿc7Picked up ÿc4163 Gold
+[09/02/21 11:30:49] D2BS 12600: move retry 1
+[09/02/21 11:31:00] D2BS 12600: ÿc7Picked up ÿc452 Gold
+[09/02/21 11:31:02] D2BS 12600: ÿc7Picked up ÿc4120 Gold
+[09/02/21 11:31:20] D2BS 12600: move retry 1
+[09/02/21 11:31:21] D2BS 12600: move retry 2
+[09/02/21 11:31:52] D2BS 12600: ÿc1Skipping Doom Knight 232 16
+[09/02/21 11:32:13] D2BS 12600: ÿc7Picked up ÿc434 Gold
+[09/02/21 11:32:31] D2BS 12600: move retry 1
+[09/02/21 11:32:32] D2BS 12600: ÿc7Picked up ÿc0Balanced Axe ÿc0(ilvl 30)
+[09/02/21 11:32:53] D2BS 12600: move retry 1
+[09/02/21 11:32:57] D2BS 12600: move retry 1
+[09/02/21 11:33:03] D2BS 12600: move retry 1
+[09/02/21 11:33:08] D2BS 12600: move retry 1
+[09/02/21 11:33:12] D2BS 12600: move retry 1
+[09/02/21 11:33:27] D2BS 12600: ÿc7Picked up ÿc438 Gold
+[09/02/21 11:33:39] D2BS 12600: move retry 1
+[09/02/21 11:33:49] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 11:33:54] D2BS 12600: move retry 1
+[09/02/21 11:34:15] D2BS 12600: move retry 1
+[09/02/21 11:34:19] D2BS 12600: move retry 1
+[09/02/21 11:34:22] D2BS 12600: ÿc7Picked up ÿc0Flawed Skull ÿc0(ilvl 1)
+[09/02/21 11:34:28] D2BS 12600: move retry 1
+[09/02/21 11:34:36] D2BS 12600: move retry 1
+[09/02/21 11:36:32] D2BS 12600: move retry 1
+[09/02/21 11:37:09] D2BS 12600: move retry 1
+[09/02/21 11:37:11] D2BS 12600: move retry 1
+[09/02/21 11:37:16] D2BS 12600: move retry 1
+[09/02/21 11:37:18] D2BS 12600: move retry 1
+[09/02/21 11:37:23] D2BS 12600: move retry 1
+[09/02/21 11:37:30] D2BS 12600: 103
+[09/02/21 11:37:33] D2BS 12600: initNPC: heal
+[09/02/21 11:37:39] D2BS 12600: initNPC: identify
+[09/02/21 11:37:40] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 51 items.
+[09/02/21 11:37:40] D2BS 12600: initNPC: buyPotions
+[09/02/21 11:37:41] D2BS 12600: LowGold sell Helm
+[09/02/21 11:37:41] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:37:41] D2BS 12600: LowGold sell Balanced Axe
+[09/02/21 11:37:41] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:37:43] D2BS 12600: LowGold sell Flawed Skull
+[09/02/21 11:37:43] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:37:53] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:37:57] D2BS 12600: move retry 1
+[09/02/21 11:38:08] D2BS 12600: 107
+[09/02/21 11:38:25] D2BS 12600: move retry 1
+[09/02/21 11:38:42] D2BS 12600: ÿc1Pausing.
+[09/02/21 11:38:44] D2BS 12600: initNPC: heal
+[09/02/21 11:38:49] D2BS 12600: initNPC: buyPotions
+[09/02/21 11:38:53] D2BS 12600: move retry 1
+[09/02/21 11:38:56] D2BS 12600: ÿc2Resuming.
+[09/02/21 11:39:12] D2BS 12600: move retry 2
+[09/02/21 11:39:15] D2BS 12600: move retry 3
+[09/02/21 11:39:38] D2BS 12600: ÿc7Picked up ÿc0Large Axe ÿc0(ilvl 30)
+[09/02/21 11:40:10] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 11:40:14] D2BS 12600: ÿc7Picked up ÿc0Broad Sword ÿc0(ilvl 27)
+[09/02/21 11:40:20] D2BS 12600: ÿc7Picked up ÿc0Brandistock ÿc0(ilvl 27)
+[09/02/21 11:40:24] D2BS 12600: ÿc7Picked up ÿc0Chipped Emerald ÿc0(ilvl 1)
+[09/02/21 11:41:13] D2BS 12600: ÿc7Picked up ÿc0Balanced Axe ÿc0(ilvl 30)
+[09/02/21 11:41:13] D2BS 12600: ÿc7Picked up ÿc477 Gold
+[09/02/21 11:41:54] D2BS 12600: ÿc7Picked up ÿc4143 Gold
+[09/02/21 11:41:54] D2BS 12600: ÿc7Picked up ÿc482 Gold
+[09/02/21 11:42:29] D2BS 12600: ÿc1Skipping Maw Fiend 396 16
+[09/02/21 11:42:29] D2BS 12600: ÿc7Trying to make room for ÿc0Balanced Axe
+[09/02/21 11:42:30] D2BS 12600: initNPC: heal
+[09/02/21 11:42:36] D2BS 12600: initNPC: identify
+[09/02/21 11:42:37] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[09/02/21 11:42:37] D2BS 12600: initNPC: buyPotions
+[09/02/21 11:42:38] D2BS 12600: LowGold sell Balanced Axe
+[09/02/21 11:42:38] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:42:38] D2BS 12600: LowGold sell Brandistock
+[09/02/21 11:42:38] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:42:40] D2BS 12600: LowGold sell Broad Sword
+[09/02/21 11:42:40] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:42:42] D2BS 12600: LowGold sell Large Axe
+[09/02/21 11:42:42] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:42:44] D2BS 12600: LowGold sell Chipped Emerald
+[09/02/21 11:42:44] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:43:13] D2BS 12600: ÿc7Picked up ÿc495 Gold
+[09/02/21 11:44:37] D2BS 12600: ÿc7Picked up ÿc460 Gold
+[09/02/21 11:44:37] D2BS 12600: ÿc7Picked up ÿc0Giant Axe ÿc0(ilvl 30)
+[09/02/21 11:44:37] D2BS 12600: ÿc7Picked up ÿc499 Gold
+[09/02/21 11:44:42] D2BS 12600: ÿc7Picked up ÿc431 Gold
+[09/02/21 11:44:42] D2BS 12600: ÿc7Picked up ÿc4168 Gold
+[09/02/21 11:44:42] D2BS 12600: ÿc7Picked up ÿc462 Gold
+[09/02/21 11:44:57] D2BS 12600: move retry 1
+[09/02/21 11:45:07] D2BS 12600: move retry 1
+[09/02/21 11:45:14] D2BS 12600: move retry 1
+[09/02/21 11:45:14] D2BS 12600: ÿc7Picked up ÿc443 Gold
+[09/02/21 11:45:17] D2BS 12600: move retry 1
+[09/02/21 11:45:37] D2BS 12600: move retry 1
+[09/02/21 11:45:44] D2BS 12600: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/02/21 11:45:47] D2BS 12600: move retry 1
+[09/02/21 11:45:49] D2BS 12600: move retry 1
+[09/02/21 11:46:18] D2BS 12600: move retry 1
+[09/02/21 11:46:22] D2BS 12600: ÿc7Picked up ÿc473 Gold
+[09/02/21 11:46:57] D2BS 12600: move retry 1
+[09/02/21 11:46:59] D2BS 12600: move retry 1
+[09/02/21 11:47:00] D2BS 12600: move retry 1
+[09/02/21 11:47:10] D2BS 12600: move retry 1
+[09/02/21 11:47:15] D2BS 12600: move retry 1
+[09/02/21 11:47:19] D2BS 12600: move retry 1
+[09/02/21 11:47:24] D2BS 12600: move retry 1
+[09/02/21 11:47:29] D2BS 12600: move retry 1
+[09/02/21 11:47:32] D2BS 12600: move retry 1
+[09/02/21 11:47:34] D2BS 12600: move retry 1
+[09/02/21 11:47:36] D2BS 12600: move retry 1
+[09/02/21 11:47:41] D2BS 12600: move retry 1
+[09/02/21 11:47:56] D2BS 12600: ÿc1Skipping Pit Lord 876 16
+[09/02/21 11:48:09] D2BS 12600: 107,108
+[09/02/21 11:48:23] D2BS 12600: ÿc7Picked up ÿc4143 Gold
+[09/02/21 11:48:32] D2BS 12600: ÿc7Picked up ÿc463 Gold
+[09/02/21 11:48:41] D2BS 12600: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(17/20)
+[09/02/21 11:48:41] D2BS 12600: ÿc7Picked up ÿc465 Gold
+[09/02/21 11:48:41] D2BS 12600: ÿc7Picked up ÿc4135 Gold
+[09/02/21 11:48:42] D2BS 12600: ÿc7Picked up ÿc4123 Gold
+[09/02/21 11:49:30] D2BS 12600: ÿc7Picked up ÿc4132 Gold
+[09/02/21 11:49:58] D2BS 12600: ÿc7Picked up ÿc4117 Gold
+[09/02/21 11:50:15] D2BS 12600: ÿc1Skipping Doom Knight 1029 16
+[09/02/21 11:50:34] D2BS 12600: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 11:50:36] D2BS 12600: ÿc7Picked up ÿc460 Gold
+[09/02/21 11:50:47] D2BS 12600: ÿc7Picked up ÿc477 Gold
+[09/02/21 11:50:53] D2BS 12600: ÿc7Picked up ÿc0Pilum ÿc0(ilvl 24)
+[09/02/21 11:50:57] D2BS 12600: Script default.dbj ended
+[09/02/21 11:50:57] D2BS 12600: Script tools\autobuildthread.js ended
+[09/02/21 11:50:57] D2BS 12600: Script tools\party.js ended
+[09/02/21 11:50:57] D2BS 12600: Script tools\toolsthread.js ended
+[09/02/21 11:50:57] D2BS 12600: Script tools\townchicken.js ended
+[09/02/21 11:51:04] D2BS 12600: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:51:04] D2BS 12600: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:51:04] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into default.dbj
+[09/02/21 11:51:04] D2BS 12600: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2TornadoRunes.nipÿc4. Lines: ÿc223ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2Tornado.xpac.nipÿc4. Lines: ÿc2121ÿc4. Valid entries: ÿc2104. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc215 ms
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 12600: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:04] D2BS 12600: LowGold sell Pilum
+[09/02/21 11:51:04] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:51:04] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\autobuildthread.js
+[09/02/21 11:51:04] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\townchicken.js
+[09/02/21 11:51:04] D2BS 12600: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 12600: AutoBuild: Loaded helper thread
+[09/02/21 11:51:04] D2BS 12600: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 12600: ÿc3Start ToolsThread script
+[09/02/21 11:51:04] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\toolsthread.js
+[09/02/21 11:51:04] D2BS 12600: AutoBuild: Including build template config/builds/druid.tornado.js into tools\party.js
+[09/02/21 11:51:04] D2BS 12600: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 12600: Updating Config from level 0 to 27
+[09/02/21 11:51:04] D2BS 12600: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:51:10] D2BS 12600: LowGold sell Giant Axe
+[09/02/21 11:51:10] D2BS 12600: initNPC: clearInventory
+[09/02/21 11:51:12] D2BS 12600: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:51:12] D2BS 12600: ÿc4MiniShopBotÿc0: Scanning 67 items.
+[09/02/21 11:51:13] D2BS 12600: initNPC: buyPotions
+[09/02/21 11:51:19] D2BS 12600: move retry 1
+[09/02/21 11:51:25] D2BS 12600: initNPC: BuyPotions
+[09/02/21 11:52:10] D2BS 12600: 107
+[09/02/21 11:52:18] D2BS 12600: D2BS Shutdown complete.

@@ -1,0 +1,1546 @@
+[09/02/21 10:09:06] D2BS 12624: D2BS Engine startup complete. 1.6.4U
+[09/02/21 10:09:06] D2BS 12624: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/02/21 10:09:06] D2BS 12624: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/02/21 10:09:06] D2BS 12624: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/02/21 10:09:06] D2BS 12624: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/02/21 10:09:06] D2BS 12624: ÿc2D2BSÿc0 :: Started Console Script
+[09/02/21 10:09:06] D2BS 12624: Auradin
+[09/02/21 10:09:08] D2BS 12624: Heartbeat loaded
+[09/02/21 10:09:26] D2BS 12624: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:09:26] D2BS 12624: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:09:26] D2BS 12624: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/02/21 10:09:26] D2BS 12624: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2111. ÿc4Time: ÿc216 ms
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12624: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12624: AutoBuild: Loaded helper thread
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12624: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:09:26] D2BS 12624: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:09:26] D2BS 12624: initNPC: heal
+[09/02/21 10:09:26] D2BS 12624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/02/21 10:09:26] D2BS 12624: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12624: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:09:26] D2BS 12624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/02/21 10:09:26] D2BS 12624: Updating Config from level 0 to 24
+[09/02/21 10:09:26] D2BS 12624: ÿc3Start ToolsThread script
+[09/02/21 10:09:26] D2BS 12624: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/02/21 10:09:26] D2BS 12624: Updating Config from level 0 to 24
+[09/02/21 10:09:28] D2BS 12624: move retry 1
+[09/02/21 10:09:35] D2BS 12624: move retry 1
+[09/02/21 10:09:37] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:09:43] D2BS 12624: move retry 1
+[09/02/21 10:09:55] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:10:10] D2BS 12624: 79
+[09/02/21 10:10:20] D2BS 12624: ÿc7Picked up ÿc4130 Gold
+[09/02/21 10:10:26] D2BS 12624: move retry 1
+[09/02/21 10:10:57] D2BS 12624: ÿc7Picked up ÿc4112 Gold
+[09/02/21 10:10:57] D2BS 12624: ÿc7Picked up ÿc466 Gold
+[09/02/21 10:11:03] D2BS 12624: move retry 1
+[09/02/21 10:11:10] D2BS 12624: move retry 1
+[09/02/21 10:11:22] D2BS 12624: move retry 1
+[09/02/21 10:11:40] D2BS 12624: move retry 1
+[09/02/21 10:11:59] D2BS 12624: ÿc7Picked up ÿc440 Gold
+[09/02/21 10:12:04] D2BS 12624: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 10:12:19] D2BS 12624: ÿc7Picked up ÿc475 Gold
+[09/02/21 10:12:20] D2BS 12624: 79,80
+[09/02/21 10:12:32] D2BS 12624: ÿc7Picked up ÿc0Short Battle Bow ÿc0(ilvl 23)
+[09/02/21 10:12:32] D2BS 12624: ÿc7Picked up ÿc4134 Gold
+[09/02/21 10:12:49] D2BS 12624: ÿc7Picked up ÿc449 Gold
+[09/02/21 10:12:50] D2BS 12624: move retry 1
+[09/02/21 10:12:57] D2BS 12624: ÿc7Picked up ÿc444 Gold
+[09/02/21 10:13:05] D2BS 12624: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:13:11] D2BS 12624: ÿc7Picked up ÿc0Crystal Sword ÿc0(ilvl 20)
+[09/02/21 10:13:41] D2BS 12624: move retry 1
+[09/02/21 10:13:48] D2BS 12624: move retry 1
+[09/02/21 10:13:53] D2BS 12624: 80,92
+[09/02/21 10:13:56] D2BS 12624: move retry 1
+[09/02/21 10:14:00] D2BS 12624: move retry 2
+[09/02/21 10:14:12] D2BS 12624: move retry 1
+[09/02/21 10:14:15] D2BS 12624: move retry 1
+[09/02/21 10:14:27] D2BS 12624: move retry 1
+[09/02/21 10:14:34] D2BS 12624: move retry 1
+[09/02/21 10:14:36] D2BS 12624: move retry 1
+[09/02/21 10:14:39] D2BS 12624: move retry 1
+[09/02/21 10:14:47] D2BS 12624: move retry 1
+[09/02/21 10:14:49] D2BS 12624: ÿc7Picked up ÿc487 Gold
+[09/02/21 10:14:54] D2BS 12624: move retry 1
+[09/02/21 10:15:01] D2BS 12624: move retry 1
+[09/02/21 10:15:18] D2BS 12624: move retry 1
+[09/02/21 10:15:28] D2BS 12624: move retry 1
+[09/02/21 10:15:38] D2BS 12624: ÿc7Picked up ÿc497 Gold
+[09/02/21 10:15:47] D2BS 12624: move retry 1
+[09/02/21 10:15:52] D2BS 12624: 75
+[09/02/21 10:15:53] D2BS 12624: initNPC: identify
+[09/02/21 10:16:00] D2BS 12624: ÿc4MiniShopBotÿc0: Scanning 54 items.
+[09/02/21 10:16:01] D2BS 12624: LowGold sell Giant Sword
+[09/02/21 10:16:01] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:16:01] D2BS 12624: LowGold sell Crystal Sword
+[09/02/21 10:16:01] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:16:03] D2BS 12624: LowGold sell Short Battle Bow
+[09/02/21 10:16:03] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:16:10] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:16:17] D2BS 12624: move retry 1
+[09/02/21 10:16:27] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:17:04] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:17:21] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:17:52] D2BS 12624: 93
+[09/02/21 10:18:06] D2BS 12624: 75
+[09/02/21 10:18:08] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:18:09] D2BS 12624: move retry 1
+[09/02/21 10:18:22] D2BS 12624: move retry 1
+[09/02/21 10:18:32] D2BS 12624: 80
+[09/02/21 10:18:53] D2BS 12624: 80,94
+[09/02/21 10:19:24] D2BS 12624: ÿc1Skipping Night Lord 314 16
+[09/02/21 10:19:25] D2BS 12624: ÿc7Picked up ÿc4130 Gold
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: Stat points: 5      Skill points: 3
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: Level up detected ( 24 --> 25 )
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: useSkillPoint(): Holy Shield (117)
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: Skill (1/1) Increased Holy Shield (117) by one (level:  1)
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: useStatPoint(0): Strength
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: Stat (1/5) Increased Strength from 48 to 49
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: useStatPoint(2): Dexterity
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: Stat (2/5) Increased Dexterity from 43 to 44
+[09/02/21 10:19:30] D2BS 12624: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:19:31] D2BS 12624: AutoBuild: Stat (3/5) Increased Vitality from 94 to 95
+[09/02/21 10:19:31] D2BS 12624: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:19:31] D2BS 12624: AutoBuild: Stat (4/5) Increased Vitality from 95 to 96
+[09/02/21 10:19:31] D2BS 12624: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 10:19:31] D2BS 12624: AutoBuild: Stat (5/5) Increased Vitality from 96 to 97
+[09/02/21 10:19:31] D2BS 12624: Updating Config from level 24 to 25
+[09/02/21 10:19:31] D2BS 12624: Updating Config from level 24 to 25
+[09/02/21 10:19:31] D2BS 12624: Updating Config from level 24 to 25
+[09/02/21 10:19:31] D2BS 12624: AutoBuild: Updating Config from level 24 to 25
+[09/02/21 10:19:31] D2BS 12624: Updating Config from level 24 to 25
+[09/02/21 10:19:31] D2BS 12624: AutoBuild: Incrementing cached character level to 25
+[09/02/21 10:19:33] D2BS 12624: move retry 1
+[09/02/21 10:19:41] D2BS 12624: ÿc7Picked up ÿc0ÿc4Lam Esen's Tome ÿc0(ilvl 1) (LateGame.nip #21)
+[09/02/21 10:19:42] D2BS 12624: 75
+[09/02/21 10:19:45] D2BS 12624: initNPC: heal
+[09/02/21 10:19:51] D2BS 12624: initNPC: buyPotions
+[09/02/21 10:19:56] D2BS 12624: Successfully placed ÿc4Lam Esen's Tome at X: 5 Y: 0
+[09/02/21 10:19:57] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:20:42] D2BS 12624: 80
+[09/02/21 10:20:56] D2BS 12624: ÿc7Picked up ÿc0Crossbow ÿc0(ilvl 23)
+[09/02/21 10:21:01] D2BS 12624: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:21:02] D2BS 12624: ÿc7Picked up ÿc482 Gold
+[09/02/21 10:21:04] D2BS 12624: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:21:28] D2BS 12624: ÿc7Picked up ÿc0Pilum ÿc0(ilvl 22)
+[09/02/21 10:21:28] D2BS 12624: ÿc7Picked up ÿc0Morning Star ÿc0(ilvl 20)
+[09/02/21 10:21:35] D2BS 12624: ÿc7Picked up ÿc456 Gold
+[09/02/21 10:21:43] D2BS 12624: move retry 1
+[09/02/21 10:21:48] D2BS 12624: move retry 1
+[09/02/21 10:21:52] D2BS 12624: ÿc7Picked up ÿc427 Gold
+[09/02/21 10:21:52] D2BS 12624: ÿc7Picked up ÿc463 Gold
+[09/02/21 10:21:53] D2BS 12624: move retry 1
+[09/02/21 10:22:43] D2BS 12624: move retry 1
+[09/02/21 10:23:02] D2BS 12624: move retry 1
+[09/02/21 10:23:28] D2BS 12624: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 10:23:28] D2BS 12624: ÿc7Picked up ÿc0Chipped Skull ÿc0(ilvl 1)
+[09/02/21 10:23:36] D2BS 12624: move retry 1
+[09/02/21 10:23:47] D2BS 12624: move retry 1
+[09/02/21 10:24:06] D2BS 12624: initNPC: heal
+[09/02/21 10:24:10] D2BS 12624: initNPC: identify
+[09/02/21 10:24:10] D2BS 12624: ÿc4MiniShopBotÿc0: Scanning 45 items.
+[09/02/21 10:24:11] D2BS 12624: initNPC: buyPotions
+[09/02/21 10:24:12] D2BS 12624: LowGold sell Morning Star
+[09/02/21 10:24:12] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:24:12] D2BS 12624: LowGold sell Crossbow
+[09/02/21 10:24:12] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:24:12] D2BS 12624: LowGold sell Pilum
+[09/02/21 10:24:12] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:24:14] D2BS 12624: LowGold sell Chipped Skull
+[09/02/21 10:24:14] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:24:21] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:24:52] D2BS 12624: 75
+[09/02/21 10:24:56] D2BS 12624: initNPC: heal
+[09/02/21 10:25:01] D2BS 12624: initNPC: identify
+[09/02/21 10:25:02] D2BS 12624: ÿc4MiniShopBotÿc0: Scanning 52 items.
+[09/02/21 10:25:03] D2BS 12624: LowGold sell Crossbow
+[09/02/21 10:25:03] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:25:03] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:25:16] D2BS 12624: 78
+[09/02/21 10:25:21] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:25:36] D2BS 12624: 78
+[09/02/21 10:25:40] D2BS 12624: initNPC: fillTome
+[09/02/21 10:25:48] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:26:00] D2BS 12624: 78
+[09/02/21 10:26:03] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:26:20] D2BS 12624: 78
+[09/02/21 10:26:23] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:26:39] D2BS 12624: 78
+[09/02/21 10:26:42] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:27:00] D2BS 12624: 78
+[09/02/21 10:27:03] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:27:20] D2BS 12624: 78
+[09/02/21 10:27:23] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:27:41] D2BS 12624: 78
+[09/02/21 10:27:44] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:27:48] D2BS 12624: move retry 1
+[09/02/21 10:28:00] D2BS 12624: 78
+[09/02/21 10:28:03] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:28:20] D2BS 12624: 78
+[09/02/21 10:28:23] D2BS 12624: initNPC: fillTome
+[09/02/21 10:28:31] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:28:43] D2BS 12624: 78
+[09/02/21 10:28:46] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:29:02] D2BS 12624: 78
+[09/02/21 10:29:05] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:29:21] D2BS 12624: 78
+[09/02/21 10:29:24] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:29:29] D2BS 12624: move retry 1
+[09/02/21 10:29:46] D2BS 12624: initNPC: heal
+[09/02/21 10:29:51] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:30:03] D2BS 12624: 78
+[09/02/21 10:30:06] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:30:21] D2BS 12624: 78
+[09/02/21 10:30:24] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:30:31] D2BS 12624: move retry 1
+[09/02/21 10:30:41] D2BS 12624: 78
+[09/02/21 10:30:44] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:30:59] D2BS 12624: 78
+[09/02/21 10:31:02] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:31:18] D2BS 12624: 88
+[09/02/21 10:31:52] D2BS 12624: 75
+[09/02/21 10:31:55] D2BS 12624: initNPC: heal
+[09/02/21 10:32:06] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:32:23] D2BS 12624: initNPC: heal
+[09/02/21 10:32:28] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:32:40] D2BS 12624: 91
+[09/02/21 10:32:52] D2BS 12624: ÿc1Skipping Flayer 1272 16
+[09/02/21 10:33:04] D2BS 12624: ÿc7Picked up ÿc0ÿc4Khalim's Brain ÿc0(ilvl 1) (LateGame.nip #25)
+[09/02/21 10:33:05] D2BS 12624: ÿc7Picked up ÿc473 Gold
+[09/02/21 10:33:05] D2BS 12624: ÿc7Picked up ÿc468 Gold
+[09/02/21 10:33:06] D2BS 12624: ÿc7Picked up ÿc0Sabre ÿc0(ilvl 22)
+[09/02/21 10:33:22] D2BS 12624: 75
+[09/02/21 10:33:25] D2BS 12624: initNPC: heal
+[09/02/21 10:33:30] D2BS 12624: initNPC: identify
+[09/02/21 10:33:31] D2BS 12624: ÿc4MiniShopBotÿc0: Scanning 43 items.
+[09/02/21 10:33:31] D2BS 12624: LowGold sell Sabre
+[09/02/21 10:33:31] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:33:40] D2BS 12624: Successfully placed ÿc4Khalim's Brain at X: 5 Y: 0
+[09/02/21 10:33:42] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:34:02] D2BS 12624: 81,82,83
+[09/02/21 10:34:51] D2BS 12624: ÿc7Picked up ÿc438 Gold
+[09/02/21 10:35:04] D2BS 12624: ÿc1Skipping Heirophant 461 16
+[09/02/21 10:35:12] D2BS 12624: ÿc1Skipping Heirophant 461 16
+[09/02/21 10:35:21] D2BS 12624: ÿc1Skipping Zealot 459 16
+[09/02/21 10:35:30] D2BS 12624: ÿc1Skipping Council Member 1444 16
+[09/02/21 10:35:31] D2BS 12624: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 10:35:33] D2BS 12624: ÿc7Picked up ÿc3Spirit Mask ÿc0(ilvl 28)
+[09/02/21 10:35:34] D2BS 12624: ÿc7Picked up ÿc3Balanced Knife ÿc0(ilvl 28)
+[09/02/21 10:35:34] D2BS 12624: ÿc7Picked up ÿc0Flawed Amethyst ÿc0(ilvl 1)
+[09/02/21 10:35:34] D2BS 12624: ÿc7Picked up ÿc0Voulge ÿc0(ilvl 24)
+[09/02/21 10:35:43] D2BS 12624: ÿc7Picked up ÿc0Superior Heavy Crossbow ÿc0(ilvl 24)
+[09/02/21 10:35:44] D2BS 12624: ÿc7Picked up ÿc3Halberd ÿc0(ilvl 28) (PreMercLance.xpac.nip #4)
+[09/02/21 10:35:44] D2BS 12624: ÿc7Picked up ÿc4ÿc4Khalim's Flail ÿc0(ilvl 28) (LateGame.nip #22)
+[09/02/21 10:36:10] D2BS 12624: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(14/20)
+[09/02/21 10:36:10] D2BS 12624: ÿc7Trying to make room for ÿc3Broad Axe
+[09/02/21 10:36:11] D2BS 12624: initNPC: heal
+[09/02/21 10:36:14] D2BS 12624: move retry 1
+[09/02/21 10:36:15] D2BS 12624: initNPC: identify
+[09/02/21 10:36:18] D2BS 12624: ÿc4MiniShopBotÿc0: Scanning 71 items.
+[09/02/21 10:36:19] D2BS 12624: LowGold sell Voulge
+[09/02/21 10:36:19] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:36:19] D2BS 12624: LowGold sell Superior Heavy Crossbow
+[09/02/21 10:36:19] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:36:21] D2BS 12624: LowGold sell Flawed Amethyst
+[09/02/21 10:36:21] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:36:23] D2BS 12624: initNPC: clearInventory
+[09/02/21 10:36:30] D2BS 12624: Successfully placed ÿc4Khalim's Flail at X: 2 Y: 1
+[09/02/21 10:37:34] D2BS 12624: move retry 1
+[09/02/21 10:37:35] D2BS 12624: 75
+[09/02/21 10:37:38] D2BS 12624: initNPC: heal
+[09/02/21 10:37:43] D2BS 12624: initNPC: fillTome
+[09/02/21 10:37:45] D2BS 12624: initNPC: BuyPotions
+[09/02/21 10:38:20] D2BS 12624: 83
+[09/02/21 10:39:09] D2BS 12624: move retry 1
+[09/02/21 10:41:48] D2BS 12624: ÿc1Skipping Soul Killer 1328 16
+[09/02/21 10:41:52] D2BS 12624: ÿc7Picked up ÿc4Ring ÿc0(ilvl 24) (LateGame.nip #50)
+[09/02/21 10:42:06] D2BS 12624: ÿc7Picked up ÿc0Scimitar ÿc0(ilvl 24)
+[09/02/21 10:42:07] D2BS 12624: move retry 1
+[09/02/21 10:42:32] D2BS 12624: move retry 1
+[09/02/21 10:42:35] D2BS 12624: ÿc7Picked up ÿc0Two-Handed Sword ÿc0(ilvl 23)
+[09/02/21 10:42:40] D2BS 12624: move retry 2
+[09/02/21 10:42:41] D2BS 12624: 83,100,101
+[09/02/21 10:43:02] D2BS 12624: Script default.dbj ended
+[09/02/21 10:43:02] D2BS 12624: Script tools\autobuildthread.js ended
+[09/02/21 10:43:02] D2BS 12624: Script tools\party.js ended
+[09/02/21 10:43:02] D2BS 12624: Script tools\toolsthread.js ended
+[09/02/21 10:43:02] D2BS 12624: Script tools\townchicken.js ended
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 1744
+[09/02/21 10:43:07] D2BS 12624: 771C2CFC (ntdll): (filename not available): NtDelayExecution
+[09/02/21 10:43:07] D2BS 12624: 7571492F (KERNELBASE): (filename not available): Sleep
+[09/02/21 10:43:07] D2BS 12624: 02FC3C94 (D2BS): (filename not available): QueryInterface
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 2232
+[09/02/21 10:43:07] D2BS 12624: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:43:07] D2BS 12624: 75701072 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/02/21 10:43:07] D2BS 12624: 004027E5 (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 2764
+[09/02/21 10:43:07] D2BS 12624: 771C2CFC (ntdll): (filename not available): NtDelayExecution
+[09/02/21 10:43:07] D2BS 12624: 7571492F (KERNELBASE): (filename not available): Sleep
+[09/02/21 10:43:07] D2BS 12624: 004102FC (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 6752
+[09/02/21 10:43:07] D2BS 12624: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:43:07] D2BS 12624: 75701072 (KERNELBASE): (filename not available): WaitForSingleObject
+[09/02/21 10:43:07] D2BS 12624: 0041A845 (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 10124
+[09/02/21 10:43:07] D2BS 12624: 771C46EC (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 4572
+[09/02/21 10:43:07] D2BS 12624: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:43:07] D2BS 12624: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:43:07] D2BS 12624: 03132B1F (D2BS): (filename not available): JS_freeop
+[09/02/21 10:43:07] D2BS 12624: 03131A5E (D2BS): (filename not available): JS_freeop
+[09/02/21 10:43:07] D2BS 12624: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 7468
+[09/02/21 10:43:07] D2BS 12624: 771C2CFC (ntdll): (filename not available): NtDelayExecution
+[09/02/21 10:43:07] D2BS 12624: 7571492F (KERNELBASE): (filename not available): Sleep
+[09/02/21 10:43:07] D2BS 12624: 02FCE2FD (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:43:07] D2BS 12624: 030501B1 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:43:07] D2BS 12624: 03132B1F (D2BS): (filename not available): JS_freeop
+[09/02/21 10:43:07] D2BS 12624: 03131A5E (D2BS): (filename not available): JS_freeop
+[09/02/21 10:43:07] D2BS 12624: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 3668
+[09/02/21 10:43:07] D2BS 12624: 771C29DC (ntdll): (filename not available): NtWaitForSingleObject
+[09/02/21 10:43:07] D2BS 12624: 03047236 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:43:07] D2BS 12624: 03132B1F (D2BS): (filename not available): JS_freeop
+[09/02/21 10:43:07] D2BS 12624: 03131A5E (D2BS): (filename not available): JS_freeop
+[09/02/21 10:43:07] D2BS 12624: 0305E4A2 (D2BS): (filename not available): JS::CompileOptions::setFileAndLine
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 1856
+[09/02/21 10:43:07] D2BS 12624: 771C46EC (ntdll): (filename not available): ZwWaitForWorkViaWorkerFactory
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Stack Walk Thread: 12680
+[09/02/21 10:43:07] D2BS 12624: 02FCB024 (D2BS): (filename not available): JSAutoStructuredCloneBuffer::JSAutoStructuredCloneBuffer
+[09/02/21 10:43:07] D2BS 12624: 02FC37F8 (D2BS): (filename not available): QueryInterface
+[09/02/21 10:43:07] D2BS 12624: 00408A05 (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 00408A81 (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 006123A3 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:43:07] D2BS 12624: 00612B45 (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:43:07] D2BS 12624: 0061930D (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:43:07] D2BS 12624: 0044B93C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/02/21 10:43:07] D2BS 12624: 0044B43C (Game): (filename not available): BNGatewayAccess::CurGateway
+[09/02/21 10:43:07] D2BS 12624: 00405E6B (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 004065C7 (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 0040671F (Game): (filename not available): (function-name not available)
+[09/02/21 10:43:07] D2BS 12624: 0068291C (Game): (filename not available): BNGatewayAccess::UpdateGatewaysFromIni
+[09/02/21 10:43:07] D2BS 12624: 75C8FA29 (KERNEL32): (filename not available): BaseThreadInitThunk
+[09/02/21 10:43:07] D2BS 12624: 771B7A7E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: 771B7A4E (ntdll): (filename not available): RtlGetAppContainerNamedObjectPath
+[09/02/21 10:43:07] D2BS 12624: Crash File: BlizzardError/2021-09-02 10.43.07/Crash.txt
+[09/02/21 10:43:07] D2BS 12624: D2BS Shutdown complete.
+[09/02/21 10:43:08] D2BS 4140: D2BS Engine startup complete. 1.6.4U
+[09/02/21 10:43:08] D2BS 4140: ÿc2D2BSÿc0 :: Switched to profile Auradin
+[09/02/21 10:43:08] D2BS 4140: ÿc2D2BSÿc0 :: Engine startup complete!
+[09/02/21 10:43:08] D2BS 4140: ÿc2D2BSÿc0 :: Starting D2BotLanFollow.dbj
+[09/02/21 10:43:08] D2BS 4140: ÿc2D2BSÿc0 :: D2BotLanFollow.dbj running.
+[09/02/21 10:43:08] D2BS 4140: Auradin
+[09/02/21 10:43:08] D2BS 4140: ÿc2D2BSÿc0 :: Started Console Script
+[09/02/21 10:43:10] D2BS 4140: Heartbeat loaded
+[09/02/21 10:43:27] D2BS 4140: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:43:27] D2BS 4140: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:43:27] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/02/21 10:43:27] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2111. ÿc4Time: ÿc215 ms
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:27] D2BS 4140: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:43:27] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/02/21 10:43:27] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:43:27] D2BS 4140: AutoBuild: Loaded helper thread
+[09/02/21 10:43:27] D2BS 4140: LowGold sell Scimitar
+[09/02/21 10:43:27] D2BS 4140: initNPC: clearInventory
+[09/02/21 10:43:27] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/02/21 10:43:27] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:43:27] D2BS 4140: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:43:27] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/02/21 10:43:27] D2BS 4140: ÿc3Start ToolsThread script
+[09/02/21 10:43:27] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:43:27] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/02/21 10:43:27] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:43:36] D2BS 4140: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:43:36] D2BS 4140: initNPC: identify
+[09/02/21 10:43:37] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 53 items.
+[09/02/21 10:43:38] D2BS 4140: initNPC: repair
+[09/02/21 10:44:21] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:44:46] D2BS 4140: 101
+[09/02/21 10:45:17] D2BS 4140: initNPC: heal
+[09/02/21 10:45:20] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:45:32] D2BS 4140: 75
+[09/02/21 10:45:34] D2BS 4140: initNPC: heal
+[09/02/21 10:45:40] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:45:52] D2BS 4140: 102
+[09/02/21 10:45:57] D2BS 4140: move retry 1
+[09/02/21 10:46:06] D2BS 4140: move retry 1
+[09/02/21 10:46:15] D2BS 4140: ÿc7Picked up ÿc4435 Gold
+[09/02/21 10:46:15] D2BS 4140: ÿc7Picked up ÿc4815 Gold
+[09/02/21 10:46:26] D2BS 4140: move retry 1
+[09/02/21 10:46:30] D2BS 4140: ÿc7Picked up ÿc3Falchion ÿc0(ilvl 28) (Auradin.xpac.nip #2)
+[09/02/21 10:46:31] D2BS 4140: ÿc7Picked up ÿc4710 Gold
+[09/02/21 10:46:39] D2BS 4140: ÿc7Picked up ÿc3Ring ÿc0(ilvl 27) (Auradin.xpac.nip #106)
+[09/02/21 10:46:48] D2BS 4140: move retry 1
+[09/02/21 10:46:57] D2BS 4140: move retry 1
+[09/02/21 10:47:34] D2BS 4140: 75
+[09/02/21 10:47:38] D2BS 4140: initNPC: heal
+[09/02/21 10:47:44] D2BS 4140: initNPC: identify
+[09/02/21 10:47:49] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[09/02/21 10:47:50] D2BS 4140: Coral Ring of Craftmanship
+[09/02/21 10:47:51] D2BS 4140: Garnet Mask 
+[09/02/21 10:47:52] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:48:01] D2BS 4140: move retry 1
+[09/02/21 10:48:09] D2BS 4140: 102
+[09/02/21 10:48:32] D2BS 4140: ÿc7Picked up ÿc3Scythe ÿc0(ilvl 28) (PreMercLance.xpac.nip #4)
+[09/02/21 10:48:32] D2BS 4140: ÿc7Picked up ÿc3Grand Scepter ÿc0(ilvl 28) (Auradin.xpac.nip #2)
+[09/02/21 10:48:32] D2BS 4140: ÿc7Picked up ÿc9Halberd ÿc0(ilvl 28) (PreMercLance.xpac.nip #4)
+[09/02/21 10:49:24] D2BS 4140: ÿc7Picked up ÿc9Giant Axe ÿc0(ilvl 26) (Auradin.xpac.nip #6)
+[09/02/21 10:49:24] D2BS 4140: ÿc7Picked up ÿc9Military Pick ÿc0(ilvl 26) (Auradin.xpac.nip #6)
+[09/02/21 10:49:24] D2BS 4140: ÿc7Trying to make room for ÿc9Crossbow
+[09/02/21 10:49:25] D2BS 4140: initNPC: heal
+[09/02/21 10:49:34] D2BS 4140: initNPC: identify
+[09/02/21 10:49:44] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 69 items.
+[09/02/21 10:49:45] D2BS 4140: initNPC: buyPotions
+[09/02/21 10:49:45] D2BS 4140: initNPC: clearInventory
+[09/02/21 10:50:22] D2BS 4140: move retry 1
+[09/02/21 10:51:08] D2BS 4140: move retry 1
+[09/02/21 10:53:37] D2BS 4140: move retry 1
+[09/02/21 10:53:40] D2BS 4140: move retry 2
+[09/02/21 10:53:41] D2BS 4140: 75
+[09/02/21 10:53:43] D2BS 4140: initNPC: heal
+[09/02/21 10:53:55] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:54:11] D2BS 4140: Script default.dbj ended
+[09/02/21 10:54:11] D2BS 4140: Script tools\autobuildthread.js ended
+[09/02/21 10:54:11] D2BS 4140: Script tools\party.js ended
+[09/02/21 10:54:11] D2BS 4140: Script tools\toolsthread.js ended
+[09/02/21 10:54:11] D2BS 4140: Script tools\townchicken.js ended
+[09/02/21 10:54:49] D2BS 4140: Error: login time out null
+[09/02/21 10:54:55] D2BS 4140: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:54:55] D2BS 4140: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:54:56] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/02/21 10:54:56] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc215 ms
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2111. ÿc4Time: ÿc216 ms
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:56] D2BS 4140: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:54:56] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/02/21 10:54:56] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:54:56] D2BS 4140: AutoBuild: Loaded helper thread
+[09/02/21 10:54:56] D2BS 4140: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:54:56] D2BS 4140: initNPC: heal
+[09/02/21 10:54:56] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/02/21 10:54:56] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:54:56] D2BS 4140: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:54:56] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/02/21 10:54:56] D2BS 4140: ÿc3Start ToolsThread script
+[09/02/21 10:54:56] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:54:56] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/02/21 10:54:56] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:55:09] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:55:20] D2BS 4140: 101
+[09/02/21 10:55:33] D2BS 4140: ÿc7Picked up ÿc4107 Gold
+[09/02/21 10:55:48] D2BS 4140: ÿc7Picked up ÿc467 Gold
+[09/02/21 10:55:49] D2BS 4140: 101,102
+[09/02/21 10:56:08] D2BS 4140: 75
+[09/02/21 10:56:10] D2BS 4140: initNPC: heal
+[09/02/21 10:56:21] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:56:39] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:57:09] D2BS 4140: 102
+[09/02/21 10:57:33] D2BS 4140: ÿc7Picked up ÿc4124 Gold
+[09/02/21 10:57:37] D2BS 4140: ÿc7Picked up ÿc3Pike ÿc0(ilvl 28) (PreMercLance.xpac.nip #4)
+[09/02/21 10:57:37] D2BS 4140: ÿc7Picked up ÿc3War Axe ÿc0(ilvl 28) (Auradin.xpac.nip #6)
+[09/02/21 10:57:40] D2BS 4140: 75
+[09/02/21 10:57:44] D2BS 4140: initNPC: heal
+[09/02/21 10:57:49] D2BS 4140: initNPC: identify
+[09/02/21 10:57:53] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 51 items.
+[09/02/21 10:57:59] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:58:14] D2BS 4140: initNPC: heal
+[09/02/21 10:58:15] D2BS 4140: move retry 1
+[09/02/21 10:58:21] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:58:30] D2BS 4140: move retry 1
+[09/02/21 10:58:33] D2BS 4140: move retry 1
+[09/02/21 10:58:35] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:58:39] D2BS 4140: move retry 1
+[09/02/21 10:58:46] D2BS 4140: Script default.dbj ended
+[09/02/21 10:58:46] D2BS 4140: Script tools\autobuildthread.js ended
+[09/02/21 10:58:46] D2BS 4140: Script tools\party.js ended
+[09/02/21 10:58:46] D2BS 4140: Script tools\toolsthread.js ended
+[09/02/21 10:58:46] D2BS 4140: Script tools\townchicken.js ended
+[09/02/21 10:58:53] D2BS 4140: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 10:58:53] D2BS 4140: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 10:58:53] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/02/21 10:58:53] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc216 ms
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2111. ÿc4Time: ÿc216 ms
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc215 ms
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:53] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/02/21 10:58:53] D2BS 4140: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 10:58:53] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:58:53] D2BS 4140: AutoBuild: Loaded helper thread
+[09/02/21 10:58:53] D2BS 4140: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 10:58:53] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:58:53] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/02/21 10:58:53] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:58:53] D2BS 4140: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 10:58:53] D2BS 4140: ÿc3Start ToolsThread script
+[09/02/21 10:58:53] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/02/21 10:58:53] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/02/21 10:58:53] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:58:53] D2BS 4140: Updating Config from level 0 to 25
+[09/02/21 10:59:24] D2BS 4140: initNPC: heal
+[09/02/21 10:59:29] D2BS 4140: move retry 1
+[09/02/21 10:59:30] D2BS 4140: initNPC: BuyPotions
+[09/02/21 10:59:39] D2BS 4140: move retry 1
+[09/02/21 10:59:40] D2BS 4140: 101
+[09/02/21 11:00:04] D2BS 4140: move retry 1
+[09/02/21 11:00:06] D2BS 4140: ÿc7Picked up ÿc480 Gold
+[09/02/21 11:00:07] D2BS 4140: ÿc7Picked up ÿc472 Gold
+[09/02/21 11:00:14] D2BS 4140: move retry 1
+[09/02/21 11:00:36] D2BS 4140: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/02/21 11:00:36] D2BS 4140: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 11:00:37] D2BS 4140: ÿc7Picked up ÿc437 Gold
+[09/02/21 11:00:37] D2BS 4140: ÿc7Picked up ÿc470 Gold
+[09/02/21 11:00:38] D2BS 4140: ÿc7Picked up ÿc4131 Gold
+[09/02/21 11:01:28] D2BS 4140: 75
+[09/02/21 11:01:31] D2BS 4140: initNPC: heal
+[09/02/21 11:01:36] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:01:45] D2BS 4140: 102
+[09/02/21 11:02:24] D2BS 4140: ÿc7Picked up ÿc3Long Sword ÿc0(ilvl 28) (Auradin.xpac.nip #2)
+[09/02/21 11:02:25] D2BS 4140: ÿc7Picked up ÿc3Short Spear ÿc0(ilvl 28) (PreMercLance.xpac.nip #4)
+[09/02/21 11:02:28] D2BS 4140: 75
+[09/02/21 11:02:30] D2BS 4140: initNPC: heal
+[09/02/21 11:02:35] D2BS 4140: initNPC: identify
+[09/02/21 11:02:39] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 60 items.
+[09/02/21 11:02:50] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:03:05] D2BS 4140: 102
+[09/02/21 11:03:17] D2BS 4140: ÿc7Picked up ÿc4405 Gold
+[09/02/21 11:04:37] D2BS 4140: move retry 1
+[09/02/21 11:04:39] D2BS 4140: move retry 1
+[09/02/21 11:04:41] D2BS 4140: move retry 1
+[09/02/21 11:04:47] D2BS 4140: 75
+[09/02/21 11:04:50] D2BS 4140: initNPC: heal
+[09/02/21 11:04:55] D2BS 4140: move retry 1
+[09/02/21 11:05:01] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:05:18] D2BS 4140: initNPC: heal
+[09/02/21 11:05:23] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:05:33] D2BS 4140: 102
+[09/02/21 11:06:37] D2BS 4140: initNPC: heal
+[09/02/21 11:06:47] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:07:01] D2BS 4140: 104
+[09/02/21 11:07:06] D2BS 4140: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/02/21 11:07:13] D2BS 4140: ÿc7Picked up ÿc4122 Gold
+[09/02/21 11:08:06] D2BS 4140: move retry 1
+[09/02/21 11:08:09] D2BS 4140: ÿc7Picked up ÿc482 Gold
+[09/02/21 11:08:26] D2BS 4140: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(18/20)
+[09/02/21 11:08:33] D2BS 4140: ÿc7Picked up ÿc496 Gold
+[09/02/21 11:08:34] D2BS 4140: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/02/21 11:08:34] D2BS 4140: ÿc7Picked up ÿc3Antlers ÿc0(ilvl 27)
+[09/02/21 11:08:34] D2BS 4140: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:08:34] D2BS 4140: ÿc7Picked up ÿc496 Gold
+[09/02/21 11:09:04] D2BS 4140: AutoBuild: Stat points: 10      Skill points: 3
+[09/02/21 11:09:04] D2BS 4140: AutoBuild: Level up detected ( 25 --> 26 )
+[09/02/21 11:09:04] D2BS 4140: AutoBuild: useSkillPoint(): Meditation (120)
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Skill (1/1) Increased Meditation (120) by one (level:  2)
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: useStatPoint(0): Strength
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Stat (1/5) Increased Strength from 49 to 50
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: useStatPoint(2): Dexterity
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Stat (2/5) Increased Dexterity from 44 to 45
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Stat (3/5) Increased Vitality from 97 to 98
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Stat (4/5) Increased Vitality from 98 to 99
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Stat (5/5) Increased Vitality from 99 to 100
+[09/02/21 11:09:05] D2BS 4140: Updating Config from level 25 to 26
+[09/02/21 11:09:05] D2BS 4140: Updating Config from level 25 to 26
+[09/02/21 11:09:05] D2BS 4140: Updating Config from level 25 to 26
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Updating Config from level 25 to 26
+[09/02/21 11:09:05] D2BS 4140: Updating Config from level 25 to 26
+[09/02/21 11:09:05] D2BS 4140: AutoBuild: Incrementing cached character level to 26
+[09/02/21 11:09:28] D2BS 4140: ÿc7Picked up ÿc0Voulge ÿc0(ilvl 30)
+[09/02/21 11:09:40] D2BS 4140: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/02/21 11:09:43] D2BS 4140: ÿc7Picked up ÿc460 Gold
+[09/02/21 11:09:46] D2BS 4140: ÿc7Picked up ÿc4151 Gold
+[09/02/21 11:10:08] D2BS 4140: ÿc7Picked up ÿc432 Gold
+[09/02/21 11:10:14] D2BS 4140: 103
+[09/02/21 11:10:17] D2BS 4140: initNPC: heal
+[09/02/21 11:10:22] D2BS 4140: initNPC: identify
+[09/02/21 11:10:23] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 55 items.
+[09/02/21 11:10:24] D2BS 4140: initNPC: buyPotions
+[09/02/21 11:10:25] D2BS 4140: LowGold sell Voulge
+[09/02/21 11:10:25] D2BS 4140: initNPC: clearInventory
+[09/02/21 11:10:31] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:11:20] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:11:35] D2BS 4140: 105
+[09/02/21 11:11:50] D2BS 4140: ÿc1Skipping Venom Lord 419 16
+[09/02/21 11:12:04] D2BS 4140: ÿc1Skipping Venom Lord 420 16
+[09/02/21 11:12:08] D2BS 4140: ÿc7Picked up ÿc452 Gold
+[09/02/21 11:12:54] D2BS 4140: ÿc7Picked up ÿc433 Gold
+[09/02/21 11:12:56] D2BS 4140: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(19/20)
+[09/02/21 11:13:32] D2BS 4140: ÿc7Picked up ÿc0Scroll of Town Portal ÿc7(20/20)
+[09/02/21 11:13:32] D2BS 4140: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:13:32] D2BS 4140: ÿc7Picked up ÿc479 Gold
+[09/02/21 11:16:03] D2BS 4140: ÿc7Picked up ÿc3Grand Charm ÿc0(ilvl 26) (LateGame.nip #9)
+[09/02/21 11:17:02] D2BS 4140: ÿc7Picked up ÿc465 Gold
+[09/02/21 11:17:37] D2BS 4140: ÿc7Picked up ÿc4161 Gold
+[09/02/21 11:20:05] D2BS 4140: move retry 1
+[09/02/21 11:20:57] D2BS 4140: move retry 1
+[09/02/21 11:21:00] D2BS 4140: move retry 1
+[09/02/21 11:21:11] D2BS 4140: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:21:21] D2BS 4140: ÿc7Picked up ÿc4124 Gold
+[09/02/21 11:21:25] D2BS 4140: ÿc7Picked up ÿc0Flail ÿc0(ilvl 30)
+[09/02/21 11:21:41] D2BS 4140: 106,107
+[09/02/21 11:21:45] D2BS 4140: move retry 1
+[09/02/21 11:21:48] D2BS 4140: move retry 2
+[09/02/21 11:22:05] D2BS 4140: ÿc1Skipping Abyss Knight 613 16
+[09/02/21 11:22:09] D2BS 4140: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 11:22:13] D2BS 4140: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:22:13] D2BS 4140: ÿc7Picked up ÿc1Light Healing Potion ÿc0(ilvl 1) (EarlyGame.nip #31)
+[09/02/21 11:22:22] D2BS 4140: move retry 1
+[09/02/21 11:22:26] D2BS 4140: move retry 1
+[09/02/21 11:22:31] D2BS 4140: move retry 1
+[09/02/21 11:22:33] D2BS 4140: move retry 3
+[09/02/21 11:23:00] D2BS 4140: ÿc1Skipping Grotesque 626 16
+[09/02/21 11:23:07] D2BS 4140: ÿc7Picked up ÿc466 Gold
+[09/02/21 11:23:07] D2BS 4140: ÿc7Picked up ÿc4111 Gold
+[09/02/21 11:23:16] D2BS 4140: Script default.dbj ended
+[09/02/21 11:23:16] D2BS 4140: Script tools\autobuildthread.js ended
+[09/02/21 11:23:16] D2BS 4140: Script tools\party.js ended
+[09/02/21 11:23:16] D2BS 4140: Script tools\toolsthread.js ended
+[09/02/21 11:23:16] D2BS 4140: Script tools\townchicken.js ended
+[09/02/21 11:23:23] D2BS 4140: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:23:23] D2BS 4140: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:23:23] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/02/21 11:23:23] D2BS 4140: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc216 ms
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2111. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:23:23] D2BS 4140: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc215 ms
+[09/02/21 11:23:23] D2BS 4140: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 4140: AutoBuild: Loaded helper thread
+[09/02/21 11:23:23] D2BS 4140: LowGold sell Flail
+[09/02/21 11:23:23] D2BS 4140: initNPC: clearInventory
+[09/02/21 11:23:23] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/02/21 11:23:23] D2BS 4140: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 4140: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:23:23] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/02/21 11:23:23] D2BS 4140: ÿc3Start ToolsThread script
+[09/02/21 11:23:23] D2BS 4140: Updating Config from level 0 to 26
+[09/02/21 11:23:23] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/02/21 11:23:23] D2BS 4140: Updating Config from level 0 to 26
+[09/02/21 11:23:29] D2BS 4140: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:23:29] D2BS 4140: initNPC: identify
+[09/02/21 11:23:33] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 64 items.
+[09/02/21 11:23:41] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:24:03] D2BS 4140: initNPC: heal
+[09/02/21 11:24:05] D2BS 4140: move retry 1
+[09/02/21 11:24:10] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:24:14] D2BS 4140: move retry 1
+[09/02/21 11:24:22] D2BS 4140: 104
+[09/02/21 11:24:30] D2BS 4140: ÿc7Picked up ÿc4108 Gold
+[09/02/21 11:24:31] D2BS 4140: ÿc7Picked up ÿc3Ring ÿc0(ilvl 30) (Auradin.xpac.nip #106)
+[09/02/21 11:24:31] D2BS 4140: ÿc7Picked up ÿc0Balanced Axe ÿc0(ilvl 26)
+[09/02/21 11:24:52] D2BS 4140: 104,105
+[09/02/21 11:24:59] D2BS 4140: move retry 1
+[09/02/21 11:25:02] D2BS 4140: move retry 1
+[09/02/21 11:25:06] D2BS 4140: move retry 1
+[09/02/21 11:25:09] D2BS 4140: ÿc7Picked up ÿc4119 Gold
+[09/02/21 11:25:09] D2BS 4140: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 11:25:25] D2BS 4140: ÿc7Picked up ÿc3Kris ÿc0(ilvl 29)
+[09/02/21 11:25:25] D2BS 4140: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:25:26] D2BS 4140: ÿc7Picked up ÿc455 Gold
+[09/02/21 11:25:49] D2BS 4140: ÿc7Picked up ÿc4137 Gold
+[09/02/21 11:26:04] D2BS 4140: move retry 1
+[09/02/21 11:26:10] D2BS 4140: move retry 1
+[09/02/21 11:26:14] D2BS 4140: move retry 1
+[09/02/21 11:26:20] D2BS 4140: move retry 1
+[09/02/21 11:26:31] D2BS 4140: move retry 1
+[09/02/21 11:26:43] D2BS 4140: move retry 1
+[09/02/21 11:26:49] D2BS 4140: ÿc7Picked up ÿc1Super Healing Potion ÿc0(ilvl 1) (LateGame.nip #33)
+[09/02/21 11:27:12] D2BS 4140: ÿc7Picked up ÿc3Zombie Head ÿc0(ilvl 29)
+[09/02/21 11:27:12] D2BS 4140: ÿc7Picked up ÿc0Flawed Topaz ÿc0(ilvl 1)
+[09/02/21 11:27:15] D2BS 4140: ÿc7Picked up ÿc4138 Gold
+[09/02/21 11:27:16] D2BS 4140: ÿc7Picked up ÿc0Kris ÿc0(ilvl 24)
+[09/02/21 11:27:27] D2BS 4140: 103
+[09/02/21 11:27:28] D2BS 4140: initNPC: heal
+[09/02/21 11:27:39] D2BS 4140: initNPC: identify
+[09/02/21 11:27:46] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 58 items.
+[09/02/21 11:27:47] D2BS 4140: LowGold sell Kris
+[09/02/21 11:27:47] D2BS 4140: initNPC: clearInventory
+[09/02/21 11:27:47] D2BS 4140: LowGold sell Balanced Axe
+[09/02/21 11:27:47] D2BS 4140: initNPC: clearInventory
+[09/02/21 11:27:49] D2BS 4140: LowGold sell Flawed Topaz
+[09/02/21 11:27:49] D2BS 4140: initNPC: clearInventory
+[09/02/21 11:27:58] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:28:32] D2BS 4140: initNPC: heal
+[09/02/21 11:28:43] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:28:52] D2BS 4140: 105
+[09/02/21 11:29:45] D2BS 4140: move retry 1
+[09/02/21 11:30:07] D2BS 4140: ÿc7Picked up ÿc451 Gold
+[09/02/21 11:30:37] D2BS 4140: ÿc7Picked up ÿc1Healing Potion ÿc0(ilvl 1) (MidGame.nip #26)
+[09/02/21 11:30:43] D2BS 4140: ÿc7Picked up ÿc429 Gold
+[09/02/21 11:30:48] D2BS 4140: ÿc7Picked up ÿc4108 Gold
+[09/02/21 11:30:51] D2BS 4140: move retry 1
+[09/02/21 11:31:11] D2BS 4140: move retry 1
+[09/02/21 11:31:12] D2BS 4140: move retry 1
+[09/02/21 11:31:20] D2BS 4140: move retry 1
+[09/02/21 11:31:33] D2BS 4140: move retry 1
+[09/02/21 11:31:45] D2BS 4140: ÿc1Skipping Venom Lord 212 16
+[09/02/21 11:31:47] D2BS 4140: move retry 1
+[09/02/21 11:31:48] D2BS 4140: move retry 1
+[09/02/21 11:31:49] D2BS 4140: ÿc7Picked up ÿc433 Gold
+[09/02/21 11:32:01] D2BS 4140: ÿc1Skipping Venom Lord 235 16
+[09/02/21 11:32:12] D2BS 4140: move retry 1
+[09/02/21 11:32:14] D2BS 4140: move retry 1
+[09/02/21 11:32:35] D2BS 4140: ÿc7Picked up ÿc464 Gold
+[09/02/21 11:33:11] D2BS 4140: move retry 1
+[09/02/21 11:33:27] D2BS 4140: ÿc7Picked up ÿc438 Gold
+[09/02/21 11:33:28] D2BS 4140: move retry 1
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: Stat points: 10      Skill points: 3
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: Level up detected ( 26 --> 27 )
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: useSkillPoint(): Meditation (120)
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: Skill (1/1) Increased Meditation (120) by one (level:  3)
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: useStatPoint(0): Strength
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: Stat (1/5) Increased Strength from 50 to 51
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: useStatPoint(2): Dexterity
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: Stat (2/5) Increased Dexterity from 45 to 46
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: Stat (3/5) Increased Vitality from 100 to 101
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: Stat (4/5) Increased Vitality from 101 to 102
+[09/02/21 11:33:34] D2BS 4140: AutoBuild: useStatPoint(3): Vitality
+[09/02/21 11:33:35] D2BS 4140: AutoBuild: Stat (5/5) Increased Vitality from 102 to 103
+[09/02/21 11:33:35] D2BS 4140: Updating Config from level 26 to 27
+[09/02/21 11:33:35] D2BS 4140: Updating Config from level 26 to 27
+[09/02/21 11:33:35] D2BS 4140: AutoBuild: Updating Config from level 26 to 27
+[09/02/21 11:33:35] D2BS 4140: Updating Config from level 26 to 27
+[09/02/21 11:33:35] D2BS 4140: Updating Config from level 26 to 27
+[09/02/21 11:33:35] D2BS 4140: AutoBuild: Incrementing cached character level to 27
+[09/02/21 11:33:50] D2BS 4140: move retry 1
+[09/02/21 11:33:54] D2BS 4140: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:33:58] D2BS 4140: move retry 1
+[09/02/21 11:34:11] D2BS 4140: move retry 1
+[09/02/21 11:34:22] D2BS 4140: move retry 1
+[09/02/21 11:34:58] D2BS 4140: move retry 1
+[09/02/21 11:35:07] D2BS 4140: move retry 1
+[09/02/21 11:35:09] D2BS 4140: ÿc7Picked up ÿc0Heavy Crossbow ÿc0(ilvl 30)
+[09/02/21 11:35:13] D2BS 4140: ÿc7Picked up ÿc1Greater Healing Potion ÿc0(ilvl 1) (MidGame.nip #28)
+[09/02/21 11:35:14] D2BS 4140: ÿc7Picked up ÿc471 Gold
+[09/02/21 11:35:29] D2BS 4140: move retry 1
+[09/02/21 11:37:16] D2BS 4140: move retry 1
+[09/02/21 11:37:19] D2BS 4140: move retry 1
+[09/02/21 11:37:21] D2BS 4140: move retry 1
+[09/02/21 11:37:23] D2BS 4140: move retry 1
+[09/02/21 11:37:27] D2BS 4140: move retry 1
+[09/02/21 11:37:28] D2BS 4140: move retry 1
+[09/02/21 11:37:40] D2BS 4140: 103
+[09/02/21 11:37:44] D2BS 4140: initNPC: heal
+[09/02/21 11:37:51] D2BS 4140: initNPC: identify
+[09/02/21 11:37:52] D2BS 4140: ÿc4MiniShopBotÿc0: Scanning 57 items.
+[09/02/21 11:37:53] D2BS 4140: initNPC: buyPotions
+[09/02/21 11:37:54] D2BS 4140: LowGold sell Heavy Crossbow
+[09/02/21 11:37:54] D2BS 4140: initNPC: clearInventory
+[09/02/21 11:37:54] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:37:57] D2BS 4140: move retry 1
+[09/02/21 11:37:58] D2BS 4140: move retry 2
+[09/02/21 11:38:07] D2BS 4140: 107
+[09/02/21 11:38:17] D2BS 4140: move retry 1
+[09/02/21 11:38:39] D2BS 4140: ÿc1Skipping Maw Fiend 307 16
+[09/02/21 11:38:48] D2BS 4140: ÿc1Skipping Maw Fiend 299 16
+[09/02/21 11:38:57] D2BS 4140: ÿc1Skipping Blood Maggot Young 335 16
+[09/02/21 11:39:03] D2BS 4140: ÿc1Skipping Pit Lord 314 16
+[09/02/21 11:39:07] D2BS 4140: ÿc1Pausing.
+[09/02/21 11:39:09] D2BS 4140: move retry 1
+[09/02/21 11:39:14] D2BS 4140: move retry 1
+[09/02/21 11:39:18] D2BS 4140: move retry 1
+[09/02/21 11:39:21] D2BS 4140: move retry 1
+[09/02/21 11:39:22] D2BS 4140: Script default.dbj ended
+[09/02/21 11:39:22] D2BS 4140: Script tools\autobuildthread.js ended
+[09/02/21 11:39:22] D2BS 4140: Script tools\party.js ended
+[09/02/21 11:39:22] D2BS 4140: Script tools\townchicken.js ended
+[09/02/21 11:39:29] D2BS 4140: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:39:29] D2BS 4140: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:39:29] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/02/21 11:39:29] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2111. ÿc4Time: ÿc20 ms
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:39:29] D2BS 4140: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:39:29] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/02/21 11:39:29] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:39:29] D2BS 4140: AutoBuild: Loaded helper thread
+[09/02/21 11:39:30] D2BS 4140: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:39:30] D2BS 4140: 0 - 1
+[09/02/21 11:39:30] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/02/21 11:39:30] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:39:30] D2BS 4140: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:39:30] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/02/21 11:39:30] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:39:30] D2BS 4140: ÿc3Start ToolsThread script
+[09/02/21 11:39:30] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/02/21 11:39:30] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:39:31] D2BS 4140: 1 - 0
+[09/02/21 11:39:32] D2BS 4140: 2 - 0
+[09/02/21 11:39:33] D2BS 4140: 3 - 0
+[09/02/21 11:39:34] D2BS 4140: 4 - 0
+[09/02/21 11:39:35] D2BS 4140: 5 - 0
+[09/02/21 11:39:36] D2BS 4140: 6 - 0
+[09/02/21 11:39:37] D2BS 4140: 7 - 0
+[09/02/21 11:39:38] D2BS 4140: 8 - 0
+[09/02/21 11:39:39] D2BS 4140: 9 - 0
+[09/02/21 11:39:40] D2BS 4140: 10 - 0
+[09/02/21 11:39:41] D2BS 4140: 11 - 0
+[09/02/21 11:39:42] D2BS 4140: 12 - 0
+[09/02/21 11:39:43] D2BS 4140: 0 - 1
+[09/02/21 11:39:44] D2BS 4140: 1 - 0
+[09/02/21 11:39:45] D2BS 4140: 2 - 0
+[09/02/21 11:39:46] D2BS 4140: 3 - 0
+[09/02/21 11:39:47] D2BS 4140: 4 - 0
+[09/02/21 11:39:48] D2BS 4140: 5 - 0
+[09/02/21 11:39:49] D2BS 4140: 6 - 0
+[09/02/21 11:39:50] D2BS 4140: 7 - 0
+[09/02/21 11:39:51] D2BS 4140: 8 - 0
+[09/02/21 11:39:52] D2BS 4140: 9 - 0
+[09/02/21 11:39:53] D2BS 4140: 10 - 0
+[09/02/21 11:39:54] D2BS 4140: 11 - 0
+[09/02/21 11:39:55] D2BS 4140: 12 - 0
+[09/02/21 11:39:56] D2BS 4140: 0 - 1
+[09/02/21 11:39:57] D2BS 4140: 1 - 0
+[09/02/21 11:39:58] D2BS 4140: 2 - 0
+[09/02/21 11:39:59] D2BS 4140: 3 - 0
+[09/02/21 11:40:00] D2BS 4140: 4 - 0
+[09/02/21 11:40:01] D2BS 4140: 5 - 0
+[09/02/21 11:40:02] D2BS 4140: 6 - 0
+[09/02/21 11:40:03] D2BS 4140: 7 - 0
+[09/02/21 11:40:04] D2BS 4140: 8 - 0
+[09/02/21 11:40:05] D2BS 4140: 9 - 0
+[09/02/21 11:40:06] D2BS 4140: 10 - 0
+[09/02/21 11:40:07] D2BS 4140: 11 - 0
+[09/02/21 11:40:08] D2BS 4140: 12 - 0
+[09/02/21 11:40:09] D2BS 4140: 0 - 1
+[09/02/21 11:40:10] D2BS 4140: 1 - 0
+[09/02/21 11:40:11] D2BS 4140: 2 - 0
+[09/02/21 11:40:12] D2BS 4140: 3 - 0
+[09/02/21 11:40:13] D2BS 4140: 4 - 0
+[09/02/21 11:40:14] D2BS 4140: 5 - 0
+[09/02/21 11:40:15] D2BS 4140: 6 - 0
+[09/02/21 11:40:16] D2BS 4140: 7 - 0
+[09/02/21 11:40:17] D2BS 4140: 8 - 0
+[09/02/21 11:40:18] D2BS 4140: 9 - 0
+[09/02/21 11:40:19] D2BS 4140: 10 - 0
+[09/02/21 11:40:20] D2BS 4140: 11 - 0
+[09/02/21 11:40:21] D2BS 4140: 12 - 0
+[09/02/21 11:40:22] D2BS 4140: 0 - 1
+[09/02/21 11:40:23] D2BS 4140: 1 - 0
+[09/02/21 11:40:24] D2BS 4140: 2 - 0
+[09/02/21 11:40:25] D2BS 4140: 3 - 0
+[09/02/21 11:40:26] D2BS 4140: 4 - 0
+[09/02/21 11:40:27] D2BS 4140: 5 - 0
+[09/02/21 11:40:28] D2BS 4140: 6 - 0
+[09/02/21 11:40:29] D2BS 4140: 7 - 0
+[09/02/21 11:40:30] D2BS 4140: 8 - 0
+[09/02/21 11:40:31] D2BS 4140: 9 - 0
+[09/02/21 11:40:32] D2BS 4140: 10 - 0
+[09/02/21 11:40:33] D2BS 4140: 11 - 0
+[09/02/21 11:40:34] D2BS 4140: 12 - 0
+[09/02/21 11:40:35] D2BS 4140: 0 - 1
+[09/02/21 11:40:36] D2BS 4140: 1 - 0
+[09/02/21 11:40:37] D2BS 4140: 2 - 0
+[09/02/21 11:40:38] D2BS 4140: 3 - 0
+[09/02/21 11:40:39] D2BS 4140: 4 - 0
+[09/02/21 11:40:40] D2BS 4140: 5 - 0
+[09/02/21 11:40:41] D2BS 4140: 6 - 0
+[09/02/21 11:40:42] D2BS 4140: 7 - 0
+[09/02/21 11:40:43] D2BS 4140: 8 - 0
+[09/02/21 11:40:44] D2BS 4140: 9 - 0
+[09/02/21 11:40:45] D2BS 4140: 10 - 0
+[09/02/21 11:40:46] D2BS 4140: 11 - 0
+[09/02/21 11:40:47] D2BS 4140: 12 - 0
+[09/02/21 11:40:48] D2BS 4140: 0 - 1
+[09/02/21 11:40:49] D2BS 4140: 1 - 0
+[09/02/21 11:40:50] D2BS 4140: 2 - 0
+[09/02/21 11:40:51] D2BS 4140: 3 - 0
+[09/02/21 11:40:52] D2BS 4140: 4 - 0
+[09/02/21 11:40:53] D2BS 4140: 5 - 0
+[09/02/21 11:40:54] D2BS 4140: 6 - 0
+[09/02/21 11:40:55] D2BS 4140: 7 - 0
+[09/02/21 11:40:56] D2BS 4140: 8 - 0
+[09/02/21 11:40:57] D2BS 4140: 9 - 0
+[09/02/21 11:40:58] D2BS 4140: 10 - 0
+[09/02/21 11:40:59] D2BS 4140: 11 - 0
+[09/02/21 11:41:00] D2BS 4140: 12 - 0
+[09/02/21 11:41:01] D2BS 4140: 0 - 1
+[09/02/21 11:41:02] D2BS 4140: 1 - 0
+[09/02/21 11:41:03] D2BS 4140: 2 - 0
+[09/02/21 11:41:04] D2BS 4140: 3 - 0
+[09/02/21 11:41:05] D2BS 4140: 4 - 0
+[09/02/21 11:41:06] D2BS 4140: 5 - 0
+[09/02/21 11:41:07] D2BS 4140: 6 - 0
+[09/02/21 11:41:08] D2BS 4140: 7 - 0
+[09/02/21 11:41:09] D2BS 4140: 8 - 0
+[09/02/21 11:41:10] D2BS 4140: 9 - 0
+[09/02/21 11:41:11] D2BS 4140: 10 - 0
+[09/02/21 11:41:12] D2BS 4140: 11 - 0
+[09/02/21 11:41:13] D2BS 4140: 12 - 0
+[09/02/21 11:41:14] D2BS 4140: 0 - 1
+[09/02/21 11:41:15] D2BS 4140: 1 - 0
+[09/02/21 11:41:16] D2BS 4140: 2 - 0
+[09/02/21 11:41:17] D2BS 4140: 3 - 0
+[09/02/21 11:41:18] D2BS 4140: 4 - 0
+[09/02/21 11:41:19] D2BS 4140: 5 - 0
+[09/02/21 11:41:20] D2BS 4140: 6 - 0
+[09/02/21 11:41:21] D2BS 4140: 7 - 0
+[09/02/21 11:41:22] D2BS 4140: 8 - 0
+[09/02/21 11:41:23] D2BS 4140: 9 - 0
+[09/02/21 11:41:24] D2BS 4140: 10 - 0
+[09/02/21 11:41:25] D2BS 4140: 11 - 0
+[09/02/21 11:41:26] D2BS 4140: 12 - 0
+[09/02/21 11:41:27] D2BS 4140: 0 - 1
+[09/02/21 11:41:28] D2BS 4140: 1 - 0
+[09/02/21 11:41:29] D2BS 4140: 2 - 0
+[09/02/21 11:41:30] D2BS 4140: 3 - 0
+[09/02/21 11:41:31] D2BS 4140: 4 - 0
+[09/02/21 11:41:32] D2BS 4140: 5 - 0
+[09/02/21 11:41:33] D2BS 4140: 6 - 0
+[09/02/21 11:41:34] D2BS 4140: 7 - 0
+[09/02/21 11:41:35] D2BS 4140: 8 - 0
+[09/02/21 11:41:36] D2BS 4140: 9 - 0
+[09/02/21 11:41:37] D2BS 4140: 10 - 0
+[09/02/21 11:41:38] D2BS 4140: 11 - 0
+[09/02/21 11:41:39] D2BS 4140: 12 - 0
+[09/02/21 11:41:40] D2BS 4140: 0 - 1
+[09/02/21 11:41:41] D2BS 4140: 1 - 0
+[09/02/21 11:41:42] D2BS 4140: 2 - 0
+[09/02/21 11:41:43] D2BS 4140: 3 - 0
+[09/02/21 11:41:44] D2BS 4140: 4 - 0
+[09/02/21 11:41:45] D2BS 4140: 5 - 0
+[09/02/21 11:41:46] D2BS 4140: 6 - 0
+[09/02/21 11:41:47] D2BS 4140: 7 - 0
+[09/02/21 11:41:48] D2BS 4140: 8 - 0
+[09/02/21 11:41:49] D2BS 4140: 9 - 0
+[09/02/21 11:41:50] D2BS 4140: 10 - 0
+[09/02/21 11:41:52] D2BS 4140: 11 - 0
+[09/02/21 11:41:53] D2BS 4140: 12 - 0
+[09/02/21 11:41:54] D2BS 4140: 0 - 1
+[09/02/21 11:41:55] D2BS 4140: 1 - 0
+[09/02/21 11:41:56] D2BS 4140: 2 - 0
+[09/02/21 11:41:57] D2BS 4140: 3 - 0
+[09/02/21 11:41:58] D2BS 4140: 4 - 0
+[09/02/21 11:41:59] D2BS 4140: 5 - 0
+[09/02/21 11:42:00] D2BS 4140: 6 - 0
+[09/02/21 11:42:01] D2BS 4140: 7 - 0
+[09/02/21 11:42:02] D2BS 4140: 8 - 0
+[09/02/21 11:42:03] D2BS 4140: 9 - 0
+[09/02/21 11:42:04] D2BS 4140: 10 - 0
+[09/02/21 11:42:05] D2BS 4140: 11 - 0
+[09/02/21 11:42:06] D2BS 4140: 12 - 0
+[09/02/21 11:42:07] D2BS 4140: 0 - 1
+[09/02/21 11:42:08] D2BS 4140: 1 - 0
+[09/02/21 11:42:09] D2BS 4140: 2 - 0
+[09/02/21 11:42:10] D2BS 4140: 3 - 0
+[09/02/21 11:42:11] D2BS 4140: 4 - 0
+[09/02/21 11:42:12] D2BS 4140: 5 - 0
+[09/02/21 11:42:13] D2BS 4140: 6 - 0
+[09/02/21 11:42:14] D2BS 4140: 7 - 0
+[09/02/21 11:42:15] D2BS 4140: 8 - 0
+[09/02/21 11:42:16] D2BS 4140: 9 - 0
+[09/02/21 11:42:17] D2BS 4140: 10 - 0
+[09/02/21 11:42:18] D2BS 4140: 11 - 0
+[09/02/21 11:42:19] D2BS 4140: 12 - 0
+[09/02/21 11:42:20] D2BS 4140: 0 - 1
+[09/02/21 11:42:21] D2BS 4140: 1 - 0
+[09/02/21 11:42:22] D2BS 4140: 2 - 0
+[09/02/21 11:42:23] D2BS 4140: 3 - 0
+[09/02/21 11:42:24] D2BS 4140: 4 - 0
+[09/02/21 11:42:25] D2BS 4140: 5 - 0
+[09/02/21 11:42:26] D2BS 4140: 6 - 0
+[09/02/21 11:42:27] D2BS 4140: 7 - 0
+[09/02/21 11:42:28] D2BS 4140: 8 - 0
+[09/02/21 11:42:29] D2BS 4140: 9 - 0
+[09/02/21 11:42:30] D2BS 4140: 10 - 0
+[09/02/21 11:42:31] D2BS 4140: 11 - 0
+[09/02/21 11:42:32] D2BS 4140: 12 - 0
+[09/02/21 11:42:33] D2BS 4140: 0 - 1
+[09/02/21 11:42:34] D2BS 4140: 1 - 0
+[09/02/21 11:42:35] D2BS 4140: 2 - 0
+[09/02/21 11:42:36] D2BS 4140: 3 - 0
+[09/02/21 11:42:37] D2BS 4140: 4 - 0
+[09/02/21 11:42:38] D2BS 4140: 5 - 0
+[09/02/21 11:42:39] D2BS 4140: 6 - 0
+[09/02/21 11:42:40] D2BS 4140: 7 - 0
+[09/02/21 11:42:41] D2BS 4140: 8 - 0
+[09/02/21 11:42:42] D2BS 4140: 9 - 0
+[09/02/21 11:42:43] D2BS 4140: 10 - 0
+[09/02/21 11:42:44] D2BS 4140: 11 - 0
+[09/02/21 11:42:45] D2BS 4140: 12 - 0
+[09/02/21 11:42:46] D2BS 4140: 0 - 1
+[09/02/21 11:42:47] D2BS 4140: 1 - 0
+[09/02/21 11:42:48] D2BS 4140: 2 - 0
+[09/02/21 11:42:49] D2BS 4140: 3 - 0
+[09/02/21 11:42:50] D2BS 4140: 4 - 0
+[09/02/21 11:42:51] D2BS 4140: 5 - 0
+[09/02/21 11:42:52] D2BS 4140: 6 - 0
+[09/02/21 11:42:53] D2BS 4140: 7 - 0
+[09/02/21 11:42:54] D2BS 4140: 8 - 0
+[09/02/21 11:42:55] D2BS 4140: 9 - 0
+[09/02/21 11:42:56] D2BS 4140: 10 - 0
+[09/02/21 11:42:57] D2BS 4140: 11 - 0
+[09/02/21 11:42:58] D2BS 4140: 12 - 0
+[09/02/21 11:42:59] D2BS 4140: 0 - 1
+[09/02/21 11:43:00] D2BS 4140: 1 - 0
+[09/02/21 11:43:01] D2BS 4140: 2 - 0
+[09/02/21 11:43:02] D2BS 4140: 3 - 0
+[09/02/21 11:43:03] D2BS 4140: 4 - 0
+[09/02/21 11:43:04] D2BS 4140: 5 - 0
+[09/02/21 11:43:05] D2BS 4140: 6 - 0
+[09/02/21 11:43:06] D2BS 4140: 7 - 0
+[09/02/21 11:43:07] D2BS 4140: 8 - 0
+[09/02/21 11:43:08] D2BS 4140: 9 - 0
+[09/02/21 11:43:09] D2BS 4140: 10 - 0
+[09/02/21 11:43:10] D2BS 4140: 11 - 0
+[09/02/21 11:43:11] D2BS 4140: 12 - 0
+[09/02/21 11:43:12] D2BS 4140: 0 - 1
+[09/02/21 11:43:13] D2BS 4140: 1 - 0
+[09/02/21 11:43:14] D2BS 4140: 2 - 0
+[09/02/21 11:43:15] D2BS 4140: 3 - 0
+[09/02/21 11:43:16] D2BS 4140: 4 - 0
+[09/02/21 11:43:17] D2BS 4140: 5 - 0
+[09/02/21 11:43:18] D2BS 4140: 6 - 0
+[09/02/21 11:43:19] D2BS 4140: 7 - 0
+[09/02/21 11:43:20] D2BS 4140: 8 - 0
+[09/02/21 11:43:21] D2BS 4140: 9 - 0
+[09/02/21 11:43:22] D2BS 4140: 10 - 0
+[09/02/21 11:43:23] D2BS 4140: 11 - 0
+[09/02/21 11:43:24] D2BS 4140: 12 - 0
+[09/02/21 11:43:25] D2BS 4140: 0 - 1
+[09/02/21 11:43:26] D2BS 4140: 1 - 0
+[09/02/21 11:43:27] D2BS 4140: 2 - 0
+[09/02/21 11:43:28] D2BS 4140: 3 - 0
+[09/02/21 11:43:29] D2BS 4140: 4 - 0
+[09/02/21 11:43:30] D2BS 4140: 5 - 0
+[09/02/21 11:43:31] D2BS 4140: 6 - 0
+[09/02/21 11:43:32] D2BS 4140: 7 - 0
+[09/02/21 11:43:33] D2BS 4140: 8 - 0
+[09/02/21 11:43:34] D2BS 4140: 9 - 0
+[09/02/21 11:43:35] D2BS 4140: 10 - 0
+[09/02/21 11:43:36] D2BS 4140: 11 - 0
+[09/02/21 11:43:37] D2BS 4140: 12 - 0
+[09/02/21 11:43:38] D2BS 4140: 0 - 1
+[09/02/21 11:43:39] D2BS 4140: 1 - 0
+[09/02/21 11:43:40] D2BS 4140: 2 - 0
+[09/02/21 11:43:41] D2BS 4140: 3 - 0
+[09/02/21 11:43:42] D2BS 4140: 4 - 0
+[09/02/21 11:43:43] D2BS 4140: 5 - 0
+[09/02/21 11:43:44] D2BS 4140: 6 - 0
+[09/02/21 11:43:45] D2BS 4140: 7 - 0
+[09/02/21 11:43:46] D2BS 4140: 8 - 0
+[09/02/21 11:43:47] D2BS 4140: 9 - 0
+[09/02/21 11:43:48] D2BS 4140: 10 - 0
+[09/02/21 11:43:49] D2BS 4140: 11 - 0
+[09/02/21 11:43:50] D2BS 4140: 12 - 0
+[09/02/21 11:43:51] D2BS 4140: 0 - 1
+[09/02/21 11:43:52] D2BS 4140: 1 - 0
+[09/02/21 11:43:53] D2BS 4140: 2 - 0
+[09/02/21 11:43:54] D2BS 4140: 3 - 0
+[09/02/21 11:43:55] D2BS 4140: 4 - 0
+[09/02/21 11:43:56] D2BS 4140: 5 - 0
+[09/02/21 11:43:57] D2BS 4140: 6 - 0
+[09/02/21 11:43:58] D2BS 4140: 7 - 0
+[09/02/21 11:43:59] D2BS 4140: 8 - 0
+[09/02/21 11:44:00] D2BS 4140: 9 - 0
+[09/02/21 11:44:02] D2BS 4140: 10 - 0
+[09/02/21 11:44:03] D2BS 4140: 11 - 0
+[09/02/21 11:44:04] D2BS 4140: 12 - 0
+[09/02/21 11:44:05] D2BS 4140: 0 - 1
+[09/02/21 11:44:06] D2BS 4140: 1 - 0
+[09/02/21 11:44:07] D2BS 4140: 2 - 0
+[09/02/21 11:44:08] D2BS 4140: 3 - 0
+[09/02/21 11:44:09] D2BS 4140: 4 - 0
+[09/02/21 11:44:10] D2BS 4140: 5 - 0
+[09/02/21 11:44:11] D2BS 4140: 6 - 0
+[09/02/21 11:44:12] D2BS 4140: 7 - 0
+[09/02/21 11:44:13] D2BS 4140: 8 - 0
+[09/02/21 11:44:14] D2BS 4140: 9 - 0
+[09/02/21 11:44:15] D2BS 4140: 10 - 0
+[09/02/21 11:44:16] D2BS 4140: 11 - 0
+[09/02/21 11:44:17] D2BS 4140: 12 - 0
+[09/02/21 11:44:18] D2BS 4140: 0 - 1
+[09/02/21 11:44:19] D2BS 4140: 1 - 0
+[09/02/21 11:44:20] D2BS 4140: 2 - 0
+[09/02/21 11:44:21] D2BS 4140: 3 - 0
+[09/02/21 11:44:22] D2BS 4140: 4 - 0
+[09/02/21 11:44:23] D2BS 4140: 5 - 0
+[09/02/21 11:44:24] D2BS 4140: 6 - 0
+[09/02/21 11:44:25] D2BS 4140: 7 - 0
+[09/02/21 11:44:26] D2BS 4140: 8 - 0
+[09/02/21 11:44:27] D2BS 4140: 9 - 0
+[09/02/21 11:44:28] D2BS 4140: 10 - 0
+[09/02/21 11:44:29] D2BS 4140: 11 - 0
+[09/02/21 11:44:30] D2BS 4140: 12 - 0
+[09/02/21 11:44:31] D2BS 4140: 0 - 1
+[09/02/21 11:44:32] D2BS 4140: 1 - 0
+[09/02/21 11:44:33] D2BS 4140: 2 - 0
+[09/02/21 11:44:34] D2BS 4140: 3 - 0
+[09/02/21 11:44:35] D2BS 4140: 4 - 0
+[09/02/21 11:44:36] D2BS 4140: 5 - 0
+[09/02/21 11:44:37] D2BS 4140: 6 - 0
+[09/02/21 11:44:38] D2BS 4140: 7 - 0
+[09/02/21 11:44:39] D2BS 4140: 8 - 0
+[09/02/21 11:44:40] D2BS 4140: 9 - 0
+[09/02/21 11:44:41] D2BS 4140: 10 - 0
+[09/02/21 11:44:42] D2BS 4140: 11 - 0
+[09/02/21 11:44:43] D2BS 4140: 12 - 0
+[09/02/21 11:44:44] D2BS 4140: 0 - 1
+[09/02/21 11:44:45] D2BS 4140: 1 - 0
+[09/02/21 11:44:46] D2BS 4140: 2 - 0
+[09/02/21 11:44:47] D2BS 4140: 3 - 0
+[09/02/21 11:44:48] D2BS 4140: 4 - 0
+[09/02/21 11:44:49] D2BS 4140: 5 - 0
+[09/02/21 11:44:50] D2BS 4140: 6 - 0
+[09/02/21 11:44:51] D2BS 4140: 7 - 0
+[09/02/21 11:44:52] D2BS 4140: 8 - 0
+[09/02/21 11:44:53] D2BS 4140: 9 - 0
+[09/02/21 11:44:54] D2BS 4140: 10 - 0
+[09/02/21 11:44:55] D2BS 4140: 11 - 0
+[09/02/21 11:44:56] D2BS 4140: 12 - 0
+[09/02/21 11:44:57] D2BS 4140: 0 - 1
+[09/02/21 11:44:58] D2BS 4140: 1 - 0
+[09/02/21 11:44:59] D2BS 4140: 2 - 0
+[09/02/21 11:45:00] D2BS 4140: 3 - 0
+[09/02/21 11:45:01] D2BS 4140: 4 - 0
+[09/02/21 11:45:02] D2BS 4140: 5 - 0
+[09/02/21 11:45:03] D2BS 4140: 6 - 0
+[09/02/21 11:45:04] D2BS 4140: 7 - 0
+[09/02/21 11:45:05] D2BS 4140: 8 - 0
+[09/02/21 11:45:06] D2BS 4140: 9 - 0
+[09/02/21 11:45:07] D2BS 4140: 10 - 0
+[09/02/21 11:45:08] D2BS 4140: 11 - 0
+[09/02/21 11:45:09] D2BS 4140: 12 - 0
+[09/02/21 11:45:10] D2BS 4140: 0 - 1
+[09/02/21 11:45:11] D2BS 4140: 1 - 0
+[09/02/21 11:45:12] D2BS 4140: 2 - 0
+[09/02/21 11:45:13] D2BS 4140: 3 - 0
+[09/02/21 11:45:14] D2BS 4140: 4 - 0
+[09/02/21 11:45:15] D2BS 4140: 5 - 0
+[09/02/21 11:45:16] D2BS 4140: 6 - 0
+[09/02/21 11:45:17] D2BS 4140: 7 - 0
+[09/02/21 11:45:18] D2BS 4140: 8 - 0
+[09/02/21 11:45:19] D2BS 4140: 9 - 0
+[09/02/21 11:45:20] D2BS 4140: 10 - 0
+[09/02/21 11:45:21] D2BS 4140: 11 - 0
+[09/02/21 11:45:22] D2BS 4140: 12 - 0
+[09/02/21 11:45:23] D2BS 4140: 0 - 1
+[09/02/21 11:45:24] D2BS 4140: 1 - 0
+[09/02/21 11:45:25] D2BS 4140: 2 - 0
+[09/02/21 11:45:26] D2BS 4140: 3 - 0
+[09/02/21 11:45:27] D2BS 4140: 4 - 0
+[09/02/21 11:45:28] D2BS 4140: 5 - 0
+[09/02/21 11:45:29] D2BS 4140: 6 - 0
+[09/02/21 11:45:30] D2BS 4140: 7 - 0
+[09/02/21 11:45:31] D2BS 4140: 8 - 0
+[09/02/21 11:45:32] D2BS 4140: 9 - 0
+[09/02/21 11:45:33] D2BS 4140: 10 - 0
+[09/02/21 11:45:34] D2BS 4140: 11 - 0
+[09/02/21 11:45:35] D2BS 4140: 12 - 0
+[09/02/21 11:45:36] D2BS 4140: 0 - 1
+[09/02/21 11:45:37] D2BS 4140: 1 - 0
+[09/02/21 11:45:38] D2BS 4140: 2 - 0
+[09/02/21 11:45:39] D2BS 4140: 3 - 0
+[09/02/21 11:45:40] D2BS 4140: 4 - 0
+[09/02/21 11:45:41] D2BS 4140: 5 - 0
+[09/02/21 11:45:42] D2BS 4140: 6 - 0
+[09/02/21 11:45:43] D2BS 4140: 7 - 0
+[09/02/21 11:45:44] D2BS 4140: 8 - 0
+[09/02/21 11:45:45] D2BS 4140: 9 - 0
+[09/02/21 11:45:46] D2BS 4140: 10 - 0
+[09/02/21 11:45:47] D2BS 4140: 11 - 0
+[09/02/21 11:45:48] D2BS 4140: 12 - 0
+[09/02/21 11:45:49] D2BS 4140: 0 - 1
+[09/02/21 11:45:50] D2BS 4140: 1 - 0
+[09/02/21 11:45:51] D2BS 4140: 2 - 0
+[09/02/21 11:45:52] D2BS 4140: 3 - 0
+[09/02/21 11:45:53] D2BS 4140: 4 - 0
+[09/02/21 11:45:54] D2BS 4140: 5 - 0
+[09/02/21 11:45:55] D2BS 4140: 6 - 0
+[09/02/21 11:45:56] D2BS 4140: 7 - 0
+[09/02/21 11:45:57] D2BS 4140: 8 - 0
+[09/02/21 11:45:58] D2BS 4140: 9 - 0
+[09/02/21 11:45:59] D2BS 4140: 10 - 0
+[09/02/21 11:46:00] D2BS 4140: 11 - 0
+[09/02/21 11:46:01] D2BS 4140: 12 - 0
+[09/02/21 11:46:02] D2BS 4140: 0 - 1
+[09/02/21 11:46:03] D2BS 4140: 1 - 0
+[09/02/21 11:46:04] D2BS 4140: 2 - 0
+[09/02/21 11:46:05] D2BS 4140: 3 - 0
+[09/02/21 11:46:06] D2BS 4140: 4 - 0
+[09/02/21 11:46:08] D2BS 4140: 5 - 0
+[09/02/21 11:46:08] D2BS 4140: 6 - 0
+[09/02/21 11:46:09] D2BS 4140: 7 - 0
+[09/02/21 11:46:10] D2BS 4140: 8 - 0
+[09/02/21 11:46:11] D2BS 4140: 9 - 0
+[09/02/21 11:46:13] D2BS 4140: 10 - 0
+[09/02/21 11:46:14] D2BS 4140: 11 - 0
+[09/02/21 11:46:15] D2BS 4140: 12 - 0
+[09/02/21 11:46:16] D2BS 4140: 0 - 1
+[09/02/21 11:46:17] D2BS 4140: 1 - 0
+[09/02/21 11:46:18] D2BS 4140: 2 - 0
+[09/02/21 11:46:19] D2BS 4140: 3 - 0
+[09/02/21 11:46:20] D2BS 4140: 4 - 0
+[09/02/21 11:46:21] D2BS 4140: 5 - 0
+[09/02/21 11:46:22] D2BS 4140: 6 - 0
+[09/02/21 11:46:23] D2BS 4140: 7 - 0
+[09/02/21 11:46:24] D2BS 4140: 8 - 0
+[09/02/21 11:46:25] D2BS 4140: 9 - 0
+[09/02/21 11:46:26] D2BS 4140: 10 - 0
+[09/02/21 11:46:27] D2BS 4140: 11 - 0
+[09/02/21 11:46:28] D2BS 4140: 12 - 0
+[09/02/21 11:46:29] D2BS 4140: 0 - 1
+[09/02/21 11:46:30] D2BS 4140: 1 - 0
+[09/02/21 11:46:31] D2BS 4140: 2 - 0
+[09/02/21 11:46:32] D2BS 4140: 3 - 0
+[09/02/21 11:46:33] D2BS 4140: 4 - 0
+[09/02/21 11:46:34] D2BS 4140: 5 - 0
+[09/02/21 11:46:35] D2BS 4140: 6 - 0
+[09/02/21 11:46:36] D2BS 4140: 7 - 0
+[09/02/21 11:46:37] D2BS 4140: 8 - 0
+[09/02/21 11:46:38] D2BS 4140: 9 - 0
+[09/02/21 11:46:39] D2BS 4140: 10 - 0
+[09/02/21 11:46:40] D2BS 4140: 11 - 0
+[09/02/21 11:46:41] D2BS 4140: 12 - 0
+[09/02/21 11:46:42] D2BS 4140: 0 - 1
+[09/02/21 11:46:43] D2BS 4140: 1 - 0
+[09/02/21 11:46:44] D2BS 4140: 2 - 0
+[09/02/21 11:46:45] D2BS 4140: 3 - 0
+[09/02/21 11:46:46] D2BS 4140: 4 - 0
+[09/02/21 11:46:47] D2BS 4140: 5 - 0
+[09/02/21 11:46:48] D2BS 4140: 6 - 0
+[09/02/21 11:46:49] D2BS 4140: 7 - 0
+[09/02/21 11:46:50] D2BS 4140: 8 - 0
+[09/02/21 11:46:51] D2BS 4140: 9 - 0
+[09/02/21 11:46:52] D2BS 4140: 10 - 0
+[09/02/21 11:46:53] D2BS 4140: 11 - 0
+[09/02/21 11:46:54] D2BS 4140: 12 - 0
+[09/02/21 11:46:55] D2BS 4140: 0 - 1
+[09/02/21 11:46:56] D2BS 4140: 1 - 0
+[09/02/21 11:46:57] D2BS 4140: 2 - 0
+[09/02/21 11:46:58] D2BS 4140: 3 - 0
+[09/02/21 11:46:59] D2BS 4140: 4 - 0
+[09/02/21 11:47:00] D2BS 4140: 5 - 0
+[09/02/21 11:47:01] D2BS 4140: 6 - 0
+[09/02/21 11:47:02] D2BS 4140: 7 - 0
+[09/02/21 11:47:03] D2BS 4140: 8 - 0
+[09/02/21 11:47:04] D2BS 4140: 9 - 0
+[09/02/21 11:47:05] D2BS 4140: 10 - 0
+[09/02/21 11:47:06] D2BS 4140: 11 - 0
+[09/02/21 11:47:07] D2BS 4140: 12 - 0
+[09/02/21 11:47:08] D2BS 4140: 0 - 1
+[09/02/21 11:47:09] D2BS 4140: 1 - 0
+[09/02/21 11:47:10] D2BS 4140: 2 - 0
+[09/02/21 11:47:11] D2BS 4140: 3 - 0
+[09/02/21 11:47:12] D2BS 4140: 4 - 0
+[09/02/21 11:47:13] D2BS 4140: 5 - 0
+[09/02/21 11:47:14] D2BS 4140: 6 - 0
+[09/02/21 11:47:15] D2BS 4140: 7 - 0
+[09/02/21 11:47:16] D2BS 4140: 8 - 0
+[09/02/21 11:47:17] D2BS 4140: 9 - 0
+[09/02/21 11:47:18] D2BS 4140: 10 - 0
+[09/02/21 11:47:19] D2BS 4140: 11 - 0
+[09/02/21 11:47:20] D2BS 4140: 12 - 0
+[09/02/21 11:47:21] D2BS 4140: 0 - 1
+[09/02/21 11:47:22] D2BS 4140: 1 - 0
+[09/02/21 11:47:23] D2BS 4140: 2 - 0
+[09/02/21 11:47:24] D2BS 4140: 3 - 0
+[09/02/21 11:47:25] D2BS 4140: 4 - 0
+[09/02/21 11:47:26] D2BS 4140: 5 - 0
+[09/02/21 11:47:27] D2BS 4140: 6 - 0
+[09/02/21 11:47:28] D2BS 4140: 7 - 0
+[09/02/21 11:47:29] D2BS 4140: 8 - 0
+[09/02/21 11:47:30] D2BS 4140: 9 - 0
+[09/02/21 11:47:31] D2BS 4140: 10 - 0
+[09/02/21 11:47:32] D2BS 4140: 11 - 0
+[09/02/21 11:47:33] D2BS 4140: 12 - 0
+[09/02/21 11:47:34] D2BS 4140: 0 - 1
+[09/02/21 11:47:35] D2BS 4140: 1 - 0
+[09/02/21 11:47:36] D2BS 4140: 2 - 0
+[09/02/21 11:47:37] D2BS 4140: 3 - 0
+[09/02/21 11:47:38] D2BS 4140: 4 - 0
+[09/02/21 11:47:39] D2BS 4140: 5 - 0
+[09/02/21 11:47:40] D2BS 4140: 6 - 0
+[09/02/21 11:47:41] D2BS 4140: 7 - 0
+[09/02/21 11:47:42] D2BS 4140: 8 - 0
+[09/02/21 11:47:43] D2BS 4140: 9 - 0
+[09/02/21 11:47:44] D2BS 4140: 10 - 0
+[09/02/21 11:47:45] D2BS 4140: 11 - 0
+[09/02/21 11:47:46] D2BS 4140: 12 - 0
+[09/02/21 11:47:47] D2BS 4140: 0 - 1
+[09/02/21 11:47:48] D2BS 4140: 1 - 0
+[09/02/21 11:47:49] D2BS 4140: 2 - 0
+[09/02/21 11:47:50] D2BS 4140: 3 - 0
+[09/02/21 11:47:51] D2BS 4140: 4 - 0
+[09/02/21 11:47:52] D2BS 4140: 5 - 0
+[09/02/21 11:47:53] D2BS 4140: 6 - 0
+[09/02/21 11:47:54] D2BS 4140: 7 - 0
+[09/02/21 11:47:55] D2BS 4140: 8 - 0
+[09/02/21 11:47:56] D2BS 4140: 9 - 0
+[09/02/21 11:47:57] D2BS 4140: 10 - 0
+[09/02/21 11:47:58] D2BS 4140: 11 - 0
+[09/02/21 11:47:59] D2BS 4140: 12 - 0
+[09/02/21 11:48:00] D2BS 4140: 0 - 1
+[09/02/21 11:48:01] D2BS 4140: 1 - 0
+[09/02/21 11:48:02] D2BS 4140: 2 - 0
+[09/02/21 11:48:03] D2BS 4140: 3 - 0
+[09/02/21 11:48:04] D2BS 4140: 4 - 0
+[09/02/21 11:48:05] D2BS 4140: 5 - 0
+[09/02/21 11:48:06] D2BS 4140: 6 - 0
+[09/02/21 11:48:07] D2BS 4140: 7 - 0
+[09/02/21 11:48:08] D2BS 4140: 8 - 0
+[09/02/21 11:48:09] D2BS 4140: 9 - 0
+[09/02/21 11:48:10] D2BS 4140: 10 - 0
+[09/02/21 11:48:11] D2BS 4140: 11 - 0
+[09/02/21 11:48:12] D2BS 4140: 12 - 0
+[09/02/21 11:48:13] D2BS 4140: 0 - 1
+[09/02/21 11:48:14] D2BS 4140: 1 - 0
+[09/02/21 11:48:15] D2BS 4140: 2 - 0
+[09/02/21 11:48:16] D2BS 4140: 3 - 0
+[09/02/21 11:48:17] D2BS 4140: 4 - 0
+[09/02/21 11:48:18] D2BS 4140: 5 - 0
+[09/02/21 11:48:19] D2BS 4140: 6 - 0
+[09/02/21 11:48:20] D2BS 4140: 7 - 0
+[09/02/21 11:48:21] D2BS 4140: 8 - 0
+[09/02/21 11:48:22] D2BS 4140: 9 - 0
+[09/02/21 11:48:23] D2BS 4140: 10 - 0
+[09/02/21 11:48:24] D2BS 4140: 11 - 0
+[09/02/21 11:48:25] D2BS 4140: 12 - 0
+[09/02/21 11:48:26] D2BS 4140: 0 - 1
+[09/02/21 11:48:27] D2BS 4140: 1 - 0
+[09/02/21 11:48:28] D2BS 4140: 2 - 0
+[09/02/21 11:48:29] D2BS 4140: 3 - 0
+[09/02/21 11:48:31] D2BS 4140: 4 - 0
+[09/02/21 11:48:32] D2BS 4140: 5 - 0
+[09/02/21 11:48:33] D2BS 4140: 6 - 0
+[09/02/21 11:48:34] D2BS 4140: 7 - 0
+[09/02/21 11:48:35] D2BS 4140: 8 - 0
+[09/02/21 11:48:36] D2BS 4140: 9 - 0
+[09/02/21 11:48:37] D2BS 4140: 10 - 0
+[09/02/21 11:48:38] D2BS 4140: 11 - 0
+[09/02/21 11:48:39] D2BS 4140: 12 - 0
+[09/02/21 11:48:40] D2BS 4140: 0 - 1
+[09/02/21 11:48:41] D2BS 4140: 1 - 0
+[09/02/21 11:48:42] D2BS 4140: 2 - 0
+[09/02/21 11:48:43] D2BS 4140: 3 - 0
+[09/02/21 11:48:44] D2BS 4140: 4 - 0
+[09/02/21 11:48:45] D2BS 4140: 5 - 0
+[09/02/21 11:48:46] D2BS 4140: 6 - 0
+[09/02/21 11:48:47] D2BS 4140: 7 - 0
+[09/02/21 11:48:48] D2BS 4140: 8 - 0
+[09/02/21 11:48:49] D2BS 4140: 9 - 0
+[09/02/21 11:48:50] D2BS 4140: 10 - 0
+[09/02/21 11:48:51] D2BS 4140: 11 - 0
+[09/02/21 11:48:52] D2BS 4140: 12 - 0
+[09/02/21 11:48:53] D2BS 4140: 0 - 1
+[09/02/21 11:48:54] D2BS 4140: 1 - 0
+[09/02/21 11:48:55] D2BS 4140: 2 - 0
+[09/02/21 11:48:56] D2BS 4140: 3 - 0
+[09/02/21 11:48:57] D2BS 4140: 4 - 0
+[09/02/21 11:48:58] D2BS 4140: 5 - 0
+[09/02/21 11:48:59] D2BS 4140: 6 - 0
+[09/02/21 11:49:00] D2BS 4140: 7 - 0
+[09/02/21 11:49:01] D2BS 4140: 8 - 0
+[09/02/21 11:49:02] D2BS 4140: 9 - 0
+[09/02/21 11:49:03] D2BS 4140: 10 - 0
+[09/02/21 11:49:04] D2BS 4140: 11 - 0
+[09/02/21 11:49:05] D2BS 4140: 12 - 0
+[09/02/21 11:49:06] D2BS 4140: 0 - 1
+[09/02/21 11:49:07] D2BS 4140: 1 - 0
+[09/02/21 11:49:08] D2BS 4140: 2 - 0
+[09/02/21 11:49:09] D2BS 4140: 3 - 0
+[09/02/21 11:49:10] D2BS 4140: 4 - 0
+[09/02/21 11:49:11] D2BS 4140: 5 - 0
+[09/02/21 11:49:12] D2BS 4140: 6 - 0
+[09/02/21 11:49:13] D2BS 4140: 7 - 0
+[09/02/21 11:49:14] D2BS 4140: 8 - 0
+[09/02/21 11:49:15] D2BS 4140: 9 - 0
+[09/02/21 11:49:16] D2BS 4140: 10 - 0
+[09/02/21 11:49:17] D2BS 4140: 11 - 0
+[09/02/21 11:49:18] D2BS 4140: 12 - 0
+[09/02/21 11:49:19] D2BS 4140: 0 - 1
+[09/02/21 11:49:20] D2BS 4140: 1 - 0
+[09/02/21 11:49:21] D2BS 4140: 2 - 0
+[09/02/21 11:49:22] D2BS 4140: 3 - 0
+[09/02/21 11:49:23] D2BS 4140: 4 - 0
+[09/02/21 11:49:24] D2BS 4140: 5 - 0
+[09/02/21 11:49:25] D2BS 4140: 6 - 0
+[09/02/21 11:49:26] D2BS 4140: 7 - 0
+[09/02/21 11:49:27] D2BS 4140: 8 - 0
+[09/02/21 11:49:28] D2BS 4140: 9 - 0
+[09/02/21 11:49:29] D2BS 4140: 10 - 0
+[09/02/21 11:49:30] D2BS 4140: 11 - 0
+[09/02/21 11:49:31] D2BS 4140: 12 - 0
+[09/02/21 11:49:32] D2BS 4140: 0 - 1
+[09/02/21 11:49:33] D2BS 4140: 1 - 0
+[09/02/21 11:49:34] D2BS 4140: 2 - 0
+[09/02/21 11:49:35] D2BS 4140: 3 - 0
+[09/02/21 11:49:36] D2BS 4140: 4 - 0
+[09/02/21 11:49:37] D2BS 4140: 5 - 0
+[09/02/21 11:49:38] D2BS 4140: 6 - 0
+[09/02/21 11:49:39] D2BS 4140: 7 - 0
+[09/02/21 11:49:40] D2BS 4140: 8 - 0
+[09/02/21 11:49:41] D2BS 4140: 9 - 0
+[09/02/21 11:49:42] D2BS 4140: 10 - 0
+[09/02/21 11:49:43] D2BS 4140: 11 - 0
+[09/02/21 11:49:44] D2BS 4140: 12 - 0
+[09/02/21 11:49:45] D2BS 4140: 0 - 1
+[09/02/21 11:49:46] D2BS 4140: 1 - 0
+[09/02/21 11:49:47] D2BS 4140: 2 - 0
+[09/02/21 11:49:48] D2BS 4140: 3 - 0
+[09/02/21 11:49:49] D2BS 4140: 4 - 0
+[09/02/21 11:49:50] D2BS 4140: 5 - 0
+[09/02/21 11:49:51] D2BS 4140: 6 - 0
+[09/02/21 11:49:52] D2BS 4140: 7 - 0
+[09/02/21 11:49:53] D2BS 4140: 8 - 0
+[09/02/21 11:49:54] D2BS 4140: 9 - 0
+[09/02/21 11:49:55] D2BS 4140: 10 - 0
+[09/02/21 11:49:56] D2BS 4140: 11 - 0
+[09/02/21 11:49:57] D2BS 4140: 12 - 0
+[09/02/21 11:49:58] D2BS 4140: 0 - 1
+[09/02/21 11:49:59] D2BS 4140: 1 - 0
+[09/02/21 11:50:00] D2BS 4140: 2 - 0
+[09/02/21 11:50:01] D2BS 4140: 3 - 0
+[09/02/21 11:50:02] D2BS 4140: 4 - 0
+[09/02/21 11:50:03] D2BS 4140: 5 - 0
+[09/02/21 11:50:04] D2BS 4140: 6 - 0
+[09/02/21 11:50:05] D2BS 4140: 7 - 0
+[09/02/21 11:50:06] D2BS 4140: 8 - 0
+[09/02/21 11:50:07] D2BS 4140: 9 - 0
+[09/02/21 11:50:08] D2BS 4140: 10 - 0
+[09/02/21 11:50:09] D2BS 4140: 11 - 0
+[09/02/21 11:50:10] D2BS 4140: 12 - 0
+[09/02/21 11:50:11] D2BS 4140: 0 - 1
+[09/02/21 11:50:12] D2BS 4140: 1 - 0
+[09/02/21 11:50:13] D2BS 4140: 2 - 0
+[09/02/21 11:50:14] D2BS 4140: 3 - 0
+[09/02/21 11:50:15] D2BS 4140: 4 - 0
+[09/02/21 11:50:16] D2BS 4140: 5 - 0
+[09/02/21 11:50:17] D2BS 4140: 6 - 0
+[09/02/21 11:50:18] D2BS 4140: 7 - 0
+[09/02/21 11:50:19] D2BS 4140: 8 - 0
+[09/02/21 11:50:20] D2BS 4140: 9 - 0
+[09/02/21 11:50:21] D2BS 4140: 10 - 0
+[09/02/21 11:50:22] D2BS 4140: 11 - 0
+[09/02/21 11:50:23] D2BS 4140: 12 - 0
+[09/02/21 11:50:24] D2BS 4140: 0 - 1
+[09/02/21 11:50:25] D2BS 4140: 1 - 0
+[09/02/21 11:50:26] D2BS 4140: 2 - 0
+[09/02/21 11:50:27] D2BS 4140: 3 - 0
+[09/02/21 11:50:28] D2BS 4140: 4 - 0
+[09/02/21 11:50:29] D2BS 4140: 5 - 0
+[09/02/21 11:50:30] D2BS 4140: 6 - 0
+[09/02/21 11:50:31] D2BS 4140: 7 - 0
+[09/02/21 11:50:32] D2BS 4140: 8 - 0
+[09/02/21 11:50:33] D2BS 4140: 9 - 0
+[09/02/21 11:50:34] D2BS 4140: 10 - 0
+[09/02/21 11:50:35] D2BS 4140: 11 - 0
+[09/02/21 11:50:36] D2BS 4140: 12 - 0
+[09/02/21 11:50:37] D2BS 4140: 0 - 1
+[09/02/21 11:50:38] D2BS 4140: 1 - 0
+[09/02/21 11:50:39] D2BS 4140: 2 - 0
+[09/02/21 11:50:40] D2BS 4140: 3 - 0
+[09/02/21 11:50:41] D2BS 4140: 4 - 0
+[09/02/21 11:50:42] D2BS 4140: 5 - 0
+[09/02/21 11:50:43] D2BS 4140: 6 - 0
+[09/02/21 11:50:44] D2BS 4140: 7 - 0
+[09/02/21 11:50:46] D2BS 4140: 8 - 0
+[09/02/21 11:50:46] D2BS 4140: 9 - 0
+[09/02/21 11:50:48] D2BS 4140: 10 - 0
+[09/02/21 11:50:49] D2BS 4140: 11 - 0
+[09/02/21 11:50:50] D2BS 4140: 12 - 0
+[09/02/21 11:50:51] D2BS 4140: 0 - 1
+[09/02/21 11:50:52] D2BS 4140: 1 - 0
+[09/02/21 11:50:53] D2BS 4140: 2 - 0
+[09/02/21 11:50:54] D2BS 4140: 3 - 0
+[09/02/21 11:50:57] D2BS 4140: Script default.dbj ended
+[09/02/21 11:50:57] D2BS 4140: Script tools\autobuildthread.js ended
+[09/02/21 11:50:57] D2BS 4140: Script tools\party.js ended
+[09/02/21 11:50:57] D2BS 4140: Script tools\toolsthread.js ended
+[09/02/21 11:50:57] D2BS 4140: Script tools\townchicken.js ended
+[09/02/21 11:51:03] D2BS 4140: ÿc2D2BSÿc0 :: Starting default.dbj
+[09/02/21 11:51:03] D2BS 4140: ÿc2D2BSÿc0 :: default.dbj running.
+[09/02/21 11:51:03] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into default.dbj
+[09/02/21 11:51:03] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2LateGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc254. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2MidGame.nipÿc4. Lines: ÿc281ÿc4. Valid entries: ÿc246. ÿc4Time: ÿc216 ms
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2EarlyGame.nipÿc4. Lines: ÿc231ÿc4. Valid entries: ÿc214. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2AuradinRunes.nipÿc4. Lines: ÿc222ÿc4. Valid entries: ÿc212. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2Auradin.xpac.nipÿc4. Lines: ÿc2128ÿc4. Valid entries: ÿc2111. ÿc4Time: ÿc215 ms
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2PreMercLance.xpac.nipÿc4. Lines: ÿc27ÿc4. Valid entries: ÿc24. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2Merc.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:03] D2BS 4140: ÿc4Loaded NIP: ÿc2MercLance.xpac.nipÿc4. Lines: ÿc217ÿc4. Valid entries: ÿc211. ÿc4Time: ÿc20 ms
+[09/02/21 11:51:03] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\autobuildthread.js
+[09/02/21 11:51:03] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:51:03] D2BS 4140: AutoBuild: Loaded helper thread
+[09/02/21 11:51:03] D2BS 4140: ÿc2Starting script: ÿc9LevelFollower
+[09/02/21 11:51:03] D2BS 4140: initNPC: buyPotions
+[09/02/21 11:51:03] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\party.js
+[09/02/21 11:51:03] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:51:03] D2BS 4140: ÿc2Party thread loaded. Mode: Accept
+[09/02/21 11:51:03] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\townchicken.js
+[09/02/21 11:51:03] D2BS 4140: ÿc3Start ToolsThread script
+[09/02/21 11:51:03] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:51:03] D2BS 4140: AutoBuild: Including build template config/builds/paladin.auradin.js into tools\toolsthread.js
+[09/02/21 11:51:03] D2BS 4140: Updating Config from level 0 to 27
+[09/02/21 11:51:05] D2BS 4140: move retry 1
+[09/02/21 11:51:17] D2BS 4140: initNPC: reviveMerc
+[09/02/21 11:51:42] D2BS 4140: initNPC: BuyPotions
+[09/02/21 11:51:45] D2BS 4140: move retry 1
+[09/02/21 11:52:00] D2BS 4140: 107
+[09/02/21 11:52:16] D2BS 4140: move retry 1
+[09/02/21 11:52:18] D2BS 4140: D2BS Shutdown complete.

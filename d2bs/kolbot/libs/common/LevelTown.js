@@ -44,23 +44,14 @@ var LevelTown={
 	doChores: function(){
 		Town.doChores();
 		this.configCharacter();
-		/*Malahs Potion*/
-		if(me.getItem(644)){
-			var Anya,i;
-			Pather.usePortal(114,null);
-			Pather.teleport=true;
-			Pather.moveToPreset(114,2,460,0,0);
-			Anya=getUnit(2,558);
-			for(i=0; i<3; i++){
-				Pather.moveToUnit(Anya);
-				Anya.interact();
-				delay(250);
-				me.cancel();
-			}
-		}
+		
 		/*Kashya for Free Merc*/
 		if(me.getQuest(2,1)){
 			this.talkToNPC(NPC.Kashya,1);
+		}
+		/*Book Of Skill*/
+		if(me.getItem(552)){
+			this.useItem(552);
 		}
 		/*Atma for Discount*/
 		if(me.getQuest(9,1)){
@@ -74,13 +65,35 @@ var LevelTown={
 		if(me.getQuest(21,2) && !me.getQuest(22,0)){
 			this.talkToNPC(NPC.Cain,3);
 		}
+		/*Jade Figurine*/
+		if(me.getItem(546)){
+			this.talkToNPC(NPC.Meshif,3);
+		}
+		/*Golden Bird*/
+		if(me.getQuest(20,1) || me.getItem(547)){
+			this.talkToNPC(NPC.Alkor,3);
+		}
+		/*Potion of Life*/
+		if(me.getItem(545)){
+			this.useItem(545);
+		}
 		/*Black Book*/
 		if(me.getItem(548)){
 			this.talkToNPC(NPC.Alkor,3);
 		}
-		/*Book Of Skill*/
-		if(me.getItem(552)){
-			this.useItem(552);
+		/*Malahs Potion*/
+		if(me.getItem(644)){
+			var Anya,i;
+			Pather.usePortal(114,null);
+			Pather.teleport=true;
+			Pather.moveToPreset(114,2,460,0,0);
+			Anya=getUnit(2,558);
+			for(i=0; i<3; i++){
+				Pather.moveToUnit(Anya);
+				Anya.interact();
+				delay(250);
+				me.cancel();
+			}
 		}
 		/*Scroll Of Resistance*/
 		if(me.getItem(646)){
