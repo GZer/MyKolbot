@@ -4,6 +4,7 @@ var StarterConfig = {
 	SwitchKeyDelay: 0, // Seconds to wait before switching a used/banned key or after realm down
 	RealmDownDelay: 3, // Minutes to wait after getting Realm Down message
 	UnableToConnectDelay: 5, // Minutes to wait after Unable To Connect message
+	TCPIPNoHostDelay: 5, // Seconds to wait after Cannot Connect To Server message
 	CDKeyInUseDelay: 5, // Minutes to wait before connecting again if CD-Key is in use.
 	ConnectingTimeout: 20, // Seconds to wait before cancelling the 'Connecting...' screen
 	PleaseWaitTimeout: 10, // Seconds to wait before cancelling the 'Please Wait...' screen
@@ -102,7 +103,7 @@ function pickItems() {
 
 	if (items) {
 		for (i = 0; i < items.length; i += 1) {
-			if (items[i].mode === 0 && items[i].location === 3 && Town.ignoredItemTypes.indexOf(items[i].itemType) > -1  // drop trash (id/tp scroll primarily)
+			if (items[i].mode === 0 && items[i].location === 3 && Town.ignoredItemTypes.indexOf(items[i].itemType) > -1 // drop trash (id/tp scroll primarily)
 					&& (muleMode === 0 || items[i].classid !== 530)) { // don't drop ID scroll with torch/anni mules
 				try {
 					items[i].drop();
@@ -336,15 +337,6 @@ function ingameTimeout(time) {
 	return me.ingame && me.gameReady;
 }
 
-function timeoutDelay(text, time) {
-	var endTime = getTickCount() + time;
-
-	while (getTickCount() < endTime) {
-		D2Bot.updateStatus(text + " (" + Math.floor((endTime - getTickCount()) / 1000) + "s)");
-		delay(500);
-	}
-}
-
 function updateCount() {
 	D2Bot.updateCount();
 	delay(1000);
@@ -399,6 +391,7 @@ include("common/pickit.js");
 include("common/town.js");
 include("common/pather.js");
 include("common/misc.js");
+include("common/util.js");
 include("common/config.js");
 include("common/prototypes.js");
 include("common/collmap.js");
@@ -782,16 +775,14 @@ MainSwitch:
 		D2Bot.updateStatus("Unable To Connect");
 
 		if (connectFail) {
-			timeoutDelay("Unable to Connect", StarterConfig.UnableToConnectDelay * 6e4);
+			ControlAction.timeoutDelay("Unable to Connect", StarterConfig.UnableToConnectDelay * 6e4);
 
 			connectFail = false;
+		} else {
+			connectFail = true;
 		}
 
-		if (!ControlAction.click(6, 335, 450, 128, 35)) {
-			break;
-		}
-
-		connectFail = true;
+		ControlAction.click(6, 335, 450, 128, 35);
 
 		break;
 	case 13: // Realm Down - Character Select screen
@@ -803,12 +794,12 @@ MainSwitch:
 		}
 
 		updateCount();
-		timeoutDelay("Realm Down", StarterConfig.RealmDownDelay * 6e4);
+		ControlAction.timeoutDelay("Realm Down", StarterConfig.RealmDownDelay * 6e4);
 		D2Bot.CDKeyRD();
 
 		if (gameInfo.switchKeys) {
 			D2Bot.printToConsole("Realm Down - Changing CD-Key");
-			timeoutDelay("Key switch delay", StarterConfig.SwitchKeyDelay * 1000);
+			ControlAction.timeoutDelay("Key switch delay", StarterConfig.SwitchKeyDelay * 1000);
 			D2Bot.restart(true);
 		} else {
 			D2Bot.restart();
@@ -873,12 +864,12 @@ MainSwitch:
 			}
 
 			updateCount();
-			timeoutDelay("Realm Down", StarterConfig.RealmDownDelay * 6e4);
+			ControlAction.timeoutDelay("Realm Down", StarterConfig.RealmDownDelay * 6e4);
 			D2Bot.CDKeyRD();
 
 			if (gameInfo.switchKeys) {
 				D2Bot.printToConsole("Realm Down - Changing CD-Key");
-				timeoutDelay("Key switch delay", StarterConfig.SwitchKeyDelay * 1000);
+				ControlAction.timeoutDelay("Key switch delay", StarterConfig.SwitchKeyDelay * 1000);
 				D2Bot.restart(true);
 			} else {
 				D2Bot.restart();
@@ -1048,5 +1039,43 @@ MainSwitch:
 		break;
 	case 38: // Game is full
 		break; // not sure how/if to handle
+	case 39: // Other Multiplayer
+		ControlAction.click(6, 264, 568, 272, 35);
+
+		break;
+	case 40: // TCP/IP Game
+		ControlAction.click(6, 39, 571, 128, 35);
+
+		break;
+	case 41: // TCP/IP Game - Enter Host IP
+		try {
+			login(me.profile);
+		} catch (e) {
+
+		}
+
+		break;
+	case 44: // Unable To Connect TCP/IP
+		D2Bot.updateStatus("Unable To Connect TCP/IP");
+
+		if (connectFail) {
+			ControlAction.timeoutDelay("Unable to Connect", StarterConfig.TCPIPNoHostDelay * 1e3);
+
+			connectFail = false;
+		} else {
+			connectFail = true;
+		}
+
+		ControlAction.click(6, 351, 337, 96, 32);
+
+		break;
+	default:
+		if (location !== undefined) {
+			D2Bot.printToConsole("Unhandled location " + location);
+			delay(500);
+			D2Bot.restart();
+		}
+
+		break;
 	}
 }

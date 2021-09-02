@@ -264,7 +264,12 @@ MainLoop:
 			}
 
 			if (stats.useTk) {
-				Skill.cast(43, 0, item);
+				if (Config.PacketCasting == 2) {
+					Skill.setSkill(43, 0);
+					Packet.unitCast(0, item);
+				} else {
+					Skill.cast(43, 0, item);
+				}
 			} else {
 				if (getDistance(me, item) > (Config.FastPick === 2 && i < 1 ? 6 : 4) || checkCollision(me, item, 0x1)) {
 					if (Pather.useTeleport()) {
@@ -611,7 +616,7 @@ MainLoop:
 			gid = this.gidList.shift();
 			item = getUnit(4, -1, -1, gid);
 
-			if (item && (item.mode === 3 || item.mode === 5) && Town.ignoredItemTypes.indexOf(item.itemType) === -1 && getDistance(me, item) <= Config.PickRange) {
+			if (item && (item.mode === 3 || item.mode === 5) && (Town.ignoredItemTypes.indexOf(item.itemType) === -1 || (item.itemType >= 76 && item.itemType <= 78)) && item.itemType !== 4 && getDistance(me, item) <= Config.PickRange) {
 				itemList.push(copyUnit(item));
 			}
 		}
