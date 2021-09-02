@@ -104,10 +104,10 @@ var MuleLogger = {
 		var filename = "data/secure/" + hash + ".txt";
 
 		if (!FileTools.exists(filename)) {
-			throw new Error("File " + filename + " does not exist!");
+            throw new Error("File " + filename + " does not exist!");
 		}
 
-		return FileTools.readText(filename);
+        return FileTools.readText(filename);
 	},
 
 	save: function (hash, data) {
@@ -119,7 +119,6 @@ var MuleLogger = {
 	logItem: function (unit, logIlvl) {
 		if (!isIncluded("common/misc.js")) {
 			include("common/misc.js");
-			include("common/util.js");
 		}
 
 		if (logIlvl === undefined) {

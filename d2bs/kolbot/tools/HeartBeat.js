@@ -8,7 +8,6 @@ function main() {
 	include("oog.js");
 	include("json2.js");
 	include("common/misc.js");
-	include("common/util.js");
 	D2Bot.init();
 	print("Heartbeat loaded");
 

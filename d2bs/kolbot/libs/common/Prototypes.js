@@ -4,8 +4,33 @@
 *	@desc		various 'Unit' and 'me' prototypes
 */
 
-// Ensure these are in polyfill.js
-!isIncluded('Polyfill.js') && include('Polyfill.js');
+// Shuffle Array
+// http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array-in-javascript
+Array.prototype.shuffle = function () {
+	var temp, index,
+		counter = this.length;
+
+	// While there are elements in the array
+	while (counter > 0) {
+		// Pick a random index
+		index = Math.floor(Math.random() * counter);
+
+		// Decrease counter by 1
+		counter -= 1;
+
+		// And swap the last element with it
+		temp = this[counter];
+		this[counter] = this[index];
+		this[index] = temp;
+	}
+
+	return this;
+};
+
+// Trim String
+String.prototype.trim = function () {
+	return this.replace(/^\s+|\s+$/g, "");
+};
 
 // Check if unit is idle
 Unit.prototype.__defineGetter__("idle",
@@ -103,9 +128,9 @@ Unit.prototype.openMenu = function (addDelay) {
 		}
 
 		sendPacket(1, 0x2f, 4, 1, 4, this.gid);
-		delay(me.ping * 2 + 1);
+		delay(me.ping * 2);
 		sendPacket(1, 0x30, 4, 1, 4, this.gid);
-		delay(me.ping * 2 + 1);
+		delay(me.ping * 2);
 		Packet.flash(me.gid);
 	}
 
@@ -527,22 +552,6 @@ Unit.prototype.getStatEx = function (id, subid) {
 	var i, temp, rval, regex;
 
 	switch (id) {
-	case 555: //calculates all res, doesnt exists trough
-		{ // Block scope due to the variable declaration
-			// Get all res
-			let allres = [this.getStatEx(39), this.getStatEx(41), this.getStatEx(43), this.getStatEx(45)];
-
-			// What is the minimum of the 4?
-			let min = Math.min.apply(null, allres);
-
-			// Cap all res to the minimum amount of res
-			allres = allres.map(res => res > min ? min : res);
-
-			// Get it in local variables, its more easy to read
-			let [fire, cold, light, psn] = allres;
-
-			return fire === cold && cold === light && light === psn ? min : 0;
-		}
 	case 20: // toblock
 		switch (this.classid) {
 		case 328: // buckler
@@ -714,13 +723,9 @@ Unit.prototype.getStatEx = function (id, subid) {
 
 		break;
 	case 195: // itemskillonattack
-	case 196: // itemskillonkill
-	case 197: // itemskillondeath
 	case 198: // itemskillonhit
-	case 199: // itemskillonlevelup
-	case 201: // itemskillongethit
 	case 204: // itemchargedskill
-		if (subid === 1) {
+		if (subid === undefined) {
 			temp = this.getStat(-2);
 
 			if (temp.hasOwnProperty(id)) {
@@ -737,28 +742,6 @@ Unit.prototype.getStatEx = function (id, subid) {
 
 			return 0;
 		}
-
-		if (subid === 2) {
-			temp = this.getStat(-2);
-
-			if (temp.hasOwnProperty(id)) {
-				if (temp[id] instanceof Array) {
-					for (i = 0; i < temp[id].length; i += 1) {
-						if (temp[id][i] !== undefined) {
-							return temp[id][i].level;
-						}
-					}
-				} else {
-					return temp[id].level;
-				}
-			}
-
-			return 0;
-		}
-
-		break;
-	case 216: // itemhpperlevel (for example Fortitude with hp per lvl can be defined now with 1.5)
-		return this.getStat(216) / 2048;
 
 		break;
 	}
@@ -1056,6 +1039,81 @@ Unit.prototype.getColor = function () {
 	return -1;
 };
 
+// Object.assign polyfill from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+if (typeof Object.assign !== 'function') {
+	Object.defineProperty(Object, "assign", {
+		value: function assign (target) {
+			if (target === null) {
+				throw new TypeError('Cannot convert undefined or null to object');
+			}
+
+			var to = Object(target);
+
+			for (var index = 1; index < arguments.length; index++) {
+				var nextSource = arguments[index];
+
+				if (nextSource !== null) {
+					for (var nextKey in nextSource) {
+						if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
+							to[nextKey] = nextSource[nextKey];
+						}
+					}
+				}
+			}
+
+			return to;
+		},
+		writable: true,
+		configurable: true
+	});
+}
+
+// Array.find polyfill from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+if (!Array.prototype.find) {
+	Object.defineProperty(Array.prototype, 'find', {
+		value: function (predicate) {
+			if (this === null) {
+				throw new TypeError('"this" is null or not defined');
+			}
+
+			var o = Object(this);
+
+			var len = o.length >>> 0;
+
+			if (typeof predicate !== 'function') {
+				throw new TypeError('predicate must be a function');
+			}
+
+			var thisArg = arguments[1];
+
+			var k = 0;
+
+			while (k < len) {
+				var kValue = o[k];
+
+				if (predicate.call(thisArg, kValue, k, o)) {
+					return kValue;
+				}
+
+				k++;
+			}
+
+			return undefined;
+		},
+		configurable: true,
+		writable: true
+	});
+}
+
+/**
+ * @description Return the first element or undefined
+ * @return undefined|*
+ */
+if (!Array.prototype.first) {
+	Array.prototype.first = function () {
+		return this.length > 0 ? this[0] : undefined;
+	};
+}
 
 /**
  * @description Return the items of a player, or an empty array
@@ -1126,7 +1184,7 @@ Unit.prototype.castChargedSkill = function (...args) {
 	// Charged skills can only be casted on x, y coordinates
 	unit && ([x, y] = [unit.x, unit.y]);
 
-	if (this !== me && this.type !== 4) {
+	if (this !== me && this.type === 4) {
 		throw Error("invalid arguments, expected 'me' object or 'item' unit");
 	}
 
@@ -1142,7 +1200,7 @@ Unit.prototype.castChargedSkill = function (...args) {
 			.forEach(function (item) {
 				let stats = item.getStat(-2);
 
-				if (stats.hasOwnProperty(204)) {
+				if (!stats.hasOwnProperty(204)) {
 					stats = stats[204].filter(validCharge);
 					stats.length && chargedItems.push({
 						charge: stats.first(),
@@ -1191,129 +1249,4 @@ Unit.prototype.castChargedSkill = function (...args) {
 	}
 
 	return false;
-};
-
-/**
- * @description equip an item.
- */
-Unit.prototype.equip = function (destLocation = undefined) {
-	if (this.location === 1) {
-		return true; // Item is equiped
-	}
-
-	const findspot = function (item) {
-			let tempspot = Storage.Stash.FindSpot(item);
-
-			if (getUIFlag(0x19) && tempspot) {
-				return {location: Storage.Stash.location, coord: tempspot};
-			}
-
-			tempspot = Storage.Inventory.FindSpot(item);
-
-			if (tempspot) {
-				return {location: Storage.Inventory.location, coord: tempspot};
-			}
-
-			return false; // no spot found
-		},
-		doubleHanded = [26, 27, 34, 35, 67, 85, 86];
-
-	// Not an item, or unidentified, or not enough stats
-	if (this.type !== 4 || !this.getFlag(0x10) || this.getStat(92) > me.getStat(12) || this.dexreq > me.getStat(2) || this.strreq > me.getStat(0)) {
-		return false;
-	}
-
-	// If not a specific location is given, figure it out (can be useful to equip a double weapon)
-	if (!destLocation) {
-		destLocation = this.getBodyLoc();
-	}
-
-	// If destLocation isnt an array, make it one
-	if (!Array.isArray(destLocation)) {
-		destLocation = [destLocation]
-	}
-
-	print('equiping ' + this.name);
-
-
-	let currentEquiped = me.getItems(-1).filter(item =>
-		destLocation.indexOf(item.bodylocation) !== -1
-		|| ( // Deal with double handed weapons
-
-			(item.bodylocation === 4 || item.bodylocation === 5)
-			&& [4, 5].indexOf(destLocation) // in case destination is on the weapon/shield slot
-			&& (
-				doubleHanded.indexOf(this.itemType) !== -1 // this item is a double handed item
-				|| doubleHanded.indexOf(item.itemType) !== -1 // current item is a double handed item
-			)
-		)
-	).sort((a, b) => b - a); // shields first
-
-	// if nothing is equipped at the moment, just equip it
-	if (!currentEquiped.length) {
-		clickItemAndWait(0, this);
-		clickItemAndWait(0, destLocation.first());
-	} else { // unequip / swap items
-		currentEquiped.forEach((item, index) => {
-
-			// Last item, so swap instead of putting off first
-			if (index === (currentEquiped.length - 1)) {
-				print('swap ' + this.name + ' for ' + item.name);
-				let oldLoc = {x: this.x, y: this.y, location: this.location};
-				clickItemAndWait(0, this); // Pick up current item
-				clickItemAndWait(0, destLocation.first()); // the swap of items
-				// Find a spot for the current item
-				let	spot = findspot(item);
-
-				if (!spot) { // If no spot is found for the item, rollback
-					clickItemAndWait(0, destLocation.first()); // swap again
-					clickItemAndWait(0, oldLoc.x, oldLoc.y, oldLoc.location); // put item back on old spot
-					throw Error('cant find spot for unequipped item');
-				}
-
-				clickItemAndWait(0, spot.coord.y, spot.coord.x, spot.location); // put item on the found spot
-
-				return;
-			}
-
-			print('Unequip item first ' + item.name);
-			// Incase multiple items are equipped
-			let spot = findspot(item); // Find a spot for the current item
-
-			if (!spot) {
-				throw Error('cant find spot for unequipped item');
-			}
-
-			clickItemAndWait(0, item.bodylocation);
-			clickItemAndWait(0, spot.coord.x, spot.coord.y, spot.location);
-		});
-	}
-
-	return {
-		success: this.bodylocation === destLocation.first(),
-		unequiped: currentEquiped,
-		rollback: () => currentEquiped.forEach(item => item.equip()) // Note; rollback only works if you had other items equipped before.
-	};
-};
-
-Unit.prototype.getBodyLoc = function () {
-	let types = {
-		1: [37, 71, 75], // helm
-		2: [12], // amulet
-		3: [3], // armor
-		4: [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 42, 43, 44, 67, 68, 69, 72, 85, 86, 87, 88], // weapons
-		5: [2, 5, 6, 70], // shields / Arrows / bolts
-		6: [10], // ring slot 1
-		7: [10], // ring slot 2
-		8: [19], // belt
-		9: [15], // boots
-		10: [16], // gloves
-	}, bodyLoc = [];
-
-	for (let i in types) {
-		this.itemType && types[i].indexOf(this.itemType) !== -1 && bodyLoc.push(i);
-	}
-
-	// Strings are hard to calculate with, parse to int
-	return bodyLoc.map(parseInt);
 };

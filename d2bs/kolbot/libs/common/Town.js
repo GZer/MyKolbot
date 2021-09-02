@@ -949,7 +949,7 @@ CursorLoop:
 			return true;
 		}
 
-		// avoid Alkor
+		// Fuck Alkor
 		if (me.act === 3) {
 			this.goToTown(2);
 		}
@@ -1060,40 +1060,12 @@ CursorLoop:
 		return false;
 	},
 
-	buyAntidotes: function (quantity) {
-		let i,
-			antidote,
-			npc = this.initNPC("Shop", "buy Antidote");
-
-		if (!npc) {
-			return false;
-		}
-
-		antidote = npc.getItem("yps");
-
-		if (!antidote) {
-			return false;
-		}
-
-		try {
-			for (i = 0; i < quantity; i++) {
-				antidote.buy(false);
-			}
-		} catch (e) {
-			print(e.message);
-
-			return false;
-		}
-
-		return true;
-	},
-
 	buyKeys: function () {
 		if (!this.wantKeys()) {
 			return true;
 		}
 
-		// avoid Hratli
+		// Fuck Hratli
 		if (me.act === 3) {
 			this.goToTown(Pather.accessToAct(4) ? 4 : 2);
 		}
@@ -1454,7 +1426,7 @@ CursorLoop:
 			return true;
 		}
 
-		// avoid Aheara
+		// Fuck Aheara
 		if (me.act === 3) {
 			this.goToTown(2);
 		}

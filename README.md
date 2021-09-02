@@ -1,3 +1,8 @@
+# This repo will remain for stable releases new development will continue at https://github.com/blizzhackers/
+
+* This repository will get periodic updates, security fixes, and accept critical pull requests only
+* All new kolbot development and feature requests can be made to: https://github.com/blizzhackers/kolbot
+
 ## Rules
 
 1. D2BS, D2Bot and kolbot # are educational tools with an open source developer community. These tools are meant to be used offline or on private servers that explicitly allow them. These tools are not meant to be abused on battle.net (a Blizzard Entertainment entity).

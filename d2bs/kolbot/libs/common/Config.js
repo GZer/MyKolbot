@@ -73,8 +73,8 @@ var Config = {
 
 			// Try to find default config
 			if (!FileTools.exists("libs/config/" + classes[me.classid] + ".js")) {
-				D2Bot.printToConsole("Not going well? Read the guides: https://github.com/blizzhackers/documentation");
-				throw new Error("ÿc1Default config not found. \nÿc9     Try reading the kolbot guides.");
+				D2Bot.printToConsole("Not going well? Read the wiki: https://github.com/kolton/d2bot-with-kolbot/wiki");
+				throw new Error("ÿc1Default config not found. \nÿc9     Try reading the kolbot wiki.");
 			}
 
 			try {
@@ -94,12 +94,6 @@ var Config = {
 
 				throw new Error("Config.init: Error in character config.");
 			}
-		}
-
-		if (Config.Silence && !Config.LocalChat.Enabled) {
-			// Override the say function with print, so it just gets printed to console
-			global._say = global.say;
-			global.say = (what) => print('Tryed to say: '+what);
 		}
 
 		try {
@@ -166,7 +160,6 @@ var Config = {
 		Toggle: false,
 		Mode: 0
 	},
-	Silence: false,
 	PublicMode: false,
 	PartyAfterScript: false,
 	Greetings: [],
@@ -183,9 +176,7 @@ var Config = {
 	RejuvBuffer: 0,
 	PickRange: 40,
 	MakeRoom: true,
-	ClearInvOnStart: true,
 	FastPick: false,
-	ManualPlayPick: false,
 	OpenChests: false,
 	PickitFiles: [],
 	BeltColumn: [],
@@ -272,11 +263,9 @@ var Config = {
 	LowManaSkill: [],
 	CustomAttack: {},
 	TeleStomp: false,
-	NoTele: false,
 	ClearType: false,
 	ClearPath: false,
 	BossPriority: false,
-	MaxAttackCount: 300,
 
 	// Amazon specific
 	LightningFuryDelay: 0,
@@ -325,9 +314,6 @@ var Config = {
 	UseCloakofShadows: false,
 	AggressiveCloak: false,
 	SummonShadow: false,
-
-	// Custom Attack
-	CustomClassAttack: '', // If set it loads common/Attack/[CustomClassAttack].js
 
 	// Script specific
 	MFLeader: false,
@@ -413,46 +399,24 @@ var Config = {
 	Corpsefire: {
 		ClearDen: false
 	},
-	Hephasto: {
-		ClearRiver: false,
-		ClearType: false
-	},
 	Diablo: {
 		Entrance: false,
 		SealWarning: "Leave the seals alone!",
 		EntranceTP: "Entrance TP up",
 		StarTP: "Star TP up",
 		DiabloMsg: "Diablo",
-		WalkClear: false,
-		SealOrder: ["vizier", "seis", "infector"]
+		WalkClear: false
 	},
 	DiabloHelper: {
 		Wait: 120,
 		Entrance: false,
 		SkipIfBaal: false,
-		SkipTP: false,
-		OpenSeals: false,
-		SafePrecast: true,
-		SealOrder: ["vizier", "seis", "infector"],
-		RecheckSeals: false
-	},
-	MFHelper: {
-		BreakClearLevel: false
-	},
-	Wakka: {
-		Wait: 1
+		SkipTP: false
 	},
 	BattleOrders: {
 		Mode: 0,
 		Getters: [],
-		Idle: false,
-		QuitOnFailure: false,
-		SkipIfTardy: true,
-		Wait: 10
-	},
-	BoBarbHelper: {
-		Mode: -1,
-		Wp: 35
+		Wait: false
 	},
 	Enchant: {
 		Triggers: ["chant", "cows", "wps"],
@@ -494,8 +458,7 @@ var Config = {
 		WaitTimeout: false,
 		UseSalvation: false,
 		GetFade: false,
-		MakeTorch: true,
-		AntidotesToChug: 0
+		MakeTorch: true
 	},
 	Synch: {
 		WaitFor: []

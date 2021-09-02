@@ -196,6 +196,14 @@ function Cows() {
 	var leg, tome;
 
 	// we can begin now
+	if (me.getQuest(4, 10)) { // king dead or cain not saved
+		throw new Error("Already killed the Cow King.");
+	}
+
+	if (!me.getQuest(4, 0)) {
+		throw new Error("Cain quest incomplete");
+	}
+
 	switch (me.gametype) {
 	case 0: // classic
 		if (!me.getQuest(26, 0)) { // diablo not completed
@@ -213,22 +221,11 @@ function Cows() {
 
 	Town.goToTown(1);
 	Town.doChores();
-	Town.move("stash");
 
-	// Check to see if portal is already open, if not get the ingredients
-	if (!Pather.getPortal(39)) {
-		if (!me.getQuest(4, 0)) {
-			throw new Error("Cain quest incomplete");
-		}
-		if (me.getQuest(4, 10)) { // king dead or cain not saved
-			throw new Error("Already killed the Cow King.");
-		}
-		
-		leg = this.getLeg();
-		tome = this.getTome();
-		this.openPortal(leg, tome);
-	}
+	leg = this.getLeg();
+	tome = this.getTome();
 
+	this.openPortal(leg, tome);
 	Pather.usePortal(39);
 	Precast.doPrecast(false);
 	this.clearCowLevel();

@@ -31,7 +31,7 @@ var Container = function (name, width, height, location) {
 		var x, y;
 
 		//Make sure it is in this container.
-		if (item.location !== this.location || (item.mode !== 0 && item.mode !== 2)) {
+		if (item.location !== this.location || item.mode !== 0) {
 			return false;
 		}
 
@@ -98,7 +98,6 @@ var Container = function (name, width, height, location) {
 		}
 
 		this.itemList = [];
-		this.openPositions = this.height * this.width;
 		return true;
 	};
 
@@ -195,13 +194,8 @@ Loop:
 					if (cItem !== null && cube !== null) {
 						sendPacket(1, 0x2a, 4, cItem.gid, 4, cube.gid);
 					}
-				} else if (this.location === 2) {
-					cItem = getUnit(100);
-					if (cItem !== null) {
-						sendPacket(1, 0x23, 4, cItem.gid, 4, nPos.y);
-					}
 				} else {
-					clickItemAndWait(0, nPos.y, nPos.x, this.location);
+					clickItem(0, nPos.y, nPos.x, this.location);
 				}
 
 				nDelay = getTickCount();

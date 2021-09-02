@@ -123,7 +123,7 @@ function OrgTorch() {
 		var portal,
 			item1 = mode === 0 ? me.findItem("pk1", 0) : me.findItem("dhn", 0),
 			item2 = mode === 0 ? me.findItem("pk2", 0) : me.findItem("bey", 0),
-			item3 = mode === 0 ? me.findItem("pk3", 0) : me.findItem("mbr", 0);
+			item3 = mode === 0 ?  me.findItem("pk3", 0) : me.findItem("mbr", 0);
 
 		Town.goToTown(5);
 		Town.doChores();
@@ -169,7 +169,7 @@ function OrgTorch() {
 
 	// Do mini ubers or Tristram based on area we're already in
 	this.pandemoniumRun = function () {
-		let i, findLoc, skillBackup;
+		var i, findLoc, skillBackup;
 
 		switch (me.area) {
 		case 133: // Matron's Den
@@ -281,7 +281,7 @@ function OrgTorch() {
 	};
 
 	// Start
-	var i, portal, tkeys, hkeys, dkeys, brains, eyes, horns, timer, farmer, busy, busyTick, chugs,
+	var i, portal, tkeys, hkeys, dkeys, brains, eyes, horns, timer, farmer, busy, busyTick,
 		neededItems = {pk1: 0, pk2: 0, pk3: 0, rv: 0};
 
 	// Do town chores and quit if MakeTorch is true and we have a torch.
@@ -357,7 +357,7 @@ function OrgTorch() {
 			hkeys = me.findItems("pk2", 0).length || 0;
 			dkeys = me.findItems("pk3", 0).length || 0;
 
-			// Stop the loop if we have enough keys or if wait time expired
+			// Stop the loop if we  have enough keys or if wait time expired
 			if (((tkeys >= 3 && hkeys >= 3 && dkeys >= 3) || (Config.OrgTorch.WaitTimeout && (getTickCount() - timer > Config.OrgTorch.WaitTimeout * 1000 * 60))) && this.aloneInGame()) {
 				removeEventListener('copydata', this.torchSystemEvent);
 
@@ -423,18 +423,6 @@ function OrgTorch() {
 			portal = this.openPortal(0);
 
 			if (portal) {
-				if (portal.objtype === 133 && Config.OrgTorch.AntidotesToChug) {
-					Town.buyAntidotes(Config.OrgTorch.AntidotesToChug);
-					for (chugs = 0; chugs < Config.OrgTorch.AntidotesToChug; chugs++) {
-						delay(500);
-						print("glug glug");
-						let antidote = me.getItem(514);
-						if (antidote) {
-							antidote.interact();
-						}
-					}
-					Town.move("stash");
-				}
 				Pather.usePortal(null, null, portal);
 			}
 

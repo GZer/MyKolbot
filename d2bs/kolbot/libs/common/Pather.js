@@ -116,10 +116,9 @@ var Pather = {
 	cancelFlags: [0x01, 0x02, 0x04, 0x08, 0x14, 0x16, 0x0c, 0x0f, 0x17, 0x19, 0x1A],
 	wpAreas: [1, 3, 4, 5, 6, 27, 29, 32, 35, 40, 48, 42, 57, 43, 44, 52, 74, 46, 75, 76, 77, 78, 79, 80, 81, 83, 101, 103, 106, 107, 109, 111, 112, 113, 115, 123, 117, 118, 129],
 	recursion: true,
-	lastPortalTick: 0,
 
 	useTeleport: function () {
-		return this.teleport && !Config.NoTele && !me.getState(139) && !me.getState(140) && !me.inTown && ((me.classid === 1 && me.getSkill(54, 1)) || me.getStat(97, 54));
+		return this.teleport && !me.getState(139) && !me.getState(140) && !me.inTown && ((me.classid === 1 && me.getSkill(54, 1)) || me.getStat(97, 54));
 	},
 
 	/*
@@ -864,39 +863,6 @@ ModeLoop:
 
 		return targetArea ? me.area === targetArea : me.area !== preArea;
 	},
-	
-	
-	/*
-	Pather.getAct(targetArea);
-	targetArea - id of the area to enter
-	*/
-	getAct: function getAct(targetArea) {
-		const areas = [0, 40, 75, 103, 109];
-	
-		while (areas.length) {
-			if (areas.pop() < targetArea) {
-				return areas.length + 1;
-			}
-		}
-		
-		return 0;
-	},
-	
-	
-	/*
-	Pather.broadcastIntent(targetArea);
-	targetArea - id of the area to enter
-	*/
-	broadcastIntent: function broadcastIntent(targetArea) {
-		if (Config.MFLeader) {
-			var targetAct = this.getAct(targetArea);
-
-			if (me.act !== targetAct) {
-				say("goto A" + targetAct);
-			}
-		}
-		
-	},
 
 	/*
 		Pather.moveTo(targetArea, check);
@@ -923,8 +889,6 @@ ModeLoop:
 
 			break;
 		}
-
-		this.broadcastIntent(targetArea);
 
 		var i, tick, wp, coord, retry, npc;
 
@@ -1163,15 +1127,10 @@ MainLoop:
 						this.moveToUnit(portal);
 					}
 
-					if (getTickCount() - this.lastPortalTick > 2500) {
-						if (i < 2) {
-							sendPacket(1, 0x13, 4, 0x2, 4, portal.gid);
-						} else {
-							Misc.click(0, 0, portal);
-						}
+					if (i < 2) {
+						sendPacket(1, 0x13, 4, 0x2, 4, portal.gid);
 					} else {
-						delay(300);
-						continue;
+						Misc.click(0, 0, portal);
 					}
 				}
 
@@ -1191,9 +1150,8 @@ MainLoop:
 
 				tick = getTickCount();
 
-				while (getTickCount() - tick < 500 + me.ping) {
+				while (getTickCount() - tick < Math.max(Math.round((i + 1) * 1000 / (i / 5 + 1)), me.ping * 2)) {
 					if (me.area !== preArea) {
-						this.lastPortalTick = getTickCount();
 						delay(100);
 
 						return true;

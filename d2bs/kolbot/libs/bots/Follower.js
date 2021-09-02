@@ -22,7 +22,7 @@
 *	tele - toggle teleport for all
 *	<charname> tele - toggle teleport for <charname>
 *	tele on - teleport on for all
-*	<charname> tele on - teleport on for <charname>
+*	<charname> tele on -  teleport on for <charname>
 *	tele off - teleport off for all
 *	<charname> tele off - teleport off for <charname>
 * Skills: *** refer to skills.txt ***
@@ -53,6 +53,57 @@ function Follower() {
 		openContainers = true,
 		classes = ["amazon", "sorceress", "necromancer", "paladin", "barbarian", "druid", "assassin"],
 		action = "";
+
+	// Get leader's Party Unit
+	this.getLeader = function (name) {
+		var player = getParty();
+
+		if (player) {
+			do {
+				if (player.name === name) {
+					return player;
+				}
+			} while (player.getNext());
+		}
+
+		return false;
+	};
+
+	// Get leader's Unit
+	this.getLeaderUnit = function (name) {
+		var player = getUnit(0, name);
+
+		if (player) {
+			do {
+				if (!player.dead) {
+					return player;
+				}
+			} while (player.getNext());
+		}
+
+		return false;
+	};
+
+	// Get leader's act from Party Unit
+	this.checkLeaderAct = function (unit) {
+		if (unit.area <= 39) {
+			return 1;
+		}
+
+		if (unit.area >= 40 && unit.area <= 74) {
+			return 2;
+		}
+
+		if (unit.area >= 75 && unit.area <= 102) {
+			return 3;
+		}
+
+		if (unit.area >= 103 && unit.area <= 108) {
+			return 4;
+		}
+
+		return 5;
+	};
 
 	// Change areas to where leader is
 	this.checkExit = function (unit, area) {
@@ -537,8 +588,8 @@ function Follower() {
 				say("Switching leader to " + piece);
 
 				Config.Leader = piece;
-				leader = Misc.findPlayer(Config.Leader);
-				leaderUnit = Misc.getPlayerUnit(Config.Leader);
+				leader = this.getLeader(Config.Leader);
+				leaderUnit = this.getLeaderUnit(Config.Leader);
 			}
 		}
 	};
@@ -552,7 +603,7 @@ function Follower() {
 	charClass = classes[me.classid];
 
 	for (i = 0; i < 20; i += 1) {
-		leader = Misc.findPlayer(Config.Leader);
+		leader = this.getLeader(Config.Leader);
 
 		if (leader) {
 			break;
@@ -597,7 +648,7 @@ function Follower() {
 
 		if (!me.inTown) {
 			if (!leaderUnit || !copyUnit(leaderUnit).x) {
-				leaderUnit = Misc.getPlayerUnit(Config.Leader);
+				leaderUnit = this.getLeaderUnit(Config.Leader);
 
 				if (leaderUnit) {
 					say("Leader unit found.");
@@ -625,7 +676,7 @@ function Follower() {
 			}
 
 			if (attack) {
-				Attack.clear(20, false, false, false, true);
+				Attack.clear(20, false, false, false, false);
 				this.pickPotions(20);
 			}
 
@@ -667,7 +718,7 @@ function Follower() {
 					delay(100);
 				}
 
-				leaderUnit = Misc.getPlayerUnit(Config.Leader);
+				leaderUnit = this.getLeaderUnit(Config.Leader);
 			}
 		}
 
@@ -749,20 +800,20 @@ WPLoop:
 
 			break;
 		case "1":
-			if (me.inTown && leader.inTown && Misc.getPlayerAct(Config.Leader) !== me.act) {
+			if (me.inTown && leader.inTown && this.checkLeaderAct(leader) !== me.act) {
 				say("Going to leader's town.");
-				Town.goToTown(Misc.getPlayerAct(Config.Leader));
+				Town.goToTown(this.checkLeaderAct(leader));
 				Town.move("portalspot");
 			} else if (me.inTown) {
 				say("Going outside.");
-				Town.goToTown(Misc.getPlayerAct(Config.Leader));
+				Town.goToTown(this.checkLeaderAct(leader));
 				Town.move("portalspot");
 
 				if (!Pather.usePortal(null, leader.name)) {
 					break;
 				}
 
-				while (!Misc.getPlayerUnit(Config.Leader) && !me.dead) {
+				while (!this.getLeaderUnit(Config.Leader) && !me.dead) {
 					Attack.clear(10);
 					delay(200);
 				}

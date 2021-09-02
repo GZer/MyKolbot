@@ -111,9 +111,7 @@ var ClassAttack = {
 
 			// Teleport closer
 			if (Math.ceil(getDistance(me, unit)) > 10) {
-				if (Pather.useTeleport()) {
-					Misc.unShift();
-				}
+				Misc.unShift();
 
 				if (!Attack.getIntoPosition(unit, 10, 0x4)) {
 					return 0;
@@ -142,9 +140,7 @@ var ClassAttack = {
 
 			// Teleport closer
 			if (Math.ceil(getDistance(me, unit)) > 10) {
-				if (Pather.useTeleport()) {
-					Misc.unShift();
-				}
+				Misc.unShift();
 
 				if (!Attack.getIntoPosition(unit, 10, 0x4)) {
 					return 0;

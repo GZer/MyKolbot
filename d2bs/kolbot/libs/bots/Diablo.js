@@ -235,7 +235,6 @@ function Diablo() {
 	};
 
 	this.infectorSeal = function () {
-		Precast.doPrecast(true);
 		print("Inf layout " + this.infLayout);
 		this.followPath(this.infLayout === 1 ? this.starToInfA : this.starToInfB);
 
@@ -260,33 +259,9 @@ function Diablo() {
 		return true;
 	};
 
-	const openSeals = () => {
-		print("seal order: " + Config.Diablo.SealOrder);
-		let seals = {
-			1: () => this.vizierSeal(),
-			2: () => this.seisSeal(),
-			3: () => this.infectorSeal(),
-			"vizier": () => this.vizierSeal(),
-			"seis": () => this.seisSeal(),
-			"infector": () => this.infectorSeal(),
-		};
-		Config.Diablo.SealOrder.forEach(seal => {seals[seal]()});
-	};
-
 	this.diabloPrep = function () {
 		var trapCheck,
 			tick = getTickCount();
-
-		switch (me.classid) {
-			case 1:
-				Pather.moveTo(7792, 5294);
-
-				break;
-			default:
-				Pather.moveTo(7788, 5292);
-
-				break;
-		}
 
 		while (getTickCount() - tick < 30000) {
 			if (getTickCount() - tick >= 8000) {
@@ -490,23 +465,28 @@ function Diablo() {
 	}
 
 	Attack.clear(30, 0, false, this.sort);
-	openSeals();
+	this.vizierSeal();
+	this.seisSeal();
+	Precast.doPrecast(true);
+	this.infectorSeal();
+
+	switch (me.classid) {
+	case 1:
+		Pather.moveTo(7792, 5294);
+
+		break;
+	default:
+		Pather.moveTo(7788, 5292);
+
+		break;
+	}
+
 
 	if (Config.PublicMode) {
 		say(Config.Diablo.DiabloMsg);
 	}
 
-	try {
-		print("Attempting to find Diablo");
-		this.diabloPrep();
-	} catch (error) {
-		print("Diablo wasn't found. Checking seals.");
-		this.vizierSeal();
-		this.seisSeal();
-		this.infectorSeal();
-		this.diabloPrep();
-	}
-
+	this.diabloPrep();
 	Attack.kill(243); // Diablo
 	Pickit.pickItems();
 

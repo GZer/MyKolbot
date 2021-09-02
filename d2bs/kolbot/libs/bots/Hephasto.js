@@ -13,16 +13,8 @@ function Hephasto() {
 		throw new Error("Failed to move to Hephasto");
 	}
 
-	try {
-		Attack.kill(getLocaleString(1067)); // Hephasto The Armorer
-	} catch (e) {
-		print("Heph not found. Carry on");
-	}
+	Attack.kill(getLocaleString(1067)); // Hephasto The Armorer
 	Pickit.pickItems();
-
-	if (Config.Hephasto.ClearRiver) {
-		Attack.clearLevel(Config.Hephasto.ClearType);
-	}
 
 	return true;
 }
